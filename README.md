@@ -1,7 +1,7 @@
-# TTRPG Template
+# Cosmic Legends of the Universe
 
-This is a template for tabletop roleplaying game projects created by Cadera Spindrift.
+This is a superhero tabletop roleplaying game.
 
-To use it, create a project named `projname` then do this:
+It uses the [Harmony Drive](https://peachgardengames.itch.io/harmony-drive)
+system created by [Peach Garden Games](https://peachgardengames.itch.io/).
 
-`cp -r ttrpg/* projname`

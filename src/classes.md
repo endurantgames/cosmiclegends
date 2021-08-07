@@ -66,14 +66,14 @@ Paragon:
       - Remove
       - Restrain
       - Line
-      - Darkness
+      - Hidden
       - Shield
-      - Sword
+      - Weapon
       - Thrown
       - Training
       - Vehicle
-      - Create
-      - Conceal
+      - Photographic
+      - Acrobat
   - The Monarch 
     - Examples: Aquaman, Black Panther, Hippolyta, Namor
     - Resource Pool: Loyal Subjects
