@@ -1,4 +1,4 @@
 ---
 lang: en-US
-title: Untitled Game Project
+title: Cosmic Legends of the Universe
 ...

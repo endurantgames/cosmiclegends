@@ -1,0 +1,58 @@
+# TODO
+
+Cosmic Legends of the Universe
+
+- [ ] Facets
+  - [ ] Adventure
+  - [ ] Action
+  - [ ] Detective
+  - [ ] Mystery
+  - [ ] Suspense
+- [ ] Classes
+  - [ ] Core (Superfriends)
+    - [ ] The Demigod *
+      - [ ] Resource Pool: Supernatural Aid
+      - [ ] Skills: Athlete, Mystic, Warrior
+    - [ ] The Knight *
+      - [ ] Resource Pool: Gadgets
+      - [ ] Skills: Athlete, Investigator, Criminal, Warrior
+    - [ ] The Monarch *
+      - [ ] Resource Pool: Kingdom
+      - [ ] Skills: Explorer, Politician, Warrior
+    - [ ] The Paragon *
+      - [ ] Resource Pool: ?
+      - [ ] Skills: none?
+  - [ ] Secondary
+    - [ ] The Dynamo
+      - [ ] Resource Pool: Power Reserve
+      - [ ] Skills: 
+    - [ ] The Inventor
+      - [ ] Resource Pool: Gadgets
+      - [ ] Skills: Engineer, Pilot, Scientist
+    - [ ] The Psychic
+      - [ ] Resource Pool: ?
+      - [ ] Skills: Expert
+    - [ ] The Shaper
+      - [ ] Resource Pool: ?
+      - [ ] Skills: Artist, Expert
+- [ ] Skills
+  - [ ] Artist
+  - [ ] Athlete
+  - [ ] Bra
+  - [ ] Criminal
+  - [ ] Doctor
+  - [ ] Engineer
+  - [ ] Expert
+  - [ ] Explorer
+  - [ ] Investigator
+  - [ ] Journalist
+  - [ ] Lawyer
+  - [ ] Marksman
+  - [ ] Mystic
+  - [ ] Performer
+  - [ ] Pilot
+  - [ ] Politician
+  - [ ] Scientist
+  - [ ] Socialite
+  - [ ] Warrior
+
