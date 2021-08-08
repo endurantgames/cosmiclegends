@@ -3,6 +3,14 @@
 - Examples: Aquaman, Black Panther, Hippolyta, Namor, Doctor Doom
 - Skills: Explorer, Historian, Politician, and any two of your choice
 
+## Skills
+
+You have the **Explorer**, **Historian**, and **Politician** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
 ## Class Ability: Defend Your Kingdom
 
 You feel a special attachment to your homeland, whether it be
@@ -12,6 +20,8 @@ If a Crisis threatens your domain, add 3 when you form
 or contribute to the Advantage Pool.
 
 ## Power Words
+
+Choose six Power Words from the following list:
 
 :::::::: cpw ::::::::::::
 - Armor

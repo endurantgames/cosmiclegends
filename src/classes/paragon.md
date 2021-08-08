@@ -4,13 +4,22 @@
 - Skills: Any two of your choice
 - **Bonus Power Words** 1 Paragon, 1 any other
 
-## Class Ability: Power Diversity
+## Skills
+
+You have two skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+## Class Ability: Multi-Power
 
 You are empowered in a way that gives you a wide variety of powers 
 you can use. When you pick one or more Paragon Power Words -- including
 before Volume1 -- pick an extra Power Word from any Class.
 
 ## Power Words
+
+Choose seven Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
 - Alien
@@ -29,6 +38,8 @@ before Volume1 -- pick an extra Power Word from any Class.
 - Vision
 - X-Ray
 ::::::::::::::::::::::::::::::::
+
+In addition, choose one Power Word from any other class's list.
 
 ## Resource: Super-Adaptation
 
