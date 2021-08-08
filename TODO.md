@@ -10,49 +10,59 @@ Cosmic Legends of the Universe
   - [ ] Suspense
 - [ ] Classes
   - [ ] Core (Superfriends)
-    - [ ] The Demigod *
-      - [ ] Resource Pool: Supernatural Aid
-      - [ ] Skills: Athlete, Mystic, Warrior
-    - [ ] The Knight *
-      - [ ] Resource Pool: Gadgets
-      - [ ] Skills: Athlete, Investigator, Criminal, Warrior
-    - [ ] The Monarch *
-      - [ ] Resource Pool: Kingdom
-      - [ ] Skills: Explorer, Politician, Warrior
-    - [ ] The Paragon *
-      - [ ] Resource Pool: ?
-      - [ ] Skills: none?
+    - [ ] The Demigod
+    - [ ] The Knight
+    - [ ] The Monarch 
+    - [ ] The Paragon 
   - [ ] Secondary
     - [ ] The Dynamo
-      - [ ] Resource Pool: Power Reserve
-      - [ ] Skills: 
     - [ ] The Inventor
-      - [ ] Resource Pool: Gadgets
-      - [ ] Skills: Engineer, Pilot, Scientist
+    - [ ] The Mage
+    - [ ] The Monstrosity
     - [ ] The Psychic
-      - [ ] Resource Pool: ?
-      - [ ] Skills: Expert
     - [ ] The Shaper
-      - [ ] Resource Pool: ?
-      - [ ] Skills: Artist, Expert
+- [ ] Fighting Style
+  - [ ] Acrobat        - Reduce by 1 the cost to avoid a move targeting only you.
+  - [ ] Brawler        - Add 1 when you use an unarmed attack to advance the Smash goal.
+  - [ ] Controller     - Add 1 when you use a Power to advance the Outwit goal.
+  - [ ] Frenzy         - Add 1 when you use a Power to advance the Smash Goal.
+  - [ ] Juggernaut     - Add 1 when you use a Power to advance the Withstand goal.
+  - [ ] Martial Artist - Add 1 when you use an unarmed attack to advance the Outwit goal.
+  - [ ] Protector      - Reduce by 1 the cost to Take the Hit for someone else.
+  - [ ] Sniper         - Add 1 when you use a ranged Weapon to advance the Smash goal.
+  - [ ] Tactician      - Add 1 when you add to the Advantage Pool.
+  - [ ] Weaponmaster   - Add 1 when you use a melee Weapon to advance the Outwit goal.
 - [ ] Skills
+  - [ ] Academic
   - [ ] Artist
-  - [ ] Athlete
-  - [ ] Bra
   - [ ] Criminal
-  - [ ] Doctor
   - [ ] Engineer
-  - [ ] Expert
   - [ ] Explorer
+  - [ ] Hacker
+  - [ ] Historian
   - [ ] Investigator
   - [ ] Journalist
   - [ ] Lawyer
-  - [ ] Marksman
   - [ ] Mystic
+  - [ ] Officer
   - [ ] Performer
+  - [ ] Physician
   - [ ] Pilot
   - [ ] Politician
   - [ ] Scientist
   - [ ] Socialite
-  - [ ] Warrior
+  - [ ] Spy
+- [ ] Goals
+  - [ ] Smash
+  - [ ] Outwit
+  - [ ] Withstand
+- [ ] Advances
+  - [ ] Story Arc character
+    - [ ] +1 Facet
+  - [ ] Everyone
+    - [ ] +1 Health
+    - [ ] +1 Might
+    - [ ] +1 Reserve
+    - [ ] +1 Skill
+    - [ ] +1 Power Word
 
