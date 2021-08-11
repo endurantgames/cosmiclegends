@@ -1,4 +1,4 @@
-# The Monarch 
+# The Monarch  {#toc-monarch}
 
 - Examples: Aquaman, Black Panther, Hippolyta, Namor, Doctor Doom
 - Skills: Explorer, Historian, Politician, and any two of your choice
@@ -41,16 +41,30 @@ Choose six Power Words from the following list:
 - Weapon (specific)
 :::::::::::::::::::::::::
 
-## Resource: Loyal Subjects
+When you use a **Power Stunt,** you can add one standard Power Word for free;
+this is called an **Effortless Power Use**.
 
-As the ruler of your country or city-state, you can call upon
-the assistance of your followers. They may be present at the
-scene, or you could contst them remotely.
+You can add a second Power Word to a Power Stunt or Combo by paying 1 Might; this is
+called a **Standard Power Stunt** or simply **Power Stunt**.
 
-- **Power Words:** Hidden, Reinforcements
+### Core Power Words
 
-Spend 1 Resource point to add one of these Power Words to a 
-Power Stunt or Combo.
+Your Core Power Words are **Hidden** and **Reinforcements**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+You *can't* use these in an Effortless Power Use.
+
+### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include an extra Nova Power Word.
+
+You *can* use Nova Power Words in an Effortless Power Use.
 
 ## Season 1 Abilities
 

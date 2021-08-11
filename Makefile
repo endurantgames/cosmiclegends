@@ -7,7 +7,7 @@
 #
 # Project id 
 #   Edit: yes
-PROJ = proj
+PROJ = clu
 
 # Directories
 #   Edit: probably unnecessary

@@ -1,4 +1,4 @@
-# Game Project
+# Cosmic Legends of the Universe
 
 project text
 

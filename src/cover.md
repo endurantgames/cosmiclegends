@@ -1,6 +1,21 @@
 :::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
-![Cover Image](art/placeholder.png "Cover Image")
+![Cover Image](art/cover.png "Cover Image"){#img-cover} \ 
 
-<h1>This is a cover</h1>
-# []{.gamename} by Cadera Spindrift 
+![Cosmic Legends of the Universe](art/title-image.png "Cosmic Legends of the Universe"){#img-title} \ 
+
+<h1>Cosmic Legends of the Universe</h1>
+
+<h2> The World's Greatest Four-Color TTRPG! </h2>
+<h3>Spindrift</h3>
+
+::::::::::: {#coverbox} :::::::::::::
+
+- Spindrift
+- 1495*&cent;*
+- 2021
+- SEPT
+- *NOT* APPROVED BY THE COMICS CODE AUTHORITY
+- ?
+:::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

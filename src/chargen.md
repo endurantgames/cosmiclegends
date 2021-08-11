@@ -1,4 +1,4 @@
-Character Creation:
+# Character Creation {#toc-chargen}
 
 - Pick a Class
 - Pick six Power Words from your Class
