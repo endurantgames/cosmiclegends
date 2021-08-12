@@ -42,7 +42,7 @@ PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
-PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS)
+PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
 
 # Application Configruation #############################################################################
 #
@@ -55,7 +55,8 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-PRINCEFLAGS    = 
+# PRINCEFLAGS    = 
+PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary

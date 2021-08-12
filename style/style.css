@@ -1,7 +1,7 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@page         { size: 477pt 737pt; margin: 54pt; }
+@page         { size: 477pt 733pt; margin: 54pt; }
 /* @page      { size: letter portrait; margin: 18pt; } */
 header        { display: none;                       }
 header p.date { string-set: date content()           }
@@ -31,7 +31,13 @@ header h1     { string-set: gamename content()       }
   --font: "Comic Neue";
   --font-header: "Legio Sabina Semi-Italic";
   --font-coverbox: "Bebas Neue";
+  /* --font-coverbox-qm: "Folks Shades"; */
+  /* --font-coverbox-qm: "Fawn Script"; */
+  /* --font-coverbox-qm: "Comic Neue"; */
+  --font-coverbox-qm: "HackeIt Bold";
   --font-subtitle: "Fawn Script";
+  --font-hype: "Fawn Script";
+  --font-profile: 'Profile';
 
   --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
@@ -43,8 +49,9 @@ header h1     { string-set: gamename content()       }
   --small:      8pt;
   --large:     12pt;
   --title:     54pt;
-  --subtitle:  24pt;
+  --subtitle:  22pt;
   --subsubtitle: 28pt;
+  --hype:      28pt;
   --h1:        24pt; 
   --h2:        20pt;
   --h3:        18pt;
@@ -245,7 +252,17 @@ a:hover   { text-decoration: none; color: red;    }
 @page :first { @top-right     { content: normal; } }
 @page :first { @bottom-center { content: normal; } }
 
-#cover { break-after: page; width: 477pt; height: 737pt; position: relative; }
+#cover { break-after: page; width: 477pt; height: 733pt; 
+position: relative; 
+}
+@page :first {
+  /* background-image: url("../art/rainbow-cover.png"); */
+  background-image: url("../art/rainbow.svg");
+  background-repeat: no-repeat;
+  background-size: auto 110%;
+  background-position: center;
+}
+
 #cover h1 { 
   position: absolute; 
   top: 2in; left: 0; right: 0;
@@ -255,11 +272,11 @@ a:hover   { text-decoration: none; color: red;    }
 }
 
 #coverbox { 
-  height: 240pt;
+  height: 205pt;
   width: 84pt;
   box-sizing: border-box;
   position: absolute;
-  top: 16pt;
+  top: 20pt;
   left: 0pt;
   border: 2pt solid black;
   background-color: white;
@@ -267,44 +284,79 @@ a:hover   { text-decoration: none; color: red;    }
 }
 
 #coverbox ul {
-  margin-left: 0;
+  margin: 0;
 }
 
 #coverbox ul li {
-  margin-left: 0;
+  margin: 0;
   list-style-type: none;
   position: absolute;
   box-sizing: border-box;
   text-align: center;
 }
 
-#coverbox ul li:nth-child(1) { top: 0; right: 0; left: 0; font-weight: 900; font-size: 24pt; text-align: center; }
+#coverbox ul li:nth-child(3) em { font-style: normal; position: relative; top: -6pt; font-family: "Amor E"; font-size: 80%; }
 
-#coverbox ul li:nth-child(2) { top: 190pt; right: 0; left: 0; bottom: 0; 
-  border-top: 2pt solid black;
-  font-size: 20pt;
-  padding-right: 34pt;
+#coverbox ul li:nth-child(1) { top: -4pt; right: 0; left: 0; font-weight: 900; font-size: 25pt; text-align: center; }
+#coverbox ul li:nth-child(2) { top:  2pt; right: 0; left: 0; font-size: 38pt; text-align: center; transform: scaleY(0.33); }
+
+#coverbox ul li:nth-child(3) { top: 152pt; right: 34pt; left: 0; bottom: 0; 
+  font-size: 24pt; 
+  transform: scaleY(0.6);
 }
 
-#coverbox ul li:nth-child(3) { top: 214pt; left: 0; right: 34pt; font-size: 12pt; }
-#coverbox ul li:nth-child(4) { top: 224pt; left: 0; right: 34pt; font-size: 10pt; }
-#coverbox ul li:nth-child(5) { top: 192pt; right: 0; left: 50pt; bottom: 0;
+#coverbox ul li:nth-child(4) { top: 171pt; left: 0; right: 32pt; font-size: 19pt; transform: scaleY(0.6); }
+#coverbox ul li:nth-child(5) { top: 183pt; left: 0; right: 32pt; font-size: 17pt; transform: scaleY(0.5); }
+#coverbox ul li:nth-child(6) { top: 162pt; right: 0; left: 48pt; bottom: 0;
   padding: 2pt;
   border-left: 2pt solid black;
   font-size: 7pt;
-  line-height: 1;
-  
+  line-height: 0.85;
 }
-#coverbox ul li:nth-child(6) { top: 48pt; left: 0; right: 0; font-size: 64pt; font-family: "Folks Shades"; color: crimson; }
+
+#coverbox ul li:nth-child(7) { top: 161pt; right: 0; left: 0; bottom: 0; border-top: 2pt solid black; }
+
+#coverbox ul li:nth-child(n+8) { 
+  font-size: 48pt; 
+  font-family: var(--font-coverbox-qm); 
+color: crimson; }
+
+#coverbox ul li:nth-child( 8) { top: 60pt; left: 0; right: 0; }
+#coverbox ul li:nth-child( 9) { top: 24pt; left: 4pt; }
+#coverbox ul li:nth-child(10) { top: 24pt; right: 4pt; }
+#coverbox ul li:nth-child(11) { top: 96pt; left: 4pt; }
+#coverbox ul li:nth-child(12) { top: 96pt; right: 4pt; }
+
+/*
+#coverbox ul li:nth-child(n+6) .head { 
+  z-index: 50;
+  font-family: var(--font-profile); 
+  display: block; position: absolute; top: 0; left: 0; bottom: 0; right: 0; 
+  color: black; 
+}
+
+#coverbox ul li:nth-child(6) .head { content: 'E'; }
+#coverbox ul li:nth-child(7) .head { content: 'F'; }
+#coverbox ul li:nth-child(8) .head { content: 'X'; }
+#coverbox ul li:nth-child(9) .head { content: 'd'; }
+#coverbox ul li:nth-child(10) .head { content: 'e'; }
+
+#coverbox ul li:nth-child(6) .head { content: '\0199'; }
+#coverbox ul li:nth-child(7) .head { content: '\0194'; }
+#coverbox ul li:nth-child(8) .head { content: '\0198'; }
+#coverbox ul li:nth-child(9) .head { content: '\0197'; }
+#coverbox ul li:nth-child(10) .head { content: '\0196'; }
+*/
 
 
 #cover h2 { 
   position: absolute; 
-  top: 0; left: 92pt; right: 16pt;
+  top: 12pt; left: 92pt; right: 16pt;
   text-align: center; 
   font-size: var(--subtitle); 
   font-family: var(--font-subtitle);
   text-transform: uppercase;
+  font-style: italic;
 }
 
 #cover h3 { 
@@ -314,14 +366,28 @@ a:hover   { text-decoration: none; color: red;    }
   font-size: var(--subsubtitle); 
 }
 
-#cover img#img-cover { 
-position: absolute; top: 0; left: 0pt; width: 477pt; height: 737pt; }
+#cover .hype { }
+#cover .hype ul { margin: 0; }
+#cover .hype ul li { text-transform: uppercase; margin: 0; list-style-type: none; position: absolute; font-size: var(--hype); font-family: var(--font-hype); }
+
+#cover .hype strong { font-size: 125%; }
+#cover .hype ul li:nth-child(1) { top: 270pt; left: 36pt; transform: rotate(-10deg); }
+#cover .hype ul li:nth-child(2) { top: 390pt; right: 36pt; transform: rotate(10deg); }
+#cover .hype ul li:nth-child(3) { top: 510pt; left: 36pt; transform: rotate(-10deg); }
+
+#cover .hype ul li:nth-child(4) { top: 640pt; left: 0; right: 0; text-align: center; }
 
 #cover img#img-title { 
-  position: absolute; top: 48pt; left: 92pt; 
+  position: absolute; 
+  /* top: 36pt; left: 92pt;  */
+  top: 54pt; left: 84pt; 
+
   height: auto; 
-  width: 377pt;  /* 477 - 84 (coverbox) - 16 (right margin)
+  width: 393pt; /* 477 - 84 */
+  z-index: 100;
 }
+
+#cover img#img-cover { display: none; }
 
 @page:blank { @top-left { content: normal; } }
 @page:blank { @top-right { content: normal; } }
@@ -329,7 +395,7 @@ position: absolute; top: 0; left: 0pt; width: 477pt; height: 737pt; }
 
 @page:nth(2) { @bottom-center { content: 'i'; } }
 
-#charsheet { page: charsheet; break-before: right; height: 737pt; width: 737pt; }
+#charsheet { page: charsheet; break-before: right; height: 733pt; width: 733pt; }
 @page charsheet { margin: 0; }
 @page charsheet { @top-right     { content: normal; } }
 @page charsheet { @top-left      { content: normal; } }
