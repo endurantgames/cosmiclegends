@@ -49,7 +49,7 @@ header h1     { string-set: gamename content()       }
   --small:      8pt;
   --large:     12pt;
   --title:     54pt;
-  --subtitle:  22pt;
+  --subtitle:  26pt;
   --subsubtitle: 28pt;
   --hype:      28pt;
   --h1:        24pt; 
@@ -259,8 +259,8 @@ position: relative;
   /* background-image: url("../art/rainbow-cover.png"); */
   background-image: url("../art/rainbow.svg");
   background-repeat: no-repeat;
-  background-size: auto 110%;
-  background-position: center;
+  background-size: auto 130%;
+  background-position: center 20%;
 }
 
 #cover h1 { 
@@ -351,7 +351,7 @@ color: crimson; }
 
 #cover h2 { 
   position: absolute; 
-  top: 12pt; left: 92pt; right: 16pt;
+  top: 12pt; left: 84pt; right: 8pt;
   text-align: center; 
   font-size: var(--subtitle); 
   font-family: var(--font-subtitle);
@@ -380,7 +380,7 @@ color: crimson; }
 #cover img#img-title { 
   position: absolute; 
   /* top: 36pt; left: 92pt;  */
-  top: 54pt; left: 84pt; 
+  top: 64pt; left: 84pt; 
 
   height: auto; 
   width: 393pt; /* 477 - 84 */
