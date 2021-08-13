@@ -4,7 +4,7 @@
 
 These examples will be removed:
 
-- Examples: Cyclops, Lightning Lad, Flash
+- Examples: Human Torch, Cyclops, Lightning Lad, Flash
 
 ## Skills
 

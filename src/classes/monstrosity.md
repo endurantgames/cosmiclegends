@@ -4,7 +4,7 @@
 
 These examples will be removed:
 
-- Examples: 
+- Examples: Ben Grimm, the Hulk, Beast Boy, Hulkling
 
 ## Skills
 
