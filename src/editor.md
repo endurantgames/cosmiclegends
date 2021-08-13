@@ -1,4 +1,4 @@
-# The Editor's Role {#toc-editor}
+# The Editor's Role {#toc-editor .breakbefore}
 
 []{.lorem}
 

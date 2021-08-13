@@ -1,21 +1,8 @@
-# Powers {#toc-powers}
+# Using Powers {#toc-power-use}
+
+(table goes here)
 
 []{.lorem}
-
-## Power Words {#toc-power-words}
-
-Your hero has a list of six words called Personal Power Words, 
-chosen from the 15 Power Words associated with each class. 
-You also have two Core Power words shared by every hero in that class.
-
-In addition, you have two Nova Power Words that are unique to your hero; 
-you can freely choose any two words you like for your Nova Power Words.
-
-You can use your hero's Power Words in three ways:
-
-- a **Power Display**, which uses a single Power Word
-- a **Power Stunt**, using two (or more) Power Words
-- a **Power Combo**, with Power Words from two (or more) heroes
 
 ## Power Displays {#toc-power-displays}
 
@@ -63,24 +50,6 @@ means that when you make a roll -- such as rolling your Adventure
 Facet to Outwit a foe -- increases your roll's Effectiveness by
 1 Success, even if you rolled 0 Successes.
 
-## Core Power Words {#toc-power-words-core}
-
-In addition to your six Personal Power Words, your hero also has two 
-**Core Power Words** common to all members of your class. 
-You can use these as you would any other Power Words in 
-Power Displays, Power Stunts, and Power Combos.
-
-You can also use one of your Core Power Words as a *third*
-Power Word in a Power Stunt. Doing so costs 1 additional point of
-Might, and adds another 1 Success to the Effectiveness of a roll.
-
-By spending 1 *more* Might point you can add your other Core Power 
-Word as a *fourth* Power Word in a Power Stunt. 
-Collectively this gives a bonus of 3 Successes on the rolls
-Effectiveness, but also costs you 3 Might points.
-
-For example, 
-
 ## Power Combos {#toc-power-combos}
 
 A **Power Combo** is a Power Stunt where two or more heroes work
@@ -110,15 +79,32 @@ Only the initiating hero can spend additional Might to use one
 of their Core Power Words as a *third* (or fourth) Power Word in 
 the Combo.
 
+For example, []{.lorem}
+
+## Using Personal Power Words {#toc-power-use-personal}
+
+[]{.lorem}
+
+## Using Core Power Words {#toc-power-use-core}
+
+You can use one of your Core Power Words as a *third* Power Word 
+in a Power Stunt. Doing so costs 1 additional point of Might, 
+and adds another 1 Success to the Effectiveness of a roll.
+
+By spending yet 1 *more* Might point you can add your *other* 
+Core Power Word as a *fourth* Power Word in a Power Stunt. 
+Collectively this gives a bonus of 3 Successes on the rolls
+Effectiveness, but also costs you 3 Might points.
+
 For example, 
 
-## Nova Power Words {#toc-power-words-nova}
+## Using Nova Power Words {#toc-power-use-nova}
 
-When you've completed your hero's Motivations track, you unlock
+Once you've completed your hero's Motivations track, you unlock
 your **Nova Power Words** and can use them until the end of 
 the current Story Arc.
 
-You can use one of your Nova Power Words as the second Power
+You can use one of your Nova Power Words as the *second* Power
 Word in a Stunt without spending any Might; likewise, you can add 
 use one as your contribution to a Combo for free. In both cases, the 
 Nova Power Word still increases the roll's Effectiveness by 1 Success.
@@ -128,16 +114,13 @@ Power Combo requires spending 1 Might.
 
 For example,
 
-## Scene Power Words {#toc-power-words-scene}
+## Scene Power Words {#toc-power-use-scene}
 
-The scene also has its Power Words that describe the environment
-around your heros. The Editor comes up with these when describing 
-a place, and can suggest how to use them if you ask. These are
-known as Scene Power Words.
+Each scene has up to 6 Scene Power Words, chosen by the Editor.
 
-You can use one Scene Power Word as a second power in a Power Stunt
-without spending any Might; Scene Power Words are free, but they 
-still contribute 1 Success to the Effectiveness of a roll.
+You can use one Scene Power Word as a second Power Word in a 
+Power Stunt without spending any Might; Scene Power Words are free, 
+but they still contribute 1 Success to the Effectiveness of a roll.
 
 Each Power Combo can also include one Scene Power Word for free, 
 and it likewise increases the Effectiveness of that Combo.

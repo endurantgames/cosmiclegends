@@ -1,4 +1,4 @@
-# Advancements {#toc-advancements}
+# Advancements {#toc-advancements .breakbefore}
 
 After each Story Arc concludes:
 

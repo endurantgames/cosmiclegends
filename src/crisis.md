@@ -1,4 +1,4 @@
-# Crisis {#toc-crisis}
+# Crisis {#toc-crisis .breakbefore}
 
 Any encounter requiring your hero's unique superheroic talents and 
 powers is known as a **Crisis.**

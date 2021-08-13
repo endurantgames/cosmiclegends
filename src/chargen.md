@@ -1,4 +1,4 @@
-# Hero Creation {#toc-chargen}
+# Hero Creation {#toc-chargen .breakbefore}
 
 To create your hero, follow these steps:
 

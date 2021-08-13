@@ -1,7 +1,7 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@page         { size: 477pt 733pt; margin: 54pt; }
+@page         { size: 477pt 733pt; margin-left: 36pt; margin-right: 36pt; margin-top: 54pt; margin-bottom: 54pt; }
 /* @page      { size: letter portrait; margin: 18pt; } */
 header        { display: none;                       }
 header p.date { string-set: date content()           }
@@ -38,16 +38,45 @@ header h1     { string-set: gamename content()       }
   --font-subtitle: "Fawn Script";
   --font-hype: "Fawn Script";
   --font-profile: 'Profile';
+  --font-quote: "Comic Neue";
+  --font-pagenum: "Legio Sabina";
 
   --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
   --icon-game: 'game-icons';
 
-  --body:      10pt;
-  --larger:    11pt;
-  --smaller:    9pt;
-  --small:      8pt;
-  --large:     12pt;
+  --font-icons: 'game-icons';
+
+  --yes-green:   '\00E093';
+  --yes-gray:    '\00E093';
+  --lock-yellow: '\00EC83';
+  --lock-gray:   '\00EC83';
+  --no:          '\00E06D';
+
+  --color-yes: green;
+  --color-no: red;
+  --color-gray: #808080;
+  --color-lock: gold;
+
+  /* --font-icons: 'Noto Color Emoji';
+  --font-icons-gray: 'Noto Emoji'; 
+  
+  --iant: '\00fe0f';
+  --yes-green: '\002714' var(--iant) ;
+  --lock-yellow: '\01f512';
+  --no: '\00274c';
+  --yes-gray: '\002705';
+  --lock-gray: '\01f512';
+  */
+
+  --table-icon-size: 16pt;
+  --table-cost-size: 7pt;
+
+  --body:       9pt;
+  --larger:    10pt;
+  --smaller:    8pt;
+  --small:      7pt;
+  --large:     11pt;
   --title:     54pt;
   --subtitle:  26pt;
   --subsubtitle: 28pt;
@@ -58,7 +87,9 @@ header h1     { string-set: gamename content()       }
   --h4:        16pt;
   --h5:        14pt;
   --h6:        12pt;
-  --th:        11pt;
+  --th:         9pt;
+  --pagenum:   20pt;
+  --quote:     20pt;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -70,7 +101,7 @@ header h1     { string-set: gamename content()       }
 
 body               { font-family: var(--font); font-size: var(--body);      }
 td                 { font-size: var(--body); vertical-align: top;           }
-th                 { font-family: var(--font-header); font-size: var(--th); }
+th                 { font-family: var(--font); font-size: var(--th); }
 h1                 { font-family: var(--font-header); font-size: var(--h1); }
 h2                 { font-family: var(--font-header); font-size: var(--h2); }
 h3                 { font-family: var(--font-header); font-size: var(--h3); }
@@ -91,7 +122,7 @@ p+table            { break-before: avoid-page;                              }
 table              { border-collapse: collapse; break-inside: avoid-page;   }
 table tr           { break-inside: avoid-page;                              }
 table thead        { break-after: avoid;                                    }
-table thead        { border-bottom: 0.5pt solid var(--color-line);          }
+table thead        { }
 table th, table td { padding: 2pt;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
@@ -126,9 +157,9 @@ ul li, ul ol { margin-left: 1em;    }
 p, li { orphans: 3; line-height: 1.40; }
 
 @page { @bottom-center {
-  content:         counter(page);
-  font-family:     var(--font-headline);
-  font-size:       var(--big);
+  content:         '- ' counter(page) ' -';
+  font-family:     var(--font-pagenum);
+  font-size:       var(--pagenum);
   margin-top:      18pt;
   margin-bottom:   18pt;
   text-align:      center;
@@ -136,7 +167,7 @@ p, li { orphans: 3; line-height: 1.40; }
 
 @page { @top-left {
   content:         string(gamename) ' Draft by Cadera Spindrift';
-  font-family:     var(--font-header);
+  font-family:     var(--font);
   font-size:       var(--small);
   margin-top:      18pt;
   margin-bottom:   16pt;
@@ -149,7 +180,7 @@ p, li { orphans: 3; line-height: 1.40; }
 
 @page { @top-right {
   content:         'Version ' string(date);
-  font-family:     var(--font-header);
+  font-family:     var(--font);
   font-size:       var(--small);
   margin-top:      18pt;
   margin-bottom:   16pt;
@@ -179,9 +210,18 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 .chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
 
 #toc {
-  /*column-span: all; float: top;*/
-  /*column-count: 4; column-width: auto; column-gap: 12pt;*/
+  column-span: all; float: top;
+  float-defer-page: 1;
+  column-count: 2; column-width: auto; column-gap: 9pt;
+  margin-bottom: 1em;
+  background-color: var(--bgcolor-sidebar);
+  border-radius: 4pt;
+  border: 0.5pt solid var(--color-line);
+  padding-right: 6pt;
+  padding-top: 4pt;
+  padding-bottom: 4pt; 
 }
+
 #toc a:before    { content: target-content(attr(href)) ' ';                        }
 #toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
 #toc ul          { margin-left: 0;                                                 }
@@ -196,6 +236,14 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 
 #toc ul { -prince-pdf-tag-type: TOC; }
 #toc li { -prince-pdf-tag-type: TOCI; }
+
+#toc :matches(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--h3);
+  column-span: all;
+  font-family: var(--font-header);
+  font-weight: normal;
+  margin-top: 0;
+}
 
 .tstoolkit .icon { white-space: pre; font-weight: bold; }
 .tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; }
@@ -399,9 +447,9 @@ color: crimson; }
 @page:blank { @top-right { content: normal; } }
 @page:blank { @bottom-center { content: normal; } }
 
-@page:nth(2) { @bottom-center { content: 'i'; } }
+@page:nth(2) { @bottom-center { content: '- i -'; } }
 
-#charsheet { page: charsheet; break-before: right; height: 733pt; width: 733pt; }
+#charsheet { page: charsheet; }
 @page charsheet { margin: 0; }
 @page charsheet { @top-right     { content: normal; } }
 @page charsheet { @top-left      { content: normal; } }
@@ -412,3 +460,57 @@ color: crimson; }
 
 .glossary ul { margin: 0; }
 .glossary ul li { margin: 0; text-indent: 1em; list-style-type: none; margin-bottom: 0.2em; }
+
+blockquote { 
+  line-height: 1.25;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0.5em;
+  font-family: var(--font-quote);
+  font-size: var(--quote);
+  column-span: all;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  font-style: italic;
+}
+
+table#power-table { float: page top; width: 100%; margin-bottom: 1em; column-span: all; }
+
+table#power-table thead       {                         }
+table#power-table thead tr    {                         }
+table#power-table thead tr th { vertical-align: bottom; padding-left: 2pt; padding-right: 2pt; }
+table#power-table thead tr th:nth-child(n+1) { width: 10%; }
+
+table#power-table tbody                 {                                                                        }
+table#power-table tbody:nth-child(odd) { background-color: #f0f0f0;                                             }
+table#power-table tbody tr              {                                                                        }
+table#power-table tbody tr th           { text-align: left;   vertical-align: top; padding: 0; padding-left: 2pt; padding-right: 2pt; white-space: pre; } 
+table#power-table tbody tr td           { text-align: center; vertical-align: top; padding: 0; padding-left: 2pt; padding-right: 2pt;                   }
+table#power-table tbody tr td:nth-child(n+1) { width: 10%; }
+table#power-table tbody tr th:nth-child(n+1) { width: 10%; }
+table#power-table tbody:nth-child(odd) tr td:nth-child(even) { background-color: #e0e0e0; }
+table#power-table tbody:nth-child(even)  tr td:nth-child(even) { background-color: #e8e8e8; }
+
+table#power-table tbody tr.cost           {                                                       }
+table#power-table tbody tr.cost td        { font-size: var(--table-cost-size);                    }
+table#power-table tbody tr.cost th        { font-size: var(--table-cost-size); text-align: right; }
+table#power-table tbody tr.cost td        {                                                       }
+table#power-table tbody tr.cost td.na     { content: '--';                                        }
+table#power-table tbody tr.cost td.might0 { content: 'Might 0';                                   }
+table#power-table tbody tr.cost td.might1 { content: 'Might 1';                                   }
+
+table#power-table tbody tr.main              {                                                                       }
+table#power-table tbody tr.main td           { font-family: var( --font-icons  ); font-size: var(--table-icon-size); }
+table#power-table tbody tr.main td.yes       { content:     var( --yes-green   ); color: var(--color-yes);           }
+table#power-table tbody tr.main td.yes.gray  { content:     var( --yes-gray    ); color: var(--color-gray);          }
+table#power-table tbody tr.main td.no        { content:     var( --no          ); color: var(--color-no);            }
+table#power-table tbody tr.main td.lock      { content:     var( --lock-yellow ); color: var(--color-lock);          }
+table#power-table tbody tr.main td.lock.gray { content:     var( --lock-gray   ); color: var(--color-gray);          }
+
+table#power-table tbody.use-type tr td.combo   { background-color: purple; }
+table#power-table tbody.use-type tr td.stunt   { background-color: teal;   }
+table#power-table tbody.use-type tr td.display { background-color: blue;   }
+table#power-table tbody.use-type tr td { height: 4pt; vertical-align: bottom; color: white; font-weight: bold; }
+table#power-table tbody.use-type tr:nth-child(3) td:nth-child(2) { background-color: transparent; }
+table#power-table tbody.use-type:nth-child(even) { background-color: transparent; }

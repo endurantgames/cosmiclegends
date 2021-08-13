@@ -1,4 +1,4 @@
-# Classes {#toc-classes}
+# Classes {#toc-classes .breakbefore}
 
 The classes are:
 

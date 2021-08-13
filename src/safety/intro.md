@@ -1,4 +1,4 @@
-# Safety Tools {#safety}
+# Safety Tools {#safety .breakbefore}
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
 
