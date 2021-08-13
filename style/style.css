@@ -151,7 +151,10 @@ table td           { vertical-align: top;                                   }
 
 h2.breakbefore { margin-bottom: 0.5em; text-align: center; }
 
-/* ul, ol       { break-inside: avoid; } */
+h3.class { font-size: var(--h2); font-family: var(--font-h2); margin-bottom: 0.5em; text-align: center; }
+
+h4.class { font-size: var(--h3); font-family: var(--font-h3); margin-bottom: 0.5em; text-align: center; }
+
 li           { break-inside: avoid; }
 ul, ol       { margin-left: 1em;    }
 ul li, ul ol { margin-left: 1em;    }

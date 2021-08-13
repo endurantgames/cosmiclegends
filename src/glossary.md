@@ -1,4 +1,4 @@
-# Glossary of Game Terms {#toc-glossary}
+# Glossary of Game Terms {#toc-glossary .breakbefore}
 
 ::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
 

@@ -24,12 +24,11 @@ chargen/identity
 classes/
 classes/*
 powers/
-powers/table
 powers/display
 powers/stunt
 powers/combo
+powers/table
 powers/words
-power_table
 crisis
 advancement
 setting
