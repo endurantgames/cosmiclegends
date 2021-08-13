@@ -14,7 +14,7 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: Peak Human Training
+## Class Ability: Peak Human Potential
 
 You represent the pinnacle of human achievement. If you have
 any powers, they're minor in comparison to extensive training.
@@ -26,9 +26,15 @@ combat prowess: Choose one additional Fighting Style.
 
 []{.lorem}
 
+### Core Power Words
+
+Your Core Power Words are **Prepared** and **Trick**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
 ### Personal Power Words
 
-Choose six Personal Power Words from the following list:
+Choose five Personal Power Words from the following list:
 
 ::::::::::: cpw :::::::::::::::::
 - Acrobat
@@ -52,12 +58,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-### Core Power Words
-
-Your Core Power Words are **Prepared** and **Trick**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ### Nova Power
 

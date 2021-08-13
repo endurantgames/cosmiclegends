@@ -14,7 +14,7 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: Power Tap
+## Class Ability: TBD
 
 []{.lorem}
 

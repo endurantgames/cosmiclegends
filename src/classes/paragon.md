@@ -13,15 +13,19 @@ You have two skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: Multi-Power
+## Class Ability: TBD
 
-You are empowered in a way that gives you a wide variety of powers you can use. 
-When you pick one or more Personal Power Words -- including before Volume 1 -- 
-also pick an extra Power Word from any Class.
+[]{.lorem}
 
 ## Power Words
 
 []{.lorem}
+
+### Core Power Words
+
+Your Core Power Words are **Super** and **Powers**. 
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
 
 ### Personal Power Words
 
@@ -51,12 +55,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-### Core Power Words
-
-Your Core Power Words are **Super** and **Power**. 
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ### Nova Power
 

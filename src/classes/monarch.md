@@ -14,7 +14,7 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: Defend Your Kingdom
+## Class Ability: Defend the Kingdom
 
 You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
@@ -22,7 +22,17 @@ a physical location or a metaphorical concept such as "the Seas".
 If a Crisis threatens your domain, add 3 when you form
 or contribute to the Teamwork Pool.
 
-## Personal Power Words
+## Power Words
+
+[]{.lorem}
+
+### Core Power Words
+
+Your Core Power Words are **Unexpected** and **Reinforcements**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+### Personal Power Words
 
 Choose six Personal Power Words from the following list:
 
@@ -33,13 +43,13 @@ Choose six Personal Power Words from the following list:
 - Command
 - Communicate
 - Forest
+- Hidden
 - Remote
 - Skies
 - Superior
 - Survivor
 - Seas
 - Technology
-- Unexpected
 - Vehicle (specific)
 - Weapon (specific)
 :::::::::::::::::::::::::
@@ -48,12 +58,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-### Core Power Words
-
-Your Core Power Words are **Hidden** and **Reinforcements**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ### Nova Power
 
