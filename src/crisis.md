@@ -16,7 +16,7 @@ could tackle that Crisis:
 - **Outwit** - trick, persuade, or control the source of the Crisis
 - **Withstand** - outlast the Crisis by taking all it can throw at you
 
-## Countdown to Crisis {#toc-crisis-countdown}
+## Countdown to Crisis {#toc-crisis-countdown .colbefore}
 
 A Crisis can begin when one or more heroes hear of an ongoing problem
 and rush to the scene, or a problem could spontaneously arise at a
@@ -31,19 +31,19 @@ The steps to take before a Crisis are:
 2. Assemble the Teamwork Pool
 1. The Crisis begins!
 
-## Setting the Scene {#toc-crisis-scene}
+### Setting the Scene {#toc-crisis-scene}
 
 []{.lorem}
 
-## Determining Who is Present {#toc-crisis-present}
+### Determining Who is Present {#toc-crisis-present}
 
 []{.lorem}
 
-## Defining the Goals {#toc-crisis-goals}
+### Defining the Goals {#toc-crisis-goals}
 
 []{.lorem}
 
-## Assembling the Teamwork Pool {#toc-crisis-pool}
+### Assembling the Teamwork Pool {#toc-crisis-pool}
 
 When the Crisis starts, every player makes a roll to build the 
 initial Teamwork Pool. The Teamwork Pool is an abstract way of 
@@ -71,7 +71,7 @@ the Hero Phase and the Crisis Phase.
 The first thing that happens after the Teamwork Pool is formed is 
 the Hero Phase.
 
-## Hero Phase {#toc-crisis-hero}
+## Hero Phase {#toc-crisis-hero .colbefore}
 
 The heroes can each take one action during the Hero Phase, one at a time, 
 in any order they like.
@@ -82,7 +82,7 @@ or Save Innocents.
 
 If your hero is *not* present, you can use the Timely Arrival action.
 
-## Timely Arrival {#toc-crisis-timely}
+### Timely Arrival {#toc-crisis-timely}
 
 When you use the Timely Arrival action, spend 5 successes from the
 Teamwork Pool have your hero arrive at the end of the current Hero Phase. 
@@ -94,7 +94,7 @@ Add the Effectiveness of that roll to the Teamwork Pool.
 The cost of the Timely Arrival action decreases by 1 success every
 Crisis Phase.
 
-## General Alert {#toc-crisis-alert}
+### General Alert {#toc-crisis-alert}
 
 If two or more heroes aren't present at a Crisis, one of the heroes at 
 the scene can use their turn to sound a General Alert and call for help.
@@ -104,7 +104,7 @@ The heroes arrive at the start of the *next* Hero Phase, and can act
 normally during that turn. They can describe their arrivals, but unlike
 a Timely Arrival, they don't roll to add to the Teamwork Pool.
 
-## Advance a Goal {#toc-crisis-advance}
+### Advance a Goal {#toc-crisis-advance}
 
 When you Advance a Goal, your hero is taking a step toward resolving the 
 Crisis. There are three different ways of doing this:
@@ -120,7 +120,7 @@ you can take successes from the Teamwork Pool too.
 Once the Goals have been advanced a total of five times, the Crisis ends.
 The players have successfully Smashed, Outwitted, or Withstood the danger.
 
-## Contribute to the Teamwork Pool {#toc-crisis-contribute}
+### Contribute to the Teamwork Pool {#toc-crisis-contribute}
 
 When you Contribute to the Pool, your hero is taking tactical actions 
 that will give the team an advantage. This can be literally anything 
@@ -132,13 +132,13 @@ or you might cast a magical barrier to protect heroes.
 When you Contribute, make a skill roll and add the total Effectiveness
 to the Teamwork Pool. 
 
-For example, 
+[]{.lorem}
 
-## Saving Innocents {#toc-crisis-saving}
+### Saving Innocents {#toc-crisis-saving}
 
 []{.lorem}
 
-## Crisis Phase {#toc-crisis-crisis}
+## Crisis Phase {#toc-crisis-crisis .colbefore}
 
 Once every hero has taken an action, then it’s time for the Editor
 to take their turn.
@@ -163,7 +163,7 @@ or innocents being endangered.
 
 Once the Editor has taken enough actions, it’s time to go back to the heroes.
 
-## Post-Crisis {#toc-crisis-post}
+## Post-Crisis {#toc-crisis-post .colbefore}
 
 []{.lorem}
 

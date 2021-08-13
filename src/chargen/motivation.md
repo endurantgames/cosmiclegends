@@ -1,4 +1,4 @@
-# Motivations {#toc-motivation}
+# Motivations {#toc-motivation .colbefore}
 
 Your hero has five Motivations that drive them to feats of 
 heroic courage. These are single words that can be freely chosen

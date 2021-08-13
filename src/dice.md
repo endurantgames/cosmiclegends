@@ -1,4 +1,4 @@
-# Rolling Dice {#toc-dice}
+# Rolling Dice {#toc-dice .colbefore}
 
 The dice mechanic in []{.gamename} is a pool of six-sided dice. 
 When players want to take an uncertain action, they build a dice pool.

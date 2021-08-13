@@ -1,7 +1,8 @@
 :::::::::::::::::::::::::::: { #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 # Table of Contents
 
-- <a href="#credits"></a>
+- <a href="#toc-ethos"></a>
+- <a href="#toc-credits"></a>
 - <a href="#safety"></a>
 - <a href="#toc-dice"></a>
 - <a href="#toc-issues"></a>
@@ -25,10 +26,10 @@
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
   - <a href="#toc-power-combos"></a>
-  - <a href="#toc-power-words-personal"></a>
-  - <a href="#toc-power-words-core"></a>
-  - <a href="#toc-power-words-nova"></a>
-  - <a href="#toc-power-words-scene"></a>
+  - <a href="#toc-power-use-personal"></a>
+  - <a href="#toc-power-use-core"></a>
+  - <a href="#toc-power-use-nova"></a>
+  - <a href="#toc-power-use-scene"></a>
 - <a href="#toc-crisis"></a>
   - <a href="#toc-crisis-countdown"></a>
     - <a href="#toc-crisis-scene"></a>

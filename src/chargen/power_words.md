@@ -1,4 +1,4 @@
-# Power Words {#toc-powers .breakbefore }
+# Power Words {#toc-powers .colbefore }
 
 Your hero has a list of words called Power Words that define their
 super-powers and how they use them. Power Words are used in three

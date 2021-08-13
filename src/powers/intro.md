@@ -1,6 +1,4 @@
-# Using Powers {#toc-power-use}
-
-(table goes here)
+# Using Powers {#toc-power-use .breakbefore}
 
 []{.lorem}
 
@@ -22,7 +20,7 @@ If you don't have Flight as a Power Word, but you have Line, your
 Display could describe how you hook your swingline onto a nearby 
 skyscraper to deliver two boots to the face.
 
-## Power Stunts {#toc-power-stunts}
+## Power Stunts {#toc-power-stunts .colbefore}
 
 A Power Stunt consists of two Power Words joined together, and unlike
 a Power Display, a Stunt will affect the result of your next roll.
@@ -50,7 +48,7 @@ means that when you make a roll -- such as rolling your Adventure
 Facet to Outwit a foe -- increases your roll's Effectiveness by
 1 Success, even if you rolled 0 Successes.
 
-## Power Combos {#toc-power-combos}
+## Power Combos {#toc-power-combos .colbefore}
 
 A **Power Combo** is a Power Stunt where two or more heroes work
 together, with their powers combined. 
@@ -81,11 +79,11 @@ the Combo.
 
 For example, []{.lorem}
 
-## Using Personal Power Words {#toc-power-use-personal}
+## Using Personal Power Words {#toc-power-use-personal .colbefore}
 
 []{.lorem}
 
-## Using Core Power Words {#toc-power-use-core}
+## Using Core Power Words {#toc-power-use-core .colbefore}
 
 You can use one of your Core Power Words as a *third* Power Word 
 in a Power Stunt. Doing so costs 1 additional point of Might, 
@@ -96,9 +94,9 @@ Core Power Word as a *fourth* Power Word in a Power Stunt.
 Collectively this gives a bonus of 3 Successes on the rolls
 Effectiveness, but also costs you 3 Might points.
 
-For example, 
+For example,  []{.lorem}
 
-## Using Nova Power Words {#toc-power-use-nova}
+## Using Nova Power Words {#toc-power-use-nova .colbefore}
 
 Once you've completed your hero's Motivations track, you unlock
 your **Nova Power Words** and can use them until the end of 
@@ -112,7 +110,7 @@ Nova Power Word still increases the roll's Effectiveness by 1 Success.
 Using your *other* Nova Power Word in the same Power Stunt or
 Power Combo requires spending 1 Might. 
 
-For example,
+For example, []{.lorem}
 
 ## Scene Power Words {#toc-power-use-scene}
 
@@ -125,5 +123,5 @@ but they still contribute 1 Success to the Effectiveness of a roll.
 Each Power Combo can also include one Scene Power Word for free, 
 and it likewise increases the Effectiveness of that Combo.
 
-For example,
+For example, []{.lorem}
 

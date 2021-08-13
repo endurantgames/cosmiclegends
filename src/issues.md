@@ -1,4 +1,4 @@
-# Issues, Story Arcs, Series, and Volumes {#toc-issues}
+# Issues, Story Arcs, Series, and Volumes {#toc-issues .breakbefore}
 
 An adventure in []{.gamename} is known as a Story. A Story
 consists of one or more Crises introduced by the Editor, and

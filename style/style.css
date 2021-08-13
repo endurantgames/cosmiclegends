@@ -1,7 +1,7 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@page         { size: 477pt 733pt; margin-left: 36pt; margin-right: 36pt; margin-top: 54pt; margin-bottom: 54pt; }
+@page         { size: 477pt 733pt; margin: 36pt; margin-bottom: 54pt; }
 /* @page      { size: letter portrait; margin: 18pt; } */
 header        { display: none;                       }
 header p.date { string-set: date content()           }
@@ -38,14 +38,27 @@ header h1     { string-set: gamename content()       }
   --font-subtitle: "Fawn Script";
   --font-hype: "Fawn Script";
   --font-profile: 'Profile';
-  --font-quote: "Comic Neue";
+  --font-quote: "Fawn Script";
   --font-pagenum: "Legio Sabina";
+  --font-h1: 'Legio Sabina Semi-Italic';     
+  --font-h2: 'Legio Sabina Bevel';    
+  --font-h3: 'Legio Sabina Halftone';
+  --font-h4: 'Legio Sabina Gradient';   
+  --font-h5: 'Fawn Script';
+  --font-h6: 'Fawn Script';
+  /* 
+  --font-h5: 'Legio Sabina Gradient';     
+  --font-h6: 'Legio Sabina Condensed';     
+  */
 
+  --font-gamename: 'Legio Sabina Condensed';
   --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
   --icon-game: 'game-icons';
 
   --font-icons: 'game-icons';
+
+  --border-radius: 6pt 0;
 
   --yes-green:   '\00E093';
   --yes-gray:    '\00E093';
@@ -57,6 +70,10 @@ header h1     { string-set: gamename content()       }
   --color-no: red;
   --color-gray: #808080;
   --color-lock: orange;
+
+  --color-display: teal;
+  --color-stunt: blue;
+  --color-combo: purple;
 
   /* --font-icons: 'Noto Color Emoji';
   --font-icons-gray: 'Noto Emoji'; 
@@ -81,16 +98,16 @@ header h1     { string-set: gamename content()       }
   --subtitle:  26pt;
   --subsubtitle: 28pt;
   --hype:      28pt;
-  --h1:        24pt; 
-  --h2:        20pt;
-  --h3:        18pt;
-  --h4:        16pt;
-  --h5:        14pt;
-  --h6:        12pt;
+  --h1:        20pt; 
+  --h2:        18pt;
+  --h3:        15pt;
+  --h4:        13pt;
+  --h5:        13pt;
+  --h6:        11pt;
   --th:         9pt;
   --td:         9pt;
   --pagenum:   20pt;
-  --quote:     20pt;
+  --quote:     24pt;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -103,18 +120,18 @@ header h1     { string-set: gamename content()       }
 body               { font-family: var(--font); font-size: var(--body);      }
 td                 { font-size: var(--td); vertical-align: top;           }
 th                 { font-family: var(--font); font-size: var(--th); }
-h1                 { font-family: var(--font-header); font-size: var(--h1); }
-h2                 { font-family: var(--font-header); font-size: var(--h2); }
-h3                 { font-family: var(--font-header); font-size: var(--h3); }
-h4                 { font-family: var(--font-header); font-size: var(--h4); }
-h5                 { font-family: var(--font-header); font-size: var(--h5); }
-h6                 { font-family: var(--font-header); font-size: var(--h6); }
-body               { column-count: 2; column-width: auto; column-gap: 36pt; }
+h1                 { font-family: var(--font-h1); font-size: var(--h1); }
+h2                 { font-family: var(--font-h2); font-size: var(--h2); }
+h3                 { font-family: var(--font-h3); font-size: var(--h3); }
+h4                 { font-family: var(--font-h4); font-size: var(--h4); }
+h5                 { font-family: var(--font-h5); font-size: var(--h5); }
+h6                 { font-family: var(--font-h6); font-size: var(--h6); }
+body               { column-count: 2; column-width: auto; column-gap: 24pt; }
 h1                 { break-after: avoid-page; break-inside: avoid;          }
-h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
+h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
 h1                 { column-span: all; text-align: center;                  }
-.breakbefore       { break-before: page;                                    }
-.colbefore         { break-before: column;                                  }
+.breakbefore       { break-before: page; margin-top: 0; }                   
+.colbefore         { break-before: column; margin-top: 0;                   }
 .nobreak           { break-before: avoid-page;                              }
 .nocolbreak        { break-before: avoid-column;                            }
 .colspan           { column-span: all;                                      }
@@ -130,17 +147,21 @@ table td           { vertical-align: top;                                   }
 
 #cover + h1   { counter-reset: page; counter-increment: page; break-before: right; margin: 0; }
 
+:matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: all; }
+
+h2.breakbefore { margin-bottom: 0.5em; text-align: center; }
+
 /* ul, ol       { break-inside: avoid; } */
 li           { break-inside: avoid; }
 ul, ol       { margin-left: 1em;    }
 ul li, ul ol { margin-left: 1em;    }
 
-.sidebar p { margin-top: 6pt; margin-bottom: 0; }
+.sidebar p { margin-top: 4pt; margin-bottom: 0; line-height: 1.1; font-size: var(--smaller); }
 .sidebar { 
   float-placement:   top;
   float-reference:   column;
   border:            0.5pt solid var(--color-line);
-  border-radius:     3pt;
+  border-radius:     var(--border-radius);
   padding-left:      9pt;
   padding-right:     9pt;
   padding-bottom:    6pt;
@@ -149,13 +170,13 @@ ul li, ul ol { margin-left: 1em;    }
 }
 
 .sidebar.next { float-defer-column: 1;                                                    }
-.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
+.sidebar :matches(h1, h2, h3, h4, h5, h6)    { font-weight: bold; font-family: var(--font-h4); font-size: var(--h4); }
 
 /* img { -prince-image-resolution: 96;
       -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
       */
 
-p, li { orphans: 3; line-height: 1.40; }
+p, li { orphans: 3; line-height: 1.30; }
 
 @page { @bottom-center {
   content:         '- ' counter(page) ' -';
@@ -166,36 +187,17 @@ p, li { orphans: 3; line-height: 1.40; }
   text-align:      center;
 } }
 
-@page { @top-left {
-  content:         string(gamename) ' Draft by Cadera Spindrift';
-  font-family:     var(--font);
-  font-size:       var(--small);
-  margin-top:      18pt;
-  margin-bottom:   16pt;
-  margin-left:     -54pt;
-  padding-left:    54pt;
-  border-bottom:   0.25pt solid var(--color-line);
-  color:           var(--color-light);
-  text-align:      left;
-} }
-
-@page { @top-right {
+@page { @bottom-right {
   content:         'Version ' string(date);
   font-family:     var(--font);
   font-size:       var(--small);
-  margin-top:      18pt;
-  margin-bottom:   16pt;
-  margin-right:    -54pt;
-  padding-right:   54pt;
-  border-bottom:   0.25pt solid var(--color-line);
   color:           var(--color-light);
   text-align:      right;
 } }
 
 @page:nth(3) { margin-top: 36pt; }
 @page:nth(3) { @bottom-center { content: normal; }  }
-@page:nth(3) { @top-left      { content: normal; }  }
-@page:nth(3) { @top-right     { content: normal; }  }
+@page:nth(3) { @bottom-right   { content: normal; }  }
 
 
 figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
@@ -216,7 +218,7 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
   column-count: 2; column-width: auto; column-gap: 9pt;
   margin-bottom: 1em;
   background-color: var(--bgcolor-sidebar);
-  border-radius: 4pt;
+  border-radius: var(--border-radius);
   border: 0.5pt solid var(--color-line);
   padding-right: 6pt;
   padding-top: 4pt;
@@ -226,10 +228,10 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 #toc a:before    { content: target-content(attr(href)) ' ';                        }
 #toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
 #toc ul          { margin-left: 0;                                                 }
-#toc ul li       { list-style-type: none; line-height: 1.1;                        }
+#toc ul li       { list-style-type: none; line-height: 1.1; font-family: var(--font); }
 #toc ul ul li    { margin-left: 8pt; font-weight: normal;                          }
 #toc ul ul ul li { font-size: var(--smaller);                                      }
-#toc > ul > li   { font-weight: bold; margin-bottom: 4pt; font-size: var(--larger) }
+#toc > ul > li   { margin-bottom: 4pt; font-size: var(--larger); font-family: var(--font-h2); }
 #toc a:link,
 #toc a:visited,
 #toc a:active,
@@ -241,12 +243,13 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 #toc :matches(h1, h2, h3, h4, h5, h6) {
   font-size: var(--h3);
   column-span: all;
-  font-family: var(--font-header);
+  font-family: var(--font-h1);
   font-weight: normal;
   margin-top: 0;
+  padding-left: 4pt; 
 }
 
-.tstoolkit .icon { white-space: pre; font-weight: bold; }
+.tstoolkit .icon { white-space: pre; font-weight: bold; line-height: none; }
 .tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; }
 
 .tstoolkit .rewind:after { content: '\f04a'; }
@@ -278,7 +281,7 @@ a:active  { text-decoration: none; color: red;    }
 a:visited { text-decoration: none; color: purple; }
 a:hover   { text-decoration: none; color: red;    }
 
-.gamename:before { content: string(gamename); font-style: italic; }
+.gamename:before { content: string(gamename); font-family: var(--font-gamename); font-style: italic; }
 
 .cw:before {  /* content warning */
   font-family: var(--icon-solid);
@@ -428,14 +431,11 @@ color: crimson; }
 
 #cover img#img-title { 
   position: absolute; 
-  /* top: 36pt; left: 92pt;  */
   top: 64pt; left: 84pt; 
-
   height: auto; 
   width: 393pt; /* 477 - 84 */
   z-index: 100;
 }
-
 
 .lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
                   'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
@@ -462,8 +462,10 @@ color: crimson; }
 .glossary ul { margin: 0; }
 .glossary ul li { margin: 0; text-indent: 1em; list-style-type: none; margin-bottom: 0.2em; }
 
+blockquote p { line-height: 1.0; }
+
 blockquote { 
-  line-height: 1.25;
+  line-height: 1.0;
   margin-top: 0;
   padding: 0;
   margin-bottom: 0.5em;
@@ -472,13 +474,13 @@ blockquote {
   column-span: all;
   margin-left: 15%;
   margin-right: 15%;
-  text-align: center;
+  text-align: center; 
   font-style: italic;
 }
 
 #power-table       { float: page top; margin-bottom: 1em; column-span: all; }
 
-#power-table h3 { display: inline-block; width: 39%; font-size: var(--h4); font-family: var(--font-header); vertical-align: top; margin: 0; box-sizing: border-box; } 
+#power-table h3 { display: inline-block; width: 39%; font-size: var(--h3); font-family: var(--font-h3); vertical-align: top; margin: 0; box-sizing: border-box; } 
 
 #power-table table.power-table { width: 100%; }
 
@@ -490,7 +492,7 @@ blockquote {
 #power-table table.power-table tbody                 {                                                                        }
 #power-table table.power-table tbody:nth-child(odd) { background-color: #f0f0f0;                                             }
 #power-table table.power-table tbody tr              {                                                                        }
-#power-table table.power-table tbody tr th           { text-align: left;   vertical-align: top; padding: 0; padding-left: 2pt; padding-right: 2pt; white-space: pre; font-weight: normal; } 
+#power-table table.power-table tbody tr th           { text-align: left;   vertical-align: top; padding: 0; padding-left: 2pt; padding-right: 2pt; white-space: pre;  }
 #power-table table.power-table tbody tr td           { text-align: center; vertical-align: top; padding: 0; padding-left: 2pt; padding-right: 2pt;                   }
 #power-table table.power-table tbody tr td:nth-child(n+1) { width: 10%; }
 #power-table table.power-table tbody tr th:nth-child(n+1) { width: 10%; }
@@ -506,6 +508,7 @@ blockquote {
 #power-table table.power-table tbody tr.cost td.might1 { content: 'Might 1';                                   }
 
 #power-table table.power-table tbody tr.main              {                                                                       }
+#power-table table.power-table tbody tr th.main { font-weight: normal; } 
 #power-table table.power-table tbody tr.main td           { font-family: var( --font-icons  ); font-size: var(--table-icon-size); }
 #power-table table.power-table tbody tr.main td.yes       { content:     var( --yes-green   ); color: var(--color-yes);           }
 #power-table table.power-table tbody tr.main td.yes.gray  { content:     var( --yes-gray    ); color: var(--color-gray);          }
@@ -513,9 +516,9 @@ blockquote {
 #power-table table.power-table tbody tr.main td.lock      { content:     var( --lock-yellow ); color: var(--color-lock);          }
 #power-table table.power-table tbody tr.main td.lock.gray { content:     var( --lock-gray   ); color: var(--color-gray);          }
 
-#power-table table.power-table tbody.use-type tr td.combo   { background-color: purple; }
-#power-table table.power-table tbody.use-type tr td.stunt   { background-color: orange;   }
-#power-table table.power-table tbody.use-type tr td.display { background-color: blue;   }
+#power-table table.power-table tbody.use-type tr td.combo   { background-color: var(--color-combo); }
+#power-table table.power-table tbody.use-type tr td.stunt   { background-color: var(--color-stunt);   }
+#power-table table.power-table tbody.use-type tr td.display { background-color: var(--color-display); }
 #power-table table.power-table tbody.use-type tr td { height: 5pt; vertical-align: bottom; color: white; font-weight: bold; font-size: var(--body); padding-bottom: 1pt;}
 #power-table table.power-table tbody.use-type tr:nth-child(3) td:nth-child(2) { background-color: transparent; }
 #power-table table.power-table tbody.use-type:nth-child(even) { background-color: transparent; }
@@ -542,3 +545,16 @@ blockquote {
 #power-table table.power-key th:nth-child(1) { width: 15%; text-align: center; }
 #power-table table.power-key th:nth-child(2) { width: 60%; text-align: left; }
 #power-table table.power-key th:nth-child(3) { width: 25%; text-align: left;  }
+
+.skill-list ul { margin: 0; }
+.skill-list ul li { margin: 0; list-style-type: none; text-indent: 1em; }
+
+
+.twocolumn { column-count: 2; column-gap: 1em; }
+.twocolumn ul { break-inside: auto; margin: 0; margin-left: 0.5em; }
+
+
+.cpw { column-count: 3; column-gap: 1em; }
+.cpw ul { break-inside: auto; margin: 0; }
+.cpw ul li { list-style-type: none; }
+

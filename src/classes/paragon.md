@@ -1,8 +1,6 @@
-# The Paragon  {#toc-paragon}
+# The Paragon  {#toc-paragon .breakbefore .class}
 
 - Examples: Supergirl, Superman, Captain Marvel, Martian Manhunter
-- Skills: Any two of your choice
-- **Bonus Power Words** 1 Paragon, 1 any other
 
 ## Skills
 
@@ -19,6 +17,7 @@ also pick an extra Power Word from any Class.
 
 ## Power Words
 
+[]{.lorem}
 
 ### Personal Power Words
 
@@ -64,43 +63,56 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-## Volume 1 Abilities
+## Paragon Abilities {.colbefore .class}
+
+[]{.lorem}
+
+### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
+::::::::::: ability-list ::::::::::::
 - one
 - two
 - three
+- four
+:::::::::::::::::::::::::::::::::::::
 
-## Volume 2 Abilities
+### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
+::::::::::: ability-list ::::::::::::
 - one
 - two
 - three
+:::::::::::::::::::::::::::::::::::::
 
-## Volume 3 Abilities
+### Volume 3 Abilities
 
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
+::::::::::: ability-list ::::::::::::
 - one
 - two
 - three
+:::::::::::::::::::::::::::::::::::::
 
-## Volume 4 Abilities
+### Volume 4 Abilities
 
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
+::::::::::: ability-list ::::::::::::
 - one
 - two
-- three
+:::::::::::::::::::::::::::::::::::::
 
-## Volume 5 Abilities
+### Volume 5 Abilities
 
 At the start of Volume 5, choose an ability from any Volume's list.
 
+::::::::::: ability-list ::::::::::::
 - one
 - two
-- three
+:::::::::::::::::::::::::::::::::::::
 

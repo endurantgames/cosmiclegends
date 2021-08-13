@@ -1,4 +1,4 @@
-# Skills {#toc-skills}
+# Skills {#toc-skills .colbefore}
 
 Outside of a fight, your hero has one or more Skills from their 
 civilian life -- from their secret identity, their profession 
@@ -29,6 +29,7 @@ The Skills are:
 ::::::::::::::::::::::::::::::::::::::::::
 
 
+::::::: { .skill-list } ::::::::::::::::::
 - **Academic** - []{.lorem}
 
 - **Artist** - []{.lorem}
@@ -67,3 +68,4 @@ The Skills are:
 
 - **Spy** - []{.lorem}
 
+::::::::::::::::::::::::::::::::::::::::::

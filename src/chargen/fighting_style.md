@@ -1,4 +1,4 @@
-# Fighting Style {#toc-fighting-style}
+# Fighting Style {#toc-fighting-style .colbefore}
 
 Your hero specializes in one style of fighting, whether they attack 
 with their fists or their powers. Those styles are:
