@@ -48,14 +48,51 @@ project text
 
 - <a href="#credits"></a>
 - <a href="#safety"></a>
-- <a href="#toc-attributes"></a>
+- <a href="#toc-dice"></a>
+- <a href="#toc-issues"></a>
 - <a href="#toc-chargen"></a>
+  - <a href="#toc-facets"></a>
+  - <a href="#toc-motivation"></a>
+  - <a href="#toc-skills"></a>
+  - <a href="#toc-fighting-style"></a>
+  - <a href="#toc-chargen-powers"></a>
+  - <a href="#toc-chargen-nova-power"></a>
+  - <a href="#toc-chargen-identity"></a>
+- <a href="#toc-powers"></a>
+  - <a href="#toc-power-words"></a>
+  - <a href="#toc-power-displays"></a>
+  - <a href="#toc-power-stunts"></a>
+  - <a href="#toc-power-words-core"></a>
+  - <a href="#toc-power-combos"></a>
+  - <a href="#toc-power-words-nova"></a>
+  - <a href="#toc-power-words-scene"></a>
 - <a href="#toc-classes"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-knight"></a>
   - <a href="#toc-monarch"></a>
   - <a href="#toc-paragon"></a>
+- <a href="#toc-crisis"></a>
+  - <a href="#toc-crisis-countdown"></a>
+    - <a href="#toc-crisis-scene"></a>
+    - <a href="#toc-crisis-present"></a>
+    - <a href="#toc-crisis-goals"></a>
+    - <a href="#toc-crisis-pool"></a>
+  - <a href="#toc-crisis-start"></a>
+  - <a href="#toc-crisis-hero"></a>
+    - <a href="#toc-crisis-timely"></a>
+    - <a href="#toc-crisis-alert"></a>
+    - <a href="#toc-crisis-advance"></a>
+    - <a href="#toc-crisis-contribute"></a>
+    - <a href="#toc-crisis-saving"></a>
+  - <a href="#toc-crisis-crisis"></a>
+  - <a href="#toc-crisis-post"></a>
+- <a href="#toc-advancements"></a>
+- <a href="#toc-handbook"></a>
+  - <a href="#toc-handbook-setting"></a>
+  - <a href="#toc-handbook-creating"></a>
+  - <a href="#toc-handbook-sample"></a>
 - <a href="#anchor-license"></a>
+- <a href="#toc-glossary"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -82,9 +119,19 @@ The contents of the game are covered by the
 *Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
 
 
-This work is based on the Harmony Drive system from Cat McDonald and 
-Peach Garden Games, and licensed for use under the 
+This work is based on the Harmony Drive system from 
+[Cat McDonald](https://peachgardengames.itch.io/harmony-drive) and 
+[Peach Garden Games](https://peachgardengames.itch.io/), and 
+licensed for use under the 
 [Creative Commons Attribution 3.0 Unported license](http:// creativecommons.org/licenses/by/3.0/).
+
+*The Driven by Harmony* logo is &copy; Cat McDonald, 
+and is used with permission.
+
+
+[]{.gamename} was created as part of the [Harmony Jam](https://itch.io/jam/harmony-jam)
+hosted by [Peach Garden Games](https://peachgardengames.itch.io/).
+
 
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
 licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
@@ -412,6 +459,394 @@ the issues going forward.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Rolling Dice {#toc-dice}
+
+The dice mechanic in []{.gamename} is a pool of six-sided dice. 
+When players want to take an uncertain action, they build a dice pool.
+
+- One die for every point they have in the relevant Facet
+- One die for every Volume if they have a relevant Skill
+- Two dice if they can mark off a relevant part of their Motivation
+
+Any dice that come up a 5 or a 6 are counted as Successes. 
+A challenging task can require 1-3 Successes to complete (outside combat).
+
+Any dice that come up 2, 3, or 4 are ignored.
+
+Any dice that come up 1 are counted as Edge Successes. 
+When a player rolls a 1, they inform the Editor, 
+who offers them a consequence. 
+
+If the player chooses to take the Editor’s consequence, 
+they count the 1 as a Success.
+
+This consequence can be mechanical, like losing Health, or it can be 
+narrative, like upsetting an NPC or missing an important clue. 
+The important part is that the player is presented with a difficult choice.
+
+
+## Issues, Story Arcs, Series, and Volumes {#toc-issues}
+
+An adventure in []{.gamename} is known as a Story. A Story
+consists of one or more Crises introduced by the Editor, and
+the heroes' reactions to those challenges.
+
+Each individual game session is known as an Issue. 
+Most Stories will resolve over one Issue, but some can take longer.
+
+When you create a new hero, you define a Story Arc that describes 
+a specific lesson you'd like them to learn or a specific experience 
+you'd like them to have.  Once your hero finishes your Story Arc, 
+both your hero and your fellow players' heroes gain an Advancement.
+
+A ongoing campaign of []{.gamename} is known as a Series, 
+and each Series is comprised of up to five Volumes, beginning
+with Volume 1.
+
+Once all of the heroes have had a chance to play out their Story Arcs, 
+the Editor and heroes play out a final Issue that ties together 
+the previous Story Arcs, and that Volume ends.
+
+At the end of a Volume, your hero develops new powers or finds 
+new ways to use their existing powers.
+
+
+## Hero Creation {#toc-chargen}
+
+To create your hero, follow these steps:
+
+- Pick a Class
+  - Pick six Personal Power Words from your Class
+  - Pick your Skills, based on your Class
+  - Pick a Volume 1 ability from your Class
+  - Choose 2 words as your Nova Power
+- Assign 1 point to each Facet, then distribute more 5 points as you wish
+- Choose 5 words as Motivations
+- Pick a Fighting Style
+- Create a Story Arc you'd like to play out with your hero
+- Choose a Hero Name, Pronouns, and a Real Name, and decide whether the latter is a Secret Identity
+- Describe your Costume, Symbol, and General Appearance
+
+
+## Facets {#toc-facets}
+
+Each hero's nature is defined by their scores in 5 different facets, 
+which represent their approaches to solving problems.
+
+- **Action** - a direct, straight-forward approach
+- **Adventure** - a reactive approach, adapting to changing situations
+- **Detective** - a logical approach, based on gathering information
+- **Mystery** - a subtle approach, incorporating hidden motives and actions
+- **Suspense** - an approach based on using the senses to become aware of the environment
+
+Each of your hero's facets start with a score of 1, and you have 5 
+additional points to distribute to them.
+
+::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Designer's Note: Facets 
+
+These Facets -- named for key Golden Age or Silver Age comic titles --
+were chosen to express how a hero chooses to solve problems, not 
+any innate or immutable characteristics they may have. 
+A hero in a Harmony Drive game can be as physically strong as they like, 
+or as wise or charming as they like.
+
+The other reason for these Facets is that the concept of Intelligence 
+as a concrete and immutable quality of a person is ableist. 
+It has been used to excuse eugenics and countless other atrocities, 
+including racial and class injustice. 
+
+We chose “Detective" as a measure of a hero’s willingness to solve 
+problems by thinking about them and gathering information, 
+not as a measure of their “intelligence” or, heaven forbid, “IQ”.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Motivations {#toc-motivation}
+
+Your hero has five Motivations that drive them to feats of 
+heroic courage. These are single words that can be freely chosen
+by you when you create your hero; there's no set list.
+
+For example, one hero could have these five Motivations:
+
+- Truth
+- Justice
+- Responsibility
+- Restraint
+- Hope
+
+When you use all five of your hero's Motivations in a Story Arc, 
+your hero's Might is refreshed to its starting value, and you
+unlock your Nova Power Words and can use those until the
+end of current Story Arc.
+
+When a new Story Arc begins, all the marked off Motivations are 
+cleared and it’s time to start again.
+
+
+## Skills {#toc-skills}
+
+Outside of a fight, your hero has one or more Skills from their 
+civilian life -- from their secret identity, their profession 
+before their secret origin, or their advanced heroic training. 
+
+The Skills are:
+
+::::::::::::: twocolumn ::::::::::::::::::
+- Academic
+- Artist
+- Criminal
+- Engineer
+- Explorer
+- Hacker
+- Historian
+- Investigator
+- Journalist
+- Lawyer
+- Mystic
+- Officer
+- Performer
+- Physician
+- Pilot
+- Politician
+- Scientist
+- Socialite
+- Spy
+::::::::::::::::::::::::::::::::::::::::::
+
+
+- **Academic**
+
+- **Artist**
+
+- **Criminal**
+
+- **Engineer**
+
+- **Explorer**
+
+- **Hacker**
+
+- **Historian**
+
+- **Investigator**
+
+- **Journalist**
+
+- **Lawyer**
+
+- **Mystic**
+
+- **Officer**
+
+- **Performer**
+
+- **Physician**
+
+- **Pilot**
+
+- **Politician**
+
+- **Scientist**
+
+- **Socialite**
+
+- **Spy**
+
+
+## Fighting Style {#toc-fighting-style}
+
+Your hero specializes in one style of fighting, whether they attack 
+with their fists or their powers. Those styles are:
+
+- **Acrobat** Reduce by 1 the cost to avoid a move targeting only you.
+- **Brawler** Add 1 when you use an unarmed attack to advance the Smash goal.
+- **Controller** Add 1 when you use a Power to advance the Outwit goal.
+- **Frenzy** Add 1 when you use a Power to advance the Smash Goal.
+- **Juggernaut** Add 1 when you use a Power to advance the Withstand goal.
+- **Martial Artist** - Add 1 when you use an unarmed attack to advance the Outwit goal.
+- **Protector** Reduce by 1 the cost to Take the Hit for someone else.
+- **Sniper** Add 1 when you use a ranged Weapon to advance the Smash goal.
+- **Tactician** Add 1 when you add to the Teamwork Pool.
+- **Weaponmaster** Add 1 when you use a melee Weapon to advance the Outwit goal.
+
+If you choose the Knight class, you get to pick an additional fighting style. 
+
+## Powers {#toc-chargen-powers}
+
+[]{.lorem}
+
+## Nova Power {#toc-chargen-nova-power}
+
+Like Motivations, you can choose any two words you like for
+your hero's Nova Power Words.
+
+When you complete your Motivations list, you have access to those 
+two Power Words, which you can use separately or collectively in
+Power Stunts until the current Story Arc is over.
+
+Your Nova Power can be anything; you're encouraged to use your Nova
+Power Words to give your hero a unique ability.  
+Nova Power Words might look like this:
+
+- Soaring Dragon
+- Berserker Rage
+- Indomitable Spirit
+- Solar Flare
+
+
+## Your Hero's Identity {#toc-chargen-identity}
+
+[]{.lorem}
+
+
+## Powers {#toc-powers}
+
+[]{.lorem}
+
+### Power Words {#toc-power-words}
+
+Your hero has a list of six words called Personal Power Words, 
+chosen from the 15 Power Words associated with each class. 
+You also have two Core Power words shared by every hero in that class.
+
+In addition, you have two Nova Power Words that are unique to your hero; 
+you can freely choose any two words you like for your Nova Power Words.
+
+You can use your hero's Power Words in three ways:
+
+- a **Power Display**, which uses a single Power Word
+- a **Power Stunt**, using two (or more) Power Words
+- a **Power Combo**, with Power Words from two (or more) heroes
+
+### Power Displays {#toc-power-displays}
+
+When you want your hero to use their powers, you pick one Power Word
+and explain how you're using that power.
+
+A Power Display doesn't cost any Might points.
+
+Power Displays don't have a game-mechanics effect on your rolls, but you
+can use them to explain how you're able to *make* those rolls. 
+
+For example, if a villain is flying over the city, you could describe it
+as a Power Display using your Power Word of Flight when you take to 
+the skies to throw a punch. 
+
+If you don't have Flight as a Power Word, but you have Line, your
+Display could describe how you hook your swingline onto a nearby 
+skyscraper to deliver two boots to the face.
+
+### Power Stunts {#toc-power-stunts}
+
+A Power Stunt consists of two Power Words joined together, and unlike
+a Power Display, a Stunt will affect the result of your next roll.
+In addition, each use of a Stunt requires you to spend 1 point of Might.
+
+When you use a Power Stunt, choose two words from your Power Words
+and put them together in a two-word phrase, then describe what you're
+hoping to accomplish with that Stunt. You can also describe
+what the Stunt looks like, feels like, and any other sensory
+effects.
+
+After spending 1 Might on the Power Stunt, you can then make an
+appropriate roll for your Power Stunt -- either to increase the
+Teamwork Pool or to decrease one of the Goals in a Crisis. Add an
+additional 1 Success to the Effectiveness of the roll based on your Stunt.
+
+You don't have to come up with Power Stunts beforehand; instead,
+you create them on the fly during a Crisis, blending together your
+creativity with the ever-evolving situation in the game.
+
+For example, if you have the Flight and Speed Power Words, you
+could join those together for a Power Stunt with the phrase
+"Flight Speed". Spending 1 point of Might on this Stunt
+means that when you make a roll -- such as rolling your Adventure
+Facet to Outwit a foe -- increases your roll's Effectiveness by
+1 Success, even if you rolled 0 Successes.
+
+### Core Power Words {#toc-power-words-core}
+
+In addition to your six Personal Power Words, your hero also has two 
+**Core Power Words** common to all members of your class. 
+You can use these as you would any other Power Words in 
+Power Displays, Power Stunts, and Power Combos.
+
+You can also use one of your Core Power Words as a *third*
+Power Word in a Power Stunt. Doing so costs 1 additional point of
+Might, and adds another 1 Success to the Effectiveness of a roll.
+
+By spending 1 *more* Might point you can add your other Core Power 
+Word as a *fourth* Power Word in a Power Stunt. 
+Collectively this gives a bonus of 3 Successes on the rolls
+Effectiveness, but also costs you 3 Might points.
+
+For example, 
+
+### Power Combos {#toc-power-combos}
+
+A **Power Combo** is a Power Stunt where two or more heroes work
+together, with their powers combined. 
+
+To use a Power Combo, ask one of your fellow players if they'd
+like to form a Power Combo with you and tell them what you're trying
+to accomplish. Together you describe the action your heroes are
+taking and how their powers work to produce the needed effect.
+
+You can invite as many players to join in as you like, as long
+as you can come up with an explanation of how they're helping.
+
+The players decide whose hero is central to the Power Combo, 
+and they're called the initiating hero for that Combo.
+
+A Power Combo starts with a Power Stunt -- the player of the
+initiating hero chooses two Power Words and combines them,
+spending 1 point of Might and increasing the Effectiveness
+of the next roll by 1 Success.
+
+The other players each spend 1 Might and contribute another
+Power Word to the Power Combo, each of which increases the roll's
+Effectiveness by 1 Success.
+
+Only the initiating hero can spend additional Might to use one 
+of their Core Power Words as a *third* (or fourth) Power Word in 
+the Combo.
+
+For example, 
+
+### Nova Power Words {#toc-power-words-nova}
+
+When you've completed your hero's Motivations track, you unlock
+your **Nova Power Words** and can use them until the end of 
+the current Story Arc.
+
+You can use one of your Nova Power Words as the second Power
+Word in a Stunt without spending any Might; likewise, you can add 
+use one as your contribution to a Combo for free. In both cases, the 
+Nova Power Word still increases the roll's Effectiveness by 1 Success.
+
+Using your *other* Nova Power Word in the same Power Stunt or
+Power Combo requires spending 1 Might. 
+
+For example,
+
+### Scene Power Words {#toc-power-words-scene}
+
+The scene also has its Power Words that describe the environment
+around your heros. The Editor comes up with these when describing 
+a place, and can suggest how to use them if you ask. These are
+known as Scene Power Words.
+
+You can use one Scene Power Word as a second power in a Power Stunt
+without spending any Might; Scene Power Words are free, but they 
+still contribute 1 Success to the Effectiveness of a roll.
+
+Each Power Combo can also include one Scene Power Word for free, 
+and it likewise increases the Effectiveness of that Combo.
+
+For example,
+
+
 ## Classes {#toc-classes}
 
 The classes are:
@@ -426,7 +861,7 @@ The Paragon
 
 ### The Divine {#toc-divine}
 
-- Examples: Wonder Woman, Thor, Shazam
+- Examples: Wonder Woman, Thor, Shazam, Troia
 
 #### Skills
 
@@ -438,9 +873,9 @@ dice equal to the current Volume.
 
 #### Class Ability: 
 
-#### Power Words
+#### Personal Power Words
 
-Choose six Power Words from the following list:
+Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
 - Anger
@@ -460,11 +895,10 @@ Choose six Power Words from the following list:
 - Wisdom
 :::::::::::::::::::::::::
 
-When you use a **Power Stunt,** you can add one standard Power Word for free;
-this is called an **Effortless Power Use**.
+When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can add a second Power Word to a Power Stunt by paying 1 Might; this is
-called a **Standard Power Stunt** or simply **Power Stunt**.
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
 
 ##### Core Power Words
 
@@ -472,48 +906,55 @@ Your Core Power Words are **Divine** and **Assistance**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-You *can't* use these in an Effortless Power Use.
-
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
 When you complete your Motivations track, your Nova Power Words are **Unlocked**
 until the end of the current Story Arc.
 
-You can use one of your Nova Power Words in a Power Stunt for free; if you spend
-1 Might, you can include an extra Nova Power Word.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
 
-You *can* use Nova Power Words in an Effortless Power Use.
+#### Volume 1 Abilities
 
-#### Season 1 Abilities
-
-- one
-- two
-- three
-
-#### Season 2 Abilities
+At the start of Volume 1, choose an ability from this list.
 
 - one
 - two
 - three
 
-#### Season 3 Abilities
+#### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 - one
 - two
 - three
 
-#### Season 4 Abilities
+#### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 - one
 - two
 - three
 
-#### Season 5 Abilities
+#### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 - one
 - two
 - three
+
+#### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+- one
+- two
+- three
+
 
 ### The Knight  {#toc-knight}
 
@@ -532,11 +973,12 @@ dice equal to the current Volume.
 You represent the pinnacle of human achievement. If you have
 any powers, they're minor in comparison to extensive training.
 
-Choose one additional Fighting Style.
+This is reflected in both your large number of skills and your
+combat prowess: Choose one additional Fighting Style.
 
-#### Power Words
+#### Personal Power Words
 
-Choose six Power Words from the following list:
+Choose six Personal Power Words from the following list:
 
 ::::::::::: cpw :::::::::::::::::
 - Acrobat
@@ -556,11 +998,10 @@ Choose six Power Words from the following list:
 - Weapon (specific)
 :::::::::::::::::::::::::::::::::
 
-When you use a **Power Stunt,** you can add one standard Power Word for free;
-this is called an **Effortless Power Use**.
+When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can add a second Power Word to a Power Stunt by paying 1 Might; this is
-called a **Standard Power Stunt** or simply **Power Stunt**.
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
 
 ##### Core Power Words
 
@@ -568,53 +1009,59 @@ Your Core Power Words are **Prepared** and **Trick**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-You *can't* use these in an Effortless Power Use.
-
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
 When you complete your Motivations track, your Nova Power Words are **Unlocked**
 until the end of the current Story Arc.
 
-You can use one of your Nova Power Words in a Power Stunt for free; if you spend
-1 Might, you can include an extra Nova Power Word.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
 
-You *can* use Nova Power Words in an Effortless Power Use.
+#### Volume 1 Abilities
 
-#### Season 1 Abilities
-
-- one
-- two
-- three
-
-#### Season 2 Abilities
+At the start of Volume 1, choose an ability from this list.
 
 - one
 - two
 - three
 
-#### Season 3 Abilities
+#### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 - one
 - two
 - three
 
-#### Season 4 Abilities
+#### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 - one
 - two
 - three
 
-#### Season 5 Abilities
+#### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 - one
 - two
 - three
+
+#### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+- one
+- two
+- three
+
 
 ### The Monarch  {#toc-monarch}
 
 - Examples: Aquaman, Black Panther, Hippolyta, Namor, Doctor Doom
-- Skills: Explorer, Historian, Politician, and any two of your choice
 
 #### Skills
 
@@ -630,11 +1077,11 @@ You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
 
 If a Crisis threatens your domain, add 3 when you form
-or contribute to the Advantage Pool.
+or contribute to the Teamwork Pool.
 
-#### Power Words
+#### Personal Power Words
 
-Choose six Power Words from the following list:
+Choose six Personal Power Words from the following list:
 
 :::::::: cpw ::::::::::::
 - Armor
@@ -654,11 +1101,10 @@ Choose six Power Words from the following list:
 - Weapon (specific)
 :::::::::::::::::::::::::
 
-When you use a **Power Stunt,** you can add one standard Power Word for free;
-this is called an **Effortless Power Use**.
+When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can add a second Power Word to a Power Stunt or Combo by paying 1 Might; this is
-called a **Standard Power Stunt** or simply **Power Stunt**.
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
 
 ##### Core Power Words
 
@@ -666,44 +1112,50 @@ Your Core Power Words are **Hidden** and **Reinforcements**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-You *can't* use these in an Effortless Power Use.
-
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
 When you complete your Motivations track, your Nova Power Words are **Unlocked**
 until the end of the current Story Arc.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include an extra Nova Power Word.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+if you spend 1 Might, you can include the second Nova Power Word as well.
 
-You *can* use Nova Power Words in an Effortless Power Use.
+#### Volume 1 Abilities
 
-#### Season 1 Abilities
-
-- one
-- two
-- three
-
-#### Season 2 Abilities
+At the start of Volume 1, choose an ability from this list.
 
 - one
 - two
 - three
 
-#### Season 3 Abilities
+#### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 - one
 - two
 - three
 
-#### Season 4 Abilities
+#### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 - one
 - two
 - three
 
-#### Season 5 Abilities
+#### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+- one
+- two
+- three
+
+#### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
 
 - one
 - two
@@ -725,16 +1177,16 @@ dice equal to the current Volume.
 
 #### Class Ability: Multi-Power
 
-You are empowered in a way that gives you a wide variety of powers 
-you can use. When you pick one or more Paragon Power Words -- including
-before Volume1 -- pick an extra Power Word from any Class.
+You are empowered in a way that gives you a wide variety of powers you can use. 
+When you pick one or more Personal Power Words -- including before Volume 1 -- 
+also pick an extra Power Word from any Class.
 
 #### Power Words
 
 
-##### Class Power Words
+##### Personal Power Words
 
-Choose seven Power Words from the following list:
+Choose *seven* (not six) Personal Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
 - Alien
@@ -754,21 +1206,18 @@ Choose seven Power Words from the following list:
 - X-Ray
 ::::::::::::::::::::::::::::::::
 
-In addition, choose one Power Word from any other class's Power Words list.
+In addition, choose one Power Word from any other class's Personal Power Words list.
 
-When you use a **Power Stunt,** you can add one standard Power Word for free;
-this is called an **Effortless Power Use**.
+When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can add a second Power Word to a Power Stunt or Combo by paying 1 Might; this is
-called a **Standard Power Stunt** or simply **Power Stunt**.
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
 
 ##### Core Power Words
 
 Your Core Power Words are **Super** and **Power**. 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
-
-You *can't* use these in an Effortless Power Use.
 
 ##### Nova Power
 
@@ -777,41 +1226,255 @@ When you complete your Motivations track, your Nova Power Words are **Unlocked**
 until the end of the current Story Arc.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include an extra Nova Power Word.
+1 Might, you can include the second Nova Power Word as well.
 
-You *can* use Nova Power Words in an Effortless Power Use.
+#### Volume 1 Abilities
 
-#### Resource: Super-Adaptation
-
-#### Season 1 Abilities
+At the start of Volume 1, choose an ability from this list.
 
 - one
 - two
 - three
 
-#### Season 2 Abilities
+#### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 - one
 - two
 - three
 
-#### Season 3 Abilities
+#### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 - one
 - two
 - three
 
-#### Season 4 Abilities
+#### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 - one
 - two
 - three
 
-#### Season 5 Abilities
+#### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
 
 - one
 - two
 - three
+
+
+## Crisis {#toc-crisis}
+
+Any encounter requiring your hero's unique superheroic talents and 
+powers is known as a **Crisis.**
+A Crisis could be anything from a natural disaster to a runaway
+train; from a group of normal criminals to one or more super-powered
+villains.
+
+There isn't a separate game system for combats and fights; those use
+the same system as any other Crisis.
+
+Each Crisis is rated in three **Goals** that describe how the heroes 
+could tackle that Crisis:
+
+- **Smash** - defeating the Crisis through physical damage
+- **Outwit** - trick, persuade, or control the source of the Crisis
+- **Withstand** - outlast the Crisis by taking all it can throw at you
+
+### Countdown to Crisis {#toc-crisis-countdown}
+
+A Crisis can begin when one or more heroes hear of an ongoing problem
+and rush to the scene, or a problem could spontaneously arise at a
+location where some heroes happen to be present. Not all heroes need 
+to present at the start of a Crisis.
+
+The steps to take before a Crisis are:
+
+5. Set the Scene
+4. Determine who is Present
+3. Define the Goals
+2. Assemble the Teamwork Pool
+1. The Crisis begins!
+
+### Setting the Scene {#toc-crisis-scene}
+
+[]{.lorem}
+
+### Determining Who is Present {#toc-crisis-present}
+
+[]{.lorem}
+
+### Defining the Goals {#toc-crisis-goals}
+
+[]{.lorem}
+
+### Assembling the Teamwork Pool {#toc-crisis-pool}
+
+When the Crisis starts, every player makes a roll to build the 
+initial Teamwork Pool. The Teamwork Pool is an abstract way of 
+describing the factors that give the heroes the upper hand in resolving
+a Crisis. 
+
+If your hero is present at the scene of a Crisis, describe how your hero
+reacts when they become aware of the Crisis, and then make a roll using
+a Facet related to that reaction. Add the Effectiveness of that roll to
+the Teamwork Pool, along with the successes the other players roll for
+their heroes.
+
+If your hero is *not* on the Scene, add 1 to the Teamwork Pool when it's
+being formed. During the Hero Phase of the Crisis, the heroes can spend
+from the Teamwork Pool to call in the remaining heroes.
+
+Once the Teamwork Pool is formed, it’s time to start.
+
+### Starting a Crisis {#toc-crisis-start}
+
+Instead of having an initiative order like many games of this type, 
+there are two phases that alternate back and forth: 
+the Hero Phase and the Crisis Phase. 
+
+The first thing that happens after the Teamwork Pool is formed is 
+the Hero Phase.
+
+### Hero Phase {#toc-crisis-hero}
+
+The heroes can each take one action during the Hero Phase, one at a time, 
+in any order they like.
+
+While your hero is at the scene of a Crisis, there are essentially three
+things you can choose to do: Advance a Goal, Contribute to the Teamwork Pool,
+or Save Innocents.
+
+If your hero is *not* present, you can use the Timely Arrival action.
+
+### Timely Arrival {#toc-crisis-timely}
+
+When you use the Timely Arrival action, spend 5 successes from the
+Teamwork Pool have your hero arrive at the end of the current Hero Phase. 
+
+You can't take any other actions that turn, but you *can* describe 
+your entry to the scene and make a roll related to your arrival. 
+Add the Effectiveness of that roll to the Teamwork Pool.
+
+The cost of the Timely Arrival action decreases by 1 success every
+Crisis Phase.
+
+### General Alert {#toc-crisis-alert}
+
+If two or more heroes aren't present at a Crisis, one of the heroes at 
+the scene can use their turn to sound a General Alert and call for help.
+The cost of a General Alert is 1 success per hero called.
+
+The heroes arrive at the start of the *next* Hero Phase, and can act
+normally during that turn. They can describe their arrivals, but unlike
+a Timely Arrival, they don't roll to add to the Teamwork Pool.
+
+### Advance a Goal {#toc-crisis-advance}
+
+When you Advance a Goal, your hero is taking a step toward resolving the 
+Crisis. There are three different ways of doing this:
+
+- **Smash** - defeating the Crisis through physical damage
+- **Outwit** - trick, persuade, or control the source of the Crisis
+- **Withstand** - outlast the Crisis, taking all it can throw at you
+
+The difficulty of each Goal is the number of successes needed to 
+advance it once. You don’t need to roll all these successes at once; 
+you can take successes from the Teamwork Pool too. 
+
+Once the Goals have been advanced a total of five times, the Crisis ends.
+The players have successfully Smashed, Outwitted, or Withstood the danger.
+
+### Contribute to the Teamwork Pool {#toc-crisis-contribute}
+
+When you Contribute to the Pool, your hero is taking tactical actions 
+that will give the team an advantage. This can be literally anything 
+you can think of that might give your team an edge. 
+
+You might swing to the top of a nearby skyscraper to get a better view, 
+or you might cast a magical barrier to protect heroes. 
+
+When you Contribute, make a skill roll and add the total Effectiveness
+to the Teamwork Pool. 
+
+For example, 
+
+### Saving Innocents {#toc-crisis-saving}
+
+[]{.lorem}
+
+### Crisis Phase {#toc-crisis-crisis}
+
+Once every hero has taken an action, then it’s time for the Editor
+to take their turn.
+
+Every Crisis has a set number of turns per round. As a rule, the more 
+actions a Crisis gets per turn, the more difficult it is. 
+If the Crisis has the same number of actions as the hero team,
+it will be very challenging.
+
+The Editor chooses actions from the Encounter’s list. Every action has 
+a cost next to it – if the heroes pay this many successes from the 
+Teamwork Pool, they defend against the attack and nothing happens.
+
+For every action the Crisis tries to take, the heroes have an opportunity 
+to spend successes from the Teamwork Pool to defend. If there aren’t 
+enough successes in the pool to defend, or if the heroes decide not to defend, 
+then the action happens and the heroes face the consequences. 
+
+Possible consequences include losing Health, temporarily restricting 
+the heroes' ability to use a certain type of roll on their next turn,
+or innocents being endangered.
+
+Once the Editor has taken enough actions, it’s time to go back to the heroes.
+
+### Post-Crisis {#toc-crisis-post}
+
+[]{.lorem}
+
+
+## Advancements {#toc-advancements}
+
+After each Story Arc concludes:
+
+- Choose one Advancement from the following list; you can only add a Skill, Fighting Style, or Power Word once per Volume.
+  - Increase your Health by 1.
+  - Increase your Might by 1.
+  - Add one Skill.
+  - Add one Power Word from any class.
+  - Add one Fighting Style.
+- If you were the Spotlight Hero, increase any one Facet by 1.
+- (optional) Change one of your Motivations to any other word.
+- (optional) Change your Story Arc if you haven't already completed it.
+
+At the end of each Volume:
+
+- Pick a new Class ability from the new Volume or a previous Volume.
+- Create a new Story Arc for the new Volume.
+- (optional) Retcon one of the following: your Class, your Personal Power Word choices, your Fighting Style choice(s), your Skill choices, or your Nova Power Words.
+- (optional) Choose a new Costume, Symbol, or Hero Name.
+
+
+## The Official Handbook of the Cosmic Legends Universe {#toc-setting}
+
+[]{.lorem}
+
+
+## The Editor's Role {#toc-editor}
+
+[]{.lorem}
+
+
+## Sample Crises {#toc-handbook-sample}
+
+These are examples of crises that Editors can use as the backdrops for
+Story Arcs.
 
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1127,3 +1790,50 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
     You, including from the legal processes of any jurisdiction or authority.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Glossary of Game Terms
+
+- **Ability** - Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
+- **Action** – A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
+- **Advance a Goal** - An action taken by a hero designed to move a Crisis closer to resolution.
+- **Advancement** - The choice made by a player at the end of a Story Arc to increase their hero's Health or Might, or add a new Skill or Power Word. Adding a Skill or Power Word can only be chosen once per Volume.
+- **Adventure** – A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+- **Contribute to the Teamwork Pool** - An action taken by a hero designed to give the team an advantage against a Crisis.
+- **Crisis Phase** - The part of a Crisis when the Editor chooses the actions for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
+- **Crisis** – A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. (*Encounter* in Harmony Drive.)
+- **Detective** – A facet of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
+- **Edge Success** – A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
+- **Editor** - The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues. (*GM* in Harmony Drive.)
+- **Effectiveness** - The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
+- **Facets** – A hero's "stats". Facets describe a hero's preferred ways of solving problems.
+- **Fighting Style** – An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
+- **Goal** - One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
+- **Health** - A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
+- **Hero Phase** - The part of a Crisis when the players choose the actions taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
+- **Hero** - A single character whose actions are determined by a player who isn't the Editor.
+- **Issue** - A game session, usually 2 to 4 hours.
+- **Lesson** – The lesson a hero needs to learn, used to help the Editor plan a Spotlight Arc about the hero.
+- **Might** - A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
+- **Motivations** – A list of a hero's unique motivations. When a hero acts in accordance with an item in their Motivations, they mark it off and add two dice to their skill roll. (*Key* in Harmony Drive.)
+- **Mystery** – A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
+- **Nova Power Words** – Two Power Words that are available to the hero after they have marked off every item in their Motivations. These can be anything – the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+- **Outwit** - A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
+- **Personal Power Words** - Six or more Power Words that define a hero's Powers. (*Personal Spell Pieces* in Harmony Drive.)
+- **Power Combo** - An action using the Power Words of two or more heroes. (*Chord* in Harmony Drive.)
+- **Power Display** - An action by a hero that uses one of their Power Words in the description but gives no additional game benefits.
+- **Power Stunt** - An action by a hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
+- **Power Words** – The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo. (*Spell Pieces* in Harmony Drive.)
+- **Power** - The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
+- **Save Innocents** - An action taken by a hero to protect normal humans from the effects of a Crisis.
+- **Scene Power Words** - Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
+- **Series** - A group of Story Arcs following the same group of heroes; a campaign.
+- **Smash** - A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
+- **Spotlight Arc** – A short story revolving around a hero's lesson, usually only a couple sessions long, after which the hero grows.
+- **Story Arc** - One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
+- **Story** - An adventure, either self-contained in one Issue or continued to the next Issue.
+- **Success** – A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
+- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
+- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
+- **Suspense** – A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+- **Volume** - A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
+- **Withstand** - A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
