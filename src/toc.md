@@ -2,6 +2,7 @@
 # Table of Contents
 
 - <a href="#toc-ethos"></a>
+- <a href="#toc-influences"></a>
 - <a href="#toc-credits"></a>
 - <a href="#safety"></a>
 - <a href="#toc-dice"></a>

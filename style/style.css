@@ -474,6 +474,7 @@ blockquote {
   font-family: var(--font-quote);
   font-size: var(--quote);
   column-span: all;
+  margin-top: 0.5em;
   margin-left: 15%;
   margin-right: 15%;
   text-align: center; 
@@ -555,7 +556,6 @@ blockquote {
 .twocolumn { column-count: 2; column-gap: 1em; }
 .twocolumn ul { break-inside: auto; margin: 0; margin-left: 0.5em; }
 
-
 .cpw { column-count: 3; column-gap: 1em; }
 .cpw ul { break-inside: auto; margin: 0; }
 .cpw ul li { list-style-type: none; }
@@ -565,6 +565,7 @@ blockquote {
   text-align: center; 
   margin-bottom: 1em;
 } 
+
 .harmony-drive-logo img {
   width: 35%;
   height: auto;
