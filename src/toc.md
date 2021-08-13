@@ -33,8 +33,8 @@
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
   - <a href="#toc-power-combos"></a>
-  - <a href="#toc-power-use-personal"></a>
   - <a href="#toc-power-use-core"></a>
+  - <a href="#toc-power-use-personal"></a>
   - <a href="#toc-power-use-nova"></a>
   - <a href="#toc-power-use-scene"></a>
 - <a href="#toc-crisis"></a>
@@ -65,7 +65,6 @@
     - <a href="#toc-sample-myth-monsters"></a>
     - <a href="#toc-sample-natural-disasters"></a>
     - <a href="#toc-sample-ordinary-criminals"></a>
-    - <a href="#toc-sample-pandemic"></a>
     - <a href="#toc-sample-police"></a>
     - <a href="#toc-sample-science"></a>
     - <a href="#toc-sample-super-villains"></a>
