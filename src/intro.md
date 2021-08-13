@@ -10,7 +10,7 @@ all mankind.
 
 <div class="harmony-drive-logo">
   <a href="https://peachgardengames.itch.io/harmony-drive">
-    <img src="art/DrivenByHarmony.png" alt="Driven By Harmony" />
+    <img src="art/DrivenByHarmonyLogo.png" alt="Driven By Harmony" />
   </a>
 </div>
 

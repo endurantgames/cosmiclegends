@@ -48,6 +48,15 @@ you and your friends take the roles of super-powered heroes
 who fight against injustice, right that which is wrong, and serve
 all mankind.
 
+<div class="harmony-drive-logo">
+  <a href="https://peachgardengames.itch.io/harmony-drive">
+    <img src="art/DrivenByHarmonyLogo.png" alt="Driven By Harmony" />
+  </a>
+</div>
+
+The *[Harmony Drive](https://peachgardengames.itch.io/harmony-drive)*
+system created by Cat McDonald is at the heart of []{.gamename}.
+
 ## Ethos {#toc-ethos}
 
 []{.gamename} revolves around the following three pillars:
@@ -73,6 +82,10 @@ to choose failure. The Crisis system is built so that you can
 choose to take big hits. Good things and bad things happen to
 your hero, and both of these are in the your hands to choose. 
 The Editor’s job is to give you those difficult choices.
+
+## Influences
+
+[]{.lorem}
 
 ## What You Need
 
