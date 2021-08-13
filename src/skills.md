@@ -29,41 +29,41 @@ The Skills are:
 ::::::::::::::::::::::::::::::::::::::::::
 
 
-- **Academic**
+- **Academic** - []{.lorem}
 
-- **Artist**
+- **Artist** - []{.lorem}
 
-- **Criminal**
+- **Criminal** - []{.lorem}
 
-- **Engineer**
+- **Engineer** - []{.lorem}
 
-- **Explorer**
+- **Explorer** - []{.lorem}
 
-- **Hacker**
+- **Hacker** - []{.lorem}
 
-- **Historian**
+- **Historian** - []{.lorem}
 
-- **Investigator**
+- **Investigator** - []{.lorem}
 
-- **Journalist**
+- **Journalist** - []{.lorem}
 
-- **Lawyer**
+- **Lawyer** - []{.lorem}
 
-- **Mystic**
+- **Mystic** - []{.lorem}
 
-- **Officer**
+- **Officer** - []{.lorem}
 
-- **Performer**
+- **Performer** - []{.lorem}
 
-- **Physician**
+- **Physician** - []{.lorem}
 
-- **Pilot**
+- **Pilot** - []{.lorem}
 
-- **Politician**
+- **Politician** - []{.lorem}
 
-- **Scientist**
+- **Scientist** - []{.lorem}
 
-- **Socialite**
+- **Socialite** - []{.lorem}
 
-- **Spy**
+- **Spy** - []{.lorem}
 

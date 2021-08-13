@@ -387,6 +387,12 @@ color: crimson; }
   z-index: 100;
 }
 
+
+.lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
+                  'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
+                  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
+                  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
+
 #cover img#img-cover { display: none; }
 
 @page:blank { @top-left { content: normal; } }
@@ -402,3 +408,7 @@ color: crimson; }
 @page charsheet { @bottom-center { content: normal; } }
 
 
+#toc-glossary { column-span: all; }
+
+.glossary ul { margin: 0; }
+.glossary ul li { margin: 0; text-indent: 1em; list-style-type: none; margin-bottom: 0.2em; }

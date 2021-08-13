@@ -87,10 +87,19 @@ project text
   - <a href="#toc-crisis-crisis"></a>
   - <a href="#toc-crisis-post"></a>
 - <a href="#toc-advancements"></a>
-- <a href="#toc-handbook"></a>
-  - <a href="#toc-handbook-setting"></a>
-  - <a href="#toc-handbook-creating"></a>
-  - <a href="#toc-handbook-sample"></a>
+- <a href="#toc-setting"></a>
+- <a href="#toc-editor"></a>
+  - <a href="#toc-editor-creating"></a>
+  - <a href="#toc-sample-crises"></a>
+    - <a href="#toc-sample-aliens"></a>
+    - <a href="#toc-sample-capitalism"></a>
+    - <a href="#toc-sample-natural-disasters"></a>
+    - <a href="#toc-sample-ordinary-criminals"></a>
+    - <a href="#toc-sample-military"></a>
+    - <a href="#toc-sample-pandemic"></a>
+    - <a href="#toc-sample-police"></a>
+    - <a href="#toc-sample-science"></a>
+    - <a href="#toc-sample-super-villains"></a>
 - <a href="#anchor-license"></a>
 - <a href="#toc-glossary"></a>
 
@@ -615,43 +624,43 @@ The Skills are:
 ::::::::::::::::::::::::::::::::::::::::::
 
 
-- **Academic**
+- **Academic** - []{.lorem}
 
-- **Artist**
+- **Artist** - []{.lorem}
 
-- **Criminal**
+- **Criminal** - []{.lorem}
 
-- **Engineer**
+- **Engineer** - []{.lorem}
 
-- **Explorer**
+- **Explorer** - []{.lorem}
 
-- **Hacker**
+- **Hacker** - []{.lorem}
 
-- **Historian**
+- **Historian** - []{.lorem}
 
-- **Investigator**
+- **Investigator** - []{.lorem}
 
-- **Journalist**
+- **Journalist** - []{.lorem}
 
-- **Lawyer**
+- **Lawyer** - []{.lorem}
 
-- **Mystic**
+- **Mystic** - []{.lorem}
 
-- **Officer**
+- **Officer** - []{.lorem}
 
-- **Performer**
+- **Performer** - []{.lorem}
 
-- **Physician**
+- **Physician** - []{.lorem}
 
-- **Pilot**
+- **Pilot** - []{.lorem}
 
-- **Politician**
+- **Politician** - []{.lorem}
 
-- **Scientist**
+- **Scientist** - []{.lorem}
 
-- **Socialite**
+- **Socialite** - []{.lorem}
 
-- **Spy**
+- **Spy** - []{.lorem}
 
 
 ## Fighting Style {#toc-fighting-style}
@@ -1471,10 +1480,59 @@ At the end of each Volume:
 []{.lorem}
 
 
-## Sample Crises {#toc-handbook-sample}
+## Sample Crises {#toc-sample-crises}
 
 These are examples of crises that Editors can use as the backdrops for
 Story Arcs.
+
+
+### Aliens {#toc-sample-aliens}
+
+[]{.lorem}
+
+
+### Capitalism {#toc-sample-capitalism}
+
+[]{.lorem}
+
+
+### The Military {#toc-sample-military}
+
+[]{.lorem}
+
+
+### Mythological Monsters {#toc-sample-myth-monsters}
+
+[]{.lorem}
+
+
+### Natural Disasters {#toc-sample-natural-disasters}
+
+[]{.lorem}
+
+
+### Ordinary Criminals {#toc-sample-ordinary-criminals}
+
+[]{.lorem}
+
+
+### Pandemic {#toc-sample-pandemic}
+
+[]{.lorem}
+
+### The Police {#toc-sample-police}
+
+[]{.lorem}
+
+
+### Science Gone Wild {#toc-sample-science}
+
+[]{.lorem}
+
+
+### Super-Villains {#toc-sample-super-villains}
+
+[]{.lorem}
 
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1791,7 +1849,9 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Glossary of Game Terms
+## Glossary of Game Terms {#toc-glossary}
+
+::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
 
 - **Ability** - Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 - **Action** – A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
@@ -1807,6 +1867,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 - **Effectiveness** - The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
 - **Facets** – A hero's "stats". Facets describe a hero's preferred ways of solving problems.
 - **Fighting Style** – An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
+- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
 - **Goal** - One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
 - **Health** - A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
 - **Hero Phase** - The part of a Crisis when the players choose the actions taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
@@ -1832,8 +1893,8 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 - **Story Arc** - One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
 - **Story** - An adventure, either self-contained in one Issue or continued to the next Issue.
 - **Success** – A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
-- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
-- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 - **Suspense** – A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 - **Volume** - A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
 - **Withstand** - A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

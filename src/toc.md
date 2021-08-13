@@ -42,10 +42,19 @@
   - <a href="#toc-crisis-crisis"></a>
   - <a href="#toc-crisis-post"></a>
 - <a href="#toc-advancements"></a>
-- <a href="#toc-handbook"></a>
-  - <a href="#toc-handbook-setting"></a>
-  - <a href="#toc-handbook-creating"></a>
-  - <a href="#toc-handbook-sample"></a>
+- <a href="#toc-setting"></a>
+- <a href="#toc-editor"></a>
+  - <a href="#toc-editor-creating"></a>
+  - <a href="#toc-sample-crises"></a>
+    - <a href="#toc-sample-aliens"></a>
+    - <a href="#toc-sample-capitalism"></a>
+    - <a href="#toc-sample-natural-disasters"></a>
+    - <a href="#toc-sample-ordinary-criminals"></a>
+    - <a href="#toc-sample-military"></a>
+    - <a href="#toc-sample-pandemic"></a>
+    - <a href="#toc-sample-police"></a>
+    - <a href="#toc-sample-science"></a>
+    - <a href="#toc-sample-super-villains"></a>
 - <a href="#anchor-license"></a>
 - <a href="#toc-glossary"></a>
 

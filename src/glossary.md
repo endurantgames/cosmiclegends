@@ -1,4 +1,6 @@
-# Glossary of Game Terms
+# Glossary of Game Terms {#toc-glossary}
+
+::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
 
 - **Ability** - Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 - **Action** – A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
@@ -14,6 +16,7 @@
 - **Effectiveness** - The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
 - **Facets** – A hero's "stats". Facets describe a hero's preferred ways of solving problems.
 - **Fighting Style** – An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
+- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
 - **Goal** - One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
 - **Health** - A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
 - **Hero Phase** - The part of a Crisis when the players choose the actions taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
@@ -39,8 +42,8 @@
 - **Story Arc** - One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
 - **Story** - An adventure, either self-contained in one Issue or continued to the next Issue.
 - **Success** – A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
-- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
-- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 - **Suspense** – A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 - **Volume** - A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
 - **Withstand** - A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
