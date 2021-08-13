@@ -284,7 +284,7 @@ a:active  { text-decoration: none; color: red;    }
 a:visited { text-decoration: none; color: purple; }
 a:hover   { text-decoration: none; color: red;    }
 
-.gamename:before { content: string(gamename); font-family: var(--font-gamename); font-style: italic; }
+.gamename:before { content: string(gamename); font-family: var(--font-gamename); }
 
 .cw:before {  /* content warning */
   font-family: var(--icon-solid);
@@ -465,13 +465,12 @@ color: crimson; }
 .glossary ul { margin: 0; }
 .glossary ul li { margin: 0; text-indent: 1em; list-style-type: none; margin-bottom: 0.2em; }
 
-blockquote p { line-height: 1.0; }
+blockquote p { line-height: 1.0; margin: 0; }
 
 blockquote { 
   line-height: 1.0;
   margin-top: 0;
   padding: 0;
-  margin-bottom: 0.5em;
   font-family: var(--font-quote);
   font-size: var(--quote);
   column-span: all;
@@ -561,3 +560,12 @@ blockquote {
 .cpw ul { break-inside: auto; margin: 0; }
 .cpw ul li { list-style-type: none; }
 
+.harmony-drive-logo {
+  column-span: all;
+  text-align: center; 
+  margin-bottom: 1em;
+} 
+.harmony-drive-logo img {
+  width: 35%;
+  height: auto;
+}
