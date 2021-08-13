@@ -138,11 +138,14 @@ To play []{.gamename} you'll need:
 - <a href="#toc-advancements"></a>
 - <a href="#toc-setting"></a>
 - <a href="#toc-editor"></a>
-  - <a href="#toc-editor-creating"></a>
+  - <a href="#toc-editor-arc"></a>
+  - <a href="#toc-editor-crisis"></a>
   - <a href="#toc-sample-crises"></a>
     - <a href="#toc-sample-aliens"></a>
     - <a href="#toc-sample-alternate-universes"></a>
     - <a href="#toc-sample-capitalism"></a>
+    - <a href="#toc-sample-military"></a>
+    - <a href="#toc-sample-myth-monsters"></a>
     - <a href="#toc-sample-natural-disasters"></a>
     - <a href="#toc-sample-ordinary-criminals"></a>
     - <a href="#toc-sample-military"></a>
@@ -224,21 +227,19 @@ Specific items in the toolkit are credited as follows:
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
 
-To ensure that everyone has an enjoyable experience, we recommend the *TTRPG Safety Toolkit*,
-which we've included below. You should not play []{.gamename} without using at least
+To ensure that everyone has an enjoyable experience, we recommend techniques
+from the *TTRPG Safety Toolkit* that we've included below. 
+You should not play []{.gamename} without using at least
 one such tool in your game.
-
-In addition, we specifically call out certain points in the rules that need special attention
-from Game Guides and players. These are marked with an [alert symbol]{.cw}.
 
 
 ::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
 ### What are safety tools?
 
 Sometimes games have content or situations
-where a player or GM may feel stressed out,
+where a player or Editor may feel stressed out,
 unsafe, or otherwise not having fun. Safety tools
-are a way for players and GMs to communicate
+are a way for players and Editors to communicate
 and check-in before, during, and after a game in
 order to make sure everyone is still having fun, and
 to provide the right support when needed.
@@ -249,7 +250,7 @@ trust. There needs to be open and respectful
 communication alongside a culture of trust for
 these to work.
 
-As a GM, player, or organizer, you can create
+As an Editor, player, or organizer, you can create
 this culture by making it clear that the care and
 well-being of everyone at the table comes before
 the game or story. This can be done by actively
@@ -259,24 +260,9 @@ while not prying (nobody owes you their trauma
 as explanation), and actively checking in before,
 during, and after a game.
 
-### The toolkit
-
-Different safety tools work better for different
-people and games. Finding the ones that best suit
-the needs of everyone at the table is important, and
-should be facilitated through discussion at the start
-of every new game or new group.
-
-This guide provides summaries of some safety
-tools and techniques (with the original designers’
-permission) to add to your own toolkit. This
-includes the **X-card system**, the **Script Change
-RPG Toolbox**, the **Luxton Technique**, and more.
-Sources and links are provided at the end of this
-guide for the full original materials, and the toolkit is
-regularly updated with new tools.
-
 #### Before the Game Begins
+
+[]{.lorem}
 
 ##### Session 0
 
@@ -291,7 +277,7 @@ safety tools will be used at the table.
 on content in a game. 
 
 **Lines** are hard limits on
-content, things that the GM or the players don’t
+content, things that the Editor or the players don’t
 want to engage in. Setting up a line means that
 content won’t show up in the game at all. 
 
@@ -320,17 +306,9 @@ wants.
 **Ratings** and do-and-don’t-want content can
 be adjusted as needed throughout the game.
 
-##### Luxton Technique Discussion
-
-In the **Luxton Technique**, have an open
-discussion between everyone at the table
-about potential trauma triggers. This is with the
-understanding that it’s not possible to identify every
-single possible trigger or trauma, and that there is
-no social pressure to go into details or individual
-justifications for a trigger.
-
 #### During the Game
+
+[]{.lorem}
 
 ##### X, N, and O Cards
 
@@ -403,23 +381,6 @@ content. When [Resume]{.icon .resume} is used by tapping the
 card, typing the shorthand in the chat, or stating it
 out loud (“Let’s resume...”), continue with play.
 
-##### Luxton Technique
-
-With the **Luxton Technique**, when a participant
-comes across triggering content in play, they can
-choose to discuss it with the other people at the
-table. 
-
-The participant is given complete control
-over that content, expressed as a need or want for
-how play will continue. This can include in-game
-directions for plot and characters, as well as out
-of game needs such as breaks. 
-
-After the need and
-wants are expressed, everyone continues play to
-accomodate the requests.
-
 ##### Open Door
 
 The **Open Door** is the assurance that someone
@@ -438,37 +399,19 @@ other needs during this time.
 
 #### After the Game
 
+[]{.lorem}
+
 ##### Bleed
 
 Emotions and stress from the game can bleed over
 into post-game life. This can affect the enjoyment
 of the game, as well as out-of-game relationships
-between players and GM if not worked through.
+between players and Editor if not worked through.
 
 Being open and honest about where the game
 begins and ends, and being conscious of which
 feelings belong to the player and which are just
 bleed, helps to mitigate the effects.
-
-##### Aftercare
-
-Together as a group after the game, check-in with
-everyone to see how they are feeling. This is an
-open way for everyone to emotionally decompress,
-talk through, and process the events of the session
-in a safe environment.
-
-Encourage everyone to practice their own forms of
-self-care and remind them that their mental health
-comes first.
-
-##### Debriefing
-
-Debriefing as a group is a great way to reflect on
-the game, identify possible issues, highlight the
-fun things to continue, and work through potential
-bleed. Debriefing can happen right after the game
-or in the days following the stream.
 
 ##### Stars and Wishes
 
@@ -479,13 +422,13 @@ around and get everyone to state a star and wish.
 
 **Stars** are things that the participants really enjoyed
 and loved about the game. This could include a
-particular moment of roleplay, an encounter created
-by the GM, or anything else that stuck out as
+particular moment of roleplay, a Crisis created
+by the Editor, or anything else that stuck out as
 something awesome during the game. 
 
 **Wishes** are things that the participants would like to see
 in future sessions. This could include particular
-interactions between characters, potential story
+interactions between heroes, potential story
 moments and development, or anything else that
 could make the game even better in the future.
 
@@ -498,8 +441,8 @@ The **Highlight Reel** is used to reflect on the session
 and highlight moments participants enjoyed. At
 the end of the game, go around and get everyone
 to state highlight of the game for them. This
-could include a particular moment of roleplay, an
-encounter created by the GM, or anything else
+could include a particular moment of roleplay,
+Crisi created by the Editor, or anything else
 that stuck out as something awesome during the
 game. 
 
@@ -519,7 +462,7 @@ the issues going forward.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Rolling Dice {#toc-dice .colbefore}
+## Rolling Dice {#toc-dice .breakbefore}
 
 The dice mechanic in []{.gamename} is a pool of six-sided dice. 
 When players want to take an uncertain action, they build a dice pool.
@@ -543,6 +486,8 @@ they count the 1 as a Success.
 This consequence can be mechanical, like losing Health, or it can be 
 narrative, like upsetting an NPC or missing an important clue. 
 The important part is that the player is presented with a difficult choice.
+
+[]{.lorem}
 
 
 ## Issues, Story Arcs, Series, and Volumes {#toc-issues .breakbefore}
@@ -799,7 +744,7 @@ and if you think creatively, you can use them in your Power Stunts and Combos.
 []{.lorem}
 
 
-## Classes {#toc-classes .breakbefore}
+## Hero Classes {#toc-classes .breakbefore}
 
 []{.lorem}
 
@@ -817,6 +762,10 @@ The Paragon Classically strong champion of good
 []{.lorem}
 
 ### The Divine {#toc-divine .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
 
 - Examples: Wonder Woman, Thor, Shazam, Troia
 
@@ -934,6 +883,10 @@ At the start of Volume 5, choose an ability from any Volume's list.
 
 
 ### The Knight  {#toc-knight .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
 
 - Examples: Batman, Daredevil, Hawkeye, Captain America
 
@@ -1055,6 +1008,10 @@ At the start of Volume 5, choose an ability from any Volume's list.
 
 ### The Monarch  {#toc-monarch .breakbefore .class}
 
+[]{.lorem}
+
+These examples will be removed:
+
 - Examples: Aquaman, Black Panther, Hippolyta, Namor, Doctor Doom
 
 #### Skills
@@ -1170,6 +1127,10 @@ At the start of Volume 5, choose an ability from any Volume's list.
 
 
 ### The Paragon  {#toc-paragon .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
 
 - Examples: Supergirl, Superman, Captain Marvel, Martian Manhunter
 
@@ -1787,67 +1748,80 @@ At the end of each Volume:
 []{.lorem}
 
 
-## Creating a Crisis {#toc-editor-creating} 
+### Creating a Story Arc {#toc-editor-arc .colbefore} 
+
+[]{.lorem}
+
+[]{.lorem}
 
 []{.lorem}
 
 
-## Sample Crises {#toc-sample-crises}
+### Creating a Crisis {#toc-editor-crisis .colbefore} 
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+
+### Sample Crises {#toc-sample-crises .colbefore}
 
 These are examples of crises that Editors can use as the backdrops for
 Story Arcs.
 
 
-### Aliens {#toc-sample-aliens}
+#### Aliens {#toc-sample-aliens}
 
 []{.lorem}
 
 
-### Alternate Universes {#toc-sample-alternate-universes}
+#### Alternate Universes {#toc-sample-alternate-universes}
 
 []{.lorem}
 
 
-### Capitalism {#toc-sample-capitalism}
+#### Capitalism {#toc-sample-capitalism}
 
 []{.lorem}
 
 
-### The Military {#toc-sample-military}
+#### The Military {#toc-sample-military}
 
 []{.lorem}
 
 
-### Mythological Monsters {#toc-sample-myth-monsters}
+#### Mythological Monsters {#toc-sample-myth-monsters}
 
 []{.lorem}
 
 
-### Natural Disasters {#toc-sample-natural-disasters}
+#### Natural Disasters {#toc-sample-natural-disasters}
 
 []{.lorem}
 
 
-### Ordinary Criminals {#toc-sample-ordinary-criminals}
+#### Ordinary Criminals {#toc-sample-ordinary-criminals}
 
 []{.lorem}
 
 
-### Pandemic {#toc-sample-pandemic}
+#### Pandemic {#toc-sample-pandemic}
 
 []{.lorem}
 
-### The Police {#toc-sample-police}
-
-[]{.lorem}
-
-
-### Science Gone Wild {#toc-sample-science}
+#### The Police {#toc-sample-police}
 
 []{.lorem}
 
 
-### Super-Villains {#toc-sample-super-villains}
+#### Science Gone Wild {#toc-sample-science}
+
+[]{.lorem}
+
+
+#### Super-Villains {#toc-sample-super-villains}
 
 []{.lorem}
 

@@ -1,5 +1,9 @@
 # The Monarch  {#toc-monarch .breakbefore .class}
 
+[]{.lorem}
+
+These examples will be removed:
+
 - Examples: Aquaman, Black Panther, Hippolyta, Namor, Doctor Doom
 
 ## Skills

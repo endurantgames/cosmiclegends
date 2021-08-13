@@ -1,5 +1,9 @@
 # The Divine {#toc-divine .breakbefore .class}
 
+[]{.lorem}
+
+These examples will be removed:
+
 - Examples: Wonder Woman, Thor, Shazam, Troia
 
 ## Skills

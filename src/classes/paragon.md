@@ -1,5 +1,9 @@
 # The Paragon  {#toc-paragon .breakbefore .class}
 
+[]{.lorem}
+
+These examples will be removed:
+
 - Examples: Supergirl, Superman, Captain Marvel, Martian Manhunter
 
 ## Skills

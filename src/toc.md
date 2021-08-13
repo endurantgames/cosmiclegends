@@ -48,11 +48,14 @@
 - <a href="#toc-advancements"></a>
 - <a href="#toc-setting"></a>
 - <a href="#toc-editor"></a>
-  - <a href="#toc-editor-creating"></a>
+  - <a href="#toc-editor-arc"></a>
+  - <a href="#toc-editor-crisis"></a>
   - <a href="#toc-sample-crises"></a>
     - <a href="#toc-sample-aliens"></a>
     - <a href="#toc-sample-alternate-universes"></a>
     - <a href="#toc-sample-capitalism"></a>
+    - <a href="#toc-sample-military"></a>
+    - <a href="#toc-sample-myth-monsters"></a>
     - <a href="#toc-sample-natural-disasters"></a>
     - <a href="#toc-sample-ordinary-criminals"></a>
     - <a href="#toc-sample-military"></a>

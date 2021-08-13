@@ -31,9 +31,10 @@ powers/words
 crisis
 advancement
 setting
-editor
-create_crisis
-sample_crises/*
+editor/
+editor/arc
+editor/crisis
+editor/sample_crises/*
 glossary
 license
 charsheet

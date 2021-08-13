@@ -1,4 +1,4 @@
-# Classes {#toc-classes .breakbefore}
+# Hero Classes {#toc-classes .breakbefore}
 
 []{.lorem}
 

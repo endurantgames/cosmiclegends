@@ -1,4 +1,4 @@
-# Rolling Dice {#toc-dice .colbefore}
+# Rolling Dice {#toc-dice .breakbefore}
 
 The dice mechanic in []{.gamename} is a pool of six-sided dice. 
 When players want to take an uncertain action, they build a dice pool.
@@ -22,4 +22,6 @@ they count the 1 as a Success.
 This consequence can be mechanical, like losing Health, or it can be 
 narrative, like upsetting an NPC or missing an important clue. 
 The important part is that the player is presented with a difficult choice.
+
+[]{.lorem}
 

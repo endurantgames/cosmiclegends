@@ -1,5 +1,9 @@
 # The Knight  {#toc-knight .breakbefore .class}
 
+[]{.lorem}
+
+These examples will be removed:
+
 - Examples: Batman, Daredevil, Hawkeye, Captain America
 
 ## Skills

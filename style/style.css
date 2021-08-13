@@ -98,10 +98,10 @@ header h1     { string-set: gamename content()       }
   --subtitle:  26pt;
   --subsubtitle: 28pt;
   --hype:      28pt;
-  --h1:        20pt; 
-  --h2:        18pt;
-  --h3:        15pt;
-  --h4:        13pt;
+  --h1:        24pt; 
+  --h2:        22pt;
+  --h3:        16pt;
+  --h4:        14pt;
   --h5:        13pt;
   --h6:        11pt;
   --th:         9pt;
