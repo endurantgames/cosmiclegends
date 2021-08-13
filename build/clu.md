@@ -784,16 +784,46 @@ and if you think creatively, you can use them in your Power Stunts and Combos.
 
 ## Hero Classes {#toc-classes .breakbefore}
 
-[]{.lorem}
+:::::::::::::::::::: classtable :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-The classes are:
+---------------------------------------------------------------------------------------------
+Class           Skills                      Core Power Words    PPWs   Class Ability
+--------------- -------------------------   -----------------  ------  ----------------------
+The Divine      Explorer, Historian,        Divine,              6     TBD
+                Mystic, plus any two        Assistance
 
-Class       Description
------------ -------------------------
-The Divine  Infused with the power of the Gods
-The Knight  Normal human with extensive training
-The Monarch Leader of a hidden kingdom
-The Paragon Classically strong champion of good
+The Dynamo      Any two                     Power,               6     Energy Reserve
+                                            Overload, plus
+                                            one more
+
+The Inventor    Engineer, Hacker,           Experimental,        6     TBD
+                Scientist, plus any two     Prototype
+
+The Knight      Criminal, Investigator,     Prepared,            5     Peak Human Potential
+                Spy, plus any four          Trick
+
+The Mage        Historian, Mystic,          Sorcery,             6     Grimoire
+                plus any two                Supreme
+
+The Monarch     Explorer, Historian,        Unexpected,          6     Defend the Kingdom
+                Politician, plus any        Reinforcements
+                two
+
+The Monstrosity Criminal, Explorer,         Strongest,           6     TBD
+                plus any two                Monster
+
+The Paragon     Any two                     Super,             7 + 1   TBD
+                                            Powers
+
+The Psychic     Academic, plus any          Focused,             6     TBD
+                two                         Totality
+
+The Shaper      Artist, Scientist,          Shape,               6     TBD
+                plus any two                Environment, plus
+                                            one more
+ 
+---------------------------------------------------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 
@@ -823,6 +853,12 @@ dice equal to the current Volume.
 
 []{.lorem}
 
+##### Core Power Words
+
+Your Core Power Words are **Divine** and **Assistance**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
 ##### Personal Power Words
 
 Choose six Personal Power Words from the following list:
@@ -849,12 +885,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-##### Core Power Words
-
-Your Core Power Words are **Divine** and **Assistance**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ##### Nova Power
 
@@ -1190,7 +1220,7 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: Peak Human Training
+#### Class Ability: Peak Human Potential
 
 You represent the pinnacle of human achievement. If you have
 any powers, they're minor in comparison to extensive training.
@@ -1202,9 +1232,15 @@ combat prowess: Choose one additional Fighting Style.
 
 []{.lorem}
 
+##### Core Power Words
+
+Your Core Power Words are **Prepared** and **Trick**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
 ##### Personal Power Words
 
-Choose six Personal Power Words from the following list:
+Choose five Personal Power Words from the following list:
 
 ::::::::::: cpw :::::::::::::::::
 - Acrobat
@@ -1228,12 +1264,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-##### Core Power Words
-
-Your Core Power Words are **Prepared** and **Trick**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ##### Nova Power
 
@@ -1434,7 +1464,7 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: Defend Your Kingdom
+#### Class Ability: Defend the Kingdom
 
 You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
@@ -1442,7 +1472,17 @@ a physical location or a metaphorical concept such as "the Seas".
 If a Crisis threatens your domain, add 3 when you form
 or contribute to the Teamwork Pool.
 
-#### Personal Power Words
+#### Power Words
+
+[]{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Unexpected** and **Reinforcements**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
 
 Choose six Personal Power Words from the following list:
 
@@ -1453,13 +1493,13 @@ Choose six Personal Power Words from the following list:
 - Command
 - Communicate
 - Forest
+- Hidden
 - Remote
 - Skies
 - Superior
 - Survivor
 - Seas
 - Technology
-- Unexpected
 - Vehicle (specific)
 - Weapon (specific)
 :::::::::::::::::::::::::
@@ -1468,12 +1508,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-##### Core Power Words
-
-Your Core Power Words are **Hidden** and **Reinforcements**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ##### Nova Power
 
@@ -1673,15 +1707,19 @@ You have two skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: Multi-Power
+#### Class Ability: TBD
 
-You are empowered in a way that gives you a wide variety of powers you can use. 
-When you pick one or more Personal Power Words -- including before Volume 1 -- 
-also pick an extra Power Word from any Class.
+[]{.lorem}
 
 #### Power Words
 
 []{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Super** and **Powers**. 
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
 
 ##### Personal Power Words
 
@@ -1711,12 +1749,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-##### Core Power Words
-
-Your Core Power Words are **Super** and **Power**. 
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ##### Nova Power
 
@@ -1917,7 +1949,7 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: Power Tap
+#### Class Ability: TBD
 
 []{.lorem}
 

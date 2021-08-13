@@ -570,3 +570,17 @@ blockquote {
   width: 35%;
   height: auto;
 }
+
+.classtable {
+  width: 100%;
+  column-span: all;
+  margin-bottom: 1em;
+}
+
+.classtable thead { border-bottom: var(--color-line); }
+.classtable tbody tr:nth-child(even) { background-color: #f0f0f0; }
+.classtable :matches(th, td) { padding: 1pt; }
+.classtable a:link, .classtable a:visited, .classtable a:hover, .classtable a:visited {
+  color: black;
+}
+
