@@ -19,14 +19,16 @@ facets
 motivation
 skills
 fighting_style
+chargen_power
+chargen_nova
+identity
 powers
-nova_power
 classes/*
 crises
 advancement
-editor
 setting
-crises_handbook/*
+editor
+crisis_handbook/*
 license
 glossary
 # charsheet

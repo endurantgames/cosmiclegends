@@ -6,10 +6,13 @@
 - <a href="#toc-dice"></a>
 - <a href="#toc-issues"></a>
 - <a href="#toc-chargen"></a>
-- <a href="#toc-facets"></a>
-- <a href="#toc-motivation"></a>
-- <a href="#toc-skills"></a>
-- <a href="#toc-fighting-style"></a>
+  - <a href="#toc-facets"></a>
+  - <a href="#toc-motivation"></a>
+  - <a href="#toc-skills"></a>
+  - <a href="#toc-fighting-style"></a>
+  - <a href="#toc-chargen-powers"></a>
+  - <a href="#toc-chargen-nova-power"></a>
+  - <a href="#toc-chargen-identity"></a>
 - <a href="#toc-powers"></a>
   - <a href="#toc-power-words"></a>
   - <a href="#toc-power-displays"></a>
@@ -18,7 +21,6 @@
   - <a href="#toc-power-combos"></a>
   - <a href="#toc-power-words-nova"></a>
   - <a href="#toc-power-words-scene"></a>
-- <a href="#toc-nova-power"></a>
 - <a href="#toc-classes"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-knight"></a>

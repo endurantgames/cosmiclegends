@@ -1,4 +1,4 @@
-# Nova Power {#toc-nova-power}
+# Nova Power {#toc-chargen-nova-power}
 
 Like Motivations, you can choose any two words you like for
 your hero's Nova Power Words.
