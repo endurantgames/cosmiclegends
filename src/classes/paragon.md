@@ -13,16 +13,16 @@ dice equal to the current Volume.
 
 ## Class Ability: Multi-Power
 
-You are empowered in a way that gives you a wide variety of powers 
-you can use. When you pick one or more Paragon Power Words -- including
-before Volume1 -- pick an extra Power Word from any Class.
+You are empowered in a way that gives you a wide variety of powers you can use. 
+When you pick one or more Personal Power Words -- including before Volume 1 -- 
+also pick an extra Power Word from any Class.
 
 ## Power Words
 
 
-### Class Power Words
+### Personal Power Words
 
-Choose seven Power Words from the following list:
+Choose *seven* (not six) Personal Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
 - Alien
@@ -42,21 +42,18 @@ Choose seven Power Words from the following list:
 - X-Ray
 ::::::::::::::::::::::::::::::::
 
-In addition, choose one Power Word from any other class's Power Words list.
+In addition, choose one Power Word from any other class's Personal Power Words list.
 
-When you use a **Power Stunt,** you can add one standard Power Word for free;
-this is called an **Effortless Power Use**.
+When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can add a second Power Word to a Power Stunt or Combo by paying 1 Might; this is
-called a **Standard Power Stunt** or simply **Power Stunt**.
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
 
 ### Core Power Words
 
 Your Core Power Words are **Super** and **Power**. 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
-
-You *can't* use these in an Effortless Power Use.
 
 ### Nova Power
 
@@ -65,37 +62,43 @@ When you complete your Motivations track, your Nova Power Words are **Unlocked**
 until the end of the current Story Arc.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include an extra Nova Power Word.
+1 Might, you can include the second Nova Power Word as well.
 
-You *can* use Nova Power Words in an Effortless Power Use.
+## Volume 1 Abilities
 
-## Resource: Super-Adaptation
-
-## Season 1 Abilities
+At the start of Volume 1, choose an ability from this list.
 
 - one
 - two
 - three
 
-## Season 2 Abilities
+## Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 - one
 - two
 - three
 
-## Season 3 Abilities
+## Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 - one
 - two
 - three
 
-## Season 4 Abilities
+## Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 - one
 - two
 - three
 
-## Season 5 Abilities
+## Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
 
 - one
 - two

@@ -31,7 +31,7 @@ BACKUPS = --backup=numbered
 #   Edit: probably unnecessary
 PROJ_RECIPE = $(PROJ)
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
-PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
+PROJ_OUT    = $(OUTDIR)/Cosmic-Legends.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
 # CSS Location
