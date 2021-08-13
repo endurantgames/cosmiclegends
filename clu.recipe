@@ -10,7 +10,6 @@ credits/jam
 credits/no_fascists
 credits/safety
 safety/intro
-safety/cw
 safety/toolkit
 dice
 issues
@@ -35,6 +34,6 @@ setting
 editor
 create_crisis
 sample_crises/*
-license
 glossary
-# charsheet
+license
+charsheet

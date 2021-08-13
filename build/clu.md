@@ -150,8 +150,9 @@ To play []{.gamename} you'll need:
     - <a href="#toc-sample-police"></a>
     - <a href="#toc-sample-science"></a>
     - <a href="#toc-sample-super-villains"></a>
-- <a href="#anchor-license"></a>
 - <a href="#toc-glossary"></a>
+- <a href="#anchor-license"></a>
+- <a href="#anchor-herosheet"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1292,6 +1293,85 @@ At the start of Volume 5, choose an ability from any Volume's list.
 []{.lorem}
 
 
+### Power Displays {#toc-power-displays}
+
+When you want your hero to use their powers, you pick one Power Word
+and explain how you're using that power.
+
+A Power Display doesn't cost any Might points.
+
+Power Displays don't have a game-mechanics effect on your rolls, but you
+can use them to explain how you're able to *make* those rolls. 
+
+For example, if a villain is flying over the city, you could describe it
+as a Power Display using your Power Word of Flight when you take to 
+the skies to throw a punch. 
+
+If you don't have Flight as a Power Word, but you have Line, your
+Display could describe how you hook your swingline onto a nearby 
+skyscraper to deliver two boots to the face.
+
+### Power Stunts {#toc-power-stunts .colbefore}
+
+A Power Stunt consists of two Power Words joined together, and unlike
+a Power Display, a Stunt will affect the result of your next roll.
+In addition, each use of a Stunt requires you to spend 1 point of Might.
+
+When you use a Power Stunt, choose two words from your Power Words
+and put them together in a two-word phrase, then describe what you're
+hoping to accomplish with that Stunt. You can also describe
+what the Stunt looks like, feels like, and any other sensory
+effects.
+
+After spending 1 Might on the Power Stunt, you can then make an
+appropriate roll for your Power Stunt -- either to increase the
+Teamwork Pool or to decrease one of the Goals in a Crisis. Add an
+additional 1 Success to the Effectiveness of the roll based on your Stunt.
+
+You don't have to come up with Power Stunts beforehand; instead,
+you create them on the fly during a Crisis, blending together your
+creativity with the ever-evolving situation in the game.
+
+For example, if you have the Flight and Speed Power Words, you
+could join those together for a Power Stunt with the phrase
+"Flight Speed". Spending 1 point of Might on this Stunt
+means that when you make a roll -- such as rolling your Adventure
+Facet to Outwit a foe -- increases your roll's Effectiveness by
+1 Success, even if you rolled 0 Successes.
+
+
+### Power Combos {#toc-power-combos .colbefore}
+
+A **Power Combo** is a Power Stunt where two or more heroes work
+together, with their powers combined. 
+
+To use a Power Combo, ask one of your fellow players if they'd
+like to form a Power Combo with you and tell them what you're trying
+to accomplish. Together you describe the action your heroes are
+taking and how their powers work to produce the needed effect.
+
+You can invite as many players to join in as you like, as long
+as you can come up with an explanation of how they're helping.
+
+The players decide whose hero is central to the Power Combo, 
+and they're called the initiating hero for that Combo.
+
+A Power Combo starts with a Power Stunt -- the player of the
+initiating hero chooses two Power Words and combines them,
+spending 1 point of Might and increasing the Effectiveness
+of the next roll by 1 Success.
+
+The other players each spend 1 Might and contribute another
+Power Word to the Power Combo, each of which increases the roll's
+Effectiveness by 1 Success.
+
+Only the initiating hero can spend additional Might to use one 
+of their Core Power Words as a *third* (or fourth) Power Word in 
+the Combo.
+
+For example, []{.lorem}
+
+
 <div id="power-table">
 
   <h3>Power Word Use</h3>
@@ -1457,85 +1537,6 @@ At the start of Volume 5, choose an ability from any Volume's list.
   </table>
 
 </div>
-
-### Power Displays {#toc-power-displays}
-
-When you want your hero to use their powers, you pick one Power Word
-and explain how you're using that power.
-
-A Power Display doesn't cost any Might points.
-
-Power Displays don't have a game-mechanics effect on your rolls, but you
-can use them to explain how you're able to *make* those rolls. 
-
-For example, if a villain is flying over the city, you could describe it
-as a Power Display using your Power Word of Flight when you take to 
-the skies to throw a punch. 
-
-If you don't have Flight as a Power Word, but you have Line, your
-Display could describe how you hook your swingline onto a nearby 
-skyscraper to deliver two boots to the face.
-
-### Power Stunts {#toc-power-stunts .colbefore}
-
-A Power Stunt consists of two Power Words joined together, and unlike
-a Power Display, a Stunt will affect the result of your next roll.
-In addition, each use of a Stunt requires you to spend 1 point of Might.
-
-When you use a Power Stunt, choose two words from your Power Words
-and put them together in a two-word phrase, then describe what you're
-hoping to accomplish with that Stunt. You can also describe
-what the Stunt looks like, feels like, and any other sensory
-effects.
-
-After spending 1 Might on the Power Stunt, you can then make an
-appropriate roll for your Power Stunt -- either to increase the
-Teamwork Pool or to decrease one of the Goals in a Crisis. Add an
-additional 1 Success to the Effectiveness of the roll based on your Stunt.
-
-You don't have to come up with Power Stunts beforehand; instead,
-you create them on the fly during a Crisis, blending together your
-creativity with the ever-evolving situation in the game.
-
-For example, if you have the Flight and Speed Power Words, you
-could join those together for a Power Stunt with the phrase
-"Flight Speed". Spending 1 point of Might on this Stunt
-means that when you make a roll -- such as rolling your Adventure
-Facet to Outwit a foe -- increases your roll's Effectiveness by
-1 Success, even if you rolled 0 Successes.
-
-
-### Power Combos {#toc-power-combos .colbefore}
-
-A **Power Combo** is a Power Stunt where two or more heroes work
-together, with their powers combined. 
-
-To use a Power Combo, ask one of your fellow players if they'd
-like to form a Power Combo with you and tell them what you're trying
-to accomplish. Together you describe the action your heroes are
-taking and how their powers work to produce the needed effect.
-
-You can invite as many players to join in as you like, as long
-as you can come up with an explanation of how they're helping.
-
-The players decide whose hero is central to the Power Combo, 
-and they're called the initiating hero for that Combo.
-
-A Power Combo starts with a Power Stunt -- the player of the
-initiating hero chooses two Power Words and combines them,
-spending 1 point of Might and increasing the Effectiveness
-of the next roll by 1 Success.
-
-The other players each spend 1 Might and contribute another
-Power Word to the Power Combo, each of which increases the roll's
-Effectiveness by 1 Success.
-
-Only the initiating hero can spend additional Might to use one 
-of their Core Power Words as a *third* (or fourth) Power Word in 
-the Combo.
-
-For example, []{.lorem}
-
 
 ### Using Personal Power Words {#toc-power-use-personal .colbefore}
 
@@ -1851,6 +1852,56 @@ Story Arcs.
 []{.lorem}
 
 
+## Glossary of Game Terms {#toc-glossary .breakbefore}
+
+::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
+
+- **Ability** - Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
+- **Action** – A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
+- **Advance a Goal** - An action taken by a hero designed to move a Crisis closer to resolution.
+- **Advancement** - The choice made by a player at the end of a Story Arc to increase their hero's Health or Might, or add a new Skill or Power Word. Adding a Skill or Power Word can only be chosen once per Volume.
+- **Adventure** – A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+- **Contribute to the Teamwork Pool** - An action taken by a hero designed to give the team an advantage against a Crisis.
+- **Crisis Phase** - The part of a Crisis when the Editor chooses the actions for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
+- **Crisis** – A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. (*Encounter* in Harmony Drive.)
+- **Detective** – A facet of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
+- **Edge Success** – A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
+- **Editor** - The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues. (*GM* in Harmony Drive.)
+- **Effectiveness** - The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
+- **Facets** – A hero's "stats". Facets describe a hero's preferred ways of solving problems.
+- **Fighting Style** – An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
+- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
+- **Goal** - One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
+- **Health** - A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
+- **Hero Phase** - The part of a Crisis when the players choose the actions taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
+- **Hero** - A single character whose actions are determined by a player who isn't the Editor.
+- **Issue** - A game session, usually 2 to 4 hours.
+- **Lesson** – The lesson a hero needs to learn, used to help the Editor plan a Spotlight Arc about the hero.
+- **Might** - A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
+- **Motivations** – A list of a hero's unique motivations. When a hero acts in accordance with an item in their Motivations, they mark it off and add two dice to their skill roll. (*Key* in Harmony Drive.)
+- **Mystery** – A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
+- **Nova Power Words** – Two Power Words that are available to the hero after they have marked off every item in their Motivations. These can be anything – the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+- **Outwit** - A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
+- **Personal Power Words** - Six or more Power Words that define a hero's Powers. (*Personal Spell Pieces* in Harmony Drive.)
+- **Power Combo** - An action using the Power Words of two or more heroes. (*Chord* in Harmony Drive.)
+- **Power Display** - An action by a hero that uses one of their Power Words in the description but gives no additional game benefits.
+- **Power Stunt** - An action by a hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
+- **Power Words** – The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo. (*Spell Pieces* in Harmony Drive.)
+- **Power** - The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
+- **Save Innocents** - An action taken by a hero to protect normal humans from the effects of a Crisis.
+- **Scene Power Words** - Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
+- **Series** - A group of Story Arcs following the same group of heroes; a campaign.
+- **Smash** - A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
+- **Spotlight Arc** – A short story revolving around a hero's lesson, usually only a couple sessions long, after which the hero grows.
+- **Story Arc** - One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
+- **Story** - An adventure, either self-contained in one Issue or continued to the next Issue.
+- **Success** – A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
+- **Suspense** – A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
+- **Volume** - A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
+- **Withstand** - A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 [License]{#anchor-license .anchor}
@@ -2165,52 +2216,9 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Glossary of Game Terms {#toc-glossary}
+::::::::::::::::::::::::::::::::: {.herosheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
 
-::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
+Here's the hero sheet.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-- **Ability** - Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
-- **Action** – A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
-- **Advance a Goal** - An action taken by a hero designed to move a Crisis closer to resolution.
-- **Advancement** - The choice made by a player at the end of a Story Arc to increase their hero's Health or Might, or add a new Skill or Power Word. Adding a Skill or Power Word can only be chosen once per Volume.
-- **Adventure** – A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
-- **Contribute to the Teamwork Pool** - An action taken by a hero designed to give the team an advantage against a Crisis.
-- **Crisis Phase** - The part of a Crisis when the Editor chooses the actions for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
-- **Crisis** – A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. (*Encounter* in Harmony Drive.)
-- **Detective** – A facet of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
-- **Edge Success** – A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
-- **Editor** - The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues. (*GM* in Harmony Drive.)
-- **Effectiveness** - The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
-- **Facets** – A hero's "stats". Facets describe a hero's preferred ways of solving problems.
-- **Fighting Style** – An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
-- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
-- **Goal** - One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
-- **Health** - A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
-- **Hero Phase** - The part of a Crisis when the players choose the actions taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
-- **Hero** - A single character whose actions are determined by a player who isn't the Editor.
-- **Issue** - A game session, usually 2 to 4 hours.
-- **Lesson** – The lesson a hero needs to learn, used to help the Editor plan a Spotlight Arc about the hero.
-- **Might** - A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
-- **Motivations** – A list of a hero's unique motivations. When a hero acts in accordance with an item in their Motivations, they mark it off and add two dice to their skill roll. (*Key* in Harmony Drive.)
-- **Mystery** – A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
-- **Nova Power Words** – Two Power Words that are available to the hero after they have marked off every item in their Motivations. These can be anything – the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
-- **Outwit** - A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
-- **Personal Power Words** - Six or more Power Words that define a hero's Powers. (*Personal Spell Pieces* in Harmony Drive.)
-- **Power Combo** - An action using the Power Words of two or more heroes. (*Chord* in Harmony Drive.)
-- **Power Display** - An action by a hero that uses one of their Power Words in the description but gives no additional game benefits.
-- **Power Stunt** - An action by a hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
-- **Power Words** – The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo. (*Spell Pieces* in Harmony Drive.)
-- **Power** - The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
-- **Save Innocents** - An action taken by a hero to protect normal humans from the effects of a Crisis.
-- **Scene Power Words** - Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
-- **Series** - A group of Story Arcs following the same group of heroes; a campaign.
-- **Smash** - A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
-- **Spotlight Arc** – A short story revolving around a hero's lesson, usually only a couple sessions long, after which the hero grows.
-- **Story Arc** - One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
-- **Story** - An adventure, either self-contained in one Issue or continued to the next Issue.
-- **Success** – A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
-- **Suspense** – A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
-- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
-- **Volume** - A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
-- **Withstand** - A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -453,11 +453,11 @@ color: crimson; }
 
 @page:nth(2) { @bottom-center { content: '- i -'; } }
 
-#charsheet { page: charsheet; }
-@page charsheet { margin: 0; }
-@page charsheet { @top-right     { content: normal; } }
-@page charsheet { @top-left      { content: normal; } }
-@page charsheet { @bottom-center { content: normal; } }
+#herosheet { page: herosheet; }
+@page herosheet { margin: 0; }
+@page herosheet { @top-right     { content: normal; } }
+@page herosheet { @top-left      { content: normal; } }
+@page herosheet { @bottom-center { content: normal; } }
 
 
 #toc-glossary { column-span: all; }

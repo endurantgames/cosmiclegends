@@ -60,7 +60,8 @@
     - <a href="#toc-sample-police"></a>
     - <a href="#toc-sample-science"></a>
     - <a href="#toc-sample-super-villains"></a>
-- <a href="#anchor-license"></a>
 - <a href="#toc-glossary"></a>
+- <a href="#anchor-license"></a>
+- <a href="#anchor-herosheet"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
