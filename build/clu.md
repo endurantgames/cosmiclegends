@@ -93,9 +93,15 @@ To play []{.gamename} you'll need:
   - <a href="#toc-chargen-identity"></a>
 - <a href="#toc-classes"></a>
   - <a href="#toc-divine"></a>
+  - <a href="#toc-dynamo"></a>
+  - <a href="#toc-inventor"></a>
   - <a href="#toc-knight"></a>
+  - <a href="#toc-mage"></a>
   - <a href="#toc-monarch"></a>
+  - <a href="#toc-monstrosity"></a>
   - <a href="#toc-paragon"></a>
+  - <a href="#toc-psychic"></a>
+  - <a href="#toc-shaper"></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
@@ -142,6 +148,56 @@ To play []{.gamename} you'll need:
 - <a href="#anchor-herosheet"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Ethos {#toc-ethos}
+
+[]{.gamename} revolves around the following three pillars:
+
+### Self Expression
+
+The Power Word system and Crisis system are intentionally built to 
+give players freedom to engage with problems in their own style. 
+[]{.gamename} lets you be yourself, and do things in your own way, 
+without being left behind by your team.
+
+### Teamwork
+
+[]{.gamename} games is written to encourage the players to work 
+together. Whether you're combining your powers to use Power Combos
+or using your skills to overcome an opponent together, heroes in 
+[]{.gamename} succeed or fail as a team.
+
+### Difficult Choices
+
+The Edge Success system is built so that you have the freedom 
+to choose failure. The Crisis system is built so that you can 
+choose to take big hits. Good things and bad things happen to
+your hero, and both of these are in the your hands to choose. 
+The Editor’s job is to give you those difficult choices.
+
+
+## Influences {#toc-influences}
+
+[]{.lorem}
+
+### The Super Friends
+
+Obvious reference is obvious.
+
+[]{.lorem}
+
+### "Four-Color"
+
+Explain what we mean by that
+
+[]{.lorem}
+
+### The Bronze Age
+
+Talk about the Bronze Age and give examples
+
+[]{.lorem}
+
 
 :::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## No Fascists
@@ -866,6 +922,260 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
+### The Dynamo: WIP {#toc-dynamo .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
+
+- Examples: Human Torch, Cyclops, Lightning Lad, Flash
+
+#### Skills
+
+You have any two skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+#### Class Ability: Energy Reserve
+
+[]{.lorem}
+
+#### Power Words
+
+[]{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Power** and **Overload**.
+
+In addition, you get a third Core Power Word chosen from
+the following list:
+
+::::::::::::: cpw :::::::
+- Cold
+- Darkness
+- Electricity
+- Heat
+- Light
+- Radiation
+- Sound
+- Speed
+:::::::::::::::::::::::::
+
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+2 Might to add another, or 3 Might to add all three.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Absorb
+- Beam
+- Bubble
+- Dampen
+- Explosion
+- Flare
+- Flight
+- Punch
+- Push
+- Sense
+- Shield
+- Solid
+- Space
+- TBD
+- TBD
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+#### Dynamo Abilities {.colbefore .class}
+
+[]{.lorem}
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose an ability from this list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+- four
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+
+### The Inventor: WIP {#toc-inventor .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed: Iron Man, Reed Richards, Brainiac 5
+
+- Examples: 
+
+#### Skills
+
+You have the **Engineer**, **Hacker**, and **Scientist** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+#### Class Ability: TBD
+
+[]{.lorem}
+
+#### Power Words
+
+[]{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Experimental** and **Prototype**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Advanced
+- Analyze
+- Armor
+- Energy
+- Field
+- Force
+- Jet
+- Laser
+- Miniaturize
+- Redirect
+- Robot
+- Store
+- Tracer
+- Vehicle
+- Weapon
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+#### Inventor Abilities {.colbefore .class}
+
+[]{.lorem}
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose an ability from this list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+- four
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+
 ### The Knight  {#toc-knight .breakbefore .class}
 
 []{.lorem}
@@ -937,6 +1247,126 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 #### Knight Abilities {.colbefore .class}
+
+[]{.lorem}
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose an ability from this list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+- four
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+
+### The Mage: WIP {#toc-mage .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
+
+- Examples: 
+
+#### Skills
+
+You have the **Historian** and  **Mystic** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+#### Class Ability: Grimoire
+
+[]{.lorem}
+
+#### Power Words
+
+[]{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Sorcery** and **Supreme**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Bands
+- Banish
+- Blast
+- Extradimensional
+- Flight
+- Magic
+- Portal
+- Sense
+- Shatter
+- Shield
+- Space
+- Summon
+- Time
+- Travel
+- Ward
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+#### Mage Abilities {.colbefore .class}
 
 []{.lorem}
 
@@ -1110,6 +1540,126 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
+### The Monstrosity: WIP {#toc-monstrosity .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
+
+- Examples: Ben Grimm, the Hulk, Beast Boy, Hulkling
+
+#### Skills
+
+You have the **Criminal** and **Explorer** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+#### Class Ability: TBD
+
+[]{.lorem}
+
+#### Power Words
+
+[]{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Strongest** and **Monster**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Animal
+- Body
+- Claws
+- Clobber
+- Demolish
+- Giant
+- Horrifying
+- Immovable
+- Leap
+- Regenerate
+- Rocky
+- Shifting
+- Stomp
+- Strength
+- Throw
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+#### Monstrosity Abilities {.colbefore .class}
+
+[]{.lorem}
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose an ability from this list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+- four
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+
 ### The Paragon  {#toc-paragon .breakbefore .class}
 
 []{.lorem}
@@ -1180,6 +1730,264 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 #### Paragon Abilities {.colbefore .class}
+
+[]{.lorem}
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose an ability from this list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+- four
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+
+### The Psychic: WIP {#toc-psychic .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
+
+- Examples: Saturn Girl, Professor X, Jean Grey, Psylocke
+
+#### Skills
+
+You have the **Academic** skill, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+#### Class Ability: TBD
+
+[]{.lorem}
+
+#### Power Words
+
+[]{.lorem}
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Alter
+- Broadcast
+- Confusion
+- Emotion
+- Erase
+- Implant
+- Language
+- Link
+- Memory
+- Probe
+- Restore
+- Sense
+- Shield
+- Thought
+- Transfer
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Core Power Words
+
+Your Core Power Words are **Focused** and **Totality**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+#### Psychic Abilities {.colbefore .class}
+
+[]{.lorem}
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose an ability from this list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+- four
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+- three
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from any Volume's list.
+
+::::::::::: ability-list ::::::::::::
+- one
+- two
+:::::::::::::::::::::::::::::::::::::
+
+
+### The Shaper: WIP {#toc-shaper .breakbefore .class}
+
+[]{.lorem}
+
+These examples will be removed:
+
+- Examples: Invisible Woman, Magneto, Storm, Cosmic Boy
+
+#### Skills
+
+You have the **Artist** and **Scientist** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the current Volume.
+
+#### Class Ability: Power Tap
+
+[]{.lorem}
+
+#### Power Words
+
+[]{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Shape** and **Environment**.
+
+In addition, you get a third Core Power Word chosen from
+the following list:
+
+::::::::::::: cpw :::::::
+- Cloth
+- Earth
+- Force
+- Gravity
+- Ice
+- Plants
+- Rock
+- Shadows
+- Technology
+- Water
+- Weather
+:::::::::::::::::::::::::
+
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+2 Might to add another, or 3 Might to add all three.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Absorb
+- Become
+- Blast
+- Sphere
+- Create
+- Destroy
+- Ring
+- Flight
+- Flight
+- Quell
+- Reshape
+- Sense
+- Shield
+- Transmute
+- Trap
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you complete your Motivations track, your Nova Power Words are **Unlocked**
+until the end of the current Story Arc.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+#### Shaper Abilities {.colbefore .class}
 
 []{.lorem}
 

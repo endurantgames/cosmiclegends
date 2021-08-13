@@ -65,7 +65,6 @@
     - <a href="#toc-sample-myth-monsters"></a>
     - <a href="#toc-sample-natural-disasters"></a>
     - <a href="#toc-sample-ordinary-criminals"></a>
-    - <a href="#toc-sample-military"></a>
     - <a href="#toc-sample-pandemic"></a>
     - <a href="#toc-sample-police"></a>
     - <a href="#toc-sample-science"></a>

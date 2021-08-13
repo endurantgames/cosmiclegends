@@ -1,4 +1,4 @@
-# The Psychic: WIP {#toc-psychic .breakbefore .class}
+# The Psychic {#toc-psychic .breakbefore .class}
 
 []{.lorem}
 

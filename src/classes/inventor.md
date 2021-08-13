@@ -1,4 +1,4 @@
-# The Inventor: WIP {#toc-inventor .breakbefore .class}
+# The Inventor {#toc-inventor .breakbefore .class}
 
 []{.lorem}
 

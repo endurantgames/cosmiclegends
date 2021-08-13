@@ -1,4 +1,4 @@
-# The Mage: WIP {#toc-mage .breakbefore .class}
+# The Mage {#toc-mage .breakbefore .class}
 
 []{.lorem}
 

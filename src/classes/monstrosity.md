@@ -1,4 +1,4 @@
-# The Monstrosity: WIP {#toc-monstrosity .breakbefore .class}
+# The Monstrosity {#toc-monstrosity .breakbefore .class}
 
 []{.lorem}
 

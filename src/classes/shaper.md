@@ -1,4 +1,4 @@
-# The Shaper: WIP {#toc-shaper .breakbefore .class}
+# The Shaper {#toc-shaper .breakbefore .class}
 
 []{.lorem}
 

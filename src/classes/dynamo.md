@@ -1,4 +1,4 @@
-# The Dynamo: WIP {#toc-dynamo .breakbefore .class}
+# The Dynamo {#toc-dynamo .breakbefore .class}
 
 []{.lorem}
 
