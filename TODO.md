@@ -2,37 +2,42 @@
 
 Cosmic Legends of the Universe
 
-- [ ] Facets
-  - [ ] Adventure
-  - [ ] Action
-  - [ ] Detective
-  - [ ] Mystery
-  - [ ] Suspense
+- [x] Ethos
+- [ ] Influences
+- [x] Credits
+- [x] Safety
+- [x] Facets
+  - [x] Adventure
+  - [x] Action
+  - [x] Detective
+  - [x] Mystery
+  - [x] Suspense
 - [ ] Classes
   - [ ] Core (Superfriends)
     - [ ] The Demigod
     - [ ] The Knight
     - [ ] The Monarch 
     - [ ] The Paragon 
-  - [ ] Secondary
+  - [ ] Expansion
     - [ ] The Dynamo
     - [ ] The Inventor
     - [ ] The Mage
     - [ ] The Monstrosity
     - [ ] The Psychic
     - [ ] The Shaper
-- [ ] Fighting Style
-  - [ ] Acrobat        - Reduce by 1 the cost to avoid a move targeting only you.
-  - [ ] Brawler        - Add 1 when you use an unarmed attack to advance the Smash goal.
-  - [ ] Controller     - Add 1 when you use a Power to advance the Outwit goal.
-  - [ ] Frenzy         - Add 1 when you use a Power to advance the Smash Goal.
-  - [ ] Juggernaut     - Add 1 when you use a Power to advance the Withstand goal.
-  - [ ] Martial Artist - Add 1 when you use an unarmed attack to advance the Outwit goal.
-  - [ ] Protector      - Reduce by 1 the cost to Take the Hit for someone else.
-  - [ ] Sniper         - Add 1 when you use a ranged Weapon to advance the Smash goal.
-  - [ ] Tactician      - Add 1 when you add to the Advantage Pool.
-  - [ ] Weaponmaster   - Add 1 when you use a melee Weapon to advance the Outwit goal.
-- [ ] Skills
+- [x] Issues, etc
+- [x] Fighting Style
+  - [x] Acrobat
+  - [x] Brawler
+  - [x] Controller
+  - [x] Frenzy
+  - [x] Juggernaut
+  - [x] Martial Artist
+  - [x] Protector
+  - [x] Sniper
+  - [x] Tactician
+  - [x] Weaponmaster
+- [/] Skills
   - [ ] Academic
   - [ ] Artist
   - [ ] Criminal
@@ -52,17 +57,70 @@ Cosmic Legends of the Universe
   - [ ] Scientist
   - [ ] Socialite
   - [ ] Spy
-- [ ] Goals
-  - [ ] Smash
-  - [ ] Outwit
-  - [ ] Withstand
-- [ ] Advances
-  - [ ] Story Arc character
-    - [ ] +1 Facet
-  - [ ] Everyone
-    - [ ] +1 Health
-    - [ ] +1 Might
-    - [ ] +1 Reserve
-    - [ ] +1 Skill
-    - [ ] +1 Power Word
-
+- [x] Goals
+  - [x] Smash
+  - [x] Outwit
+  - [x] Withstand
+- [x] Advances
+  - [x] Story Arc character
+    - [x] +1 Facet
+  - [x] Everyone
+    - [x] +1 Health
+    - [x] +1 Might
+    - [x] +1 Skill
+    - [x] +1 Power Word
+- [ ] Identity
+- [/] Powers
+  - [x] Core
+  - [x] Personal
+  - [x] Nova
+  - [/] Scene
+    - [ ] Examples
+- [/] Power Use
+  - [x] Power Displays
+    - [x] Examples
+  - [/] Power Stunts
+    - [ ] Examples
+  - [/] Power Combos
+    - [ ] Examples
+  - [/] Power Words
+    - [/] Core
+      - [ ] Examples
+    - [/] Personal
+      - [ ] Examples
+    - [/] Nova
+      - [ ] Examples
+    - [/] Scene
+      - [ ] Examples
+- [/] Crisis
+  - [/] Countdown
+    - [ ] Scene
+    - [ ] Present
+    - [x] Goals
+    - [x] Pool
+  - [x] Start
+  - [/] Hero Phase
+    - [x] Timely
+    - [x] Alert
+    - [x] Advance
+    - [x] Contribute
+    - [ ] Saving
+- [x] Advancements
+- [ ] Setting
+- [ ] The Editor
+  - [ ] Creating Story Arcs
+  - [ ] Creating Crises
+  - [ ] Sample Crises
+    - [ ] Aliens
+    - [ ] Alt Univ
+    - [ ] Capitalism
+    - [ ] Military
+    - [ ] Myth Monsters
+    - [ ] Nat Disasters
+    - [ ] Ord Crim
+    - [ ] Police
+    - [ ] Science
+    - [ ] Villains
+- [x] Glossary
+- [x] License
+- [ ] Hero Sheet

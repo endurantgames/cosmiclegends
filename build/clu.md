@@ -138,7 +138,6 @@ To play []{.gamename} you'll need:
     - <a href="#toc-sample-myth-monsters"></a>
     - <a href="#toc-sample-natural-disasters"></a>
     - <a href="#toc-sample-ordinary-criminals"></a>
-    - <a href="#toc-sample-military"></a>
     - <a href="#toc-sample-pandemic"></a>
     - <a href="#toc-sample-police"></a>
     - <a href="#toc-sample-science"></a>
@@ -922,7 +921,7 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
-### The Dynamo: WIP {#toc-dynamo .breakbefore .class}
+### The Dynamo {#toc-dynamo .breakbefore .class}
 
 []{.lorem}
 
@@ -1056,7 +1055,7 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
-### The Inventor: WIP {#toc-inventor .breakbefore .class}
+### The Inventor {#toc-inventor .breakbefore .class}
 
 []{.lorem}
 
@@ -1300,7 +1299,7 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
-### The Mage: WIP {#toc-mage .breakbefore .class}
+### The Mage {#toc-mage .breakbefore .class}
 
 []{.lorem}
 
@@ -1540,7 +1539,7 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
-### The Monstrosity: WIP {#toc-monstrosity .breakbefore .class}
+### The Monstrosity {#toc-monstrosity .breakbefore .class}
 
 []{.lorem}
 
@@ -1783,7 +1782,7 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
-### The Psychic: WIP {#toc-psychic .breakbefore .class}
+### The Psychic {#toc-psychic .breakbefore .class}
 
 []{.lorem}
 
@@ -1903,7 +1902,7 @@ At the start of Volume 5, choose an ability from any Volume's list.
 :::::::::::::::::::::::::::::::::::::
 
 
-### The Shaper: WIP {#toc-shaper .breakbefore .class}
+### The Shaper {#toc-shaper .breakbefore .class}
 
 []{.lorem}
 
