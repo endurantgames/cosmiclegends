@@ -123,4 +123,4 @@ Cosmic Legends of the Universe
     - [ ] Villains
 - [x] Glossary
 - [x] License
-- [ ] Hero Sheet
+- [x] Hero Sheet
