@@ -51,8 +51,8 @@ header h1     { string-set: gamename content()       }
   --font-h6: 'Legio Sabina Condensed';     
   */
 
-  --color-sheet-light: #CCCCCC;
-  --color-sheet-dark: #808080;
+  --color-sheet-light: #AAAAAA;
+  --color-sheet-dark: #555555;
   --font-sheet-1: "Legio Sabina";
   --font-sheet-2: "Legio Sabina Condensed";
   --font-sheet-3: "Comic Neue";
@@ -604,7 +604,7 @@ blockquote {
   width: auto;
   position: absolute;
   top: 0.25in;
-  left: 0.25in; 
+  left: 0.32in; 
 }
 
 .herosheet .label {
@@ -627,7 +627,7 @@ blockquote {
 .herosheet .label.facet.adventure { top: 0.50in; right: 1.70in; }
 .herosheet .label.facet.suspense { top: 4.25in; left: 0.425in; }
 .herosheet .label.facet.detective { top: 4.25in; right: 0.44in; }
-.herosheet .label.facet.mystery { bottom: 0.48in; left: 4.20in; }
+.herosheet .label.facet.mystery { bottom: 0.48in; left: 5.95in; }
  
 
 .herosheet .label.might-max { top: 2.90in; right: 0.55in; }
@@ -645,8 +645,8 @@ blockquote {
 
 .herosheet .label.core { top: 3.75in; right: 5.55in; }
 .herosheet .label.personal { top: 3.75in; left: 5.55in; }
-.herosheet .label.class-ability { top: 1.90in; right: 5.55in; }
-.herosheet .label.skills { top: 1.90in; left: 5.55in; }
+.herosheet .label.class-ability { top: 1.88in; right: 5.55in; }
+.herosheet .label.skills { top: 1.88in; left: 5.55in; }
 
 /* this is how we center-align things
  */
@@ -679,7 +679,7 @@ blockquote {
 .herosheet .label.volume-ability.v5 { top: 2.25in; left: 2.0in; transform: rotate(-50.2deg); }
 
 .herosheet .box.b1.nova-unlocked { top: 6.52in; right: 5.04in; transform: rotate(-40.1deg); }
-.herosheet .label.nova-unlocked { top: 6.30in; right: 4.52in; transform: rotate(-40.1deg); }
+.herosheet .label.nova-unlocked { top: 6.31in; right: 4.51in; transform: rotate(-40.1deg); }
 
 .herosheet .box.b1.arc-complete { bottom: 0.72in; left: 4.75in; }
 .herosheet .label.arc-complete { bottom: 0.76in; left: 4.00in; }
@@ -698,4 +698,13 @@ blockquote {
 
 .herosheet .label.bio { color: var(--color-sheet-dark); bottom: 0.72in; right: 0.53in; font-size: var(--h3); }
 
+
+.herosheet .label.nova,
+.herosheet .label.core,
+.herosheet .label.personal,
+.herosheet .label.class,
+.herosheet .label.volume,
+.herosheet .label.skills,
+.herosheet .label.class-ability,
+.herosheet .label.fighting-styles { color: var(--color-sheet-dark); }
 
