@@ -595,16 +595,16 @@ blockquote {
 @page herosheet { 
   background-image: url("../art/clu-herosheet.svg");
   background-repeat: no-repeat;
-  background-position: center 0.25in;;
+  background-position: center;
   background-size: auto 100%;
 }
 
 .herosheet .clu-logo { 
-  height: 0.875in;
+  height: 0.550in;
   width: auto;
   position: absolute;
-  top: 0.24in;
-  left: 0.75in; 
+  top: 0.25in;
+  left: 0.25in; 
 }
 
 .herosheet .label {
@@ -616,45 +616,86 @@ blockquote {
   font-size: var(--large);
 }
 
-.herosheet .label.might-max { top: 1in; right: 0.8in; }
-.herosheet .label.health-max { top: 1in; left: 0.8in; }
+.herosheet .label.facet {
+  font-size: var(--h3);
+  color: var(--color-sheet-dark);
+  width: 1.0in;
+  text-align: center;
+}
+
+.herosheet .label.facet.action { top: 0.50in; left: 1.90in; }
+.herosheet .label.facet.adventure { top: 0.50in; right: 1.70in; }
+.herosheet .label.facet.suspense { top: 4.25in; left: 0.425in; }
+.herosheet .label.facet.detective { top: 4.25in; right: 0.44in; }
+.herosheet .label.facet.mystery { bottom: 0.48in; left: 4.20in; }
+ 
+
+.herosheet .label.might-max { top: 2.90in; right: 0.55in; }
+.herosheet .label.health-max { top: 2.90in; left: 0.55in; }
+
+.herosheet .label.class { top: 0.75in; right: 0.55in; }
+.herosheet .label.volume { top: 1.375in; right: 0.55in; }
+.herosheet .box.b5.volume-boxes { top: 1.61in; right: 0.53in; }
+.herosheet .label.nickname { top: 0.75in; left: 0.55in; }
+.herosheet .label.pronouns { top: 1.375in; left: 0.55in; }
 
 /* these appear reversed because we're measuring from the other side,
  * so that they align correctly
  */
 
-.herosheet .label.class { top: 2.3in; right: 5.55in; }
-.herosheet .label.core { top: 2.3in; left: 5.55in; }
-.herosheet .label.class-ability { top: 2.5in; right: 5.55in; }
-.herosheet .label.personal { top: 2.5in; left: 5.55in; }
-.herosheet .label.skills { top: 4in; right: 5.55in; }
-.herosheet .label.fighting-styles { top: 4in; left: 5.55in; }
+.herosheet .label.core { top: 3.75in; right: 5.55in; }
+.herosheet .label.personal { top: 3.75in; left: 5.55in; }
+.herosheet .label.class-ability { top: 1.90in; right: 5.55in; }
+.herosheet .label.skills { top: 1.90in; left: 5.55in; }
 
 /* this is how we center-align things
  */
-.herosheet .label.volume-ability.v1 { top: 1in; width: 3in; left: 4in; text-align: center; }
-.herosheet .label.nova { top: 5.625in; width: 3in; left: 4in; text-align: center; }
-.herosheet .label.volume { top: 1.4in; width: 3in; left: 4in; text-align: center; }
 
 /* rotated -- these are the upper left
  */
 
-.herosheet .label.volume-ability.v5 { top: 2.5in; left: 1.5in; transform: rotate(-50.2deg); }
-.herosheet .label.health { color: var(--color-sheet-dark); top: 2.25in; left: 1.40in; transform: rotate(-50.2deg); font-size: var(--h2); }
+.herosheet .box { display: block; position: absolute; 
+  color: var(--color-sheet-dark);
+  font-size: var(--h3);
+}
+.herosheet.box.b1 { width: 0.125in; text-align: center; }
+
+.herosheet .box.b1:before { content: '\002610 '; }
+.herosheet .box.b5:before { content: '\002610\002610\002610\002610\002610 '; }
+
+.herosheet .box.m1 { top: 1.175in; left: 3.41in; }
+.herosheet .box.m2 { top: 1.175in; right: 3.41in; }
+.herosheet .box.m3 { top: 3.615in; left: 1.15in; }
+.herosheet .box.m4 { top: 3.615in; right: 1.15in; }
+.herosheet .box.m5 { bottom: 1.22in; left: 4.78in; }
+
+.herosheet .label.name              { top: 0.55in; width: 3in; left: 4in; text-align: center; }
+.herosheet .label.nova              { top: 5.75in; width: 3in; left: 4in; text-align: center; }
+.herosheet .label.fighting-styles   { top: 1.35in; width: 3in; left: 4in; text-align: center; }
+.herosheet .label.volume-ability.v1 { top: 1.15in; width: 3in; left: 4in; text-align: center; }
+.herosheet .label.volume-ability.v2 { top: 2.25in; right: 2.0in; transform: rotate(50.2deg); }
+.herosheet .label.volume-ability.v3 { top: 5.33in; right: 2.80in; transform: rotate(-40.1deg); }
+.herosheet .label.volume-ability.v4 { top: 5.33in; left: 2.80in; transform: rotate(40.1deg); }
+.herosheet .label.volume-ability.v5 { top: 2.25in; left: 2.0in; transform: rotate(-50.2deg); }
+
+.herosheet .box.b1.nova-unlocked { top: 6.52in; right: 5.04in; transform: rotate(-40.1deg); }
+.herosheet .label.nova-unlocked { top: 6.30in; right: 4.52in; transform: rotate(-40.1deg); }
+
+.herosheet .box.b1.arc-complete { bottom: 0.72in; left: 4.75in; }
+.herosheet .label.arc-complete { bottom: 0.76in; left: 4.00in; }
+
+.herosheet .label.health { color: var(--color-sheet-dark); top: 1.98in; left: 0.53in; font-size: var(--h3); }
+.herosheet .label.might  { color: var(--color-sheet-dark); top: 1.98in; right: 0.53in; font-size: var(--h3); }
 
 /* upper right */
 
-.herosheet .label.volume-ability.v2 { top: 2.5in; right: 1.5in; transform: rotate(50.2deg); }
-.herosheet .label.might  { color: var(--color-sheet-dark); top: 2.25in; right: 1.475in; transform: rotate(50.2deg); font-size: var(--h2); }
 
 
 /* lower left */
-.herosheet .label.volume-ability.v4 { top: 5.8in; left: 2.60in; transform: rotate(40.1deg); }
-.herosheet .label.story-arc { color: var(--color-sheet-dark); top: 5.875in; left: 2.325in; transform: rotate(40.1deg); font-size: var(--h2); }
+.herosheet .label.story-arc { color: var(--color-sheet-dark); bottom: 0.72in; left: 0.53in; font-size: var(--h3); }
 
 /* lower right */
 
-.herosheet .label.volume-ability.v3 { top: 5.8in; right: 2.60in; transform: rotate(-40.1deg); }
-.herosheet .label.bio { color: var(--color-sheet-dark); top: 5.8in; right: 1.150in; transform: rotate(-40.1deg); font-size: var(--h2); }
+.herosheet .label.bio { color: var(--color-sheet-dark); bottom: 0.72in; right: 0.53in; font-size: var(--h3); }
 
 

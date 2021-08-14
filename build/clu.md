@@ -9,7 +9,9 @@ title: Cosmic Legends of the Universe
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
+[A.K.A.]{.label .nickname}
 [Name]{.label .name}
+[Pronouns]{.label .pronouns}
 [Max]{.label .health-max}
 [Max]{.label .might-max}
 [Class]{.label .class}
@@ -31,6 +33,10 @@ title: Cosmic Legends of the Universe
 []{.box .b1 .motiv .m3}
 []{.box .b1 .motiv .m4}
 []{.box .b1 .motiv .m5}
+[]{.box .b1 .nova-unlocked}
+[Unlocked]{.label .nova-unlocked}
+[]{.box .b1 .arc-complete}
+[Completed]{.label .arc-complete}
 
 [Volume 2 Ability]{.label .volume-ability .v2}
 [Volume 3 Ability]{.label .volume-ability .v3}
@@ -40,6 +46,11 @@ title: Cosmic Legends of the Universe
 [Appearance and Backstory]{.label .bio}
 [Story Arc]{.label .story-arc}
 
+[Action]{.label .facet .action}
+[Adventure]{.label .facet .adventure}
+[Detective]{.label .facet .detective}
+[Mystery]{.label .facet .mystery}
+[Suspense]{.label .facet .suspense}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
