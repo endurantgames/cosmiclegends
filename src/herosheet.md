@@ -1,9 +1,3 @@
-
----
-lang: en-US
-title: Cosmic Legends of the Universe
-...
-
 ::::::::::::::::::::::::::::::::: {.herosheet} ::::::::::::::::::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}
 

@@ -51,6 +51,13 @@ header h1     { string-set: gamename content()       }
   --font-h6: 'Legio Sabina Condensed';     
   */
 
+  --color-sheet-light: #CCCCCC;
+  --color-sheet-dark: #808080;
+  --font-sheet-1: "Legio Sabina";
+  --font-sheet-2: "Legio Sabina Condensed";
+  --font-sheet-3: "Comic Neue";
+  --font-sheet-4: "Fawn Script";
+
   --font-gamename: 'Legio Sabina Condensed';
   --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
@@ -74,6 +81,7 @@ header h1     { string-set: gamename content()       }
   --color-display: teal;
   --color-stunt: blue;
   --color-combo: purple;
+
 
   /* --font-icons: 'Noto Color Emoji';
   --font-icons-gray: 'Noto Emoji'; 
@@ -453,12 +461,6 @@ color: crimson; }
 
 @page:nth(2) { @bottom-center { content: '- i -'; } }
 
-#herosheet { page: herosheet; }
-@page herosheet { margin: 0; }
-@page herosheet { @top-right     { content: normal; } }
-@page herosheet { @top-left      { content: normal; } }
-@page herosheet { @bottom-center { content: normal; } }
-
 
 #toc-glossary { column-span: all; }
 
@@ -583,4 +585,76 @@ blockquote {
 .classtable a:link, .classtable a:visited, .classtable a:hover, .classtable a:visited {
   color: black;
 }
+
+.herosheet { page: herosheet; column-span: all; }
+@page herosheet { margin: 0; size: letter landscape; }
+@page herosheet { @bottom-right     { content: normal; } }
+@page herosheet { @top-left      { content: normal; } }
+@page herosheet { @bottom-center { content: normal; } }
+
+@page herosheet { 
+  background-image: url("../art/clu-herosheet.svg");
+  background-repeat: no-repeat;
+  background-position: center 0.25in;;
+  background-size: auto 100%;
+}
+
+.herosheet .clu-logo { 
+  height: 0.875in;
+  width: auto;
+  position: absolute;
+  top: 0.24in;
+  left: 0.75in; 
+}
+
+.herosheet .label {
+  display: block;
+  position: absolute;
+  width: auto;
+  color: var(--color-sheet-light);
+  font-family: var(--font-sheet-2);
+  font-size: var(--large);
+}
+
+.herosheet .label.might-max { top: 1in; right: 0.8in; }
+.herosheet .label.health-max { top: 1in; left: 0.8in; }
+
+/* these appear reversed because we're measuring from the other side,
+ * so that they align correctly
+ */
+
+.herosheet .label.class { top: 2.3in; right: 5.55in; }
+.herosheet .label.core { top: 2.3in; left: 5.55in; }
+.herosheet .label.class-ability { top: 2.5in; right: 5.55in; }
+.herosheet .label.personal { top: 2.5in; left: 5.55in; }
+.herosheet .label.skills { top: 4in; right: 5.55in; }
+.herosheet .label.fighting-styles { top: 4in; left: 5.55in; }
+
+/* this is how we center-align things
+ */
+.herosheet .label.volume-ability.v1 { top: 1in; width: 3in; left: 4in; text-align: center; }
+.herosheet .label.nova { top: 5.625in; width: 3in; left: 4in; text-align: center; }
+.herosheet .label.volume { top: 1.4in; width: 3in; left: 4in; text-align: center; }
+
+/* rotated -- these are the upper left
+ */
+
+.herosheet .label.volume-ability.v5 { top: 2.5in; left: 1.5in; transform: rotate(-50.2deg); }
+.herosheet .label.health { color: var(--color-sheet-dark); top: 2.25in; left: 1.40in; transform: rotate(-50.2deg); font-size: var(--h2); }
+
+/* upper right */
+
+.herosheet .label.volume-ability.v2 { top: 2.5in; right: 1.5in; transform: rotate(50.2deg); }
+.herosheet .label.might  { color: var(--color-sheet-dark); top: 2.25in; right: 1.475in; transform: rotate(50.2deg); font-size: var(--h2); }
+
+
+/* lower left */
+.herosheet .label.volume-ability.v4 { top: 5.8in; left: 2.60in; transform: rotate(40.1deg); }
+.herosheet .label.story-arc { color: var(--color-sheet-dark); top: 5.875in; left: 2.325in; transform: rotate(40.1deg); font-size: var(--h2); }
+
+/* lower right */
+
+.herosheet .label.volume-ability.v3 { top: 5.8in; right: 2.60in; transform: rotate(-40.1deg); }
+.herosheet .label.bio { color: var(--color-sheet-dark); top: 5.8in; right: 1.150in; transform: rotate(-40.1deg); font-size: var(--h2); }
+
 
