@@ -51,11 +51,16 @@ header h1     { string-set: gamename content()       }
   --font-h6: 'Legio Sabina Condensed';     
   */
 
+  --font-sheet-2: "Legio Sabina Condensed";
   --color-sheet-light: #AAAAAA;
   --color-sheet-dark: #555555;
+  /* 
+  --font-sheet-2: "Comic Neue";
+  --color-sheet-light: black;
+  --color-sheet-dark: black;
+  */
+
   --font-sheet-1: "Legio Sabina";
-  --font-sheet-2: "Legio Sabina Condensed";
-  --font-sheet-3: "Comic Neue";
   --font-sheet-4: "Fawn Script";
 
   --font-gamename: 'Legio Sabina Condensed';

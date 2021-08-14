@@ -1,0 +1,7 @@
+@import url("style.css");
+
+:root {
+  --font-sheet-2: "Comic Neue";
+  --color-sheet-light: black;
+  --color-sheet-dark: black;
+}

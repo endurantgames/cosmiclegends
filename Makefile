@@ -38,6 +38,7 @@ HTML_OUT    = $(OUTDIR)/$(PROJ).html
 #   Edit: if you have more than one stylesheet
 PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
+# PROJ_CSS    = --css=$(STYLEDIR)/alt-sheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
