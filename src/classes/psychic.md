@@ -20,7 +20,7 @@ As long as you are conscious, you and the other heroes can communicate with each
 other telepathically.
 
 If everyone in a Power Combo is part of your Mind Link, the hero making the
-roll adds an extra die to the roll.
+roll adds 2 extra dice to the roll.
 
 ## Power Words
 

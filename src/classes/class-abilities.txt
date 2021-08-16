@@ -1,0 +1,94 @@
+**Give Me Strength!**
+> 
+> When you use your Core Power Words or Nova Power Words in a Power Stunt 
+> or Power Combo, you can count 6s as two successes instead of 1. 
+> When you do, lose either 1 Health or 1 Might after your roll for each
+> extra success.
+ 
+**Energy Reserve**
+> 
+> You're overflowing with energy. If you start the Hero Turn with less
+> than two Might points, you regain 1 Might.
+ 
+**No Wasted Effort**
+> 
+> When you make a roll to advance a Goal, you can choose to
+> add some or all of the roll's Effectiveness to the Teamwork
+> Pool instead.
+ 
+**Peak Human Potential**
+> 
+> You represent the pinnacle of human achievement. If you have
+> any powers, they're minor in comparison to your extensive training.
+> 
+> This is reflected in both your large number of skills and your
+> combat prowess: 
+> 
+> Choose one additional Fighting Style.
+ 
+**The Price of Magic**
+> 
+> When you use one of your Core Power Words or Nova Power Words as a third 
+> Word in a Power Stunt or Power Test, count 2s as Edge Successes in addition
+> to 1s.
+ 
+**For My Kingdom!**
+> 
+> You feel a special attachment to your homeland, whether it be
+> a physical location or a metaphorical concept such as "the Seas".
+> 
+> If you declare that a Crisis threatens your domain, add 3 to the
+> Teamwork Pool when you form it, and add 1 additional point to the
+> Pool when you add to it during the Crisis.
+ 
+**Engine of Destruction**
+> 
+> When you use your Core Power Words or Nova Power Words as
+> the third Word in a Power Stunt or Power Combo, add 2 to
+> a Smash roll's Effectiveness.
+ 
+**My One Weakness!**
+> 
+> When you create your hero, pick a weakness they possess --
+> usually some kind of substance, energy type, or other physical
+> phenomenon.
+> 
+> During a Crisis, you can declare at any point that your one 
+> weakness is present.  
+> 
+> If you do, you temporarily lose access to *all* of your Power Words, 
+> your Might becomes 0,
+> and you skip your turn during the Hero Turn. This lasts until someone
+> else removes the source of your weakness from the scene, or until 
+> the end of the present Crisis.
+> 
+> Every Hero Turn that you're inactive, the other heroes get extra
+> dice on their rolls equal to the Volume number.
+> 
+> When the source of your weakness is disposed of, you regain access
+> to all your Power Words and your Might is refreshed to its normal
+> maximum value.
+
+**Our Minds As One**
+> 
+> As long as you are conscious, you and the other heroes can communicate with each
+> other telepathically.
+> 
+> If everyone in a Power Combo is part of your Mind Link, the hero making the
+> roll adds 2 extra dice to the roll.
+
+**Reshape the Battlefield**
+> 
+> As your move during the Hero Phase of a Crisis, you can
+> change your environment. 
+> 
+> Choose your Power Words, spend Might as normal, and make a 
+> roll. 
+> 
+> If the Effectiveness of your roll is at least 1, you can change 
+> one of the Scene Power Words to one of your own Power Words until 
+> the end of the Crisis.  
+> 
+> The maximum number of Scene Power Words you can change during a
+> Crisis is equal to the current Volume number.
+> 
