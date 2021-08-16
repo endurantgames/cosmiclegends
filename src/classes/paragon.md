@@ -41,7 +41,7 @@ maximum value.
 
 ### Core Power Words
 
-Your Core Power Words are **Super** and **Powers**. 
+Your Core Power Words are **Powers** and **Abilities**. 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 

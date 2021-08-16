@@ -14,9 +14,11 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: TBD
+## Class Ability: No Wasted Effort
 
-[]{.lorem}
+When you make a roll to advance a Goal, you can choose to
+add some or all of the roll's Effectiveness to the Teamwork
+Pool instead.
 
 ## Power Words
 

@@ -14,9 +14,11 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: TBD
+## Class Ability: Engine of Destruction
 
-[]{.lorem}
+When you use your Core Power Words or Nova Power Words as
+the third Word in a Power Stunt or Power Combo, add 2 to
+a Smash roll's Effectiveness.
 
 ## Power Words
 

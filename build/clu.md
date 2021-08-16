@@ -990,43 +990,43 @@ and if you think creatively, you can use them in your Power Stunts and Combos.
 
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 Class           Skills                      Core Power Words    PPWs   Class Ability
---------------- -------------------------   -----------------  ------  ----------------------
-The Divine      Explorer, Historian,        Divine,              6     TBD
+--------------- -------------------------   -----------------  ------  ------------------------
+The Divine      Explorer, Historian,        Divine,              6     Give Me Strength!
                 Mystic, plus any two        Assistance
 
 The Dynamo      Any two                     Power,               6     Energy Reserve
                                             Overload, plus
                                             one more
 
-The Inventor    Engineer, Hacker,           Experimental,        6     TBD
+The Inventor    Engineer, Hacker,           Experimental,        6     No Wasted Effort
                 Scientist, plus any two     Prototype
 
 The Knight      Criminal, Investigator,     Prepared,            5     Peak Human Potential
-                Spy, plus any four          Trick
+                Spy, plus any four          Gambit
 
-The Mage        Historian, Mystic,          Sorcery,             6     Grimoire
+The Mage        Historian, Mystic,          Sorcery,             6     The Price of Magic
                 plus any two                Supreme
 
-The Monarch     Explorer, Historian,        Unexpected,          6     Defend the Kingdom
+The Monarch     Explorer, Historian,        Unexpected,          6     For My Kingdom!
                 Politician, plus any        Reinforcements
                 two
 
-The Monstrosity Criminal, Explorer,         Strongest,           6     TBD
+The Monstrosity Criminal, Explorer,         Strongest,           6     Engine of Destruction
                 plus any two                Monster
 
 The Paragon     Any two                     Super,             7 + 1   My One Weakness!
                                             Powers
 
-The Psychic     Academic, plus any          Focused,             6     TBD
+The Psychic     Academic, plus any          Focused,             6     Our Minds As One
                 two                         Totality
 
-The Shaper      Artist, Scientist,          Shape,               6     TBD
+The Shaper      Artist, Scientist,          Shape,               6     Reshape the Battlefield
                 plus any two                Environment, plus
                                             one more
  
----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
@@ -1049,9 +1049,12 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: TBD
+#### Class Ability: Give Me Strength!
 
-[]{.lorem}
+When you use your Core Power Words or Nova Power Words in a Power Stunt 
+or Power Combo, you can count 6s as two successes instead of 1. 
+When you do, lose either 1 Health or 1 Might after your roll for each
+extra success.
 
 #### Power Words
 
@@ -1171,8 +1174,8 @@ dice equal to the current Volume.
 
 #### Class Ability: Energy Reserve
 
-You're overflowing with energy. If you start the Hero Turn with no
-Might points, you regain 1 Might.
+You're overflowing with energy. If you start the Hero Turn with less
+than two Might points, you regain 1 Might.
 
 #### Power Words
 
@@ -1305,9 +1308,11 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: TBD
+#### Class Ability: No Wasted Effort
 
-[]{.lorem}
+When you make a roll to advance a Goal, you can choose to
+add some or all of the roll's Effectiveness to the Teamwork
+Pool instead.
 
 #### Power Words
 
@@ -1551,9 +1556,11 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: Grimoire
+#### Class Ability: The Price of Magic
 
-[]{.lorem}
+When you use one of your Core Power Words or Nova Power Words as a third 
+Word in a Power Stunt or Power Test, count 2s as Edge Successes in addition
+to 1s.
 
 #### Power Words
 
@@ -1671,13 +1678,14 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: Defend the Kingdom
+#### Class Ability: For My Kingdom!
 
 You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
 
-If a Crisis threatens your domain, add 3 when you roll to form the
-Teamwork Pool.
+If you declare that a Crisis threatens your domain, add 3 to the
+Teamwork Pool when you form it, and add 1 additional point to the
+Pool when you add to it during the Crisis.
 
 #### Power Words
 
@@ -1795,9 +1803,11 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: TBD
+#### Class Ability: Engine of Destruction
 
-[]{.lorem}
+When you use your Core Power Words or Nova Power Words as
+the third Word in a Power Stunt or Power Combo, add 2 to
+a Smash roll's Effectiveness.
 
 #### Power Words
 
@@ -2054,13 +2064,23 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: TBD
+#### Class Ability: Our Minds As One
 
-[]{.lorem}
+As long as you are conscious, you and the other heroes can communicate with each
+other telepathically.
+
+If everyone in a Power Combo is part of your Mind Link, the hero making the
+roll adds an extra die to the roll.
 
 #### Power Words
 
 []{.lorem}
+
+##### Core Power Words
+
+Your Core Power Words are **Focused** and **Totality**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
 
 ##### Personal Power Words
 
@@ -2088,12 +2108,6 @@ When you use a **Power Display,** you can add one Personal Power Word for free.
 
 You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
 by paying 1 Might for each beyond the first.
-
-##### Core Power Words
-
-Your Core Power Words are **Focused** and **Totality**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
 
 ##### Nova Power
 
@@ -2176,7 +2190,7 @@ dice equal to the current Volume.
 
 #### Class Ability: Reshape the Battlefield
 
-As your action during the Hero Phase of a Crisis, you can
+As your move during the Hero Phase of a Crisis, you can
 change your environment. 
 
 Choose your Power Words, spend Might as normal, and make a 
@@ -2880,50 +2894,410 @@ Story Arcs.
 
 []{.lorem}
 
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 #### Alternate Universes {#toc-sample-alternate-universes}
 
 []{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 #### Capitalism {#toc-sample-capitalism}
 
 []{.lorem}
 
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 #### The Military {#toc-sample-military}
 
 []{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 #### Mythological Monsters {#toc-sample-myth-monsters}
 
 []{.lorem}
 
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 #### Natural Disasters {#toc-sample-natural-disasters}
 
 []{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 #### Ordinary Criminals {#toc-sample-ordinary-criminals}
 
 []{.lorem}
 
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 #### The Police {#toc-sample-police}
 
 []{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 #### Science Gone Wild {#toc-sample-science}
 
 []{.lorem}
 
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 #### Super-Villains {#toc-sample-super-villains}
 
 []{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### name
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Withstand: v** (desc of goal)
+- **Bystander Pool: v** (desc of pool)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Withstand)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Glossary of Game Terms {#toc-glossary .breakbefore}

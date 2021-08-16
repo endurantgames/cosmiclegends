@@ -16,7 +16,7 @@ dice equal to the current Volume.
 
 ## Class Ability: Reshape the Battlefield
 
-As your action during the Hero Phase of a Crisis, you can
+As your move during the Hero Phase of a Crisis, you can
 change your environment. 
 
 Choose your Power Words, spend Might as normal, and make a 
@@ -35,7 +35,7 @@ Crisis is equal to the current Volume number.
 
 ### Core Power Words
 
-Your Core Power Words are **Shape** and **Environment**.
+Your Core Power Words are **Sculpt** and **Environment**.
 
 In addition, you get a third Core Power Word chosen from
 the following list:

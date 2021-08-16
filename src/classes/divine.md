@@ -14,9 +14,12 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: TBD
+## Class Ability: Give Me Strength!
 
-[]{.lorem}
+When you use your Core Power Words or Nova Power Words in a Power Stunt 
+or Power Combo, you can count 6s as two successes instead of 1. 
+When you do, lose either 1 Health or 1 Might after your roll for each
+extra success.
 
 ## Power Words
 
@@ -24,7 +27,7 @@ dice equal to the current Volume.
 
 ### Core Power Words
 
-Your Core Power Words are **Divine** and **Assistance**.
+Your Core Power Words are **Blessed** and **Champion**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 

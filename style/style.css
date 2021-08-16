@@ -567,10 +567,10 @@ margin-top: 1em; }
 
 
 
-.twocolumn { column-count: 2; column-gap: 1em; }
+.twocolumn { column-count: 2; column-gap: 1em; break-inside: avoid; }
 .twocolumn ul { break-inside: auto; margin: 0; margin-left: 0.5em; }
 
-.cpw { column-count: 3; column-gap: 1em; }
+.cpw { column-count: 3; column-gap: 1em; break-inside: avoid; }
 .cpw ul { break-inside: auto; margin: 0; }
 .cpw ul li { list-style-type: none; }
 

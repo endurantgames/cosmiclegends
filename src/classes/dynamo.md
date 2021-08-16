@@ -15,8 +15,8 @@ dice equal to the current Volume.
 
 ## Class Ability: Energy Reserve
 
-You're overflowing with energy. If you start the Hero Turn with no
-Might points, you regain 1 Might.
+You're overflowing with energy. If you start the Hero Turn with less
+than two Might points, you regain 1 Might.
 
 ## Power Words
 
@@ -24,7 +24,7 @@ Might points, you regain 1 Might.
 
 ### Core Power Words
 
-Your Core Power Words are **Power** and **Overload**.
+Your Core Power Words are **Energy** and **Overload**.
 
 In addition, you get a third Core Power Word chosen from
 the following list:

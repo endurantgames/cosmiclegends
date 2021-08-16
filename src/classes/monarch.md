@@ -14,13 +14,14 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: Defend the Kingdom
+## Class Ability: For My Kingdom!
 
 You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
 
-If a Crisis threatens your domain, add 3 when you roll to form the
-Teamwork Pool.
+If you declare that a Crisis threatens your domain, add 3 to the
+Teamwork Pool when you form it, and add 1 additional point to the
+Pool when you add to it during the Crisis.
 
 ## Power Words
 

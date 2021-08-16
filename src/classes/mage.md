@@ -14,9 +14,11 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: Grimoire
+## Class Ability: The Price of Magic
 
-[]{.lorem}
+When you use one of your Core Power Words or Nova Power Words as a third 
+Word in a Power Stunt or Power Test, count 2s as Edge Successes in addition
+to 1s.
 
 ## Power Words
 
