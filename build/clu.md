@@ -993,10 +993,10 @@ and if you think creatively, you can use them in your Power Stunts and Combos.
 -----------------------------------------------------------------------------------------------
 Class           Skills                      Core Power Words    PPWs   Class Ability
 --------------- -------------------------   -----------------  ------  ------------------------
-The Divine      Explorer, Historian,        Divine,              6     Give Me Strength!
-                Mystic, plus any two        Assistance
+The Divine      Explorer, Historian,        Blessed,             6     Give Me Strength!
+                Mystic, plus any two        Champion   
 
-The Dynamo      Any two                     Power,               6     Energy Reserve
+The Dynamo      Any two                     Energy,              6     Energy Reserve
                                             Overload, plus
                                             one more
 
@@ -1016,13 +1016,13 @@ The Monarch     Explorer, Historian,        Unexpected,          6     For My Ki
 The Monstrosity Criminal, Explorer,         Strongest,           6     Engine of Destruction
                 plus any two                Monster
 
-The Paragon     Any two                     Super,             7 + 1   My One Weakness!
-                                            Powers
+The Paragon     Any two                     Powers,            7 + 1   My One Weakness!
+                                            Abilities
 
 The Psychic     Academic, plus any          Focused,             6     Our Minds As One
                 two                         Totality
 
-The Shaper      Artist, Scientist,          Shape,               6     Reshape the Battlefield
+The Shaper      Artist, Scientist,          Sculpt,              6     Reshape the Battlefield
                 plus any two                Environment, plus
                                             one more
  
@@ -1062,7 +1062,7 @@ extra success.
 
 ##### Core Power Words
 
-Your Core Power Words are **Divine** and **Assistance**.
+Your Core Power Words are **Blessed** and **Champion**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
@@ -1183,7 +1183,7 @@ than two Might points, you regain 1 Might.
 
 ##### Core Power Words
 
-Your Core Power Words are **Power** and **Overload**.
+Your Core Power Words are **Energy** and **Overload**.
 
 In addition, you get a third Core Power Word chosen from
 the following list:
@@ -1952,7 +1952,7 @@ maximum value.
 
 ##### Core Power Words
 
-Your Core Power Words are **Super** and **Powers**. 
+Your Core Power Words are **Powers** and **Abilities**. 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
@@ -2070,7 +2070,7 @@ As long as you are conscious, you and the other heroes can communicate with each
 other telepathically.
 
 If everyone in a Power Combo is part of your Mind Link, the hero making the
-roll adds an extra die to the roll.
+roll adds 2 extra dice to the roll.
 
 #### Power Words
 
@@ -2209,7 +2209,7 @@ Crisis is equal to the current Volume number.
 
 ##### Core Power Words
 
-Your Core Power Words are **Shape** and **Environment**.
+Your Core Power Words are **Sculpt** and **Environment**.
 
 In addition, you get a third Core Power Word chosen from
 the following list:
