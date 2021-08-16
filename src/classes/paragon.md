@@ -13,9 +13,27 @@ You have two skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: TBD
+## Class Ability: My One Weakness!
 
-[]{.lorem}
+When you create your hero, pick a weakness they possess --
+usually some kind of substance, energy type, or other physical
+phenomenon.
+
+During a Crisis, you can declare at any point that your one 
+weakness is present.  
+
+If you do, you temporarily lose access to *all* of your Power Words, 
+your Might becomes 0,
+and you skip your turn during the Hero Turn. This lasts until someone
+else removes the source of your weakness from the scene, or until 
+the end of the present Crisis.
+
+Every Hero Turn that you're inactive, the other heroes get extra
+dice on their rolls equal to the Volume number.
+
+When the source of your weakness is disposed of, you regain access
+to all your Power Words and your Might is refreshed to its normal
+maximum value.
 
 ## Power Words
 

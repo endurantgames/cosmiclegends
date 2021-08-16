@@ -7,24 +7,22 @@ Cosmic Legends of the Universe
 - [x] Credits
 - [x] Safety
 - [x] Facets
-  - [x] Adventure
   - [x] Action
+  - [x] Adventure
   - [x] Detective
   - [x] Mystery
   - [x] Suspense
 - [ ] Classes
-  - [ ] Core (Superfriends)
-    - [ ] The Demigod
-    - [ ] The Knight
-    - [ ] The Monarch 
-    - [ ] The Paragon 
-  - [ ] Expansion
-    - [ ] The Dynamo
-    - [ ] The Inventor
-    - [ ] The Mage
-    - [ ] The Monstrosity
-    - [ ] The Psychic
-    - [ ] The Shaper
+  - [ ] The Demigod
+  - [ ] The Dynamo
+  - [ ] The Inventor
+  - [ ] The Knight
+  - [ ] The Mage
+  - [ ] The Monarch 
+  - [ ] The Monstrosity
+  - [ ] The Paragon 
+  - [ ] The Psychic
+  - [ ] The Shaper
 - [x] Issues, etc
 - [x] Fighting Style
   - [x] Acrobat
@@ -37,26 +35,26 @@ Cosmic Legends of the Universe
   - [x] Sniper
   - [x] Tactician
   - [x] Weaponmaster
-- [/] Skills
-  - [ ] Academic
-  - [ ] Artist
-  - [ ] Criminal
-  - [ ] Engineer
-  - [ ] Explorer
-  - [ ] Hacker
-  - [ ] Historian
-  - [ ] Investigator
-  - [ ] Journalist
-  - [ ] Lawyer
-  - [ ] Mystic
-  - [ ] Officer
-  - [ ] Performer
-  - [ ] Physician
-  - [ ] Pilot
-  - [ ] Politician
-  - [ ] Scientist
-  - [ ] Socialite
-  - [ ] Spy
+- [x] Skills
+  - [x] Academic
+  - [x] Artist
+  - [x] Criminal
+  - [x] ~~Officer~~ Deputy
+  - [x] Engineer
+  - [x] Explorer
+  - [x] Hacker
+  - [x] Historian
+  - [x] Investigator
+  - [x] Journalist
+  - [x] Lawyer
+  - [x] Mystic
+  - [x] Performer
+  - [x] Physician
+  - [x] Pilot
+  - [x] Politician
+  - [x] Scientist
+  - [x] Socialite
+  - [x] Spy
 - [x] Goals
   - [x] Smash
   - [x] Outwit

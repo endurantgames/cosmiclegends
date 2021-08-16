@@ -10,8 +10,8 @@
 - <a href="#toc-chargen"></a>
   - <a href="#toc-facets"></a>
   - <a href="#toc-motivation"></a>
-  - <a href="#toc-skills"></a>
   - <a href="#toc-fighting-style"></a>
+  - <a href="#toc-skills"></a>
   - <a href="#toc-powers"></a>
     - <a href="#toc-power-words-core"></a>
     - <a href="#toc-power-words-personal"></a>

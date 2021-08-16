@@ -17,10 +17,12 @@ dice equal to the current Volume.
 ## Class Ability: Peak Human Potential
 
 You represent the pinnacle of human achievement. If you have
-any powers, they're minor in comparison to extensive training.
+any powers, they're minor in comparison to your extensive training.
 
 This is reflected in both your large number of skills and your
-combat prowess: Choose one additional Fighting Style.
+combat prowess: 
+
+Choose one additional Fighting Style.
 
 ## Power Words
 
@@ -28,7 +30,7 @@ combat prowess: Choose one additional Fighting Style.
 
 ### Core Power Words
 
-Your Core Power Words are **Prepared** and **Trick**.
+Your Core Power Words are **Prepared** and **Gambit**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 

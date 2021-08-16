@@ -19,8 +19,8 @@ dice equal to the current Volume.
 You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
 
-If a Crisis threatens your domain, add 3 when you form
-or contribute to the Teamwork Pool.
+If a Crisis threatens your domain, add 3 when you roll to form the
+Teamwork Pool.
 
 ## Power Words
 

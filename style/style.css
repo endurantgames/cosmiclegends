@@ -556,8 +556,15 @@ blockquote {
 #power-table table.power-key th:nth-child(2) { width: 60%; text-align: left; }
 #power-table table.power-key th:nth-child(3) { width: 25%; text-align: left;  }
 
-.skill-list ul { margin: 0; }
-.skill-list ul li { margin: 0; list-style-type: none; text-indent: 1em; }
+.skill-list dl dt { font-family: var(--font-h5); font-size: var(--h5); 
+margin-top: 1em; }
+.skill-list dl dd { margin: 0; padding: 0; }
+.skill-list dl dd p { margin: 0.5em 0; }
+.skill-list dl dd ul { margin: 0; }
+.skill-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
+.skill-list dl dd ul li::marker { padding-right: 0.25em; }
+
+
 
 
 .twocolumn { column-count: 2; column-gap: 1em; }
@@ -712,4 +719,5 @@ blockquote {
 .herosheet .label.skills,
 .herosheet .label.class-ability,
 .herosheet .label.fighting-styles { color: var(--color-sheet-dark); }
+
 

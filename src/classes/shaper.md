@@ -14,9 +14,20 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-## Class Ability: TBD
+## Class Ability: Reshape the Battlefield
 
-[]{.lorem}
+As your action during the Hero Phase of a Crisis, you can
+change your environment. 
+
+Choose your Power Words, spend Might as normal, and make a 
+roll. 
+
+If the Effectiveness of your roll is at least 1, you can change 
+one of the Scene Power Words to one of your own Power Words until 
+the end of the Crisis.  
+
+The maximum number of Scene Power Words you can change during a
+Crisis is equal to the current Volume number.
 
 ## Power Words
 

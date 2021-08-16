@@ -39,6 +39,43 @@ The steps to take before a Crisis are:
 
 []{.lorem}
 
+#### Innocent Bystanders {.colbefore}
+
+Superhero fights can be dangerous for people caught in the crossfire,
+and most natural or manmade disasters place people in danger.
+
+At the beginning of the Crisis, the Editor can assign points to the
+Bystander Pool. Heroes can use the Save Innocents move to reduce
+the size of the Bystander Pool, while the Crisis's moves can be
+used to increase it.
+
+When the Bystander Pool is reduced to zero, there are no longer any
+endangered people, although in subsequent turns, the Crisis may add
+more to this pool.
+
+This table is a rough guideline for how many people are endangered
+and how large the Bystander Pool should be:
+
+  Pool             Number             Examples
+----------------  ------------------  --------------------------------
+       1           a couple, at best  A remote highway
+       2               several        A mostly empty convenience store
+       3               a bunch        A bank
+       4                many          A small factory
+       5               very many      A supermarket
+       6                a *lot*       A hospital
+       7                numerous      A school
+       8+              a big crowd    A crowded rock concert
+
+When a hero reduces the size of the Bystander Pool with the Save
+Innocents move, they regain a number of Might points equal to the 
+number of points removed. Protecting others reinvigorates the heroes
+to fight on.
+
+If a Crisis move reduces the size of the Bystander Pool, the same 
+amount is *also* subtracted from the Teamwork Pool. Being unable to
+save everyone is demoralizing to all heroes.
+
 ### Defining the Goals {#toc-crisis-goals}
 
 []{.lorem}
@@ -73,25 +110,25 @@ the Hero Phase.
 
 ## Hero Phase {#toc-crisis-hero .colbefore}
 
-The heroes can each take one action during the Hero Phase, one at a time, 
+The heroes can each take one move during the Hero Phase, one at a time, 
 in any order they like.
 
 While your hero is at the scene of a Crisis, there are essentially three
 things you can choose to do: Advance a Goal, Contribute to the Teamwork Pool,
 or Save Innocents.
 
-If your hero is *not* present, you can use the Timely Arrival action.
+If your hero is *not* present, you can use the Timely Arrival move.
 
 ### Timely Arrival {#toc-crisis-timely}
 
-When you use the Timely Arrival action, spend 5 successes from the
+When you use the Timely Arrival move, spend 5 successes from the
 Teamwork Pool have your hero arrive at the end of the current Hero Phase. 
 
-You can't take any other actions that turn, but you *can* describe 
+You can't take any other moves that turn, but you *can* describe 
 your entry to the scene and make a roll related to your arrival. 
 Add the Effectiveness of that roll to the Teamwork Pool.
 
-The cost of the Timely Arrival action decreases by 1 success every
+The cost of the Timely Arrival move decreases by 1 success every
 Crisis Phase.
 
 ### General Alert {#toc-crisis-alert}
@@ -134,34 +171,43 @@ to the Teamwork Pool.
 
 []{.lorem}
 
-### Saving Innocents {#toc-crisis-saving}
+### Save Innocents {#toc-crisis-saving}
 
-[]{.lorem}
+When your hero uses the Save Innocents move, you can describe how they
+are using their powers and abilities to protect people from danger, and
+make a roll using an appropriate Facet.
+
+If you succeed on the roll, you can remove a number of points equal to
+the Effectiveness from the Bystander Pool. For each point removed, 
+you regain 1 point of Might.
+
+If you fail, the bystanders remain endangered, and the size of the
+Bystander Pool remains the same.
 
 ## Crisis Phase {#toc-crisis-crisis .colbefore}
 
-Once every hero has taken an action, then it’s time for the Editor
+Once every hero has taken a move, then it’s time for the Editor
 to take their turn.
 
-Every Crisis has a set number of turns per round. As a rule, the more 
-actions a Crisis gets per turn, the more difficult it is. 
-If the Crisis has the same number of actions as the hero team,
+Every Crisis has a set number of moves per turn. As a rule, the more 
+moves a Crisis gets per turn, the more difficult it is. 
+If the Crisis has the same number of moves as the hero team,
 it will be very challenging.
 
-The Editor chooses actions from the Encounter’s list. Every action has 
-a cost next to it – if the heroes pay this many successes from the 
-Teamwork Pool, they defend against the attack and nothing happens.
+The Editor chooses moves from the Encounter’s list of moves. Every
+move has a cost next to it – if the heroes pay this many successes 
+from the Teamwork Pool, they defend against that move and nothing 
+happens.
 
-For every action the Crisis tries to take, the heroes have an opportunity 
-to spend successes from the Teamwork Pool to defend. If there aren’t 
-enough successes in the pool to defend, or if the heroes decide not to defend, 
-then the action happens and the heroes face the consequences. 
+If there aren’t enough successes in the pool to defend against the
+move, or if the heroes decide not to counter the move, then the 
+move happens and the heroes face the consequences. 
 
 Possible consequences include losing Health, temporarily restricting 
-the heroes' ability to use a certain type of roll on their next turn,
-or innocents being endangered.
+the heroes' ability to use a certain type of roll or move on their 
+next turn, or innocents being endangered.
 
-Once the Editor has taken enough actions, it’s time to go back to the heroes.
+Once the Editor has taken enough moves, it’s time to go back to the heroes.
 
 ## Post-Crisis {#toc-crisis-post .colbefore}
 

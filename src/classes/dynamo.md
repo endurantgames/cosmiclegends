@@ -15,7 +15,8 @@ dice equal to the current Volume.
 
 ## Class Ability: Energy Reserve
 
-[]{.lorem}
+You're overflowing with energy. If you start the Hero Turn with no
+Might points, you regain 1 Might.
 
 ## Power Words
 

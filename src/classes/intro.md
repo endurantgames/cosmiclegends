@@ -28,7 +28,7 @@ The Monarch     Explorer, Historian,        Unexpected,          6     Defend th
 The Monstrosity Criminal, Explorer,         Strongest,           6     TBD
                 plus any two                Monster
 
-The Paragon     Any two                     Super,             7 + 1   TBD
+The Paragon     Any two                     Super,             7 + 1   My One Weakness!
                                             Powers
 
 The Psychic     Academic, plus any          Focused,             6     TBD

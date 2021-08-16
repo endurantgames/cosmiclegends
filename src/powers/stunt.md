@@ -13,7 +13,7 @@ effects.
 After spending 1 Might on the Power Stunt, you can then make an
 appropriate roll for your Power Stunt -- either to increase the
 Teamwork Pool or to decrease one of the Goals in a Crisis. Add an
-additional 1 Success to the Effectiveness of the roll based on your Stunt.
+additional die to the dice pool for each Power Word beyond the first.
 
 You don't have to come up with Power Stunts beforehand; instead,
 you create them on the fly during a Crisis, blending together your
@@ -23,6 +23,6 @@ For example, if you have the Flight and Speed Power Words, you
 could join those together for a Power Stunt with the phrase
 "Flight Speed". Spending 1 point of Might on this Stunt
 means that when you make a roll -- such as rolling your Adventure
-Facet to Outwit a foe -- increases your roll's Effectiveness by
-1 Success, even if you rolled 0 Successes.
+Facet to Outwit a foe -- increases the number of dice in your pool
+by 1 die.
 

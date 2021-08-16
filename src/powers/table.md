@@ -7,7 +7,7 @@
       <tr>
         <th>Symbol</th>
         <th>Meaning</th>
-        <th>Effectiveness</th>
+        <th>Extra Dice</th>
       </tr>
     </thead>
     <tbody>
@@ -18,7 +18,7 @@
       </tr>
       <tr>  
         <th class="yes gray"></th>
-        <td>**Yes; But** adds no Successes</td>
+        <td>**Yes; But** adds no Dice</td>
         <td>+0 Successes</td>
       </tr>
       <tr>  
@@ -28,7 +28,7 @@
       </tr>
       <tr>  
         <th class="lock gray"></th>
-        <td>**Yes; If** unlocked, **But** adds no Successes</td>
+        <td>**Yes; If** unlocked, **But** adds no Dice</td>
         <td>+0 Successes</td>
       </tr>
       <tr>  

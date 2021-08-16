@@ -83,8 +83,8 @@ To play []{.gamename} you'll need:
 - <a href="#toc-chargen"></a>
   - <a href="#toc-facets"></a>
   - <a href="#toc-motivation"></a>
-  - <a href="#toc-skills"></a>
   - <a href="#toc-fighting-style"></a>
+  - <a href="#toc-skills"></a>
   - <a href="#toc-powers"></a>
     - <a href="#toc-power-words-core"></a>
     - <a href="#toc-power-words-personal"></a>
@@ -503,11 +503,12 @@ the issues going forward.
 ## Rolling Dice {#toc-dice .breakbefore}
 
 The dice mechanic in []{.gamename} is a pool of six-sided dice. 
-When players want to take an uncertain action, they build a dice pool.
+When a player wants to take an uncertain action, they build a dice pool.
 
 - One die for every point they have in the relevant Facet
 - One die for every Volume if they have a relevant Skill
 - Two dice if they can mark off a relevant part of their Motivation
+- One die for every Power Word beyond the first
 
 Any dice that come up a 5 or a 6 are counted as Successes. 
 A challenging task can require 1-3 Successes to complete (outside combat).
@@ -627,6 +628,24 @@ When a new Story Arc begins, all the marked off Motivations are
 cleared and it’s time to start again.
 
 
+### Fighting Style {#toc-fighting-style .colbefore}
+
+Your hero specializes in one style of fighting, whether they attack 
+with their fists or their powers. Those styles are:
+
+- **Acrobat** Reduce by 1 the cost to avoid a move targeting only you.
+- **Brawler** Add 2 dice to the dice poolwhen you use an unarmed attack to advance the Smash goal.
+- **Controller** Add 2 dice to the dice pool when you use a Power to advance the Outwit goal.
+- **Frenzy** Add 2 dice to the dice pool when you use a Power to advance the Smash Goal.
+- **Juggernaut** Add 2 dice to the dice pool when you use a Power to advance the Withstand goal.
+- **Martial Artist** - Add 2 dice to the dice pool when you use an unarmed attack to advance the Outwit goal.
+- **Protector** Reduce by 1 the cost to Take the Hit for someone else.
+- **Sniper** Add 2 dice to the dice pool when you use a ranged Weapon to advance the Smash goal.
+- **Tactician** Add 2 dice to the dice pool when you add to the Teamwork Pool.
+- **Weaponmaster** Add 2 dice to the dice pool when you use a melee Weapon to advance the Outwit goal.
+
+If you choose the Knight class, you get to pick an additional fighting style. 
+
 ### Skills {#toc-skills .colbefore}
 
 Outside of a fight, your hero has one or more Skills from their 
@@ -639,6 +658,7 @@ The Skills are:
 - Academic
 - Artist
 - Criminal
+- Deputy
 - Engineer
 - Explorer
 - Hacker
@@ -647,7 +667,6 @@ The Skills are:
 - Journalist
 - Lawyer
 - Mystic
-- Officer
 - Performer
 - Physician
 - Pilot
@@ -657,65 +676,250 @@ The Skills are:
 - Spy
 ::::::::::::::::::::::::::::::::::::::::::
 
+When you create your hero, you can pick two or more skills as
+determined by your class, which may also give additional skills.
+
+Keep in mind that []{.gamename} is a four-color game, not a simulation
+of reality -- so skills follow "comic book logic" rather than working
+as they really *should* in real life.
+
+#### Skill Descriptions
+
+The skills in []{.gamename} are listed below, along with 3 to 5 ways
+of using those with your hero's Facets and suggestions the Editor can
+propose on an Edge Success.
 
 ::::::: { .skill-list } ::::::::::::::::::
-- **Academic** - []{.lorem}
+Academic
+:   You've spent many years in education,
+    either as an instructor or just a long-time student -- or 
+    both! -- you can decide.
 
-- **Artist** - []{.lorem}
+    - Roll **Action/Academic** to dispute widely accepted facts.
+    - Roll **Detective/Academic** to research facts in a library.
+    - Roll **Mystery/Academic** to falsify school records.
+    - Roll **Suspense/Academic** to spot plagiarism.
+    - **Edge Success:** Someone in your department develops an intense jealousy of you.
+      Online trolls try to get you fired from your job.
+      You spend way too much time on a relatively trivial matter.
+  
+Artist
+:   You are skilled at creating works of art; choose
+    one or more media in which you primarily work.
 
-- **Criminal** - []{.lorem}
+    - Roll **Action/Artist** to make a bold splash in the art world.
+    - Roll **Mystery/Artist** to plant secret messages in a work of art.
+    - Roll **Suspense/Artist** to detect a forgery.
+    - **Edge Success:** You're just not satisfied with this piece.
+      Someone will start selling knockoff of your work online.
+      A critic savages your work in a review.
+  
+Criminal
+:   You're skilled at evading the law and getting away with it.
 
-- **Engineer** - []{.lorem}
+    - Roll **Adventure/Criminal** to crack a safe.
+    - Roll **Detective/Criminal** to plan a heist.
+    - Roll **Mystery/Criminal** to steal something, unseen.
+    - Roll **Suspense/Criminal** to notice hidden cameras.
+    - **Edge Success:** Your crime makes more noise than you had hoped.
+      A criminal organization takes an interest in your actions.
+      You owe a favor to someone dodgy now.
+  
+Deputy
+:   You are a police officer of some kind. If you like, you can be currently
+    deputized by a local or federal agency. All cats are beautiful.
 
-- **Explorer** - []{.lorem}
+    - Roll **Action/Deputy** to shake down an informant.
+    - Roll **Adventure/Deputy** to chase down an innocent person who is fleeing from you.
+    - Roll **Detective/Deputy** to contrive a reason to arrest someone.
+    - Roll **Mystery/Deputy** to plant contraband on a suspect.
+    - Roll **Suspense/Deputy** to spot a "likely" suspect for a crime.
+    - **Edge Success:** Your actions are filmed by bystanders.
+      The suspect can afford a lawyer.
+      Your "evidence" won't stand up in court.
+  
+Engineer
+:   You can build high-tech devices. This is the four-color version
+    of Engineering, not real-world engineering.
+    You can choose one or more optional specialties.
 
-- **Hacker** - []{.lorem}
+    - Roll **Adventure/Engineer** to build something unprecedented.
+    - Roll **Detective/Engineer** to dismantle something.
+    - Roll **Suspense/Engineer** to identify the weaknesses in a design.
+    - **Edge Success:** You only have time to make one.
+      You use up the last of your unobtanium on this device.
+      Only you understand how to make this work.
+  
+Explorer
+:   You're at home in the wilds, and have a good sense of direction.
 
-- **Historian** - []{.lorem}
+    - Roll **Adventure/Explorer** to find food and shelter.
+    - Roll **Detective/Explorer** to create a map.
+    - Roll **Mystery/Explorer** to ambush someone in the wilds.
+    - Roll **Suspense/Explorer** to predict the weather.
+    - **Edge Success:** You attract the attention of a large predator.
+      The water and food you found is edible, but tastes terrible.
+      You are easily tracked.
+  
+Hacker
+:   You're quite talented with computers and can easily overcome most forms of digital security.
 
-- **Investigator** - []{.lorem}
+    - Roll **Action/Hacker** to shut down a machine.
+    - Roll **Adventure/Hacker** to search for information in a database.
+    - Roll **Detective/Hacker** to program a machine to perform a complicated task for you.
+    - Roll **Mystery/Hacker** to access a machine without detection.
+    - **Edge Success:** You leave traces of your presence.
+      It takes longer to accomplish than you'd hoped.
+      You get immediately disconnected after this task.
+  
+Historian
+:   You understand archaeology and are an authority on items and locations
+    of the past. You have one or more fields of study.
 
-- **Journalist** - []{.lorem}
+    - Roll **Adventure/Historian** to explore a dig site.
+    - Roll **Detective/Historian** to recall the details of a historical event.
+    - Roll **Suspense/Historian** to identify something's age and origin.
+    - **Edge Success:** You awaken something that shouldn't have been awakened.
+      The artifact you're examining crumbles to dust.
+      Another historian disputes your claims.
+  
+Investigator
+:   You are trained in spotting clues and gathering information.
+    You might work for a law agency or, if you wish, you have a
+    valid private investigator's license.
 
-- **Lawyer** - []{.lorem}
+    - Roll **Detective/Investigator** to piece together a solution to a puzzle.
+    - Roll **Mystery/Investigator** to plant evidence implicating someone.
+    - Roll **Suspense/Investigator** to notice clues others might overlook.
+    - **Edge Success:** It takes longer than you had hoped.
+      Someone notices you snooping around where you shouldn't be.
+      The evidence you've found isn't admissible in court.
+  
+Journalist
+:   You're skilled at taking the facts and constructing a narrative
+    for publication.
 
-- **Mystic** - []{.lorem}
+    - Roll **Action/Journalist** to make a story go viral.
+    - Roll **Adventure/Journalist** to interview a hostile source.
+    - Roll **Detective/Journalist** to track down a lead on a story.
+    - Roll **Mystery/Journalist** to twist the facts to suit an agenda.
+    - Roll **Suspense/Journalist** to spot something newsworthy.
+    - **Edge Success:** You get the message out, but you've made a powerful enemy.
+      You can't find another source to confirm your story.
+      Another reporter scooped the story before you.
+  
+Lawyer
+:   You're a member of the legal profession and can represent yourself
+    and others in court. Optionally, you can choose specific types of law
+    that you specialize in.
 
-- **Officer** - []{.lorem}
+    - Roll **Action/Lawyer** to strenuously object to something.
+    - Roll **Adventure/Lawyer** to cross-examine someone.
+    - Roll **Detective/Lawyer** to trap someone in a lie.
+    - Roll **Mystery/Lawyer** to defend someone who is guilty, or convict someone who is innocent.
+    - Roll **Suspense/Lawyer** to spot loopholes in a legal document.
+    - **Edge Success:** The court's decision is likely to be appealed by the other party.
+      The judge declares that if there's another outburst like that, they'll clear the courtroom.
+      You'll answer to the state bar for this.
+  
+Mystic
+:   You understand the roots of magical power and can even perform
+    some rituals. As an option, you can specialize in one or more
+    types of magic.
 
-- **Performer** - []{.lorem}
+    - Roll **Action/Mystic** to counter someone else's ritual.
+    - Roll **Adventure/Mystic** to calm a magical creature.
+    - Roll **Detective/Mystic** to comprehend a magical text.
+    - Roll **Suspense/Mystic** to identify a magical effect.
+    - **Edge Success:** You draw unwanted attention from an extra-dimensional power.
+      You use up specific ritual ingredients that are in short supply.
+      It takes more time than you thought it would.
 
-- **Physician** - []{.lorem}
+Performer
+:   You're a talented actor, musician, acrobat, magician, or other 
+    type of performer.
+    Optionally, you can choose one or more forms of expression.
 
-- **Pilot** - []{.lorem}
+    - Roll **Action/Performer** to make yourself the center of attention.
+    - Roll **Adventure/Performer** to have the show go one even if something unexpected happens.
+    - Roll **Mystery/Performer** to perform believably in a role.
+    - **Edge Success:** Your performance draws the attention of a new rival.
+      Your performance had flaws that you hope nobody noticed.
+      Someone declares that you're a sell-out.
+  
+Physician
+:   You are trained as a doctor or other medical
+    professional. You can optionally choose a specialty if you wish.
 
-- **Politician** - []{.lorem}
+    - Roll **Action/Physician** to perform major surgery.
+    - Roll **Adventure/Physician** to apply first aid.
+    - Roll **Detective/Physician** to perform forensic medicine on a corpse.
+    - Roll **Suspense/Physician** to diagnose someone's illness.
+    - **Edge Success:** There are unexpected side effects to the treatment you suggest.
+      You help someone, but they'll need more care later.
+      You use up the last of your medicine.
+  
+Pilot
+:   You know how to operate planes, helicopters, ships, 
+    submarines, spaceships, and similar vessels.
 
-- **Scientist** - []{.lorem}
+    - Roll **Action/Pilot** to handle a craft in battle.
+    - Roll **Adventure/Pilot** to weather the effects of a storm.
+    - Roll **Detective/Pilot** to calculate a flight path.
+    - Roll **Mystery/Pilot** to run a blockade.
+    - **Edge Success:** Your strain the capabilities of your craft.
+      You use more fuel than you intended.
+      The paint job on your craft is ruined.
+  
+Politician
+:   You're practiced at playing the system to influence the public.
 
-- **Socialite** - []{.lorem}
+    - Roll **Action/Politician** to rile up a crowd.
+    - Roll **Adventure/Politician** to avoid answering direct questions.
+    - Roll **Detective/Politician** to discern someone's politics.
+    - Roll **Mystery/Politician** to speak in dogwhistles and empty promises.
+    - Roll **Suspense/Politician** to read the room. 
+    - **Edge Success:** Your speech is put on the Internet with humiliating captions.
+      People believe you, but for the wrong reasons.
+      You draw the attention of the rich and powerful.
+  
+Scientist
+:   You understand science. Not science of the real world, but
+    super-science that can create shrink rays or muscle serums.
+    Optionally, you can choose one or more scientific specialties.
 
-- **Spy** - []{.lorem}
+    - Roll **Action/Scientist** to directly test your hypothesis.
+    - Roll **Detective/Scientist** to reverse the effects of super-science.
+    - Roll **Suspense/Scientist** to measure natural phenomena.
+    - **Edge Success:** It takes longer than you thought it would.
+      You won't be able to replicate the effects again.
+      Someone already patented your technique.
+  
+Socialite
+:   You are a known figure in high society, and know how to make an appearance.
 
+    - Roll **Action/Socialite** to impress someone with how important you are.
+    - Roll **Adventure/Socialite** to successfully mingle with the upper classes.
+    - Roll **Detective/Socialite** to investigate a charity's funding sources.
+    - Roll **Mystery/Socialite** to hide your true social rank.
+    - **Edge Success:** Someone vows that you've crossed the wrong person.
+      Someone is wearing the same outfit as you -- *the nerve!*
+      You end up in tomorrow's edition of the local gossip rag.
+
+Spy
+:   You're trained in espioniage, and have a number of false identities.
+    Optionally, you have security clearance in a spy agency.
+
+    - Roll **Action/Spy** to sabotage a location or vehicle.
+    - Roll **Adventure/Spy** to infiltrate a hidden base.
+    - Roll **Detective/Spy** to break a code.
+    - Roll **Mystery/Spy** to keep your secrets under interrogation.
+    - Roll **Suspense/Spy** to see through another spy's disguise.
+    - **Edge Success:** You won't be able to use this cover identity again.
+      An alarm will sound shortly after you leave the area.
+      Your fellow agents start to mistrust you.
+  
 ::::::::::::::::::::::::::::::::::::::::::
-
-### Fighting Style {#toc-fighting-style .colbefore}
-
-Your hero specializes in one style of fighting, whether they attack 
-with their fists or their powers. Those styles are:
-
-- **Acrobat** Reduce by 1 the cost to avoid a move targeting only you.
-- **Brawler** Add 1 when you use an unarmed attack to advance the Smash goal.
-- **Controller** Add 1 when you use a Power to advance the Outwit goal.
-- **Frenzy** Add 1 when you use a Power to advance the Smash Goal.
-- **Juggernaut** Add 1 when you use a Power to advance the Withstand goal.
-- **Martial Artist** - Add 1 when you use an unarmed attack to advance the Outwit goal.
-- **Protector** Reduce by 1 the cost to Take the Hit for someone else.
-- **Sniper** Add 1 when you use a ranged Weapon to advance the Smash goal.
-- **Tactician** Add 1 when you add to the Teamwork Pool.
-- **Weaponmaster** Add 1 when you use a melee Weapon to advance the Outwit goal.
-
-If you choose the Knight class, you get to pick an additional fighting style. 
 
 ### Power Words {#toc-powers .colbefore }
 
@@ -812,7 +1016,7 @@ The Monarch     Explorer, Historian,        Unexpected,          6     Defend th
 The Monstrosity Criminal, Explorer,         Strongest,           6     TBD
                 plus any two                Monster
 
-The Paragon     Any two                     Super,             7 + 1   TBD
+The Paragon     Any two                     Super,             7 + 1   My One Weakness!
                                             Powers
 
 The Psychic     Academic, plus any          Focused,             6     TBD
@@ -967,7 +1171,8 @@ dice equal to the current Volume.
 
 #### Class Ability: Energy Reserve
 
-[]{.lorem}
+You're overflowing with energy. If you start the Hero Turn with no
+Might points, you regain 1 Might.
 
 #### Power Words
 
@@ -1223,10 +1428,12 @@ dice equal to the current Volume.
 #### Class Ability: Peak Human Potential
 
 You represent the pinnacle of human achievement. If you have
-any powers, they're minor in comparison to extensive training.
+any powers, they're minor in comparison to your extensive training.
 
 This is reflected in both your large number of skills and your
-combat prowess: Choose one additional Fighting Style.
+combat prowess: 
+
+Choose one additional Fighting Style.
 
 #### Power Words
 
@@ -1234,7 +1441,7 @@ combat prowess: Choose one additional Fighting Style.
 
 ##### Core Power Words
 
-Your Core Power Words are **Prepared** and **Trick**.
+Your Core Power Words are **Prepared** and **Gambit**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
@@ -1469,8 +1676,8 @@ dice equal to the current Volume.
 You feel a special attachment to your homeland, whether it be
 a physical location or a metaphorical concept such as "the Seas".
 
-If a Crisis threatens your domain, add 3 when you form
-or contribute to the Teamwork Pool.
+If a Crisis threatens your domain, add 3 when you roll to form the
+Teamwork Pool.
 
 #### Power Words
 
@@ -1707,9 +1914,27 @@ You have two skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: TBD
+#### Class Ability: My One Weakness!
 
-[]{.lorem}
+When you create your hero, pick a weakness they possess --
+usually some kind of substance, energy type, or other physical
+phenomenon.
+
+During a Crisis, you can declare at any point that your one 
+weakness is present.  
+
+If you do, you temporarily lose access to *all* of your Power Words, 
+your Might becomes 0,
+and you skip your turn during the Hero Turn. This lasts until someone
+else removes the source of your weakness from the scene, or until 
+the end of the present Crisis.
+
+Every Hero Turn that you're inactive, the other heroes get extra
+dice on their rolls equal to the Volume number.
+
+When the source of your weakness is disposed of, you regain access
+to all your Power Words and your Might is refreshed to its normal
+maximum value.
 
 #### Power Words
 
@@ -1949,9 +2174,20 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the current Volume.
 
-#### Class Ability: TBD
+#### Class Ability: Reshape the Battlefield
 
-[]{.lorem}
+As your action during the Hero Phase of a Crisis, you can
+change your environment. 
+
+Choose your Power Words, spend Might as normal, and make a 
+roll. 
+
+If the Effectiveness of your roll is at least 1, you can change 
+one of the Scene Power Words to one of your own Power Words until 
+the end of the Crisis.  
+
+The maximum number of Scene Power Words you can change during a
+Crisis is equal to the current Volume number.
 
 #### Power Words
 
@@ -2109,7 +2345,7 @@ effects.
 After spending 1 Might on the Power Stunt, you can then make an
 appropriate roll for your Power Stunt -- either to increase the
 Teamwork Pool or to decrease one of the Goals in a Crisis. Add an
-additional 1 Success to the Effectiveness of the roll based on your Stunt.
+additional die to the dice pool for each Power Word beyond the first.
 
 You don't have to come up with Power Stunts beforehand; instead,
 you create them on the fly during a Crisis, blending together your
@@ -2119,8 +2355,8 @@ For example, if you have the Flight and Speed Power Words, you
 could join those together for a Power Stunt with the phrase
 "Flight Speed". Spending 1 point of Might on this Stunt
 means that when you make a roll -- such as rolling your Adventure
-Facet to Outwit a foe -- increases your roll's Effectiveness by
-1 Success, even if you rolled 0 Successes.
+Facet to Outwit a foe -- increases the number of dice in your pool
+by 1 die.
 
 
 ### Power Combos {#toc-power-combos .colbefore}
@@ -2141,12 +2377,12 @@ and they're called the initiating hero for that Combo.
 
 A Power Combo starts with a Power Stunt -- the player of the
 initiating hero chooses two Power Words and combines them,
-spending 1 point of Might and increasing the Effectiveness
-of the next roll by 1 Success.
+spending 1 point of Might and increasing the number of dice
+of their next roll by 1 Success.
 
 The other players each spend 1 Might and contribute another
-Power Word to the Power Combo, each of which increases the roll's
-Effectiveness by 1 Success.
+Power Word to the Power Combo, each of which adds a die to the
+dice pool.
 
 Only the initiating hero can spend additional Might to use one 
 of their Core Power Words as a *third* (or fourth) Power Word in 
@@ -2164,7 +2400,7 @@ For example, []{.lorem}
       <tr>
         <th>Symbol</th>
         <th>Meaning</th>
-        <th>Effectiveness</th>
+        <th>Extra Dice</th>
       </tr>
     </thead>
     <tbody>
@@ -2175,7 +2411,7 @@ For example, []{.lorem}
       </tr>
       <tr>  
         <th class="yes gray"></th>
-        <td>**Yes; But** adds no Successes</td>
+        <td>**Yes; But** adds no Dice</td>
         <td>+0 Successes</td>
       </tr>
       <tr>  
@@ -2185,7 +2421,7 @@ For example, []{.lorem}
       </tr>
       <tr>  
         <th class="lock gray"></th>
-        <td>**Yes; If** unlocked, **But** adds no Successes</td>
+        <td>**Yes; If** unlocked, **But** adds no Dice</td>
         <td>+0 Successes</td>
       </tr>
       <tr>  
@@ -2329,12 +2565,12 @@ For example, []{.lorem}
 
 You can use one of your Core Power Words as a *third* Power Word 
 in a Power Stunt. Doing so costs 1 additional point of Might, 
-and adds another 1 Success to the Effectiveness of a roll.
+and adds another 1 die to the dice pool on your roll.
 
 By spending yet 1 *more* Might point you can add your *other* 
 Core Power Word as a *fourth* Power Word in a Power Stunt. 
-Collectively this gives a bonus of 3 Successes on the rolls
-Effectiveness, but also costs you 3 Might points.
+Collectively this gives a bonus of 3 dice in the dice pool,
+but also costs you 3 Might points.
 
 For example,  []{.lorem}
 
@@ -2347,7 +2583,7 @@ the current Story Arc.
 You can use one of your Nova Power Words as the *second* Power
 Word in a Stunt without spending any Might; likewise, you can add 
 use one as your contribution to a Combo for free. In both cases, the 
-Nova Power Word still increases the roll's Effectiveness by 1 Success.
+Nova Power Word still increases the roll's dice pool by 1 die.
 
 Using your *other* Nova Power Word in the same Power Stunt or
 Power Combo requires spending 1 Might. 
@@ -2360,10 +2596,10 @@ Each scene has up to 6 Scene Power Words, chosen by the Editor.
 
 You can use one Scene Power Word as a second Power Word in a 
 Power Stunt without spending any Might; Scene Power Words are free, 
-but they still contribute 1 Success to the Effectiveness of a roll.
+but they still contribute 1 die to the dice pool.
 
 Each Power Combo can also include one Scene Power Word for free, 
-and it likewise increases the Effectiveness of that Combo.
+and it likewise increases the dice pool of that Combo.
 
 For example, []{.lorem}
 
@@ -2409,6 +2645,43 @@ The steps to take before a Crisis are:
 
 []{.lorem}
 
+##### Innocent Bystanders {.colbefore}
+
+Superhero fights can be dangerous for people caught in the crossfire,
+and most natural or manmade disasters place people in danger.
+
+At the beginning of the Crisis, the Editor can assign points to the
+Bystander Pool. Heroes can use the Save Innocents move to reduce
+the size of the Bystander Pool, while the Crisis's moves can be
+used to increase it.
+
+When the Bystander Pool is reduced to zero, there are no longer any
+endangered people, although in subsequent turns, the Crisis may add
+more to this pool.
+
+This table is a rough guideline for how many people are endangered
+and how large the Bystander Pool should be:
+
+  Pool             Number             Examples
+----------------  ------------------  --------------------------------
+       1           a couple, at best  A remote highway
+       2               several        A mostly empty convenience store
+       3               a bunch        A bank
+       4                many          A small factory
+       5               very many      A supermarket
+       6                a *lot*       A hospital
+       7                numerous      A school
+       8+              a big crowd    A crowded rock concert
+
+When a hero reduces the size of the Bystander Pool with the Save
+Innocents move, they regain a number of Might points equal to the 
+number of points removed. Protecting others reinvigorates the heroes
+to fight on.
+
+If a Crisis move reduces the size of the Bystander Pool, the same 
+amount is *also* subtracted from the Teamwork Pool. Being unable to
+save everyone is demoralizing to all heroes.
+
 #### Defining the Goals {#toc-crisis-goals}
 
 []{.lorem}
@@ -2443,25 +2716,25 @@ the Hero Phase.
 
 ### Hero Phase {#toc-crisis-hero .colbefore}
 
-The heroes can each take one action during the Hero Phase, one at a time, 
+The heroes can each take one move during the Hero Phase, one at a time, 
 in any order they like.
 
 While your hero is at the scene of a Crisis, there are essentially three
 things you can choose to do: Advance a Goal, Contribute to the Teamwork Pool,
 or Save Innocents.
 
-If your hero is *not* present, you can use the Timely Arrival action.
+If your hero is *not* present, you can use the Timely Arrival move.
 
 #### Timely Arrival {#toc-crisis-timely}
 
-When you use the Timely Arrival action, spend 5 successes from the
+When you use the Timely Arrival move, spend 5 successes from the
 Teamwork Pool have your hero arrive at the end of the current Hero Phase. 
 
-You can't take any other actions that turn, but you *can* describe 
+You can't take any other moves that turn, but you *can* describe 
 your entry to the scene and make a roll related to your arrival. 
 Add the Effectiveness of that roll to the Teamwork Pool.
 
-The cost of the Timely Arrival action decreases by 1 success every
+The cost of the Timely Arrival move decreases by 1 success every
 Crisis Phase.
 
 #### General Alert {#toc-crisis-alert}
@@ -2504,34 +2777,43 @@ to the Teamwork Pool.
 
 []{.lorem}
 
-#### Saving Innocents {#toc-crisis-saving}
+#### Save Innocents {#toc-crisis-saving}
 
-[]{.lorem}
+When your hero uses the Save Innocents move, you can describe how they
+are using their powers and abilities to protect people from danger, and
+make a roll using an appropriate Facet.
+
+If you succeed on the roll, you can remove a number of points equal to
+the Effectiveness from the Bystander Pool. For each point removed, 
+you regain 1 point of Might.
+
+If you fail, the bystanders remain endangered, and the size of the
+Bystander Pool remains the same.
 
 ### Crisis Phase {#toc-crisis-crisis .colbefore}
 
-Once every hero has taken an action, then it’s time for the Editor
+Once every hero has taken a move, then it’s time for the Editor
 to take their turn.
 
-Every Crisis has a set number of turns per round. As a rule, the more 
-actions a Crisis gets per turn, the more difficult it is. 
-If the Crisis has the same number of actions as the hero team,
+Every Crisis has a set number of moves per turn. As a rule, the more 
+moves a Crisis gets per turn, the more difficult it is. 
+If the Crisis has the same number of moves as the hero team,
 it will be very challenging.
 
-The Editor chooses actions from the Encounter’s list. Every action has 
-a cost next to it – if the heroes pay this many successes from the 
-Teamwork Pool, they defend against the attack and nothing happens.
+The Editor chooses moves from the Encounter’s list of moves. Every
+move has a cost next to it – if the heroes pay this many successes 
+from the Teamwork Pool, they defend against that move and nothing 
+happens.
 
-For every action the Crisis tries to take, the heroes have an opportunity 
-to spend successes from the Teamwork Pool to defend. If there aren’t 
-enough successes in the pool to defend, or if the heroes decide not to defend, 
-then the action happens and the heroes face the consequences. 
+If there aren’t enough successes in the pool to defend against the
+move, or if the heroes decide not to counter the move, then the 
+move happens and the heroes face the consequences. 
 
 Possible consequences include losing Health, temporarily restricting 
-the heroes' ability to use a certain type of roll on their next turn,
-or innocents being endangered.
+the heroes' ability to use a certain type of roll or move on their 
+next turn, or innocents being endangered.
 
-Once the Editor has taken enough actions, it’s time to go back to the heroes.
+Once the Editor has taken enough moves, it’s time to go back to the heroes.
 
 ### Post-Crisis {#toc-crisis-post .colbefore}
 
@@ -2650,11 +2932,11 @@ Story Arcs.
 
 - **Ability** - Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 - **Action** – A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
-- **Advance a Goal** - An action taken by a hero designed to move a Crisis closer to resolution.
+- **Advance a Goal** - A move taken by a hero designed to move a Crisis closer to resolution.
 - **Advancement** - The choice made by a player at the end of a Story Arc to increase their hero's Health or Might, or add a new Skill or Power Word. Adding a Skill or Power Word can only be chosen once per Volume.
 - **Adventure** – A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
-- **Contribute to the Teamwork Pool** - An action taken by a hero designed to give the team an advantage against a Crisis.
-- **Crisis Phase** - The part of a Crisis when the Editor chooses the actions for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
+- **Contribute to the Teamwork Pool** - A move taken by a hero designed to give the team an advantage against a Crisis.
+- **Crisis Phase** - The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
 - **Crisis** – A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. (*Encounter* in Harmony Drive.)
 - **Detective** – A facet of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
 - **Edge Success** – A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
@@ -2662,25 +2944,26 @@ Story Arcs.
 - **Effectiveness** - The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
 - **Facets** – A hero's "stats". Facets describe a hero's preferred ways of solving problems.
 - **Fighting Style** – An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
-- **General Alert** - An action taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
+- **General Alert** - A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
 - **Goal** - One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
 - **Health** - A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
-- **Hero Phase** - The part of a Crisis when the players choose the actions taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
+- **Hero Phase** - The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
 - **Hero** - A single character whose actions are determined by a player who isn't the Editor.
 - **Issue** - A game session, usually 2 to 4 hours.
 - **Lesson** – The lesson a hero needs to learn, used to help the Editor plan a Spotlight Arc about the hero.
 - **Might** - A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
 - **Motivations** – A list of a hero's unique motivations. When a hero acts in accordance with an item in their Motivations, they mark it off and add two dice to their skill roll. (*Key* in Harmony Drive.)
+- **Move** - A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
 - **Mystery** – A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 - **Nova Power Words** – Two Power Words that are available to the hero after they have marked off every item in their Motivations. These can be anything – the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
 - **Outwit** - A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
 - **Personal Power Words** - Six or more Power Words that define a hero's Powers. (*Personal Spell Pieces* in Harmony Drive.)
-- **Power Combo** - An action using the Power Words of two or more heroes. (*Chord* in Harmony Drive.)
-- **Power Display** - An action by a hero that uses one of their Power Words in the description but gives no additional game benefits.
-- **Power Stunt** - An action by a hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
+- **Power Combo** - A move using the Power Words of two or more heroes. (*Chord* in Harmony Drive.)
+- **Power Display** - A move by a hero that uses one of their Power Words in the description but gives no additional game benefits.
+- **Power Stunt** - A move by a hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
 - **Power Words** – The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo. (*Spell Pieces* in Harmony Drive.)
 - **Power** - The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
-- **Save Innocents** - An action taken by a hero to protect normal humans from the effects of a Crisis.
+- **Save Innocents** - A move taken by a hero to protect normal humans from the effects of a Crisis.
 - **Scene Power Words** - Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
 - **Series** - A group of Story Arcs following the same group of heroes; a campaign.
 - **Smash** - A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
@@ -2689,7 +2972,7 @@ Story Arcs.
 - **Story** - An adventure, either self-contained in one Issue or continued to the next Issue.
 - **Success** – A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
 - **Suspense** – A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
-- **Timely Arrival** - An action taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
+- **Timely Arrival** - A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 - **Volume** - A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
 - **Withstand** - A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

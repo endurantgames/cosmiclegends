@@ -1,11 +1,12 @@
 # Rolling Dice {#toc-dice .breakbefore}
 
 The dice mechanic in []{.gamename} is a pool of six-sided dice. 
-When players want to take an uncertain action, they build a dice pool.
+When a player wants to take an uncertain action, they build a dice pool.
 
 - One die for every point they have in the relevant Facet
 - One die for every Volume if they have a relevant Skill
 - Two dice if they can mark off a relevant part of their Motivation
+- One die for every Power Word beyond the first
 
 Any dice that come up a 5 or a 6 are counted as Successes. 
 A challenging task can require 1-3 Successes to complete (outside combat).
