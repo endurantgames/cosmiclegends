@@ -35,7 +35,7 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
-- Animal
+- Beast
 - Body
 - Claws
 - Clobber
