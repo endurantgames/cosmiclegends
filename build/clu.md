@@ -1293,27 +1293,25 @@ Stamina of Atlas
 
 :   Your capacity for channeling power is comparable
     to the stamina of the titan Atlas.
-    When you roll to advance Withstand, add 2 extra dice
-    to the roll.
+    Add 2 to the dice pool to advance the Withstand goal.
 
 Courage of Ares
 
 :   Your divine spirit won't give up, even when the odds are
     against you.
-    When you are below half your Health, add 1 extra die to
-    any roll to advance a Goal.
+    When you are below half your Health, add 1 to the dice pool
+    to advance any Goal.
 
 Wisdom of Athena
 
 :   Your insight is unmatched by anyone save the gods themselves.
-    When you roll to advance Withstand, add 2 extra dice to
-    the roll.
+    Add 2 to the dice pool to advance the Outwit goal.
 
 Strength of Kratos
 
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
-    When you roll to advance Smash, add 2 dice to the roll.
+    Add 2 to the dice pool to advance the Smash goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1326,9 +1324,9 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Skill of Artemis
 
 :   Divinely granted knowledge gives you skill in nearly
-    ever field.
-    When you make a skill roll, if you don't already
-    have that skill, add 1 die to the roll.
+    every field.
+    When you make a skill roll, if you don't have that 
+    skill, add 1 to the dice pool.
 
 Speed of Hermes
 
@@ -1491,21 +1489,20 @@ Fight Fire With Fire
 Wide Spread
 
 :   You can spread your energy in a burst that hits
-    many targets. When you advance the Smash Pool, 
-    advance another Pool by 1.
+    many targets. When you advance the Smash goal by
+    at least 1, advance another goal by 1.
 
 Eight Ball, Corner Pocket
 
-:   You're extremely good at bouncing your blasts off solid
-    targets. When you do so and roll to advance the Outwit Pool, 
-    add 2 dice to the dice pool.
+:   You're extremely good at bouncing your blasts off solid targets. 
+    When you do, add 2 to the dice pool to advance the Outwit goal.
 
 Synergy Sense
 
 :   You can sense the presence of energy that matches your
     Energy Power Word. You can roll Suspense/Synergy Sense
-    as a skill to locate such energies: add the current
-    Volume to the number of dice in your dice pool.
+    as a skill to locate such energies: add the Volume to the
+    dice pool.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1648,17 +1645,18 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-TBD
+Stately Skyscraper
 
-:   To Be Determined
+:   You have a base of operations at the top of a tall building.
+    Whenever you make a skill roll in that building, add 2 dice
+    to the dice pool.
 
 Perspicacious Pettifoggery
 
 :   Using your vast vocabulary of super-scientific knowledge, you can 
     easily out-technobabble your opponents. When you roll to advance
-    the Outwit goal, add a number of dice to the dice pool equal
-    to the number of syllables in the longest Power Word you
-    used, with a maximum of 2 + the Volume Number.
+    the Outwit goal, add the largest number of syllables in a Power
+    Word you're using to the dice pool, with a maximum of 2 + the Volume.
 
 Flexible Faculties
 
@@ -1666,6 +1664,10 @@ Flexible Faculties
     possess an actual super-power. Add one Personal Power Word from 
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
+
+TBD
+
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::
 
@@ -1677,9 +1679,9 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Auspicious Alliteration
 
 :   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
-    or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
-    for each Power Word whose first letter matches first letter of another 
-    Power Word in the Stunt or Combo.
+    or Power Combo to add to the Teamwork Pool, add 1 to the dice pool
+    for each Power Word whose first letter matches the first letter of 
+    another Word in the Stunt or Combo.
 
 Puissant Polymath
 
@@ -1819,8 +1821,8 @@ At the start of Volume 1, choose an ability from this list.
 
 Team, Together!
 
-:   You are a natural leader. When you roll to create or 
-    increase the Teamwork Pool, add 2 dice to the dice pool.
+:   You are a natural leader. 
+    Add 2 to the Dice Pool to add to the Teamwork Pool.
 
 I Work Alone
 
@@ -1852,7 +1854,7 @@ Trick Arrows
 
 :   At the start of each Story Arc, pick a number of Power Words
     from the Dynamo or Paragon Personal Power Words lists
-    equal to the current Volume.
+    equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Story Arc without paying any Might.
 
@@ -1999,9 +2001,12 @@ TBD
 
 :   to be determined
 
-TBD
+Auspicious Alliteration
 
-:   to be determined
+:   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
+    or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
+    for each Word whose first letter matches the first letter of 
+    another Word in the Stunt or Combo.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2146,13 +2151,16 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Nobilitas Obligat!
 
-:   To be determined
+:   You feel an obligation to protect the ordinary people of the world. 
+    Add 2 to the dice pool to reduce the Bystander Pool. If the
+    Bystanders are your subjects, also add the Volume.
 
-TBD
+Dulcedinem Irae!
 
-:   To be determined
+:   If you are below half Health in the current Crisis, 
+    add 2 to the dice pool to advance the Smash goal.
 
 TBD
 
@@ -2761,8 +2769,8 @@ Crisis is equal to the current Volume number.
 
 Your Core Power Words are **Sculpt** and **Environment**.
 
-In addition, you get a third Core Power Word chosen from
-the following list:
+In addition, you get a third Core Power Word -- known as your
+Element Power Word -- chosen from the following list:
 
 ::::::::::::: cpw :::::::
 - Cloth
@@ -2850,9 +2858,13 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Grand Unified Theory
 
-:   to be determined
+:   You've discovered that your powers aren't limited to a
+    single substance but can be extended to other types of
+    shaping. Add a Volume-number of Words from the Element
+    Power Word list as Personal Power Words.  Add another 
+    at the start of each later Volume.
 
 TBD
 

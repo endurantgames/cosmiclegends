@@ -113,7 +113,7 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Skill of Artemis
 
 :   Divinely granted knowledge gives you skill in nearly
-    ever field.
+    every field.
     When you make a skill roll, if you don't have that 
     skill, add 1 to the dice pool.
 
