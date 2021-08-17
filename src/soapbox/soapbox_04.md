@@ -1,8 +1,8 @@
 ::::::::::::::::::: { .soapbox #soapbox-4 } ::::::::::::::::::::::
 
-## The Ages of Comics
+# The Ages of Comics
 
-The Silver Age (1956 to circa 1970)
+The Silver Age - 1956 to circa 1970
 
 :   The Silver Age began when DC Comics
     created new versions of the Flash, Green Lantern, and others,

@@ -468,7 +468,7 @@ color: crimson; }
 
 @page:nth(2) { @bottom-center { content: '- i -'; } }
 
-.onpage a:before { content: 'on page ' target-counter(attr(href), page); }
+a.onpage { content: 'on page ' target-counter(attr(href), page); }
 
 #toc-glossary { column-span: all; }
 
@@ -586,15 +586,20 @@ margin-top: 1em; }
   border: 0.5pt solid var(--color-line);
 }
 
-.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+3):before {
+.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2):before {
   content: "Spindrift's Soapbox: ";
 }
 
-.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+3) { margin-bottom: 0.25em; column-span: all; }
+.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { 
+margin-bottom: 0.25em; column-span: all; 
+  font-family: var(--font-h4);
+  font-size: var(--h4);
+}
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--font-h3);
-  font-size: var(--h3);
+  font-family: var(--font-h5);
+  font-size: var(--h5);
+  margin-top: 0;
 }
 
 .soapbox dl dt { font-family: var(--font-h5); font-size: var(--h5); 

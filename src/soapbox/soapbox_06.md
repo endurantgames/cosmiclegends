@@ -1,8 +1,8 @@
 ::::::::::::::::::: { .soapbox #soapbox-6 } ::::::::::::::::::::::
 
-## The Ages of Comics
+# The Ages of Comics
 
-The Modern Age (ca. 1985 to present)
+The Modern Age - ca. 1985 to present
 
 :   The start current age of comics is usually dated to the 
     *Crisis on Infinite Earths* and *Secret Wars* 12-issue series

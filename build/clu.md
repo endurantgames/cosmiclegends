@@ -259,39 +259,6 @@ Specific items in the toolkit are credited as follows:
 - *Stars and Wishes* was designed by 
   <a href="https://www.gauntlet-rpg.com/blog/stars-and-wishes">Lu Quade</a>
 
-::::::::::::::::::: { .soapbox #soapbox-2 } ::::::::::::::::::::::
-
-#### The Super Friends
-
-We'll start with the name and the cover art: This game
-is obviously inspired by the 
-[Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
-animated television show that was on the air from 1973 
-to 1985 -- incidentally the years that yours truly was
-between five and sixteen.
-
-To say the show had a formative influence might be overselling 
-it, but it *did* influence how I view comics and superheroes
-in general.
-
-The first season has this great opening monologue where
-the late, great Ted Knight intoned that the four heroes --
-obviously, Robin doesn't count for some reason? -- were
-"created from the cosmic legends of the universe!"
-
-What on earth does *that* mean? I *guess* I could see that
-applying to Wonder Woman, but how exactly was Bruce Wayne
-created from the cosmic legends of the universe?!
-
-It was never really clear, but decades later I decided it
-would make a great title for this Bronze-Age, four-color
-tabletop roleplaying game.
-
-Continued [](#soapbox-3){.onpage}
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 ## Safety Tools {#safety .breakbefore}
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
@@ -301,6 +268,41 @@ from the *TTRPG Safety Toolkit* that we've included below.
 You should not play []{.gamename} without using at least
 one such tool in your game.
 
+
+::::::::::::::::::: { .soapbox #soapbox-2 } ::::::::::::::::::::::
+
+### Influences
+
+The Super Friends
+
+:   We'll start with the name and the cover art: This game
+    is obviously inspired by the 
+    [Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
+    animated television show that was on the air from 1973 
+    to 1985 -- incidentally the years that yours truly was
+    between five and sixteen.
+    
+    To say the show had a formative influence might be overselling 
+    it, but it *did* influence how I view comics and superheroes
+    in general.
+    
+    The first season has this great opening monologue where
+    the late, great Ted Knight intoned that the four heroes --
+    obviously, Robin doesn't count for some reason? -- were
+    "created from the cosmic legends of the universe!"
+    
+    What on earth does *that* mean? I *guess* I could see that
+    applying to Wonder Woman, but how exactly was Bruce Wayne
+    created from the cosmic legends of the universe?!
+    
+    It was never really clear, but decades later I decided it
+    would make a great title for this Bronze-Age, four-color
+    tabletop roleplaying game.
+    
+Continued [](#soapbox-3){.onpage}
+    
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   
 
 ::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
 ### What are safety tools?
@@ -562,13 +564,13 @@ The important part is that the player is presented with a difficult choice.
 
 ::::::::::::::::::: { .soapbox #soapbox-3 } ::::::::::::::::::::::
 
-#### "Bronze Age"
+### The Ages of Comics
 
 American comics fans and scholars divide the history of U.S.
 comics into four loosely defined "ages": the Golden Age, the
 Silver Age, the Bronze Age, and the Modern Age.
 
-The Golden Age (1938 to 1956)
+The Golden Age - 1938 to 1956
 
 :   The Golden Age started with the introduction of Superman,
     and the creation of the superhero model that's been used for years. 
@@ -617,9 +619,9 @@ new ways to use their existing powers.
 
 ::::::::::::::::::: { .soapbox #soapbox-4 } ::::::::::::::::::::::
 
-#### The Ages of Comics
+### The Ages of Comics
 
-The Silver Age (1956 to circa 1970)
+The Silver Age - 1956 to circa 1970
 
 :   The Silver Age began when DC Comics
     created new versions of the Flash, Green Lantern, and others,
@@ -681,9 +683,9 @@ To create your hero, follow these steps:
 
 #### The Ages of Comics
 
-The Bronze Age (ca. 1970 to ca. 1985)
+The Bronze Age - ca. 1970 to ca. 1985
 
-:   The Bronze Age (circa 1970 to circa 1985)** is less distinctly
+:   The Bronze Age (circa 1970 to circa 1985) is less distinctly
     defined chronologically, but it's an era where comics went
     through changes: becoming more socially relevant and less
     restrained by the CCA. More on that later.
@@ -751,9 +753,9 @@ cleared and it’s time to start again.
 
 ::::::::::::::::::: { .soapbox #soapbox-6 } ::::::::::::::::::::::
 
-#### The Ages of Comics
+### The Ages of Comics
 
-The Modern Age (ca. 1985 to present)
+The Modern Age - ca. 1985 to present
 
 :   The start current age of comics is usually dated to the 
     *Crisis on Infinite Earths* and *Secret Wars* 12-issue series
@@ -793,6 +795,32 @@ with their fists or their powers. Those styles are:
 - **Weaponmaster** Add 2 dice to the dice pool when you use a melee Weapon to advance the Outwit goal.
 
 If you choose the Knight class, you get to pick an additional fighting style. 
+
+::::::::::::::::::: { .soapbox #soapbox-7 } ::::::::::::::::::::::
+
+#### "Four-Color"
+
+The term "four-color" refers to the printing process used
+in comics that led to most heroes having bold, primary
+colors for their uniforms, their bodies, their world.
+
+One example is Superman's hair having *blue* overtones --
+this was clearly meant to display his hair as lustrous
+color of black, but that was beyond the capabilities used
+at the time, so they published comics with that weird blue
+highlight.
+
+But don't worry -- our use of the term "four-color" doesn't
+refer to the printing process we use in this game (although
+the PDFs do support 
+[2021's CMYK color printing](https://en.wikipedia.org/wiki/CMYK_color_model), 
+but instead to the general tone and feel of late Silver-Age
+and Bronze-Age comics, when primary-color superheroes of the
+1950s and '60s were meeting the social issues of the '70s
+and '80s.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ### Skills {#toc-skills .colbefore}
 
@@ -1127,32 +1155,6 @@ These are known as **Scene Power Words.**
 
 The Editor comes up with Scene Power Words when describing a location, 
 and if you think creatively, you can use them in your Power Stunts and Combos.
-
-
-::::::::::::::::::: { .soapbox #soapbox-1 } ::::::::::::::::::::::
-
-#### "Four-Color"
-
-The term "four-color" refers to the printing process used
-in comics that led to most heroes having bold, primary
-colors for their uniforms, their bodies, their world.
-
-One example is Superman's hair having *blue* overtones --
-this was clearly meant to display his hair as lustrous
-color of black, but that was beyond the capabilities used
-at the time, so they published comics with that weird blue
-highlight.
-
-But don't worry -- our use of the term "four-color" doesn't
-refer to the printing process we use in this game (although
-the PDFs do support 
-[2021's CMYK color printing](https://en.wikipedia.org/wiki/CMYK_color_model), 
-but instead to the general tone and feel of late Silver-Age
-and Bronze-Age comics, when primary-color superheroes of the
-1950s and '60s were meeting the social issues of the '70s
-and '80s.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ### Your Hero's Identity {#toc-chargen-identity .colbefore}

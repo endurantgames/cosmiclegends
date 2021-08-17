@@ -1,12 +1,12 @@
 ::::::::::::::::::: { .soapbox #soapbox-3 } ::::::::::::::::::::::
 
-## "Bronze Age"
+# The Ages of Comics
 
 American comics fans and scholars divide the history of U.S.
 comics into four loosely defined "ages": the Golden Age, the
 Silver Age, the Bronze Age, and the Modern Age.
 
-The Golden Age (1938 to 1956)
+The Golden Age - 1938 to 1956
 
 :   The Golden Age started with the introduction of Superman,
     and the creation of the superhero model that's been used for years. 
