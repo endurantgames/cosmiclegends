@@ -1,4 +1,4 @@
-# Ethos {#toc-ethos}
+# Ethos {#toc-ethos .colbefore}
 
 []{.gamename} revolves around the following three pillars:
 

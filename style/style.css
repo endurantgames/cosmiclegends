@@ -157,6 +157,7 @@ table thead        { }
 table th, table td { padding: 2pt;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
+p { margin-top: 0.25em; margin-bottom: 0.5em; }
 
 #cover + h1   { counter-reset: page; counter-increment: page; break-before: right; margin: 0; }
 
@@ -173,6 +174,7 @@ ul, ol       { margin-left: 1em;    }
 ul li, ul ol { margin-left: 1em;    }
 
 .sidebar p { margin-top: 4pt; margin-bottom: 0; line-height: 1.1; font-size: var(--smaller); }
+
 .sidebar { 
   float-placement:   top;
   float-reference:   column;
@@ -466,6 +468,7 @@ color: crimson; }
 
 @page:nth(2) { @bottom-center { content: '- i -'; } }
 
+.onpage a:before { content: 'on page ' target-counter(attr(href), page); }
 
 #toc-glossary { column-span: all; }
 
@@ -564,7 +567,40 @@ margin-top: 1em; }
 .skill-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .skill-list dl dd ul li::marker { padding-right: 0.25em; }
 
+.soapbox {
+  column-span: all;
+  column-count: 2;
+  column-width: auto;
+  column-gap: 12pt;
+  float-placement:   bottom;
+  float-reference:   page;
+  padding: 3pt;
+  padding-left:      9pt;
+  padding-right:     9pt;
+  padding-bottom:    6pt;
+  margin-bottom:     9pt;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background:        var(--bgcolor-sidebar);
+  border-radius: var(--border-radius);
+  border: 0.5pt solid var(--color-line);
+}
 
+.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+3):before {
+  content: "Spindrift's Soapbox: ";
+}
+
+.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+3) { margin-bottom: 0.25em; column-span: all; }
+
+.soapbox :matches(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-h3);
+  font-size: var(--h3);
+}
+
+.soapbox dl dt { font-family: var(--font-h5); font-size: var(--h5); 
+margin-top: 1em; }
+.soapbox dl dd { margin: 0; padding: 0; }
+.soapbox dl dd p { margin: 0.5em 0; }
 
 
 .twocolumn { column-count: 2; column-gap: 1em; break-inside: avoid; }
