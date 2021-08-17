@@ -66,7 +66,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-## Mage Abilities {.colbefore .class}
+## Mage Abilities {  .class}
 
 []{.lorem}
 
@@ -75,10 +75,25 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+Auspicious Alliteration
+
+:   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
+    or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
+    for each Word whose first letter matches the first letter of 
+    another Word in the Stunt or Combo.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -86,9 +101,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -96,9 +116,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
@@ -106,8 +131,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -115,7 +146,13 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 

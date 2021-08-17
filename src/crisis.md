@@ -124,7 +124,7 @@ If your hero is *not* present, you can use the Timely Arrival move.
 When you use the Timely Arrival move, spend 5 successes from the
 Teamwork Pool have your hero arrive at the end of the current Hero Phase. 
 
-You can't take any other moves that turn, but you *can* describe 
+You can't make any other moves that turn, but you *can* describe 
 your entry to the scene and make a roll related to your arrival. 
 Add the Effectiveness of that roll to the Teamwork Pool.
 

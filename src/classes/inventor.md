@@ -35,21 +35,21 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
-- Advanced
+- Adapation
 - Analyze
-- Armor
-- Energy
-- Field
+- Emitter
+- Energetic
 - Force
-- Jet
 - Laser
 - Miniaturize
-- Redirect
-- Robot
-- Store
-- Tracer
-- Vehicle
-- Weapon
+- Redirection
+- Robotic
+- Rocketry
+- Protection
+- Powersuit
+- Telemetry
+- Transportation
+- TBD
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -66,7 +66,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-## Inventor Abilities {.colbefore .class}
+## Inventor Abilities {  .class}
 
 []{.lorem}
 
@@ -75,20 +75,51 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
-:::::::::::::::::::::::::::::::::::::
+
+Stately Skyscraper
+
+:   You have a base of operations at the top of a tall building.
+    Whenever you make a skill roll in that building, add 2 dice
+    to the dice pool.
+
+Perspicacious Pettifoggery
+
+:   Using your vast vocabulary of super-scientific knowledge, you can 
+    easily out-technobabble your opponents. When you roll to advance
+    the Outwit goal, add the largest number of syllables in a Power
+    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+
+Flexible Faculties
+
+:   Your abilities extend beyond your inventive endeavours, as you
+    possess an actual super-power. Add one Personal Power Word from 
+    the Monarch, Monstrosity, or Psychic class lists as a 
+    Personal Power Word.
+
+TBD
+
+:   To Be Determined
+
+:::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+Auspicious Alliteration
+
+:   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
+    or Power Combo to add to the Teamwork Pool, add 1 to the dice pool
+    for each Power Word whose first letter matches the first letter of 
+    another Word in the Stunt or Combo.
+
+Puissant Polymath
+
+:   Your education covered a wide range of topics.  Gain a number of 
+    skills equal to the current Volume. Add an additional skill at the 
+    start of each later Volume.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -96,9 +127,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
@@ -106,8 +142,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -115,7 +157,13 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 

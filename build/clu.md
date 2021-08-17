@@ -1279,7 +1279,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 
-#### Divine Abilities {.colbefore .class}
+#### Divine Abilities { .class}
 
 []{.lorem}
 
@@ -1288,10 +1288,33 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+
+Stamina of Atlas
+
+:   Your capacity for channeling power is comparable
+    to the stamina of the titan Atlas.
+    When you roll to advance Withstand, add 2 extra dice
+    to the roll.
+
+Courage of Ares
+
+:   Your divine spirit won't give up, even when the odds are
+    against you.
+    When you are below half your Health, add 1 extra die to
+    any roll to advance a Goal.
+
+Wisdom of Athena
+
+:   Your insight is unmatched by anyone save the gods themselves.
+    When you roll to advance Withstand, add 2 extra dice to
+    the roll.
+
+Strength of Kratos
+
+:   Imbued with power comparable to the titan personification of
+    strength, you can break down most barriers with ease.
+    When you roll to advance Smash, add 2 dice to the roll.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -1299,9 +1322,21 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+
+Skill of Artemis
+
+:   Divinely granted knowledge gives you skill in nearly
+    ever field.
+    When you make a skill roll, if you don't already
+    have that skill, add 1 die to the roll.
+
+Speed of Hermes
+
+:   You can run -- or fly, if you have Flight as a Power Word --
+    at speeds approaching Mach 1.
+    The Timely Arrival move costs you 0 points from the 
+    Teamwork Pool.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1309,9 +1344,17 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+
+Power of Zeus
+
+:   You're empowered with divine energy that crackles
+    like electricity when you use Might.
+    Increase your maximum Might to 15.
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -1319,8 +1362,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -1328,8 +1377,15 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -1361,8 +1417,8 @@ than two Might points, you regain 1 Might.
 
 Your Core Power Words are **Energy** and **Overload**.
 
-In addition, you get a third Core Power Word chosen from
-the following list:
+In addition, you get a third Core Power Word -- known as your
+Energy Power Word -- chosen from the following list:
 
 ::::::::::::: cpw :::::::
 - Cold
@@ -1414,7 +1470,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Dynamo Abilities {.colbefore .class}
+#### Dynamo Abilities {.class}
 
 []{.lorem}
 
@@ -1423,10 +1479,34 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+
+Fight Fire With Fire
+
+:   If a Crisis threatens you or someone else with
+    harm from energy blasts, you can fire off a
+    blast of energy that intercepts and blocks it.
+    You can spend points of Might instead of points from
+    the Teamwork Pool to avoid energy-themed effects.
+
+Wide Spread
+
+:   You can spread your energy in a burst that hits
+    many targets. When you advance the Smash Pool, 
+    advance another Pool by 1.
+
+Eight Ball, Corner Pocket
+
+:   You're extremely good at bouncing your blasts off solid
+    targets. When you do so and roll to advance the Outwit Pool, 
+    add 2 dice to the dice pool.
+
+Synergy Sense
+
+:   You can sense the presence of energy that matches your
+    Energy Power Word. You can roll Suspense/Synergy Sense
+    as a skill to locate such energies: add the current
+    Volume to the number of dice in your dice pool.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -1434,9 +1514,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1444,9 +1529,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -1454,8 +1544,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -1463,8 +1559,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -1505,21 +1607,21 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
-- Advanced
+- Adapation
 - Analyze
-- Armor
-- Energy
-- Field
+- Emitter
+- Energetic
 - Force
-- Jet
 - Laser
 - Miniaturize
-- Redirect
-- Robot
-- Store
-- Tracer
-- Vehicle
-- Weapon
+- Redirection
+- Robotic
+- Rocketry
+- Protection
+- Powersuit
+- Telemetry
+- Transportation
+- TBD
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -1536,7 +1638,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Inventor Abilities {.colbefore .class}
+#### Inventor Abilities {  .class}
 
 []{.lorem}
 
@@ -1545,20 +1647,46 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
-:::::::::::::::::::::::::::::::::::::
+
+TBD
+
+:   To Be Determined
+
+Perspicacious Pettifoggery
+
+:   Using your vast vocabulary of super-scientific knowledge, you can 
+    easily out-technobabble your opponents. When you roll to advance
+    the Outwit goal, add a number of dice to the dice pool equal
+    to the number of syllables in the longest Power Word you
+    used, with a maximum of 2 + the Volume Number.
+
+Flexible Faculties
+
+:   Your abilities extend beyond your inventive endeavours, as you
+    possess an actual super-power. Add one Personal Power Word from 
+    the Monarch, Monstrosity, or Psychic class lists as a 
+    Personal Power Word.
+
+:::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+Auspicious Alliteration
+
+:   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
+    or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
+    for each Power Word whose first letter matches first letter of another 
+    Power Word in the Stunt or Combo.
+
+Puissant Polymath
+
+:   Your education covered a wide range of topics.  Gain a number of 
+    skills equal to the current Volume. Add an additional skill at the 
+    start of each later Volume.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1566,9 +1694,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -1576,8 +1709,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -1585,8 +1724,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -1662,7 +1807,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Knight Abilities {.colbefore .class}
+#### Knight Abilities { .class}
 
 []{.lorem}
 
@@ -1671,10 +1816,31 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+
+Team, Together!
+
+:   You are a natural leader. When you roll to create or 
+    increase the Teamwork Pool, add 2 dice to the dice pool.
+
+I Work Alone
+
+:   Some people are just reluctant team members.
+    When you roll to create the Teamwork Pool, you can
+    choose to add the roll's Effectiveness to your
+    maximum and current Might instead of the Teamwork Pool.
+
+Weapons Locker
+
+:   From the following list, pick a number equal to the
+    current Volume and add those as Personal Power Words:
+    Bullets, Grenade, Handgun, Knife, Non-Lethal,
+    Reload, Rifle, Scope. 
+    Add one more at the start of each later Volume.
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -1682,9 +1848,18 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+Trick Arrows
+
+:   At the start of each Story Arc, pick a number of Power Words
+    from the Dynamo or Paragon Personal Power Words lists
+    equal to the current Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Story Arc without paying any Might.
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1692,9 +1867,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -1702,8 +1882,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -1711,6 +1897,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 - one
 - two
 :::::::::::::::::::::::::::::::::::::
@@ -1784,7 +1978,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Mage Abilities {.colbefore .class}
+#### Mage Abilities {  .class}
 
 []{.lorem}
 
@@ -1793,10 +1987,22 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -1804,9 +2010,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1814,9 +2025,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -1824,8 +2040,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -1833,8 +2055,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -1909,7 +2137,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
-#### Monarch Abilities {.colbefore .class}
+#### Monarch Abilities {  .class}
 
 []{.lorem}
 
@@ -1918,10 +2146,23 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -1929,9 +2170,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1939,9 +2185,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -1949,8 +2200,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -1958,8 +2215,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -2004,7 +2267,6 @@ Choose six Personal Power Words from the following list:
 - Body
 - Claws
 - Clobber
-- Demolish
 - Giant
 - Horrifying
 - Immovable
@@ -2013,6 +2275,7 @@ Choose six Personal Power Words from the following list:
 - Rocky
 - Shifting
 - Stomp
+- Stretch
 - Strength
 - Throw
 :::::::::::::::::::::::::
@@ -2031,7 +2294,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Monstrosity Abilities {.colbefore .class}
+#### Monstrosity Abilities {  .class}
 
 []{.lorem}
 
@@ -2040,10 +2303,23 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2051,9 +2327,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -2061,9 +2342,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -2071,8 +2357,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -2080,8 +2372,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -2170,7 +2468,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Paragon Abilities {.colbefore .class}
+#### Paragon Abilities {  .class}
 
 []{.lorem}
 
@@ -2179,10 +2477,23 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2190,9 +2501,18 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -2200,9 +2520,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -2210,8 +2535,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -2219,8 +2550,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   To be determined
+
+TBD
+
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -2294,7 +2631,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Psychic Abilities {.colbefore .class}
+#### Psychic Abilities {  .class}
 
 []{.lorem}
 
@@ -2303,10 +2640,25 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+
+TBD
+
+:   to be determined
+
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2314,9 +2666,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -2324,9 +2681,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -2334,8 +2696,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -2343,8 +2711,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -2443,7 +2817,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-#### Shaper Abilities {.colbefore .class}
+#### Shaper Abilities {  .class}
 
 []{.lorem}
 
@@ -2452,10 +2826,23 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2463,9 +2850,14 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -2473,9 +2865,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -2483,8 +2880,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -2492,8 +2895,14 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -2920,7 +3329,7 @@ If your hero is *not* present, you can use the Timely Arrival move.
 When you use the Timely Arrival move, spend 5 successes from the
 Teamwork Pool have your hero arrive at the end of the current Hero Phase. 
 
-You can't take any other moves that turn, but you *can* describe 
+You can't make any other moves that turn, but you *can* describe 
 your entry to the scene and make a roll related to your arrival. 
 Add the Effectiveness of that roll to the Teamwork Pool.
 

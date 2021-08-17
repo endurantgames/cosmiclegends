@@ -37,8 +37,8 @@ Crisis is equal to the current Volume number.
 
 Your Core Power Words are **Sculpt** and **Environment**.
 
-In addition, you get a third Core Power Word chosen from
-the following list:
+In addition, you get a third Core Power Word -- known as your
+Element Power Word -- chosen from the following list:
 
 ::::::::::::: cpw :::::::
 - Cloth
@@ -93,7 +93,7 @@ until the end of the current Story Arc.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-## Shaper Abilities {.colbefore .class}
+## Shaper Abilities {  .class}
 
 []{.lorem}
 
@@ -102,10 +102,23 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
-- four
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -113,9 +126,18 @@ At the start of Volume 1, choose an ability from this list.
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+Grand Unified Theory
+
+:   You've discovered that your powers aren't limited to a
+    single substance but can be extended to other types of
+    shaping. Add a Volume-number of Words from the Element
+    Power Word list as Personal Power Words.  Add another 
+    at the start of each later Volume.
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -123,9 +145,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
-- three
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
@@ -133,8 +160,14 @@ At the start of Volume 3, choose an ability from this list, the Volume 1 list, o
 At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -142,7 +175,13 @@ At the start of Volume 4, choose an ability from this list, the Volume 1 list, t
 At the start of Volume 5, choose an ability from any Volume's list.
 
 ::::::::::: ability-list ::::::::::::
-- one
-- two
+TBD
+
+:   to be determined
+
+TBD
+
+:   to be determined
+
 :::::::::::::::::::::::::::::::::::::
 

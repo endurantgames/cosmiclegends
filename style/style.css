@@ -125,7 +125,7 @@ header h1     { string-set: gamename content()       }
   --color-line:    gray;
   --color-light:   silver;
 
-  --bgcolor-sidebar: #EEEEEE;
+  --bgcolor-sidebar: #F0F0F0;
 
   counter-reset: table figure sidebar;
 }
@@ -567,6 +567,39 @@ margin-top: 1em; }
 .skill-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .skill-list dl dd ul li::marker { padding-right: 0.25em; }
 
+
+
+.ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
+
+.ability-list dl dt { font-family: var(--font-h5); font-size: var(--h5);  font-weight: normal;
+margin-top: 1em; }
+.ability-list dl dd { margin: 0; padding: 0; }
+.ability-list dl dd p { margin: 0; margin-bottom: 0.5em; line-height: 1.2; }
+.ability-list dl dd p:first-child { padding-top: 0.125em; }
+.ability-list dl dd p:last-child { margin-bottom: 3pt; }
+
+.ability-list dl dd ul { margin: 0; }
+.ability-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
+.ability-list dl dd ul li::marker { padding-right: 0.25em; }
+
+.ability-list dl dt {
+  border: 0.5pt solid var(--color-line); 
+  border-bottom: none;
+  border-radius: var(--border-radius) 0;
+  padding: 0 4pt;
+  margin-bottom: 0;
+  background-color: var(--bgcolor-sidebar);
+}
+
+.ability-list dl dd {
+  border: 0.5pt solid var(--color-line); 
+  border-top: none;
+  padding: 0 4pt; 
+  border-radius: 0 0 var(--border-radius);
+  margin-top: 0;
+  background-color: var(--bgcolor-sidebar);
+}
+
 .soapbox {
   column-span: all;
   column-count: 2;
@@ -638,6 +671,7 @@ margin-top: 1em; }
 .classtable a:link, .classtable a:visited, .classtable a:hover, .classtable a:visited {
   color: black;
 }
+
 
 .herosheet { page: herosheet; column-span: all; }
 @page herosheet { margin: 0; size: letter landscape; }
