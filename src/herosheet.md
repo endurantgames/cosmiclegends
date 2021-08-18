@@ -27,6 +27,11 @@
 []{.box .b1 .motiv .m3}
 []{.box .b1 .motiv .m4}
 []{.box .b1 .motiv .m5}
+[Ideal]{.label .motiv .m1}
+[Ideal]{.label .motiv .m2}
+[Ideal]{.label .motiv .m3}
+[Ideal]{.label .motiv .m4}
+[Ideal]{.label .motiv .m5}
 []{.box .b1 .nova-unlocked}
 [Unlocked]{.label .nova-unlocked}
 []{.box .b1 .arc-complete}
@@ -38,7 +43,7 @@
 [Volume 5 Ability]{.label .volume-ability .v5}
 
 [Appearance and Backstory]{.label .bio}
-[Story Arc]{.label .story-arc}
+[Storyline]{.label .story-arc}
 
 [Action]{.label .facet .action}
 [Adventure]{.label .facet .adventure}

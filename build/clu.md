@@ -80,19 +80,17 @@ To play []{.gamename} you'll need:
   - <a href="#toc-comics-code"></a>
   - <a href="#toc-script-change"></a>
   - <a href="#toc-stars-wishes"></a>
+- <a href="#toc-overview"></a>
 - <a href="#toc-issues"></a>
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
   - <a href="#toc-facets"></a>
-  - <a href="#toc-motivation"></a>
   - <a href="#toc-fighting-style"></a>
+  - <a href="#toc-ideals"></a>
+  - <a href="#toc-chargen-identity"></a>
+  - <a href="#toc-storyline"></a>
   - <a href="#toc-skills"></a>
   - <a href="#toc-powers"></a>
-    - <a href="#toc-power-words-core"></a>
-    - <a href="#toc-power-words-personal"></a>
-    - <a href="#toc-power-words-nova"></a>
-    - <a href="#toc-power-words-scene"></a>
-  - <a href="#toc-chargen-identity"></a>
 - <a href="#toc-classes"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
@@ -130,7 +128,7 @@ To play []{.gamename} you'll need:
 - <a href="#toc-advancements"></a>
 - <a href="#toc-setting"></a>
 - <a href="#toc-editor"></a>
-  - <a href="#toc-editor-arc"></a>
+  - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>
   - <a href="#toc-sample-crises"></a>
     - <a href="#toc-sample-aliens"></a>
@@ -464,7 +462,7 @@ request a line or veil on these or any other subjects.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### During the Game
+###  During the Game {.colbefore}
 
 When you get caught up in playing []{.gamename}, it can sometimes
 be hard to gauge how everyone else is feeling. These tools can be
@@ -527,7 +525,7 @@ you can take a break and/or discuss the content as needed. After the
 **Continued**, you can use **Meanwhile**, **Retcon**, or **Later**.
 
 
-### After the Game
+### After the Game {.colbefore}
 
 When you finish an Issue of []{.gamename}, it's important to look
 back at the things you enjoyed the most and the things you didn't 
@@ -560,7 +558,63 @@ in future sessions. This could include particular interactions
 between heroes, potential story moments and development, or 
 anything else that could make the game even better in the future.
 
-## From Issues to Volumes {#toc-issues .colbefore}
+## Overview of Play {#toc-overview .breakbefore}
+
+1. []{.gamename} is played as a series of **Storylines**, each
+   taking up one or more game sessions, or **Issues**.
+
+2. Before a new Storyline, the players decide who the **Spotlight**
+   hero will be during that Storyline. 
+
+3. The player with the Spotlight tells the Editor what **Opportunity**
+   they'd like their hero to experience.
+
+4. The Editor shapes a series of **Crises** that let the Spotlight hero
+   work through that Opportunity.
+
+5. Once each player has had the Spotlight to address their 
+   hero's Opportunity, that **Volume** of the campaign wraps up
+   with an **Annual**.
+
+
+## Using the Dice {#toc-dice .breakbefore}
+
+The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
+When a player wants to take an uncertain action, they build a dice pool.
+
+- One die for every point they have in the relevant Facet
+- One die for every Volume if they have a relevant Skill
+- Two dice if they can mark off one of their Ideals
+- One die for every Power Word beyond the first
+- Other dice from any other source
+
+ Die Roll   Result
+----------  ---------------------
+    6       +1 Success
+    5       +1 Success
+    4       --
+    3       --
+    2       --
+    1       Edge Success
+
+Any dice that come up a 5 or a 6 are counted as Successes. 
+A challenging task can require 1-3 Successes to complete (outside combat).
+
+Any dice that come up 2, 3, or 4 are ignored.
+
+Any dice that come up 1 are counted as Edge Successes. 
+When a player rolls a 1, they inform the Editor, 
+who offers them a consequence. 
+
+If the player chooses to take the Editor’s consequence, 
+they count the 1 as a Success.
+
+This consequence can be mechanical, like losing Health, or it can be 
+narrative, like upsetting an NPC or missing an important clue. 
+The important part is that the player is presented with a difficult choice.
+
+
+## From Issues to Volumes {#toc-issues .breakbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.
@@ -599,10 +653,10 @@ For that Storyline, your character is considered the **Spotlight** hero.
 Each Storyline consists of:
 
 - the Spotlight hero
-- the Lesson
-- one or more Crises connected to the Lesson, introduced by the Editor
+- the Opportunity
+- one or more Crises connected to the Opportunity, introduced by the Editor
 - the heroes' reactions to each Crisis
-- the Spotlight hero's reaction the Lesson
+- the Spotlight hero's reaction the Opportunity
 
 Many Storylines will resolve over the course of one Issue, but some
 can take long and might run for 2 or 3 sessions, or longer.
@@ -612,13 +666,14 @@ fellow players' heroes gain an **Advancement.**
 
 #### One-Shots
 
-A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
+A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
 Series, but stands alone. Most games played at conventions, for example,
 will be One-Shots.
 
 Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
-Lesson either, but just a connect series of Crises. In those cases, all 
-heroes receive a standard Advancementas after dealing with the Crises.
+Opportunity either, but just a connected series of Crises. In those 
+cases, all heroes receive a standard Advancements after dealing with 
+the Crises.
 
 One-Shots obviously won't have a separate Issue 0, but time should still
 be set aside at the start of the Issue to touch on important safety tools.
@@ -662,76 +717,96 @@ together, usually in large, wide-ranging One-Shots. All participating
 heroes keep their normal Volume numbers without adjustment.
 
 
-## Using the Dice {#toc-dice .colbefore}
+## Hero Origin {#toc-chargen .breakbefore}
 
-The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
-When a player wants to take an uncertain action, they build a dice pool.
+To create your hero, you just follow these steps:
 
-- One die for every point they have in the relevant Facet
-- One die for every Volume if they have a relevant Skill
-- Two dice if they can mark off a relevant part of their Motivation
-- One die for every Power Word beyond the first
-- Other dice from any other source
-
- Die Roll   Result
-----------  ---------------------
-    6       +1 Success
-    5       +1 Success
-    4       --
-    3       --
-    2       --
-    1       Edge Success
-
-Any dice that come up a 5 or a 6 are counted as Successes. 
-A challenging task can require 1-3 Successes to complete (outside combat).
-
-Any dice that come up 2, 3, or 4 are ignored.
-
-Any dice that come up 1 are counted as Edge Successes. 
-When a player rolls a 1, they inform the Editor, 
-who offers them a consequence. 
-
-If the player chooses to take the Editor’s consequence, 
-they count the 1 as a Success.
-
-This consequence can be mechanical, like losing Health, or it can be 
-narrative, like upsetting an NPC or missing an important clue. 
-The important part is that the player is presented with a difficult choice.
+1. Pick a Class
+   - Pick six Personal Power Words from your Class
+   - Pick your Skills, based on your Class
+   - Pick a Volume 1 ability from your Class
+   - Choose 2 words as your Nova Power
+2. Assign 1 point to each Facet, then distribute more 5 points as you wish
+3. Pick a Fighting Style
+4. Choose 5 words as Ideals
+5. Describe a Storyline you'd like to play out with your hero
+6. Decide your hero's Appearance and Backstory
+   - Choose a Hero Name, Pronouns, and a Real Name; and decide whether the latter is a Secret Identity
+   - Describe your Costume, Symbol, and General Appearance
 
 
-## Hero Creation {#toc-chargen .breakbefore}
+### Hero Class
 
-To create your hero, follow these steps:
-
-- Pick a Class
-  - Pick six Personal Power Words from your Class
-  - Pick your Skills, based on your Class
-  - Pick a Volume 1 ability from your Class
-  - Choose 2 words as your Nova Power
-- Assign 1 point to each Facet, then distribute more 5 points as you wish
-- Choose 5 words as Motivations
-- Pick a Fighting Style
-- Create a Story Arc you'd like to play out with your hero
-- Choose a Hero Name, Pronouns, and a Real Name, and decide whether the latter is a Secret Identity
-- Describe your Costume, Symbol, and General Appearance
+[]{.lorem}
 
 
-### Facets {#toc-facets}
+### Power Words {#toc-powers .colbefore }
 
-Each hero's nature is defined by their scores in 5 different facets, 
-which represent their approaches to solving problems.
+Your hero has a list of words called Power Words that define their
+super-powers and how they use them. Power Words are used in three
+different ways:
 
-- **Action** - a direct, straight-forward approach
-- **Adventure** - a reactive approach, adapting to changing situations
-- **Detective** - a logical approach, based on gathering information
-- **Mystery** - a subtle approach, incorporating hidden motives and actions
-- **Suspense** - an approach based on using the senses to become aware of the environment
+- A **Power Display**, which uses a single Power Word
+- A **Power Stunt**, using two (or more) Power Words
+- A **Power Combo**, with Power Words from two (or more) heroes
 
-Each of your hero's facets start with a score of 1, and you have 5 
-additional points to distribute to them.
+There are four types of Power Words:
 
-::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Designer's Note: Facets 
+- **Core Power Words**, unique to your class
+- **Personal Power Words**, picked from your class list
+- **Nova Power Words**, unique to your hero
+- **Scene Power Words**, based on the situation
+
+#### Core Power Words {#toc-power-words-core}
+
+When you create your hero, you have two **Core Power Words** 
+common to all members of your class. 
+You don't have to choose them; you get them automatically.
+
+#### Personal Power Words {#toc-power-words-personal}
+
+In addition to Core Power Words, your hero also has 6 Personal Power Words. 
+When you create your hero, choose these 6 from 
+your class's list of 15 Personal Power Words. 
+(If your class is Paragon, pick an extra one
+from your class, and another from any class's list.)
+
+#### Nova Power Words {#toc-power-words-nova}
+
+Your **Nova Power Powers** can be anything; you're encouraged to use your 
+Nova Power Words to give your hero a unique ability.  
+
+Like Ideals, you can choose any two words you like for
+your hero's Nova Power Words.
+
+Nova Power Words might look like this:
+
+- Soaring Dragon
+- Berserker Rage
+- Indomitable Spirit
+- Solar Flare
+
+When you've checked off each of your hero's Ideals, you unlock
+your **Nova Power Words** and can use them until the end of 
+the current Storyline.
+
+#### Scene Power Words {#toc-power-words-scene}
+
+Each scene where a Crisis takes places has up to 6 Power Words
+that describe the environment around your heroes. 
+These are known as **Scene Power Words.**
+
+The Editor comes up with Scene Power Words when describing a location, 
+and if you think creatively, you can use them in your Power Stunts and Combos.
+
+
+### Skills {#toc-skills-chargen}
+
+[]{.lorem}
+
+
+::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::
+### Facets 
 
 These Facets -- named for key Golden Age or Silver Age comic titles --
 were chosen to express how a hero chooses to solve problems, not 
@@ -749,30 +824,21 @@ problems by thinking about them and gathering information,
 not as a measure of their “intelligence” or, heaven forbid, “IQ”.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Motivations {#toc-motivation .colbefore}
+### Facets {#toc-facets}
 
-Your hero has five Motivations that drive them to feats of 
-heroic courage. These are single words that can be freely chosen
-by you when you create your hero; there's no set list.
+Each hero's nature is defined by their scores in 5 different facets, 
+which represent their approaches to solving problems.
 
-For example, one hero could have these five Motivations:
+- **Action** - a direct, straight-forward approach
+- **Adventure** - a reactive approach, adapting to changing situations
+- **Detective** - a logical approach, based on gathering information
+- **Mystery** - a subtle approach, incorporating hidden motives and actions
+- **Suspense** - an approach based on using the senses to become aware of the environment
 
-- Truth
-- Justice
-- Responsibility
-- Restraint
-- Hope
+Each of your hero's facets start with a score of 1, and you have 5 
+additional points to distribute to them.
 
-When you use all five of your hero's Motivations in a Story Arc, 
-your hero's Might is refreshed to its starting value, and you
-unlock your Nova Power Words and can use those until the
-end of current Story Arc.
-
-When a new Story Arc begins, all the marked off Motivations are 
-cleared and it’s time to start again.
-
-
-### Fighting Style {#toc-fighting-style .colbefore}
+### Fighting Style {#toc-fighting-style }
 
 Your hero specializes in one style of fighting, whether they attack 
 with their fists or their powers. Those styles are:
@@ -790,7 +856,40 @@ with their fists or their powers. Those styles are:
 
 If you choose the Knight class, you get to pick an additional fighting style. 
 
-### Skills {#toc-skills .colbefore}
+### Ideals {#toc-ideals .colbefore}
+
+Your hero has five Ideals that drive them to feats of 
+heroic courage. These are single words that can be freely chosen
+by you when you create your hero; there's no set list.
+
+For example, one hero could have these five Ideals:
+
+- Truth
+- Justice
+- Responsibility
+- Restraint
+- Hope
+
+When you use all five of your hero's Ideals in a Storyline, 
+your hero's Might is refreshed to its starting value, and you
+unlock your Nova Power Words and can use those until the
+end of current Storyline.
+
+When a new Storyline begins, all the marked off Ideals are 
+cleared and it’s time to start again.
+
+
+### Your Hero's Identity {#toc-chargen-identity }
+
+[]{.lorem}
+
+
+### Storyline {#toc-storyline}
+
+[]{.lorem}
+
+
+## Skills {#toc-skills .breakbefore}
 
 Outside of a fight, your hero has one or more Skills from their 
 civilian life -- from their secret identity, their profession 
@@ -823,15 +922,18 @@ The Skills are:
 When you create your hero, you can pick two or more skills as
 determined by your class, which may also give additional skills.
 
-Keep in mind that []{.gamename} is a four-color game, not a simulation
-of reality -- so skills follow "comic book logic" rather than working
-as they really *should* in real life.
+### Using Skills
 
-#### Skill Descriptions
+When you make a roll that could be affected by one of your Skills,
+you add a number of dice to the dice pool equal to the current Volume.
 
-The skills in []{.gamename} are listed below, along with 3 to 5 ways
-of using those with your hero's Facets and suggestions the Editor can
-propose on an Edge Success.
+If you don't have a Skill, you don't add any extra dice to the pool.
+
+### Skill Descriptions
+
+The skills in []{.gamename} are listed below, along with 3 to 5 
+suggestions how you could use the skill with your hero's Facets
+and consequences the Editor can propose on an Edge Success.
 
 ::::::: { .skill-list } ::::::::::::::::::
 Academic
@@ -869,6 +971,12 @@ Criminal
       A criminal organization takes an interest in your actions.
       You owe a favor to someone dodgy now.
   
+:::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
+Keep in mind that []{.gamename} is a four-color game, not a simulation
+of reality -- so Skills follow "comic book logic" rather than working
+as they really *should* in real life.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Deputy
 :   You are a police officer of some kind. If you like, you can be currently
     deputized by a local or federal agency. All cats are beautiful.
@@ -1065,71 +1173,6 @@ Spy
   
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Power Words {#toc-powers .colbefore }
-
-Your hero has a list of words called Power Words that define their
-super-powers and how they use them. Power Words are used in three
-different ways:
-
-- A **Power Display**, which uses a single Power Word
-- A **Power Stunt**, using two (or more) Power Words
-- A **Power Combo**, with Power Words from two (or more) heroes
-
-There are four types of Power Words:
-
-- **Core Power Words**, unique to your class
-- **Personal Power Words**, picked from your class list
-- **Nova Power Words**, unique to your hero
-- **Scene Power Words**, based on the situation
-
-#### Core Power Words {#toc-power-words-core}
-
-When you create your hero, you have two **Core Power Words** 
-common to all members of your class. 
-You don't have to choose them; you get them automatically.
-
-#### Personal Power Words {#toc-power-words-personal}
-
-In addition to Core Power Words, your hero also has 6 Personal Power Words. 
-When you create your hero, choose these 6 from 
-your class's list of 15 Personal Power Words. 
-(If your class is Paragon, pick an extra one
-from your class, and another from any class's list.)
-
-#### Nova Power Words {#toc-power-words-nova}
-
-Your **Nova Power Powers** can be anything; you're encouraged to use your 
-Nova Power Words to give your hero a unique ability.  
-
-Like Motivations, you can choose any two words you like for
-your hero's Nova Power Words.
-
-Nova Power Words might look like this:
-
-- Soaring Dragon
-- Berserker Rage
-- Indomitable Spirit
-- Solar Flare
-
-When you've completed your hero's Motivations track, you unlock
-your **Nova Power Words** and can use them until the end of 
-the current Story Arc.
-
-#### Scene Power Words {#toc-power-words-scene}
-
-Each scene where a Crisis takes places has up to 6 Power Words
-that describe the environment around your heroes. 
-These are known as **Scene Power Words.**
-
-The Editor comes up with Scene Power Words when describing a location, 
-and if you think creatively, you can use them in your Power Stunts and Combos.
-
-
-### Your Hero's Identity {#toc-chargen-identity .colbefore}
-
-[]{.lorem}
-
-
 ## Hero Classes {#toc-classes .breakbefore}
 
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1240,8 +1283,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -1430,8 +1473,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -1597,8 +1640,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -1771,8 +1814,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -1820,11 +1863,11 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 ::::::::::: ability-list ::::::::::::
 Trick Arrows
 
-:   At the start of each Story Arc, pick a number of Power Words
+:   At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Paragon Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
-    during the current Story Arc without paying any Might.
+    during the current Storyline without paying any Might.
 
 TBD
 
@@ -1942,8 +1985,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -2104,8 +2147,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
 if you spend 1 Might, you can include the second Nova Power Word as well.
@@ -2264,8 +2307,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -2438,8 +2481,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -2601,8 +2644,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -2787,8 +2830,8 @@ by paying 1 Might for each beyond the first.
 ##### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -2909,7 +2952,7 @@ If you don't have Flight as a Power Word, but you have Line, your
 Display could describe how you hook your swingline onto a nearby 
 skyscraper to deliver two boots to the face.
 
-### Power Stunts {#toc-power-stunts .colbefore}
+### Power Stunts {#toc-power-stunts }
 
 A Power Stunt consists of two Power Words joined together, and unlike
 a Power Display, a Stunt will affect the result of your next roll.
@@ -2938,7 +2981,7 @@ Facet to Outwit a foe -- increases the number of dice in your pool
 by 1 die.
 
 
-### Power Combos {#toc-power-combos .colbefore}
+### Power Combos {#toc-power-combos }
 
 A **Power Combo** is a Power Stunt where two or more heroes work
 together, with their powers combined. 
@@ -2973,43 +3016,6 @@ For example, []{.lorem}
 <div id="power-table">
 
   <h3>Power Word Use</h3>
-
-  <table class="power-key">
-    <thead>
-      <tr>
-        <th>Symbol</th>
-        <th>Meaning</th>
-        <th>Extra Dice</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>  
-        <th class="yes"></th>
-        <td>**Yes;** can be used in rolls</td>
-        <td>+1 Success</td>
-      </tr>
-      <tr>  
-        <th class="yes gray"></th>
-        <td>**Yes; But** adds no Dice</td>
-        <td>+0 Successes</td>
-      </tr>
-      <tr>  
-        <th class="lock"></th>
-        <td>**Yes; If** your Nova Power is unlocked</td>
-        <td>+1 Success</td>
-      </tr>
-      <tr>  
-        <th class="lock gray"></th>
-        <td>**Yes; If** unlocked, **But** adds no Dice</td>
-        <td>+0 Successes</td>
-      </tr>
-      <tr>  
-        <th class="no"></th>
-        <td>**No;** can't be used in rolls</td>
-        <td>--</td>
-      </tr>
-    </tbody>
-  </table>
 
   <table class="power-table">
     <thead>
@@ -3134,13 +3140,50 @@ For example, []{.lorem}
     </tbody>
   </table>
 
+
+  <table class="power-key">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Meaning</th>
+        <th>Extra Dice</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <th class="yes"></th>
+        <td>**Yes;** can be used in rolls</td>
+        <td>+1 Success</td>
+      </tr>
+      <tr>  
+        <th class="yes gray"></th>
+        <td>**Yes; But** adds no Dice</td>
+        <td>+0 Successes</td>
+      </tr>
+      <tr>  
+        <th class="lock"></th>
+        <td>**Yes; If** your Nova Power is unlocked</td>
+        <td>+1 Success</td>
+      </tr>
+      <tr>  
+        <th class="lock gray"></th>
+        <td>**Yes; If** unlocked, **But** adds no Dice</td>
+        <td>+0 Successes</td>
+      </tr>
+      <tr>  
+        <th class="no"></th>
+        <td>**No;** can't be used in rolls</td>
+        <td>--</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-### Using Personal Power Words {#toc-power-use-personal .colbefore}
+### Using Personal Power Words {#toc-power-use-personal }
 
 []{.lorem}
 
-### Using Core Power Words {#toc-power-use-core .colbefore}
+### Using Core Power Words {#toc-power-use-core }
 
 You can use one of your Core Power Words as a *third* Power Word 
 in a Power Stunt. Doing so costs 1 additional point of Might, 
@@ -3151,13 +3194,13 @@ Core Power Word as a *fourth* Power Word in a Power Stunt.
 Collectively this gives a bonus of 3 dice in the dice pool,
 but also costs you 3 Might points.
 
-For example,  []{.lorem}
+For example, []{.lorem}
 
-### Using Nova Power Words {#toc-power-use-nova .colbefore}
+### Using Nova Power Words {#toc-power-use-nova }
 
-Once you've completed your hero's Motivations track, you unlock
+Once you've checked all of your hero's Ideals, you unlock
 your **Nova Power Words** and can use them until the end of 
-the current Story Arc.
+the current Storyline.
 
 You can use one of your Nova Power Words as the *second* Power
 Word in a Stunt without spending any Might; likewise, you can add 
@@ -3401,7 +3444,7 @@ Once the Editor has taken enough moves, it’s time to go back to the heroes.
 
 ## Advancements {#toc-advancements .breakbefore}
 
-After each Story Arc concludes:
+After each Storyline concludes:
 
 - Choose one Advancement from the following list; you can only add a Skill, Fighting Style, or Power Word once per Volume.
   - Increase your Health by 1.
@@ -3409,16 +3452,16 @@ After each Story Arc concludes:
   - Add one Skill.
   - Add one Power Word from any class.
   - Add one Fighting Style.
-- If you were the Spotlight Hero, increase any one Facet by 1.
-- (optional) Change one of your Motivations to any other word.
-- (optional) Change your Story Arc if you haven't already completed it.
+- If you had the Spotlight, increase any one Facet by 1.
+- (optional) Change one of your Ideals to any other word.
+- (optional) Change your Opportunity if you haven't already taken it.
 
 At the end of each Volume:
 
 - Pick a new Class ability from the new Volume or a previous Volume.
-- Create a new Story Arc for the new Volume.
-- (optional) Retcon one of the following: your Class, your Personal Power Word choices, your Fighting Style choice(s), your Skill choices, or your Nova Power Words.
-- (optional) Choose a new Costume, Symbol, or Hero Name.
+- Create a new Opportunity for the new Volume.
+- (optional) Change one of the following: your Personal Power Word choices, your Fighting Style choice(s), your Skill choices, or your Nova Power Words.
+- (optional) Choose a new Costume, Symbol, and/or Hero Name.
 
 
 ## The Official Handbook of the Cosmic Legends Universe {#toc-setting .breakbefore}
@@ -3431,7 +3474,7 @@ At the end of each Volume:
 []{.lorem}
 
 
-### Creating a Story Arc {#toc-editor-arc .colbefore} 
+### Creating a Storyline {#toc-editor-storyline .colbefore} 
 
 []{.lorem}
 
@@ -3880,10 +3923,13 @@ Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
 
 Advancement
-:   The choice made by a player at the end of a Story Arc to increase their hero's Health or Might, or add a new Skill or Power Word. Adding a Skill or Power Word can only be chosen once per Volume.
+:   The choice made by a player at the end of a Storyline that reflects the hero's growth.
 
 Adventure
 :   A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+
+Annual
+:   A session (or sessions) at the end of a Volume that tie the Storylines together.
 
 Bystander Pool
 :   An abstract measure of how many innocent bystanders are endangered by a Crisis.
@@ -3945,6 +3991,9 @@ Hero Phase
 Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
 
+Ideals
+:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll. (*Key* in Harmony Drive.)
+
 Issue
 :   A game session, usually 2 to 4 hours.
 
@@ -3953,9 +4002,6 @@ Issue 0
 
 Later That Day, ...
 :   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
-
-Lesson
-:   The lesson a hero needs to learn, used to help the Editor plan a Spotlight Arc about the hero.
 
 Lines and Veils
 :   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
@@ -3966,9 +4012,6 @@ Meanwhile, ...
 Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
 
-Motivations
-:   A list of a hero's unique motivations. When a hero acts in accordance with an item in their Motivations, they mark it off and add two dice to their skill roll. (*Key* in Harmony Drive.)
-
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
 
@@ -3976,13 +4019,16 @@ Mystery
 :   A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
-:   Two Power Words that are available to the hero after they have marked off every item in their Motivations. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
 
 One-Shot
 :   A game session that isn't part of an ongoing story.
 
 Open Door
 :   A safety tool that promises any player can step away from the game table if they need to.
+
+Opportunity
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player. (*Lesson* in Harmony Drive.)
 
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
@@ -4015,19 +4061,19 @@ Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
 
 Series
-:   A group of Story Arcs following the same group of heroes; a campaign.
+:   A group of Storylines following the same group of heroes; a campaign.
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
 
-Spotlight Arc
-:   A short story revolving around a hero's lesson, usually only a couple sessions long, after which the hero grows.
+Spotlight 
+:   A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
 
 Stars and Wishes
 :   A safety tool you can use after an Issue to talk about what you liked and what you hope for future Issues.
 
 Storyline
-:   One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
+:   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
 
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
@@ -4042,7 +4088,7 @@ Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 
 Volume
-:   A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
+:   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual. (*Season* in Harmony Drive.)
 
 Withstand
 :   A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
@@ -4438,6 +4484,11 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 []{.box .b1 .motiv .m3}
 []{.box .b1 .motiv .m4}
 []{.box .b1 .motiv .m5}
+[Ideal]{.label .motiv .m1}
+[Ideal]{.label .motiv .m2}
+[Ideal]{.label .motiv .m3}
+[Ideal]{.label .motiv .m4}
+[Ideal]{.label .motiv .m5}
 []{.box .b1 .nova-unlocked}
 [Unlocked]{.label .nova-unlocked}
 []{.box .b1 .arc-complete}
@@ -4449,7 +4500,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 [Volume 5 Ability]{.label .volume-ability .v5}
 
 [Appearance and Backstory]{.label .bio}
-[Story Arc]{.label .story-arc}
+[Storyline]{.label .story-arc}
 
 [Action]{.label .facet .action}
 [Adventure]{.label .facet .adventure}

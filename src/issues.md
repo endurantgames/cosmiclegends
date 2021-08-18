@@ -1,4 +1,4 @@
-# From Issues to Volumes {#toc-issues .colbefore}
+# From Issues to Volumes {#toc-issues .breakbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.
@@ -37,10 +37,10 @@ For that Storyline, your character is considered the **Spotlight** hero.
 Each Storyline consists of:
 
 - the Spotlight hero
-- the Lesson
-- one or more Crises connected to the Lesson, introduced by the Editor
+- the Opportunity
+- one or more Crises connected to the Opportunity, introduced by the Editor
 - the heroes' reactions to each Crisis
-- the Spotlight hero's reaction the Lesson
+- the Spotlight hero's reaction the Opportunity
 
 Many Storylines will resolve over the course of one Issue, but some
 can take long and might run for 2 or 3 sessions, or longer.
@@ -50,13 +50,14 @@ fellow players' heroes gain an **Advancement.**
 
 ### One-Shots
 
-A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
+A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
 Series, but stands alone. Most games played at conventions, for example,
 will be One-Shots.
 
 Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
-Lesson either, but just a connect series of Crises. In those cases, all 
-heroes receive a standard Advancementas after dealing with the Crises.
+Opportunity either, but just a connected series of Crises. In those 
+cases, all heroes receive a standard Advancements after dealing with 
+the Crises.
 
 One-Shots obviously won't have a separate Issue 0, but time should still
 be set aside at the start of the Issue to touch on important safety tools.

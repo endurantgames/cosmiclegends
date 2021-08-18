@@ -34,7 +34,7 @@ from your class, and another from any class's list.)
 Your **Nova Power Powers** can be anything; you're encouraged to use your 
 Nova Power Words to give your hero a unique ability.  
 
-Like Motivations, you can choose any two words you like for
+Like Ideals, you can choose any two words you like for
 your hero's Nova Power Words.
 
 Nova Power Words might look like this:
@@ -44,9 +44,9 @@ Nova Power Words might look like this:
 - Indomitable Spirit
 - Solar Flare
 
-When you've completed your hero's Motivations track, you unlock
+When you've checked off each of your hero's Ideals, you unlock
 your **Nova Power Words** and can use them until the end of 
-the current Story Arc.
+the current Storyline.
 
 ## Scene Power Words {#toc-power-words-scene}
 

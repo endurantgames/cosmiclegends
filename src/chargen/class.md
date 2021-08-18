@@ -1,0 +1,4 @@
+# Hero Class
+
+[]{.lorem}
+

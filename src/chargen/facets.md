@@ -1,19 +1,5 @@
-# Facets {#toc-facets}
-
-Each hero's nature is defined by their scores in 5 different facets, 
-which represent their approaches to solving problems.
-
-- **Action** - a direct, straight-forward approach
-- **Adventure** - a reactive approach, adapting to changing situations
-- **Detective** - a logical approach, based on gathering information
-- **Mystery** - a subtle approach, incorporating hidden motives and actions
-- **Suspense** - an approach based on using the senses to become aware of the environment
-
-Each of your hero's facets start with a score of 1, and you have 5 
-additional points to distribute to them.
-
-::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Designer's Note: Facets 
+::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::
+# Facets 
 
 These Facets -- named for key Golden Age or Silver Age comic titles --
 were chosen to express how a hero chooses to solve problems, not 
@@ -30,3 +16,17 @@ We chose “Detective" as a measure of a hero’s willingness to solve
 problems by thinking about them and gathering information, 
 not as a measure of their “intelligence” or, heaven forbid, “IQ”.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Facets {#toc-facets}
+
+Each hero's nature is defined by their scores in 5 different facets, 
+which represent their approaches to solving problems.
+
+- **Action** - a direct, straight-forward approach
+- **Adventure** - a reactive approach, adapting to changing situations
+- **Detective** - a logical approach, based on gathering information
+- **Mystery** - a subtle approach, incorporating hidden motives and actions
+- **Suspense** - an approach based on using the senses to become aware of the environment
+
+Each of your hero's facets start with a score of 1, and you have 5 
+additional points to distribute to them.

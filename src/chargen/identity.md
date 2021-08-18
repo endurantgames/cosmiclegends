@@ -1,4 +1,4 @@
-# Your Hero's Identity {#toc-chargen-identity .colbefore}
+# Your Hero's Identity {#toc-chargen-identity }
 
 []{.lorem}
 

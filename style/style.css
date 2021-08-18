@@ -9,31 +9,13 @@ header h1     { string-set: gamename content()       }
 
 @prince-pdf {
   -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
-/*
-  -prince-pdf-profile: "PDF/A-1a+PDF/UA-1";
-  -prince-pdf-profile: "PDF/A-1a";
-  -prince-pdf-profile: "PDF/A-1b";
-  -prince-pdf-profile: "PDF/A-2a";
-  -prince-pdf-profile: "PDF/A-2b";
-  -prince-pdf-profile: "PDF/A-3a";
-  -prince-pdf-profile: "PDF/A-3b";
-  -prince-pdf-profile: "PDF/UA-1";
-  -prince-pdf-profile: "PDF/X-1a:2001";
-  -prince-pdf-profile: "PDF/X-1a:2003";
-  -prince-pdf-profile: "PDF/X-3:2002";
-  -prince-pdf-profile: "PDF/X-3:2003";
-  -prince-pdf-profile: "PDF/X-4";
-  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
-*/
+  -prince-pdf-page-layout: two-column-right;
 }
 
 :root {
   --font: "Comic Neue";
   --font-header: "Legio Sabina Semi-Italic";
   --font-coverbox: "Bebas Neue";
-  /* --font-coverbox-qm: "Folks Shades"; */
-  /* --font-coverbox-qm: "Fawn Script"; */
-  /* --font-coverbox-qm: "Comic Neue"; */
   --font-coverbox-qm: "HackeIt Bold";
   --font-subtitle: "Fawn Script";
   --font-hype: "Fawn Script";
@@ -54,11 +36,6 @@ header h1     { string-set: gamename content()       }
   --font-sheet-2: "Legio Sabina Condensed";
   --color-sheet-light: #AAAAAA;
   --color-sheet-dark: #555555;
-  /* 
-  --font-sheet-2: "Comic Neue";
-  --color-sheet-light: black;
-  --color-sheet-dark: black;
-  */
 
   --font-sheet-1: "Legio Sabina";
   --font-sheet-4: "Fawn Script";
@@ -99,7 +76,7 @@ header h1     { string-set: gamename content()       }
   --lock-gray: '\01f512';
   */
 
-  --table-icon-size: 16pt;
+  --table-icon-size: 14pt;
   --table-cost-size: 7pt;
 
   --body:       9pt;
@@ -536,7 +513,7 @@ blockquote {
 #power-table table.power-table tbody.use-type tr:nth-child(3) td:nth-child(2) { background-color: transparent; }
 #power-table table.power-table tbody.use-type:nth-child(even) { background-color: transparent; }
 
-#power-table table.power-key { width: 60%; margin-bottom: 0.5em; box-sizing: border-box; border: 0.5pt solid var(--color-line); display: inline-table; }
+#power-table table.power-key { width: 60%; margin-top: 0.5em; margin-bottom: 0.5em; box-sizing: border-box; border: 0.5pt solid var(--color-line); display: inline-table; }
 #power-table table.power-key thead { border-bottom: 0.5pt solid var(--color-line); }
 
 #power-table table.power-key tbody tr th           { font-family: var(--font-icons); vertical-align: top;      }
@@ -566,8 +543,6 @@ margin-top: 1em; }
 .skill-list dl dd ul { margin: 0; }
 .skill-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .skill-list dl dd ul li::marker { padding-right: 0.25em; }
-
-
 
 .ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 
@@ -618,6 +593,8 @@ margin-top: 1em; }
   border-radius: var(--border-radius);
   border: 0.5pt solid var(--color-line);
 }
+
+.soapbox.small { column-span: none; column-count: auto; float-placement: top; float-reference: column; float-defer-column: outside; }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2):before {
   content: "Spindrift's Soapbox: ";

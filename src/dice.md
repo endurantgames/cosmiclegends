@@ -1,11 +1,11 @@
-# Using the Dice {#toc-dice .colbefore}
+# Using the Dice {#toc-dice .breakbefore}
 
 The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
 When a player wants to take an uncertain action, they build a dice pool.
 
 - One die for every point they have in the relevant Facet
 - One die for every Volume if they have a relevant Skill
-- Two dice if they can mark off a relevant part of their Motivation
+- Two dice if they can mark off one of their Ideals
 - One die for every Power Word beyond the first
 - Other dice from any other source
 

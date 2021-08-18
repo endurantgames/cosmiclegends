@@ -64,8 +64,8 @@ by paying 1 Might for each beyond the first.
 ### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
-When you complete your Motivations track, your Nova Power Words are **Unlocked**
-until the end of the current Story Arc.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
@@ -113,11 +113,11 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 ::::::::::: ability-list ::::::::::::
 Trick Arrows
 
-:   At the start of each Story Arc, pick a number of Power Words
+:   At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Paragon Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
-    during the current Story Arc without paying any Might.
+    during the current Storyline without paying any Might.
 
 TBD
 

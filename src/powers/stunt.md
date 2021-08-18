@@ -1,4 +1,4 @@
-# Power Stunts {#toc-power-stunts .colbefore}
+# Power Stunts {#toc-power-stunts }
 
 A Power Stunt consists of two Power Words joined together, and unlike
 a Power Display, a Stunt will affect the result of your next roll.

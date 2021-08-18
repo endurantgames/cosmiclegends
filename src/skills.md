@@ -1,4 +1,4 @@
-# Skills {#toc-skills .colbefore}
+# Skills {#toc-skills .breakbefore}
 
 Outside of a fight, your hero has one or more Skills from their 
 civilian life -- from their secret identity, their profession 
@@ -31,15 +31,18 @@ The Skills are:
 When you create your hero, you can pick two or more skills as
 determined by your class, which may also give additional skills.
 
-Keep in mind that []{.gamename} is a four-color game, not a simulation
-of reality -- so skills follow "comic book logic" rather than working
-as they really *should* in real life.
+## Using Skills
+
+When you make a roll that could be affected by one of your Skills,
+you add a number of dice to the dice pool equal to the current Volume.
+
+If you don't have a Skill, you don't add any extra dice to the pool.
 
 ## Skill Descriptions
 
-The skills in []{.gamename} are listed below, along with 3 to 5 ways
-of using those with your hero's Facets and suggestions the Editor can
-propose on an Edge Success.
+The skills in []{.gamename} are listed below, along with 3 to 5 
+suggestions how you could use the skill with your hero's Facets
+and consequences the Editor can propose on an Edge Success.
 
 ::::::: { .skill-list } ::::::::::::::::::
 Academic
@@ -77,6 +80,12 @@ Criminal
       A criminal organization takes an interest in your actions.
       You owe a favor to someone dodgy now.
   
+:::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
+Keep in mind that []{.gamename} is a four-color game, not a simulation
+of reality -- so Skills follow "comic book logic" rather than working
+as they really *should* in real life.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Deputy
 :   You are a police officer of some kind. If you like, you can be currently
     deputized by a local or federal agency. All cats are beautiful.

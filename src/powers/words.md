@@ -1,8 +1,8 @@
-## Using Personal Power Words {#toc-power-use-personal .colbefore}
+## Using Personal Power Words {#toc-power-use-personal }
 
 []{.lorem}
 
-## Using Core Power Words {#toc-power-use-core .colbefore}
+## Using Core Power Words {#toc-power-use-core }
 
 You can use one of your Core Power Words as a *third* Power Word 
 in a Power Stunt. Doing so costs 1 additional point of Might, 
@@ -13,13 +13,13 @@ Core Power Word as a *fourth* Power Word in a Power Stunt.
 Collectively this gives a bonus of 3 dice in the dice pool,
 but also costs you 3 Might points.
 
-For example,  []{.lorem}
+For example, []{.lorem}
 
-## Using Nova Power Words {#toc-power-use-nova .colbefore}
+## Using Nova Power Words {#toc-power-use-nova }
 
-Once you've completed your hero's Motivations track, you unlock
+Once you've checked all of your hero's Ideals, you unlock
 your **Nova Power Words** and can use them until the end of 
-the current Story Arc.
+the current Storyline.
 
 You can use one of your Nova Power Words as the *second* Power
 Word in a Stunt without spending any Might; likewise, you can add 

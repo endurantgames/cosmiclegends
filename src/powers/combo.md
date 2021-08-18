@@ -1,4 +1,4 @@
-# Power Combos {#toc-power-combos .colbefore}
+# Power Combos {#toc-power-combos }
 
 A **Power Combo** is a Power Stunt where two or more heroes work
 together, with their powers combined. 

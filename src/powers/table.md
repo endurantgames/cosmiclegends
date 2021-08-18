@@ -2,43 +2,6 @@
 
   <h3>Power Word Use</h3>
 
-  <table class="power-key">
-    <thead>
-      <tr>
-        <th>Symbol</th>
-        <th>Meaning</th>
-        <th>Extra Dice</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>  
-        <th class="yes"></th>
-        <td>**Yes;** can be used in rolls</td>
-        <td>+1 Success</td>
-      </tr>
-      <tr>  
-        <th class="yes gray"></th>
-        <td>**Yes; But** adds no Dice</td>
-        <td>+0 Successes</td>
-      </tr>
-      <tr>  
-        <th class="lock"></th>
-        <td>**Yes; If** your Nova Power is unlocked</td>
-        <td>+1 Success</td>
-      </tr>
-      <tr>  
-        <th class="lock gray"></th>
-        <td>**Yes; If** unlocked, **But** adds no Dice</td>
-        <td>+0 Successes</td>
-      </tr>
-      <tr>  
-        <th class="no"></th>
-        <td>**No;** can't be used in rolls</td>
-        <td>--</td>
-      </tr>
-    </tbody>
-  </table>
-
   <table class="power-table">
     <thead>
       <tr>
@@ -162,4 +125,41 @@
     </tbody>
   </table>
 
+
+  <table class="power-key">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Meaning</th>
+        <th>Extra Dice</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <th class="yes"></th>
+        <td>**Yes;** can be used in rolls</td>
+        <td>+1 Success</td>
+      </tr>
+      <tr>  
+        <th class="yes gray"></th>
+        <td>**Yes; But** adds no Dice</td>
+        <td>+0 Successes</td>
+      </tr>
+      <tr>  
+        <th class="lock"></th>
+        <td>**Yes; If** your Nova Power is unlocked</td>
+        <td>+1 Success</td>
+      </tr>
+      <tr>  
+        <th class="lock gray"></th>
+        <td>**Yes; If** unlocked, **But** adds no Dice</td>
+        <td>+0 Successes</td>
+      </tr>
+      <tr>  
+        <th class="no"></th>
+        <td>**No;** can't be used in rolls</td>
+        <td>--</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

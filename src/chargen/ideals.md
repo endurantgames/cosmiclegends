@@ -1,10 +1,10 @@
-# Motivations {#toc-motivation .colbefore}
+# Ideals {#toc-ideals .colbefore}
 
-Your hero has five Motivations that drive them to feats of 
+Your hero has five Ideals that drive them to feats of 
 heroic courage. These are single words that can be freely chosen
 by you when you create your hero; there's no set list.
 
-For example, one hero could have these five Motivations:
+For example, one hero could have these five Ideals:
 
 - Truth
 - Justice
@@ -12,11 +12,11 @@ For example, one hero could have these five Motivations:
 - Restraint
 - Hope
 
-When you use all five of your hero's Motivations in a Story Arc, 
+When you use all five of your hero's Ideals in a Storyline, 
 your hero's Might is refreshed to its starting value, and you
 unlock your Nova Power Words and can use those until the
-end of current Story Arc.
+end of current Storyline.
 
-When a new Story Arc begins, all the marked off Motivations are 
+When a new Storyline begins, all the marked off Ideals are 
 cleared and it’s time to start again.
 

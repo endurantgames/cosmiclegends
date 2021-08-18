@@ -13,10 +13,13 @@ Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
 
 Advancement
-:   The choice made by a player at the end of a Story Arc to increase their hero's Health or Might, or add a new Skill or Power Word. Adding a Skill or Power Word can only be chosen once per Volume.
+:   The choice made by a player at the end of a Storyline that reflects the hero's growth.
 
 Adventure
 :   A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+
+Annual
+:   A session (or sessions) at the end of a Volume that tie the Storylines together.
 
 Bystander Pool
 :   An abstract measure of how many innocent bystanders are endangered by a Crisis.
@@ -78,6 +81,9 @@ Hero Phase
 Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
 
+Ideals
+:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll. (*Key* in Harmony Drive.)
+
 Issue
 :   A game session, usually 2 to 4 hours.
 
@@ -86,9 +92,6 @@ Issue 0
 
 Later That Day, ...
 :   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
-
-Lesson
-:   The lesson a hero needs to learn, used to help the Editor plan a Spotlight Arc about the hero.
 
 Lines and Veils
 :   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
@@ -99,9 +102,6 @@ Meanwhile, ...
 Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
 
-Motivations
-:   A list of a hero's unique motivations. When a hero acts in accordance with an item in their Motivations, they mark it off and add two dice to their skill roll. (*Key* in Harmony Drive.)
-
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
 
@@ -109,13 +109,16 @@ Mystery
 :   A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
-:   Two Power Words that are available to the hero after they have marked off every item in their Motivations. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
 
 One-Shot
 :   A game session that isn't part of an ongoing story.
 
 Open Door
 :   A safety tool that promises any player can step away from the game table if they need to.
+
+Opportunity
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player. (*Lesson* in Harmony Drive.)
 
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
@@ -148,19 +151,19 @@ Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
 
 Series
-:   A group of Story Arcs following the same group of heroes; a campaign.
+:   A group of Storylines following the same group of heroes; a campaign.
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
 
-Spotlight Arc
-:   A short story revolving around a hero's lesson, usually only a couple sessions long, after which the hero grows.
+Spotlight 
+:   A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
 
 Stars and Wishes
 :   A safety tool you can use after an Issue to talk about what you liked and what you hope for future Issues.
 
 Storyline
-:   One or more Stories in which one hero receives the Spotlight and their Lesson is addressed.
+:   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
 
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
@@ -175,7 +178,7 @@ Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
 
 Volume
-:   A set of Story Arcs in which each hero has had a Spotlight Arc, which concludes with a Wrap-Up Arc. (*Season* in Harmony Drive.)
+:   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual. (*Season* in Harmony Drive.)
 
 Withstand
 :   A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
