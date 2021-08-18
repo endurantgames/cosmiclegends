@@ -8,8 +8,8 @@ the game is played.
 Each individual game session is known as an **Issue**, and roughly
 corresponds to one issue of a comic book.
 
-The **First Issue** is the first session of an ongoing []{.gamename}
-played by a group. 
+The **First Issue** is the first played session of an ongoing []{.gamename} 
+campaigned played by a group -- but first you should have an Issue 0.
 
 ### Issue 0
 
@@ -18,26 +18,12 @@ Issue of a []{.gamename} Series when the players don't roll dice and
 handle Crises, but instead discuss what kind of game each person
 is looking forward to playing.
 
-The Issue 0 takes place before the First Issue, and should go over the 
+Issue 0 takes place before the First Issue, and should go over the 
 safety tools used in the game, stress the importance of open communication, 
 and set expectations on the kind of story and play.
 
 Issue 0s are also a great time to create heroes together as a group,
 rather than separately.
-
-### One-Shots
-
-A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
-Series, but stands alone. Most games played at conventions, for example,
-will be One-Shots.
-
-One-Shots obviously won't have a separate Issue 0, but time should still
-be set aside at the start of the Issue to touch on these important aspects
-of []{.gamename}.
-
-Many First Issues are One-Shots, as the players and Editor are still 
-getting to know their heroes and the game. These First Issues usually
-feature a few simple Crises to resolve.
 
 ## Storylines
 
@@ -62,6 +48,23 @@ can take long and might run for 2 or 3 sessions, or longer.
 Once your hero finishes your Storyline, both your hero and your 
 fellow players' heroes gain an **Advancement.**
 
+### One-Shots
+
+A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
+Series, but stands alone. Most games played at conventions, for example,
+will be One-Shots.
+
+Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
+Lesson either, but just a connect series of Crises. In those cases, all 
+heroes receive a standard Advancementas after dealing with the Crises.
+
+One-Shots obviously won't have a separate Issue 0, but time should still
+be set aside at the start of the Issue to touch on important safety tools.
+
+Many First Issues are One-Shots, as the players and Editor are still 
+getting to know their heroes and the game. These First Issues usually
+feature a few simple Crises to resolve.
+
 ## Volumes
 
 Each Storyline is part of a **Volume**; Volumes are a grouping of
@@ -81,11 +84,18 @@ new ways to use their existing powers.
 A ongoing campaign of []{.gamename} is known as a **Series,** and each 
 Series is comprised of up to five Volumes. 
 
+If your group reaches the end of Volume 5 and with to continue with
+with the same heroes, you can do so: just treat later Volumes as having
+a Volume number of 5, and proceed from there.
+
 ## Guest Stars and Crossovers
 
 A **Guest Star** is a hero character from another Series -- either played
 by the same group or a different one -- who plays in the Series for an
-Issue or two.
+Issue or two. If the Guest Star's Volume number is higher than the group's,
+temporarily lower the Guest Star to the same Volume.
 
 A **Crossover** happens when the heroes from two or more Series work
-together, usually in large, wide-ranging One-Shots.
+together, usually in large, wide-ranging One-Shots. All participating 
+heroes keep their normal Volume numbers without adjustment.
+

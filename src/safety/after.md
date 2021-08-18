@@ -4,6 +4,17 @@ When you finish an Issue of []{.gamename}, it's important to look
 back at the things you enjoyed the most and the things you didn't 
 like as much.
 
+## Bleed
+
+Emotions and stress from the game can bleed over into post-game 
+life. This can affect the enjoyment of the game, as well as 
+out-of-game relationships between players and Editor if not 
+worked through.
+
+Being open and honest about where the game begins and ends, and being 
+conscious of which feelings belong to the player and which are just
+bleed, helps to mitigate the effects.
+
 ## Stars and Wishes {#toc-stars-wishes}
 
 **Stars and wishes** are used to reflect on the session and communicate 
@@ -19,15 +30,3 @@ something awesome during the game.
 in future sessions. This could include particular interactions 
 between heroes, potential story moments and development, or 
 anything else that could make the game even better in the future.
-
-## Bleed
-
-Emotions and stress from the game can bleed over into post-game 
-life. This can affect the enjoyment of the game, as well as 
-out-of-game relationships between players and Editor if not 
-worked through.
-
-Being open and honest about where the game begins and ends, and being 
-conscious of which feelings belong to the player and which are just
-bleed, helps to mitigate the effects.
-

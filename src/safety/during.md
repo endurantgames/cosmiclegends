@@ -22,7 +22,7 @@ a break from the game for their own safety and well-being without
 being judged.  State this at the beginning and periodically
 throughout the game.
 
-## Comic Script Change Tools {#toc-script-change}
+## Comic Page Change Tools {#toc-script-change}
 
 During play, you can use **Comic Script Change Tools** to adjust 
 play and content. They can be used by tapping physical
@@ -50,7 +50,8 @@ a new spot in the story that everyone agrees on.
 **Meanwhile, ...** can be used when everyone is ready to continue play, 
 often after adjusting or discussing content. When **Meanwhile** 
 used by tapping the card, typing the shorthand in the chat, or 
-stating it out loud ("Meanwhile..."), continue with play.
+stating it out loud ("Meanwhile...?"), continue with play if 
+everyone agrees they're ready.
 
 **Continued Next Page** can be used when things are too intense, 
 but you still want to continue playing the scene. When **Continued**

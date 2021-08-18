@@ -110,7 +110,7 @@ request a line or veil on these or any other subjects.
 
 - Are there certain types of violence that you would rather
   not see in the game, such as torture, knives or guns,
-  or kidnapping?
+  or kidnapping? Violence against children? Against animals?
 
 - Would you be bothered by villains using mind control or other
   mental violations? Are those okay for heroes to do?

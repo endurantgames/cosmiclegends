@@ -9,12 +9,6 @@ preface/four_color
 preface/super_friends
 preface/ages_of_comics
 preface/bronze_age
-credits/
-credits/license
-credits/harmony_drive
-credits/jam
-credits/no_fascists
-credits/safety
 safety/
 safety/before/
 safety/during
@@ -45,5 +39,11 @@ editor/arc
 editor/crisis
 editor/sample_crises/*
 glossary
+credits/
+credits/license
+credits/harmony_drive
+credits/jam
+credits/no_fascists
+credits/safety
 license
 herosheet
