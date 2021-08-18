@@ -78,8 +78,8 @@ To play []{.gamename} you'll need:
 - <a href="#toc-preface"></a>
 - <a href="#toc-credits"></a>
 - <a href="#safety"></a>
-- <a href="#toc-dice"></a>
 - <a href="#toc-issues"></a>
+- <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
   - <a href="#toc-facets"></a>
   - <a href="#toc-motivation"></a>
@@ -317,96 +317,196 @@ licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode
 >Creative Commons Attribution Share-Alike 4.0</a>.
 
 
-*The TTRPG Safety Toolkit* is a resource co-curated by Kienna Shaw and Lauren Bryant-Monk. 
-The TTRPG Safety Toolkit is a compilation of safety tools that have been designed by 
-members of the tabletop roleplaying games community for use by players and GMs at the table. 
-You can find it at <a href="http://bit.ly/ttrpgsafetytoolkit">bit.ly/ttrpgsafetytoolkit</a>.
+The section on safety is based on 
+[*The TTRPG Safety Toolkit*](http://bit.ly/ttrpgsafetytoolkit),
+a compilation of safety tools that have been designed by members of 
+the tabletop roleplaying games community, 
+co-curated by Kienna Shaw and Lauren Bryant-Monk.
+
 Specific items in the toolkit are credited as follows:
 
-- *The TTRPG Safety Toolkit Quick Reference Guide* was created by Kienna Shaw and Lauren Bryant-Monk
 - *Lines and Veils* were designed by 
   <a href="https://rpg.stackexchange.com/questions/30906/what-do-the-terms-lines-and-veils-mean"> Ron Edwards</a>
-- *The X card* was designed by <a href="http://tinyurl.com/x-card-rpg">John Stavropoulos</a>
-- *The O card* was designed by <a href="http://serpentcyborggames.com">Kira Magrann</a>
-- *The N card* was designed by Mysty Vander and Adam Cleaver, based on the Support Flower by Taylor Stokes
-- *The Script Change RPG Toolbox* was designed by 
+- *The Comic Script Change Tools* were adapted from the 
+  *Script Change RPG Toolbox*,
   <a href="http://briebeau.itch.io/script-change">Beau Jágr Sheldon</a>
-- *The Luxton Technique* was originally written by 
-  <a href="http://briebeau.com/thoughty/the-luxton-technique-by-p-h-lee/">P.H.Lee </a>
-  and reposted by Beau Jágr Sheldon
 - *The Open Door* was designed by 
   <a href="http://leavingmundania.com/2014/02/27/primer-safety-in-roleplaying-games/">Eirik Fatland</a>
 - *Stars and Wishes* was designed by 
   <a href="https://www.gauntlet-rpg.com/blog/stars-and-wishes">Lu Quade</a>
 
+
 ## Safety Tools {#safety .breakbefore}
 
-Playing the []{.gamename} RPG should be enjoyable for everyone,
-and to help make that happen, we recommend these techniques 
-from the *TTRPG Safety Toolkit*.
-
 Safety tools are a way for players and Editors to communicate
-and check-in before, during, and after a game in order to make 
-sure everyone is still having fun, and to provide the right 
-support when needed.
+and check-in **before**, **during**, and **after** a game in 
+order to make sure everyone is still having fun, and to provide 
+the right support when needed.
 
-The key to safety tools is communication and
-trust. There needs to be open and respectful
-communication alongside a culture of trust for
-these to work.
+The key to safety tools is **communication and trust**. There needs 
+to be open and respectful communication alongside a culture of 
+trust for these to work.
+
+Playing the []{.gamename} RPG should be enjoyable for everyone,
+and to help make that happen, we recommend the following techniques.
 
 
 ### Before the Game
 
-Before you even start playing an Issue of []{.gamename},
-talk about what you want to see in the game -- and what you don't
-want to see.
+Before you even start playing an Issue of []{.gamename}, talk about 
+what you want to see in the game -- and what you don't want to see.
 
+If you're planning a long, open-ended Series, you may even want to 
+devoted a whole session to this -- called an *Issue 0* in []{.gamename};
+for shorter games you should at least touch on these topics.
 
 #### Lines and Veils
 
-**Lines and veils** are used to set boundaries
-on content in a game. 
+**Lines and veils** are used to set boundaries on content in a game. 
 
-**Lines** are hard limits on
-content, things that the Editor or the players don’t
-want to engage in. Setting up a line means that
+**Lines** are hard limits on content, things that the Editor or the 
+players don’t want to engage in. Setting up a line means that
 content won’t show up in the game at all. 
 
-**Veils** are
-soft limits, things that are ok “behind a curtain” or
-when they “cut-to-black.” Setting up a veil means
-that the content might be in the game but not
-spotlighted or described in great detail. 
+**Veils** are soft limits, things that are ok “behind a curtain” or
+when they “cut-to-black.” Setting up a veil means that the content might 
+be in the game but not spotlighted or described in great detail. 
 
-**Lines and veils** can be adjusted as needed throughout the
-game.
+**Lines and veils** can be adjusted as needed throughout the game.
 
+#### Using the Comics Code
 
-#### Script Change Rating
+Don't worry, I promise the CCA isn't going to shut down your game. 
 
-**Script Change** ratings are used to set tone and
-boundaries for your game. Using film ratings (or
-your own), you can outline what audience you’re
-playing for (e.g. PG-13 vs R). 
+Despite how terrible 
+the [Comics Code](http://cbldf.org/the-comics-code-of-1954/) was in 
+reality -- and it had a *stifling* effect on freedom of expression 
+in comics for decades -- it *does* give an interesting snapshot of 
+the types of content that might show up in a Bronze Age superhero game.
 
-The **rating** also
-addresses what content players do want to see
-as well as what they don’t want to see. Make sure
-to balance and respect everyone’s do and don’t
-wants. 
+The following questions are inspired by items in the Comics Code and
+are intended to start conversations -- not end them! 
 
-**Ratings** and do-and-don’t-want content can
-be adjusted as needed throughout the game.
+As you discuss these questions as a group, anyone should feel free to 
+request a line or veil on these or any other subjects.
 
+##### General Questions
 
-#### Session 0
+::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Session 0s are a great way to begin
-communication, set expectations on the kind of
-story and play, and introduce and discuss what
-safety tools will be used at the table.
+- Does good always triumph over evil? Does evil sometimes
+  triumph over good?
 
+- Is profanity from NPCs acceptable? From heroes?
+
+- Should your game avoid depictions of alcohol use, drug
+  use, or drug addiction?
+
+- Do the villains eventually get what's coming to them, or do
+  some get away with their crimes?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+##### Forces of Law and Justice
+
+::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- Given the history of police violence, do you want to play that
+  out in a roleplaying game?
+
+- Do you even want to deal with the police at all in your games?
+
+- Do you want to have Storylines about corrupt judges and a justice
+  system that doesn't work?
+
+- Are glamorous, alluring, or even sympathetic villains fine,
+  or would you rather have black-and-white villainy?
+
+- Do you want Nazis as villains in this game?
+
+- Are the heroes criminals themselves and wanted by the authorities?
+  If so, which authorities, and why?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+##### Types of Crises
+
+::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- Are you okay with Storylines about the military and war?
+
+- Are there certain natural disasters, such as brushfires or
+  earthquakes, that you're not interested in playing out?
+
+- Would you rather not have zombies, vampires, werewolves, or other
+  types of mythological monsters in your game? 
+
+- What about more mundane creatures like spiders or snakes?
+
+- Are there other types of Crises you don't want to deal with?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+##### Depictions of Awfulness
+
+::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- Are in-character bigotries such as ableism, racism, homophobia, 
+  transphobia, or antisemitism acceptable from NPCs?
+
+- Are they acceptable from heroes?
+
+- What about slurs spoken by NPCs, and slurs spoken by heroes?
+
+- Do you want to restrict descriptions of violence to abstract 
+  summaries instead of the gory details?
+
+- Are there certain types of violence that you would rather
+  not see in the game, such as torture, knives or guns,
+  or kidnapping?
+
+- Would you be bothered by villains using mind control or other
+  mental violations? Are those okay for heroes to do?
+
+- Is it acceptable to have an NPC or hero be a rape survivor as 
+  part of their backstory, or should there be no references to 
+  sexual assault at all?
+
+- Can innocent bystanders be killed during a Crisis? What about
+  named NPCs the players have become attached to?
+
+- Should the villains be able kill heroes, or should that only
+  happen as part of a Storyline chosen by a player?
+
+- Can the heroes kill? What should the other heroes do if a hero 
+  kills a villain?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+##### Relationships
+
+::::::::::::::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::
+
+- Does romantic attraction factor into this game at all, or is
+  it something you'd rather not see? 
+
+- Is it okay to roleplay flirting between heroes and NPCs? 
+  What about between heroes?
+
+- Should love and romance problems such as infidelity or
+  divorce be avoided? Should marriage?
+
+- Is sexual innuendo between heroes and NPCs acceptable? What
+  about among the heroes themselves?
+
+- Do you want to fade to black long before sexual content
+  such as nudity or kink enters the game, or are seduction 
+  scenes okay to play out up to a certain point?
+
+- How should queer issues be handled in the game? Should the
+  NPCs be LGBTQIA+ friendly?
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### During the Game
 
@@ -414,95 +514,60 @@ When you get caught up in playing []{.gamename}, it can sometimes
 be hard to gauge how everyone else is feeling. These tools can be
 used while you're playing to make it easier to share.
 
-
 #### Breaks
 
-For games longer than 2 hours or games that have
-intense content, having a short built-in break is
-recommended to allow people to stay focused and
-process. Allow for discussion, bio breaks, or any
-other needs during this time.
+For Issues that run longer than 2 hours or Issues that have 
+intense content, having a short built-in break is recommended 
+to allow people to stay focused and process. Allow for 
+discussion, bio breaks, or any other needs during this time.
 
+As a general rule, the Editor should offer a break after a Crisis 
+concludes. The players might not want one, in which case the
+game continues.
 
 #### Open Door
 
-The **Open Door** is the assurance that someone
-can leave or take a break from the game for their
-own safety and well-being without being judged.
-State this at the beginning and periodically
+The **Open Door** is the assurance that someone can leave or take 
+a break from the game for their own safety and well-being without 
+being judged.  State this at the beginning and periodically
 throughout the game.
 
-#### Script Change
+#### Comic Script Change
 
-The **Script Change RPG Toolbox** is a collection
-of tools that can be used to adjust play and
-content. They can be used by tapping physical
-cards, typing the letter in the chat function of the
-video conference software or virtual tabletop you
-are using, or using hand signals. Before the game
-begins, remind your players that they are available
-and how to use them.
+During play, you can use **Comic Script Change Moves** to adjust 
+play and content. They can be used by tapping physical
+cards with the words written on them, typing the first letter of the 
+move in the chat function of the video conference software or 
+virtual tabletop you are using, or using hand signals. 
 
-[Rewind]{.icon .rewind} can be used when something
-has happened in play that makes a participant
-uncomfortable. When [Rewind]{.icon .rewind} is used by
-tapping the card, typing the shorthand in the chat,
-or stating it out loud (“I’d like to rewind...”), be clear
-about what content is being adjusted, rewind to a
-point before it happened, and play starts again.
+Before each Issue of []{.gamename}, Editors and players should
+discuss how to use each of these tools.
 
-[Fast Forward]{.icon .ff} can be used when a
-participant would like to skip past uncomfortable
-content or to the next part of the story for pacing.
-When [Fast Forward]{.icon .ff} is used by tapping the
-card, typing the shorthand in the chat, or stating it
-out loud (“I’d like to fast forward...”), skip forward to
+**Retcon** can be used when something has happened in play 
+that makes a participant uncomfortable.  When **Retcon** is 
+used by tapping the card, typing the shorthand in the chat,
+or stating it out loud (“I’d like to retcon...”), be clear
+about what content is being adjusted, rewind to a point before 
+it happened, and play starts again.
+
+**Later That Day, ...** can be used when a participant would like to 
+skip past uncomfortable content or to the next part of the 
+story for pacing.  When **Later** is used by tapping the card, 
+typing the shorthand in the chat, or stating it out loud 
+("I’d like to go to later that day..."), skip forward to
 a new spot in the story that everyone agrees on.
 
-[Pause]{.icon .pause} can be used when things are too
-intense, but you still want to continue playing the
-scene. When [Pause]{.icon .pause} is used by tapping the
-card, typing the shorthand in the chat, or stating it
-out loud (“I’d like to pause...”), you can take a break
-and/or discuss the content as needed. After the
-[Pause]{.icon .pause}, you can [Resume]{.icon .resume}, 
-[Rewind]{.icon .rewind}, [Fast Forward]{.icon .ff}.
+**Meanwhile, ...** can be used when everyone is ready to continue play, 
+often after adjusting or discussing content. When **Meanwhile** 
+used by tapping the card, typing the shorthand in the chat, or 
+stating it out loud ("Meanwhile..."), continue with play.
 
-[Resume]{.icon .resume} can be used when everyone is ready
-to continue play, often after adjusting or discussing
-content. When [Resume]{.icon .resume} is used by tapping the
-card, typing the shorthand in the chat, or stating it
-out loud (“Let’s resume...”), continue with play.
-
-
-#### X, N, and O Cards
-
-**X**, **N**, and **O cards** are check-in tools. They can be
-used by tapping physical cards, typing the letter in
-the chat function of the video conference software
-or virtual tabletop you are using, or using hand
-signals. Before the game begins, remind everyone
-that they are available and how to use them.
-
-The **X card** can be used at any point if a
-participant is uncomfortable with the content
-happening in-game. When the **X card** is used by
-tapping the card or typing an **“X”** in the chat, the
-group can change, rewind, or skip the content.
-
-The **N card** can be used at any point if a participant
-feels like they are headed towards an X. When the
-**N card** is used by tapping the card or typing an
-**“N”** in the chat, the group can change the content
-or have the scene “fade to black.”
-
-The **O card** can be used at any point if a
-participant wants to continue with the content.
-When the **O card** is used by tapping the card
-or typing an **“O”** in the chat, the group is ok to
-continue with the content. They can also regularly
-be prompted by a **“O?”** asked out loud or in the
-chat to check-in if everyone is still ok.
+**Continued Next Page** can be used when things are too intense, 
+but you still want to continue playing the scene. When **Continued**
+is used by tapping the card, typing the shorthand in the chat, or 
+stating it out loud ("I’d like to continue to the next page..."), 
+you can take a break and/or discuss the content as needed. After the
+**Continued**, you can use **Meanwhile**, **Retcon**, or **Later**.
 
 
 ### After the Game
@@ -511,97 +576,125 @@ When you finish an Issue of []{.gamename}, it's important to look
 back at the things you enjoyed the most and the things you didn't 
 like as much.
 
-
-#### Bleed
-
-Emotions and stress from the game can bleed over
-into post-game life. This can affect the enjoyment
-of the game, as well as out-of-game relationships
-between players and Editor if not worked through.
-
-Being open and honest about where the game
-begins and ends, and being conscious of which
-feelings belong to the player and which are just
-bleed, helps to mitigate the effects.
-
-
-#### Highlight Reel and Wrap Session
-
-Similar to **stars and wishes**, Script Change
-has **Highlight Reel** and **Wrap Session**. 
-
-The **Highlight Reel** is used to reflect on the session
-and highlight moments participants enjoyed. At
-the end of the game, go around and get everyone
-to state highlight of the game for them. This
-could include a particular moment of roleplay,
-Crisi created by the Editor, or anything else
-that stuck out as something awesome during the
-game. 
-
-The **Wrap Session** is an opportunity for the
-group to reflect on the session and discuss what
-could be improved going forward. At the end of the
-game, go around and open up discussion about
-the game. This could include content participants
-didn’t feel comfortable calling pause or rewind at
-the time, or talking about emotional impacts and bleed.
-
-There should be no social pressure to disclose
-the details or trauma to justify why someone felt
-uncomfortable or unsafe during the game, as long
-as the discussion moves towards how to address
-the issues going forward.
-
-
 #### Stars and Wishes
 
-**Stars and wishes** are used to reflect on the
-session and communicate feedback in a positive
-and forward-facing way. At the end of the game, go
+**Stars and wishes** are used to reflect on the session and communicate 
+feedback in a positive and forward-facing way. At the end of the game, go
 around and get everyone to state a star and wish.
 
-**Stars** are things that the participants really enjoyed
-and loved about the game. This could include a
-particular moment of roleplay, a Crisis created
-by the Editor, or anything else that stuck out as
+**Stars** are things that the participants really enjoyed and loved 
+about the game. This could include a particular moment of roleplay, 
+a Crisis created by the Editor, or anything else that stuck out as
 something awesome during the game. 
 
 **Wishes** are things that the participants would like to see
-in future sessions. This could include particular
-interactions between heroes, potential story
-moments and development, or anything else that
-could make the game even better in the future.
+in future sessions. This could include particular interactions 
+between heroes, potential story moments and development, or 
+anything else that could make the game even better in the future.
+
+#### Bleed
+
+Emotions and stress from the game can bleed over into post-game 
+life. This can affect the enjoyment of the game, as well as 
+out-of-game relationships between players and Editor if not 
+worked through.
+
+Being open and honest about where the game begins and ends, and being 
+conscious of which feelings belong to the player and which are just
+bleed, helps to mitigate the effects.
 
 
 ## From Issues to Volumes {#toc-issues .colbefore}
 
-[]{.gamename} uses some terms from comic books to talk about
-how the game is played.
+[]{.gamename} uses some terms from comic books to talk about how 
+the game is played.
 
-One adventure in []{.gamename} is known as a **Story.** A Story
-consists of one or more **Crises** introduced by the Editor, and
-the heroes' reactions to those challenges.
+### Issues
 
-Each individual game session is known as an **Issue.**
-Many Stories will resolve over one Issue, but some can take longer.
+Each individual game session is known as an **Issue**, and roughly
+corresponds to one issue of a comic book.
 
-When you create a new hero, you define a **Story Arc** that describes 
-a specific lesson you'd like them to learn or a specific experience 
-you'd like them to have.  Once your hero finishes your Story Arc, 
-both your hero and your fellow players' heroes gain an **Advancement.**
+The **First Issue** is the first session of an ongoing []{.gamename}
+played by a group. 
 
-Each Story Arc is part of a **Volume**; Volumes are numbered started 
-with 1.  Once all of the heroes have had a chance to play out their 
-Story Arcs, the Editor and heroes play out a final Issue that ties 
-together the previous Story Arcs, and that Volume concludes.
+#### Issue 0
+
+**Issue 0** -- known as *Session 0* in other games -- is an
+Issue of a []{.gamename} Series when the players don't roll dice and 
+handle Crises, but instead discuss what kind of game each person
+is looking forward to playing.
+
+The Issue 0 takes place before the First Issue, and should go over the 
+safety tools used in the game, stress the importance of open communication, 
+and set expectations on the kind of story and play.
+
+Issue 0s are also a great time to create heroes together as a group,
+rather than separately.
+
+#### One-Shots
+
+A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
+Series, but stands alone. Most games played at conventions, for example,
+will be One-Shots.
+
+One-Shots obviously won't have a separate Issue 0, but time should still
+be set aside at the start of the Issue to touch on these important aspects
+of []{.gamename}.
+
+Many First Issues are One-Shots, as the players and Editor are still 
+getting to know their heroes and the game. These First Issues usually
+feature a few simple Crises to resolve.
+
+### Storylines
+
+During an Issue, the Editor and the players play out the events of
+a **Storyline**.
+
+When you create a new hero, you define a specific lesson you'd like 
+your hero to learn or a specific experience you'd like them to have.
+For that Storyline, your character is considered the **Spotlight** hero.
+
+Each Storyline consists of:
+
+- the Spotlight hero
+- the Lesson
+- one or more Crises connected to the Lesson, introduced by the Editor
+- the heroes' reactions to each Crisis
+- the Spotlight hero's reaction the Lesson
+
+Many Storylines will resolve over the course of one Issue, but some
+can take long and might run for 2 or 3 sessions, or longer.
+
+Once your hero finishes your Storyline, both your hero and your 
+fellow players' heroes gain an **Advancement.**
+
+### Volumes
+
+Each Storyline is part of a **Volume**; Volumes are a grouping of
+Issues -- game sessions -- and are numbered starting with 1.  
+
+Once all of the heroes have had a chance to play out their Storylines, 
+the Editor and heroes play out a final Issue, known as an **Annual**. 
+
+The Annual ties together the events of the previous Storylines in the
+Volume, and then that Volume concludes.
 
 At the start of a new Volume, your hero develops new powers or finds 
 new ways to use their existing powers.
 
-A ongoing campaign of []{.gamename} is known as a **Series,**
-and each Series is comprised of up to five Volumes.
+### Series
 
+A ongoing campaign of []{.gamename} is known as a **Series,** and each 
+Series is comprised of up to five Volumes. 
+
+### Guest Stars and Crossovers
+
+A **Guest Star** is a hero character from another Series -- either played
+by the same group or a different one -- who plays in the Series for an
+Issue or two.
+
+A **Crossover** happens when the heroes from two or more Series work
+together, usually in large, wide-ranging One-Shots.
 
 ## Using the Dice {#toc-dice .colbefore}
 

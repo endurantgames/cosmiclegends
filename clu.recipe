@@ -16,9 +16,9 @@ credits/jam
 credits/no_fascists
 credits/safety
 safety/
-safety/before/*
-safety/during/*
-safety/after/*
+safety/before/
+safety/during
+safety/after/
 safety/*
 issues
 dice

@@ -3,8 +3,10 @@
 
 - <a href="#toc-ethos"></a>
 - <a href="#toc-preface"></a>
-- <a href="#toc-credits"></a>
-- <a href="#safety"></a>
+- <a href="#toc-safety"></a>
+  - <a href="#toc-comics-code"></a>
+  - <a href="#toc-script-change"></a>
+  - <a href="#toc-stars-wishes"></a>
 - <a href="#toc-issues"></a>
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
@@ -69,6 +71,7 @@
     - <a href="#toc-sample-science"></a>
     - <a href="#toc-sample-super-villains"></a>
 - <a href="#toc-glossary"></a>
+- <a href="#toc-credits"></a>
 - <a href="#anchor-license"></a>
 - <a href="#anchor-herosheet"></a>
 

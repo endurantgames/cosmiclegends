@@ -11,11 +11,29 @@ corresponds to one issue of a comic book.
 The **First Issue** is the first session of an ongoing []{.gamename}
 played by a group. 
 
+### Issue 0
+
+**Issue 0** -- known as *Session 0* in other games -- is an
+Issue of a []{.gamename} Series when the players don't roll dice and 
+handle Crises, but instead discuss what kind of game each person
+is looking forward to playing.
+
+The Issue 0 takes place before the First Issue, and should go over the 
+safety tools used in the game, stress the importance of open communication, 
+and set expectations on the kind of story and play.
+
+Issue 0s are also a great time to create heroes together as a group,
+rather than separately.
+
 ### One-Shots
 
 A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
 Series, but stands alone. Most games played at conventions, for example,
 will be One-Shots.
+
+One-Shots obviously won't have a separate Issue 0, but time should still
+be set aside at the start of the Issue to touch on these important aspects
+of []{.gamename}.
 
 Many First Issues are One-Shots, as the players and Editor are still 
 getting to know their heroes and the game. These First Issues usually
