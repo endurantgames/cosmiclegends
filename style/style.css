@@ -687,6 +687,8 @@ margin-top: 1em; }
   text-align: center;
 }
 
+.herosheet .label.motiv { font-size: var(--body); }
+
 .herosheet .label.facet.action { top: 0.50in; left: 1.90in; }
 .herosheet .label.facet.adventure { top: 0.50in; right: 1.70in; }
 .herosheet .label.facet.suspense { top: 4.25in; left: 0.425in; }
@@ -712,26 +714,24 @@ margin-top: 1em; }
 .herosheet .label.class-ability { top: 1.88in; right: 5.55in; }
 .herosheet .label.skills { top: 1.88in; left: 5.55in; }
 
-/* this is how we center-align things
- */
-
-/* rotated -- these are the upper left
- */
-
 .herosheet .box { display: block; position: absolute; 
   color: var(--color-sheet-dark);
-  font-size: var(--h3);
+  font-size: var(--h4);
 }
 .herosheet.box.b1 { width: 0.125in; text-align: center; }
 
 .herosheet .box.b1:before { content: '\002610 '; }
 .herosheet .box.b5:before { content: '\002610\002610\002610\002610\002610 '; }
 
-.herosheet .box.m1 { top: 1.175in; left: 3.41in; }
-.herosheet .box.m2 { top: 1.175in; right: 3.41in; }
-.herosheet .box.m3 { top: 3.615in; left: 1.15in; }
-.herosheet .box.m4 { top: 3.615in; right: 1.15in; }
-.herosheet .box.m5 { bottom: 1.22in; left: 4.78in; }
+/* 1.175in; 3.41in; */
+
+
+/*                             -0.035         0.00  */ /*                           +0.075          +0.04 */
+.herosheet .label.m1 { top:    1.14in; left:  3.41in; } .herosheet .box.m1 { top:    1.25in; left:  3.45in; }
+.herosheet .label.m2 { top:    1.14in; right: 3.41in; } .herosheet .box.m2 { top:    1.25in; right: 3.45in; }
+.herosheet .label.m3 { top:    3.58in; left:  1.16in; } .herosheet .box.m3 { top:    3.69in; left:  1.20in; }
+.herosheet .label.m4 { top:    3.58in; right: 1.16in; } .herosheet .box.m4 { top:    3.69in; right: 1.20in; }
+.herosheet .label.m5 { bottom: 1.38in; left:  4.78in; } .herosheet .box.m5 { bottom: 1.18in; left:  4.82in; }
 
 .herosheet .label.name              { top: 0.55in; width: 3in; left: 4in; text-align: center; }
 .herosheet .label.nova              { top: 5.75in; width: 3in; left: 4in; text-align: center; }
@@ -742,7 +742,7 @@ margin-top: 1em; }
 .herosheet .label.volume-ability.v4 { top: 5.33in; left: 2.80in; transform: rotate(40.1deg); }
 .herosheet .label.volume-ability.v5 { top: 2.25in; left: 2.0in; transform: rotate(-50.2deg); }
 
-.herosheet .box.b1.nova-unlocked { top: 6.52in; right: 5.04in; transform: rotate(-40.1deg); }
+.herosheet .box.b1.nova-unlocked { top: 6.53in; right: 5.03in; transform: rotate(-40.1deg); }
 .herosheet .label.nova-unlocked { top: 6.31in; right: 4.51in; transform: rotate(-40.1deg); }
 
 .herosheet .box.b1.arc-complete { bottom: 0.72in; left: 4.75in; }
