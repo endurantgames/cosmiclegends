@@ -1,4 +1,4 @@
-:::::::::::::::: {.soapbox #soapbox-0 } :::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 # No Fascists
 
 If you're a fascist, you're not welcome to play this game. It's against the rules. 

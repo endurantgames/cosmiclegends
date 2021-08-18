@@ -75,7 +75,7 @@ To play []{.gamename} you'll need:
 ## Table of Contents
 
 - <a href="#toc-ethos"></a>
-- <a href="#toc-influences"></a>
+- <a href="#toc-preface"></a>
 - <a href="#toc-credits"></a>
 - <a href="#safety"></a>
 - <a href="#toc-dice"></a>
@@ -174,8 +174,8 @@ your hero, and both of these are in the your hands to choose.
 The Editor’s job is to give you those difficult choices.
 
 
-:::::::::::::::: {.soapbox #soapbox-0 } :::::::::::::::::::::::::::::::::::::::::::::::::
-### No Fascists
+:::::::::::::::: {.soapbox #soapbox-no-fascists } :::::::::::::::::::::::::::::::::::::::::::::::::
+## No Fascists
 
 If you're a fascist, you're not welcome to play this game. It's against the rules. 
 
@@ -188,31 +188,111 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+## A Four-Color Bronze Age Superhero TTRPG {.breakbefore #toc-preface}
+
+[]{.lorem}
+
+
+### "Four-Color"
+
+The term "four-color" refers to the printing process used
+in comics that led to most heroes having bold, primary
+colors for their uniforms, their bodies, their worlds.
+
+One example is Superman's hair having *blue* overtones --
+this was meant to display his hair as a lustrous black
+but the capabilities time precluded that.
+
+*Our* use of the term "four-color" doesn't refer to the 
+print process for this game but instead to the general tone 
+of late Silver Age and Bronze Age comics -- when primary-color 
+superheroes of the '50s and '60s met the social issues of 
+the '70s and '80s.
+
+
+### The Super Friends
+
+In case you didn't notice, this game is inspired by the 
+[Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
+cartoon show that was on the air from 1973 to 1985 -- also
+the years yours truly was age 5 and 16. It's fair to say
+the show influenced how I view comics and superheroes
+in general.
+
+The first season has this great opening monologue where the four 
+heroes were "created from the cosmic legends of the universe!"
+
+What on earth does *that* mean?  How exactly was *Bruce Wayne*
+created from the __cosmic legends of the universe__?!
+I've never figured that out, but it does make a great title
+for this Bronze Age-inspired, four-color tabletop RPG.
+
+
+### The Ages of Comics
+
+American comics fans and scholars divide the history of 
+comics into four loosely defined "ages": the Golden Age, the
+Silver Age, the Bronze Age, and the Modern Age.
+
+The Golden Age - 1938 to 1956
+
+:   The Golden Age started with the introduction of Superman
+    and the concept of superheroes in general.
+    Many of the most well-known characters, such as Wonder Woman 
+    and Captain America, were created during the Golden Age.
+  
+    Some comics in the Golden Age were simplistic fun, while others 
+    featured dark themes, shocking gore, and vile villains.  A lot of 
+    Nazis were punched in those comics, which is always a good thing.
+  
+    Unfortunately, racism and sexism often were major themes in Golden 
+    Age comics; examples of anti-Asian hatred are all too easy to find.
+
+The Silver Age - 1956 to circa 1970
+
+:   The Silver Age began when DC Comics created new versions of the Flash, 
+    Green Lantern, and others, then the Justice League of America. 
+    Marvel responded by creating the Fantastic Four, Spider-Man, 
+    the Avengers, the Hulk, the X-Men, and more.
+  
+    The Silver Age also saw the creation of the Comics Code Authority,
+    a self-censorship board created in the wake of a moral panic
+    over the content of comics.
+  
+    Superhero comics in the Silver Age followed a long list of 
+    restrictions banning everything from "horror" and "gore" 
+    to "vampires" and "cannibalism". Heroes always won, villains 
+    always lost, and authority figures were portrayed with respect -- 
+    at least, that's what the Comics Code demanded.
+
+The Bronze Age - ca. 1970 to ca. 1985
+
+:   The Bronze Age is less distinctly defined chronologically, but was 
+    a time when comics went through changes: becoming more socially 
+    relevant and less restrained by the CCA. More on that later.
+  
+The Modern Age - ca. 1985 to present
+
+:   The current age of comics is usually dated to 
+    DC's *Crisis on Infinite Earths* and Marvel's *Secret Wars*.
+
+    Modern superhero comics often feature antiheroes, complex
+    storylines, and mature themes. Many of the older characters
+    were revamped to more contemporary versions.
+
+    The CCA also withered away to nothing as the major publishers
+    increasingly created comics without the CCA seal on the cover.
+  
+
+### The Bronze Age
+
+[]{.lorem}
+
+
 ## Game Credits {#toc-credits .breakbefore}
 
 This game was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>.
 
-
-::::::::::::::::::: { .soapbox #soapbox-1 } ::::::::::::::::::::::
-
-### Influences {#toc-influences}
-
-At its heart, []{.gamename} is one of the multitude superhero
-games that have come out of the TTRPG hobby -- I've played
-Champions, I've played GURPS; I've played DC Heroes, I've
-played Marvel Super Heroes; I've played Mutants & Masterminds,
-I've played Marvel Heroic Roleplay.
-
-The Harmony Drive system is a nifty system with a lot of very
-cool mechanics, and the SRD is a lovely work of art itself.
-
-So obviously, I'm standing on the shoulders of giants here. 
-I just hope that []{.gamename} is a worthy contribution to 
-the genre and other people can enjoy the game.
-
-Continued [](#soapbox-2){.onpage}
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 The contents of the game are covered by the
 *Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
@@ -261,88 +341,29 @@ Specific items in the toolkit are credited as follows:
 
 ## Safety Tools {#safety .breakbefore}
 
-Playing the []{.gamename} RPG should be enjoyable for everyone.
+Playing the []{.gamename} RPG should be enjoyable for everyone,
+and to help make that happen, we recommend these techniques 
+from the *TTRPG Safety Toolkit*.
 
-To ensure that everyone has an enjoyable experience, we recommend techniques
-from the *TTRPG Safety Toolkit* that we've included below. 
-You should not play []{.gamename} without using at least
-one such tool in your game.
+Safety tools are a way for players and Editors to communicate
+and check-in before, during, and after a game in order to make 
+sure everyone is still having fun, and to provide the right 
+support when needed.
 
-
-::::::::::::::::::: { .soapbox #soapbox-2 } ::::::::::::::::::::::
-
-### Influences
-
-The Super Friends
-
-:   We'll start with the name and the cover art: This game
-    is obviously inspired by the 
-    [Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
-    animated television show that was on the air from 1973 
-    to 1985 -- incidentally the years that yours truly was
-    between five and sixteen.
-    
-    To say the show had a formative influence might be overselling 
-    it, but it *did* influence how I view comics and superheroes
-    in general.
-    
-    The first season has this great opening monologue where
-    the late, great Ted Knight intoned that the four heroes --
-    obviously, Robin doesn't count for some reason? -- were
-    "created from the cosmic legends of the universe!"
-    
-    What on earth does *that* mean? I *guess* I could see that
-    applying to Wonder Woman, but how exactly was Bruce Wayne
-    created from the cosmic legends of the universe?!
-    
-    It was never really clear, but decades later I decided it
-    would make a great title for this Bronze-Age, four-color
-    tabletop roleplaying game.
-    
-Continued [](#soapbox-3){.onpage}
-    
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-   
-
-::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
-### What are safety tools?
-
-Sometimes games have content or situations
-where a player or Editor may feel stressed out,
-unsafe, or otherwise not having fun. Safety tools
-are a way for players and Editors to communicate
-and check-in before, during, and after a game in
-order to make sure everyone is still having fun, and
-to provide the right support when needed.
-
-Communication, trust, and care
 The key to safety tools is communication and
 trust. There needs to be open and respectful
 communication alongside a culture of trust for
 these to work.
 
-As an Editor, player, or organizer, you can create
-this culture by making it clear that the care and
-well-being of everyone at the table comes before
-the game or story. This can be done by actively
-listening to everyone, offering accomodations and
-safety tools, implementing actions when asked
-while not prying (nobody owes you their trauma
-as explanation), and actively checking in before,
-during, and after a game.
 
-#### Before the Game Begins
+### Before the Game
 
-[]{.lorem}
+Before you even start playing an Issue of []{.gamename},
+talk about what you want to see in the game -- and what you don't
+want to see.
 
-##### Session 0
 
-Session 0s are a great way to begin
-communication, set expectations on the kind of
-story and play, and introduce and discuss what
-safety tools will be used at the table.
-
-##### Lines and Veils
+#### Lines and Veils
 
 **Lines and veils** are used to set boundaries
 on content in a game. 
@@ -361,7 +382,8 @@ spotlighted or described in great detail.
 **Lines and veils** can be adjusted as needed throughout the
 game.
 
-##### Script Change Rating
+
+#### Script Change Rating
 
 **Script Change** ratings are used to set tone and
 boundaries for your game. Using film ratings (or
@@ -377,38 +399,38 @@ wants.
 **Ratings** and do-and-don’t-want content can
 be adjusted as needed throughout the game.
 
-#### During the Game
 
-[]{.lorem}
+#### Session 0
 
-##### X, N, and O Cards
+Session 0s are a great way to begin
+communication, set expectations on the kind of
+story and play, and introduce and discuss what
+safety tools will be used at the table.
 
-**X**, **N**, and **O cards** are check-in tools. They can be
-used by tapping physical cards, typing the letter in
-the chat function of the video conference software
-or virtual tabletop you are using, or using hand
-signals. Before the game begins, remind everyone
-that they are available and how to use them.
 
-The **X card** can be used at any point if a
-participant is uncomfortable with the content
-happening in-game. When the **X card** is used by
-tapping the card or typing an **“X”** in the chat, the
-group can change, rewind, or skip the content.
+### During the Game
 
-The **N card** can be used at any point if a participant
-feels like they are headed towards an X. When the
-**N card** is used by tapping the card or typing an
-**“N”** in the chat, the group can change the content
-or have the scene “fade to black.”
+When you get caught up in playing []{.gamename}, it can sometimes
+be hard to gauge how everyone else is feeling. These tools can be
+used while you're playing to make it easier to share.
 
-The **O card** can be used at any point if a
-participant wants to continue with the content.
-When the **O card** is used by tapping the card
-or typing an **“O”** in the chat, the group is ok to
-continue with the content. They can also regularly
-be prompted by a **“O?”** asked out loud or in the
-chat to check-in if everyone is still ok.
+
+#### Breaks
+
+For games longer than 2 hours or games that have
+intense content, having a short built-in break is
+recommended to allow people to stay focused and
+process. Allow for discussion, bio breaks, or any
+other needs during this time.
+
+
+#### Open Door
+
+The **Open Door** is the assurance that someone
+can leave or take a break from the game for their
+own safety and well-being without being judged.
+State this at the beginning and periodically
+throughout the game.
 
 #### Script Change
 
@@ -452,27 +474,45 @@ content. When [Resume]{.icon .resume} is used by tapping the
 card, typing the shorthand in the chat, or stating it
 out loud (“Let’s resume...”), continue with play.
 
-##### Open Door
 
-The **Open Door** is the assurance that someone
-can leave or take a break from the game for their
-own safety and well-being without being judged.
-State this at the beginning and periodically
-throughout the game.
+#### X, N, and O Cards
 
-##### Breaks
+**X**, **N**, and **O cards** are check-in tools. They can be
+used by tapping physical cards, typing the letter in
+the chat function of the video conference software
+or virtual tabletop you are using, or using hand
+signals. Before the game begins, remind everyone
+that they are available and how to use them.
 
-For games longer than 2 hours or games that have
-intense content, having a short built-in break is
-recommended to allow people to stay focused and
-process. Allow for discussion, bio breaks, or any
-other needs during this time.
+The **X card** can be used at any point if a
+participant is uncomfortable with the content
+happening in-game. When the **X card** is used by
+tapping the card or typing an **“X”** in the chat, the
+group can change, rewind, or skip the content.
 
-#### After the Game
+The **N card** can be used at any point if a participant
+feels like they are headed towards an X. When the
+**N card** is used by tapping the card or typing an
+**“N”** in the chat, the group can change the content
+or have the scene “fade to black.”
 
-[]{.lorem}
+The **O card** can be used at any point if a
+participant wants to continue with the content.
+When the **O card** is used by tapping the card
+or typing an **“O”** in the chat, the group is ok to
+continue with the content. They can also regularly
+be prompted by a **“O?”** asked out loud or in the
+chat to check-in if everyone is still ok.
 
-##### Bleed
+
+### After the Game
+
+When you finish an Issue of []{.gamename}, it's important to look
+back at the things you enjoyed the most and the things you didn't 
+like as much.
+
+
+#### Bleed
 
 Emotions and stress from the game can bleed over
 into post-game life. This can affect the enjoyment
@@ -484,26 +524,8 @@ begins and ends, and being conscious of which
 feelings belong to the player and which are just
 bleed, helps to mitigate the effects.
 
-##### Stars and Wishes
 
-**Stars and wishes** are used to reflect on the
-session and communicate feedback in a positive
-and forward-facing way. At the end of the game, go
-around and get everyone to state a star and wish.
-
-**Stars** are things that the participants really enjoyed
-and loved about the game. This could include a
-particular moment of roleplay, a Crisis created
-by the Editor, or anything else that stuck out as
-something awesome during the game. 
-
-**Wishes** are things that the participants would like to see
-in future sessions. This could include particular
-interactions between heroes, potential story
-moments and development, or anything else that
-could make the game even better in the future.
-
-##### Highlight Reel and Wrap Session
+#### Highlight Reel and Wrap Session
 
 Similar to **stars and wishes**, Script Change
 has **Highlight Reel** and **Wrap Session**. 
@@ -531,17 +553,75 @@ uncomfortable or unsafe during the game, as long
 as the discussion moves towards how to address
 the issues going forward.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Rolling Dice {#toc-dice .breakbefore}
+#### Stars and Wishes
 
-The dice mechanic in []{.gamename} is a pool of six-sided dice. 
+**Stars and wishes** are used to reflect on the
+session and communicate feedback in a positive
+and forward-facing way. At the end of the game, go
+around and get everyone to state a star and wish.
+
+**Stars** are things that the participants really enjoyed
+and loved about the game. This could include a
+particular moment of roleplay, a Crisis created
+by the Editor, or anything else that stuck out as
+something awesome during the game. 
+
+**Wishes** are things that the participants would like to see
+in future sessions. This could include particular
+interactions between heroes, potential story
+moments and development, or anything else that
+could make the game even better in the future.
+
+
+## From Issues to Volumes {#toc-issues .colbefore}
+
+[]{.gamename} uses some terms from comic books to talk about
+how the game is played.
+
+One adventure in []{.gamename} is known as a **Story.** A Story
+consists of one or more **Crises** introduced by the Editor, and
+the heroes' reactions to those challenges.
+
+Each individual game session is known as an **Issue.**
+Many Stories will resolve over one Issue, but some can take longer.
+
+When you create a new hero, you define a **Story Arc** that describes 
+a specific lesson you'd like them to learn or a specific experience 
+you'd like them to have.  Once your hero finishes your Story Arc, 
+both your hero and your fellow players' heroes gain an **Advancement.**
+
+Each Story Arc is part of a **Volume**; Volumes are numbered started 
+with 1.  Once all of the heroes have had a chance to play out their 
+Story Arcs, the Editor and heroes play out a final Issue that ties 
+together the previous Story Arcs, and that Volume concludes.
+
+At the start of a new Volume, your hero develops new powers or finds 
+new ways to use their existing powers.
+
+A ongoing campaign of []{.gamename} is known as a **Series,**
+and each Series is comprised of up to five Volumes.
+
+
+## Using the Dice {#toc-dice .colbefore}
+
+The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
 When a player wants to take an uncertain action, they build a dice pool.
 
 - One die for every point they have in the relevant Facet
 - One die for every Volume if they have a relevant Skill
 - Two dice if they can mark off a relevant part of their Motivation
 - One die for every Power Word beyond the first
+- Other dice from any other source
+
+ Die Roll   Result
+----------  ---------------------
+    6       +1 Success
+    5       +1 Success
+    4       --
+    3       --
+    2       --
+    1       Edge Success
 
 Any dice that come up a 5 or a 6 are counted as Successes. 
 A challenging task can require 1-3 Successes to complete (outside combat).
@@ -559,108 +639,6 @@ This consequence can be mechanical, like losing Health, or it can be
 narrative, like upsetting an NPC or missing an important clue. 
 The important part is that the player is presented with a difficult choice.
 
-[]{.lorem}
-
-
-::::::::::::::::::: { .soapbox #soapbox-3 } ::::::::::::::::::::::
-
-### The Ages of Comics
-
-American comics fans and scholars divide the history of U.S.
-comics into four loosely defined "ages": the Golden Age, the
-Silver Age, the Bronze Age, and the Modern Age.
-
-The Golden Age - 1938 to 1956
-
-:   The Golden Age started with the introduction of Superman,
-    and the creation of the superhero model that's been used for years. 
-  
-    Many of the most well-known characters, such as Wonder Woman 
-    and Captain America, were created during the Golden Age.
-  
-    Some comics in the Golden Age were just simplistic fun, while
-    others feature dark themes, shocking gore, and vile villains.
-    There was a lot of punching Nazis back in those days.
-    Punching Nazis is always a good thing. 
-  
-    Unfortunately, racism and sexism often were major themes in Golden 
-    Age comics; examples of anti-Asian hatred are all too easy to find.
-
-Contined [](#soapbox-4){.onpage}
-
-:::::::::::::::::::::::::::::::::::::::::::::::
-  
-
-## Issues, Story Arcs, Series, and Volumes {#toc-issues .breakbefore}
-
-An adventure in []{.gamename} is known as a Story. A Story
-consists of one or more Crises introduced by the Editor, and
-the heroes' reactions to those challenges.
-
-Each individual game session is known as an Issue. 
-Most Stories will resolve over one Issue, but some can take longer.
-
-When you create a new hero, you define a Story Arc that describes 
-a specific lesson you'd like them to learn or a specific experience 
-you'd like them to have.  Once your hero finishes your Story Arc, 
-both your hero and your fellow players' heroes gain an Advancement.
-
-A ongoing campaign of []{.gamename} is known as a Series, 
-and each Series is comprised of up to five Volumes, beginning
-with Volume 1.
-
-Once all of the heroes have had a chance to play out their Story Arcs, 
-the Editor and heroes play out a final Issue that ties together 
-the previous Story Arcs, and that Volume ends.
-
-At the end of a Volume, your hero develops new powers or finds 
-new ways to use their existing powers.
-
-
-::::::::::::::::::: { .soapbox #soapbox-4 } ::::::::::::::::::::::
-
-### The Ages of Comics
-
-The Silver Age - 1956 to circa 1970
-
-:   The Silver Age began when DC Comics
-    created new versions of the Flash, Green Lantern, and others,
-    then the Justice League of America. Marvel responded by
-    creating the Fantastic Four, Spider-Man, the Avengers,
-    and the Hulk.
-  
-    With American society talking about "the atomic age" and 
-    "the space age," comics followed suit -- creating heroes
-    with pseudo-scientific explanations.
-  
-    The Atom wasn't just a short guy who punched people, but scientist 
-    with a size-shifting belt made of "white dwarf matter".
-    Green Lantern doesn't have a *magic* ring; I'm not saying it
-    came from aliens, but it came from aliens.
-    Experiments gone wrong produced so many heroes at Marvel Comics,
-    including the Hulk, the Fantastic Four, and Spider-Man.
-  
-    "Radiation" was everywhere -- not the type that gives you cancer,
-    but magical sort of radiation that blasted hapless individuals
-    and turned them into monsters, heroes, or both.
-  
-    Another feature of the Silver Age was the Comics Code Authority,
-    a self-censorship board created in the wake of a moral panic
-    over the content of comics -- including congressional hearings,
-    book burnings, and the disputed *Seduction of the Innocent*
-    book by Fredric Wertham.
-  
-    Mainstream comics in the Silver Age therefore followed a long list of 
-    prescriptions known as the Comics Code that banned everything
-    from "horror" and "gore" to "vampires" and "cannibalism". 
-    Heroes in the Silver Age always won, villains always got what
-    was comin' to 'em, and authority figures were portrayed 
-    positively -- or at least, that's what the CCA demanded.
-  
-Continued [](#soapbox-5){.onpage}
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 ## Hero Creation {#toc-chargen .breakbefore}
 
@@ -677,22 +655,6 @@ To create your hero, follow these steps:
 - Create a Story Arc you'd like to play out with your hero
 - Choose a Hero Name, Pronouns, and a Real Name, and decide whether the latter is a Secret Identity
 - Describe your Costume, Symbol, and General Appearance
-
-
-::::::::::::::::::: { .soapbox #soapbox-5 } ::::::::::::::::::::::
-
-#### The Ages of Comics
-
-The Bronze Age - ca. 1970 to ca. 1985
-
-:   The Bronze Age (circa 1970 to circa 1985) is less distinctly
-    defined chronologically, but it's an era where comics went
-    through changes: becoming more socially relevant and less
-    restrained by the CCA. More on that later.
-  
-Continued [](#soapbox-6){.onpage}
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ### Facets {#toc-facets}
@@ -751,33 +713,6 @@ When a new Story Arc begins, all the marked off Motivations are
 cleared and it’s time to start again.
 
 
-::::::::::::::::::: { .soapbox #soapbox-6 } ::::::::::::::::::::::
-
-### The Ages of Comics
-
-The Modern Age - ca. 1985 to present
-
-:   The start current age of comics is usually dated to the 
-    *Crisis on Infinite Earths* and *Secret Wars* 12-issue series
-    published by DC Comics and Marvel Comics, respectively.
-    Worlds lived, worlds died, and nothing the creators dreamed of
-    was impossible for the publishers to accomplish.
-
-    Darker, mature themes were explored in revitalized titles like
-    the *Teen Titans* and *X-Men*, while heroes such as Superman
-    and Daredevil had their backstories revamped and retooled
-    for a contemporary setting. Antiheroes such as the Punisher
-    flourish in the current age of comics.
-
-    The CCA also died off during this period as the major publishers
-    increasingly created comics without the CCA seal on the cover, 
-    and the Comics Code withered away to nothing.
-  
-Continued [](#soapbox-7){.onpage}
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 ### Fighting Style {#toc-fighting-style .colbefore}
 
 Your hero specializes in one style of fighting, whether they attack 
@@ -795,32 +730,6 @@ with their fists or their powers. Those styles are:
 - **Weaponmaster** Add 2 dice to the dice pool when you use a melee Weapon to advance the Outwit goal.
 
 If you choose the Knight class, you get to pick an additional fighting style. 
-
-::::::::::::::::::: { .soapbox #soapbox-7 } ::::::::::::::::::::::
-
-#### "Four-Color"
-
-The term "four-color" refers to the printing process used
-in comics that led to most heroes having bold, primary
-colors for their uniforms, their bodies, their world.
-
-One example is Superman's hair having *blue* overtones --
-this was clearly meant to display his hair as lustrous
-color of black, but that was beyond the capabilities used
-at the time, so they published comics with that weird blue
-highlight.
-
-But don't worry -- our use of the term "four-color" doesn't
-refer to the printing process we use in this game (although
-the PDFs do support 
-[2021's CMYK color printing](https://en.wikipedia.org/wiki/CMYK_color_model), 
-but instead to the general tone and feel of late Silver-Age
-and Bronze-Age comics, when primary-color superheroes of the
-1950s and '60s were meeting the social issues of the '70s
-and '80s.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 ### Skills {#toc-skills .colbefore}
 

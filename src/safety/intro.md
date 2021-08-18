@@ -1,9 +1,16 @@
 # Safety Tools {#safety .breakbefore}
 
-Playing the []{.gamename} RPG should be enjoyable for everyone.
+Playing the []{.gamename} RPG should be enjoyable for everyone,
+and to help make that happen, we recommend these techniques 
+from the *TTRPG Safety Toolkit*.
 
-To ensure that everyone has an enjoyable experience, we recommend techniques
-from the *TTRPG Safety Toolkit* that we've included below. 
-You should not play []{.gamename} without using at least
-one such tool in your game.
+Safety tools are a way for players and Editors to communicate
+and check-in before, during, and after a game in order to make 
+sure everyone is still having fun, and to provide the right 
+support when needed.
+
+The key to safety tools is communication and
+trust. There needs to be open and respectful
+communication alongside a culture of trust for
+these to work.
 

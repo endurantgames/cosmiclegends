@@ -1,25 +1,73 @@
-# Issues, Story Arcs, Series, and Volumes {#toc-issues .breakbefore}
+# From Issues to Volumes {#toc-issues .colbefore}
 
-An adventure in []{.gamename} is known as a Story. A Story
-consists of one or more Crises introduced by the Editor, and
-the heroes' reactions to those challenges.
+[]{.gamename} uses some terms from comic books to talk about how 
+the game is played.
 
-Each individual game session is known as an Issue. 
-Most Stories will resolve over one Issue, but some can take longer.
+## Issues
 
-When you create a new hero, you define a Story Arc that describes 
-a specific lesson you'd like them to learn or a specific experience 
-you'd like them to have.  Once your hero finishes your Story Arc, 
-both your hero and your fellow players' heroes gain an Advancement.
+Each individual game session is known as an **Issue**, and roughly
+corresponds to one issue of a comic book.
 
-A ongoing campaign of []{.gamename} is known as a Series, 
-and each Series is comprised of up to five Volumes, beginning
-with Volume 1.
+The **First Issue** is the first session of an ongoing []{.gamename}
+played by a group. 
 
-Once all of the heroes have had a chance to play out their Story Arcs, 
-the Editor and heroes play out a final Issue that ties together 
-the previous Story Arcs, and that Volume ends.
+### One-Shots
 
-At the end of a Volume, your hero develops new powers or finds 
+A **One-Shot** is an Issue that isn't part of a Story Arc, Volume, or
+Series, but stands alone. Most games played at conventions, for example,
+will be One-Shots.
+
+Many First Issues are One-Shots, as the players and Editor are still 
+getting to know their heroes and the game. These First Issues usually
+feature a few simple Crises to resolve.
+
+## Storylines
+
+During an Issue, the Editor and the players play out the events of
+a **Storyline**.
+
+When you create a new hero, you define a specific lesson you'd like 
+your hero to learn or a specific experience you'd like them to have.
+For that Storyline, your character is considered the **Spotlight** hero.
+
+Each Storyline consists of:
+
+- the Spotlight hero
+- the Lesson
+- one or more Crises connected to the Lesson, introduced by the Editor
+- the heroes' reactions to each Crisis
+- the Spotlight hero's reaction the Lesson
+
+Many Storylines will resolve over the course of one Issue, but some
+can take long and might run for 2 or 3 sessions, or longer.
+
+Once your hero finishes your Storyline, both your hero and your 
+fellow players' heroes gain an **Advancement.**
+
+## Volumes
+
+Each Storyline is part of a **Volume**; Volumes are a grouping of
+Issues -- game sessions -- and are numbered starting with 1.  
+
+Once all of the heroes have had a chance to play out their Storylines, 
+the Editor and heroes play out a final Issue, known as an **Annual**. 
+
+The Annual ties together the events of the previous Storylines in the
+Volume, and then that Volume concludes.
+
+At the start of a new Volume, your hero develops new powers or finds 
 new ways to use their existing powers.
 
+## Series
+
+A ongoing campaign of []{.gamename} is known as a **Series,** and each 
+Series is comprised of up to five Volumes. 
+
+## Guest Stars and Crossovers
+
+A **Guest Star** is a hero character from another Series -- either played
+by the same group or a different one -- who plays in the Series for an
+Issue or two.
+
+A **Crossover** happens when the heroes from two or more Series work
+together, usually in large, wide-ranging One-Shots.

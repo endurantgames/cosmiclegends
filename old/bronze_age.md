@@ -1,4 +1,4 @@
-::::::::::::::::::: { .soapbox #soapbox-5 } ::::::::::::::::::::::
+::::::::::::::::::: { .soapbox #soapbox-ages-3 } ::::::::::::::::::::::
 
 ## The Ages of Comics
 
@@ -9,7 +9,7 @@ The Bronze Age - ca. 1970 to ca. 1985
     through changes: becoming more socially relevant and less
     restrained by the CCA. More on that later.
   
-Continued [](#soapbox-6){.onpage}
+Continued [](#soapbox-ages-4){.onpage}
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
