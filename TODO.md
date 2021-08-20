@@ -67,7 +67,7 @@ Cosmic Legends of the Universe
     - [x] +1 Might
     - [x] +1 Skill
     - [x] +1 Power Word
-- [ ] Identity
+- [x] Identity
 - [/] Powers
   - [x] Core
   - [x] Personal
@@ -102,7 +102,8 @@ Cosmic Legends of the Universe
     - [x] Alert
     - [x] Advance
     - [x] Contribute
-    - [ ] Saving
+    - [x] Saving
+  - [ ] Post-Crisis
 - [x] Advancements
 - [ ] Setting
 - [ ] The Editor

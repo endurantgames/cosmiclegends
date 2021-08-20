@@ -3386,6 +3386,7 @@ could tackle that Crisis:
 - **Outwit** - trick, persuade, or control the source of the Crisis
 - **Withstand** - outlast the Crisis by taking all it can throw at you
 
+
 ### Countdown to Crisis {#toc-crisis-countdown .colbefore}
 
 A Crisis can begin when one or more heroes hear of an ongoing problem
@@ -3480,6 +3481,7 @@ the Hero Phase and the Crisis Phase.
 The first thing that happens after the Teamwork Pool is formed is 
 the Hero Phase.
 
+
 ### Hero Phase {#toc-crisis-hero .colbefore}
 
 The heroes can each take one move during the Hero Phase, one at a time, 
@@ -3556,6 +3558,7 @@ you regain 1 point of Might.
 If you fail, the bystanders remain endangered, and the size of the
 Bystander Pool remains the same.
 
+
 ### Crisis Phase {#toc-crisis-crisis .colbefore}
 
 Once every hero has taken a move, then it’s time for the Editor
@@ -3580,6 +3583,7 @@ the heroes' ability to use a certain type of roll or move on their
 next turn, or innocents being endangered.
 
 Once the Editor has taken enough moves, it’s time to go back to the heroes.
+
 
 ### Post-Crisis {#toc-crisis-post .colbefore}
 
