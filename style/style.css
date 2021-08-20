@@ -620,6 +620,7 @@ margin-top: 1em; }
 
 .twocolumn { column-count: 2; column-gap: 1em; break-inside: avoid; }
 .twocolumn ul { break-inside: auto; margin: 0; margin-left: 0.5em; }
+.twocolumn table { break-inside: auto; }
 
 .cpw { column-count: 3; column-gap: 1em; break-inside: avoid; }
 .cpw ul { break-inside: auto; margin: 0; }

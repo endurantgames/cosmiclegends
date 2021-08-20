@@ -32,7 +32,7 @@ the list that sound good.
 
 ::::::: twocolumn :::::::::::::::
  Rolls  Ideal
--------  ---------------
+------- ---------------
  1, 1   Honor
  1, 2   Protection
  1, 3   Fun

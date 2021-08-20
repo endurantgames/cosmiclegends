@@ -34,16 +34,29 @@ PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT    = $(OUTDIR)/Cosmic-Legends.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
+SHEET_RECIPE = herosheet
+SHEET_SRC = $(BUILDDIR)/herosheet.md
+SHEET_OUT = $(OUTDIR)/Cosmic-Legends-herosheet.pdf
+SHEET_ALT_OUT = $(OUTDIR)/Cosmic-Legends-herosheet-alt.pdf
+
+LETTER_OUT = $(OUTDIR)/Cosmic-Legends-letter.pdf
+
 # CSS Location
 #   Edit: if you have more than one stylesheet
 PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
 # PROJ_CSS    = --css=$(STYLEDIR)/alt-sheet.css
+SHEET_CSS = --css=$(STYLEDIR)/style.css
+SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-sheet.css
+LETTER_CSS = --css=$(STYLEDIR)/letter.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
+LETTER_FLAGS  = $(FLAGS) $(LETTER_CSS) $(PRINCEFLAGS)
+SHEET_FLAGS  = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS)
+SHEET_ALT_FLAGS  = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS)
 
 # Application Configruation #############################################################################
 #
@@ -62,6 +75,7 @@ PRINCEFLAGS    =
 # Pdfinfo Config
 #   Edit: probably unnecessary
 PDFINFO        = /usr/bin/pdfinfo
+PDFINFO_GREP   = | /bin/grep -v "no"
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet mode
@@ -220,8 +234,31 @@ markdown:
 pdf: markdown
 	@ echo '$(ltblue)Making PDF.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
-	@       $(PDFINFO) $(PROJ_OUT)
+	@       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
+
+letter: markdown
+	@ echo '$(ltblue)Making Letter PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(LETTER_FLAGS) -o $(LETTER_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(LETTER_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
+sheet-markdown:
+	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
+	@       $(MAKE_MD) $(SHEET_RECIPE)
+
+sheet: sheet-markdown
+	@ echo '$(ltblue)Making Hero Sheet.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
+	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
+alt-sheet: sheet-markdown
+	@ echo '$(ltblue)Making Alternate Hero Sheet.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_ALT_FLAGS) -o $(SHEET_ALT_OUT) $(SHEET_SRC)
+	@       $(PDFINFO) $(SHEET_ALT_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
 
 # make HTML
 #   Edit: if you are making more than one html
@@ -233,7 +270,8 @@ html: markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf html
+all: pdf sheet alt-sheet
+sheets: sheet alt-sheet
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
@@ -242,4 +280,4 @@ game:   pdf
 backup: backups
 vi:     edit
 vim:    edit
-# game: all
+game: all
