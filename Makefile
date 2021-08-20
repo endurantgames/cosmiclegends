@@ -270,7 +270,7 @@ html: markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf sheet alt-sheet
+all: pdf letter sheet alt-sheet
 sheets: sheet alt-sheet
 
 # Make Aliases ##########################################################################################
