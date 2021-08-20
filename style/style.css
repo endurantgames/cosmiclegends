@@ -375,26 +375,7 @@ color: crimson; }
 #coverbox ul li:nth-child(12) { top: 96pt; right: 4pt; }
 
 /*
-#coverbox ul li:nth-child(n+6) .head { 
-  z-index: 50;
-  font-family: var(--font-profile); 
-  display: block; position: absolute; top: 0; left: 0; bottom: 0; right: 0; 
-  color: black; 
-}
-
-#coverbox ul li:nth-child(6) .head { content: 'E'; }
-#coverbox ul li:nth-child(7) .head { content: 'F'; }
-#coverbox ul li:nth-child(8) .head { content: 'X'; }
-#coverbox ul li:nth-child(9) .head { content: 'd'; }
-#coverbox ul li:nth-child(10) .head { content: 'e'; }
-
-#coverbox ul li:nth-child(6) .head { content: '\0199'; }
-#coverbox ul li:nth-child(7) .head { content: '\0194'; }
-#coverbox ul li:nth-child(8) .head { content: '\0198'; }
-#coverbox ul li:nth-child(9) .head { content: '\0197'; }
-#coverbox ul li:nth-child(10) .head { content: '\0196'; }
 */
-
 
 #cover h2 { 
   position: absolute; 
@@ -432,10 +413,11 @@ color: crimson; }
   z-index: 100;
 }
 
-.lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
-                  'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
-                  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
-                  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
+.lorem { 
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+           'Curabitur ornare ex nisi, sit amet aliquet libero bibendum non. '
+           'Ut tempor pretium ex. ';
+}
 
 #cover img#img-cover { display: none; }
 

@@ -2,3 +2,11 @@
 
 @page { size: letter portrait; }
 
+#cover { width: 8.5in; height: 11in; }
+
+#cover img#img-title {
+  width: 528pt;
+}
+#cover .hype ul li:nth-child(1) { top: 330pt; }
+#cover .hype ul li:nth-child(2) { top: 420pt; }
+

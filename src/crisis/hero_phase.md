@@ -74,3 +74,8 @@ you regain 1 point of Might.
 If you fail, the bystanders remain endangered, and the size of the
 Bystander Pool remains the same.
 
+## Joining a Power Combo 
+
+**need to clarify: it doesn't cost an action, but you can use each power word only once per phase**
+
+[]{.lorem}
