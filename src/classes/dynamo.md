@@ -20,7 +20,12 @@ than two Might points, you regain 1 Might.
 
 ## Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ### Core Power Words
 

@@ -23,10 +23,9 @@ During a Crisis, you can declare at any point that your one
 weakness is present.  
 
 If you do, you temporarily lose access to *all* of your Power Words, 
-your Might becomes 0,
-and you skip your turn during the Hero Turn. This lasts until someone
-else removes the source of your weakness from the scene, or until 
-the end of the present Crisis.
+your Might becomes 0, and you skip your turn during the Hero Turn. 
+This lasts until someone else removes the source of your weakness 
+from the scene, or until the end of the present Crisis.
 
 Every Hero Turn that you're inactive, the other heroes get extra
 dice on their rolls equal to the Volume number.
@@ -37,7 +36,12 @@ maximum value.
 
 ## Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ### Core Power Words
 

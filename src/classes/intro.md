@@ -1,5 +1,13 @@
 # Hero Classes {#toc-classes .breakbefore}
 
+Your hero's class is a broad archetype that determines their Skills, Core Power Words,
+Personal Power Words, Class Abilities, and Volume Abilities
+
+Those are summarized in the table below.
+
+Look over the descriptions for each class and choose one that you think sounds
+fun to play!
+
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 -----------------------------------------------------------------------------------------------
@@ -41,6 +49,3 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
 -----------------------------------------------------------------------------------------------
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-
-[]{.lorem}
