@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Aquaman, Black Panther, Hippolyta, Namor, Doctor Doom
+[]{.lorem}
 
 ## Skills
 

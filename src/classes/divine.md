@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Wonder Woman, Thor, Shazam, Troia
+[]{.lorem}
 
 ## Skills
 
@@ -66,7 +66,6 @@ until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
-
 
 ## Divine Abilities { .class}
 

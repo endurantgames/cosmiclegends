@@ -2,7 +2,3 @@
 
 []{.lorem}
 
-[]{.lorem}
-
-[]{.lorem}
-

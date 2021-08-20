@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Invisible Woman, Magneto, Storm, Cosmic Boy
+[]{.lorem}
 
 ## Skills
 

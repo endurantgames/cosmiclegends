@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Saturn Girl, Professor X, Jean Grey, Psylocke
+[]{.lorem}
 
 ## Skills
 

@@ -3,7 +3,7 @@
 Cosmic Legends of the Universe
 
 - [x] Ethos
-- [ ] Influences
+- [x] Influences
 - [x] Credits
 - [x] Safety
 - [x] Facets
@@ -12,17 +12,17 @@ Cosmic Legends of the Universe
   - [x] Detective
   - [x] Mystery
   - [x] Suspense
-- [ ] Classes
-  - [ ] The Demigod
-  - [ ] The Dynamo
-  - [ ] The Inventor
-  - [ ] The Knight
-  - [ ] The Mage
-  - [ ] The Monarch 
-  - [ ] The Monstrosity
-  - [ ] The Paragon 
-  - [ ] The Psychic
-  - [ ] The Shaper
+- [/] Classes
+  - [/] The Demigod
+  - [/] The Dynamo
+  - [/] The Inventor
+  - [/] The Knight
+  - [/] The Mage
+  - [/] The Monarch 
+  - [/] The Monstrosity
+  - [/] The Paragon 
+  - [/] The Psychic
+  - [/] The Shaper
 - [x] Issues, etc
 - [x] Fighting Style
   - [x] Acrobat

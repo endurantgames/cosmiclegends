@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Batman, Daredevil, Hawkeye, Captain America
+[]{.lorem}
 
 ## Skills
 

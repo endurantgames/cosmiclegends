@@ -56,16 +56,16 @@ more to this pool.
 This table is a rough guideline for how many people are endangered
 and how large the Bystander Pool should be:
 
-  Pool             Number             Examples
-----------------  ------------------  --------------------------------
-       1           a couple, at best  A remote highway
-       2               several        A mostly empty convenience store
-       3               a bunch        A bank
-       4                many          A small factory
-       5               very many      A supermarket
-       6                a *lot*       A hospital
-       7                numerous      A school
-       8+              a big crowd    A crowded rock concert
+ Pool   Number             Examples
+------ ------------------- --------------------------------
+  1     a couple, at best  A remote highway
+  2        several         A mostly empty convenience store
+  3        a bunch         A bank
+  4        many            A small factory
+  5        very many       A supermarket
+  6        a *lot*         A hospital
+  7        numerous        A school
+  8+       a big crowd     A crowded rock concert
 
 When a hero reduces the size of the Bystander Pool with the Save
 Innocents move, they regain a number of Might points equal to the 
@@ -75,6 +75,8 @@ to fight on.
 If a Crisis move reduces the size of the Bystander Pool, the same 
 amount is *also* subtracted from the Teamwork Pool. Being unable to
 save everyone is demoralizing to all heroes.
+
+[]{.lorem}
 
 ### Defining the Goals {#toc-crisis-goals}
 
@@ -178,7 +180,7 @@ are using their powers and abilities to protect people from danger, and
 make a roll using an appropriate Facet.
 
 If you succeed on the roll, you can remove a number of points equal to
-the Effectiveness from the Bystander Pool. For each point removed, 
+the roll's Effectiveness from the Bystander Pool. For each point removed, 
 you regain 1 point of Might.
 
 If you fail, the bystanders remain endangered, and the size of the

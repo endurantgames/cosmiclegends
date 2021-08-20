@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Ben Grimm, the Hulk, Beast Boy, Hulkling
+[]{.lorem}
 
 ## Skills
 

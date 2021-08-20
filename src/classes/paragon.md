@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Supergirl, Superman, Captain Marvel, Martian Manhunter
+[]{.lorem}
 
 ## Skills
 

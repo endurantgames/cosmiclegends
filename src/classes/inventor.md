@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed: Iron Man, Reed Richards, Brainiac 5
+## Questions
 
-- Examples: 
+[]{.lorem}
 
 ## Skills
 

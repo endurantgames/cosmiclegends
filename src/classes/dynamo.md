@@ -2,9 +2,9 @@
 
 []{.lorem}
 
-These examples will be removed:
+## Questions
 
-- Examples: Human Torch, Cyclops, Lightning Lad, Flash
+[]{.lorem}
 
 ## Skills
 
