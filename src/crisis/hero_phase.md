@@ -39,7 +39,7 @@ Crisis. There are three different ways of doing this:
 - **Smash** - defeating the Crisis through physical damage
 - **Outwit** - trick, persuade, or control the source of the Crisis
 - **Allay** - understand and resolve the source of the Crisis
-- **Rescue** - rescue people or property endangered by the Crisis
+- **Rescue** - save people or property endangered by the Crisis
 
 The difficulty of each Goal is the number of successes needed to 
 advance it once. You don’t need to roll all these successes at once; 
