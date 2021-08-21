@@ -3,14 +3,15 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## name
+## Alien Invasion
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Smash: 6** (destroy the alien ships)
+- **Outwit: 5** (trick the aliens into leaving Earth)
+- **Allay: 7** ()
+- **Rescue: 6** ()
 
-desc of crisis
+A cluster of alien spaceships is attacking the local shopping
+mall, trying to abduct 
 
 Crisis Rules
 :   One or more additional rules.
@@ -33,7 +34,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

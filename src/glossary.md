@@ -18,11 +18,11 @@ Advancement
 Adventure
 :   A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
 
+Allay
+:   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
+
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
-
-Bystander Pool
-:   An abstract measure of how many innocent bystanders are endangered by a Crisis.
 
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
@@ -67,7 +67,7 @@ General Alert
 :   A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
 
 Goal
-:   One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
+:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
 
 Guest Star
 :   A hero played by someone who isn't a regular player in the group.
@@ -141,11 +141,11 @@ Power Words
 Power
 :   The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
 
+Rescue
+:   A Goal that could resolve a Crisis by removing people or property from harm.
+
 Retcon
 :   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
-
-Save Innocents
-:   A move taken by a hero to protect normal humans from the effects of a Crisis.
 
 Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
@@ -180,6 +180,4 @@ Timely Arrival
 Volume
 :   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual. (*Season* in Harmony Drive.)
 
-Withstand
-:   A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

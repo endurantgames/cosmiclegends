@@ -38,7 +38,8 @@ Crisis. There are three different ways of doing this:
 
 - **Smash** - defeating the Crisis through physical damage
 - **Outwit** - trick, persuade, or control the source of the Crisis
-- **Withstand** - outlast the Crisis, taking all it can throw at you
+- **Allay** - understand and resolve the source of the Crisis
+- **Rescue** - rescue people or property endangered by the Crisis
 
 The difficulty of each Goal is the number of successes needed to 
 advance it once. You don’t need to roll all these successes at once; 
@@ -63,16 +64,9 @@ to the Teamwork Pool.
 
 ## Save Innocents {#toc-crisis-saving}
 
-When your hero uses the Save Innocents move, you can describe how they
-are using their powers and abilities to protect people from danger, and
-make a roll using an appropriate Facet.
+[]{.lorem}
 
-If you succeed on the roll, you can remove a number of points equal to
-the roll's Effectiveness from the Bystander Pool. For each point removed, 
-you regain 1 point of Might.
-
-If you fail, the bystanders remain endangered, and the size of the
-Bystander Pool remains the same.
+**replace ability to regain Might**
 
 ## Joining a Power Combo 
 

@@ -858,18 +858,20 @@ additional points to distribute to them.
 Your hero specializes in one style of fighting, whether they attack 
 with their fists or their powers. Those styles are:
 
-- **Acrobat** Reduce by 1 the cost to avoid a move targeting only you.
-- **Brawler** Add 2 dice to the dice poolwhen you use an unarmed attack to advance the Smash goal.
-- **Controller** Add 2 dice to the dice pool when you use a Power to advance the Outwit goal.
-- **Frenzy** Add 2 dice to the dice pool when you use a Power to advance the Smash Goal.
-- **Juggernaut** Add 2 dice to the dice pool when you use a Power to advance the Withstand goal.
-- **Martial Artist** - Add 2 dice to the dice pool when you use an unarmed attack to advance the Outwit goal.
-- **Protector** Reduce by 1 the cost to Take the Hit for someone else.
-- **Sniper** Add 2 dice to the dice pool when you use a ranged Weapon to advance the Smash goal.
-- **Tactician** Add 2 dice to the dice pool when you add to the Teamwork Pool.
-- **Weaponmaster** Add 2 dice to the dice pool when you use a melee Weapon to advance the Outwit goal.
+- **Acrobat**        Reduce by 1 the cost to avoid a Crisis move targeting only you.
+- **Brawler**        Add 3 dice when you use an unarmed attack to advance the Smash goal.
+- **Controller**     Add 3 dice when you use a Power to advance the Outwit goal.
+- **Frenzy**         Add 3 dice when you use a Power to advance the Smash Goal.
+- **Interceptor**    Reduce by 1 the cost to Take the Hit for someone else.
+- **Martial Artist** Add 3 dice when you use an unarmed attack to advance the Outwit goal.
+- **Mediator**       Add 2 dice when you advance the Allay Goal.
+- **Rescuer**        Add 2 dice when you advance the Rescue Goal.
+- **Sniper**         Add 3 dice when you use a ranged Weapon to advance the Smash goal.
+- **Tactician**      Add 3 dice when you add to the Teamwork Pool.
+- **Weaponmaster**   Add 3 dice when you use a melee Weapon to advance the Outwit goal.
 
 If you choose the Knight class, you get to pick an additional fighting style. 
+
 
 ### Ideals {#toc-ideals .colbefore}
 
@@ -1318,6 +1320,14 @@ Spy
 
 ## Hero Classes {#toc-classes .breakbefore}
 
+Your hero's class is a broad archetype that determines their Skills, Core Power Words,
+Personal Power Words, Class Abilities, and Volume Abilities
+
+Those are summarized in the table below.
+
+Look over the descriptions for each class and choose one that you think sounds
+fun to play!
+
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 -----------------------------------------------------------------------------------------------
@@ -1359,9 +1369,6 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
 -----------------------------------------------------------------------------------------------
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-
-[]{.lorem}
 
 ### The Divine {#toc-divine .breakbefore .class}
 
@@ -1388,7 +1395,12 @@ extra success.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -1562,7 +1574,12 @@ than two Might points, you regain 1 Might.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -1744,7 +1761,12 @@ Pool instead.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -1918,7 +1940,12 @@ Choose one additional Fighting Style.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -2089,7 +2116,12 @@ to 1s.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -2251,7 +2283,12 @@ Pool when you add to it during the Crisis.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -2411,7 +2448,12 @@ a Smash roll's Effectiveness.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -2569,10 +2611,9 @@ During a Crisis, you can declare at any point that your one
 weakness is present.  
 
 If you do, you temporarily lose access to *all* of your Power Words, 
-your Might becomes 0,
-and you skip your turn during the Hero Turn. This lasts until someone
-else removes the source of your weakness from the scene, or until 
-the end of the present Crisis.
+your Might becomes 0, and you skip your turn during the Hero Turn. 
+This lasts until someone else removes the source of your weakness 
+from the scene, or until the end of the present Crisis.
 
 Every Hero Turn that you're inactive, the other heroes get extra
 dice on their rolls equal to the Volume number.
@@ -2583,7 +2624,12 @@ maximum value.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -2748,7 +2794,12 @@ roll adds 2 extra dice to the roll.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -2916,7 +2967,12 @@ Crisis is equal to the current Volume number.
 
 #### Power Words
 
-[]{.lorem}
+You can use your Power Words in the following ways:
+
+- As a Power Display, costing no Might
+- As a Power Stunt, costing 1 Might for each Word beyond the first
+- As a Power Combo, costing 1 Might and letting others join in
+- Joining a Power Combo, costing 1 Might.
 
 ##### Core Power Words
 
@@ -3522,7 +3578,8 @@ Crisis. There are three different ways of doing this:
 
 - **Smash** - defeating the Crisis through physical damage
 - **Outwit** - trick, persuade, or control the source of the Crisis
-- **Withstand** - outlast the Crisis, taking all it can throw at you
+- **Allay** - understand and resolve the source of the Crisis
+- **Rescue** - rescue people or property endangered by the Crisis
 
 The difficulty of each Goal is the number of successes needed to 
 advance it once. You don’t need to roll all these successes at once; 
@@ -3547,17 +3604,15 @@ to the Teamwork Pool.
 
 #### Save Innocents {#toc-crisis-saving}
 
-When your hero uses the Save Innocents move, you can describe how they
-are using their powers and abilities to protect people from danger, and
-make a roll using an appropriate Facet.
+[]{.lorem}
 
-If you succeed on the roll, you can remove a number of points equal to
-the roll's Effectiveness from the Bystander Pool. For each point removed, 
-you regain 1 point of Might.
+**replace ability to regain Might**
 
-If you fail, the bystanders remain endangered, and the size of the
-Bystander Pool remains the same.
+#### Joining a Power Combo 
 
+**need to clarify: it doesn't cost an action, but you can use each power word only once per phase**
+
+[]{.lorem}
 
 ### Crisis Phase {#toc-crisis-crisis .colbefore}
 
@@ -3643,14 +3698,15 @@ Story Arcs.
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Alien Invasion
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Smash: 6** (destroy the alien ships)
+- **Outwit: 5** (trick the aliens into leaving Earth)
+- **Allay: 7** ()
+- **Rescue: 6** ()
 
-desc of crisis
+A cluster of alien spaceships is attacking the local shopping
+mall, trying to abduct 
 
 Crisis Rules
 :   One or more additional rules.
@@ -3673,7 +3729,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3688,8 +3747,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3714,7 +3773,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3729,8 +3791,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3755,7 +3817,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3770,8 +3835,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3796,7 +3861,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3811,8 +3879,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3837,7 +3905,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3852,8 +3923,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3878,7 +3949,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3893,8 +3967,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3919,7 +3993,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3934,8 +4011,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -3960,7 +4037,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3975,8 +4055,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -4001,7 +4081,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -4016,8 +4099,8 @@ Resolution (Withstand)
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -4042,7 +4125,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -4068,11 +4154,11 @@ Advancement
 Adventure
 :   A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
 
+Allay
+:   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
+
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
-
-Bystander Pool
-:   An abstract measure of how many innocent bystanders are endangered by a Crisis.
 
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
@@ -4117,7 +4203,7 @@ General Alert
 :   A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
 
 Goal
-:   One of three ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Withstand.
+:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
 
 Guest Star
 :   A hero played by someone who isn't a regular player in the group.
@@ -4191,11 +4277,11 @@ Power Words
 Power
 :   The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
 
+Rescue
+:   A Goal that could resolve a Crisis by removing people or property from harm.
+
 Retcon
 :   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
-
-Save Innocents
-:   A move taken by a hero to protect normal humans from the effects of a Crisis.
 
 Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
@@ -4230,8 +4316,6 @@ Timely Arrival
 Volume
 :   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual. (*Season* in Harmony Drive.)
 
-Withstand
-:   A Goal that could resolve a Crisis through withstanding all the Crisis can throw at the heroes. (*Outlast* in Harmony Drive.)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Game Credits {#toc-credits .breakbefore}
@@ -4647,6 +4731,16 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 [Detective]{.label .facet .detective}
 [Mystery]{.label .facet .mystery}
 [Suspense]{.label .facet .suspense}
+
+[Smash ]{.goal .label .g1}
+[Outwit]{.goal .label .g2}
+[Allay ]{.goal .label .g3}
+[Rescue]{.goal .label .g4}
+
+[Retcon             ]{.safety .label .s1}
+[Later That Day, ...]{.safety .label .s2}
+[Meanwhile, ...     ]{.safety .label .s3}
+[Continued Next Page]{.safety .label .s4}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

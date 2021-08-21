@@ -3,6 +3,8 @@
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
 [A.K.A.]{.label .nickname}
 [Name]{.label .name}
 [Pronouns]{.label .pronouns}
@@ -42,7 +44,7 @@
 [Volume 4 Ability]{.label .volume-ability .v4}
 [Volume 5 Ability]{.label .volume-ability .v5}
 
-[Appearance and Backstory]{.label .bio}
+[Appearance]{.label .bio}
 [Storyline]{.label .story-arc}
 
 [Action]{.label .facet .action}
@@ -50,6 +52,33 @@
 [Detective]{.label .facet .detective}
 [Mystery]{.label .facet .mystery}
 [Suspense]{.label .facet .suspense}
+
+[Goals ]{.goal .label .g0}
+[Smash ]{.goal .label .g1}
+[Outwit]{.goal .label .g2}
+[Allay ]{.goal .label .g3}
+[Rescue]{.goal .label .g4}
+
+[Symbol]{.label .symbol}
+
+[Ethos            ]{.label .ethos .e0}
+[Self Expression  ]{.label .ethos .e1}
+[Teamwork         ]{.label .ethos .e2}
+[Difficult Choices]{.label .ethos .e3}
+
+[Retcon             ]{.safety .label .s1}
+[Continued Next Page]{.safety .label .s2}
+[Meanwhile, ...     ]{.safety .label .s3}
+[Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Countdown to Crisis       ]{.label .crisis .c0}
+[Set the Scene             ]{.label .crisis .c1}
+[Determine Who is Present  ]{.label .crisis .c2}
+[Define the Goals          ]{.label .crisis .c3}
+[Assemble the Teamwork Pool]{.label .crisis .c4}
+[Crisis Begins!            ]{.label .crisis .c5}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

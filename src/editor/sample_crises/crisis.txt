@@ -1,7 +1,3 @@
-# Ordinary Criminals {#toc-sample-ordinary-criminals}
-
-[]{.lorem}
-
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
 ## name
 

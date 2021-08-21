@@ -7,8 +7,8 @@
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Withstand: v** (desc of goal)
-- **Bystander Pool: v** (desc of pool)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
 
 desc of crisis
 
@@ -33,7 +33,10 @@ Resolution (Smash)
 Resolution (Outwit)
 :   A description of this resolution.
 
-Resolution (Withstand)
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
 :   A description of this resolution.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
