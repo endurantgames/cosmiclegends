@@ -5,3 +5,15 @@
   --color-sheet-light: black;
   --color-sheet-dark: black;
 }
+
+.herosheet .goal:first-letter,
+.herosheet .label.facet,
+.herosheet .label.health,
+.herosheet .label.might,
+.herosheet .label.class,
+.herosheet .label.volume,
+.herosheet .crisis.c0,
+.herosheet .crisis.c1,
+.herosheet .crisis.cpost,
+.herosheet .action.aht,
+.herosheet .action.act { font-weight: bold; }

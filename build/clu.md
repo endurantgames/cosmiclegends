@@ -3453,7 +3453,7 @@ to present at the start of a Crisis.
 The steps to take before a Crisis are:
 
 5. Set the Scene
-4. Determine who is Present
+4. Hero Roll-Call
 3. Define the Goals
 2. Assemble the Teamwork Pool
 1. The Crisis begins!
@@ -4684,6 +4684,8 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
 [A.K.A.]{.label .nickname}
 [Name]{.label .name}
 [Pronouns]{.label .pronouns}
@@ -4723,7 +4725,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 [Volume 4 Ability]{.label .volume-ability .v4}
 [Volume 5 Ability]{.label .volume-ability .v5}
 
-[Appearance and Backstory]{.label .bio}
+[Appearance]{.label .bio}
 [Storyline]{.label .story-arc}
 
 [Action]{.label .facet .action}
@@ -4732,15 +4734,45 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 [Mystery]{.label .facet .mystery}
 [Suspense]{.label .facet .suspense}
 
+[Goals ]{.goal .label .g0}
 [Smash ]{.goal .label .g1}
 [Outwit]{.goal .label .g2}
 [Allay ]{.goal .label .g3}
 [Rescue]{.goal .label .g4}
 
+[Symbol]{.label .symbol}
+
+[Ethos            ]{.label .ethos .e0}
+[Self Expression  ]{.label .ethos .e1}
+[Teamwork         ]{.label .ethos .e2}
+[Difficult Choices]{.label .ethos .e3}
+
 [Retcon             ]{.safety .label .s1}
-[Later That Day, ...]{.safety .label .s2}
+[Continued Next Page]{.safety .label .s2}
 [Meanwhile, ...     ]{.safety .label .s3}
-[Continued Next Page]{.safety .label .s4}
+[Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Crisis Countdown             ]{.label .crisis .c0}
+[5. Set the Scene             ]{.label .crisis .c5}
+[4. Hero Roll-Call            ]{.label .crisis .c4}
+[3. Define the Goals          ]{.label .crisis .c3}
+[2. Assemble Teamwork Pool    ]{.label .crisis .c2}
+[1. Crisis Begins!            ]{.label .crisis .c1}
+[Hero Turn                    ]{.label .crisis .cht}
+[Crisis Turn                  ]{.label .crisis .cct}
+[Post-Crisis                  ]{.label .crisis .cpost}
+
+[Hero Turn                  ]{.label .action .aht}
+[General Alert              ]{.label .action .a1}
+[Timely Arrival             ]{.label .action .a2}
+[Advance a Goal             ]{.label .action .a3}
+[Join a Power Combo         ]{.label .action .a4}
+[Add to Teamwork Pool       ]{.label .action .a5}
+[Crisis Turn                ]{.label .action .act}
+[Take the Hit               ]{.label .action .a6}
+[Avoid a Crisis Effect      ]{.label .action .a7}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
