@@ -8,7 +8,7 @@ to present at the start of a Crisis.
 The steps to take before a Crisis are:
 
 5. Set the Scene
-4. Determine who is Present
+4. Hero Roll-Call
 3. Define the Goals
 2. Assemble the Teamwork Pool
 1. The Crisis begins!

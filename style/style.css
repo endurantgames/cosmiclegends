@@ -790,11 +790,11 @@ margin-top: 1em; }
 .herosheet .goal.g3 { bottom: 4.42in; right:  4.75in; transform-origin: bottom right; transform: rotate(-45deg); }
 .herosheet .goal.g4 { bottom: 4.42in; left:   4.75in; transform-origin: bottom left;  transform: rotate(45deg); }
 
-.herosheet .ethos { font-size: var(--large); }
+.herosheet .ethos { font-size: var(--large); right: 1.40in; }
 .herosheet .ethos.e0 { display: none; }
-.herosheet .ethos.e1 { top: 0.25in; right: 1.50in; }
-.herosheet .ethos.e2 { top: 0.40in; right: 1.50in; }
-.herosheet .ethos.e3 { top: 0.55in; right: 1.50in; }
+.herosheet .ethos.e1 { top: 0.25in; }
+.herosheet .ethos.e2 { top: 0.40in; }
+.herosheet .ethos.e3 { top: 0.55in; }
 
 .herosheet .safety:before,
 .herosheet .safety:after  { 
@@ -823,4 +823,27 @@ margin-top: 1em; }
 /* .herosheet .safety.s2:before { content: '\0023f8'; } */
 /* .herosheet .safety.s3:after { content: '\0023f5'; } */
 /* .herosheet .safety.s4:after { content: '\0023e9'; } */
+
+.herosheet .crisis    { left: 0.55in; font-size: var(--body); }
+.herosheet .crisis.c0 { top: 4.40in; color: var(--color-sheet-dark); }
+.herosheet .crisis.c5 { top: 4.54in; }
+.herosheet .crisis.c4 { top: 4.66in; }
+.herosheet .crisis.c3 { top: 4.78in; left: 0.56in; }
+.herosheet .crisis.c2 { top: 4.90in; left: 0.56in; }
+.herosheet .crisis.c1 { top: 5.02in; left: 0.59in; color: var(--color-sheet-dark); }
+.herosheet .crisis.cht { top: 5.15in; left: 0.70in; }
+.herosheet .crisis.cct { top: 5.28in; left: 0.70in; }
+.herosheet .crisis.cpost { top: 5.42in; color: var(--color-sheet-dark); }
+
+
+.herosheet .action    { right: 0.55in; font-size: var(--body); }
+.herosheet .action.aht { top: 4.40in; color: var(--color-sheet-dark); }
+.herosheet .action.a1 { top: 4.54in; }
+.herosheet .action.a2 { top: 4.66in; }
+.herosheet .action.a3 { top: 4.78in; }
+.herosheet .action.a4 { top: 4.90in; }
+.herosheet .action.a5 { top: 5.02in; }
+.herosheet .action.act { top: 5.18in; color: var(--color-sheet-dark); }
+.herosheet .action.a6  { top: 5.32in; }
+.herosheet .action.a7  { top: 5.44in; }
 

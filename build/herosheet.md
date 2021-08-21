@@ -79,5 +79,25 @@ title: Cosmic Legends of the Universe
 
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
 
+[Crisis Countdown             ]{.label .crisis .c0}
+[5. Set the Scene             ]{.label .crisis .c5}
+[4. Hero Roll-Call            ]{.label .crisis .c4}
+[3. Define the Goals          ]{.label .crisis .c3}
+[2. Assemble Teamwork Pool    ]{.label .crisis .c2}
+[1. Crisis Begins!            ]{.label .crisis .c1}
+[Hero Turn                    ]{.label .crisis .cht}
+[Crisis Turn                  ]{.label .crisis .cct}
+[Post-Crisis                  ]{.label .crisis .cpost}
+
+[Hero Turn                  ]{.label .action .aht}
+[General Alert              ]{.label .action .a1}
+[Timely Arrival             ]{.label .action .a2}
+[Advance a Goal             ]{.label .action .a3}
+[Join a Power Combo         ]{.label .action .a4}
+[Add to Teamwork Pool       ]{.label .action .a5}
+[Crisis Turn                ]{.label .action .act}
+[Take the Hit               ]{.label .action .a6}
+[Avoid a Crisis Effect      ]{.label .action .a7}
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
