@@ -3585,8 +3585,8 @@ The difficulty of each Goal is the number of successes needed to
 advance it once. You don’t need to roll all these successes at once; 
 you can take successes from the Teamwork Pool too. 
 
-Once the Goals have been advanced a total of five times, the Crisis ends.
-The players have successfully Smashed, Outwitted, or Withstood the danger.
+Once the Goals have been advanced a total of five times, in any
+combination, the Crisis ends.
 
 #### Contribute to the Teamwork Pool {#toc-crisis-contribute}
 

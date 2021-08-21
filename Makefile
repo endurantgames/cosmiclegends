@@ -54,9 +54,9 @@ LETTER_CSS = --css=$(STYLEDIR)/letter.css
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
-LETTER_FLAGS  = $(FLAGS) $(LETTER_CSS) $(PRINCEFLAGS)
-SHEET_FLAGS  = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS)
-SHEET_ALT_FLAGS  = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS)
+LETTER_FLAGS  = $(FLAGS) $(LETTER_CSS) $(PRINCEFLAGS_LETTER)
+SHEET_FLAGS  = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
+SHEET_ALT_FLAGS  = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
 
 # Application Configruation #############################################################################
 #
@@ -69,8 +69,11 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-PRINCEFLAGS    = 
-# PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+# PRINCEFLAGS    = 
+PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
+PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
+PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -249,10 +252,10 @@ sheet-markdown:
 	@       $(MAKE_MD) $(SHEET_RECIPE)
 
 sheet: sheet-markdown
-	@ echo '$(ltblue)Making Hero Sheet.$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
-	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
-	@      -$(EXPLORER)
+	 echo '$(ltblue)Making Hero Sheet.$(resetc)'
+	       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
+	       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
+	      -$(EXPLORER)
 
 alt-sheet: sheet-markdown
 	@ echo '$(ltblue)Making Alternate Hero Sheet.$(resetc)'

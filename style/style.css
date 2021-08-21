@@ -790,7 +790,7 @@ margin-top: 1em; }
 .herosheet .goal.g3 { bottom: 4.42in; right:  4.75in; transform-origin: bottom right; transform: rotate(-45deg); }
 .herosheet .goal.g4 { bottom: 4.42in; left:   4.75in; transform-origin: bottom left;  transform: rotate(45deg); }
 
-.herosheet .ethos { font-size: var(--large); right: 1.40in; }
+.herosheet .ethos { font-size: var(--large); right: 1.45in; }
 .herosheet .ethos.e0 { display: none; }
 .herosheet .ethos.e1 { top: 0.25in; }
 .herosheet .ethos.e2 { top: 0.40in; }
