@@ -2,11 +2,8 @@
 
 Cosmic Legends of the Universe
 
-- [x] Ethos
-- [x] Influences
-- [x] Credits
-- [x] Safety
-- [x] Facets
+- [/] Influences
+  - [/] Bronze Age
 - [/] Classes
   - [/] The Demigod
   - [/] The Dynamo
@@ -18,25 +15,16 @@ Cosmic Legends of the Universe
   - [/] The Paragon 
   - [/] The Psychic
   - [/] The Shaper
-- [x] Issues, etc
-- [x] Fighting Style
-- [x] Skills
 - [/] Ideals
-- [x] Goals
+- [/] Goals
   - [x] Smash
   - [x] Outwit
   - [x] ~~Withstand~~
   - [/] Allay
   - [/] Rescue
-- [x] Advancements
-  - [x] Story Arc character
-    - [x] +1 Facet
-  - [x] Everyone
-    - [x] +1 Health
-    - [x] +1 Might
-    - [x] +1 Skill
-    - [x] +1 Power Word
-- [x] Identity
+- [/] Advancements
+  - [/] Story Arc character
+  - [/] Everyone
 - [/] Powers
   - [x] Core
   - [x] Personal
@@ -89,6 +77,4 @@ Cosmic Legends of the Universe
     - [ ] Police
     - [ ] Science
     - [ ] Villains
-- [x] Glossary
-- [x] License
-- [x] Hero Sheet
+
