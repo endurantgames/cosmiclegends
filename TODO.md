@@ -7,11 +7,6 @@ Cosmic Legends of the Universe
 - [x] Credits
 - [x] Safety
 - [x] Facets
-  - [x] Action
-  - [x] Adventure
-  - [x] Detective
-  - [x] Mystery
-  - [x] Suspense
 - [/] Classes
   - [/] The Demigod
   - [/] The Dynamo
@@ -25,41 +20,15 @@ Cosmic Legends of the Universe
   - [/] The Shaper
 - [x] Issues, etc
 - [x] Fighting Style
-  - [x] Acrobat
-  - [x] Brawler
-  - [x] Controller
-  - [x] Frenzy
-  - [x] Juggernaut
-  - [x] Martial Artist
-  - [x] Protector
-  - [x] Sniper
-  - [x] Tactician
-  - [x] Weaponmaster
 - [x] Skills
-  - [x] Academic
-  - [x] Artist
-  - [x] Criminal
-  - [x] ~~Officer~~ Deputy
-  - [x] Engineer
-  - [x] Explorer
-  - [x] Hacker
-  - [x] Historian
-  - [x] Investigator
-  - [x] Journalist
-  - [x] Lawyer
-  - [x] Mystic
-  - [x] Performer
-  - [x] Physician
-  - [x] Pilot
-  - [x] Politician
-  - [x] Scientist
-  - [x] Socialite
-  - [x] Spy
+- [/] Ideals
 - [x] Goals
   - [x] Smash
   - [x] Outwit
-  - [x] Withstand
-- [x] Advances
+  - [x] ~~Withstand~~
+  - [/] Allay
+  - [/] Rescue
+- [x] Advancements
   - [x] Story Arc character
     - [x] +1 Facet
   - [x] Everyone
@@ -93,7 +62,7 @@ Cosmic Legends of the Universe
 - [/] Crisis
   - [/] Countdown
     - [ ] Scene
-    - [ ] Present
+    - [ ] Hero Roll-Call
     - [x] Goals
     - [x] Pool
   - [x] Start
@@ -102,9 +71,9 @@ Cosmic Legends of the Universe
     - [x] Alert
     - [x] Advance
     - [x] Contribute
-    - [x] Saving
+    - [/] Saving
+    - [ ] Regain Might
   - [ ] Post-Crisis
-- [x] Advancements
 - [ ] Setting
 - [ ] The Editor
   - [ ] Creating Story Arcs
