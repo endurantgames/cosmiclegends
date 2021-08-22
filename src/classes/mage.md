@@ -1,5 +1,7 @@
 # The Mage {#toc-mage .breakbefore .class}
 
+> []{.lorem}
+
 []{.lorem}
 
 ## Questions
