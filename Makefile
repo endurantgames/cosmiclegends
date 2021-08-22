@@ -38,6 +38,7 @@ SHEET_RECIPE = herosheet
 SHEET_SRC = $(BUILDDIR)/herosheet.md
 SHEET_OUT = $(OUTDIR)/Cosmic-Legends-herosheet.pdf
 SHEET_ALT_OUT = $(OUTDIR)/Cosmic-Legends-herosheet-alt.pdf
+SHEET_COLOR_OUT = $(OUTDIR)/Cosmic-Legends-herosheet-colors.pdf
 
 LETTER_OUT = $(OUTDIR)/Cosmic-Legends-letter.pdf
 
@@ -48,6 +49,7 @@ PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_CSS = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-sheet.css
+SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
 LETTER_CSS = --css=$(STYLEDIR)/letter.css
 
 # Derived Flags
@@ -57,6 +59,7 @@ PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
 LETTER_FLAGS  = $(FLAGS) $(LETTER_CSS) $(PRINCEFLAGS_LETTER)
 SHEET_FLAGS  = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS  = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
+SHEET_COLOR_FLAGS  = $(FLAGS) $(SHEET_COLOR_CSS) $(PRINCEFLAGS_SHEET_COLOR)
 
 # Application Configruation #############################################################################
 #
@@ -74,6 +77,7 @@ PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_
 PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
 PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
 PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
+PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_color_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -252,15 +256,21 @@ sheet-markdown:
 	@       $(MAKE_MD) $(SHEET_RECIPE)
 
 sheet: sheet-markdown
-	 echo '$(ltblue)Making Hero Sheet.$(resetc)'
-	       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
-	       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
-	      -$(EXPLORER)
+	@ echo '$(ltblue)Making Hero Sheet.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
+	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
 
 alt-sheet: sheet-markdown
 	@ echo '$(ltblue)Making Alternate Hero Sheet.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_ALT_FLAGS) -o $(SHEET_ALT_OUT) $(SHEET_SRC)
 	@       $(PDFINFO) $(SHEET_ALT_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
+color-sheet: sheet-markdown
+	@ echo '$(ltblue)Making Colorful Hero Sheet.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_COLOR_FLAGS) -o $(SHEET_COLOR_OUT) $(SHEET_SRC)
+	@       $(PDFINFO) $(SHEET_COLOR_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 
@@ -274,8 +284,8 @@ html: markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf letter sheet alt-sheet
-sheets: sheet alt-sheet
+all: pdf letter sheets
+sheets: sheet alt-sheet color-sheet
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
