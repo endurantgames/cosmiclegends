@@ -1408,6 +1408,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ##### Core Power Words
 
 Your Core Power Words are **Blessed** and **Champion**.
@@ -1591,6 +1594,9 @@ You can use your Power Words in the following ways:
 - As a Power Stunt, costing 1 Might for each Word beyond the first
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
 
 ##### Core Power Words
 
@@ -1790,6 +1796,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ##### Core Power Words
 
 Your Core Power Words are **Experimental** and **Prototype**.
@@ -1886,7 +1895,7 @@ Puissant Polymath
 Weaponsmith
 
 :   You've created a number of weapons with a wide variety of effects.
-:   At the start of each Storyline, pick a number of Power Words
+    At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
@@ -1982,6 +1991,9 @@ You can use your Power Words in the following ways:
 - As a Power Stunt, costing 1 Might for each Word beyond the first
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
 
 ##### Core Power Words
 
@@ -2175,6 +2187,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ##### Core Power Words
 
 Your Core Power Words are **Sorcery** and **Supreme**.
@@ -2359,6 +2374,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ##### Core Power Words
 
 Your Core Power Words are **Unexpected** and **Reinforcements**.
@@ -2415,8 +2433,8 @@ At the start of Volume 1, choose an ability from this list.
 Noblesse Oblige
 
 :   You feel an obligation to protect the ordinary people of the world. 
-    Add 2 to the dice pool to reduce the Bystander Pool. If the
-    Bystanders are your subjects, also add the Volume to the pool.
+    Add 2 to the dice pool to advance the Rescue goal. If the
+    bystanders are your subjects, also add the Volume to the dice pool.
 
 Righteous Rage
 
@@ -2425,7 +2443,8 @@ Righteous Rage
 
 Remote Palace
 
-:   You have a base of operations in your distant monarchy. 
+:   You have a hidden base of operations somewhere in your distant 
+    monarchy. 
     When you make a skill roll in that base, add 2 to the dice pool.
 
 Exotic Weaponry
@@ -2452,9 +2471,10 @@ Unfamiliar Fighting Techniques
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
 
-TBD
+Monarch's Benevolence
 
-:   To be determined
+:   Your favor is freely bestowed as a boon to those in need.
+    Add 2 to the dice pool when you advance the Allay goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2540,6 +2560,9 @@ You can use your Power Words in the following ways:
 - As a Power Stunt, costing 1 Might for each Word beyond the first
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
 
 ##### Core Power Words
 
@@ -2739,6 +2762,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ##### Core Power Words
 
 Your Core Power Words are **Powers** and **Abilities**. 
@@ -2815,7 +2841,7 @@ Multipower
 :   Unlike most heroes, your powers can be used frequently.
     The first time you make a Power Display, Stunt, or Combo move
     in a Hero Phase, choose one Power Word used. That Word 
-    doesn't time out.
+    doesn't go on cooldown.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2923,6 +2949,9 @@ You can use your Power Words in the following ways:
 - As a Power Stunt, costing 1 Might for each Word beyond the first
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
 
 ##### Core Power Words
 
@@ -3116,6 +3145,9 @@ You can use your Power Words in the following ways:
 - As a Power Stunt, costing 1 Might for each Word beyond the first
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
 
 ##### Core Power Words
 
