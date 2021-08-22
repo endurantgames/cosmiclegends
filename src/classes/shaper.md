@@ -128,13 +128,18 @@ Force Field
     Instead of losing Health, you can lose an equal
     amount of Might.
 
-TBD
+Wall of Matter
 
-:   to be determined
+:   You can construct a defensive wall to protect yourself and
+    your teammates. When a Crisis Move affects all of the heroes,
+    you can spend 1 Might to counter it instead of spending 
+    from the Teamwork Pool.
 
-TBD
+Shelter the Innocents
 
-:   to be determined
+:   Your power over substances makes you exceptionally skilled at 
+    protecting bystanders from harm. Add 2 to the dice pool when
+    you use a Power to advance the Rescue goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -163,9 +168,11 @@ Power Overwhelming
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Psychic Manifestation
 
-:   to be determined
+:   Your powers also give you a measure of control over minds.
+    Add one Word from the Psychic's Personal Power Word list
+    as a Personal Power Word.
 
 TBD
 
