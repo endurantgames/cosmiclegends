@@ -2,6 +2,8 @@
 
 > Quote quote quote
 
+![The Divine](art/jeshields/divine.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

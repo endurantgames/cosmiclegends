@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Knight](art/jeshields/knight.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

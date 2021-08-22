@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Psychic](art/jeshields/psychic.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

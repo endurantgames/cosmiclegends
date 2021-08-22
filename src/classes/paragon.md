@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Paragon](art/jeshields/paragon.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

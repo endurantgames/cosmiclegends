@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Shaper](art/jeshields/shaper.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

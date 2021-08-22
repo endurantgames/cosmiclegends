@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Dynamo](art/jeshields/dynamo.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

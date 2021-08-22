@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Monstrosity](art/jeshields/monstrosity.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

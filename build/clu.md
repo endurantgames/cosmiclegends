@@ -1374,6 +1374,8 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
 
 > Quote quote quote
 
+![The Divine](art/jeshields/divine.png){.class} \ 
+
 []{.lorem}
 
 #### Questions
@@ -1563,6 +1565,8 @@ TBD
 ### The Dynamo {#toc-dynamo .breakbefore .class}
 
 > quote quote quote
+
+![The Dynamo](art/jeshields/dynamo.png){.class} \ 
 
 []{.lorem}
 
@@ -1763,6 +1767,8 @@ TBD
 
 > quote quote quote
 
+![The Inventor](art/jeshields/inventor.png){.class} \ 
+
 []{.lorem}
 
 #### Questions
@@ -1954,6 +1960,8 @@ TBD
 ### The Knight  {#toc-knight .breakbefore .class}
 
 > quote quote quote
+
+![The Knight](art/jeshields/knight.png){.class} \ 
 
 []{.lorem}
 
@@ -2154,6 +2162,8 @@ TBD
 
 > quote quote quote
 
+![The Mage](art/jeshields/mage.png){.class} \ 
+
 []{.lorem}
 
 #### Questions
@@ -2337,6 +2347,8 @@ TBD
 ### The Monarch  {#toc-monarch .breakbefore .class}
 
 > quote quote quote
+
+![The Monarch](art/jeshields/monarch.png){.class} \ 
 
 []{.lorem}
 
@@ -2528,6 +2540,8 @@ TBD
 
 > quote quote quote
 
+![The Monstrosity](art/jeshields/monstrosity.png){.class} \ 
+
 []{.lorem}
 
 #### Questions
@@ -2714,6 +2728,8 @@ TBD
 ### The Paragon  {#toc-paragon .breakbefore .class}
 
 > quote quote quote
+
+![The Paragon](art/jeshields/paragon.png){.class} \ 
 
 []{.lorem}
 
@@ -2915,6 +2931,8 @@ TBD
 
 > quote quote quote
 
+![The Psychic](art/jeshields/psychic.png){.class} \ 
+
 []{.lorem}
 
 #### Questions
@@ -3103,6 +3121,8 @@ TBD
 ### The Shaper {#toc-shaper .breakbefore .class}
 
 > quote quote quote
+
+![The Shaper](art/jeshields/shaper.png){.class} \ 
 
 []{.lorem}
 

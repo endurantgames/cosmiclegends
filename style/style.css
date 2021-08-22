@@ -164,7 +164,7 @@ ul li, ul ol { margin-left: 1em;    }
   background:        var(--bgcolor-sidebar);
 }
 
-.sidebar.next { float-defer-column: 1;                                                    }
+.sidebar.next { float-defer-column: 1; }
 .sidebar :matches(h1, h2, h3, h4, h5, h6)    { font-weight: bold; font-family: var(--font-h4); font-size: var(--h4); }
 
 /* img { -prince-image-resolution: 96;
@@ -632,6 +632,12 @@ margin-top: 1em; }
   color: black;
 }
 
+img.class {
+  float: column top;
+  float-defer-column: right;
+  width: 100%;
+  height: auto;
+}
 
 .herosheet { page: herosheet; column-span: all; }
 @page herosheet { margin: 0; size: letter landscape; }

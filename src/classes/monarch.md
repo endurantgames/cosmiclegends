@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Monarch](art/jeshields/monarch.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

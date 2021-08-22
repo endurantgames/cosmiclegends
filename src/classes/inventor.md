@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Inventor](art/jeshields/inventor.png){.class} \ 
+
 []{.lorem}
 
 ## Questions

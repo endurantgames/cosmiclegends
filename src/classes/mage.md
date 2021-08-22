@@ -2,6 +2,8 @@
 
 > quote quote quote
 
+![The Mage](art/jeshields/mage.png){.class} \ 
+
 []{.lorem}
 
 ## Questions
