@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Inventor hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -51,9 +55,9 @@ Choose six Personal Power Words from the following list:
 - Robotic
 - Rocketry
 - Protection
-- Powersuit
 - Telemetry
 - Transportation
+- TBD
 - TBD
 :::::::::::::::::::::::::
 
@@ -73,7 +77,9 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Inventor Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Inventor Abilities reflect permanent additions to your
+stock of creations.
 
 ### Volume 1 Abilities
 
@@ -84,7 +90,7 @@ At the start of Volume 1, choose an ability from this list.
 Stately Skyscraper
 
 :   You have a base of operations at the top of a tall building.
-    Whenever you make a skill roll in that building, add 2 dice
+    When you make a skill roll in that building, add 2 
     to the dice pool.
 
 Perspicacious Pettifoggery
@@ -101,9 +107,11 @@ Flexible Faculties
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
-TBD
+Armorsmith
 
-:   To Be Determined
+:   You've invented a suit of armor. Add Armor as a Core
+    Power Word and one Personal Power Word from the Dynamo's
+    or Paragon's Personal Power Word list.
 
 :::::::::::::::::::::::::::::::::::
 
@@ -112,29 +120,33 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Auspicious Alliteration
-
-:   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
-    or Power Combo to add to the Teamwork Pool, add 1 to the dice pool
-    for each Power Word whose first letter matches the first letter of 
-    another Word in the Stunt or Combo.
-
 Puissant Polymath
 
 :   Your education covered a wide range of topics.  Gain a number of 
-    skills equal to the current Volume. Add an additional skill at the 
+    skills equal to the Volume. Add an additional skill at the 
     start of each later Volume.
+
+Weaponsmith
+
+:   You've created a number of weapons with a wide variety of effects.
+:   At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Shaper Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Absorption Field
 
-:   To Be Determined
+:   Your defenses include an inertia-dampening force field
+    that block harm to you. Instead of losing Health, you can
+    lose an equal amount of Might.
 
 TBD
 
@@ -144,7 +156,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -159,7 +171,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

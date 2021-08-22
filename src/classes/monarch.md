@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Monarch hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -76,32 +80,40 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 
 ## Monarch Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Monarch Abilities represent esoteric knowledge that
+is inaccessible to those outside of your home.
 
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-Nobilitas Obligat!
+Noblesse Oblige
 
 :   You feel an obligation to protect the ordinary people of the world. 
     Add 2 to the dice pool to reduce the Bystander Pool. If the
-    Bystanders are your subjects, also add the Volume.
+    Bystanders are your subjects, also add the Volume to the pool.
 
-Dulcedinem Irae!
+Righteous Rage
 
-:   If you are below half Health in the current Crisis, 
-    add 2 to the dice pool to advance the Smash goal.
+:   If you are below half Health, add 2 to the dice pool to 
+    advance the Smash goal.
 
-TBD
+Remote Palace
 
-:   To be determined
+:   You have a base of operations in your distant monarchy. 
+    When you make a skill roll in that base, add 2 to the dice pool.
 
+Exotic Weaponry
 
-TBD
-
-:   To be determined
+:   The weapons from your home use a technology that defies
+    conventional explanation. 
+    At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Mage Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -110,9 +122,12 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Unfamiliar Fighting Techniques
 
-:   To be determined
+:   You have trained in a number of fighting techniques
+    unknown to the outside world.
+    Gain a number of fighting styles equal to the Volume.
+    Add an additional fighting style at the start of each later Volume.
 
 TBD
 
@@ -122,7 +137,7 @@ TBD
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -137,7 +152,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -152,7 +167,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

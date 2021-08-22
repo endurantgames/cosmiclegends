@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Psychic hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -75,7 +79,9 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Psychic Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Psychic Abilities are new ways to channel your psionic
+power.
 
 ### Volume 1 Abilities
 
@@ -83,23 +89,29 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-TBD
+Psionic Weapon
 
-:   to be determined
+:   You can form a weapon out of pure psionic energy. Add
+    Weapon as a Personal Power Word and pick a Fighting Style
+    that complements that weapon.
 
-TBD
+Cloud the Senses
 
-:   to be determined
+:   With your mastery of mental illusion, you're able to fool 
+    nearly anyone. Add 2 to the dice pool when you use a Power
+    to advance the Outwit goal.
 
-TBD
+Telekinetics
 
-:   to be determined
+:   Your mental power has a physical manifestation, letting you
+    move objects with ease. Add a Personal Power Word from the
+    Shaper list as a Personal Power Word.
 
+Empath
 
-TBD
-
-:   to be determined
-
+:   You can use your empathic powers to read emotions and calm
+    a crowd. Add 2 to the dice pool when you use a Power to 
+    advance the Allay goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -108,24 +120,28 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Psychic Healing
 
-:   to be determined
+:   As a move, you can use your mental powers to heal someone else.
+    They regain Health equal to the Effectiveness of a Power roll.
 
-TBD
+Mind Over Matter
 
-:   to be determined
+:   You can keep yourself conscious through sheer force of will.
+    Instead of losing Health, you can lose an equal amount
+    of Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   to be determined
+:   Your capacity for psionics is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
 TBD
 
@@ -135,7 +151,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -150,7 +166,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

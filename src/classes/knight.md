@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Knight hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -77,37 +81,42 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Knight Abilities { .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Knight Abilities are based on continued training and
+perfection of your physical and mental capabilities.
 
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
+Trick Arrows
+
+:   You have specialized weapons, each for a different job.
+    At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Paragon Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 Team, Together!
 
 :   You are a natural leader. 
     Add 2 to the Dice Pool to add to the Teamwork Pool.
 
-I Work Alone
-
-:   Some people are just reluctant team members.
-    When you roll to create the Teamwork Pool, you can
-    choose to add the roll's Effectiveness to your
-    maximum and current Might instead of the Teamwork Pool.
-
 Weapons Locker
 
-:   From the following list, pick a number equal to the
+:   You have a huge cache of conventional weapons.
+    From the following list, pick a number equal to the
     current Volume and add those as Personal Power Words:
     Bullets, Grenade, Handgun, Knife, Non-Lethal,
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.
 
-TBD
+Toughness
 
-:   to be determined
+:   Your training focuses on increasing your ability to
+    withstand pain. Increase your maximum Health to 12.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -116,38 +125,43 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Trick Arrows
+I Work Alone
 
-:   At the start of each Storyline, pick a number of Power Words
-    from the Dynamo or Paragon Personal Power Words lists
-    equal to the Volume.
-    You can use each Power Word as a Core Power Word once
-    during the current Storyline without paying any Might.
+:   Some people are just reluctant team members.
+    When you roll to create the Teamwork Pool, you can
+    choose to add the roll's Effectiveness to your
+    maximum and current Might instead of the Teamwork Pool.
 
-TBD
+Master of Skills
 
-:   to be determined
+:   Your education covered a wide range of topics.  Gain a number of
+    skills equal to the Volume. Add an additional skill at the
+    start of each later Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Tactical Mastery
 
-:   to be determined
+:   Your mastery of combat techniques is unparalleled.
+    Gain a number of fighting styles equal to the Volume.
+    Add an additional fighting style at the start of each later Volume.
 
-TBD
+Implacable Foe
 
-:   to be determined
+:   Your determination may be your greatest asset.
+    Instead of losing Health, you can lose an equal
+    amount of Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -162,7 +176,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

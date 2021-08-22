@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Paragon hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -89,29 +93,37 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Paragon Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Paragon Abilities reflect new uses for your vast array
+of super-powers.
 
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Boundless Fortitude
 
-:   To be determined
+:   You are amazingly hard to hurt. Increase your maximum
+    Health to 15.
 
-TBD
+Hero of the People
 
-:   To be determined
+:   You are looked up to by the common people. Add 2 to the
+    dice pool when you advance the Rescue goal.
 
-TBD
+Dedicated Defender
 
-:   To be determined
+:   You protect others from harm with your own body. 
+    When you use the Take the Blow move, you lose a maximum 
+    of 1 Health.
 
+Multipower
 
-TBD
-
-:   To be determined
+:   Unlike most heroes, your powers can be used frequently.
+    The first time you make a Power Display, Stunt, or Combo move
+    in a Hero Phase, choose one Power Word used. That Word 
+    doesn't time out.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -120,13 +132,11 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   To be determined
+:   Your capacity for heroic deeds is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
-TBD
-
-:   To be determined
 
 TBD
 
@@ -136,22 +146,25 @@ TBD
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Nigh-Invulnerable
 
-:   To be determined
+:   There are few things that can seriously harm you.
+    Increase your maximum Health to 20.
 
-TBD
+Castle of Quiettude
 
-:   To be determined
+:   You have a base of operations in a remote location. When
+    you make a skill roll in that building, add 2 to the dice
+    pool.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -166,7 +179,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

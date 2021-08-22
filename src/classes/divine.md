@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Divine hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -74,19 +78,14 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Divine Abilities { .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class. Your Divine
+Abilities are gifts from the Gods, whether by birth or by boon.
 
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-
-Stamina of Atlas
-
-:   Your capacity for channeling power is comparable
-    to the stamina of the titan Atlas.
-    Add 2 to the dice pool to advance the Withstand goal.
 
 Courage of Ares
 
@@ -105,6 +104,10 @@ Strength of Kratos
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
     Add 2 to the dice pool to advance the Smash goal.
+
+Stamina of Atlas
+
+:   You are tougher than a mere mortal. Increase your maximum Health to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -132,14 +135,14 @@ Speed of Hermes
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 
 Power of Zeus
 
 :   You're empowered with divine energy that crackles
-    like electricity when you use Might.
+    like electricity when you use Might.  
     Increase your maximum Might to 15.
 
 TBD
@@ -150,7 +153,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -165,7 +168,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 

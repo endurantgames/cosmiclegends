@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Monstrosity hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -73,29 +77,37 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Monstrosity Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Monstrosity Abilities show your increasing distance from
+humanity.
 
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Fast Healer
 
-:   to be determined
+:   Your injuries heal quickly. Regain 1 Health at
+    the start of the Hero Phase if you are at or
+    above half of your maximum Health.
 
-TBD
+Misunderstood Monster
 
-:   to be determined
+:   Even at your worst, you wouldn't harm an innocent.
+    Add 2 to the dice pool when you advance the Allay 
+    or Rescue goals.
 
-TBD
+Boundless Fortitude
 
-:   to be determined
+:   You are amazingly hard to hurt. Increase your maximum
+    Health to 15.
 
+Unkillable
 
-TBD
-
-:   to be determined
+:   You get knocked down but you get up again. They're never
+    gonna keep you down. Regain 1 Health at the start of the
+    Hero Phase if you have 0 Health.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -104,39 +116,47 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Regeneration
 
-:   to be determined
+:   If you're ever wounded, you don't stay that way for long.
+    Regain 1 Health at the start of the Hero Phase if you are
+    at less than half of your maximum Health but have at least
+    1 Health.
 
-TBD
+Relentless Power
 
-:   to be determined
+:   You are a storehouse of untapped energy. Increase your
+    maximum Might to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Nigh-Invulnerable
 
-:   to be determined
+:   There are few things that can seriously harm you.
+    Increase your maximum Health to 20.
 
-TBD
+Power Burn
 
-:   to be determined
+:   You can call upon your life-force to fuel your powers.
+    You can spend Health whenever you would normally spend
+    Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   to be determined
+:   Your capacity for destruction is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
 TBD
 
@@ -146,7 +166,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

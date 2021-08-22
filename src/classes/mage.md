@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Mage hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -46,7 +50,6 @@ Choose six Personal Power Words from the following list:
 - Extradimensional
 - Flight
 - Magic
-- Portal
 - Sense
 - Shatter
 - Shield
@@ -55,6 +58,7 @@ Choose six Personal Power Words from the following list:
 - Time
 - Travel
 - Ward
+- TBD
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -73,24 +77,30 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Mage Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Mage Abilities are new ways of calling upon arcane power.
 
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
 
-:   to be determined
+Sanctuary of Sanctity
 
-TBD
+:   You have a base of operations hidden in a normal-looking building
+    or tower. When you make a skill roll in that building, add 2
+    to the dice pool.
 
-:   to be determined
+Mists of Misdirection
 
-TBD
+:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
+    a power to advance the Outwit goal.
 
-:   to be determined
+Thinking with Portals
+
+:   Add Portal as a Personal Power Word. You can make the General
+    Alert move without spending from the Teamwork Pool.
 
 Auspicious Alliteration
 
@@ -106,19 +116,24 @@ Auspicious Alliteration
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Eldritch Might
 
-:   to be determined
+:   Your power continues to grow, but at what cost? Increase your
+    maximum Might to 15.
 
-TBD
+Arcane Arsenal
 
-:   to be determined
+:   At the start of each Storyline, pick a number of Power Words
+    from the Psychic or Shaper Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -133,7 +148,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -148,7 +163,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

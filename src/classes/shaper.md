@@ -4,7 +4,11 @@
 
 ## Questions
 
-[]{.lorem}
+As you create your Shaper hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 ## Skills
 
@@ -100,7 +104,9 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Shaper Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Shaper Abilities show a widening diversity in the 
+applications of your control power.
 
 ### Volume 1 Abilities
 
@@ -108,13 +114,17 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-TBD
+Energy Generation
 
-:   to be determined
+:   In addition to your ability to control physical elements,
+    you can also create it as well. Add one Word from the
+    Dynamo's Energy Power Word list as a Personal Power Word.
 
-TBD
+Force Field
 
-:   to be determined
+:   You can surround yourself with a clear bubble of force.
+    Instead of losing Health, you can lose an equal
+    amount of Might.
 
 TBD
 
@@ -135,19 +145,20 @@ Grand Unified Theory
 
 :   You've discovered that your powers aren't limited to a
     single substance but can be extended to other types of
-    shaping. Add a Volume-number of Words from the Element
-    Power Word list as Personal Power Words.  Add another 
-    at the start of each later Volume.
+    shaping. Add number of Words from the Element
+    Power Word list as Personal Power Words equal to the
+    Volume.  Add another at the start of each later Volume.
 
-TBD
+Power Overwhelming
 
-:   to be determined
+:   Your capacity for matter control is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -162,7 +173,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -177,7 +188,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD

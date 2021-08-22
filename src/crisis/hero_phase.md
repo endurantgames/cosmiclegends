@@ -25,7 +25,7 @@ Crisis Phase.
 
 If two or more heroes aren't present at a Crisis, one of the heroes at 
 the scene can use their turn to sound a General Alert and call for help.
-The cost of a General Alert is 1 success per hero called.
+The cost of a General Alert is 1 success from the Teamwork Pool per hero called.
 
 The heroes arrive at the start of the *next* Hero Phase, and can act
 normally during that turn. They can describe their arrivals, but unlike
