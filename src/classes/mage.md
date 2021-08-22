@@ -1,6 +1,6 @@
 # The Mage {#toc-mage .breakbefore .class}
 
-> []{.lorem}
+> quote quote quote
 
 []{.lorem}
 

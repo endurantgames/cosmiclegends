@@ -1,6 +1,6 @@
 # The Divine {#toc-divine .breakbefore .class}
 
-> []{.lorem}
+> Quote quote quote
 
 []{.lorem}
 

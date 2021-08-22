@@ -1,6 +1,6 @@
 # The Psychic {#toc-psychic .breakbefore .class}
 
-> []{.lorem}
+> quote quote quote
 
 []{.lorem}
 

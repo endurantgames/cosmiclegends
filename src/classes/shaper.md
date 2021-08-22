@@ -1,6 +1,6 @@
 # The Shaper {#toc-shaper .breakbefore .class}
 
-> []{.lorem}
+> quote quote quote
 
 []{.lorem}
 

@@ -1,6 +1,6 @@
 # The Paragon  {#toc-paragon .breakbefore .class}
 
-> []{.lorem}
+> quote quote quote
 
 []{.lorem}
 
