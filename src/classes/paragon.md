@@ -49,6 +49,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ### Core Power Words
 
 Your Core Power Words are **Powers** and **Abilities**. 
@@ -125,7 +128,7 @@ Multipower
 :   Unlike most heroes, your powers can be used frequently.
     The first time you make a Power Display, Stunt, or Combo move
     in a Hero Phase, choose one Power Word used. That Word 
-    doesn't time out.
+    doesn't go on cooldown.
 
 :::::::::::::::::::::::::::::::::::::
 

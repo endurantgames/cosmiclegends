@@ -35,6 +35,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ### Core Power Words
 
 Your Core Power Words are **Strongest** and **Monster**.

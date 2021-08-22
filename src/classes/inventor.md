@@ -35,6 +35,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ### Core Power Words
 
 Your Core Power Words are **Experimental** and **Prototype**.
@@ -131,7 +134,7 @@ Puissant Polymath
 Weaponsmith
 
 :   You've created a number of weapons with a wide variety of effects.
-:   At the start of each Storyline, pick a number of Power Words
+    At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once

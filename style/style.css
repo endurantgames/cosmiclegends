@@ -529,8 +529,8 @@ margin-top: 1em; }
 .ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 
 .ability-list dl dt { font-family: var(--font-h5); font-size: var(--h5);  font-weight: normal;
-margin-top: 1em; }
-.ability-list dl dd { margin: 0; padding: 0; }
+margin-top: 1em; break-after: avoid; break-inside: avoid; }
+.ability-list dl dd { margin: 0; padding: 0; break-before: avoid; break-inside: avoid; }
 .ability-list dl dd p { margin: 0; margin-bottom: 0.5em; line-height: 1.2; }
 .ability-list dl dd p:first-child { padding-top: 0.125em; }
 .ability-list dl dd p:last-child { margin-bottom: 3pt; }

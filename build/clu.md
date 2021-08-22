@@ -1372,11 +1372,17 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
 
 ### The Divine {#toc-divine .breakbefore .class}
 
+> Quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Divine hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -1384,7 +1390,7 @@ You have the **Explorer**, **Historian**, and **Mystic** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: Give Me Strength!
 
@@ -1446,19 +1452,14 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Divine Abilities { .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class. Your Divine
+Abilities are gifts from the Gods, whether by birth or by boon.
 
 ##### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-
-Stamina of Atlas
-
-:   Your capacity for channeling power is comparable
-    to the stamina of the titan Atlas.
-    Add 2 to the dice pool to advance the Withstand goal.
 
 Courage of Ares
 
@@ -1477,6 +1478,10 @@ Strength of Kratos
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
     Add 2 to the dice pool to advance the Smash goal.
+
+Stamina of Atlas
+
+:   You are tougher than a mere mortal. Increase your maximum Health to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1504,14 +1509,14 @@ Speed of Hermes
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 
 Power of Zeus
 
 :   You're empowered with divine energy that crackles
-    like electricity when you use Might.
+    like electricity when you use Might.  
     Increase your maximum Might to 15.
 
 TBD
@@ -1522,7 +1527,7 @@ TBD
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -1537,7 +1542,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 
@@ -1554,18 +1559,24 @@ TBD
 
 ### The Dynamo {#toc-dynamo .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Dynamo hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
 You have any two skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: Energy Reserve
 
@@ -1640,7 +1651,8 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Dynamo Abilities {.class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Dynamo Abilities are refinements of your energy powers.
 
 ##### Volume 1 Abilities
 
@@ -1681,24 +1693,28 @@ Synergy Sense
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Energy Shaping
 
-:   To be determined
+:   Add a Word from the Shaper class's Personal Power Word list
+    as a Personal Power Word.
 
-TBD
+Energy Versatility
 
-:   To be determined
+:   You've mastered another form of energy projection in addition
+    to your primary energy type. Add a Word from the Energy
+    Power Word list as a Personal Power Word.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   To be determined
+:   Your capacity for energy use is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
 TBD
 
@@ -1708,7 +1724,7 @@ TBD
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -1723,7 +1739,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -1739,11 +1755,17 @@ TBD
 
 ### The Inventor {#toc-inventor .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Inventor hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -1751,7 +1773,7 @@ You have the **Engineer**, **Hacker**, and **Scientist** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: No Wasted Effort
 
@@ -1790,9 +1812,9 @@ Choose six Personal Power Words from the following list:
 - Robotic
 - Rocketry
 - Protection
-- Powersuit
 - Telemetry
 - Transportation
+- TBD
 - TBD
 :::::::::::::::::::::::::
 
@@ -1812,7 +1834,9 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Inventor Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Inventor Abilities reflect permanent additions to your
+stock of creations.
 
 ##### Volume 1 Abilities
 
@@ -1823,7 +1847,7 @@ At the start of Volume 1, choose an ability from this list.
 Stately Skyscraper
 
 :   You have a base of operations at the top of a tall building.
-    Whenever you make a skill roll in that building, add 2 dice
+    When you make a skill roll in that building, add 2 
     to the dice pool.
 
 Perspicacious Pettifoggery
@@ -1840,9 +1864,11 @@ Flexible Faculties
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
-TBD
+Armorsmith
 
-:   To Be Determined
+:   You've invented a suit of armor. Add Armor as a Core
+    Power Word and one Personal Power Word from the Dynamo's
+    or Paragon's Personal Power Word list.
 
 :::::::::::::::::::::::::::::::::::
 
@@ -1851,29 +1877,33 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Auspicious Alliteration
-
-:   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
-    or Power Combo to add to the Teamwork Pool, add 1 to the dice pool
-    for each Power Word whose first letter matches the first letter of 
-    another Word in the Stunt or Combo.
-
 Puissant Polymath
 
 :   Your education covered a wide range of topics.  Gain a number of 
-    skills equal to the current Volume. Add an additional skill at the 
+    skills equal to the Volume. Add an additional skill at the 
     start of each later Volume.
+
+Weaponsmith
+
+:   You've created a number of weapons with a wide variety of effects.
+:   At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Shaper Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Absorption Field
 
-:   To Be Determined
+:   Your defenses include an inertia-dampening force field
+    that block harm to you. Instead of losing Health, you can
+    lose an equal amount of Might.
 
 TBD
 
@@ -1883,7 +1913,7 @@ TBD
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -1898,7 +1928,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -1914,11 +1944,17 @@ TBD
 
 ### The Knight  {#toc-knight .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Knight hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -1926,7 +1962,7 @@ You have the **Criminal**, **Investigator**, and **Spy** skills, plus four
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: Peak Human Potential
 
@@ -1991,37 +2027,42 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Knight Abilities { .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Knight Abilities are based on continued training and
+perfection of your physical and mental capabilities.
 
 ##### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
+Trick Arrows
+
+:   You have specialized weapons, each for a different job.
+    At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Paragon Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 Team, Together!
 
 :   You are a natural leader. 
     Add 2 to the Dice Pool to add to the Teamwork Pool.
 
-I Work Alone
-
-:   Some people are just reluctant team members.
-    When you roll to create the Teamwork Pool, you can
-    choose to add the roll's Effectiveness to your
-    maximum and current Might instead of the Teamwork Pool.
-
 Weapons Locker
 
-:   From the following list, pick a number equal to the
-    current Volume and add those as Personal Power Words:
+:   You have a huge cache of conventional weapons.
+    From the following list, pick a number equal to the
+    Volume and add those as Personal Power Words:
     Bullets, Grenade, Handgun, Knife, Non-Lethal,
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.
 
-TBD
+Toughness
 
-:   to be determined
+:   Your training focuses on increasing your ability to
+    withstand pain. Increase your maximum Health to 12.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2030,38 +2071,43 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Trick Arrows
+I Work Alone
 
-:   At the start of each Storyline, pick a number of Power Words
-    from the Dynamo or Paragon Personal Power Words lists
-    equal to the Volume.
-    You can use each Power Word as a Core Power Word once
-    during the current Storyline without paying any Might.
+:   Some people are just reluctant team members.
+    When you roll to create the Teamwork Pool, you can
+    choose to add the roll's Effectiveness to your
+    maximum and current Might instead of the Teamwork Pool.
 
-TBD
+Master of Skills
 
-:   to be determined
+:   Your education covered a wide range of topics.  Gain a number of
+    skills equal to the Volume. Add an additional skill at the
+    start of each later Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Tactical Mastery
 
-:   to be determined
+:   Your mastery of combat techniques is unparalleled.
+    Gain a number of fighting styles equal to the Volume.
+    Add an additional fighting style at the start of each later Volume.
 
-TBD
+Implacable Foe
 
-:   to be determined
+:   Your determination may be your greatest asset.
+    Instead of losing Health, you can lose an equal
+    amount of Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2076,7 +2122,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2094,11 +2140,17 @@ TBD
 
 ### The Mage {#toc-mage .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Mage hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -2106,7 +2158,7 @@ You have the **Historian** and  **Mystic** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: The Price of Magic
 
@@ -2140,7 +2192,6 @@ Choose six Personal Power Words from the following list:
 - Extradimensional
 - Flight
 - Magic
-- Portal
 - Sense
 - Shatter
 - Shield
@@ -2149,6 +2200,7 @@ Choose six Personal Power Words from the following list:
 - Time
 - Travel
 - Ward
+- TBD
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -2167,24 +2219,30 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Mage Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Mage Abilities are new ways of calling upon arcane power.
 
 ##### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
 
-:   to be determined
+Sanctuary of Sanctity
 
-TBD
+:   You have a base of operations hidden in a normal-looking building
+    or tower. When you make a skill roll in that building, add 2
+    to the dice pool.
 
-:   to be determined
+Mists of Misdirection
 
-TBD
+:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
+    a power to advance the Outwit goal.
 
-:   to be determined
+Thinking with Portals
+
+:   Add Portal as a Personal Power Word. You can make the General
+    Alert move without spending from the Teamwork Pool.
 
 Auspicious Alliteration
 
@@ -2200,19 +2258,24 @@ Auspicious Alliteration
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Eldritch Might
 
-:   to be determined
+:   Your power continues to grow, but at what cost? Increase your
+    maximum Might to 15.
 
-TBD
+Arcane Arsenal
 
-:   to be determined
+:   At the start of each Storyline, pick a number of Power Words
+    from the Psychic or Shaper Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2227,7 +2290,7 @@ TBD
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2242,7 +2305,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2258,11 +2321,17 @@ TBD
 
 ### The Monarch  {#toc-monarch .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Monarch hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -2270,7 +2339,7 @@ You have the **Explorer**, **Historian**, and **Politician** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: For My Kingdom!
 
@@ -2334,32 +2403,40 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 
 #### Monarch Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Monarch Abilities represent esoteric knowledge that
+is inaccessible to those outside of your home.
 
 ##### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-Nobilitas Obligat!
+Noblesse Oblige
 
 :   You feel an obligation to protect the ordinary people of the world. 
     Add 2 to the dice pool to reduce the Bystander Pool. If the
-    Bystanders are your subjects, also add the Volume.
+    Bystanders are your subjects, also add the Volume to the pool.
 
-Dulcedinem Irae!
+Righteous Rage
 
-:   If you are below half Health in the current Crisis, 
-    add 2 to the dice pool to advance the Smash goal.
+:   If you are below half Health, add 2 to the dice pool to 
+    advance the Smash goal.
 
-TBD
+Remote Palace
 
-:   To be determined
+:   You have a base of operations in your distant monarchy. 
+    When you make a skill roll in that base, add 2 to the dice pool.
 
+Exotic Weaponry
 
-TBD
-
-:   To be determined
+:   The weapons from your home use a technology that defies
+    conventional explanation. 
+    At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Mage Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2368,9 +2445,12 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Unfamiliar Fighting Techniques
 
-:   To be determined
+:   You have trained in a number of fighting techniques
+    unknown to the outside world.
+    Gain a number of fighting styles equal to the Volume.
+    Add an additional fighting style at the start of each later Volume.
 
 TBD
 
@@ -2380,7 +2460,7 @@ TBD
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2395,7 +2475,7 @@ TBD
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2410,7 +2490,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2426,11 +2506,17 @@ TBD
 
 ### The Monstrosity {#toc-monstrosity .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Monstrosity hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -2438,7 +2524,7 @@ You have the **Criminal** and **Explorer** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: Engine of Destruction
 
@@ -2499,29 +2585,37 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Monstrosity Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Monstrosity Abilities show your increasing distance from
+humanity.
 
 ##### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Fast Healer
 
-:   to be determined
+:   Your injuries heal quickly. Regain 1 Health at
+    the start of the Hero Phase if you are at or
+    above half of your maximum Health.
 
-TBD
+Misunderstood Monster
 
-:   to be determined
+:   Even at your worst, you wouldn't harm an innocent.
+    Add 2 to the dice pool when you advance the Allay 
+    or Rescue goals.
 
-TBD
+Boundless Fortitude
 
-:   to be determined
+:   You are amazingly hard to hurt. Increase your maximum
+    Health to 15.
 
+Unkillable
 
-TBD
-
-:   to be determined
+:   You get knocked down but you get up again. They're never
+    gonna keep you down. Regain 1 Health at the start of the
+    Hero Phase if you have 0 Health.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2530,39 +2624,47 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Regeneration
 
-:   to be determined
+:   If you're ever wounded, you don't stay that way for long.
+    Regain 1 Health at the start of the Hero Phase if you are
+    at less than half of your maximum Health but have at least
+    1 Health.
 
-TBD
+Relentless Power
 
-:   to be determined
+:   You are a storehouse of untapped energy. Increase your
+    maximum Might to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Nigh-Invulnerable
 
-:   to be determined
+:   There are few things that can seriously harm you.
+    Increase your maximum Health to 20.
 
-TBD
+Power Burn
 
-:   to be determined
+:   You can call upon your life-force to fuel your powers.
+    You can spend Health whenever you would normally spend
+    Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   to be determined
+:   Your capacity for destruction is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
 TBD
 
@@ -2572,7 +2674,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2588,18 +2690,24 @@ TBD
 
 ### The Paragon  {#toc-paragon .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Paragon hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
 You have two skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: My One Weakness!
 
@@ -2677,29 +2785,37 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Paragon Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Paragon Abilities reflect new uses for your vast array
+of super-powers.
 
 ##### Volume 1 Abilities
 
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Boundless Fortitude
 
-:   To be determined
+:   You are amazingly hard to hurt. Increase your maximum
+    Health to 15.
 
-TBD
+Hero of the People
 
-:   To be determined
+:   You are looked up to by the common people. Add 2 to the
+    dice pool when you advance the Rescue goal.
 
-TBD
+Dedicated Defender
 
-:   To be determined
+:   You protect others from harm with your own body. 
+    When you use the Take the Blow move, you lose a maximum 
+    of 1 Health.
 
+Multipower
 
-TBD
-
-:   To be determined
+:   Unlike most heroes, your powers can be used frequently.
+    The first time you make a Power Display, Stunt, or Combo move
+    in a Hero Phase, choose one Power Word used. That Word 
+    doesn't time out.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2708,13 +2824,11 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   To be determined
+:   Your capacity for heroic deeds is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
-TBD
-
-:   To be determined
 
 TBD
 
@@ -2724,22 +2838,25 @@ TBD
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Nigh-Invulnerable
 
-:   To be determined
+:   There are few things that can seriously harm you.
+    Increase your maximum Health to 20.
 
-TBD
+Castle of Quiettude
 
-:   To be determined
+:   You have a base of operations in a remote location. When
+    you make a skill roll in that building, add 2 to the dice
+    pool.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2754,7 +2871,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2770,11 +2887,17 @@ TBD
 
 ### The Psychic {#toc-psychic .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Psychic hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -2782,7 +2905,7 @@ You have the **Academic** skill, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: Our Minds As One
 
@@ -2845,7 +2968,9 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Psychic Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Psychic Abilities are new ways to channel your psionic
+power.
 
 ##### Volume 1 Abilities
 
@@ -2853,23 +2978,29 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-TBD
+Psionic Weapon
 
-:   to be determined
+:   You can form a weapon out of pure psionic energy. Add
+    Weapon as a Personal Power Word and pick a Fighting Style
+    that complements that weapon.
 
-TBD
+Cloud the Senses
 
-:   to be determined
+:   With your mastery of mental illusion, you're able to fool 
+    nearly anyone. Add 2 to the dice pool when you use a Power
+    to advance the Outwit goal.
 
-TBD
+Telekinetics
 
-:   to be determined
+:   Your mental power has a physical manifestation, letting you
+    move objects with ease. Add a Personal Power Word from the
+    Shaper list as a Personal Power Word.
 
+Empath
 
-TBD
-
-:   to be determined
-
+:   You can use your empathic powers to read emotions and calm
+    a crowd. Add 2 to the dice pool when you use a Power to 
+    advance the Allay goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2878,34 +3009,40 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Psychic Healing
 
-:   to be determined
+:   As a move, you can use your mental powers to heal someone else.
+    They regain Health equal to the Effectiveness of a Power roll.
 
-TBD
+Mind Over Matter
 
-:   to be determined
+:   You can keep yourself conscious through sheer force of will.
+    Instead of losing Health, you can lose an equal amount
+    of Might.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Power Overwhelming
 
-:   to be determined
+:   Your capacity for psionics is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
-TBD
+Skill Sharing
 
-:   to be determined
+:   Your mind link allows skills to be shared. 
+    Someone in your link is considered to have a skill if 
+    anyone in your link has that skill.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2920,7 +3057,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -2936,11 +3073,17 @@ TBD
 
 ### The Shaper {#toc-shaper .breakbefore .class}
 
+> quote quote quote
+
 []{.lorem}
 
 #### Questions
 
-[]{.lorem}
+As you create your Shaper hero, answer any or all of these questions.
+
+- []{.lorem}
+- []{.lorem}
+- []{.lorem}
 
 #### Skills
 
@@ -2948,7 +3091,7 @@ You have the **Artist** and **Scientist** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 #### Class Ability: Reshape the Battlefield
 
@@ -2963,7 +3106,7 @@ one of the Scene Power Words to one of your own Power Words until
 the end of the Crisis.  
 
 The maximum number of Scene Power Words you can change during a
-Crisis is equal to the current Volume number.
+Crisis is equal to the Volume number.
 
 #### Power Words
 
@@ -3036,7 +3179,9 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Shaper Abilities {  .class}
 
-[]{.lorem}
+Each Volume, you gain a new ability from your class.
+Your Shaper Abilities show a widening diversity in the 
+applications of your control power.
 
 ##### Volume 1 Abilities
 
@@ -3044,21 +3189,30 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-TBD
+Energy Generation
 
-:   to be determined
+:   In addition to your ability to control physical elements,
+    you can also create it as well. Add one Word from the
+    Dynamo's Energy Power Word list as a Personal Power Word.
 
-TBD
+Force Field
 
-:   to be determined
+:   You can surround yourself with a clear bubble of force.
+    Instead of losing Health, you can lose an equal
+    amount of Might.
 
-TBD
+Wall of Matter
 
-:   to be determined
+:   You can construct a defensive wall to protect yourself and
+    your teammates. When a Crisis Move affects all of the heroes,
+    you can spend 1 Might to counter it instead of spending 
+    from the Teamwork Pool.
 
-TBD
+Shelter the Innocents
 
-:   to be determined
+:   Your power over substances makes you exceptionally skilled at 
+    protecting bystanders from harm. Add 2 to the dice pool when
+    you use a Power to advance the Rescue goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3071,24 +3225,27 @@ Grand Unified Theory
 
 :   You've discovered that your powers aren't limited to a
     single substance but can be extended to other types of
-    shaping. Add a Volume-number of Words from the Element
-    Power Word list as Personal Power Words.  Add another 
-    at the start of each later Volume.
+    shaping. Add number of Words from the Element
+    Power Word list as Personal Power Words equal to the
+    Volume.  Add another at the start of each later Volume.
 
-TBD
+Power Overwhelming
 
-:   to be determined
+:   Your capacity for matter control is extraordinary, even for a hero.
+    Increase your maximum Might to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list, the Volume 1 list, or the Volume 2 list.
+At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Psychic Manifestation
 
-:   to be determined
+:   Your powers also give you a measure of control over minds.
+    Add one Word from the Psychic's Personal Power Word list
+    as a Personal Power Word.
 
 TBD
 
@@ -3098,7 +3255,7 @@ TBD
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list, the Volume 1 list, the Volume 2 list, or the Volume 3 list.
+At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -3113,7 +3270,7 @@ TBD
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from any Volume's list.
+At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
 TBD
@@ -3565,7 +3722,7 @@ Crisis Phase.
 
 If two or more heroes aren't present at a Crisis, one of the heroes at 
 the scene can use their turn to sound a General Alert and call for help.
-The cost of a General Alert is 1 success per hero called.
+The cost of a General Alert is 1 success from the Teamwork Pool per hero called.
 
 The heroes arrive at the start of the *next* Hero Phase, and can act
 normally during that turn. They can describe their arrivals, but unlike

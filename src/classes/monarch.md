@@ -38,6 +38,9 @@ You can use your Power Words in the following ways:
 - As a Power Combo, costing 1 Might and letting others join in
 - Joining a Power Combo, costing 1 Might.
 
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
 ### Core Power Words
 
 Your Core Power Words are **Unexpected** and **Reinforcements**.
@@ -94,8 +97,8 @@ At the start of Volume 1, choose an ability from this list.
 Noblesse Oblige
 
 :   You feel an obligation to protect the ordinary people of the world. 
-    Add 2 to the dice pool to reduce the Bystander Pool. If the
-    Bystanders are your subjects, also add the Volume to the pool.
+    Add 2 to the dice pool to advance the Rescue goal. If the
+    bystanders are your subjects, also add the Volume to the dice pool.
 
 Righteous Rage
 
@@ -104,7 +107,8 @@ Righteous Rage
 
 Remote Palace
 
-:   You have a base of operations in your distant monarchy. 
+:   You have a hidden base of operations somewhere in your distant 
+    monarchy. 
     When you make a skill roll in that base, add 2 to the dice pool.
 
 Exotic Weaponry
@@ -131,9 +135,10 @@ Unfamiliar Fighting Techniques
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
 
-TBD
+Monarch's Benevolence
 
-:   To be determined
+:   Your favor is freely bestowed as a boon to those in need.
+    Add 2 to the dice pool when you advance the Allay goal.
 
 :::::::::::::::::::::::::::::::::::::
 
