@@ -16,7 +16,7 @@ You have the **Artist** and **Scientist** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 ## Class Ability: Reshape the Battlefield
 
@@ -31,7 +31,7 @@ one of the Scene Power Words to one of your own Power Words until
 the end of the Crisis.  
 
 The maximum number of Scene Power Words you can change during a
-Crisis is equal to the current Volume number.
+Crisis is equal to the Volume number.
 
 ## Power Words
 

@@ -16,7 +16,7 @@ You have the **Explorer**, **Historian**, and **Politician** skills, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 ## Class Ability: For My Kingdom!
 

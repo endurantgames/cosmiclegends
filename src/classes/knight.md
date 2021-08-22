@@ -16,7 +16,7 @@ You have the **Criminal**, **Investigator**, and **Spy** skills, plus four
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 ## Class Ability: Peak Human Potential
 
@@ -108,7 +108,7 @@ Weapons Locker
 
 :   You have a huge cache of conventional weapons.
     From the following list, pick a number equal to the
-    current Volume and add those as Personal Power Words:
+    Volume and add those as Personal Power Words:
     Bullets, Grenade, Handgun, Knife, Non-Lethal,
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.

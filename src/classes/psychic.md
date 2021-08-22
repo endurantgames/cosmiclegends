@@ -16,7 +16,7 @@ You have the **Academic** skill, plus two
 additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 ## Class Ability: Our Minds As One
 
@@ -143,9 +143,11 @@ Power Overwhelming
 :   Your capacity for psionics is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
-TBD
+Skill Sharing
 
-:   to be determined
+:   Your mind link allows skills to be shared. 
+    Someone in your link is considered to have a skill if 
+    anyone in your link has that skill.
 
 :::::::::::::::::::::::::::::::::::::
 

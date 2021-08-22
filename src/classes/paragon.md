@@ -15,7 +15,7 @@ As you create your Paragon hero, answer any or all of these questions.
 You have two skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the current Volume.
+dice equal to the Volume.
 
 ## Class Ability: My One Weakness!
 
