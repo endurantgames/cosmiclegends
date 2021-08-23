@@ -858,7 +858,7 @@ additional points to distribute to them.
 Your hero specializes in one style of fighting, whether they attack 
 with their fists or their powers. Those styles are:
 
-- **Acrobat**        Reduce by 1 the cost to avoid a Crisis move targeting only you.
+- **Acrobat**        Reduce by 1 the cost to counter a Crisis move targeting only you.
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
 - **Frenzy**         Add 2 dice when you use a Power to advance the Smash Goal.
@@ -1822,6 +1822,7 @@ Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
 - Adapation
 - Analyze
+- Dynamic
 - Emitter
 - Energetic
 - Force
@@ -1833,8 +1834,7 @@ Choose six Personal Power Words from the following list:
 - Protection
 - Telemetry
 - Transportation
-- TBD
-- TBD
+- Wings
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -2449,7 +2449,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free;
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Lord Obsidio, Prince of Vulcanor](art/jeshields/monarch.png "Lord Obsidio, prince of Vulcanor"){.class}
+![Obsidius Rex, Prince of Vulcanor](art/jeshields/monarch.png "Lord Obsidio, prince of Vulcanor"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Monarch Abilities {  .class}
@@ -3079,8 +3079,8 @@ Psionic Weapon
 Telekinetics
 
 :   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add a Personal Power Word from the
-    Shaper list as a Personal Power Word.
+    move objects with ease. Add an Elemental Power Word and a
+    Personal Power Word from the Shaper's lists as Personal Power Words.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3215,6 +3215,7 @@ Element Power Word -- chosen from the following list:
 - Force
 - Gravity
 - Ice
+- Paper
 - Plants
 - Rock
 - Shadows
@@ -3239,7 +3240,7 @@ Choose six Personal Power Words from the following list:
 - Destroy
 - Ring
 - Flight
-- Flight
+- Move
 - Quell
 - Reshape
 - Sense

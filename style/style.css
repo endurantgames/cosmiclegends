@@ -872,6 +872,8 @@ margin-top: 1em; }
 
 .herosheet { break-before: page; }
 
+.herosheet .pregen { color: blue; }
+
 .herosheet .pregen strong { text-decoration: underline; }
 
 .herosheet .pregen > p span {
