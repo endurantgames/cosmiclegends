@@ -1,8 +1,7 @@
+::::::::::::::::::::: { .classdata #class-dynamo } :::::::::::::::
 # The Dynamo {#toc-dynamo .breakbefore .class}
 
-> quote quote quote
-
-![The Dynamo](art/jeshields/dynamo.png){.class} \ 
+> Stand back, everyone. This one's gonna hurt.
 
 []{.lorem}
 
@@ -95,6 +94,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Energy Boy, the Living Reactor](art/jeshields/dynamo.png "Energy Boy, the living reactor"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Dynamo Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
@@ -106,6 +109,11 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
+Eight Ball, Corner Pocket
+
+:   You're extremely good at bouncing your blasts off solid targets. 
+    When you do, add 2 to the dice pool to advance the Outwit goal.
+
 Fight Fire With Fire
 
 :   If a Crisis threatens you or someone else with
@@ -114,23 +122,15 @@ Fight Fire With Fire
     You can spend points of Might instead of points from
     the Teamwork Pool to avoid energy-themed effects.
 
-Wide Spread
+Wide Burst
 
 :   You can spread your energy in a burst that hits
     many targets. When you advance the Smash goal by
     at least 1, advance another goal by 1.
 
-Eight Ball, Corner Pocket
+TBD
 
-:   You're extremely good at bouncing your blasts off solid targets. 
-    When you do, add 2 to the dice pool to advance the Outwit goal.
-
-Synergy Sense
-
-:   You can sense the presence of energy that matches your
-    Energy Power Word. You can roll Suspense/Synergy Sense
-    as a skill to locate such energies: add the Volume to the
-    dice pool.
+:   to be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -198,3 +198,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

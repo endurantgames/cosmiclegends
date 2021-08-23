@@ -93,5 +93,69 @@
 [Take the Hit               ]{.label .action .a6}
 [Counter a Crisis Effect    ]{.label .action .a7}
 
+::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
+[4]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[2]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[1]{.pregen-facet .suspense}
+
+[Rockstar]{.pregen-name}
+[Monstrosity]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Frenzy** Add 2 dice to advance the Smash goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Criminal]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Hacker]{.pregen-skill}
+[Performer (Punk)]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Strongest]{.pregen-word}
+[Monster]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Body]{.pregen-word}
+[Leap]{.pregen-word}
+[Rocky]{.pregen-word}
+[Stomp]{.pregen-word}
+[Strength]{.pregen-word}
+[Throw]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Mosh]{.pregen-word}
+[Pit]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Engine of Destruction**
+Add 2 to Smash roll's Effectiveness if
+using Core or Nova as 3rd Power Word]{.pregen-ability-class}
+[**Misunderstood Monster**
+Add 2 dice when advancing Allay or Rescue]{.pregen-ability-v1}
+
+[Fun]{.pregen-ideal .pregen-i1}
+[Music]{.pregen-ideal .pregen-i2}
+[Kindness]{.pregen-ideal .pregen-i3}
+[Bold]{.pregen-ideal .pregen-i4}
+[Shy]{.pregen-ideal .pregen-i5}
+
+[Jeri North]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Before the radiation accident, Jeri North was a
+promising young musician. But then she got changed
+into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
+[I want Rockstar to be **invited to join a new band.**]{.pregen-storyline}
+
+![Rockstar](art/jeshields/rockstar_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -34,6 +34,9 @@ PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT    = $(OUTDIR)/Cosmic-Legends.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
+PREGEN_RECIPE = pregens
+PREGEN_SRC = $(BUILDDIR)/pregens.md
+PREGEN_OUT = $(OUTDIR)/Cosmic-Legends-pregens.pdf
 SHEET_RECIPE = herosheet
 SHEET_SRC = $(BUILDDIR)/herosheet.md
 SHEET_OUT = $(OUTDIR)/Cosmic-Legends-herosheet.pdf
@@ -44,18 +47,18 @@ LETTER_OUT = $(OUTDIR)/Cosmic-Legends-letter.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
-PROJ_CSS    = --css=$(STYLEDIR)/style.css
-# PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
-# PROJ_CSS    = --css=$(STYLEDIR)/alt-sheet.css
-SHEET_CSS = --css=$(STYLEDIR)/style.css
-SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-sheet.css
+PROJ_CSS        = --css=$(STYLEDIR)/style.css
+PREGEN_CSS      = --css=$(STYLEDIR)/pregens.css
+SHEET_CSS       = --css=$(STYLEDIR)/style.css
+SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
-LETTER_CSS = --css=$(STYLEDIR)/letter.css
+LETTER_CSS      = --css=$(STYLEDIR)/letter.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
+PREGEN_FLAGS  = $(FLAGS) $(PREGEN_CSS) $(PRINCEFLAGS_PREGEN)
 LETTER_FLAGS  = $(FLAGS) $(LETTER_CSS) $(PRINCEFLAGS_LETTER)
 SHEET_FLAGS  = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS  = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
@@ -73,11 +76,17 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
 # PRINCEFLAGS    = 
+# PRINCEFLAGS_PREGEN = 
+PRINCEFLAGS_LETTER    = 
+PRINCEFLAGS_SHEET    = 
+PRINCEFLAGS_SHEET_ALT    = 
+PRINCEFLAGS_SHEET_COLOR    = 
 PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
-PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
-PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
-PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_color_%d.png
+PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
+# PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
+# PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
+# PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
+# PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_color_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -148,6 +157,7 @@ blorng := $(shell tput setab 208)
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
+# default: pregen
 default: pdf
 # default: all
 # default: sheet
@@ -252,8 +262,18 @@ letter: markdown
 	@      -$(EXPLORER)
 
 sheet-markdown:
-	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
+	@ echo '$(ltmagn)Collecting sheet markdown.$(resetc)'
 	@       $(MAKE_MD) $(SHEET_RECIPE)
+
+pregen-markdown:
+	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
+	@       $(MAKE_MD) $(PREGEN_RECIPE)
+
+pregen: pregen-markdown
+	@ echo '$(ltblue)Making Pregens.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(PREGEN_FLAGS) -o $(PREGEN_OUT) $(PREGEN_SRC)
+	@       $(PDFINFO) $(PREGEN_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
 
 sheet: sheet-markdown
 	@ echo '$(ltblue)Making Hero Sheet.$(resetc)'
@@ -285,7 +305,7 @@ html: markdown
 # make all
 #   Edit: if you are making more than one pdf or html
 all: pdf letter sheets
-sheets: sheet alt-sheet color-sheet
+sheets: sheet alt-sheet color-sheet pregen
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
@@ -296,3 +316,4 @@ vi:     edit
 vim:    edit
 game: all
 sheet-alt: alt-sheet
+pregens: pregen

@@ -93,5 +93,64 @@
 [Take the Hit               ]{.label .action .a6}
 [Counter a Crisis Effect    ]{.label .action .a7}
 
+::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Titan]{.pregen-name}
+[The Paragon]{.pregen-class}
+[15]{.pregen-health}
+[10]{.pregen-might}
+
+[**Mediator** Add 2 dice when you advance the Allay Goal. ]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Investigator]{.pregen-skill}
+[Scientist]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Powers]{.pregen-word}
+[Abilities]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Alien]{.pregen-word}
+[Cold]{.pregen-word}
+[Flight]{.pregen-word}
+[Probe]{.pregen-word}
+[Speed]{.pregen-word}
+[Strength]{.pregen-word}
+[Thoughts]{.pregen-word}
+[Vision]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Selfless]{.pregen-word}
+[Compassion]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**My One Weakness!** When doused with salt water]{.pregen-ability-class}
+[**Boundless Fortitude** Increase your Health to 15]{.pregen-ability-v1}
+
+[Freedom]{.pregen-ideal .pregen-i1}
+[Joy]{.pregen-ideal .pregen-i2}
+[Caution]{.pregen-ideal .pregen-i3}
+[Curiosity]{.pregen-ideal .pregen-i4}
+[Privacy]{.pregen-ideal .pregen-i5}
+
+[Sentinel of Saturn]{.pregen-nickname}
+[He/They/It]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Titan is a tall alien about 7 1/2 feet tall with green skin and yellowish eyes. They don't have an alternate identity.]{.pregen-bio}
+[The Sentinel of Saturn needs to **Let humans make their own mistakes.**]{.pregen-storyline}
+
+![Titan](art/jeshields/titan_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

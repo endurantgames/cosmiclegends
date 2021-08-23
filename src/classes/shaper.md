@@ -1,8 +1,7 @@
+::::::::::::::::::: {.classdata #class-shaper } ::::::::::::::
 # The Shaper {#toc-shaper .breakbefore .class}
 
-> quote quote quote
-
-![The Shaper](art/jeshields/shaper.png){.class} \ 
+> Everyone wave goodbye to him! Get it? Wave. Because I control waves. Nobody? Tough crowd.
 
 []{.lorem}
 
@@ -109,6 +108,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::: { .classpic .wide } :::::::::::::::::::::::
+![Riptide, the Wave-Wielding Wonder](art/jeshields/shaper.png "Riptide, the Wave-Wielding Wonder"){.class .wide}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Shaper Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -133,18 +136,18 @@ Force Field
     Instead of losing Health, you can lose an equal
     amount of Might.
 
+Shelter the Innocents
+
+:   Your power over substances makes you exceptionally skilled at 
+    protecting bystanders from harm. Add 2 to the dice pool when
+    you use a Power to advance the Rescue goal.
+
 Wall of Matter
 
 :   You can construct a defensive wall to protect yourself and
     your teammates. When a Crisis Move affects all of the heroes,
     you can spend 1 Might to counter it instead of spending 
     from the Teamwork Pool.
-
-Shelter the Innocents
-
-:   Your power over substances makes you exceptionally skilled at 
-    protecting bystanders from harm. Add 2 to the dice pool when
-    you use a Power to advance the Rescue goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -215,3 +218,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

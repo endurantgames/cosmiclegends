@@ -93,5 +93,67 @@
 [Take the Hit               ]{.label .action .a6}
 [Counter a Crisis Effect    ]{.label .action .a7}
 
+::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[1]{.pregen-facet .adventure}
+[4]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Jack Dee]{.pregen-name}
+[The Mage]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Tactician** Add 2 dice when you contribute to the Teamwork Pool.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Academic]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Lawyer]{.pregen-skill}
+[Mystic]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Sorcery]{.pregen-word}
+[Supreme]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Banish]{.pregen-word}
+[Blast]{.pregen-word}
+[Extradimensional]{.pregen-word}
+[Magic]{.pregen-word}
+[Shield]{.pregen-word}
+[Ward]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Ancestral]{.pregen-word}
+[Empowerment]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**The Price of Magic** If using Core or Nova as 3rd Power Word,
+count 2s as Edge Successes.]{.pregen-ability-class}
+[**Mists of Misdirection** Add 2 dice when Advancing the Outwit or Rescue goals]{.pregen-ability-v1}
+
+[Responsibility]{.pregen-ideal .pregen-i1}
+[Duty]{.pregen-ideal .pregen-i2}
+[Order]{.pregen-ideal .pregen-i3}
+[Family]{.pregen-ideal .pregen-i4}
+[Secrecy]{.pregen-ideal .pregen-i5}
+
+[The Master Magister]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Jack Dee is the scion of a long line of mystical protectors.
+He'd rather be a lawyer, so usually dresses like one.
+Jack has brown hair and vandyke.]{.pregen-bio}
+[I want Jack to **Get asked out by some villain dude.**]{.pregen-storyline}
+
+![Jack Dee](art/jeshields/jackdee_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

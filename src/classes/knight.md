@@ -1,8 +1,7 @@
+:::::::::::::::::::::: { .classdata #class-knight } :::::::::::::
 # The Knight  {#toc-knight .breakbefore .class}
 
-> quote quote quote
-
-![The Knight](art/jeshields/knight.png){.class} \ 
+> Hh.
 
 []{.lorem}
 
@@ -86,6 +85,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Percival, The Grailknight](art/jeshields/knight.png "Percival, the Grailknight"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Knight Abilities { .class}
 
 Each Volume, you gain a new ability from your class.
@@ -97,6 +100,17 @@ perfection of your physical and mental capabilities.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
+
+Team, Together!
+
+:   You are a natural leader. 
+    Add 2 to the Dice Pool to add to the Teamwork Pool.
+
+Toughness
+
+:   Your training focuses on increasing your ability to
+    withstand pain. Increase your maximum Health to 12.
+
 Trick Arrows
 
 :   You have specialized weapons, each for a different job.
@@ -106,11 +120,6 @@ Trick Arrows
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
-Team, Together!
-
-:   You are a natural leader. 
-    Add 2 to the Dice Pool to add to the Teamwork Pool.
-
 Weapons Locker
 
 :   You have a huge cache of conventional weapons.
@@ -119,11 +128,6 @@ Weapons Locker
     Bullets, Grenade, Handgun, Knife, Non-Lethal,
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.
-
-Toughness
-
-:   Your training focuses on increasing your ability to
-    withstand pain. Increase your maximum Health to 12.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -152,17 +156,17 @@ Master of Skills
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-Tactical Mastery
-
-:   Your mastery of combat techniques is unparalleled.
-    Gain a number of fighting styles equal to the Volume.
-    Add an additional fighting style at the start of each later Volume.
-
 Implacable Foe
 
 :   Your determination may be your greatest asset.
     Instead of losing Health, you can lose an equal
     amount of Might.
+
+Tactical Mastery
+
+:   Your mastery of combat techniques is unparalleled.
+    Gain a number of fighting styles equal to the Volume.
+    Add an additional fighting style at the start of each later Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -198,3 +202,4 @@ TBD
 - two
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

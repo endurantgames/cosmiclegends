@@ -1,8 +1,7 @@
+:::::::::::: { .classdata #class-paragon } :::::::::::::::::::
 # The Paragon  {#toc-paragon .breakbefore .class}
 
-> quote quote quote
-
-![The Paragon](art/jeshields/paragon.png){.class} \ 
+> I'm sorry, but I can't let you do that.
 
 []{.lorem}
 
@@ -98,6 +97,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Titan, Sentinel of Saturn](art/jeshields/paragon.png "Titan, Sentinel of Saturn"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Paragon Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -114,16 +117,16 @@ Boundless Fortitude
 :   You are amazingly hard to hurt. Increase your maximum
     Health to 15.
 
-Hero of the People
-
-:   You are looked up to by the common people. Add 2 to the
-    dice pool when you advance the Rescue goal.
-
 Dedicated Defender
 
 :   You protect others from harm with your own body. 
     When you use the Take the Blow move, you lose a maximum 
     of 1 Health.
+
+Hero of the People
+
+:   You are looked up to by the common people. Add 2 to the
+    dice pool when you advance the Rescue goal.
 
 Multipower
 
@@ -156,16 +159,16 @@ TBD
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-Nigh-Invulnerable
-
-:   There are few things that can seriously harm you.
-    Increase your maximum Health to 20.
-
 Castle of Quiettude
 
 :   You have a base of operations in a remote location. When
     you make a skill roll in that building, add 2 to the dice
     pool.
+
+Nigh-Invulnerable
+
+:   There are few things that can seriously harm you.
+    Increase your maximum Health to 20.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -199,3 +202,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -1,8 +1,7 @@
+:::::::::::::::::: { .classdata #class-monarch } :::::::::::
 # The Monarch  {#toc-monarch .breakbefore .class}
 
-> quote quote quote
-
-![The Monarch](art/jeshields/monarch.png){.class} \ 
+> I shall forgive you but once for your disrespect.
 
 []{.lorem}
 
@@ -85,6 +84,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Lord Obsidio, Prince of Vulcanor](art/jeshields/monarch.png "Lord Obsidio, prince of Vulcanor"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Monarch Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -96,23 +99,6 @@ is inaccessible to those outside of your home.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-Noblesse Oblige
-
-:   You feel an obligation to protect the ordinary people of the world. 
-    Add 2 to the dice pool to advance the Rescue goal. If the
-    bystanders are your subjects, also add the Volume to the dice pool.
-
-Righteous Rage
-
-:   If you are below half Health, add 2 to the dice pool to 
-    advance the Smash goal.
-
-Remote Palace
-
-:   You have a hidden base of operations somewhere in your distant 
-    monarchy. 
-    When you make a skill roll in that base, add 2 to the dice pool.
-
 Exotic Weaponry
 
 :   The weapons from your home use a technology that defies
@@ -123,6 +109,23 @@ Exotic Weaponry
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+Noblesse Oblige
+
+:   You feel an obligation to protect the ordinary people of the world. 
+    Add 2 to the dice pool to advance the Rescue goal. If the
+    bystanders are your subjects, also add the Volume to the dice pool.
+
+Remote Palace
+
+:   You have a hidden base of operations somewhere in your distant 
+    monarchy. 
+    When you make a skill roll in that base, add 2 to the dice pool.
+
+Righteous Rage
+
+:   If you are below half Health, add 2 to the dice pool to 
+    advance the Smash goal.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -130,17 +133,17 @@ Exotic Weaponry
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
+Monarch's Benevolence
+
+:   Your favor is freely bestowed as a boon to those in need.
+    Add 2 to the dice pool when you advance the Allay goal.
+
 Unfamiliar Fighting Techniques
 
 :   You have trained in a number of fighting techniques
     unknown to the outside world.
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
-
-Monarch's Benevolence
-
-:   Your favor is freely bestowed as a boon to those in need.
-    Add 2 to the dice pool when you advance the Allay goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -189,3 +192,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

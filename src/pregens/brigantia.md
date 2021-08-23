@@ -93,5 +93,73 @@
 [Take the Hit               ]{.label .action .a6}
 [Counter a Crisis Effect    ]{.label .action .a7}
 
+::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
+[3]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[1]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Brigantia]{.pregen-name}
+[The Divine]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Brawler** Add 2 dice to Advance Smash when punching.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Explorer  ]{.pregen-skill}
+[Historian ]{.pregen-skill}
+[Mystic    ]{.pregen-skill}
+[Performer (poet)]{.pregen-skill}
+[Physician]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Blessed]{.pregen-word}
+[Champion]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Flight]{.pregen-word}
+[Peace]{.pregen-word}
+[Radiant]{.pregen-word}
+[Resist]{.pregen-word}
+[Speed]{.pregen-word}
+[Strength]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Blazing]{.pregen-word}
+[Sword]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Give Me Strength!**
+Use Core or Nova Power Words in a Power Stunt or Power Combo, 
+count 6s as two successes, lose 1 Health or Might after roll
+per extra success.]{.pregen-ability-class}
+[**Wisdom of Athena**
+Add 2 to the dice pool to advance the Outwit or Allay goals.]{.pregen-ability-v1}
+
+[ Vengeance ]{.pregen-ideal .pregen-i1}
+[ Honor     ]{.pregen-ideal .pregen-i2}
+[ Loyalty   ]{.pregen-ideal .pregen-i3}
+[ Justice   ]{.pregen-ideal .pregen-i4}
+[ Culture   ]{.pregen-ideal .pregen-i5}
+
+[Sienna MacGowan]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[In her normal form, Sienna is a shy, nerdy young
+woman about 22 years old, about 5'2" and 145 lbs. 
+As **Brigantia**, she is over 7 feet tall and weighs
+over 300 lbs.]{.pregen-bio}
+[Brigantia needs to learn that 
+**Not everything can be solved by punching something.**]{.pregen-storyline}
+
+![Brigantia](art/jeshields/brigantia_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

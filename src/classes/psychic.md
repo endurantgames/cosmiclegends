@@ -1,8 +1,7 @@
+:::::::::::::::: {.classdata #class-psychic} :::::::::::::::
 # The Psychic {#toc-psychic .breakbefore .class}
 
-> quote quote quote
-
-![The Psychic](art/jeshields/psychic.png){.class} \ 
+> I know secrets about you that you don't even know yourself.
 
 []{.lorem}
 
@@ -84,6 +83,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Psychic Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -96,29 +99,29 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Psionic Weapon
-
-:   You can form a weapon out of pure psionic energy. Add
-    Weapon as a Personal Power Word and pick a Fighting Style
-    that complements that weapon.
-
 Cloud the Senses
 
 :   With your mastery of mental illusion, you're able to fool 
     nearly anyone. Add 2 to the dice pool when you use a Power
     to advance the Outwit goal.
 
-Telekinetics
-
-:   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add a Personal Power Word from the
-    Shaper list as a Personal Power Word.
-
 Empath
 
 :   You can use your empathic powers to read emotions and calm
     a crowd. Add 2 to the dice pool when you use a Power to 
     advance the Allay goal.
+
+Psionic Weapon
+
+:   You can form a weapon out of pure psionic energy. Add
+    Weapon as a Personal Power Word and pick a Fighting Style
+    that complements that weapon.
+
+Telekinetics
+
+:   Your mental power has a physical manifestation, letting you
+    move objects with ease. Add a Personal Power Word from the
+    Shaper list as a Personal Power Word.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -127,16 +130,16 @@ Empath
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Psychic Healing
-
-:   As a move, you can use your mental powers to heal someone else.
-    They regain Health equal to the Effectiveness of a Power roll.
-
 Mind Over Matter
 
 :   You can keep yourself conscious through sheer force of will.
     Instead of losing Health, you can lose an equal amount
     of Might.
+
+Psychic Healing
+
+:   As a move, you can use your mental powers to heal someone else.
+    They regain Health equal to the Effectiveness of a Power roll.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -188,3 +191,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

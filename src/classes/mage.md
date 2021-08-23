@@ -1,8 +1,7 @@
+::::::::::::::::::::::::::: { .classdata #class-mage } ::::::::
 # The Mage {#toc-mage .breakbefore .class}
 
-> quote quote quote
-
-![The Mage](art/jeshields/mage.png){.class} \ 
+> By the Blistering Bonds of Brathoon, be banished!
 
 []{.lorem}
 
@@ -82,6 +81,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Jack Dee, the Master Magister](art/jeshields/mage.png "Jack Dee, the Master Magister"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Mage Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -93,28 +96,28 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Sanctuary of Sanctity
-
-:   You have a base of operations hidden in a normal-looking building
-    or tower. When you make a skill roll in that building, add 2
-    to the dice pool.
-
-Mists of Misdirection
-
-:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
-    a power to advance the Outwit goal.
-
-Thinking with Portals
-
-:   Add Portal as a Personal Power Word. You can make the General
-    Alert move without spending from the Teamwork Pool.
-
 Auspicious Alliteration
 
 :   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
     or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
     for each Word whose first letter matches the first letter of 
     another Word in the Stunt or Combo.
+
+Mists of Misdirection
+
+:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
+    a power to advance the Outwit or Rescue goals.
+
+Sanctuary of Sanctity
+
+:   You have a base of operations hidden in a normal-looking building
+    or tower. When you make a skill roll in that building, add 2
+    to the dice pool.
+
+Thinking with Portals
+
+:   Add Portal as a Personal Power Word. You can make the General
+    Alert move without spending from the Teamwork Pool.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -123,11 +126,6 @@ Auspicious Alliteration
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Eldritch Might
-
-:   Your power continues to grow, but at what cost? Increase your
-    maximum Might to 15.
-
 Arcane Arsenal
 
 :   At the start of each Storyline, pick a number of Power Words
@@ -135,6 +133,11 @@ Arcane Arsenal
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+
+Eldritch Might
+
+:   Your power continues to grow, but at what cost? Increase your
+    maximum Might to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -183,3 +186,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

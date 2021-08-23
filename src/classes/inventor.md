@@ -1,8 +1,7 @@
+::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
 # The Inventor {#toc-inventor .breakbefore .class}
 
-> quote quote quote
-
-![The Inventor](art/jeshields/inventor.png){.class} \ 
+> I've been itching to try out these new modifications in the field!
 
 []{.lorem}
 
@@ -82,6 +81,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Inventor Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -94,18 +97,11 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Stately Skyscraper
+Armorsmith
 
-:   You have a base of operations at the top of a tall building.
-    When you make a skill roll in that building, add 2 
-    to the dice pool.
-
-Perspicacious Pettifoggery
-
-:   Using your vast vocabulary of super-scientific knowledge, you can 
-    easily out-technobabble your opponents. When you roll to advance
-    the Outwit goal, add the largest number of syllables in a Power
-    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+:   You've invented a suit of armor. Add Armor as a Core
+    Power Word and one Personal Power Word from the Dynamo's
+    or Paragon's Personal Power Word list.
 
 Flexible Faculties
 
@@ -114,11 +110,18 @@ Flexible Faculties
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
-Armorsmith
+Perspicacious Pettifoggery
 
-:   You've invented a suit of armor. Add Armor as a Core
-    Power Word and one Personal Power Word from the Dynamo's
-    or Paragon's Personal Power Word list.
+:   Using your vast vocabulary of super-scientific knowledge, you can 
+    easily out-technobabble your opponents. When you roll to advance
+    the Outwit goal, add the largest number of syllables in a Power
+    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+
+Stately Skyscraper
+
+:   You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 
+    to the dice pool.
 
 :::::::::::::::::::::::::::::::::::
 
@@ -191,3 +194,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -93,5 +93,63 @@
 [Take the Hit               ]{.label .action .a6}
 [Counter a Crisis Effect    ]{.label .action .a7}
 
+::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
+[]{.pregen-facet .action}
+[]{.pregen-facet .adventure}
+[]{.pregen-facet .detective}
+[]{.pregen-facet .mystery}
+[]{.pregen-facet .suspense}
+
+[]{.pregen-name}
+[]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[]{.pregen-skill}
+[]{.pregen-skill}
+[]{.pregen-skill}
+[]{.pregen-skill}
+[]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[]{.pregen-word}
+[]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[]{.pregen-word}
+[]{.pregen-word}
+[]{.pregen-word}
+[]{.pregen-word}
+[]{.pregen-word}
+[]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[]{.pregen-word}
+[]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[]{.pregen-ability-class}
+[]{.pregen-ability-v1}
+
+[]{.pregen-ideal .pregen-i1}
+[]{.pregen-ideal .pregen-i2}
+[]{.pregen-ideal .pregen-i3}
+[]{.pregen-ideal .pregen-i4}
+[]{.pregen-ideal .pregen-i5}
+
+[]{.pregen-nickname}
+[]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[]{.pregen-bio}
+[]{.pregen-storyline}
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

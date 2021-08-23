@@ -97,7 +97,7 @@ title: Cosmic Legends of the Universe
 [Add to Teamwork Pool       ]{.label .action .a5}
 [Crisis Turn                ]{.label .action .act}
 [Take the Hit               ]{.label .action .a6}
-[Avoid a Crisis Effect      ]{.label .action .a7}
+[Counter a Crisis Effect    ]{.label .action .a7}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

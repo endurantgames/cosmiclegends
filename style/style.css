@@ -28,6 +28,8 @@ header h1     { string-set: gamename content()       }
   --font-h4: 'Legio Sabina Gradient';   
   --font-h5: 'Fawn Script';
   --font-h6: 'Fawn Script';
+  --font-caption: "Legio Sabina Condensed";
+  --font-pregens: "Ad Astra";
   /* 
   --font-h5: 'Legio Sabina Gradient';     
   --font-h6: 'Legio Sabina Condensed';     
@@ -98,6 +100,13 @@ header h1     { string-set: gamename content()       }
   --td:         9pt;
   --pagenum:   20pt;
   --quote:     24pt;
+  --quote-class: 16pt;
+  --caption:   10pt;
+  --pregen: 12pt;
+  --pregen-facet: 50pt;
+  --pregen-name: 30pt;
+  --pregen-class: 20pt;
+  --pregen-small: 10pt;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -142,7 +151,7 @@ p { margin-top: 0.25em; margin-bottom: 0.5em; }
 
 h2.breakbefore { margin-bottom: 0.5em; text-align: center; }
 
-h3.class { font-size: var(--h2); font-family: var(--font-h2); margin-bottom: 0.5em; text-align: center; }
+h3.class { font-size: var(--h2); font-family: var(--font-h2); margin-bottom: 0.5em; text-align: center; break-before: left; }
 
 h4.class { font-size: var(--h3); font-family: var(--font-h3); margin-bottom: 0.5em; text-align: center; }
 
@@ -195,17 +204,13 @@ p, li { orphans: 3; line-height: 1.30; }
 @page:nth(3) { @bottom-right   { content: normal; }  }
 
 
-figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
-table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
-.sidehead         { counter-increment: sidebar;                                                                       }
-.chapter          { counter-increment: chapter;                                                                       }
-.section          { counter-increment: section;                                                                       }
-
-figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
-figure caption:before    { content: 'Table ' counter(table) ': ';   }
-
-.section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
-.chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
+figure figcaption { 
+  counter-increment: figure; 
+  display: block; 
+  text-align: outside;
+  font-size: var(--caption); 
+  font-family: var(--font-caption); 
+}
 
 #toc {
   column-span: all; float: top;
@@ -604,7 +609,7 @@ margin-top: 1em; }
 .twocolumn ul { break-inside: auto; margin: 0; margin-left: 0.5em; }
 .twocolumn table { break-inside: auto; }
 
-.cpw { column-count: 3; column-gap: 1em; break-inside: avoid; }
+.cpw { column-count: 2; column-gap: 1em; break-inside: avoid; }
 .cpw ul { break-inside: auto; margin: 0; }
 .cpw ul li { list-style-type: none; }
 
@@ -632,11 +637,21 @@ margin-top: 1em; }
   color: black;
 }
 
-img.class {
+.classdata blockquote {
+  font-size: var(--quote-class);
+}
+
+.classpic figure {
   float: column top;
-  float-defer-column: right;
-  width: 100%;
-  height: auto;
+  -prince-float-defer-column: outside;
+  margin-bottom: 2em;
+}
+.classpic figure img { width: 100%; height: auto; } 
+
+.classpic.wide figure { 
+  float: page bottom;
+  column-span: all;
+  margin-top: 2em;
 }
 
 .herosheet { page: herosheet; column-span: all; }
@@ -853,3 +868,161 @@ img.class {
 .herosheet .action.a6  { top: 5.32in; }
 .herosheet .action.a7  { top: 5.44in; }
 
+.herosheet { break-before: page; }
+
+.herosheet .pregen strong { text-decoration: underline; }
+
+.herosheet .pregen > p span {
+  display: block;
+  position: absolute;
+  font-family: var(--font-pregens);
+}
+
+.herosheet .pregen > div {
+  display: block;
+  position: absolute;
+  font-family: var(--font-pregens);
+  line-height: 1.2;
+}
+
+.herosheet .pregen > div span {
+  display: block;
+  line-height: 1.2;
+}
+
+.herosheet .pregen .pregen-facet {
+  font-size: var(--pregen-facet);
+  width: 1in;
+  text-align: center;
+}
+
+.herosheet .pregen .pregen-facet.action    { top:    0.25in; left:  2.75in; }
+.herosheet .pregen .pregen-facet.adventure { top:    0.25in; right: 2.75in; }
+.herosheet .pregen .pregen-facet.suspense  { top:    3.20in; left:  0.25in; }
+.herosheet .pregen .pregen-facet.detective { top:    3.20in; right: 0.25in; }
+.herosheet .pregen .pregen-facet.mystery   { bottom: 0.37in; left:  5.00in; }
+
+.herosheet .pregen .pregen-name { 
+  top: 0.25in;
+  left: 4.5in; 
+  right: 4.5in; 
+  text-align: center; 
+  font-size: var(--pregen-name); 
+}
+
+.herosheet .pregen .pregen-class {
+  top: 0.75in;
+  left: 0.50in;
+  font-size: var(--pregen-class);
+  width: 2.25in;
+  text-align: center;
+}
+
+.herosheet .pregen .pregen-nickname  {
+  top: 0.85in;
+  right: 0.50in;
+  width: 2.25in;
+  text-align: center;
+  font-size: var(--pregen);
+}
+
+.herosheet .pregen .pregen-pronouns  {
+  top: 1.60in;
+  right: 1.25in;
+  width: 1in;
+  font-size: var(--pregen);
+  text-align: center;
+}
+
+.herosheet .pregen .pregen-fighting-style {
+  top: 1.55in; 
+  width: 4in; 
+  left: 3.5in; 
+  text-align: center; 
+  font-size: var(--pregen);
+}
+
+.herosheet .pregen .pregen-health {
+  font-size: var(--pregen-class);
+  top: 2.8in; left: 0.90in; 
+}
+
+.herosheet .pregen .pregen-might {
+  font-size: var(--pregen-class);
+  top: 2.8in; right: 0.90in;
+}
+
+.herosheet .pregen .pregen-skills .pregen-skill { width: 100%; }
+
+.herosheet .pregen .pregen-skills {
+  top: 2.00in;
+  left: 6.25in;
+  font-size: var(--pregen);
+  width: 2in;
+}
+
+.herosheet .pregen .pregen-ability-class strong { display: block; }
+
+.herosheet .pregen .pregen-ability-class {
+  top: 2.25in;
+  right: 6.00in;
+  font-size: var(--pregen-small);
+  width: 2in;
+  line-height: 1.2;
+}
+
+.herosheet .pregen .pregen-ability-v1 {
+  top: 0.95in;
+  width: 3.0in;
+  left: 4.00in;
+  font-size: var(--pregen-small);
+  line-height: 1.2;
+}
+
+.herosheet .pregen .pregen-personal {
+  bottom: 3in;
+  left: 6.25in;
+  font-size: var(--pregen);
+  width: 2in;
+}
+
+.herosheet .pregen .pregen-core {
+  bottom: 3in;
+  right: 6.00in;
+  font-size: var(--pregen);
+  width: 2in;
+}
+
+.herosheet .pregen .pregen-core .pregen-word { text-align: right; }
+
+.herosheet .pregen .pregen-nova {
+  top: 6in;
+  left: 4in;
+  width: 3in;
+  font-size: var(--pregen);
+}
+
+.herosheet .pregen .pregen-nova .pregen-word { text-align: center; }
+
+.herosheet .pregen .pregen-ideal { font-size: var(--pregen-class); width: 2.00in; }
+.herosheet .pregen .pregen-ideal.pregen-i1 { top: 1.15in; left: 1.125in; text-align: right; }
+.herosheet .pregen .pregen-ideal.pregen-i2 { top: 1.15in; right: 1.125in; text-align: left; }
+.herosheet .pregen .pregen-ideal.pregen-i3 { top: 3.58in; left:  1.50in; text-align: left; }
+.herosheet .pregen .pregen-ideal.pregen-i4 { top: 3.58in; right: 1.50in; text-align: right; }
+.herosheet .pregen .pregen-ideal.pregen-i5 { width: 2.50in; bottom: 1.25in; left: 4.25in; text-align: center; }
+
+.herosheet .pregen .pregen-volume { top: 1.655in; left:  1.20in; }
+.herosheet .pregen .pregen-volume.v1:before { content: '\002612\002610\002610\002610\002610 '; 
+}
+
+.herosheet .pregen .pregen-bio { top: 6.25in; right: 0.75in; width: 2.75in; font-size: var(--pregen); text-align: right; }
+.herosheet .pregen .pregen-storyline { top: 6.25in; left: 0.75in; width: 2.75in; font-size: var(--pregen); text-align: left; }
+
+.herosheet .pregen img.pregen-face { 
+  width: 1.00in; 
+  height: 1.00in; 
+  transform: rotate(45deg); 
+  top: 3.28in;
+  left: 5in;
+  position: absolute;
+}

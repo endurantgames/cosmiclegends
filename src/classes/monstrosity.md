@@ -1,8 +1,7 @@
+::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
 # The Monstrosity {#toc-monstrosity .breakbefore .class}
 
-> quote quote quote
-
-![The Monstrosity](art/jeshields/monstrosity.png){.class} \ 
+> So here's how this is gonna go. I'm gonna punch ya, you're gonna get real hurt, then give up. Capeesh?
 
 []{.lorem}
 
@@ -82,6 +81,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Monstrosity Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -93,6 +96,11 @@ humanity.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
+Boundless Fortitude
+
+:   You are amazingly hard to hurt. Increase your maximum
+    Health to 15.
+
 Fast Healer
 
 :   Your injuries heal quickly. Regain 1 Health at
@@ -104,11 +112,6 @@ Misunderstood Monster
 :   Even at your worst, you wouldn't harm an innocent.
     Add 2 to the dice pool when you advance the Allay 
     or Rescue goals.
-
-Boundless Fortitude
-
-:   You are amazingly hard to hurt. Increase your maximum
-    Health to 15.
 
 Unkillable
 
@@ -186,3 +189,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

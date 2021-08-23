@@ -1,8 +1,7 @@
+::::::::::::::::::::: { .classdata #class-divine } :::::::::::::::
 # The Divine {#toc-divine .breakbefore .class}
 
-> Quote quote quote
-
-![The Divine](art/jeshields/divine.png){.class} \ 
+> Blessed Mother Brigit, guide my hand!
 
 []{.lorem}
 
@@ -83,6 +82,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Divine Abilities { .class}
 
 Each Volume, you gain a new ability from your class. Your Divine
@@ -101,20 +104,20 @@ Courage of Ares
     When you are below half your Health, add 1 to the dice pool
     to advance any Goal.
 
-Wisdom of Athena
+Stamina of Atlas
 
-:   Your insight is unmatched by anyone save the gods themselves.
-    Add 2 to the dice pool to advance the Outwit goal.
+:   You are tougher than a mere mortal. Increase your maximum Health to 15.
 
 Strength of Kratos
 
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
-    Add 2 to the dice pool to advance the Smash goal.
+    Add 2 to the dice pool to advance the Smash or Rescue goals.
 
-Stamina of Atlas
+Wisdom of Athena
 
-:   You are tougher than a mere mortal. Increase your maximum Health to 15.
+:   Your insight is unmatched by anyone save the gods themselves.
+    Add 2 to the dice pool to advance the Outwit or Allay goals.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -189,3 +192,4 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

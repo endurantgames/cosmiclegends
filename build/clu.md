@@ -859,16 +859,16 @@ Your hero specializes in one style of fighting, whether they attack
 with their fists or their powers. Those styles are:
 
 - **Acrobat**        Reduce by 1 the cost to avoid a Crisis move targeting only you.
-- **Brawler**        Add 3 dice when you use an unarmed attack to advance the Smash goal.
-- **Controller**     Add 3 dice when you use a Power to advance the Outwit goal.
-- **Frenzy**         Add 3 dice when you use a Power to advance the Smash Goal.
+- **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
+- **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
+- **Frenzy**         Add 2 dice when you use a Power to advance the Smash Goal.
 - **Interceptor**    Reduce by 1 the cost to Take the Hit for someone else.
-- **Martial Artist** Add 3 dice when you use an unarmed attack to advance the Outwit goal.
-- **Mediator**       Add 2 dice when you advance the Allay Goal.
-- **Rescuer**        Add 2 dice when you advance the Rescue Goal.
-- **Sniper**         Add 3 dice when you use a ranged Weapon to advance the Smash goal.
-- **Tactician**      Add 3 dice when you add to the Teamwork Pool.
-- **Weaponmaster**   Add 3 dice when you use a melee Weapon to advance the Outwit goal.
+- **Martial Artist** Add 2 dice when you use an unarmed attack to advance the Outwit goal.
+- **Mediator**       Add 1 die when you advance the Allay Goal.
+- **Rescuer**        Add 1 die when you advance the Rescue Goal.
+- **Sniper**         Add 2 dice when you use a ranged Weapon to advance the Smash goal.
+- **Tactician**      Add 2 dice when you add to the Teamwork Pool.
+- **Weaponmaster**   Add 2 dice when you use a melee Weapon to advance the Outwit goal.
 
 If you choose the Knight class, you get to pick an additional fighting style. 
 
@@ -1370,11 +1370,10 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+::::::::::::::::::::: { .classdata #class-divine } :::::::::::::::
 ### The Divine {#toc-divine .breakbefore .class}
 
-> Quote quote quote
-
-![The Divine](art/jeshields/divine.png){.class} \ 
+> Blessed Mother Brigit, guide my hand!
 
 []{.lorem}
 
@@ -1455,6 +1454,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Divine Abilities { .class}
 
 Each Volume, you gain a new ability from your class. Your Divine
@@ -1473,20 +1476,20 @@ Courage of Ares
     When you are below half your Health, add 1 to the dice pool
     to advance any Goal.
 
-Wisdom of Athena
+Stamina of Atlas
 
-:   Your insight is unmatched by anyone save the gods themselves.
-    Add 2 to the dice pool to advance the Outwit goal.
+:   You are tougher than a mere mortal. Increase your maximum Health to 15.
 
 Strength of Kratos
 
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
-    Add 2 to the dice pool to advance the Smash goal.
+    Add 2 to the dice pool to advance the Smash or Rescue goals.
 
-Stamina of Atlas
+Wisdom of Athena
 
-:   You are tougher than a mere mortal. Increase your maximum Health to 15.
+:   Your insight is unmatched by anyone save the gods themselves.
+    Add 2 to the dice pool to advance the Outwit or Allay goals.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1561,12 +1564,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::: { .classdata #class-dynamo } :::::::::::::::
 ### The Dynamo {#toc-dynamo .breakbefore .class}
 
-> quote quote quote
-
-![The Dynamo](art/jeshields/dynamo.png){.class} \ 
+> Stand back, everyone. This one's gonna hurt.
 
 []{.lorem}
 
@@ -1659,6 +1662,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Energy Boy, the Living Reactor](art/jeshields/dynamo.png "Energy Boy, the living reactor"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Dynamo Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
@@ -1670,6 +1677,11 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
+Eight Ball, Corner Pocket
+
+:   You're extremely good at bouncing your blasts off solid targets. 
+    When you do, add 2 to the dice pool to advance the Outwit goal.
+
 Fight Fire With Fire
 
 :   If a Crisis threatens you or someone else with
@@ -1678,23 +1690,15 @@ Fight Fire With Fire
     You can spend points of Might instead of points from
     the Teamwork Pool to avoid energy-themed effects.
 
-Wide Spread
+Wide Burst
 
 :   You can spread your energy in a burst that hits
     many targets. When you advance the Smash goal by
     at least 1, advance another goal by 1.
 
-Eight Ball, Corner Pocket
+TBD
 
-:   You're extremely good at bouncing your blasts off solid targets. 
-    When you do, add 2 to the dice pool to advance the Outwit goal.
-
-Synergy Sense
-
-:   You can sense the presence of energy that matches your
-    Energy Power Word. You can roll Suspense/Synergy Sense
-    as a skill to locate such energies: add the Volume to the
-    dice pool.
+:   to be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1762,12 +1766,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
 ### The Inventor {#toc-inventor .breakbefore .class}
 
-> quote quote quote
-
-![The Inventor](art/jeshields/inventor.png){.class} \ 
+> I've been itching to try out these new modifications in the field!
 
 []{.lorem}
 
@@ -1847,6 +1851,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Inventor Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -1859,18 +1867,11 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Stately Skyscraper
+Armorsmith
 
-:   You have a base of operations at the top of a tall building.
-    When you make a skill roll in that building, add 2 
-    to the dice pool.
-
-Perspicacious Pettifoggery
-
-:   Using your vast vocabulary of super-scientific knowledge, you can 
-    easily out-technobabble your opponents. When you roll to advance
-    the Outwit goal, add the largest number of syllables in a Power
-    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+:   You've invented a suit of armor. Add Armor as a Core
+    Power Word and one Personal Power Word from the Dynamo's
+    or Paragon's Personal Power Word list.
 
 Flexible Faculties
 
@@ -1879,11 +1880,18 @@ Flexible Faculties
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
-Armorsmith
+Perspicacious Pettifoggery
 
-:   You've invented a suit of armor. Add Armor as a Core
-    Power Word and one Personal Power Word from the Dynamo's
-    or Paragon's Personal Power Word list.
+:   Using your vast vocabulary of super-scientific knowledge, you can 
+    easily out-technobabble your opponents. When you roll to advance
+    the Outwit goal, add the largest number of syllables in a Power
+    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+
+Stately Skyscraper
+
+:   You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 
+    to the dice pool.
 
 :::::::::::::::::::::::::::::::::::
 
@@ -1956,12 +1964,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::: { .classdata #class-knight } :::::::::::::
 ### The Knight  {#toc-knight .breakbefore .class}
 
-> quote quote quote
-
-![The Knight](art/jeshields/knight.png){.class} \ 
+> Hh.
 
 []{.lorem}
 
@@ -2045,6 +2053,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Percival, The Grailknight](art/jeshields/knight.png "Percival, the Grailknight"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Knight Abilities { .class}
 
 Each Volume, you gain a new ability from your class.
@@ -2056,6 +2068,17 @@ perfection of your physical and mental capabilities.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
+
+Team, Together!
+
+:   You are a natural leader. 
+    Add 2 to the Dice Pool to add to the Teamwork Pool.
+
+Toughness
+
+:   Your training focuses on increasing your ability to
+    withstand pain. Increase your maximum Health to 12.
+
 Trick Arrows
 
 :   You have specialized weapons, each for a different job.
@@ -2065,11 +2088,6 @@ Trick Arrows
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
-Team, Together!
-
-:   You are a natural leader. 
-    Add 2 to the Dice Pool to add to the Teamwork Pool.
-
 Weapons Locker
 
 :   You have a huge cache of conventional weapons.
@@ -2078,11 +2096,6 @@ Weapons Locker
     Bullets, Grenade, Handgun, Knife, Non-Lethal,
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.
-
-Toughness
-
-:   Your training focuses on increasing your ability to
-    withstand pain. Increase your maximum Health to 12.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2111,17 +2124,17 @@ Master of Skills
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-Tactical Mastery
-
-:   Your mastery of combat techniques is unparalleled.
-    Gain a number of fighting styles equal to the Volume.
-    Add an additional fighting style at the start of each later Volume.
-
 Implacable Foe
 
 :   Your determination may be your greatest asset.
     Instead of losing Health, you can lose an equal
     amount of Might.
+
+Tactical Mastery
+
+:   Your mastery of combat techniques is unparalleled.
+    Gain a number of fighting styles equal to the Volume.
+    Add an additional fighting style at the start of each later Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2157,12 +2170,12 @@ TBD
 - two
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::: { .classdata #class-mage } ::::::::
 ### The Mage {#toc-mage .breakbefore .class}
 
-> quote quote quote
-
-![The Mage](art/jeshields/mage.png){.class} \ 
+> By the Blistering Bonds of Brathoon, be banished!
 
 []{.lorem}
 
@@ -2242,6 +2255,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Jack Dee, the Master Magister](art/jeshields/mage.png "Jack Dee, the Master Magister"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Mage Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -2253,28 +2270,28 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Sanctuary of Sanctity
-
-:   You have a base of operations hidden in a normal-looking building
-    or tower. When you make a skill roll in that building, add 2
-    to the dice pool.
-
-Mists of Misdirection
-
-:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
-    a power to advance the Outwit goal.
-
-Thinking with Portals
-
-:   Add Portal as a Personal Power Word. You can make the General
-    Alert move without spending from the Teamwork Pool.
-
 Auspicious Alliteration
 
 :   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
     or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
     for each Word whose first letter matches the first letter of 
     another Word in the Stunt or Combo.
+
+Mists of Misdirection
+
+:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
+    a power to advance the Outwit or Rescue goals.
+
+Sanctuary of Sanctity
+
+:   You have a base of operations hidden in a normal-looking building
+    or tower. When you make a skill roll in that building, add 2
+    to the dice pool.
+
+Thinking with Portals
+
+:   Add Portal as a Personal Power Word. You can make the General
+    Alert move without spending from the Teamwork Pool.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2283,11 +2300,6 @@ Auspicious Alliteration
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Eldritch Might
-
-:   Your power continues to grow, but at what cost? Increase your
-    maximum Might to 15.
-
 Arcane Arsenal
 
 :   At the start of each Storyline, pick a number of Power Words
@@ -2295,6 +2307,11 @@ Arcane Arsenal
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+
+Eldritch Might
+
+:   Your power continues to grow, but at what cost? Increase your
+    maximum Might to 15.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2343,12 +2360,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::: { .classdata #class-monarch } :::::::::::
 ### The Monarch  {#toc-monarch .breakbefore .class}
 
-> quote quote quote
-
-![The Monarch](art/jeshields/monarch.png){.class} \ 
+> I shall forgive you but once for your disrespect.
 
 []{.lorem}
 
@@ -2431,6 +2448,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Lord Obsidio, Prince of Vulcanor](art/jeshields/monarch.png "Lord Obsidio, prince of Vulcanor"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Monarch Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -2442,23 +2463,6 @@ is inaccessible to those outside of your home.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
-Noblesse Oblige
-
-:   You feel an obligation to protect the ordinary people of the world. 
-    Add 2 to the dice pool to advance the Rescue goal. If the
-    bystanders are your subjects, also add the Volume to the dice pool.
-
-Righteous Rage
-
-:   If you are below half Health, add 2 to the dice pool to 
-    advance the Smash goal.
-
-Remote Palace
-
-:   You have a hidden base of operations somewhere in your distant 
-    monarchy. 
-    When you make a skill roll in that base, add 2 to the dice pool.
-
 Exotic Weaponry
 
 :   The weapons from your home use a technology that defies
@@ -2469,6 +2473,23 @@ Exotic Weaponry
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+Noblesse Oblige
+
+:   You feel an obligation to protect the ordinary people of the world. 
+    Add 2 to the dice pool to advance the Rescue goal. If the
+    bystanders are your subjects, also add the Volume to the dice pool.
+
+Remote Palace
+
+:   You have a hidden base of operations somewhere in your distant 
+    monarchy. 
+    When you make a skill roll in that base, add 2 to the dice pool.
+
+Righteous Rage
+
+:   If you are below half Health, add 2 to the dice pool to 
+    advance the Smash goal.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2476,17 +2497,17 @@ Exotic Weaponry
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
+Monarch's Benevolence
+
+:   Your favor is freely bestowed as a boon to those in need.
+    Add 2 to the dice pool when you advance the Allay goal.
+
 Unfamiliar Fighting Techniques
 
 :   You have trained in a number of fighting techniques
     unknown to the outside world.
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
-
-Monarch's Benevolence
-
-:   Your favor is freely bestowed as a boon to those in need.
-    Add 2 to the dice pool when you advance the Allay goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2535,12 +2556,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
 ### The Monstrosity {#toc-monstrosity .breakbefore .class}
 
-> quote quote quote
-
-![The Monstrosity](art/jeshields/monstrosity.png){.class} \ 
+> So here's how this is gonna go. I'm gonna punch ya, you're gonna get real hurt, then give up. Capeesh?
 
 []{.lorem}
 
@@ -2620,6 +2641,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Monstrosity Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -2631,6 +2656,11 @@ humanity.
 At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
+Boundless Fortitude
+
+:   You are amazingly hard to hurt. Increase your maximum
+    Health to 15.
+
 Fast Healer
 
 :   Your injuries heal quickly. Regain 1 Health at
@@ -2642,11 +2672,6 @@ Misunderstood Monster
 :   Even at your worst, you wouldn't harm an innocent.
     Add 2 to the dice pool when you advance the Allay 
     or Rescue goals.
-
-Boundless Fortitude
-
-:   You are amazingly hard to hurt. Increase your maximum
-    Health to 15.
 
 Unkillable
 
@@ -2724,12 +2749,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::: { .classdata #class-paragon } :::::::::::::::::::
 ### The Paragon  {#toc-paragon .breakbefore .class}
 
-> quote quote quote
-
-![The Paragon](art/jeshields/paragon.png){.class} \ 
+> I'm sorry, but I can't let you do that.
 
 []{.lorem}
 
@@ -2825,6 +2850,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Titan, Sentinel of Saturn](art/jeshields/paragon.png "Titan, Sentinel of Saturn"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Paragon Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -2841,16 +2870,16 @@ Boundless Fortitude
 :   You are amazingly hard to hurt. Increase your maximum
     Health to 15.
 
-Hero of the People
-
-:   You are looked up to by the common people. Add 2 to the
-    dice pool when you advance the Rescue goal.
-
 Dedicated Defender
 
 :   You protect others from harm with your own body. 
     When you use the Take the Blow move, you lose a maximum 
     of 1 Health.
+
+Hero of the People
+
+:   You are looked up to by the common people. Add 2 to the
+    dice pool when you advance the Rescue goal.
 
 Multipower
 
@@ -2883,16 +2912,16 @@ TBD
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-Nigh-Invulnerable
-
-:   There are few things that can seriously harm you.
-    Increase your maximum Health to 20.
-
 Castle of Quiettude
 
 :   You have a base of operations in a remote location. When
     you make a skill roll in that building, add 2 to the dice
     pool.
+
+Nigh-Invulnerable
+
+:   There are few things that can seriously harm you.
+    Increase your maximum Health to 20.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2926,12 +2955,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::: {.classdata #class-psychic} :::::::::::::::
 ### The Psychic {#toc-psychic .breakbefore .class}
 
-> quote quote quote
-
-![The Psychic](art/jeshields/psychic.png){.class} \ 
+> I know secrets about you that you don't even know yourself.
 
 []{.lorem}
 
@@ -3013,6 +3042,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Psychic Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -3025,29 +3058,29 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Psionic Weapon
-
-:   You can form a weapon out of pure psionic energy. Add
-    Weapon as a Personal Power Word and pick a Fighting Style
-    that complements that weapon.
-
 Cloud the Senses
 
 :   With your mastery of mental illusion, you're able to fool 
     nearly anyone. Add 2 to the dice pool when you use a Power
     to advance the Outwit goal.
 
-Telekinetics
-
-:   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add a Personal Power Word from the
-    Shaper list as a Personal Power Word.
-
 Empath
 
 :   You can use your empathic powers to read emotions and calm
     a crowd. Add 2 to the dice pool when you use a Power to 
     advance the Allay goal.
+
+Psionic Weapon
+
+:   You can form a weapon out of pure psionic energy. Add
+    Weapon as a Personal Power Word and pick a Fighting Style
+    that complements that weapon.
+
+Telekinetics
+
+:   Your mental power has a physical manifestation, letting you
+    move objects with ease. Add a Personal Power Word from the
+    Shaper list as a Personal Power Word.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3056,16 +3089,16 @@ Empath
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
-Psychic Healing
-
-:   As a move, you can use your mental powers to heal someone else.
-    They regain Health equal to the Effectiveness of a Power roll.
-
 Mind Over Matter
 
 :   You can keep yourself conscious through sheer force of will.
     Instead of losing Health, you can lose an equal amount
     of Might.
+
+Psychic Healing
+
+:   As a move, you can use your mental powers to heal someone else.
+    They regain Health equal to the Effectiveness of a Power roll.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3117,12 +3150,12 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::: {.classdata #class-shaper } ::::::::::::::
 ### The Shaper {#toc-shaper .breakbefore .class}
 
-> quote quote quote
-
-![The Shaper](art/jeshields/shaper.png){.class} \ 
+> Everyone wave goodbye to him! Get it? Wave. Because I control waves. Nobody? Tough crowd.
 
 []{.lorem}
 
@@ -3229,6 +3262,10 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
+:::::::::::::::::::::::: { .classpic .wide } :::::::::::::::::::::::
+![Riptide, the Wave-Wielding Wonder](art/jeshields/shaper.png "Riptide, the Wave-Wielding Wonder"){.class .wide}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Shaper Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
@@ -3253,18 +3290,18 @@ Force Field
     Instead of losing Health, you can lose an equal
     amount of Might.
 
+Shelter the Innocents
+
+:   Your power over substances makes you exceptionally skilled at 
+    protecting bystanders from harm. Add 2 to the dice pool when
+    you use a Power to advance the Rescue goal.
+
 Wall of Matter
 
 :   You can construct a defensive wall to protect yourself and
     your teammates. When a Crisis Move affects all of the heroes,
     you can spend 1 Might to counter it instead of spending 
     from the Teamwork Pool.
-
-Shelter the Innocents
-
-:   Your power over substances makes you exceptionally skilled at 
-    protecting bystanders from harm. Add 2 to the dice pool when
-    you use a Power to advance the Rescue goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3335,6 +3372,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Using Powers {#toc-power-use .breakbefore}
 
@@ -4550,6 +4588,9 @@ and is used with permission.
 hosted by [Peach Garden Games](https://peachgardengames.itch.io/).
 
 
+Artwork &copy; Jeshields.
+
+
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
 licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
 >Creative Commons Attribution Share-Alike 4.0</a>.
@@ -4981,7 +5022,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 [Add to Teamwork Pool       ]{.label .action .a5}
 [Crisis Turn                ]{.label .action .act}
 [Take the Hit               ]{.label .action .a6}
-[Avoid a Crisis Effect      ]{.label .action .a7}
+[Counter a Crisis Effect    ]{.label .action .a7}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
