@@ -79,17 +79,17 @@
 [3. Define the Goals          ]{.label .crisis .c3}
 [2. Assemble Teamwork Pool    ]{.label .crisis .c2}
 [1. Crisis Begins!            ]{.label .crisis .c1}
-[Hero Turn                    ]{.label .crisis .cht}
-[Crisis Turn                  ]{.label .crisis .cct}
+[Hero Phase                   ]{.label .crisis .cht}
+[Crisis Phase                 ]{.label .crisis .cct}
 [Post-Crisis                  ]{.label .crisis .cpost}
 
-[Hero Turn                  ]{.label .act .aht}
+[Hero Phase                 ]{.label .act .aht}
 [General Alert              ]{.label .act .a1}
 [Timely Arrival             ]{.label .act .a2}
 [Advance a Goal             ]{.label .act .a3}
 [Join a Power Combo         ]{.label .act .a4}
 [Add to Teamwork Pool       ]{.label .act .a5}
-[Crisis Turn                ]{.label .act .act}
+[Crisis Phase               ]{.label .act .act}
 [Take the Hit               ]{.label .act .a6}
 [Counter a Crisis Effect    ]{.label .act .a7}
 
