@@ -83,17 +83,17 @@
 [Crisis Turn                  ]{.label .crisis .cct}
 [Post-Crisis                  ]{.label .crisis .cpost}
 
-[Hero Turn                  ]{.label .action .aht}
-[General Alert              ]{.label .action .a1}
-[Timely Arrival             ]{.label .action .a2}
-[Advance a Goal             ]{.label .action .a3}
-[Join a Power Combo         ]{.label .action .a4}
-[Add to Teamwork Pool       ]{.label .action .a5}
-[Crisis Turn                ]{.label .action .act}
-[Take the Hit               ]{.label .action .a6}
-[Counter a Crisis Effect    ]{.label .action .a7}
+[Hero Turn                  ]{.label .act .aht}
+[General Alert              ]{.label .act .a1}
+[Timely Arrival             ]{.label .act .a2}
+[Advance a Goal             ]{.label .act .a3}
+[Join a Power Combo         ]{.label .act .a4}
+[Add to Teamwork Pool       ]{.label .act .a5}
+[Crisis Turn                ]{.label .act .act}
+[Take the Hit               ]{.label .act .a6}
+[Counter a Crisis Effect    ]{.label .act .a7}
 
-::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::: {.pregen .rockstar } :::::::::::::::::::::::
 [4]{.pregen-facet .action}
 [2]{.pregen-facet .adventure}
 [2]{.pregen-facet .detective}

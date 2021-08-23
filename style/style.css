@@ -108,6 +108,7 @@ header h1     { string-set: gamename content()       }
   --pregen-name-shrink: 25pt;
   --pregen-name-shrink2: 20pt;
   --pregen-class: 20pt;
+  --pregen-class-shrink: 18pt;
   --pregen-small: 10pt;
 
   --color-line:    gray;
@@ -847,7 +848,7 @@ margin-top: 1em; }
 /* .herosheet .safety.s3:after { content: '\0023f5'; } */
 /* .herosheet .safety.s4:after { content: '\0023e9'; } */
 
-.herosheet .crisis    { left: 0.55in; font-size: var(--body); }
+.herosheet .crisis    { left: 0.55in; font-size: var(--body); display: none; }
 .herosheet .crisis.c0 { top: 4.40in; color: var(--color-sheet-dark); }
 .herosheet .crisis.c5 { top: 4.54in; }
 .herosheet .crisis.c4 { top: 4.66in; }
@@ -859,20 +860,30 @@ margin-top: 1em; }
 .herosheet .crisis.cpost { top: 5.42in; color: var(--color-sheet-dark); }
 
 
-.herosheet .action    { right: 0.55in; font-size: var(--body); }
-.herosheet .action.aht { top: 4.40in; color: var(--color-sheet-dark); }
-.herosheet .action.a1 { top: 4.54in; }
-.herosheet .action.a2 { top: 4.66in; }
-.herosheet .action.a3 { top: 4.78in; }
-.herosheet .action.a4 { top: 4.90in; }
-.herosheet .action.a5 { top: 5.02in; }
-.herosheet .action.act { top: 5.18in; color: var(--color-sheet-dark); }
-.herosheet .action.a6  { top: 5.32in; }
-.herosheet .action.a7  { top: 5.44in; }
+.herosheet .act    { right: 0.55in; font-size: var(--body); display: none; }
+.herosheet .act.aht { top: 4.40in; color: var(--color-sheet-dark); }
+.herosheet .act.a1 { top: 4.54in; }
+.herosheet .act.a2 { top: 4.66in; }
+.herosheet .act.a3 { top: 4.78in; }
+.herosheet .act.a4 { top: 4.90in; }
+.herosheet .act.a5 { top: 5.02in; }
+.herosheet .act.act { top: 5.18in; color: var(--color-sheet-dark); }
+.herosheet .act.a6  { top: 5.32in; }
+.herosheet .act.a7  { top: 5.44in; }
 
 .herosheet { break-before: page; }
 
-.herosheet .pregen { color: blue; }
+.herosheet .pregen                { color: rgb(139,  69,  19); }
+.herosheet .pregen.brigantia      { color: rgb(128,  69,   0); }
+.herosheet .pregen.energy-boy     { color: rgb( 75,   0, 130); }
+.herosheet .pregen.grailknight    { color: rgb(  0, 100,   0); }
+.herosheet .pregen.head-librarian { color: rgb(159,  29,  53); }
+.herosheet .pregen.jackdee        { color: rgb(128,   0,  32); }
+.herosheet .pregen.obsidius-rex   { color: rgb( 16,  16,  16); }
+.herosheet .pregen.riptide        { color: rgb(139,   0, 139); }
+.herosheet .pregen.rockstar       { color: rgb(  0, 128, 128); }
+.herosheet .pregen.titan          { color: rgb( 53,  94,  59); }
+.herosheet .pregen.vespa          { color: rgb( 92,  67,   6); }
 
 .herosheet .pregen strong { text-decoration: underline; }
 
@@ -1012,6 +1023,7 @@ margin-top: 1em; }
 .herosheet .pregen .pregen-nova .pregen-word { text-align: center; }
 
 .herosheet .pregen .pregen-ideal { font-size: var(--pregen-class); width: 2.00in; }
+.herosheet .pregen .pregen-ideal.shrink { font-size: var(--pregen-class-shrink); } 
 .herosheet .pregen .pregen-ideal.pregen-i1 { top: 1.15in; left: 1.125in; text-align: right; }
 .herosheet .pregen .pregen-ideal.pregen-i2 { top: 1.15in; right: 1.125in; text-align: left; }
 .herosheet .pregen .pregen-ideal.pregen-i3 { top: 3.58in; left:  1.50in; text-align: left; }
