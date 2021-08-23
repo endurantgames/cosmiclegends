@@ -120,8 +120,8 @@ Psionic Weapon
 Telekinetics
 
 :   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add a Personal Power Word from the
-    Shaper list as a Personal Power Word.
+    move objects with ease. Add an Elemental Power Word and a
+    Personal Power Word from the Shaper's lists as Personal Power Words.
 
 :::::::::::::::::::::::::::::::::::::
 

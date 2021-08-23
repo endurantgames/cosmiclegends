@@ -105,6 +105,8 @@ header h1     { string-set: gamename content()       }
   --pregen: 12pt;
   --pregen-facet: 50pt;
   --pregen-name: 30pt;
+  --pregen-name-shrink: 25pt;
+  --pregen-name-shrink2: 20pt;
   --pregen-class: 20pt;
   --pregen-small: 10pt;
 
@@ -904,11 +906,14 @@ margin-top: 1em; }
 
 .herosheet .pregen .pregen-name { 
   top: 0.25in;
-  left: 4.5in; 
-  right: 4.5in; 
+  left: 4.0in; 
+  right: 4.0in; 
   text-align: center; 
   font-size: var(--pregen-name); 
 }
+
+.herosheet .pregen .pregen-name.shrink { font-size: var(--pregen-name-shrink); }
+.herosheet .pregen .pregen-name.shrink2 { font-size: var(--pregen-name-shrink2); }
 
 .herosheet .pregen .pregen-class {
   top: 0.75in;

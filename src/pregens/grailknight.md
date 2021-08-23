@@ -94,66 +94,64 @@
 [Counter a Crisis Effect    ]{.label .action .a7}
 
 ::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
-[4]{.pregen-facet .action}
-[2]{.pregen-facet .adventure}
-[2]{.pregen-facet .detective}
+[1]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
 [1]{.pregen-facet .mystery}
-[1]{.pregen-facet .suspense}
+[2]{.pregen-facet .suspense}
 
-[Rockstar]{.pregen-name}
-[Monstrosity]{.pregen-class}
+[The Grailknight]{.pregen-name .shrink}
+[The Knight]{.pregen-class}
 [10]{.pregen-health}
 [10]{.pregen-might}
 
-[**Frenzy** Add 2 dice to advance the Smash goal.]{.pregen-fighting-style}
+[**Weaponmaster** +2 dice w/melee to Outwit; **Sniper** +2 dice w/ranged to Smash]{.pregen-fighting-style}
 
 ::::::::::: pregen-skills ::::::::::
 [Criminal]{.pregen-skill}
+[Deputy]{.pregen-skill}
 [Explorer]{.pregen-skill}
-[Hacker]{.pregen-skill}
-[Performer (Punk)]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Investigator]{.pregen-skill}
+[Mystic]{.pregen-skill}
+[Spy]{.pregen-skill}
 :::::::::::::::::::::::::::::
 
 ::::::::::: pregen-core :::::::::::
-[Strongest]{.pregen-word}
-[Monster]{.pregen-word}
+[Gambit]{.pregen-word}
+[Prepared]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 ::::::: pregen-personal :::::::::::
-[Body]{.pregen-word}
-[Leap]{.pregen-word}
-[Rocky]{.pregen-word}
-[Stomp]{.pregen-word}
-[Strength]{.pregen-word}
-[Throw]{.pregen-word}
+[Armor]{.pregen-word}
+[Crossbow]{.pregen-word}
+[Line]{.pregen-word}
+[Restrain]{.pregen-word}
+[Sword]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 :::::::: pregen-nova ::::::::::::::
-[Mosh]{.pregen-word}
-[Pit]{.pregen-word}
+[Immortal]{.pregen-word}
+[Quest]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
-[**Engine of Destruction**
-Add 2 to Smash roll's Effectiveness if
-using Core or Nova as 3rd Power Word]{.pregen-ability-class}
-[**Misunderstood Monster**
-Add 2 dice when advancing Allay or Rescue]{.pregen-ability-v1}
+[**Peak Human Potential** Choose a second fighting style.]{.pregen-ability-class}
+[**Trick Arrows** Each Storyline, choose 1 Dynamo or Paragon Power Word.]{.pregen-ability-v1}
 
-[Fun]{.pregen-ideal .pregen-i1}
-[Music]{.pregen-ideal .pregen-i2}
-[Kindness]{.pregen-ideal .pregen-i3}
-[Bold]{.pregen-ideal .pregen-i4}
-[Comfort]{.pregen-ideal .pregen-i5}
+[Honor]{.pregen-ideal .pregen-i1}
+[Law]{.pregen-ideal .pregen-i2}
+[Faith]{.pregen-ideal .pregen-i3}
+[Duty]{.pregen-ideal .pregen-i4}
+[Commitment]{.pregen-ideal .pregen-i5}
 
-[Jeri North]{.pregen-nickname}
-[she/her]{.pregen-pronouns}
+[Sir Percival]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
 []{.pregen-volume .box .v1}
-[Before the radiation accident, Jeri North was a
-promising young musician. But then she got changed
-into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
-[I want Rockstar to be **invited to join a new band.**]{.pregen-storyline}
+[For man of over 1,000 years, Percival is in good shape.
+He looks no older than 40.]{.pregen-bio}
+[I want Percival to **cross swords with another Arthurian knight.**]{.pregen-storyline}
 
-![Rockstar](art/jeshields/rockstar_face.png){.pregen-face} \ 
+![The Grailknight](art/jeshields/grailknight_face.png){.pregen-face} \ 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

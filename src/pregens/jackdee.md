@@ -105,7 +105,7 @@
 [10]{.pregen-health}
 [10]{.pregen-might}
 
-[**Tactician** Add 2 dice when you contribute to the Teamwork Pool.]{.pregen-fighting-style}
+[**Controller** Add 2 dice when use Power to advance Outwit goal.]{.pregen-fighting-style}
 
 ::::::::::: pregen-skills ::::::::::
 [Academic]{.pregen-skill}

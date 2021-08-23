@@ -94,66 +94,63 @@
 [Counter a Crisis Effect    ]{.label .action .a7}
 
 ::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
-[4]{.pregen-facet .action}
+[1]{.pregen-facet .action}
 [2]{.pregen-facet .adventure}
-[2]{.pregen-facet .detective}
-[1]{.pregen-facet .mystery}
-[1]{.pregen-facet .suspense}
+[1]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[4]{.pregen-facet .suspense}
 
-[Rockstar]{.pregen-name}
-[Monstrosity]{.pregen-class}
+[The Head Librarian]{.pregen-name .shrink2}
+[The Psychic]{.pregen-class}
 [10]{.pregen-health}
 [10]{.pregen-might}
 
-[**Frenzy** Add 2 dice to advance the Smash goal.]{.pregen-fighting-style}
+[**Tactician** Add 2 dice when you add to the Teamwork Pool]{.pregen-fighting-style}
 
 ::::::::::: pregen-skills ::::::::::
-[Criminal]{.pregen-skill}
-[Explorer]{.pregen-skill}
-[Hacker]{.pregen-skill}
-[Performer (Punk)]{.pregen-skill}
+[Academic]{.pregen-skill}
+[Artist]{.pregen-skill}
+[Journalist]{.pregen-skill}
 :::::::::::::::::::::::::::::
 
 ::::::::::: pregen-core :::::::::::
-[Strongest]{.pregen-word}
-[Monster]{.pregen-word}
+[Focused]{.pregen-word}
+[Totality]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 ::::::: pregen-personal :::::::::::
-[Body]{.pregen-word}
-[Leap]{.pregen-word}
-[Rocky]{.pregen-word}
-[Stomp]{.pregen-word}
-[Strength]{.pregen-word}
-[Throw]{.pregen-word}
+[Erase]{.pregen-word}
+[Language]{.pregen-word}
+[Memory]{.pregen-word}
+[Paper]{.pregen-word}
+[Probe]{.pregen-word}
+[Restore]{.pregen-word}
+[Move]{.pregen-word}
+[Transfer]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 :::::::: pregen-nova ::::::::::::::
-[Mosh]{.pregen-word}
-[Pit]{.pregen-word}
+[Information]{.pregen-word}
+[Overload]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
-[**Engine of Destruction**
-Add 2 to Smash roll's Effectiveness if
-using Core or Nova as 3rd Power Word]{.pregen-ability-class}
-[**Misunderstood Monster**
-Add 2 dice when advancing Allay or Rescue]{.pregen-ability-v1}
+[**Our Minds as One** If everyone is in mindlink, +2 on Power Combos]{.pregen-ability-class}
+[**Telekinetics** Add 1 Element, 1 Personal Power Words from Shaper]{.pregen-ability-v1}
 
-[Fun]{.pregen-ideal .pregen-i1}
-[Music]{.pregen-ideal .pregen-i2}
-[Kindness]{.pregen-ideal .pregen-i3}
-[Bold]{.pregen-ideal .pregen-i4}
-[Comfort]{.pregen-ideal .pregen-i5}
+[Knowledge]{.pregen-ideal .pregen-i1}
+[Compassion]{.pregen-ideal .pregen-i2}
+[Learning]{.pregen-ideal .pregen-i3}
+[Aesthetics]{.pregen-ideal .pregen-i4}
+[Order]{.pregen-ideal .pregen-i5}
 
-[Jeri North]{.pregen-nickname}
-[she/her]{.pregen-pronouns}
+[Unknown]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
 []{.pregen-volume .box .v1}
-[Before the radiation accident, Jeri North was a
-promising young musician. But then she got changed
-into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
-[I want Rockstar to be **invited to join a new band.**]{.pregen-storyline}
+[The Head Librarian looks like a man about 30 years of age;
+he doesn't appear in any databases, online or off.]{.pregen-bio}
+[His storyline is **discover where he is from.**]{.pregen-storyline}
 
-![Rockstar](art/jeshields/rockstar_face.png){.pregen-face} \ 
+![The Head Librarian](art/jeshields/head_librarian_face.png){.pregen-face} \ 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -61,6 +61,7 @@ Element Power Word -- chosen from the following list:
 - Force
 - Gravity
 - Ice
+- Paper
 - Plants
 - Rock
 - Shadows
@@ -85,7 +86,7 @@ Choose six Personal Power Words from the following list:
 - Destroy
 - Ring
 - Flight
-- Flight
+- Move
 - Quell
 - Reshape
 - Sense

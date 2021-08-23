@@ -52,6 +52,7 @@ Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
 - Adapation
 - Analyze
+- Dynamic
 - Emitter
 - Energetic
 - Force
@@ -63,8 +64,7 @@ Choose six Personal Power Words from the following list:
 - Protection
 - Telemetry
 - Transportation
-- TBD
-- TBD
+- Wings
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.

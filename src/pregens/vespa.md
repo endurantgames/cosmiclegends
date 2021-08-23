@@ -94,66 +94,65 @@
 [Counter a Crisis Effect    ]{.label .action .a7}
 
 ::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
-[4]{.pregen-facet .action}
-[2]{.pregen-facet .adventure}
-[2]{.pregen-facet .detective}
+[1]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
 [1]{.pregen-facet .mystery}
-[1]{.pregen-facet .suspense}
+[2]{.pregen-facet .suspense}
 
-[Rockstar]{.pregen-name}
-[Monstrosity]{.pregen-class}
+[Vespa 2.0]{.pregen-name}
+[The Inventor]{.pregen-class}
 [10]{.pregen-health}
 [10]{.pregen-might}
 
-[**Frenzy** Add 2 dice to advance the Smash goal.]{.pregen-fighting-style}
+[**Interceptor** -1 cost on Take the Hit]{.pregen-fighting-style}
 
 ::::::::::: pregen-skills ::::::::::
-[Criminal]{.pregen-skill}
-[Explorer]{.pregen-skill}
+[Artist (fanfic)]{.pregen-skill}
+[Engineer]{.pregen-skill}
 [Hacker]{.pregen-skill}
-[Performer (Punk)]{.pregen-skill}
+[Pilot]{.pregen-skill}
+[Scientist (entomology)]{.pregen-skill}
 :::::::::::::::::::::::::::::
 
 ::::::::::: pregen-core :::::::::::
-[Strongest]{.pregen-word}
-[Monster]{.pregen-word}
+[Armor]{.pregen-word}
+[Experimental]{.pregen-word}
+[Prototype]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 ::::::: pregen-personal :::::::::::
-[Body]{.pregen-word}
-[Leap]{.pregen-word}
-[Rocky]{.pregen-word}
-[Stomp]{.pregen-word}
-[Strength]{.pregen-word}
-[Throw]{.pregen-word}
+[Analyze]{.pregen-word}
+[Communicate]{.pregen-word}
+[Dynamic]{.pregen-word}
+[Laser]{.pregen-word}
+[Protection]{.pregen-word}
+[Telemetry]{.pregen-word}
+[Wings]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 :::::::: pregen-nova ::::::::::::::
-[Mosh]{.pregen-word}
-[Pit]{.pregen-word}
+[Bug]{.pregen-word}
+[Zapper]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
-[**Engine of Destruction**
-Add 2 to Smash roll's Effectiveness if
-using Core or Nova as 3rd Power Word]{.pregen-ability-class}
-[**Misunderstood Monster**
-Add 2 dice when advancing Allay or Rescue]{.pregen-ability-v1}
+[**No Wasted Effort** can add some of Advancing Goal to Teamwork pool]{.pregen-ability-class}
+[**Armorsmith** Add Armor as Core and 1 other Personal Power Word]{.pregen-ability-v1}
 
-[Fun]{.pregen-ideal .pregen-i1}
-[Music]{.pregen-ideal .pregen-i2}
-[Kindness]{.pregen-ideal .pregen-i3}
-[Bold]{.pregen-ideal .pregen-i4}
-[Comfort]{.pregen-ideal .pregen-i5}
+[Science]{.pregen-ideal .pregen-i1}
+[Honesty]{.pregen-ideal .pregen-i2}
+[Self-Sacrifice]{.pregen-ideal .pregen-i3}
+[Legacy]{.pregen-ideal .pregen-i4}
+[Comaraderie]{.pregen-ideal .pregen-i5}
 
-[Jeri North]{.pregen-nickname}
-[she/her]{.pregen-pronouns}
+[Lin Montgomery]{.pregen-nickname}
+[they/them]{.pregen-pronouns}
 []{.pregen-volume .box .v1}
-[Before the radiation accident, Jeri North was a
-promising young musician. But then she got changed
-into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
-[I want Rockstar to be **invited to join a new band.**]{.pregen-storyline}
+[Lin is only 19 years old and is the second person to carry
+the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
+[Lin wants to **fight one of their mother's supervillains.**]{.pregen-storyline}
 
-![Rockstar](art/jeshields/rockstar_face.png){.pregen-face} \ 
+![Vespa 2.0](art/jeshields/vespa_face.png){.pregen-face} \ 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
