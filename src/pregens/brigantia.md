@@ -12,8 +12,8 @@
 [Max]{.label .might-max}
 [Class]{.label .class}
 [Nova Power Words]{.label .nova}
-[Core Power Words]{.label .core}
-[Personal Power Words]{.label .personal}
+[Core Power Words]{.label .core .pregen}
+[Personal Power Words]{.label .personal .pregen}
 [Class Ability]{.label .class-ability}
 [Skills]{.label .skills}
 [Fighting Styles]{.label .fighting-styles}
@@ -44,7 +44,7 @@
 [Volume 4 Ability]{.label .volume-ability .v4}
 [Volume 5 Ability]{.label .volume-ability .v5}
 
-[Appearance]{.label .bio}
+[Looks]{.label .bio}
 [Storyline]{.label .story-arc}
 
 [Action]{.label .facet .action}

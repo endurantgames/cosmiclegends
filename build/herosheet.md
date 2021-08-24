@@ -12,7 +12,7 @@ title: Cosmic Legends of the Universe
 ![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
 
 [A.K.A.]{.label .nickname}
-[Name]{.label .name}
+[Hero Name]{.label .name}
 [Pronouns]{.label .pronouns}
 [Max]{.label .health-max}
 [Max]{.label .might-max}
@@ -50,7 +50,7 @@ title: Cosmic Legends of the Universe
 [Volume 4 Ability]{.label .volume-ability .v4}
 [Volume 5 Ability]{.label .volume-ability .v5}
 
-[Appearance]{.label .bio}
+[Looks]{.label .bio}
 [Storyline]{.label .story-arc}
 
 [Action]{.label .facet .action}
