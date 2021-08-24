@@ -2,3 +2,6 @@
 
 @prince-pdf { -prince-pdf-page-layout: one-column; }
 
+@page herosheet {
+  background-image: url("../art/clu-herosheet.png"); 
+}

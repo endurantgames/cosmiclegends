@@ -7,7 +7,7 @@ title: Cosmic Legends of the Universe
 :::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
 ![Cover Image](art/cover.png "Cover Image"){#img-cover} \ 
 
-![Cosmic Legends of the Universe](art/title-image.png "Cosmic Legends of the Universe"){#img-title} \ 
+![Cosmic Legends of the Universe](art/title-image-medium.png "Cosmic Legends of the Universe"){#img-title} \ 
 
 <h1>Cosmic Legends of the Universe</h1>
 
@@ -45,7 +45,7 @@ title: Cosmic Legends of the Universe
 
 <div class="harmony-drive-logo">
   <a href="https://peachgardengames.itch.io/harmony-drive">
-    <img src="art/DrivenByHarmonyLogo.png" alt="Driven By Harmony" />
+    <img src="art/DrivenByHarmonyLogo-medium.png" alt="Driven By Harmony" />
   </a>
 </div>
 

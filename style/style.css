@@ -658,7 +658,7 @@ margin-top: 1em; }
 @page herosheet { @bottom-center { content: normal; } }
 
 @page herosheet { 
-  background-image: url("../art/clu-herosheet.png");
+  background-image: url("../art/clu-herosheet.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
