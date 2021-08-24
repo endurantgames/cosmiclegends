@@ -44,6 +44,8 @@
 
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
 
+[Art &copy; Jeshields]{.copy-art}
+
 :::::::::::::::::::: {.pregen .vespa } ::::::::::::::::::::::::::
 [1]{.pregen-facet .action}
 [3]{.pregen-facet .adventure}

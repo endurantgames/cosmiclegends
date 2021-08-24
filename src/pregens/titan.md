@@ -44,6 +44,8 @@
 
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
 
+[Art &copy; Jeshields]{.copy-art}
+
 :::::::::::::::::::: {.pregen .titan } ::::::::::::::::::::::::::
 [1]{.pregen-facet .action}
 [2]{.pregen-facet .adventure}

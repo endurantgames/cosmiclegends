@@ -691,6 +691,17 @@ margin-top: 1em; }
   font-family: var(--font);
 }
 
+.herosheet .copy-art {
+  transform-origin: top right;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 0.5in;
+  top: 3.5in;
+  color: var(--color-sheet-light);
+  font-size: var(--sheet-tiny);
+  font-family: var(--font);
+}
+
 .herosheet .label {
   display: block;
   position: absolute;
@@ -752,12 +763,12 @@ margin-top: 1em; }
 
 .herosheet .label.core           { top: 1.550in; right: 5.55in; font-size: var(--sheet-large); }
 .herosheet .label.personal       { top: 1.550in; left:  5.55in; font-size: var(--sheet-large); }
-.herosheet .label.nova           { top: 3.48in;  right: 5.55in; font-size: var(--sheet-large); }
-.herosheet .box.b1.nova-unlocked { top: 3.52in;  left:  4.25in; }
-.herosheet .label.nova-unlocked  { top: 3.54in;  left:  3.60in; }
+.herosheet .label.nova           { top: 2.73in;  left: 3.55in;  font-size: var(--sheet-large); }
+.herosheet .box.b1.nova-unlocked { top: 3.52in;  left:  3.55in; }
+.herosheet .label.nova-unlocked  { top: 3.54in;  left:  3.75in; }
 
 .herosheet .label.symbol { display: none; }
-.herosheet.pregen .label.nova     { top: 2.73in; }
+/* .herosheet.pregen .label.nova     { top: 2.73in; } */
 /*
 */
 
