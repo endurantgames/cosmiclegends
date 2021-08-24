@@ -17,13 +17,15 @@ title: Cosmic Legends of the Universe
 [Max]{.label .health-max}
 [Max]{.label .might-max}
 [Class]{.label .class}
-[Nova Power Words]{.label .nova}
-[Core Power Words]{.label .core}
-[Personal Power Words]{.label .personal}
-[Class Ability]{.label .class-ability}
+
+[Class]{.label .class-ability}
 [Skills]{.label .skills}
 [Fighting Styles]{.label .fighting-styles}
-[Volume 1 Ability]{.label .volume-ability .v1}
+
+[Power Words]{.label .section .power-words}
+[Nova]{.label .nova}
+[Core]{.label .core}
+[Personal]{.label .personal}
 
 [Health]{.label .health}
 [Might]{.label .might}
@@ -45,10 +47,12 @@ title: Cosmic Legends of the Universe
 []{.box .b1 .arc-complete}
 [Completed]{.label .arc-complete}
 
-[Volume 2 Ability]{.label .volume-ability .v2}
-[Volume 3 Ability]{.label .volume-ability .v3}
-[Volume 4 Ability]{.label .volume-ability .v4}
-[Volume 5 Ability]{.label .volume-ability .v5}
+[Abilities]{.label .section .abilities}
+[Volume 1]{.label .volume-ability .v1}
+[Volume 2]{.label .volume-ability .v2}
+[Volume 3]{.label .volume-ability .v3}
+[Volume 4]{.label .volume-ability .v4}
+[Volume 5]{.label .volume-ability .v5}
 
 [Looks]{.label .bio}
 [Storyline]{.label .story-arc}

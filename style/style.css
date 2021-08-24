@@ -37,6 +37,9 @@ header h1     { string-set: gamename content()       }
 
   --font-sheet-2: "Legio Sabina Condensed";
   --color-sheet-light: #AAAAAA;
+  /* --color-sheet-lighter: #DDDDDD; */
+  --color-sheet-lighter: rgba(128, 128, 128, 0.25);
+
   --color-sheet-dark: #555555;
 
   --font-sheet-1: "Legio Sabina";
@@ -110,6 +113,14 @@ header h1     { string-set: gamename content()       }
   --pregen-class: 20pt;
   --pregen-class-shrink: 18pt;
   --pregen-small: 10pt;
+
+  --sheet-small: 9pt;
+  --sheet: 11pt;
+  --sheet-larger: 13pt;
+  --sheet-large: 16pt;
+  --sheet-huge: 32pt; 
+  --sheet-box: 14pt;
+  --sheet-tiny: 7pt;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -671,7 +682,7 @@ margin-top: 1em; }
 }
 
 .herosheet .clu-logo { 
-  height: 0.550in;
+  height: 0.680in;
   width: auto;
   position: absolute;
   top: 0.25in;
@@ -679,10 +690,10 @@ margin-top: 1em; }
 }
 
 .herosheet .hd-logo {
-  height: 0.450in;
+  height: 0.600in;
   width: auto;
   position: absolute;
-  top:   0.28in;
+  top:   0.25in;
   right: 0.48in;
 }
 
@@ -693,7 +704,7 @@ margin-top: 1em; }
   right: 0.5in;
   top: 5.0in;
   color: var(--color-sheet-light);
-  font-size: var(--small);
+  font-size: var(--sheet-tiny);
   font-family: var(--font);
 }
 
@@ -703,19 +714,26 @@ margin-top: 1em; }
   width: auto;
   color: var(--color-sheet-light);
   font-family: var(--font-sheet-2);
-  font-size: var(--large);
+  font-size: var(--sheet);
+}
+
+.herosheet .label.section {
+  font-size: var(--sheet-huge);
+  color: var(--color-sheet-lighter);
+  left: 4.0in; 
+  width: 3.0in; 
+  text-align: center; 
 }
 
 .herosheet .label.facet {
-  /* font-size: var(--h3); */
-  font-size: var(--h3);
+  font-size: var(--sheet-large);
   color: var(--color-sheet-dark);
   width: 1.0in;
   text-align: center;
   letter-spacing: -0.5pt;
 }
 
-.herosheet .label.motiv { font-size: var(--body); }
+.herosheet .label.motiv { font-size: var(--sheet-small); }
 
 /*
  */
@@ -725,8 +743,8 @@ margin-top: 1em; }
 .herosheet .label.facet.detective { top:    3.25in; right: 1.00in; }
 .herosheet .label.facet.mystery   { bottom: 1.70in; left:  5.00in; }
  
-.herosheet .label.might-max  { top: 3.125in; right: 0.55in; }
-.herosheet .label.health-max { top: 3.125in; left:  0.55in; }
+.herosheet .label.might-max  { top: 3.18in; right: 0.55in; }
+.herosheet .label.health-max { top: 3.18in; left:  0.55in; }
 
 .herosheet .label.nickname      { top: 0.875in; right: 0.55in; }
 .herosheet .label.class         { top: 0.875in; left:  0.55in; }
@@ -734,18 +752,22 @@ margin-top: 1em; }
 .herosheet .label.volume        { top: 1.505in; left:  0.55in; }
 .herosheet .box.b5.volume-boxes { top: 1.750in; left:  0.55in; }
 
+.herosheet .label.name          { top: 1.35in; width: 3in; left: 4in; text-align: center; }
+
 /* these appear reversed because we're measuring from the other side,
  * so that they align correctly
  */
 
-/*
-.herosheet .label.core          { top: 5.55in; right: 5.55in; }
-.herosheet .label.personal      { top: 5.55in; left:  5.55in; }
-*/
-.herosheet .label.core          { top: 3.75in; right: 5.60in; }
-.herosheet .label.personal      { top: 3.75in; left:  5.60in; }
-.herosheet .label.class-ability { top: 2.00in; right: 5.60in; }
-.herosheet .label.skills        { top: 2.00in; left:  5.60in; }
+.herosheet .label.skills           { top: 1.790in; right: 7.55in; font-size: var(--sheet-large); }
+.herosheet .label.fighting-styles  { top: 1.810in; left:  7.55in; }
+
+.herosheet .label.section.power-words { top: 2.450in; }
+.herosheet .label.core           { top: 1.550in; right: 5.55in; font-size: var(--sheet-large); }
+.herosheet .label.personal       { top: 1.550in; left:  5.55in; font-size: var(--sheet-large); }
+.herosheet .label.nova           { top: 3.48in;  right: 5.55in; font-size: var(--sheet-large); }
+.herosheet .box.b1.nova-unlocked { top: 3.52in;  left:  4.25in; }
+.herosheet .label.nova-unlocked  { top: 3.54in;  left:  3.60in; }
+
 .herosheet .label.symbol { display: none; }
 .herosheet .label.core.pregen     { right: 6.125in; width: 1.00in; }
 .herosheet .label.personal.pregen { left:  6.375in; width: 1.00in; }
@@ -755,10 +777,9 @@ margin-top: 1em; }
 
 .herosheet .box { display: block; position: absolute; 
   color: var(--color-sheet-dark);
-  font-size: var(--h4);
+  font-size: var(--sheet-box);
 }
 .herosheet.box.b1 { width: 0.125in; text-align: center; }
-
 .herosheet .box.b1:before { content: '\002610 '; }
 .herosheet .box.b5:before { content: '\002610\002610\002610\002610\002610 '; }
 
@@ -774,17 +795,14 @@ margin-top: 1em; }
 
 .herosheet .label.m5 { bottom: 0.70in; left:  4.30in; } .herosheet .box.m5 { bottom: 0.50in; left:  4.34in; }
 
-.herosheet .label.name              { top: 0.55in; width: 1in; left: 3.85in; text-align: left; }
-.herosheet .label.nova              { top: 5.75in; width: 3in; left: 4in; text-align: center; }
-.herosheet .label.fighting-styles   { top: 1.35in; width: 3in; left: 4in; text-align: center; }
-.herosheet .label.volume-ability.v1 { top: 1.15in; width: 3in; left: 4in; text-align: center; }
-.herosheet .label.volume-ability.v2 { top: 2.25in; right: 2.0in; transform: rotate(50.2deg); }
-.herosheet .label.volume-ability.v3 { top: 5.33in; right: 2.37in; transform: rotate(-40.1deg); }
-.herosheet .label.volume-ability.v4 { top: 5.33in; left:  2.37in; transform: rotate(40.1deg); }
-.herosheet .label.volume-ability.v5 { top: 2.25in; left:  2.0in; transform: rotate(-50.2deg); }
 
-.herosheet .box.b1.nova-unlocked { top: 6.53in; right: 5.03in; transform: rotate(-40.1deg); }
-.herosheet .label.nova-unlocked { top: 6.31in; right: 4.51in; transform: rotate(-40.1deg); }
+.herosheet .label.section.abilities { top: 4.850in; }
+.herosheet .label.class-ability     { top: 3.76in; right: 5.55in; }
+.herosheet .label.volume-ability.v1 { top: 3.76in; left: 5.55in; }
+.herosheet .label.volume-ability.v2 { top: 4.62in; right: 5.55in; }
+.herosheet .label.volume-ability.v3 { top: 4.62in; left:  5.55in; }
+.herosheet .label.volume-ability.v4 { top: 5.62in; right: 5.55in; }
+.herosheet .label.volume-ability.v5 { top: 5.62in; left:  5.55in; }
 
 .herosheet .box.b1.arc-complete { bottom: 0.74in; left: 0.55in; }
 .herosheet .label.arc-complete { bottom: 0.76in; left: 0.75in; }
@@ -793,25 +811,25 @@ margin-top: 1em; }
   color: var(--color-sheet-dark); 
   top: 2.100in; 
   left: 0.53in; 
-  font-size: var(--h3); 
+  font-size: var(--sheet-large); 
 }
 .herosheet .label.might  { 
   color: var(--color-sheet-dark); 
   top: 2.100in; 
   right: 0.53in; 
-  font-size: var(--h3); 
+  font-size: var(--sheet-large); 
 }
 
 .herosheet .label.story-arc { 
   bottom: 3.42in; 
   left: 0.55in; 
-  font-size: var(--h3); 
+  font-size: var(--sheet-large); 
 }
 
 .herosheet .label.bio { 
   bottom: 3.42in; 
   right: 0.55in; 
-  font-size: var(--h3); 
+  font-size: var(--sheet-large); 
 }
 
 .herosheet .label.story-arc,
@@ -822,12 +840,15 @@ margin-top: 1em; }
 .herosheet .label.class,
 .herosheet .label.volume,
 .herosheet .label.skills,
+.herosheet .label.nickname,
+.herosheet .label.pronouns,
 .herosheet .label.class-ability,
+.herosheet .label.volume-ability,
 .herosheet .label.fighting-styles { color: var(--color-sheet-dark); }
 
 .herosheet .goal { display: none; }
 /*
-.herosheet .goal { font-size: var(--h5); }
+.herosheet .goal { font-size: var(--sheet-larger); }
 .herosheet .goal:first-letter { color: var(--color-sheet-dark); }
 .herosheet .goal.g0 { display: none; }
 */
@@ -846,7 +867,7 @@ margin-top: 1em; }
 */
 
 /*
-.herosheet .ethos { font-size: var(--large); right: 1.45in; }
+.herosheet .ethos { font-size: var(--sheet); right: 1.45in; }
 .herosheet .ethos.e0 { display: none; }
 .herosheet .ethos.e1 { top: 0.25in; }
 .herosheet .ethos.e2 { top: 0.40in; }
@@ -870,8 +891,8 @@ margin-top: 1em; }
 .herosheet .safety:after  { margin-left: 3pt; }
 
 .herosheet .safety.s1 { left: 0.50in; bottom: 0.55in; }
-.herosheet .safety.s2 { right: 6.85in; bottom: 0.55in; }
-.herosheet .safety.s3 { left: 6.85in; bottom: 0.55in; }
+.herosheet .safety.s2 { right: 6.90in; bottom: 0.55in; }
+.herosheet .safety.s3 { left: 6.90in; bottom: 0.55in; }
 .herosheet .safety.s4 { right: 0.50in; bottom: 0.55in; }
 .herosheet .safety.s1:before { content: ''; }
 .herosheet .safety.s2:before { content: ''; }
@@ -883,7 +904,7 @@ margin-top: 1em; }
 /* .herosheet .safety.s3:after { content: '\0023f5'; } */
 /* .herosheet .safety.s4:after { content: '\0023e9'; } */
 
-.herosheet .crisis    { left: 0.55in; font-size: var(--body); display: none; }
+.herosheet .crisis    { left: 0.55in; font-size: var(--sheet-small); display: none; }
 .herosheet .crisis.c0 { top: 4.40in; color: var(--color-sheet-dark); }
 .herosheet .crisis.c5 { top: 4.54in; }
 .herosheet .crisis.c4 { top: 4.66in; }
@@ -895,7 +916,7 @@ margin-top: 1em; }
 .herosheet .crisis.cpost { top: 5.42in; color: var(--color-sheet-dark); }
 
 
-.herosheet .act    { right: 0.55in; font-size: var(--body); display: none; }
+.herosheet .act    { right: 0.55in; font-size: var(--sheet-small); display: none; }
 .herosheet .act.aht { top: 4.40in; color: var(--color-sheet-dark); }
 .herosheet .act.a1 { top: 4.54in; }
 .herosheet .act.a2 { top: 4.66in; }
