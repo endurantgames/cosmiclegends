@@ -30,14 +30,9 @@ header h1     { string-set: gamename content()       }
   --font-h6: 'Fawn Script';
   --font-caption: "Legio Sabina Condensed";
   --font-pregens: "Ad Astra";
-  /* 
-  --font-h5: 'Legio Sabina Gradient';     
-  --font-h6: 'Legio Sabina Condensed';     
-  */
 
   --font-sheet-2: "Legio Sabina Condensed";
   --color-sheet-light: #AAAAAA;
-  /* --color-sheet-lighter: #DDDDDD; */
   --color-sheet-lighter: rgba(128, 128, 128, 0.25);
 
   --color-sheet-dark: #555555;
@@ -72,8 +67,7 @@ header h1     { string-set: gamename content()       }
   --iant: '\00fe0f';
   --font-icons-media: 'fontcustom';
 
-  /* 
-  */
+  --lime: rgba(128, 255, 0, 0.5);
 
   --table-icon-size: 14pt;
   --table-cost-size: 7pt;
@@ -923,12 +917,12 @@ margin-top: 1em; }
 
 .herosheet .pregen .pregen-facet.action    { top:    0.25in; left:  2.75in; }
 .herosheet .pregen .pregen-facet.adventure { top:    0.25in; right: 2.75in; }
-.herosheet .pregen .pregen-facet.suspense  { top:    3.29in; left:  0.25in; }
-.herosheet .pregen .pregen-facet.detective { top:    3.29in; right: 0.25in; }
-.herosheet .pregen .pregen-facet.mystery   { bottom: 0.25in; left:  5.00in; }
+.herosheet .pregen .pregen-facet.suspense  { top:    3.29in; left:  1.00in; }
+.herosheet .pregen .pregen-facet.detective { top:    3.29in; right: 1.00in; }
+.herosheet .pregen .pregen-facet.mystery   { bottom: 1.00in; left:  5.00in; }
 
 .herosheet .pregen .pregen-name { 
-  top: 0.25in;
+  top: 0.85in;
   left: 4.0in; 
   right: 4.0in; 
   text-align: center; 
@@ -939,7 +933,7 @@ margin-top: 1em; }
 .herosheet .pregen .pregen-name.shrink2 { font-size: var(--pregen-name-shrink2); }
 
 .herosheet .pregen .pregen-class {
-  top: 0.75in;
+  top: 1.00in;
   left: 0.50in;
   font-size: var(--pregen-class);
   width: 2.25in;
@@ -947,90 +941,93 @@ margin-top: 1em; }
 }
 
 .herosheet .pregen .pregen-nickname  {
-  top: 0.85in;
-  right: 0.50in;
+  top: 1.05in;
+  right: 0.55in;
   width: 2.25in;
   text-align: center;
   font-size: var(--pregen);
 }
 
 .herosheet .pregen .pregen-pronouns  {
-  top: 1.60in;
-  right: 1.25in;
+  top: 1.70in;
+  right: 0.55in;
   width: 1in;
   font-size: var(--pregen);
   text-align: center;
 }
 
-.herosheet .pregen .pregen-fighting-style {
-  top: 1.55in; 
-  width: 4in; 
-  left: 3.5in; 
-  text-align: center; 
-  font-size: var(--pregen);
-}
-
 .herosheet .pregen .pregen-health {
-  font-size: var(--pregen-class);
-  top: 2.8in; left: 0.90in; 
+  font-size: var(--pregen-name);
+  top: 2.75in; left: 0.750in; 
 }
 
 .herosheet .pregen .pregen-might {
-  font-size: var(--pregen-class);
-  top: 2.8in; right: 0.90in;
+  font-size: var(--pregen-name);
+  top: 2.75in; right: 0.750in;
+}
+
+.herosheet .pregen .pregen-fighting-style {
+  top: 2.00in; 
+  width: 1.25in; 
+  right: 2.20in;
+  text-align: left;
+  font-size: var(--pregen);
+  line-height: 1.2;
 }
 
 .herosheet .pregen .pregen-skills .pregen-skill { width: 100%; }
 
 .herosheet .pregen .pregen-skills {
-  top: 2.25in;
-  left: 6.25in;
+  top: 2.00in;
+  left: 2.20in;
+  width: 1.25in;
   font-size: var(--pregen);
-  width: 2in;
+  text-align: right;
 }
 
 .herosheet .pregen .pregen-ability-class strong { display: block; }
 
 .herosheet .pregen .pregen-ability-class {
-  top: 2.25in;
-  right: 6.00in;
+  top: 3.75in;
+  right: 5.75in;
   font-size: var(--pregen-small);
-  width: 2in;
+  width: 3.0in;
   line-height: 1.2;
+  background-color: var(--lime);
 }
 
 .herosheet .pregen .pregen-ability-v1 {
-  top: 0.80in;
+  top: 3.75in;
   width: 3.0in;
-  left: 4.00in;
+  left: 5.75in;
   font-size: var(--pregen-small);
   line-height: 1.2;
+  background-color: var(--lime);
 }
 
 .herosheet .pregen .pregen-personal {
-  top: 4.25in;
-  left: 6.25in;
+  top: 1.875in;
+  left: 5.55in;
   font-size: var(--pregen);
-  width: 2in;
+  width: 1.9in;
+  text-align: center;
 }
+
+.herosheet .pregen .pregen-word { text-align: center; }
 
 .herosheet .pregen .pregen-core {
-  top: 4.25in;
-  right: 6.00in;
+  top: 1.875in;
+  right: 5.55in;
   font-size: var(--pregen);
-  width: 2in;
+  width: 1.9in;
 }
-
-.herosheet .pregen .pregen-core .pregen-word { text-align: right; }
 
 .herosheet .pregen .pregen-nova {
-  top: 6in;
-  left: 4in;
-  width: 3in;
+  top: 2.85in;
+  right: 5.55in;
+  width: 1.9in;
   font-size: var(--pregen);
 }
-
-.herosheet .pregen .pregen-nova .pregen-word { text-align: center; }
 
 .herosheet .pregen .pregen-ideal { 
   font-size: var(--pregen-class); 

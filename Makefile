@@ -76,13 +76,13 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
 # PRINCEFLAGS    = 
-# PRINCEFLAGS_PREGEN = 
+PRINCEFLAGS_PREGEN = 
 PRINCEFLAGS_LETTER    = 
 PRINCEFLAGS_SHEET    = 
 PRINCEFLAGS_SHEET_ALT    = 
 PRINCEFLAGS_SHEET_COLOR    = 
 PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
+# PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
 # PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
 # PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
 # PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
@@ -157,10 +157,10 @@ blorng := $(shell tput setab 208)
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
-# default: pregen
+default: pregen
 # default: pdf
 # default: all
-default: sheet
+# default: sheet
 
 # Make Help #############################################################################################
 #
