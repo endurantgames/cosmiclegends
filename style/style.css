@@ -745,6 +745,11 @@ margin-top: 1em; }
 .herosheet .label.fighting-styles  { top: 1.810in; left:  7.55in; }
 
 .herosheet .label.section.power-words { top: 2.450in; }
+.herosheet.pregen .label.section.power-words {
+  top: 1.75in; 
+  font-size: var(--sheet-large);
+}
+
 .herosheet .label.core           { top: 1.550in; right: 5.55in; font-size: var(--sheet-large); }
 .herosheet .label.personal       { top: 1.550in; left:  5.55in; font-size: var(--sheet-large); }
 .herosheet .label.nova           { top: 3.48in;  right: 5.55in; font-size: var(--sheet-large); }
@@ -752,8 +757,7 @@ margin-top: 1em; }
 .herosheet .label.nova-unlocked  { top: 3.54in;  left:  3.60in; }
 
 .herosheet .label.symbol { display: none; }
-.herosheet .label.core.pregen     { right: 6.125in; width: 1.00in; }
-.herosheet .label.personal.pregen { left:  6.375in; width: 1.00in; }
+.herosheet.pregen .label.nova     { top: 2.73in; }
 /*
 */
 
@@ -764,6 +768,8 @@ margin-top: 1em; }
 .herosheet.box.b1 { width: 0.125in; text-align: center; }
 .herosheet .box.b1:before { content: '\002610 '; }
 .herosheet .box.b5:before { content: '\002610\002610\002610\002610\002610 '; }
+
+.herosheet.pregen .box.b5:before { content: '\002612\002610\002610\002610\002610 '; }
 
 
 .herosheet .label.m1 { top:    1.39in; left:  2.05in; } .herosheet .box.m1 { top:    1.50in; left:  2.09in; }
@@ -782,6 +788,11 @@ margin-top: 1em; }
 .herosheet .label.volume-ability.v3 { top: 4.62in; left:  5.55in; }
 .herosheet .label.volume-ability.v4 { top: 5.62in; right: 5.55in; }
 .herosheet .label.volume-ability.v5 { top: 5.62in; left:  5.55in; }
+.herosheet.pregen .label.section.abilities { display: none; }
+.herosheet.pregen .label.class-ability:after { content: ' Ability'; }
+.herosheet.pregen .label.volume-ability:after { content: ' Ability'; }
+.herosheet.pregen .label.class-ability { top: 4.43in; }
+.herosheet.pregen .label.volume-ability.v1 { top: 4.43in; }
 
 .herosheet .box.b1.arc-complete { bottom: 0.74in; left: 0.55in; }
 .herosheet .label.arc-complete { bottom: 0.76in; left: 0.75in; }
@@ -933,7 +944,7 @@ margin-top: 1em; }
 .herosheet .pregen .pregen-name.shrink2 { font-size: var(--pregen-name-shrink2); }
 
 .herosheet .pregen .pregen-class {
-  top: 1.00in;
+  top: 0.95in;
   left: 0.50in;
   font-size: var(--pregen-class);
   width: 2.25in;
@@ -941,7 +952,7 @@ margin-top: 1em; }
 }
 
 .herosheet .pregen .pregen-nickname  {
-  top: 1.05in;
+  top: 1.02in;
   right: 0.55in;
   width: 2.25in;
   text-align: center;
@@ -958,55 +969,53 @@ margin-top: 1em; }
 
 .herosheet .pregen .pregen-health {
   font-size: var(--pregen-name);
-  top: 2.75in; left: 0.750in; 
+  top: 2.75in; left: 0.675in; 
 }
 
 .herosheet .pregen .pregen-might {
   font-size: var(--pregen-name);
-  top: 2.75in; right: 0.750in;
+  top: 2.75in; right: 0.675in;
 }
 
 .herosheet .pregen .pregen-fighting-style {
-  top: 2.00in; 
+  top: 2.05in; 
   width: 1.25in; 
   right: 2.20in;
   text-align: left;
   font-size: var(--pregen);
-  line-height: 1.2;
+  line-height: 1.15;
+  text-align: center;
 }
 
 .herosheet .pregen .pregen-skills .pregen-skill { width: 100%; }
 
 .herosheet .pregen .pregen-skills {
-  top: 2.00in;
+  top: 2.05in;
   left: 2.20in;
   width: 1.25in;
   font-size: var(--pregen);
-  text-align: right;
+  text-align: center;
+  line-height: 1.15;
 }
-
-.herosheet .pregen .pregen-ability-class strong { display: block; }
 
 .herosheet .pregen .pregen-ability-class {
   top: 3.75in;
-  right: 5.75in;
+  right: 6.10in;
   font-size: var(--pregen-small);
-  width: 3.0in;
-  line-height: 1.2;
-  background-color: var(--lime);
+  width: 2.80in;
+  line-height: 1.15;
 }
 
 .herosheet .pregen .pregen-ability-v1 {
   top: 3.75in;
-  width: 3.0in;
-  left: 5.75in;
+  width: 2.8in;
+  left: 6.20in;
   font-size: var(--pregen-small);
-  line-height: 1.2;
-  background-color: var(--lime);
+  line-height: 1.15;
 }
 
 .herosheet .pregen .pregen-personal {
-  top: 1.875in;
+  top: 1.910in;
   left: 5.55in;
   font-size: var(--pregen);
   width: 1.9in;
@@ -1016,7 +1025,7 @@ margin-top: 1em; }
 .herosheet .pregen .pregen-word { text-align: center; }
 
 .herosheet .pregen .pregen-core {
-  top: 1.875in;
+  top: 1.910in;
   right: 5.55in;
   font-size: var(--pregen);
   width: 1.9in;
@@ -1034,26 +1043,40 @@ margin-top: 1em; }
   width: 2.125in; 
   text-align: left; 
 }
+
 .herosheet .pregen .pregen-ideal.shrink { font-size: var(--pregen-class-shrink); } 
-.herosheet .pregen .pregen-ideal.pregen-i1 { top: 1.125in; left:  1.500in; }
-.herosheet .pregen .pregen-ideal.pregen-i2 { top: 1.125in; right: 1.125in;}
-.herosheet .pregen .pregen-ideal.pregen-i3 { top: 3.58in; left:  1.50in; }
-.herosheet .pregen .pregen-ideal.pregen-i4 { top: 3.58in; right: 1.125in; }
-.herosheet .pregen .pregen-ideal.pregen-i5 { bottom: 1.375in; left: 4.625in; }
+.herosheet .pregen .pregen-ideal.pregen-i1 { top: 1.375in; left:  2.375in; }
+.herosheet .pregen .pregen-ideal.pregen-i2 { top: 1.375in; right: 2.000in;}
+
+.herosheet .pregen .pregen-ideal.pregen-i3 { top: 4.375in; left:  0.625in; }
+.herosheet .pregen .pregen-ideal.pregen-i4 { top: 4.375in; right: 0.250in; }
+
+.herosheet .pregen .pregen-ideal.pregen-i5 { bottom: 0.500in; left: 4.625in; }
 
 .herosheet .pregen .pregen-volume { top: 1.655in; left:  1.20in; }
-.herosheet .pregen .pregen-volume.v1:before { content: '\002612\002610\002610\002610\002610 '; 
+
+.herosheet .pregen .pregen-bio { 
+  bottom: 1.00in; 
+  right: 0.70in; 
+  width: 2.5in; 
+  font-size: var(--pregen); 
+  text-align: right; 
 }
 
-.herosheet .pregen .pregen-bio { top: 6.25in; right: 0.75in; width: 2.75in; font-size: var(--pregen); text-align: right; }
-.herosheet .pregen .pregen-storyline { top: 6.25in; left: 0.75in; width: 2.75in; font-size: var(--pregen); text-align: left; }
+.herosheet .pregen .pregen-storyline { 
+  bottom: 1.00in; 
+  left: 0.70in; 
+  width: 2.7in; 
+  font-size: var(--pregen); 
+  text-align: left; 
+}
 
 .herosheet .pregen img.pregen-face { 
   box-sizing: border-box;
   width: 1.00in; 
   height: 1.00in; 
   transform: rotate(45deg); 
-  top: 3.28in;
+  top: 3.25in;
   left: 5in;
   position: absolute;
   background: white;

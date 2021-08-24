@@ -88,7 +88,7 @@
 
 [**Give Me Strength!**
 Use Core / Nova Power Words in Power Stunt / Combo, 
-count 6s as 2 successes, lose 1 Health / Might after roll
+count six as 2 successes, lose 1 Health or Might 
 per extra success]{.pregen-ability-class}
 [**Wisdom of Athena**
 Add 2 to the dice pool to advance the Outwit or Allay goals.]{.pregen-ability-v1}
@@ -101,7 +101,6 @@ Add 2 to the dice pool to advance the Outwit or Allay goals.]{.pregen-ability-v1
 
 [Sienna MacGowan]{.pregen-nickname}
 [she/her]{.pregen-pronouns}
-[]{.pregen-volume .box .v1}
 [In her normal form, Sienna is a shy, nerdy young
 woman about 22 years old, about 5'2" and 145 lbs. 
 As **Brigantia**, she is over 7 feet tall and weighs

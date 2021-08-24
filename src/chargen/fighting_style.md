@@ -11,9 +11,9 @@ with their fists or their powers. Those styles are:
 - **Martial Artist** Add 2 dice when you use an unarmed attack to advance the Outwit goal.
 - **Mediator**       Add 1 die when you advance the Allay Goal.
 - **Rescuer**        Add 1 die when you advance the Rescue Goal.
-- **Sniper**         Add 2 dice when you use a ranged Weapon to advance the Smash goal.
+- **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you add to the Teamwork Pool.
-- **Weaponmaster**   Add 2 dice when you use a melee Weapon to advance the Outwit goal.
+- **Weapon Master**  Add 2 dice when you use a melee Weapon to advance the Outwit goal.
 
 If you choose the Knight class, you get to pick an additional fighting style. 
 
