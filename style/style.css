@@ -73,12 +73,6 @@ header h1     { string-set: gamename content()       }
   --font-icons-media: 'fontcustom';
 
   /* 
-  --font-icons: 'Noto Color Emoji';
-  --yes-green: '\002714' var(--iant) ;
-  --lock-yellow: '\01f512';
-  --no: '\00274c';
-  --yes-gray: '\002705';
-  --lock-gray: '\01f512';
   */
 
   --table-icon-size: 14pt;
@@ -189,10 +183,6 @@ ul li, ul ol { margin-left: 1em;    }
 
 .sidebar.next { float-defer-column: 1; }
 .sidebar :matches(h1, h2, h3, h4, h5, h6)    { font-weight: bold; font-family: var(--font-h4); font-size: var(--h4); }
-
-/* img { -prince-image-resolution: 96;
-      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
-      */
 
 p, li { orphans: 3; line-height: 1.30; }
 
@@ -322,7 +312,6 @@ a:hover   { text-decoration: none; color: red;    }
 position: relative; 
 }
 @page :first {
-  /* background-image: url("../art/rainbow-cover.png"); */
   background-image: url("../art/rainbow.svg");
   background-repeat: no-repeat;
   background-size: auto 130%;
@@ -772,7 +761,6 @@ margin-top: 1em; }
 .herosheet .label.core.pregen     { right: 6.125in; width: 1.00in; }
 .herosheet .label.personal.pregen { left:  6.375in; width: 1.00in; }
 /*
-.herosheet .label.symbol        { top: 4.30in; left: 5.55in; transform-origin: bottom left; transform: rotate(-45deg); font-size: var(--smaller); }
 */
 
 .herosheet .box { display: block; position: absolute; 
@@ -783,10 +771,7 @@ margin-top: 1em; }
 .herosheet .box.b1:before { content: '\002610 '; }
 .herosheet .box.b5:before { content: '\002610\002610\002610\002610\002610 '; }
 
-/* 1.175in; 3.41in; */
 
-
-/*                             -0.035         0.00  */ /*                           +0.075          +0.04 */
 .herosheet .label.m1 { top:    1.39in; left:  2.05in; } .herosheet .box.m1 { top:    1.50in; left:  2.09in; }
 .herosheet .label.m2 { top:    1.39in; right: 4.18in; } .herosheet .box.m2 { top:    1.50in; right: 4.22in; }
 
@@ -847,32 +832,6 @@ margin-top: 1em; }
 .herosheet .label.fighting-styles { color: var(--color-sheet-dark); }
 
 .herosheet .goal { display: none; }
-/*
-.herosheet .goal { font-size: var(--sheet-larger); }
-.herosheet .goal:first-letter { color: var(--color-sheet-dark); }
-.herosheet .goal.g0 { display: none; }
-*/
-
-/*
-.herosheet .goal.g1 { top: 0.32in; left:   1.60in; }
-.herosheet .goal.g2 { top: 0.32in; right:  8.30in; }
-.herosheet .goal.g3 { top: 0.50in; left:   1.60in; }
-.herosheet .goal.g4 { top: 0.50in; right:  8.30in; }
-*/
-/*
-.herosheet .goal.g1 { top: 3.41in; left:   4.75in; transform-origin: top left;  transform: rotate(-45deg); }
-.herosheet .goal.g2 { top: 3.41in; right:  4.75in; transform-origin: top right; transform: rotate(45deg); }
-.herosheet .goal.g3 { bottom: 4.42in; right:  4.75in; transform-origin: bottom right; transform: rotate(-45deg); }
-.herosheet .goal.g4 { bottom: 4.42in; left:   4.75in; transform-origin: bottom left;  transform: rotate(45deg); }
-*/
-
-/*
-.herosheet .ethos { font-size: var(--sheet); right: 1.45in; }
-.herosheet .ethos.e0 { display: none; }
-.herosheet .ethos.e1 { top: 0.25in; }
-.herosheet .ethos.e2 { top: 0.40in; }
-.herosheet .ethos.e3 { top: 0.55in; }
-*/
 
 .herosheet .ethos { display: none; }
 
@@ -898,11 +857,6 @@ margin-top: 1em; }
 .herosheet .safety.s2:before { content: ''; }
 .herosheet .safety.s3:after  { content: ''; }
 .herosheet .safety.s4:after  { content: ''; }
-
-/* .herosheet .safety.s1:before { content: '\0023ea'; } */
-/* .herosheet .safety.s2:before { content: '\0023f8'; } */
-/* .herosheet .safety.s3:after { content: '\0023f5'; } */
-/* .herosheet .safety.s4:after { content: '\0023e9'; } */
 
 .herosheet .crisis    { left: 0.55in; font-size: var(--sheet-small); display: none; }
 .herosheet .crisis.c0 { top: 4.40in; color: var(--color-sheet-dark); }
