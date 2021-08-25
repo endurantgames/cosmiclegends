@@ -41,7 +41,7 @@ crisis/hero_phase
 crisis/crisis_phase
 crisis/post
 advancement
-setting
+setting/*
 editor/
 editor/storyline
 editor/crisis

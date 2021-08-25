@@ -3,7 +3,7 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## name
+## Police Riot 
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)

@@ -3,17 +3,17 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## name
+## Corporate Goon Squad (4 actions)
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
-- **Rescue: v** (desc of goal)
+- **Smash:  6** (break their toys)
+- **Outwit: 4** (get the drop on them)
+- **Allay:  8** (appeal to their common humanity)
+- **Rescue: -- ** 
 
 desc of crisis
 
 Crisis Rules
-:   One or more additional rules.
+:   The Rescue goal can't be advanced in this Crisis.
 
 move (a)
 :   A description of the move.

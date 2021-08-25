@@ -30,6 +30,7 @@ header h1     { string-set: gamename content()       }
   --font-h6: 'Fawn Script';
   --font-caption: "Legio Sabina Condensed";
   --font-pregens: "Ad Astra";
+  --font-what: "Bebas Neue";
 
   --font-sheet-2: "Legio Sabina Condensed";
   --color-sheet-light: #AAAAAA;
@@ -55,6 +56,7 @@ header h1     { string-set: gamename content()       }
   --lock-gray:   '\00EC83';
   --no:          '\00E06D';
 
+  --what-size: 10pt; 
   --color-yes: green;
   --color-no: red;
   --color-gray: #808080;
@@ -665,11 +667,11 @@ margin-top: 1em; }
 }
 
 .herosheet .clu-logo { 
-  height: 0.680in;
+  height: 0.620in;
   width: auto;
   position: absolute;
   top: 0.25in;
-  left: 0.32in; 
+  left: 0.25in; 
 }
 
 .herosheet .hd-logo {
@@ -1092,4 +1094,45 @@ margin-top: 1em; }
   position: absolute;
   background: white;
   border: 0.5pt solid black;
+}
+
+@page whatswhat { margin: 0; padding: 0; }
+
+@page whatswhat { @bottom-center { content: normal; } }
+
+#what-page { page: whatswhat; }
+
+#what-page ul { 
+  margin: 0; 
+  position: absolute; 
+  bottom: 415pt;
+  right: 23pt; 
+  width: 170pt; 
+}
+#what-page ul li { 
+  margin: 0; 
+  list-style-type: none; 
+  color: white;
+  background-color: #800000;
+  font-family: var(--font-what);;
+  line-height: 0.95;
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+  padding-left: 2pt;
+  padding-right: 2pt;
+  font-size: var(--what-size);
+  transform: scaleY(0.85);
+}
+
+#what-page ul li a { color: white; }
+
+#what-page ul li a:before { content: target-content(attr(href)) ' '; }
+#what-page ul li a:after  { content: leader(' ') target-counter(attr(href), page); }
+
+#what-page img.ww {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 477pt;
+  height: 733pt;
 }

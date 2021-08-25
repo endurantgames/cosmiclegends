@@ -3,15 +3,15 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## Alien Invasion
+## Alien Invasion (3 Actions)
 
-- **Smash: 6** (destroy the alien ships)
+- **Smash:  6** (destroy the alien ships)
 - **Outwit: 5** (trick the aliens into leaving Earth)
-- **Allay: 7** ()
-- **Rescue: 6** ()
+- **Allay:  7** (understand the aliens' goals)
+- **Rescue: 5** (save potential abductees)
 
 A cluster of alien spaceships is attacking the local shopping
-mall, trying to abduct 
+mall, trying to abduct innocent bystanders.
 
 Crisis Rules
 :   One or more additional rules.

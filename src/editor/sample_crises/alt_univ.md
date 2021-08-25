@@ -3,11 +3,11 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## name
+## Alternate Heroes (1 per Hero)
 
-- **Smash: v** (desc of goal)
+- **Smash:  v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
+- **Allay:  v** (desc of goal)
 - **Rescue: v** (desc of goal)
 
 desc of crisis

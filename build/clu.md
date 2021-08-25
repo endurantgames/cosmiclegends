@@ -3920,6 +3920,584 @@ At the end of each Volume:
 []{.lorem}
 
 
+:::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
+![What's What](art/whos-who.png){.ww} \
+
+- [](#setting-brigantia)
+- [](#setting-clotu)
+- [](#setting-clu-hq)
+- [](#setting-energy-boy)
+- [](#setting-grailknight)
+- [](#setting-head-librarian)
+- [](#setting-jackdee)
+- [](#setting-obsidius-rex)
+- [](#setting-riptide)
+- [](#setting-rockstar)
+- [](#setting-saturn)
+- [](#setting-sun-city)
+- [](#setting-technopolis)
+- [](#setting-titan)
+- [](#setting-tuatha)
+- [](#setting-vespa-1)
+- [](#setting-vespa)
+- [](#setting-villains-inc)
+- [](#setting-vulcanor)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::: {#section-what} :::::::::::::::::::::::::::::::::::::::::::::
+### What's What in the CLotU Universe {#what}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Brigantia {#setting-brigantia}
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Cosmic Legends of the Universe {#setting-clotu}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### CLU Headquarters  {#setting-clu-hq}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Energy Boy {#setting-energy-boy}
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+
+#### The Grailknight {#setting-grailknight}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### The Head Librarian {#setting-head-librarian}
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Jack Dee, Master Magister {#setting-jackdee}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Obsidius Rex {#setting-obsidius-rex}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Riptide {#setting-riptide}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Rockstar {#setting-rockstar}
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Saturn {#setting-saturn}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Sun City {#setting-sun-city}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Technopolis {#setting-technopolis}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Titan {#setting-titan}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Tuatha De Danann {#setting-tuatha}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Vespa 1.0 {#setting-vespa-1}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Vespa 2.0 {#setting-vespa}
+
+
+::::::::::::: {.bio} ::::::::::::::::::::::::
+- **Real Name:** 
+- **Occupation:** 
+- **Legal Status:** 
+- **Gender:** 
+- **Identity:** 
+- **Former Aliases:** 
+- **Place of Birth:** 
+- **Marital Status:** 
+- **Known Relatives:** 
+- **Group Affiliation:** 
+- **Base of Operations:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+
+:::::::::::: {.bio2} ::::::::::::::::::::::::
+- **Height:** 
+- **Weight:** 
+- **Eyes:** 
+- **Hair:** 
+:::::::::::::::::::::::::::::::::::::::::::::
+
+**Powers:**
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+**Weapons:** 
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+#### Villains, Inc. {#setting-villains-inc}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+#### Vulcanor {#setting-vulcanor}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## The Editor's Role {#toc-editor .breakbefore}
 
 []{.lorem}
@@ -3946,15 +4524,15 @@ Story Arcs.
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### Alien Invasion
+##### Alien Invasion (3 Actions)
 
-- **Smash: 6** (destroy the alien ships)
+- **Smash:  6** (destroy the alien ships)
 - **Outwit: 5** (trick the aliens into leaving Earth)
-- **Allay: 7** ()
-- **Rescue: 6** ()
+- **Allay:  7** (understand the aliens' goals)
+- **Rescue: 5** (save potential abductees)
 
 A cluster of alien spaceships is attacking the local shopping
-mall, trying to abduct 
+mall, trying to abduct innocent bystanders.
 
 Crisis Rules
 :   One or more additional rules.
@@ -3991,11 +4569,11 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Alternate Heroes (1 per Hero)
 
-- **Smash: v** (desc of goal)
+- **Smash:  v** (desc of goal)
 - **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
+- **Allay:  v** (desc of goal)
 - **Rescue: v** (desc of goal)
 
 desc of crisis
@@ -4035,17 +4613,17 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Corporate Goon Squad (4 actions)
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
-- **Rescue: v** (desc of goal)
+- **Smash:  6** (break their toys)
+- **Outwit: 4** (get the drop on them)
+- **Allay:  8** (appeal to their common humanity)
+- **Rescue: -- ** 
 
 desc of crisis
 
 Crisis Rules
-:   One or more additional rules.
+:   The Rescue goal can't be advanced in this Crisis.
 
 move (a)
 :   A description of the move.
@@ -4078,13 +4656,53 @@ Resolution (Rescue)
 
 []{.lorem}
 
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
-- **Rescue: v** (desc of goal)
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### A Small Army (2 actions)
+
+- **Smash:  5** (blow up tanks and capture guns)
+- **Outwit: 7** (outflank the army)
+- **Allay:  8** (get them to leave people alone)
+- **Rescue: 7** (save bystanders)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Rogue Elite Squad (4 actions)
+
+- **Smash:  6** (take the fight to them)
+- **Outwit: 7** (superior teamwork to outflank them)
+- **Allay:  10** (convince them their orders are illegal)
+- **Rescue: 8** (rescue bystanders)
 
 desc of crisis
 
@@ -4123,12 +4741,51 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### A Zombie Horde (6 actions)
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
-- **Rescue: v** (desc of goal)
+- **Smash:  6** (destroy them, since they're already dead)
+- **Outwit: 4** (zombies aren't known for being clever)
+- **Allay:  --** (desc of goal)
+- **Rescue: 4** (it's not hard to move people out of harm's way)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Vampires (4 actions)
+
+- **Smash:  9** (vampires are hard to just punch)
+- **Outwit: 5** (using their weaknesses against them)
+- **Allay:  7** (appeal to their repressed humanity)
+- **Rescue: 6** (save people from being bitten)
 
 desc of crisis
 
@@ -4167,12 +4824,51 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Earthquake (3 actions)
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
-- **Rescue: v** (desc of goal)
+- **Smash:  6** (knocking away rubble that damages people)
+- **Outwit: --v** 
+- **Allay:  6** (help calm panicking civilians)
+- **Rescue: 4** (plenty of people to save)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Wildfire (4 actions)
+
+- **Smash:  --**
+- **Outwit: 6** (clever firefighting techniques)
+- **Allay:  6** (assist the wounded)
+- **Rescue: 6** (evacuate people in the fire's path)
 
 desc of crisis
 
@@ -4211,12 +4907,51 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Bank Robbers (2 actions)
 
-- **Smash: v** (desc of goal)
-- **Outwit: v** (desc of goal)
-- **Allay: v** (desc of goal)
-- **Rescue: v** (desc of goal)
+- **Smash:  4** (apply force to capture the robbers)
+- **Outwit: 4** (trick them into giving themselves up)
+- **Allay:  6** (convince the robbers to give up)
+- **Rescue: 4** (save the tellers and bank customers)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Organized Crime Family (4 actions)
+
+- **Smash:  6** (cost them money by breaking things)
+- **Outwit: 7** (trap them in a sticky situation)
+- **Allay:  8** (come to an understanding)
+- **Rescue: --**
 
 desc of crisis
 
@@ -4255,7 +4990,7 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Police Riot 
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
@@ -4299,7 +5034,46 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Mad Scientist's Lab
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Toxic Sludge Monster
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
@@ -4343,7 +5117,46 @@ Resolution (Rescue)
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-##### name
+##### Villain Team
+
+- **Smash: v** (desc of goal)
+- **Outwit: v** (desc of goal)
+- **Allay: v** (desc of goal)
+- **Rescue: v** (desc of goal)
+
+desc of crisis
+
+Crisis Rules
+:   One or more additional rules.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+move (a)
+:   A description of the move.
+
+Resolution (Defeat)
+:   A description of this resolution.
+
+Resolution (Smash)
+:   A description of this resolution.
+
+Resolution (Outwit)
+:   A description of this resolution.
+
+Resolution (Allay)
+:   A description of this resolution.
+
+Resolution (Rescue)
+:   A description of this resolution.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Boss Villain
 
 - **Smash: v** (desc of goal)
 - **Outwit: v** (desc of goal)
