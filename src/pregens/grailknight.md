@@ -94,8 +94,8 @@
 [Honor]{.pregen-ideal .pregen-i1}
 [Law]{.pregen-ideal .pregen-i2}
 [Faith]{.pregen-ideal .pregen-i3}
-[Duty]{.pregen-ideal .pregen-i4}
-[Commitment]{.pregen-ideal .pregen-i5}
+[Vows]{.pregen-ideal .pregen-i4}
+[Chivalry]{.pregen-ideal .pregen-i5}
 
 [Sir Percival]{.pregen-nickname}
 [he/him]{.pregen-pronouns}

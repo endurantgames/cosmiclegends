@@ -206,7 +206,7 @@ p, li { orphans: 3; line-height: 1.30; }
 
 figure figcaption { 
   counter-increment: figure; 
-  display: block; 
+  display: none; 
   text-align: outside;
   font-size: var(--caption); 
   font-family: var(--font-caption); 
@@ -645,6 +645,7 @@ margin-top: 1em; }
   -prince-float-defer-column: outside;
   margin-bottom: 2em;
 }
+.classpic figure figcaption { display: block; }
 .classpic figure img { width: 100%; height: auto; } 
 
 .classpic.wide figure { 
@@ -1108,14 +1109,16 @@ margin-top: 1em; }
   bottom: 415pt;
   right: 23pt; 
   width: 170pt; 
+  break-inside: avoid;
 }
 #what-page ul li { 
   margin: 0; 
+  break-inside: avoid;
   list-style-type: none; 
   color: white;
   background-color: #800000;
   font-family: var(--font-what);;
-  line-height: 0.95;
+  line-height: 0.92;
   padding-top: 1pt;
   padding-bottom: 1pt;
   padding-left: 2pt;
@@ -1136,3 +1139,86 @@ margin-top: 1em; }
   width: 477pt;
   height: 733pt;
 }
+
+#section-what :matches(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-h2);
+}
+
+#section-what figure {
+  break-inside: avoid;
+  break-after: avoid;
+  float: right; 
+  margin-left: 0.5em;
+  border: 0.5pt solid var(--color-sheet-dark);
+  border-radius:     var(--border-radius);
+}
+
+#section-what ul { margin: 0; }
+#section-what ul li { 
+  margin: 0;
+  margin-left: 1em; 
+  margin-bottom: 2pt;
+  text-indent: -1em; 
+  list-style-type: none;
+  line-height: 1.0;
+}
+
+#section-what .sidebar p {
+  text-align: left;
+}
+
+#section-what p {
+  line-height: 1.1;
+  text-align: justify;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+#section-what figure img { 
+  height: auto; 
+  width: 1in; 
+}
+
+#section-what .stats {
+  border-radius:     var(--border-radius);
+  border: 0.5pt solid var(--color-sheet-light);
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+  break-inside: avoid-page;
+}
+
+#section-what .stats :matches(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--h5);
+  font-family: var(--font-h4);
+  break-after: avoid;
+  margin-top: 0;
+}
+
+#section-what .bio2 {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+#section-what .group {
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+  break-inside: avoid-page;
+  border: 0.5pt solid var(--color-sheet-dark);
+  border-radius:     var(--border-radius);
+}
+
+#section-what .stats > ul > li:nth-child(4) {
+  display: inline-block;
+  width: auto;
+}
+
+#section-what .stats > ul > li:nth-child(3) {
+  display: inline-block;
+  margin: 0; text-indent: 0;
+  box-sizing: border-box;
+  width: 50%;
+}
+

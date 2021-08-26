@@ -92,7 +92,7 @@ count 2s as Edge Successes.]{.pregen-ability-class}
 
 [Responsibility]{.pregen-ideal .pregen-i1}
 [Duty]{.pregen-ideal .pregen-i2}
-[Order]{.pregen-ideal .pregen-i3}
+[Pedantry]{.pregen-ideal .pregen-i3}
 [Family]{.pregen-ideal .pregen-i4}
 [Secrecy]{.pregen-ideal .pregen-i5}
 

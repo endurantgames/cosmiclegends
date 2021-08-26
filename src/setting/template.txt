@@ -1,41 +1,14 @@
-::::::::::::: {.bio} ::::::::::::::::::::::::
-- **Real Name:** 
-- **Occupation:** 
-- **Legal Status:** 
-- **Gender:** 
-- **Identity:** 
-- **Former Aliases:** 
-- **Place of Birth:** 
-- **Marital Status:** 
-- **Known Relatives:** 
-- **Group Affiliation:** 
-- **Base of Operations:** 
-:::::::::::::::::::::::::::::::::::::::::::::
- 
-**History:**
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 
-- **Weight:** 
-- **Eyes:** 
-- **Hair:** 
-:::::::::::::::::::::::::::::::::::::::::::::
-
-**Powers:**
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
-
-**Weapons:** 
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+- **Class:** 
+- **Facets:** Action 1, Adventure 1, Detective 1, Mystery 1, Suspense 1
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* 
+  - *Personal:* 
+  - *Nova:* 
+- **Abilities:** 
+- **Skills:** 
+- **Ideals:** 
+::::::::::::::::::::::::::::::::::::::
 

@@ -1,13 +1,14 @@
 :::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
 ![What's What](art/whos-who.png){.ww} \
 
+- [](#setting-alert)
 - [](#setting-brigantia)
 - [](#setting-clotu)
-- [](#setting-clu-hq)
 - [](#setting-energy-boy)
 - [](#setting-grailknight)
 - [](#setting-head-librarian)
 - [](#setting-jackdee)
+- [](#setting-nova-labs)
 - [](#setting-obsidius-rex)
 - [](#setting-riptide)
 - [](#setting-rockstar)

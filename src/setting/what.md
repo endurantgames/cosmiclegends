@@ -1,111 +1,144 @@
 :::::::::::::::: {#section-what} :::::::::::::::::::::::::::::::::::::::::::::
-# What's What in the CLotU Universe {#what}
+# A.L.E.R.T. {#setting-alert}
 
-[]{.lorem}
+:::::::::::: group ::::::::::::::::::::::::::
+- **Type of Group:** Government Agency
+- **Base of Operations:** Washington, D.C.
+- **Active Operatives:** Sandra Starr: Agent of A.L.E.R.T.
+- **Reserve Operatives:** The Grailknight
+- **Allies:** Cosmic Legends of the Universe, Titan
+- **Enemies:** Marquis Malign, Neutrino, T.R.E.L.A., Villains Inc., Xana Mega
+:::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
+The Agency for the Licensing of Extra-Human Resources and Threats (A.L.E.R.T.)
+was created by the U.S. Congress sometime after World War II and before Titan's
+arrival on Earth in October of 1956 -- as they were well-equipped to handle
+the Saturnian Sentinel, had it proven necessary.
 
-## Brigantia {#setting-brigantia}
+A.L.E.R.T. usually works with the Cosmic Legends, although the two groups have 
+clashed in the past -- most notably when A.L.E.R.T. was infiltrated by agents 
+of T.R.E.L.A.
+
+# Brigantia {#setting-brigantia}
+
+![Brigantia](art/jeshields/divine.png) 
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Sienna MacGowan
 - **Occupation:** Grad student, poet
 - **Legal Status:** Citizen of the Republic of Ireland
-- **Gender:** Female (she/her)
+- **Gender:** female (she/her)
 - **Identity:** secret
 - **Place of Birth:** Cork, Ireland
 - **Marital Status:** single
 - **Group Affiliation:** Cosmic Legends of the Universe
 - **Base of Operations:** Dublin, Ireland and Sun City, U.S.A.
+- **Height:** (as Sienna) 5'2" (as Brigantia) 7'2"
+- **Weight:** (as Sienna) 145 lbs. (as Brigantia) 340 lbs.
+- **Eyes:** (as Sienna) green (as Brigantia) green
+- **Hair:** (as Sienna) brown (as Brigantia) red
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** (as Sienna) 5'2" (as Brigantia) 7'2"
-- **Weight:** (as Sienna) 145 lbs. (as Brigantia) 340 lbs.
-- **Eyes:** (as Sienna) Green (as Brigantia) Green
-- **Hair:** (as Sienna) Brown (as Brigantia) Red
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Brigantia
 
-**Weapons:** 
-[]{.lorem}
+- **Class:** The Divine
+- **Facets:** Action 3, Adventure 3, Detective 1, Mystery 1, Suspense 2
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Blessed, Champion
+  - *Personal:* Flight, Peace, Radiant, Resist, Speed, Strength
+  - *Nova:* Blazing, Sword
+- **Abilities:** Give Me Strength!, Wisdom of Athena
+- **Skills:** Explorer, Historian, Performer (poet), Physician
+- **Ideals:** Culture, Honor, Justice, Loyalty, Vengeance
+::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-[]{.lorem}
+# Cosmic Legends of the Universe {#setting-clotu}
 
-## Cosmic Legends of the Universe {#setting-clotu}
+::::::::::: group :::::::::::::::::::::::::::
+- **Type of Group:** Superhero Team
+- **Base of Operations:** Sun City, U.S.A.; Technopolis, U.S.A. (former base); Mag Findargat, Otherworld (temporary base); Pittsburgh, Pennsylvania (former base)
+- **Active Members:** Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0
+- **Reserve Members:** The Grailknight, Jack Dee, Obsidius Rex, Titan
+- **Former Members:** Bug II, The Falconer, Sequana (expelled) Vespa I (deceased), Zaar
+- **Allies:** A.L.E.R.T., The Junior Legends of the World, N.O.V.A. Labs, Technopolis Academy
+- **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, Villains Inc., Xana Mega
+:::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
+The Cosmic Legends of the Universe were founded in September 1963 by 
+Titan, the Sentinel of Saturn;
+Sir Percival, the Grailknight;
+Miss Magister: Maddie Dee;
+Sequana, Champion of the Tuatha Dé Danann;
+Vespa (I); and the Falconer,
+to fight against the invasion of Earth by Fomorians under the control
+of Xana Mega, faerie queen of the Aos Sí.
 
-[]{.lorem}
+Although their membership has changed over the decades, they remain
+committed to protecting the Earth from the forces of evil.
 
-[]{.lorem}
+# Energy Boy {#setting-energy-boy}
 
-## CLU Headquarters  {#setting-clu-hq}
-
-[]{.lorem}
-
-[]{.lorem}
-
-[]{.lorem}
-
-## Energy Boy {#setting-energy-boy}
+![Energy Boy](art/jeshields/dynamo.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
-- **Real Name:** Delmore Langston Thompson
+- **Real Name:** Delmore "Del" Langston Thompson
 - **Occupation:** College student
 - **Legal Status:** Citizen of the United States
 - **Gender:** male (he/him)
 - **Identity:** secret
 - **Place of Birth:** Chicago, Illinois
 - **Marital Status:** single
-- **Group Affiliation:** Cosmic Legends of the Universe
+- **Known Relatives:** Delphine Thompson (mother)
+- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of the World (resigned)
 - **Base of Operations:** Tuskaloosa, Alabama and Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 5' 9"
+- **Weight:** 155 lbs.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Eyes:** (as Del) brown, (as Energy Boy) green
+- **Hair:** (as Del) black, (as Energy Boy) none
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 5' 9"
-- **Weight:** 155 lbs.
-- **Eyes:** Brown
-- **Hair:** Black
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Energy Boy
 
-**Weapons:** 
-[]{.lorem}
+- **Class:** The Dynamo
+- **Facets:** Action 2, Adventure 3, Detective 2, Mystery 1, Suspense 2
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Energy, Overload, Radiation
+  - *Personal:* Absorb, Beam, Bubble, Explosion, Flare, Punch
+  - *Nova:* Meltdown, Nuclear
+- **Abilities:** Energy Reserve, Fight Fire With Fire
+- **Skills:** Academic, Scientist
+- **Ideals:** Guilt, Longing, Politeness, Relax, Responsibility
+::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-[]{.lorem}
+# The Grailknight {#setting-grailknight}
 
-
-## The Grailknight {#setting-grailknight}
-
+![Percival, the Grailknight](art/jeshields/knight.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Percival Pellinore
@@ -116,39 +149,47 @@
 - **Former Aliases:** Peredur, Percevaus li Galois
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** None
-- **Group Affiliation:** Knights of the Round Table, Cosmic Legends of the Universe
+- **Group Affiliation:** Knights of the Round Table, Cosmic Legends of the Universe (reserve member), A.L.E.R.T. (reserve operative)
 - **Base of Operations:** New York City, New York and Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 5' 6"
+- **Weight:** 170 lbs.
+- **Eyes:** brown
+- **Hair:** black
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
 
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 5' 6"
-- **Weight:** 170 lbs.
-- **Eyes:** brown
-- **Hair:** black
-:::::::::::::::::::::::::::::::::::::::::::::
-
-**Powers:**
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
+**Powers:** Sir Percival has only one confirmed power:
+immortality. Due to his vows, he's unable to die until he
+completes his quest and finds the Grail.
 
 **Weapons:** 
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Percival, the Grailknight
 
-## The Head Librarian {#setting-head-librarian}
+- **Class:** The Knight
+- **Facets:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Gambit, Prepared
+  - *Personal:* Armor, Crossbow, Line, Restrain, Sword
+  - *Nova:* Immortal, Quest
+- **Abilities:** Peak Human Potential, Trick Arrows
+- **Skills:** Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy
+- **Ideals:** Chivalry, Faith, Honor, Law, Vows
+::::::::::::::::::::::::::::::::::::::
+
+# The Head Librarian {#setting-head-librarian}
+
+![The Head Librarian](art/jeshields/psychic.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** unknown
@@ -160,39 +201,43 @@
 - **Place of Birth:** unknown
 - **Marital Status:** unknown
 - **Known Relatives:** unknown
-- **Group Affiliation:** Cosmic Legends of the Universe
+- **Group Affiliation:** Cosmic Legends of the Universe, N.O.V.A. Labs (consultant)
 - **Base of Operations:** Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 5' 10"
+- **Weight:** 160 lbs.
+- **Eyes:** Brown
+- **Hair:** Black
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 5' 10"
-- **Weight:** 160 lbs.
-- **Eyes:** Brown
-- **Hair:** Black
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## The Head Librarian
 
-**Weapons:** 
-[]{.lorem}
+- **Class:** The Psychic
+- **Facets:** Action 1, Adventure 2, Detective 1, Mystery 2, Suspense 4
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Focused, Totality
+  - *Personal:* Erase, Language, Memory, Move, Paper, Probe, Restore, Transfer
+  - *Nova:* Information, Overload
+- **Abilities:** Our Minds As One, Telekinetics
+- **Skills:** Academic, Artist, Journalist
+- **Ideals:** Aesthetics, Compassion, Knowledge, Learning, Order
+::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-[]{.lorem}
+# Jack Dee, Master Magister {#setting-jackdee}
 
-## Jack Dee, Master Magister {#setting-jackdee}
-
+![Jack Dee](art/jeshields/mage.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** John Arthur Dee
@@ -202,40 +247,65 @@
 - **Identity:** public
 - **Place of Birth:** Sacramento, California
 - **Marital Status:** single
-- **Known Relatives:** Madinia Katherine Dee (mother), unknown (father), John Arthur Dee VI (maternal grandfather), Arthur Dee (ancestor), John Dee (ancestor)
-- **Group Affiliation:** Cosmic Legends of the Universe, State Bar of California
+- **Known Relatives:** Madinia Katherine Dee (mother, deceased), John Arthur Dee VI (maternal grandfather), John Arthur Dee VII (uncle, deceased), Arthur Dee (purported ancestor, deceased), John Dee (purported ancestor)
+- **Group Affiliation:** Cosmic Legends of the Universe (reserve member), State Bar of California
 - **Base of Operations:** San Francisco, California and Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 6' 0"
+- **Weight:** 170 lbs.
+- **Eyes:** brown
+- **Hair:** brown
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 6' 0"
-- **Weight:** 170 lbs.
-- **Eyes:** brown
-- **Hair:** brown
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Jack Dee
 
-**Weapons:** 
-[]{.lorem}
+- **Class:** The Mage
+- **Facets:** Action 1, Adventure 1, Detective 4, Mystery 2, Suspense 2
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Sorcery, Supreme
+  - *Personal:* Banish, Blast, Extradimensional, Magic, Shield, Ward
+  - *Nova:* Ancestral, Empowerment
+- **Abilities:** The Price of Magic, Mists of Misdirection
+- **Skills:** Academic, Historian, Lawyer, Mystic
+- **Ideals:** Duty, Family, Pedantry, Responsibility, Secrecy
+::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-[]{.lorem}
+# N.O.V.A. Labs {#setting-nova-labs}
 
-## Obsidius Rex {#setting-obsidius-rex}
+:::::::::::: group ::::::::::::::::::::::::::
+- **Type of Group:** Research Consortium
+- **Base of Operations:** Technopolis, U.S.A. (primary);
+  major laboratories in Busan, South Korea; Halifax, Nova Scotia;
+  Lagos, Nigeria; Madrid, Spain; Pittsburgh, Pennsylvania; 
+  Rio de Janeiro, Brazil; Sun City, U.S.A.; Surabaya, Indonesia;
+  (closed) Kyiv, Ukraine 
+- **Allies:** Cosmic Legends of the Universe, Energy Boy, The Head Librarian, Technopolis Academy
+  Titan, Vespa 2.0, Vulcanor Island
+- **Enemies:** A.L.E.R.T. (temporarily), Atomicorps, Marquis Malign, Neutrino, Villains Inc.
+:::::::::::::::::::::::::::::::::::::::::::::
 
+In 1971, the Network for Observation, Verification, and Analysis
+was founded in Technopolis by Titan, Vespa (I), Dr. Phineas Pann, and 
+King Tachylus Rex of Vulcanor. Since then, major research laboratories
+have been established in 9 other cities. N.O.V.A. Labs are a helpful
+resource for scientific-minded heroes, but there's always the risk
+of science gone wild.
+
+# Obsidius Rex {#setting-obsidius-rex}
+
+![Obsidius Rex](art/jeshields/monarch.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Obsidius Vulcanor Rex
@@ -246,39 +316,46 @@
 - **Place of Birth:** Volcano City, Vulcanor Island
 - **Marital Status:** single
 - **Known Relatives:** Tachylus Vulcanor Rex (father), Limuo Pele Vulcanor (mother)
-- **Group Affiliation:** Vulcanor Royal Family, Cosmic Legends of the Universe
+- **Group Affiliation:** Vulcanor Royal Family, Cosmic Legends of the Universe (reserve member)
 - **Base of Operations:** Volcano City, Vulcanor Island and Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 6' 1"
+- **Weight:** 300 lbs.
+- **Eyes:** black
+- **Hair:** none
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 6' 1"
-- **Weight:** 300 lbs.
-- **Eyes:** black
-- **Hair:** none
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
-[]{.lorem}
-
-[]{.lorem}
 []{.lorem}
 
 **Weapons:** 
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Obsidius Rex
 
-## Riptide {#setting-riptide}
+- **Class:** The Monarch
+- **Facets:** Action 2, Adventure 4, Detective 1, Mystery 2, Suspense 1
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Reinforcements, Unexpected
+  - *Personal:* Armor, Communicate, Greatsword, Remote, Superior, Survivor
+  - *Nova:* Stone, Unbreakable
+- **Abilities:** For My Kingdom, Righteous Rage
+- **Skills:** Artist (sculptor), Engineer, Explorer, Historian, Politician
+- **Ideals:** Nationalism, Nobility, Pride, Security, Stubbornness
+::::::::::::::::::::::::::::::::::::::
 
+# Riptide {#setting-riptide}
+
+![Riptide](art/jeshields/shaper.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Kelly Liang
@@ -292,35 +369,48 @@
 - **Group Affiliation:** University of Hawai'i faculty, Cosmic Legends of the Universe
 - **Base of Operations:** Hilo, Hawai'i and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 5' 9"
+- **Weight:** 135 lbs.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio  :::::::::::::::::::::::::::
+- **Eyes:** brown
+- **Hair:** (dyed) magenta, (natural) black
+:::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 5' 9"
-- **Weight:** 135 lbs.
-- **Eyes:** brown
-- **Hair:** (dyed) magenta, (natural) black
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
-[]{.lorem}
+Riptide has complete telekinetic control over liquid water, 
+with limited control over ice and water vapor. She can condense
+atmospheric water to liquid form, and can instantly melt or
+evaporate solid ice.
 
-[]{.lorem}
-[]{.lorem}
+She can propel herself at speeds up to 100 m.p.h. underwater
+or on the surface of a body of water, and 50 m.p.h. over land.
 
-**Weapons:** 
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Riptide
 
-[]{.lorem}
-[]{.lorem}
+- **Class:** The Shaper
+- **Facets:** Action 2, Adventure 4, Detective 2, Mystery 1, Suspense 1
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Environment, Sculpt, Water
+  - *Personal:* Blast, Create, Move, Quell, Reshape, Shield
+  - *Nova:* Towering, Tsunami
+- **Abilities:** Reshape the Battlefield, Shelter the Innocents
+- **Skills:** Artist (sandcastles), Physician (first aid), Scientist (marine biology), Socialite
+- **Ideals:** Lifesaving, Nature, Protection, Surfing, Humor
+::::::::::::::::::::::::::::::::::::::
 
-## Rockstar {#setting-rockstar}
+# Rockstar {#setting-rockstar}
+
+![Rockstar](art/jeshields/monstrosity.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Geraldine "Jeri" North
@@ -334,111 +424,144 @@
 - **Group Affiliation:** Cosmic Legends of the Universe
 - **Base of Operations:** New York City, New York and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
- 
-**History:**
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
 - **Height:** 8'
 - **Weight:** 1040 lbs.
 - **Eyes:** blue
 - **Hair:** none
 :::::::::::::::::::::::::::::::::::::::::::::
+ 
+**History:**
+[]{.lorem}
+
+[]{.lorem}
 
 **Powers:**
-[]{.lorem}
+Jeri North's exposure to bremsstrahlung rays fundamentally changed
+the nature of her body. Her skin is a rough, rocky substance with
+sharp metal "hairs" scattered about, and her internal organs and skeleton
+are composed of even denser materials.
 
-[]{.lorem}
-[]{.lorem}
+This grants her a high degree of imperviousness to pain and injury,
+and lets her lift in excess of 100 tons.
 
-**Weapons:** 
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Rockstar 
 
-[]{.lorem}
-[]{.lorem}
+- **Class:** The Monstrosity
+- **Facets:** Action 4, Adventure 2, Detective 2, Mystery 1, Suspense 1
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Monster, Strongest
+  - *Personal:* Body, Leap, Rocky, Stomp, Strength, Throw
+  - *Nova:* Mosh, Pit
+- **Abilities:** Engine of Destruction, Misunderstood Monster
+- **Skills:** Criminal, Explorer, Hacker, Performer (punk)
+- **Ideals:** Bold, Comfort, Fun, Kindness, Music
+::::::::::::::::::::::::::::::::::::::
 
-## Saturn {#setting-saturn}
-
-[]{.lorem}
-
-[]{.lorem}
-
-[]{.lorem}
-
-## Sun City {#setting-sun-city}
-
-[]{.lorem}
-
-[]{.lorem}
-
-[]{.lorem}
-
-## Technopolis {#setting-technopolis}
+# Saturn {#setting-saturn}
 
 []{.lorem}
 
 []{.lorem}
 
+# Sun City, U.S.A. {#setting-sun-city}
+
 []{.lorem}
 
-## Titan {#setting-titan}
+[]{.lorem}
+
+# Technopolis Academy {#setting-technopolis}
+
+:::::::::::: group ::::::::::::::::::::::::::
+- **Type of Group:** Private School
+- **Base of Operations:** Technopolis, U.S.A.
+- **Graduates:** Bug (II), Energy Boy, Kaleidoscope Kid, Lucky Star, Vespa 2.0, others
+- **Former Students:** Glytch (expelled), Gloom, Marlinspike (deceased), others
+- **Allies:** N.O.V.A. Labs, Cosmic Legends of the Universe, Junior Legends of America
+- **Enemies:** Atomicorps, The Crime Institute, Glytch, Marquis Malign, Xana Mega
+:::::::::::::::::::::::::::::::::::::::::::::
+
+Technopolis Academy was established in November 1980 to train 
+young superheroes in the use of their powers and abilities. 
+
+# Titan {#setting-titan}
+
+![Titan](art/jeshields/paragon.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
-- **Real Name:** Ti'Tonn To'Rezz
+- **Real Name:** Ty'Tonn To'Rezz
 - **Occupation:** sentinel
 - **Legal Status:** Honorary citizen of Canada
 - **Gender:** nyrr-t'vor (he/him, they/them, or it/its)
 - **Identity:** public
 - **Former Aliases:** Thomas "Tom" Torres
-- **Place of Birth:** L'sharr'an, Titan
+- **Place of Birth:** L'Shar'Ak, Titan
 - **Marital Status:** widowed
-- **Known Relatives:** unnamed spouses (deceased), Mi'Rinn T'orezz (niece)
-- **Group Affiliation:** Cosmic Legends of the Universe, Sentinels of Saturn (resigned)
+- **Known Relatives:** unnamed spouses (deceased), My'Tonn To'Rezz (sibling, deceased), My'Rinn To'Rezz (sibling's child)
+- **Group Affiliation:** Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)
 - **Base of Operations:** Halifax, Nova Scotia and Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2 :::::::::::::::::::::::::::
+- **Height:** 7' 6"
+- **Weight:** 280 lbs.
+- **Eyes:** yellow
+- **Hair:** none
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 7' 6"
-- **Weight:** 280 lbs.
-- **Eyes:** yellow
-- **Hair:** none
-:::::::::::::::::::::::::::::::::::::::::::::
 
 **Powers:**
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+:::::::::::: {.stats} ::::::::::::::::
+## Titan
 
-**Weapons:** 
-[]{.lorem}
+- **Class:** The Paragon
+- **Facets:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
+- **Health:** 15
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Abilities, Powers
+  - *Personal:* Alien, Cold, Flight, Probe, Speed, Strength, Thoughts, Vision
+  - *Nova:* Compassion, Selfless
+- **Abilities:** My One Weakness! (salt water), Boundless Fortitude
+- **Skills:** Investigator, Scientist
+- **Ideals:** Caution, Curiosity, Freedom, Joy, Privacy
+::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
-[]{.lorem}
+# Tuatha Dé Danann {#setting-tuatha}
 
-## Tuatha De Danann {#setting-tuatha}
+::::::::::: group :::::::::::::::::::::::::::
+- **Type of Group:** Pantheon
+- **Base of Operations:** Mag Findargat, Otherworld
+- **Current Members:** Aengus, Brigid, Dagda, Dian Cecht, Goibniu, Lugh, Manannán, Morrigan
+- **Former Members:** Bres, Miach (deceased), Nuada (deceased)
+- **Other Affiliations:** Brigantia (champion), Sequana (former champion)
+- **Enemies:** Balor, Bres, the Firbolgs, the Fomorians, Sequana, Sreng, Xana Mega
+:::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
+The *Fir Domnann* people -- collectively known as the Tuatha Dé Danann --
+are powerful extradimensional entities once worshipped as gods by the 
+Celts. They grant a portion of their power to a mortal human who becomes
+their Champion; the current Champion is Sienna MacGowan, otherwise 
+known as Brigantia of the Cosmic Legends.
 
-[]{.lorem}
+::::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::
+## An Apology to Celtic Pagans
 
-[]{.lorem}
+I apologize in advance for the horrible mishandling of the 
+Tuatha Dé Danann and other elements of Celtic mythology.
+It's done specifically in reference to the way Marvel Comics
+handled the Norse, Greek, and other pantheons over the years.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Vespa 1.0 {#setting-vespa-1}
-
+# Vespa I {#setting-vespa-1}
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Hazel Montgomery
@@ -448,42 +571,33 @@
 - **Identity:** public
 - **Place of Birth:** Albuquerque, New Mexico
 - **Marital Status:** divorced
-- **Known Relatives:** Lin Montgomery (child)
-- **Group Affiliation:** Cosmic Legends of the Universe
+- **Known Relatives:** Marquis Malign (ex-husband), Lin Montgomery (child)
+- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
- 
-**History:**
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
-
-[]{.lorem}
-
 :::::::::::: {.bio2} ::::::::::::::::::::::::
 - **Height:** 5' 2"
 - **Weight:** 125 lbs.
 - **Eyes:** hazel
 - **Hair:** light brown
 :::::::::::::::::::::::::::::::::::::::::::::
-
-**Powers:**
+ 
+**History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
+
+**Powers:** Hazel Montgomery had no super-powers, just
+her brilliant and creative mind.
 
 **Weapons:** 
 []{.lorem}
 
-[]{.lorem}
-[]{.lorem}
+# Vespa 2.0 {#setting-vespa}
 
-## Vespa 2.0 {#setting-vespa}
+![Vespa 2.0](art/jeshields/inventor.png)
 
-
-::::::::::::: {.bio} ::::::::::::::::::::::::
+::::::::::::: bio ::::::::::::::::::::::::
 - **Real Name:** Lin Montgomery
 - **Occupation:** inventor, scientist
 - **Legal Status:** Citizen of the United States
@@ -492,52 +606,56 @@
 - **Former Aliases:** Bug, The Hornette
 - **Place of Birth:** Technopolis, U.S.A.
 - **Marital Status:** single 
-- **Known Relatives:** Hazel Montgomery (mother, deceased)
-- **Group Affiliation:** Cosmic Legends of the Universe
+- **Known Relatives:** Hazel Montgomery (mother, deceased), Marquis Malign (father)
+- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of the World (as Bug; resigned), Technopolis Academy (graduated)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
+:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::: bio2    ::::::::::::::::::::::::
+- **Height:** 5' 3"
+- **Weight:** 110 lbs.
+:::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::  bio    ::::::::::::::::::::::::
+- **Eyes:** hazel
+- **Hair:** (dyed) blonde, (natural) brown
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
 
 []{.lorem}
-[]{.lorem}
 
-[]{.lorem}
-
-:::::::::::: {.bio2} ::::::::::::::::::::::::
-- **Height:** 5' 3"
-- **Weight:** 110 lbs.
-- **Eyes:** hazel
-- **Hair:** (dyed) blonde, (natural) brown
-:::::::::::::::::::::::::::::::::::::::::::::
-
-**Powers:**
-[]{.lorem}
-
-[]{.lorem}
-[]{.lorem}
+**Powers:** Lin Montgomery has no powers; all of their
+abilities come from their armored suit.
 
 **Weapons:** 
 []{.lorem}
 
+:::::::::::: {.stats} ::::::::::::::::
+## Vespa 2.0
+
+- **Class:** The Inventor
+- **Facets:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
+- **Health:** 10
+- **Might:** 10
+- **Power Words:**
+  - *Core:* Armor, Experimental, Prototype
+  - *Personal:* Analyze, Communicate, Dynamic, Laser, Protection, Telemetry, Wings
+  - *Nova:* Bug, Zapper
+- **Abilities:** No Wasted Effort, Armorsmith
+- **Skills:** Artist (fanfic), Engineer, Hacker, Pilot, Scientist (entomology)
+- **Ideals:** Comaraderie, Honesty, Legacy, Science, Self-Sacrifice
+::::::::::::::::::::::::::::::::::::::
+
+# Villains, Inc. {#setting-villains-inc}
+
+[]{.lorem}
+
 []{.lorem}
 []{.lorem}
 
-## Villains, Inc. {#setting-villains-inc}
+# Vulcanor {#setting-vulcanor}
 
 []{.lorem}
-
-[]{.lorem}
-
-[]{.lorem}
-
-## Vulcanor {#setting-vulcanor}
-
-[]{.lorem}
-
-[]{.lorem}
-
 []{.lorem}
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
