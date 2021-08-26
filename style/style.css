@@ -1151,6 +1151,7 @@ margin-top: 1em; }
   margin-left: 0.5em;
   border: 0.5pt solid var(--color-sheet-dark);
   border-radius:     var(--border-radius);
+  margin-bottom: 0.5em;
 }
 
 #section-what ul { margin: 0; }

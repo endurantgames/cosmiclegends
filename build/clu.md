@@ -3972,7 +3972,7 @@ of T.R.E.L.A.
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Sienna MacGowan
-- **Occupation:** Grad student, poet
+- **Occupation:** Graduate student, poet
 - **Legal Status:** Citizen of the Republic of Ireland
 - **Gender:** female (she/her)
 - **Identity:** secret
@@ -3987,12 +3987,31 @@ of T.R.E.L.A.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
+from her grandmother, and she claimed the Celtic gods even spoke 
+to her in her dreams.
 
-[]{.lorem}
+When she grew older, Sienna's dreams faded and she no longer
+believed in the mythological aspects of Celtic fables. Instead,
+she resolved to prove that the Tuatha Dé Danann were historical
+beings as mortal as anyone else. 
+
+Armed with an archaeology degree, Sienna was working late at a 
+digsite outside the village of Skryne, when a voice called out to
+her, asking why she had forgotten her dreams. The experience
+repeated each night, although none save her heard the voice.
+
+Finding no logical explanation for the phenomenon, Sienna replied
+to the voice and asked who was speaking. The goddess Brigit appeared
+before Sienna, told her she was the Champion of the 
+Tuatha Dé Danann, and gifted her with power.
 
 **Powers:**
-[]{.lorem}
+When Sienna speaks the magic words, *Claidheamh Soluis*, she is
+transformed into the superhumanly powerful Champion, Brigantia.
+Her powers include flight, wisdom, super-speed, super-strength, 
+and projection of light rays from her eyes; in times of great 
+need, she can form a sword of blazing light.
 
 :::::::::::: {.stats} ::::::::::::::::
 #### Brigantia
@@ -4019,7 +4038,7 @@ of T.R.E.L.A.
 - **Reserve Members:** The Grailknight, Jack Dee, Obsidius Rex, Titan
 - **Former Members:** Bug II, The Falconer, Sequana (expelled) Vespa I (deceased), Zaar
 - **Allies:** A.L.E.R.T., The Junior Legends of the World, N.O.V.A. Labs, Technopolis Academy
-- **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, Villains Inc., Xana Mega
+- **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, the Visitors, Villains Inc., Xana Mega
 :::::::::::::::::::::::::::::::::::::::::::::
 
 The Cosmic Legends of the Universe were founded in September 1963 by 
@@ -4054,14 +4073,13 @@ committed to protecting the Earth from the forces of evil.
 - **Height:** 5' 9"
 - **Weight:** 155 lbs.
 :::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::: bio2 :::::::::::::::::::::::::::
+:::::::::::: bio  :::::::::::::::::::::::::::
 - **Eyes:** (as Del) brown, (as Energy Boy) green
 - **Hair:** (as Del) black, (as Energy Boy) none
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:**
@@ -4096,6 +4114,7 @@ committed to protecting the Earth from the forces of evil.
 - **Former Aliases:** Peredur, Percevaus li Galois
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
+- **Known Relatives:** King Pellinore (father, deceased), Algovale (brother, deceased), Lamorak (brother, deceased), Dindrane (sister), Agresizia (sister, deceased)
 - **Group Affiliation:** Knights of the Round Table, Cosmic Legends of the Universe (reserve member), A.L.E.R.T. (reserve operative)
 - **Base of Operations:** New York City, New York and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -4108,7 +4127,6 @@ committed to protecting the Earth from the forces of evil.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:** Sir Percival has only one confirmed power:
@@ -4159,9 +4177,16 @@ completes his quest and finds the Grail.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+The Head Librarian has no idea who he is or where he
+is from. He awoke in a field outside of Peshawar, Pakistan,
+as an adult with no memory of his prior life -- but the 
+ability to understand and speak every language he 
+encountered. No database on Earth -- digital or analog --
+contains any record of the man.
 
-[]{.lorem}
+He was instrumental in helping the Cosmic Legends defeat
+Glytch's attempts to digitize Khyber Pakhtunkhwa, and 
+accepted an invitation to join the team.
 
 **Powers:**
 []{.lorem}
@@ -4207,7 +4232,6 @@ completes his quest and finds the Grail.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:**
@@ -4275,7 +4299,6 @@ of science gone wild.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:**
@@ -4327,7 +4350,6 @@ of science gone wild.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:**
@@ -4380,7 +4402,6 @@ or on the surface of a body of water, and 50 m.p.h. over land.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:**
@@ -4410,15 +4431,66 @@ and lets her lift in excess of 100 tons.
 
 ### Saturn {#setting-saturn}
 
-[]{.lorem}
+::::::::::: place :::::::::::::::::::::::::::
+- **Type of Location:** planet and satellites
+- **Location:** 9.58 AU from Sol (average)
+- **Capital:** L'Shar'Ak, Titan
+- **Official Languages:** Titanese (*Ro'Tan'Kesh*)
+- **Demonym:** Titanian
+- **Governance:** Thought-Guild Oligarchy
+- **Head of State:** unknown
+- **Area:** (Titan) 83,000,000 km<sup>2</sup> (3,200,000 sq mi)
+- **Population:** unknown
+:::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
+The people of Saturn's moon Titan are not native to the
+Solar System; according to their oldest tales, they were
+taken from their home planet by a civilization known as
+the Visitors, were subjected to scientific experiments, 
+and were eventually abandoned on Titan.
+
+Titanians -- known as *Ro'Tan'Okk* in their own language --
+have strong mental powers and communicate by telepathy as
+often as they use *Ro'Tan'Kesh*. 
+
+They are physically superior to humans, with most able to 
+lift over 50 tons with minimal effort. Their only weakness 
+is a strong reaction to being touched by salt water, which 
+burns them and drains their energy.
+
+There are four known genders among the Titanians; Earthlings
+are only familiar with the *nyrr-t'vor* gender thanks to
+the presence of Ty'Tonn To'Rezz on Earth. Titanian families
+are comprised of 3 or more spouses and their children.
+
+The *Ro'Tan'Okk* have no concepts of war or crime; the
+closest thing to a military in Titanian society is the
+*Kyl'Sh'Tal* -- the famed Sentinels of Saturn. Sentinels
+are astronomers tasked with constant vigilance -- to watch
+the skies for the return of the Visitors.
 
 ### Sun City, U.S.A. {#setting-sun-city}
 
-[]{.lorem}
+::::::::::: place :::::::::::::::::::::::::::
+- **Type of Location:** city
+- **Location:** Gulf Coast, United States
+- **Established:** 1723
+- **Demonym:** Sun Citian
+- **Governance:** Council-Manager
+- **Area:** (city) 1,300 km<sup>2</sup> (502 sq mi); (metro area) 1,600 km<sup>2</sup> (618 sq mi)
+- **Population (2020):** (city) 1,350,000; (metro area) 2,250,000
+- **Time Zone:** Central Standard Time (UTC -0600); (summer) Central Daylight Time (UTC -0500)
+:::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
+Sun City is the 9th largest city in the United States, and is
+home to the headquarters of the Cosmic Legends of the Universe.
+Other prominent landmarks include Sun City University,
+the Port of Sun City, the Museum of Superheroic History, 
+Moulin Air Force Base, Sun City Zoo, N.O.V.A. Labs: Sun City,
+and the Techno-Sun Bullet Train station.
+
+Technopolis is located about 300 kilometers (186 miles) away;
+just over an hour and a half by train.
 
 ### Technopolis Academy {#setting-technopolis}
 
@@ -4439,15 +4511,15 @@ young superheroes in the use of their powers and abilities.
 ![Titan](art/jeshields/paragon.png)
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
-- **Real Name:** Ti'Tonn To'Rezz
+- **Real Name:** Ty'Tonn To'Rezz
 - **Occupation:** sentinel
 - **Legal Status:** Honorary citizen of Canada
 - **Gender:** nyrr-t'vor (he/him, they/them, or it/its)
 - **Identity:** public
 - **Former Aliases:** Thomas "Tom" Torres
-- **Place of Birth:** L'sharr'an, Titan
+- **Place of Birth:** L'Shar'Ak, Titan
 - **Marital Status:** widowed
-- **Known Relatives:** unnamed spouses (deceased), Mi'Rinn T'orezz (niece)
+- **Known Relatives:** unnamed spouses (deceased), My'Tonn To'Rezz (sibling, deceased), My'Rinn To'Rezz (sibling's child)
 - **Group Affiliation:** Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)
 - **Base of Operations:** Halifax, Nova Scotia and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -4460,7 +4532,6 @@ young superheroes in the use of their powers and abilities.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:**
@@ -4495,12 +4566,12 @@ young superheroes in the use of their powers and abilities.
 
 The *Fir Domnann* people -- collectively known as the Tuatha Dé Danann --
 are powerful extradimensional entities once worshipped as gods by the 
-Celts. They grant a portion of their power to a mortal human, who becomes
+Celts. They grant a portion of their power to a mortal human who becomes
 their Champion; the current Champion is Sienna MacGowan, otherwise 
 known as Brigantia of the Cosmic Legends.
 
-::::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::
-#### An Apology to Celtic Pagans
+::::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::
+#### Apology to Celtic Pagans
 
 I apologize in advance for the horrible mishandling of the 
 Tuatha Dé Danann and other elements of Celtic mythology.
@@ -4508,7 +4579,7 @@ It's done specifically in reference to the way Marvel Comics
 handled the Norse, Greek, and other pantheons over the years.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Vespa I {#setting-vespa-1}
+### Vespa i {#setting-vespa-1}
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Hazel Montgomery
@@ -4531,7 +4602,6 @@ handled the Norse, Greek, and other pantheons over the years.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:** Hazel Montgomery had no super-powers, just
@@ -4568,7 +4638,6 @@ her brilliant and creative mind.
  
 **History:**
 []{.lorem}
-
 []{.lorem}
 
 **Powers:** Lin Montgomery has no powers; all of their
@@ -4595,15 +4664,56 @@ abilities come from their armored suit.
 
 ### Villains, Inc. {#setting-villains-inc}
 
-[]{.lorem}
+::::::::::: group :::::::::::::::::::::::::::
+- **Type of Group:** Supervillain Team
+- **Base of Operations:** unknown; Technopolis, U.S.A. (former base); Vadyvokia (former base)
+- **Current Members:** Balor, Deathsong, Glytch, Gunlock, Igneia, Phineas Pann Jr., The Teleidoscopic Man, Sequana, Sreng
+- **Former Members:** Marquis Malign, Neutrino, Dr. Phineas Pann (deceased), Sinhammer (deceased), Xana Mega
+- **Allies:** Atomicorps, the Formorians, Neutrino, T.R.E.L.A.
+- **Enemies:** A.L.E.R.T., Cosmic Legends of the Universe, 
+  The Junior Legends of the World, Marquis Malign, N.O.V.A. Labs, 
+  The Verdict
+:::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
 []{.lorem}
 
 ### Vulcanor {#setting-vulcanor}
 
-[]{.lorem}
-[]{.lorem}
+::::::::::: place :::::::::::::::::::::::::::
+- **Type of Location:** island chain
+- **Location:** South Pacific Ocean
+- **Capital:** Volcano City, Vulcanor Island
+- **Official Languages:** Vulcanese, English
+- **Demonym:** Vulcanor
+- **Governance:** Sovereign Monarchy
+- **Head of State:** Tachylus Vulcanor Rex (1918 - present)
+- **Area:** approx. 1,000 km<sup>2</sup> (386 sq mi) over 14 islands
+- **Population:** 100,000 (2010 estimate)
+- **Time Zone:** UTC +1400
+:::::::::::::::::::::::::::::::::::::::::::::
+
+The people of Vulcanor are an offshoot of humanity that was
+experimented on by the Visitors over 3,000 years ago; their
+skin was hardened to a shiny gloss and they were adapted to
+live in volcanic conditions. Slaying their Visitor enslavers
+and stealing a shuttle craft, they settled on an otherwise
+uninhabitable remote chain of islands in the south Pacific.
+
+That distance allowed the Vulcanors time to disassemble and
+reverse-engineer many Visitor technologies, including a
+compass-scrambling magnetic field that cloaked their islands
+from the European colonialist powers.
+
+With the arrival of Titan on Earth in 1956, King Tachylus 
+decreed it was time to join the rest of the world and share --
+in limited amounts -- their unique technologies. His son
+Obsidius was sent as an emissary and later joined the
+Cosmic Legends of the Universe.
+
+Excessive heat and volcanic gasses prevent the Vulcanor 
+Islands from becoming a vacation destination. While outsiders
+are welcomed and treated with respect, few non-Vulcanors have 
+been Volcano City.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
