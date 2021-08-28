@@ -11,7 +11,7 @@
 - <a href="#toc-issues"></a>
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
-  - <a href="#toc-facets"></a>
+  - <a href="#toc-approaches"></a>
   - <a href="#toc-fighting-style"></a>
   - <a href="#toc-ideals"></a>
   - <a href="#toc-chargen-identity"></a>

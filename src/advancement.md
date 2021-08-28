@@ -8,7 +8,7 @@ After each Storyline concludes:
   - Add one Skill.
   - Add one Power Word from any class.
   - Add one Fighting Style.
-- If you had the Spotlight, increase any one Facet by 1.
+- If you had the Spotlight, increase any one Approach by 1.
 - (optional) Change one of your Ideals to any other word.
 - (optional) Change your Opportunity if you haven't already taken it.
 

@@ -7,7 +7,7 @@ To create your hero, you just follow these steps:
    - Pick your Skills, based on your Class
    - Pick a Volume 1 ability from your Class
    - Choose 2 words as your Nova Power
-2. Assign 1 point to each Facet, then distribute more 5 points as you wish
+2. Assign 1 point to each Approach, then distribute more 5 points as you wish
 3. Pick a Fighting Style
 4. Choose 5 words as Ideals
 5. Describe a Storyline you'd like to play out with your hero

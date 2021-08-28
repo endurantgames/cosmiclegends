@@ -3,7 +3,7 @@
 The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
 When a player wants to take an uncertain action, they build a dice pool.
 
-- One die for every point they have in the relevant Facet
+- One die for every point they have in the relevant Approach
 - One die for every Volume if they have a relevant Skill
 - Two dice if they can mark off one of their Ideals
 - One die for every Power Word beyond the first

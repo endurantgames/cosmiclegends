@@ -22,8 +22,6 @@ end of current Storyline.
 When a new Storyline begins, all the marked off Ideals are 
 cleared and it’s time to start again.
 
-**note: need rewrite for Facet-based**
-
 ## Random Ideals
 
 If you're stuck for ideas, you can roll roll two dice and 

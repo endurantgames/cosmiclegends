@@ -73,7 +73,7 @@ a Crisis.
 
 If your hero is present at the scene of a Crisis, describe how your hero
 reacts when they become aware of the Crisis, and then make a roll using
-a Facet related to that reaction. Add the Effectiveness of that roll to
+an Approach related to that reaction. Add the Effectiveness of that roll to
 the Teamwork Pool, along with the successes the other players roll for
 their heroes.
 

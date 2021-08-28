@@ -1,6 +1,6 @@
 :::::::::::: {.stats} ::::::::::::::::
 - **Class:** 
-- **Facets:** Action 1, Adventure 1, Detective 1, Mystery 1, Suspense 1
+- **Approaches:** Action 1, Adventure 1, Detective 1, Mystery 1, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**

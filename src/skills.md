@@ -41,7 +41,7 @@ If you don't have a Skill, you don't add any extra dice to the pool.
 ## Skill Descriptions
 
 The skills in []{.gamename} are listed below, along with 3 to 5 
-suggestions how you could use the skill with your hero's Facets
+suggestions how you could use the skill with your hero's Approaches
 and consequences the Editor can propose on an Edge Success.
 
 ::::::: { .skill-list } ::::::::::::::::::

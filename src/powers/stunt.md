@@ -23,6 +23,6 @@ For example, if you have the Flight and Speed Power Words, you
 could join those together for a Power Stunt with the phrase
 "Flight Speed". Spending 1 point of Might on this Stunt
 means that when you make a roll -- such as rolling your Adventure
-Facet to Outwit a foe -- increases the number of dice in your pool
+Approach to Outwit a foe -- increases the number of dice in your pool
 by 1 die.
 

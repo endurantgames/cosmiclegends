@@ -7,7 +7,7 @@ Ability
 :   Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 
 Action
-:   A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
 
 Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
@@ -16,13 +16,16 @@ Advancement
 :   The choice made by a player at the end of a Storyline that reflects the hero's growth.
 
 Adventure
-:   A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
 
 Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
 
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
+
+Approach
+:   A hero's "stats". Approaches describe a hero's preferred ways of solving problems.
 
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
@@ -43,7 +46,7 @@ Crossover
 :   A game session with heroes from two or more different campaigns working together.
 
 Detective
-:   A facet of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
 
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
@@ -53,9 +56,6 @@ Editor
 
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
-
-Facets
-:   A hero's "stats". Facets describe a hero's preferred ways of solving problems.
 
 Fighting Style
 :   An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
@@ -106,7 +106,7 @@ Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
 
 Mystery
-:   A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
@@ -172,7 +172,7 @@ Success
 :   A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
 
 Suspense
-:   A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
 
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.

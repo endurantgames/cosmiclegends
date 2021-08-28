@@ -70,7 +70,7 @@ need, she can form a sword of blazing light.
 ## Brigantia
 
 - **Class:** The Divine
-- **Facets:** Action 3, Adventure 3, Detective 1, Mystery 1, Suspense 2
+- **Approaches:** Action 3, Adventure 3, Detective 1, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -142,7 +142,7 @@ committed to protecting the Earth from the forces of evil.
 ## Energy Boy
 
 - **Class:** The Dynamo
-- **Facets:** Action 2, Adventure 3, Detective 2, Mystery 1, Suspense 2
+- **Approaches:** Action 2, Adventure 3, Detective 2, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -193,7 +193,7 @@ completes his quest and finds the Grail.
 ## Percival, the Grailknight
 
 - **Class:** The Knight
-- **Facets:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
+- **Approaches:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -248,7 +248,7 @@ accepted an invitation to join the team.
 ## The Head Librarian
 
 - **Class:** The Psychic
-- **Facets:** Action 1, Adventure 2, Detective 1, Mystery 2, Suspense 4
+- **Approaches:** Action 1, Adventure 2, Detective 1, Mystery 2, Suspense 4
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -294,7 +294,7 @@ accepted an invitation to join the team.
 ## Jack Dee
 
 - **Class:** The Mage
-- **Facets:** Action 1, Adventure 1, Detective 4, Mystery 2, Suspense 2
+- **Approaches:** Action 1, Adventure 1, Detective 4, Mystery 2, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -364,7 +364,7 @@ of science gone wild.
 ## Obsidius Rex
 
 - **Class:** The Monarch
-- **Facets:** Action 2, Adventure 4, Detective 1, Mystery 2, Suspense 1
+- **Approaches:** Action 2, Adventure 4, Detective 1, Mystery 2, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -418,7 +418,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
 ## Riptide
 
 - **Class:** The Shaper
-- **Facets:** Action 2, Adventure 4, Detective 2, Mystery 1, Suspense 1
+- **Approaches:** Action 2, Adventure 4, Detective 2, Mystery 1, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -470,7 +470,7 @@ and lets her lift in excess of 100 tons.
 ## Rockstar 
 
 - **Class:** The Monstrosity
-- **Facets:** Action 4, Adventure 2, Detective 2, Mystery 1, Suspense 1
+- **Approaches:** Action 4, Adventure 2, Detective 2, Mystery 1, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -594,7 +594,7 @@ young superheroes in the use of their powers and abilities.
 ## Titan
 
 - **Class:** The Paragon
-- **Facets:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
+- **Approaches:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
 - **Health:** 15
 - **Might:** 10
 - **Power Words:**
@@ -703,7 +703,7 @@ abilities come from their armored suit.
 ## Vespa 2.0
 
 - **Class:** The Inventor
-- **Facets:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
+- **Approaches:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**

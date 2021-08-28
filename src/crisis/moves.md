@@ -1,0 +1,71 @@
+# Example Crisis Moves
+
+[]{.lorem}
+
+- **Roll Back a Goal**
+  - **Roll Back Smash  (2)** Roll the Smash  goal back to 0.
+  - **Roll Back Outwit (2)** Roll the Outwit goal back to 0.
+  - **Roll Back Allay  (2)** Roll the Allay  goal back to 0.
+  - **Roll Back Rescue (2)** Roll the Rescue goal back to 0.
+- **Endanger Bystanders**
+  - **Endanger Bystanders (2)** Roll back the Rescue goal by 1.
+  - **Endanger Bystanders (2)** Roll back the Rescue goal by 2.
+  - **Endanger Bystanders (2)** Roll back the Rescue goal by 3.
+- **Regenerate**
+  - **Regenerate (2)** Roll back the Smash goal by 1.
+  - **Regenerate (2)** Roll back the Smash goal by 2.
+  - **Regenerate (2)** Roll back the Smash goal by 3.
+- **Lash Out**
+  - **Lash Out (2)** Roll back the Allay goal by 1.
+  - **Lash Out (2)** Roll back the Allay goal by 2.
+  - **Lash Out (2)** Roll back the Allay goal by 3.
+- **Countermeasures**
+  - **Countermeasures (2)** Roll back the Outwit goal by 1.
+  - **Countermeasures (2)** Roll back the Outwit goal by 2.
+  - **Countermeasures (2)** Roll back the Outwit goal by 3.
+- **Harm a Hero**
+  - **Harm a Hero (2)** One hero loses 1 Health.
+  - **Harm a Hero (2)** One hero loses 2 Health.
+  - **Harm a Hero (2)** One hero loses 3 Health.
+  - **Harm a Hero (2)** One hero loses 4 Health.
+  - **Harm a Hero (2)** One hero loses 5 Health.
+  - **Harm a Hero (2)** One hero loses 6 Health.
+- **Harm All Heroes**
+  - **Harm All Heroes (2)** All heroes lose 1 Health.
+  - **Harm All Heroes (2)** All heroes lose 2 Health.
+  - **Harm All Heroes (2)** All heroes lose 3 Health.
+  - **Harm All Heroes (2)** All heroes lose 4 Health.
+- **Lose a Health Amount**
+  - **Lose 2 Health (2)** One or more heroes lose 2 Health.
+  - **Lose 3 Health (2)** One or more heroes lose 3 Health.
+  - **Lose 4 Health (2)** One or more heroes lose 4 Health.
+  - **Lose 5 Health (2)** One or more heroes lose 5 Health.
+  - **Lose 6 Health (2)** One or more heroes lose 6 Health.
+- **Drain Energy**
+  - **Drain Energy (2)** One hero loses 1 Might.
+  - **Drain Energy (2)** One hero loses 2 Might.
+  - **Drain Energy (2)** One hero loses 3 Might.
+  - **Drain Energy (2)** One hero loses 4 Might.
+- **Drain Heroes' Energy**
+  - **Drain Heroes' Energy (2)** All heroes lose 1 Might.
+  - **Drain Heroes' Energy (2)** All heroes lose 2 Might.
+  - **Drain Heroes' Energy (2)** All heroes lose 3 Might.
+- **Freeze a Goal**
+  - **Freeze the Smash  Goal (2)** Heroes can't advance the Smash goal next Hero Phase.
+  - **Freeze the Outwit Goal (2)** Heroes can't advance the Outwit goal next Hero Phase.
+  - **Freeze the Allay  Goal (2)** Heroes can't advance the Allay goal next Hero Phase.
+  - **Freeze the Rescue Goal (2)** Heroes can't advance the Rescue goal next Hero Phase.
+- **Block a Approach**
+  - **Block the Action    Approach (2)** Heroes can't use the Action    approach next Hero Phase.
+  - **Block the Adventure Approach (2)** Heroes can't use the Adventure approach next Hero Phase.
+  - **Block the Detective Approach (2)** Heroes can't use the Detective approach next Hero Phase.
+  - **Block the Mystery   Approach (2)** Heroes can't use the Mystery   approach next Hero Phase.
+  - **Block the Suspense  Approach (2)** Heroes can't use the Suspense  approach next Hero Phase.
+- **Disrupt Teamwork**
+  - **Disrupt Teamwork (2)** Heroes can't add to the Teamwork Pool next Hero Phase.
+- **Grow in Size**
+  - **Grow in Size (2)** The Crisis gains 1 additional move per Crisis Phase.
+- **Seal the Scene**
+  - **Seal the Scene (2)** Heroes can't use the General Alert or Timely Arrival moves.
+- **Unerring Aim**
+  - **Unerring Aim (2)** Heroes can't use the Take the Hit move for the rest of this Crisis Phase.
