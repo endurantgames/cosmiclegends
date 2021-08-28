@@ -84,7 +84,7 @@ To play []{.gamename} you'll need:
 - <a href="#toc-issues"></a>
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
-  - <a href="#toc-facets"></a>
+  - <a href="#toc-approaches"></a>
   - <a href="#toc-fighting-style"></a>
   - <a href="#toc-ideals"></a>
   - <a href="#toc-chargen-identity"></a>
@@ -582,7 +582,7 @@ anything else that could make the game even better in the future.
 The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
 When a player wants to take an uncertain action, they build a dice pool.
 
-- One die for every point they have in the relevant Facet
+- One die for every point they have in the relevant Approach
 - One die for every Volume if they have a relevant Skill
 - Two dice if they can mark off one of their Ideals
 - One die for every Power Word beyond the first
@@ -726,7 +726,7 @@ To create your hero, you just follow these steps:
    - Pick your Skills, based on your Class
    - Pick a Volume 1 ability from your Class
    - Choose 2 words as your Nova Power
-2. Assign 1 point to each Facet, then distribute more 5 points as you wish
+2. Assign 1 point to each Approach, then distribute more 5 points as you wish
 3. Pick a Fighting Style
 4. Choose 5 words as Ideals
 5. Describe a Storyline you'd like to play out with your hero
@@ -821,15 +821,15 @@ for free; in addition, you have at least 2 free picks.
 
 
 ::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Facets 
+### Approaches
 
-These Facets -- named for key Golden Age or Silver Age comic titles --
+These Approaches -- named for key Golden Age or Silver Age comic titles --
 were chosen to express how a hero chooses to solve problems, not 
 any innate or immutable characteristics they may have. 
 A hero in a Harmony Drive game can be as physically strong as they like, 
 or as wise or charming as they like.
 
-The other reason for these Facets is that the concept of Intelligence 
+The other reason for these Approaches is that the concept of Intelligence 
 as a concrete and immutable quality of a person is ableist. 
 It has been used to excuse eugenics and countless other atrocities, 
 including racial and class injustice. 
@@ -839,10 +839,10 @@ problems by thinking about them and gathering information,
 not as a measure of their “intelligence” or, heaven forbid, “IQ”.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Facets {#toc-facets}
+### Approaches {#toc-approaches}
 
-Each hero's nature is defined by their scores in 5 different facets, 
-which represent their approaches to solving problems.
+Each hero's nature is defined by their scores in 5 different Approaches, 
+which represent their preferred methods to solve problems.
 
 - **Action** - a direct, straight-forward approach
 - **Adventure** - a reactive approach, adapting to changing situations
@@ -850,7 +850,7 @@ which represent their approaches to solving problems.
 - **Mystery** - a subtle approach, incorporating hidden motives and actions
 - **Suspense** - an approach based on using the senses to become aware of the environment
 
-Each of your hero's facets start with a score of 1, and you have 5 
+Each of your hero's Approaches starts with a score of 1, and you have 5 
 additional points to distribute to them.
 
 ### Fighting Style {#toc-fighting-style }
@@ -896,8 +896,6 @@ end of current Storyline.
 
 When a new Storyline begins, all the marked off Ideals are 
 cleared and it’s time to start again.
-
-**note: need rewrite for Facet-based**
 
 #### Random Ideals
 
@@ -1077,7 +1075,7 @@ If you don't have a Skill, you don't add any extra dice to the pool.
 ### Skill Descriptions
 
 The skills in []{.gamename} are listed below, along with 3 to 5 
-suggestions how you could use the skill with your hero's Facets
+suggestions how you could use the skill with your hero's Approaches
 and consequences the Editor can propose on an Edge Success.
 
 ::::::: { .skill-list } ::::::::::::::::::
@@ -3423,7 +3421,7 @@ For example, if you have the Flight and Speed Power Words, you
 could join those together for a Power Stunt with the phrase
 "Flight Speed". Spending 1 point of Might on this Stunt
 means that when you make a roll -- such as rolling your Adventure
-Facet to Outwit a foe -- increases the number of dice in your pool
+Approach to Outwit a foe -- increases the number of dice in your pool
 by 1 die.
 
 
@@ -3766,7 +3764,7 @@ a Crisis.
 
 If your hero is present at the scene of a Crisis, describe how your hero
 reacts when they become aware of the Crisis, and then make a roll using
-a Facet related to that reaction. Add the Effectiveness of that roll to
+an Approach related to that reaction. Add the Effectiveness of that roll to
 the Teamwork Pool, along with the successes the other players roll for
 their heroes.
 
@@ -3903,7 +3901,7 @@ After each Storyline concludes:
   - Add one Skill.
   - Add one Power Word from any class.
   - Add one Fighting Style.
-- If you had the Spotlight, increase any one Facet by 1.
+- If you had the Spotlight, increase any one Approach by 1.
 - (optional) Change one of your Ideals to any other word.
 - (optional) Change your Opportunity if you haven't already taken it.
 
@@ -4017,7 +4015,7 @@ need, she can form a sword of blazing light.
 #### Brigantia
 
 - **Class:** The Divine
-- **Facets:** Action 3, Adventure 3, Detective 1, Mystery 1, Suspense 2
+- **Approaches:** Action 3, Adventure 3, Detective 1, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4089,7 +4087,7 @@ committed to protecting the Earth from the forces of evil.
 #### Energy Boy
 
 - **Class:** The Dynamo
-- **Facets:** Action 2, Adventure 3, Detective 2, Mystery 1, Suspense 2
+- **Approaches:** Action 2, Adventure 3, Detective 2, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4140,7 +4138,7 @@ completes his quest and finds the Grail.
 #### Percival, the Grailknight
 
 - **Class:** The Knight
-- **Facets:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
+- **Approaches:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4195,7 +4193,7 @@ accepted an invitation to join the team.
 #### The Head Librarian
 
 - **Class:** The Psychic
-- **Facets:** Action 1, Adventure 2, Detective 1, Mystery 2, Suspense 4
+- **Approaches:** Action 1, Adventure 2, Detective 1, Mystery 2, Suspense 4
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4241,7 +4239,7 @@ accepted an invitation to join the team.
 #### Jack Dee
 
 - **Class:** The Mage
-- **Facets:** Action 1, Adventure 1, Detective 4, Mystery 2, Suspense 2
+- **Approaches:** Action 1, Adventure 1, Detective 4, Mystery 2, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4311,7 +4309,7 @@ of science gone wild.
 #### Obsidius Rex
 
 - **Class:** The Monarch
-- **Facets:** Action 2, Adventure 4, Detective 1, Mystery 2, Suspense 1
+- **Approaches:** Action 2, Adventure 4, Detective 1, Mystery 2, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4365,7 +4363,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
 #### Riptide
 
 - **Class:** The Shaper
-- **Facets:** Action 2, Adventure 4, Detective 2, Mystery 1, Suspense 1
+- **Approaches:** Action 2, Adventure 4, Detective 2, Mystery 1, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4417,7 +4415,7 @@ and lets her lift in excess of 100 tons.
 #### Rockstar 
 
 - **Class:** The Monstrosity
-- **Facets:** Action 4, Adventure 2, Detective 2, Mystery 1, Suspense 1
+- **Approaches:** Action 4, Adventure 2, Detective 2, Mystery 1, Suspense 1
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -4541,7 +4539,7 @@ young superheroes in the use of their powers and abilities.
 #### Titan
 
 - **Class:** The Paragon
-- **Facets:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
+- **Approaches:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
 - **Health:** 15
 - **Might:** 10
 - **Power Words:**
@@ -4650,7 +4648,7 @@ abilities come from their armored suit.
 #### Vespa 2.0
 
 - **Class:** The Inventor
-- **Facets:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
+- **Approaches:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
 - **Health:** 10
 - **Might:** 10
 - **Power Words:**
@@ -5423,7 +5421,7 @@ Ability
 :   Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 
 Action
-:   A facet of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
 
 Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
@@ -5432,13 +5430,16 @@ Advancement
 :   The choice made by a player at the end of a Storyline that reflects the hero's growth.
 
 Adventure
-:   A facet of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
 
 Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
 
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
+
+Approach
+:   A hero's "stats". Approaches describe a hero's preferred ways of solving problems.
 
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
@@ -5459,7 +5460,7 @@ Crossover
 :   A game session with heroes from two or more different campaigns working together.
 
 Detective
-:   A facet of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
 
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
@@ -5469,9 +5470,6 @@ Editor
 
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
-
-Facets
-:   A hero's "stats". Facets describe a hero's preferred ways of solving problems.
 
 Fighting Style
 :   An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
@@ -5522,7 +5520,7 @@ Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
 
 Mystery
-:   A facet of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
@@ -5588,7 +5586,7 @@ Success
 :   A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
 
 Suspense
-:   A facet of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+:   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
 
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
