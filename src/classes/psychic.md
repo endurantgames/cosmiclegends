@@ -52,21 +52,23 @@ before it comes up in play.
 
 As you create your Psychic hero, answer any or all of these questions.
 
-- How do you come by these amazing mental powers? What kind of
-  training or education did you undertake to master them?
+- How do you come by these amazing mental powers? 
+  - What kind of training or education did you undertake to master them?
 - Are there obvious signs to your powers, such as an enlarged forehead,
   glowing eyes, or a visible crackle of power -- or are they completely
   invisible and undetectable?
 - What limits have you imposed on your own power due to ethical and
-  moral concerns? What type of actions won't you take, and what would
-  push you to actually commit those acts? What makes you a *hero* and not
-  a mind-powered villain, looting others' skulls with impunity?
-- Does your telepathic voice "sound" like your *physical* voice? Do 
-  others recognize you when you make mental contact with you? What 
-  kind of mental self-image do you have?
-- Do you have any *physical* limitations, such as a disability? How
-  do your powers compensate for those limits, and in what ways can
-  they never fully substitute for them?
+  moral concerns? 
+  - What type of actions won't you take, and what would
+    push you to actually commit those acts? 
+  - What makes you a *hero* and not
+    a mind-powered villain, looting others' skulls with impunity?
+- What kind of mental self-image do you have?
+  - Does your telepathic voice "sound" like your *physical* voice? 
+  - Do others recognize you when you make mental contact with you? 
+- Do you have any *physical* limitations, such as a disability? 
+  - How do your powers compensate for those limits, and in what ways can
+    they never fully substitute for them?
 
 ## Skills
 

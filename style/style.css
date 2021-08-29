@@ -180,7 +180,7 @@ ul li, ul ol { margin-left: 1em;    }
 .sidebar.next { float-defer-column: 1; }
 .sidebar :matches(h1, h2, h3, h4, h5, h6)    { font-weight: bold; font-family: var(--font-h4); font-size: var(--h4); }
 
-p, li { orphans: 3; line-height: 1.30; }
+p, li { orphans: 3; line-height: 1.20; }
 
 @page { @bottom-center {
   content:         '- ' counter(page) ' -';
@@ -612,8 +612,11 @@ margin-top: 1em; }
 .soapbox dl dd p { margin: 0.5em 0; }
 
 
-.twocolumn { column-count: 2; column-gap: 1em; break-inside: avoid; }
-.twocolumn ul { break-inside: auto; margin: 0; margin-left: 0.5em; }
+.twocolumn.table { column-count: 3; column-gap: 1em; }
+.twocolumn.table table { break-inside: auto; }
+
+.twocolumn ul { column-count: 2; column-gap: 1em; break-inside: avoid; 
+ break-inside: auto; margin: 0; margin-left: 0.5em; }
 .twocolumn table { break-inside: auto; }
 
 .cpw { column-count: 2; column-gap: 1em; break-inside: avoid; }
@@ -644,9 +647,13 @@ margin-top: 1em; }
   color: black;
 }
 
+.classdata ul li { line-height: 1.1; }
+
 .classdata blockquote {
   font-size: var(--quote-class);
 }
+.classdata ul li ul { margin: 0; margin-left: 0.75em; margin-bottom: 0.25em; margin-top: 0.25em; }
+.classdata ul li ul li { margin: 0; list-style-type: none; line-height: 1.0; }
 
 .classpic figure {
   float: column top;

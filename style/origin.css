@@ -1,26 +1,37 @@
 @import url("style.css");
 
 :root {
-  --quote: 16pt; 
+  --quote: 14pt; 
   --quote-class: 12pt;
 }
 
+@prince-pdf { -prince-pdf-page-layout: one-column; }
+
+@page :first { background-size: auto 200%; }
+
+#cover h2 { font-size: 48pt; top: -24pt; }
+#cover img#img-title { top: 64pt; }
+
+#coverbox ul li:nth-child(8) { top: 24pt; font-size: 96pt; }
 section.soapbox, 
-.soapbox { column-span: none; column-count: 1; }
+.soapbox { column-span: none; column-count: 1; float-reference: column; }
 .classpic figure { display: none; }
-h3.class     { break-before: column; }
-.breakbefore { break-before: auto; }
+h3.class     { break-before: auto; font-family: var(--font-h3); font-size: var(--h3); }
+h4.class { font-size: var(--h4); font-family: var(--font-h4); }
+.breakbefore { break-before: auto; margin-top: 9pt; }
+.colbefore { break-before: auto; }
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: none; }
 #toc { column-span: none; column-count: 1; }
-blockquote { column-span: none; }
+blockquote { column-span: none; margin-left: 10%; margin-right: 10%; }
 .harmony-drive-logo { column-span: none; }
-.harmony-drive-logo img { width: 75%; }
+.harmony-drive-logo img { width: 50%; }
 
 .classtable { display: none; }
-#cover + h1 { break-before: auto; }
+#cover + h1 { margin-bottom: 9pt; break-before: auto; }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { column-span:none; }
 
+.twocolumn.skill-column-list { display: none; } 
 @page:nth(2) { @bottom-center { content: '- ' counter(page) ' -'; } }
 @page:nth(3) { @bottom-center { content: '- ' counter(page) ' -'; } }
 @page:nth(3) { @bottom-right { content: 'Version ' string(date); } }

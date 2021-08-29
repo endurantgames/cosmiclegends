@@ -27,21 +27,25 @@ to Crisis about ideas to tie your home to the current situation.
 
 As you create your Monarch hero, answer any or all of these questions.
 
-- Where is your home located? How does its location serve to isolate it
-  from other cultures? Is it easy or hard to get there? Is your home open to
-  outsiders, or sealed off?
+- Where is your home located? 
+  - How does its location serve to isolate it from other cultures? 
+  - Is your home open to outsiders, or sealed off?
 - What kind of distinct cultural traditions from your home could be seen as
-  strange to outsiders? And conversely, what Western customs are either
-  baffling or unacceptable to you?
-- Which languages are spoken in your home? Do they know any languages of
-  outsiders? Is there a particular accent common to your people?
+  strange to outsiders? 
+  - And conversely, what Western customs are either
+    baffling or unacceptable to you?
+- Which languages are spoken in your home? 
+  - Do the people of your home know any languages of outsiders? 
+  - Is there a particular accent common to your people?
 - Are your powers common to everyone from your home, or are you unique?
-  Do your powers descend from your lineage? Do you have additional abilities
-  based on your rank as a leader?
-- What's your current status in your home? Do you live there? Are you the
-  reigning monarch, or an heir in line for the throne? If you're not the
-  monarch regnant, who is -- and how do you feel about each other? Have you
-  been exiled from your home, and if so -- for what reason?
+  - Do your powers descend from your lineage? 
+  - Do you have additional abilities based on your rank as a leader?
+- What's your current status in your home? 
+  - Do you live there? 
+  - Are you the reigning monarch, or an heir in line for the throne? 
+  - If you're not the monarch regnant, who is, and how do you feel 
+    about each other? 
+  - Have you been exiled from your home, and if so -- for what reason?
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
 ## Cultural Sensitivity

@@ -26,21 +26,26 @@ a price to pay for it.
 As you create your Mage hero, answer any or all of these questions.
 
 - All magic has a price -- so what was the *first* price you had to pay?
-  What quality, talent, item, or relationship did you give up in order
-  to gain magical power? Was it worth it?
-- How do you cast your magical spells? Do you use an incantation, or
-  merely gesture with your hand while envisioning the effect you'd
-  like to produce?
-- What does your magic look like? Is there a color associated with it?
-  Are there common sounds, sights, or smells when you cast a spell?
-  Are there types of magic you can't evoke?
-- What master wizard instructed you? What price did *they* demand? 
-  Did they have other students? Can you still ask your master for 
-  advice?
+  - What quality, talent, item, or relationship did you give up in order
+    to gain magical power? 
+  - Was it worth it?
+- How do you cast your magical spells? 
+  - Do you use an incantation, or
+    merely gesture with your hand while envisioning the effect you'd
+    like to produce?
+- What does your magic look like? 
+  - Is there a color associated with it?
+  - Are there common sounds, sights, or smells when you cast a spell?
+- Are there types of magic you can't evoke?
+- What master wizard instructed you? 
+  - What price did *they* demand? 
+  - Did they have other students? 
+  - Can you still ask your master for advice?
 - How do you view the world in a way that's different from heroes and
-  others who aren't immersed in a magical mindset? What strange quirks
-  do you have? What rituals do you follow that others couldn't possibly
-  understand?
+  others who aren't immersed in a magical mindset? 
+  - What strange quirks do you have? 
+  - What rituals do you follow that others couldn't possibly
+    understand?
 - What happens if your power gets out of your control?
 
 ## Skills

@@ -32,21 +32,26 @@ of effects you can produce.
 
 As you create your Knight hero, answer any or all of these questions.
 
-- Why are you *so* driven? Which of your ideals were strong
-  enough to make you devote so much time toward developing
-  your talents? Did someone hurt you or you those you love, or
-  are you motivated by a patroitic or professional calling?
-- What kinds of gear do you use? How do you carry those -- a 
-  quiver, a belt, a backpack, or pouches all over your costume?
-  Are your weapons and devices completely mundane, are they
-  the result of unrealistic super-science, or are they supernatural
-  in origin? Did you create them, or did someone else?
+- Why are you *so* driven? 
+  - Which of your ideals were strong enough to make you 
+    devote so much time toward developing your talents? 
+  - Did someone hurt you or you those you love, or
+    are you motivated by a patroitic or professional calling?
+- What kinds of gear do you use? 
+  - How do you carry those -- a quiver, a belt, a backpack, or 
+    pouches all over your costume?
+  - Are your weapons and devices completely mundane, are they
+    the result of unrealistic super-science, or are they supernatural
+    in origin? 
+  - Did you create them, or did someone else?
 - Do you have any powers, and if so, how did you come by them?
-  In what ways can you combine those with your more mundane talents?
-- Who trained you, and why? Are you on good or bad terms with them?
-  Are they still in your life? Did you learn from one person, or
-  from multiple masters? Did your instructor(s) have other students,
-  and if so, how do you relate to each of them?
+  - In what ways can you combine those with your more mundane talents?
+- Who trained you, and why? 
+  - Are you on good or bad terms with them?
+  - Are they still in your life? 
+  - Did you learn from one person, or from multiple masters? 
+  - Did your instructor(s) have other students,
+    and if so, how do you relate to each of them?
 
 ## Skills
 

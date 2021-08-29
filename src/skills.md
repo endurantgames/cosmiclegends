@@ -4,9 +4,9 @@ Outside of a fight, your hero has one or more Skills from their
 civilian life -- from their secret identity, their profession 
 before their secret origin, or their advanced heroic training. 
 
+::::::::::::: {.twocolumn .skill-column-list} ::::::::::::::::::
 The Skills are:
 
-::::::::::::: twocolumn ::::::::::::::::::
 - Academic
 - Artist
 - Criminal

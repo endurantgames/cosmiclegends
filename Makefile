@@ -36,7 +36,7 @@ HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
 ORIGIN_RECIPE = origin
 ORIGIN_SRC = $(BUILDDIR)/origin.md
-ORIGIN_OUT = $(OUTDIR)/Cosmic-Legends-Secret-Origins.pdf
+ORIGIN_OUT = $(OUTDIR)/Cosmic-Legends-secret-origins.pdf
 PREGEN_RECIPE = pregens
 PREGEN_SRC = $(BUILDDIR)/pregens.md
 PREGEN_OUT = $(OUTDIR)/Cosmic-Legends-pregens.pdf
@@ -322,7 +322,7 @@ html: origin-markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf letter sheets pregen
+all: pdf letter sheets pregen origin
 sheets: sheet alt-sheet color-sheet 
 
 # Make Aliases ##########################################################################################

@@ -107,8 +107,7 @@ Add 2 to the dice pool to advance the Outwit or Allay goals.]{.pregen-ability-v1
 woman about 22 years old, about 5'2" and 145 lbs. 
 As **Brigantia**, she is over 7 feet tall and weighs
 over 300 lbs.]{.pregen-bio}
-[Brigantia needs to learn that 
-**Not everything can be solved by punching something.**]{.pregen-storyline}
+[Brigantia needs to learn that **Not everything can be solved by punching something.**]{.pregen-storyline}
 
 ![Brigantia](art/jeshields/brigantia_face.png){.pregen-face} \ 
 

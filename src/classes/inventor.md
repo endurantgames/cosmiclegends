@@ -24,22 +24,28 @@ making on-the-fly adjustments to whatever gear you carry.
 
 As you create your Inventor hero, answer any or all of these questions.
 
-- What kind of gear do you use? How do you carry that equipment around
-  with you? What do your inventions look like? Do you have a specialty
-  or common themes that you tend to invent?
+- What kind of gear do you use? 
+  - How do you carry that equipment around with you? 
+  - What do your inventions look like? 
+  - Do you have a specialty or common themes that you tend to invent?
 - What potential applications for your tech could improve the world if
-  everyone had access to it? How could your inventions be used to
-  make the world a worse place? What steps do you take to prevent that
-  from happening? Why don't the authorities fully trust those steps?
-  In what way can your inventions turn against you? What's your blind
-  spot when it comes to the implications of your own creations?
-- Why are you the only person who can use your inventions to their full
-  potential? What inspired you to create these inventions? How did you
-  come by your technical talents? Who helped you create these inventions,
-  and how do they feel about you using them?
-- How do you pay for your inventions? Are you publicly linked with your
-  source of funding? Do you hold patents on any of your inventions?
-  Does anyone *else* hold patents on your inventions?
+  everyone had access to it? 
+  - How could your inventions be used to make the world a worse place? 
+  - What steps do you take to prevent that from happening? 
+  - Why don't the authorities fully trust those steps?
+  - In what way could your inventions be turned against you? 
+  - What's your blind spot when it comes to the implications of 
+    your own creations?
+- How did you come by your technical talents? 
+- What inspired you to create these inventions? 
+  - Why are you the only person who can use your inventions to their full
+    potential? 
+  - Who helped you create these inventions,
+    and how do they feel about you using them?
+- How do you pay for your inventions? 
+  - Are you publicly linked with your source of funding? 
+  - Do you hold patents on any of your inventions?
+  - Does anyone *else* hold patents on your inventions?
 
 ## Skills
 

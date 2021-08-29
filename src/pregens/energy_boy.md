@@ -101,8 +101,7 @@
 [When he's not powered up, Del looks like normal college student;
 he has short black hair and brown eyes. As **Energy Boy** he looks
 like a walking nebula.]{.pregen-bio}
-[Del wants to **reunite with his mom, even though she caused
-the accident that gave him powers.**]{.pregen-storyline}
+[Del wants to **reunite with his mom, even though she caused the accident that gave him powers.**]{.pregen-storyline}
 
 ![Energy Boy](art/jeshields/energy_boy_face.png){.pregen-face} \ 
 

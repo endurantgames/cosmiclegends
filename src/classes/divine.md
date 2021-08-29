@@ -18,28 +18,31 @@ bonus applies to the dice they provide, too.
 
 As you create your Divine hero, answer any or all of these questions.
 
-- Are you a deity yourself? A demigod? The champion of one or more
-  deities? Or even someone who figuratively or literally stole power
-  from the gods?
-- What god, gods or pantheon are you associated with? Do you gain 
-  power from your association with a single deity, or do multiple
-  gods grant you power? Are your powers bestowed by the gods, or are
-  they a result of your own divine essence?
-- How do you relate to the god(s) who empower you? Are you on good
-  terms with them, are they distant and silent, or have they sent you 
-  to a mortal existence for your own good? 
-- Are there other gods or other people empowered by the gods, and 
-  if so, do you get along with them? Are there any mythological
-  monsters or enemies that your choice of a divine power source 
-  implies?
+- Are you a deity yourself? 
+  - A demigod? 
+  - The champion of one or more deities? 
+  - Or even someone who figuratively or literally stole power from the gods?
+- What god, gods or pantheon are you associated with? 
+  - Do you gain power from your association with a single deity, 
+    or do multiple gods grant you power? 
+  - Are your powers bestowed by the gods, or are
+    they a result of your own divine essence?
+- How do you relate to the god(s) who empower you? 
+  - Are you on good terms with them, are they distant and silent, 
+    or have they sent you to a mortal existence for your own good? 
+  - Are there other gods or other people empowered by the gods, and 
+    if so, do you get along with them? 
+- Are there any mythological monsters or enemies that your choice 
+  of a divine power source implies?
 - Do you have a single form and identity, or do you change through
   supernatural means between your Divine form and a "mortal" one?
-  If so, what triggers such a change -- a spoken word, a transformation
-  sequence, or just calling upon your Divine powers?
+  - If so, what triggers such a change -- a spoken word, a transformation
+    sequence, or just calling upon your Divine powers?
 - If you're not a mortal yourself, what *do* you think of the
-  mortal world? Does it mystify you, or are you thoroughly immersed
-  in modern culture? What are your views on religion -- both your
-  hero's own religion and those that could be seen as rival faiths?
+  mortal world? 
+  - Does it mystify you, or are you thoroughly immersed in modern culture? 
+  - What are your views on religion -- both your
+    hero's own religion and those that could be seen as rival faiths?
 
 ## Skills
 

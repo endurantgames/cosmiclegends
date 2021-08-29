@@ -27,19 +27,24 @@ moves from Hero Phase to Hero Phase.
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
-- How do you look different from normal humans? How much larger are
-  you than others? What kind of strange appearance do you have that
-  makes the ignorant assume you're a mere brute? What color is your
-  skin, and how does it feel? What does your voice sound like, and what
-  kind of vocabulary do you employ?
-- Are you *always* a monster? If not, what triggers that change? Is
-  it an emotional state, a substance, a situation, or your own
-  choice? Will people not like you when you're angry?
+- How do you look different from normal humans? 
+  - How much larger are you than other people? 
+  - What color is your skin, and what does it feel like? 
+  - What kind of strange appearance do you have that
+    makes the ignorant assume you're a mere brute? 
+  - What does your voice sound like, and what kind of vocabulary do you employ?
+- Are you *always* a monster? 
+  - If not, what triggers that change? 
+  - Is it an emotional state, a substance, a situation, or your own
+    choice? 
+  - Will people not like you when you're angry?
+  - *Were* you always a monster?
 - What kind of interests do you have that surprise other people? 
-  Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-- Why *aren't* you the monster they say you are? What makes you a *hero*
-  and not a villain or mindless threat? What would push you over that
-  edge, and how have you avoided going over it so far?
+  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
+- Why *aren't* you the monster they say you are? 
+  - What makes you a *hero* and not a villain or mindless threat? 
+  - What would push you over that edge, and how have you avoided going 
+    over it so far?
 
 ## Skills
 

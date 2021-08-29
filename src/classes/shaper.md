@@ -40,21 +40,21 @@ other players for ideas.
 
 As you create your Shaper hero, answer any or all of these questions.
 
-- Why can you control some types of matter and not others? How
-  did you get these powers, and what limits do they have? Can you
-  affect people with your powers, or are living creatures beyond
-  your control? How much of your power is raw potential, and how
-  much is rigid discipline? If you lost control, would you shut
-  down or would you lash out?
+- How did you get these powers, and what limits do they have? 
+  - Why can you control some types of matter and not others? 
+  - Can you affect people with your powers, or are living 
+    creatures beyond your control? 
+- How much of your power is raw potential, and how much is rigid discipline? 
+  - If you lost control, would you shut down or would you lash out?
 - Can you generate your own element, or are you reliant upon having
   your element present to start shaping? 
-  What effect does your emotional state have on the environment?
-  How does the state of your environment affect *you*? 
-  Are there any manifestations of your power that follow
-  you around, and if so, can you exercise conscious control over them?
 - Do you view yourself as speaking to nature and asking for its
   aid, or as forcing the elements to bend to your will, or as an
   artist carefully sculpting exactly what you need from the world?
+- What effect does your emotional state have on the environment?
+  - How does the state of your environment affect *you*? 
+- Are there any manifestations of your power that follow
+  you around, and if so, can you exercise conscious control over them?
 
 ## Skills
 

@@ -23,7 +23,7 @@ To play []{.gamename} you'll need:
 
 - One player, playing as the Editor
 - Two to six other players
-- A copy of these game rules
+- A copy of the game rules
 - At least a half-dozen six-sided dice
 - One hero sheet per player
 - Pencils

@@ -9,7 +9,6 @@
   - <a href="#toc-chargen-identity"></a>
   - <a href="#toc-storyline"></a>
   - <a href="#toc-skills"></a>
-  - <a href="#toc-powers"></a>
 - <a href="#toc-classes"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>

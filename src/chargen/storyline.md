@@ -51,9 +51,10 @@ up with a better idea during another her's Spotlight.
 
 These are examples of the types of Opportunities you can create.
 
-1. *Example* []{.lorem}
-2. *Example* []{.lorem}
-3. *Example* []{.lorem}
-4. *Example* []{.lorem}
-5. *Example* []{.lorem}
-
+1. Brigantia needs to learn that not everything can be solved by punching something.
+2. I want Percival to cross swords with another Arthurian knight.
+3. Kelly wants to confront poachers who harm sea animals.
+4. I want Jack to get asked out by some villain dude.
+5. The Sentinel of Saturn needs to let humans make their own mistakes.
+6. I want Rockstar to be invited to join a new band.
+7. Lin wants to fight one of their mother's supervillains.

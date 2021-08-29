@@ -37,20 +37,26 @@ you say they mean!
 
 As you create your Paragon hero, answer any or all of these questions.
 
-- Do you wear a mask, or can everyone see your face? Do you have
-  a cape? If not, why not? Why do normal people love you instead 
-  of fearing your power?  Why do *you* love humanity so much?
-- Who taught you that you have a responsibility to others? What
-  normal humans keep you grounded when you can fly so much higher
-  than mere mortals? Do you ever adopt a disguise to pass as a
-  normal human?  How do you deal with so much weight on your 
-  shoulders? Who else do you rely on for assistance?
-- Are there other people like you? Do you have an arch-enemy who
-  uses your best qualities to harm others instead of helping them?
+- Why do normal people love you instead of fearing your power?  
+  - Why do *you* love humanity so much?
+  - Do you wear a mask, or can everyone see your face? 
+  - Do you have a cape? If not, why not? 
+- What normal humans keep you grounded when you can fly so much 
+  higher than mere mortals? 
+  - Who taught you that you have a responsibility to others? 
+  - Do you ever adopt a disguise to pass as a normal human?  
+  - How do you deal with so much weight on your shoulders? 
+  - Who else do you rely on for assistance?
+- Are there other people like you? 
+  - Do you have an arch-enemy who
+    uses your best qualities to harm others instead of helping them?
 - Why *haven't* you used your powers to make huge changes in the
-  world? What holds you back from ruling over humanity for its
-  own good? What kind of nightmares wake you up in the middle of
-  the night, frightened by your own potential to wreck the world?
+  world? 
+  - What holds you back from ruling over humanity for its
+    own good? 
+  - What kind of nightmares wake you up in the middle of
+    the night, frightened by your own potential to break the world?
+  - Who can be trusted to stop you if you're not in control of yourself?
 
 ## Skills
 

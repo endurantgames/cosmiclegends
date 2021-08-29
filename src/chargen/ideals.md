@@ -28,7 +28,7 @@ If you're stuck for ideas, you can roll roll two dice and
 check the following table -- or just pick up to five from 
 the list that sound good.
 
-::::::: twocolumn :::::::::::::::
+:::::: { .twocolumn .table } :::::
  Rolls  Ideal
 ------- ---------------
  1, 1   Honor

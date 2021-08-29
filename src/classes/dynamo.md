@@ -18,17 +18,19 @@ to increase your dice pools by spending Might freely.
 
 As you create your Dynamo hero, answer any or all of these questions.
 
-- What type of energy do you use? Do you produce it yourself, or does
-  it come from another source? How exactly did you gain your power
-  to use this energy?
+- What type of energy do you use? 
+  - Do you produce it yourself, or does it come from another source? 
+  - How exactly did you gain your power to use this energy?
 - What visual, audible, and olfactory signatures accompany your power?
-  Is there a color associated with this energy, like silver, purple, or
-  gold? Do you crackle with energy? An earth-shattering kaboom when your
-  power go off, a simple "ZOT" or something else? A burnt smell, or ozone,
-  or petrichor?
-- How does your hero feel about these powers? Do you revel in them,
-  happy to show off? Or are you more restrained, afraid to let loose
-  with your full strength? Have your powers ever harmed anyone else? 
+  - Is there a color associated with this energy, like silver, purple, or
+    gold? Do you crackle with energy? 
+  - An earth-shattering kaboom when your
+    power goes off, a simple "ZOT" or something else? 
+  - A burnt smell, or ozone, or petrichor?
+- How does your hero feel about these powers? 
+  - Do you revel in them, happy to show off? 
+  - Or are you more restrained, afraid to let loose with your full strength? 
+  - Have your powers ever harmed anyone else? 
 
 ## Skills
 

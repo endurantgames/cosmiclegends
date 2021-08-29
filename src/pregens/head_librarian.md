@@ -99,8 +99,7 @@
 [Unknown]{.pregen-nickname}
 [he/him]{.pregen-pronouns}
 []{.pregen-volume .box .v1}
-[The Head Librarian looks like a man about 30 years of age;
-he doesn't appear in any databases, online or off.]{.pregen-bio}
+[The Head Librarian looks like a man about 30 years of age; he doesn't appear in any databases, online or off.]{.pregen-bio}
 [His storyline is **discover where he is from.**]{.pregen-storyline}
 
 ![The Head Librarian](art/jeshields/head_librarian_face.png){.pregen-face} \ 
