@@ -37,6 +37,7 @@ you say they mean!
 
 As you create your Paragon hero, answer any or all of these questions.
 
+:::::::: questions ::::::::::::::::::::::
 - Why do normal people love you instead of fearing your power?  
   - Why do *you* love humanity so much?
   - Do you wear a mask, or can everyone see your face? 
@@ -57,6 +58,7 @@ As you create your Paragon hero, answer any or all of these questions.
   - What kind of nightmares wake you up in the middle of
     the night, frightened by your own potential to break the world?
   - Who can be trusted to stop you if you're not in control of yourself?
+:::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -90,10 +92,10 @@ maximum value.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

@@ -10,3 +10,5 @@
 #cover .hype ul li:nth-child(1) { top: 330pt; }
 #cover .hype ul li:nth-child(2) { top: 420pt; }
 
+.cpw { column-count: 3; }
+

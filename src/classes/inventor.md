@@ -24,6 +24,7 @@ making on-the-fly adjustments to whatever gear you carry.
 
 As you create your Inventor hero, answer any or all of these questions.
 
+:::::::::: questions ::::::::::::::::::::::::
 - What kind of gear do you use? 
   - How do you carry that equipment around with you? 
   - What do your inventions look like? 
@@ -46,6 +47,7 @@ As you create your Inventor hero, answer any or all of these questions.
   - Are you publicly linked with your source of funding? 
   - Do you hold patents on any of your inventions?
   - Does anyone *else* hold patents on your inventions?
+:::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -65,10 +67,10 @@ Pool instead.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

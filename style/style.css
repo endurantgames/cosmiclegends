@@ -149,6 +149,8 @@ table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
 p { margin-top: 0.25em; margin-bottom: 0.5em; }
 
+table { width: 100%; }
+
 #cover + h1   { counter-reset: page; counter-increment: page; break-before: right; margin: 0; }
 
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: all; }
@@ -450,7 +452,6 @@ a.onpage { content: 'on page ' target-counter(attr(href), page); }
   }
 .glossary dl dd:after { content: '\a\a'; white-space: pre; }
 
-.ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 
 blockquote p { line-height: 1.0; margin: 0; }
 
@@ -537,18 +538,16 @@ blockquote {
 #power-table table.power-key th:nth-child(3) { width: 25%; text-align: left;  }
 
 .skill-list dl dt { font-family: var(--font-h5); font-size: var(--h5); 
-margin-top: 1em; }
+margin-top: 0.5em; }
 .skill-list dl dd { margin: 0; padding: 0; }
-.skill-list dl dd p { margin: 0.5em 0; }
+.skill-list dl dd p { margin: 0.25em 0; }
 .skill-list dl dd ul { margin: 0; break-inside: auto; }
-.skill-list dl dd ul li { margin-left: 2em; text-indent: -1em; list-style-type: none; }
+.skill-list dl dd ul li { margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; }
 
 .breakable ul { break-inside: auto; }
 
 .ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 
-.ability-list dl dt { font-family: var(--font-h5); font-size: var(--h5);  font-weight: normal;
-margin-top: 1em; break-after: avoid; break-inside: avoid; }
 .ability-list dl dd { margin: 0; padding: 0; break-before: avoid; break-inside: avoid; }
 .ability-list dl dd p { margin: 0; margin-bottom: 0.5em; line-height: 1.2; }
 .ability-list dl dd p:first-child { padding-top: 0.125em; }
@@ -558,13 +557,21 @@ margin-top: 1em; break-after: avoid; break-inside: avoid; }
 .ability-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .ability-list dl dd ul li::marker { padding-right: 0.25em; }
 
+.ability-list dl dt { 
+}
 .ability-list dl dt {
-  border: 0.5pt solid var(--color-line); 
+  background-color: var(--bgcolor-sidebar);
   border-bottom: none;
   border-radius: var(--border-radius) 0;
-  padding: 0 4pt;
+  border: 0.5pt solid var(--color-line); 
+  break-after: avoid; 
+  break-inside: avoid; 
+  font-family: var(--font-h5); 
+  font-size: var(--h5);  
+  font-weight: normal;
   margin-bottom: 0;
-  background-color: var(--bgcolor-sidebar);
+  margin-top: 0.5em; 
+  padding: 0 4pt;
 }
 
 .ability-list dl dd {
@@ -587,15 +594,14 @@ margin-top: 1em; break-after: avoid; break-inside: avoid; }
   padding-left:      9pt;
   padding-right:     9pt;
   padding-bottom:    6pt;
-  margin-bottom:     9pt;
+  margin-bottom:     0;
   margin-top: 1em;
-  margin-bottom: 1em;
   background:        var(--bgcolor-sidebar);
   border-radius: var(--border-radius);
   border: 0.5pt solid var(--color-line);
 }
 
-.soapbox.small { column-span: none; column-count: auto; float-placement: top; float-reference: column; float-defer-column: outside; }
+.soapbox.small { margin-top: 0; margin-bottom: 1em; column-span: none; column-count: auto; float-placement: top; float-reference: column; float-defer-column: outside; }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2):before {
   content: "Spindrift's Soapbox: ";
@@ -625,7 +631,7 @@ margin-top: 1em; }
 .twocolumn.table table tr td { break-inside: auto; padding: 0; }
 
 .twocolumn ul { column-count: 2; column-gap: 1em; break-inside: avoid; 
- break-inside: auto; margin: 0; margin-left: 0.5em; }
+ margin: 0; margin-left: 0.5em; }
 .twocolumn table { break-inside: auto; }
 
 .cpw { column-count: 2; column-gap: 1em; break-inside: avoid; }
@@ -660,11 +666,18 @@ margin-top: 1em; }
 .classdata ul ul { break-inside: avoid-page; }
 .classdata ul li { line-height: 1.1; }
 
+.classdata .questions ul { margin: 0; }
+.classdata .questions ul li { margin: 0; margin-left: 1em; text-indent: -1em; list-style-type: none; font-weight: normal; }
+.classdata .questions > ul > li { font-weight: bold; }
+.classdata .questions ul li ul li { line-height: 1.1; }
+
 .classdata blockquote {
   font-size: var(--quote-class);
 }
-.classdata ul li ul { margin: 0; margin-left: 0.75em; margin-bottom: 0.25em; margin-top: 0.25em; }
-.classdata ul li ul li { margin: 0; list-style-type: none; line-height: 1.0; }
+.classdata > ul { margin: 0; }
+.classdata > ul li {
+  margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; 
+}
 
 .classpic figure {
   float: column top;

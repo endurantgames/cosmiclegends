@@ -32,6 +32,7 @@ of effects you can produce.
 
 As you create your Knight hero, answer any or all of these questions.
 
+::::::::::: questions :::::::::::::::::::::::::
 - Why are you *so* driven? 
   - Which of your ideals were strong enough to make you 
     devote so much time toward developing your talents? 
@@ -52,6 +53,7 @@ As you create your Knight hero, answer any or all of these questions.
   - Did you learn from one person, or from multiple masters? 
   - Did your instructor(s) have other students,
     and if so, how do you relate to each of them?
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -75,10 +77,10 @@ Choose one additional Fighting Style.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

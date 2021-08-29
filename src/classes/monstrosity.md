@@ -27,6 +27,7 @@ moves from Hero Phase to Hero Phase.
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
+:::::::::: questions :::::::::::::::::::
 - How do you look different from normal humans? 
   - How much larger are you than other people? 
   - What color is your skin, and what does it feel like? 
@@ -45,6 +46,7 @@ As you create your Monstrosity hero, answer any or all of these questions.
   - What makes you a *hero* and not a villain or mindless threat? 
   - What would push you over that edge, and how have you avoided going 
     over it so far?
+::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -63,10 +65,10 @@ or Combo to advance the Smash goal, add 2 to the Effectiveness.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

@@ -40,6 +40,7 @@ other players for ideas.
 
 As you create your Shaper hero, answer any or all of these questions.
 
+::::::::::: questions ::::::::::::::::::::::
 - How did you get these powers, and what limits do they have? 
   - Why can you control some types of matter and not others? 
   - Can you affect people with your powers, or are living 
@@ -55,6 +56,7 @@ As you create your Shaper hero, answer any or all of these questions.
   - How does the state of your environment affect *you*? 
 - Are there any manifestations of your power that follow
   you around, and if so, can you exercise conscious control over them?
+::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -83,10 +85,10 @@ Crisis is equal to the Volume number.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

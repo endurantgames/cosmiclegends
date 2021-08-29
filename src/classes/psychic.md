@@ -52,6 +52,7 @@ before it comes up in play.
 
 As you create your Psychic hero, answer any or all of these questions.
 
+:::::::::::: questions :::::::::::::::::::::
 - How do you come by these amazing mental powers? 
   - What kind of training or education did you undertake to master them?
 - Are there obvious signs to your powers, such as an enlarged forehead,
@@ -69,6 +70,7 @@ As you create your Psychic hero, answer any or all of these questions.
 - Do you have any *physical* limitations, such as a disability? 
   - How do your powers compensate for those limits, and in what ways can
     they never fully substitute for them?
+::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -90,10 +92,10 @@ roll adds 2 extra dice to the roll.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

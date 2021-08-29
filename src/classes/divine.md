@@ -1,5 +1,5 @@
 ::::::::::::::::::::: { .classdata #class-divine } :::::::::::::::
-# The Divine {#toc-divine .breakbefore .class}
+# The Divine {#toc-divine .class}
 
 > Bright Mother Brigit, guide my hand!
 
@@ -18,6 +18,7 @@ bonus applies to the dice they provide, too.
 
 As you create your Divine hero, answer any or all of these questions.
 
+::::::::::::::::: questions :::::::::::::::::::::::::
 - Are you a deity yourself? 
   - A demigod? 
   - The champion of one or more deities? 
@@ -43,6 +44,7 @@ As you create your Divine hero, answer any or all of these questions.
   - Does it mystify you, or are you thoroughly immersed in modern culture? 
   - What are your views on religion -- both your
     hero's own religion and those that could be seen as rival faiths?
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -82,10 +84,10 @@ them.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

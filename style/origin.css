@@ -1,4 +1,4 @@
-@import url("style.css");
+@import url("letter.css");
 
 :root {
   --quote: 14pt; 
@@ -9,24 +9,32 @@
 
 @page :first { background-size: auto 200%; }
 
-#cover h2 { font-size: 48pt; top: -24pt; }
-#cover img#img-title { top: 64pt; }
+#cover h2 { font-size: 60pt; top: -24pt; }
+#cover img#img-title { top: 80pt; }
+
+#cover .hype ul li:nth-child(1) { top: 360pt; }
+#cover .hype ul li:nth-child(2) { top: 425pt; }
+#cover .hype ul li:nth-child(3) { top: 540pt; }
+#cover .hype ul li:nth-child(4) { top: 670pt; }
+
+.soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2):before { content: normal; }
 
 #coverbox ul li:nth-child(8) { top: 24pt; font-size: 96pt; }
 section.soapbox, 
 .soapbox { column-span: none; column-count: 1; float-reference: column; }
 .classpic figure { display: none; }
-h3.class     { break-before: auto; font-family: var(--font-h3); font-size: var(--h3); }
-h4.class { font-size: var(--h4); font-family: var(--font-h4); }
+h3.class     { break-before: column; }
+
+.classtable { margin-top: 2in; break-after: page; }
+
 .breakbefore { break-before: auto; margin-top: 9pt; }
 .colbefore { break-before: auto; }
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: none; }
 #toc { column-span: none; column-count: 1; }
-blockquote { column-span: none; margin-left: 10%; margin-right: 10%; }
+blockquote { display: none; }
 .harmony-drive-logo { column-span: none; }
 .harmony-drive-logo img { width: 50%; }
 
-.classtable { display: none; }
 #cover + h1 { margin-bottom: 9pt; break-before: auto; }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { column-span:none; }

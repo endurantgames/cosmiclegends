@@ -27,6 +27,7 @@ to Crisis about ideas to tie your home to the current situation.
 
 As you create your Monarch hero, answer any or all of these questions.
 
+:::::::::: questions ::::::::::::::::::::::
 - Where is your home located? 
   - How does its location serve to isolate it from other cultures? 
   - Is your home open to outsiders, or sealed off?
@@ -46,6 +47,7 @@ As you create your Monarch hero, answer any or all of these questions.
   - If you're not the monarch regnant, who is, and how do you feel 
     about each other? 
   - Have you been exiled from your home, and if so -- for what reason?
+:::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
 ## Cultural Sensitivity
@@ -86,10 +88,10 @@ Pool when you add to it during the Crisis.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.

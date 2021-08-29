@@ -25,6 +25,7 @@ a price to pay for it.
 
 As you create your Mage hero, answer any or all of these questions.
 
+:::::::::: questions :::::::::::::::::::
 - All magic has a price -- so what was the *first* price you had to pay?
   - What quality, talent, item, or relationship did you give up in order
     to gain magical power? 
@@ -47,6 +48,7 @@ As you create your Mage hero, answer any or all of these questions.
   - What rituals do you follow that others couldn't possibly
     understand?
 - What happens if your power gets out of your control?
+::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -66,10 +68,10 @@ to 1s.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
