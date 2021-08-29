@@ -79,7 +79,7 @@
 [Armor]{.pregen-word}
 [Crossbow]{.pregen-word}
 [Line]{.pregen-word}
-[Restrain]{.pregen-word}
+[Snare]{.pregen-word}
 [Sword]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 

@@ -13,6 +13,16 @@ Although you fight for justice and freedom for all, you feel a special
 obligation to protect your home -- even if you don't currently live
 there.
 
+## Playing a Monarch
+
+Your Monarch hero is most strongly defined by their home than by their
+Powers, Approaches, or Skills. You're most effective against threats
+against that home. 
+
+It's up to you to decide if any given Crisis endangers your domain, 
+so you may want to ask the Editor or other players during the Countdown
+to Crisis about ideas to tie your home to the current situation.
+
 ## Questions
 
 As you create your Monarch hero, answer any or all of these questions.
@@ -32,6 +42,24 @@ As you create your Monarch hero, answer any or all of these questions.
   reigning monarch, or an heir in line for the throne? If you're not the
   monarch regnant, who is -- and how do you feel about each other? Have you
   been exiled from your home, and if so -- for what reason?
+
+:::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
+## Cultural Sensitivity
+
+You can define any details you like about your Monarch's
+home. That doesn't mean that you shouldn't be aware of
+real-world stereotypes, bigotries, and privilege.
+
+Your Monarch's home is *never* somewhere that exists --
+or could exists -- in the real world. You can live on the
+Moon, or in the Antarctic, or under the Pacific Ocean, or
+in an adjacent dimension, or on a floating city -- but you
+can't be the Monarch of China or Uganda or Pittsburgh.
+
+Check in regularly with your fellow players and the Editor
+to make sure that you're not straying into problematic
+stereotypes, including accents, as you play your Monarch.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -191,7 +219,6 @@ Soul of the Land
     both costs 1 Might.)
 
 :::::::::::::::::::::::::::::::::::::
-
 
 ### Volume 4 Abilities
 

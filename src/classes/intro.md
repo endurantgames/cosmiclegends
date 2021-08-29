@@ -36,7 +36,7 @@ The Monarch     Explorer, Historian,        Unexpected,          6     For My Ki
 The Monstrosity Criminal, Explorer,         Strongest,           6     Engine of Destruction
                 plus any two                Monster
 
-The Paragon     Any two                     Powers,            7 + 1   My One Weakness!
+The Paragon     Any two                     Powers,            6 + 1   My One Weakness!
                                             Abilities
 
 The Psychic     Academic, plus any          Focused,             6     Our Minds As One

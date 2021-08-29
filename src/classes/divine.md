@@ -1,17 +1,45 @@
 ::::::::::::::::::::: { .classdata #class-divine } :::::::::::::::
 # The Divine {#toc-divine .breakbefore .class}
 
-> Blessed Mother Brigit, guide my hand!
+> Bright Mother Brigit, guide my hand!
 
-[]{.lorem}
+You are imbued with power that originates with one or more
+deities, or at least powerful extra-planar beings who could be
+worshipped as gods.
+
+## Playing a Divine
+
+As a Divine hero, you have a wide range of abilities to choose from.
+Look for ways you can find synergy with other heroes -- if they
+join in a Power Combo that you initiate, your *Give Me Strength!*
+bonus applies to the dice they provide, too.
 
 ## Questions
 
 As you create your Divine hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Are you a deity yourself? A demigod? The champion of one or more
+  deities? Or even someone who figuratively or literally stole power
+  from the gods?
+- What god, gods or pantheon are you associated with? Do you gain 
+  power from your association with a single deity, or do multiple
+  gods grant you power? Are your powers bestowed by the gods, or are
+  they a result of your own divine essence?
+- How do you relate to the god(s) who empower you? Are you on good
+  terms with them, are they distant and silent, or have they sent you 
+  to a mortal existence for your own good? 
+- Are there other gods or other people empowered by the gods, and 
+  if so, do you get along with them? Are there any mythological
+  monsters or enemies that your choice of a divine power source 
+  implies?
+- Do you have a single form and identity, or do you change through
+  supernatural means between your Divine form and a "mortal" one?
+  If so, what triggers such a change -- a spoken word, a transformation
+  sequence, or just calling upon your Divine powers?
+- If you're not a mortal yourself, what *do* you think of the
+  mortal world? Does it mystify you, or are you thoroughly immersed
+  in modern culture? What are your views on religion -- both your
+  hero's own religion and those that could be seen as rival faiths?
 
 ## Skills
 
@@ -25,8 +53,27 @@ dice equal to the Volume.
 
 When you use your Core Power Words or Nova Power Words in a Power Stunt 
 or Power Combo, you can count 6s as two successes instead of 1. 
-When you do, lose either 1 Health or 1 Might after your roll for each
-extra success.
+When you do, lose either 1 Health or 1 Might after your roll, regardless
+of how many extra successes you gained.
+
+:::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
+## Real-World Religions?
+
+It's a staple of superhero comic books that real-life
+deities are portrayed as either heroes themselves or the
+sources of power for a hero.
+
+There's an assumption that these "aren't *real* gods who
+are sacred to anyone any more" -- but that's not necessarily
+true at all. For example, many modern pagans revere one or
+more of the Norse gods of myth.
+
+You should be careful when you use mythological deities,
+*especially* those from a culture that's foreign to you.
+Check with the other players and the Editor, and be prepared
+to change either your Divine hero or the concept behind
+them.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Power Words
 
@@ -55,6 +102,7 @@ Choose six Personal Power Words from the following list:
 - Armor
 - Command
 - Extraplanar
+- Faith
 - Flight
 - Peace
 - Radiant
@@ -64,7 +112,6 @@ Choose six Personal Power Words from the following list:
 - Strength
 - Thunder
 - Unbreakable
-- Weapon (specific)
 - Wisdom
 :::::::::::::::::::::::::
 
@@ -97,13 +144,6 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Courage of Ares
-
-:   Your divine spirit won't give up, even when the odds are
-    against you.
-    When you are below half your Health, add 1 to the dice pool
-    to advance any Goal.
-
 Stamina of Atlas
 
 :   You are tougher than a mere mortal. Increase your maximum Health to 15.
@@ -113,6 +153,15 @@ Strength of Kratos
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
     Add 2 to the dice pool to advance the Smash or Rescue goals.
+
+Weapon of the Gods
+
+:   You have a weapon that is unique in the universe, possibly 
+    crafted by a deity of the forge. Decide on the specific
+    weapon, and add that weapon's proper name as a Core Power Word. 
+    In addition, choose either one Energy Power Word from the Dynamo 
+    class or one Element Power Word from the Shaper list, and use that 
+    as Personal Power Word whenever you have your weapon.
 
 Wisdom of Athena
 
@@ -127,12 +176,12 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
 
-Skill of Artemis
+Courage of Ares
 
-:   Divinely granted knowledge gives you skill in nearly
-    every field.
-    When you make a skill roll, if you don't have that 
-    skill, add 1 to the dice pool.
+:   Your divine spirit won't give up, even when the odds are
+    against you.
+    When you are below half your Health, add 1 to the dice pool
+    to advance any Goal.
 
 Speed of Hermes
 
@@ -155,41 +204,17 @@ Power of Zeus
     like electricity when you use Might.  
     Increase your maximum Might to 15.
 
-TBD
+Skill of Artemis
 
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-### Volume 4 Abilities
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
+:   Divinely granted knowledge gives you skill in nearly
+    every field.
+    When you make a skill roll, if you don't have that 
+    skill, add 1 to the dice pool.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 4 and 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Divine abilities up to Volume 3.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -3,15 +3,58 @@
 
 > Everyone wave goodbye to him! Get it? Wave. Because I control waves. Nobody? Tough crowd.
 
-[]{.lorem}
+A Shaper is able to control some physical -- or quasi-physical --
+substance, such as rock, water, or shadows. Their powers have 
+a greater effect on the world around them than most heroes' do,
+such as controlling the weather or leveling buildings with a 
+glance.
 
+## Playing a Shaper
+
+Your Shaper hero focuses on two things: the type of matter you can
+control, and the environment around you.
+
+Each scene has several Scene Power Words that are chosen by the
+Editor during the Countdown to Crisis. However, an Editor might
+not think of everything -- so it's fine for you to suggest that
+perhaps there might be a magazine stand on the street corner, for
+example, if your hero controls paper.
+
+One of the first things you're going to want to do is use your
+*Reshape the Battlefield* ability to give yourself and the other
+heroes Scene Power Words to use. Remember that a Scene Power Word
+costs 0 Might to use! Reshaping at the start of a Crisis can 
+save you a *lot* of Might in the long run!
+
+::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
+## Other Element Power Words
+
+If you can think of something else you'd like your Shaper
+hero to control, then choose that as your Element Power
+Word instead! If you decide that your hero controls
+dairy products, then go for it! If you need advice on
+a good Word to pick, you can always ask the Editor and
+other players for ideas.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Questions
 
 As you create your Shaper hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Why can you control some types of matter and not others? How
+  did you get these powers, and what limits do they have? Can you
+  affect people with your powers, or are living creatures beyond
+  your control? How much of your power is raw potential, and how
+  much is rigid discipline? If you lost control, would you shut
+  down or would you lash out?
+- Can you generate your own element, or are you reliant upon having
+  your element present to start shaping? 
+  What effect does your emotional state have on the environment?
+  How does the state of your environment affect *you*? 
+  Are there any manifestations of your power that follow
+  you around, and if so, can you exercise conscious control over them?
+- Do you view yourself as speaking to nature and asking for its
+  aid, or as forcing the elements to bend to your will, or as an
+  artist carefully sculpting exactly what you need from the world?
 
 ## Skills
 
@@ -56,11 +99,11 @@ In addition, you get a third Core Power Word -- known as your
 Element Power Word -- chosen from the following list:
 
 ::::::::::::: cpw :::::::
-- Cloth
 - Earth
 - Force
 - Gravity
 - Ice
+- Metal
 - Paper
 - Plants
 - Rock
@@ -72,6 +115,7 @@ Element Power Word -- chosen from the following list:
 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
+
 
 ### Personal Power Words
 
@@ -147,7 +191,7 @@ Wall of Matter
 
 :   You can construct a defensive wall to protect yourself and
     your teammates. When a Crisis Move affects all of the heroes,
-    you can spend 1 Might to counter it instead of spending 
+    you can spend Might to counter it instead of spending 
     from the Teamwork Pool.
 
 :::::::::::::::::::::::::::::::::::::
@@ -177,46 +221,23 @@ Power Overwhelming
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
+Draw Power from the Surroundings
+
+:   When one of your Power Words matches one of the Scene Power
+    Words -- or has approximately the same meaning -- regain 1
+    Might at the start of the Hero Phase whenever you are below
+    half of your maximum Might.
+
 Psychic Manifestation
 
 :   Your powers also give you a measure of control over minds.
     Add one Word from the Psychic's Personal Power Word list
     as a Personal Power Word.
 
-TBD
-
-:   to be determined
-
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Shaper abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

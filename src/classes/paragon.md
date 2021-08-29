@@ -3,15 +3,54 @@
 
 > I'm sorry, but I can't let you do that.
 
-[]{.lorem}
+You're convinced that your powers are meant to help others,
+not for your own benefit. You protect those who can't defend
+themselves, help those who can't help themselves.
+
+You're the epitome of a hero. Flight, strength, invulnerability,
+and superhuman verions of normal human abilities are common
+among Paragons, along with the odd random power usually found
+in another class.
+
+## Playing a Paragon
+
+If you're playing a Paragon because you want to revel in your
+hero's power ... then you're probably playing the wrong class.
+
+Paragons, despite often being the most powerful heroes 
+*in concept*, are primarily support heroes. The class
+ability -- *My One Weakness!* -- takes your hero out of the
+fight but gives a boost to the other heroes!
+
+Your Paragon may have more Health than other heroes -- but
+that's because, ideally, you're using Take the Hit whenever you
+possibly can. Paragons are about protecting others first, and
+punching villains a distant second.
+
+Also, look for creative ways to use your *Powers* and *Abilities* 
+Core Power Words -- they can justify any number of ad hoc power 
+uses in combination with your other Power Words, such 
+as *Vision Powers* or *Alien Abilities*. What do those mean? Whatever
+you say they mean!
 
 ## Questions
 
 As you create your Paragon hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Do you wear a mask, or can everyone see your face? Do you have
+  a cape? If not, why not? Why do normal people love you instead 
+  of fearing your power?  Why do *you* love humanity so much?
+- Who taught you that you have a responsibility to others? What
+  normal humans keep you grounded when you can fly so much higher
+  than mere mortals? Do you ever adopt a disguise to pass as a
+  normal human?  How do you deal with so much weight on your 
+  shoulders? Who else do you rely on for assistance?
+- Are there other people like you? Do you have an arch-enemy who
+  uses your best qualities to harm others instead of helping them?
+- Why *haven't* you used your powers to make huge changes in the
+  world? What holds you back from ruling over humanity for its
+  own good? What kind of nightmares wake you up in the middle of
+  the night, frightened by your own potential to wreck the world?
 
 ## Skills
 
@@ -61,7 +100,7 @@ or 2 Might to add both.
 
 ### Personal Power Words
 
-Choose *seven* (not six) Personal Power Words from the following list:
+Choose six Personal Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
 - Alien
@@ -147,10 +186,12 @@ Power Overwhelming
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
+Never-Ending Battle
 
-TBD
-
-:   To be determined
+:   You refuse to stay down if there are innocents in
+    danger. When you are at 0 Health or 0 Might, regain 1
+    point of each at the start of the next Hero Phase if
+    the Rescue goal can still be advanced.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -172,34 +213,8 @@ Nigh-Invulnerable
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Paragon abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

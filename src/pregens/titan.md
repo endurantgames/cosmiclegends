@@ -75,7 +75,6 @@
 [Cold]{.pregen-word}
 [Flight]{.pregen-word}
 [Probe]{.pregen-word}
-[Speed]{.pregen-word}
 [Strength]{.pregen-word}
 [Thoughts]{.pregen-word}
 [Vision]{.pregen-word}

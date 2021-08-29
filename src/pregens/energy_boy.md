@@ -62,6 +62,7 @@
 
 ::::::::::: pregen-skills ::::::::::
 [Academic]{.pregen-skill}
+[Pilot]{.pregen-skill}
 [Scientist]{.pregen-skill}
 :::::::::::::::::::::::::::::
 

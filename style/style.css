@@ -435,8 +435,13 @@ a.onpage { content: 'on page ' target-counter(attr(href), page); }
 
 #toc-glossary { column-span: all; }
 
-.glossary ul { margin: 0; }
-.glossary ul li { margin: 0; text-indent: 1em; list-style-type: none; margin-bottom: 0.2em; }
+.glossary dl { margin: 0; margin-left: 1em; }
+.glossary dl dt { display: inline; text-indent: -1em; line-height: 1.5; }
+.glossary dl dt:before { content: '\a'; white-space: pre; }
+.glossary dl dd { margin: 0; padding: 0; display: inline; line-height: 1.1; }
+.glossary dl dd p { margin: 0.5em 0; }
+
+.ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 
 blockquote p { line-height: 1.0; margin: 0; }
 

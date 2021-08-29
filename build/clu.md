@@ -1354,7 +1354,7 @@ The Monarch     Explorer, Historian,        Unexpected,          6     For My Ki
 The Monstrosity Criminal, Explorer,         Strongest,           6     Engine of Destruction
                 plus any two                Monster
 
-The Paragon     Any two                     Powers,            7 + 1   My One Weakness!
+The Paragon     Any two                     Powers,            6 + 1   My One Weakness!
                                             Abilities
 
 The Psychic     Academic, plus any          Focused,             6     Our Minds As One
@@ -1371,17 +1371,45 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
 ::::::::::::::::::::: { .classdata #class-divine } :::::::::::::::
 ### The Divine {#toc-divine .breakbefore .class}
 
-> Blessed Mother Brigit, guide my hand!
+> Bright Mother Brigit, guide my hand!
 
-[]{.lorem}
+You are imbued with power that originates with one or more
+deities, or at least powerful extra-planar beings who could be
+worshipped as gods.
+
+#### Playing a Divine
+
+As a Divine hero, you have a wide range of abilities to choose from.
+Look for ways you can find synergy with other heroes -- if they
+join in a Power Combo that you initiate, your *Give Me Strength!*
+bonus applies to the dice they provide, too.
 
 #### Questions
 
 As you create your Divine hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Are you a deity yourself? A demigod? The champion of one or more
+  deities? Or even someone who figuratively or literally stole power
+  from the gods?
+- What god, gods or pantheon are you associated with? Do you gain 
+  power from your association with a single deity, or do multiple
+  gods grant you power? Are your powers bestowed by the gods, or are
+  they a result of your own divine essence?
+- How do you relate to the god(s) who empower you? Are you on good
+  terms with them, are they distant and silent, or have they sent you 
+  to a mortal existence for your own good? 
+- Are there other gods or other people empowered by the gods, and 
+  if so, do you get along with them? Are there any mythological
+  monsters or enemies that your choice of a divine power source 
+  implies?
+- Do you have a single form and identity, or do you change through
+  supernatural means between your Divine form and a "mortal" one?
+  If so, what triggers such a change -- a spoken word, a transformation
+  sequence, or just calling upon your Divine powers?
+- If you're not a mortal yourself, what *do* you think of the
+  mortal world? Does it mystify you, or are you thoroughly immersed
+  in modern culture? What are your views on religion -- both your
+  hero's own religion and those that could be seen as rival faiths?
 
 #### Skills
 
@@ -1395,8 +1423,27 @@ dice equal to the Volume.
 
 When you use your Core Power Words or Nova Power Words in a Power Stunt 
 or Power Combo, you can count 6s as two successes instead of 1. 
-When you do, lose either 1 Health or 1 Might after your roll for each
-extra success.
+When you do, lose either 1 Health or 1 Might after your roll, regardless
+of how many extra successes you gained.
+
+:::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
+#### Real-World Religions?
+
+It's a staple of superhero comic books that real-life
+deities are portrayed as either heroes themselves or the
+sources of power for a hero.
+
+There's an assumption that these "aren't *real* gods who
+are sacred to anyone any more" -- but that's not necessarily
+true at all. For example, many modern pagans revere one or
+more of the Norse gods of myth.
+
+You should be careful when you use mythological deities,
+*especially* those from a culture that's foreign to you.
+Check with the other players and the Editor, and be prepared
+to change either your Divine hero or the concept behind
+them.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Power Words
 
@@ -1425,6 +1472,7 @@ Choose six Personal Power Words from the following list:
 - Armor
 - Command
 - Extraplanar
+- Faith
 - Flight
 - Peace
 - Radiant
@@ -1434,7 +1482,6 @@ Choose six Personal Power Words from the following list:
 - Strength
 - Thunder
 - Unbreakable
-- Weapon (specific)
 - Wisdom
 :::::::::::::::::::::::::
 
@@ -1467,13 +1514,6 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
-Courage of Ares
-
-:   Your divine spirit won't give up, even when the odds are
-    against you.
-    When you are below half your Health, add 1 to the dice pool
-    to advance any Goal.
-
 Stamina of Atlas
 
 :   You are tougher than a mere mortal. Increase your maximum Health to 15.
@@ -1483,6 +1523,15 @@ Strength of Kratos
 :   Imbued with power comparable to the titan personification of
     strength, you can break down most barriers with ease.
     Add 2 to the dice pool to advance the Smash or Rescue goals.
+
+Weapon of the Gods
+
+:   You have a weapon that is unique in the universe, possibly 
+    crafted by a deity of the forge. Decide on the specific
+    weapon, and add that weapon's proper name as a Core Power Word. 
+    In addition, choose either one Energy Power Word from the Dynamo 
+    class or one Element Power Word from the Shaper list, and use that 
+    as Personal Power Word whenever you have your weapon.
 
 Wisdom of Athena
 
@@ -1497,12 +1546,12 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::: ability-list ::::::::::::
 
-Skill of Artemis
+Courage of Ares
 
-:   Divinely granted knowledge gives you skill in nearly
-    every field.
-    When you make a skill roll, if you don't have that 
-    skill, add 1 to the dice pool.
+:   Your divine spirit won't give up, even when the odds are
+    against you.
+    When you are below half your Health, add 1 to the dice pool
+    to advance any Goal.
 
 Speed of Hermes
 
@@ -1525,42 +1574,18 @@ Power of Zeus
     like electricity when you use Might.  
     Increase your maximum Might to 15.
 
-TBD
+Skill of Artemis
 
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 4 Abilities
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
+:   Divinely granted knowledge gives you skill in nearly
+    every field.
+    When you make a skill roll, if you don't have that 
+    skill, add 1 to the dice pool.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Divine abilities up to Volume 3.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1569,19 +1594,36 @@ TBD
 
 > Stand back, everyone. This one's gonna hurt.
 
-[]{.lorem}
+You're a living source of energy. Whether you generate it
+yourself or tap into another plane of existence, you can use
+that energy as a blast, an explosion, a punch, and more.
+
+#### Playing a Dynamo
+
+This makes you especially good at blowing things up; in fights, you
+use up Might quickly, but regain it almost as quickly. Dynamo is one
+of the few classes that gets a third Core Power Word, so use that
+to increase your dice pools by spending Might freely.
 
 #### Questions
 
 As you create your Dynamo hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- What type of energy do you use? Do you produce it yourself, or does
+  it come from another source? How exactly did you gain your power
+  to use this energy?
+- What visual, audible, and olfactory signatures accompany your power?
+  Is there a color associated with this energy, like silver, purple, or
+  gold? Do you crackle with energy? An earth-shattering kaboom when your
+  power go off, a simple "ZOT" or something else? A burnt smell, or ozone,
+  or petrichor?
+- How does your hero feel about these powers? Do you revel in them,
+  happy to show off? Or are you more restrained, afraid to let loose
+  with your full strength? Have your powers ever harmed anyone else? 
 
 #### Skills
 
-You have any two skills of your choice.
+You have the Scientist skill, plus any two skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
@@ -1589,7 +1631,16 @@ dice equal to the Volume.
 #### Class Ability: Energy Reserve
 
 You're overflowing with energy. If you start the Hero Turn with less
-than two Might points, you regain 1 Might.
+than 2 Might points, you regain 1 Might.
+
+::::::::::::::::::: soapbox :::::::::::::::::::::::::::::
+#### Other Energy Power Words
+
+If you've got an idea for another type of energy,
+go for it! You can run it past the Editor for ideas,
+but if you say your energy is "thunder", for example,
+then your power's thunder!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Power Words
 
@@ -1631,19 +1682,20 @@ Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
 - Absorb
 - Beam
+- Blast
 - Bubble
 - Dampen
 - Explosion
 - Flare
 - Flight
+- Glow
 - Punch
 - Push
+- Reflect
 - Sense
 - Shield
 - Solid
 - Space
-- TBD
-- TBD
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -1675,6 +1727,11 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
+Destructive Energies
+
+:   Your energy is even more damaging than other sources of the same
+    type. Add 2 to the dice pool to advance the Smash goal.
+
 Eight Ball, Corner Pocket
 
 :   You're extremely good at bouncing your blasts off solid targets. 
@@ -1688,15 +1745,11 @@ Fight Fire With Fire
     You can spend points of Might instead of points from
     the Teamwork Pool to avoid energy-themed effects.
 
-Wide Burst
+Wide Angle
 
 :   You can spread your energy in a burst that hits
     many targets. When you advance the Smash goal by
     at least 1, advance another goal by 1.
-
-TBD
-
-:   to be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1708,13 +1761,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Energy Shaping
 
 :   Add a Word from the Shaper class's Personal Power Word list
-    as a Personal Power Word.
+    as a Personal Power Word. You can take this ability more than once.
 
 Energy Versatility
 
 :   You've mastered another form of energy projection in addition
     to your primary energy type. Add a Word from the Energy
     Power Word list as a Personal Power Word.
+    You can take this ability more than once.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1723,46 +1777,21 @@ Energy Versatility
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
+Power Conduit
+
+:   You're able to channel your energy to great effect. When you
+    initiate or join a Power Combo, add 2 to the dice pool.
+
 Power Overwhelming
 
 :   Your capacity for energy use is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
-TBD
-
-:   To be determined
-
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Dynamo abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1771,15 +1800,43 @@ TBD
 
 > I've been itching to try out these new modifications in the field!
 
-[]{.lorem}
+Other heroes may have been born with power, inherited power, or been
+changed by power -- but you *built* your own power with your own
+hand(s).
+
+Whether you have a set of standard equipment, wear a powered suit of armor,
+or create whatever you need on the fly, your creations and Skills are more
+important than your own powers -- if you even have any.
+
+#### Playing an Inventor
+
+Many Inventors tend toward support roles, and your ability to
+add to the Teamwork Pool while advancing a goal reflects this.
+
+Don't be afraid to use your Engineer, Hacker, Scientist, or
+other skills in conjunction with your Power Words to represent
+making on-the-fly adjustments to whatever gear you carry.
 
 #### Questions
 
 As you create your Inventor hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- What kind of gear do you use? How do you carry that equipment around
+  with you? What do your inventions look like? Do you have a specialty
+  or common themes that you tend to invent?
+- What potential applications for your tech could improve the world if
+  everyone had access to it? How could your inventions be used to
+  make the world a worse place? What steps do you take to prevent that
+  from happening? Why don't the authorities fully trust those steps?
+  In what way can your inventions turn against you? What's your blind
+  spot when it comes to the implications of your own creations?
+- Why are you the only person who can use your inventions to their full
+  potential? What inspired you to create these inventions? How did you
+  come by your technical talents? Who helped you create these inventions,
+  and how do they feel about you using them?
+- How do you pay for your inventions? Are you publicly linked with your
+  source of funding? Do you hold patents on any of your inventions?
+  Does anyone *else* hold patents on your inventions?
 
 #### Skills
 
@@ -1926,41 +1983,19 @@ Absorption Field
     that block harm to you. Instead of losing Health, you can
     lose an equal amount of Might.
 
-TBD
+Overclocked Systems
 
-:   To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 4 Abilities
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To Be Determined
-
-TBD
-
-:   To Be Determined
+:   When you use a Power Display, Stunt, or Combo, choose one
+    of the Power Words you're using. Count all 6s in your roll
+    as 2 successes instead of 1. You then lose the use of that
+    Word after the Display, Stunt, or Combo and don't regain
+    it until the end of the current Crisis.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To Be Determined
-
-TBD
-
-:   To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Inventor abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1969,15 +2004,50 @@ TBD
 
 > Hh.
 
-[]{.lorem}
+Most other heroes -- with the exception of some Inventors -- have
+superhuman powers and abilities. You're not like them. Your own
+training and talents are what made you what you are; you may have
+powers, you may have high-tech devices, but ultimately it comes
+down to your skill against someone else's.
+
+#### Playing a Knight
+
+When you play your Knight hero, come up with ways to use your
+Power Words that reflect your normal abilities instead of any
+superpowers you possess. Other heroes -- such as the Dynamo or
+the Paragon -- focus on their powers, but you rely on your
+Skills, your specialized tools, and your Fighting Styles.
+
+You *can* combine your Fighting Styles with each other and with
+your Power Words, so look for synergies there -- nearly every
+Knight has a *Weapon* Power Word for that reason. If you pick
+*Weapon* (or *Vehicle*), name the general kind of weapon --
+Rifle, Boomerang, Sword, Shield, and so on.
+
+If you're going to play a more realistic hero, consider the
+*Weapons Locker* ability for access to weapon Power Words, and
+devote your own Personal Power Words to expanding the variety
+of effects you can produce.
 
 #### Questions
 
 As you create your Knight hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Why are you *so* driven? Which of your ideals were strong
+  enough to make you devote so much time toward developing
+  your talents? Did someone hurt you or you those you love, or
+  are you motivated by a patroitic or professional calling?
+- What kinds of gear do you use? How do you carry those -- a 
+  quiver, a belt, a backpack, or pouches all over your costume?
+  Are your weapons and devices completely mundane, are they
+  the result of unrealistic super-science, or are they supernatural
+  in origin? Did you create them, or did someone else?
+- Do you have any powers, and if so, how did you come by them?
+  In what ways can you combine those with your more mundane talents?
+- Who trained you, and why? Are you on good or bad terms with them?
+  Are they still in your life? Did you learn from one person, or
+  from multiple masters? Did your instructor(s) have other students,
+  and if so, how do you relate to each of them?
 
 #### Skills
 
@@ -2028,9 +2098,10 @@ Choose five Personal Power Words from the following list:
 - Line
 - Photographic
 - Remove
-- Restrain
+- Ricochet
 - Sense
 - Shield
+- Snare
 - Throw
 - Unerring
 - Vehicle (specific)
@@ -2136,37 +2207,9 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-- one
-- two
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Knight abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2175,15 +2218,45 @@ TBD
 
 > By the Blistering Bonds of Brathoon, be banished!
 
-[]{.lorem}
+Mages wield a source of power that can be shaped into nearly
+anything they can imagine. For a few this power is a gift bestowed
+upon them, but all Mages spend time studying, perfecting, and
+controlling their magicks.
+
+#### Playing a Mage
+
+As a mage, your hero is likely one of the most powerful around.
+Not only is it *very* easy to justify using the *Sorcery* Core
+Power Word for nearly anything but your class ability,
+*The Price of Magic*, increases the Effectiveness of your
+rolls if you're willing to take the consequences of Edge
+Successes.
+
+And you *should* be willing to take those, because that's how
+the Mage class plays. You've got a lot of magical power, but there's
+a price to pay for it.
 
 #### Questions
 
 As you create your Mage hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- All magic has a price -- so what was the *first* price you had to pay?
+  What quality, talent, item, or relationship did you give up in order
+  to gain magical power? Was it worth it?
+- How do you cast your magical spells? Do you use an incantation, or
+  merely gesture with your hand while envisioning the effect you'd
+  like to produce?
+- What does your magic look like? Is there a color associated with it?
+  Are there common sounds, sights, or smells when you cast a spell?
+  Are there types of magic you can't evoke?
+- What master wizard instructed you? What price did *they* demand? 
+  Did they have other students? Can you still ask your master for 
+  advice?
+- How do you view the world in a way that's different from heroes and
+  others who aren't immersed in a magical mindset? What strange quirks
+  do you have? What rituals do you follow that others couldn't possibly
+  understand?
+- What happens if your power gets out of your control?
 
 #### Skills
 
@@ -2318,45 +2391,25 @@ Eldritch Might
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Arcane Infusion
 
-:   to be determined
+:   You can impart some of your magical power to another hero.
+    Choose two of your Power Words. Until the
+    end of the current Storyline, they gain those Words as Personal
+    Power Words. You can only do this once per Storyline.
 
-TBD
+Healing Mantra
 
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 4 Abilities
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
+:   You can use your magic to heal your allies. As an action, roll a
+    Power Display, Stunt, or Combo. One or more heroes of your choice
+    regain a total amount of Health equal to the Effectiveness of your
+    roll plus the Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Mage abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2374,6 +2427,16 @@ with your culture, but their ignorance can be excused ... mostly.
 Although you fight for justice and freedom for all, you feel a special
 obligation to protect your home -- even if you don't currently live
 there.
+
+#### Playing a Monarch
+
+Your Monarch hero is most strongly defined by their home than by their
+Powers, Approaches, or Skills. You're most effective against threats
+against that home. 
+
+It's up to you to decide if any given Crisis endangers your domain, 
+so you may want to ask the Editor or other players during the Countdown
+to Crisis about ideas to tie your home to the current situation.
 
 #### Questions
 
@@ -2394,6 +2457,24 @@ As you create your Monarch hero, answer any or all of these questions.
   reigning monarch, or an heir in line for the throne? If you're not the
   monarch regnant, who is -- and how do you feel about each other? Have you
   been exiled from your home, and if so -- for what reason?
+
+:::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
+#### Cultural Sensitivity
+
+You can define any details you like about your Monarch's
+home. That doesn't mean that you shouldn't be aware of
+real-world stereotypes, bigotries, and privilege.
+
+Your Monarch's home is *never* somewhere that exists --
+or could exists -- in the real world. You can live on the
+Moon, or in the Antarctic, or under the Pacific Ocean, or
+in an adjacent dimension, or on a floating city -- but you
+can't be the Monarch of China or Uganda or Pittsburgh.
+
+Check in regularly with your fellow players and the Editor
+to make sure that you're not straying into problematic
+stereotypes, including accents, as you play your Monarch.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -2554,7 +2635,6 @@ Soul of the Land
 
 :::::::::::::::::::::::::::::::::::::
 
-
 ##### Volume 4 Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
@@ -2604,15 +2684,43 @@ Force of the Land
 
 > So here's how this is gonna go. I'm gonna punch ya, you're gonna get real hurt, then give up. Capeesh?
 
-[]{.lorem}
+A monster.
+
+That's what they say you are.
+
+Because of your strength, your size, your appearance.
+
+You're more than that -- you always have been -- but most people
+won't look beyond the obvious and see you as you truly are.
+
+Well, then. If they want a monster *that badly*, maybe you should
+be the monster they say you are?
+
+#### Playing a Monstrosity
+
+Your hero is really, really good at breaking things. You're going
+to want to advance the Smash goal whenever you can, but keep in
+mind that you're more than *just* muscle. You have Skills, Abilities,
+and possibly other Power Words that you can use switch up your
+moves from Hero Phase to Hero Phase.
 
 #### Questions
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- How do you look different from normal humans? How much larger are
+  you than others? What kind of strange appearance do you have that
+  makes the ignorant assume you're a mere brute? What color is your
+  skin, and how does it feel? What does your voice sound like, and what
+  kind of vocabulary do you employ?
+- Are you *always* a monster? If not, what triggers that change? Is
+  it an emotional state, a substance, a situation, or your own
+  choice? Will people not like you when you're angry?
+- What kind of interests do you have that surprise other people? 
+  Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
+- Why *aren't* you the monster they say you are? What makes you a *hero*
+  and not a villain or mindless threat? What would push you over that
+  edge, and how have you avoided going over it so far?
 
 #### Skills
 
@@ -2624,9 +2732,8 @@ dice equal to the Volume.
 
 #### Class Ability: Engine of Destruction
 
-When you use your Core Power Words or Nova Power Words as
-the third Word in a Power Stunt or Power Combo, add 2 to
-a Smash roll's Effectiveness.
+When you use your Core or Nova Power Words in a Power Stunt
+or Combo to advance the Smash goal, add 2 to the Effectiveness.
 
 #### Power Words
 
@@ -2769,26 +2876,18 @@ Power Overwhelming
 :   Your capacity for destruction is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
-TBD
+Immortal
 
-:   to be determined
+:   You might be seriously wounded, but you never stay dead. 
+    If you're reduced to 0 Health or
+    0 Might, regain 1 point of each at the start of the
+    next Hero Phase.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Monstrosity abilities up to Volume 4.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2797,15 +2896,54 @@ TBD
 
 > I'm sorry, but I can't let you do that.
 
-[]{.lorem}
+You're convinced that your powers are meant to help others,
+not for your own benefit. You protect those who can't defend
+themselves, help those who can't help themselves.
+
+You're the epitome of a hero. Flight, strength, invulnerability,
+and superhuman verions of normal human abilities are common
+among Paragons, along with the odd random power usually found
+in another class.
+
+#### Playing a Paragon
+
+If you're playing a Paragon because you want to revel in your
+hero's power ... then you're probably playing the wrong class.
+
+Paragons, despite often being the most powerful heroes 
+*in concept*, are primarily support heroes. The class
+ability -- *My One Weakness!* -- takes your hero out of the
+fight but gives a boost to the other heroes!
+
+Your Paragon may have more Health than other heroes -- but
+that's because, ideally, you're using Take the Hit whenever you
+possibly can. Paragons are about protecting others first, and
+punching villains a distant second.
+
+Also, look for creative ways to use your *Powers* and *Abilities* 
+Core Power Words -- they can justify any number of ad hoc power 
+uses in combination with your other Power Words, such 
+as *Vision Powers* or *Alien Abilities*. What do those mean? Whatever
+you say they mean!
 
 #### Questions
 
 As you create your Paragon hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Do you wear a mask, or can everyone see your face? Do you have
+  a cape? If not, why not? Why do normal people love you instead 
+  of fearing your power?  Why do *you* love humanity so much?
+- Who taught you that you have a responsibility to others? What
+  normal humans keep you grounded when you can fly so much higher
+  than mere mortals? Do you ever adopt a disguise to pass as a
+  normal human?  How do you deal with so much weight on your 
+  shoulders? Who else do you rely on for assistance?
+- Are there other people like you? Do you have an arch-enemy who
+  uses your best qualities to harm others instead of helping them?
+- Why *haven't* you used your powers to make huge changes in the
+  world? What holds you back from ruling over humanity for its
+  own good? What kind of nightmares wake you up in the middle of
+  the night, frightened by your own potential to wreck the world?
 
 #### Skills
 
@@ -2855,7 +2993,7 @@ or 2 Might to add both.
 
 ##### Personal Power Words
 
-Choose *seven* (not six) Personal Power Words from the following list:
+Choose six Personal Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
 - Alien
@@ -2941,10 +3079,12 @@ Power Overwhelming
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
+Never-Ending Battle
 
-TBD
-
-:   To be determined
+:   You refuse to stay down if there are innocents in
+    danger. When you are at 0 Health or 0 Might, regain 1
+    point of each at the start of the next Hero Phase if
+    the Rescue goal can still be advanced.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2966,35 +3106,9 @@ Nigh-Invulnerable
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Paragon abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3003,15 +3117,70 @@ TBD
 
 > I know secrets about you that you don't even know yourself.
 
-[]{.lorem}
+Psychics are masters of mind powers, able to communicate
+with others and link minds together.
+
+Their powers are often purely mental without a physical
+manifestation; a duel between two Psychics could take place
+in the middle of a crowded restaurant with no one any the
+wiser.
+
+If normal people knew that a Psychic was among them -- and could 
+potentially access their innermost thoughts and desires! --
+they would react with fear and hostility. Some Psychics will
+pose as some other type of hero to avoid such prejudices ... even
+as they admit such biases might not be entirely unwarranted.
+
+#### Playing a Psychic
+
+Your Psychic hero is likely the lynchpin of the team, although
+not necessarily the leader. This is a passive ability, though --
+unless you choose otherwise, everyone's connected when you're
+present -- so look for ways to use your Power Words, Skills,
+and Abilities.
+
+:::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
+#### No Ethical Mind Control Under Capitalism
+
+Many comic books and roleplaying games will gloss over
+it, but I'll state it directly: nearly any use of mind
+control powers represents gross violations of another
+person's autonomy and consent.
+
+This doesn't mean you can't *ever* do that in an Issue
+of []{.gamename}, but it means that you have to be careful
+and safe by checking in with the other players and the
+Editor -- because your Psychic hero is probably doing
+something that's quite horrific if you're using mind
+control.
+
+During Issue 0 or the start of an Issue, you should ask
+the other players and the Editor about whether they view
+reading someone's mind without consent as the same kind
+of violation. Are surface thoughts fine, but deep memories
+not? You *need* to have these kinds of talks, as a group,
+before it comes up in play.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Questions
 
 As you create your Psychic hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- How do you come by these amazing mental powers? What kind of
+  training or education did you undertake to master them?
+- Are there obvious signs to your powers, such as an enlarged forehead,
+  glowing eyes, or a visible crackle of power -- or are they completely
+  invisible and undetectable?
+- What limits have you imposed on your own power due to ethical and
+  moral concerns? What type of actions won't you take, and what would
+  push you to actually commit those acts? What makes you a *hero* and not
+  a mind-powered villain, looting others' skulls with impunity?
+- Does your telepathic voice "sound" like your *physical* voice? Do 
+  others recognize you when you make mental contact with you? What 
+  kind of mental self-image do you have?
+- Do you have any *physical* limitations, such as a disability? How
+  do your powers compensate for those limits, and in what ways can
+  they never fully substitute for them?
 
 #### Skills
 
@@ -3161,35 +3330,9 @@ Skill Sharing
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Psychic abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3198,15 +3341,58 @@ TBD
 
 > Everyone wave goodbye to him! Get it? Wave. Because I control waves. Nobody? Tough crowd.
 
-[]{.lorem}
+A Shaper is able to control some physical -- or quasi-physical --
+substance, such as rock, water, or shadows. Their powers have 
+a greater effect on the world around them than most heroes' do,
+such as controlling the weather or leveling buildings with a 
+glance.
 
+#### Playing a Shaper
+
+Your Shaper hero focuses on two things: the type of matter you can
+control, and the environment around you.
+
+Each scene has several Scene Power Words that are chosen by the
+Editor during the Countdown to Crisis. However, an Editor might
+not think of everything -- so it's fine for you to suggest that
+perhaps there might be a magazine stand on the street corner, for
+example, if your hero controls paper.
+
+One of the first things you're going to want to do is use your
+*Reshape the Battlefield* ability to give yourself and the other
+heroes Scene Power Words to use. Remember that a Scene Power Word
+costs 0 Might to use! Reshaping at the start of a Crisis can 
+save you a *lot* of Might in the long run!
+
+::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
+#### Other Element Power Words
+
+If you can think of something else you'd like your Shaper
+hero to control, then choose that as your Element Power
+Word instead! If you decide that your hero controls
+dairy products, then go for it! If you need advice on
+a good Word to pick, you can always ask the Editor and
+other players for ideas.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #### Questions
 
 As you create your Shaper hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Why can you control some types of matter and not others? How
+  did you get these powers, and what limits do they have? Can you
+  affect people with your powers, or are living creatures beyond
+  your control? How much of your power is raw potential, and how
+  much is rigid discipline? If you lost control, would you shut
+  down or would you lash out?
+- Can you generate your own element, or are you reliant upon having
+  your element present to start shaping? 
+  What effect does your emotional state have on the environment?
+  How does the state of your environment affect *you*? 
+  Are there any manifestations of your power that follow
+  you around, and if so, can you exercise conscious control over them?
+- Do you view yourself as speaking to nature and asking for its
+  aid, or as forcing the elements to bend to your will, or as an
+  artist carefully sculpting exactly what you need from the world?
 
 #### Skills
 
@@ -3251,11 +3437,11 @@ In addition, you get a third Core Power Word -- known as your
 Element Power Word -- chosen from the following list:
 
 ::::::::::::: cpw :::::::
-- Cloth
 - Earth
 - Force
 - Gravity
 - Ice
+- Metal
 - Paper
 - Plants
 - Rock
@@ -3267,6 +3453,7 @@ Element Power Word -- chosen from the following list:
 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
+
 
 ##### Personal Power Words
 
@@ -3342,7 +3529,7 @@ Wall of Matter
 
 :   You can construct a defensive wall to protect yourself and
     your teammates. When a Crisis Move affects all of the heroes,
-    you can spend 1 Might to counter it instead of spending 
+    you can spend Might to counter it instead of spending 
     from the Teamwork Pool.
 
 :::::::::::::::::::::::::::::::::::::
@@ -3372,47 +3559,24 @@ Power Overwhelming
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
+Draw Power from the Surroundings
+
+:   When one of your Power Words matches one of the Scene Power
+    Words -- or has approximately the same meaning -- regain 1
+    Might at the start of the Hero Phase whenever you are below
+    half of your maximum Might.
+
 Psychic Manifestation
 
 :   Your powers also give you a measure of control over minds.
     Add one Word from the Psychic's Personal Power Word list
     as a Personal Power Word.
 
-TBD
-
-:   to be determined
-
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Shaper abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

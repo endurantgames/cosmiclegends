@@ -27,7 +27,6 @@ chargen/ideals
 chargen/identity
 chargen/storyline
 skills
-classes/
 classes/*
 powers/
 powers/display

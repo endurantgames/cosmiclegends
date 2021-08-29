@@ -3,15 +3,43 @@
 
 > I've been itching to try out these new modifications in the field!
 
-[]{.lorem}
+Other heroes may have been born with power, inherited power, or been
+changed by power -- but you *built* your own power with your own
+hand(s).
+
+Whether you have a set of standard equipment, wear a powered suit of armor,
+or create whatever you need on the fly, your creations and Skills are more
+important than your own powers -- if you even have any.
+
+## Playing an Inventor
+
+Many Inventors tend toward support roles, and your ability to
+add to the Teamwork Pool while advancing a goal reflects this.
+
+Don't be afraid to use your Engineer, Hacker, Scientist, or
+other skills in conjunction with your Power Words to represent
+making on-the-fly adjustments to whatever gear you carry.
 
 ## Questions
 
 As you create your Inventor hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- What kind of gear do you use? How do you carry that equipment around
+  with you? What do your inventions look like? Do you have a specialty
+  or common themes that you tend to invent?
+- What potential applications for your tech could improve the world if
+  everyone had access to it? How could your inventions be used to
+  make the world a worse place? What steps do you take to prevent that
+  from happening? Why don't the authorities fully trust those steps?
+  In what way can your inventions turn against you? What's your blind
+  spot when it comes to the implications of your own creations?
+- Why are you the only person who can use your inventions to their full
+  potential? What inspired you to create these inventions? How did you
+  come by your technical talents? Who helped you create these inventions,
+  and how do they feel about you using them?
+- How do you pay for your inventions? Are you publicly linked with your
+  source of funding? Do you hold patents on any of your inventions?
+  Does anyone *else* hold patents on your inventions?
 
 ## Skills
 
@@ -158,40 +186,18 @@ Absorption Field
     that block harm to you. Instead of losing Health, you can
     lose an equal amount of Might.
 
-TBD
+Overclocked Systems
 
-:   To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
-
-### Volume 4 Abilities
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To Be Determined
-
-TBD
-
-:   To Be Determined
+:   When you use a Power Display, Stunt, or Combo, choose one
+    of the Power Words you're using. Count all 6s in your roll
+    as 2 successes instead of 1. You then lose the use of that
+    Word after the Display, Stunt, or Combo and don't regain
+    it until the end of the current Crisis.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 4 and 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To Be Determined
-
-TBD
-
-:   To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Inventor abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -3,15 +3,43 @@
 
 > So here's how this is gonna go. I'm gonna punch ya, you're gonna get real hurt, then give up. Capeesh?
 
-[]{.lorem}
+A monster.
+
+That's what they say you are.
+
+Because of your strength, your size, your appearance.
+
+You're more than that -- you always have been -- but most people
+won't look beyond the obvious and see you as you truly are.
+
+Well, then. If they want a monster *that badly*, maybe you should
+be the monster they say you are?
+
+## Playing a Monstrosity
+
+Your hero is really, really good at breaking things. You're going
+to want to advance the Smash goal whenever you can, but keep in
+mind that you're more than *just* muscle. You have Skills, Abilities,
+and possibly other Power Words that you can use switch up your
+moves from Hero Phase to Hero Phase.
 
 ## Questions
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- How do you look different from normal humans? How much larger are
+  you than others? What kind of strange appearance do you have that
+  makes the ignorant assume you're a mere brute? What color is your
+  skin, and how does it feel? What does your voice sound like, and what
+  kind of vocabulary do you employ?
+- Are you *always* a monster? If not, what triggers that change? Is
+  it an emotional state, a substance, a situation, or your own
+  choice? Will people not like you when you're angry?
+- What kind of interests do you have that surprise other people? 
+  Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
+- Why *aren't* you the monster they say you are? What makes you a *hero*
+  and not a villain or mindless threat? What would push you over that
+  edge, and how have you avoided going over it so far?
 
 ## Skills
 
@@ -23,9 +51,8 @@ dice equal to the Volume.
 
 ## Class Ability: Engine of Destruction
 
-When you use your Core Power Words or Nova Power Words as
-the third Word in a Power Stunt or Power Combo, add 2 to
-a Smash roll's Effectiveness.
+When you use your Core or Nova Power Words in a Power Stunt
+or Combo to advance the Smash goal, add 2 to the Effectiveness.
 
 ## Power Words
 
@@ -168,25 +195,17 @@ Power Overwhelming
 :   Your capacity for destruction is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
-TBD
+Immortal
 
-:   to be determined
+:   You might be seriously wounded, but you never stay dead. 
+    If you're reduced to 0 Health or
+    0 Might, regain 1 point of each at the start of the
+    next Hero Phase.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Monstrosity abilities up to Volume 4.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

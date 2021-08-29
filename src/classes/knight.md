@@ -3,15 +3,50 @@
 
 > Hh.
 
-[]{.lorem}
+Most other heroes -- with the exception of some Inventors -- have
+superhuman powers and abilities. You're not like them. Your own
+training and talents are what made you what you are; you may have
+powers, you may have high-tech devices, but ultimately it comes
+down to your skill against someone else's.
+
+## Playing a Knight
+
+When you play your Knight hero, come up with ways to use your
+Power Words that reflect your normal abilities instead of any
+superpowers you possess. Other heroes -- such as the Dynamo or
+the Paragon -- focus on their powers, but you rely on your
+Skills, your specialized tools, and your Fighting Styles.
+
+You *can* combine your Fighting Styles with each other and with
+your Power Words, so look for synergies there -- nearly every
+Knight has a *Weapon* Power Word for that reason. If you pick
+*Weapon* (or *Vehicle*), name the general kind of weapon --
+Rifle, Boomerang, Sword, Shield, and so on.
+
+If you're going to play a more realistic hero, consider the
+*Weapons Locker* ability for access to weapon Power Words, and
+devote your own Personal Power Words to expanding the variety
+of effects you can produce.
 
 ## Questions
 
 As you create your Knight hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Why are you *so* driven? Which of your ideals were strong
+  enough to make you devote so much time toward developing
+  your talents? Did someone hurt you or you those you love, or
+  are you motivated by a patroitic or professional calling?
+- What kinds of gear do you use? How do you carry those -- a 
+  quiver, a belt, a backpack, or pouches all over your costume?
+  Are your weapons and devices completely mundane, are they
+  the result of unrealistic super-science, or are they supernatural
+  in origin? Did you create them, or did someone else?
+- Do you have any powers, and if so, how did you come by them?
+  In what ways can you combine those with your more mundane talents?
+- Who trained you, and why? Are you on good or bad terms with them?
+  Are they still in your life? Did you learn from one person, or
+  from multiple masters? Did your instructor(s) have other students,
+  and if so, how do you relate to each of them?
 
 ## Skills
 
@@ -62,9 +97,10 @@ Choose five Personal Power Words from the following list:
 - Line
 - Photographic
 - Remove
-- Restrain
+- Ricochet
 - Sense
 - Shield
+- Snare
 - Throw
 - Unerring
 - Vehicle (specific)
@@ -170,36 +206,8 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   to be determined
-
-TBD
-
-:   to be determined
-
-- one
-- two
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Knight abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

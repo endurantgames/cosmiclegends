@@ -3,19 +3,36 @@
 
 > Stand back, everyone. This one's gonna hurt.
 
-[]{.lorem}
+You're a living source of energy. Whether you generate it
+yourself or tap into another plane of existence, you can use
+that energy as a blast, an explosion, a punch, and more.
+
+## Playing a Dynamo
+
+This makes you especially good at blowing things up; in fights, you
+use up Might quickly, but regain it almost as quickly. Dynamo is one
+of the few classes that gets a third Core Power Word, so use that
+to increase your dice pools by spending Might freely.
 
 ## Questions
 
 As you create your Dynamo hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- What type of energy do you use? Do you produce it yourself, or does
+  it come from another source? How exactly did you gain your power
+  to use this energy?
+- What visual, audible, and olfactory signatures accompany your power?
+  Is there a color associated with this energy, like silver, purple, or
+  gold? Do you crackle with energy? An earth-shattering kaboom when your
+  power go off, a simple "ZOT" or something else? A burnt smell, or ozone,
+  or petrichor?
+- How does your hero feel about these powers? Do you revel in them,
+  happy to show off? Or are you more restrained, afraid to let loose
+  with your full strength? Have your powers ever harmed anyone else? 
 
 ## Skills
 
-You have any two skills of your choice.
+You have the Scientist skill, plus any two skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
@@ -23,7 +40,16 @@ dice equal to the Volume.
 ## Class Ability: Energy Reserve
 
 You're overflowing with energy. If you start the Hero Turn with less
-than two Might points, you regain 1 Might.
+than 2 Might points, you regain 1 Might.
+
+::::::::::::::::::: soapbox :::::::::::::::::::::::::::::
+## Other Energy Power Words
+
+If you've got an idea for another type of energy,
+go for it! You can run it past the Editor for ideas,
+but if you say your energy is "thunder", for example,
+then your power's thunder!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Power Words
 
@@ -65,19 +91,20 @@ Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
 - Absorb
 - Beam
+- Blast
 - Bubble
 - Dampen
 - Explosion
 - Flare
 - Flight
+- Glow
 - Punch
 - Push
+- Reflect
 - Sense
 - Shield
 - Solid
 - Space
-- TBD
-- TBD
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -109,6 +136,11 @@ At the start of Volume 1, choose an ability from this list.
 
 ::::::::::: ability-list ::::::::::::
 
+Destructive Energies
+
+:   Your energy is even more damaging than other sources of the same
+    type. Add 2 to the dice pool to advance the Smash goal.
+
 Eight Ball, Corner Pocket
 
 :   You're extremely good at bouncing your blasts off solid targets. 
@@ -122,15 +154,11 @@ Fight Fire With Fire
     You can spend points of Might instead of points from
     the Teamwork Pool to avoid energy-themed effects.
 
-Wide Burst
+Wide Angle
 
 :   You can spread your energy in a burst that hits
     many targets. When you advance the Smash goal by
     at least 1, advance another goal by 1.
-
-TBD
-
-:   to be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -142,13 +170,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Energy Shaping
 
 :   Add a Word from the Shaper class's Personal Power Word list
-    as a Personal Power Word.
+    as a Personal Power Word. You can take this ability more than once.
 
 Energy Versatility
 
 :   You've mastered another form of energy projection in addition
     to your primary energy type. Add a Word from the Energy
     Power Word list as a Personal Power Word.
+    You can take this ability more than once.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -157,45 +186,20 @@ Energy Versatility
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
+Power Conduit
+
+:   You're able to channel your energy to great effect. When you
+    initiate or join a Power Combo, add 2 to the dice pool.
+
 Power Overwhelming
 
 :   Your capacity for energy use is extraordinary, even for a hero.
     Increase your maximum Might to 15.
 
-TBD
-
-:   To be determined
-
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 and 5 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-::::::::::: ability-list ::::::::::::
-TBD
-
-:   To be determined
-
-TBD
-
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
+This playtest document only has Dynamo abilities up to Volume 3.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
