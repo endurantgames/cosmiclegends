@@ -30,7 +30,7 @@ The Mage        Historian, Mystic,          Sorcery,             6     The Price
                 plus any two                Supreme
 
 The Monarch     Explorer, Historian,        Unexpected,          6     For My Kingdom!
-                Politician, plus any        Reinforcements
+                Politician, plus any        Reserves       
                 two
 
 The Monstrosity Criminal, Explorer,         Strongest,           6     Engine of Destruction

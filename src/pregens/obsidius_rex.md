@@ -69,7 +69,7 @@
 :::::::::::::::::::::::::::::
 
 ::::::::::: pregen-core :::::::::::
-[Reinforcements]{.pregen-word}
+[Reserves]{.pregen-word}
 [Unexpected]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 

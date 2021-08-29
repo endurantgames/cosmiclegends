@@ -1348,7 +1348,7 @@ The Mage        Historian, Mystic,          Sorcery,             6     The Price
                 plus any two                Supreme
 
 The Monarch     Explorer, Historian,        Unexpected,          6     For My Kingdom!
-                Politician, plus any        Reinforcements
+                Politician, plus any        Reserves       
                 two
 
 The Monstrosity Criminal, Explorer,         Strongest,           6     Engine of Destruction
@@ -2365,15 +2365,35 @@ TBD
 
 > I shall forgive you but once for your disrespect.
 
-[]{.lorem}
+You are a leader in a city, nation, or people who exist outside of
+mainstream international society. 
+
+Your ways may seem unorthodox and even arrogant to those unfamiliar
+with your culture, but their ignorance can be excused ... mostly.
+
+Although you fight for justice and freedom for all, you feel a special
+obligation to protect your home -- even if you don't currently live
+there.
 
 #### Questions
 
 As you create your Monarch hero, answer any or all of these questions.
 
-- []{.lorem}
-- []{.lorem}
-- []{.lorem}
+- Where is your home located? How does its location serve to isolate it
+  from other cultures? Is it easy or hard to get there? Is your home open to
+  outsiders, or sealed off?
+- What kind of distinct cultural traditions from your home could be seen as
+  strange to outsiders? And conversely, what Western customs are either
+  baffling or unacceptable to you?
+- Which languages are spoken in your home? Do they know any languages of
+  outsiders? Is there a particular accent common to your people?
+- Are your powers common to everyone from your home, or are you unique?
+  Do your powers descend from your lineage? Do you have additional abilities
+  based on your rank as a leader?
+- What's your current status in your home? Do you live there? Are you the
+  reigning monarch, or an heir in line for the throne? If you're not the
+  monarch regnant, who is -- and how do you feel about each other? Have you
+  been exiled from your home, and if so -- for what reason?
 
 #### Skills
 
@@ -2406,7 +2426,7 @@ the next Hero Phase.
 
 ##### Core Power Words
 
-Your Core Power Words are **Unexpected** and **Reinforcements**.
+Your Core Power Words are **Unexpected** and **Reserves**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
@@ -2423,6 +2443,7 @@ Choose six Personal Power Words from the following list:
 - Forest
 - Hidden
 - Remote
+- Sense
 - Skies
 - Superior
 - Survivor
@@ -2474,8 +2495,8 @@ Exotic Weaponry
 Noblesse Oblige
 
 :   You feel an obligation to protect the ordinary people of the world. 
-    Add 2 to the dice pool to advance the Rescue goal. If the
-    bystanders are your subjects, also add the Volume to the dice pool.
+    Add 2 to the dice pool to advance the Rescue goal. 
+    If the bystanders are your subjects, also add the Volume to the dice pool.
 
 Remote Palace
 
@@ -2499,6 +2520,8 @@ Monarch's Benevolence
 
 :   Your favor is freely bestowed as a boon to those in need.
     Add 2 to the dice pool when you advance the Allay goal.
+    If the source of the Crisis is one of your subjects, 
+    also add the Volume to the dice pool.
 
 Unfamiliar Fighting Techniques
 
@@ -2514,28 +2537,40 @@ Unfamiliar Fighting Techniques
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Inspiring Leadership
 
-:   To be determined
+:   Others follow your directions based on your force of personality,
+    tactical acumen, or keen insight.
+    Whenever another hero adds to the Teamwork pool, your
+    leadership gives them a number of bonus dice equal to the Volume.
 
-TBD
+Soul of the Land
 
-:   To be determined
+:   Whenever you are in your home, you can draw upon your
+    connection to the land. Add *Land* and *Soul* as Personal
+    Power Words; when you use one of them in a Power Stunt or Power
+    Combo while in your home, it doesn't cost any Might. (Adding
+    both costs 1 Might.)
 
 :::::::::::::::::::::::::::::::::::::
+
 
 ##### Volume 4 Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Unkillable
 
-:   To be determined
+:   As long as your home is imperiled, you can't be killed. If you're
+    reduced to 0 Health or 0 Might while defending your home, regain 1
+    point of each at the start of the next Hero Phase.
 
-TBD
+Vengeance is Mine
 
-:   To be determined
+:   No slight goes unpunished. If someone has harmed you or your home,
+    add 1 to the Effectiveness whenever you advance the Smash goal against 
+    them.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2544,13 +2579,21 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 ::::::::::: ability-list ::::::::::::
-TBD
+Bestow Citizenship
 
-:   To be determined
+:   You can make someone an honorary member of your home -- which also
+    bestows a boon upon them, possibly even a supernatural one. 
+    Choose two of your Power Words. Until the 
+    end of the current Storyline, they gain those Words as Personal 
+    Power Words. You can only do this once per Storyline, although you
+    can reaffirm someone's status in a later Storyline, if you wish.
 
-TBD
+Force of the Land
 
-:   To be determined
+:   You can call upon the energy of your home -- mystical, inspirational,
+    or physical -- to end a threat. As a move, you can spend 1 Might to
+    fully Advance one goal of a Crisis that threatens your home. You can
+    do this only once for each Crisis.
 
 :::::::::::::::::::::::::::::::::::::
 
