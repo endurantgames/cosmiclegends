@@ -3,7 +3,7 @@
 Your hero specializes in one style of fighting, whether they attack 
 with their fists or their powers. Those styles are:
 
-::::::::: { .chargen-list } ::::::::::::::::::::::::::::
+::::::::: { .chargen-list .breakable } ::::::::::::::::::::::::::::
 - **Acrobat**        Reduce by 1 the cost to counter a Crisis move targeting only you.
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.

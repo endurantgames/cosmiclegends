@@ -22,11 +22,13 @@ not as a measure of their “intelligence” or, heaven forbid, “IQ”.
 Each hero's nature is defined by their scores in 5 different Approaches, 
 which represent their preferred methods to solve problems.
 
+::::::::::::::: {.chargen-list } ::::::::::::::
 - **Action** - a direct, straight-forward approach
 - **Adventure** - a reactive approach, adapting to changing situations
 - **Detective** - a logical approach, based on gathering information
 - **Mystery** - a subtle approach, incorporating hidden motives and actions
 - **Suspense** - an approach based on using the senses to become aware of the environment
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Each of your hero's Approaches starts with a score of 1, and you have 5 
 additional points to distribute to them.

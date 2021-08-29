@@ -7,11 +7,11 @@ by you when you create your hero; there's no set list.
 For example, one hero could have these five Ideals:
 
 :::::::: {.chargen-list .twocolumn } ::::::::::
-- Truth
-- Justice
-- Responsibility
-- Restraint
-- Hope
+- **Truth**
+- **Justice**
+- **Responsibility**
+- **Restraint**
+- **Hope**
 :::::::::::::::::::::::::::::::::::::::::::::::
 
 When you use all five of your hero's Ideals in a Storyline, 

@@ -540,9 +540,10 @@ blockquote {
 margin-top: 1em; }
 .skill-list dl dd { margin: 0; padding: 0; }
 .skill-list dl dd p { margin: 0.5em 0; }
-.skill-list dl dd ul { margin: 0; }
-.skill-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
-.skill-list dl dd ul li::marker { padding-right: 0.25em; }
+.skill-list dl dd ul { margin: 0; break-inside: auto; }
+.skill-list dl dd ul li { margin-left: 2em; text-indent: -1em; list-style-type: none; }
+
+.breakable ul { break-inside: auto; }
 
 .ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 
@@ -618,8 +619,10 @@ margin-top: 1em; }
 .soapbox dl dd p { margin: 0.5em 0; }
 
 
-.twocolumn.table { column-count: 2; column-gap: 1em; }
+.twocolumn.table { column-count: 2; column-gap: 1em; break-inside: avoid; }
 .twocolumn.table table { break-inside: auto; }
+.twocolumn.table table thead { border-bottom: 0.5pt solid var(--color-sheet-light); }
+.twocolumn.table table tr td { break-inside: auto; padding: 0; }
 
 .twocolumn ul { column-count: 2; column-gap: 1em; break-inside: avoid; 
  break-inside: auto; margin: 0; margin-left: 0.5em; }
@@ -653,6 +656,8 @@ margin-top: 1em; }
   color: black;
 }
 
+.classdata ul { break-inside: auto; }
+.classdata ul ul { break-inside: avoid-page; }
 .classdata ul li { line-height: 1.1; }
 
 .classdata blockquote {

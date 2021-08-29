@@ -43,11 +43,11 @@ your hero's Nova Power Words.
 
 Nova Power Words might look like this:
 
-:::::::: {.chargen-list} ::::::::::::::::::::
-- Soaring Dragon
-- Berserker Rage
-- Indomitable Spirit
-- Solar Flare
+:::::::: {.chargen-list .twocolumn} ::::::::::::::::::::
+- **Soaring Dragon**
+- **Berserker Rage**
+- **Indomitable Spirit**
+- **Solar Flare**
 :::::::::::::::::::::::::::::::::::::::::::::
 
 When you've checked off each of your hero's Ideals, you unlock
