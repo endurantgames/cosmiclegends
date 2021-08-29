@@ -34,6 +34,9 @@ PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT    = $(OUTDIR)/Cosmic-Legends.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
+ORIGIN_RECIPE = origin
+ORIGIN_SRC = $(BUILDDIR)/origin.md
+ORIGIN_OUT = $(OUTDIR)/Cosmic-Legends-Secret-Origins.pdf
 PREGEN_RECIPE = pregens
 PREGEN_SRC = $(BUILDDIR)/pregens.md
 PREGEN_OUT = $(OUTDIR)/Cosmic-Legends-pregens.pdf
@@ -49,6 +52,7 @@ LETTER_OUT = $(OUTDIR)/Cosmic-Legends-letter.pdf
 #   Edit: if you have more than one stylesheet
 PROJ_CSS        = --css=$(STYLEDIR)/style.css
 PREGEN_CSS      = --css=$(STYLEDIR)/pregens.css
+ORIGIN_CSS      = --css=$(STYLEDIR)/origin.css
 SHEET_CSS       = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
@@ -56,12 +60,13 @@ LETTER_CSS      = --css=$(STYLEDIR)/letter.css
 
 # Derived Flags
 #   Edit: probably unnecessary
-FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
-PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
-PREGEN_FLAGS  = $(FLAGS) $(PREGEN_CSS) $(PRINCEFLAGS_PREGEN)
-LETTER_FLAGS  = $(FLAGS) $(LETTER_CSS) $(PRINCEFLAGS_LETTER)
-SHEET_FLAGS  = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
-SHEET_ALT_FLAGS  = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
+FLAGS              = -t html5 --standalone --resource-path=$(IMGDIR) 
+PROJ_FLAGS         = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS)
+PREGEN_FLAGS       = $(FLAGS) $(PREGEN_CSS)      $(PRINCEFLAGS_PREGEN)
+ORIGIN_FLAGS       = $(FLAGS) $(ORIGIN_CSS)      $(PRINCEFLAGS_ORIGIN)
+LETTER_FLAGS       = $(FLAGS) $(LETTER_CSS)      $(PRINCEFLAGS_LETTER)
+SHEET_FLAGS        = $(FLAGS) $(SHEET_CSS)       $(PRINCEFLAGS_SHEET)
+SHEET_ALT_FLAGS    = $(FLAGS) $(SHEET_ALT_CSS)   $(PRINCEFLAGS_SHEET_ALT)
 SHEET_COLOR_FLAGS  = $(FLAGS) $(SHEET_COLOR_CSS) $(PRINCEFLAGS_SHEET_COLOR)
 
 # Application Configruation #############################################################################
@@ -81,8 +86,10 @@ PRINCEFLAGS_LETTER    =
 PRINCEFLAGS_SHEET    = 
 PRINCEFLAGS_SHEET_ALT    = 
 PRINCEFLAGS_SHEET_COLOR    = 
+PRINCEFLAGS_ORIGIN = 
 PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 # PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
+# PRINCEFLAGS_ORIGIN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
 # PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
 # PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
 # PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
@@ -158,7 +165,8 @@ blorng := $(shell tput setab 208)
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
 # default: pregen
-default: pdf
+default: origin
+# default: pdf
 # default: all
 # default: sheet
 
@@ -265,6 +273,10 @@ sheet-markdown:
 	@ echo '$(ltmagn)Collecting sheet markdown.$(resetc)'
 	@       $(MAKE_MD) $(SHEET_RECIPE)
 
+origin-markdown:
+	@ echo '$(ltmagn)Collecting secret origins markdown.$(resetc)'
+	@       $(MAKE_MD) $(ORIGIN_RECIPE)
+
 pregen-markdown:
 	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
 	@       $(MAKE_MD) $(PREGEN_RECIPE)
@@ -273,6 +285,12 @@ pregen: pregen-markdown
 	@ echo '$(ltblue)Making Pregens.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(PREGEN_FLAGS) -o $(PREGEN_OUT) $(PREGEN_SRC)
 	@       $(PDFINFO) $(PREGEN_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
+origin: origin-markdown
+	@ echo '$(ltblue)Making Secret Origins.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(ORIGIN_FLAGS) -o $(ORIGIN_OUT) $(ORIGIN_SRC)
+	@       $(PDFINFO) $(ORIGIN_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 sheet: sheet-markdown
@@ -296,7 +314,7 @@ color-sheet: sheet-markdown
 
 # make HTML
 #   Edit: if you are making more than one html
-html: markdown
+html: origin-markdown
 	@ echo '$(ltcyan)Making HTML.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(HTML_OUT) $(PROJ_SRC)
 	@ echo '$(ltcyan)HTML built.$(resetc)'

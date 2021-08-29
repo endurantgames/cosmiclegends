@@ -16,7 +16,7 @@ Class           Skills                      Core Power Words    PPWs   Class Abi
 The Divine      Explorer, Historian,        Blessed,             6     Give Me Strength!
                 Mystic, plus any two        Champion   
 
-The Dynamo      Any two                     Energy,              6     Energy Reserve
+The Dynamo      Science, plus any two       Energy,              6     Energy Reserve
                                             Overload, plus
                                             one more
 

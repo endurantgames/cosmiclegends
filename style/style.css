@@ -435,11 +435,14 @@ a.onpage { content: 'on page ' target-counter(attr(href), page); }
 
 #toc-glossary { column-span: all; }
 
-.glossary dl { margin: 0; margin-left: 1em; }
-.glossary dl dt { display: inline; text-indent: -1em; line-height: 1.5; }
-.glossary dl dt:before { content: '\a'; white-space: pre; }
-.glossary dl dd { margin: 0; padding: 0; display: inline; line-height: 1.1; }
-.glossary dl dd p { margin: 0.5em 0; }
+.glossary dl { margin: 0; line-height: 1.1; }
+.glossary dl dt { display: inline; }
+.glossary dl dd { 
+  margin: 0; 
+  padding: 0; 
+  display: inline; 
+  }
+.glossary dl dd:after { content: '\a\a'; white-space: pre; }
 
 .ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
 

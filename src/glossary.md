@@ -1,8 +1,6 @@
 # Glossary of Game Terms {#toc-glossary .breakbefore}
 
 ::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
-
-
 Ability
 :   Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 
