@@ -1,4 +1,4 @@
-::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::: {.soapbox .appoaches } :::::::::::::::::::::::::::::::::::::::
 # Approaches
 
 These Approaches -- named for key Golden Age or Silver Age comic titles --

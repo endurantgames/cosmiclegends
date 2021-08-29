@@ -4,16 +4,20 @@ Your hero has a list of words called Power Words that define their
 super-powers and how they use them. Power Words are used in three
 different ways:
 
+:::::::::::: {.chargen-list } :::::::::::::::::::::
 - A **Power Display**, which uses a single Power Word
 - A **Power Stunt**, using two (or more) Power Words
 - A **Power Combo**, with Power Words from two (or more) heroes
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 There are four types of Power Words:
 
+:::::::::: {.chargen-list } :::::::::::::::::::::::::
 - **Core Power Words**, unique to your class
 - **Personal Power Words**, picked from your class list
 - **Nova Power Words**, unique to your hero
 - **Scene Power Words**, based on the situation
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Core Power Words {#toc-power-words-core}
 
@@ -39,10 +43,12 @@ your hero's Nova Power Words.
 
 Nova Power Words might look like this:
 
+:::::::: {.chargen-list} ::::::::::::::::::::
 - Soaring Dragon
 - Berserker Rage
 - Indomitable Spirit
 - Solar Flare
+:::::::::::::::::::::::::::::::::::::::::::::
 
 When you've checked off each of your hero's Ideals, you unlock
 your **Nova Power Words** and can use them until the end of 

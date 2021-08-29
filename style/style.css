@@ -159,9 +159,15 @@ h3.class { font-size: var(--h2); font-family: var(--font-h2); margin-bottom: 0.5
 
 h4.class { font-size: var(--h3); font-family: var(--font-h3); margin-bottom: 0.5em; text-align: center; }
 
+ul { break-inside: avoid; break-before: avoid-page; }
 li           { break-inside: avoid; }
-ul, ol       { margin-left: 1em;    }
-ul li, ul ol { margin-left: 1em;    }
+ul           { margin-left: 1em;    }
+ul li        { margin-left: 1em;    }
+ol { margin-left: 2.0em; }
+ol ul { margin-left: 1em; }
+
+.chargen-list ul { margin: 0; }
+.chargen-list ul li { margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; margin-bottom: 2pt; }
 
 .sidebar p { margin-top: 4pt; margin-bottom: 0; line-height: 1.1; font-size: var(--smaller); }
 
@@ -612,7 +618,7 @@ margin-top: 1em; }
 .soapbox dl dd p { margin: 0.5em 0; }
 
 
-.twocolumn.table { column-count: 3; column-gap: 1em; }
+.twocolumn.table { column-count: 2; column-gap: 1em; }
 .twocolumn.table table { break-inside: auto; }
 
 .twocolumn ul { column-count: 2; column-gap: 1em; break-inside: avoid; 
