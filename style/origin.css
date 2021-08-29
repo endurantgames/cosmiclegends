@@ -7,7 +7,7 @@
 
 @prince-pdf { -prince-pdf-page-layout: one-column; }
 
-@page :first { background-size: auto 200%; }
+@page :first { background-size: auto 250%; }
 
 #cover h2 { font-size: 60pt; top: -24pt; }
 #cover img#img-title { top: 80pt; }
@@ -23,12 +23,12 @@
 section.soapbox, 
 .soapbox { column-span: none; column-count: 1; float-reference: column; }
 .classpic figure { display: none; }
-h3.class     { break-before: column; }
+h3.class.breakbefore     { break-before: auto; }
 
-.classtable { margin-top: 2in; break-after: page; }
+.classtable { margin-top: 1.50in; break-after: page; }
 
-.breakbefore { break-before: auto; margin-top: 9pt; }
-.colbefore { break-before: auto; }
+.breakbefore { break-before: auto; margin-top: 0.5em; }
+.colbefore { break-before: auto; margin-top: 0.5em; }
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: none; }
 #toc { column-span: none; column-count: 1; }
 blockquote { display: none; }

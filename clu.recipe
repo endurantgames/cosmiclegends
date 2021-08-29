@@ -19,11 +19,11 @@ dice
 issues
 chargen/
 chargen/class
-chargen/power_words
 chargen/skills_chargen
 chargen/approaches
 chargen/fighting_style
 chargen/ideals
+chargen/power_words
 chargen/identity
 chargen/storyline
 skills
@@ -40,7 +40,8 @@ crisis/hero_phase
 crisis/crisis_phase
 crisis/post
 advancement
-setting/*
+setting/
+setting/what
 editor/
 editor/storyline
 editor/crisis

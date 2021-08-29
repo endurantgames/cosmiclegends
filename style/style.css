@@ -127,8 +127,8 @@ h1                 { font-family: var(--font-h1); font-size: var(--h1); }
 h2                 { font-family: var(--font-h2); font-size: var(--h2); }
 h3                 { font-family: var(--font-h3); font-size: var(--h3); }
 h4                 { font-family: var(--font-h4); font-size: var(--h4); }
-h5                 { font-family: var(--font-h5); font-size: var(--h5); }
-h6                 { font-family: var(--font-h6); font-size: var(--h6); }
+h5                 { font-family: var(--font-h5); font-size: var(--h5); color: var(--color-sheet-dark); }
+h6                 { font-family: var(--font-h6); font-size: var(--h6); color: var(--color-sheet-dark); }
 body               { column-count: 2; column-width: auto; column-gap: 24pt; }
 h1                 { break-after: avoid-page; break-inside: avoid;          }
 h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
@@ -188,7 +188,8 @@ ol ul { margin-left: 1em; }
 .sidebar.next { float-defer-column: 1; }
 .sidebar :matches(h1, h2, h3, h4, h5, h6)    { font-weight: bold; font-family: var(--font-h4); font-size: var(--h4); }
 
-p, li { orphans: 3; line-height: 1.20; }
+p { orphans: 3; line-height: 1.20; }
+li { line-height: 1.15; }
 
 @page { @bottom-center {
   content:         '- ' counter(page) ' -';
@@ -235,10 +236,10 @@ figure figcaption {
 
 #toc a:before    { content: target-content(attr(href)) ' ';                        }
 #toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
-#toc ul          { margin-left: 0;                                                 }
-#toc ul li       { list-style-type: none; line-height: 1.1; font-family: var(--font); }
-#toc ul ul li    { margin-left: 8pt; font-weight: normal;                          }
-#toc ul ul ul li { font-size: var(--smaller);                                      }
+#toc ul          { margin-left: 0; break-inside: auto;                             }
+#toc ul li       { list-style-type: none; line-height: 1.1; font-family: var(--font); break-inside: auto; }
+#toc ul ul li    { margin-left: 8pt; font-weight: normal;                       break-inside: avoid;   }
+#toc ul ul ul li { font-size: var(--smaller);                            break-inside: avoid;          }
 #toc > ul > li   { margin-bottom: 4pt; font-size: var(--larger); font-family: var(--font-h2); }
 #toc a:link,
 #toc a:visited,
@@ -538,6 +539,7 @@ blockquote {
 #power-table table.power-key th:nth-child(3) { width: 25%; text-align: left;  }
 
 .skill-list dl dt { font-family: var(--font-h5); font-size: var(--h5); 
+  color: var(--color-sheet-dark);
 margin-top: 0.5em; }
 .skill-list dl dd { margin: 0; padding: 0; }
 .skill-list dl dd p { margin: 0.25em 0; }
@@ -546,7 +548,7 @@ margin-top: 0.5em; }
 
 .breakable ul { break-inside: auto; }
 
-.ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; }
+.ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; line-height: 1.1; }
 
 .ability-list dl dd { margin: 0; padding: 0; break-before: avoid; break-inside: avoid; }
 .ability-list dl dd p { margin: 0; margin-bottom: 0.5em; line-height: 1.2; }
@@ -557,17 +559,15 @@ margin-top: 0.5em; }
 .ability-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .ability-list dl dd ul li::marker { padding-right: 0.25em; }
 
-.ability-list dl dt { 
-}
 .ability-list dl dt {
   background-color: var(--bgcolor-sidebar);
-  border-bottom: none;
   border-radius: var(--border-radius) 0;
   border: 0.5pt solid var(--color-line); 
+  border-bottom: none;
   break-after: avoid; 
   break-inside: avoid; 
-  font-family: var(--font-h5); 
-  font-size: var(--h5);  
+  font-family: var(--font-h6); 
+  font-size: var(--h6);  
   font-weight: normal;
   margin-bottom: 0;
   margin-top: 0.5em; 
@@ -609,12 +609,12 @@ margin-top: 0.5em; }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { 
 margin-bottom: 0.25em; column-span: all; 
-  font-family: var(--font-h4);
+  font-family: var(--font-h3);
   font-size: var(--h4);
 }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--font-h5);
+  font-family: var(--font-h4);
   font-size: var(--h5);
   margin-top: 0;
 }
@@ -652,7 +652,7 @@ margin-top: 1em; }
 .classtable {
   width: 100%;
   column-span: all;
-  margin-bottom: 1em;
+  margin-top: 2.5in;
 }
 
 .classtable thead { border-bottom: var(--color-line); }
@@ -667,7 +667,7 @@ margin-top: 1em; }
 .classdata ul li { line-height: 1.1; }
 
 .classdata .questions ul { margin: 0; }
-.classdata .questions ul li { margin: 0; margin-left: 1em; text-indent: -1em; list-style-type: none; font-weight: normal; }
+.classdata .questions ul li { margin: 0; margin-left: 1.5em; text-indent: -1em; list-style-type: none; font-weight: normal; }
 .classdata .questions > ul > li { font-weight: bold; }
 .classdata .questions ul li ul li { line-height: 1.1; }
 

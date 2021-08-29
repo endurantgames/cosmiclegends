@@ -138,22 +138,22 @@
       <tr>  
         <th class="yes"></th>
         <td>**Yes;** can be used in rolls</td>
-        <td>+1 Success</td>
+        <td>+1 Die</td>
       </tr>
       <tr>  
         <th class="yes gray"></th>
         <td>**Yes; But** adds no Dice</td>
-        <td>+0 Successes</td>
+        <td>+0 Dice</td>
       </tr>
       <tr>  
         <th class="lock"></th>
         <td>**Yes; If** your Nova Power is unlocked</td>
-        <td>+1 Success</td>
+        <td>+1 Die</td>
       </tr>
       <tr>  
         <th class="lock gray"></th>
         <td>**Yes; If** unlocked, **But** adds no Dice</td>
-        <td>+0 Successes</td>
+        <td>+0 Dice</td>
       </tr>
       <tr>  
         <th class="no"></th>

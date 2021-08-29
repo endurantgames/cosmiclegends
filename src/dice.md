@@ -1,4 +1,4 @@
-# Using the Dice {#toc-dice .breakbefore}
+# Using the Dice {#toc-dice .colbefore}
 
 The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
 When a player wants to take an uncertain action, they build a dice pool.

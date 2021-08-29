@@ -86,10 +86,10 @@ PRINCEFLAGS_LETTER    =
 PRINCEFLAGS_SHEET    = 
 PRINCEFLAGS_SHEET_ALT    = 
 PRINCEFLAGS_SHEET_COLOR    = 
-PRINCEFLAGS_ORIGIN = 
+# PRINCEFLAGS_ORIGIN = 
 PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 # PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
-# PRINCEFLAGS_ORIGIN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
+PRINCEFLAGS_ORIGIN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
 # PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
 # PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
 # PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
@@ -165,8 +165,8 @@ blorng := $(shell tput setab 208)
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
 # default: pregen
-default: origin
-# default: pdf
+# default: origin
+default: pdf
 # default: all
 # default: sheet
 
@@ -334,3 +334,7 @@ vi:     edit
 vim:    edit
 sheet-alt: alt-sheet
 pregens: pregen
+origins: origin
+secret: origin
+secret-origins: origin
+secret-origin: origin

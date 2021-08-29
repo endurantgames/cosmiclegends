@@ -1,4 +1,4 @@
-# Ideals {#toc-ideals .colbefore}
+# Ideals {#toc-ideals}
 
 Your hero has five Ideals that drive them to feats of 
 heroic courage. These are single words that can be freely chosen

@@ -1,4 +1,5 @@
-# Post-Crisis {#toc-crisis-post .colbefore}
+# Post-Crisis {#toc-crisis-post }
 
 []{.lorem}
 
+[]{.lorem}

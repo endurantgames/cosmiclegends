@@ -1,4 +1,11 @@
-# Creating a Crisis {#toc-editor-crisis .colbefore} 
+# Creating a Crisis {#toc-editor-crisis }
 
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
 []{.lorem}
 

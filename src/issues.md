@@ -1,4 +1,4 @@
-# From Issues to Volumes {#toc-issues .breakbefore}
+# From Issues to Volumes {#toc-issues .colbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.

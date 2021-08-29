@@ -1,4 +1,4 @@
-# Overview of Play {#toc-overview .breakbefore}
+# Overview of Play {#toc-overview .colbefore }
 
 1. []{.gamename} is played as a series of **Storylines**, each
    taking up one or more game sessions, or **Issues**.

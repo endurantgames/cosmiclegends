@@ -1,4 +1,4 @@
-# Crisis Phase {#toc-crisis-crisis .colbefore}
+# Crisis Phase {#toc-crisis-crisis }
 
 Once every hero has taken a move, then it’s time for the Editor
 to take their turn.

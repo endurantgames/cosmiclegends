@@ -21,16 +21,16 @@ credits/
 credits/license_origin
 credits/harmony_drive
 # credits/jam
-credits/art
+# credits/art
 # credits/no_fascists
 # credits/safety
 chargen/
 # chargen/class
-chargen/power_words
 # chargen/skills_chargen
 chargen/approaches
 chargen/fighting_style
 chargen/ideals
+chargen/power_words
 chargen/identity
 chargen/storyline
 skills

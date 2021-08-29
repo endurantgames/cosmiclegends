@@ -63,7 +63,7 @@ To play []{.gamename} you'll need:
 
 - One player, playing as the Editor
 - Two to six other players
-- A copy of these game rules
+- A copy of the game rules
 - At least a half-dozen six-sided dice
 - One hero sheet per player
 - Pencils
@@ -287,6 +287,14 @@ The Modern Age - ca. 1985 to present
 
 ### The Bronze Age
 
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
 []{.lorem}
 
 
@@ -525,7 +533,7 @@ you can take a break and/or discuss the content as needed. After the
 **Continued**, you can use **Meanwhile**, **Retcon**, or **Later**.
 
 
-### After the Game {.colbefore}
+### After the Game 
 
 When you finish an Issue of []{.gamename}, it's important to look
 back at the things you enjoyed the most and the things you didn't 
@@ -558,7 +566,7 @@ in future sessions. This could include particular interactions
 between heroes, potential story moments and development, or 
 anything else that could make the game even better in the future.
 
-## Overview of Play {#toc-overview .breakbefore}
+## Overview of Play {#toc-overview .colbefore }
 
 1. []{.gamename} is played as a series of **Storylines**, each
    taking up one or more game sessions, or **Issues**.
@@ -577,7 +585,7 @@ anything else that could make the game even better in the future.
    with an **Annual**.
 
 
-## Using the Dice {#toc-dice .breakbefore}
+## Using the Dice {#toc-dice .colbefore}
 
 The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
 When a player wants to take an uncertain action, they build a dice pool.
@@ -614,7 +622,7 @@ narrative, like upsetting an NPC or missing an important clue.
 The important part is that the player is presented with a difficult choice.
 
 
-## From Issues to Volumes {#toc-issues .breakbefore}
+## From Issues to Volumes {#toc-issues .colbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.
@@ -721,19 +729,20 @@ heroes keep their normal Volume numbers without adjustment.
 
 To create your hero, you just follow these steps:
 
-1. Pick a Class
-   - Pick six Personal Power Words from your Class
-   - Pick your Skills, based on your Class
-   - Pick a Volume 1 ability from your Class
-   - Choose 2 words as your Nova Power
-2. Assign 1 point to each Approach, then distribute more 5 points as you wish
-3. Pick a Fighting Style
-4. Choose 5 words as Ideals
-5. Describe a Storyline you'd like to play out with your hero
-6. Decide your hero's Appearance and Backstory
-   - Choose a Hero Name, Pronouns, and a Real Name; and decide whether the latter is a Secret Identity
-   - Describe your Costume, Symbol, and General Appearance
+:::::::::::::::: {.chargen-list } :::::::::::::::::
+1. Pick a **Class**
+   - Gain 2 **Core Power Words** 
+   - Pick six **Personal Power Words** from your Class list
+   - Choose 2 words as your **Nova Power Words**
+   - Pick your **Skills**, based on your Class
+   - Pick a **Volume** 1 ability from your Class
+2. Assign 1 point to each **Approach**, then distribute more 5 points as you wish
+3. Pick a **Fighting Style**
+4. Choose 5 words as **Ideals**
+5. Describe a **Storyline** you'd like to play out with your hero
+6. Choose your hero's **Name**, **Pronouns**, and **Looks**
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Hero Class
 
@@ -750,66 +759,6 @@ Each class gives the following:
 - One class ability per Volume
 
 
-### Power Words {#toc-powers .colbefore }
-
-Your hero has a list of words called Power Words that define their
-super-powers and how they use them. Power Words are used in three
-different ways:
-
-- A **Power Display**, which uses a single Power Word
-- A **Power Stunt**, using two (or more) Power Words
-- A **Power Combo**, with Power Words from two (or more) heroes
-
-There are four types of Power Words:
-
-- **Core Power Words**, unique to your class
-- **Personal Power Words**, picked from your class list
-- **Nova Power Words**, unique to your hero
-- **Scene Power Words**, based on the situation
-
-#### Core Power Words {#toc-power-words-core}
-
-When you create your hero, you have two **Core Power Words** 
-common to all members of your class. 
-You don't have to choose them; you get them automatically.
-
-#### Personal Power Words {#toc-power-words-personal}
-
-In addition to Core Power Words, your hero also has 6 Personal Power Words. 
-When you create your hero, choose these 6 from 
-your class's list of 15 Personal Power Words. 
-(If your class is Paragon, pick an extra one
-from your class, and another from any class's list.)
-
-#### Nova Power Words {#toc-power-words-nova}
-
-Your **Nova Power Powers** can be anything; you're encouraged to use your 
-Nova Power Words to give your hero a unique ability.  
-
-Like Ideals, you can choose any two words you like for
-your hero's Nova Power Words.
-
-Nova Power Words might look like this:
-
-- Soaring Dragon
-- Berserker Rage
-- Indomitable Spirit
-- Solar Flare
-
-When you've checked off each of your hero's Ideals, you unlock
-your **Nova Power Words** and can use them until the end of 
-the current Storyline.
-
-#### Scene Power Words {#toc-power-words-scene}
-
-Each scene where a Crisis takes places has up to 6 Power Words
-that describe the environment around your heroes. 
-These are known as **Scene Power Words.**
-
-The Editor comes up with Scene Power Words when describing a location, 
-and if you think creatively, you can use them in your Power Stunts and Combos.
-
-
 ### Skills {#toc-skills-chargen}
 
 Skills define what your hero does does outside of their life as
@@ -820,7 +769,7 @@ When you create your hero, your class may give you several Skills
 for free; in addition, you have at least 2 free picks.
 
 
-::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::: {.soapbox .approaches } :::::::::::::::::::::::::::::::::::::::
 ### Approaches
 
 These Approaches -- named for key Golden Age or Silver Age comic titles --
@@ -844,11 +793,13 @@ not as a measure of their “intelligence” or, heaven forbid, “IQ”.
 Each hero's nature is defined by their scores in 5 different Approaches, 
 which represent their preferred methods to solve problems.
 
+::::::::::::::: {.chargen-list } ::::::::::::::
 - **Action** - a direct, straight-forward approach
 - **Adventure** - a reactive approach, adapting to changing situations
 - **Detective** - a logical approach, based on gathering information
 - **Mystery** - a subtle approach, incorporating hidden motives and actions
 - **Suspense** - an approach based on using the senses to become aware of the environment
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Each of your hero's Approaches starts with a score of 1, and you have 5 
 additional points to distribute to them.
@@ -858,6 +809,7 @@ additional points to distribute to them.
 Your hero specializes in one style of fighting, whether they attack 
 with their fists or their powers. Those styles are:
 
+::::::::: { .chargen-list .breakable } ::::::::::::::::::::::::::::
 - **Acrobat**        Reduce by 1 the cost to counter a Crisis move targeting only you.
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
@@ -869,11 +821,12 @@ with their fists or their powers. Those styles are:
 - **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you add to the Teamwork Pool.
 - **Weapon Master**  Add 2 dice when you use a melee Weapon to advance the Outwit goal.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 If you choose the Knight class, you get to pick an additional fighting style. 
 
 
-### Ideals {#toc-ideals .colbefore}
+### Ideals {#toc-ideals}
 
 Your hero has five Ideals that drive them to feats of 
 heroic courage. These are single words that can be freely chosen
@@ -881,13 +834,13 @@ by you when you create your hero; there's no set list.
 
 For example, one hero could have these five Ideals:
 
-:::::::: twocolumn :::::::
-- Truth
-- Justice
-- Responsibility
-- Restraint
-- Hope
-::::::::::::::::::::::::::
+:::::::: {.chargen-list .twocolumn } ::::::::::
+- **Truth**
+- **Justice**
+- **Responsibility**
+- **Restraint**
+- **Hope**
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 When you use all five of your hero's Ideals in a Storyline, 
 your hero's Might is refreshed to its starting value, and you
@@ -903,7 +856,7 @@ If you're stuck for ideas, you can roll roll two dice and
 check the following table -- or just pick up to five from 
 the list that sound good.
 
-::::::: twocolumn :::::::::::::::
+:::::: { .twocolumn .table } :::::
  Rolls  Ideal
 ------- ---------------
  1, 1   Honor
@@ -943,6 +896,72 @@ the list that sound good.
  6, 5   Honesty
  6, 6   Friends
 ::::::::::::::::::::::::::::
+
+### Power Words {#toc-powers }
+
+Your hero has a list of words called Power Words that define their
+super-powers and how they use them. Power Words are used in three
+different ways:
+
+:::::::::::: {.chargen-list } :::::::::::::::::::::
+- A **Power Display**, which uses a single Power Word
+- A **Power Stunt**, using two (or more) Power Words
+- A **Power Combo**, with Power Words from two (or more) heroes
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+There are four types of Power Words:
+
+:::::::::: {.chargen-list } :::::::::::::::::::::::::
+- **Core Power Words**, unique to your class
+- **Personal Power Words**, picked from your class list
+- **Nova Power Words**, unique to your hero
+- **Scene Power Words**, based on the situation
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Core Power Words {#toc-power-words-core}
+
+When you create your hero, you have two **Core Power Words** 
+common to all members of your class. 
+You don't have to choose them; you get them automatically.
+
+#### Personal Power Words {#toc-power-words-personal}
+
+In addition to Core Power Words, your hero also has 6 Personal Power Words. 
+When you create your hero, choose these 6 from 
+your class's list of 15 Personal Power Words. 
+(If your class is Paragon, pick an extra one
+from your class, and another from any class's list.)
+
+#### Nova Power Words {#toc-power-words-nova}
+
+Your **Nova Power Powers** can be anything; you're encouraged to use your 
+Nova Power Words to give your hero a unique ability.  
+
+Like Ideals, you can choose any two words you like for
+your hero's Nova Power Words.
+
+Nova Power Words might look like this:
+
+:::::::: {.chargen-list .twocolumn} ::::::::::::::::::::
+- **Soaring Dragon**
+- **Berserker Rage**
+- **Indomitable Spirit**
+- **Solar Flare**
+:::::::::::::::::::::::::::::::::::::::::::::
+
+When you've checked off each of your hero's Ideals, you unlock
+your **Nova Power Words** and can use them until the end of 
+the current Storyline.
+
+#### Scene Power Words {#toc-power-words-scene}
+
+Each scene where a Crisis takes places has up to 6 Power Words
+that describe the environment around your heroes. 
+These are known as **Scene Power Words.**
+
+The Editor comes up with Scene Power Words when describing a location, 
+and if you think creatively, you can use them in your Power Stunts and Combos.
+
 
 ### Your Hero's Identity {#toc-chargen-identity }
 
@@ -1025,12 +1044,13 @@ up with a better idea during another her's Spotlight.
 
 These are examples of the types of Opportunities you can create.
 
-1. *Example* []{.lorem}
-2. *Example* []{.lorem}
-3. *Example* []{.lorem}
-4. *Example* []{.lorem}
-5. *Example* []{.lorem}
-
+1. Brigantia needs to learn that not everything can be solved by punching something.
+2. I want Percival to cross swords with another Arthurian knight.
+3. Kelly wants to confront poachers who harm sea animals.
+4. I want Jack to get asked out by some villain dude.
+5. The Sentinel of Saturn needs to let humans make their own mistakes.
+6. I want Rockstar to be invited to join a new band.
+7. Lin wants to fight one of their mother's supervillains.
 
 ## Skills {#toc-skills .breakbefore}
 
@@ -1038,9 +1058,9 @@ Outside of a fight, your hero has one or more Skills from their
 civilian life -- from their secret identity, their profession 
 before their secret origin, or their advanced heroic training. 
 
+::::::::::::: {.twocolumn .skill-column-list} ::::::::::::::::::
 The Skills are:
 
-::::::::::::: twocolumn ::::::::::::::::::
 - Academic
 - Artist
 - Criminal
@@ -1388,28 +1408,33 @@ bonus applies to the dice they provide, too.
 
 As you create your Divine hero, answer any or all of these questions.
 
-- Are you a deity yourself? A demigod? The champion of one or more
-  deities? Or even someone who figuratively or literally stole power
-  from the gods?
-- What god, gods or pantheon are you associated with? Do you gain 
-  power from your association with a single deity, or do multiple
-  gods grant you power? Are your powers bestowed by the gods, or are
-  they a result of your own divine essence?
-- How do you relate to the god(s) who empower you? Are you on good
-  terms with them, are they distant and silent, or have they sent you 
-  to a mortal existence for your own good? 
-- Are there other gods or other people empowered by the gods, and 
-  if so, do you get along with them? Are there any mythological
-  monsters or enemies that your choice of a divine power source 
-  implies?
+::::::::::::::::: questions :::::::::::::::::::::::::
+- Are you a deity yourself? 
+  - A demigod? 
+  - The champion of one or more deities? 
+  - Or even someone who figuratively or literally stole power from the gods?
+- What god, gods or pantheon are you associated with? 
+  - Do you gain power from your association with a single deity, 
+    or do multiple gods grant you power? 
+  - Are your powers bestowed by the gods, or are
+    they a result of your own divine essence?
+- How do you relate to the god(s) who empower you? 
+  - Are you on good terms with them, are they distant and silent, 
+    or have they sent you to a mortal existence for your own good? 
+  - Are there other gods or other people empowered by the gods, and 
+    if so, do you get along with them? 
+- Are there any mythological monsters or enemies that your choice 
+  of a divine power source implies?
 - Do you have a single form and identity, or do you change through
   supernatural means between your Divine form and a "mortal" one?
-  If so, what triggers such a change -- a spoken word, a transformation
-  sequence, or just calling upon your Divine powers?
+  - If so, what triggers such a change -- a spoken word, a transformation
+    sequence, or just calling upon your Divine powers?
 - If you're not a mortal yourself, what *do* you think of the
-  mortal world? Does it mystify you, or are you thoroughly immersed
-  in modern culture? What are your views on religion -- both your
-  hero's own religion and those that could be seen as rival faiths?
+  mortal world? 
+  - Does it mystify you, or are you thoroughly immersed in modern culture? 
+  - What are your views on religion -- both your
+    hero's own religion and those that could be seen as rival faiths?
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -1449,10 +1474,10 @@ them.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -1609,17 +1634,21 @@ to increase your dice pools by spending Might freely.
 
 As you create your Dynamo hero, answer any or all of these questions.
 
-- What type of energy do you use? Do you produce it yourself, or does
-  it come from another source? How exactly did you gain your power
-  to use this energy?
+::::::::::::::: questions :::::::::::::::::::::
+- What type of energy do you use? 
+  - Do you produce it yourself, or does it come from another source? 
+  - How exactly did you gain your power to use this energy?
 - What visual, audible, and olfactory signatures accompany your power?
-  Is there a color associated with this energy, like silver, purple, or
-  gold? Do you crackle with energy? An earth-shattering kaboom when your
-  power go off, a simple "ZOT" or something else? A burnt smell, or ozone,
-  or petrichor?
-- How does your hero feel about these powers? Do you revel in them,
-  happy to show off? Or are you more restrained, afraid to let loose
-  with your full strength? Have your powers ever harmed anyone else? 
+  - Is there a color associated with this energy, like silver, purple, or
+    gold? Do you crackle with energy? 
+  - An earth-shattering kaboom when your
+    power goes off, a simple "ZOT" or something else? 
+  - A burnt smell, or ozone, or petrichor?
+- How does your hero feel about these powers? 
+  - Do you revel in them, happy to show off? 
+  - Or are you more restrained, afraid to let loose with your full strength? 
+  - Have your powers ever harmed anyone else? 
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -1646,10 +1675,10 @@ then your power's thunder!
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -1821,22 +1850,30 @@ making on-the-fly adjustments to whatever gear you carry.
 
 As you create your Inventor hero, answer any or all of these questions.
 
-- What kind of gear do you use? How do you carry that equipment around
-  with you? What do your inventions look like? Do you have a specialty
-  or common themes that you tend to invent?
+:::::::::: questions ::::::::::::::::::::::::
+- What kind of gear do you use? 
+  - How do you carry that equipment around with you? 
+  - What do your inventions look like? 
+  - Do you have a specialty or common themes that you tend to invent?
 - What potential applications for your tech could improve the world if
-  everyone had access to it? How could your inventions be used to
-  make the world a worse place? What steps do you take to prevent that
-  from happening? Why don't the authorities fully trust those steps?
-  In what way can your inventions turn against you? What's your blind
-  spot when it comes to the implications of your own creations?
-- Why are you the only person who can use your inventions to their full
-  potential? What inspired you to create these inventions? How did you
-  come by your technical talents? Who helped you create these inventions,
-  and how do they feel about you using them?
-- How do you pay for your inventions? Are you publicly linked with your
-  source of funding? Do you hold patents on any of your inventions?
-  Does anyone *else* hold patents on your inventions?
+  everyone had access to it? 
+  - How could your inventions be used to make the world a worse place? 
+  - What steps do you take to prevent that from happening? 
+  - Why don't the authorities fully trust those steps?
+  - In what way could your inventions be turned against you? 
+  - What's your blind spot when it comes to the implications of 
+    your own creations?
+- How did you come by your technical talents? 
+- What inspired you to create these inventions? 
+  - Why are you the only person who can use your inventions to their full
+    potential? 
+  - Who helped you create these inventions,
+    and how do they feel about you using them?
+- How do you pay for your inventions? 
+  - Are you publicly linked with your source of funding? 
+  - Do you hold patents on any of your inventions?
+  - Does anyone *else* hold patents on your inventions?
+:::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -1856,10 +1893,10 @@ Pool instead.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -2033,21 +2070,28 @@ of effects you can produce.
 
 As you create your Knight hero, answer any or all of these questions.
 
-- Why are you *so* driven? Which of your ideals were strong
-  enough to make you devote so much time toward developing
-  your talents? Did someone hurt you or you those you love, or
-  are you motivated by a patroitic or professional calling?
-- What kinds of gear do you use? How do you carry those -- a 
-  quiver, a belt, a backpack, or pouches all over your costume?
-  Are your weapons and devices completely mundane, are they
-  the result of unrealistic super-science, or are they supernatural
-  in origin? Did you create them, or did someone else?
+::::::::::: questions :::::::::::::::::::::::::
+- Why are you *so* driven? 
+  - Which of your ideals were strong enough to make you 
+    devote so much time toward developing your talents? 
+  - Did someone hurt you or you those you love, or
+    are you motivated by a patroitic or professional calling?
+- What kinds of gear do you use? 
+  - How do you carry those -- a quiver, a belt, a backpack, or 
+    pouches all over your costume?
+  - Are your weapons and devices completely mundane, are they
+    the result of unrealistic super-science, or are they supernatural
+    in origin? 
+  - Did you create them, or did someone else?
 - Do you have any powers, and if so, how did you come by them?
-  In what ways can you combine those with your more mundane talents?
-- Who trained you, and why? Are you on good or bad terms with them?
-  Are they still in your life? Did you learn from one person, or
-  from multiple masters? Did your instructor(s) have other students,
-  and if so, how do you relate to each of them?
+  - In what ways can you combine those with your more mundane talents?
+- Who trained you, and why? 
+  - Are you on good or bad terms with them?
+  - Are they still in your life? 
+  - Did you learn from one person, or from multiple masters? 
+  - Did your instructor(s) have other students,
+    and if so, how do you relate to each of them?
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -2071,10 +2115,10 @@ Choose one additional Fighting Style.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -2240,23 +2284,30 @@ a price to pay for it.
 
 As you create your Mage hero, answer any or all of these questions.
 
+:::::::::: questions :::::::::::::::::::
 - All magic has a price -- so what was the *first* price you had to pay?
-  What quality, talent, item, or relationship did you give up in order
-  to gain magical power? Was it worth it?
-- How do you cast your magical spells? Do you use an incantation, or
-  merely gesture with your hand while envisioning the effect you'd
-  like to produce?
-- What does your magic look like? Is there a color associated with it?
-  Are there common sounds, sights, or smells when you cast a spell?
-  Are there types of magic you can't evoke?
-- What master wizard instructed you? What price did *they* demand? 
-  Did they have other students? Can you still ask your master for 
-  advice?
+  - What quality, talent, item, or relationship did you give up in order
+    to gain magical power? 
+  - Was it worth it?
+- How do you cast your magical spells? 
+  - Do you use an incantation, or
+    merely gesture with your hand while envisioning the effect you'd
+    like to produce?
+- What does your magic look like? 
+  - Is there a color associated with it?
+  - Are there common sounds, sights, or smells when you cast a spell?
+- Are there types of magic you can't evoke?
+- What master wizard instructed you? 
+  - What price did *they* demand? 
+  - Did they have other students? 
+  - Can you still ask your master for advice?
 - How do you view the world in a way that's different from heroes and
-  others who aren't immersed in a magical mindset? What strange quirks
-  do you have? What rituals do you follow that others couldn't possibly
-  understand?
+  others who aren't immersed in a magical mindset? 
+  - What strange quirks do you have? 
+  - What rituals do you follow that others couldn't possibly
+    understand?
 - What happens if your power gets out of your control?
+::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -2276,10 +2327,10 @@ to 1s.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -2442,21 +2493,27 @@ to Crisis about ideas to tie your home to the current situation.
 
 As you create your Monarch hero, answer any or all of these questions.
 
-- Where is your home located? How does its location serve to isolate it
-  from other cultures? Is it easy or hard to get there? Is your home open to
-  outsiders, or sealed off?
+:::::::::: questions ::::::::::::::::::::::
+- Where is your home located? 
+  - How does its location serve to isolate it from other cultures? 
+  - Is your home open to outsiders, or sealed off?
 - What kind of distinct cultural traditions from your home could be seen as
-  strange to outsiders? And conversely, what Western customs are either
-  baffling or unacceptable to you?
-- Which languages are spoken in your home? Do they know any languages of
-  outsiders? Is there a particular accent common to your people?
+  strange to outsiders? 
+  - And conversely, what Western customs are either
+    baffling or unacceptable to you?
+- Which languages are spoken in your home? 
+  - Do the people of your home know any languages of outsiders? 
+  - Is there a particular accent common to your people?
 - Are your powers common to everyone from your home, or are you unique?
-  Do your powers descend from your lineage? Do you have additional abilities
-  based on your rank as a leader?
-- What's your current status in your home? Do you live there? Are you the
-  reigning monarch, or an heir in line for the throne? If you're not the
-  monarch regnant, who is -- and how do you feel about each other? Have you
-  been exiled from your home, and if so -- for what reason?
+  - Do your powers descend from your lineage? 
+  - Do you have additional abilities based on your rank as a leader?
+- What's your current status in your home? 
+  - Do you live there? 
+  - Are you the reigning monarch, or an heir in line for the throne? 
+  - If you're not the monarch regnant, who is, and how do you feel 
+    about each other? 
+  - Have you been exiled from your home, and if so -- for what reason?
+:::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
 #### Cultural Sensitivity
@@ -2497,10 +2554,10 @@ Pool when you add to it during the Crisis.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -2708,19 +2765,26 @@ moves from Hero Phase to Hero Phase.
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
-- How do you look different from normal humans? How much larger are
-  you than others? What kind of strange appearance do you have that
-  makes the ignorant assume you're a mere brute? What color is your
-  skin, and how does it feel? What does your voice sound like, and what
-  kind of vocabulary do you employ?
-- Are you *always* a monster? If not, what triggers that change? Is
-  it an emotional state, a substance, a situation, or your own
-  choice? Will people not like you when you're angry?
+:::::::::: questions :::::::::::::::::::
+- How do you look different from normal humans? 
+  - How much larger are you than other people? 
+  - What color is your skin, and what does it feel like? 
+  - What kind of strange appearance do you have that
+    makes the ignorant assume you're a mere brute? 
+  - What does your voice sound like, and what kind of vocabulary do you employ?
+- Are you *always* a monster? 
+  - If not, what triggers that change? 
+  - Is it an emotional state, a substance, a situation, or your own
+    choice? 
+  - Will people not like you when you're angry?
+  - *Were* you always a monster?
 - What kind of interests do you have that surprise other people? 
-  Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-- Why *aren't* you the monster they say you are? What makes you a *hero*
-  and not a villain or mindless threat? What would push you over that
-  edge, and how have you avoided going over it so far?
+  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
+- Why *aren't* you the monster they say you are? 
+  - What makes you a *hero* and not a villain or mindless threat? 
+  - What would push you over that edge, and how have you avoided going 
+    over it so far?
+::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -2739,10 +2803,10 @@ or Combo to advance the Smash goal, add 2 to the Effectiveness.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -2930,20 +2994,28 @@ you say they mean!
 
 As you create your Paragon hero, answer any or all of these questions.
 
-- Do you wear a mask, or can everyone see your face? Do you have
-  a cape? If not, why not? Why do normal people love you instead 
-  of fearing your power?  Why do *you* love humanity so much?
-- Who taught you that you have a responsibility to others? What
-  normal humans keep you grounded when you can fly so much higher
-  than mere mortals? Do you ever adopt a disguise to pass as a
-  normal human?  How do you deal with so much weight on your 
-  shoulders? Who else do you rely on for assistance?
-- Are there other people like you? Do you have an arch-enemy who
-  uses your best qualities to harm others instead of helping them?
+:::::::: questions ::::::::::::::::::::::
+- Why do normal people love you instead of fearing your power?  
+  - Why do *you* love humanity so much?
+  - Do you wear a mask, or can everyone see your face? 
+  - Do you have a cape? If not, why not? 
+- What normal humans keep you grounded when you can fly so much 
+  higher than mere mortals? 
+  - Who taught you that you have a responsibility to others? 
+  - Do you ever adopt a disguise to pass as a normal human?  
+  - How do you deal with so much weight on your shoulders? 
+  - Who else do you rely on for assistance?
+- Are there other people like you? 
+  - Do you have an arch-enemy who
+    uses your best qualities to harm others instead of helping them?
 - Why *haven't* you used your powers to make huge changes in the
-  world? What holds you back from ruling over humanity for its
-  own good? What kind of nightmares wake you up in the middle of
-  the night, frightened by your own potential to wreck the world?
+  world? 
+  - What holds you back from ruling over humanity for its
+    own good? 
+  - What kind of nightmares wake you up in the middle of
+    the night, frightened by your own potential to break the world?
+  - Who can be trusted to stop you if you're not in control of yourself?
+:::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -2977,10 +3049,10 @@ maximum value.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -3166,21 +3238,25 @@ before it comes up in play.
 
 As you create your Psychic hero, answer any or all of these questions.
 
-- How do you come by these amazing mental powers? What kind of
-  training or education did you undertake to master them?
+:::::::::::: questions :::::::::::::::::::::
+- How do you come by these amazing mental powers? 
+  - What kind of training or education did you undertake to master them?
 - Are there obvious signs to your powers, such as an enlarged forehead,
   glowing eyes, or a visible crackle of power -- or are they completely
   invisible and undetectable?
 - What limits have you imposed on your own power due to ethical and
-  moral concerns? What type of actions won't you take, and what would
-  push you to actually commit those acts? What makes you a *hero* and not
-  a mind-powered villain, looting others' skulls with impunity?
-- Does your telepathic voice "sound" like your *physical* voice? Do 
-  others recognize you when you make mental contact with you? What 
-  kind of mental self-image do you have?
-- Do you have any *physical* limitations, such as a disability? How
-  do your powers compensate for those limits, and in what ways can
-  they never fully substitute for them?
+  moral concerns? 
+  - What type of actions won't you take, and what would
+    push you to actually commit those acts? 
+  - What makes you a *hero* and not
+    a mind-powered villain, looting others' skulls with impunity?
+- What kind of mental self-image do you have?
+  - Does your telepathic voice "sound" like your *physical* voice? 
+  - Do others recognize you when you make mental contact with you? 
+- Do you have any *physical* limitations, such as a disability? 
+  - How do your powers compensate for those limits, and in what ways can
+    they never fully substitute for them?
+::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -3202,10 +3278,10 @@ roll adds 2 extra dice to the roll.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -3378,21 +3454,23 @@ other players for ideas.
 
 As you create your Shaper hero, answer any or all of these questions.
 
-- Why can you control some types of matter and not others? How
-  did you get these powers, and what limits do they have? Can you
-  affect people with your powers, or are living creatures beyond
-  your control? How much of your power is raw potential, and how
-  much is rigid discipline? If you lost control, would you shut
-  down or would you lash out?
+::::::::::: questions ::::::::::::::::::::::
+- How did you get these powers, and what limits do they have? 
+  - Why can you control some types of matter and not others? 
+  - Can you affect people with your powers, or are living 
+    creatures beyond your control? 
+- How much of your power is raw potential, and how much is rigid discipline? 
+  - If you lost control, would you shut down or would you lash out?
 - Can you generate your own element, or are you reliant upon having
   your element present to start shaping? 
-  What effect does your emotional state have on the environment?
-  How does the state of your environment affect *you*? 
-  Are there any manifestations of your power that follow
-  you around, and if so, can you exercise conscious control over them?
 - Do you view yourself as speaking to nature and asking for its
   aid, or as forcing the elements to bend to your will, or as an
   artist carefully sculpting exactly what you need from the world?
+- What effect does your emotional state have on the environment?
+  - How does the state of your environment affect *you*? 
+- Are there any manifestations of your power that follow
+  you around, and if so, can you exercise conscious control over them?
+::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
@@ -3421,10 +3499,10 @@ Crisis is equal to the Volume number.
 
 You can use your Power Words in the following ways:
 
-- As a Power Display, costing no Might
-- As a Power Stunt, costing 1 Might for each Word beyond the first
-- As a Power Combo, costing 1 Might and letting others join in
-- Joining a Power Combo, costing 1 Might.
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -3804,22 +3882,22 @@ For example, []{.lorem}
       <tr>  
         <th class="yes"></th>
         <td>**Yes;** can be used in rolls</td>
-        <td>+1 Success</td>
+        <td>+1 Die</td>
       </tr>
       <tr>  
         <th class="yes gray"></th>
         <td>**Yes; But** adds no Dice</td>
-        <td>+0 Successes</td>
+        <td>+0 Dice</td>
       </tr>
       <tr>  
         <th class="lock"></th>
         <td>**Yes; If** your Nova Power is unlocked</td>
-        <td>+1 Success</td>
+        <td>+1 Die</td>
       </tr>
       <tr>  
         <th class="lock gray"></th>
         <td>**Yes; If** unlocked, **But** adds no Dice</td>
-        <td>+0 Successes</td>
+        <td>+0 Dice</td>
       </tr>
       <tr>  
         <th class="no"></th>
@@ -3896,7 +3974,7 @@ could tackle that Crisis:
 - **Withstand** - outlast the Crisis by taking all it can throw at you
 
 
-### Countdown to Crisis {#toc-crisis-countdown .colbefore}
+### Countdown to Crisis {#toc-crisis-countdown }
 
 A Crisis can begin when one or more heroes hear of an ongoing problem
 and rush to the scene, or a problem could spontaneously arise at a
@@ -3916,45 +3994,6 @@ The steps to take before a Crisis are:
 []{.lorem}
 
 #### Determining Who is Present {#toc-crisis-present}
-
-[]{.lorem}
-
-##### Innocent Bystanders {.colbefore}
-
-Superhero fights can be dangerous for people caught in the crossfire,
-and most natural or manmade disasters place people in danger.
-
-At the beginning of the Crisis, the Editor can assign points to the
-Bystander Pool. Heroes can use the Save Innocents move to reduce
-the size of the Bystander Pool, while the Crisis's moves can be
-used to increase it.
-
-When the Bystander Pool is reduced to zero, there are no longer any
-endangered people, although in subsequent turns, the Crisis may add
-more to this pool.
-
-This table is a rough guideline for how many people are endangered
-and how large the Bystander Pool should be:
-
- Pool   Number             Examples
------- ------------------- --------------------------------
-  1     a couple, at best  A remote highway
-  2        several         A mostly empty convenience store
-  3        a bunch         A bank
-  4        many            A small factory
-  5        very many       A supermarket
-  6        a *lot*         A hospital
-  7        numerous        A school
-  8+       a big crowd     A crowded rock concert
-
-When a hero reduces the size of the Bystander Pool with the Save
-Innocents move, they regain a number of Might points equal to the 
-number of points removed. Protecting others reinvigorates the heroes
-to fight on.
-
-If a Crisis move reduces the size of the Bystander Pool, the same 
-amount is *also* subtracted from the Teamwork Pool. Being unable to
-save everyone is demoralizing to all heroes.
 
 []{.lorem}
 
@@ -3991,7 +4030,7 @@ The first thing that happens after the Teamwork Pool is formed is
 the Hero Phase.
 
 
-### Hero Phase {#toc-crisis-hero .colbefore}
+### Hero Phase {#toc-crisis-hero }
 
 The heroes can each take one move during the Hero Phase, one at a time, 
 in any order they like.
@@ -4067,7 +4106,7 @@ to the Teamwork Pool.
 
 []{.lorem}
 
-### Crisis Phase {#toc-crisis-crisis .colbefore}
+### Crisis Phase {#toc-crisis-crisis }
 
 Once every hero has taken a move, then it’s time for the Editor
 to take their turn.
@@ -4093,10 +4132,11 @@ next turn, or innocents being endangered.
 Once the Editor has taken enough moves, it’s time to go back to the heroes.
 
 
-### Post-Crisis {#toc-crisis-post .colbefore}
+### Post-Crisis {#toc-crisis-post }
 
 []{.lorem}
 
+[]{.lorem}
 
 ## Advancements {#toc-advancements .breakbefore}
 
@@ -4118,11 +4158,6 @@ At the end of each Volume:
 - Create a new Opportunity for the new Volume.
 - (optional) Change one of the following: your Personal Power Word choices, your Fighting Style choice(s), your Skill choices, or your Nova Power Words.
 - (optional) Choose a new Costume, Symbol, and/or Hero Name.
-
-
-## The Official Handbook of the Cosmic Legends Universe {#toc-setting .breakbefore}
-
-[]{.lorem}
 
 
 :::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
@@ -4149,6 +4184,11 @@ At the end of each Volume:
 - [](#setting-villains-inc)
 - [](#setting-vulcanor)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## The Official Handbook of the Cosmic Legends Universe {#toc-setting .breakbefore}
+
+[]{.lorem}
+
 
 :::::::::::::::: {#section-what} :::::::::::::::::::::::::::::::::::::::::::::
 ### A.L.E.R.T. {#setting-alert}
@@ -4927,17 +4967,33 @@ been Volcano City.
 []{.lorem}
 
 
-### Creating a Storyline {#toc-editor-storyline .colbefore} 
+### Creating a Storyline {#toc-editor-storyline }
 
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
 []{.lorem}
 
 
-### Creating a Crisis {#toc-editor-crisis .colbefore} 
-
+[]{.lorem}
 []{.lorem}
 
 
-### Sample Crises {#toc-sample-crises .colbefore}
+### Creating a Crisis {#toc-editor-crisis }
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+[]{.lorem}
+[]{.lorem}
+
+
+### Sample Crises {#toc-sample-crises }
 
 These are examples of crises that Editors can use as the backdrops for
 Story Arcs.
@@ -5850,6 +5906,320 @@ Specific items in the toolkit are credited as follows:
 - *Stars and Wishes* was designed by 
   <a href="https://www.gauntlet-rpg.com/blog/stars-and-wishes">Lu Quade</a>
 
+
+::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[License]{#anchor-license .anchor}
+
+## Anti-Capitalist Attribution Cooperative License 
+
+By exercising the Licensed Rights (defined below), You accept and agree to be 
+bound by the terms and conditions of this Anti-Capitalist Attribution 
+Cooperative License ("License"). To the extent this License may be interpreted 
+as a contract, You are granted the Licensed Rights in consideration of Your 
+acceptance of these terms and conditions, and the Licensor grants You such 
+rights in consideration of benefits the Licensor receives from making the 
+Licensed Material available under these terms and conditions.
+
+### Section 1 – Definitions.
+
+A.  Adapted Material means material subject to Copyright and Similar Rights that 
+    is derived from or based upon the Licensed Material and in which the Licensed 
+    Material is translated, altered, arranged, transformed, or otherwise modified 
+    in a manner requiring permission under the Copyright and Similar Rights held by 
+    the Licensor. For purposes of this License, where the Licensed Material is a 
+    musical work, performance, or sound recording, Adapted Material is always 
+    produced where the Licensed Material is synched in timed relation with a moving 
+    image.
+
+A.  Adapter's License means the license You apply to Your Copyright and Similar 
+    Rights in Your contributions to Adapted Material in accordance with the terms 
+    and conditions of this License.
+
+A.  Capitalist Corporation means any for-profit company limited by shares 
+    employing more than fifty people. 
+
+A.  Copyright and Similar Rights means copyright and/or similar rights closely 
+    related to copyright including, without limitation, performance, broadcast, 
+    sound recording, and Sui Generis Database Rights, without regard to how the 
+    rights are labeled or categorized. For purposes of this License, the rights 
+    specified in Section 2(B)(1)-(2) are not Copyright and Similar Rights.
+
+A.  Effective Technological Measures means those measures that, in the absence 
+    of proper authority, may not be circumvented under laws fulfilling obligations 
+    under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, 
+    and/or similar international agreements.
+
+A.  Exceptions and Limitations means fair use, fair dealing, and/or any other 
+    exception or limitation to Copyright and Similar Rights that applies to Your 
+    use of the Licensed Material.
+
+A.  Licensed Material means the artistic or literary work, database, or other 
+    material to which the Licensor applied this License.
+
+A.  Licensed Rights means the rights granted to You subject to the terms and 
+    conditions of this Public License, which are limited to all Copyright and 
+    Similar Rights that apply to Your use of the Licensed Material and that the 
+    Licensor has authority to license.
+
+A.  Licensor means the individual(s) or entity(ies) granting rights under this 
+    License.
+
+A.  Anti-Capitalist means not primarily intended for or directed towards 
+    commercial advantage or monetary compensation for a Capitalist Corporation as 
+    defined in Section 1(C). Anti-Capitalist also means 
+
+    You are one of the following:
+
+    1. An individual person, laboring for themselves.
+    1. A non-profit organization.
+    1. An educational institution.
+    1. An organization that seeks shared profit for all its members, and allows 
+       non-members to set the cost of their labor. 
+    1. An organization with owners, where all owners are workers and all workers 
+       are owners with equal equity and/or equal vote.
+
+    You are not one of the following
+ 
+    1. Law enforcement.
+    1. Military.
+    1. An organization that is working for or under law enforcement or military.
+
+A.  Share means to provide material to the public by any means or process that 
+    requires permission under the Licensed Rights, such as reproduction, public 
+    display, public performance, distribution, dissemination, communication, or 
+    importation, and to make material available to the public including in ways 
+    that members of the public may access the material from a place and at a time 
+    individually chosen by them.
+
+A.  Sui Generis Database Rights means rights other than copyright resulting from 
+    Directive 96/9/EC of the European Parliament and of the Council of 11 March 
+    1996 on the legal protection of databases, as amended and/or succeeded, as well 
+    as other essentially equivalent rights anywhere in the world.
+
+A.  You means the individual or entity exercising the Licensed Rights under this 
+    License who has not previously violated the terms of this License with respect 
+    to the Licensed Material, or who has received express permission from the 
+    Licensor to exercise rights under this License despite a previous violation. 
+    Your has a corresponding meaning.
+
+### Section 2 – Scope.
+
+A.  License grant.
+
+    1. Subject to the terms and conditions of this License, the Licensor hereby 
+       grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, 
+       irrevocable license to exercise the Licensed Rights in the Licensed Material to 
+       produce, reproduce, and Share Adapted Material for Anti-Capitalist purposes 
+       only.
+       
+    1. Exceptions and Limitations. For the avoidance of doubt, where Exceptions 
+       and Limitations apply to Your use, this License does not apply, and You do not 
+       need to comply with its terms and conditions.
+       
+    1. Term. The term of this License is specified in Section 6(A).
+
+    1. Media and formats; technical modifications allowed. The Licensor 
+       authorizes You to exercise the Licensed Rights in all media and formats whether 
+       now known or hereafter created, and to make technical modifications necessary 
+       to do so. The Licensor waives and/or agrees not to assert any right or 
+       authority to forbid You from making technical modifications necessary to 
+       exercise the Licensed Rights, including technical modifications necessary to 
+       circumvent Effective Technological Measures. For purposes of this License, 
+       simply making modifications authorized by this Section 2(A)(4) never produces 
+       Adapted Material.
+       
+    1. Downstream recipients.
+
+       a. Offer from the Licensor – Licensed Material. Every recipient of the 
+          Licensed Material automatically receives an offer from the Licensor to exercise 
+          the Licensed Rights under the terms and conditions of this License.
+
+       a. Additional offer from the Licensor – Adapted Material. Every recipient 
+          of Adapted Material from You automatically receives an offer from the Licensor 
+          to exercise the Licensed Rights in the Adapted Material under the conditions of 
+          the Adapter’s License You apply.
+
+       a. No downstream restrictions. You may not offer or impose any additional 
+          or different terms or conditions on, or apply any Effective Technological 
+          Measures to, the Licensed Material if doing so restricts exercise of the 
+          Licensed Rights by any recipient of the Licensed Material.
+
+    1. No endorsement. Nothing in this License constitutes or may be construed as 
+       permission to assert or imply that You are, or that Your use of the Licensed 
+       Material is, connected with, or sponsored, endorsed, or granted official status 
+       by, the Licensor or others designated to receive attribution as provided in 
+       Section 3(A)(1)(a)(i).
+       
+A.  Other rights.
+
+    1. Moral rights, such as the right of integrity, are not licensed under this 
+       License, nor are publicity, privacy, and/or other similar personality rights; 
+       however, to the extent possible, the Licensor waives and/or agrees not to 
+       assert any such rights held by the Licensor to the limited extent necessary to 
+       allow You to exercise the Licensed Rights, but not otherwise.
+       
+    1. Patent and trademark rights are not licensed under this License.
+
+    1. To the extent possible, the Licensor waives any right to collect royalties 
+       from You for the exercise of the Licensed Rights, whether directly or through a 
+       collecting society under any voluntary or waivable statutory or compulsory 
+       licensing scheme. 
+
+
+### Section 3 – License Conditions.
+
+Your exercise of the Licensed Rights is expressly made subject to the following 
+conditions.
+
+A.  Attribution.
+
+    1. If You Share the Licensed Material (including in modified form), You must:
+
+       a. retain the following if it is supplied by the Licensor with the Licensed 
+          Material:
+
+          i. identification of the creator(s) of the Licensed Material and any 
+             others designated to receive attribution, in any reasonable manner requested by 
+             the Licensor (including by pseudonym if designated);
+
+          i. a copyright notice;
+
+          i. a notice that refers to this License;
+
+          i. a notice that refers to the disclaimer of warranties;
+
+          i. a URI or hyperlink to the Licensed Material to the extent reasonably 
+             practicable;
+
+       a. indicate if You modified the Licensed Material and retain an indication 
+          of any previous modifications; and
+
+       a. indicate the Licensed Material is licensed under this License, and 
+          include the text of, or the URI or hyperlink to, this License.
+
+    1. You may satisfy the conditions in Section 3(A)(1) in any reasonable manner 
+       based on the medium, means, and context in which You Share the Licensed 
+       Material. For example, it may be reasonable to satisfy the conditions by 
+       providing a URI or hyperlink to a resource that includes the required 
+       information.
+
+    1. If requested by the Licensor, You must remove any of the information 
+       required by Section 3(A)(1)(a) to the extent reasonably practicable.
+
+A.  Cooperative
+
+    In addition to the conditions in Section 3(A), if You Share Adapted Material 
+    You produce, the following conditions also apply.
+
+    1. The Adapter’s License You apply must be an Anti-Capitalist license and 
+       conform to the specifications in Section 1(J) to the extent reasonably 
+       practicable.
+
+    1. You must include the text of, or the URI or hyperlink to, the Adapter's 
+       License You apply. You may satisfy this condition in any reasonable manner 
+       based on the medium, means, and context in which You Share Adapted Material.
+
+### Section 4 – Sui Generis Database Rights.
+
+Where the Licensed Rights include Sui Generis Database Rights that apply to 
+Your use of the Licensed Material:
+
+A.  for the avoidance of doubt, Section 2(A)(1) grants You the right to extract, 
+    reuse, reproduce, and Share all or a substantial portion of the contents of the 
+    database for Anti-Capitalist purposes only;
+    
+A.  if You include all or a substantial portion of the database contents in a 
+    database in which You have Sui Generis Database Rights, then the database in 
+    which You have Sui Generis Database Rights (but not its individual contents) is 
+    Adapted Material, including for purposes of Section 3(B); and
+    
+A.  You must comply with the conditions in Section 3(A) if You Share all or a 
+    substantial portion of the contents of the database.
+    
+    For the avoidance of doubt, this Section 4 supplements and does not replace 
+    Your obligations under this License where the Licensed Rights include other 
+    Copyright and Similar Rights.
+    
+### Section 5 – Disclaimer of Warranties and Limitation of Liability.
+
+A.  Unless otherwise separately undertaken by the Licensor, to the extent 
+    possible, the Licensor offers the Licensed Material as-is and as-available, and 
+    makes no representations or warranties of any kind concerning the Licensed 
+    Material, whether express, implied, statutory, or other. This includes, without 
+    limitation, warranties of title, merchantability, fitness for a particular 
+    purpose, non-infringement, absence of latent or other defects, accuracy, or the 
+    presence or absence of errors, whether or not known or discoverable. Where 
+    disclaimers of warranties are not allowed in full or in part, this disclaimer 
+    may not apply to You.
+
+A.  To the extent possible, in no event will the Licensor be liable to You on 
+    any legal theory (including, without limitation, negligence) or otherwise for 
+    any direct, special, indirect, incidental, consequential, punitive, exemplary, 
+    or other losses, costs, expenses, or damages arising out of this License or use 
+    of the Licensed Material, even if the Licensor has been advised of the 
+    possibility of such losses, costs, expenses, or damages. Where a limitation of 
+    liability is not allowed in full or in part, this limitation may not apply to 
+    You.
+    
+A.  The disclaimer of warranties and limitation of liability provided above 
+    shall be interpreted in a manner that, to the extent possible, most closely 
+    approximates an absolute disclaimer and waiver of all liability.
+    
+
+### Section 6 – Term and Termination.
+
+A.  This License applies for the term of the Copyright and Similar Rights 
+    licensed here. However, if You fail to comply with this License, then Your 
+    rights under this License terminate automatically.
+
+A.  Where Your right to use the Licensed Material has terminated under Section 
+    6(A), it reinstates:
+
+    1. automatically as of the date the violation is cured, provided it is cured 
+       within 30 days of Your discovery of the violation; or
+
+    1. upon express reinstatement by the Licensor.
+
+A.  For the avoidance of doubt, this Section 6(B) does not affect any right the 
+    Licensor may have to seek remedies for Your violations of this License.
+
+A.  For the avoidance of doubt, the Licensor may also offer the Licensed 
+    Material under separate terms or conditions or stop distributing the Licensed 
+    Material at any time; however, doing so will not terminate this License.
+
+A.  Sections 1, 5, 6, 7, and 8 survive termination of this License.
+
+### Section 7 – Other Terms and Conditions.
+
+A.  The Licensor shall not be bound by any additional or different terms or 
+    conditions communicated by You unless expressly agreed.
+
+A.  Any arrangements, understandings, or agreements regarding the Licensed 
+    Material not stated herein are separate from and independent of the terms and 
+    conditions of this License.
+
+### Section 8 – Interpretation.
+
+A.  For the avoidance of doubt, this License does not, and shall not be 
+    interpreted to, reduce, limit, restrict, or impose conditions on any use of the 
+    Licensed Material that could lawfully be made without permission under this 
+    License.
+
+A.  To the extent possible, if any provision of this License is deemed 
+    unenforceable, it shall be automatically reformed to the minimum extent 
+    necessary to make it enforceable. If the provision cannot be reformed, it shall 
+    be severed from this License without affecting the enforceability of the 
+    remaining terms and conditions.
+
+A.  No term or condition of this License will be waived and no failure to comply 
+    consented to unless expressly agreed to by the Licensor.
+
+A.  Nothing in this License constitutes or may be interpreted as a limitation 
+    upon, or waiver of, any privileges and immunities that apply to the Licensor or 
+    You, including from the legal processes of any jurisdiction or authority.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::: {.herosheet} ::::::::::::::::::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}

@@ -1,4 +1,4 @@
-# Hero Phase {#toc-crisis-hero .colbefore}
+# Hero Phase {#toc-crisis-hero }
 
 The heroes can each take one move during the Hero Phase, one at a time, 
 in any order they like.

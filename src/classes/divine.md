@@ -1,5 +1,5 @@
 ::::::::::::::::::::: { .classdata #class-divine } :::::::::::::::
-# The Divine {#toc-divine .class}
+# The Divine {#toc-divine .breakbefore .class}
 
 > Bright Mother Brigit, guide my hand!
 
