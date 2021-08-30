@@ -5,16 +5,16 @@ Cosmic Legends of the Universe
 - [/] Influences
   - [/] Bronze Age
 - [/] Classes
-  - [/] The Demigod
-  - [/] The Dynamo
-  - [/] The Inventor
-  - [/] The Knight
-  - [/] The Mage
-  - [/] The Monarch 
-  - [/] The Monstrosity
-  - [/] The Paragon 
-  - [/] The Psychic
-  - [/] The Shaper
+  - [x] The Demigod
+  - [x] The Dynamo
+  - [x] The Inventor
+  - [x] The Knight
+  - [x] The Mage
+  - [x] The Monarch 
+  - [x] The Monstrosity
+  - [x] The Paragon 
+  - [x] The Psychic
+  - [x] The Shaper
 - [/] Ideals
 - [/] Goals
   - [x] Smash
