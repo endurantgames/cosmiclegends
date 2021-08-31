@@ -25,6 +25,9 @@ Annual
 Approach
 :   A hero's "stats". Approaches describe a hero's preferred ways of solving problems.
 
+Cooldown
+:   A state after using a Power Word that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
+
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
 
@@ -33,6 +36,9 @@ Contined Next Page
 
 Contribute to the Teamwork Pool
 :   A move taken by a hero designed to give the team an advantage against a Crisis.
+
+Counter
+:   Avoiding the consequences of a Crisis Move.
 
 Crisis
 :   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. (*Encounter* in Harmony Drive.)
@@ -73,11 +79,11 @@ Guest Star
 Health
 :   A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
 
-Hero Phase
-:   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
-
 Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
+
+Hero Phase
+:   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
 
 Ideals
 :   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll. (*Key* in Harmony Drive.)
@@ -171,6 +177,9 @@ Success
 
 Suspense
 :   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+
+Take the Hit
+:   When one hero takes the entire effect of a Crisis move instead of another hero.
 
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.

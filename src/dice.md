@@ -6,7 +6,7 @@ When a player wants to take an uncertain action, they build a dice pool.
 - One die for every point they have in the relevant Approach
 - One die for every Volume if they have a relevant Skill
 - Two dice if they can mark off one of their Ideals
-- One die for every Power Word beyond the first
+- One die for every Power Word they're using in a Power Display, Power Stunt, or Power Combo
 - Other dice from any other source
 
  Die Roll   Result

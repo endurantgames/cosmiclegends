@@ -60,7 +60,7 @@ header h1     { string-set: gamename content()       }
   --color-yes: green;
   --color-no: red;
   --color-gray: #808080;
-  --color-lock: orange;
+  --color-lock: goldenrod;
 
   --color-display: teal;
   --color-stunt: blue;
@@ -478,7 +478,7 @@ blockquote {
 
 #power-table table.power-table thead       {                         }
 #power-table table.power-table thead tr    {                         }
-#power-table table.power-table thead tr th { vertical-align: bottom; padding-left: 2pt; padding-right: 2pt; border-bottom: 0.5pt solid #e0e0e0; }
+#power-table table.power-table thead tr th { vertical-align: bottom; padding: 2pt; border-bottom: 0.5pt solid #e0e0e0; }
 #power-table table.power-table thead tr th:nth-child(n+2) { width: 10%; }
 
 #power-table table.power-table tbody                 {                                                                        }
@@ -492,15 +492,15 @@ blockquote {
 #power-table table.power-table tbody:nth-child(even)  tr td:nth-child(2n+3) { background-color: #e8e8e8; }
 
 #power-table table.power-table tbody tr.cost           {                                                       }
-#power-table table.power-table tbody tr.cost td        { font-size: var(--table-cost-size);                    }
-#power-table table.power-table tbody tr.cost th        { font-size: var(--table-cost-size); text-align: right; }
+#power-table table.power-table tbody tr.cost td        { font-size: var(--table-cost-size); font-style: italic; }
+#power-table table.power-table tbody tr.cost th        { font-size: var(--table-cost-size); font-style: italic; font-weight: normal; text-align: right; }
 #power-table table.power-table tbody tr.cost td        {                                                       }
 #power-table table.power-table tbody tr.cost td.na     { content: '--';                                        }
 #power-table table.power-table tbody tr.cost td.might0 { content: 'Might 0';                                   }
 #power-table table.power-table tbody tr.cost td.might1 { content: 'Might 1';                                   }
 
 #power-table table.power-table tbody tr.main              {                                                                       }
-#power-table table.power-table tbody tr th.main { font-weight: normal; } 
+#power-table table.power-table tbody tr.main th { font-weight: normal; }
 #power-table table.power-table tbody tr.main td           { font-family: var( --font-icons  ); font-size: var(--table-icon-size); }
 #power-table table.power-table tbody tr.main td.yes       { content:     var( --yes-green   ); color: var(--color-yes);           }
 #power-table table.power-table tbody tr.main td.yes.gray  { content:     var( --yes-gray    ); color: var(--color-gray);          }
@@ -514,29 +514,6 @@ blockquote {
 #power-table table.power-table tbody.use-type tr td { height: 5pt; vertical-align: bottom; color: white; font-weight: bold; font-size: var(--body); padding-bottom: 1pt;}
 #power-table table.power-table tbody.use-type tr:nth-child(3) td:nth-child(2) { background-color: transparent; }
 #power-table table.power-table tbody.use-type:nth-child(even) { background-color: transparent; }
-
-#power-table table.power-key { width: 60%; margin-top: 0.5em; margin-bottom: 0.5em; box-sizing: border-box; border: 0.5pt solid var(--color-line); display: inline-table; }
-#power-table table.power-key thead { border-bottom: 0.5pt solid var(--color-line); }
-
-#power-table table.power-key tbody tr th           { font-family: var(--font-icons); vertical-align: top;      }
-#power-table table.power-key tbody tr th.yes       { content: var(--yes-green);      color: var(--color-yes);  }
-#power-table table.power-key tbody tr th.yes.gray  { content: var(--yes-gray);       color: var(--color-gray); }
-#power-table table.power-key tbody tr th.lock      { content: var(--lock-yellow);    color: var(--color-lock); }
-#power-table table.power-key tbody tr th.lock.gray { content: var(--lock-gray);      color: var(--color-gray); }
-#power-table table.power-key tbody tr th.no        { content: var(--no);             color: var(--color-no);   }
-
-#power-table table.power-key td              { box-sizing: border-box; padding-left: 1pt; padding-right: 1pt; vertical-align: top; }
-#power-table table.power-key td { padding: 0; font-size: var(--smaller); }
-#power-table table.power-key td:nth-child(1) { width: 15%; text-align: center; }
-#power-table table.power-key td:nth-child(2) { width: 60%; text-align: left; }
-#power-table table.power-key td:nth-child(3) { width: 25%; text-align: left; white-space: pre; }
-
-#power-table table.power-key th              { box-sizing: border-box; }
-#power-table table.power-key th { font-size: var(--smaller); }
-#power-table table.power-key th { padding: 0; text-align: left; padding-left: 1pt; padding-right: 1pt;  } 
-#power-table table.power-key th:nth-child(1) { width: 15%; text-align: center; }
-#power-table table.power-key th:nth-child(2) { width: 60%; text-align: left; }
-#power-table table.power-key th:nth-child(3) { width: 25%; text-align: left;  }
 
 .skill-list dl dt { font-family: var(--font-h5); font-size: var(--h5); 
   color: var(--color-sheet-dark);
@@ -1262,3 +1239,92 @@ margin-top: 1em; }
   width: 50%;
 }
 
+.power-chart {
+
+}
+
+.power-chart.label:before { 
+  display: block;
+  font-family: var(--font-h3);
+  font-size: var(--larger);
+  break-after: avoid;
+}
+
+.power-chart.power-display.label:before { content: 'In a Power Display:'; }
+.power-chart.power-stunt.label:before { content: 'In a Power Stunt:'; }
+.power-chart.power-combo.label:before { content: 'In a Power Combo:'; }
+
+.power-chart.power-display .power-word { border-color: var(--color-display); }
+.power-chart.power-stunt   .power-word { border-color: var(--color-stunt);  }
+.power-chart.power-combo   .power-word { border-color: var(--color-combo); }
+
+.power-chart.power-combo .plus { 
+  color: black; 
+  content: '+';
+  font-size: 32pt;
+  line-height: none;
+  width: 24pt;
+  height: 24pt;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  /* overflow: clip; */
+}
+
+.power-chart.power-combo .plus.dashed { color: var(--color-sheet-light); }
+
+.power-chart.power-combo .plus.dotdotdot { content: '+...'; }
+
+.power-chart .power-word.first { border-width: 1pt; }
+
+.power-chart .power-word {
+  border-width: 2pt;
+  border-radius: 4pt;
+  background-color: white;
+  border-style: solid;
+  display: inline-block;
+  content: '1';
+  font-weight: bold;
+  font-size: 16pt;
+  vertical-align: middle;
+  height: 24pt;
+  width: 24pt;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.power-chart .power-word.free { 
+  content: 'FREE'; 
+  font-size: 8pt; 
+  padding-top: 5pt;
+  color: var(--color-sheet-dark);
+}
+.power-chart .power-word.any { border-style: solid; }
+.power-chart .power-word.core { border-style: double; }
+.power-chart .power-word.scene { 
+  border-style: double; 
+  border-color: orange; 
+}
+
+.power-chart .power-word.nova:before {
+  display: block;
+  position: absolute;
+  content: var( --lock-yellow ); 
+  color: var(--color-lock); 
+  font-family: var(--font-icons); 
+  font-size: 20pt;
+  top: 1pt;
+  left: 0pt;
+  z-index: -1;
+}
+
+.power-chart .power-word.nova { 
+  border-style: double;
+  color: black;
+  position: relative;
+  text-shadow: 0 0 2pt white;
+}
+
+.power-chart .power-word.dashed { border-style: dashed; color: var(--color-sheet-light); }
+
+.example { margin-left: 0.125in; margin-right: 0.125in; font-style: italic; }

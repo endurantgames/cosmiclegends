@@ -156,7 +156,7 @@ Fight Fire With Fire
     harm from energy blasts, you can fire off a
     blast of energy that intercepts and blocks it.
     You can spend points of Might instead of points from
-    the Teamwork Pool to avoid energy-themed effects.
+    the Teamwork Pool to counter energy-themed effects.
 
 Wide Angle
 
