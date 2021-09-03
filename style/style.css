@@ -1327,4 +1327,111 @@ margin-top: 1em; }
 
 .power-chart .power-word.dashed { border-style: dashed; color: var(--color-sheet-light); }
 
-.example { margin-left: 0.125in; margin-right: 0.125in; font-style: italic; }
+.dice-rolls-display .dice-display { margin-left: 0.25in; }
+
+.dice-display .die {
+  border-width: 2pt;
+  border-radius: 4pt;
+  background-color: white;
+  border-style: double;
+  display: inline-block;
+  content: ' ';
+  font-weight: bold;
+  font-size: 8pt;
+  vertical-align: middle;
+  height: 24pt;
+  width: 24pt;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.dice-display .die.approach { 
+  content: 'Appr- oach';  
+}
+.dice-display .die.dashed {
+  border-style: dashed;
+}
+
+.dice-display .die.approach.dashed { 
+  border-width: 1pt;
+}
+
+
+.dice-display .die.skill.v1 { content: 'Vol. 1'; } 
+.dice-display .die.skill.v2 { content: 'Vol. 2'; border-width: 1pt; } 
+.dice-display .die.skill.v3 { content: 'Vol. 3'; border-width: 1pt; } 
+.dice-display .die.skill.v4 { content: 'Vol. 4'; border-width: 1pt; } 
+.dice-display .die.skill.v5 { content: 'Vol. 5'; border-width: 1pt; } 
+
+.dice-display .die.other    { 
+  content: 'Other';      
+  border-width: 1pt;
+}
+
+.dice-display .die.ideal    { 
+  content: 'Ideal';      
+  border-style: double;
+}
+
+.dice-display .die.display { 
+  color:        var(--color-display); 
+  border-color: var(--color-display); 
+  content: 'Power Display'; 
+  font-size: 7pt;
+  border-width: 1pt;
+  border-style: solid;
+}
+
+.dice-display .die.stunt   { 
+  color:        var(--color-stunt);   
+  border-color: var(--color-stunt);   
+  content: 'Power Stunt'; 
+  font-size: 7pt;
+  border-width: 1pt;
+}
+
+.dice-display .die.combo   { 
+  color:        var(--color-combo);   
+  border-color: var(--color-combo);   
+  content: 'Power Combo'; 
+  font-size: 7pt;
+  border-width: 1pt;
+}
+
+.dice-display .die.result {
+  border-width: 1pt;
+  border-style: solid;
+  width: 29.0pt;
+  height: 29.0pt;
+  white-space: pre;
+  line-height: 0.9;
+  font-size: 7pt;
+}
+
+.dice-display .die.result:before {
+  font-size: 15pt; 
+  font-weight: bold;
+}
+
+.dice-rolls-display ul { margin: 0; }
+.dice-rolls-display ul li { margin: 0; list-style-type: none; }
+
+.dice-display .die.result.r1:before { content: '1\00000a'; }
+.dice-display .die.result.r2:before { content: '2\00000a'; }
+.dice-display .die.result.r3:before { content: '3\00000a'; }
+.dice-display .die.result.r4:before { content: '4\00000a'; }
+.dice-display .die.result.r5:before { content: '5\00000a'; }
+.dice-display .die.result.r6:before { content: '6\00000a'; }
+
+.dice-display .die.result.r1 { content: 'Edge\00000aSuccess'; color: red; }
+.dice-display .die.result.r2 { content: ''; color: var(--color-sheet-dark); }
+.dice-display .die.result.r3 { content: ''; color: var(--color-sheet-dark); }
+.dice-display .die.result.r4 { content: ''; color: var(--color-sheet-dark); }
+.dice-display .die.result.r5 { content: 'One\00000aSuccess'; color: navy; }
+.dice-display .die.result.r6 { content: 'One\00000aSuccess'; color: darkgreen; }
+
+.example { 
+  margin-left: 0.125in; 
+  margin-right: 0.125in; 
+  font-style: italic; 
+}

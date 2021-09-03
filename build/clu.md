@@ -71,6 +71,239 @@ To play []{.gamename} you'll need:
 - Your imagination!
 
 
+## Ethos {#toc-ethos .colbefore}
+
+[]{.gamename} revolves around the following three pillars:
+
+### Self Expression
+
+The Power Word system and Crisis system are intentionally built to 
+give players freedom to engage with problems in their own style. 
+[]{.gamename} lets you be yourself, and do things in your own way, 
+without being left behind by your team.
+
+### Teamwork
+
+[]{.gamename} games is written to encourage the players to work 
+together. Whether you're combining your powers to use Power Combos
+or using your skills to overcome an opponent together, heroes in 
+[]{.gamename} succeed or fail as a team.
+
+### Difficult Choices
+
+The Edge Success system is built so that you have the freedom 
+to choose failure. The Crisis system is built so that you can 
+choose to take big hits. Good things and bad things happen to
+your hero, and both of these are in the your hands to choose. 
+The Editor’s job is to give you those difficult choices.
+
+
+## Overview of Play {#toc-overview .colbefore }
+
+1. []{.gamename} is played as a series of **Storylines**, each
+   taking up one or more game sessions, or **Issues**.
+
+2. Before a new Storyline, the players decide who the **Spotlight**
+   hero will be during that Storyline. 
+
+3. The player with the Spotlight tells the Editor what **Opportunity**
+   they'd like their hero to experience.
+
+4. The Editor shapes a series of **Crises** that let the Spotlight hero
+   work through that Opportunity.
+
+5. Once each player has had the Spotlight to address their 
+   hero's Opportunity, that **Volume** of the campaign wraps up
+   with an **Annual**.
+
+
+## Using the Dice {#toc-dice .colbefore}
+
+The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
+When you want your hero to take an uncertain action, you build a 
+**dice pool** of six-sided dice.
+
+:::::::::::::::::::::: dice-rolls-display :::::::::::::::::::::::::::::::::::
+- One die for every point you have in the relevant **Approach**:
+
+:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
+[]{.die .approach}
+[]{.die .approach .dashed}
+[]{.die .approach .dashed}
+[]{.die .approach .dashed}
+[]{.die .approach .dashed}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- One die for every Volume if you have a relevant **Skill**:
+
+:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
+[]{.die .skill .v1}
+[]{.die .skill .v2 .dashed}
+[]{.die .skill .v3 .dashed}
+[]{.die .skill .v4 .dashed}
+[]{.die .skill .v5 .dashed}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- Two dice if you can mark off one of your **Ideals**:
+
+:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
+[]{.die .ideal }
+[]{.die .ideal }
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- One die for every **Power Word** you're using in a **Power Display**, **Power Stunt**, or **Power Combo**:
+
+:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
+[]{.die .display .dashed}
+[]{.die .stunt .dashed}
+[]{.die .stunt .dashed}
+[]{.die .combo .dashed}
+[]{.die .combo .dashed}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+- **Other** dice from any other source, such as from a Fighting Style:
+
+:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
+[]{.die .other .dashed}
+[]{.die .other .dashed}
+[]{.die .other .dashed}
+[]{.die .other .dashed}
+[]{.die .other .dashed}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Roll all of the dice and then compare the numbers:
+
+::::::::::::: dice-display ::::::::::::::::::::::::::::::::::
+[]{.die .result .r6 .success}
+[]{.die .result .r5 .success}
+[]{.die .result .r4 }
+[]{.die .result .r3 }
+[]{.die .result .r2 }
+[]{.die .result .r1 .edge}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Any dice that come up a **5** or a **6** are counted as **Successes.** 
+A challenging task can require 1-3 Successes to complete (outside combat).
+
+Any dice that come up **2**, **3**, or **4** are ignored.
+
+Any dice that come up **1** are counted as **Edge Successes**. 
+When you roll a 1, you inform the Editor,
+who offers you a **consequence**. 
+
+If you choose to take the Editor’s consequence, you 
+can count the 1 as a **Success**.
+
+This consequence can be mechanical, like losing Health, or it can be 
+narrative, like upsetting an NPC or missing an important clue. 
+The important part is that you're presented with a difficult choice.
+
+
+## From Issues to Volumes {#toc-issues .colbefore}
+
+[]{.gamename} uses some terms from comic books to talk about how 
+the game is played.
+
+### Issues
+
+Each individual game session is known as an **Issue**, and roughly
+corresponds to one issue of a comic book.
+
+The **First Issue** is the first played session of an ongoing []{.gamename} 
+campaigned played by a group -- but first you should have an Issue 0.
+
+#### Issue 0
+
+**Issue 0** -- known as *Session 0* in other games -- is an
+Issue of a []{.gamename} Series when the players don't roll dice and 
+handle Crises, but instead discuss what kind of game each person
+is looking forward to playing.
+
+Issue 0 takes place before the First Issue, and should go over the 
+safety tools used in the game, stress the importance of open communication, 
+and set expectations on the kind of story and play.
+
+Issue 0s are also a great time to create heroes together as a group,
+rather than separately.
+
+### Storylines
+
+During an Issue, the Editor and the players play out the events of
+a **Storyline**.
+
+When you create a new hero, you define a specific lesson you'd like 
+your hero to learn or a specific experience you'd like them to have.
+For that Storyline, your character is considered the **Spotlight** hero.
+
+Each Storyline consists of:
+
+- the Spotlight hero
+- the Opportunity
+- one or more Crises connected to the Opportunity, introduced by the Editor
+- the heroes' reactions to each Crisis
+- the Spotlight hero's reaction the Opportunity
+
+Many Storylines will resolve over the course of one Issue, but some
+can take long and might run for 2 or 3 sessions, or longer.
+
+Once your hero finishes your Storyline, both your hero and your 
+fellow players' heroes gain an **Advancement.**
+
+#### One-Shots
+
+A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
+Series, but stands alone. Most games played at conventions, for example,
+will be One-Shots.
+
+Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
+Opportunity either, but just a connected series of Crises. In those 
+cases, all heroes receive a standard Advancements after dealing with 
+the Crises.
+
+One-Shots obviously won't have a separate Issue 0, but time should still
+be set aside at the start of the Issue to touch on important safety tools.
+
+Many First Issues are One-Shots, as the players and Editor are still 
+getting to know their heroes and the game. These First Issues usually
+feature a few simple Crises to resolve.
+
+### Volumes
+
+Each Storyline is part of a **Volume**; Volumes are a grouping of
+Issues -- game sessions -- and are numbered starting with 1.  
+
+Once all of the heroes have had a chance to play out their Storylines, 
+the Editor and heroes play out a final Issue, known as an **Annual**. 
+
+The Annual ties together the events of the previous Storylines in the
+Volume, and then that Volume concludes.
+
+At the start of a new Volume, your hero develops new powers or finds 
+new ways to use their existing powers.
+
+### Series
+
+A ongoing campaign of []{.gamename} is known as a **Series,** and each 
+Series is comprised of up to five Volumes. 
+
+If your group reaches the end of Volume 5 and with to continue with
+with the same heroes, you can do so: just treat later Volumes as having
+a Volume number of 5, and proceed from there.
+
+### Guest Stars and Crossovers
+
+A **Guest Star** is a hero character from another Series -- either played
+by the same group or a different one -- who plays in the Series for an
+Issue or two. If the Guest Star's Volume number is higher than the group's,
+temporarily lower the Guest Star to the same Volume.
+
+A **Crossover** happens when the heroes from two or more Series work
+together, usually in large, wide-ranging One-Shots. All participating 
+heroes keep their normal Volume numbers without adjustment.
+
+
 ## Using Powers {#toc-power-use .breakbefore}
 
 []{.lorem}
