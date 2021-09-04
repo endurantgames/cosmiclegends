@@ -89,7 +89,7 @@ need, she can form a sword of blazing light.
 - **Base of Operations:** Sun City, U.S.A.; Technopolis, U.S.A. (former base); Mag Findargat, Otherworld (temporary base); Pittsburgh, Pennsylvania (former base)
 - **Active Members:** Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0
 - **Reserve Members:** The Grailknight, Jack Dee, Obsidius Rex, Titan
-- **Former Members:** Bug II, The Falconer, Sequana (expelled) Vespa I (deceased), Zaar
+- **Former Members:** Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled) Vespa I (deceased), Zaar
 - **Allies:** A.L.E.R.T., The Junior Legends of the World, N.O.V.A. Labs, Technopolis Academy
 - **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, the Visitors, Villains Inc., Xana Mega
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -132,11 +132,41 @@ committed to protecting the Earth from the forces of evil.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
-[]{.lorem}
+Del Thompson grew up in the shadow of brilliance -- his mother and namesake,
+Delphine Thompson, was one of the most gifted physicists of her generation.
+
+Unfortunately, her genius led her to take dangerous risks, including going
+online with an experimental cold fusion reactor before all the appropriate
+safeties were online. "You only need those when things go wrong," Delphine
+explained to her son, then ten years old. "And I never get things wrong."
+
+As fate would have it ... that was the time that Thompson's hubris was proven
+a false vanity. The reactor raged out of control as dangerous energies washed
+over her laboratory and the rest of Technopolis.
+
+With Delphine unconscious and dying from radiation poisoning, only quick 
+thinking by Del managed to halt the out-of-control reaction -- at the cost
+of his life. The young boy was completely disintegrated.
+
+Or so everyone believed. Over the next few weeks, Del reformed his body
+from pure nuclear energy. He regained consciousness to find his
+mother had survived -- but had likewise been changed by the overloaded
+reactor. Calling herself Neutrino, she fled police custody and soon joined
+the newly-forming Villains, Inc.
+
+Del was taken in by his mother's former lab partner, Hazel Montgomery,
+the original Vespa. Together with Montgomery's child Lin -- the sidekick
+hero Bug -- Del became one of the first two students at Technopolis Academy 
+and a founding member of the Junior Legends of America.
 
 **Powers:**
-[]{.lorem}
+Del's natural state of being is a humanoid form composed of supercharged plasma.
+He can use this energy as destructive blasts, as an energy-backed "nuke punch!", 
+and as a force bubble to absorb energy.
+
+With concentration -- and as a result of years of practice -- he can dampen
+his nuclear energies and assume a human shape, becoming the young man he would
+have been had his mother's pride not cost them both dearly.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## Energy Boy
@@ -179,15 +209,37 @@ committed to protecting the Earth from the forces of evil.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
-[]{.lorem}
+Percival Pellinore, the Grailknight, is *the* Percival of myth -- member
+of Arthur's Round Table, son of Pellinore, questing knight of the Holy Grail.
+
+Although Percival is reluctant to speak of his past, he has told a few that
+he swore an oath to find and recover the Chalice of the Last Supper, and
+that he would never rest until he had fulfilled said oath.
+
+Either his unflagging devotion to his vow or the divine nature of his mission
+have kept him alive, and no older than middle aged, for centuries. Percival's
+legend weaves in and out of history -- surfacing in one war only to disappear
+for a century after it and reappearing around the world.
+
+In 1963, over 50 years since his last appearance, Percival joined with other
+heroes of the time to repell Xana Mega's Fomorian invasion. Percival's offhand
+mention of the Table Round led to the formation of these heroes as a team,
+the Cosmic Legends of the Universe.
+
+With a tendency to vanish for weeks or years at a time, Percival is at best
+a part-time member of the Cosmic Legends, although whenever evil is ascendent, 
+he is an implaccable foe and resourceful ally.
 
 **Powers:** Sir Percival has only one confirmed power:
 immortality. Due to his vows, he's unable to die until he
 completes his quest and finds the Grail.
 
 **Weapons:** 
-[]{.lorem}
+Although Percival is familiar with modern weaponry, he prefers to use a crossbow
+with specially prepared bolts that range from explosive tips to stun charges.
+
+His chainmail is a gift from the Aos Sí and is completely unbreakable, while his
+sword, Sequence, is a sister blade to Excalibur from Arthur's arsenal.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## Percival, the Grailknight
@@ -242,7 +294,22 @@ Glytch's attempts to digitize Khyber Pakhtunkhwa, and
 accepted an invitation to join the team.
 
 **Powers:**
-[]{.lorem}
+All information is an open book to the Head Librarian, whether
+in printed form, digital, or mental. He can instantly read any
+book by touching it, and his psychic powers let him browse
+through the thoughts and memories of others as easily as looking
+up a definition in a dictionary.
+
+Although he can absorb information at tremendous speeds, his
+memory retention is not superhuman. The Librarian can hold only
+a few books in memory at once before the information starts to
+fade. For this reason, he brings reference materials with him
+in the field -- "If I don't know the answer, I can look it up!"
+is his motto.
+
+In addition to his purely mental powers, the Head Librarian's
+rudimentally telekinetic powers let him lift books off the
+ground and move them about.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## The Head Librarian
@@ -284,11 +351,34 @@ accepted an invitation to join the team.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
-[]{.lorem}
+Jack Dee would really rather be doing anything else right now, instead of
+saving the world from the latest mystical threat.
+
+The scion of a long line of magical champions, Jack planned to be a lawyer --
+not a superhero. Corporate law is just so much more lucrative than 
+wizardly troubleshooting.
+
+Even as his mother Maddie founded the Cosmic Legends of the Universe as Miss Magister,
+Jack pursued other interests -- even serving as the Cosmic Legends' attorney
+at times. 
+
+When Maddie retired from the Cosmic Legends, her brother Johnny Dee -- Jack's uncle -- 
+assumed her position as the Master Magister. Johnny's tenure as Master Magister was
+cut short by the duplicity of Sequana, who stole his power before taking his life.
+
+Maddie and Jack worked together to avenge Johnny, but the strain was too much for
+the elder Dee; with her dying breath, she bequeathed her power and position to
+Jack, naming him as the new Master Magister. He currently serves as a reserve member
+of the Cosmic Legends, joining as a specialist on missions involving the occult and
+supernatural.
 
 **Powers:**
-[]{.lorem}
+As the Master Magister, Jack Dee's magical powers are limited only by his imagination
+and his force of will. He can conjure shields, travel in astral form, cloud the
+senses of the weak-willed, and call upon the strength of his ancestral line to
+banish evil.
+
+He's also a fairly decent attorney.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## Jack Dee
@@ -355,7 +445,12 @@ of science gone wild.
 []{.lorem}
 
 **Powers:**
-[]{.lorem}
+Like all Vulcanors, Obsidius is superhumanly strong, able to lift several tons
+and resist small-arms fire with his stony skin. He's also completely impervious
+to heat of any kind.
+
+Obsidius's rank as the Crown Prince gives him limited control over rock and earth, 
+although he has done little to actively develop those abilities.
 
 **Weapons:** 
 []{.lorem}
@@ -559,6 +654,14 @@ just over an hour and a half by train.
 Technopolis Academy was established in November 1980 to train 
 young superheroes in the use of their powers and abilities. 
 
+The first two students were Bug (now known as Vespa 2.0) and Energy Boy;
+Glytch is the Academy's biggest shame, as she turned to a life of digital crime
+even while studying at Tech-A.
+
+Most of the Academy students who have had basic crisis training go on to
+join the Junior Legends of America. Of those, Energy Boy and Vespa 2.0 have
+gone on to the core Cosmic Legends team.
+
 # Titan {#setting-titan}
 
 ![Titan](art/jeshields/paragon.png)
@@ -588,7 +691,12 @@ young superheroes in the use of their powers and abilities.
 []{.lorem}
 
 **Powers:**
-[]{.lorem}
+Titan is perhaps the most powerful individual on the planet.
+His Titanian strength lets him lift well over 100 tons, and he is
+able to project the cold frost of the Titanian sky from his
+eyes as energy beams. Flight, speed, and telepathy round out his
+vast array of alien powers -- which are exceptional even for a
+Titanian.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## Titan
@@ -661,7 +769,10 @@ handled the Norse, Greek, and other pantheons over the years.
 her brilliant and creative mind.
 
 **Weapons:** 
-[]{.lorem}
+Hazel's primary weapon was the Vespa armor, designed as rescue and recon gear
+for saving lives. Bulletproof and equipped with transparent insect wings, the
+Vespa armor served her well for decades, with constant upgrades of weaponry and
+sensors.
 
 # Vespa 2.0 {#setting-vespa}
 
@@ -697,7 +808,13 @@ her brilliant and creative mind.
 abilities come from their armored suit.
 
 **Weapons:** 
-[]{.lorem}
+Vespa 2.0's armored suit is an evolved version of their mother's, with
+advanced microhydraulics and structural reinforcements that let them
+lift over 25 tons. A low-power forcefield surrounds the suit, reinforcing
+the flimsy-looking plasma wings that generate anti-grav lift.
+
+In addition, Lin sometimes carries a gun that fires electrical and laser
+blasts, originally developed during her days as The Hornette.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## Vespa 2.0
