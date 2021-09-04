@@ -90,7 +90,7 @@ need, she can form a sword of blazing light.
 - **Active Members:** Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0
 - **Reserve Members:** The Grailknight, Jack Dee, Obsidius Rex, Titan
 - **Former Members:** Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled) Vespa I (deceased), Zaar
-- **Allies:** A.L.E.R.T., The Junior Legends of the World, N.O.V.A. Labs, Technopolis Academy
+- **Allies:** A.L.E.R.T., The Junior Legends of America, N.O.V.A. Labs, Technopolis Academy
 - **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, the Visitors, Villains Inc., Xana Mega
 :::::::::::::::::::::::::::::::::::::::::::::
 
@@ -119,7 +119,7 @@ committed to protecting the Earth from the forces of evil.
 - **Place of Birth:** Chicago, Illinois
 - **Marital Status:** single
 - **Known Relatives:** Delphine Thompson (mother)
-- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of the World (resigned)
+- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (resigned)
 - **Base of Operations:** Tuskaloosa, Alabama and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: bio2 :::::::::::::::::::::::::::
@@ -453,7 +453,9 @@ Obsidius's rank as the Crown Prince gives him limited control over rock and eart
 although he has done little to actively develop those abilities.
 
 **Weapons:** 
-[]{.lorem}
+Obsidius Rex's primary weapon is the Lavablade, a greatsword formed
+of volcanic steel. In the past he has wielded the Ring of Fire as his 
+symbol of rank, but it was destroyed by the Man in Black in 2003.
 
 :::::::::::: {.stats} ::::::::::::::::
 ## Obsidius Rex
@@ -480,7 +482,7 @@ although he has done little to actively develop those abilities.
 - **Occupation:** lifeguard, marine biologist
 - **Legal Status:** Citizen of the United States
 - **Gender:** female (she/her)
-- **Identity:** secret
+- **Identity:** (mostly) secret
 - **Place of Birth:** Honolulu, Hawai'i
 - **Marital Status:** single
 - **Known Relatives:** none
@@ -751,7 +753,7 @@ handled the Norse, Greek, and other pantheons over the years.
 - **Place of Birth:** Albuquerque, New Mexico
 - **Marital Status:** divorced
 - **Known Relatives:** Marquis Malign (ex-husband), Lin Montgomery (child)
-- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder)
+- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder), Neutrino (former partner)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: {.bio2} ::::::::::::::::::::::::
@@ -788,7 +790,7 @@ sensors.
 - **Place of Birth:** Technopolis, U.S.A.
 - **Marital Status:** single 
 - **Known Relatives:** Hazel Montgomery (mother, deceased), Marquis Malign (father)
-- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of the World (as Bug; resigned), Technopolis Academy (graduated)
+- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (as Bug; resigned), Technopolis Academy (graduated)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: bio2    ::::::::::::::::::::::::
@@ -841,7 +843,7 @@ blasts, originally developed during her days as The Hornette.
 - **Former Members:** Marquis Malign, Neutrino, Dr. Phineas Pann (deceased), Sinhammer (deceased), Xana Mega
 - **Allies:** Atomicorps, the Formorians, Neutrino, T.R.E.L.A.
 - **Enemies:** A.L.E.R.T., Cosmic Legends of the Universe, 
-  The Junior Legends of the World, Marquis Malign, N.O.V.A. Labs, 
+  The Junior Legends of America, Marquis Malign, N.O.V.A. Labs, 
   The Verdict
 :::::::::::::::::::::::::::::::::::::::::::::
 
