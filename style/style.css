@@ -1442,7 +1442,8 @@ margin-top: 1em; }
   border-radius: var(--border-radius);
   padding-left: 4pt;
   padding-right: 4pt;
-  padding-top: 2pt;
+  padding-top: 4pt;
+  padding-bottom: 2pt;
 }
 
 .crisis-block > :matches(h1, h2, h3, h4, h5, h6) {
@@ -1528,28 +1529,31 @@ margin-top: 1em; }
 .crisis-block .rules:before {
   display: block;
   content: 'Crisis Rules';
-  margin-top: 0.4em;
+  margin-top: 0.6em;
   margin-bottom: 0.15em;
   font-size: var(--h6);
   font-family: var(--font-h4);
+  break-after: avoid;
 }
 
 .crisis-block .moves:before {
   display: block;
   content: 'Moves';
-  margin-top: 0.4em;
+  margin-top: 0.6em;
   margin-bottom: 0.15em;
   font-size: var(--h6);
   font-family: var(--font-h4);
+  break-after: avoid;
 }
 
 .crisis-block .resolve:before {
   display: block;
   content: 'Resolution';
-  margin-top: 0.4em;
+  margin-top: 0.6em;
   margin-bottom: 0.15em;
   font-size: var(--h6);
   font-family: var(--font-h4);
+  break-after: avoid;
 }
 
 .crisis-block .upgrades { display: none; }
@@ -1557,10 +1561,11 @@ margin-top: 1em; }
 .crisis-block .upgrades:before {
   display: block;
   content: 'Upgrades';
-  margin-top: 0.4em;
+  margin-top: 0.6em;
   margin-bottom: 0.15em;
   font-size: var(--h6);
   font-family: var(--font-h4);
+  break-after: avoid;
 }
 
 .crisis-block .resolve dl dt {
