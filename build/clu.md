@@ -98,591 +98,1642 @@ your hero, and both of these are in the your hands to choose.
 The Editor’s job is to give you those difficult choices.
 
 
-## Overview of Play {#toc-overview .colbefore }
-
-1. []{.gamename} is played as a series of **Storylines**, each
-   taking up one or more game sessions, or **Issues**.
-
-2. Before a new Storyline, the players decide who the **Spotlight**
-   hero will be during that Storyline. 
-
-3. The player with the Spotlight tells the Editor what **Opportunity**
-   they'd like their hero to experience.
-
-4. The Editor shapes a series of **Crises** that let the Spotlight hero
-   work through that Opportunity.
-
-5. Once each player has had the Spotlight to address their 
-   hero's Opportunity, that **Volume** of the campaign wraps up
-   with an **Annual**.
-
-
-## Using the Dice {#toc-dice .colbefore}
-
-The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
-When you want your hero to take an uncertain action, you build a 
-**dice pool** of six-sided dice.
-
-:::::::::::::::::::::: dice-rolls-display :::::::::::::::::::::::::::::::::::
-- One die for every point you have in the relevant **Approach**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .approach}
-[]{.die .approach .dashed}
-[]{.die .approach .dashed}
-[]{.die .approach .dashed}
-[]{.die .approach .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- One die for every Volume if you have a relevant **Skill**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .skill .v1}
-[]{.die .skill .v2 .dashed}
-[]{.die .skill .v3 .dashed}
-[]{.die .skill .v4 .dashed}
-[]{.die .skill .v5 .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- Two dice if you can mark off one of your **Ideals**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .ideal }
-[]{.die .ideal }
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- One die for every **Power Word** you're using in a **Power Display**, **Power Stunt**, or **Power Combo**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .display .dashed}
-[]{.die .stunt .dashed}
-[]{.die .stunt .dashed}
-[]{.die .combo .dashed}
-[]{.die .combo .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- **Other** dice from any other source, such as from a Fighting Style:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Roll all of the dice and then compare the numbers:
-
-::::::::::::: dice-display ::::::::::::::::::::::::::::::::::
-[]{.die .result .r6 .success}
-[]{.die .result .r5 .success}
-[]{.die .result .r4 }
-[]{.die .result .r3 }
-[]{.die .result .r2 }
-[]{.die .result .r1 .edge}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Any dice that come up a **5** or a **6** are counted as **Successes.** 
-A challenging task can require 1-3 Successes to complete (outside combat).
-
-Any dice that come up **2**, **3**, or **4** are ignored.
-
-Any dice that come up **1** are counted as **Edge Successes**. 
-When you roll a 1, you inform the Editor,
-who offers you a **consequence**. 
-
-If you choose to take the Editor’s consequence, you 
-can count the 1 as a **Success**.
-
-This consequence can be mechanical, like losing Health, or it can be 
-narrative, like upsetting an NPC or missing an important clue. 
-The important part is that you're presented with a difficult choice.
-
-
-## From Issues to Volumes {#toc-issues .colbefore}
-
-[]{.gamename} uses some terms from comic books to talk about how 
-the game is played.
-
-### Issues
-
-Each individual game session is known as an **Issue**, and roughly
-corresponds to one issue of a comic book.
-
-The **First Issue** is the first played session of an ongoing []{.gamename} 
-campaigned played by a group -- but first you should have an Issue 0.
-
-#### Issue 0
-
-**Issue 0** -- known as *Session 0* in other games -- is an
-Issue of a []{.gamename} Series when the players don't roll dice and 
-handle Crises, but instead discuss what kind of game each person
-is looking forward to playing.
-
-Issue 0 takes place before the First Issue, and should go over the 
-safety tools used in the game, stress the importance of open communication, 
-and set expectations on the kind of story and play.
-
-Issue 0s are also a great time to create heroes together as a group,
-rather than separately.
-
-### Storylines
-
-During an Issue, the Editor and the players play out the events of
-a **Storyline**.
-
-When you create a new hero, you define a specific lesson you'd like 
-your hero to learn or a specific experience you'd like them to have.
-For that Storyline, your character is considered the **Spotlight** hero.
-
-Each Storyline consists of:
-
-- the Spotlight hero
-- the Opportunity
-- one or more Crises connected to the Opportunity, introduced by the Editor
-- the heroes' reactions to each Crisis
-- the Spotlight hero's reaction the Opportunity
-
-Many Storylines will resolve over the course of one Issue, but some
-can take long and might run for 2 or 3 sessions, or longer.
-
-Once your hero finishes your Storyline, both your hero and your 
-fellow players' heroes gain an **Advancement.**
-
-#### One-Shots
-
-A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
-Series, but stands alone. Most games played at conventions, for example,
-will be One-Shots.
-
-Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
-Opportunity either, but just a connected series of Crises. In those 
-cases, all heroes receive a standard Advancements after dealing with 
-the Crises.
-
-One-Shots obviously won't have a separate Issue 0, but time should still
-be set aside at the start of the Issue to touch on important safety tools.
-
-Many First Issues are One-Shots, as the players and Editor are still 
-getting to know their heroes and the game. These First Issues usually
-feature a few simple Crises to resolve.
-
-### Volumes
-
-Each Storyline is part of a **Volume**; Volumes are a grouping of
-Issues -- game sessions -- and are numbered starting with 1.  
-
-Once all of the heroes have had a chance to play out their Storylines, 
-the Editor and heroes play out a final Issue, known as an **Annual**. 
-
-The Annual ties together the events of the previous Storylines in the
-Volume, and then that Volume concludes.
-
-At the start of a new Volume, your hero develops new powers or finds 
-new ways to use their existing powers.
-
-### Series
-
-A ongoing campaign of []{.gamename} is known as a **Series,** and each 
-Series is comprised of up to five Volumes. 
-
-If your group reaches the end of Volume 5 and with to continue with
-with the same heroes, you can do so: just treat later Volumes as having
-a Volume number of 5, and proceed from there.
-
-### Guest Stars and Crossovers
-
-A **Guest Star** is a hero character from another Series -- either played
-by the same group or a different one -- who plays in the Series for an
-Issue or two. If the Guest Star's Volume number is higher than the group's,
-temporarily lower the Guest Star to the same Volume.
-
-A **Crossover** happens when the heroes from two or more Series work
-together, usually in large, wide-ranging One-Shots. All participating 
-heroes keep their normal Volume numbers without adjustment.
-
-
-## Using Powers {#toc-power-use .breakbefore}
+## The Editor's Role {#toc-editor .breakbefore}
 
 []{.lorem}
 
 
-### Power Displays {#toc-power-displays}
+### Creating a Storyline {#toc-editor-storyline }
 
-:::::::::::::: {.power-chart .power-display} :::::::::::::::
-[]{.power-word .first .any .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[]{.lorem}
+[]{.lorem}
 
-When you want your hero to use their powers, you pick one Power Word
-and explain how you're using that power.
-
-A Power Display doesn't cost any Might points, and has two effects:
-
-1. You can add one die to a relevant roll
-2. You can explain how your hero is able make a roll
-
-After you use a Power Word in a Power Display, it goes on Cooldown
-until the start of the next Hero Phase, and you can't use it until then.
-
-::::::::::::::::: example :::::::::::::::::::::::::::::::::::::::::::::
-For example, if a villain is flying over the city, you could describe it
-as a Power Display using your Power Word of Flight when you take to 
-the skies to throw a punch. 
-
-If you don't have Flight as a Power Word, but you have Line, your
-Display could describe how you hook your swingline onto a nearby 
-skyscraper to deliver two boots to the face.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[]{.lorem}
+[]{.lorem}
+[]{.lorem}
 
 
-### Power Stunts {#toc-power-stunts }
-
-:::::::::::::: {.power-chart .power-stunt} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-A Power Stunt consists of two Power Words joined together.
-In addition, each use of a Stunt requires you to spend 1 point of Might.
-
-When you use a Power Stunt, choose two words from your Power Words
-and put them together in a two-word phrase, then describe what you're
-hoping to accomplish with that Stunt. You can also describe
-what the Stunt looks like, feels like, and any other sensory
-effects.
-
-After spending 1 Might on the Power Stunt, you can then make an
-appropriate roll for your Power Stunt -- either to increase the
-Teamwork Pool or to decrease one of the Goals in a Crisis. Add an
-additional die to the dice pool for each Power Word.
-
-You don't have to come up with your Power Stunts beforehand; instead,
-you create them on the fly during a Crisis, blending together your
-creativity with the ever-evolving situation in the game.
-
-After you use a Power Word in a Power Stunt, it goes on Cooldown
-until the start of the next Hero Phase, and you can't use it until then.
-
-:::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::
-For example, if you have the Flight and Speed Power Words, you
-could join those together for a Power Stunt with the phrase
-"Flight Speed". Spending 1 point of Might on this Stunt
-means that when you make a roll -- such as rolling your Adventure
-Approach to Outwit a foe -- increases the number of dice in your pool
-by 2 dice.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-### Power Combos {#toc-power-combos }
-
-:::::::::::::: {.power-chart .power-combo} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any} 
-[]{.plus} 
-[]{.power-word .any} 
-[]{.plus .dashed} 
-[]{.power-word .any .dashed}
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-A **Power Combo** is a Power Stunt where two or more heroes work
-together, with their powers combined. 
-
-To use a Power Combo, ask one of your fellow players if they'd
-like to form a Power Combo with you and tell them what you're trying
-to accomplish. Together you describe the action your heroes are
-taking and how their powers work to produce the needed effect.
-
-You can invite as many players to join in as you like, as long
-as you can come up with an explanation of how they're helping.
-
-The players decide whose hero is central to the Power Combo, 
-and they're called the initiating hero for that Combo.
-
-A Power Combo starts with a Power Stunt -- the player of the
-initiating hero chooses two Power Words and combines them,
-spending 1 point of Might and increasing the number of dice
-of their next roll by 2 Success.
-
-The other players each spend 1 Might and contribute another
-Power Word to the Power Combo, each of which adds a die to the
-dice pool.
-
-Only the initiating hero can spend additional Might to use one 
-of their Core Power Words as a *third* (or fourth) Power Word in 
-the Combo.
-
-After you use a Power Word in a Power Combo -- either as the
-initiating hero or as a contributing hero -- it goes on Cooldown
-until the start of the next Hero Phase, and you can't use it until then.
-
-:::::::::::::::::::::::::::::: example :::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[]{.lorem}
+[]{.lorem}
 
 
-<div id="power-table">
+### Creating a Crisis {#toc-editor-crisis }
 
-  <h3>Power Word Use</h3>
+[]{.lorem}
+[]{.lorem}
 
-  <table class="power-table">
-    <thead>
-      <tr>
-        <th></th>
-        <th>First Word</th>
-        <th>Second</th>
-        <th>Third</th>
-        <th>Fourth</th>
-        <th>Fifth</th>
-        <th>Sixth</th>
-        <th>Other Players'</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="main">
-        <th>Personal Power Word</th>
-        <td class="yes gray"></td>
-        <td class="yes"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="yes"></td>
-      </tr>
-      <tr class="cost">
-        <th>Cost:</th>
-        <td class="might0"></td>
-        <td class="might1"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="might1"></td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr class="main">
-        <th>Core Power Word</th>
-        <td class="yes gray"></td>
-        <td class="yes"></td>
-        <td class="yes"></td>
-        <td class="yes"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="yes"></td>
-      </tr>
-      <tr class="cost">
-        <th>Cost:</th>
-        <td class="might0"></td>
-        <td class="might1"></td>
-        <td class="might1"></td>
-        <td class="might1"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="might1"></td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr class="main">
-        <th>Nova Power Word</th>
-        <td class="lock gray"></td>
-        <td class="lock"></td>
-        <td class="lock"></td>
-        <td class="lock"></td>
-        <td class="lock"></td>
-        <td class="lock"></td>
-        <td class="lock"></td>
-      </tr>
-      <tr class="cost">
-        <th>Cost:</th>
-        <td class="might0"></td>
-        <td class="might0"></td>
-        <td class="might1"></td>
-        <td class="might1"></td>
-        <td class="might1"></td>
-        <td class="might1"></td>
-        <td class="might0"></td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr class="main">
-        <th>Scene Power Word</th>
-        <td class="no"></td>
-        <td class="yes"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-        <td class="no"></td>
-      </tr>
-      <tr class="cost">
-        <th>Cost:</th>
-        <td class="na"></td>
-        <td class="might0"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-        <td class="na"></td>
-      </tr>
-    </tbody>
-    <tbody class="use-type">
-      <tr>
-        <th rowspan="3">Type of Use</th>
-        <td class="combo"></td>
-        <td class="combo"></td>
-        <td class="combo"></td>
-        <td class="combo"></td>
-        <td class="combo"></td>
-        <td class="combo"></td>
-        <td rowspan="3" class="combo">Power Combo</td>
-      </tr>
-      <tr>
-        <td colspan="5" class="stunt"></td>
-        <td rowspan="2" class="stunt">Power Stunt</td>
-      </tr>
-      <tr>
-         <td rowspan="1" class="display">Power Display</td>
-         <td rowspan="1" colspan="4"></td>
-      </tr>
-    </tbody>
-  </table>
+[]{.lorem}
+[]{.lorem}
 
-</div>
+[]{.lorem}
+[]{.lorem}
 
-### Using Power Words
+#### Common Crisis Moves
 
 []{.lorem}
 
-#### Personal Power Words {#toc-power-use-personal }
+- **Increase a Goal**
+  - **Regenerate          (\*)** Increase the Smash  goal by 1. You can't use this again until a Goal is advanced.
+  - **Countermeasures     (\*)** Increase the Outwit goal by 1. You can't use this again until a Goal is advanced.
+  - **Lash Out            (\*)** Increase the Allay  goal by 1. You can't use this again until a Goal is advanced.
+  - **Endanger Bystanders (\*)** Increase the Rescue goal by 1. You can't use this again until a Goal is advanced.
+- **Harm a Hero**
+  - **Harm a Hero (\*)** One hero loses 1 Health.
+  - **Harm a Hero (\*)** One hero loses 2 Health.
+  - **Harm a Hero (\*)** One hero loses 3 Health.
+  - **Harm a Hero (\*)** One hero loses 4 Health.
+  - **Harm a Hero (\*)** One hero loses 5 Health.
+  - **Harm a Hero (\*)** One hero loses 6 Health.
+- **Harm All Heroes**
+  - **Harm All Heroes (\*)** All heroes lose 1 Health.
+  - **Harm All Heroes (\*)** All heroes lose 2 Health.
+  - **Harm All Heroes (\*)** All heroes lose 3 Health.
+  - **Harm All Heroes (\*)** All heroes lose 4 Health.
+- **Lose a Health Amount**
+  - **Lose 2 Health (\*)** One or more heroes lose 2 Health.
+  - **Lose 3 Health (\*)** One or more heroes lose 3 Health.
+  - **Lose 4 Health (\*)** One or more heroes lose 4 Health.
+  - **Lose 5 Health (\*)** One or more heroes lose 5 Health.
+  - **Lose 6 Health (\*)** One or more heroes lose 6 Health.
+- **Drain Energy**
+  - **Drain Energy (\*)** One hero loses 1 Might.
+  - **Drain Energy (\*)** One hero loses 2 Might.
+  - **Drain Energy (\*)** One hero loses 3 Might.
+  - **Drain Energy (\*)** One hero loses 4 Might.
+- **Drain Heroes' Energy**
+  - **Drain Heroes' Energy (\*)** All heroes lose 1 Might.
+  - **Drain Heroes' Energy (\*)** All heroes lose 2 Might.
+  - **Drain Heroes' Energy (\*)** All heroes lose 3 Might.
+- **Freeze a Goal**
+  - **Freeze the Smash  Goal (\*)** Heroes can't advance the Smash  goal in the next Hero Phase.
+  - **Freeze the Outwit Goal (\*)** Heroes can't advance the Outwit goal in the next Hero Phase.
+  - **Freeze the Allay  Goal (\*)** Heroes can't advance the Allay  goal in the next Hero Phase.
+  - **Freeze the Rescue Goal (\*)** Heroes can't advance the Rescue goal in the next Hero Phase.
+- **Counter a Player**
+  - **Counter the Smash  Goal (\*)** One hero can't advance the Smash  goal in the next Hero Phase.
+  - **Counter the Outwit Goal (\*)** One hero can't advance the Outwit goal in the next Hero Phase.
+  - **Counter the Allay  Goal (\*)** One hero can't advance the Allay  goal in the next Hero Phase.
+  - **Counter the Rescue Goal (\*)** One hero can't advance the Rescue goal in the next Hero Phase.
+- **Block a Approach**
+  - **Block the Action    Approach (\*)** Heroes can't use the Action    approach next Hero Phase.
+  - **Block the Adventure Approach (\*)** Heroes can't use the Adventure approach next Hero Phase.
+  - **Block the Detective Approach (\*)** Heroes can't use the Detective approach next Hero Phase.
+  - **Block the Mystery   Approach (\*)** Heroes can't use the Mystery   approach next Hero Phase.
+  - **Block the Suspense  Approach (\*)** Heroes can't use the Suspense  approach next Hero Phase.
+- **Block a Player's Approach**
+  - **Block a Player's Action    Approach (\*)** One hero can't use the Action    approach next Hero Phase.
+  - **Block a Player's Adventure Approach (\*)** One hero can't use the Adventure approach next Hero Phase.
+  - **Block a Player's Detective Approach (\*)** One hero can't use the Detective approach next Hero Phase.
+  - **Block a Player's Mystery   Approach (\*)** One hero can't use the Mystery   approach next Hero Phase.
+  - **Block a Player's Suspense  Approach (\*)** One hero can't use the Suspense  approach next Hero Phase.
+- **Disrupt Teamwork**
+  - **Disrupt Teamwork (\*)** Heroes can't add to the Teamwork Pool next Hero Phase.
+- **Disrupt a Player's Teamwork**
+  - **Disrupt a Player's Teamwork** One hero can't add to the Teamwork Pool next Hero Phase.
+- **Grow in Size**
+  - **Grow in Size (\*)** The Crisis gains 1 additional move per Crisis Phase. You can't use this again until a Goal is advanced.
+- **Seal the Scene**
+  - **Seal the Scene (\*)** Heroes can't use the General Alert or Timely Arrival moves until a Goal is advanced.
+- **Unerring Aim**
+  - **Unerring Aim (\*)** Heroes can't use the Take The Hit move for the rest of this Crisis Phase.
+- **Precision Attack**
+  - **Precision Attack (\*)** ... Heroes can't use Take The Hit against this move.
 
-:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
-[]{.power-word .first .any .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+### Sample Crises {#toc-sample-crises }
+
+These are examples of crises that Editors can use as the backdrops for
+Story Arcs.
+
+
+#### Aliens {#toc-sample-aliens}
 
 []{.lorem}
 
-:::::::::::::: example :::::::::::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Core Power Words {#toc-power-use-core }
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Alien Patrol
+##### 3 Actions
 
-:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
-[]{.power-word .core .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- **Smash:  3** (destroy the alien ships)
+- **Outwit: 5** (trick the aliens into leaving Earth)
+- **Allay:  5** (understand the aliens' goals)
+- **Rescue: 3** (save potential abductees)
 
-:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any} 
-[]{.power-word .core} 
-[]{.power-word .dashed}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+A cluster of alien spaceships is attacking the local shopping
+mall, trying to abduct innocent bystanders.
 
-:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any } 
-[]{.power-word .core} 
-[]{.power-word .dashed} 
-[]{.plus} 
-[]{.power-word .any} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-You can use one of your Core Power Words as a *third* Power Word 
-in a Power Stunt. Doing so costs 1 additional point of Might, 
-and adds another 1 die to the dice pool on your roll.
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
 
-By spending yet 1 *more* Might point you can add your *other* 
-Core Power Word as a *fourth* Power Word in a Power Stunt. 
-Collectively this gives a bonus of 3 dice in the dice pool,
-but also costs you 3 Might points.
+Move (a)
+:   A desc of the move.
 
-:::::::::::::::: example :::::::::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-#### Nova Power Words {#toc-power-use-nova }
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
 
-:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
-[]{.power-word .nova .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Vol. 3
+:   Add +1 to one Goal
 
-:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .nova .free} 
-[]{.power-word .nova .free .dashed}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Vol. 4
+:   Add +1 to one Goal
 
-:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .nova .free} 
-[]{.power-word .nova .free .dashed}
-[]{.plus} 
-[]{.power-word .any} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Vol. 5
+:   Add +1 to one Goal
 
-:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any } 
-[]{.plus} 
-[]{.power-word .nova .free} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2 Heroes
+:   Subtract 1 Action
 
-Once you've checked all of your hero's Ideals, you unlock
-your **Nova Power Words** and can use them until the end of 
-the current Storyline.
+5 or 6 Heroes
+:   Add +1 Action
 
-You can use one of your Nova Power Words as the *second* Power
-Word in a Stunt without spending any Might; likewise, you can add 
-use one as your contribution to a Combo for free. In both cases, the 
-Nova Power Word still increases the roll's dice pool by 1 die.
+7 or 8 Heroes
+:   Add +2 Actions
 
-Using your *other* Nova Power Word in the same Power Stunt or
-Power Combo requires spending 1 Might. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::: example ::::::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
 
-#### Scene Power Words {#toc-power-use-scene}
+Outwit
+:   A desc of this resolution.
 
-:::::::::::::: {.power-chart .power-stunt} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .scene .free} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Allay
+:   A desc of this resolution.
 
-:::::::::::::: {.power-chart .power-combo} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .scene .free} 
-[]{.plus} 
-[]{.power-word} 
-[]{.plus .dashed} 
-[]{.power-word .dashed} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Rescue
+:   A desc of this resolution.
 
-Each scene has up to 6 Scene Power Words, chosen by the Editor.
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-You can use one Scene Power Word as a second Power Word in a 
-Power Stunt without spending any Might; Scene Power Words are free, 
-but they still contribute 1 die to the dice pool.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Each Power Combo can also include one Scene Power Word for free, 
-and it likewise increases the dice pool of that Combo.
 
-Like other Power Words, every time a Scene Power Word is used in
-a Display, Stunt, or Power, it goes on Cooldown until the start
-of the next Hero Phase and can't be used again until then.
+#### Alternate Universes {#toc-sample-alternate-universes}
 
-:::::::::::::::::::::::::::: example ::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[]{.lorem}
+[]{.lorem}
+[]{.lorem}
+
+
+#### Capitalism {#toc-sample-capitalism}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Eviction
+##### 3 Actions
+
+- **Smash:  3** ()
+- **Outwit: 3** ()
+- **Allay:  3** ()
+- **Rescue: -** 
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Hunger
+##### n Actions
+
+- **Smash:  -**
+- **Outwit: 5** ()
+- **Allay:  3** ()
+- **Rescue: 5** ()
+
+[]{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### The Military {#toc-sample-military}
+
+[]{.lorem}
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### An Army Battalion
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### A Crack Commando Unit
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Air Force Fighter Jets
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### Mythological Monsters {#toc-sample-myth-monsters}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Fire-Breathing Dragon
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### The Walking Dead
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Vampire and Spawn
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### Natural Disasters {#toc-sample-natural-disasters}
+
+[]{.lorem}
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Forest Fire
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Earthquake
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Tsunami
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### Ordinary Criminals {#toc-sample-ordinary-criminals}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Bank Robbery
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Organized Crime
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### The Police {#toc-sample-police}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Police Riot
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### S.W.A.T. Unit
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### Science Gone Wild {#toc-sample-science}
+
+[]{.lorem}
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Mad Scientist's Laboratory
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Nuclear Meltdown
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Toxic Waste Monster
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+#### Super-Villains {#toc-sample-super-villains}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Supervillain Team
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+##### Boss Villain
+##### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

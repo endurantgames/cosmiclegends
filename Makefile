@@ -88,7 +88,7 @@ PRINCEFLAGS_SHEET_ALT    =
 PRINCEFLAGS_SHEET_COLOR    = 
 # PRINCEFLAGS_ORIGIN = 
 PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-# PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
+PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
 PRINCEFLAGS_ORIGIN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
 # PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
 # PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png

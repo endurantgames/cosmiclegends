@@ -14,9 +14,9 @@ ethos
 # safety/during
 # safety/after/
 # safety/*
-overview
-dice
-issues
+# overview
+# dice
+# issues
 # chargen/
 # chargen/class
 # chargen/skills_chargen
@@ -28,12 +28,12 @@ issues
 # chargen/storyline
 # skills
 # classes/*
-powers/
-powers/display
-powers/stunt
-powers/combo
-powers/table
-powers/words
+# powers/
+# powers/display
+# powers/stunt
+# powers/combo
+# powers/table
+# powers/words
 # crisis/
 # crisis/countdown
 # crisis/hero_phase
@@ -42,10 +42,10 @@ powers/words
 # advancement
 # setting/
 # setting/what
-# editor/
-# editor/storyline
-# editor/crisis
-# editor/sample_crises/*
+editor/
+editor/storyline
+editor/crisis
+editor/sample_crises/*
 # glossary
 # credits/
 # credits/license

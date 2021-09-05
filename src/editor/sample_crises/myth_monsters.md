@@ -3,80 +3,213 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## A Zombie Horde (6 actions)
+## Fire-Breathing Dragon
+### n Actions
 
-- **Smash:  6** (destroy them, since they're already dead)
-- **Outwit: 4** (zombies aren't known for being clever)
-- **Allay:  --** (desc of goal)
-- **Rescue: 4** (it's not hard to move people out of harm's way)
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
 
-desc of crisis
+[]{.lorem} []{.lorem}
 
-Crisis Rules
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
 :   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-move (a)
-:   A description of the move.
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
 
-move (a)
-:   A description of the move.
+Move (a)
+:   A desc of the move.
 
-move (a)
-:   A description of the move.
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Resolution (Defeat)
-:   A description of this resolution.
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
 
-Resolution (Smash)
-:   A description of this resolution.
+Vol. 3
+:   Add +1 to one Goal
 
-Resolution (Outwit)
-:   A description of this resolution.
+Vol. 4
+:   Add +1 to one Goal
 
-Resolution (Allay)
-:   A description of this resolution.
+Vol. 5
+:   Add +1 to one Goal
 
-Resolution (Rescue)
-:   A description of this resolution.
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+## The Walking Dead
+### n Actions
+
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## Vampires (4 actions)
+## Vampire and Spawn
+### n Actions
 
-- **Smash:  9** (vampires are hard to just punch)
-- **Outwit: 5** (using their weaknesses against them)
-- **Allay:  7** (appeal to their repressed humanity)
-- **Rescue: 6** (save people from being bitten)
+- **Smash:  x** ()
+- **Outwit: x** ()
+- **Allay:  x** ()
+- **Rescue: x** ()
 
-desc of crisis
+[]{.lorem} []{.lorem}
 
-Crisis Rules
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
 :   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-move (a)
-:   A description of the move.
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
 
-move (a)
-:   A description of the move.
+Move (a)
+:   A desc of the move.
 
-move (a)
-:   A description of the move.
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Resolution (Defeat)
-:   A description of this resolution.
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
 
-Resolution (Smash)
-:   A description of this resolution.
+Vol. 3
+:   Add +1 to one Goal
 
-Resolution (Outwit)
-:   A description of this resolution.
+Vol. 4
+:   Add +1 to one Goal
 
-Resolution (Allay)
-:   A description of this resolution.
+Vol. 5
+:   Add +1 to one Goal
 
-Resolution (Rescue)
-:   A description of this resolution.
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

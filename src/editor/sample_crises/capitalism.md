@@ -3,41 +3,142 @@
 []{.lorem}
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## Corporate Goon Squad (4 actions)
+## Eviction
+### 3 Actions
 
-- **Smash:  6** (break their toys)
-- **Outwit: 4** (get the drop on them)
-- **Allay:  8** (appeal to their common humanity)
-- **Rescue: -- ** 
+- **Smash:  3** ()
+- **Outwit: 3** ()
+- **Allay:  3** ()
+- **Rescue: -** 
 
-desc of crisis
+[]{.lorem} []{.lorem}
 
-Crisis Rules
-:   The Rescue goal can't be advanced in this Crisis.
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-move (a)
-:   A description of the move.
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
 
-move (a)
-:   A description of the move.
+Move (a)
+:   A desc of the move.
 
-move (a)
-:   A description of the move.
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Resolution (Defeat)
-:   A description of this resolution.
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
 
-Resolution (Smash)
-:   A description of this resolution.
+Vol. 3
+:   Add +1 to one Goal
 
-Resolution (Outwit)
-:   A description of this resolution.
+Vol. 4
+:   Add +1 to one Goal
 
-Resolution (Allay)
-:   A description of this resolution.
+Vol. 5
+:   Add +1 to one Goal
 
-Resolution (Rescue)
-:   A description of this resolution.
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+## Hunger
+### n Actions
+
+- **Smash:  -**
+- **Outwit: 5** ()
+- **Allay:  3** ()
+- **Rescue: 5** ()
+
+[]{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: upgrades ::::::::::::::::::::::::::::::
+Vol. 2
+:   Add +1 to one Goal
+
+Vol. 3
+:   Add +1 to one Goal
+
+Vol. 4
+:   Add +1 to one Goal
+
+Vol. 5
+:   Add +1 to one Goal
+
+2 Heroes
+:   Subtract 1 Action
+
+5 or 6 Heroes
+:   Add +1 Action
+
+7 or 8 Heroes
+:   Add +2 Actions
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

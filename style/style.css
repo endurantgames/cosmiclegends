@@ -31,6 +31,7 @@ header h1     { string-set: gamename content()       }
   --font-caption: "Legio Sabina Condensed";
   --font-pregens: "Ad Astra";
   --font-what: "Bebas Neue";
+  --font-display: 'Legio Sabina Title';   
 
   --font-sheet-2: "Legio Sabina Condensed";
   --color-sheet-light: #AAAAAA;
@@ -1435,3 +1436,144 @@ margin-top: 1em; }
   margin-right: 0.125in; 
   font-style: italic; 
 }
+
+.crisis-block { 
+  border: 0.5pt solid silver; 
+  border-radius: var(--border-radius);
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 2pt;
+}
+
+.crisis-block > :matches(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--h4);
+  font-family: var(--font-h2);
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.crisis-block > :matches(h1, h2, h3, h4, h5, h6) + :matches(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--smaller);
+  font-family: var(--font-display);
+  font-weight: normal;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.crisis-block > ul {
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.crisis-block > ul > li {
+  display: inline-block;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  width: 48%;
+  vertical-align: top;
+  margin-bottom: 3pt;
+  padding-right: 0.5em;
+  font-size: var(--small);
+}
+
+.crisis-block > ul > li strong {
+  display: block;
+  font-size: var(--h5);
+  font-family: var(--font-h3);
+  color: var(--color-sheet-dark);
+}
+
+.crisis-block > p {
+  font-style: italic;
+  margin-bottom: 0.75em;
+  margin-top: 0.75em;
+  line-height: 1.1;
+  font-size: var(--smaller);
+}
+
+.crisis-block + .crisis-block { margin-top: 0.75em; }
+
+.crisis-block dl { 
+  margin-top: 0; 
+  margin-bottom: 0.5em; 
+}
+
+.crisis-block dl dd { 
+  display: inline; 
+  margin: 0; 
+  padding: 0; 
+  break-before: avoid; 
+  break-inside: avoid; 
+  line-height: 1.1;
+  font-size: var(--smaller);
+}
+
+.crisis-block dl dt {
+  break-after: avoid; 
+  break-inside: avoid; 
+  font-family: var(--font); 
+  font-size: var(--body);  
+  font-weight: bold;
+  margin-bottom: 0;
+  display: inline;
+  line-height: none;
+}
+
+
+.crisis-block .rules:before {
+  display: block;
+  content: 'Crisis Rules';
+  margin-top: 0.4em;
+  margin-bottom: 0.15em;
+  font-size: var(--h6);
+  font-family: var(--font-h4);
+}
+
+.crisis-block .moves:before {
+  display: block;
+  content: 'Moves';
+  margin-top: 0.4em;
+  margin-bottom: 0.15em;
+  font-size: var(--h6);
+  font-family: var(--font-h4);
+}
+
+.crisis-block .resolve:before {
+  display: block;
+  content: 'Resolution';
+  margin-top: 0.4em;
+  margin-bottom: 0.15em;
+  font-size: var(--h6);
+  font-family: var(--font-h4);
+}
+
+.crisis-block .upgrades { display: none; }
+
+.crisis-block .upgrades:before {
+  display: block;
+  content: 'Upgrades';
+  margin-top: 0.4em;
+  margin-bottom: 0.15em;
+  font-size: var(--h6);
+  font-family: var(--font-h4);
+}
+
+.crisis-block .resolve dl dt {
+  width: 2.85em;
+  display: inline-block;
+}
+
+.crisis-block dl dd:after { 
+  content: '\00000a'; 
+  white-space: pre; 
+}
+
+.crisis-block .rules   dl dd:before { content: ' - '; }
+.crisis-block .moves   dl dd:before { content: ' - '; }
+.crisis-block .resolve dl dd:before { content: ' - '; }
+.crisis-block .upgrades dl dd:before { content: ' - '; }
