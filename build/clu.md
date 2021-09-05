@@ -3177,7 +3177,7 @@ Dedicated Defender
 Hero of the People
 
 :   You are looked up to by the common people. Add 2 to the
-    dice pool when you advance the Rescue goal.
+    dice pool when you advance the Rescue or Allay goals.
 
 Multipower
 
