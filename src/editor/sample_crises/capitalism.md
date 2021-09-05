@@ -84,6 +84,9 @@ Defeat
 []{.lorem}
 
 ::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
 Special Rule
 :   One or more additional rules.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::

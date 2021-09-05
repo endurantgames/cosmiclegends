@@ -1496,7 +1496,7 @@ margin-top: 1em; }
   font-size: var(--smaller);
 }
 
-.crisis-block + .crisis-block { margin-top: 0.75em; }
+.crisis-block + .crisis-block { margin-top: 1em; }
 
 .crisis-block dl { 
   margin-top: 0; 

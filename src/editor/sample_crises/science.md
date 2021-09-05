@@ -4,7 +4,7 @@
 
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-## Mad Scientist's Laboratory
+## Scientist's Lab
 ### n Actions
 
 - **Smash:  x** ()
@@ -15,6 +15,9 @@
 []{.lorem} []{.lorem}
 
 ::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
 Special Rule
 :   One or more additional rules.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -86,6 +89,9 @@ Defeat
 []{.lorem} []{.lorem}
 
 ::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
 Special Rule
 :   One or more additional rules.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -157,6 +163,9 @@ Defeat
 []{.lorem} []{.lorem}
 
 ::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
 Special Rule
 :   One or more additional rules.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::

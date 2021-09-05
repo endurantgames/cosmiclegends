@@ -15,6 +15,9 @@ A cluster of alien spaceships is attacking the local shopping
 mall, trying to abduct innocent bystanders.
 
 ::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
 Special Rule
 :   One or more additional rules.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
