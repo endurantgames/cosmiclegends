@@ -1,0 +1,39 @@
+# Saturn {#setting-saturn}
+
+::::::::::: place :::::::::::::::::::::::::::
+- **Type of Location:** planet and satellites
+- **Location:** 9.58 AU from Sol (average)
+- **Capital:** L'Shar'Ak, Titan
+- **Official Languages:** Titanese (*Ro'Tan'Kesh*)
+- **Demonym:** Titanian
+- **Governance:** Thought-Guild Oligarchy
+- **Head of State:** unknown
+- **Area:** (Titan) 83,000,000 km<sup>2</sup> (3,200,000 sq mi)
+- **Population:** unknown
+:::::::::::::::::::::::::::::::::::::::::::::
+
+The people of Saturn's moon Titan are not native to the
+Solar System; according to their oldest tales, they were
+taken from their home planet by a civilization known as
+the Visitors, were subjected to scientific experiments, 
+and were eventually abandoned on Titan.
+
+Titanians -- known as *Ro'Tan'Okk* in their own language --
+have strong mental powers and communicate by telepathy as
+often as they use *Ro'Tan'Kesh*. 
+
+They are physically superior to humans, with most able to 
+lift over 50 tons with minimal effort. Their only weakness 
+is a strong reaction to being touched by salt water, which 
+burns them and drains their energy.
+
+There are four known genders among the Titanians; Earthlings
+are only familiar with the *nyrr-t'vor* gender thanks to
+the presence of Ty'Tonn To'Rezz on Earth. Titanian families
+are comprised of 3 or more spouses and their children.
+
+The *Ro'Tan'Okk* have no concepts of war or crime; the
+closest thing to a military in Titanian society is the
+*Kyl'Sh'Tal* -- the famed Sentinels of Saturn. Sentinels
+are astronomers tasked with constant vigilance -- to watch
+the skies for the return of the Visitors.

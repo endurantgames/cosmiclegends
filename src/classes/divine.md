@@ -145,9 +145,9 @@ Abilities are gifts from the Gods, whether by birth or by boon.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v1 }::::::::
 
 Stamina of Atlas
 
@@ -173,13 +173,17 @@ Wisdom of Athena
 :   Your insight is unmatched by anyone save the gods themselves.
     Add 2 to the dice pool to advance the Outwit or Allay goals.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v2 }:::::::::
 
 Courage of Ares
 
@@ -201,7 +205,7 @@ Speed of Hermes
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::: {.ability-list .v3 }::::::::::
 
 Power of Zeus
 
@@ -218,8 +222,34 @@ Skill of Artemis
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 and 5 Abilities
+### Volume 4 Abilities
 
-This playtest document only has Divine abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

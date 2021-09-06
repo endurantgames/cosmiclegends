@@ -156,9 +156,9 @@ of super-powers.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v1 }::::::::
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
@@ -182,13 +182,17 @@ Multipower
     in a Hero Phase, choose one Power Word used. That Word 
     doesn't go on cooldown.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+::::: {.ability-list .v2 } ::::::::::
 Power Overwhelming
 
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
@@ -207,7 +211,7 @@ Never-Ending Battle
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
 
 :   You have a base of operations in a remote location. When
@@ -221,8 +225,34 @@ Nigh-Invulnerable
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 and 5 Abilities
+### Volume 4 Abilities
 
-This playtest document only has Paragon abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

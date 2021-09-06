@@ -1,28 +1,3 @@
-:::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
-![What's What](art/whos-who.png){.ww} \
-
-- [](#setting-alert)
-- [](#setting-brigantia)
-- [](#setting-clotu)
-- [](#setting-energy-boy)
-- [](#setting-grailknight)
-- [](#setting-head-librarian)
-- [](#setting-jackdee)
-- [](#setting-nova-labs)
-- [](#setting-obsidius-rex)
-- [](#setting-riptide)
-- [](#setting-rockstar)
-- [](#setting-saturn)
-- [](#setting-sun-city)
-- [](#setting-technopolis)
-- [](#setting-titan)
-- [](#setting-tuatha)
-- [](#setting-vespa-1)
-- [](#setting-vespa)
-- [](#setting-villains-inc)
-- [](#setting-vulcanor)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 # The Official Handbook of the Cosmic Legends Universe {#toc-setting .breakbefore}
 
 The follow section offers a default setting for []{.gamename}, although
@@ -41,7 +16,7 @@ handbooks created by major comics publishers. Complete game stats are
 provided for the ten example characters pictured in the class writeups
 earlier in this book.
 
-## Which Era?
+## Which Era? {#toc-setting-era}
 
 A few of the following entries reference a specific time period or 
 year. There are several ways you can handle such dates:
@@ -111,7 +86,7 @@ when pitching the game to the other players. You could even set
 your Series in a "historical" period in the CLU, such as the
 mid-1960s heyday of the Silver Age Cosmic Legends.
 
-## Customizing the Setting
+## Customizing the Setting {#toc-setting-customize}
 
 Although we do provide enough of a framework for you to get
 started, the CLU isn't a fully realized superhero universe.
@@ -133,7 +108,7 @@ want in your Series. You don't even have to have the Cosmic
 Legends in the Cosmic Legends universe. What if they never
 formed?
 
-## Playing as the Cosmic Legends
+## Playing as the Cosmic Legends {#toc-setting-clotu}
 
 Another approach is to just play the 
 **Cosmic Legends of the Universe** team themselves. 
@@ -157,7 +132,7 @@ And there's nothing stopping you from combining these --
 some players using the "established" CLotU members, while
 others make "All-Different" new heroes.
 
-### Playing as the Junior Legends
+### The Junior Legends of America {#toc-setting-jloa}
 
 If you want to play in the Cosmic Legends universe as younger
 heroes, the **Junior Legends of America** are an official 
@@ -207,4 +182,31 @@ the same rules used by everyone else.
 Naturally, you can use these optional rules if you're playing
 young heroes of your own creation, either in the Cosmic Legends
 or elsewhere.
+
+:::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
+![What's What](art/whos-who.png){.ww } \
+
+- [](#setting-alert)
+- [](#setting-brigantia)
+- [](#setting-clotu)
+- [](#setting-energy-boy)
+- [](#setting-grailknight)
+- [](#setting-head-librarian)
+- [](#setting-jackdee)
+- [](#setting-nova-labs)
+- [](#setting-obsidius-rex)
+- [](#setting-riptide)
+- [](#setting-rockstar)
+- [](#setting-saturn)
+- [](#setting-sun-city)
+- [](#setting-technopolis)
+- [](#setting-titan)
+- [](#setting-tuatha)
+- [](#setting-vespa-1)
+- [](#setting-vespa)
+- [](#setting-villains-inc)
+- [](#setting-vulcanor)
+
+## What's What in the CLU {#toc-setting-whatswhat .anchor}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

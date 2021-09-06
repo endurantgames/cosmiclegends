@@ -140,13 +140,14 @@ perfection of your physical and mental capabilities.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+::::: {.ability-list .v1 } ::::::::::
 
 Team, Together!
 
-:   You are a natural leader. 
+:   You are a natural leader and members of your hero team
+    listen to you.
     Add 2 to the Dice Pool to add to the Teamwork Pool.
 
 Toughness
@@ -172,13 +173,17 @@ Weapons Locker
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 I Work Alone
 
 :   Some people are just reluctant team members.
@@ -198,7 +203,7 @@ Master of Skills
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Implacable Foe
 
 :   Your determination may be your greatest asset.
@@ -213,8 +218,34 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 and 5 Abilities
+### Volume 4 Abilities
 
-This playtest document only has Knight abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

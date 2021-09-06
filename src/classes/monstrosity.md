@@ -127,9 +127,9 @@ humanity.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+::::: {.ability-list .v1 } ::::::::::
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
@@ -153,13 +153,17 @@ Unkillable
     gonna keep you down. Regain 1 Health at the start of the
     Hero Phase if you have 0 Health.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Regeneration
 
 :   If you're ever wounded, you don't stay that way for long.
@@ -178,7 +182,7 @@ Relentless Power
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Nigh-Invulnerable
 
 :   There are few things that can seriously harm you.
@@ -196,7 +200,7 @@ Power Burn
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v4 } :::::::
 Power Overwhelming
 
 :   Your capacity for destruction is extraordinary, even for a hero.
@@ -213,6 +217,17 @@ Immortal
 
 ### Volume 5 Abilities
 
-This playtest document only has Monstrosity abilities up to Volume 4.
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

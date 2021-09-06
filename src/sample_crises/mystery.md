@@ -1,4 +1,4 @@
-# Mystery Investigation
+# Mystery Investigation {#toc-sample-mystery}
 
 []{.lorem}
 

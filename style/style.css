@@ -43,7 +43,7 @@ header h1     { string-set: gamename content()       }
   --font-subtitle       : "Fawn Script";
   --font-what           : "Bebas Neue";
 
-  --color-sidebar       : #F0F0F0;
+  --color-sidebar       : #E0F0F0;
   --color-almost-white  : #F0F0F0;
   --color-combo         : purple;
   --color-display       : teal;
@@ -55,7 +55,17 @@ header h1     { string-set: gamename content()       }
   --color-sheet-dark    : #555555;
   --color-sheet-light   : #AAAAAA;
   --color-sheet-lighter : rgba(128, 128, 128, 0.25);
+  --color-roster        : #F0E0F0;
+
+  --color-statblock-1   : #FFF0F0;
+  --color-statblock-2   : #F0FFF0;
+  --color-statblock-3   : #F0F0FF;
+  --color-statblock-4   : #F0FFFF;
+  --color-statblock-5   : #FFF0FF;
+  --color-statblock-6   : #FFFFF0;
+
   --color-stunt         : blue;
+  --color-toc-white     : #F0F0F0;
   --color-yes           : green;
 
   --color-smash         : #000080;
@@ -163,6 +173,9 @@ ul    { margin-left: 1em;    }
 ul li { margin-left: 1em;    }
 ol    { margin-left: 2.0em; }
 ol ul { margin-left: 1em; }
+dl { }
+dt { }
+dd { margin-left: 1.5em; }
 
 .chargen-list ul { margin: 0; }
 .chargen-list ul li { margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; margin-bottom: 2pt; }
@@ -221,11 +234,14 @@ figure figcaption {
 }
 
 #toc {
-  column-span: all; float: top;
+  column-span: all; 
+  float: top;
   float-defer-page: 1;
-  column-count: 2; column-width: auto; column-gap: 9pt;
+  column-count: 2; 
+  column-width: auto; 
+  column-gap: 9pt;
   margin-bottom: 1em;
-  background-color: var(--color-sidebar);
+  background-color: var(--color-toc-white);
   border-radius: var(--border-radius);
   border: 0.5pt solid var(--color-line);
   padding-right: 6pt;
@@ -256,14 +272,6 @@ figure figcaption {
   margin-top: 0;
   padding-left: 4pt; 
 }
-
-.tstoolkit .icon { white-space: pre; font-weight: bold; line-height: none; }
-.tstoolkit .icon:after { font-family: var(--font-icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; }
-
-.tstoolkit .rewind:after { content: '\f04a'; }
-.tstoolkit .ff:after     { content: '\f050'; }
-.tstoolkit .pause:after  { content: '\f04c'; }
-.tstoolkit .resume:after { content: '\f04b'; }
 
 .license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
 
@@ -529,6 +537,12 @@ margin-top: 0.5em; }
 .ability-list dl dd ul { margin: 0; }
 .ability-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .ability-list dl dd ul li::marker { padding-right: 0.25em; }
+
+.ability-list.v1 dl > * { background-color: var(--color-statblock-1); }
+.ability-list.v2 dl > * { background-color: var(--color-statblock-2); }
+.ability-list.v3 dl > * { background-color: var(--color-statblock-3); }
+.ability-list.v4 dl > * { background-color: var(--color-statblock-4); }
+.ability-list.v5 dl > * { background-color: var(--color-statblock-5); }
 
 .ability-list dl dt {
   background-color: var(--color-sidebar);
@@ -1146,9 +1160,11 @@ margin-top: 0.5em; }
   break-inside: avoid;
   break-after: avoid;
   float: right; 
+  /* 
   margin-left: 0.5em;
   border: 0.5pt solid var(--color-sheet-dark);
   border-radius:     var(--border-radius);
+  */
   margin-bottom: 0.5em;
 }
 
@@ -1166,7 +1182,6 @@ margin-top: 0.5em; }
 
 #section-what p {
   line-height: 1.1;
-  text-align: justify;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -1175,6 +1190,7 @@ margin-top: 0.5em; }
 
 #section-what .stats {
   border-radius:     var(--border-radius);
+  background-color: var(--color-statblock-1);
   border: 0.5pt solid var(--color-sheet-light);
   padding-left: 4pt;
   padding-right: 4pt;
@@ -1191,27 +1207,26 @@ margin-top: 0.5em; }
 }
 
 #section-what .bio2 { column-count: 2; column-gap: 2em; }
+#section-what .bio ul { break-inside: auto; break-before: avoid; }
+#section-what .bio2 ul { break-inside: auto; }
 
 #section-what .group {
-  padding-left: 4pt;
-  padding-right: 4pt;
-  padding-top: 2pt;
-  padding-bottom: 2pt;
-  break-inside: avoid-page;
-  border: 0.5pt solid var(--color-sheet-dark);
-  border-radius:     var(--border-radius);
 }
 
 #section-what .stats > ul > li:nth-child(4) {
   display: inline-block;
   width: auto;
+  margin: 0; 
+  text-indent: 0;
+  box-sizing: border-box;
 }
 
 #section-what .stats > ul > li:nth-child(3) {
   display: inline-block;
-  margin: 0; text-indent: 0;
+  margin: 0; 
+  text-indent: 0;
   box-sizing: border-box;
-  width: 50%;
+  width: 67%;
 }
 
 .power-chart { }
@@ -1300,7 +1315,7 @@ margin-top: 0.5em; }
   color: var(--color-sheet-light); 
 }
 
-.dice-rolls-display .dice-display { margin-left: 0.25in; }
+.dice-rolls-display .dice-display { }
 
 .dice-display .die {
   border-width: 2pt;
@@ -1515,15 +1530,44 @@ margin-top: 0.5em; }
 
 sup { line-height: none; font-size: 50%; }
 
-.member-list ul { break-inside: auto; }
+#section-what .member-list:before {
+  font-size: var(--h5);
+  font-family: var(--font-h4);
+  content: 'Roster:';
+  margin-bottom: 6pt;
+  display: block;
+  break-after: avoid;
+}
+
+#section-what .member-list {
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+  background-color: var(--color-roster);
+  border: 0.5pt solid var(--color-sheet-dark);
+  border-radius: var(--border-radius);
+}
+
+#section-what .member-list em { 
+  font-style: normal; 
+  font-variant: small-caps;
+}
+#section-what .other-list em { 
+  font-style: normal; 
+  font-variant: small-caps;
+}
+
+#section-what .member-list ul { break-inside: auto; }
+#section-what .other-list ul { break-inside: auto; }
 
 .icon-female, .icon-male, .icon-trans {
   font-family: var(--font-icons-noto);
   line-height: none;
-  font-size: 80%;
+  position: relative;
 }
 
-.icon-female { content: var(--icon-female); }
-.icon-male   { content: var(--icon-male);   }
-.icon-trans  { content: var(--icon-trans);  }
+.icon-female { content: var(--icon-female); font-size: 70%; top: -1pt; }
+.icon-male   { content: var(--icon-male);   font-size: 60%; top: -1.50pt; padding-left: 0.75pt; }
+.icon-trans  { content: var(--icon-trans);  font-size: 80%; top: -0.50pt; }
 

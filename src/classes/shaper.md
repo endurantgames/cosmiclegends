@@ -167,9 +167,9 @@ applications of your control power.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v1 } ::::::::
 
 Energy Generation
 
@@ -196,13 +196,17 @@ Wall of Matter
     you can spend Might to counter it instead of spending 
     from the Teamwork Pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+::::::::: {.ability-list .v2 } ::::::
 Grand Unified Theory
 
 :   You've discovered that your powers aren't limited to a
@@ -222,7 +226,7 @@ Power Overwhelming
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::::: {.ability-list .v3 } ::::::
 Draw Power from the Surroundings
 
 :   When one of your Power Words matches one of the Scene Power
@@ -238,8 +242,34 @@ Psychic Manifestation
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 and 5 Abilities
+### Volume 4 Abilities
 
-This playtest document only has Shaper abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

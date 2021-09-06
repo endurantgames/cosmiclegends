@@ -129,9 +129,9 @@ Your Mage Abilities are new ways of calling upon arcane power.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v1 } ::::::::
 
 Auspicious Alliteration
 
@@ -156,13 +156,17 @@ Thinking with Portals
 :   Add Portal as a Personal Power Word. You can make the General
     Alert move without spending from the Teamwork Pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
 :   At the start of each Storyline, pick a number of Power Words
@@ -182,7 +186,7 @@ Eldritch Might
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Arcane Infusion
 
 :   You can impart some of your magical power to another hero.
@@ -199,8 +203,34 @@ Healing Mantra
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 and 5 Abilities
+### Volume 4 Abilities
 
-This playtest document only has Mage abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -1,4 +1,4 @@
-# Legal Entanglements
+# Legal Entanglements {#toc-sample-legal}
 
 []{.lorem}
 

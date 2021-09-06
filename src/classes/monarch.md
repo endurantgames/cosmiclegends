@@ -151,9 +151,9 @@ is inaccessible to those outside of your home.
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v1 } ::::::::
 Exotic Weaponry
 
 :   The weapons from your home use a technology that defies
@@ -181,13 +181,17 @@ Righteous Rage
 :   If you are below half Health, add 2 to the dice pool to 
     advance the Smash goal.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Monarch's Benevolence
 
 :   Your favor is freely bestowed as a boon to those in need.
@@ -208,7 +212,7 @@ Unfamiliar Fighting Techniques
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Inspiring Leadership
 
 :   Others follow your directions based on your force of personality,
@@ -230,7 +234,7 @@ Soul of the Land
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v4 } :::::::
 Unkillable
 
 :   As long as your home is imperiled, you can't be killed. If you're
@@ -249,7 +253,7 @@ Vengeance is Mine
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v5 } :::::::
 Bestow Citizenship
 
 :   You can make someone an honorary member of your home -- which also

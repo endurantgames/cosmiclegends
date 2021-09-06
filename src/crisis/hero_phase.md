@@ -41,31 +41,31 @@ to the Teamwork Pool.
 
 For example, []{.lorem}
 
-## Hero Moves
+## Hero Moves {#toc-crisis-hero-moves}
 
 []{.lorem}
 
-### Power Moves
+### Power Moves {#toc-crisis-hero-moves-power}
 
 []{.lorem}
 
 For example, []{.lorem}
 
-#### Joining a Power Combo 
+#### Joining a Power Combo  {#toc-crisis-hero-moves-join}
 
 **need to clarify: it doesn't cost an action, but you can use each power word only once per phase**
 
 For example, []{.lorem}
 
-### Fighting Moves
+### Fighting Moves {#toc-crisis-hero-moves-fighting}
 
 []{.lorem}
 
-### Skill Moves
+### Skill Moves {#toc-crisis-hero-moves-skill}
 
 []{.lorem}
 
-### Other Moves
+### Other Moves {#toc-crisis-hero-moves-other}
 
 []{.lorem}
 

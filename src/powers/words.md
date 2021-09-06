@@ -1,4 +1,4 @@
-# Using Power Words
+# Using Power Words {#toc-power-use-words}
 
 []{.lorem}
 

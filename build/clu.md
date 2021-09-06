@@ -87,10 +87,10 @@ To play []{.gamename} you'll need:
   - <a href="#toc-approaches"></a>
   - <a href="#toc-fighting-style"></a>
   - <a href="#toc-ideals"></a>
+  - <a href="#toc-powers"></a>
   - <a href="#toc-chargen-identity"></a>
   - <a href="#toc-storyline"></a>
   - <a href="#toc-skills"></a>
-  - <a href="#toc-powers"></a>
 - <a href="#toc-classes"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
@@ -106,10 +106,11 @@ To play []{.gamename} you'll need:
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
   - <a href="#toc-power-combos"></a>
-  - <a href="#toc-power-use-core"></a>
-  - <a href="#toc-power-use-personal"></a>
-  - <a href="#toc-power-use-nova"></a>
-  - <a href="#toc-power-use-scene"></a>
+  - <a href="#toc-power-use-words"></a>
+    - <a href="#toc-power-use-core"></a>
+    - <a href="#toc-power-use-personal"></a>
+    - <a href="#toc-power-use-nova"></a>
+    - <a href="#toc-power-use-scene"></a>
 - <a href="#toc-crisis"></a>
   - <a href="#toc-crisis-countdown"></a>
     - <a href="#toc-crisis-scene"></a>
@@ -118,29 +119,30 @@ To play []{.gamename} you'll need:
     - <a href="#toc-crisis-pool"></a>
   - <a href="#toc-crisis-start"></a>
   - <a href="#toc-crisis-hero"></a>
-    - <a href="#toc-crisis-timely"></a>
-    - <a href="#toc-crisis-alert"></a>
     - <a href="#toc-crisis-advance"></a>
     - <a href="#toc-crisis-contribute"></a>
-    - <a href="#toc-crisis-saving"></a>
+    - <a href="#toc-crisis-hero-moves"></a>
   - <a href="#toc-crisis-crisis"></a>
   - <a href="#toc-crisis-post"></a>
+- <a href="#toc-downtime"></a>
 - <a href="#toc-advancements"></a>
 - <a href="#toc-setting"></a>
+  - <a href="#toc-setting-era"></a>
+  - <a href="#toc-setting-customize"></a>
+  - <a href="#toc-setting-clotu"></a>
+    - <a href="#toc-setting-jloa"></a>
+  - <a href="#toc-setting-whatswhat"></a>
 - <a href="#toc-editor"></a>
   - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>
-  - <a href="#toc-sample-crises"></a>
-    - <a href="#toc-sample-aliens"></a>
-    - <a href="#toc-sample-alternate-universes"></a>
-    - <a href="#toc-sample-capitalism"></a>
-    - <a href="#toc-sample-military"></a>
-    - <a href="#toc-sample-myth-monsters"></a>
-    - <a href="#toc-sample-natural-disasters"></a>
-    - <a href="#toc-sample-ordinary-criminals"></a>
-    - <a href="#toc-sample-police"></a>
-    - <a href="#toc-sample-science"></a>
-    - <a href="#toc-sample-super-villains"></a>
+- <a href="#toc-sample-crises"></a>
+  - <a href="#toc-sample-aliens"></a>
+  - <a href="#toc-sample-military"></a>
+  - <a href="#toc-sample-natural-disasters"></a>
+  - <a href="#toc-sample-ordinary-criminals"></a>
+  - <a href="#toc-sample-personal"></a>
+  - <a href="#toc-sample-science"></a>
+  - <a href="#toc-sample-super-villains"></a>
 - <a href="#toc-glossary"></a>
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"></a>
@@ -1584,7 +1586,7 @@ Abilities are gifts from the Gods, whether by birth or by boon.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v1 }::::::::
 
 Stamina of Atlas
 
@@ -1616,7 +1618,7 @@ Wisdom of Athena
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v2 }:::::::::
 
 Courage of Ares
 
@@ -1638,7 +1640,7 @@ Speed of Hermes
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::: {.ability-list .v3 }::::::::::
 
 Power of Zeus
 
@@ -1801,7 +1803,7 @@ Your Dynamo Abilities are refinements of your energy powers.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::: {.ability-list .v1 } :::::::::
 
 Destructive Energies
 
@@ -1833,7 +1835,7 @@ Wide Angle
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Energy Shaping
 
 :   Add a Word from the Shaper class's Personal Power Word list
@@ -1852,7 +1854,7 @@ Energy Versatility
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v3 } ::::::::
 Power Conduit
 
 :   You're able to channel your energy to great effect. When you
@@ -2004,7 +2006,7 @@ stock of creations.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::: { .ability-list .v1 } ::::::::
 
 Armorsmith
 
@@ -2038,7 +2040,7 @@ Stately Skyscraper
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::: {.ability-list .v2} ::::::::::::
 Puissant Polymath
 
 :   Your education covered a wide range of topics.  Gain a number of 
@@ -2060,7 +2062,7 @@ Weaponsmith
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::::: {.ability-list .v3} :::::::
 Absorption Field
 
 :   Your defenses include an inertia-dampening force field
@@ -2227,7 +2229,7 @@ perfection of your physical and mental capabilities.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+::::: {.ability-list .v1 } ::::::::::
 
 Team, Together!
 
@@ -2263,7 +2265,7 @@ Weapons Locker
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 I Work Alone
 
 :   Some people are just reluctant team members.
@@ -2283,7 +2285,7 @@ Master of Skills
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Implacable Foe
 
 :   Your determination may be your greatest asset.
@@ -2437,7 +2439,7 @@ Your Mage Abilities are new ways of calling upon arcane power.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v1 } ::::::::
 
 Auspicious Alliteration
 
@@ -2468,7 +2470,7 @@ Thinking with Portals
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
 :   At the start of each Storyline, pick a number of Power Words
@@ -2488,7 +2490,7 @@ Eldritch Might
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Arcane Infusion
 
 :   You can impart some of your magical power to another hero.
@@ -2653,7 +2655,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free;
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Obsidius Rex, Prince of Vulcanor](art/jeshields/monarch.png "Lord Obsidio, prince of Vulcanor"){.class}
+![Obsidius Rex, Prince of Vulcanor](art/jeshields/monarch.png "Obsidius Rex, prince of Vulcanor"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Monarch Abilities {  .class}
@@ -2666,7 +2668,7 @@ is inaccessible to those outside of your home.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v1 } ::::::::
 Exotic Weaponry
 
 :   The weapons from your home use a technology that defies
@@ -2700,7 +2702,7 @@ Righteous Rage
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Monarch's Benevolence
 
 :   Your favor is freely bestowed as a boon to those in need.
@@ -2721,7 +2723,7 @@ Unfamiliar Fighting Techniques
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Inspiring Leadership
 
 :   Others follow your directions based on your force of personality,
@@ -2743,7 +2745,7 @@ Soul of the Land
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v4 } :::::::
 Unkillable
 
 :   As long as your home is imperiled, you can't be killed. If you're
@@ -2762,7 +2764,7 @@ Vengeance is Mine
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v5 } :::::::
 Bestow Citizenship
 
 :   You can make someone an honorary member of your home -- which also
@@ -2914,7 +2916,7 @@ humanity.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+::::: {.ability-list .v1 } ::::::::::
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
@@ -2944,7 +2946,7 @@ Unkillable
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Regeneration
 
 :   If you're ever wounded, you don't stay that way for long.
@@ -2963,7 +2965,7 @@ Relentless Power
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v3 } :::::::
 Nigh-Invulnerable
 
 :   There are few things that can seriously harm you.
@@ -2981,7 +2983,7 @@ Power Burn
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v4 } :::::::
 Power Overwhelming
 
 :   Your capacity for destruction is extraordinary, even for a hero.
@@ -3162,7 +3164,7 @@ of super-powers.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v1 }::::::::
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
@@ -3192,7 +3194,7 @@ Multipower
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+::::: {.ability-list .v2 } ::::::::::
 Power Overwhelming
 
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
@@ -3211,7 +3213,7 @@ Never-Ending Battle
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
 
 :   You have a base of operations in a remote location. When
@@ -3389,7 +3391,7 @@ power.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+:::::: {.ability-list .v1 } :::::::::
 
 Cloud the Senses
 
@@ -3421,7 +3423,7 @@ Telekinetics
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+:::::::: {.ability-list .v2 } :::::::
 Mind Over Matter
 
 :   You can keep yourself conscious through sheer force of will.
@@ -3439,7 +3441,7 @@ Psychic Healing
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::::: {.ability-list .v3 } ::::::
 Power Overwhelming
 
 :   Your capacity for psionics is extraordinary, even for a hero.
@@ -3630,7 +3632,7 @@ applications of your control power.
 
 At the start of Volume 1, choose an ability from this list.
 
-::::::::::: ability-list ::::::::::::
+::::::: {.ability-list .v1 } ::::::::
 
 Energy Generation
 
@@ -3663,7 +3665,7 @@ Wall of Matter
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
-::::::::::: ability-list ::::::::::::
+::::::::: {.ability-list .v2 } ::::::
 Grand Unified Theory
 
 :   You've discovered that your powers aren't limited to a
@@ -3683,7 +3685,7 @@ Power Overwhelming
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
-::::::::::: ability-list ::::::::::::
+::::::::: {.ability-list .v3 } ::::::
 Draw Power from the Surroundings
 
 :   When one of your Power Words matches one of the Scene Power
@@ -3952,7 +3954,7 @@ For example, []{.lorem}
 
 </div>
 
-### Using Power Words
+### Using Power Words {#toc-power-use-words}
 
 []{.lorem}
 
@@ -4225,31 +4227,31 @@ to the Teamwork Pool.
 
 For example, []{.lorem}
 
-#### Hero Moves
+#### Hero Moves {#toc-crisis-hero-moves}
 
 []{.lorem}
 
-##### Power Moves
+##### Power Moves {#toc-crisis-hero-moves-power}
 
 []{.lorem}
 
 For example, []{.lorem}
 
-##### Joining a Power Combo 
+##### Joining a Power Combo  {#toc-crisis-hero-moves-join}
 
 **need to clarify: it doesn't cost an action, but you can use each power word only once per phase**
 
 For example, []{.lorem}
 
-##### Fighting Moves
+##### Fighting Moves {#toc-crisis-hero-moves-fighting}
 
 []{.lorem}
 
-##### Skill Moves
+##### Skill Moves {#toc-crisis-hero-moves-skill}
 
 []{.lorem}
 
-##### Other Moves
+##### Other Moves {#toc-crisis-hero-moves-other}
 
 []{.lorem}
 
@@ -4313,6 +4315,11 @@ to the heroes.
 For example, []{.lorem}
 
 
+## Downtime {#toc-downtime}
+
+[]{.lorem}
+
+
 ## Advancements {#toc-advancements .breakbefore}
 
 Advancements are how you reflect your hero's growth over the
@@ -4374,31 +4381,6 @@ for each previous Volume. You can't add more Skills, Personal Power
 Words, or Fighting Styles than the number of completed Volumes.
 
 
-:::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
-![What's What](art/whos-who.png){.ww} \
-
-- [](#setting-alert)
-- [](#setting-brigantia)
-- [](#setting-clotu)
-- [](#setting-energy-boy)
-- [](#setting-grailknight)
-- [](#setting-head-librarian)
-- [](#setting-jackdee)
-- [](#setting-nova-labs)
-- [](#setting-obsidius-rex)
-- [](#setting-riptide)
-- [](#setting-rockstar)
-- [](#setting-saturn)
-- [](#setting-sun-city)
-- [](#setting-technopolis)
-- [](#setting-titan)
-- [](#setting-tuatha)
-- [](#setting-vespa-1)
-- [](#setting-vespa)
-- [](#setting-villains-inc)
-- [](#setting-vulcanor)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## The Official Handbook of the Cosmic Legends Universe {#toc-setting .breakbefore}
 
 The follow section offers a default setting for []{.gamename}, although
@@ -4417,7 +4399,7 @@ handbooks created by major comics publishers. Complete game stats are
 provided for the ten example characters pictured in the class writeups
 earlier in this book.
 
-### Which Era?
+### Which Era? {#toc-setting-era}
 
 A few of the following entries reference a specific time period or 
 year. There are several ways you can handle such dates:
@@ -4487,7 +4469,7 @@ when pitching the game to the other players. You could even set
 your Series in a "historical" period in the CLU, such as the
 mid-1960s heyday of the Silver Age Cosmic Legends.
 
-### Customizing the Setting
+### Customizing the Setting {#toc-setting-customize}
 
 Although we do provide enough of a framework for you to get
 started, the CLU isn't a fully realized superhero universe.
@@ -4509,7 +4491,7 @@ want in your Series. You don't even have to have the Cosmic
 Legends in the Cosmic Legends universe. What if they never
 formed?
 
-### Playing as the Cosmic Legends
+### Playing as the Cosmic Legends {#toc-setting-clotu}
 
 Another approach is to just play the 
 **Cosmic Legends of the Universe** team themselves. 
@@ -4533,7 +4515,7 @@ And there's nothing stopping you from combining these --
 some players using the "established" CLotU members, while
 others make "All-Different" new heroes.
 
-#### Playing as the Junior Legends
+#### The Junior Legends of America {#toc-setting-jloa}
 
 If you want to play in the Cosmic Legends universe as younger
 heroes, the **Junior Legends of America** are an official 
@@ -4584,9 +4566,37 @@ Naturally, you can use these optional rules if you're playing
 young heroes of your own creation, either in the Cosmic Legends
 or elsewhere.
 
+:::::::::::::::::::: {#what-page} :::::::::::::::::::::::::::::::
+![What's What](art/whos-who.png){.ww } \
+
+- [](#setting-alert)
+- [](#setting-brigantia)
+- [](#setting-clotu)
+- [](#setting-energy-boy)
+- [](#setting-grailknight)
+- [](#setting-head-librarian)
+- [](#setting-jackdee)
+- [](#setting-nova-labs)
+- [](#setting-obsidius-rex)
+- [](#setting-riptide)
+- [](#setting-rockstar)
+- [](#setting-saturn)
+- [](#setting-sun-city)
+- [](#setting-technopolis)
+- [](#setting-titan)
+- [](#setting-tuatha)
+- [](#setting-vespa-1)
+- [](#setting-vespa)
+- [](#setting-villains-inc)
+- [](#setting-vulcanor)
+
+### What's What in the CLU {#toc-setting-whatswhat .anchor}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::: {#section-what .breakbefore} :::::::::::::::::::::::::::::::::::::::::::::
-### A.L.E.R.T. {#setting-alert}
+
+#### A.L.E.R.T. {#setting-alert}
 
 :::::::::::: group ::::::::::::::::::::::::::
 - **Type of Group:** Government Agency
@@ -4606,7 +4616,8 @@ A.L.E.R.T. usually works with the Cosmic Legends, although the two groups have
 clashed in the past -- most notably when A.L.E.R.T. was infiltrated by agents 
 of T.R.E.L.A.
 
-### Brigantia {#setting-brigantia}
+
+#### Brigantia {#setting-brigantia}
 
 ![Brigantia](art/jeshields/divine.png) 
 
@@ -4654,7 +4665,7 @@ and projection of light rays from her eyes; in times of great
 need, she can form a sword of blazing light.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Brigantia
+##### Brigantia
 
 - **Class:** The Divine
 - **Approaches:** Action 3, Adventure 3, Detective 1, Mystery 1, Suspense 2
@@ -4669,14 +4680,14 @@ need, she can form a sword of blazing light.
 - **Ideals:** Culture, Honor, Justice, Loyalty, Vengeance
 ::::::::::::::::::::::::::::::::::::::
 
-### Cosmic Legends of the Universe {#setting-clotu}
+#### Cosmic Legends of the Universe {#setting-clotu}
 
 ::::::::::: group :::::::::::::::::::::::::::
 - **Type of Group:** Superhero Team
 - **Base of Operations:** Sun City, U.S.A.; Technopolis, U.S.A. (former base); Mag Findargat, Otherworld (temporary base); Pittsburgh, Pennsylvania (former base)
 - **Active Members:** Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0
 - **Reserve Members:** The Grailknight, Jack Dee, Obsidius Rex, Titan
-- **Former Members:** Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled) Vespa I (deceased), Zaar
+- **Former Members:** Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled), Vespa I (deceased), Zaar
 - **Allies:** A.L.E.R.T., The Junior Legends of America, N.O.V.A. Labs, Technopolis Academy
 - **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, the Visitors, Villains Inc., Xana Mega
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -4697,26 +4708,27 @@ Although their membership has changed over the decades, they remain
 committed to protecting the Earth from the forces of evil.
 
 ::::::::::::::::::::::::: member-list :::::::::::::::::::::::::::
-- **Brigantia**[]{.icon-female } See *Brigantia.*
-- **Bug (Mar Ferrandis)**[]{.icon-female } The second hero to use the name *Bug* and friend of Lin Montgomery. Retired from superheroics.
-- **Energy Boy**[]{.icon-male   } See *Energy Boy.*
-- **Falconer, The**[]{.icon-female } Winged hero who could communicate with avians; current location and status unknown.
-- **Head Librarian, The**[]{.icon-male   } See *Head Librarian*.
-- **Master Magister (Jack Dee)**[]{.icon-male   } *reserve* See *Jack Dee*.
-- **Master Magister (Johnny Dee)**[]{.icon-male   } *deceased* Younger brother of Miss Magister and uncle of Jack Dee.
-- **Miss Magister: Maddie Dee**[]{.icon-female } *deceased* Founding member of the Cosmic Legends and mother of Jack Dee.
-- **Obsidius Rex** *reserve*[]{.icon-male   } See *Obsidius Rex*.
-- **Percival, the Grailknight**[]{.icon-male   } *reserve* See *Grailknight*.
-- **Riptide**[]{.icon-female } See *Riptide*.
-- **Rockstar**[]{.icon-female } See *Rockstar*.
-- **Sequana** *expelled*[]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; now a wanted criminal.
-- **Titan, Sentinel of Saturn**[]{.icon-trans  } *reserve* See *Titan*.
-- **Vespa (Hazel Montgomery)**[]{.icon-male   } *deceased* See *Vespa I*.
-- **Vespa (Lin Montgomery)**[]{.icon-trans  } See *Vespa 2.0*.
-- **Zaar**[]{.icon-female } Time-traveller from the 24th Century; returned to her own century rather than face trial for killing Sinhammer.
+- **Brigantia**[]{.icon-female} See *Brigantia.*
+- **Bug (Mar Ferrandis)**[]{.icon-female} *retired* The second hero to use the name *Bug* and friend of Lin Montgomery. Retired from superheroics.
+- **Energy Boy**[]{.icon-male} See *Energy Boy.*
+- **The Falconer**[]{.icon-female} A mysterious winged hero who could communicate with avians; current location and status unknown.
+- **The Head Librarian**[]{.icon-male} See *Head Librarian*.
+- **Master Magister (Jack Dee)**[]{.icon-male} *reserve* See *Jack Dee*.
+- **Master Magister (Johnny Dee)**[]{.icon-male} *deceased* Younger brother of Miss Magister and uncle of Jack Dee.
+- **Miss Magister: Maddie Dee**[]{.icon-female} *deceased* Founding member of the Cosmic Legends and mother of Jack Dee.
+- **Obsidius Rex**[]{.icon-male} *reserve* See *Obsidius Rex*.
+- **Riptide**[]{.icon-female} See *Riptide*.
+- **Rockstar**[]{.icon-female} See *Rockstar*.
+- **Sequana**[]{.icon-female} *expelled* See *Villains, Inc.*
+- **Sir Percival, the Grailknight**[]{.icon-male} *reserve* See *Grailknight*.
+- **Titan, Sentinel of Saturn**[]{.icon-trans} *reserve* See *Titan*.
+- **Vespa (Hazel Montgomery)**[]{.icon-male} *deceased* See *Vespa I*.
+- **Vespa (Lin Montgomery)**[]{.icon-trans} See *Vespa 2.0*.
+- **Zaar**[]{.icon-female} Time-traveller from the 24th Century; returned to her own century rather than face trial for killing Sinhammer.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Energy Boy {#setting-energy-boy}
+
+#### Energy Boy {#setting-energy-boy}
 
 ![Energy Boy](art/jeshields/dynamo.png)
 
@@ -4779,7 +4791,7 @@ his nuclear energies and assume a human shape, becoming the young man he would
 have been had his mother's pride not cost them both dearly.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Energy Boy
+##### Energy Boy
 
 - **Class:** The Dynamo
 - **Approaches:** Action 2, Adventure 3, Detective 2, Mystery 1, Suspense 2
@@ -4794,7 +4806,7 @@ have been had his mother's pride not cost them both dearly.
 - **Ideals:** Guilt, Longing, Politeness, Relax, Responsibility
 ::::::::::::::::::::::::::::::::::::::
 
-### The Grailknight {#setting-grailknight}
+#### The Grailknight {#setting-grailknight}
 
 ![Percival, the Grailknight](art/jeshields/knight.png)
 
@@ -4852,7 +4864,7 @@ His chainmail is a gift from the Aos Sí and is completely unbreakable, while hi
 sword, Sequence, is a sister blade to Excalibur from Arthur's arsenal.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Percival, the Grailknight
+##### Percival, the Grailknight
 
 - **Class:** The Knight
 - **Approaches:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
@@ -4867,7 +4879,7 @@ sword, Sequence, is a sister blade to Excalibur from Arthur's arsenal.
 - **Ideals:** Chivalry, Faith, Honor, Law, Vows
 ::::::::::::::::::::::::::::::::::::::
 
-### The Head Librarian {#setting-head-librarian}
+#### The Head Librarian {#setting-head-librarian}
 
 ![The Head Librarian](art/jeshields/psychic.png)
 
@@ -4922,7 +4934,7 @@ rudimentally telekinetic powers let him lift books off the
 ground and move them about.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### The Head Librarian
+##### The Head Librarian
 
 - **Class:** The Psychic
 - **Approaches:** Action 1, Adventure 2, Detective 1, Mystery 2, Suspense 4
@@ -4937,7 +4949,7 @@ ground and move them about.
 - **Ideals:** Aesthetics, Compassion, Knowledge, Learning, Order
 ::::::::::::::::::::::::::::::::::::::
 
-### Jack Dee, Master Magister {#setting-jackdee}
+#### Jack Dee, Master Magister {#setting-jackdee}
 
 ![Jack Dee](art/jeshields/mage.png)
 
@@ -4991,7 +5003,7 @@ banish evil.
 He's also a fairly decent attorney.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Jack Dee
+##### Jack Dee
 
 - **Class:** The Mage
 - **Approaches:** Action 1, Adventure 1, Detective 4, Mystery 2, Suspense 2
@@ -5006,7 +5018,7 @@ He's also a fairly decent attorney.
 - **Ideals:** Duty, Family, Pedantry, Responsibility, Secrecy
 ::::::::::::::::::::::::::::::::::::::
 
-### N.O.V.A. Labs {#setting-nova-labs}
+#### N.O.V.A. Labs {#setting-nova-labs}
 
 :::::::::::: group ::::::::::::::::::::::::::
 - **Type of Group:** Research Consortium
@@ -5028,7 +5040,7 @@ have been established in 9 other cities. N.O.V.A. Labs are a helpful
 resource for scientific-minded heroes, but there's always the risk
 of science gone wild.
 
-### Obsidius Rex {#setting-obsidius-rex}
+#### Obsidius Rex {#setting-obsidius-rex}
 
 ![Obsidius Rex](art/jeshields/monarch.png)
 
@@ -5052,7 +5064,37 @@ of science gone wild.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+For most Earthlings, Obsidius was the first Vulcanor they'd ever
+heard of; the inhabitants of the Volcano Isles kept themselves 
+isolated for centuries from the primative outside world.
+
+The oldest child of King Tachylus and Queen Limuo, Obsidius was raised
+to be the heir to the advanced Vulcanor civilization. From an early
+age, he trained with weapons and studied statecraft and the sciences.
+
+While just a young man, Tachylus sent Obsidius as an emissary, first
+to meet Titan and then to the outside world in general. Shortly after
+the Cosmic Legends were created, he joined as their first non-founding
+member.
+
+Obsidius's recklessness as a young man led to several diplomatic
+incidents with the outside world, including a tense but brief cold
+war with New Zealand.
+
+The ensuing decades have mellowed the crown prince's temper, and he's
+regarded as an elder statesman in the superhero community -- to his
+amusement, as 75 years of age is still considered young by Vulcanor
+standards.
+
+King Tachylus, on the other hand, is no longer a young monarch and is
+showing his age. Obsidius's mother, Limuo, has renounced her title
+and separated from Tachylus, while their younger child, Igneia, was
+exiled for attempting to murder the rest of the Royal Family.
+
+These have put additional stresses on Obsidius to find a spouse and
+produce a future successor, if just to prevent Vulcanor from 
+descending into a civil war between his many squabbling cousins were
+something to happen to the king and prince.
 
 **Powers:**
 Like all Vulcanors, Obsidius is superhumanly strong, able to lift several tons
@@ -5068,7 +5110,7 @@ of volcanic steel. In the past he has wielded the Ring of Fire as his
 symbol of rank, but it was destroyed by the Man in Black in 2003.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Obsidius Rex
+##### Obsidius Rex
 
 - **Class:** The Monarch
 - **Approaches:** Action 2, Adventure 4, Detective 1, Mystery 2, Suspense 1
@@ -5083,7 +5125,7 @@ symbol of rank, but it was destroyed by the Man in Black in 2003.
 - **Ideals:** Nationalism, Nobility, Pride, Security, Stubbornness
 ::::::::::::::::::::::::::::::::::::::
 
-### Riptide {#setting-riptide}
+#### Riptide {#setting-riptide}
 
 ![Riptide](art/jeshields/shaper.png)
 
@@ -5109,7 +5151,40 @@ symbol of rank, but it was destroyed by the Man in Black in 2003.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+Kelly Liang always loved the sea; while a high school
+student in Hawai'i she took a job as a lifeguard, even
+though her family was wealthy enough that she didn't
+*need* to work.
+
+While working that very job, Kelly was stung by a mutated
+jellyfish in the process of saving a drowning woman. 
+She managed to make it safely back to shore before from 
+the strange toxins in her blood.
+
+Kelly lay in a coma for three weeks, while her parents
+saw that she received the best care that money could buy --
+including an experimental treatment that brought her
+back to consciousness.
+
+Although she was awake, the experience had left her weakened
+and barely able to move. Giving up her beloved surfing
+hobby, Kelly threw herself into the study of biochemistry
+and marine biology, eventually becoming a professor.
+
+Years after her life-changing accident, Kelly managed to
+a synthesize a cure for the poisons that ravaged her body --
+and also found a strange side effect had given her control
+over water!
+
+Dubbing herself Riptide, Liang became a superhero and eventually
+was invited to join the Cosmic Legends. She still teaches 
+marine biology at the university; Kelly's identity as Riptide is 
+an open secret among most Hawai'ians.
+
+But as Riptide is the most prominent and popular superhero 
+of Hawai'i, the people of the islands are happy to maintain 
+the polite fiction that there's no connection between Professor
+Liang and the Hero of Hilo.
 
 **Powers:**
 Riptide has complete telekinetic control over liquid water, 
@@ -5121,7 +5196,7 @@ She can propel herself at speeds up to 100 m.p.h. underwater
 or on the surface of a body of water, and 50 m.p.h. over land.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Riptide
+##### Riptide
 
 - **Class:** The Shaper
 - **Approaches:** Action 2, Adventure 4, Detective 2, Mystery 1, Suspense 1
@@ -5136,7 +5211,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
 - **Ideals:** Lifesaving, Nature, Protection, Surfing, Humor
 ::::::::::::::::::::::::::::::::::::::
 
-### Rockstar {#setting-rockstar}
+#### Rockstar {#setting-rockstar}
 
 ![Rockstar](art/jeshields/monstrosity.png)
 
@@ -5163,7 +5238,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
 []{.lorem}
 
 **Powers:**
-Jeri North's exposure to bremsstrahlung rays fundamentally changed
+Jeri North's exposure to *bremsstrahlung* rays fundamentally changed
 the nature of her body. Her skin is a rough, rocky substance with
 sharp metal "hairs" scattered about, and her internal organs and skeleton
 are composed of even denser materials.
@@ -5172,7 +5247,7 @@ This grants her a high degree of imperviousness to pain and injury,
 and lets her lift in excess of 100 tons.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Rockstar 
+##### Rockstar 
 
 - **Class:** The Monstrosity
 - **Approaches:** Action 4, Adventure 2, Detective 2, Mystery 1, Suspense 1
@@ -5187,7 +5262,7 @@ and lets her lift in excess of 100 tons.
 - **Ideals:** Bold, Comfort, Fun, Kindness, Music
 ::::::::::::::::::::::::::::::::::::::
 
-### Saturn {#setting-saturn}
+#### Saturn {#setting-saturn}
 
 ::::::::::: place :::::::::::::::::::::::::::
 - **Type of Location:** planet and satellites
@@ -5227,7 +5302,7 @@ closest thing to a military in Titanian society is the
 are astronomers tasked with constant vigilance -- to watch
 the skies for the return of the Visitors.
 
-### Sun City, U.S.A. {#setting-sun-city}
+#### Sun City, U.S.A. {#setting-sun-city}
 
 ::::::::::: place :::::::::::::::::::::::::::
 - **Type of Location:** city
@@ -5250,7 +5325,7 @@ and the Techno-Sun Bullet Train station.
 Technopolis is located about 300 kilometers (186 miles) away;
 just over an hour and a half by train.
 
-### Technopolis Academy {#setting-technopolis}
+#### Technopolis Academy {#setting-technopolis}
 
 :::::::::::: group ::::::::::::::::::::::::::
 - **Type of Group:** Private School
@@ -5266,13 +5341,13 @@ young superheroes in the use of their powers and abilities.
 
 The first two students were Bug (now known as Vespa 2.0) and Energy Boy;
 Glytch is the Academy's biggest shame, as they turned to a life of digital crime
-even while studying at Tech-A.
+even while studying at Techno-A.
 
 Most of the Academy students who have had basic crisis training go on to
 join the Junior Legends of America. Of those, Energy Boy and Vespa 2.0 have
 gone on to the core Cosmic Legends team.
 
-### Titan {#setting-titan}
+#### Titan {#setting-titan}
 
 ![Titan](art/jeshields/paragon.png)
 
@@ -5308,7 +5383,7 @@ vast array of alien powers -- which are exceptional even for a
 Titanian.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Titan
+##### Titan
 
 - **Class:** The Paragon
 - **Approaches:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
@@ -5323,7 +5398,7 @@ Titanian.
 - **Ideals:** Caution, Curiosity, Freedom, Joy, Privacy
 ::::::::::::::::::::::::::::::::::::::
 
-### Tuatha Dé Danann {#setting-tuatha}
+#### Tuatha Dé Danann {#setting-tuatha}
 
 ::::::::::: group :::::::::::::::::::::::::::
 - **Type of Group:** Pantheon
@@ -5341,8 +5416,8 @@ Celts. They grant a portion of their power to a mortal human who becomes
 their Champion; the current Champion is Sienna MacGowan, otherwise 
 known as Brigantia of the Cosmic Legends.
 
-::::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::
-#### Apology to Celtic Pagans
+::::::::::::: {.soapbox .small } ::::::::::::::::::::::::::::::
+##### Apology to Celtic Pagans
 
 I apologize in advance for the horrible mishandling of the 
 Tuatha Dé Danann and other elements of Celtic mythology.
@@ -5350,7 +5425,7 @@ It's done specifically in reference to the way Marvel Comics
 handled the Norse, Greek, and other pantheons over the years.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Vespa i {#setting-vespa-1}
+#### Vespa i {#setting-vespa-1}
 
 ::::::::::::: {.bio} ::::::::::::::::::::::::
 - **Real Name:** Hazel Montgomery
@@ -5360,8 +5435,9 @@ handled the Norse, Greek, and other pantheons over the years.
 - **Identity:** public
 - **Place of Birth:** Albuquerque, New Mexico
 - **Marital Status:** divorced
-- **Known Relatives:** Marquis Malign (ex-husband), Lin Montgomery (child)
-- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder), Neutrino (former partner)
+- **Known Relatives:** Marquis Malign (ex-husband), Lin Montgomery (child),
+Del Thompson (ward)
+- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder), Neutrino (former science partner)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: {.bio2} ::::::::::::::::::::::::
@@ -5372,7 +5448,30 @@ handled the Norse, Greek, and other pantheons over the years.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+As a young girl, Hazel Montgomery showed a talent for technology
+that eventually brought her to the attention of A.L.E.R.T. who tasked
+her with analyzing and reverse-engineering Titanian science once
+Titan revealed himself to the world.
+
+Eventually she became a field operative for A.L.E.R.T., using a suit 
+of armor of her own creation. As Vespa, she was a founding member of
+the Cosmic Legends of the Universe; as Hazel Montgomery, she was a
+founding director of N.O.V.A. Labs.
+
+Although gifted with science, Montgomery had worse luck when it came
+to interpersonal relationships. 
+
+Phineas Pann, her mentor, was revealed as the criminal mastermind 
+behind T.R.E.L.A. Her "storybook romance" with Magnus, Marquis
+of Vadyvokia, fell apart shortly after the birth of their child Lin.
+Delphine Thompson, Hazel's former partner at N.O.V.A., turned to a 
+life of villainy as Neutrino. Lin seemingly took a criminal turn
+as the Hornette, although this was later revealed to be a ruse.
+
+Montgomery had retired from active duty with the Cosmic Legends
+when she sacrificed her life to repel the Visitors' Third Visitation.
+Her child Lin adopted the name Vespa 2.0 as an homage to the beloved
+heroine.
 
 **Powers:** Hazel Montgomery had no super-powers, just
 her brilliant and creative mind.
@@ -5383,7 +5482,7 @@ for saving lives. Bulletproof and equipped with transparent insect wings, the
 Vespa armor served her well for decades, with constant upgrades of weaponry and
 sensors.
 
-### Vespa 2.0 {#setting-vespa}
+#### Vespa 2.0 {#setting-vespa}
 
 ![Vespa 2.0](art/jeshields/inventor.png)
 
@@ -5409,11 +5508,62 @@ sensors.
 - **Hair:** (dyed) blonde, (natural) brown
 :::::::::::::::::::::::::::::::::::::::::::::
  
+:::::::::::::::::::::::: {.soapbox .small} :::::::::::::::
+##### Lin's Gender
+
+As a non-binary character who uses they/them pronouns,
+Lin Montgomery could be viewed as slightly anachronistic
+if firm timelines are followed.
+
+However, this is a bit of authorial license that I'm not
+going to lose any sleep over. Maybe the CLU is a slightly
+better world than our own in this regard.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 **History:**
-[]{.lorem}
+As the child of Hazel Montgomery, charter member of the
+Cosmic Legends of the Universe, and Marquis Malign, regarded by
+many as the greatest supervillain of history, Lin Montgomery
+carries the weight of a very heavy pedigree in the superhero 
+world.
+
+Conceived shortly after their parents wed in secret and before 
+Malign's coup propelled him to the throne of Vadyvokia, Lin
+grew up surrounded by the Cosmic Legends. To many, they were
+the archetypal "kid sidekick" as Bug the Binary Bantling.
+
+Although their first suit of armor was wholly lacking in 
+offensive systems, Lin made certain ... *alterations* to the
+Bug armor, giving it capabilities beyond merely defensive uses.
+
+Along with their foster brother Del Thompson, Lin formed the
+Junior Legends of America; the pair were also the first 
+students at the newly chartered Technopolis Academy, and Lin
+its first graduate.
+
+Once they had graduated, Lin was contacted by Magnus Malign, who
+seemingly convinced them to adopt a villainous persona as
+the Hornette and join Villains, Inc. Eventually this cooperation 
+was revealed as a ruse that helped bring down VI, 
+but it also led to Marquis Malign disowning them and swearing
+eternal enmity.
+
+Lin was still operating as the Hornette and serving in the Cosmic
+Legends in their mother's stead when the Third Vistation
+arrived on Earth and began to process the population of the planet
+for abduction to a distant star. 
+
+Only the alliance of the Cosmic Legends, the Junior Legends, 
+and Marquis Malign's forces was able repel the Visitors -- and
+at the cost of Hazel Montgomery's life.
+
+Shaken by this loss, Lin changed their name to Vespa 2.0 and
+rededicated themself to fighting for justice.
 
 **Powers:** Lin Montgomery has no powers; all of their
-abilities come from their armored suit.
+abilities come from their armored suit. As the crown marquex
+of Vadyvokia, Lin may possess some sorcerous potential, but has
+never trained those.
 
 **Weapons:** 
 Vespa 2.0's armored suit is an evolved version of their mother's, with
@@ -5425,7 +5575,7 @@ In addition, Lin sometimes carries a gun that fires electrical and laser
 blasts, originally developed during her days as The Hornette.
 
 :::::::::::: {.stats} ::::::::::::::::
-#### Vespa 2.0
+##### Vespa 2.0
 
 - **Class:** The Inventor
 - **Approaches:** Action 1, Adventure 3, Detective 3, Mystery 1, Suspense 2
@@ -5440,7 +5590,7 @@ blasts, originally developed during her days as The Hornette.
 - **Ideals:** Comaraderie, Honesty, Legacy, Science, Self-Sacrifice
 ::::::::::::::::::::::::::::::::::::::
 
-### Villains, Inc. {#setting-villains-inc}
+#### Villains, Inc. {#setting-villains-inc}
 
 ::::::::::: group :::::::::::::::::::::::::::
 - **Type of Group:** Supervillain Team
@@ -5461,19 +5611,19 @@ blasts, originally developed during her days as The Hornette.
 - **Gunlock**[]{.icon-female } Wielder of a cursed pistol and enemy of Jack Dee.
 - **Hornette, The**[]{.icon-trans  } *expelled* See *Vespa 2.0*.
 - **Igneia**[]{.icon-female } Younger sister of Obsidius Rex and wielder of volcanic flame.
-- **Marquis Malign**[]{.icon-male   } *resigned* Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. Currently conducting an underworld war against Villains, Inc.
-- **Neutrino**[]{.icon-female } *resigned* Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+- **Marquis Malign**[]{.icon-male   } *resigned* See *Other Individuals*.  Currently conducting an underworld war against Villains, Inc.
+- **Neutrino**[]{.icon-female } *resigned* See *Other Individuals.*
 - **Phineas Pann, Dr.**[]{.icon-male   } *deceased* Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.
 - **Phineas Pann, Junior.**[]{.icon-male   } Son of the first Phineas Pann and a criminal genius in his own right.
 - **Sequana**[]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.
 - **Sinhammer**[]{.icon-male   } *deceased* Enemy of the Grailknight and wielder of the Mallet of Sucellus. Killed by Zaar.
 - **Sreng**[]{.icon-male   } Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace.
 - **Teleidoscopic Man, The**[]{.icon-male   } Energy-refractor with extensive control over holograms and illusions. Father of Kaleidosope Kid, a graduate of Technopolis Academy.
-- **Xana Mega**[]{.icon-female } *resigned* Faerie queen of the Aos Sí and arch-enemy of Sir Percival. Former leader of Villains, Inc.
+- **Xana Mega**[]{.icon-female } *resigned* See *Other Individuals.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Vulcanor {#setting-vulcanor}
+#### Vulcanor {#setting-vulcanor}
 
 ::::::::::: place :::::::::::::::::::::::::::
 - **Type of Location:** island chain
@@ -5512,55 +5662,56 @@ are welcomed and treated with respect, few non-Vulcanors have
 been Volcano City.
 
 
-### Other Individuals
+#### Other Individuals  {#setting-other-individuals}
 
-::::::::::::::::::::::::::: member-list ::::::::::::::::::::::::::::::::::::::::
-- **Balor**[]{.icon-male   } Giant Fomorian with third eye of venom; enemy of the Tuatha Dé Danann.
+::::::::::::::::::::::::::: other-list ::::::::::::::::::::::::::::::::::::::::
+- **Balor**[]{.icon-male   } See *Villains, Inc.*
 - **Bres**[]{.icon-male} Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
 - **Dindrane**[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight.
 - **Gloom**[]{.icon-male} Independent hero and former student at Technopolis Academy with darkness and emotion powers.
-- **Glytch**[]{.icon-trans  } Former Technopolis Academy student; technopath composed of digital energies. Arch-enemy of Vespa 2.0.
-- **Hornette, The**[]{.icon-trans  } Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*.
+- **Glytch**[]{.icon-trans  } See *Villains, Inc.*
+- **The Hornette**[]{.icon-trans  } Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*.
 - **Hyperion**[]{.icon-trans} Renegade Sentinel of Saturn and frequent enemy of Titan.
-- **Igneia Vulcanor**[]{.icon-female } Younger sister of Obsidius Rex and wielder of volcanic flame.
+- **Igneia Vulcanor**[]{.icon-female } See *Villains, Inc.*
 - **Kaleidoscope Kid**[]{.icon-trans} Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
 - **Limuo Pele**[]{.icon-female} Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
 - **Lucky Star**[]{.icon-female} Teen heroine with luck-based powers. Member of the Junior Legends of America.
-- **Man in Black, The**[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.
+- **The Man in Black**[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.
 - **Marlinspike**[]{.icon-male} *deceased* Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
-- **Magnus Malign, Marquis of Vadyvokia**[]{.icon-male   } Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
+- **Magnus Merlyn Malign, Marquis of Vadyvokia**[]{.icon-male   } Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
 - **Master Magister (John A. Dee VI)**[]{.icon-male} *retired* Grandfather of Jack Dee.
 - **Neutrino**[]{.icon-female } Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
-- **Phineas Pann, Dr.**[]{.icon-male   } *deceased* Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.
+- **Dr. Phineas Pann**[]{.icon-male   } See *Villains, Inc.*
 - **Sandra Starr**[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends.
-- **Sequana**[]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; founding member of the Cosmic Legends of the Universe; current leader of Villains, Inc.
-- **Sreng**[]{.icon-male   } Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace.
-- **Tachylus Rex, King**[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
+- **Sequana**[]{.icon-female } See *Villains, Inc.*
+- **Sreng**[]{.icon-male   } See *Villains, Inc.*
+- **Tachylus Rex**[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
 - **Tethys (My'Rinn To'Rezz)**[]{.icon-trans} Child of Titan's sibling and a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
-- **Verdict, The**[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishments; wanted by both A.L.E.R.T. and Villains, Inc.
+- **The Verdict**[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishments; wanted by both A.L.E.R.T. and Villains, Inc.
 - **Xana Mega**[]{.icon-female } Faerie queen of the Aos Sí and arch-enemy of Sir Percival. 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Other Groups
+#### Other Groups
 
-::::::::::::::::::::::::::: member-list ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::: other-list ::::::::::::::::::::::::::::::::::::::::
 - **Aos Sí** Faeries of Otherworld formerly ruled by Xana Mega.
 - **Atomicorps** A team of mercenaries using nuclear-powered battlesuits.
 - **Crime Institute, The** *defunct* School created by Villains, Inc. to rival Technopolis Academy and train super-villains.
 - **Firbolgs, The** Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc.
 - **Fomorians, The** Mythological giants from Otherworld; enemies of the Tuatha Dé Danann, Brigantia, and the Cosmic Legends.
 - **Junior Legends of America** Team of teenage and young adult heroes, many of whom attended Technopolis Academy. Although they've collectively been offered membership in the Cosmic Legends, most prefer to stay members of the JLA instead.
-- **_Kyl'Sh'Tal_** The Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors.
-- **_Ro'Tan'Okk_** The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion.
+- **Kyl'Sh'Tal** The Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors.
+- **Ro'Tan'Okk** The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion.
 - **Sun City University** Four-year and graduate university located in Sun City, U.S.A.
 - **T.R.E.L.A.** A outlawed splinter group that broke off from A.L.E.R.T., engaged in terrorism world-wide.
 - **Visitors, The** Alien species with vast powers over space and time; creators of the Titanian race.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Other Locations
 
-::::::::::::::::::::::::::: member-list ::::::::::::::::::::::::::::::::::::::::
-- **_L'Shar'Ak_** Capital city of Titan; original home of Titan and Tethys.
+#### Other Locations
+
+:::::::::::::::::::::::::::  other-list ::::::::::::::::::::::::::::::::::::::::
+- **L'Shar'Ak** Capital city of Titan; original home of Titan and Tethys.
 - **Mag Findargat** Castle of the Tuatha Dé Danann in Otherworld. One-time headquarters of the Cosmic Legends.
 - **Moulin Air Force Base** U.S. military base located outside of Sun City, U.S.A.
 - **Museum of Superhuman History** Museum and library connected with Sun City University, devoted to archiving super-powered individuals.
@@ -5572,6 +5723,7 @@ been Volcano City.
 - **Vadyvokia** Eastern European "republic" wholly controlled by Marquis Malign.
 - **Volcano City** Capital city of Vulcanor; home of King Tachylus and Obsidius Rex.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -5801,275 +5953,6 @@ Defeat
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-### Alternate Universes {#toc-sample-alternate-universes}
-
-[]{.lorem}
-[]{.lorem}
-[]{.lorem}
-
-
-### Capitalism {#toc-sample-capitalism}
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Eviction
-##### 3 Actions
-
-- **Smash:  3** 
-- **Outwit: 3** 
-- **Allay:  3** 
-- **Rescue: -** 
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Hunger
-##### n Actions
-
-- **Smash:  -**
-- **Outwit: 5**
-- **Allay:  3**
-- **Rescue: 5**
-
-[]{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Espionage Operation
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Legal Entanglements
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Media Relations
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 ### The Military {#toc-sample-military}
 
 []{.lorem}
@@ -6176,213 +6059,6 @@ Defeat
 
 :::::::::::::: crisis-block :::::::::::::::::::::::::::::::
 #### Air Force Fighter Jets
-##### n Actions
-
-- **Smash:  x** 
-- **Outwit: x** 
-- **Allay:  x** 
-- **Rescue: x** 
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Mystery Investigation
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Mythological Monsters {#toc-sample-myth-monsters}
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Fire-Breathing Dragon
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### The Walking Dead
-##### n Actions
-
-- **Smash:  x** 
-- **Outwit: x** 
-- **Allay:  x** 
-- **Rescue: x** 
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Vampire and Spawn
 ##### n Actions
 
 - **Smash:  x** 
@@ -6688,219 +6364,7 @@ Defeat
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-### Personal Matters
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### The Police {#toc-sample-police}
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Police Riot
-##### n Actions
-
-- **Smash:  x** 
-- **Outwit: x** 
-- **Allay:  x** 
-- **Rescue: x** 
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### S.W.A.T. Unit
-##### n Actions
-
-- **Smash:  x** 
-- **Outwit: x** 
-- **Allay:  x** 
-- **Rescue: x** 
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Rival Heroes
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Romantic Outing
+### Personal Matters {#toc-sample-personal}
 
 []{.lorem}
 
@@ -7067,60 +6531,6 @@ Defeat
 - **Outwit: x** 
 - **Allay:  x** 
 - **Rescue: x** 
-
-[]{.lorem} []{.lorem}
-
-::::::::::::::::::: rules ::::::::::::::::::::::::::
-Scene Power Words
-:   list, of, twelve, possible, power, words
-
-Special Rule
-:   One or more additional rules.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: moves ::::::::::::::::::::::::::::::::
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-
-Move (a)
-:   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: resolve ::::::::::::::::::::::::::::::
-Smash
-:   A desc of this resolution.
-
-Outwit
-:   A desc of this resolution.
-
-Allay
-:   A desc of this resolution.
-
-Rescue
-:   A desc of this resolution.
-
-Defeat
-:   A desc of this resolution.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Sports Event
-
-[]{.lorem}
-
-:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
-#### Crisis Name
-##### n Actions
-
-- **Smash:  x**
-- **Outwit: x**
-- **Allay:  x**
-- **Rescue: x**
 
 []{.lorem} []{.lorem}
 

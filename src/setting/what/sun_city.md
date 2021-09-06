@@ -1,0 +1,22 @@
+# Sun City, U.S.A. {#setting-sun-city}
+
+::::::::::: place :::::::::::::::::::::::::::
+- **Type of Location:** city
+- **Location:** Gulf Coast, United States
+- **Established:** 1723
+- **Demonym:** Sun Citian
+- **Governance:** Council-Manager
+- **Area:** (city) 1,300 km<sup>2</sup> (502 sq mi); (metro area) 1,600 km<sup>2</sup> (618 sq mi)
+- **Population (2020):** (city) 1,350,000; (metro area) 2,250,000
+- **Time Zone:** Central Standard Time (UTC -0600); (summer) Central Daylight Time (UTC -0500)
+:::::::::::::::::::::::::::::::::::::::::::::
+
+Sun City is the 9th largest city in the United States, and is
+home to the headquarters of the Cosmic Legends of the Universe.
+Other prominent landmarks include Sun City University,
+the Port of Sun City, the Museum of Superheroic History, 
+Moulin Air Force Base, Sun City Zoo, N.O.V.A. Labs: Sun City,
+and the Techno-Sun Bullet Train station.
+
+Technopolis is located about 300 kilometers (186 miles) away;
+just over an hour and a half by train.

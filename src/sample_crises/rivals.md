@@ -1,4 +1,4 @@
-# Rival Heroes
+# Rival Heroes {#toc-sample-rivals}
 
 []{.lorem}
 

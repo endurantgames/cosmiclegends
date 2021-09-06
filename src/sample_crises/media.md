@@ -1,4 +1,4 @@
-# Media Relations
+# Media Relations {#toc-sample-media}
 
 []{.lorem}
 

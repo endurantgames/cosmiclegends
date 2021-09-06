@@ -1,4 +1,4 @@
-# Sports Event
+# Sports Event {#toc-sample-sports}
 
 []{.lorem}
 

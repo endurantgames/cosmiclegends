@@ -1,4 +1,4 @@
-# Romantic Outing
+# Romantic Outing {#toc-sample-romance}
 
 []{.lorem}
 
