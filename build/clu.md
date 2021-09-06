@@ -806,6 +806,7 @@ Each class gives the following:
 - Two Core Power Words
 - Six Personal Power words
 - One class ability per Volume
+- An additional class ability at Volume 1
 
 
 ### Skills {#toc-skills-chargen}
@@ -1581,16 +1582,18 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 Each Volume, you gain a new ability from your class. Your Divine
 Abilities are gifts from the Gods, whether by birth or by boon.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 :::::::: {.ability-list .v1 }::::::::
 
 Stamina of Atlas
 
-:   You are tougher than a mere mortal. Increase your maximum Health to 15.
+:   You are tougher than a mere mortal. 
+    Increase your maximum Health by 5.
 
 Strength of Kratos
 
@@ -1611,6 +1614,10 @@ Wisdom of Athena
 
 :   Your insight is unmatched by anyone save the gods themselves.
     Add 2 to the dice pool to advance the Outwit or Allay goals.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -1634,6 +1641,10 @@ Speed of Hermes
     The Timely Arrival move costs you 0 points from the 
     Teamwork Pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1646,7 +1657,7 @@ Power of Zeus
 
 :   You're empowered with divine energy that crackles
     like electricity when you use Might.  
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Skill of Artemis
 
@@ -1657,9 +1668,35 @@ Skill of Artemis
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Divine abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1798,10 +1835,11 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 Each Volume, you gain a new ability from your class.
 Your Dynamo Abilities are refinements of your energy powers.
+Each ability can be chosen only once unless otherwise noted.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
@@ -1829,6 +1867,10 @@ Wide Angle
     many targets. When you advance the Smash goal by
     at least 1, advance another goal by 1.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -1848,6 +1890,10 @@ Energy Versatility
     Power Word list as a Personal Power Word.
     You can take this ability more than once.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -1863,13 +1909,39 @@ Power Conduit
 Power Overwhelming
 
 :   Your capacity for energy use is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Dynamo abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2001,10 +2073,11 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Inventor Abilities reflect permanent additions to your
 stock of creations.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 :::::: { .ability-list .v1 } ::::::::
 
@@ -2034,6 +2107,10 @@ Stately Skyscraper
     When you make a skill roll in that building, add 2 
     to the dice pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2055,6 +2132,10 @@ Weaponsmith
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2079,9 +2160,36 @@ Overclocked Systems
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
 
-This playtest document only has Inventor abilities up to Volume 3.
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2224,22 +2332,24 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Knight Abilities are based on continued training and
 perfection of your physical and mental capabilities.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
 
 Team, Together!
 
-:   You are a natural leader. 
+:   You are a natural leader and members of your hero team
+    listen to you.
     Add 2 to the Dice Pool to add to the Teamwork Pool.
 
 Toughness
 
 :   Your training focuses on increasing your ability to
-    withstand pain. Increase your maximum Health to 12.
+    withstand pain. Increase your maximum Health by 2.
 
 Trick Arrows
 
@@ -2258,6 +2368,10 @@ Weapons Locker
     Bullets, Grenade, Handgun, Knife, Non-Lethal,
     Reload, Rifle, Scope. 
     Add one more at the start of each later Volume.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2278,6 +2392,10 @@ Master of Skills
 :   Your education covered a wide range of topics.  Gain a number of
     skills equal to the Volume. Add an additional skill at the
     start of each later Volume.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2300,9 +2418,35 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Knight abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2434,10 +2578,11 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 Each Volume, you gain a new ability from your class.
 Your Mage Abilities are new ways of calling upon arcane power.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 ::::::: {.ability-list .v1 } ::::::::
 
@@ -2464,6 +2609,10 @@ Thinking with Portals
 :   Add Portal as a Personal Power Word. You can make the General
     Alert move without spending from the Teamwork Pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2482,7 +2631,11 @@ Arcane Arsenal
 Eldritch Might
 
 :   Your power continues to grow, but at what cost? Increase your
-    maximum Might to 15.
+    maximum Might by 5.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2507,9 +2660,35 @@ Healing Mantra
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Mage abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2663,10 +2842,11 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 Each Volume, you gain a new ability from your class.
 Your Monarch Abilities represent esoteric knowledge that
 is inaccessible to those outside of your home.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 ::::::: {.ability-list .v1 } ::::::::
 Exotic Weaponry
@@ -2696,6 +2876,10 @@ Righteous Rage
 :   If you are below half Health, add 2 to the dice pool to 
     advance the Smash goal.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2716,6 +2900,10 @@ Unfamiliar Fighting Techniques
     unknown to the outside world.
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2911,16 +3099,17 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Monstrosity Abilities show your increasing distance from
 humanity.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
-    Health to 15.
+    Health by 5.
 
 Fast Healer
 
@@ -2940,6 +3129,10 @@ Unkillable
     gonna keep you down. Regain 1 Health at the start of the
     Hero Phase if you have 0 Health.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -2957,7 +3150,11 @@ Regeneration
 Relentless Power
 
 :   You are a storehouse of untapped energy. Increase your
-    maximum Might to 15.
+    maximum Might by 5.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2969,7 +3166,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 Nigh-Invulnerable
 
 :   There are few things that can seriously harm you.
-    Increase your maximum Health to 20.
+    Increase your maximum Health by 5.
 
 Power Burn
 
@@ -2987,7 +3184,7 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 Power Overwhelming
 
 :   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Immortal
 
@@ -3000,7 +3197,18 @@ Immortal
 
 ##### Volume 5 Abilities
 
-This playtest document only has Monstrosity abilities up to Volume 4.
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3159,16 +3367,17 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Paragon Abilities reflect new uses for your vast array
 of super-powers.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 :::::::: {.ability-list .v1 }::::::::
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
-    Health to 15.
+    Health by 5.
 
 Dedicated Defender
 
@@ -3188,6 +3397,10 @@ Multipower
     in a Hero Phase, choose one Power Word used. That Word 
     doesn't go on cooldown.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -3198,7 +3411,7 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Power Overwhelming
 
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Never-Ending Battle
 
@@ -3206,6 +3419,10 @@ Never-Ending Battle
     danger. When you are at 0 Health or 0 Might, regain 1
     point of each at the start of the next Hero Phase if
     the Rescue goal can still be advanced.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3223,13 +3440,39 @@ Castle of Quiettude
 Nigh-Invulnerable
 
 :   There are few things that can seriously harm you.
-    Increase your maximum Health to 20.
+    Increase your maximum Health by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Paragon abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3386,10 +3629,11 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Psychic Abilities are new ways to channel your psionic
 power.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
@@ -3417,6 +3661,10 @@ Telekinetics
     move objects with ease. Add an Elemental Power Word and a
     Personal Power Word from the Shaper's lists as Personal Power Words.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -3435,6 +3683,10 @@ Psychic Healing
 :   As a move, you can use your mental powers to heal someone else.
     They regain Health equal to the Effectiveness of a Power roll.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
@@ -3445,7 +3697,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 Power Overwhelming
 
 :   Your capacity for psionics is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Skill Sharing
 
@@ -3455,9 +3707,35 @@ Skill Sharing
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Psychic abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3627,10 +3905,11 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Shaper Abilities show a widening diversity in the 
 applications of your control power.
+Each ability can be chosen only once.
 
 ##### Volume 1 Abilities
 
-At the start of Volume 1, choose an ability from this list.
+At the start of Volume 1, choose two abilities from this list.
 
 ::::::: {.ability-list .v1 } ::::::::
 
@@ -3659,6 +3938,10 @@ Wall of Matter
     you can spend Might to counter it instead of spending 
     from the Teamwork Pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -3677,7 +3960,11 @@ Grand Unified Theory
 Power Overwhelming
 
 :   Your capacity for matter control is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3701,9 +3988,35 @@ Psychic Manifestation
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 and 5 Abilities
+##### Volume 4 Abilities
 
-This playtest document only has Shaper abilities up to Volume 3.
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -4675,7 +4988,7 @@ need, she can form a sword of blazing light.
   - *Core:* Blessed, Champion
   - *Personal:* Flight, Peace, Radiant, Resist, Speed, Strength
   - *Nova:* Blazing, Sword
-- **Abilities:** Give Me Strength!, Wisdom of Athena
+- **Abilities:** Give Me Strength!, Wisdom of Athena, TBD
 - **Skills:** Explorer, Historian, Performer (poet), Physician
 - **Ideals:** Culture, Honor, Justice, Loyalty, Vengeance
 ::::::::::::::::::::::::::::::::::::::
@@ -4801,7 +5114,7 @@ have been had his mother's pride not cost them both dearly.
   - *Core:* Energy, Overload, Radiation
   - *Personal:* Absorb, Beam, Bubble, Explosion, Flare, Punch
   - *Nova:* Meltdown, Nuclear
-- **Abilities:** Energy Reserve, Fight Fire With Fire
+- **Abilities:** Energy Reserve, Fight Fire With Fire, TBD
 - **Skills:** Academic, Scientist
 - **Ideals:** Guilt, Longing, Politeness, Relax, Responsibility
 ::::::::::::::::::::::::::::::::::::::
@@ -4874,7 +5187,7 @@ sword, Sequence, is a sister blade to Excalibur from Arthur's arsenal.
   - *Core:* Gambit, Prepared
   - *Personal:* Armor, Crossbow, Line, Restrain, Sword
   - *Nova:* Immortal, Quest
-- **Abilities:** Peak Human Potential, Trick Arrows
+- **Abilities:** Peak Human Potential, Trick Arrows, TBD
 - **Skills:** Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy
 - **Ideals:** Chivalry, Faith, Honor, Law, Vows
 ::::::::::::::::::::::::::::::::::::::
@@ -4944,7 +5257,7 @@ ground and move them about.
   - *Core:* Focused, Totality
   - *Personal:* Erase, Language, Memory, Move, Paper, Probe, Restore, Transfer
   - *Nova:* Information, Overload
-- **Abilities:** Our Minds As One, Telekinetics
+- **Abilities:** Our Minds As One, Telekinetics, TBD
 - **Skills:** Academic, Artist, Journalist
 - **Ideals:** Aesthetics, Compassion, Knowledge, Learning, Order
 ::::::::::::::::::::::::::::::::::::::
@@ -5013,7 +5326,7 @@ He's also a fairly decent attorney.
   - *Core:* Sorcery, Supreme
   - *Personal:* Banish, Blast, Extradimensional, Magic, Shield, Ward
   - *Nova:* Ancestral, Empowerment
-- **Abilities:** The Price of Magic, Mists of Misdirection
+- **Abilities:** The Price of Magic, Mists of Misdirection, TBD
 - **Skills:** Academic, Historian, Lawyer, Mystic
 - **Ideals:** Duty, Family, Pedantry, Responsibility, Secrecy
 ::::::::::::::::::::::::::::::::::::::
@@ -5120,7 +5433,7 @@ symbol of rank, but it was destroyed by the Man in Black in 2003.
   - *Core:* Reinforcements, Unexpected
   - *Personal:* Armor, Communicate, Greatsword, Remote, Superior, Survivor
   - *Nova:* Stone, Unbreakable
-- **Abilities:** For My Kingdom, Righteous Rage
+- **Abilities:** For My Kingdom, Righteous Rage, TBD
 - **Skills:** Artist (sculptor), Engineer, Explorer, Historian, Politician
 - **Ideals:** Nationalism, Nobility, Pride, Security, Stubbornness
 ::::::::::::::::::::::::::::::::::::::
@@ -5206,7 +5519,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
   - *Core:* Environment, Sculpt, Water
   - *Personal:* Blast, Create, Move, Quell, Reshape, Shield
   - *Nova:* Towering, Tsunami
-- **Abilities:** Reshape the Battlefield, Shelter the Innocents
+- **Abilities:** Reshape the Battlefield, Shelter the Innocents, TBD
 - **Skills:** Artist (sandcastles), Physician (first aid), Scientist (marine biology), Socialite
 - **Ideals:** Lifesaving, Nature, Protection, Surfing, Humor
 ::::::::::::::::::::::::::::::::::::::
@@ -5257,7 +5570,7 @@ and lets her lift in excess of 100 tons.
   - *Core:* Monster, Strongest
   - *Personal:* Body, Leap, Rocky, Stomp, Strength, Throw
   - *Nova:* Mosh, Pit
-- **Abilities:** Engine of Destruction, Misunderstood Monster
+- **Abilities:** Engine of Destruction, Misunderstood Monster, TBD
 - **Skills:** Criminal, Explorer, Hacker, Performer (punk)
 - **Ideals:** Bold, Comfort, Fun, Kindness, Music
 ::::::::::::::::::::::::::::::::::::::
@@ -5393,7 +5706,7 @@ Titanian.
   - *Core:* Abilities, Powers
   - *Personal:* Alien, Cold, Flight, Probe, Speed, Strength, Thoughts, Vision
   - *Nova:* Compassion, Selfless
-- **Abilities:** My One Weakness! (salt water), Boundless Fortitude
+- **Abilities:** My One Weakness! (salt water), Boundless Fortitude, TBD
 - **Skills:** Investigator, Scientist
 - **Ideals:** Caution, Curiosity, Freedom, Joy, Privacy
 ::::::::::::::::::::::::::::::::::::::
@@ -5585,7 +5898,7 @@ blasts, originally developed during her days as The Hornette.
   - *Core:* Armor, Experimental, Prototype
   - *Personal:* Analyze, Communicate, Dynamic, Laser, Protection, Telemetry, Wings
   - *Nova:* Bug, Zapper
-- **Abilities:** No Wasted Effort, Armorsmith
+- **Abilities:** No Wasted Effort, Armorsmith, TBD
 - **Skills:** Artist (fanfic), Engineer, Hacker, Pilot, Scientist (entomology)
 - **Ideals:** Comaraderie, Honesty, Legacy, Science, Self-Sacrifice
 ::::::::::::::::::::::::::::::::::::::

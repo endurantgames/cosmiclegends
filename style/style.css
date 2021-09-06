@@ -57,12 +57,12 @@ header h1     { string-set: gamename content()       }
   --color-sheet-lighter : rgba(128, 128, 128, 0.25);
   --color-roster        : #F0E0F0;
 
-  --color-statblock-1   : #FFF0F0;
-  --color-statblock-2   : #F0FFF0;
-  --color-statblock-3   : #F0F0FF;
-  --color-statblock-4   : #F0FFFF;
-  --color-statblock-5   : #FFF0FF;
-  --color-statblock-6   : #FFFFF0;
+  --color-statblock-1   : #FFF0F0; /* red */
+  --color-statblock-2   : #FFFFF0; /* yellow */
+  --color-statblock-3   : #F0FFF0; /* green */
+  --color-statblock-4   : #F0FFFF; /* cyan */
+  --color-statblock-5   : #F0F0FF; /* blue */
+  --color-statblock-6   : #FFF0FF; /* magenta */
 
   --color-stunt         : blue;
   --color-toc-white     : #F0F0F0;
@@ -538,11 +538,11 @@ margin-top: 0.5em; }
 .ability-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .ability-list dl dd ul li::marker { padding-right: 0.25em; }
 
-.ability-list.v1 dl > * { background-color: var(--color-statblock-1); }
-.ability-list.v2 dl > * { background-color: var(--color-statblock-2); }
-.ability-list.v3 dl > * { background-color: var(--color-statblock-3); }
-.ability-list.v4 dl > * { background-color: var(--color-statblock-4); }
-.ability-list.v5 dl > * { background-color: var(--color-statblock-5); }
+.ability-list.v1 dl > * { background: linear-gradient(90deg, var(--color-statblock-1) 75%, var(--color-statblock-2)); }
+.ability-list.v2 dl > * { background: linear-gradient(90deg, var(--color-statblock-2) 75%, var(--color-statblock-3)); }
+.ability-list.v3 dl > * { background: linear-gradient(90deg, var(--color-statblock-3) 75%, var(--color-statblock-4)); }
+.ability-list.v4 dl > * { background: linear-gradient(90deg, var(--color-statblock-4) 75%, var(--color-statblock-5)); }
+.ability-list.v5 dl > * { background: linear-gradient(90deg, var(--color-statblock-5) 75%, var(--color-statblock-6)); }
 
 .ability-list dl dt {
   background-color: var(--color-sidebar);
@@ -631,9 +631,85 @@ margin-top: 0.5em; }
  margin: 0; margin-left: 0.5em; }
 .twocolumn table { break-inside: auto; }
 
-.cpw { column-count: 2; column-gap: 1em; break-inside: avoid; }
-.cpw ul { break-inside: auto; margin: 0; }
-.cpw ul li { list-style-type: none; }
+.cpw { 
+  break-inside: avoid; 
+  /* column-count: 2; 
+     column-gap: 1em; */
+}
+.cpw ul { 
+  break-inside: auto; 
+  margin: 0; 
+  margin-left: 4pt;
+  margin-bottom: 0.5em;
+}
+.cpw ul li { 
+  list-style-type: none; 
+  margin: 0;
+  margin-top: 3pt;
+  margin-right: 1pt;
+  width: auto;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0;
+  padding-left: 6pt;
+  padding-right: 6pt;
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+  border: 0.50pt solid black;
+  border-radius: 7pt;
+  font-weight: bold;
+}
+
+.cpw ul li:nth-child(6n+1) { 
+  background: linear-gradient(-90deg, 
+                var(--color-statblock-1)  0%, 
+                var(--color-statblock-2) 15%, 
+                var(--color-statblock-2) 85%, 
+                var(--color-statblock-3) 100%); 
+}
+.cpw ul li:nth-child(6n+2) { 
+  background: linear-gradient(-90deg, 
+                var(--color-statblock-2)   0%, 
+                var(--color-statblock-3)  15%, 
+                var(--color-statblock-3)  85%, 
+                var(--color-statblock-4) 100%); 
+}
+.cpw ul li:nth-child(6n+3) { 
+  background: linear-gradient(-90deg, 
+                var(--color-statblock-3)   0%, 
+                var(--color-statblock-4)  15%, 
+                var(--color-statblock-4)  85%, 
+                var(--color-statblock-5) 100%); 
+}
+.cpw ul li:nth-child(6n+4) { 
+  background: linear-gradient(-90deg, 
+                var(--color-statblock-4)   0%, 
+                var(--color-statblock-5)  15%, 
+                var(--color-statblock-5)  85%, 
+                var(--color-statblock-6) 100%); 
+}
+.cpw ul li:nth-child(6n+5) { 
+  background: linear-gradient(-90deg, 
+                var(--color-statblock-5)   0%, 
+                var(--color-statblock-6)  15%, 
+                var(--color-statblock-6)  85%, 
+                var(--color-statblock-1) 100%); 
+}
+.cpw ul li:nth-child(6n+0) { 
+  background: linear-gradient(-90deg, 
+                var(--color-statblock-6)   0%, 
+                var(--color-statblock-1)  15%, 
+                var(--color-statblock-1)  85%, 
+                var(--color-statblock-2) 100%); 
+}
+/*
+.cpw ul li:nth-child(6n+1) { background: var(--color-statblock-1); }
+.cpw ul li:nth-child(6n+2) { background: var(--color-statblock-2); }
+.cpw ul li:nth-child(6n+3) { background: var(--color-statblock-3); }
+.cpw ul li:nth-child(6n+4) { background: var(--color-statblock-4); }
+.cpw ul li:nth-child(6n+5) { background: var(--color-statblock-5); }
+.cpw ul li:nth-child(6n+0) { background: var(--color-statblock-6); }
+*/
 
 .harmony-drive-logo {
   column-span: all;
