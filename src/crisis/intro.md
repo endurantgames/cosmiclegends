@@ -9,10 +9,10 @@ villains.
 There isn't a separate game system for combats and fights; those use
 the same system as any other Crisis.
 
-Each Crisis is rated in three **Goals** that describe how the heroes 
+Each Crisis is rated in four **Goals** that describe how the heroes 
 could tackle that Crisis:
 
-- **Smash** - defeating the Crisis through physical damage
+- **Smash**  - defeating the Crisis through physical damage
 - **Outwit** - trick, persuade, or control the source of the Crisis
-- **Withstand** - outlast the Crisis by taking all it can throw at you
-
+- **Allay**  - understand and resolve the source of the Crisis
+- **Rescue** - save people or property endangered by the Crisis

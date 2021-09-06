@@ -7,10 +7,10 @@
 ## An Army Battalion
 ### n Actions
 
-- **Smash:  x** ()
-- **Outwit: x** ()
-- **Allay:  x** ()
-- **Rescue: x** ()
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
 
 []{.lorem} []{.lorem}
 
@@ -31,30 +31,6 @@ Move (a)
 
 Move (a)
 :   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::: upgrades ::::::::::::::::::::::::::::::
-Vol. 2
-:   Add +1 to one Goal
-
-Vol. 3
-:   Add +1 to one Goal
-
-Vol. 4
-:   Add +1 to one Goal
-
-Vol. 5
-:   Add +1 to one Goal
-
-2 Heroes
-:   Subtract 1 Action
-
-5 or 6 Heroes
-:   Add +1 Action
-
-7 or 8 Heroes
-:   Add +2 Actions
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: resolve ::::::::::::::::::::::::::::::
@@ -81,10 +57,10 @@ Defeat
 ## A Crack Commando Unit
 ### n Actions
 
-- **Smash:  x** ()
-- **Outwit: x** ()
-- **Allay:  x** ()
-- **Rescue: x** ()
+- **Smash:  x** 
+- **Outwit: x** 
+- **Allay:  x** 
+- **Rescue: x** 
 
 []{.lorem} []{.lorem}
 
@@ -105,30 +81,6 @@ Move (a)
 
 Move (a)
 :   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::: upgrades ::::::::::::::::::::::::::::::
-Vol. 2
-:   Add +1 to one Goal
-
-Vol. 3
-:   Add +1 to one Goal
-
-Vol. 4
-:   Add +1 to one Goal
-
-Vol. 5
-:   Add +1 to one Goal
-
-2 Heroes
-:   Subtract 1 Action
-
-5 or 6 Heroes
-:   Add +1 Action
-
-7 or 8 Heroes
-:   Add +2 Actions
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: resolve ::::::::::::::::::::::::::::::
@@ -154,10 +106,10 @@ Defeat
 ## Air Force Fighter Jets
 ### n Actions
 
-- **Smash:  x** ()
-- **Outwit: x** ()
-- **Allay:  x** ()
-- **Rescue: x** ()
+- **Smash:  x** 
+- **Outwit: x** 
+- **Allay:  x** 
+- **Rescue: x** 
 
 []{.lorem} []{.lorem}
 
@@ -178,30 +130,6 @@ Move (a)
 
 Move (a)
 :   A desc of the move.
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::: upgrades ::::::::::::::::::::::::::::::
-Vol. 2
-:   Add +1 to one Goal
-
-Vol. 3
-:   Add +1 to one Goal
-
-Vol. 4
-:   Add +1 to one Goal
-
-Vol. 5
-:   Add +1 to one Goal
-
-2 Heroes
-:   Subtract 1 Action
-
-5 or 6 Heroes
-:   Add +1 Action
-
-7 or 8 Heroes
-:   Add +2 Actions
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: resolve ::::::::::::::::::::::::::::::

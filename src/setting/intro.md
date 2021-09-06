@@ -27,3 +27,19 @@
 
 []{.lorem}
 
+## Era?
+
+[]{.lorem}
+
+## Customizing the Setting
+
+[]{.lorem}
+
+## Playing as the Cosmic Legends
+
+[]{.lorem}
+
+## Playing as the Junior Legends
+
+[]{.lorem}
+

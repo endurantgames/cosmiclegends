@@ -16,8 +16,8 @@ For example, one hero could have these five Ideals:
 
 When you use all five of your hero's Ideals in a Storyline, 
 your hero's Might is refreshed to its starting value, and you
-unlock your Nova Power Words and can use those until the
-end of current Storyline.
+unlock your Nova Power Words. You can use those Nova Power Words
+until the end of current Storyline.
 
 When a new Storyline begins, all the marked off Ideals are 
 cleared and it’s time to start again.

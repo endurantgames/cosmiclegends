@@ -2,18 +2,20 @@
 
 Cosmic Legends of the Universe
 
-- [/] Influences
+- [/] Preface
   - [/] Bronze Age
 - [/] Classes
-- [/] Ideals
+  - [/] Introduction
+  - [ ] New classes
+- [x] Ideals
 - [/] Goals
   - [x] Smash
   - [x] Outwit
-  -ny [/] Allay
+  - [/] Allay
   - [/] Rescue
-- [/] Advancements
-  - [/] Story Arc character
-  - [/] Everyone
+- [x] Advancements
+  - [x] Story Arc character
+  - [x] Everyone
 - [/] Powers
   - [x] Core
   - [x] Personal
@@ -38,32 +40,53 @@ Cosmic Legends of the Universe
       - [ ] Examples
 - [/] Crisis
   - [/] Countdown
-    - [ ] Scene
-    - [ ] Hero Roll-Call
-    - [x] Goals
-    - [x] Pool
+    - [ ] Set the Scene
+    - [/] Hero Roll-Call
+    - [x] Defining the Goals
+    - [x] Assemble the Teamwork Pool
   - [x] Start
   - [/] Hero Phase
-    - [x] Timely
-    - [x] Alert
-    - [x] Advance
-    - [x] Contribute
-    - [/] Saving
-    - [ ] Regain Might
+    - [/] Advance a Goal
+    - [/] Contribute to the Teamwork Pool
+    - [ ] Hero Moves
+      - [ ] Power Moves
+      - [ ] Other Moves
+        - [x] Timely Arrival
+        - [x] General Alert
   - [ ] Post-Crisis
 - [ ] Setting
+  - [ ] Era
+  - [ ] Customizing
+  - [ ] Cosmic Legends
+  - [ ] Junior Legends
+  - [ ] What's What?
+    - [ ] Obsidius Rex (bio)
+    - [ ] Riptide (bio)
+    - [ ] Rockstar (bio)
+    - [ ] Titan (bio)
+    - [ ] Vespa I (bio)
+    - [ ] Vespa 2.0 (bio)
+    - [ ] Villains, Inc. (backstory, list)
 - [ ] The Editor
   - [ ] Creating Story Arcs
   - [ ] Creating Crises
-  - [ ] Sample Crises
-    - [ ] Aliens
-    - [ ] Alt Univ
-    - [ ] Capitalism
-    - [ ] Military
-    - [ ] Myth Monsters
-    - [ ] Nat Disasters
-    - [ ] Ord Crim
-    - [ ] Police
-    - [ ] Science
-    - [ ] Villains
+- [ ] Sample Crises
+  - [/] Aliens
+  - [ ] Alternate Universes
+  - [ ] Capitalism
+  - [ ] Espionage Operation
+  - [ ] Legal Entanglements
+  - [ ] Media Relations
+  - [ ] Military
+  - [ ] Mythological Monsters
+  - [ ] Mystery Investigation
+  - [ ] Natural Disasters
+  - [ ] Ordinary Criminals
+  - [ ] Personal Matters
+  - [ ] Police
+  - [ ] Rival Super-Heroes
+  - [ ] Romantic Outing
+  - [ ] Science
+  - [ ] Sports Event
+  - [ ] Super-Villains
 

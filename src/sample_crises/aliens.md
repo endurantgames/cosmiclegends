@@ -58,30 +58,6 @@ Tranq Gas (4)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::: upgrades ::::::::::::::::::::::::::::::
-Vol. 2
-:   Add +1 to one Goal
-
-Vol. 3
-:   Add +1 to one Goal
-
-Vol. 4
-:   Add +1 to one Goal
-
-Vol. 5
-:   Add +1 to one Goal
-
-2 Heroes
-:   Subtract 1 Action
-
-5 or 6 Heroes
-:   Add +1 Action
-
-7 or 8 Heroes
-:   Add +2 Actions
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ::::::::::::: resolve ::::::::::::::::::::::::::::::
 Smash
 :   With their saucer fleet in disarray, the aliens are

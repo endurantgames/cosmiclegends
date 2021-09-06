@@ -17,15 +17,32 @@ The steps to take before a Crisis are:
 
 []{.lorem}
 
-## Determining Who is Present {#toc-crisis-present}
+For example, []{.lorem}
+
+### Scene Power Words
 
 []{.lorem}
+
+For example, []{.lorem}
+
+## Hero Roll-Call {#toc-crisis-present}
+
+[]{.lorem}
+
+For example, []{.lorem}
 
 ## Defining the Goals {#toc-crisis-goals}
 
 []{.lorem}
 
-## Assembling the Teamwork Pool {#toc-crisis-pool}
+- **Smash**  - defeating the Crisis through physical damage
+- **Outwit** - trick, persuade, or control the source of the Crisis
+- **Allay**  - understand and resolve the source of the Crisis
+- **Rescue** - save people or property endangered by the Crisis
+
+For example, []{.lorem}
+
+## Teamwork Pool -- Assemble! {#toc-crisis-pool}
 
 When the Crisis starts, every player makes a roll to build the 
 initial Teamwork Pool. The Teamwork Pool is an abstract way of 
@@ -42,9 +59,11 @@ If your hero is *not* on the Scene, add 1 to the Teamwork Pool when it's
 being formed. During the Hero Phase of the Crisis, the heroes can spend
 from the Teamwork Pool to call in the remaining heroes.
 
-Once the Teamwork Pool is formed, it’s time to start.
+For example, []{.lorem}
 
 # Starting a Crisis {#toc-crisis-start}
+
+Once the Teamwork Pool is formed, it’s time to start.
 
 Instead of having an initiative order like many games of this type, 
 there are two phases that alternate back and forth: 

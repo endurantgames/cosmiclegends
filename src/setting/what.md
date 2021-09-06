@@ -1,3 +1,5 @@
+# What's What
+
 :::::::::::::::: {#section-what} :::::::::::::::::::::::::::::::::::::::::::::
 # A.L.E.R.T. {#setting-alert}
 
@@ -99,12 +101,35 @@ Titan, the Sentinel of Saturn;
 Sir Percival, the Grailknight;
 Miss Magister: Maddie Dee;
 Sequana, Champion of the Tuatha Dé Danann;
-Vespa (I); and the Falconer,
-to fight against the invasion of Earth by Fomorians under the control
-of Xana Mega, faerie queen of the Aos Sí.
+Vespa (I); 
+and the Falconer.
+They came together to fight against the invasion of Earth by 
+Fomorians under the control
+of Xana Mega, faerie queen of the 
+Aos Sí.
 
 Although their membership has changed over the decades, they remain
 committed to protecting the Earth from the forces of evil.
+
+::::::::::::::::::::::::: member-list :::::::::::::::::::::::::::
+- **Brigantia**                    [ ]{.icon-female } See *Brigantia.*
+- **Bug (Mar Ferrandis)**          [ ]{.icon-female } The second hero to use the name *Bug* and friend of Lin Montgomery. Retired from superheroics.
+- **Energy Boy**                   [ ]{.icon-male   } See *Energy Boy.*
+- **Falconer, The**                [ ]{.icon-female } Winged hero who could communicate with avians; current location and status unknown.
+- **Head Librarian, The**          [ ]{.icon-male   } See *Head Librarian*.
+- **Master Magister (Jack Dee)**   [ ]{.icon-male   } *reserve* See *Jack Dee*.
+- **Master Magister (Johnny Dee)** [ ]{.icon-male   } *deceased* Younger brother of Miss Magister and uncle of Jack Dee.
+- **Miss Magister: Maddie Dee**    [ ]{.icon-female } *deceased* Founding member of the Cosmic Legends and mother of Jack Dee.
+- **Obsidius Rex** *reserve*       [ ]{.icon-male   } See *Obsidius Rex*.
+- **Percival, the Grailknight**    [ ]{.icon-male   } *reserve* See *Grailknight*.
+- **Riptide**                      [ ]{.icon-female } See *Riptide*.
+- **Rockstar**                     [ ]{.icon-female } See *Rockstar*.
+- **Sequana** *expelled*           [ ]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; now a wanted criminal.
+- **Titan, Sentinel of Saturn**    [ ]{.icon-trans  } *reserve* See *Titan*.
+- **Vespa (Hazel Montgomery)**     [ ]{.icon-male   } *deceased* See *Vespa I*.
+- **Vespa (Lin Montgomery)**       [ ]{.icon-trans  } See *Vespa 2.0*.
+- **Zaar**                         [ ]{.icon-female } Time-traveller from the 24th Century; returned to her own century rather than face trial for killing Sinhammer.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Energy Boy {#setting-energy-boy}
 
@@ -119,7 +144,7 @@ committed to protecting the Earth from the forces of evil.
 - **Place of Birth:** Chicago, Illinois
 - **Marital Status:** single
 - **Known Relatives:** Delphine Thompson (mother)
-- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (resigned)
+- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (reserve)
 - **Base of Operations:** Tuskaloosa, Alabama and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: bio2 :::::::::::::::::::::::::::
@@ -411,8 +436,9 @@ He's also a fairly decent attorney.
 :::::::::::::::::::::::::::::::::::::::::::::
 
 In 1971, the Network for Observation, Verification, and Analysis
-was founded in Technopolis by Titan, Vespa (I), Dr. Phineas Pann, and 
-King Tachylus Rex of Vulcanor. Since then, major research laboratories
+was founded in Technopolis by Titan, Vespa (I), Dr. Phineas Pann, 
+Delphine Thompson, 
+and King Tachylus Rex of Vulcanor. Since then, major research laboratories
 have been established in 9 other cities. N.O.V.A. Labs are a helpful
 resource for scientific-minded heroes, but there's always the risk
 of science gone wild.
@@ -429,7 +455,7 @@ of science gone wild.
 - **Identity:** public
 - **Place of Birth:** Volcano City, Vulcanor Island
 - **Marital Status:** single
-- **Known Relatives:** Tachylus Vulcanor Rex (father), Limuo Pele Vulcanor (mother)
+- **Known Relatives:** Tachylus Vulcanor Rex (father), Limuo Pele Vulcanor (mother), Igneia Vulcanor (sister)
 - **Group Affiliation:** Vulcanor Royal Family, Cosmic Legends of the Universe (reserve member)
 - **Base of Operations:** Volcano City, Vulcanor Island and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -441,7 +467,6 @@ of science gone wild.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
 []{.lorem}
 
 **Powers:**
@@ -500,7 +525,6 @@ symbol of rank, but it was destroyed by the Man in Black in 2003.
  
 **History:**
 []{.lorem}
-[]{.lorem}
 
 **Powers:**
 Riptide has complete telekinetic control over liquid water, 
@@ -551,7 +575,6 @@ or on the surface of a body of water, and 50 m.p.h. over land.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
 []{.lorem}
 
 **Powers:**
@@ -657,7 +680,7 @@ Technopolis Academy was established in November 1980 to train
 young superheroes in the use of their powers and abilities. 
 
 The first two students were Bug (now known as Vespa 2.0) and Energy Boy;
-Glytch is the Academy's biggest shame, as she turned to a life of digital crime
+Glytch is the Academy's biggest shame, as they turned to a life of digital crime
 even while studying at Tech-A.
 
 Most of the Academy students who have had basic crisis training go on to
@@ -689,7 +712,6 @@ gone on to the core Cosmic Legends team.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
 []{.lorem}
 
 **Powers:**
@@ -727,7 +749,8 @@ Titanian.
 - **Enemies:** Balor, Bres, the Firbolgs, the Fomorians, Sequana, Sreng, Xana Mega
 :::::::::::::::::::::::::::::::::::::::::::::
 
-The *Fir Domnann* people -- collectively known as the Tuatha Dé Danann --
+The *Fir Domnann* people -- collectively known as the 
+Tuatha Dé Danann --
 are powerful extradimensional entities once worshipped as gods by the 
 Celts. They grant a portion of their power to a mortal human who becomes
 their Champion; the current Champion is Sienna MacGowan, otherwise 
@@ -765,7 +788,6 @@ handled the Norse, Greek, and other pantheons over the years.
  
 **History:**
 []{.lorem}
-[]{.lorem}
 
 **Powers:** Hazel Montgomery had no super-powers, just
 her brilliant and creative mind.
@@ -790,12 +812,12 @@ sensors.
 - **Place of Birth:** Technopolis, U.S.A.
 - **Marital Status:** single 
 - **Known Relatives:** Hazel Montgomery (mother, deceased), Marquis Malign (father)
-- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (as Bug; resigned), Technopolis Academy (graduated)
+- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (as Bug; reserve), Technopolis Academy (graduated), Villains, Inc. (as Hornette; expelled)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: bio2    ::::::::::::::::::::::::
-- **Height:** 5' 3"
-- **Weight:** 110 lbs.
+- **Height:** 5' 7"
+- **Weight:** 128 lbs.
 :::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::  bio    ::::::::::::::::::::::::
 - **Eyes:** hazel
@@ -803,7 +825,6 @@ sensors.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
 []{.lorem}
 
 **Powers:** Lin Montgomery has no powers; all of their
@@ -840,14 +861,32 @@ blasts, originally developed during her days as The Hornette.
 - **Type of Group:** Supervillain Team
 - **Base of Operations:** unknown; Technopolis, U.S.A. (former base); Vadyvokia (former base)
 - **Current Members:** Balor, Deathsong, Glytch, Gunlock, Igneia, Phineas Pann Jr., The Teleidoscopic Man, Sequana, Sreng
-- **Former Members:** Marquis Malign, Neutrino, Dr. Phineas Pann (deceased), Sinhammer (deceased), Xana Mega
+- **Former Members:** The Hornette (expelled), Marquis Malign, Neutrino, Dr. Phineas Pann (deceased), Sinhammer (deceased), Xana Mega
 - **Allies:** Atomicorps, the Formorians, Neutrino, T.R.E.L.A.
 - **Enemies:** A.L.E.R.T., Cosmic Legends of the Universe, 
-  The Junior Legends of America, Marquis Malign, N.O.V.A. Labs, 
-  The Verdict
+  The Junior Legends of America, Marquis Malign, N.O.V.A. Labs, The Verdict
 :::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
+
+:::::::::::::: member-list :::::::::::::::::::::::::::::::::::
+- **Balor**[]{.icon-male   } Giant Fomorian with third eye of venom; enemy of the Tuatha Dé Danann.
+- **Deathsong**[]{.icon-female } Sonic-powered criminal and former girlfriend of Jeri North.
+- **Glytch**[]{.icon-trans  } Former Technopolis Academy student; technopath composed of digital energies.
+- **Gunlock**[]{.icon-female } Wielder of a cursed pistol and enemy of Jack Dee.
+- **Hornette, The**[]{.icon-trans  } *expelled* See *Vespa 2.0*.
+- **Igneia**[]{.icon-female } Younger sister of Obsidius Rex and wielder of volcanic flame.
+- **Marquis Malign**[]{.icon-male   } *resigned* Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. Currently conducting an underworld war against Villains, Inc.
+- **Neutrino**[]{.icon-female } *resigned* Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+- **Phineas Pann, Dr.**[]{.icon-male   } *deceased* Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.
+- **Phineas Pann, Junior.**[]{.icon-male   } Son of the first Phineas Pann and a criminal genius in his own right.
+- **Sequana**[]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.
+- **Sinhammer**[]{.icon-male   } *deceased* Enemy of the Grailknight and wielder of the Mallet of Sucellus. Killed by Zaar.
+- **Sreng**[]{.icon-male   } Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace.
+- **Teleidoscopic Man, The**[]{.icon-male   } Energy-refractor with extensive control over holograms and illusions. Father of Kaleidosope Kid, a graduate of Technopolis Academy.
+- **Xana Mega**[]{.icon-female } *resigned* Faerie queen of the Aos Sí and arch-enemy of Sir Percival. Former leader of Villains, Inc.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Vulcanor {#setting-vulcanor}
 
@@ -886,5 +925,67 @@ Excessive heat and volcanic gasses prevent the Vulcanor
 Islands from becoming a vacation destination. While outsiders
 are welcomed and treated with respect, few non-Vulcanors have 
 been Volcano City.
+
+
+# Other Individuals
+
+::::::::::::::::::::::::::: member-list ::::::::::::::::::::::::::::::::::::::::
+- **Balor**[]{.icon-male   } Giant Fomorian with third eye of venom; enemy of the Tuatha Dé Danann.
+- **Bres**[]{.icon-male} Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
+- **Dindrane**[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight.
+- **Gloom**[]{.icon-male} Independent hero and former student at Technopolis Academy with darkness and emotion powers.
+- **Glytch**[]{.icon-trans  } Former Technopolis Academy student; technopath composed of digital energies. Arch-enemy of Vespa 2.0.
+- **Hornette, The**[]{.icon-trans  } Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*.
+- **Hyperion**[]{.icon-trans} Renegade Sentinel of Saturn and frequent enemy of Titan.
+- **Igneia Vulcanor**[]{.icon-female } Younger sister of Obsidius Rex and wielder of volcanic flame.
+- **Kaleidoscope Kid**[]{.icon-trans} Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
+- **Limuo Pele**[]{.icon-female} Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
+- **Lucky Star**[]{.icon-female} Teen heroine with luck-based powers. Member of the Junior Legends of America.
+- **Man in Black, The**[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.
+- **Marlinspike**[]{.icon-male} *deceased* Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
+- **Magnus Malign, Marquis of Vadyvokia**[]{.icon-male   } Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
+- **Master Magister (John A. Dee VI)**[]{.icon-male} *retired* Grandfather of Jack Dee.
+- **Neutrino**[]{.icon-female } Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+- **Phineas Pann, Dr.**[]{.icon-male   } *deceased* Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.
+- **Sandra Starr**[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends.
+- **Sequana**[]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; founding member of the Cosmic Legends of the Universe; current leader of Villains, Inc.
+- **Sreng**[]{.icon-male   } Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace.
+- **Tachylus Rex, King**[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
+- **Tethys (My'Rinn To'Rezz)**[]{.icon-trans} Child of Titan's sibling and a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
+- **Verdict, The**[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishments; wanted by both A.L.E.R.T. and Villains, Inc.
+- **Xana Mega**[]{.icon-female } Faerie queen of the Aos Sí and arch-enemy of Sir Percival. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Other Groups
+
+::::::::::::::::::::::::::: member-list ::::::::::::::::::::::::::::::::::::::::
+- **Aos Sí** Faeries of Otherworld formerly ruled by Xana Mega.
+- **Atomicorps** A team of mercenaries using nuclear-powered battlesuits.
+- **Crime Institute, The** *defunct* School created by Villains, Inc. to rival Technopolis Academy and train super-villains.
+- **Firbolgs, The** Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc.
+- **Fomorians, The** Mythological giants from Otherworld; enemies of the Tuatha Dé Danann, Brigantia, and the Cosmic Legends.
+- **Junior Legends of America** Team of teenage and young adult heroes, many of whom attended Technopolis Academy. Although they've collectively been offered membership in the Cosmic Legends, most prefer to stay members of the JLA instead.
+- **_Kyl'Sh'Tal_** The Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors.
+- **_Ro'Tan'Okk_** The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion.
+- **Sun City University** Four-year and graduate university located in Sun City, U.S.A.
+- **T.R.E.L.A.** A outlawed splinter group that broke off from A.L.E.R.T., engaged in terrorism world-wide.
+- **Visitors, The** Alien species with vast powers over space and time; creators of the Titanian race.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Other Locations
+
+::::::::::::::::::::::::::: member-list ::::::::::::::::::::::::::::::::::::::::
+- **_L'Shar'Ak_** Capital city of Titan; original home of Titan and Tethys.
+- **Mag Findargat** Castle of the Tuatha Dé Danann in Otherworld. One-time headquarters of the Cosmic Legends.
+- **Moulin Air Force Base** U.S. military base located outside of Sun City, U.S.A.
+- **Museum of Superhuman History** Museum and library connected with Sun City University, devoted to archiving super-powered individuals.
+- **Nuke City** Informal name for Sun City Nuclear Power Plant, located outside Sun City.
+- **Otherworld** Parallel dimension that is home to the Tuatha Dé Danann, the Firbolgs, the Fomorians, and Xana Mega. 
+- **Sun City Zoo** Zoo and marine park located outside Sun City, affiliated with Sun City University.
+- **Technopolis, U.S.A.** Large city located not far from Sun City. Home to Technopolis Academy, Vespa 2.0, and the central laboratories of N.O.V.A. Labs.
+- **Titan (Moon)** Largest moon of Saturn and second-largest satellite in the Solar System; home to the Titanian people.
+- **Vadyvokia** Eastern European "republic" wholly controlled by Marquis Malign.
+- **Volcano City** Capital city of Vulcanor; home of King Tachylus and Obsidius Rex.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
