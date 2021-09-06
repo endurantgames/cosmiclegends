@@ -62,7 +62,7 @@ He's also a fairly decent attorney.
   - *Core:* Sorcery, Supreme
   - *Personal:* Banish, Blast, Extradimensional, Magic, Shield, Ward
   - *Nova:* Ancestral, Empowerment
-- **Abilities:** The Price of Magic, Mists of Misdirection
+- **Abilities:** The Price of Magic, Mists of Misdirection, TBD
 - **Skills:** Academic, Historian, Lawyer, Mystic
 - **Ideals:** Duty, Family, Pedantry, Responsibility, Secrecy
 ::::::::::::::::::::::::::::::::::::::

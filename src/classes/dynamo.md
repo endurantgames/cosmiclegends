@@ -133,6 +133,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 Each Volume, you gain a new ability from your class.
 Your Dynamo Abilities are refinements of your energy powers.
+Each ability can be chosen only once unless otherwise noted.
 
 ### Volume 1 Abilities
 
@@ -187,6 +188,10 @@ Energy Versatility
     Power Word list as a Personal Power Word.
     You can take this ability more than once.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -202,7 +207,7 @@ Power Conduit
 Power Overwhelming
 
 :   Your capacity for energy use is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 

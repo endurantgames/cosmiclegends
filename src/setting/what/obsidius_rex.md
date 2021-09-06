@@ -78,7 +78,7 @@ symbol of rank, but it was destroyed by the Man in Black in 2003.
   - *Core:* Reinforcements, Unexpected
   - *Personal:* Armor, Communicate, Greatsword, Remote, Superior, Survivor
   - *Nova:* Stone, Unbreakable
-- **Abilities:** For My Kingdom, Righteous Rage
+- **Abilities:** For My Kingdom, Righteous Rage, TBD
 - **Skills:** Artist (sculptor), Engineer, Explorer, Historian, Politician
 - **Ideals:** Nationalism, Nobility, Pride, Security, Stubbornness
 ::::::::::::::::::::::::::::::::::::::

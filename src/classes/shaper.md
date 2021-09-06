@@ -164,6 +164,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Shaper Abilities show a widening diversity in the 
 applications of your control power.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -218,7 +219,11 @@ Grand Unified Theory
 Power Overwhelming
 
 :   Your capacity for matter control is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

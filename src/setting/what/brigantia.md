@@ -56,7 +56,7 @@ need, she can form a sword of blazing light.
   - *Core:* Blessed, Champion
   - *Personal:* Flight, Peace, Radiant, Resist, Speed, Strength
   - *Nova:* Blazing, Sword
-- **Abilities:** Give Me Strength!, Wisdom of Athena
+- **Abilities:** Give Me Strength!, Wisdom of Athena, TBD
 - **Skills:** Explorer, Historian, Performer (poet), Physician
 - **Ideals:** Culture, Honor, Justice, Loyalty, Vengeance
 ::::::::::::::::::::::::::::::::::::::

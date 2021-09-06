@@ -126,6 +126,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 Each Volume, you gain a new ability from your class.
 Your Mage Abilities are new ways of calling upon arcane power.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -178,7 +179,11 @@ Arcane Arsenal
 Eldritch Might
 
 :   Your power continues to grow, but at what cost? Increase your
-    maximum Might to 15.
+    maximum Might by 5.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

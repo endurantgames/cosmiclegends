@@ -126,6 +126,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Inventor Abilities reflect permanent additions to your
 stock of creations.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -184,6 +185,10 @@ Weaponsmith
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

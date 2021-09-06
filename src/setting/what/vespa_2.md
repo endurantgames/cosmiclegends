@@ -101,7 +101,7 @@ blasts, originally developed during her days as The Hornette.
   - *Core:* Armor, Experimental, Prototype
   - *Personal:* Analyze, Communicate, Dynamic, Laser, Protection, Telemetry, Wings
   - *Nova:* Bug, Zapper
-- **Abilities:** No Wasted Effort, Armorsmith
+- **Abilities:** No Wasted Effort, Armorsmith, TBD
 - **Skills:** Artist (fanfic), Engineer, Hacker, Pilot, Scientist (entomology)
 - **Ideals:** Comaraderie, Honesty, Legacy, Science, Self-Sacrifice
 ::::::::::::::::::::::::::::::::::::::

@@ -66,7 +66,7 @@ sword, Sequence, is a sister blade to Excalibur from Arthur's arsenal.
   - *Core:* Gambit, Prepared
   - *Personal:* Armor, Crossbow, Line, Restrain, Sword
   - *Nova:* Immortal, Quest
-- **Abilities:** Peak Human Potential, Trick Arrows
+- **Abilities:** Peak Human Potential, Trick Arrows, TBD
 - **Skills:** Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy
 - **Ideals:** Chivalry, Faith, Honor, Law, Vows
 ::::::::::::::::::::::::::::::::::::::

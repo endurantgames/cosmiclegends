@@ -44,7 +44,7 @@ Titanian.
   - *Core:* Abilities, Powers
   - *Personal:* Alien, Cold, Flight, Probe, Speed, Strength, Thoughts, Vision
   - *Nova:* Compassion, Selfless
-- **Abilities:** My One Weakness! (salt water), Boundless Fortitude
+- **Abilities:** My One Weakness! (salt water), Boundless Fortitude, TBD
 - **Skills:** Investigator, Scientist
 - **Ideals:** Caution, Curiosity, Freedom, Joy, Privacy
 ::::::::::::::::::::::::::::::::::::::

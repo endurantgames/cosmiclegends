@@ -79,7 +79,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
   - *Core:* Environment, Sculpt, Water
   - *Personal:* Blast, Create, Move, Quell, Reshape, Shield
   - *Nova:* Towering, Tsunami
-- **Abilities:** Reshape the Battlefield, Shelter the Innocents
+- **Abilities:** Reshape the Battlefield, Shelter the Innocents, TBD
 - **Skills:** Artist (sandcastles), Physician (first aid), Scientist (marine biology), Socialite
 - **Ideals:** Lifesaving, Nature, Protection, Surfing, Humor
 ::::::::::::::::::::::::::::::::::::::

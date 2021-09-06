@@ -63,7 +63,7 @@ ground and move them about.
   - *Core:* Focused, Totality
   - *Personal:* Erase, Language, Memory, Move, Paper, Probe, Restore, Transfer
   - *Nova:* Information, Overload
-- **Abilities:** Our Minds As One, Telekinetics
+- **Abilities:** Our Minds As One, Telekinetics, TBD
 - **Skills:** Academic, Artist, Journalist
 - **Ideals:** Aesthetics, Compassion, Knowledge, Learning, Order
 ::::::::::::::::::::::::::::::::::::::

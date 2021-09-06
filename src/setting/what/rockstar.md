@@ -44,7 +44,7 @@ and lets her lift in excess of 100 tons.
   - *Core:* Monster, Strongest
   - *Personal:* Body, Leap, Rocky, Stomp, Strength, Throw
   - *Nova:* Mosh, Pit
-- **Abilities:** Engine of Destruction, Misunderstood Monster
+- **Abilities:** Engine of Destruction, Misunderstood Monster, TBD
 - **Skills:** Criminal, Explorer, Hacker, Performer (punk)
 - **Ideals:** Bold, Comfort, Fun, Kindness, Music
 ::::::::::::::::::::::::::::::::::::::

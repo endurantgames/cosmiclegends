@@ -153,6 +153,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Paragon Abilities reflect new uses for your vast array
 of super-powers.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -162,7 +163,7 @@ At the start of Volume 1, choose two abilities from this list.
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
-    Health to 15.
+    Health by 5.
 
 Dedicated Defender
 
@@ -196,7 +197,7 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Power Overwhelming
 
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Never-Ending Battle
 
@@ -204,6 +205,10 @@ Never-Ending Battle
     danger. When you are at 0 Health or 0 Might, regain 1
     point of each at the start of the next Hero Phase if
     the Rescue goal can still be advanced.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -221,7 +226,7 @@ Castle of Quiettude
 Nigh-Invulnerable
 
 :   There are few things that can seriously harm you.
-    Increase your maximum Health to 20.
+    Increase your maximum Health by 5.
 
 :::::::::::::::::::::::::::::::::::::
 

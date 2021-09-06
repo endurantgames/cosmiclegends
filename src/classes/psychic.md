@@ -151,6 +151,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Psychic Abilities are new ways to channel your psionic
 power.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -204,6 +205,10 @@ Psychic Healing
 :   As a move, you can use your mental powers to heal someone else.
     They regain Health equal to the Effectiveness of a Power roll.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -214,7 +219,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 Power Overwhelming
 
 :   Your capacity for psionics is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Skill Sharing
 

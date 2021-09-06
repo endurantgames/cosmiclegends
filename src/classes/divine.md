@@ -142,6 +142,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 Each Volume, you gain a new ability from your class. Your Divine
 Abilities are gifts from the Gods, whether by birth or by boon.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -151,7 +152,8 @@ At the start of Volume 1, choose two abilities from this list.
 
 Stamina of Atlas
 
-:   You are tougher than a mere mortal. Increase your maximum Health to 15.
+:   You are tougher than a mere mortal. 
+    Increase your maximum Health by 5.
 
 Strength of Kratos
 
@@ -199,6 +201,10 @@ Speed of Hermes
     The Timely Arrival move costs you 0 points from the 
     Teamwork Pool.
 
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -211,7 +217,7 @@ Power of Zeus
 
 :   You're empowered with divine energy that crackles
     like electricity when you use Might.  
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Skill of Artemis
 

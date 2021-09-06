@@ -11,4 +11,5 @@ Each class gives the following:
 - Two Core Power Words
 - Six Personal Power words
 - One class ability per Volume
+- An additional class ability at Volume 1
 

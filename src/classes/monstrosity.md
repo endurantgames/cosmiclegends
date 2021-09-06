@@ -124,6 +124,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Monstrosity Abilities show your increasing distance from
 humanity.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -133,7 +134,7 @@ At the start of Volume 1, choose two abilities from this list.
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
-    Health to 15.
+    Health by 5.
 
 Fast Healer
 
@@ -174,7 +175,11 @@ Regeneration
 Relentless Power
 
 :   You are a storehouse of untapped energy. Increase your
-    maximum Might to 15.
+    maximum Might by 5.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -186,7 +191,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 Nigh-Invulnerable
 
 :   There are few things that can seriously harm you.
-    Increase your maximum Health to 20.
+    Increase your maximum Health by 5.
 
 Power Burn
 
@@ -204,7 +209,7 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 Power Overwhelming
 
 :   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might to 15.
+    Increase your maximum Might by 5.
 
 Immortal
 

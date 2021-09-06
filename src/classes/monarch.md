@@ -148,6 +148,7 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 Each Volume, you gain a new ability from your class.
 Your Monarch Abilities represent esoteric knowledge that
 is inaccessible to those outside of your home.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -205,6 +206,10 @@ Unfamiliar Fighting Techniques
     unknown to the outside world.
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

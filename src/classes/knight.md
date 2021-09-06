@@ -137,6 +137,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Knight Abilities are based on continued training and
 perfection of your physical and mental capabilities.
+Each ability can be chosen only once.
 
 ### Volume 1 Abilities
 
@@ -153,7 +154,7 @@ Team, Together!
 Toughness
 
 :   Your training focuses on increasing your ability to
-    withstand pain. Increase your maximum Health to 12.
+    withstand pain. Increase your maximum Health by 2.
 
 Trick Arrows
 
@@ -196,6 +197,10 @@ Master of Skills
 :   Your education covered a wide range of topics.  Gain a number of
     skills equal to the Volume. Add an additional skill at the
     start of each later Volume.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

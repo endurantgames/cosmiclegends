@@ -71,7 +71,7 @@ have been had his mother's pride not cost them both dearly.
   - *Core:* Energy, Overload, Radiation
   - *Personal:* Absorb, Beam, Bubble, Explosion, Flare, Punch
   - *Nova:* Meltdown, Nuclear
-- **Abilities:** Energy Reserve, Fight Fire With Fire
+- **Abilities:** Energy Reserve, Fight Fire With Fire, TBD
 - **Skills:** Academic, Scientist
 - **Ideals:** Guilt, Longing, Politeness, Relax, Responsibility
 ::::::::::::::::::::::::::::::::::::::
