@@ -1,6 +1,4 @@
-# What's What
-
-:::::::::::::::: {#section-what} :::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::: {#section-what .breakbefore} :::::::::::::::::::::::::::::::::::::::::::::
 # A.L.E.R.T. {#setting-alert}
 
 :::::::::::: group ::::::::::::::::::::::::::
@@ -91,7 +89,7 @@ need, she can form a sword of blazing light.
 - **Base of Operations:** Sun City, U.S.A.; Technopolis, U.S.A. (former base); Mag Findargat, Otherworld (temporary base); Pittsburgh, Pennsylvania (former base)
 - **Active Members:** Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0
 - **Reserve Members:** The Grailknight, Jack Dee, Obsidius Rex, Titan
-- **Former Members:** Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled) Vespa I (deceased), Zaar
+- **Former Members:** Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled), Vespa I (deceased), Zaar
 - **Allies:** A.L.E.R.T., The Junior Legends of America, N.O.V.A. Labs, Technopolis Academy
 - **Enemies:** A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, the Visitors, Villains Inc., Xana Mega
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -112,23 +110,23 @@ Although their membership has changed over the decades, they remain
 committed to protecting the Earth from the forces of evil.
 
 ::::::::::::::::::::::::: member-list :::::::::::::::::::::::::::
-- **Brigantia**                    [ ]{.icon-female } See *Brigantia.*
-- **Bug (Mar Ferrandis)**          [ ]{.icon-female } The second hero to use the name *Bug* and friend of Lin Montgomery. Retired from superheroics.
-- **Energy Boy**                   [ ]{.icon-male   } See *Energy Boy.*
-- **Falconer, The**                [ ]{.icon-female } Winged hero who could communicate with avians; current location and status unknown.
-- **Head Librarian, The**          [ ]{.icon-male   } See *Head Librarian*.
-- **Master Magister (Jack Dee)**   [ ]{.icon-male   } *reserve* See *Jack Dee*.
-- **Master Magister (Johnny Dee)** [ ]{.icon-male   } *deceased* Younger brother of Miss Magister and uncle of Jack Dee.
-- **Miss Magister: Maddie Dee**    [ ]{.icon-female } *deceased* Founding member of the Cosmic Legends and mother of Jack Dee.
-- **Obsidius Rex** *reserve*       [ ]{.icon-male   } See *Obsidius Rex*.
-- **Percival, the Grailknight**    [ ]{.icon-male   } *reserve* See *Grailknight*.
-- **Riptide**                      [ ]{.icon-female } See *Riptide*.
-- **Rockstar**                     [ ]{.icon-female } See *Rockstar*.
-- **Sequana** *expelled*           [ ]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; now a wanted criminal.
-- **Titan, Sentinel of Saturn**    [ ]{.icon-trans  } *reserve* See *Titan*.
-- **Vespa (Hazel Montgomery)**     [ ]{.icon-male   } *deceased* See *Vespa I*.
-- **Vespa (Lin Montgomery)**       [ ]{.icon-trans  } See *Vespa 2.0*.
-- **Zaar**                         [ ]{.icon-female } Time-traveller from the 24th Century; returned to her own century rather than face trial for killing Sinhammer.
+- **Brigantia**[]{.icon-female } See *Brigantia.*
+- **Bug (Mar Ferrandis)**[]{.icon-female } The second hero to use the name *Bug* and friend of Lin Montgomery. Retired from superheroics.
+- **Energy Boy**[]{.icon-male   } See *Energy Boy.*
+- **Falconer, The**[]{.icon-female } Winged hero who could communicate with avians; current location and status unknown.
+- **Head Librarian, The**[]{.icon-male   } See *Head Librarian*.
+- **Master Magister (Jack Dee)**[]{.icon-male   } *reserve* See *Jack Dee*.
+- **Master Magister (Johnny Dee)**[]{.icon-male   } *deceased* Younger brother of Miss Magister and uncle of Jack Dee.
+- **Miss Magister: Maddie Dee**[]{.icon-female } *deceased* Founding member of the Cosmic Legends and mother of Jack Dee.
+- **Obsidius Rex** *reserve*[]{.icon-male   } See *Obsidius Rex*.
+- **Percival, the Grailknight**[]{.icon-male   } *reserve* See *Grailknight*.
+- **Riptide**[]{.icon-female } See *Riptide*.
+- **Rockstar**[]{.icon-female } See *Rockstar*.
+- **Sequana** *expelled*[]{.icon-female } A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; now a wanted criminal.
+- **Titan, Sentinel of Saturn**[]{.icon-trans  } *reserve* See *Titan*.
+- **Vespa (Hazel Montgomery)**[]{.icon-male   } *deceased* See *Vespa I*.
+- **Vespa (Lin Montgomery)**[]{.icon-trans  } See *Vespa 2.0*.
+- **Zaar**[]{.icon-female } Time-traveller from the 24th Century; returned to her own century rather than face trial for killing Sinhammer.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Energy Boy {#setting-energy-boy}
@@ -467,7 +465,37 @@ of science gone wild.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+For most Earthlings, Obsidius was the first Vulcanor they'd ever
+heard of; the inhabitants of the Volcano Isles kept themselves 
+isolated for centuries from the primative outside world.
+
+The oldest child of King Tachylus and Queen Limuo, Obsidius was raised
+to be the heir to the advanced Vulcanor civilization. From an early
+age, he trained with weapons and studied statecraft and the sciences.
+
+While just a young man, Tachylus sent Obsidius as an emissary, first
+to meet Titan and then to the outside world in general. Shortly after
+the Cosmic Legends were created, he joined as their first non-founding
+member.
+
+Obsidius's recklessness as a young man led to several diplomatic
+incidents with the outside world, including a tense but brief cold
+war with New Zealand.
+
+The ensuing decades have mellowed the crown prince's temper, and he's
+regarded as an elder statesman in the superhero community -- to his
+amusement, as 75 years of age is still considered young by Vulcanor
+standards.
+
+King Tachylus, on the other hand, is no longer a young monarch and is
+showing his age. Obsidius's mother, Limuo, has renounced her title
+and separated from Tachylus, while their younger child, Igneia, was
+exiled for attempting to murder the rest of the Royal Family.
+
+These have put additional stresses on Obsidius to find a spouse and
+produce a future successor, if just to prevent Vulcanor from 
+descending into a civil war between his many squabbling cousins were
+something to happen to the king and prince.
 
 **Powers:**
 Like all Vulcanors, Obsidius is superhumanly strong, able to lift several tons
@@ -524,7 +552,40 @@ symbol of rank, but it was destroyed by the Man in Black in 2003.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+Kelly Liang always loved the sea; while a high school
+student in Hawai'i she took a job as a lifeguard, even
+though her family was wealthy enough that she didn't
+*need* to work.
+
+While working that very job, Kelly was stung by a mutated
+jellyfish in the process of saving a drowning woman. 
+She managed to make it safely back to shore before from 
+the strange toxins in her blood.
+
+Kelly lay in a coma for three weeks, while her parents
+saw that she received the best care that money could buy --
+including an experimental treatment that brought her
+back to consciousness.
+
+Although she was awake, the experience had left her weakened
+and barely able to move. Giving up her beloved surfing
+hobby, Kelly threw herself into the study of biochemistry
+and marine biology, eventually becoming a professor.
+
+Years after her life-changing accident, Kelly managed to
+a synthesize a cure for the poisons that ravaged her body --
+and also found a strange side effect had given her control
+over water!
+
+Dubbing herself Riptide, Liang became a superhero and eventually
+was invited to join the Cosmic Legends. She still teaches 
+marine biology at the university; Kelly's identity as Riptide is 
+an open secret among most Hawai'ians.
+
+But as Riptide is the most prominent and popular superhero 
+of Hawai'i, the people of the islands are happy to maintain 
+the polite fiction that there's no connection between Professor
+Liang and the Hero of Hilo.
 
 **Powers:**
 Riptide has complete telekinetic control over liquid water, 
@@ -578,7 +639,7 @@ or on the surface of a body of water, and 50 m.p.h. over land.
 []{.lorem}
 
 **Powers:**
-Jeri North's exposure to bremsstrahlung rays fundamentally changed
+Jeri North's exposure to *bremsstrahlung* rays fundamentally changed
 the nature of her body. Her skin is a rough, rocky substance with
 sharp metal "hairs" scattered about, and her internal organs and skeleton
 are composed of even denser materials.
@@ -775,8 +836,9 @@ handled the Norse, Greek, and other pantheons over the years.
 - **Identity:** public
 - **Place of Birth:** Albuquerque, New Mexico
 - **Marital Status:** divorced
-- **Known Relatives:** Marquis Malign (ex-husband), Lin Montgomery (child)
-- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder), Neutrino (former partner)
+- **Known Relatives:** Marquis Malign (ex-husband), Lin Montgomery (child),
+Del Thompson (ward)
+- **Group Affiliation:** A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder), Neutrino (former science partner)
 - **Base of Operations:** Technopolis, U.S.A. and Sun City, U.S.A.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: {.bio2} ::::::::::::::::::::::::
@@ -787,7 +849,30 @@ handled the Norse, Greek, and other pantheons over the years.
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
-[]{.lorem}
+As a young girl, Hazel Montgomery showed a talent for technology
+that eventually brought her to the attention of A.L.E.R.T. who tasked
+her with analyzing and reverse-engineering Titanian science once
+Titan revealed himself to the world.
+
+Eventually she became a field operative for A.L.E.R.T., using a suit 
+of armor of her own creation. As Vespa, she was a founding member of
+the Cosmic Legends of the Universe; as Hazel Montgomery, she was a
+founding director of N.O.V.A. Labs.
+
+Although gifted with science, Montgomery had worse luck when it came
+to interpersonal relationships. 
+
+Phineas Pann, her mentor, was revealed as the criminal mastermind 
+behind T.R.E.L.A. Her "storybook romance" with Magnus, Marquis
+of Vadyvokia, fell apart shortly after the birth of their child Lin.
+Delphine Thompson, Hazel's former partner at N.O.V.A., turned to a 
+life of villainy as Neutrino. Lin seemingly took a criminal turn
+as the Hornette, although this was later revealed to be a ruse.
+
+Montgomery had retired from active duty with the Cosmic Legends
+when she sacrificed her life to repel the Visitors' Third Visitation.
+Her child Lin adopted the name Vespa 2.0 as an homage to the beloved
+heroine.
 
 **Powers:** Hazel Montgomery had no super-powers, just
 her brilliant and creative mind.
@@ -824,11 +909,60 @@ sensors.
 - **Hair:** (dyed) blonde, (natural) brown
 :::::::::::::::::::::::::::::::::::::::::::::
  
+:::::::::::::::::::::::: {.soapbox .small} :::::::::::::::
+As a non-binary character who uses they/them pronouns,
+Lin Montgomery could be viewed as slightly anachronistic
+if firm timelines are followed.
+
+However, this is a bit of authorial license that I'm not
+going to lose any sleep over. Maybe the CLU is a slightly
+better world than our own in this regard.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 **History:**
-[]{.lorem}
+As the child of Hazel Montgomery, charter member of the
+Cosmic Legends of the Universe, and Marquis Malign, regarded by
+many as the greatest supervillain of history, Lin Montgomery
+carries the weight of a very heavy pedigree in the superhero 
+world.
+
+Conceived shortly after their parents wed in secret and before 
+Malign's coup propelled him to the throne of Vadyvokia, Lin
+grew up surrounded by the Cosmic Legends. To many, they were
+the archetypal "kid sidekick" as Bug the Binary Bantling.
+
+Although their first suit of armor was wholly lacking in 
+offensive systems, Lin made certain ... *alterations* to the
+Bug armor, giving it capabilities beyond merely defensive uses.
+
+Along with their foster brother Del Thompson, Lin formed the
+Junior Legends of America; the pair were also the first 
+students at the newly chartered Technopolis Academy, and Lin
+its first graduate.
+
+Once they had graduated, Lin was contacted by Magnus Malign, who
+seemingly convinced them to adopt a villainous persona as
+the Hornette and join Villains, Inc. Eventually this cooperation 
+was revealed as a ruse that helped bring down VI, 
+but it also led to Marquis Malign disowning them and swearing
+eternal enmity.
+
+Lin was still operating as the Hornette and serving in the Cosmic
+Legends in their mother's stead when the Third Vistation
+arrived on Earth and began to process the population of the planet
+for abduction to a distant star. 
+
+Only the alliance of the Cosmic Legends, the Junior Legends, 
+and Marquis Malign's forces was able repel the Visitors -- and
+at the cost of Hazel Montgomery's life.
+
+Shaken by this loss, Lin changed their name to Vespa 2.0 and
+rededicated themself to fighting for justice.
 
 **Powers:** Lin Montgomery has no powers; all of their
-abilities come from their armored suit.
+abilities come from their armored suit. As the crown marquex
+of Vadyvokia, Lin may possess some sorcerous potential, but has
+never trained those.
 
 **Weapons:** 
 Vespa 2.0's armored suit is an evolved version of their mother's, with
@@ -943,7 +1077,7 @@ been Volcano City.
 - **Lucky Star**[]{.icon-female} Teen heroine with luck-based powers. Member of the Junior Legends of America.
 - **Man in Black, The**[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.
 - **Marlinspike**[]{.icon-male} *deceased* Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
-- **Magnus Malign, Marquis of Vadyvokia**[]{.icon-male   } Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
+- **Magnus Merlyn Malign, Marquis of Vadyvokia**[]{.icon-male   } Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
 - **Master Magister (John A. Dee VI)**[]{.icon-male} *retired* Grandfather of Jack Dee.
 - **Neutrino**[]{.icon-female } Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
 - **Phineas Pann, Dr.**[]{.icon-male   } *deceased* Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.

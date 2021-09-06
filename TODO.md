@@ -54,19 +54,20 @@ Cosmic Legends of the Universe
         - [x] Timely Arrival
         - [x] General Alert
   - [ ] Post-Crisis
-- [ ] Setting
-  - [ ] Era
-  - [ ] Customizing
-  - [ ] Cosmic Legends
-  - [ ] Junior Legends
-  - [ ] What's What?
-    - [ ] Obsidius Rex (bio)
-    - [ ] Riptide (bio)
-    - [ ] Rockstar (bio)
-    - [ ] Titan (bio)
-    - [ ] Vespa I (bio)
-    - [ ] Vespa 2.0 (bio)
-    - [ ] Villains, Inc. (backstory, list)
+- [/] Setting
+  - [x] Era
+  - [x] Customizing
+  - [x] Cosmic Legends
+  - [x] Junior Legends
+  - [/] What's What?
+    - [x] Obsidius Rex (bio)
+    - [x] Riptide (bio)
+    - [/] Rockstar (bio)
+    - [/] Titan (bio)
+    - [x] Vespa I (bio)
+    - [x] Vespa 2.0 (bio)
+    - [/] Villains, Inc. (backstory)
+    - [x] Villains, Inc. (list)
 - [ ] The Editor
   - [ ] Creating Story Arcs
   - [ ] Creating Crises

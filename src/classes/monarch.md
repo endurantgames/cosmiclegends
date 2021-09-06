@@ -140,7 +140,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free;
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Obsidius Rex, Prince of Vulcanor](art/jeshields/monarch.png "Lord Obsidio, prince of Vulcanor"){.class}
+![Obsidius Rex, Prince of Vulcanor](art/jeshields/monarch.png "Obsidius Rex, prince of Vulcanor"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Monarch Abilities {  .class}

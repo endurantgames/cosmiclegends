@@ -1513,7 +1513,7 @@ margin-top: 0.5em; }
   display:     block;
 }
 
-sup { line-height: none; }
+sup { line-height: none; font-size: 50%; }
 
 .member-list ul { break-inside: auto; }
 
