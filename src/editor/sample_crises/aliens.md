@@ -6,10 +6,10 @@
 ## Alien Patrol Saucers
 ### 3 Actions
 
-- **Smash:  3** (destroy the alien ships)
-- **Outwit: 5** (trick the aliens into leaving Earth)
-- **Allay:  3** (understand the aliens' goals)
-- **Rescue: 3** (save potential abductees)
+- **Smash:  3** destroy the alien ships
+- **Outwit: 5** trick the aliens into leaving Earth
+- **Allay:  3** understand the aliens' goals
+- **Rescue: 3** save potential abductees
 
 A small cluster of alien space-saucers is attacking the local shopping
 mall, trying to abduct innocent bystanders.

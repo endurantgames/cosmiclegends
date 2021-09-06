@@ -9,8 +9,7 @@ Cosmic Legends of the Universe
 - [/] Goals
   - [x] Smash
   - [x] Outwit
-  - [x] ~~Withstand~~
-  - [/] Allay
+  -ny [/] Allay
   - [/] Rescue
 - [/] Advancements
   - [/] Story Arc character
