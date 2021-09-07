@@ -6,7 +6,7 @@ Cosmic Legends of the Universe
   - [/] Bronze Age
 - [/] Classes
   - [/] Introduction
-  - [ ] New classes
+  - [-] ~~New classes~~
 - [x] Ideals
 - [/] Goals
   - [x] Smash
@@ -71,23 +71,23 @@ Cosmic Legends of the Universe
 - [ ] The Editor
   - [ ] Creating Story Arcs
   - [ ] Creating Crises
-- [ ] Sample Crises
+- [/] Sample Crises
   - [/] Aliens
-  - [ ] Alternate Universes
-  - [ ] Capitalism
-  - [ ] Espionage Operation
-  - [ ] Legal Entanglements
-  - [ ] Media Relations
+  - [-] ~~Alternate Universes~~
+  - [-] ~~Capitalism~~
+  - [-] ~~Espionage Operation~~
+  - [-] ~~Legal Entanglements~~
+  - [-] ~~Media Relations~~
   - [ ] Military
-  - [ ] Mythological Monsters
-  - [ ] Mystery Investigation
+  - [-] ~~Mythological Monsters~~
+  - [-] ~~Mystery Investigation~~
   - [ ] Natural Disasters
   - [ ] Ordinary Criminals
   - [ ] Personal Matters
-  - [ ] Police
-  - [ ] Rival Super-Heroes
-  - [ ] Romantic Outing
+  - [-] ~~Police~~
+  - [-] ~~Rival Super-Heroes~~
+  - [-] ~~Romantic Outing~~
   - [ ] Science
-  - [ ] Sports Event
+  - [-] ~~Sports Event~~
   - [ ] Super-Villains
 
