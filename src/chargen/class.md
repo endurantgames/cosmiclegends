@@ -13,3 +13,4 @@ Each class gives the following:
 - One class ability per Volume
 - An additional class ability at Volume 1
 
+

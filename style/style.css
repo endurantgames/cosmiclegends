@@ -17,6 +17,7 @@ header h1     { string-set: gamename content()       }
   --font-caption        : "Legio Sabina Condensed";
   --font-coverbox       : "Bebas Neue";
   --font-coverbox-qm    : "HackeIt Bold";
+  --font-digit          : "Legio Sabina Punch";
   --font-display        : 'Legio Sabina Title';
   --font-gamename       : 'Legio Sabina Condensed';
   --font-h1             : 'Legio Sabina Semi-Italic';
@@ -57,12 +58,19 @@ header h1     { string-set: gamename content()       }
   --color-sheet-lighter : rgba(128, 128, 128, 0.25);
   --color-roster        : #F0E0F0;
 
-  --color-statblock-1   : #FFF0F0; /* red */
-  --color-statblock-2   : #FFFFF0; /* yellow */
-  --color-statblock-3   : #F0FFF0; /* green */
-  --color-statblock-4   : #F0FFFF; /* cyan */
-  --color-statblock-5   : #F0F0FF; /* blue */
-  --color-statblock-6   : #FFF0FF; /* magenta */
+  --color-rainbow-1   : #FFF0F0; /* red */
+  --color-rainbow-2   : #FFFFF0; /* yellow */
+  --color-rainbow-3   : #F0FFF0; /* green */
+  --color-rainbow-4   : #F0FFFF; /* cyan */
+  --color-rainbow-5   : #F0F0FF; /* blue */
+  --color-rainbow-6   : #FFF0FF; /* magenta */
+
+  --color-rainbow-1d  : #800000; /* red */
+  --color-rainbow-2d  : #808000; /* yellow */
+  --color-rainbow-3d  : #008000; /* green */
+  --color-rainbow-4d  : #008080; /* cyan */
+  --color-rainbow-5d  : #000080; /* blue */
+  --color-rainbow-6d  : #800080; /* magenta */
 
   --color-stunt         : blue;
   --color-toc-white     : #F0F0F0;
@@ -91,6 +99,7 @@ header h1     { string-set: gamename content()       }
   --body                : 9pt;
   --smaller             : 8pt;
   --small               : 7pt;
+  --tiny                : 6pt;
   --caption             : 10pt;
   --title               : 54pt;
   --subtitle            : 26pt;
@@ -538,11 +547,11 @@ margin-top: 0.5em; }
 .ability-list dl dd ul li { margin-left: 1em; list-style-type: circle; }
 .ability-list dl dd ul li::marker { padding-right: 0.25em; }
 
-.ability-list.v1 dl > * { background: linear-gradient(90deg, var(--color-statblock-1) 75%, var(--color-statblock-2)); }
-.ability-list.v2 dl > * { background: linear-gradient(90deg, var(--color-statblock-2) 75%, var(--color-statblock-3)); }
-.ability-list.v3 dl > * { background: linear-gradient(90deg, var(--color-statblock-3) 75%, var(--color-statblock-4)); }
-.ability-list.v4 dl > * { background: linear-gradient(90deg, var(--color-statblock-4) 75%, var(--color-statblock-5)); }
-.ability-list.v5 dl > * { background: linear-gradient(90deg, var(--color-statblock-5) 75%, var(--color-statblock-6)); }
+.ability-list.v1 dl > * { background: linear-gradient(90deg, var(--color-rainbow-1) 75%, var(--color-rainbow-2)); }
+.ability-list.v2 dl > * { background: linear-gradient(90deg, var(--color-rainbow-2) 75%, var(--color-rainbow-3)); }
+.ability-list.v3 dl > * { background: linear-gradient(90deg, var(--color-rainbow-3) 75%, var(--color-rainbow-4)); }
+.ability-list.v4 dl > * { background: linear-gradient(90deg, var(--color-rainbow-4) 75%, var(--color-rainbow-5)); }
+.ability-list.v5 dl > * { background: linear-gradient(90deg, var(--color-rainbow-5) 75%, var(--color-rainbow-6)); }
 
 .ability-list dl dt {
   background-color: var(--color-sidebar);
@@ -662,53 +671,53 @@ margin-top: 0.5em; }
 
 .cpw ul li:nth-child(6n+1) { 
   background: linear-gradient(-90deg, 
-                var(--color-statblock-1)  0%, 
-                var(--color-statblock-2) 15%, 
-                var(--color-statblock-2) 85%, 
-                var(--color-statblock-3) 100%); 
+                var(--color-rainbow-1)  0%, 
+                var(--color-rainbow-2) 15%, 
+                var(--color-rainbow-2) 85%, 
+                var(--color-rainbow-3) 100%); 
 }
 .cpw ul li:nth-child(6n+2) { 
   background: linear-gradient(-90deg, 
-                var(--color-statblock-2)   0%, 
-                var(--color-statblock-3)  15%, 
-                var(--color-statblock-3)  85%, 
-                var(--color-statblock-4) 100%); 
+                var(--color-rainbow-2)   0%, 
+                var(--color-rainbow-3)  15%, 
+                var(--color-rainbow-3)  85%, 
+                var(--color-rainbow-4) 100%); 
 }
 .cpw ul li:nth-child(6n+3) { 
   background: linear-gradient(-90deg, 
-                var(--color-statblock-3)   0%, 
-                var(--color-statblock-4)  15%, 
-                var(--color-statblock-4)  85%, 
-                var(--color-statblock-5) 100%); 
+                var(--color-rainbow-3)   0%, 
+                var(--color-rainbow-4)  15%, 
+                var(--color-rainbow-4)  85%, 
+                var(--color-rainbow-5) 100%); 
 }
 .cpw ul li:nth-child(6n+4) { 
   background: linear-gradient(-90deg, 
-                var(--color-statblock-4)   0%, 
-                var(--color-statblock-5)  15%, 
-                var(--color-statblock-5)  85%, 
-                var(--color-statblock-6) 100%); 
+                var(--color-rainbow-4)   0%, 
+                var(--color-rainbow-5)  15%, 
+                var(--color-rainbow-5)  85%, 
+                var(--color-rainbow-6) 100%); 
 }
 .cpw ul li:nth-child(6n+5) { 
   background: linear-gradient(-90deg, 
-                var(--color-statblock-5)   0%, 
-                var(--color-statblock-6)  15%, 
-                var(--color-statblock-6)  85%, 
-                var(--color-statblock-1) 100%); 
+                var(--color-rainbow-5)   0%, 
+                var(--color-rainbow-6)  15%, 
+                var(--color-rainbow-6)  85%, 
+                var(--color-rainbow-1) 100%); 
 }
 .cpw ul li:nth-child(6n+0) { 
   background: linear-gradient(-90deg, 
-                var(--color-statblock-6)   0%, 
-                var(--color-statblock-1)  15%, 
-                var(--color-statblock-1)  85%, 
-                var(--color-statblock-2) 100%); 
+                var(--color-rainbow-6)   0%, 
+                var(--color-rainbow-1)  15%, 
+                var(--color-rainbow-1)  85%, 
+                var(--color-rainbow-2) 100%); 
 }
 /*
-.cpw ul li:nth-child(6n+1) { background: var(--color-statblock-1); }
-.cpw ul li:nth-child(6n+2) { background: var(--color-statblock-2); }
-.cpw ul li:nth-child(6n+3) { background: var(--color-statblock-3); }
-.cpw ul li:nth-child(6n+4) { background: var(--color-statblock-4); }
-.cpw ul li:nth-child(6n+5) { background: var(--color-statblock-5); }
-.cpw ul li:nth-child(6n+0) { background: var(--color-statblock-6); }
+.cpw ul li:nth-child(6n+1) { background: var(--color-rainbow-1); }
+.cpw ul li:nth-child(6n+2) { background: var(--color-rainbow-2); }
+.cpw ul li:nth-child(6n+3) { background: var(--color-rainbow-3); }
+.cpw ul li:nth-child(6n+4) { background: var(--color-rainbow-4); }
+.cpw ul li:nth-child(6n+5) { background: var(--color-rainbow-5); }
+.cpw ul li:nth-child(6n+0) { background: var(--color-rainbow-6); }
 */
 
 .harmony-drive-logo {
@@ -1266,7 +1275,7 @@ margin-top: 0.5em; }
 
 #section-what .stats {
   border-radius:     var(--border-radius);
-  background-color: var(--color-statblock-1);
+  background-color: var(--color-rainbow-1);
   border: 0.5pt solid var(--color-sheet-light);
   padding-left: 4pt;
   padding-right: 4pt;
@@ -1646,4 +1655,129 @@ sup { line-height: none; font-size: 50%; }
 .icon-female { content: var(--icon-female); font-size: 70%; top: -1pt; }
 .icon-male   { content: var(--icon-male);   font-size: 60%; top: -1.50pt; padding-left: 0.75pt; }
 .icon-trans  { content: var(--icon-trans);  font-size: 80%; top: -0.50pt; }
+
+
+.volume-ability-chart {}
+
+.volume-ability-chart ul { margin: 0; line-height: 1; }
+.volume-ability-chart ul li { 
+  margin: 0; 
+  list-style-type: none;
+  vertical-align: top;
+  position: relative;
+  margin-left: 64pt;
+  line-height: 1;
+  margin-bottom: 4pt;
+}
+
+.volume-ability-chart ul li strong { 
+  font-family: var(--font-h3);
+  font-size: var(--h6);
+  display: inline-block;
+  width: 64pt;
+  position: absolute;
+  top: 5pt;
+  left: -64pt;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.volume-ability-chart ul li:nth-child(1) strong { color: var(--color-rainbow-1d); }
+.volume-ability-chart ul li:nth-child(2) strong { color: var(--color-rainbow-2d); }
+.volume-ability-chart ul li:nth-child(3) strong { color: var(--color-rainbow-3d); }
+.volume-ability-chart ul li:nth-child(4) strong { color: var(--color-rainbow-4d); }
+.volume-ability-chart ul li:nth-child(5) strong { color: var(--color-rainbow-5d); }
+
+.volume-ability-chart ul li .ability { 
+  font-family: var(--font-caption);
+  font-size: var(--body);
+  box-sizing: border-box;
+  width: 22pt;
+  height: 22pt;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  border: 0.5pt solid var(--color-sheet-dark);
+  border-radius: 2pt;
+  box-shadow: 1pt 1pt var(--color-sheet-dark);
+  text-align: center;
+  margin-bottom: 3pt;
+  padding: 0;
+  line-height: 1;
+  position: relative;
+}
+
+.volume-ability-chart ul li .ability.new { }
+
+.volume-ability-chart ul li .ability.new.v1    { background: radial-gradient(circle at left center, var(--color-rainbow-1) 75%, var(--color-rainbow-2)); border-color: var(--color-rainbow-1d); } 
+.volume-ability-chart ul li .ability.new.v2    { background: radial-gradient(circle at left center, var(--color-rainbow-2) 75%, var(--color-rainbow-2)); border-color: var(--color-rainbow-2d); } 
+.volume-ability-chart ul li .ability.new.v3    { background: radial-gradient(circle at left center, var(--color-rainbow-3) 75%, var(--color-rainbow-2)); border-color: var(--color-rainbow-3d); } 
+.volume-ability-chart ul li .ability.new.v4    { background: radial-gradient(circle at left center, var(--color-rainbow-4) 75%, var(--color-rainbow-2)); border-color: var(--color-rainbow-4d); } 
+.volume-ability-chart ul li .ability.new.v5    { background: radial-gradient(circle at left center, var(--color-rainbow-5) 75%, var(--color-rainbow-2)); border-color: var(--color-rainbow-5d); } 
+.volume-ability-chart ul li .ability.new.class { background: radial-gradient(circle at left center, var(--color-rainbow-6) 75%, var(--color-rainbow-2)); border-color: var(--color-rainbow-6d); } 
+
+.volume-ability-chart ul li .ability.v1    { background: radial-gradient(circle at left center, var(--color-rainbow-1), white); } 
+.volume-ability-chart ul li .ability.v2    { background: radial-gradient(circle at left center, var(--color-rainbow-2), white); } 
+.volume-ability-chart ul li .ability.v3    { background: radial-gradient(circle at left center, var(--color-rainbow-3), white); } 
+.volume-ability-chart ul li .ability.v4    { background: radial-gradient(circle at left center, var(--color-rainbow-4), white); } 
+.volume-ability-chart ul li .ability.v5    { background: radial-gradient(circle at left center, var(--color-rainbow-5), white); } 
+.volume-ability-chart ul li .ability.class { background: radial-gradient(circle at left center, var(--color-rainbow-6), white); } 
+/*
+.volume-ability-chart ul li .ability.class:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: 'Class Ability';
+  font-size: var(--body);
+  font-family: var(--font-h2);
+  line-height: 1;
+  width: 22pt;
+  height: 22pt;
+  transform: scaleX(50%);
+}
+*/
+
+.volume-ability-chart ul li .ability.v1.volume.new { color: var(--color-rainbow-1d); } 
+.volume-ability-chart ul li .ability.v2.volume.new { color: var(--color-rainbow-2d); } 
+.volume-ability-chart ul li .ability.v3.volume.new { color: var(--color-rainbow-3d); } 
+.volume-ability-chart ul li .ability.v4.volume.new { color: var(--color-rainbow-4d); } 
+.volume-ability-chart ul li .ability.v5.volume.new { color: var(--color-rainbow-5d); } 
+.volume-ability-chart ul li .ability.v6.volume.new { color: var(--color-rainbow-6d); } 
+
+.volume-ability-chart ul li .ability.volume {
+  padding-top: 6pt;
+  font-size: var(--h4);
+  font-family: var(--font-digit);
+  line-height: 1;
+  color: var(--color-sheet-dark);
+}
+.volume-ability-chart ul li .ability.volume:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--tiny);
+  font-family: var(--font-caption);
+  display: block;
+  width: 22pt;
+  content: 'Volume';
+  position: absolute;
+  top: 0.5pt;
+  left: 0.5pt;
+  color: var(--color-sheet-light);
+  line-height: 1;
+}
+
+.volume-ability-chart ul li .ability.volume.new.v1:before { color: var(--color-rainbow-1d); }
+.volume-ability-chart ul li .ability.volume.new.v2:before { color: var(--color-rainbow-2d); }
+.volume-ability-chart ul li .ability.volume.new.v3:before { color: var(--color-rainbow-3d); }
+.volume-ability-chart ul li .ability.volume.new.v4:before { color: var(--color-rainbow-4d); }
+.volume-ability-chart ul li .ability.volume.new.v5:before { color: var(--color-rainbow-5d); }
+
+.volume-ability-chart ul li .ability.v1 { content: '1'; }
+.volume-ability-chart ul li .ability.v2 { content: '1-2'; }
+.volume-ability-chart ul li .ability.v3 { content: '1-3'; }
+.volume-ability-chart ul li .ability.v4 { content: '1-4'; }
+.volume-ability-chart ul li .ability.v5 { content: '1-5'; }
 
