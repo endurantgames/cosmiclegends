@@ -57,7 +57,7 @@ header h1     { string-set: gamename content()       }
   --color-sheet-light   : #AAAAAA;
   --color-sheet-lighter : rgba(128, 128, 128, 0.25);
   --color-roster        : #F0E0F0;
-  --color-shadow        : rgba(  0,   0,   0, 0.33);
+  --color-shadow        : rgba(  0,   0,   0, 0.50);
 
   --color-rainbow-1   : #FFF0F0; /* red */
   --color-rainbow-2   : #FFFFF0; /* yellow */
@@ -1886,13 +1886,18 @@ sup { line-height: none; font-size: 50%; }
 .volume-ability-chart ul li .ability.v6 { content: '1-5'; }
 
 
-
-@page structure { }
-
 .struct { 
-  page: structure;
-  column-span: all; 
+  break-inside: avoid;
   font-size: var(--larger);
+  margin-top: 8pt;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.struct.wide {
+  break-before: page;
+  column-span: all; 
+  margin-top: 0;
 }
 
 .struct div { 
@@ -1903,33 +1908,10 @@ sup { line-height: none; font-size: 50%; }
   vertical-align: top;
   box-sizing: border-box;
   margin-left: 4pt;
-  margin-bottom: 6pt;
+  margin-bottom: 4pt;
   max-width: calc(100% - 2 * 4pt / 1); 
   float: left;
 }  
-
-/* .struct div { font-size: 90%; } */
-
-/*
-.struct div.countdown { border-width: 0.5pt; }
-.struct div.hero_phase { border-width: 0.5pt; }
-.struct div.crisis_phase { border-width: 0.5pt; }
-.struct div.post_crisis { border-width: 0.5pt; }
-.struct div.stars_wishes { border-width: 0.5pt; }
-.struct div.bleed { border-width: 0.5pt; }
-.struct div.lines_veils { border-width: 0.5pt; }
-.struct div.do_chargen { border-width: 0.5pt; }
-.struct div.comics_code { border-width: 0.5pt; }
-*/
-
-/*
-.struct div                     { border-width: 2.00pt; }
-.struct div div                 { border-width: 1.50pt; }
-.struct div div div             { border-width: 1.00pt; }
-.struct div div div div         { border-width: 0.75pt; }
-.struct div div div div div     { border-width: 0.50pt; }
-.struct div div div div div div { border-width: 0.25pt; }
-*/
 
 .struct div.dotdotdot {
   height: auto;
@@ -2002,6 +1984,9 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.do_chargen     { width: calc(33.33% - 4 * 4pt / 3 ); }
 .struct div.lines_veils    { width: calc(33.33% - 4 * 4pt / 3 ); }
 .struct div.comics_code    { width: calc(33.33% - 4 * 4pt / 3 ); }
+.struct div.do_chargen.wide { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.lines_veils.wide    { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.comics_code.wide    { width: calc(100% - 2 * 4pt / 1 ); }
 .struct div.bleed          { width: calc(50%  - 3 * 4pt / 2 ) ; }
 .struct div.stars_wishes   { width: calc(50%  - 3 * 4pt / 2 ) ; }
 .struct div.bleed.wide     { width: calc(100% - 2 * 4pt / 1 ); }
@@ -2009,13 +1994,16 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.storyline      { width: calc(50%  - 3 * 4pt / 2 ) ; }
 .struct div.storyline.wide { width: calc(100% - 2 * 4pt / 1 ) ; }
 .struct div.series         { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.series.outside { width: calc(50%  - 2 * 8pt / 2 ) ; }
 .struct div.series.wide    { width: calc(100% - 2 * 4pt / 1 ) ; }
 .struct div.recap          { width: calc(50%  - 3 * 4pt / 2 ) ; }
 .struct div.recap.wide     { width: calc(100% - 2 * 4pt / 1 ) ; }
 .struct div.lettercol      { width: calc(50%  - 3 * 4pt / 2 ) ; }
 .struct div.lettercol.wide { width: calc(100% - 2 * 4pt / 1 ) ; }
-.struct div.volume         { width: calc(25%  - 5 * 4pt / 4 ) ; }
-.struct div.volume.wide    { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.volume         { width: calc(25%  - 5 * 8pt / 4 ) ; }
+.struct div.volume.wide    { width: calc(50%  - 3 * 8pt / 2 ) ; }
+.struct div.volume.wide.extra    { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.volume { margin-left: 8pt; margin-bottom: 8pt; }
 .struct div.crisis         { width: calc(25%  - 5 * 4pt / 4 ) ; }
 .struct div.crisis.wide    { width: calc(50%  - 3 * 4pt / 2 ) ; }
 .struct div.crisis.extra.wide    { width: calc(100% - 2 * 4pt / 1 ); }
@@ -2027,11 +2015,23 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.hero_phase.wide  {   width: calc(100% - 2 * 4pt / 1 ); }
 .struct div.crisis_phase.wide {   width: calc(100% - 2 * 4pt / 1 ); }
 .struct div.post_crisis    { width: calc(100% - 2 * 4pt / 1 ) ; }
-.struct div.issue          { width: calc(50%  - 3 * 4pt / 2 ) ; }
-.struct div.issue.wide     { width: calc(100% - 2 * 4pt / 1 ) ; }
-.struct div.storyline.wide div.issue      { width: calc(25% - 5 * 4pt / 4 ); }
-.struct div.storyline.wide div.issue.wide { width: calc(100% - 2 * 4pt / 1 ); }
 
+.struct                    div.issue          { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct                    div.issue.outside  { width: calc(50%  - 2 * 8pt / 2 ) ; }
+.struct                    div.issue.wide     { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct                    div.issue.zero     { width: calc(100% - 2 * 8pt / 1 ) ; }
+.struct div.storyline.wide div.issue          { width: calc(25% - 5 * 4pt / 4 ); }
+.struct div.storyline.wide div.issue.wide     { width: calc(100% - 2 * 4pt / 1 ); }
+
+.struct div.issue { margin-left: 2pt; margin-right: 2pt; }
+.struct div.storyline.wide div.issue { margin-left: 2pt; margin-right: 2pt; }
+.struct div.issue.zero  { margin-left: 6pt; }
+
+.struct div.outside { margin-right: 4pt; }
+.struct div.issue.outside { margin-right: 6pt; }
+.struct div.volume.extra.wide { margin: 2pt; }
+
+.struct > div.storyline { margin-left: 2pt; }
 
 /* above is ok */
 
@@ -2047,8 +2047,8 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.crisis:before                { content: 'Crisis';                }
 .struct div.vignette:before              { content: 'Vignette';              }
 .struct div.countdown:before             { content: 'Countdown to Crisis';   }
-.struct div.hero_phase:before            { content: 'Heroes';                }
-.struct div.crisis_phase:before          { content: 'Crisis';                }
+.struct div.hero_phase:before            { content: 'H. Phase';                }
+.struct div.crisis_phase:before          { content: 'C. Phase';                }
 .struct div.hero_phase.wide:before            { content: 'Hero Phase';                }
 .struct div.crisis_phase.wide:before          { content: 'Crisis Phase';                }
 .struct div.post_crisis:before           { content: 'Post-Crisis';           }
@@ -2079,25 +2079,33 @@ width: calc(20 - 6 * 4pt / 5); }
 /* colors */
 
 .struct div.series { 
-  background:   linear-gradient(-45deg, 
+  background:   linear-gradient(135deg, 
     white -50%,
     var(--color-rainbow-5), 
     var(--color-rainbow-5d) 150%
     ); 
   color:        var(--color-rainbow-5d);
   border-color: var(--color-rainbow-5d);
-  border-style: groove;
+  border-style: solid;
+  border-width: 1pt;
   border-radius: 0;
 }
 
 
+.struct div p { margin: 0; padding: 0; }
+
 .struct div.series:before { 
   font-family: var(--font-h1);
-  font-size: var(--h3); 
+  font-size: var(--h2); 
+  margin-top: 3pt;
+  margin-bottom: 3pt;
+  text-shadow: 1pt 1pt var(--color-shadow);
 }
 .struct div.volume:before { 
   font-size: var(--h6); 
   font-family: var(--font-h3);
+  margin-top: 2pt;
+  margin-bottom: wpt;
 }
 .struct div.storyline:before { 
   font-size: var(--h6); 
@@ -2137,26 +2145,30 @@ width: calc(20 - 6 * 4pt / 5); }
   border-style: solid;
   box-shadow: 2pt 2pt var(--color-shadow);
   border-width: 0.25pt;
-  margin-bottom: 9pt;
+  margin-bottom: 8pt;
 }
-.struct div.issue:before { font-weight: bold; text-align: center; }
+.struct div.issue:before { 
+  font-weight: bold; 
+  text-align: center; 
+  font-size: 150%;
+}
 .struct div.issue div:before { font-weight: bold; }
 
 .struct div.issue div { 
   border-style: solid; 
-  border-width: 0.75pt;
+  border-width: 0.50pt;
   margin-bottom: 4pt;
 }
-.struct div.issue div div { border-width: 0.50pt; margin-bottom: 2pt; }
+.struct div.issue div div { border-width: 0.25pt; margin-bottom: 2pt; }
 .struct div.issue div div:before { margin-bottom: 1pt; margin-top: 1pt; margin-left: 3pt; margin-right: 3pt; }
 .struct div.issue.annual { background: white; }
 
 .struct div.vignette { 
-  background:   linear-gradient(
-    90deg, v
-    ar(--color-rainbow-3), 
-    var(--color-rainbow-4), 
-    white);
+  background: linear-gradient(
+    90deg, 
+    var(--color-rainbow-3), 
+    var(--color-rainbow-5)
+    );
   color:        var(--color-rainbow-3d);
   border-color: var(--color-rainbow-3d);
 }
@@ -2164,18 +2176,29 @@ width: calc(20 - 6 * 4pt / 5); }
   background:   linear-gradient(
     90deg, 
     var(--color-rainbow-1), 
-    var(--color-rainbow-6), 
-    white 150%); 
+    var(--color-rainbow-2)
+    ); 
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
 .struct div.crisis div {
   background:   linear-gradient(
-    90deg, 
+    -90deg, 
     var(--color-rainbow-1), 
-    white); 
+    var(--color-rainbow-2)); 
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
+}
+.struct div.crisis div.hero_phase {
+  background: linear-gradient(90deg, var(--color-rainbow-2), var(--color-rainbow-4));
+  color: var(--color-rainbow-2d);
+  border-color: var(--color-rainbow-2d);
+}
+
+.struct div.crisis div.crisis_phase {
+  background: linear-gradient(90deg, var(--color-rainbow-3), var(--color-rainbow-5));
+  color: var(--color-rainbow-4d);
+  border-color: var(--color-rainbow-4d);
 }
 
 .struct div.lettercol,

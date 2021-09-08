@@ -45,13 +45,48 @@ the game is played.
 
 ### Issues
 
+::::::::: struct :::::::::::
+<div class="issue wide">
+  <div class="recap wide"></div>
+  <div class="crisis wide"></div>
+  <div class="vignette wide"></div>
+  <div class="crisis wide"></div>
+  <div class="vignette wide"></div>
+  <div class="lettercol wide">
+   <div class="bleed"></div>
+   <div class="stars_wishes"></div>
+  </div>
+</div>
+::::::::::::::::::::::::::::
+
 Each individual game session is known as an **Issue**, and roughly
 corresponds to one issue of a comic book.
+
+::::::::: struct :::::::::::
+<div class="issue first wide">
+  <div class="recap wide"></div>
+  <div class="vignette"></div>
+  <div class="vignette"></div>
+  <div class="vignette"></div>
+  <div class="vignette"></div>
+  <div class="crisis extra wide"></div>
+  <div class="lettercol wide">
+  </div>
+</div>
+::::::::::::::::::::::::::::
 
 The **First Issue** is the first played session of an ongoing []{.gamename} 
 campaigned played by a group -- but first you should have an Issue 0.
 
 #### Issue 0
+
+::::::::::: struct ::::::::::::
+<div class="issue wide zero">
+  <div class="do_chargen wide"></div>
+  <div class="lines_veils wide"></div>
+  <div class="comics_code wide"></div>
+</div>
+:::::::::::::::::::::::::::::::
 
 **Issue 0** -- known as *Session 0* in other games -- is an
 Issue of a []{.gamename} Series when the players don't roll dice and 
@@ -66,6 +101,14 @@ Issue 0s are also a great time to create heroes together as a group,
 rather than separately.
 
 ### Storylines
+
+:::::::::::: struct :::::::::::::::::::
+<div class="storyline wide">
+  <div class="issue wide"></div>
+  <div class="issue wide"></div>
+  <div class="issue wide"></div>
+</div>
+:::::::::::::::::::::::::::::::::::::::
 
 During an Issue, the Editor and the players play out the events of
 a **Storyline**.
@@ -108,6 +151,16 @@ feature a few simple Crises to resolve.
 
 ### Volumes
 
+::::::::::::: struct :::::::::::
+<div class="volume wide extra ">
+  <div class="storyline wide"></div>
+  <div class="storyline wide"></div>
+  <div class="storyline wide"></div>
+  <div class="issue annual wide">
+   <div class="recap wide"></div>
+  </div>
+</div>
+::::::::::::::::::::::::::::::::
 Each Storyline is part of a **Volume**; Volumes are a grouping of
 Issues -- game sessions -- and are numbered starting with 1.  
 
@@ -121,6 +174,16 @@ At the start of a new Volume, your hero develops new powers or finds
 new ways to use their existing powers.
 
 ### Series
+
+:::::::::::::: struct :::::::::::
+<div class="series wide">
+  <div class="volume one extra wide"></div>
+  <div class="volume two extra wide"></div>
+  <div class="volume three extra wide"></div>
+  <div class="volume four extra wide"></div>
+  <div class="volume five extra wide"></div>
+</div>
+:::::::::::::::::::::::::::::::::
 
 A ongoing campaign of []{.gamename} is known as a **Series,** and each 
 Series is comprised of up to five Volumes. 
@@ -141,7 +204,7 @@ together, usually in large, wide-ranging One-Shots. All participating
 heroes keep their normal Volume numbers without adjustment.
 
 
-<div class="struct">
+<div class="struct wide">
  
 <div class="series wide">
   
@@ -180,10 +243,8 @@ heroes keep their normal Volume numbers without adjustment.
    <div class="crisis wide" >[]{.scene}</div>
    <div class="vignette wide" >[]{.hero .ideal .two}</div>
    <div class="crisis wide" >[]{.scene}</div>
-   <div class="lettercol">
-   <div class="bleed wide" ></div>
-   <div class="stars_wishes wide" ></div> 
-   </div>
+   <div class="vignette wide" >[]{.hero .ideal .two}</div>
+   <div class="lettercol"></div>
    </div>
   <div class="issue" ></div>
   <div class="issue" ></div>
@@ -208,7 +269,6 @@ heroes keep their normal Volume numbers without adjustment.
   <div class="recap" ></div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
-  <div class="vignette wide" >[]{.hero .ideal .two}</div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="lettercol" ></div>
@@ -228,6 +288,10 @@ heroes keep their normal Volume numbers without adjustment.
  <div class="issue annual wide">
   <div class="recap wide" ></div>
   <div class="crisis extra wide" >[]{.scene}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="lettercol wide"></div>
  </div>
 </div>
@@ -243,7 +307,7 @@ heroes keep their normal Volume numbers without adjustment.
 
 </div> <!-- series -->
 
-<div class="issue one_shot">
+<div class="issue one_shot outside">
  <div class="recap" ></div>
  <div class="crisis wide" >[]{.scene}</div>
  <div class="vignette wide" >[]{.hero .ideal .two}</div>
@@ -254,8 +318,8 @@ heroes keep their normal Volume numbers without adjustment.
  <div class="lettercol"></div>
 </div>
 
-<div class="series" >
- <div class="issue one_shot zero"/></div>
+<div class="series outside" >
+ <div class="issue one_shot zero wide"/></div>
  <div class="volume one wide" ></div>
  <div class="volume two wide" ></div>
  <div class="volume three wide" ></div>

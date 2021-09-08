@@ -1,4 +1,4 @@
-<div class="struct">
+<div class="struct wide">
  
 <div class="series wide">
   
@@ -37,10 +37,8 @@
    <div class="crisis wide" >[]{.scene}</div>
    <div class="vignette wide" >[]{.hero .ideal .two}</div>
    <div class="crisis wide" >[]{.scene}</div>
-   <div class="lettercol">
-   <div class="bleed wide" ></div>
-   <div class="stars_wishes wide" ></div> 
-   </div>
+   <div class="vignette wide" >[]{.hero .ideal .two}</div>
+   <div class="lettercol"></div>
    </div>
   <div class="issue" ></div>
   <div class="issue" ></div>
@@ -65,7 +63,6 @@
   <div class="recap" ></div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
-  <div class="vignette wide" >[]{.hero .ideal .two}</div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="lettercol" ></div>
@@ -85,6 +82,10 @@
  <div class="issue annual wide">
   <div class="recap wide" ></div>
   <div class="crisis extra wide" >[]{.scene}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="lettercol wide"></div>
  </div>
 </div>
@@ -100,7 +101,7 @@
 
 </div> <!-- series -->
 
-<div class="issue one_shot">
+<div class="issue one_shot outside">
  <div class="recap" ></div>
  <div class="crisis wide" >[]{.scene}</div>
  <div class="vignette wide" >[]{.hero .ideal .two}</div>
@@ -111,8 +112,8 @@
  <div class="lettercol"></div>
 </div>
 
-<div class="series" >
- <div class="issue one_shot zero"/></div>
+<div class="series outside" >
+ <div class="issue one_shot zero wide"/></div>
  <div class="volume one wide" ></div>
  <div class="volume two wide" ></div>
  <div class="volume three wide" ></div>
