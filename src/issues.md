@@ -13,8 +13,8 @@ the game is played.
   <div class="crisis wide"></div>
   <div class="vignette wide"></div>
   <div class="lettercol wide">
-   <div class="bleed"></div>
-   <div class="stars_wishes"></div>
+   <div class="bleed wide"></div>
+   <div class="stars_wishes wide"></div>
   </div>
 </div>
 ::::::::::::::::::::::::::::
@@ -65,8 +65,12 @@ rather than separately.
 :::::::::::: struct :::::::::::::::::::
 <div class="storyline wide">
   <div class="issue wide"></div>
-  <div class="issue wide"></div>
-  <div class="issue wide"></div>
+</div>
+<div class="storyline wide">
+  <div class="issue"></div>
+  <div class="issue"></div>
+  <div class="issue"></div>
+  <div class="issue"></div>
 </div>
 :::::::::::::::::::::::::::::::::::::::
 
@@ -116,14 +120,25 @@ feature a few simple Crises to resolve.
   <div class="storyline wide"></div>
   <div class="storyline wide"></div>
   <div class="storyline wide"></div>
-  <div class="issue annual wide">
-   <div class="recap wide"></div>
-  </div>
+  <div class="issue annual wide"></div>
 </div>
 ::::::::::::::::::::::::::::::::
+
+
 Each Storyline is part of a **Volume**; Volumes are a grouping of
 Issues -- game sessions -- and are numbered starting with 1.  
 
+::::::::::::: struct :::::::::::
+<div class="issue annual wide">
+ <div class="recap wide"></div>
+ <div class="crisis extra wide"></div>
+ <div class="vignette"></div>
+ <div class="vignette"></div>
+ <div class="vignette"></div>
+ <div class="vignette"></div>
+ <div class="lettercol wide"></div>
+</div>
+::::::::::::::::::::::::::::::::
 Once all of the heroes have had a chance to play out their Storylines, 
 the Editor and heroes play out a final Issue, known as an **Annual**. 
 
@@ -137,6 +152,7 @@ new ways to use their existing powers.
 
 :::::::::::::: struct :::::::::::
 <div class="series wide">
+  <div class="issue wide zero"></div>
   <div class="volume one extra wide"></div>
   <div class="volume two extra wide"></div>
   <div class="volume three extra wide"></div>

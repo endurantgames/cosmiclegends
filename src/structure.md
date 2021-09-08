@@ -113,7 +113,7 @@
 </div>
 
 <div class="series outside" >
- <div class="issue one_shot zero wide"/></div>
+ <div class="issue one_shot zero"/></div>
  <div class="volume one wide" ></div>
  <div class="volume two wide" ></div>
  <div class="volume three wide" ></div>

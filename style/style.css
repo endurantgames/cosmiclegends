@@ -1889,15 +1889,20 @@ sup { line-height: none; font-size: 50%; }
 .struct { 
   break-inside: avoid;
   font-size: var(--larger);
-  margin-top: 8pt;
   box-sizing: border-box;
   width: 100%;
+  margin-left: 0;
+  margin-right: 16pt;
+  margin-bottom: 24pt;
+  margin-top: 12pt;
 }
+
+.struct + p { break-before: avoid; }
 
 .struct.wide {
   break-before: page;
   column-span: all; 
-  margin-top: 0;
+  margin: 0;
 }
 
 .struct div { 
@@ -2002,7 +2007,7 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.lettercol.wide { width: calc(100% - 2 * 4pt / 1 ) ; }
 .struct div.volume         { width: calc(25%  - 5 * 8pt / 4 ) ; }
 .struct div.volume.wide    { width: calc(50%  - 3 * 8pt / 2 ) ; }
-.struct div.volume.wide.extra    { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.volume.wide.extra    { width: calc(100% - 2 * 8pt / 1 ); }
 .struct div.volume { margin-left: 8pt; margin-bottom: 8pt; }
 .struct div.crisis         { width: calc(25%  - 5 * 4pt / 4 ) ; }
 .struct div.crisis.wide    { width: calc(50%  - 3 * 4pt / 2 ) ; }
@@ -2029,9 +2034,9 @@ width: calc(20 - 6 * 4pt / 5); }
 
 .struct div.outside { margin-right: 4pt; }
 .struct div.issue.outside { margin-right: 6pt; }
-.struct div.volume.extra.wide { margin: 2pt; }
 
 .struct > div.storyline { margin-left: 2pt; }
+.struct > div.volume { margin-left: 0; margin-right: 0; }
 
 /* above is ok */
 
@@ -2102,10 +2107,10 @@ width: calc(20 - 6 * 4pt / 5); }
   text-shadow: 1pt 1pt var(--color-shadow);
 }
 .struct div.volume:before { 
-  font-size: var(--h6); 
+  font-size: var(--larger); 
   font-family: var(--font-h3);
-  margin-top: 2pt;
-  margin-bottom: wpt;
+  margin-top: 3pt;
+  margin-bottom: 3pt;
 }
 .struct div.storyline:before { 
   font-size: var(--h6); 
@@ -2199,6 +2204,19 @@ width: calc(20 - 6 * 4pt / 5); }
   background: linear-gradient(90deg, var(--color-rainbow-3), var(--color-rainbow-5));
   color: var(--color-rainbow-4d);
   border-color: var(--color-rainbow-4d);
+}
+
+.struct div.do_chargen,
+.struct div.lines_veils,
+.struct div.comics_code {
+  background:   radial-gradient(
+    circle at center left,
+    white,
+    var(--color-rainbow-2) 75%, 
+    var(--color-rainbow-2d)
+    ); 
+  color:        var(--color-rainbow-2d);
+  border-color:        var(--color-rainbow-2d);
 }
 
 .struct div.lettercol,
