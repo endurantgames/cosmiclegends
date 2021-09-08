@@ -57,12 +57,6 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: No Wasted Effort
-
-When you make a roll to advance a Goal, you can choose to
-add some or all of the roll's Effectiveness to the Teamwork
-Pool instead.
-
 ## Power Words
 
 You can use your Power Words in the following ways:
@@ -127,6 +121,21 @@ Each Volume, you gain a new ability from your class.
 Your Inventor Abilities reflect permanent additions to your
 stock of creations.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **No Wasted Effort** Prime ability common 
+to all Inventors.
+
+:::::: {.ability-list .prime }::::::::::
+No Wasted Effort
+
+:   When you advance a Goal, you can choose to
+    add some or all of the roll's Effectiveness to 
+    the Teamwork Pool instead of using all of it
+    it to advance the Goal.
+
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

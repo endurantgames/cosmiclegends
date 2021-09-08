@@ -58,11 +58,18 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: The Price of Magic
+## Prime Ability
 
-When you use one of your Core Power Words or Nova Power Words as a third 
-Word in a Power Stunt or Power Test, count 2s as Edge Successes in addition
-to 1s.
+Your hero has the **Price of Magic** Prime ability common 
+to all Mages.
+
+:::::: {.ability-list .prime }::::::::::
+Price of Magic
+
+:   When you use one of your Core or Nova Power Words 
+    in a Power Stunt or Combo, count 2s as Edge
+    Successes in addition to 1s.
+::::::::::::::::::::::::::::::::::::::::::
 
 ## Power Words
 

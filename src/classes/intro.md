@@ -11,7 +11,7 @@ fun to play!
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 -----------------------------------------------------------------------------------------------
-Class           Skills                      Core Power Words    PPWs   Class Ability
+Class           Skills                      Core Power Words    PPWs   Prime Ability
 --------------- -------------------------   -----------------  ------  ------------------------
 The Divine      Explorer, Historian,        Blessed,             6     Give Me Strength!
                 Mystic, plus any two        Champion   

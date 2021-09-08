@@ -38,6 +38,216 @@ title: Cosmic Legends of the Universe
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## From Issues to Volumes {#toc-issues .colbefore}
+
+[]{.gamename} uses some terms from comic books to talk about how 
+the game is played.
+
+### Issues
+
+Each individual game session is known as an **Issue**, and roughly
+corresponds to one issue of a comic book.
+
+The **First Issue** is the first played session of an ongoing []{.gamename} 
+campaigned played by a group -- but first you should have an Issue 0.
+
+#### Issue 0
+
+**Issue 0** -- known as *Session 0* in other games -- is an
+Issue of a []{.gamename} Series when the players don't roll dice and 
+handle Crises, but instead discuss what kind of game each person
+is looking forward to playing.
+
+Issue 0 takes place before the First Issue, and should go over the 
+safety tools used in the game, stress the importance of open communication, 
+and set expectations on the kind of story and play.
+
+Issue 0s are also a great time to create heroes together as a group,
+rather than separately.
+
+### Storylines
+
+During an Issue, the Editor and the players play out the events of
+a **Storyline**.
+
+When you create a new hero, you define a specific lesson you'd like 
+your hero to learn or a specific experience you'd like them to have.
+For that Storyline, your character is considered the **Spotlight** hero.
+
+Each Storyline consists of:
+
+- the Spotlight hero
+- the Opportunity
+- one or more Crises connected to the Opportunity, introduced by the Editor
+- the heroes' reactions to each Crisis
+- the Spotlight hero's reaction the Opportunity
+
+Many Storylines will resolve over the course of one Issue, but some
+can take long and might run for 2 or 3 sessions, or longer.
+
+Once your hero finishes your Storyline, both your hero and your 
+fellow players' heroes gain an **Advancement.**
+
+#### One-Shots
+
+A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
+Series, but stands alone. Most games played at conventions, for example,
+will be One-Shots.
+
+Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
+Opportunity either, but just a connected series of Crises. In those 
+cases, all heroes receive a standard Advancements after dealing with 
+the Crises.
+
+One-Shots obviously won't have a separate Issue 0, but time should still
+be set aside at the start of the Issue to touch on important safety tools.
+
+Many First Issues are One-Shots, as the players and Editor are still 
+getting to know their heroes and the game. These First Issues usually
+feature a few simple Crises to resolve.
+
+### Volumes
+
+Each Storyline is part of a **Volume**; Volumes are a grouping of
+Issues -- game sessions -- and are numbered starting with 1.  
+
+Once all of the heroes have had a chance to play out their Storylines, 
+the Editor and heroes play out a final Issue, known as an **Annual**. 
+
+The Annual ties together the events of the previous Storylines in the
+Volume, and then that Volume concludes.
+
+At the start of a new Volume, your hero develops new powers or finds 
+new ways to use their existing powers.
+
+### Series
+
+A ongoing campaign of []{.gamename} is known as a **Series,** and each 
+Series is comprised of up to five Volumes. 
+
+If your group reaches the end of Volume 5 and with to continue with
+with the same heroes, you can do so: just treat later Volumes as having
+a Volume number of 5, and proceed from there.
+
+### Guest Stars and Crossovers
+
+A **Guest Star** is a hero character from another Series -- either played
+by the same group or a different one -- who plays in the Series for an
+Issue or two. If the Guest Star's Volume number is higher than the group's,
+temporarily lower the Guest Star to the same Volume.
+
+A **Crossover** happens when the heroes from two or more Series work
+together, usually in large, wide-ranging One-Shots. All participating 
+heroes keep their normal Volume numbers without adjustment.
+
+
+<div class="structure-chart">
+ 
+<div class="series demo">
+  
+<div class="issue issue_zero demo"> 
+ <div class="lines_veils" ></div> 
+ <div class="comics_code" ></div> 
+</div>
+
+<div class="volume demo">
+ <div class="issue one_shot first">
+ </div>
+
+ <div class="storyline demo">
+
+  <div class="issue demo">
+   <div class="recap" ></div>
+   <div class="crisis demo">
+   <div class="countdown" ></div>
+   <div class="hero_phase" ></div>
+   <div class="crisis_phase" ></div>
+   <div class="hero_phase" ></div>
+   <div class="crisis_phase" ></div>
+   <div class="dotdotdot" ></div>
+   <div class="hero_phase" ></div>
+   <div class="post_crisis" ></div>
+   </div>
+   <div class="vignette" ></div>
+   <div class="crisis" ></div>
+   <div class="vignette" ></div>
+   <div class="crisis" ></div>
+   <div class="dotdotdot" ></div>
+   <div class="lettercol"> <div class="bleed" ></div> <div class="stars_wishes" ></div> </div>
+   </div>
+  <div class="issue" ></div>
+  <div class="issue" ></div>
+  <div class="dotdotdot" ></div>
+ </div>
+
+ <div class="storyline"> 
+  <div class="issue" ></div> 
+  <div class="issue" ></div> 
+  <div class="dotdotdot" ></div> 
+ </div>
+
+ <div class="storyline">
+  <div class="issue" ></div> 
+ </div>
+
+ <div class="storyline" ></div>
+
+ <div class="issue one_shot day_in_the_life demo">
+  <div class="recap" ></div>
+  <div class="vignette" ></div>
+  <div class="vignette" ></div>
+  <div class="vignette" ></div>
+  <div class="dotdotdot" ></div>
+  <div class="lettercol" ></div>
+ </div>
+
+ <div class="storyline" ></div>
+ <div class="dotdotdot" ></div>
+ <div class="issue annual demo">
+  <div class="recap" ></div>
+  <div class="vignette" ></div>
+  <div class="crisis" ></div>
+  <div class="vignette" ></div>
+  <div class="crisis" ></div>
+  <div class="dotdotdot" ></div>
+  <div class="lettercol"> <div class="bleed" ></div> <div class="stars_wishes" ></div> </div>
+ </div>
+</div>
+
+<div class="volume">
+ <div class="storyline" ></div>
+ <div class="storyline" ></div>
+ <div class="dotdotdot" ></div>
+ <div class="issue annual" ></div>
+</div>
+
+<div class="volume" ></div>
+<div class="issue one_shot" ></div> 
+<div class="volume" ></div>
+<div class="volume" ></div>
+<div class="dotdotdot" ></div>
+
+</div> <!-- series -->
+
+<div class="issue one_shot demo">
+ <div class="recap" ></div>
+ <div class="crisis" ></div>
+ <div class="vignette" ></div>
+ <div class="crisis" ></div>
+ <div class="dotdotdot" ></div>
+ <div class="lettercol"> 
+  <div class="bleed" ></div> 
+  <div class="stars_wishes" ></div> 
+ </div>
+</div>
+
+<div class="issue one_shot" ></div>
+<div class="series" ></div>
+<div class="dotdotdot" ></div>
+
+</div> <!-- structure-chart -->
+
+
 ## Hero Origin {#toc-chargen .breakbefore}
 
 To create your hero, you just follow these steps:
@@ -63,10 +273,11 @@ To create your hero, you just follow these steps:
 
 Your hero class has a number of abilities associated with it.
 You automatically can use the ability common to all members
-of the same hero class, called the Class Ability.
+of the same hero class, called the Prime Ability.
 
-Each Volume you can pick one ability from that Volume's list
-or lower; in addition, you get an extra ability at Volume 1.
+At the start of each Volume you can pick one ability from 
+that Volume's list or lower; in addition, you get an extra 
+ability at the start of Volume 1.
 
 You can take any given ability only once; either you have it
 or you don't have it. There are a few abilities that are
@@ -107,4 +318,13 @@ each Volume.
   []{.ability .volume .v3}
   []{.ability .volume .v4}
   []{.ability .volume .v5 .new}
+- **Volume 6+**
+  []{.ability .class} 
+  []{.ability .volume .v1}
+  []{.ability .volume .v1}
+  []{.ability .volume .v2}
+  []{.ability .volume .v3}
+  []{.ability .volume .v4}
+  []{.ability .volume .v5}
+  []{.ability .volume .v6 .new}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::

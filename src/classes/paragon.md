@@ -67,11 +67,7 @@ You have two skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: My One Weakness!
-
-When you create your hero, pick a weakness they possess --
-usually some kind of substance, energy type, or other physical
-phenomenon.
+## Power Words
 
 During a Crisis, you can declare at any point that your one 
 weakness is present.  
@@ -154,6 +150,25 @@ Each Volume, you gain a new ability from your class.
 Your Paragon Abilities reflect new uses for your vast array
 of super-powers.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **My One Weakness!** Prime ability common 
+to all Paragons.
+
+:::::: {.ability-list .prime }::::::::::
+My One Weakness!
+
+:   Before Volume One, pick a weakness for your hero,
+    like a substance, energy type, or other physical 
+    effect.
+
+    Once during a Crisis, instead of making a move, you can 
+    declare your weakness is present. Your Might drops to 0
+    and you can't use any Power Words. Each later Hero Phase
+    that you don't make a move, add the Volume to the
+    Teamwork Pool.
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

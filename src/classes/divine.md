@@ -54,13 +54,6 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: Give Me Strength!
-
-When you use your Core Power Words or Nova Power Words in a Power Stunt 
-or Power Combo, you can count 6s as two successes instead of 1. 
-When you do, lose either 1 Health or 1 Might after your roll, regardless
-of how many extra successes you gained.
-
 :::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
 ## Real-World Religions?
 
@@ -143,6 +136,20 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class. Your Divine
 Abilities are gifts from the Gods, whether by birth or by boon.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **Give Me Strength!** Prime ability common 
+to all Divines.
+
+:::::: {.ability-list .prime }::::::::::
+Give Me Strength!
+
+:   When you use your Core or Nova Power Words in a Power Stunt 
+    or Combo, you can count 6s as two successes instead of 1. 
+    If you do, lose either 1 Health or 1 Might after your roll, 
+    regardless of how many extra successes you gained.
+:::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

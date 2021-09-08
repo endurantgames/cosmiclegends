@@ -6,8 +6,18 @@ Cosmic Legends of the Universe
   - [/] Bronze Age
 - [/] Classes
   - [/] Introduction
-  - [-] ~~New classes~~
+  - [/] The Divine (new abilities)
+  - [/] The Dynamo (new abilities)
+  - [/] The Inventor (new abilities)
+  - [/] The Knight (new abilities)
+  - [/] The Mage   (new abilities)
+  - [/] The Monarch (new abilities)
+  - [/] The Monstrosity (new abilities)
+  - [/] The Paragon (new abilities)
+  - [/] The Psychic (new abilities)
+  - [/] The Shaper  (new abilities)
 - [x] Ideals
+  - [ ] Tie to approach
 - [/] Goals
   - [x] Smash
   - [x] Outwit

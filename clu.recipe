@@ -16,7 +16,8 @@ cover
 # safety/*
 # overview
 # dice
-# issues
+issues
+structure
 chargen/
 # chargen/class
 # chargen/skills_chargen

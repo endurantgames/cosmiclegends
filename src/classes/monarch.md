@@ -75,14 +75,9 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: For My Kingdom!
+## Power Words
 
-You feel a special attachment to your homeland, whether it be
-a physical location or a metaphorical concept such as "the Seas".
-
-If you declare that a Crisis threatens your domain, add 3 to the
-Teamwork Pool when you form it, and add 1 additional point to the
-Pool when you add to it during the Crisis.
+You can use your Power Words in the following ways:
 
 ## Power Words
 
@@ -149,6 +144,21 @@ Each Volume, you gain a new ability from your class.
 Your Monarch Abilities represent esoteric knowledge that
 is inaccessible to those outside of your home.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **For My Kingdom!** Prime ability common 
+to all Monarchs.
+
+:::::: {.ability-list .prime }::::::::::
+For My Kingdom!
+
+:   You feel a special attachment to your homeland, whether it be
+    a physical location or a metaphorical concept such as "the Seas".
+
+    If you declare a Crisis threatens your domain, whenever
+    you form or add to the Teamwork Pool add 2 extra dice.
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

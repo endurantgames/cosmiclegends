@@ -41,11 +41,6 @@ You have the Scientist skill, plus any two skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: Energy Reserve
-
-You're overflowing with energy. If you start the Hero Turn with less
-than 2 Might points, you regain 1 Might.
-
 ::::::::::::::::::: soapbox :::::::::::::::::::::::::::::
 ## Other Energy Power Words
 
@@ -134,6 +129,19 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 Each Volume, you gain a new ability from your class.
 Your Dynamo Abilities are refinements of your energy powers.
 Each ability can be chosen only once unless otherwise noted.
+
+### Prime Ability
+
+Your hero has the **Energy Reserve** Prime ability common 
+to all Dynamos.
+
+:::::: {.ability-list .prime }::::::::::
+Energy Reserve
+
+:   You're overflowing with energy. 
+    If you start a Hero Phase with 2 or less
+    Might points, you regain 1 Might.
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

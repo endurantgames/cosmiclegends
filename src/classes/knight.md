@@ -63,16 +63,6 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: Peak Human Potential
-
-You represent the pinnacle of human achievement. If you have
-any powers, they're minor in comparison to your extensive training.
-
-This is reflected in both your large number of skills and your
-combat prowess: 
-
-Choose one additional Fighting Style.
-
 ## Power Words
 
 You can use your Power Words in the following ways:
@@ -138,6 +128,24 @@ Each Volume, you gain a new ability from your class.
 Your Knight Abilities are based on continued training and
 perfection of your physical and mental capabilities.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **Peak Human Potential** Prime ability common 
+to all Knights.
+
+:::::: {.ability-list .prime }::::::::::
+Peak Human Potential
+
+:   You represent the pinnacle of human achievement. 
+    If you have any powers, they're minor in comparison 
+    to your extensive training.
+
+    This is reflected in both your large number of 
+    skills and your combat prowess: 
+
+    Choose one additional Fighting Style.
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

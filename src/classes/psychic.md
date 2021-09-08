@@ -80,14 +80,6 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: Our Minds As One
-
-As long as you are conscious, you and the other heroes can communicate with each
-other telepathically.
-
-If everyone in a Power Combo is part of your Mind Link, the hero making the
-roll adds 2 extra dice to the roll.
-
 ## Power Words
 
 You can use your Power Words in the following ways:
@@ -152,6 +144,22 @@ Each Volume, you gain a new ability from your class.
 Your Psychic Abilities are new ways to channel your psionic
 power.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **Our Minds As One** Prime ability common
+to all Psychics.
+
+:::::: {.ability-list .prime }::::::::::
+Our Minds As One
+:   As long as you are conscious, and there is at least one
+    Success in the Teamwork Pool, you and the other heroes
+    can communicate telepathically.
+
+    If all of the partipants in a Power Combo are part of your
+    Mind Link, the initiating hero adds 2 to the roll.
+
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

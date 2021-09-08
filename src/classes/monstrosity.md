@@ -56,11 +56,6 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: Engine of Destruction
-
-When you use your Core or Nova Power Words in a Power Stunt
-or Combo to advance the Smash goal, add 2 to the Effectiveness.
-
 ## Power Words
 
 You can use your Power Words in the following ways:
@@ -125,6 +120,20 @@ Each Volume, you gain a new ability from your class.
 Your Monstrosity Abilities show your increasing distance from
 humanity.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **Engine of Destruction** Prime ability common 
+to all Monstrosities.
+
+:::::: {.ability-list .prime }::::::::::
+Engine of Destruction
+
+:   When you use your Core or Nova Power Words in a Power Stunt
+    or Combo to advance the Smash goal, add 
+    add 2 to the Effectiveness.
+
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 

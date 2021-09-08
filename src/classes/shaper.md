@@ -66,21 +66,6 @@ additional skills of your choice.
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
 
-## Class Ability: Reshape the Battlefield
-
-As your move during the Hero Phase of a Crisis, you can
-change your environment. 
-
-Choose your Power Words, spend Might as normal, and make a 
-roll. 
-
-If the Effectiveness of your roll is at least 1, you can change 
-one of the Scene Power Words to one of your own Power Words until 
-the end of the Crisis.  
-
-The maximum number of Scene Power Words you can change during a
-Crisis is equal to the Volume number.
-
 ## Power Words
 
 You can use your Power Words in the following ways:
@@ -117,7 +102,6 @@ Element Power Word -- chosen from the following list:
 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
-
 
 ### Personal Power Words
 
@@ -165,6 +149,24 @@ Each Volume, you gain a new ability from your class.
 Your Shaper Abilities show a widening diversity in the 
 applications of your control power.
 Each ability can be chosen only once.
+
+### Prime Ability
+
+Your hero has the **Reshape the Battlefield** Prime ability common
+to all Shapers.
+
+:::::: {.ability-list .prime }::::::::::
+Reshape the Battlefield
+
+:   When you use your Core or Nova Power Words in a Power
+    Stunt or Combo, you can choose to spend 2 Effectiveness
+    to change one of the Scene Power Words to one of your
+    own Power Words.
+    
+    During any given Crisis you can only change a number of
+    Scene Power Words equal to the Volume.
+
+::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
 
