@@ -154,30 +154,32 @@ heroes keep their normal Volume numbers without adjustment.
 <div class="volume one wide">
  <div class="issue one_shot first wide">
   <div class="recap" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="crisis wide"></div>
+  <div class="vignette" >[]{.hero .ideal}</div>
+  <div class="vignette" >[]{.hero .ideal}</div>
+  <div class="vignette" >[]{.hero .ideal}</div>
+  <div class="vignette" >[]{.hero .ideal}</div>
+  <div class="crisis wide">[]{.scene}</div>
   <div class="lettercol wide"><div class="bleed" ></div><div class="stars_wishes" ></div> </div>
  </div>
 
- <div class="storyline wide">
+ <div class="storyline wide"> []{.hero .opp}
 
   <div class="issue wide">
    <div class="recap" ></div>
-   <div class="vignette wide" ></div>
-   <div class="crisis wide">
+   <div class="vignette wide" >[]{.hero .ideal .two}[]{.ideal}</div>
+   <div class="crisis wide">[]{.scene}
    <div class="countdown" ></div>
    <div class="hero_phase wide" ></div>
    <div class="crisis_phase wide" ></div>
    <div class="hero_phase" ></div>
    <div class="crisis_phase" ></div>
+   <div class="hero_phase" ></div>
+   <div class="crisis_phase" ></div>
    <div class="post_crisis" ></div>
    </div>
-   <div class="crisis wide" ></div>
-   <div class="vignette wide" ></div>
-   <div class="crisis wide" ></div>
+   <div class="crisis wide" >[]{.scene}</div>
+   <div class="vignette wide" >[]{.hero .ideal .two}</div>
+   <div class="crisis wide" >[]{.scene}</div>
    <div class="lettercol">
    <div class="bleed wide" ></div>
    <div class="stars_wishes wide" ></div> 
@@ -189,12 +191,12 @@ heroes keep their normal Volume numbers without adjustment.
   <div class="issue" ></div>
  </div>
 
- <div class="storyline"> 
+ <div class="storyline"> []{.hero .opp}
   <div class="issue" ></div> 
   <div class="issue" ></div> 
  </div>
 
- <div class="storyline">
+ <div class="storyline">[]{.hero .opp}
   <div class="issue wide" ></div> 
  </div>
 
@@ -204,19 +206,19 @@ heroes keep their normal Volume numbers without adjustment.
 <div class="volume wide two">
  <div class="issue one_shot day_in_the_life wide">
   <div class="recap" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette wide" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette wide" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
+  <div class="vignette" >[]{.hero .ideal .two}</div>
   <div class="lettercol" ></div>
  </div>
 
- <div class="storyline" >
+ <div class="storyline" >[]{.hero .opp}
    <div class="issue wide"></div>
    <div class="issue wide"></div>
  </div>
- <div class="storyline" >
+ <div class="storyline" >[]{.hero .opp}
    <div class="issue"></div>
    <div class="issue"></div>
    <div class="issue"></div>
@@ -225,19 +227,15 @@ heroes keep their normal Volume numbers without adjustment.
 
  <div class="issue annual wide">
   <div class="recap wide" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="vignette" ></div>
-  <div class="crisis extra wide" ></div>
+  <div class="crisis extra wide" >[]{.scene}</div>
   <div class="lettercol wide"></div>
  </div>
 </div>
 
 <div class="volume wide three" >
- <div class="storyline"></div>
- <div class="storyline"></div>
- <div class="storyline"></div>
+ <div class="storyline">[]{.hero .opp}</div>
+ <div class="storyline">[]{.hero .opp}</div>
+ <div class="storyline">[]{.hero .opp}</div>
  <div class="issue annual"></div>
 </div>
 <div class="volume four" ></div>
@@ -247,10 +245,12 @@ heroes keep their normal Volume numbers without adjustment.
 
 <div class="issue one_shot">
  <div class="recap" ></div>
- <div class="vignette wide" ></div>
- <div class="crisis wide" ></div>
- <div class="vignette" ></div>
- <div class="crisis" ></div>
+ <div class="crisis wide" >[]{.scene}</div>
+ <div class="vignette wide" >[]{.hero .ideal .two}</div>
+ <div class="crisis" >[]{.scene}</div>
+ <div class="vignette" >[]{.hero .ideal}</div>
+ <div class="crisis" >[]{.scene}</div>
+ <div class="vignette" >[]{.hero .ideal}</div>
  <div class="lettercol"></div>
 </div>
 

@@ -1903,7 +1903,7 @@ sup { line-height: none; font-size: 50%; }
   vertical-align: top;
   box-sizing: border-box;
   margin-left: 4pt;
-  margin-bottom: 4pt;
+  margin-bottom: 6pt;
   max-width: calc(100% - 2 * 4pt / 1); 
   float: left;
 }  
@@ -1945,23 +1945,45 @@ sup { line-height: none; font-size: 50%; }
 
 .struct div span { 
   position: absolute; 
-  top: 2pt; 
+  top: 1pt; 
   right: 2pt; 
-  font-size: var(--small);
   font-family: var(--font-caption);
+  font-size: var(--tiny);
 }
 
-.struct div span.ideal { content: 'i'; }
-.struct div span.hero  { content: 'h'; }
-.struct div span.opp   { content: 'o'; }
-.struct div span.scene { content: 's'; }
+/*
+.struct div.storyline      > span.hero        { content: 'h'; }
+.struct div.storyline      > span.opp:after   { content: '/o'; }
+*/
+
+.struct div.storyline > p span.hero,
+.struct div.storyline > span.hero        { content: 'Hero'; }
+.struct div.storyline > p span.opp:after,
+.struct div.storyline > span.opp:after   { content: '/o'; }
+.struct div.storyline.wide > p span.opp:after,
+.struct div.storyline.wide > span.opp:after   { content: '/Opportunity'; }
+
+
+.struct div.vignette       > span.hero            { content: 'h'; }
+.struct div.vignette       > span.hero.two        { content: 'hh'; }
+.struct div.vignette.wide  > span.hero            { content: 'Hero'; }
+.struct div.vignette.wide  > span.hero.two        { content: 'Hero/i : Hero'; }
+.struct div.vignette.wide  > span.ideal:after     { content: '/i'; }
+.struct div.vignette       > span.ideal.two:after { content: ''; }
+
+.struct div.crisis      > span.scene { content: 's.p.w.'; }
+.struct div.crisis.wide > span.scene { content: 'Scene P.W.'; }
+.struct div.crisis.extra.wide > span.scene { content: 'Scene Power Words'; }
 
 
 
 .struct div:before {
   display: block;
   content: attr(class string);
-  margin: 4pt;
+  margin-left: 4pt;
+  margin-right: 4pt;
+  margin-top: 2pt;
+  margin-bottom: 2pt;
 }
 
 /* borders */
@@ -2057,20 +2079,20 @@ width: calc(20 - 6 * 4pt / 5); }
 /* colors */
 
 .struct div.series { 
-  background:   linear-gradient(90deg, 
+  background:   linear-gradient(-45deg, 
     white -50%,
-    var(--color-rainbow-2), 
-    var(--color-rainbow-2d) 150%
+    var(--color-rainbow-5), 
+    var(--color-rainbow-5d) 150%
     ); 
-  color:        var(--color-rainbow-2d);
-  border-color: var(--color-rainbow-2d);
-  border-style: double;
+  color:        var(--color-rainbow-5d);
+  border-color: var(--color-rainbow-5d);
+  border-style: groove;
   border-radius: 0;
 }
 
 
 .struct div.series:before { 
-  font-family: var(--font-h2);
+  font-family: var(--font-h1);
   font-size: var(--h3); 
 }
 .struct div.volume:before { 
@@ -2080,6 +2102,8 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.storyline:before { 
   font-size: var(--h6); 
   font-family: var(--font-h5);
+  margin-top: 1pt;
+  margin-bottom: 1pt;
 }
 
 .struct div.issue.annual {
@@ -2099,42 +2123,57 @@ width: calc(20 - 6 * 4pt / 5); }
 }
 
 .struct div.storyline { 
-  background:   radial-gradient(circle at center, white, var(--color-rainbow-5)); 
-  color:        var(--color-rainbow-5d);
-  border-color: var(--color-rainbow-5d);
+  background:   radial-gradient(circle at center, white, var(--color-rainbow-6)); 
+  color:        var(--color-rainbow-6d);
+  border-color: var(--color-rainbow-6d);
   border-style: dotted;
   border-radius: 0;
 }
 
 .struct div.issue { 
   background: white;  
-  color: var(--color-sheet-dark);
-  border-color: var(--color-sheet-dark);
+  color: black;
+  border-color: black;
   border-style: solid;
-  box-shadow: 1.5pt 1.5pt var(--color-sheet-light);
-  border-width: 0.50pt;
-  font-weight: bold;
+  box-shadow: 2pt 2pt var(--color-shadow);
+  border-width: 0.25pt;
+  margin-bottom: 9pt;
 }
+.struct div.issue:before { font-weight: bold; text-align: center; }
+.struct div.issue div:before { font-weight: bold; }
+
 .struct div.issue div { 
   border-style: solid; 
   border-width: 0.75pt;
+  margin-bottom: 4pt;
 }
-.struct div.issue div div { border-width: 0.50pt; }
-.struct div.issue div div:before { margin: 0; }
+.struct div.issue div div { border-width: 0.50pt; margin-bottom: 2pt; }
+.struct div.issue div div:before { margin-bottom: 1pt; margin-top: 1pt; margin-left: 3pt; margin-right: 3pt; }
 .struct div.issue.annual { background: white; }
 
 .struct div.vignette { 
-  background:   linear-gradient(90deg, var(--color-rainbow-3), var(--color-rainbow-4), white);
+  background:   linear-gradient(
+    90deg, v
+    ar(--color-rainbow-3), 
+    var(--color-rainbow-4), 
+    white);
   color:        var(--color-rainbow-3d);
   border-color: var(--color-rainbow-3d);
 }
 .struct div.crisis { 
-  background:   linear-gradient(90deg, var(--color-rainbow-1), var(--color-rainbow-6), white); 
+  background:   linear-gradient(
+    90deg, 
+    var(--color-rainbow-1), 
+    var(--color-rainbow-6), 
+    white 150%); 
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
 .struct div.crisis div {
-  background:   linear-gradient(90deg, var(--color-rainbow-1), var(--color-rainbow-6), white); 
+  background:   linear-gradient(
+    90deg, 
+    var(--color-rainbow-1), 
+    white); 
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
@@ -2143,10 +2182,22 @@ width: calc(20 - 6 * 4pt / 5); }
 .struct div.bleed,
 .struct div.stars_wishes,
 .struct div.recap { 
-  background:   linear-gradient(90deg, var(--color-rainbow-6), white); 
-  color:        var(--color-rainbow-6d);
-  border-color: var(--color-rainbow-6d);
+  background:   linear-gradient(
+    90deg, 
+    var(--color-rainbow-5), 
+    var(--color-rainbow-6)
+    ); 
+  color:        var(--color-rainbow-5d);
+  border-color: var(--color-rainbow-5d);
 }
-/* */
+.struct div.bleed { 
+  background: linear-gradient(
+    90deg, 
+    var(--color-rainbow-5), 
+    var(--color-rainbow-6), 
+    var(--color-rainbow-1), 
+    var(--color-rainbow-1d) 125%); 
+}
+
 
 
