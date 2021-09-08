@@ -95,6 +95,7 @@ header h1     { string-set: gamename content()       }
   --icon-male           : '\002642' var(--iant);
   --icon-trans          : '\0026a7' var(--iant);
 
+  --wide-one            : calc(100% - 2 * 2pt / 1 ); 
   --large               : 11pt;
   --larger              : 10pt;
   --body                : 9pt;
@@ -1888,40 +1889,50 @@ sup { line-height: none; font-size: 50%; }
 
 @page structure { }
 
-.structure-chart { 
+.struct { 
   page: structure;
   column-span: all; 
   font-size: var(--larger);
 }
 
-.structure-chart div { 
+.struct div { 
+  position: relative;
   display: inline-block;
-  border: 1pt solid black;
-  border-radius: 4pt;
-  min-width: 24pt;
+  border: 1pt dashed var(--color-sheet-dark);
+  border-radius: 3pt;
   vertical-align: top;
   box-sizing: border-box;
-  margin-left: 2pt;
-  margin-bottom: 2pt;
-  max-width: calc(100% - 2 * 2pt / 1); 
+  margin-left: 4pt;
+  margin-bottom: 4pt;
+  max-width: calc(100% - 2 * 4pt / 1); 
   float: left;
 }  
 
-.structure-chart div.dotdotdot:before { display: none; }
+/* .struct div { font-size: 90%; } */
 
-.structure-chart div { font-size: 90%; }
+/*
+.struct div.countdown { border-width: 0.5pt; }
+.struct div.hero_phase { border-width: 0.5pt; }
+.struct div.crisis_phase { border-width: 0.5pt; }
+.struct div.post_crisis { border-width: 0.5pt; }
+.struct div.stars_wishes { border-width: 0.5pt; }
+.struct div.bleed { border-width: 0.5pt; }
+.struct div.lines_veils { border-width: 0.5pt; }
+.struct div.do_chargen { border-width: 0.5pt; }
+.struct div.comics_code { border-width: 0.5pt; }
+*/
 
-.structure-chart div.countdown { border-width: 0.5pt; }
-.structure-chart div.hero_phase { border-width: 0.5pt; }
-.structure-chart div.crisis_phase { border-width: 0.5pt; }
-.structure-chart div.post_crisis { border-width: 0.5pt; }
-.structure-chart div.stars_wishes { border-width: 0.5pt; }
-.structure-chart div.bleed { border-width: 0.5pt; }
-.structure-chart div.lines_veils { border-width: 0.5pt; }
-.structure-chart div.comics_code { border-width: 0.5pt; }
+/*
+.struct div                     { border-width: 2.00pt; }
+.struct div div                 { border-width: 1.50pt; }
+.struct div div div             { border-width: 1.00pt; }
+.struct div div div div         { border-width: 0.75pt; }
+.struct div div div div div     { border-width: 0.50pt; }
+.struct div div div div div div { border-width: 0.25pt; }
+*/
 
-.structure-chart div.dotdotdot {
-  min-width: 0;
+.struct div.dotdotdot {
+  height: auto;
   border: none;
   padding: none;
   text-align: center;
@@ -1930,70 +1941,212 @@ sup { line-height: none; font-size: 50%; }
   font-family: var(--font-h2);
 }
 
-.structure-chart div:before {
-  display: block;
-  content: attr(class string);
-  margin-left: 2pt;
-  margin-right: 2pt;
-  margin-bottom: 2pt;
-  margin-top: 1pt;
+.struct div { font-size: 90%; }
+
+.struct div span { 
+  position: absolute; 
+  top: 2pt; 
+  right: 2pt; 
+  font-size: var(--small);
+  font-family: var(--font-caption);
 }
 
+.struct div span.ideal { content: 'i'; }
+.struct div span.hero  { content: 'h'; }
+.struct div span.opp   { content: 'o'; }
+.struct div span.scene { content: 's'; }
+
+
+
+.struct div:before {
+  display: block;
+  content: attr(class string);
+  margin: 4pt;
+}
+
+/* borders */
+
+/* heights */
+/* .struct div.issue { min-height: 24pt; } */
+
 /*
-width: calc(100% - 2 * 2pt / 1 ); 
-width: calc(50% - 3 * 2pt / 2 ); 
-width: calc(25% - 5 * 2pt / 4 ); 
-width: calc(33.33% - 4 * 2pt / 3 ); 
+ * widths
+width: calc(100% - 2 * 4pt / 1 ); }
+width: calc(50% - 3 * 4pt / 2 ); }
+width: calc(33.33% - 4 * 4pt / 3 ); }
+width: calc(25% - 5 * 4pt / 4 ); }
+width: calc(20 - 6 * 4pt / 5); }
 */
-.structure-chart div.series { border-width: 2pt; }
-.structure-chart div.storyline { border-style: dashed; }
-.structure-chart div.issue { border-style: double; }
+.struct div.do_chargen     { width: calc(33.33% - 4 * 4pt / 3 ); }
+.struct div.lines_veils    { width: calc(33.33% - 4 * 4pt / 3 ); }
+.struct div.comics_code    { width: calc(33.33% - 4 * 4pt / 3 ); }
+.struct div.bleed          { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.stars_wishes   { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.bleed.wide     { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.stars_wishes.wide   { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.storyline      { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.storyline.wide { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.series         { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.series.wide    { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.recap          { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.recap.wide     { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.lettercol      { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.lettercol.wide { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.volume         { width: calc(25%  - 5 * 4pt / 4 ) ; }
+.struct div.volume.wide    { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.crisis         { width: calc(25%  - 5 * 4pt / 4 ) ; }
+.struct div.crisis.wide    { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.crisis.extra.wide    { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.vignette       { width: calc(25%  - 5 * 4pt / 4 ) ; }
+.struct div.vignette.wide  { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.countdown      { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.hero_phase     { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.crisis_phase   { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.hero_phase.wide  {   width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.crisis_phase.wide {   width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.post_crisis    { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.issue          { width: calc(50%  - 3 * 4pt / 2 ) ; }
+.struct div.issue.wide     { width: calc(100% - 2 * 4pt / 1 ) ; }
+.struct div.storyline.wide div.issue      { width: calc(25% - 5 * 4pt / 4 ); }
+.struct div.storyline.wide div.issue.wide { width: calc(100% - 2 * 4pt / 1 ); }
 
-.structure-chart div.series { width: calc(50% - 3 * 2pt / 2 ); }
-.structure-chart div.series:first-child { width: calc(100% - 2 * 2pt / 1 ); }
-.structure-chart div.series div.issue.issue_zero { width: calc(100% - 2 * 2pt / 1 ); }
-.structure-chart div.lines_veils { width: calc(25% - 5 * 2pt / 4 ); }
-.structure-chart div.comics_code { width: calc(25% - 5 * 2pt / 4 ); }
-.structure-chart div.volume { width: calc(50% - 3 * 2pt / 2 ); }
-.structure-chart div.volume.example { width: calc(100% - 2 * 2pt / 1 ); }
-.structure-chart div.storyline { width: calc(50% - 3 * 2pt / 2 ); }
-.structure-chart div.issue.first { width: calc(100% - 2 * 2pt / 1 ); }
+
+/* above is ok */
 
 
+/* workspace */
 
-.structure-chart div.recap { width: calc(100% - 2 * 2pt / 1); }
-.structure-chart div.lettercol { width: calc(100% - 2 * 2pt / 1); }
-.structure-chart div.vignette { width: calc(25% - 5 * 2pt / 4 ); }
-.structure-chart div.crisis { width: calc(25% - 5 * 2pt / 4 ); }
-.structure-chart div.crisis.demo { width: calc(50% - 3 * 2pt / 2); }
-.structure-chart div.countdown { width: calc(100% - 2 * 2pt / 1 ); }
-.structure-chart div.hero_phase { width: calc(50% - 3 * 2pt / 2); }
-.structure-chart div.crisis_phase { width: calc(50% - 3 * 2pt / 2); }
-.structure-chart div.post_crisis { width: calc(100% - 2 * 2pt / 1 ); }
-.structure-chart div.bleed { width: calc(50% - 3 * 2pt / 2); }
-.structure-chart div.stars_wishes { width: calc(50% - 3 * 2pt / 2); }
-
-.structure-chart > div.issue { width: calc(25% - 5 * 2pt / 4 ); }
 /* content */
 
-.structure-chart div.volume:before { content: 'Volume'; }
-.structure-chart div.series:before { content: 'Series'; }
-.structure-chart div.issue:before { content: 'Issue'; }
-.structure-chart div.storyline:before { content: 'Storyline'; }
-.structure-chart div.crisis:before { content: 'Crisis'; }
-.structure-chart div.vignette:before { content: 'Vignette'; }
-.structure-chart div.countdown:before { content: 'Countdown to Crisis'; }
-.structure-chart div.hero_phase:before { content: 'Hero Phase'; }
-.structure-chart div.crisis_phase:before { content: 'Crisis Phase'; }
-.structure-chart div.post_crisis:before { content: 'Post-Crisis'; }
-.structure-chart div.stars_wishes:before { content: 'Stars & Wishes'; }
-.structure-chart div.comics_code:before { content: 'Comics Code'; }
-.structure-chart div.recap:before { content: 'Recap'; }
-.structure-chart div.bleed:before { content: 'bleed'; }
-.structure-chart div.lettercol:before { content: 'The Lettercol'; }
-.structure-chart div.lines_veils:before { content: 'Lines & Veils'; }
-.structure-chart div.issue.one_shot:before { content: 'One-Shot Issue'; }
-.structure-chart div.issue.issue_zero:before { content: 'Issue #0'; }
-.structure-chart div.issue.first:before { content: 'First Issue'; }
-.structure-chart div.issue.annual:before { content: 'Annual'; }
+.struct div.volume:before                { content: 'Volume';                }
+.struct div.series:before                { content: 'Series';                }
+.struct div.issue:before                 { content: 'Issue';                 }
+.struct div.storyline:before             { content: 'Storyline';             }
+.struct div.crisis:before                { content: 'Crisis';                }
+.struct div.vignette:before              { content: 'Vignette';              }
+.struct div.countdown:before             { content: 'Countdown to Crisis';   }
+.struct div.hero_phase:before            { content: 'Heroes';                }
+.struct div.crisis_phase:before          { content: 'Crisis';                }
+.struct div.hero_phase.wide:before            { content: 'Hero Phase';                }
+.struct div.crisis_phase.wide:before          { content: 'Crisis Phase';                }
+.struct div.post_crisis:before           { content: 'Post-Crisis';           }
+.struct div.stars_wishes:before          { content: 'Stars & Wishes';        }
+.struct div.comics_code:before           { content: 'Comics Code';           }
+.struct div.recap:before                 { content: 'Recap';                 }
+.struct div.bleed:before                 { content: 'The Bleed';             }
+.struct div.lettercol:before             { content: 'The Lettercol';         }
+.struct div.lines_veils:before           { content: 'Lines & Veils';         }
+.struct div.do_chargen:before            { content: 'Create Heroes';         }
+.struct div.issue.one_shot:before        { content: 'One-Shot Issue';        }
+.struct div.issue.day_in_the_life:before { content: 'Day-in-the-Life Issue'; }
+.struct div.issue.zero:before            { content: 'Issue #0';              }
+.struct div.issue.first:before           { content: 'Issue #1';           }
+.struct div.issue.annual:before          { content: 'Annual';                }
+
+.struct div.volume.one:before { content: "Volume One"; }
+.struct div.volume.two:before { content: "Volume Two"; }
+.struct div.volume.three:before { content: "Volume Three"; }
+.struct div.volume.four:before { content: "Volume Four"; }
+.struct div.volume.five:before { content: "Volume Five"; }
+.struct div.volume.one div.issue.annual:before { content: "Annual #1"; }
+.struct div.volume.two div.issue.annual:before { content: "Annual #2"; }
+.struct div.volume.three div.issue.annual:before { content: "Annual #3"; }
+.struct div.volume.four div.issue.annual:before { content: "Annual #4"; }
+.struct div.volume.five div.issue.annual:before { content: "Annual #5"; }
+
+/* colors */
+
+.struct div.series { 
+  background:   linear-gradient(90deg, 
+    white -50%,
+    var(--color-rainbow-2), 
+    var(--color-rainbow-2d) 150%
+    ); 
+  color:        var(--color-rainbow-2d);
+  border-color: var(--color-rainbow-2d);
+  border-style: double;
+  border-radius: 0;
+}
+
+
+.struct div.series:before { 
+  font-family: var(--font-h2);
+  font-size: var(--h3); 
+}
+.struct div.volume:before { 
+  font-size: var(--h6); 
+  font-family: var(--font-h3);
+}
+.struct div.storyline:before { 
+  font-size: var(--h6); 
+  font-family: var(--font-h5);
+}
+
+.struct div.issue.annual {
+  color:        var(--color-rainbow-4d);
+  border-color: var(--color-rainbow-4d);
+}
+
+.struct div.volume { 
+  background:   linear-gradient(
+    var(--color-rainbow-4d) -100%, 
+    var(--color-rainbow-4), 
+    var(--color-rainbow-3) 150%
+    ); 
+  color:        var(--color-rainbow-4d);
+  border-color: var(--color-rainbow-4d);
+  border-radius: 0;
+}
+
+.struct div.storyline { 
+  background:   radial-gradient(circle at center, white, var(--color-rainbow-5)); 
+  color:        var(--color-rainbow-5d);
+  border-color: var(--color-rainbow-5d);
+  border-style: dotted;
+  border-radius: 0;
+}
+
+.struct div.issue { 
+  background: white;  
+  color: var(--color-sheet-dark);
+  border-color: var(--color-sheet-dark);
+  border-style: solid;
+  box-shadow: 1.5pt 1.5pt var(--color-sheet-light);
+  border-width: 0.50pt;
+  font-weight: bold;
+}
+.struct div.issue div { 
+  border-style: solid; 
+  border-width: 0.75pt;
+}
+.struct div.issue div div { border-width: 0.50pt; }
+.struct div.issue div div:before { margin: 0; }
+.struct div.issue.annual { background: white; }
+
+.struct div.vignette { 
+  background:   linear-gradient(90deg, var(--color-rainbow-3), var(--color-rainbow-4), white);
+  color:        var(--color-rainbow-3d);
+  border-color: var(--color-rainbow-3d);
+}
+.struct div.crisis { 
+  background:   linear-gradient(90deg, var(--color-rainbow-1), var(--color-rainbow-6), white); 
+  color:        var(--color-rainbow-1d);
+  border-color: var(--color-rainbow-1d);
+}
+.struct div.crisis div {
+  background:   linear-gradient(90deg, var(--color-rainbow-1), var(--color-rainbow-6), white); 
+  color:        var(--color-rainbow-1d);
+  border-color: var(--color-rainbow-1d);
+}
+
+.struct div.lettercol,
+.struct div.bleed,
+.struct div.stars_wishes,
+.struct div.recap { 
+  background:   linear-gradient(90deg, var(--color-rainbow-6), white); 
+  color:        var(--color-rainbow-6d);
+  border-color: var(--color-rainbow-6d);
+}
+/* */
+
 
