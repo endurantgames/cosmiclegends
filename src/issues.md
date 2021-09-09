@@ -1,44 +1,14 @@
-# From Issues to Volumes {#toc-issues .colbefore}
+# From Issues to Volumes {#toc-issues .breakbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.
 
 ## Issues
 
-::::::::: struct :::::::::::
-<div class="issue wide">
-  <div class="recap wide"></div>
-  <div class="crisis wide"></div>
-  <div class="vignette wide"></div>
-  <div class="crisis wide"></div>
-  <div class="vignette wide"></div>
-  <div class="lettercol wide">
-   <div class="bleed wide"></div>
-   <div class="stars_wishes wide"></div>
-  </div>
-</div>
-::::::::::::::::::::::::::::
-
 Each individual game session is known as an **Issue**, and roughly
 corresponds to one issue of a comic book.
 
-::::::::: struct :::::::::::
-<div class="issue first wide">
-  <div class="recap wide"></div>
-  <div class="vignette"></div>
-  <div class="vignette"></div>
-  <div class="vignette"></div>
-  <div class="vignette"></div>
-  <div class="crisis extra wide"></div>
-  <div class="lettercol wide">
-  </div>
-</div>
-::::::::::::::::::::::::::::
-
-The **First Issue** is the first played session of an ongoing []{.gamename} 
-campaigned played by a group -- but first you should have an Issue 0.
-
-### Issue 0
+### Issue #0
 
 ::::::::::: struct ::::::::::::
 <div class="issue wide zero">
@@ -59,6 +29,49 @@ and set expectations on the kind of story and play.
 
 Issue 0s are also a great time to create heroes together as a group,
 rather than separately.
+
+### Issue #1
+
+::::::::: struct :::::::::::
+<div class="issue first wide">
+  <div class="recap wide"></div>
+  <div class="vignette"></div>
+  <div class="vignette"></div>
+  <div class="vignette"></div>
+  <div class="vignette"></div>
+  <div class="crisis extra wide"></div>
+  <div class="lettercol wide">
+  </div>
+</div>
+::::::::::::::::::::::::::::
+
+The **First Issue** is the first played session of an ongoing []{.gamename} 
+campaigned played by a group -- but first you should have an Issue 0.
+
+::::::::: struct :::::::::::
+<div class="issue wide">
+  <div class="lettercol wide">
+   <div class="bleed wide"></div>
+   <div class="stars_wishes wide"></div>
+  </div>
+</div>
+::::::::::::::::::::::::::::
+
+[]{.lorem}
+
+::::::::: struct :::::::::::
+<div class="issue wide">
+  <div class="recap wide"></div>
+  <div class="crisis wide"></div>
+  <div class="vignette wide"></div>
+  <div class="crisis wide"></div>
+  <div class="vignette wide"></div>
+  <div class="lettercol wide">
+  </div>
+</div>
+::::::::::::::::::::::::::::
+
+[]{.lorem}
 
 ## Storylines
 
@@ -94,24 +107,6 @@ can take long and might run for 2 or 3 sessions, or longer.
 
 Once your hero finishes your Storyline, both your hero and your 
 fellow players' heroes gain an **Advancement.**
-
-### One-Shots
-
-A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
-Series, but stands alone. Most games played at conventions, for example,
-will be One-Shots.
-
-Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
-Opportunity either, but just a connected series of Crises. In those 
-cases, all heroes receive a standard Advancements after dealing with 
-the Crises.
-
-One-Shots obviously won't have a separate Issue 0, but time should still
-be set aside at the start of the Issue to touch on important safety tools.
-
-Many First Issues are One-Shots, as the players and Editor are still 
-getting to know their heroes and the game. These First Issues usually
-feature a few simple Crises to resolve.
 
 ## Volumes
 
@@ -167,6 +162,30 @@ Series is comprised of up to five Volumes.
 If your group reaches the end of Volume 5 and with to continue with
 with the same heroes, you can do so: just treat later Volumes as having
 a Volume number of 5, and proceed from there.
+
+### One-Shots
+
+::::::::: struct :::::::::::
+<div class="issue wide">
+  <div class="recap wide"></div>
+  <div class="crisis wide"></div>
+  <div class="crisis wide"></div>
+  <div class="lettercol wide">
+  </div>
+</div>
+::::::::::::::::::::::::::::
+
+A **One-Shot** is an Issue that isn't part of a Storyline, Volume, or
+Series, but stands alone. Most games played at conventions, for example,
+will be One-Shots.
+
+Sometimes a One-Shot doesn't have a Spotlight hero, meaning there's no
+Opportunity either, but just a connected series of Crises. In those 
+cases, all heroes receive a standard Advancement after dealing with 
+all the Crises.
+
+One-Shots obviously won't have a separate Issue 0, but time should still
+be set aside at the start of the Issue to touch on important safety tools.
 
 ## Guest Stars and Crossovers
 
