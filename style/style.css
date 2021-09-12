@@ -104,6 +104,7 @@ header h1     { string-set: gamename content()       }
   --tiny                : 5.5pt;
   --caption             : 10pt;
   --title               : 54pt;
+  --largetitle          : 44pt;
   --subtitle            : 26pt;
   --subsubtitle         : 28pt;
   --h1                  : 24pt;
@@ -174,7 +175,7 @@ table { width: 100%; }
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: all; }
 
 h2.breakbefore { margin-bottom: 0.5em; text-align: center; }
-h3.class { font-size: var(--h2); font-family: var(--font-h2); margin-bottom: 0.5em; text-align: center; break-before: page; }
+h3.class { font-size: var(--largetitle); font-family: var(--font-h2); margin-bottom: 0; text-align: center; break-before: page; }
 
 h4.class { font-size: var(--h3); font-family: var(--font-h3); margin-bottom: 0.5em; text-align: center; }
 
@@ -538,6 +539,17 @@ margin-top: 0.5em; }
 .skill-list dl dd ul { margin: 0; break-inside: auto; }
 .skill-list dl dd ul li { margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; }
 
+.skill-list    .action:before { content: 'Action/';    }
+.skill-list .detective:before { content: 'Detective/'; }
+.skill-list .adventure:before { content: 'Adventure/'; }
+.skill-list   .mystery:before { content: 'Mystery/';   }
+.skill-list  .suspense:before { content: 'Suspense/';  }
+.skill-list .action    { font-weight: bold; color: green;  }
+.skill-list .detective { font-weight: bold; color: blue;   }
+.skill-list .adventure { font-weight: bold; color: red;    }
+.skill-list .mystery   { font-weight: bold; color: orange; }
+.skill-list .suspense  { font-weight: bold; color: purple; }
+
 .breakable ul { break-inside: auto; }
 
 .ability-list dl { margin-top: 0.25em; margin-bottom: 0.25em; line-height: 1.1; }
@@ -595,7 +607,7 @@ margin-top: 0.5em; }
   margin-top: 1em;
   background:        var(--color-sidebar);
   border-radius: var(--border-radius);
-  border: 0.5pt solid var(--color-line);
+  border: 0.5pt solid darkgreen;
 }
 
 .soapbox.small { 
@@ -617,6 +629,7 @@ margin-top: 0.5em; }
   column-span: all; 
   font-family: var(--font-h3);
   font-size: var(--h4);
+  color: darkgreen;
 }
 
 .soapbox :matches(h1, h2, h3, h4, h5, h6) {
@@ -749,9 +762,18 @@ margin-top: 0.5em; }
 .classdata ul li { line-height: 1.1; }
 
 .classdata .questions ul { margin: 0; }
-.classdata .questions ul li { margin: 0; margin-left: 1.5em; text-indent: -1em; list-style-type: none; font-weight: normal; }
+.classdata .questions ul li { 
+  margin: 0; 
+  margin-left: 1.5em; /* text-indent: -1em; */ 
+  list-style-type: decimal; 
+  font-weight: normal; 
+}
+
+.classdata .questions ul ul li { list-style-type: lower-alpha; } 
+/*
 .classdata .questions > ul > li { font-weight: bold; }
 .classdata .questions ul li ul li { line-height: 1.1; }
+*/
 
 .classdata blockquote { font-size: var(--quote-class); }
 .classdata > ul { margin: 0; }
@@ -2241,4 +2263,13 @@ width: calc(20 - 6 * 4pt / 5); }
 }
 
 
-
+.classdata#class-divine      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(128,  69,   0); }
+.classdata#class-dynamo      :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 75,   0, 130); }
+.classdata#class-inventor    :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 92,  67,   6); }
+.classdata#class-knight      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(  0, 100,   0); }
+.classdata#class-mage        :matches(h1, h2, h3, h4, h5, h6) { color: rgb(128,   0,  32); }
+.classdata#class-monarch     :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 16,  16,  16); }
+.classdata#class-monstrosity :matches(h1, h2, h3, h4, h5, h6) { color: rgb(  0, 128, 128); }
+.classdata#class-paragon     :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 53,  94,  59); }
+.classdata#class-psychic     :matches(h1, h2, h3, h4, h5, h6) { color: rgb(159,  29,  53); }
+.classdata#class-shaper      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(139,   0, 139); }

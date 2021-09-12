@@ -82,7 +82,7 @@ Cosmic Legends of the Universe
 - [/] Setting
   - [/] What's What?
     - [/] Rockstar (bio)
-    - [/] Titan (bio)
+    - [x] Titan (bio)
     - [/] Villains, Inc. (backstory)
 - [ ] The Editor
   - [ ] Creating Story Arcs
