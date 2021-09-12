@@ -1,4 +1,0 @@
-# Downtime {#toc-downtime}
-
-[]{.lorem}
-

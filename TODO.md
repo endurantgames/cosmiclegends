@@ -4,6 +4,10 @@ Cosmic Legends of the Universe
 
 - [/] Preface
   - [/] Bronze Age
+- [/] Issues 
+  - [ ] Update Examples
+- [/] Abilities blurb
+- [ ] Vignettes
 - [/] Classes
   - [/] Introduction
   - [/] The Divine (new abilities)
@@ -16,7 +20,18 @@ Cosmic Legends of the Universe
   - [/] The Paragon (new abilities)
   - [/] The Psychic (new abilities)
   - [/] The Shaper  (new abilities)
-- [x] Ideals
+- [ ] Pregens: 1 extra ability each
+  - [ ] Brigantia
+  - [ ] Energy Boy
+  - [ ] Grailknight
+  - [ ] Head Librarian
+  - [ ] Jack Dee
+  - [ ] Obsidius Rex
+  - [ ] Riptide
+  - [ ] Rockstar
+  - [ ] Titan
+  - [ ] Vespa
+- [/] Ideals
   - [ ] Tie to approach
 - [/] Goals
   - [x] Smash

@@ -14,6 +14,8 @@ For example, one hero could have these five Ideals:
 - **Hope**
 :::::::::::::::::::::::::::::::::::::::::::::::
 
+[]{.lorem}
+
 When you use all five of your hero's Ideals in a Storyline, 
 your hero's Might is refreshed to its starting value, and you
 unlock your Nova Power Words. You can use those Nova Power Words

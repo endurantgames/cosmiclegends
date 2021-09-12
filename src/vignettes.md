@@ -1,0 +1,4 @@
+# Vignettes {#toc-vignettes}
+
+[]{.lorem}
+
