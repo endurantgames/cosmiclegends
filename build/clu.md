@@ -5000,11 +5000,6 @@ to the heroes.
 For example, []{.lorem}
 
 
-## Vignettes {#toc-vignettes}
-
-[]{.lorem}
-
-
 ## Advancements {#toc-advancements .breakbefore}
 
 Advancements are how you reflect your hero's growth over the
