@@ -24,6 +24,7 @@
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
+  - <a href="#toc-expatriate"></a>
   - <a href="#toc-inventor"></a>
   - <a href="#toc-knight"></a>
   - <a href="#toc-mage"></a>
@@ -41,6 +42,7 @@
     - <a href="#toc-power-use-personal"></a>
     - <a href="#toc-power-use-nova"></a>
     - <a href="#toc-power-use-scene"></a>
+    - <a href="#toc-power-words-index"></a>
 - <a href="#toc-crisis"></a>
   - <a href="#toc-crisis-countdown"></a>
     - <a href="#toc-crisis-scene"></a>

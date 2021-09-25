@@ -1,4 +1,4 @@
-# Power Words Index
+# Power Words Index {#toc-power-words-index}
 
 ::::::::::::: pw-index ::::::::::::::::::::::::::::::::::::
 - [Absorb            ]{.word .cpw .dynamo            }

@@ -1,7 +1,7 @@
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
-# The Construct {#toc-construct .breakbefore .class}
+# The Expatriate {#toc-expatriate .breakbefore .class}
 
-> So here's how this is gonna go. I'm gonna punch ya, you're gonna get real hurt, then give up. Capeesh?
+> 
 
 Just a machine.
 
@@ -52,8 +52,7 @@ As you create your Monstrosity hero, answer any or all of these questions.
 
 ## Skills
 
-You have the **Engineer** and **Hacker** skills, plus two additional
-skills of your choice.
+You have the **Academic**, **Explorer**, **Historian**, and **Pilot** skills, and plus two additional skills of your choice.
 
 Whenever you make a roll that uses one of your skills, add 2 extra dice.
 
@@ -71,7 +70,7 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 ### Core Power Words
 
-Your Core Power Words are **Synthetic** and **Sentience**.
+Your Core Power Words are **Human** and **Ingenuity**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo,  or 2 Might to add both.
 
@@ -80,29 +79,75 @@ or Combo,  or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+- Alien
 - Animal (specific)
+- Anachronism
+- Armor
+- Arrogance
+- Competency
+- Backwater
 - Beast
 - Body
+- Bravado
+- Civilization
 - Claws
-- Clobber
-- Giant
+- Crash
+- Confusing
+- Contradictory
+- Customs
+- Cyborg
+- Dangerous
+- Discovery
+- Earth
+- Explosives
+- Fascinating
+- Folksy
+- Forgotten
+- Grok
+- Helmet
+- Legendary
 - Horrifying
+- Jetpack
+- Jumpsuit
 - Immovable
+- Improvised
+- Leadership
 - Leap
+- Linguist
+- Military
+- Oxygen
+- Pet
+- Planetary
+- Primitive
+- Radio
+- Rally
 - Regenerate
-- Rocky
-- Savage
-- Shifting
+- Resourceful
+- Reputation
+- Relic
+- Rocket
+- Romance
+- Sabotage
+- Spaceship
 - Stomp
 - Stretch
 - Strength
+- Tactics
+- Tank
+- Teleportation
 - Throw
+- Trivia
+- Unassuming
+- Unpredictable
+- Warlord
+- Weapon (specific)
+- Wisdom
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+You can use two Power Personal Words together to form a **Power Stunt** or 
+**Power Combo** by paying 1 Might for each beyond the first.
 
 ### Nova Power
 
@@ -117,24 +162,27 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Monstrosity Abilities {  .class}
+## Expatriate Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Monstrosity Abilities show your increasing distance from
-humanity.
-Each ability can be chosen only once.
+Your Expatriate Abilities show your growth in a completely different 
+environment from your home.  Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Engine of Destruction** Prime ability common 
+Your hero has the **Quick Learner** Prime ability common 
 to all Monstrosities.
 
 :::::: {.ability-list .prime }::::::::::
-Engine of Destruction
+Quick Learner
 
-:   When you use your Core or Nova Power Words in a Power Stunt
-    or Combo to advance the Smash goal, add 
-    add 2 to the Effectiveness.
+:   At the start of each Volume, add one of the following Fighting Styles:
+    **Acrobat**, **Ace**, **Brawler**, **Inspiration**, **Jester**,
+    **Martial Artist**, **Mediator**, or **Tactician**.
+
+    At the start of each Volume, add one of the following Skills:
+    **Academic**, **Criminal**, **Deputy**, **Engineer**, **Hacker**,
+    **Historian**, **Investigator**, **Pilot**, **Scientist**, or **Spy**,
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -143,6 +191,7 @@ Engine of Destruction
 At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
+
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
@@ -154,11 +203,9 @@ Self-Repair
     the start of the Hero Phase if you have at least 1 Might
     and 1 Health.
 
-Misunderstood Monster
+In a Strange Land
 
-:   
-    Add 2 to the dice pool when you advance the Allay 
-    or Rescue goals.
+:   To be determined
 
 Unkillable
 
