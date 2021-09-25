@@ -108,7 +108,7 @@ Choose six Personal Power Words from the following list:
 - Time
 - Travel
 - Ward
-- TBD
+- *TBD*
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.

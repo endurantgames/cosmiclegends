@@ -1,0 +1,132 @@
+# Power Words Index
+
+::::::::::::: pw-index ::::::::::::::::::::::::::::::::::::
+- [Absorb            ]{.word .cpw .dynamo            }
+- [Acrobat           ]{.word .cpw .knight            }
+- [Adapation         ]{.word .cpw .inventor          }
+- [Analyze           ]{.word .cpw .inventor          }
+- [Anger             ]{.word .cpw .divine            }
+- [Animals (specific)]{.word .cpw .monarch           }
+- [Armor             ]{.word .cpw .divine            }
+- [Armor             ]{.word .cpw .knight            }
+- [Armor             ]{.word .cpw .monarch           }
+- [Bands             ]{.word .cpw .mage              }
+- [Banish            ]{.word .cpw .mage              }
+- [Beam              ]{.word .cpw .dynamo            }
+- [Beast             ]{.word .cpw .monstrosity       }
+- [Beasts            ]{.word .cpw .monarch           }
+- [Blast             ]{.word .cpw .dynamo            }
+- [Blast             ]{.word .cpw .mage              }
+- [Blessed           ]{.word .core .divine           }
+- [Body              ]{.word .cpw .monstrosity       }
+- [Bubble            ]{.word .cpw .dynamo            }
+- [Call              ]{.word .cpw .monarch           }
+- [Champion          ]{.word .core .divine           }
+- [Claws             ]{.word .cpw .monstrosity       }
+- [Clobber           ]{.word .cpw .monstrosity       }
+- [Cold              ]{.word .core .dynamo .variable }
+- [Command           ]{.word .cpw .divine            }
+- [Command           ]{.word .cpw .monarch           }
+- [Communicate       ]{.word .cpw .monarch           }
+- [Dampen            ]{.word .cpw .dynamo            }
+- [Darkness          ]{.word .core .dynamo .variable }
+- [Dynamic           ]{.word .cpw .inventor          }
+- [Electricity       ]{.word .core .dynamo .variable }
+- [Emitter           ]{.word .cpw .inventor          }
+- [Energetic         ]{.word .cpw .inventor          }
+- [Energy            ]{.word .core .dynamo           }
+- [Experimental      ]{.word .core .inventor         }
+- [Explosion         ]{.word .cpw .dynamo            }
+- [Extradimensional  ]{.word .cpw .mage              }
+- [Extraplanar       ]{.word .cpw .divine            }
+- [Faith             ]{.word .cpw .divine            }
+- [Fear              ]{.word .cpw .knight            }
+- [Flare             ]{.word .cpw .dynamo            }
+- [Flight            ]{.word .cpw .divine            }
+- [Flight            ]{.word .cpw .dynamo            }
+- [Flight            ]{.word .cpw .mage              }
+- [Force             ]{.word .cpw .inventor          }
+- [Forest            ]{.word .cpw .monarch           }
+- [Gambit            ]{.word .cpw .knight            }
+- [Giant             ]{.word .cpw .monstrosity       }
+- [Glow              ]{.word .cpw .dynamo            }
+- [Heat              ]{.word .core .dynamo .variable }
+- [Hidden            ]{.word .cpw .knight            }
+- [Hidden            ]{.word .cpw .monarch           }
+- [Horrifying        ]{.word .cpw .monstrosity       }
+- [Immovable         ]{.word .cpw .monstrosity       }
+- [Improvised        ]{.word .cpw .knight            }
+- [Laser             ]{.word .cpw .inventor          }
+- [Leap              ]{.word .cpw .monstrosity       }
+- [Light             ]{.word .core .dynamo .variable }
+- [Line              ]{.word .cpw .knight            }
+- [Magic             ]{.word .cpw .mage              }
+- [Miniaturize       ]{.word .cpw .inventor          }
+- [Overload          ]{.word .core .dynamo           }
+- [Peace             ]{.word .cpw .divine            }
+- [Photographic      ]{.word .cpw .knight            }
+- [Prepared          ]{.word .cpw .knight            }
+- [Protection        ]{.word .cpw .inventor          }
+- [Prototype         ]{.word .core .inventor         }
+- [Punch             ]{.word .cpw .dynamo            }
+- [Push              ]{.word .cpw .dynamo            }
+- [Radiant           ]{.word .cpw .divine            }
+- [Radiation         ]{.word .core .dynamo .variable }
+- [Redirection       ]{.word .cpw .inventor          }
+- [Reflect           ]{.word .cpw .dynamo            }
+- [Regenerate        ]{.word .cpw .monstrosity       }
+- [Remote            ]{.word .cpw .monarch           }
+- [Remove            ]{.word .cpw .knight            }
+- [Reserves          ]{.word .core .monarch          }
+- [Resist            ]{.word .cpw .divine            }
+- [Ricochet          ]{.word .cpw .knight            }
+- [Robotic           ]{.word .cpw .inventor          }
+- [Rocketry          ]{.word .cpw .inventor          }
+- [Rocky             ]{.word .cpw .monstrosity       }
+- [Seas              ]{.word .cpw .monarch           }
+- [Sense             ]{.word .cpw .dynamo            }
+- [Sense             ]{.word .cpw .knight            }
+- [Sense             ]{.word .cpw .mage              }
+- [Sense             ]{.word .cpw .monarch           }
+- [Senses            ]{.word .cpw .divine            }
+- [Shatter           ]{.word .cpw .mage              }
+- [Shield            ]{.word .cpw .dynamo            }
+- [Shield            ]{.word .cpw .knight            }
+- [Shield            ]{.word .cpw .mage              }
+- [Shifting          ]{.word .cpw .monstrosity       }
+- [Skies             ]{.word .cpw .monarch           }
+- [Snare             ]{.word .cpw .knight            }
+- [Solid             ]{.word .cpw .dynamo            }
+- [Sorcery           ]{.word .core .mage             }
+- [Sound             ]{.word .core .dynamo .variable }
+- [Space             ]{.word .cpw .dynamo            }
+- [Space             ]{.word .cpw .mage              }
+- [Speed             ]{.word .core .dynamo .variable }
+- [Speed             ]{.word .cpw .divine            }
+- [Stomp             ]{.word .cpw .monstrosity       }
+- [Strength          ]{.word .cpw .divine            }
+- [Strength          ]{.word .cpw .monstrosity       }
+- [Stretch           ]{.word .cpw .monstrosity       }
+- [Summon            ]{.word .cpw .mage              }
+- [Superior          ]{.word .cpw .monarch           }
+- [Supreme           ]{.word .core .mage             }
+- [Survivor          ]{.word .cpw .monarch           }
+- [Technology        ]{.word .cpw .monarch           }
+- [Telemetry         ]{.word .cpw .inventor          }
+- [Throw             ]{.word .cpw .knight            }
+- [Throw             ]{.word .cpw .monstrosity       }
+- [Thunder           ]{.word .cpw .divine            }
+- [Time              ]{.word .cpw .mage              }
+- [Transportation    ]{.word .cpw .inventor          }
+- [Travel            ]{.word .cpw .mage              }
+- [Unbreakable       ]{.word .cpw .divine            }
+- [Unerring          ]{.word .cpw .knight            }
+- [Unexpected        ]{.word .core .monarch          }
+- [Vehicle (specific)]{.word .cpw .knight            }
+- [Vehicle (specific)]{.word .cpw .monarch           }
+- [Ward              ]{.word .cpw .mage              }
+- [Weapon  (specific)]{.word .cpw .monarch           }
+- [Weapon (specific) ]{.word .cpw .knight            }
+- [Wings             ]{.word .cpw .inventor          }
+- [Wisdom            ]{.word .cpw .divine            }
+:::::::::::::::::::::::::::::::::::::::::::

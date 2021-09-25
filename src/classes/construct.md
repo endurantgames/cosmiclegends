@@ -1,21 +1,23 @@
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
-# The Monstrosity {#toc-monstrosity .breakbefore .class}
+# The Construct {#toc-construct .breakbefore .class}
 
 > So here's how this is gonna go. I'm gonna punch ya, you're gonna get real hurt, then give up. Capeesh?
 
-A monster.
+Just a machine.
 
-That's what they say you are.
+That's all they say you are. Created in a lab, created by other
+people, originally from non-living material.
 
-Because of your strength, your size, your appearance.
+Who *doesn't* that describe?
 
-You're more than that -- you always have been -- but most people
-won't look beyond the obvious and see you as you truly are.
+Do your origins make you any *less* of a person?
 
-Well, then. If they want a monster *that badly*, maybe you should
-be the monster they say you are?
+You're more than just a simple gadget or toy. You've found there
+is more to being a person than simply being born human or looking
+like they do.
 
-## Playing a Monstrosity
+
+## Playing a Construct
 
 Your hero is really, really good at breaking things. You're going
 to want to advance the Smash goal whenever you can, but keep in
@@ -50,11 +52,10 @@ As you create your Monstrosity hero, answer any or all of these questions.
 
 ## Skills
 
-You have the **Criminal** and **Explorer** skills, plus two
-additional skills of your choice.
+You have the **Engineer** and **Hacker** skills, plus two additional
+skills of your choice.
 
-Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the Volume.
+Whenever you make a roll that uses one of your skills, add 2 extra dice.
 
 ## Power Words
 
@@ -66,7 +67,7 @@ You can use your Power Words in the following ways:
 - Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
-the next Hero Phase.
+the next Hero Phase, and you can't use it until it is off cooldown.
 
 ### Core Power Words
 
