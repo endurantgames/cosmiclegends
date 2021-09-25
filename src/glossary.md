@@ -7,6 +7,9 @@ Ability
 Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
 
+Add to the Teamwork Pool
+:   A move taken by a hero designed to give the team an upcoming advantage against a Crisis.
+
 Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
 
@@ -34,20 +37,22 @@ Comic Page Change Tools
 Contined Next Page
 :   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
 
-Contribute to the Teamwork Pool
-:   A move taken by a hero designed to give the team an advantage against a Crisis.
-
 Counter
-:   Avoiding the consequences of a Crisis Move.
+:   Avoiding the consequences of a Crisis Move, by spending from the Teamwork Pool.
 
 Crisis
-:   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. (*Encounter* in Harmony Drive.)
+:   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. 
+    (*Encounter* in Harmony Drive.)
 
 Crisis Phase
 :   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
 
+Crisis-Team
+:   A team of superheroes or supervillains who oppose the heroes in a Crisis; 
+    they can be rival good guys or outright baddies, and are built by the Editor in the same way heroes are built.
+
 Crossover
-:   A game session with heroes from two or more different campaigns working together.
+:   A game session with heroes from two or more different campaigns working together, usually on a battleworld.
 
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
@@ -106,6 +111,10 @@ Lines and Veils
 Meanwhile, ...
 :   A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
 
+Meta-Crisis
+:   A *crisis* that affects the nature of reality, such as rewriting the
+    multiverse or changing a hero's past or future.
+
 Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
 
@@ -162,6 +171,9 @@ Scene Power Words
 
 Series
 :   A group of Storylines following the same group of heroes; a campaign.
+
+Skill
+:   A group of professional talents, contacts, and experience possessed by a hero; if your Skill is pertinent to any roll, add 2 dice.
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
