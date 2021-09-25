@@ -52,6 +52,9 @@ Crossover
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
 
+Dual-Class
+:   A hero who is a member of two classes and switches between two forms; each form having a different appearance, class, abilities, and powers. See also *Multi-Class*.
+
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
 
@@ -108,6 +111,9 @@ Might
 
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
+
+Multi-Class
+:   A hero who is a member of two classes and combines their Class Abilities together.
 
 Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)

@@ -33,6 +33,8 @@ PROJ_RECIPE = $(PROJ)
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT    = $(OUTDIR)/Cosmic-Legends.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
+ELK_HTML_OUT = $(OUTDIR)/$(ELK).html
+ELK_PDF_OUT = $(OUTDIR)/$(CLOUD_ELK).pdf
 
 ORIGIN_RECIPE = origin
 ORIGIN_SRC = $(BUILDDIR)/origin.md
@@ -57,11 +59,13 @@ SHEET_CSS       = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
 LETTER_CSS      = --css=$(STYLEDIR)/letter.css
+ELK_CSS         = --css=$(ELKDIR)/style/elk.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS              = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS         = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS)
+ELK_FLAGS          = $(FLAGS) $(ELK_CSS)         $(PRINCEFLAGS_ELK)
 PREGEN_FLAGS       = $(FLAGS) $(PREGEN_CSS)      $(PRINCEFLAGS_PREGEN)
 ORIGIN_FLAGS       = $(FLAGS) $(ORIGIN_CSS)      $(PRINCEFLAGS_ORIGIN)
 LETTER_FLAGS       = $(FLAGS) $(LETTER_CSS)      $(PRINCEFLAGS_LETTER)
@@ -79,17 +83,18 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 
 # Prince Config
 #   Edit: Sure, if you need to
-# PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-# PRINCEFLAGS    = 
-PRINCEFLAGS_PREGEN = 
-PRINCEFLAGS_LETTER    = 
-PRINCEFLAGS_SHEET    = 
-PRINCEFLAGS_SHEET_ALT    = 
-PRINCEFLAGS_SHEET_COLOR    = 
-# PRINCEFLAGS_ORIGIN = 
-PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-PRINCEFLAGS_PREGEN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
-PRINCEFLAGS_ORIGIN      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
+# PRINCEFLAGS             = --pdf-engine-opt=--css-dpi=300
+# PRINCEFLAGS             = 
+PRINCEFLAGS_PREGEN        = 
+PRINCEFLAGS_LETTER        = 
+PRINCEFLAGS_SHEET         = 
+PRINCEFLAGS_SHEET_ALT     = 
+PRINCEFLAGS_SHEET_COLOR   = 
+# PRINCEFLAGS_ORIGIN      = 
+PRINCEFLAGS               = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/elk_%d.png
+PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
+PRINCEFLAGS_ORIGIN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
 # PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
 # PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
 # PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
@@ -281,6 +286,10 @@ pregen-markdown:
 	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
 	@       $(MAKE_MD) $(PREGEN_RECIPE)
 
+elk-markdown:
+	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
+	@       $(MAKE_MD) $(ELK_RECIPE)
+
 pregen: pregen-markdown
 	@ echo '$(ltblue)Making Pregens.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(PREGEN_FLAGS) -o $(PREGEN_OUT) $(PREGEN_SRC)
@@ -311,6 +320,12 @@ color-sheet: sheet-markdown
 	@       $(PDFINFO) $(SHEET_COLOR_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
+elk-pdf: elk-markdown
+	@ echo '$(elkcolor)Making Cloud-Elk Preview PDF.$(resetc)'
+	@      $(PANDOC) $(PANDOCFLAGS_ELK) $(SHEET_ELK_FLAGS) -o $(ELK_PDF_OUT) $(ELK_SRC)
+	@      $(PDFINFO) $(ELK_PDF_OUT) $(PDFINFO_GREP)
+	@     -$(EXPLORER)
+
 
 # make HTML
 #   Edit: if you are making more than one html
@@ -322,19 +337,19 @@ html: origin-markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf letter sheets pregen origin
-sheets: sheet alt-sheet color-sheet 
+all:    pdf   letter    sheets      pregen  origin 
+sheets: sheet alt-sheet color-sheet elk-pdf
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
-md:     markdown
-game:   pdf letter
-backup: backups
-vi:     edit
-vim:    edit
-sheet-alt: alt-sheet
-pregens: pregen
-origins: origin
-secret: origin
+md:             markdown
+game:           pdf letter
+backup:         backups
+vi:             edit
+vim:            edit
+sheet-alt:      alt-sheet
+pregens:        pregen
+origins:        origin
+secret:         origin
 secret-origins: origin
-secret-origin: origin
+secret-origin:  origin

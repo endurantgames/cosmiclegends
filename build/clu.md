@@ -4,72 +4,9 @@ lang: en-US
 title: Cosmic Legends of the Universe
 ...
 
-:::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
-![Cover Image](art/cover.png "Cover Image"){#img-cover} \ 
-
-![Cosmic Legends of the Universe](art/title-image-medium.png "Cosmic Legends of the Universe"){#img-title} \ 
-
-<h1>Cosmic Legends of the Universe</h1>
-
-<h2> The World's Greatest Four-Color TTRPG! </h2>
-
-::::::::::: {#coverbox} :::::::::::::
-
-- Spindrift
-- Games
-- 1495*&cent;*
-- 2021
-- SEPT
-- *NOT* APPROVED BY THE COMICS CODE AUTHORITY
-- &nbsp;
-- ?
-- ?
-- ?
-- ?
-- ?
-:::::::::::::::::::::::::::::::::::::
-
-:::::::::::: {.hype} ::::::::::::::::
-- **Who** are the **Legends**?
-- **What** are their **Secrets**?
-- **How** did they get their **Powers**?
-- The **answers** will **shock** you!
-:::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-# Cosmic Legends of the Universe
-
-> In the great Hall of Heroes are assembled the world's greatest
-> superheroes: the Cosmic Legends of the Universe!
-
-<div class="harmony-drive-logo">
-  <a href="https://peachgardengames.itch.io/harmony-drive">
-    <img src="art/DrivenByHarmonyLogo-medium.png" alt="Driven By Harmony" />
-  </a>
-</div>
-
-[]{.gamename} is a four-color tabletop roleplaying game where
-you and your friends take the roles of super-powered heroes
-who fight against injustice, right that which is wrong, and serve
-all mankind.
-
-The *[Harmony Drive](https://peachgardengames.itch.io/harmony-drive)*
-system created by Cat McDonald is at the heart of []{.gamename}.
-
-## What You Need
-
-To play []{.gamename} you'll need:
-
-- One player, playing as the Editor
-- Two to six other players
-- A copy of the game rules
-- At least a half-dozen six-sided dice
-- One hero sheet per player
-- Pencils
-- A few hours
-- Your imagination!
-
+:::::::::::::::::::{ #elk .header } :::::::::::::::::::::
+# Elk
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::: { #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Table of Contents
@@ -585,90 +522,6 @@ anything else that could make the game even better in the future.
 5. Once each player has had the Spotlight to address their 
    hero's Opportunity, that **Volume** of the campaign wraps up
    with an **Annual**.
-
-
-## Using the Dice {#toc-dice .colbefore}
-
-The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
-When you want your hero to take an uncertain action, you build a 
-**dice pool** of six-sided dice.
-
-:::::::::::::::::::::: dice-rolls-display :::::::::::::::::::::::::::::::::::
-- One die for every point you have in the relevant **Approach**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .approach}
-[]{.die .approach .dashed}
-[]{.die .approach .dashed}
-[]{.die .approach .dashed}
-[]{.die .approach .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- One die for every Volume if you have a relevant **Skill**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .skill .v1}
-[]{.die .skill .v2 .dashed}
-[]{.die .skill .v3 .dashed}
-[]{.die .skill .v4 .dashed}
-[]{.die .skill .v5 .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- Two dice if you can mark off one of your **Ideals**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .ideal }
-[]{.die .ideal }
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- One die for every **Power Word** you're using in a **Power Display**, **Power Stunt**, or **Power Combo**:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .display .dashed}
-[]{.die .stunt .dashed}
-[]{.die .stunt .dashed}
-[]{.die .combo .dashed}
-[]{.die .combo .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-- **Other** dice from any other source, such as from a Fighting Style:
-
-:::::::::::::::: dice-display :::::::::::::::::::::::::::::::
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-[]{.die .other .dashed}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Roll all of the dice and then compare the numbers:
-
-::::::::::::: dice-display ::::::::::::::::::::::::::::::::::
-[]{.die .result .r6 .success}
-[]{.die .result .r5 .success}
-[]{.die .result .r4 }
-[]{.die .result .r3 }
-[]{.die .result .r2 }
-[]{.die .result .r1 .edge}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Any dice that come up a **5** or a **6** are counted as **Successes.** 
-A challenging task can require 1-3 Successes to complete (outside combat).
-
-Any dice that come up **2**, **3**, or **4** are ignored.
-
-Any dice that come up **1** are counted as **Edge Successes**. 
-When you roll a 1, you inform the Editor,
-who offers you a **consequence**. 
-
-If you choose to take the Editor’s consequence, you 
-can count the 1 as a **Success**.
-
-This consequence can be mechanical, like losing Health, or it can be 
-narrative, like upsetting an NPC or missing an important clue. 
-The important part is that you're presented with a difficult choice.
 
 
 ## From Issues to Volumes {#toc-issues .breakbefore}
@@ -1995,6 +1848,67 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
+### Dual-Class Heroes
+
+A Dual-Class Hero is one who can change between a *primary class*
+and a *secondary class* form, and is likely a hero who looks 
+different in each form. One might be a meek scientist while the
+other a rampaging monster; one could be a young student while the
+other is a dazzling magical star-princess.
+
+Dual-Class Heroes are a way to build a hero who transforms to do 
+their superheroic deeds, including magical girls and were-creatures.
+
+When you create your Dual-Class Hero, you get to choose the following:
+
+1. What they look like in their *primary class*.
+2. What they look like in their *secondary class*.
+3. How they change between *primary class* and *secondary class*,
+   and how long that takes.
+4. Their Class Abilities, Fighting Styles, Skills, and Personal
+   Power Words for each class.
+
+At the start of each Season, you choose a new Class Ability for each
+of the two classes. Whenever you gain a new Fighting Style or
+Skill, assign it to one of the two classes; it can only be used when
+your hero is in that class or form.
+
+Whenever you get to choose a new personal power word, choose one word
+for each class and add it to the Personal Power Words for that form.
+If your Health or Might advances, it applies to *both* class forms.
+
+These stay consistent between *primary class* and *secondary class*
+for the same hero:
+
+1. The values for their Approaches. (Action, Adventure, Detective,
+   Mystery, and Suspense.)
+2. Their Ideals, and whether they've tagged their keys for each Ideal.
+3. Their Season (which is consistent for the Series).
+4. Their (maximum) Health and (maximum) Might.
+5. Whether they've unlocked their Nova Power Words this Storyline,
+   whether they're the Spotlight Hero, and their Advancements.
+
+Switching from *primary* to *secondary* class does the following:
+0. Costs 1 Might or 1 Health.
+1. Resets their current Health to its maximum value.
+2. Keeps their Might at its current level.
+
+Switching from *secondary* to *primary* class does the following:
+0. Costs 1 Might or 1 Health.
+1. Resets their current Might to its maximum value.
+2. Keeps their Health at its current level.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::::::::
+### Character Sheets for Dual-Class Heroes
+
+The easiest way to run a dual-class hero is just maintain two 
+different character sheets, and flip between them when the 
+character changes form/class!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::: { .classdata #class-dynamo } :::::::::::::::
 ### The Dynamo {#toc-dynamo .breakbefore .class}
@@ -3558,6 +3472,11 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
+### Multi-Class Characters
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::: { .classdata #class-paragon } :::::::::::::::::::
 ### The Paragon  {#toc-paragon .breakbefore .class}
@@ -5485,6 +5404,8 @@ have been had his mother's pride not cost them both dearly.
 - **Skills:** Academic, Scientist
 - **Ideals:** Guilt, Longing, Politeness, Relax, Responsibility
 ::::::::::::::::::::::::::::::::::::::
+
+
 
 #### The Grailknight {#setting-grailknight}
 
