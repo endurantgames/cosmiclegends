@@ -287,41 +287,128 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-- Alligator
-- Ape
-- Bat
-- Bear
-- Boar
-- Cheetah
-- Crocodile
-- Dinosaur
-- Dog
-- Elephant
+- Bugs
+  - Ant
+    - Scorpion
+  - Fly
+    - Bee
+    - Butterfly
+    - Moth
+  - Wasp
+    - Hornet
+    - Yellowjacket
+  - Insect
+  - Spider
+  - Roach
+
+- Reptiles
+  - Alligator
+  - Crocodile
+  - Dinosaur
+    - Pterodon
+    - T-Rex
+  - Lizard
+  - Snake
+    - Asp
+    - Cobra
+    - Python
+    - Rattlesnake
+    - Viper
+  - Tortoise
+  - Turtle
+- Felines
+  - Cat
+  - Cheetah
+  - Lion
+  - Panther
+  - Puma
+  - Sabre-Tooth
+  - Tiger
+- Birb
+  - Owl
+  - Vulture
+  - Falcon
+  - Hawk
+  - Dove
+  - Rooster
+  - Turkey
+  - Chicken / Hen
+  - Ostrich
+  - Eagle
+- Amphibians
+  - Frog
+  - Newt
+  - Toad
+  - Salamander
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
+  - Otter
 - Fish
-- Gorilla
-- Lion
-- Lizard
-- Mire
-- Monkey
-- Insect
-- Octopus
-- Panther
-- Pterodon
-- Puma
-- Python
-- Rat
-- Rhino
-- Scorpion
-- Snake
-- Shark
-- Spider
-- Squirrel
-- Tiger
-- Tree
-- T-Rex
-- Whale
-- Wolf
-- Wolverine
+  - Eel
+  - Clam
+  - Crab
+  - Fish
+  - Lobster
+  - Merfolk
+  - Shark
+  - Starfish
+  - Sea Horse
+  - Octopus
+- Mammals
+  - Elephant
+    - Mammoth
+    - Mastodon
+    - Pachyderm
+  - Minotaur
+    - Goat (Satyr)
+    - Bull (Minotaur)
+    - Cow (Minotaur)
+  - Monkey
+    - Ape
+    - Gorilla
+  - Pig
+    - Hog
+    - Boar
+  - Stag
+  - Deer
+  - Moose
+  - Kangaroo
+  - Elk
+  - Horse
+    - Pegasus
+    - Centaur
+    - Unicorn
+    - Alicorn
+    - Hippopotamus
+  - Rhino
+  - Wolverine
+  - Canines
+    - Dog
+      - Mastiff
+    - Fox
+    - Coyote
+    - Jackal
+    - Wolf
+  - Bear
+    - Koala
+    - Grizzly
+    - Panda
+    - Polar
+  - Rodent
+    - Badger
+    - Bat
+    - Hare
+    - Mouse
+    - Porcupine
+    - Rabbit
+    - Rat
+    - Squirrel
+    - Weasel
+- Environment
+  - Mire
+  - Tree
 :::::::::::::::::::::::::
 
 Misunderstood Monster
