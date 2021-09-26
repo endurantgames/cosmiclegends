@@ -79,15 +79,26 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+- Amnesia
+- Accidental
 - Animal (specific)
 - Beast
+- Blood
 - Body
+- Brutal
 - Claws
 - Clobber
+- Confused
+- Dissociative
 - Giant
 - Horrifying
+- Identity
 - Immovable
+- Immortal
+- Internal
 - Leap
+- Mindless
+- Night
 - Regenerate
 - Rocky
 - Savage
@@ -95,7 +106,10 @@ Choose six Personal Power Words from the following list:
 - Stomp
 - Stretch
 - Strength
+- Terrifying
 - Throw
+- Water
+- Worldbreaker
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -106,21 +120,22 @@ by paying 1 Might for each beyond the first.
 ### Nova Power
 
 Choose any two single words you like; these are your **Nova Power Words**.
+Collectively, these are known as your **Nova Power Phrase**, although the words
+don't have to join together into a properly intelligible English phrase.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
-until the end of the current Storyline.
+until the end of the current Storyline. 
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+if you spend 1 Might, you can include a second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Monstrosity Abilities {  .class}
+## Monstrosity Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Monstrosity Abilities show your increasing distance from
-humanity.
+Your Monstrosity Abilities show your increasing distance from humanity.
 Each ability can be chosen only once.
 
 ### Prime Ability
@@ -142,6 +157,12 @@ Engine of Destruction
 At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
+All-Consuming Rage
+
+:   Your mind is a towering inferno of pain and anger. You can spend
+    1 Might or 1 Health to ignore any psychic or telepathic effect
+    used against yourself.
+
 Boundless Fortitude
 
 :   You are amazingly hard to hurt. Increase your maximum
@@ -159,11 +180,12 @@ Misunderstood Monster
     Add 2 to the dice pool when you advance the Allay 
     or Rescue goals.
 
-Unkillable
+Immortal
 
-:   You get knocked down but you get up again. They're never
-    gonna keep you down. Regain 1 Health at the start of the
-    Hero Phase if you have 0 Health.
+:   The monstrous forces that force you onward won't let you
+    ever rest. If you are dead at the start of a Crisis Countdown,
+    return to life -- with full Might and Health -- at the end of
+    that Countdown.
 
 TBD
 

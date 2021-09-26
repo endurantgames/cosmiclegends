@@ -1,20 +1,11 @@
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
-# The Construct {#toc-construct .breakbefore .class}
+# The Totem {#toc-totem .breakbefore .class}
 
-> I must not injure a human being or, through inaction, allow a human
-  being to come to harm.
-  I must obey orders given to me by human beings, except where such orders
-  would conflict with the previous law.
-  I must protect my own existence as long as such protection does not 
-  conflict with the previous two laws.
-
-"Just a machine."
+> The power of my totem beast strengthens my body to give me the
+  power I need to fight for justice.
 
 That's all they say you are. Created in a lab, created by other
 people, originally from non-living material.
-
-Who *doesn't* that describe? Spoiler: humans are all created by other
-humans.
 
 Do **your** origins make **you** any *less* of a person than I am?
 
@@ -22,17 +13,19 @@ You're more than just a simple gadget or toy. You've found there
 is more to being a person than simply being born human or looking
 like they do.
 
-## Playing a Construct
+## Playing a Totem
 
-Your hero is really, really good at breaking things. You're going
-to want to advance the Smash goal whenever you can, but keep in
-mind that you're more than *just* muscle. You have Skills, Abilities,
-and possibly other Power Words that you can use switch up your
-moves from Hero Phase to Hero Phase.
+Your hero is really, really good at breaking things. 
+
+You're going to want to advance the Smash goal whenever you can, but keep in
+mind that you're more than *just* muscle. 
+
+You have Skills, Abilities, and possibly other Power Words that you can use 
+to switch up your moves from Hero Phase to Hero Phase.
 
 ## Questions
 
-As you create your Construct hero, answer any or all of these questions.
+As you create your Totem hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
 - How do you look different from normal humans? 
@@ -136,17 +129,16 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Monstrosity Abilities {  .class}
+## Totem Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Monstrosity Abilities show your increasing distance from
-humanity.
+Your Totem Abilities show your increasing distance from humanity.
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Engine of Destruction** Prime ability common 
-to all Monstrosities.
+Your hero has the **Force of Nature** Prime ability common 
+to all Totems.
 
 :::::: {.ability-list .prime }::::::::::
 Engine of Destruction
@@ -189,10 +181,11 @@ Even An Android Can Cry
     *Prerequisite: You can't have the Golem class ability.* Add 2 to the dice pool when you display 
     human emotions while trying to advance the Allay or Rescue goals.
 
-Golem
+Mystic Totem
 
-:   You were created through mystical means, not technological ones. Replace
-    your Engineer and Hacker skills with Academic, Historian, and Mystic.
+:   Your link to your nature totem is a result of mystical means, not 
+    technological a strictly scientific process. Replace your Scientist and 
+    Hacker skills with Academic, Explorer, and Mystic.
 
 Humaniform Robot
 
@@ -227,8 +220,8 @@ The Modern Prometheus
     - Scientist
     - Spy
 
-    Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
-    Monstrosity Class Personal Power Words List.
+    Whenever you add a Personal Power Word, you can choose one from the Totem Class Personal Power Words List, or the
+    Totem Class Personal Power Words List.
 
 Purpose-Built
 
@@ -291,22 +284,54 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
+:::::::::::::::::::::::::::::::::::::
 
-Auspicious Alliteration
-
-:   *Prerequisite: Golem* Everyone enjoys euphonious enunciation! When you 
-    roll a Power Stunt or Power Combo to add to the Teamwork Pool, 
-    add 1 die to the dice pool for each Word whose first letter matches the 
-    first letter of another Word in the Stunt or Combo.
+::::::::::::: cpw :::::::
+- Alligator
+- Ape
+- Bat
+- Bear
+- Boar
+- Cheetah
+- Crocodile
+- Dinosaur
+- Dog
+- Elephant
+- Fish
+- Gorilla
+- Lion
+- Lizard
+- Mire
+- Monkey
+- Insect
+- Octopus
+- Panther
+- Pterodon
+- Puma
+- Python
+- Rat
+- Rhino
+- Scorpion
+- Snake
+- Shark
+- Spider
+- Squirrel
+- Tiger
+- Tree
+- T-Rex
+- Whale
+- Wolf
+- Wolverine
+:::::::::::::::::::::::::
 
 Misunderstood Monster
 
 :   Even at your worst, you wouldn't harm an innocent.
     Add 2 to the dice pool when you advance the Allay
     or Rescue goals. Whenever you choose a Personal Power Word,
-    you can choose from the Construct Class Personal Power Words List,
-    or the Monstrosity Class Personal Power Words List. Add any from the
-    latter as Core Power Words.
+    you can choose from the Totem Class Nature Power Words List,
+    or the Totem Personal Power Words List. 
+    Add any from the latter as Core Power Words.
 
 Regeneration
 

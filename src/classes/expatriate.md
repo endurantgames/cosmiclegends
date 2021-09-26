@@ -72,7 +72,7 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 Your Core Power Words are **Human** and **Ingenuity**.
 You can spend 1 Might point to add one of these to a Power Stunt 
-or Combo,  or 2 Might to add both.
+or Combo, or 2 Might to add both.
 
 ### Personal Power Words
 
@@ -121,6 +121,7 @@ Choose six Personal Power Words from the following list:
 - Primitive
 - Radio
 - Rally
+- Raygun
 - Regenerate
 - Resourceful
 - Reputation
