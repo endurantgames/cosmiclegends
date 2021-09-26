@@ -288,19 +288,21 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::::::::: cpw :::::::
 - Bugs
-  - Ant
-    - Scorpion
-  - Fly
-    - Bee
-    - Butterfly
-    - Moth
-  - Wasp
-    - Hornet
-    - Yellowjacket
-  - Insect
   - Spider
-  - Roach
-
+    - Recluse
+    - Tarantula
+    - Black Widow
+  - Insect
+    - Ant
+      - Scorpion
+    - Fly
+      - Bee
+      - Butterfly
+      - Moth
+      - Roach
+      - Wasp
+        - Hornet
+        - Yellowjacket
 - Reptiles
   - Alligator
   - Crocodile
@@ -308,6 +310,7 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
     - Pterodon
     - T-Rex
   - Lizard
+    - Chameleon
   - Snake
     - Asp
     - Cobra
@@ -368,6 +371,8 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
   - Monkey
     - Ape
     - Gorilla
+    - Gibbon
+    - Ma
   - Pig
     - Hog
     - Boar
@@ -377,20 +382,22 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
   - Kangaroo
   - Elk
   - Horse
-    - Pegasus
-    - Centaur
-    - Unicorn
     - Alicorn
+    - Centaur
     - Hippopotamus
+    - Pegasus
+    - Unicorn
   - Rhino
   - Wolverine
   - Canines
     - Dog
       - Mastiff
-    - Fox
+      - Hound
+      - Wolf
+      - Dingo
     - Coyote
     - Jackal
-    - Wolf
+    - Fox
   - Bear
     - Koala
     - Grizzly
@@ -399,13 +406,22 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
   - Rodent
     - Badger
     - Bat
-    - Hare
+    - Mongoose
     - Mouse
+    - Otter
     - Porcupine
     - Rabbit
+      - Bunny
+      - Jackrabbit
+      - Hare
+    - Raccoon
     - Rat
+    - Skunk
     - Squirrel
     - Weasel
+      - Ermine
+      - Mink
+      - Stoat
 - Environment
   - Mire
   - Tree
