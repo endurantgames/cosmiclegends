@@ -1,5 +1,5 @@
-:::::::::::::::: {.classdata #class-psychic} :::::::::::::::
-# The Psychic {#toc-psychic .breakbefore .class}
+:::::::::::::::: {.classdata #class-wheelman} :::::::::::::::
+# The Wheelman {#toc-wheelman .breakbefore .class}
 
 > I know secrets about you that you don't even know yourself.
 
@@ -17,7 +17,7 @@ they would react with fear and hostility. Some Psychics will
 pose as some other type of hero to avoid such prejudices ... even
 as they admit such biases might not be entirely unwarranted.
 
-## Playing a Psychic
+## Playing a Wheelman
 
 Your Psychic hero is likely the lynchpin of the team, although
 not necessarily the leader. This is a passive ability, though --
