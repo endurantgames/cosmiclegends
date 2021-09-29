@@ -74,11 +74,11 @@ As you create your Psychic hero, answer any or all of these questions.
 
 ## Skills
 
-You have the **Academic** skill, plus two
+You have the **Engineer** and **Pilot** skills, plus two
 additional skills of your choice.
 
-Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the Volume.
+Whenever you make a roll that uses your skill, roll an additional number 
+of dice equal to the Volume.
 
 ## Power Words
 
