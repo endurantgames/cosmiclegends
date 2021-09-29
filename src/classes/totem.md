@@ -71,9 +71,9 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 ### Core Power Words
 
-Your Core Power Words are **Synthetic** and **Sentience**.
+Your Core Power Words are **Does** **Whatever** and **Can**.
 You can spend 1 Might point to add one of these to a Power Stunt 
-or Combo,  or 2 Might to add both.
+or Combo, 2 Might to add two, and 3 Might to add all three.
 
 ### Personal Power Words
 
@@ -143,9 +143,9 @@ to all Totems.
 :::::: {.ability-list .prime }::::::::::
 Engine of Destruction
 
-:   When you use your Core or Nova Power Words in a Power Stunt
-    or Combo to advance the Smash goal, add 
-    add 2 to the Effectiveness.
+:   When you use one of your Core or Nova Power Words in a
+    Power Stunt or Combo, add 2 dice -- as if you had a skill
+    or Fighting Style that covered such use.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -154,13 +154,6 @@ Engine of Destruction
 At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
-Azimovian Disciple
-
-:   *Prerequisite: You can't have the Golem class ability.* Isaac Azimov's three laws of robotics are like scripture to you. 
-    As long as you abide by them, add 2 dice whenever you roll to advance
-    the Allay or Rescue goals. If you deliberately break one, you lose this
-    benefit until you successfully resolve a Crisis.
-
 Coordinated Efforts
 
 :   Your analytical mind lets you coordinate efforts with your
@@ -175,98 +168,16 @@ Efficient Response
     cost to counter any Crisis move by the amount of Might spent, with
     a minimum cost of 1 Success from the Teamwork Pool.
 
-Even An Android Can Cry
-
-:   *Prerequisite: Humaniform Robot* 
-    *Prerequisite: You can't have the Golem class ability.* Add 2 to the dice pool when you display 
-    human emotions while trying to advance the Allay or Rescue goals.
-
 Mystic Totem
 
 :   Your link to your nature totem is a result of mystical means, not 
     technological a strictly scientific process. Replace your Scientist and 
     Hacker skills with Academic, Explorer, and Mystic.
 
-Humaniform Robot
-
-:   *Prerequisite: You can't have the Golem class ability.* Some humans suspect that you approximate humanity with more accuracy than they
-    actually live it. Replace two of your skills with Artist and Performer.
-
-Instant Recall
-
-:   *Prerequisite: You can't have the Golem class ability.* You can perfectly remember, describe, and repeat back anything you read,
-    hear, or see. If you use this ability in a dice roll, spend 1 Might to add 
-    the Volume to the roll.
-
-It's Alive!
+Companion
 
 :   If you are ever killed, you return to life at the end of the next Crisis
     Countdown, with maximum Health and Might.
-
-The Modern Prometheus
-
-:   No matter what your origins were, you are fully cognizant of contemporary
-    human society. Choose up to three skills from the following list:
-
-    - Academic
-    - Artist
-    - Criminal
-    - Historian
-    - Engineer
-    - Journalist
-    - Performer
-    - Physician
-    - Pilot
-    - Scientist
-    - Spy
-
-    Whenever you add a Personal Power Word, you can choose one from the Totem Class Personal Power Words List, or the
-    Totem Class Personal Power Words List.
-
-Purpose-Built
-
-:   You were created with a specific function in mind. Add up to two 
-    Power Words from the Dynamo Energy Power Word List as Core Power
-    Words, up to two Power Words from the Shaper Elemental Power Word
-    List as Core Power Words, or up to two Power Words from the Inventor
-    Personal Power Word List as Personal Power Words. Choose up to two
-    fighting styles from the following list:
-
-    - Brawler
-    - Demolisher
-    - Interceptor
-    - Frenzy
-    - Makeshift Weapons
-    - Mediator
-    - Medic
-    - Rescuer
-    - Weapon Master
-
-Purpose-Crafted
-
-:   *Prerequisite: Golem* You were crafted with a specific function in mind.
-    Add up to two Power Words from the Mage Power Word List as Core Power
-    Words, up to two Power Words from the Shaper Elemental Power Word
-    List as Core Power Words, or up to two Power Words from the Divine Personal
-    Power Word List as Personal Power Words.
-
-Reinforced Construction
-
-:   You are amazingly hard to hurt. Increase your maximum Health by 5.
-
-Self-Repair Circuits
-
-:   Your injuries heal quickly. Regain 1 Health at the start of the Hero 
-    Phase if you have at least 1 Might and 1 Health.
-
-Unique Energy Source
-
-:   You can draw upon a rare form of energy that suffuses your artificial
-    form. Add one Power Word from the Dynamo Energy Power List as a Core
-    Power Word, and up to three Power Words from the Dynamo Personal Power
-    Word List as Personal Power Words. If you start a Hero Phase with fewer 
-    than 2 Might, immediately refresh Might equal to the Volume. Increase your
-    maximum Might by 5.
 
 Unkillable
 
@@ -287,6 +198,8 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
+#### Totem Nature Power Words
+
 - Bugs
   - Spider
     - Recluse
@@ -311,6 +224,7 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
     - T-Rex
   - Lizard
     - Chameleon
+    - Iguana
   - Snake
     - Asp
     - Cobra
@@ -429,18 +343,12 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 Misunderstood Monster
 
-:   Even at your worst, you wouldn't harm an innocent.
+:   Even at your most animalistic, you wouldn't harm an innocent.
     Add 2 to the dice pool when you advance the Allay
     or Rescue goals. Whenever you choose a Personal Power Word,
     you can choose from the Totem Class Nature Power Words List,
     or the Totem Personal Power Words List. 
     Add any from the latter as Core Power Words.
-
-Regeneration
-
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
 
 Relentless Power
 

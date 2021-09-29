@@ -42,7 +42,8 @@ As you create your Construct hero, answer any or all of these questions.
     makes the ignorant assume you're a mere brute? 
   - What does your voice sound like, and what kind of vocabulary do you employ?
 - Are you *always* a monster?  
-  (You may want to consider playing your hero as <a href="#toc-multi-class">Multi-Class Hero</a>.)
+  (If not, then you may want to consider playing your hero as 
+   <a href="#toc-multi-class">a Multi-Class Hero</a>.)
   - If not, what triggers that change? 
   - Is it an emotional state, a substance, a situation, or your own free will? 
   - Will people not like you when you're angry? Why not?
@@ -80,7 +81,7 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 Your Core Power Words are **Synthetic** and **Sentience**.
 You can spend 1 Might point to add one of these to a Power Stunt 
-or Combo,  or 2 Might to add both.
+or Combo, or 2 Might to add both.
 
 ### Personal Power Words
 
@@ -136,12 +137,11 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Monstrosity Abilities {  .class}
+## Construct Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
-Your Monstrosity Abilities show your increasing distance from
-humanity.
-Each ability can be chosen only once.
+Your Construct Abilities show your increasing distance from
+biological humanity. Each ability can be chosen only once.
 
 ### Prime Ability
 
@@ -199,11 +199,24 @@ Humaniform Robot
 :   *Prerequisite: You can't have the Golem class ability.* Some humans suspect that you approximate humanity with more accuracy than they
     actually live it. Replace two of your skills with Artist and Performer.
 
+Iron Giant
+
+:   *Prerequisite: You can't have the Humaniform Robot class ability.*
+    You are much larger than humans -- about the size of a building.
+    Add **Giant** as a Core Power Word; whenever you lose Health, the
+    maximum you can lose is 1.
+    Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
+    Monstrosity Class Personal Power Words List. Add the latter as 
+    Core Power Words.
+
 Instant Recall
 
 :   *Prerequisite: You can't have the Golem class ability.* You can perfectly remember, describe, and repeat back anything you read,
     hear, or see. If you use this ability in a dice roll, spend 1 Might to add 
     the Volume to the roll.
+    Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
+    Inventor Class Personal Power Words List. Add the latter as 
+    Core Power Words.
 
 It's Alive!
 
