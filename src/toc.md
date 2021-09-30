@@ -25,6 +25,8 @@
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
   - <a href="#toc-expatriate"></a>
+  - <a href="#toc-haunt"></a>
+  - <a href="#toc-hellspawn"></a>
   - <a href="#toc-inventor"></a>
   - <a href="#toc-knight"></a>
   - <a href="#toc-kid"></a>

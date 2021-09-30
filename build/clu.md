@@ -35,14 +35,19 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
   - <a href="#toc-expatriate"></a>
+  - <a href="#toc-haunt"></a>
+  - <a href="#toc-hellspawn"></a>
   - <a href="#toc-inventor"></a>
   - <a href="#toc-knight"></a>
+  - <a href="#toc-kid"></a>
   - <a href="#toc-mage"></a>
   - <a href="#toc-monarch"></a>
   - <a href="#toc-monstrosity"></a>
   - <a href="#toc-paragon"></a>
   - <a href="#toc-psychic"></a>
   - <a href="#toc-shaper"></a>
+  - <a href="#toc-twins"></a>
+  - <a href="#toc-wheelman"></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
@@ -1566,6 +1571,9 @@ The Dynamo      Science, plus any two       Energy,              6     Energy Re
                                             Overload, plus
                                             one more
 
+The Haunt       Mystic, Historian, plus     Beyond, The,         6     Immaterial World
+                any two                     Grave
+
 The Inventor    Engineer, Hacker,           Experimental,        6     No Wasted Effort
                 Scientist, plus any two     Prototype
 
@@ -1591,6 +1599,17 @@ The Psychic     Academic, plus any          Focused,             6     Our Minds
 The Shaper      Artist, Scientist,          Sculpt,              6     Reshape the Battlefield
                 plus any two                Environment, plus
                                             one more
+
+The Totem       Explorer, plus any two      Whatever, Can, plus  6     Force of Nature
+                                            one Totem Nature
+                                            Core Power Word
+
+The Twins       Any two, plus any two       Twin, Powers,      6 + 6   Twin Powers, Activate!
+                                            Activate!
+
+The Wheelman    Engineer, Pilot, plus       Stunt, Driving,     [6]    Unique Vehicle
+                any two                     plus one Vehicle
+                                            Core Power Word
  
 -----------------------------------------------------------------------------------------------
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -2871,276 +2890,19 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
-### The Inventor {#toc-inventor .breakbefore .class}
-
-> I've been itching to try out these new modifications in the field!
-
-Other heroes may have been born with power, inherited power, or been
-changed by power -- but you *built* your own power with your own
-hand(s).
-
-Whether you have a set of standard equipment, wear a powered suit of armor,
-or create whatever you need on the fly, your creations and Skills are more
-important than your own powers -- if you even have any.
-
-#### Playing an Inventor
-
-Many Inventors tend toward support roles, and your ability to
-add to the Teamwork Pool while advancing a goal reflects this.
-
-Don't be afraid to use your Engineer, Hacker, Scientist, or
-other skills in conjunction with your Power Words to represent
-making on-the-fly adjustments to whatever gear you carry.
-
-#### Questions
-
-As you create your Inventor hero, answer any or all of these questions.
-
-:::::::::: questions ::::::::::::::::::::::::
-- What kind of gear do you use? 
-  - How do you carry that equipment around with you? 
-  - What do your inventions look like? 
-  - Do you have a specialty or common themes that you tend to invent?
-- What potential applications for your tech could improve the world if
-  everyone had access to it? 
-  - How could your inventions be used to make the world a worse place? 
-  - What steps do you take to prevent that from happening? 
-  - Why don't the authorities fully trust those steps?
-  - In what way could your inventions be turned against you? 
-  - What's your blind spot when it comes to the implications of 
-    your own creations?
-- How did you come by your technical talents? 
-- What inspired you to create these inventions? 
-  - Why are you the only person who can use your inventions to their full
-    potential? 
-  - Who helped you create these inventions,
-    and how do they feel about you using them?
-- How do you pay for your inventions? 
-  - Are you publicly linked with your source of funding? 
-  - Do you hold patents on any of your inventions?
-  - Does anyone *else* hold patents on your inventions?
-:::::::::::::::::::::::::::::::::::::::::::::
-
-#### Skills
-
-You have the **Engineer**, **Hacker**, and **Scientist** skills, plus two
-additional skills of your choice.
-
-Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the Volume.
-
-#### Power Words
-
-You can use your Power Words in the following ways:
-
-- As a **Power Display**, costing no Might
-- As a **Power Stunt**, costing 1 Might for each Word beyond the first
-- As a **Power Combo**, costing 1 Might and letting others join in
-- Joining a **Power Combo**, costing 1 Might.
-
-When you use a Power Word, it goes on cooldown until the start of
-the next Hero Phase.
-
-##### Core Power Words
-
-Your Core Power Words are **Experimental** and **Prototype**.
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-or 2 Might to add both.
-
-##### Personal Power Words
-
-Choose six Personal Power Words from the following list:
-
-::::::::::::: cpw :::::::
-- Adapation
-- Analyze
-- Dynamic
-- Emitter
-- Energetic
-- Force
-- Laser
-- Miniaturize
-- Redirection
-- Robotic
-- Rocketry
-- Protection
-- Telemetry
-- Transportation
-- Wings
-:::::::::::::::::::::::::
-
-When you use a **Power Display,** you can add one Personal Power Word for free.
-
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
-
-##### Nova Power
-
-Choose any two single words you like; these are your **Nova Power Words**.
-When you check off all your Ideals, your Nova Power Words are **Unlocked**
-until the end of the current Storyline.
-
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
-
-:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-#### Inventor Abilities {  .class}
-
-Each Volume, you gain a new ability from your class.
-Your Inventor Abilities reflect permanent additions to your
-stock of creations.
-Each ability can be chosen only once.
-
-##### Prime Ability
-
-Your hero has the **No Wasted Effort** Prime ability common 
-to all Inventors.
-
-:::::: {.ability-list .prime }::::::::::
-No Wasted Effort
-
-:   When you advance a Goal, you can choose to
-    add some or all of the roll's Effectiveness to 
-    the Teamwork Pool instead of using all of it
-    it to advance the Goal.
-
-::::::::::::::::::::::::::::::::::::::::::
-
-##### Volume 1 Abilities
-
-At the start of Volume 1, choose two abilities from this list.
-
-:::::: { .ability-list .v1 } ::::::::
-
-Armorsmith
-
-:   You've invented a suit of armor. Add Armor as a Core
-    Power Word and one Personal Power Word from the Dynamo's
-    or Paragon's Personal Power Word list.
-
-Flexible Faculties
-
-:   Your abilities extend beyond your inventive endeavours, as you
-    possess an actual super-power. Add one Personal Power Word from 
-    the Monarch, Monstrosity, or Psychic class lists as a 
-    Personal Power Word.
-
-Perspicacious Pettifoggery
-
-:   Using your vast vocabulary of super-scientific knowledge, you can 
-    easily out-technobabble your opponents. When you roll to advance
-    the Outwit goal, add the largest number of syllables in a Power
-    Word you're using to the dice pool, with a maximum of 2 + the Volume.
-
-Stately Skyscraper
-
-:   You have a base of operations at the top of a tall building.
-    When you make a skill roll in that building, add 2 
-    to the dice pool.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::
-
-##### Volume 2 Abilities
-
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
-
-:::: {.ability-list .v2} ::::::::::::
-Puissant Polymath
-
-:   Your education covered a wide range of topics.  Gain a number of 
-    skills equal to the Volume. Add an additional skill at the 
-    start of each later Volume.
-
-Weaponsmith
-
-:   You've created a number of weapons with a wide variety of effects.
-    At the start of each Storyline, pick a number of Power Words
-    from the Dynamo or Shaper Personal Power Words lists
-    equal to the Volume.
-    You can use each Power Word as a Core Power Word once
-    during the current Storyline without paying any Might.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 3 Abilities
-
-At the start of Volume 3, choose an ability from this list or any previous list.
-
-::::::::: {.ability-list .v3} :::::::
-Absorption Field
-
-:   Your defenses include an inertia-dampening force field
-    that block harm to you. Instead of losing Health, you can
-    lose an equal amount of Might.
-
-Overclocked Systems
-
-:   When you use a Power Display, Stunt, or Combo, choose one
-    of the Power Words you're using. Count all 6s in your roll
-    as 2 successes instead of 1. You then lose the use of that
-    Word after the Display, Stunt, or Combo and don't regain
-    it until the end of the current Crisis.
-
-:::::::::::::::::::::::::::::::::::::
-
-
-##### Volume 4 Abilities
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-:::::: {.ability-list .v4 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Abilities
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-:::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
-### The Kid {#toc-kid .breakbefore .class}
+### The Haunt {#toc-haunt .breakbefore .class}
 
 > 
 
-#### Playing a Kid
+#### Playing a Haunt
 
 You have Skills, Abilities, and possibly other Power Words that 
 you can use to switch up your moves from Hero Phase to Hero Phase.
 
 #### Questions
 
-As you create your Kid hero, answer any or all of these questions.
+As you create your Haunt hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
 - How do you look different from normal humans? 
@@ -3150,7 +2912,7 @@ As you create your Kid hero, answer any or all of these questions.
     assume you're just an animalistic brute?
   - What does your voice sound like, and what kind of vocabulary do 
     you employ?
-- Are you *always* a kid?  
+- Are you *always* a Haunt?  
   (If not, then you may want to consider playing your hero as 
    <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
    for heroes who magically transform from child form to an adult shape!)
@@ -3173,11 +2935,12 @@ As you create your Kid hero, answer any or all of these questions.
 
 #### Skills
 
-You have the **Explorer** skill, plus two additional skills of your choice.
+You have the **Mystic** and **Historian** skills, plus two additional 
+skills of your choice.
 
-Whenever you make a roll that uses one of your skills, add 1 extra die. If
-you have more than one skill that could apply to a roll, add 1 extra die for each
-applicable skill.
+Whenever you make a roll that uses one of your skills, add 1 extra die. 
+If you have more than one skill that could apply to a roll, add 1 
+extra die for each applicable skill.
 
 #### Power Words
 
@@ -3614,13 +3377,260 @@ Savage Instincts
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-##### Kid Core Power Words
-:::::::::::::::::::::::::
+##### Totem Nature Core Power Words
+
+- Bugs
+  - Spider
+    - Black Widow
+    - Recluse
+    - Tarantula
+  - Insect
+    - Ant
+      - Scorpion
+    - Fly
+      - Bee
+      - Butterfly
+      - Moth
+      - Roach
+      - Wasp
+        - Hornet
+        - Yellowjacket
+- Reptiles
+  - Alligator
+  - Crocodile
+  - Dinosaur
+    - Pterodon
+    - T-Rex
+  - Lizard
+    - Chameleon
+    - Iguana
+  - Snake
+    - Asp
+    - Cobra
+    - Python
+    - Rattlesnake
+    - Viper
+  - Tortoise
+  - Turtle
+- Dragon
+  - Hydra
+  - Wyvern
+  - Wyrm
+- Felines
+  - Cat
+  - Cheetah
+  - Lion
+  - Panther
+  - Puma
+  - Sabre-Tooth
+  - Tiger
+- Birb
+  - Owl
+  - Vulture
+  - Falcon
+  - Hawk
+  - Dove
+  - Rooster
+  - Turkey
+  - Chicken / Hen
+  - Ostrich
+  - Eagle
+- Amphibians
+  - Frog
+  - Newt
+  - Toad
+  - Salamander
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
+  - Otter
+- Fish
+  - Barracuda
+  - Eel
+  - Clam
+  - Crab
+  - Fish
+  - Lobster
+  - Moray
+  - Pirhanna
+  - Merfolk
+  - Octopus
+  - Shark
+  - Squid (Craken)
+  - Starfish
+  - Sea Horse
+- Mammals
+  - Elephant
+    - Mammoth
+    - Mastodon
+    - Pachyderm
+  - Minotaur
+    - Goat (Satyr)
+    - Bull (Minotaur)
+    - Cow (Minotaur)
+  - Monkey
+    - Ape
+    - Gorilla
+    - Gibbon
+    - Ma
+  - Pig
+    - Hog
+    - Boar
+  - Stag
+  - Deer
+  - Moose
+  - Kangaroo
+  - Elk
+  - Horse
+    - Alicorn
+    - Centaur
+    - Hippopotamus
+    - Pegasus
+    - Unicorn
+  - Rhino
+  - Wolverine
+  - Canines
+    - Dog
+      - Mastiff
+      - Hound
+      - Wolf
+      - Dingo
+    - Coyote
+    - Jackal
+    - Fox
+  - Bear
+    - Koala
+    - Grizzly
+    - Panda
+    - Polar
+  - Rodent
+    - Badger
+    - Bat
+    - Mongoose
+    - Mouse
+    - Otter
+    - Porcupine
+    - Rabbit
+      - Bunny
+      - Jackrabbit
+      - Hare
+    - Raccoon
+    - Rat
+    - Skunk
+    - Squirrel
+    - Weasel
+      - Ermine
+      - Mink
+      - Stoat
+- Environment
+  - Coral
+  - Mire
+  - Tree
+  - Tundra
 
 ::::::::::::: cpw :::::::
-##### Kid Personal Power Words List
+##### Totem Personal Power Words List
 
-- 
+- Agility
+- Amphibious
+- Anthropomorphic
+- Aquatic
+- Barbed
+- Bark
+- Breath
+- Camouflage
+- Claws
+- Climb
+- Colorful
+- Crawl
+- Cute
+- Danger
+- Ears
+- Elusive
+- Empathic
+- Essense
+- Eyes
+- Fangs
+- Feet
+- Fins
+- Flipper
+- Fly
+- Fur
+- Gills
+- Glide
+- Graceful
+- Grasp
+- Growl
+- Habitat
+- Hair
+- Hard
+- Harmless
+- Hearing
+- Hide
+- Hooves
+- Horn
+- Howl
+- Instincts
+- Jump
+- Leap
+- Legs
+- Luck
+- Lungs
+- Melodious
+- Mighty
+- Mimic
+- Musk
+- Muzzle
+- Neck
+- Night
+- Nobility
+- Normal
+- Nose
+- Odor
+- Paws
+- Proportionate
+- Quills
+- Regenerative
+- Roar
+- Run
+- Savagery
+- Scales
+- Scent
+- Senses
+- Shapechange
+- Sharp
+- Shell
+- Silent
+- Size
+- Skin
+- Sleek
+- Slippery
+- Snarl
+- Soft
+- Speed
+- Spines
+- Stamina
+- Stinger
+- Strength
+- Suckers
+- Swim
+- Tail
+- Teeth
+- Tentacle
+- Theriomorphic
+- Tiny
+- Tongue
+- Toxic
+- Transformation
+- Trunk
+- Unnoticed
+- Venom
+- Vision
+- Webs
+- Wet
+- Wings
+- Wisdom
 :::::::::::::::::::::::::
 
 Misunderstood Monster
@@ -3699,6 +3709,1177 @@ Immortal Totem
     If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
     start of the next Hero Phase.
 
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::: { .classdata #class-hellspawn } :::::::::::::::
+### The Hellspawn {#toc-hellspawn .breakbefore .class}
+
+> Bright Mother Brigit, guide my hand!
+
+You are imbued with power that originates with one or more
+deities, or at least powerful extra-planar beings who could be
+worshipped as gods.
+
+#### Playing a Hellspawn
+
+As a Hellspawn hero, you have a wide range of abilities to choose from.
+Look for ways you can find synergy with other heroes -- if they
+join in a Power Combo that you initiate, your *Give Me Strength!*
+bonus applies to the dice they provide, too.
+
+#### Questions
+
+As you create your Hellspawn hero, answer any or all of these questions.
+
+::::::::::::::::: questions :::::::::::::::::::::::::
+- Are you a deity yourself? 
+  - A demigod? 
+  - The champion of one or more deities? 
+  - Or even someone who figuratively or literally stole power from the gods?
+- What god, gods or pantheon are you associated with? 
+  - Do you gain power from your association with a single deity, 
+    or do multiple gods grant you power? 
+  - Are your powers bestowed by the gods, or are
+    they a result of your own divine essence?
+- How do you relate to the god(s) who empower you? 
+  - Are you on good terms with them, are they distant and silent, 
+    or have they sent you to a mortal existence for your own good? 
+  - Are there other gods or other people empowered by the gods, and 
+    if so, do you get along with them? 
+- Are there any mythological monsters or enemies that your choice 
+  of a divine power source implies?
+- Do you have a single form and identity, or do you change through
+  supernatural means between your Hellspawn form and a "mortal" one?
+  - If so, what triggers such a change -- a spoken word, a transformation
+    sequence, or just calling upon your Divine powers?
+- If you're not a mortal yourself, what *do* you think of the
+  mortal world? 
+  - Does it mystify you, or are you thoroughly immersed in modern culture? 
+  - What are your views on religion -- both your
+    hero's own religion and those that could be seen as rival faiths?
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Skills
+
+You have the **Explorer**, **Historian**, and **Mystic** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the Volume.
+
+:::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
+#### Real-World Religions?
+
+It's a staple of superhero comic books that real-life
+deities are portrayed as either heroes themselves or the
+sources of power for a hero.
+
+There's an assumption that these "aren't *real* gods who
+are sacred to anyone any more" -- but that's not necessarily
+true at all. For example, many modern pagans revere one or
+more of the Norse gods of myth.
+
+You should be careful when you use mythological deities,
+*especially* those from a culture that's foreign to you.
+Check with the other players and the Editor, and be prepared
+to change either your Hellspawn hero or the concept behind
+them.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Power Words
+
+You can use your Power Words in the following ways:
+
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
+##### Core Power Words
+
+Your Core Power Words are **Blessed** and **Champion**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Anger
+- Armor
+- Command
+- Extraplanar
+- Faith
+- Flight
+- Peace
+- Radiant
+- Resist
+- Senses
+- Speed
+- Strength
+- Thunder
+- Unbreakable
+- Wisdom
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Hellspawn Abilities { .class}
+
+Each Volume, you gain a new ability from your class. Your Divine
+Abilities are gifts from the Lower Powers, whether by birth or by boon.
+Each ability can be chosen only once.
+
+##### Prime Ability
+
+Your hero has the **Infernal Wrath** Prime ability common 
+to all Hellspawn.
+
+:::::: {.ability-list .prime }::::::::::
+Infernal Wrath
+
+:   To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose two abilities from this list.
+
+:::::::: {.ability-list .v1 }::::::::
+
+Stamina of Atlas
+
+:   You are tougher than a mere mortal. 
+    Increase your maximum Health by 5.
+
+Strength of Kratos
+
+:   Imbued with power comparable to the titan personification of
+    strength, you can break down most barriers with ease.
+    Add 2 to the dice pool to advance the Smash or Rescue goals.
+
+Weapon of the Gods
+
+:   You have a weapon that is unique in the universe, possibly 
+    crafted by a deity of the forge. Decide on the specific
+    weapon, and add that weapon's proper name as a Core Power Word. 
+    In addition, choose either one Energy Power Word from the Dynamo 
+    class or one Element Power Word from the Shaper list, and use that 
+    as Personal Power Word whenever you have your weapon.
+
+Wisdom of Athena
+
+:   Your insight is unmatched by anyone save the gods themselves.
+    Add 2 to the dice pool to advance the Outwit or Allay goals.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+::::::: {.ability-list .v2 }:::::::::
+
+Courage of Ares
+
+:   Your divine spirit won't give up, even when the odds are
+    against you.
+    When you are below half your Health, add 1 to the dice pool
+    to advance any Goal.
+
+Speed of Hermes
+
+:   You can run -- or fly, if you have Flight as a Power Word --
+    at speeds approaching Mach 1.
+    The Timely Arrival move costs you 0 points from the 
+    Teamwork Pool.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v3 }::::::::::
+
+Flames of Hell
+
+:   You're empowered with divine energy that crackles
+    like flames when you spend Might.  
+    Increase your maximum Might by 5.
+
+TBD
+:   To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
+### The Inventor {#toc-inventor .breakbefore .class}
+
+> I've been itching to try out these new modifications in the field!
+
+Other heroes may have been born with power, inherited power, or been
+changed by power -- but you *built* your own power with your own
+hand(s).
+
+Whether you have a set of standard equipment, wear a powered suit of armor,
+or create whatever you need on the fly, your creations and Skills are more
+important than your own powers -- if you even have any.
+
+#### Playing an Inventor
+
+Many Inventors tend toward support roles, and your ability to
+add to the Teamwork Pool while advancing a goal reflects this.
+
+Don't be afraid to use your Engineer, Hacker, Scientist, or
+other skills in conjunction with your Power Words to represent
+making on-the-fly adjustments to whatever gear you carry.
+
+#### Questions
+
+As you create your Inventor hero, answer any or all of these questions.
+
+:::::::::: questions ::::::::::::::::::::::::
+- What kind of gear do you use? 
+  - How do you carry that equipment around with you? 
+  - What do your inventions look like? 
+  - Do you have a specialty or common themes that you tend to invent?
+- What potential applications for your tech could improve the world if
+  everyone had access to it? 
+  - How could your inventions be used to make the world a worse place? 
+  - What steps do you take to prevent that from happening? 
+  - Why don't the authorities fully trust those steps?
+  - In what way could your inventions be turned against you? 
+  - What's your blind spot when it comes to the implications of 
+    your own creations?
+- How did you come by your technical talents? 
+- What inspired you to create these inventions? 
+  - Why are you the only person who can use your inventions to their full
+    potential? 
+  - Who helped you create these inventions,
+    and how do they feel about you using them?
+- How do you pay for your inventions? 
+  - Are you publicly linked with your source of funding? 
+  - Do you hold patents on any of your inventions?
+  - Does anyone *else* hold patents on your inventions?
+:::::::::::::::::::::::::::::::::::::::::::::
+
+#### Skills
+
+You have the **Engineer**, **Hacker**, and **Scientist** skills, plus two
+additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the Volume.
+
+#### Power Words
+
+You can use your Power Words in the following ways:
+
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
+##### Core Power Words
+
+Your Core Power Words are **Experimental** and **Prototype**.
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Adapation
+- Analyze
+- Dynamic
+- Emitter
+- Energetic
+- Force
+- Laser
+- Miniaturize
+- Redirection
+- Robotic
+- Rocketry
+- Protection
+- Telemetry
+- Transportation
+- Wings
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose any two single words you like; these are your **Nova Power Words**.
+When you check off all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Inventor Abilities {  .class}
+
+Each Volume, you gain a new ability from your class.
+Your Inventor Abilities reflect permanent additions to your
+stock of creations.
+Each ability can be chosen only once.
+
+##### Prime Ability
+
+Your hero has the **No Wasted Effort** Prime ability common 
+to all Inventors.
+
+:::::: {.ability-list .prime }::::::::::
+No Wasted Effort
+
+:   When you advance a Goal, you can choose to
+    add some or all of the roll's Effectiveness to 
+    the Teamwork Pool instead of using all of it
+    it to advance the Goal.
+
+::::::::::::::::::::::::::::::::::::::::::
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose two abilities from this list.
+
+:::::: { .ability-list .v1 } ::::::::
+
+Armorsmith
+
+:   You've invented a suit of armor. Add Armor as a Core
+    Power Word and one Personal Power Word from the Dynamo's
+    or Paragon's Personal Power Word list.
+
+Flexible Faculties
+
+:   Your abilities extend beyond your inventive endeavours, as you
+    possess an actual super-power. Add one Personal Power Word from 
+    the Monarch, Monstrosity, or Psychic class lists as a 
+    Personal Power Word.
+
+Perspicacious Pettifoggery
+
+:   Using your vast vocabulary of super-scientific knowledge, you can 
+    easily out-technobabble your opponents. When you roll to advance
+    the Outwit goal, add the largest number of syllables in a Power
+    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+
+Stately Skyscraper
+
+:   You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 
+    to the dice pool.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+:::: {.ability-list .v2} ::::::::::::
+Puissant Polymath
+
+:   Your education covered a wide range of topics.  Gain a number of 
+    skills equal to the Volume. Add an additional skill at the 
+    start of each later Volume.
+
+Weaponsmith
+
+:   You've created a number of weapons with a wide variety of effects.
+    At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Shaper Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+::::::::: {.ability-list .v3} :::::::
+Absorption Field
+
+:   Your defenses include an inertia-dampening force field
+    that block harm to you. Instead of losing Health, you can
+    lose an equal amount of Might.
+
+Overclocked Systems
+
+:   When you use a Power Display, Stunt, or Combo, choose one
+    of the Power Words you're using. Count all 6s in your roll
+    as 2 successes instead of 1. You then lose the use of that
+    Word after the Display, Stunt, or Combo and don't regain
+    it until the end of the current Crisis.
+
+:::::::::::::::::::::::::::::::::::::
+
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
+### The Kid {#toc-kid .breakbefore .class}
+
+> 
+
+#### Playing a Kid
+
+You have Skills, Abilities, and possibly other Power Words that 
+you can use to switch up your moves from Hero Phase to Hero Phase.
+
+#### Questions
+
+As you create your Kid hero, answer any or all of these questions.
+
+:::::::::: questions :::::::::::::::::::
+- How do you look different from normal humans? 
+  - How much larger (or smaller) are you than other people? 
+  - What color is your skin, and what does it feel and look like? 
+  - What kind of strange appearance do you have that makes the ignorant 
+    assume you're just an animalistic brute?
+  - What does your voice sound like, and what kind of vocabulary do 
+    you employ?
+- Are you *always* a kid?  
+  (If not, then you may want to consider playing your hero as 
+   <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
+   for heroes who magically transform from child form to an adult shape!)
+  - If not, what triggers that change? 
+    Is it an emotional state, a substance, a situation, a magic word,
+    or your own free will? 
+  - How do you get along with adult heroes? Do you look up to them as
+    role models? Do they usually talk down to you?
+  - In what ways are you less mature than the average hero?
+  - In what ways are you more mature than the average hero?
+  - Were you *always* a hero? How did you become one? Why did you
+    become one?
+  - Do you have any other friends your age, or do you just associate with
+    adult heroes?
+- What kind of interests do you have that surprise other people? 
+  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
+  - What would push you over that edge, and how have you avoided going 
+    over it so far?
+::::::::::::::::::::::::::::::::::::::::
+
+#### Skills
+
+You have the **Academic** skill, plus two additional skills of your choice
+chosen from the following list:
+
+- Artist
+- Criminal
+- Engineer
+- Explorer
+- Hacker
+- Historian
+- Investigator
+- Journalist
+- Performer
+- Scientist
+
+You can't ever gain the following skills, from any source:
+
+- Deputy
+- Lawyer
+- Mystic
+- Physician
+- Politician
+- Spy
+
+Whenever you make a roll that uses one of your skills, add 1 extra die. If
+you have more than one skill that could apply to a roll, add 1 extra die for each
+applicable skill.
+
+#### Power Words
+
+You can use your Power Words in the following ways:
+
+- As a **Power Display**, costing no Might
+- As a **Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase, and you can't use it until it is off cooldown.
+
+##### Core Power Words
+
+Your Core Power Words are **Does** **Whatever** and **Can**.
+You can spend 1 Might point to add one of these to a Power Stunt 
+or Combo, 2 Might to add two, and 3 Might to add all three.
+
+::::::::::::: cpw :::::::
+##### Totem Nature Core Power Words
+
+- Bugs
+  - Spider (Black Widow)
+  - Spider (Recluse)
+  - Spider (Tarantula)
+  - Insect (Ant)
+  - Insect (Scorpion)
+  - Insect (Fly)
+  - Insect (Bee)
+  - Insect (Butterfly)
+  - Insect (Moth)
+  - Insect (Roach)
+  - Insect (Wasp)
+  - Insect (Hornet)
+  - Insect (Yellowjacket)
+- Reptiles
+  - Reptile (Alligator)
+  - Reptile (Crocodile)
+  - Dinosaur (Pterodon)
+  - Dinosaur (T-Rex)
+  - Dinosaur (Stegosaur)
+  - Lizard (Chameleon)
+  - Lizard (Iguana)
+  - Snake (Asp)
+  - Snake (Cobra)
+  - Snake (Python)
+  - Snake (Rattlesnake)
+  - Snake (Viper)
+  - Reptile (Tortoise)
+  - Reptile (Turtle)
+- Dragon
+  - Hydra
+  - Wyvern
+  - Wyrm
+- Felines
+  - Feline (Housecat)
+  - Feline (Cheetah)
+  - Feline (Cougar)
+  - Feline (Lion)
+  - Feline (Panther)
+  - Feline (Puma)
+  - Feline (Sabretooth)
+  - Feline (Tiger)
+- Birb
+  - Owl
+  - Vulture
+  - Falcon
+  - Hawk
+  - Dove
+  - Rooster
+  - Turkey
+  - Chicken / Hen
+  - Ostrich
+  - Eagle
+- Amphibians
+  - Frog
+  - Newt
+  - Toad
+  - Salamander
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
+  - Otter
+- Fish
+  - Barracuda
+  - Eel
+  - Clam
+  - Crab
+  - Fish
+  - Lobster
+  - Moray
+  - Pirhanna
+  - Merfolk
+  - Octopus
+  - Shark
+  - Squid (Craken)
+  - Starfish
+  - Sea Horse
+- Mammals
+  - Elephant
+    - Mammoth
+    - Mastodon
+    - Pachyderm
+  - Minotaur
+    - Goat (Satyr)
+    - Bull (Minotaur)
+    - Cow (Minotaur)
+  - Monkey
+    - Ape
+    - Gorilla
+    - Gibbon
+    - Ma
+  - Pig
+    - Hog
+    - Boar
+  - Stag
+  - Deer
+  - Moose
+  - Kangaroo
+  - Elk
+  - Horse
+    - Alicorn
+    - Centaur
+    - Hippopotamus
+    - Pegasus
+    - Unicorn
+  - Rhino
+  - Wolverine
+  - Canines
+    - Dog
+      - Mastiff
+      - Hound
+      - Wolf
+      - Dingo
+    - Coyote
+    - Jackal
+    - Fox
+  - Bear
+    - Koala
+    - Grizzly
+    - Panda
+    - Polar
+  - Rodent
+    - Badger
+    - Bat
+    - Mongoose
+    - Mouse
+    - Otter
+    - Porcupine
+    - Rabbit
+      - Bunny
+      - Jackrabbit
+      - Hare
+    - Raccoon
+    - Rat
+    - Skunk
+    - Squirrel
+    - Weasel
+      - Ermine
+      - Mink
+      - Stoat
+- Environment
+  - Coral
+  - Desert
+  - Jungle
+  - Mire
+  - Peaks
+  - Tundra
+- Plant (Flower, specific)
+- Plant (Tree, specific)
+- Plant (Vine, specific)
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+::::::::::::: cpw :::::::
+- Alert
+- Ambush
+- Animalistic
+- Armored
+- Beast
+- Bloody
+- Body
+- Brutal
+- Burrow
+- Camouflage
+- Charge
+- Claws
+- Clever
+- Constrict
+- Curiosity
+- Dangerous
+- Dash
+- Dig
+- Direction
+- Distance
+- Echolocation
+- Elusive
+- Enduring
+- Environment
+- Giant
+- Growl
+- Horrifying
+- Howl
+- Hunger
+- Hunter
+- Immovable
+- Inhuman
+- Instinctive
+- Instincts
+- Leap
+- Lift
+- Massive
+- Maw
+- Musk
+- Mutant
+- Natural
+- Nest
+- Networked
+- Override
+- Pack
+- Poison
+- Positronic
+- Pounce
+- Predator
+- Prey
+- Prowl
+- Purr
+- Quick
+- Rage
+- Reflexes
+- Regenerate
+- Roar
+- Savage
+- Screech
+- Shell
+- Shifting
+- Silent
+- Sly
+- Spiked
+- Stamina
+- Stampede
+- Stocky
+- Stomp
+- Strength
+- Stubborn
+- Survival
+- Tall
+- Technical
+- Throw
+- Track
+- Trample
+- Tunnel
+- Understanding
+- Venomous
+- Warning
+- Weather
+- Wild
+:::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** 
+or **Power Combo** by paying 1 Might for each beyond the first.
+
+##### Nova Power
+
+Choose at least two but no more than four single words you like; 
+these are your **Nova Power Words**, and together are known as your
+**Nova Power Phrase**.
+
+When you check off all your Ideals, your Nova Power Words are 
+**Unlocked** until the end of the current Storyline.
+
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
+1 Might, you can include the second Nova Power Word as well.
+
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Totem Abilities {.class}
+
+Each Volume, you gain a new ability from your class.
+Your Kid abilities show your increasing ability to compete with
+adult heroes and handle serious threats.  Each ability can be 
+chosen only once.
+
+##### Prime Ability
+
+Your hero has the **Why, It's Just a Child** Prime ability common 
+to all Kid heroes.
+
+:::::: {.ability-list .prime }::::::::::
+Why, It's Just a Child
+
+:   Most adults underestimate you. Add the Volume to the dice pool 
+    when you roll to advance the Outwit goal against a source that's
+    older than you.
+
+::::::::::::::::::::::::::::::::::::::::::
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose two abilities from this list.
+
+::::: {.ability-list .v1 } ::::::::::
+
+Animal Partner
+
+:   You have an unusually intelligent pet or companion that accompanies
+    you on your heroic adventures. This partner has three Core Power Words --
+    one matching your Totem Nature Power Word, and two others from the
+    Totem Personal Power Words List -- that you can use for free without
+    spending Might, each once per Hero Phase. Your animal partner's 
+    Health and Might equal the Volume.
+
+    Choose one Skill possessed by your Animal Partner, and a Fighting
+    Style. You can use that skill or Fighting Style whenever your 
+    Animal Partner is present during a Crisis.
+
+    During any Hero Phase, either your hero can make a move or your
+    animal partner can make a move -- not both.
+
+    *Prerequisite: The __Mystic Totem__ class ability.* 
+    If your animal partner is ever killed, they return to life at the 
+    end of the next Crisis Countdown, and join you as soon as they
+    can.
+
+Comic Relief
+
+:   Whenever you make a roll, count 2s as Edge Successes in 
+    addition to 1s. If the consequence is funny and at least one
+    adult hero present laughs at the situation or your reaction to it, 
+    count each Edge Success for which you accept the consequence as two
+    successes when you calculate the roll's Effectiveness.
+
+Unbeatable
+
+:   Your powers cause people to under-estimate you and you actually punch can
+    punch far above your normal weight class.
+    Whenever you have one or more companions of the same type as your
+    Totem Nature Power Word present -- including from the *Animal Companion* or
+    *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
+    you make to advance any goal.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+:::::::: {.ability-list .v2 } :::::::
+
+Animal Instincts
+
+:   Whenever you roll Suspense or Mystery to advance the Allay or
+    Outwit goals, add 2 dice.
+
+Humanity's Best Friend
+
+:   Whenever you roll to add to the Teamwork pool or advance the Rescue
+    or Allay goals, add 1 die for every human hero present, to a maximum 
+    number of extra dice equal to the Volume.
+
+Savage Instincts
+
+:   Gain a number of Fighting Styles equal to the Volume, chosen from the
+    following list. At the start of each subsequent Volume, gain 1 more 
+    Fighting Style from this list.
+
+    - Acrobat
+    - Brawler
+    - Controller
+    - Demolisher
+    - Frenzy
+    - Find Weakness
+    - Guerilla
+    - Interceptor
+    - Harrier
+    - Martial Artist
+    - Meteor
+    - Rescuer
+    - Tactician
+    - Warlord
+
+    You can't ever gain the following Fighting Styles, from any source:
+    - Ace
+    - Makeshift Weapons
+    - Medic
+    - Sharpshooter
+    - Weapon Master
+
+:::::::::::::::::::::::::::::::::::::
+
+::::::::::::: cpw :::::::
+##### Kid Core Power Words
+
+Your Core Power Words are **Youthful** and **Exuberance**.
+You can spend 1 Might poitn to add one of those to a Power Stunt or
+Combo, or 2 Might to add both.
+:::::::::::::::::::::::::
+
+##### Kid Personal Power Words List
+
+Choose six Personal Power Words from the following list:
+::::::::::::: cpw :::::::
+
+- Creative
+- Curious
+- Eager
+- Energetic
+- Friendly
+- Genius
+- Impulsive
+- Innocent
+- Original
+- Popular
+- Trusting
+- Witty
+- Young
+:::::::::::::::::::::::::
+
+Knowing is Half the Battle
+
+:   At the end of an issue, you can do a solo Vignette wherein you 
+    summarize the events of the last Crisis, and relate them to one or 
+    more of your ideals.  When you do so, you can Mark those ideals.
+
+Mentor
+
+:   You are considered the sidekick of one of the other adult heroes.
+    When you take this class ability, choose one hero and, with that
+    player's agreement, they become your mentor.
+
+    Whenever you choose Personal Power Word, you can choose from the
+    Kid Personal Power Words List or from any Core, Nova, or Personal
+    Power Words possessed by your Mentor.
+
+    Whenever you join a Power Combo initiated by your mentor, add 2 to the
+    dice pool. Whenever your mentor joins a Power Combo initiated by 
+    you, add 2 to the dice pool.
+
+    When your Mentor is present with you, you can use one of their skills
+    once per Hero Phase, as if you had the Skill yourself.
+
+Only a Child
+
+:   Most adults underestimate you. Add 3 to the dice pool when
+    you roll to advance the Outwit goal against a source that's
+    older than you.
+
+Pet
+
+:   You have an unusually intelligent pet or companion that accompanies
+    you on your heroic adventures. This partner has three Core Power Words --
+    one chosen from the Totem Class's Totem Nature Power Words List,
+    and two others from the Totem Class's Personal Power Words List -- 
+    that you can use for free without spending Might, each once per Hero 
+    Phase. Your animal partner's Health and Might equal the Volume.
+
+    Choose one Skill possessed by your Animal Partner, and a Fighting
+    Style. You can use that skill or Fighting Style whenever your 
+    Animal Partner is present during a Crisis.
+
+    During any Hero Phase, either your hero can make a move or your
+    animal partner can make a move -- not both.
+
+Magical Familiar
+
+:   *Prerequisite: You must have the __Pet__ class ability.*
+    Whenever you choose a Core Power Word for your Pet, you can
+    choose from the Divine Class Personal Power Words List or the
+    Mage Class Personal Power Words List. These become Core Power
+    Words that you can use for free, each once per Hero Phase, as
+    described in the *Pet* class ability.
+
+    If your Magical Familiar is ever killed, they return to life at 
+    the end of the next Crisis Countdown, and join you as soon as they
+    can.
+
+Alien Pet
+
+:   *Prerequisite: You must have the __Pet__ class ability.*
+    Your pet isn't from Earth -- or might not even be from this universe,
+    in the case of a magical pet.
+
+    Whenever you choose a Core Power Word for your Pet, you can choose 
+    from the Monstrosity Class Personal Power Words List or the
+    Paragon Class Personal Power Words List. These become Core Power
+    Words that you can use for free, once per Hero Phase, as described 
+    in the *Pet* class ability.
+    
+Holy Catchphrase!
+
+:   Once per Hero Phase, you can make a pun related to one of the
+    Scene Power Words or an Ideal that you or another hero Marked
+    since the start of the last Hero Phase. If you do, add 3 to the
+    next roll you or any other hero makes before the end of the current
+    Hero Phase.
+    
+Intelligent Pet
+
+:   *Prerequisite: You must hve the __Pet__ class ability.*
+    Your pet is smarter than an average animal of that type. It can
+    communicate intelligently in one language that you choose when
+    you gain this class ability, although its voice is clearly
+    non-human. In addition, choose a second Skill possessed by
+    the Pet, and one Approach. Whenever your Pet is present at a
+    Crisis, add 3 dice whenever you make a roll using the chosen
+    Approach.
+
+Regeneration
+
+:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
+    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
+    your maximum Health but have at least 1 Health.
+
+Youthful Power
+
+:   You are a storehouse of indefatiguable energy. Increase your maximum 
+    Might by 5.
+
+Wild Strength
+
+:   You are as hard to take down as the mightiest of beasts. Increase your
+    maximum Health by 5.
+
+Youthful Relatability
+
+:   When dealing with anyone who isn't an adult, add 3 to the dice
+    pool when you roll to advance the Allay or Rescue goals.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+:::::::: {.ability-list .v3 } :::::::
+Nigh-Invulnerable
+
+:   There are few things that can seriously harm you.  Increase your 
+    maximum Health by 5.
+
+Power Burn
+
+:   You can call upon your life-force to fuel your powers.  You can spend 
+    Health whenever you would normally spend Might. Increase your maximum
+    Health by 3.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::::: {.ability-list .v4 } :::::::
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -5227,23 +6408,18 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 #### Psychic Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
-Your Psychic Abilities are new ways to channel your psionic
-power.
+Your Wheelman abilities are new upgrades and changes to your
+*Unique Vehicle*.
 Each ability can be chosen only once.
 
 ##### Prime Ability
 
-Your hero has the **Our Minds As One** Prime ability common
-to all Psychics.
+Your hero has the **Unique Vehicle** Prime ability common
+to all Wheelmen.
 
 :::::: {.ability-list .prime }::::::::::
-Our Minds As One
-:   As long as you are conscious, and there is at least one
-    Success in the Teamwork Pool, you and the other heroes
-    can communicate telepathically.
-
-    If all of the partipants in a Power Combo are part of your
-    Mind Link, the initiating hero adds 2 to the roll.
+Unique Vehicle
+:   To Be Determined
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -5253,29 +6429,18 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
-Cloud the Senses
+More Than Meets the Eye
 
-:   With your mastery of mental illusion, you're able to fool 
-    nearly anyone. Add 2 to the dice pool when you use a Power
-    to advance the Outwit goal.
+:   *Prerequisite: __Unique Vehicle__ class ability.*
+    To be determined.
 
-Empath
+TBD
 
-:   You can use your empathic powers to read emotions and calm
-    a crowd. Add 2 to the dice pool when you use a Power to 
-    advance the Allay goal.
+:   To be determined.
 
-Psionic Weapon
+TBD
 
-:   You can form a weapon out of pure psionic energy. Add
-    Weapon as a Personal Power Word and pick a Fighting Style
-    that complements that weapon.
-
-Telekinetics
-
-:   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add an Elemental Power Word and a
-    Personal Power Word from the Shaper's lists as Personal Power Words.
+:   To be determined.
 
 TBD
 
@@ -5288,124 +6453,21 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-Mind Over Matter
+TBD
 
-:   You can keep yourself conscious through sheer force of will.
-    Instead of losing Health, you can lose an equal amount
-    of Might.
+:   To be determined.
 
-Psychic Healing
+TBD
 
-:   You gain **Healing** as a Core Power Word.
-    As a move, you can use your mental powers to heal someone else.
-    They regain Health equal to the Effectiveness of a Power roll
-    using the *Healing* Power Word.
+:   To be determined.
 
-Psychic Gestalt
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: the __Skill Sharing__ class ability.*
-    As a move, you and any willing heroes who are affected by your
-    Our Minds As One ability can create a fusion being, centered on
-    you and controlled by you. This gestalt has the following
-    characteristics:
-    - A physical body is created for the gestalt, that can look like
-      whatever you decide it looks like. Giant brains or idealized
-      human forms are the most common, often with the latter being a
-      composite of various physical features of the members of the
-      gestalt. This artificial body can be killed -- if it is, the 
-      gestalt breaks apart (as described below) and you (personally) 
-      die.
-    - The members of the gestalt become beings of pure psionic
-      energy connected to the gestalt's form, who can advise and 
-      communicate with each other but no longer have physical bodies;
-      they maintain their separate consciousnesses and identities,
-      and cannot be affected apart from the gestalt by any power,
-      ability, or rule.
-    - Opponents with at least one Power Word that appears on the
-      Psychic Personal Power Words List can, as a move during the
-      Crisis Phase, try to break apart the gestalt. The cost to counter 
-      this move equals the Volume.
-    - The gestalt has a unique name, which you and the other heroes 
-      can choose, and has access to the memories, knowledge, and 
-      feelings of all heroes that are part of it. Every time you
-      use this ability with the same group heroes, that named gestalt
-      is formed; it remembers its previous periods of existence and
-      emotional state(s).
-    - Whenever an ability or rule refers to "you" while the gestalt is
-      active, it's talking about the gestalt as a whole -- and *you*,
-      as the initiator with the Psychic Gestalt class ability -- are
-      in control of the combined entity.
-    - The gestalt has access to every Skill possessed by any member
-      of the gestalt.
-    - The gestalt has access to every Fighting Style possessed by any
-      member of the gestalt.
-    - Whenever any hero **leaves the gestalt** -- including if the gestalt
-      is **willingly or unwillingly broken apart** -- then:
-      - That hero's current Health and Might are equal to the gestalt's
-        score divided by the number of heroes who originally formed the
-        gestalt, rounded down.
-      - The hero doesn't remember what happened during the time they
-        were part of the gestalt, except as dream-like memories
-    - Scores for each Approach equal to the highest value for that
-      approach among the members of the gestalt
-    - Maximum Health equal to the sum of the Maximum Health of every
-      member of the gestalt
-    - Maximum Might equal to the sum of the Maximum Might of every
-      member of the gestalt
-    - Current Health equal to its Maximum Health, as calculated above
-    - Current Might equal to its Maximum Might, as calculated above
-    - **Gestalt**, **Shared**, **Flight**, **Psionic** and **Unleashed**
-      as Core Power Words
-    - Each player of a hero who is part of the gestalt chooses one
-      Power Word from the Paragon Persoanl Power Words List; you (as
-      the gestalt) gain those words as **Core Power Words**
-    - All the Core and Personal Power Words possessed by any member of
-      the gestalt
-    - At the start of the Hero Phase, the gestalt refreshes Might equal
-      to the number of heroes that currently comprise it
-    - During the Hero Phase, you (personally) choose what the gestalt 
-      does as a move or other action
-    - If the Teamwork Pool is ever reduced to zero, **the gestalt 
-      collapses** and each hero's current Might and Health are set 
-      equal to the gestalt's current values divided by the number of
-      heroes who originally formed the gestalt, rounded down -- as
-      described above.
-    - If there are no longer any heroes who comprise the gestalt, it
-      collapses with the effects described immediately above.
-    - Once per Hero Phase, each member of the gestalt can only make one 
-      move from the following: **Withdraw from the Gestalt** or 
-      **Add to the Teamwork Pool**
-      - **Withdraw from the Gestalt** By spending 1 from the Teamwork
-        Pool, any hero can choose to withdraw from the gestalt. Their
-        Health and Might are calculated as described above, but the
-        Health and Might of the gestalt are not affected. Recalculate
-        the maximum Health and Might, and reduce the gestalt's current
-        values for each if they exceed the new maximum value.
-      - **Add to the Teamwork Pool**
-        As a move, a hero in the gestalt can reinforce the Teamwork
-        Pool through telepathic communication with the other members
-        of the gestalt. This can be used as a memory-based Vignette 
-        between two members of the gestalt, to *mark* *Ideals*.
-    - The gestalt has access to all of your Psychic Class abilities
-      and any Psychic Class abilities possessed by other members of the
-      gestalt. You can choose when and how to use each of those.
-    - If you, as the initiator of the gestalt, choose to Withdraw from
-      the Gestalt, you can use a move during the Hero Phase and spend one
-      from the Teamwork Pool; the gestalt immediately breaks apart as 
-      described above.
-    - You can also, as a move during the Hero Phase, can spend 1 from the
-      Teamwork Pool to eject any hero from the gestalt. If this reduces
-      the number of heroes in the gestalt to 0, or the value of the
-      Teamwork Pool to 0, the gestalt collapses as described above.
+:   To be determined.
 
-Separate Gestalt
+TBD
 
-:     *Prerequisite: the __Psychic Gestalt__ class ability.*
-      When you form a Psychic Gestalt, the gestalt is a separate 
-      hero character also controlled by you. The other heroes'
-      physical forms do not vanish and they can act independently,
-      as they normally could.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5448,12 +6510,9 @@ Battlemind
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-Mantle of Inspiration
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Whenever you Add to the Teamwork Pool, increase the Effectiveness
-    by the number of heroes in your mind link -- to a maximum additional
-    number of successes equal to the Volume.    
+:   To be determined.
 
 TBD
 
@@ -7273,36 +8332,100 @@ Your Core Power Words are **Focused** and **Totality**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-##### Personal Power Words
+##### Vehicle Core Power Word
 
-Choose six Personal Power Words from the following list:
+Choose one of the following Vehicle Power Words to represent the special
+vehicle with which you have a unique bond. This becomes a Core Power
+Word for you, and you can add it to Power Stunt or Combo by spending
+0 Might.
 
 ::::::::::::: cpw :::::::
-- Alter
-- Broadcast
-- Confusion
-- Emotion
-- Erase
-- Future
-- Implant
-- Illusion
-- Language
-- Link
-- Memory
-- Past
-- Probe
-- Restore
-- Sense
-- Shield
-- Thought
-- Transfer
-- View
+- Ship
+- Boat
+- Spaceship
+- Jet
+- Barge
+- Car
+- Motorcycle
+- Truck
+- Tank
+- Saucer
 :::::::::::::::::::::::::
 
-When you use a **Power Display,** you can add one Personal Power Word for free.
+##### Vehicle Scene Power Words
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+Choose six Vehicle Scene Power Words from the following list. Whenever
+you or anyone else are in your vehicle, they can add one of these Vehicle 
+Scene Power Words to a roll for 0 Might, as if the Vehicle Scene Power 
+Word were one of the regular Scene Power Words.
+
+::::::::::::: cpw :::::::
+- Air
+- Alarm
+- Armor
+- Blade
+- Boost
+- Brakes
+- Burrowing
+- Cable
+- Cannon
+- Cloud
+- Crash
+- Eject
+- Evade
+- Exhaust
+- Flames
+- Flight
+- Float
+- Glide
+- Ground
+- Horn
+- Hover
+- Intangible
+- Jet
+- Jump
+- Landing
+- Lift
+- Lights
+- Oil
+- Pontoons
+- Radio
+- Ramming
+- Rocket
+- Roll
+- Safety
+- Scanner
+- Shield
+- Sideways
+- Siren
+- Skidmark
+- Slick
+- Smoke
+- Soar
+- Speed
+- Spikes
+- Stable
+- Stunt
+- Submersible
+- Tires
+- Tow
+- Trunk
+- Tunnelling
+- Turbo
+- Paddle
+- Vertical
+- Wheel
+- Winch
+- Window
+- Wings
+:::::::::::::::::::::::::
+
+When you have your *Unique Vehicle* use a **Power Display,** you can add 
+one Vehicle Scene Power Word for free.
+
+You can have your *Unique Vehicle* use two Vehicle Scene Power Words 
+together to form a **Power Stunt** or **Power Combo** by paying 1 Might 
+for each beyond the first.
 
 ##### Nova Power
 
@@ -7310,34 +8433,51 @@ Choose any two single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for 
+free; if you spend 1 Might, you can include the second Nova Power Word 
+as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-#### Psychic Abilities {  .class}
+#### Wheelman Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Psychic Abilities are new ways to channel your psionic
-power.
-Each ability can be chosen only once.
+Your Wheelman class abilities represent upgrades or changes to
+your *Unique Vehicle*. Each ability can be chosen only once.
 
 ##### Prime Ability
 
-Your hero has the **Our Minds As One** Prime ability common
-to all Psychics.
+Your hero has the **Unique Vehicle** Prime ability common
+to all Wheelmen. Additional class abilities you can choose in
+later Volumes can increase the capabilities of your *Unique
+Vehicle*.
 
 :::::: {.ability-list .prime }::::::::::
-Our Minds As One
-:   As long as you are conscious, and there is at least one
-    Success in the Teamwork Pool, you and the other heroes
-    can communicate telepathically.
+Unique Vehicle
+:   You have a custom-built vehicle unlike any other. When you
+    are in your vehicle, no one can compare to your driving and/or
+    piloting skill.
 
-    If all of the partipants in a Power Combo are part of your
-    Mind Link, the initiating hero adds 2 to the roll.
+    Your Unique Vehicle's **Maximum Health** and **Maximum Might**
+    equal the **sum of your own Maximum Health plus your Maximum 
+    Might**. When your maximum Health or Might change, recalculate 
+    the Vehicle's Maximum Health and Maximum Might.
 
+    The type of vehicle matches the Vehicle Core Power Word that
+    you chose. Each Unique Vehicle has a set of Vehicle Scene Power 
+    Words associated with it.
+
+    Your Unique Vehicle can comfortably carry a number of human-sized
+    passengers equal to the Volume.
+
+    Whenever you add a Personal Power Word, you can instead add a
+    Vehicle Scene Power Word from the Vehicle Scene Power Words List.
+
+    In addition, you are considered to have the **Ace Fighting Style**
+    whenever you are in your Unique Vehicle.
+    
 ::::::::::::::::::::::::::::::::::::::::::
 
 ##### Volume 1 Abilities
@@ -7346,33 +8486,83 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
-Cloud the Senses
+Intelligent Vehicle
 
-:   With your mastery of mental illusion, you're able to fool 
-    nearly anyone. Add 2 to the dice pool when you use a Power
-    to advance the Outwit goal.
+:   *Prerequisite: __Unique Vehicle__ class ability.*
+    Your Unique Vehicle is sentient and can communicate with you.
+    Choose one of the five Approaches. The Vehicle's score for that
+    Approach equals the Volume plus 2.
 
-Empath
+    While you are in your Vehicle, you can use the Vehicle's score
+    for that Approach instead of your own.
 
-:   You can use your empathic powers to read emotions and calm
-    a crowd. Add 2 to the dice pool when you use a Power to 
-    advance the Allay goal.
+    In addition, choose one Skill possessed by the Vehicle. When you
+    are in the Vehicle, you are considered to have that skill.
 
-Psionic Weapon
+    You *can* have a Vignette with your own Unique Vehicle.
 
-:   You can form a weapon out of pure psionic energy. Add
-    Weapon as a Personal Power Word and pick a Fighting Style
-    that complements that weapon.
+Dude, Where's Your Car?
 
-Telekinetics
+:   *Prerequisite: __Autonomous Operation__ class ability.*
+    During the Roll-Call phase of a Crisis Countdown, you can decide 
+    if your Vehicle is present at the scene. If it isn't, then you 
+    can use the Timely Arrival move and pay only 1 success from the
+    Teamwork Pool, not 5 (the normal cost).
 
-:   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add an Elemental Power Word and a
-    Personal Power Word from the Shaper's lists as Personal Power Words.
+    When your Vehicle arrives, you automatically enter it and are
+    in control.
+    
+Haunted Vehicle
 
-TBD
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle isn't merely intelligent, but is possessed by the
+    ghost of a human or other creature. 
 
-:   To be determined.
+    Choose one Personal Power Word from the Haunt class and add it as
+    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
+    Power Word, you can choose from the Haunt Personal Power Words List
+    or the Vehicle Scene Power Words List; such Power Words become 
+    Vehicle Scene Power Words.
+
+    In addition, you gain the **Mystic Skill**.
+
+Cursed Vehicle
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Like the *Haunted Vehicle* class ability, your Vehicle is possessed
+    by a supernatural creature.
+
+    Choose one Personal Power Word from the Hellspawn class and add it as
+    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
+    Power Word, you can choose from the Hellspan Personal Power Words
+    List or the Vehicle Scene Power Words List; such Power Words become
+    Vehicle Scene Power Words.
+
+    In addition, you gain the **Mystic Skill**.
+
+High-Tech Vehicle
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle is controlled by a computerized, artificial intelligence.
+
+    Choose one Personal Power Word from the Inventor Class Personal
+    Power Words List or the Construct Class Personal Power Words List,
+    and add it as a Vehicle Scene Power Word. Whenever
+    you add a new Vehicle Scene Power Word, you can choose from the
+    Inventor Class Personal Power Words List, the Vehicle Scene Power Words
+    List, or the Construct Class Personal Power Words List; such Power 
+    Words become Vehicle Scene Power Words associated with your Unique
+    Vehicle.
+
+    In addition, you gain the **Engineer Skill**.
+
+Autonomous Operation
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle can act whenever you are unable to. At the end of each
+    Hero Phase, if you didn't make a move, then you can have your Vehicle
+    make a move -- using your own Approach scores, Skills, and Fighting 
+    Styles.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -7381,124 +8571,35 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-Mind Over Matter
 
-:   You can keep yourself conscious through sheer force of will.
-    Instead of losing Health, you can lose an equal amount
-    of Might.
+More than Meets the Eye
 
-Psychic Healing
+:   Until you use one of your Vehicle Scene Power Words, your Unique
+    Vehicle appears to be a completely normal, ordinary vehicle of its
+    chosen type. At the end of each Crisis Countdown, your Unique
+    Vehicle loses its *Revealed* status if was *Revealed* before.
 
-:   You gain **Healing** as a Core Power Word.
-    As a move, you can use your mental powers to heal someone else.
-    They regain Health equal to the Effectiveness of a Power roll
-    using the *Healing* Power Word.
+    Once someone has used one of those Vehicle Scene Power
+    Words, your Vehicle is *Revealed* until the current Crisis is 
+    resolved, and every hero or character in this Crisis is aware your 
+    Vehicle is Unique and has special abilities.
 
-Psychic Gestalt
+    If your Vehicle hasn't been *Revealed*, add the Volume to the dice
+    roll whenever you use one of the Vehicle Scene Power Words to roll
+    to advance the Outwit goal. (Note that this will also *Reveal* your
+    Vehicle, as described in the previous paragraph.)
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: the __Skill Sharing__ class ability.*
-    As a move, you and any willing heroes who are affected by your
-    Our Minds As One ability can create a fusion being, centered on
-    you and controlled by you. This gestalt has the following
-    characteristics:
-    - A physical body is created for the gestalt, that can look like
-      whatever you decide it looks like. Giant brains or idealized
-      human forms are the most common, often with the latter being a
-      composite of various physical features of the members of the
-      gestalt. This artificial body can be killed -- if it is, the 
-      gestalt breaks apart (as described below) and you (personally) 
-      die.
-    - The members of the gestalt become beings of pure psionic
-      energy connected to the gestalt's form, who can advise and 
-      communicate with each other but no longer have physical bodies;
-      they maintain their separate consciousnesses and identities,
-      and cannot be affected apart from the gestalt by any power,
-      ability, or rule.
-    - Opponents with at least one Power Word that appears on the
-      Psychic Personal Power Words List can, as a move during the
-      Crisis Phase, try to break apart the gestalt. The cost to counter 
-      this move equals the Volume.
-    - The gestalt has a unique name, which you and the other heroes 
-      can choose, and has access to the memories, knowledge, and 
-      feelings of all heroes that are part of it. Every time you
-      use this ability with the same group heroes, that named gestalt
-      is formed; it remembers its previous periods of existence and
-      emotional state(s).
-    - Whenever an ability or rule refers to "you" while the gestalt is
-      active, it's talking about the gestalt as a whole -- and *you*,
-      as the initiator with the Psychic Gestalt class ability -- are
-      in control of the combined entity.
-    - The gestalt has access to every Skill possessed by any member
-      of the gestalt.
-    - The gestalt has access to every Fighting Style possessed by any
-      member of the gestalt.
-    - Whenever any hero **leaves the gestalt** -- including if the gestalt
-      is **willingly or unwillingly broken apart** -- then:
-      - That hero's current Health and Might are equal to the gestalt's
-        score divided by the number of heroes who originally formed the
-        gestalt, rounded down.
-      - The hero doesn't remember what happened during the time they
-        were part of the gestalt, except as dream-like memories
-    - Scores for each Approach equal to the highest value for that
-      approach among the members of the gestalt
-    - Maximum Health equal to the sum of the Maximum Health of every
-      member of the gestalt
-    - Maximum Might equal to the sum of the Maximum Might of every
-      member of the gestalt
-    - Current Health equal to its Maximum Health, as calculated above
-    - Current Might equal to its Maximum Might, as calculated above
-    - **Gestalt**, **Shared**, **Flight**, **Psionic** and **Unleashed**
-      as Core Power Words
-    - Each player of a hero who is part of the gestalt chooses one
-      Power Word from the Paragon Persoanl Power Words List; you (as
-      the gestalt) gain those words as **Core Power Words**
-    - All the Core and Personal Power Words possessed by any member of
-      the gestalt
-    - At the start of the Hero Phase, the gestalt refreshes Might equal
-      to the number of heroes that currently comprise it
-    - During the Hero Phase, you (personally) choose what the gestalt 
-      does as a move or other action
-    - If the Teamwork Pool is ever reduced to zero, **the gestalt 
-      collapses** and each hero's current Might and Health are set 
-      equal to the gestalt's current values divided by the number of
-      heroes who originally formed the gestalt, rounded down -- as
-      described above.
-    - If there are no longer any heroes who comprise the gestalt, it
-      collapses with the effects described immediately above.
-    - Once per Hero Phase, each member of the gestalt can only make one 
-      move from the following: **Withdraw from the Gestalt** or 
-      **Add to the Teamwork Pool**
-      - **Withdraw from the Gestalt** By spending 1 from the Teamwork
-        Pool, any hero can choose to withdraw from the gestalt. Their
-        Health and Might are calculated as described above, but the
-        Health and Might of the gestalt are not affected. Recalculate
-        the maximum Health and Might, and reduce the gestalt's current
-        values for each if they exceed the new maximum value.
-      - **Add to the Teamwork Pool**
-        As a move, a hero in the gestalt can reinforce the Teamwork
-        Pool through telepathic communication with the other members
-        of the gestalt. This can be used as a memory-based Vignette 
-        between two members of the gestalt, to *mark* *Ideals*.
-    - The gestalt has access to all of your Psychic Class abilities
-      and any Psychic Class abilities possessed by other members of the
-      gestalt. You can choose when and how to use each of those.
-    - If you, as the initiator of the gestalt, choose to Withdraw from
-      the Gestalt, you can use a move during the Hero Phase and spend one
-      from the Teamwork Pool; the gestalt immediately breaks apart as 
-      described above.
-    - You can also, as a move during the Hero Phase, can spend 1 from the
-      Teamwork Pool to eject any hero from the gestalt. If this reduces
-      the number of heroes in the gestalt to 0, or the value of the
-      Teamwork Pool to 0, the gestalt collapses as described above.
+TBD
 
-Separate Gestalt
+:   To Be Determined
 
-:     *Prerequisite: the __Psychic Gestalt__ class ability.*
-      When you form a Psychic Gestalt, the gestalt is a separate 
-      hero character also controlled by you. The other heroes'
-      physical forms do not vanish and they can act independently,
-      as they normally could.
+TBD
+
+:   To Be Determined
+
+TBD
+
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -7529,7 +8630,6 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 Battlemind
 
 :   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: The __Skill Sharing__ class ability.*
     Your mind link allows Fighting Styles to be shared.
     Someone in your link is considered to have a Fighting Style
     if anyone in your link has that Fighting Style.
@@ -8023,7 +9123,7 @@ For example, []{.lorem}
 
 ### Starting a Crisis {#toc-crisis-start}
 
-Once the Teamwork Pool is formed, it’s time to start.
+Once the Teamwork Pool is formed, it’s time to start dealing with the Crisis.
 
 Instead of having an initiative order like many games of this type, 
 there are two phases that alternate back and forth: 

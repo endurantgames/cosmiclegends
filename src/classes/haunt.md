@@ -1,16 +1,16 @@
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
-# The Kid {#toc-kid .breakbefore .class}
+# The Haunt {#toc-haunt .breakbefore .class}
 
 > 
 
-## Playing a Kid
+## Playing a Haunt
 
 You have Skills, Abilities, and possibly other Power Words that 
 you can use to switch up your moves from Hero Phase to Hero Phase.
 
 ## Questions
 
-As you create your Kid hero, answer any or all of these questions.
+As you create your Haunt hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
 - How do you look different from normal humans? 
@@ -20,7 +20,7 @@ As you create your Kid hero, answer any or all of these questions.
     assume you're just an animalistic brute?
   - What does your voice sound like, and what kind of vocabulary do 
     you employ?
-- Are you *always* a kid?  
+- Are you *always* a Haunt?  
   (If not, then you may want to consider playing your hero as 
    <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
    for heroes who magically transform from child form to an adult shape!)
@@ -43,32 +43,12 @@ As you create your Kid hero, answer any or all of these questions.
 
 ## Skills
 
-You have the **Academic** skill, plus two additional skills of your choice
-chosen from the following list:
+You have the **Mystic** and **Historian** skills, plus two additional 
+skills of your choice.
 
-- Artist
-- Criminal
-- Engineer
-- Explorer
-- Hacker
-- Historian
-- Investigator
-- Journalist
-- Performer
-- Scientist
-
-You can't ever gain the following skills, from any source:
-
-- Deputy
-- Lawyer
-- Mystic
-- Physician
-- Politician
-- Spy
-
-Whenever you make a roll that uses one of your skills, add 1 extra die. If
-you have more than one skill that could apply to a roll, add 1 extra die for each
-applicable skill.
+Whenever you make a roll that uses one of your skills, add 1 extra die. 
+If you have more than one skill that could apply to a roll, add 1 
+extra die for each applicable skill.
 
 ## Power Words
 
@@ -356,21 +336,20 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ## Totem Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Kid abilities show your increasing ability to compete with
-adult heroes and handle serious threats.  Each ability can be 
-chosen only once.
+Your Totem Abilities show your increasing distance from humanity.
+Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Why, It's Just a Child** Prime ability common 
-to all Kid heroes.
+Your hero has the **Force of Nature** Prime ability common 
+to all Totems.
 
 :::::: {.ability-list .prime }::::::::::
-Why, It's Just a Child
+Does Whatever a Totem Can
 
-:   Most adults underestimate you. Add the Volume to the dice pool 
-    when you roll to advance the Outwit goal against a source that's
-    older than you.
+:   When you use your Core or Nova Power Words in a Power Stunt
+    or Combo roll, add 2 dice to as if you had a skill or fighting
+    style that applied to such a use.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -382,7 +361,8 @@ At the start of Volume 1, choose two abilities from this list.
 
 Animal Partner
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   *Prequisite: You can't have the __Alien Totem__ class ability.*
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. This partner has three Core Power Words --
     one matching your Totem Nature Power Word, and two others from the
     Totem Personal Power Words List -- that you can use for free without
@@ -401,13 +381,43 @@ Animal Partner
     end of the next Crisis Countdown, and join you as soon as they
     can.
 
-Comic Relief
+Alien Totem
 
-:   Whenever you make a roll, count 2s as Edge Successes in 
-    addition to 1s. If the consequence is funny and at least one
-    adult hero present laughs at the situation or your reaction to it, 
-    count each Edge Success for which you accept the consequence as two
-    successes when you calculate the roll's Effectiveness.
+:   You are not connected to normal earth creatures, but alien versions
+    of them. All of your abilities and power words work with similar creatures,
+    no matter what worlds they originate from.
+
+    In addition, add **Alien** as a Core Power Word.
+    
+How Do You Do Fellow Animals?
+
+:   *Prequisite: You can't have the __Alien Totem__ class ability.*
+    You can automatically communicate with any creatures matching your
+    Totem Nature Power Word. They might not fully understand who you are and
+    what you want from them, but you can audibly speak back and forth, and get
+    information or possibly assistance from them, as if you were all sharing a
+    common language.
+
+Mystic Totem
+
+:   Your link to your nature totem is a result of mystical means, not 
+    technological a strictly scientific process. You gain the Mystic skill.
+    Whenever you choose a Personal Power Word, you can choose from the 
+    Mage Class Personal Power Words List or the Divine Class Personal 
+    Power Words List.
+
+Summon Swarm 
+
+:   *Prequisite: You can't have the __Alien Totem__ class ability.*
+    As a move during the Hero Phase, you can spend 1 Might to call up a 
+    swarm of normal creatures of the same type as your Totem Nature Power Word. 
+    These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
+    Nature Power Word as a scene power word until the end of the crisis.
+
+Unkillable
+
+:   You get knocked down but you get up again. They're never gonna keep you 
+    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
 
 Unbeatable
 
@@ -417,6 +427,13 @@ Unbeatable
     Totem Nature Power Word present -- including from the *Animal Companion* or
     *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
     you make to advance any goal.
+
+Variable Totem
+
+:   At the start of the Hero Phase, you can change your Totem Nature Core 
+    Power Word to any other power word on the Totem Nature Core Power
+    Words List. All of your abilities use the new Totem Nature until the
+    start of the next Crisis Phase.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -468,121 +485,271 @@ Savage Instincts
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-#### Kid Core Power Words
+#### Totem Nature Core Power Words
 
-Your Core Power Words are **Youthful** and **Exuberance**.
-You can spend 1 Might poitn to add one of those to a Power Stunt or
-Combo, or 2 Might to add both.
-:::::::::::::::::::::::::
+- Bugs
+  - Spider
+    - Black Widow
+    - Recluse
+    - Tarantula
+  - Insect
+    - Ant
+      - Scorpion
+    - Fly
+      - Bee
+      - Butterfly
+      - Moth
+      - Roach
+      - Wasp
+        - Hornet
+        - Yellowjacket
+- Reptiles
+  - Alligator
+  - Crocodile
+  - Dinosaur
+    - Pterodon
+    - T-Rex
+  - Lizard
+    - Chameleon
+    - Iguana
+  - Snake
+    - Asp
+    - Cobra
+    - Python
+    - Rattlesnake
+    - Viper
+  - Tortoise
+  - Turtle
+- Dragon
+  - Hydra
+  - Wyvern
+  - Wyrm
+- Felines
+  - Cat
+  - Cheetah
+  - Lion
+  - Panther
+  - Puma
+  - Sabre-Tooth
+  - Tiger
+- Birb
+  - Owl
+  - Vulture
+  - Falcon
+  - Hawk
+  - Dove
+  - Rooster
+  - Turkey
+  - Chicken / Hen
+  - Ostrich
+  - Eagle
+- Amphibians
+  - Frog
+  - Newt
+  - Toad
+  - Salamander
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
+  - Otter
+- Fish
+  - Barracuda
+  - Eel
+  - Clam
+  - Crab
+  - Fish
+  - Lobster
+  - Moray
+  - Pirhanna
+  - Merfolk
+  - Octopus
+  - Shark
+  - Squid (Craken)
+  - Starfish
+  - Sea Horse
+- Mammals
+  - Elephant
+    - Mammoth
+    - Mastodon
+    - Pachyderm
+  - Minotaur
+    - Goat (Satyr)
+    - Bull (Minotaur)
+    - Cow (Minotaur)
+  - Monkey
+    - Ape
+    - Gorilla
+    - Gibbon
+    - Ma
+  - Pig
+    - Hog
+    - Boar
+  - Stag
+  - Deer
+  - Moose
+  - Kangaroo
+  - Elk
+  - Horse
+    - Alicorn
+    - Centaur
+    - Hippopotamus
+    - Pegasus
+    - Unicorn
+  - Rhino
+  - Wolverine
+  - Canines
+    - Dog
+      - Mastiff
+      - Hound
+      - Wolf
+      - Dingo
+    - Coyote
+    - Jackal
+    - Fox
+  - Bear
+    - Koala
+    - Grizzly
+    - Panda
+    - Polar
+  - Rodent
+    - Badger
+    - Bat
+    - Mongoose
+    - Mouse
+    - Otter
+    - Porcupine
+    - Rabbit
+      - Bunny
+      - Jackrabbit
+      - Hare
+    - Raccoon
+    - Rat
+    - Skunk
+    - Squirrel
+    - Weasel
+      - Ermine
+      - Mink
+      - Stoat
+- Environment
+  - Coral
+  - Mire
+  - Tree
+  - Tundra
 
-#### Kid Personal Power Words List
-
-Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
+#### Totem Personal Power Words List
 
-- Creative
-- Curious
-- Eager
-- Energetic
-- Friendly
-- Genius
-- Impulsive
-- Innocent
-- Original
-- Popular
-- Trusting
-- Witty
-- Young
+- Agility
+- Amphibious
+- Anthropomorphic
+- Aquatic
+- Barbed
+- Bark
+- Breath
+- Camouflage
+- Claws
+- Climb
+- Colorful
+- Crawl
+- Cute
+- Danger
+- Ears
+- Elusive
+- Empathic
+- Essense
+- Eyes
+- Fangs
+- Feet
+- Fins
+- Flipper
+- Fly
+- Fur
+- Gills
+- Glide
+- Graceful
+- Grasp
+- Growl
+- Habitat
+- Hair
+- Hard
+- Harmless
+- Hearing
+- Hide
+- Hooves
+- Horn
+- Howl
+- Instincts
+- Jump
+- Leap
+- Legs
+- Luck
+- Lungs
+- Melodious
+- Mighty
+- Mimic
+- Musk
+- Muzzle
+- Neck
+- Night
+- Nobility
+- Normal
+- Nose
+- Odor
+- Paws
+- Proportionate
+- Quills
+- Regenerative
+- Roar
+- Run
+- Savagery
+- Scales
+- Scent
+- Senses
+- Shapechange
+- Sharp
+- Shell
+- Silent
+- Size
+- Skin
+- Sleek
+- Slippery
+- Snarl
+- Soft
+- Speed
+- Spines
+- Stamina
+- Stinger
+- Strength
+- Suckers
+- Swim
+- Tail
+- Teeth
+- Tentacle
+- Theriomorphic
+- Tiny
+- Tongue
+- Toxic
+- Transformation
+- Trunk
+- Unnoticed
+- Venom
+- Vision
+- Webs
+- Wet
+- Wings
+- Wisdom
 :::::::::::::::::::::::::
 
-Knowing is Half the Battle
+Misunderstood Monster
 
-:   At the end of an issue, you can do a solo Vignette wherein you 
-    summarize the events of the last Crisis, and relate them to one or 
-    more of your ideals.  When you do so, you can Mark those ideals.
-
-Mentor
-
-:   You are considered the sidekick of one of the other adult heroes.
-    When you take this class ability, choose one hero and, with that
-    player's agreement, they become your mentor.
-
-    Whenever you choose Personal Power Word, you can choose from the
-    Kid Personal Power Words List or from any Core, Nova, or Personal
-    Power Words possessed by your Mentor.
-
-    Whenever you join a Power Combo initiated by your mentor, add 2 to the
-    dice pool. Whenever your mentor joins a Power Combo initiated by 
-    you, add 2 to the dice pool.
-
-    When your Mentor is present with you, you can use one of their skills
-    once per Hero Phase, as if you had the Skill yourself.
-
-Only a Child
-
-:   Most adults underestimate you. Add 3 to the dice pool when
-    you roll to advance the Outwit goal against a source that's
-    older than you.
-
-Pet
-
-:   You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
-    one chosen from the Totem Class's Totem Nature Power Words List,
-    and two others from the Totem Class's Personal Power Words List -- 
-    that you can use for free without spending Might, each once per Hero 
-    Phase. Your animal partner's Health and Might equal the Volume.
-
-    Choose one Skill possessed by your Animal Partner, and a Fighting
-    Style. You can use that skill or Fighting Style whenever your 
-    Animal Partner is present during a Crisis.
-
-    During any Hero Phase, either your hero can make a move or your
-    animal partner can make a move -- not both.
-
-Magical Familiar
-
-:   *Prerequisite: You must have the __Pet__ class ability.*
-    Whenever you choose a Core Power Word for your Pet, you can
-    choose from the Divine Class Personal Power Words List or the
-    Mage Class Personal Power Words List. These become Core Power
-    Words that you can use for free, each once per Hero Phase, as
-    described in the *Pet* class ability.
-
-    If your Magical Familiar is ever killed, they return to life at 
-    the end of the next Crisis Countdown, and join you as soon as they
-    can.
-
-Alien Pet
-
-:   *Prerequisite: You must have the __Pet__ class ability.*
-    Your pet isn't from Earth -- or might not even be from this universe,
-    in the case of a magical pet.
-
-    Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class Personal Power Words List or the
-    Paragon Class Personal Power Words List. These become Core Power
-    Words that you can use for free, once per Hero Phase, as described 
-    in the *Pet* class ability.
-    
-Holy Catchphrase!
-
-:   Once per Hero Phase, you can make a pun related to one of the
-    Scene Power Words or an Ideal that you or another hero Marked
-    since the start of the last Hero Phase. If you do, add 3 to the
-    next roll you or any other hero makes before the end of the current
-    Hero Phase.
-    
-Intelligent Pet
-
-:   *Prerequisite: You must hve the __Pet__ class ability.*
-    Your pet is smarter than an average animal of that type. It can
-    communicate intelligently in one language that you choose when
-    you gain this class ability, although its voice is clearly
-    non-human. In addition, choose a second Skill possessed by
-    the Pet, and one Approach. Whenever your Pet is present at a
-    Crisis, add 3 dice whenever you make a roll using the chosen
-    Approach.
+:   Even at your most animalistic, you wouldn't harm an innocent.
+    Add 2 to the dice pool when you advance the Allay
+    or Rescue goals. 
+    Whenever you choose a Personal Power Word,
+    you can choose from the Totem Class Nature Power Words List,
+    or the Totem Personal Power Words List.  Add any from the latter as 
+    Core Power Words.
 
 Regeneration
 
@@ -590,20 +757,15 @@ Regeneration
     Regain 1 Health at the start of the Hero Phase if you are at less than half of 
     your maximum Health but have at least 1 Health.
 
-Youthful Power
+Wild Power
 
-:   You are a storehouse of indefatiguable energy. Increase your maximum 
-    Might by 5.
+:   You are a storehouse of natural energy. Increase your maximum Might 
+    by 5.
 
 Wild Strength
 
 :   You are as hard to take down as the mightiest of beasts. Increase your
     maximum Health by 5.
-
-Youthful Relatability
-
-:   When dealing with anyone who isn't an adult, add 3 to the dice
-    pool when you roll to advance the Allay or Rescue goals.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -614,14 +776,28 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 :::::::: {.ability-list .v3 } :::::::
 Nigh-Invulnerable
 
-:   There are few things that can seriously harm you.  Increase your 
-    maximum Health by 5.
+:   There are few things that can seriously harm you.  Increase your maximum 
+    Health by 5.
 
 Power Burn
 
 :   You can call upon your life-force to fuel your powers.  You can spend 
     Health whenever you would normally spend Might. Increase your maximum
     Health by 3.
+
+Soul Bond
+
+:   *Prerequisite: Humanity's Best Friend.*
+    You have a quasi-mystical bond with another person. Choose a
+    consenting hero who is essentially human. 
+
+    You gain the Psychic class's **Our Minds As One** Prime ability,
+    but only with your chosen hero. In addition, you gain **Soul**
+    and **Bond** as Core Power Words.
+
+    Whenever you choose a Personal Power Word, you can choose from the 
+    Totem Class Personal Power Words List, or the Psychic Class Personal 
+    Power Words List.  Add any from the latter as Core Power Words.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -630,6 +806,17 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
+Power Overwhelming
+
+:   Your capacity for destruction is extraordinary, even for a hero.
+    Increase your maximum Might by 5.
+
+Immortal Totem
+
+:   *Prerequisite: Mystic Totem* You might be seriously wounded, but you'll never stay dead. 
+    If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
+    start of the next Hero Phase.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities

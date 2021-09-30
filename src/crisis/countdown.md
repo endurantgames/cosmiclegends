@@ -63,7 +63,7 @@ For example, []{.lorem}
 
 # Starting a Crisis {#toc-crisis-start}
 
-Once the Teamwork Pool is formed, it’s time to start.
+Once the Teamwork Pool is formed, it’s time to start dealing with the Crisis.
 
 Instead of having an initiative order like many games of this type, 
 there are two phases that alternate back and forth: 

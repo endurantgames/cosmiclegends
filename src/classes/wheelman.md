@@ -122,8 +122,8 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 
 Choose six Vehicle Scene Power Words from the following list. Whenever
 you or anyone else are in your vehicle, they can add one of these Vehicle 
-Scene Power Words to a roll for free, as if the Vehicle Scene Power Word
-were one of the Scene Power Words.
+Scene Power Words to a roll for 0 Might, as if the Vehicle Scene Power 
+Word were one of the regular Scene Power Words.
 
 ::::::::::::: cpw :::::::
 - Air
@@ -132,7 +132,7 @@ were one of the Scene Power Words.
 - Blade
 - Boost
 - Brakes
-- Burrow
+- Burrowing
 - Cable
 - Cannon
 - Cloud
@@ -146,6 +146,7 @@ were one of the Scene Power Words.
 - Glide
 - Ground
 - Horn
+- Hover
 - Intangible
 - Jet
 - Jump
@@ -158,30 +159,39 @@ were one of the Scene Power Words.
 - Ramming
 - Rocket
 - Roll
+- Safety
 - Scanner
 - Shield
+- Sideways
 - Siren
 - Skidmark
 - Slick
 - Smoke
+- Soar
 - Speed
 - Spikes
+- Stable
+- Stunt
 - Submersible
 - Tires
 - Tow
 - Trunk
+- Tunnelling
 - Turbo
+- Paddle
 - Vertical
 - Wheel
 - Winch
 - Window
-- Wing
+- Wings
 :::::::::::::::::::::::::
 
-When you use a **Power Display,** you can add one Personal Power Word for free.
+When you have your *Unique Vehicle* use a **Power Display,** you can add 
+one Vehicle Scene Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+You can have your *Unique Vehicle* use two Vehicle Scene Power Words 
+together to form a **Power Stunt** or **Power Combo** by paying 1 Might 
+for each beyond the first.
 
 ### Nova Power
 
@@ -189,8 +199,9 @@ Choose any two single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
-if you spend 1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for 
+free; if you spend 1 Might, you can include the second Nova Power Word 
+as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
@@ -200,8 +211,7 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 
 Each Volume, you gain a new ability from your class.
 Your Wheelman class abilities represent upgrades or changes to
-your *Unique Vehicle*.
-Each ability can be chosen only once.
+your *Unique Vehicle*. Each ability can be chosen only once.
 
 ### Prime Ability
 
@@ -257,6 +267,17 @@ Intelligent Vehicle
 
     You *can* have a Vignette with your own Unique Vehicle.
 
+Dude, Where's Your Car?
+
+:   *Prerequisite: __Autonomous Operation__ class ability.*
+    During the Roll-Call phase of a Crisis Countdown, you can decide 
+    if your Vehicle is present at the scene. If it isn't, then you 
+    can use the Timely Arrival move and pay only 1 success from the
+    Teamwork Pool, not 5 (the normal cost).
+
+    When your Vehicle arrives, you automatically enter it and are
+    in control.
+    
 Haunted Vehicle
 
 :   *Prerequisite: __Intelligent Vehicle__ class ability.*
@@ -317,9 +338,22 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-TBD
+More than Meets the Eye
 
-:   To Be Determined
+:   Until you use one of your Vehicle Scene Power Words, your Unique
+    Vehicle appears to be a completely normal, ordinary vehicle of its
+    chosen type. At the end of each Crisis Countdown, your Unique
+    Vehicle loses its *Revealed* status if was *Revealed* before.
+
+    Once someone has used one of those Vehicle Scene Power
+    Words, your Vehicle is *Revealed* until the current Crisis is 
+    resolved, and every hero or character in this Crisis is aware your 
+    Vehicle is Unique and has special abilities.
+
+    If your Vehicle hasn't been *Revealed*, add the Volume to the dice
+    roll whenever you use one of the Vehicle Scene Power Words to roll
+    to advance the Outwit goal. (Note that this will also *Reveal* your
+    Vehicle, as described in the previous paragraph.)
 
 TBD
 
