@@ -98,30 +98,84 @@ Your Core Power Words are **Focused** and **Totality**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-### Personal Power Words
+#### Vehicle Core Power Word
 
-Choose six Personal Power Words from the following list:
+Choose one of the following Vehicle Power Words to represent the special
+vehicle with which you have a unique bond. This becomes a Core Power
+Word for you, and you can add it to Power Stunt or Combo by spending
+0 Might.
 
 ::::::::::::: cpw :::::::
-- Alter
-- Broadcast
-- Confusion
-- Emotion
-- Erase
-- Future
-- Implant
-- Illusion
-- Language
-- Link
-- Memory
-- Past
-- Probe
-- Restore
-- Sense
+- Ship
+- Boat
+- Spaceship
+- Jet
+- Barge
+- Car
+- Motorcycle
+- Truck
+- Tank
+- Saucer
+:::::::::::::::::::::::::
+
+### Vehicle Scene Power Words
+
+Choose six Vehicle Scene Power Words from the following list. Whenever
+you or anyone else are in your vehicle, they can add one of these Vehicle 
+Scene Power Words to a roll for free, as if the Vehicle Scene Power Word
+were one of the Scene Power Words.
+
+::::::::::::: cpw :::::::
+- Air
+- Alarm
+- Armor
+- Blade
+- Boost
+- Brakes
+- Burrow
+- Cable
+- Cannon
+- Cloud
+- Crash
+- Eject
+- Evade
+- Exhaust
+- Flames
+- Flight
+- Float
+- Glide
+- Ground
+- Horn
+- Intangible
+- Jet
+- Jump
+- Landing
+- Lift
+- Lights
+- Oil
+- Pontoons
+- Radio
+- Ramming
+- Rocket
+- Roll
+- Scanner
 - Shield
-- Thought
-- Transfer
-- View
+- Siren
+- Skidmark
+- Slick
+- Smoke
+- Speed
+- Spikes
+- Submersible
+- Tires
+- Tow
+- Trunk
+- Turbo
+- Vertical
+- Wheel
+- Winch
+- Window
+- Wing
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -135,34 +189,51 @@ Choose any two single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+if you spend 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Psychic Abilities {  .class}
+## Wheelman Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Psychic Abilities are new ways to channel your psionic
-power.
+Your Wheelman class abilities represent upgrades or changes to
+your *Unique Vehicle*.
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Our Minds As One** Prime ability common
-to all Psychics.
+Your hero has the **Unique Vehicle** Prime ability common
+to all Wheelmen. Additional class abilities you can choose in
+later Volumes can increase the capabilities of your *Unique
+Vehicle*.
 
 :::::: {.ability-list .prime }::::::::::
-Our Minds As One
-:   As long as you are conscious, and there is at least one
-    Success in the Teamwork Pool, you and the other heroes
-    can communicate telepathically.
+Unique Vehicle
+:   You have a custom-built vehicle unlike any other. When you
+    are in your vehicle, no one can compare to your driving and/or
+    piloting skill.
 
-    If all of the partipants in a Power Combo are part of your
-    Mind Link, the initiating hero adds 2 to the roll.
+    Your Unique Vehicle's **Maximum Health** and **Maximum Might**
+    equal the **sum of your own Maximum Health plus your Maximum 
+    Might**. When your maximum Health or Might change, recalculate 
+    the Vehicle's Maximum Health and Maximum Might.
 
+    The type of vehicle matches the Vehicle Core Power Word that
+    you chose. Each Unique Vehicle has a set of Vehicle Scene Power 
+    Words associated with it.
+
+    Your Unique Vehicle can comfortably carry a number of human-sized
+    passengers equal to the Volume.
+
+    Whenever you add a Personal Power Word, you can instead add a
+    Vehicle Scene Power Word from the Vehicle Scene Power Words List.
+
+    In addition, you are considered to have the **Ace Fighting Style**
+    whenever you are in your Unique Vehicle.
+    
 ::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
@@ -171,33 +242,72 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
-Cloud the Senses
+Intelligent Vehicle
 
-:   With your mastery of mental illusion, you're able to fool 
-    nearly anyone. Add 2 to the dice pool when you use a Power
-    to advance the Outwit goal.
+:   *Prerequisite: __Unique Vehicle__ class ability.*
+    Your Unique Vehicle is sentient and can communicate with you.
+    Choose one of the five Approaches. The Vehicle's score for that
+    Approach equals the Volume plus 2.
 
-Empath
+    While you are in your Vehicle, you can use the Vehicle's score
+    for that Approach instead of your own.
 
-:   You can use your empathic powers to read emotions and calm
-    a crowd. Add 2 to the dice pool when you use a Power to 
-    advance the Allay goal.
+    In addition, choose one Skill possessed by the Vehicle. When you
+    are in the Vehicle, you are considered to have that skill.
 
-Psionic Weapon
+    You *can* have a Vignette with your own Unique Vehicle.
 
-:   You can form a weapon out of pure psionic energy. Add
-    Weapon as a Personal Power Word and pick a Fighting Style
-    that complements that weapon.
+Haunted Vehicle
 
-Telekinetics
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle isn't merely intelligent, but is possessed by the
+    ghost of a human or other creature. 
 
-:   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add an Elemental Power Word and a
-    Personal Power Word from the Shaper's lists as Personal Power Words.
+    Choose one Personal Power Word from the Haunt class and add it as
+    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
+    Power Word, you can choose from the Haunt Personal Power Words List
+    or the Vehicle Scene Power Words List; such Power Words become 
+    Vehicle Scene Power Words.
 
-TBD
+    In addition, you gain the **Mystic Skill**.
 
-:   To be determined.
+Cursed Vehicle
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Like the *Haunted Vehicle* class ability, your Vehicle is possessed
+    by a supernatural creature.
+
+    Choose one Personal Power Word from the Hellspawn class and add it as
+    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
+    Power Word, you can choose from the Hellspan Personal Power Words
+    List or the Vehicle Scene Power Words List; such Power Words become
+    Vehicle Scene Power Words.
+
+    In addition, you gain the **Mystic Skill**.
+
+High-Tech Vehicle
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle is controlled by a computerized, artificial intelligence.
+
+    Choose one Personal Power Word from the Inventor Class Personal
+    Power Words List or the Construct Class Personal Power Words List,
+    and add it as a Vehicle Scene Power Word. Whenever
+    you add a new Vehicle Scene Power Word, you can choose from the
+    Inventor Class Personal Power Words List, the Vehicle Scene Power Words
+    List, or the Construct Class Personal Power Words List; such Power 
+    Words become Vehicle Scene Power Words associated with your Unique
+    Vehicle.
+
+    In addition, you gain the **Engineer Skill**.
+
+Autonomous Operation
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle can act whenever you are unable to. At the end of each
+    Hero Phase, if you didn't make a move, then you can have your Vehicle
+    make a move -- using your own Approach scores, Skills, and Fighting 
+    Styles.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -206,124 +316,22 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-Mind Over Matter
 
-:   You can keep yourself conscious through sheer force of will.
-    Instead of losing Health, you can lose an equal amount
-    of Might.
+TBD
 
-Psychic Healing
+:   To Be Determined
 
-:   You gain **Healing** as a Core Power Word.
-    As a move, you can use your mental powers to heal someone else.
-    They regain Health equal to the Effectiveness of a Power roll
-    using the *Healing* Power Word.
+TBD
 
-Psychic Gestalt
+:   To Be Determined
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: the __Skill Sharing__ class ability.*
-    As a move, you and any willing heroes who are affected by your
-    Our Minds As One ability can create a fusion being, centered on
-    you and controlled by you. This gestalt has the following
-    characteristics:
-    - A physical body is created for the gestalt, that can look like
-      whatever you decide it looks like. Giant brains or idealized
-      human forms are the most common, often with the latter being a
-      composite of various physical features of the members of the
-      gestalt. This artificial body can be killed -- if it is, the 
-      gestalt breaks apart (as described below) and you (personally) 
-      die.
-    - The members of the gestalt become beings of pure psionic
-      energy connected to the gestalt's form, who can advise and 
-      communicate with each other but no longer have physical bodies;
-      they maintain their separate consciousnesses and identities,
-      and cannot be affected apart from the gestalt by any power,
-      ability, or rule.
-    - Opponents with at least one Power Word that appears on the
-      Psychic Personal Power Words List can, as a move during the
-      Crisis Phase, try to break apart the gestalt. The cost to counter 
-      this move equals the Volume.
-    - The gestalt has a unique name, which you and the other heroes 
-      can choose, and has access to the memories, knowledge, and 
-      feelings of all heroes that are part of it. Every time you
-      use this ability with the same group heroes, that named gestalt
-      is formed; it remembers its previous periods of existence and
-      emotional state(s).
-    - Whenever an ability or rule refers to "you" while the gestalt is
-      active, it's talking about the gestalt as a whole -- and *you*,
-      as the initiator with the Psychic Gestalt class ability -- are
-      in control of the combined entity.
-    - The gestalt has access to every Skill possessed by any member
-      of the gestalt.
-    - The gestalt has access to every Fighting Style possessed by any
-      member of the gestalt.
-    - Whenever any hero **leaves the gestalt** -- including if the gestalt
-      is **willingly or unwillingly broken apart** -- then:
-      - That hero's current Health and Might are equal to the gestalt's
-        score divided by the number of heroes who originally formed the
-        gestalt, rounded down.
-      - The hero doesn't remember what happened during the time they
-        were part of the gestalt, except as dream-like memories
-    - Scores for each Approach equal to the highest value for that
-      approach among the members of the gestalt
-    - Maximum Health equal to the sum of the Maximum Health of every
-      member of the gestalt
-    - Maximum Might equal to the sum of the Maximum Might of every
-      member of the gestalt
-    - Current Health equal to its Maximum Health, as calculated above
-    - Current Might equal to its Maximum Might, as calculated above
-    - **Gestalt**, **Shared**, **Flight**, **Psionic** and **Unleashed**
-      as Core Power Words
-    - Each player of a hero who is part of the gestalt chooses one
-      Power Word from the Paragon Persoanl Power Words List; you (as
-      the gestalt) gain those words as **Core Power Words**
-    - All the Core and Personal Power Words possessed by any member of
-      the gestalt
-    - At the start of the Hero Phase, the gestalt refreshes Might equal
-      to the number of heroes that currently comprise it
-    - During the Hero Phase, you (personally) choose what the gestalt 
-      does as a move or other action
-    - If the Teamwork Pool is ever reduced to zero, **the gestalt 
-      collapses** and each hero's current Might and Health are set 
-      equal to the gestalt's current values divided by the number of
-      heroes who originally formed the gestalt, rounded down -- as
-      described above.
-    - If there are no longer any heroes who comprise the gestalt, it
-      collapses with the effects described immediately above.
-    - Once per Hero Phase, each member of the gestalt can only make one 
-      move from the following: **Withdraw from the Gestalt** or 
-      **Add to the Teamwork Pool**
-      - **Withdraw from the Gestalt** By spending 1 from the Teamwork
-        Pool, any hero can choose to withdraw from the gestalt. Their
-        Health and Might are calculated as described above, but the
-        Health and Might of the gestalt are not affected. Recalculate
-        the maximum Health and Might, and reduce the gestalt's current
-        values for each if they exceed the new maximum value.
-      - **Add to the Teamwork Pool**
-        As a move, a hero in the gestalt can reinforce the Teamwork
-        Pool through telepathic communication with the other members
-        of the gestalt. This can be used as a memory-based Vignette 
-        between two members of the gestalt, to *mark* *Ideals*.
-    - The gestalt has access to all of your Psychic Class abilities
-      and any Psychic Class abilities possessed by other members of the
-      gestalt. You can choose when and how to use each of those.
-    - If you, as the initiator of the gestalt, choose to Withdraw from
-      the Gestalt, you can use a move during the Hero Phase and spend one
-      from the Teamwork Pool; the gestalt immediately breaks apart as 
-      described above.
-    - You can also, as a move during the Hero Phase, can spend 1 from the
-      Teamwork Pool to eject any hero from the gestalt. If this reduces
-      the number of heroes in the gestalt to 0, or the value of the
-      Teamwork Pool to 0, the gestalt collapses as described above.
+TBD
 
-Separate Gestalt
+:   To Be Determined
 
-:     *Prerequisite: the __Psychic Gestalt__ class ability.*
-      When you form a Psychic Gestalt, the gestalt is a separate 
-      hero character also controlled by you. The other heroes'
-      physical forms do not vanish and they can act independently,
-      as they normally could.
+TBD
+
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -354,7 +362,6 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 Battlemind
 
 :   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: The __Skill Sharing__ class ability.*
     Your mind link allows Fighting Styles to be shared.
     Someone in your link is considered to have a Fighting Style
     if anyone in your link has that Fighting Style.

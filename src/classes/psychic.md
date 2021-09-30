@@ -145,23 +145,18 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ## Psychic Abilities {  .class}
 
 Each Volume, you gain a new ability from your class.
-Your Psychic Abilities are new ways to channel your psionic
-power.
+Your Wheelman abilities are new upgrades and changes to your
+*Unique Vehicle*.
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Our Minds As One** Prime ability common
-to all Psychics.
+Your hero has the **Unique Vehicle** Prime ability common
+to all Wheelmen.
 
 :::::: {.ability-list .prime }::::::::::
-Our Minds As One
-:   As long as you are conscious, and there is at least one
-    Success in the Teamwork Pool, you and the other heroes
-    can communicate telepathically.
-
-    If all of the partipants in a Power Combo are part of your
-    Mind Link, the initiating hero adds 2 to the roll.
+Unique Vehicle
+:   To Be Determined
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -171,29 +166,18 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
-Cloud the Senses
+More Than Meets the Eye
 
-:   With your mastery of mental illusion, you're able to fool 
-    nearly anyone. Add 2 to the dice pool when you use a Power
-    to advance the Outwit goal.
+:   *Prerequisite: __Unique Vehicle__ class ability.*
+    To be determined.
 
-Empath
+TBD
 
-:   You can use your empathic powers to read emotions and calm
-    a crowd. Add 2 to the dice pool when you use a Power to 
-    advance the Allay goal.
+:   To be determined.
 
-Psionic Weapon
+TBD
 
-:   You can form a weapon out of pure psionic energy. Add
-    Weapon as a Personal Power Word and pick a Fighting Style
-    that complements that weapon.
-
-Telekinetics
-
-:   Your mental power has a physical manifestation, letting you
-    move objects with ease. Add an Elemental Power Word and a
-    Personal Power Word from the Shaper's lists as Personal Power Words.
+:   To be determined.
 
 TBD
 
@@ -206,124 +190,21 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-Mind Over Matter
+TBD
 
-:   You can keep yourself conscious through sheer force of will.
-    Instead of losing Health, you can lose an equal amount
-    of Might.
+:   To be determined.
 
-Psychic Healing
+TBD
 
-:   You gain **Healing** as a Core Power Word.
-    As a move, you can use your mental powers to heal someone else.
-    They regain Health equal to the Effectiveness of a Power roll
-    using the *Healing* Power Word.
+:   To be determined.
 
-Psychic Gestalt
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: the __Skill Sharing__ class ability.*
-    As a move, you and any willing heroes who are affected by your
-    Our Minds As One ability can create a fusion being, centered on
-    you and controlled by you. This gestalt has the following
-    characteristics:
-    - A physical body is created for the gestalt, that can look like
-      whatever you decide it looks like. Giant brains or idealized
-      human forms are the most common, often with the latter being a
-      composite of various physical features of the members of the
-      gestalt. This artificial body can be killed -- if it is, the 
-      gestalt breaks apart (as described below) and you (personally) 
-      die.
-    - The members of the gestalt become beings of pure psionic
-      energy connected to the gestalt's form, who can advise and 
-      communicate with each other but no longer have physical bodies;
-      they maintain their separate consciousnesses and identities,
-      and cannot be affected apart from the gestalt by any power,
-      ability, or rule.
-    - Opponents with at least one Power Word that appears on the
-      Psychic Personal Power Words List can, as a move during the
-      Crisis Phase, try to break apart the gestalt. The cost to counter 
-      this move equals the Volume.
-    - The gestalt has a unique name, which you and the other heroes 
-      can choose, and has access to the memories, knowledge, and 
-      feelings of all heroes that are part of it. Every time you
-      use this ability with the same group heroes, that named gestalt
-      is formed; it remembers its previous periods of existence and
-      emotional state(s).
-    - Whenever an ability or rule refers to "you" while the gestalt is
-      active, it's talking about the gestalt as a whole -- and *you*,
-      as the initiator with the Psychic Gestalt class ability -- are
-      in control of the combined entity.
-    - The gestalt has access to every Skill possessed by any member
-      of the gestalt.
-    - The gestalt has access to every Fighting Style possessed by any
-      member of the gestalt.
-    - Whenever any hero **leaves the gestalt** -- including if the gestalt
-      is **willingly or unwillingly broken apart** -- then:
-      - That hero's current Health and Might are equal to the gestalt's
-        score divided by the number of heroes who originally formed the
-        gestalt, rounded down.
-      - The hero doesn't remember what happened during the time they
-        were part of the gestalt, except as dream-like memories
-    - Scores for each Approach equal to the highest value for that
-      approach among the members of the gestalt
-    - Maximum Health equal to the sum of the Maximum Health of every
-      member of the gestalt
-    - Maximum Might equal to the sum of the Maximum Might of every
-      member of the gestalt
-    - Current Health equal to its Maximum Health, as calculated above
-    - Current Might equal to its Maximum Might, as calculated above
-    - **Gestalt**, **Shared**, **Flight**, **Psionic** and **Unleashed**
-      as Core Power Words
-    - Each player of a hero who is part of the gestalt chooses one
-      Power Word from the Paragon Persoanl Power Words List; you (as
-      the gestalt) gain those words as **Core Power Words**
-    - All the Core and Personal Power Words possessed by any member of
-      the gestalt
-    - At the start of the Hero Phase, the gestalt refreshes Might equal
-      to the number of heroes that currently comprise it
-    - During the Hero Phase, you (personally) choose what the gestalt 
-      does as a move or other action
-    - If the Teamwork Pool is ever reduced to zero, **the gestalt 
-      collapses** and each hero's current Might and Health are set 
-      equal to the gestalt's current values divided by the number of
-      heroes who originally formed the gestalt, rounded down -- as
-      described above.
-    - If there are no longer any heroes who comprise the gestalt, it
-      collapses with the effects described immediately above.
-    - Once per Hero Phase, each member of the gestalt can only make one 
-      move from the following: **Withdraw from the Gestalt** or 
-      **Add to the Teamwork Pool**
-      - **Withdraw from the Gestalt** By spending 1 from the Teamwork
-        Pool, any hero can choose to withdraw from the gestalt. Their
-        Health and Might are calculated as described above, but the
-        Health and Might of the gestalt are not affected. Recalculate
-        the maximum Health and Might, and reduce the gestalt's current
-        values for each if they exceed the new maximum value.
-      - **Add to the Teamwork Pool**
-        As a move, a hero in the gestalt can reinforce the Teamwork
-        Pool through telepathic communication with the other members
-        of the gestalt. This can be used as a memory-based Vignette 
-        between two members of the gestalt, to *mark* *Ideals*.
-    - The gestalt has access to all of your Psychic Class abilities
-      and any Psychic Class abilities possessed by other members of the
-      gestalt. You can choose when and how to use each of those.
-    - If you, as the initiator of the gestalt, choose to Withdraw from
-      the Gestalt, you can use a move during the Hero Phase and spend one
-      from the Teamwork Pool; the gestalt immediately breaks apart as 
-      described above.
-    - You can also, as a move during the Hero Phase, can spend 1 from the
-      Teamwork Pool to eject any hero from the gestalt. If this reduces
-      the number of heroes in the gestalt to 0, or the value of the
-      Teamwork Pool to 0, the gestalt collapses as described above.
+:   To be determined.
 
-Separate Gestalt
+TBD
 
-:     *Prerequisite: the __Psychic Gestalt__ class ability.*
-      When you form a Psychic Gestalt, the gestalt is a separate 
-      hero character also controlled by you. The other heroes'
-      physical forms do not vanish and they can act independently,
-      as they normally could.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -366,12 +247,9 @@ Battlemind
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-Mantle of Inspiration
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Whenever you Add to the Teamwork Pool, increase the Effectiveness
-    by the number of heroes in your mind link -- to a maximum additional
-    number of successes equal to the Volume.    
+:   To be determined.
 
 TBD
 

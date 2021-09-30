@@ -27,12 +27,15 @@
   - <a href="#toc-expatriate"></a>
   - <a href="#toc-inventor"></a>
   - <a href="#toc-knight"></a>
+  - <a href="#toc-kid"></a>
   - <a href="#toc-mage"></a>
   - <a href="#toc-monarch"></a>
   - <a href="#toc-monstrosity"></a>
   - <a href="#toc-paragon"></a>
   - <a href="#toc-psychic"></a>
   - <a href="#toc-shaper"></a>
+  - <a href="#toc-twins"></a>
+  - <a href="#toc-wheelman"></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>

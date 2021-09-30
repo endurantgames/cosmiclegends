@@ -8,19 +8,35 @@ Cosmic Legends of the Universe
   - [ ] Update Examples
 - [/] Abilities blurb
 - [ ] Vignettes
+- [ ] General ideas:
+  - [ ] Mecha / Kaiju (Red Ronin vs. Godzilla)
+  - [ ] The Normal Kid class
+  - [ ] The Twins class
+  - [ ] Vehicles (Ghost Rider)
+  - [ ] Pet class
+  - [ ] 
 - [/] Classes
   - [/] Introduction
-  - [/] The Divine (new abilities)
-  - [/] The Dynamo (new abilities)
-  - [/] The Inventor (new abilities)
-  - [/] The Knight (new abilities)
-  - [/] The Mage   (new abilities)
-  - [/] The Monarch (new abilities)
+    - [ ] Dual-class    (cleanup)
+      - [ ] Examples?
+    - [ ] Multiclass    (cleanup)
+      - [ ] Examples?
+  - [/] The Divine      (new abilities)
+  - [/] The Dynamo      (new abilities)
+  - [/] The Expatriate  (cleanup)
+  - [ ] The Haunt       (new class)
+  - [/] The Inventor    (new abilities)
+  - [/] The Knight      (new abilities)
+  - [/] The Mage        (new abilities)
+  - [/] The Monarch     (new abilities)
   - [/] The Monstrosity (new abilities)
-  - [/] The Paragon (new abilities)
-  - [/] The Psychic (new abilities)
-  - [/] The Shaper  (new abilities)
+  - [/] The Paragon     (new abilities)
+  - [/] The Psychic     (new abilities)
+  - [/] The Shaper      (new abilities)
+  - [/] The Totem       (cleanup)
 - [ ] Pregens: 1 extra ability each
+  - [ ] Adam-42         (complete writeup)
+  - [ ] Multi- and/or Dual-Class pregens?
   - [ ] Brigantia
   - [ ] Energy Boy
   - [ ] Grailknight
@@ -32,7 +48,7 @@ Cosmic Legends of the Universe
   - [ ] Titan
   - [ ] Vespa
 - [/] Ideals
-  - [ ] Tie to approach
+  - [ ] Tie to approach?
 - [/] Goals
   - [x] Smash
   - [x] Outwit
@@ -47,6 +63,9 @@ Cosmic Legends of the Universe
   - [x] Nova
   - [/] Scene
     - [ ] Examples
+    - [ ] Changing
+      - [ ] Shaper (shape environment)
+      - [ ] Totem (summon swarm)
 - [/] Power Use
   - [x] Power Displays
     - [x] Examples
