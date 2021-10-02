@@ -14,6 +14,7 @@ header h1     { string-set: gamename content()       }
 :root {
 
   --font                : "Comic Neue";
+  --font-bubble         : "Rodau Buttons";
   --font-caption        : "Legio Sabina Condensed";
   --font-coverbox       : "Bebas Neue";
   --font-coverbox-qm    : "HackeIt Bold";
@@ -2273,3 +2274,22 @@ width: calc(20 - 6 * 4pt / 5); }
 .classdata#class-paragon     :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 53,  94,  59); }
 .classdata#class-psychic     :matches(h1, h2, h3, h4, h5, h6) { color: rgb(159,  29,  53); }
 .classdata#class-shaper      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(139,   0, 139); }
+
+
+.cca ul li::marker { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; }
+.cca .pick.break  { content: 'B';     font-family: var(--font-bubble); float: left; }
+.cca .pick.ign    { content: 'i';     font-family: var(--font-bubble); float: left; }
+.cca .pick.na     { content: 'N';     font-family: var(--font-bubble); float: left; }
+.cca .pick.line   { content: 'L';     font-family: var(--font-bubble); float: left; }
+.cca .pick.veil   { content: 'V';     font-family: var(--font-bubble); float: left; }
+
+.cca .pick.recommend             { display: block;           }
+.cca .pick.recommend:before      { content: 'We recommend '; }
+.cca .pick.recommend.break:after { content: 'that you Deliberately Break this Rule (because it sucks)'; text-decoration: underline; }
+.cca .pick.recommend.ign:after   { content: 'Ignore the Existence of this Rule (because it sucks)';     text-decoration: underline; }
+.cca .pick.recommend.na:after    { content: 'that this Rule probably isn\'t applicable to your game';   text-decoration: underline; }
+.cca .pick.recommend.line:after  { content: 'considering a Hard Line regarding this kind of content';   text-decoration: underline; }
+.cca .pick.recommend.veil:after  { content: 'designating this kind of content to be Veiled';            text-decoration: underline; }
+
+
+
