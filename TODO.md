@@ -3,18 +3,18 @@
 Cosmic Legends of the Universe
 
 - [/] Preface
-  - [/] Bronze Age
+  - [/] Bronze Age (finish essay)
 - [/] Issues 
   - [ ] Update Examples
 - [/] Abilities blurb
 - [ ] Vignettes
 - [ ] General ideas:
   - [ ] Mecha / Kaiju (Red Ronin vs. Godzilla)
-  - [ ] The Normal Kid class
-  - [ ] The Twins class
-  - [ ] Vehicles (Ghost Rider)
-  - [ ] Pet class
-  - [ ] 
+  - [x] The Normal Kid class
+  - [x] The Twins class
+  - [x] Vehicles (Ghost Rider)
+  - [ ] Pet class (?)
+  - [ ] CCA Checklist
 - [/] Classes
   - [/] Introduction
     - [ ] Dual-class    (cleanup)
@@ -35,20 +35,34 @@ Cosmic Legends of the Universe
   - [/] The Shaper      (new abilities)
   - [/] The Totem       (cleanup)
 - [ ] Pregens: 1 extra ability each
-  - [ ] Adam-42         (complete writeup)
+  - [ ] Using pregens
+  - [ ] Adam-42              (complete writeup)
   - [ ] Multi- and/or Dual-Class pregens?
-  - [ ] Brigantia
-  - [ ] Energy Boy
-  - [ ] Grailknight
-  - [ ] Head Librarian
-  - [ ] Jack Dee
-  - [ ] Obsidius Rex
-  - [ ] Riptide
-  - [ ] Rockstar
-  - [ ] Titan
-  - [ ] Vespa
+    - [ ] Multi-Class pregen (complete writeup)
+    - [ ] Dual-Class pregen  (complete writeup)
+  - [ ] Brigantia            (tbd ability)
+  - [ ] Energy Boy           (tbd ability)
+  - [ ] Grailknight          (tbd ability)
+  - [ ] Head Librarian       (tbd ability)
+  - [ ] Jack Dee             (tbd ability)
+  - [ ] Obsidius Rex         (tbd ability)
+  - [ ] Riptide              (tbd ability)
+  - [ ] Rockstar             (tbd ability)
+  - [ ] Titan                (tbd ability)
+  - [ ] Vespa                (tbd ability)
 - [/] Ideals
-  - [ ] Tie to approach?
+  - [ ] Tie to approach? (yes)
+    - [ ] Review pregens / NPCs
+      - [ ] Brigantia
+      - [ ] Energy Boy
+      - [ ] Grailknight
+      - [ ] Head Librarian
+      - [ ] Jack Dee
+      - [ ] Obsidius Rex
+      - [ ] Riptide
+      - [ ] Rockstar
+      - [ ] Titan
+      - [ ] Vespa
 - [/] Goals
   - [x] Smash
   - [x] Outwit
@@ -56,7 +70,7 @@ Cosmic Legends of the Universe
   - [/] Rescue
 - [x] Advancements
   - [x] Story Arc character
-  - [x] Everyone
+  - [x] Everyone else
 - [/] Powers
   - [x] Core
   - [x] Personal
@@ -85,6 +99,7 @@ Cosmic Legends of the Universe
 - [/] Crisis
   - [/] Countdown
     - [ ] Set the Scene
+      - [ ] Scene power words (examples)
     - [/] Hero Roll-Call
     - [x] Defining the Goals
     - [x] Assemble the Teamwork Pool
@@ -100,8 +115,9 @@ Cosmic Legends of the Universe
   - [ ] Post-Crisis
 - [/] Setting
   - [/] What's What?
-    - [/] Rockstar (bio)
-    - [x] Titan (bio)
+    - [/] Adam-42        (full entry)
+    - [/] Rockstar       (bio)
+    - [x] Titan          (bio)
     - [/] Villains, Inc. (backstory)
 - [ ] The Editor
   - [ ] Creating Story Arcs
