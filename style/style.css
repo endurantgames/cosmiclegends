@@ -2276,12 +2276,17 @@ width: calc(20 - 6 * 4pt / 5); }
 .classdata#class-shaper      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(139,   0, 139); }
 
 
-.cca ul li::marker { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; }
-.cca .pick.break  { content: 'B';     font-family: var(--font-bubble); float: left; }
-.cca .pick.ign    { content: 'i';     font-family: var(--font-bubble); float: left; }
-.cca .pick.na     { content: 'N';     font-family: var(--font-bubble); float: left; }
-.cca .pick.line   { content: 'L';     font-family: var(--font-bubble); float: left; }
-.cca .pick.veil   { content: 'V';     font-family: var(--font-bubble); float: left; }
+.cca ul li::marker { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; position: relative; }
+.cca .pick.break  { content: 'B';     font-family: var(--font-bubble); position: absolute; left: 0;  }
+.cca .pick.ign    { content: 'i';     font-family: var(--font-bubble); position: absolute; left: 0;  }
+.cca .pick.na     { content: 'N';     font-family: var(--font-bubble); position: absolute; left: 0;  }
+.cca .pick.line   { content: 'L';     font-family: var(--font-bubble); position: absolute; left: 0;  }
+.cca .pick.veil   { content: 'V';     font-family: var(--font-bubble); position: absolute; left: 0;  }
+
+.cca p { font-size: var(--small); }
+.cca h1 { column-span: all; }
+.cca h2 { column-span: all; }
+.cca h3 { column-span: all; }
 
 .cca .pick.recommend             { display: block;           }
 .cca .pick.recommend:before      { content: 'We recommend '; }
