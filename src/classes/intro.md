@@ -20,6 +20,9 @@ The Dynamo      Science, plus any two       Energy,              6     Energy Re
                                             Overload, plus
                                             one more
 
+The Expert      Any one Prime Skill,        Renowned,            0     World-Renowned Expertise
+                plus any two                Expertise
+
 The Haunt       Mystic, Historian, plus     Beyond, The,         6     Immaterial World
                 any two                     Grave
 
@@ -56,10 +59,15 @@ The Totem       Explorer, plus any two      Whatever, Can, plus  6     Force of 
 The Twins       Any two, plus any two       Twin, Powers,      6 + 6   Twin Powers, Activate!
                                             Activate!
 
-The Wheelman    Engineer, Pilot, plus       Stunt, Driving,     [6]    Unique Vehicle
-                any two                     plus one Vehicle
-                                            Core Power Word
+The Wheelman    Engineer, Pilot, plus       Stunt, Driving,   [6]      Unique Vehicle
+                any two                     plus one Vehicle  <sup> 1
+                                            Core Power Word   </sup>
  
 -----------------------------------------------------------------------------------------------
+
+## Notes:
+
+- <sup>1</sup> The Wheelman class gains Vehicle Power Words instead of Personal Power Words.
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

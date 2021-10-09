@@ -1,20 +1,13 @@
-::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
-# The Inventor {#toc-inventor .breakbefore .class}
+::::::::::::::::::::: { .classdata #class-expert } :::::::::::::::
+# The Expert {#toc-expert .breakbefore .class}
 
-> I've been itching to try out these new modifications in the field!
+> Actually, most people don't know this, but ...
 
-Other heroes may have been born with power, inherited power, or been
-changed by power -- but you *built* your own power with your own
-hand(s).
+Like the Knight and Inventor, you aren't a hero who relies on your
+super-powers. Instead, you're very skilled at one specific thing --
+and there are few in the world who can match your expertise.
 
-Whether you have a set of standard equipment, wear a powered suit of armor,
-or create whatever you need on the fly, your creations and Skills are more
-important than your own powers -- if you even have any.
-
-## Playing an Inventor
-
-Many Inventors tend toward support roles, and your ability to
-add to the Teamwork Pool while advancing a goal reflects this.
+## Playing an Expert
 
 Don't be afraid to use your Engineer, Hacker, Scientist, or
 other skills in conjunction with your Power Words to represent
@@ -22,37 +15,22 @@ making on-the-fly adjustments to whatever gear you carry.
 
 ## Questions
 
-As you create your Inventor hero, answer any or all of these questions.
+As you create your Expert hero, answer any or all of these questions.
 
 :::::::::: questions ::::::::::::::::::::::::
-- What kind of gear do you use? 
-  - How do you carry that equipment around with you? 
-  - What do your inventions look like? 
-  - Do you have a specialty or common themes that you tend to invent?
-- What potential applications for your tech could improve the world if
-  everyone had access to it? 
-  - How could your inventions be used to make the world a worse place? 
-  - What steps do you take to prevent that from happening? 
-  - Why don't the authorities fully trust those steps?
-  - In what way could your inventions be turned against you? 
-  - What's your blind spot when it comes to the implications of 
-    your own creations?
-- How did you come by your technical talents? 
-- What inspired you to create these inventions? 
-  - Why are you the only person who can use your inventions to their full
-    potential? 
-  - Who helped you create these inventions,
-    and how do they feel about you using them?
-- How do you pay for your inventions? 
-  - Are you publicly linked with your source of funding? 
-  - Do you hold patents on any of your inventions?
-  - Does anyone *else* hold patents on your inventions?
 :::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
-You have the **Engineer**, **Hacker**, and **Scientist** skills, plus two
-additional skills of your choice.
+Choose any one skill as your **Prime Skill**. Whenever you use that
+skill in a roll, double the number of dice you get from being skilled;
+i.e., from 1 to 2.
+
+Alternately, you can choose a **Prime Fighting Style** instead of a
+**Prime Skill**. Whenever you use that Fighting Style, double the number
+of dice granted by it; for example, if you chose Brawler, which says *Add 2 dice when you use an unarmed attack to advance the Smash goal*, you would instead add 4 dice when you use an unarmed attack to advance the Smash goal.
+
+In addition, choose any two additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
@@ -71,69 +49,48 @@ the next Hero Phase.
 
 ### Core Power Words
 
-Your Core Power Words are **Experimental** and **Prototype**.
+Your Core Power Words are **Renowned** and **Expert**.
+
+When you use a **Power Display,** you can add one Core Power Word for free.
+
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
 ### Personal Power Words
 
-Choose six Personal Power Words from the following list:
-
-::::::::::::: cpw :::::::
-- Adapation
-- Analyze
-- Dynamic
-- Emitter
-- Energetic
-- Force
-- Laser
-- Miniaturize
-- Redirection
-- Robotic
-- Rocketry
-- Protection
-- Telemetry
-- Transportation
-- Wings
-:::::::::::::::::::::::::
-
-When you use a **Power Display,** you can add one Personal Power Word for free.
-
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+Unlike other heroes, you don't have any Personal Power Words.
 
 ### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
-When you check off all your Ideals, your Nova Power Words are **Unlocked**
-until the end of the current Storyline.
-
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+Unlike other heroes, you don't have Nova Power Words. When you have
+marked all of your Ideals, you gain the standard Might refresh, but don't
+unlock any additional Nova Power Words.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Inventor Abilities {  .class}
+## Expert Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Inventor Abilities reflect permanent additions to your
-stock of creations.
+Your Expert Abilities reflect growing expertise in your primary field
+and a number of related fields.
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **No Wasted Effort** Prime ability common 
-to all Inventors.
+Your hero has the **World-Renowned Expertise** Prime ability common 
+to all Experts.
 
 :::::: {.ability-list .prime }::::::::::
-No Wasted Effort
+World-Renowned Expertise
 
-:   When you advance a Goal, you can choose to
-    add some or all of the roll's Effectiveness to 
-    the Teamwork Pool instead of using all of it
-    it to advance the Goal.
+:   When you chose your skills, you picked one as your
+    Prime Skill. Whenever you use that skill in a roll,
+    add 2 dice instead of 1 die.
+
+    If you chose a Prime Fighting Style instead of a Prime Skill,
+    double the number of dice that Fighting Style provides.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
