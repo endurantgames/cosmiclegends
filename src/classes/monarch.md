@@ -215,6 +215,7 @@ Unfamiliar Fighting Techniques
 
 :   You have trained in a number of fighting techniques
     unknown to the outside world.
+
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
 

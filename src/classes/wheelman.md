@@ -106,16 +106,16 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 0 Might.
 
 ::::::::::::: cpw :::::::
-- Ship
-- Boat
-- Spaceship
-- Jet
 - Barge
+- Boat
 - Car
+- Jet
 - Motorcycle
-- Truck
-- Tank
 - Saucer
+- Ship
+- Spaceship
+- Tank
+- Truck
 :::::::::::::::::::::::::
 
 ### Vehicle Scene Power Words
@@ -145,9 +145,11 @@ Word were one of the regular Scene Power Words.
 - Float
 - Glide
 - Ground
+- Harpoon
 - Horn
 - Hover
 - Intangible
+- Invisible
 - Jet
 - Jump
 - Landing
@@ -155,6 +157,7 @@ Word were one of the regular Scene Power Words.
 - Lights
 - Oil
 - Pontoons
+- Radar
 - Radio
 - Ramming
 - Rocket
@@ -252,6 +255,25 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
+Autonomous Operation
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle can act whenever you are unable to. At the end of each
+    Hero Phase, if you didn't make a move, then you can have your Vehicle
+    make a move -- using your own Approach scores, Skills, and Fighting 
+    Styles.
+
+Dude, Where's Your Car?
+
+:   *Prerequisite: __Autonomous Operation__ class ability.*
+    During the Roll-Call phase of a Crisis Countdown, you can decide 
+    if your Vehicle is present at the scene. If it isn't, then you 
+    can use the Timely Arrival move and pay only 1 success from the
+    Teamwork Pool, not 5 (the normal cost).
+
+    When your Vehicle arrives, you automatically enter it and are
+    in control of it.
+
 Intelligent Vehicle
 
 :   *Prerequisite: __Unique Vehicle__ class ability.*
@@ -265,18 +287,9 @@ Intelligent Vehicle
     In addition, choose one Skill possessed by the Vehicle. When you
     are in the Vehicle, you are considered to have that skill.
 
-    You *can* have a Vignette with your own Unique Vehicle.
+    You *can* have a Vignette with your own Unique Vehicle if it's
+    intelligent.
 
-Dude, Where's Your Car?
-
-:   *Prerequisite: __Autonomous Operation__ class ability.*
-    During the Roll-Call phase of a Crisis Countdown, you can decide 
-    if your Vehicle is present at the scene. If it isn't, then you 
-    can use the Timely Arrival move and pay only 1 success from the
-    Teamwork Pool, not 5 (the normal cost).
-
-    When your Vehicle arrives, you automatically enter it and are
-    in control.
     
 Haunted Vehicle
 
@@ -322,14 +335,6 @@ High-Tech Vehicle
 
     In addition, you gain the **Engineer Skill**.
 
-Autonomous Operation
-
-:   *Prerequisite: __Intelligent Vehicle__ class ability.*
-    Your Vehicle can act whenever you are unable to. At the end of each
-    Hero Phase, if you didn't make a move, then you can have your Vehicle
-    make a move -- using your own Approach scores, Skills, and Fighting 
-    Styles.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -340,10 +345,11 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 More than Meets the Eye
 
-:   Until you use one of your Vehicle Scene Power Words, your Unique
-    Vehicle appears to be a completely normal, ordinary vehicle of its
-    chosen type. At the end of each Crisis Countdown, your Unique
-    Vehicle loses its *Revealed* status if was *Revealed* before.
+:   Until you use one of your Vehicle Scene Power Words in a Power
+    Display, Stunt, or Combo, your Unique Vehicle appears to be a 
+    completely normal, ordinary vehicle of its chosen type. At the 
+    end of each Crisis Countdown, your Unique Vehicle loses its 
+    *Revealed* status if was *Revealed* before.  
 
     Once someone has used one of those Vehicle Scene Power
     Words, your Vehicle is *Revealed* until the current Crisis is 
@@ -374,17 +380,13 @@ TBD
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::: {.ability-list .v3 } ::::::
-Power Overwhelming
+TBD
 
-:   Your capacity for psionics is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
+:   To be determined.
 
-Skill Sharing
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Your mind link allows skills to be shared. 
-    Someone in your link is considered to have a skill if 
-    anyone in your link has that skill.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -393,12 +395,9 @@ Skill Sharing
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-Battlemind
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Your mind link allows Fighting Styles to be shared.
-    Someone in your link is considered to have a Fighting Style
-    if anyone in your link has that Fighting Style.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -407,12 +406,9 @@ Battlemind
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-Mantle of Inspiration
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Whenever you Add to the Teamwork Pool, increase the Effectiveness
-    by the number of heroes in your mind link -- to a maximum additional
-    number of successes equal to the Volume.    
+:   To be determined.
 
 TBD
 

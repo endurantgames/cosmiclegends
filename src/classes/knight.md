@@ -156,8 +156,9 @@ At the start of Volume 1, choose two abilities from this list.
 Team, Together!
 
 :   You are a natural leader and members of your hero team
-    listen to you.
-    Add 2 to the Dice Pool to add to the Teamwork Pool.
+    look to you for leadership.
+    Add 2 additional successes to the Dice Pool whenever you 
+    add to the Teamwork Pool.
 
 Toughness
 
@@ -206,9 +207,19 @@ Master of Skills
     skills equal to the Volume. Add an additional skill at the
     start of each later Volume.
 
-TBD
+Patriot
 
-:   To be determined.
+:   Add your home country's name as a Core Power Word. You also
+    gain a version of the Monarch's *For My Kingdom!* Prime
+    ability:
+
+    Whenever you roll to form or add to the Teamwork Pool,
+    you can declare the current Crisis is an existential
+    threat to your country. If you do, add 2 dice to that roll.
+
+    Whenever you add a Personal Power Word, you can choose from
+    either the Monarch Class Personal Power Word List or the
+    Knight Class Personal Power Word List.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -223,11 +234,19 @@ Implacable Foe
     Instead of losing Health, you can lose an equal
     amount of Might.
 
+Super-Patriot
+:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
+    a Volume 3 Knight Ability, you can choose a Volume 3 or lower
+    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
+
 Tactical Mastery
 
 :   Your mastery of combat techniques is unparalleled.
     Gain a number of fighting styles equal to the Volume.
-    Add an additional fighting style at the start of each later Volume.
+    Add an additional fighting style at the start of each 
+    later Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -236,13 +255,66 @@ Tactical Mastery
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Custom Super-Mobile
 
-:   To be determined.
+:   You have a custom-built vehicle unlike any other, and you
+    have a variant of the Wheelman Class's 
+    *_Unique Vehicle_ Class Ability.* Choose a Power Word from
+    the Wheelman Class Vehicle Core Power Word list as a Core
+    Power Word.
 
-TBD
+    Your Unique Vehicle's **Maximum Health** and
+    **Maximum Might** equal the **sum of your own Maximum
+    Health plus your Maximum Might**. When your maximum Health
+    or Might change, recalculate the Vehicle's Maximum Health
+    and Maximum Might.
 
-:   To be determined.
+    The type of vehicle matches the Vehicle Core Power Word
+    that you chose. Each Unique Vehicle has a set of Vehicle
+    Scene Power Words.
+
+    Your Unique Vehicle can comfortably carry a number of human-sized
+    passengers equal to the Volume.
+
+    Whenever you add a Personal Power Word, you can instead add
+    a Vehicle Scene Power Word from the Wheelman Class's Vehicle
+    Scene Power Words List.
+
+    In addition, you are considered to have the **Ace Fighting 
+    Style** whenever you are in your Unique Vehicle.
+
+Dread Creature of the Night
+
+:   You have chosen one specific type of animal to emulate, in
+    your war on crime. Choose one Power Word from the
+    Totem Class Nature Core Power Words List, and add it as a
+    Power Word. Unlike the Totem class, you don't physically or
+    spiritually become that animal; you just draw upon its abilities
+    as inspiration.
+
+    You have a variant of Totem Class's *_Does Whatever a Totem Can_
+    Class Ability:*
+    When you use your Nature Core Power Word in a Power Stunt or 
+    Combo roll, add 2 dice as if you had a skill or fighting style
+    that applies to such a use.
+
+Super-Patriot
+:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
+    a Volume 4 Knight Ability, you can choose a Volume 4 or lower
+    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, 
+    *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
+
+Vehicle Customization
+:   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
+    Instead of choosing a Volume 4 Knight Ability, you can choose 
+    a Volume 4 or lower Wheelman ability. *Intelligent Vehicle* (1st),
+    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
+    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
+    *Autonomous Operation (1st)*, and *More than Meets the Eye 
+    (2nd)* are among the most applicable Wheelman Class 
+    Abilities to consider.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -251,9 +323,26 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Super-Patriot
+:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
+    a Volume 5 Knight Ability, you can choose a Volume 5 or lower
+    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
 
-:   To be determined.
+    *Limitation:* You can't choose the *_Bestow Citizenship (5th)_ Monarch Class Ability* unless you are 
+    literally the Monarch of your home. (In such a situation, you may want to
+    consider becoming a Multi-Class or Dual-Class Monarch.)
+
+Vehicle Customization
+:   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
+    Instead of choosing a Volume 5 Knight Ability, you can choose 
+    a Volume 5 or lower Wheelman ability. *Intelligent Vehicle* (1st),
+    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
+    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
+    *Autonomous Operation (1st)*, and *More than Meets the Eye 
+    (2nd)* are among the most applicable Wheelman Class 
+    Abilities to consider.
 
 TBD
 

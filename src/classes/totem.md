@@ -348,7 +348,9 @@ Does Whatever a Totem Can
 
 :   When you use your Core or Nova Power Words in a Power Stunt
     or Combo roll, add 2 dice to as if you had a skill or fighting
-    style that applied to such a use.
+    style that applies to such a use. If you have a normal skill
+    or fighting style that could apply to a roll, only add the 
+    bonus dice from your *Does Whatever a Totem Can* Ability.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
