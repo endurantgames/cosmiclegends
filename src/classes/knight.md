@@ -5,9 +5,9 @@
 
 Most other heroes -- with the exception of some Inventors -- have
 superhuman powers and abilities. You're not like them. Your own
-training and talents are what made you what you are; you may have
-powers, you may have high-tech devices, but ultimately it comes
-down to your skill against someone else's.
+training and talents are what made you what you are: you may have a
+minor super-power, you may have high-tech devices, but ultimately 
+it comes down to your skill against someone else's.
 
 ## Playing a Knight
 
@@ -48,8 +48,8 @@ As you create your Knight hero, answer any or all of these questions.
 - Do you have any powers, and if so, how did you come by them?
   - In what ways can you combine those with your more mundane talents?
 - Who trained you, and why? 
+  - Are they still in your life, in some way? 
   - Are you on good or bad terms with them?
-  - Are they still in your life? 
   - Did you learn from one person, or from multiple masters? 
   - Did your instructor(s) have other students,
     and if so, how do you relate to each of them?
@@ -60,17 +60,16 @@ As you create your Knight hero, answer any or all of these questions.
 You have the **Criminal**, **Investigator**, and **Spy** skills, plus four
 additional skills of your choice.
 
-Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the Volume.
+Whenever you make a roll that uses your skill, add 2 dice to the Dice Pool.
 
 ## Power Words
 
 You can use your Power Words in the following ways:
 
-- As a **Power Display**, costing no Might
-- As a **Power Stunt**, costing 1 Might for each Word beyond the first
-- As a **Power Combo**, costing 1 Might and letting others join in
-- Joining a **Power Combo**, costing 1 Might.
+- As a **Power Display**, cost of no Might
+- As a **Power Stunt**, cost of 1 Might (no Might if a Core Power Word, Nova Power Word, or Scene Power Word) for each Word beyond the first
+- As a **Power Combo**, cost of 1 Might (no Might if a Core Power Word, Nova Power Word, or Scene Power Word) and letting others potentially join in
+- Joining a **Power Combo**, costing 1 Might (no Might if a Core Power Word, Nova Power Word, or Scene Power Word).
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -111,12 +110,22 @@ by paying 1 Might for each beyond the first.
 
 ### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
-When you check off all your Ideals, your Nova Power Words are **Unlocked**
+Choose any two or three single words you like; these are your 
+**Nova Power Words**.
+
+At the start of any Storyline, your Nova Power Words are **Locked** and
+you can't use them in Power Displays, Stunts, or Combos.
+
+When you mark all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your *Unlocked* Nova Power Words in a Power Stunt 
+or Combo for free; if you spend 1 Might, you can include a second 
+Nova Power Word as well.
+
+You can use one or more of your *Locked* Nova Power Words in a Power 
+Display, Stunt, or Combo by spending 1 Might per Nova Power Word. 
+The Nova Power Word remains *Locked*.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Percival, The Grailknight](art/jeshields/knight.png "Percival, the Grailknight"){.class}
@@ -175,13 +184,11 @@ Trick Arrows
     during the current Storyline without paying any Might.
 
 Weapons Locker
-
 :   You have a huge cache of conventional weapons.
     From the following list, pick a number equal to the
-    Volume and add those as Personal Power Words:
-    Bullets, Grenade, Handgun, Knife, Non-Lethal,
-    Reload, Rifle, Scope. 
-    Add one more at the start of each later Volume.
+    Volume and add those as Core Power Words: Bullets, Grenade, 
+    Handgun, Knife, Non-Lethal, Reload, Rifle, Scope, Sword, or Stun.
+    Add one more at the start of each subsequent Volume.
 
 TBD
 
@@ -197,15 +204,20 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 I Work Alone
 
 :   Some people are just reluctant team members.
-    When you roll to create the Teamwork Pool, you can
-    choose to add the roll's Effectiveness to your
+    When you roll to create or add to the Teamwork Pool, you 
+    can choose to add the roll's Effectiveness to your
     maximum and current Might instead of the Teamwork Pool.
 
 Master of Skills
 
 :   Your education covered a wide range of topics.  Gain a number of
     skills equal to the Volume. Add an additional skill at the
-    start of each later Volume.
+    start of each subsequent Volume.
+
+    *Repetition:* You can take this Ability more than once. When you
+    do, the three skills you gain must be different skills. You only gain
+    one skill at the start of each subsequent Volume, no matter how many
+    times you've taken this Ability.
 
 Patriot
 
@@ -220,6 +232,10 @@ Patriot
     Whenever you add a Personal Power Word, you can choose from
     either the Monarch Class Personal Power Word List or the
     Knight Class Personal Power Word List.
+
+    *Repetition:* You can take this Ability more than once. When you
+    do, choose a subsection of your original home country as a 
+    Core Power Word.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -248,6 +264,11 @@ Tactical Mastery
     Add an additional fighting style at the start of each 
     later Volume.
 
+    *Repetition:* You can choose this Ability more than once; 
+    each time, you must choose different Fighting Styles. Only
+    add one Fighting Style for each subsequent Volume, regardless
+    of how many times you've chosen this Ability.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
@@ -262,6 +283,10 @@ Custom Super-Mobile
     *_Unique Vehicle_ Class Ability.* Choose a Power Word from
     the Wheelman Class Vehicle Core Power Word list as a Core
     Power Word.
+
+    *Repetition:* You can choose this ability more than once. If
+    you do, track each Wheelman Class Power Words and Class Abilities
+    separately, assigning each to a specific vehicle.
 
     Your Unique Vehicle's **Maximum Health** and
     **Maximum Might** equal the **sum of your own Maximum
@@ -306,6 +331,9 @@ Super-Patriot
     *Inspiring Leadership (3rd)* are among the most applicable 
     Monarch Class Abilities to consider.
 
+    *Repetition:* You can choose this Ability more than once; each
+    time, you must choose a different Ability.
+
 Vehicle Customization
 :   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
     Instead of choosing a Volume 4 Knight Ability, you can choose 
@@ -316,6 +344,9 @@ Vehicle Customization
     (2nd)* are among the most applicable Wheelman Class 
     Abilities to consider.
 
+    *Repetition:* You can choose this Ability more than once; each
+    time, you must choose a different Ability.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -323,6 +354,15 @@ Vehicle Customization
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
+Change the Course of Mighty Rivers
+
+:   As a move during the Hero Phase, you can roll a Power Display,
+    Stunt, or Combo to affect the Scene. Choose a number of Scene
+    Power Words equal to the Effectiveness of the roll; those Scene
+    Power Words don't exist (and can't be used by you, the Editor's
+    characters, or any other Heroes) until the end of the current
+    Crisis, after which the Scene reset to normal.
+
 Super-Patriot
 :   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
     a Volume 5 Knight Ability, you can choose a Volume 5 or lower
@@ -331,8 +371,9 @@ Super-Patriot
     Monarch Class Abilities to consider.
 
     *Limitation:* You can't choose the *_Bestow Citizenship (5th)_ Monarch Class Ability* unless you are 
-    literally the Monarch of your home. (In such a situation, you may want to
-    consider becoming a Multi-Class or Dual-Class Monarch.)
+    literally the Monarch of your home country. 
+    (In such a situation, you may want to consider becoming a Multi-Class 
+    or Dual-Class Monarch.)
 
 Vehicle Customization
 :   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
@@ -343,10 +384,6 @@ Vehicle Customization
     *Autonomous Operation (1st)*, and *More than Meets the Eye 
     (2nd)* are among the most applicable Wheelman Class 
     Abilities to consider.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
