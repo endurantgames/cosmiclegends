@@ -527,7 +527,10 @@ Only a Child
 Pet
 
 :   You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
+    you on your heroic adventures. 
+
+    [Totem]{.crossover}
+    This partner has three Core Power Words --
     one chosen from the Totem Class's Totem Nature Power Words List,
     and two others from the Totem Class's Personal Power Words List -- 
     that you can use for free without spending Might, each once per Hero 
@@ -548,7 +551,7 @@ Magical Familiar
     Mage Class Personal Power Words List. 
 
 
-    [Divine, Mage]{.crossover}
+    [Divine, Mage]{.crossover .es}
     These become Core Power
     Words that you can use for free, each once per Hero Phase, as
     described in the *Pet* class ability.
@@ -563,7 +566,7 @@ Alien Pet
     Your pet isn't from Earth -- or might not even be from this universe,
     in the case of a magical pet.
 
-    [Monstrosity, Totem]{.crossover}
+    [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
     from the Monstrosity Class Personal Power Words List or the
     Paragon Class Personal Power Words List. These become Core Power
@@ -597,15 +600,16 @@ Regeneration
     Regain 1 Health at the start of the Hero Phase if you are at less than half of 
     your maximum Health but have at least 1 Health.
 
-Youthful Power
-
-:   You are a storehouse of indefatiguable energy. Increase your maximum 
-    Might by 5.
 
 Wild Strength
 
 :   You are as hard to take down as the hardiest of beasts. Increase your
     maximum Health by 5.
+
+Youthful Power
+
+:   You are a storehouse of indefatiguable energy. Increase your maximum 
+    Might by 5.
 
 Youthful Relatability
 

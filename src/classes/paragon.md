@@ -216,10 +216,9 @@ Power Overwhelming
 
 Never-Ending Battle
 
-:   You refuse to stay down if there are innocents in
-    danger. When you are at 0 Health or 0 Might, regain 1
-    point of each at the start of the next Hero Phase if
-    the Rescue goal can still be advanced.
+:   You refuse to stay down if there are innocents in danger. When you 
+    are at 0 Health or 0 Might, regain 1 point of each at the start of 
+    the next Hero Phase if the Rescue goal can still be advanced.
 
 TBD
 
@@ -236,8 +235,8 @@ Castle of Quiettude
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     You have a base of operations in a remote location. When
-    you make a skill roll in that building, add 2 to the dice
-    pool. This is a *Hero Cave* Ability.
+    you make a skill roll in that building, add 2 to the dice pool. 
+    This is a *Hero Cave* Ability.
 
 Nigh-Invulnerable
 

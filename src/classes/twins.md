@@ -1,7 +1,7 @@
 ::::::::::::::::::: { .classdata #class-twins } :::::::::::
 # The Twins {#toc-twins .breakbefore .class}
 
-> 
+> Twin Powers - Activate!
 
 ## Playing the Twins
 
@@ -358,81 +358,20 @@ At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
 
-Animal Partner
+TBD
+:   To Be Determined
 
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
-    one matching your Totem Nature Power Word, and two others from the
-    Totem Personal Power Words List -- that you can use for free without
-    spending Might, each once per Hero Phase. Your animal partner's 
-    Health and Might equal the Volume.
+TBD
+:   To Be Determined
 
-    Choose one Skill possessed by your Animal Partner, and a Fighting
-    Style. You can use that skill or Fighting Style whenever your 
-    Animal Partner is present during a Crisis.
+TBD
+:   To Be Determined
 
-    During any Hero Phase, either your hero can make a move or your
-    animal partner can make a move -- not both.
+TBD
+:   To Be Determined
 
-    *Prerequisite: The __Mystic Totem__ class ability.* 
-    If your animal partner is ever killed, they return to life at the 
-    end of the next Crisis Countdown, and join you as soon as they
-    can.
-
-Alien Totem
-
-:   You are not connected to normal earth creatures, but alien versions
-    of them. All of your abilities and power words work with similar creatures,
-    no matter what worlds they originate from.
-
-    In addition, add **Alien** as a Core Power Word.
-    
-How Do You Do Fellow Animals?
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You can automatically communicate with any creatures matching your
-    Totem Nature Power Word. They might not fully understand who you are and
-    what you want from them, but you can audibly speak back and forth, and get
-    information or possibly assistance from them, as if you were all sharing a
-    common language.
-
-Mystic Totem
-
-:   Your link to your nature totem is a result of mystical means, not 
-    technological a strictly scientific process. You gain the Mystic skill.
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Mage Class Personal Power Words List or the Divine Class Personal 
-    Power Words List.
-
-Summon Swarm 
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    As a move during the Hero Phase, you can spend 1 Might to call up a 
-    swarm of normal creatures of the same type as your Totem Nature Power Word. 
-    These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
-    Nature Power Word as a scene power word until the end of the crisis.
-
-Unkillable
-
-:   You get knocked down but you get up again. They're never gonna keep you 
-    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
-
-Unbeatable
-
-:   Your powers cause people to under-estimate you and you actually punch can
-    punch far above your normal weight class.
-    Whenever you have one or more companions of the same type as your
-    Totem Nature Power Word present -- including from the *Animal Companion* or
-    *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
-    you make to advance any goal.
-
-Variable Totem
-
-:   At the start of the Hero Phase, you can change your Totem Nature Core 
-    Power Word to any other power word on the Totem Nature Core Power
-    Words List. All of your abilities use the new Totem Nature until the
-    start of the next Crisis Phase.
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -442,44 +381,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Animal Instincts
+TBD
+:   To Be Determined
 
-:   Whenever you roll Suspense or Mystery to advance the Allay or
-    Outwit goals, add 2 dice.
+TBD
+:   To Be Determined
 
-Humanity's Best Friend
-
-:   Whenever you roll to add to the Teamwork pool or advance the Rescue
-    or Allay goals, add 1 die for every human hero present, to a maximum 
-    number of extra dice equal to the Volume.
-
-Savage Instincts
-
-:   Gain a number of Fighting Styles equal to the Volume, chosen from the
-    following list. At the start of each subsequent Volume, gain 1 more 
-    Fighting Style from this list.
-
-    - Acrobat
-    - Brawler
-    - Controller
-    - Demolisher
-    - Frenzy
-    - Find Weakness
-    - Guerilla
-    - Interceptor
-    - Harrier
-    - Martial Artist
-    - Meteor
-    - Rescuer
-    - Tactician
-    - Warlord
-
-    You can't ever gain the following Fighting Styles, from any source:
-    - Ace
-    - Makeshift Weapons
-    - Medic
-    - Sharpshooter
-    - Weapon Master
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -493,31 +402,14 @@ Savage Instincts
 - 
 :::::::::::::::::::::::::
 
-Misunderstood Monster
+TBD
+:   To Be Determined
 
-:   Even at your most animalistic, you wouldn't harm an innocent.
-    Add 2 to the dice pool when you advance the Allay
-    or Rescue goals. 
-    Whenever you choose a Personal Power Word,
-    you can choose from the Totem Class Nature Power Words List,
-    or the Totem Personal Power Words List.  Add any from the latter as 
-    Core Power Words.
+TBD
+:   To Be Determined
 
-Regeneration
-
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
-
-Wild Power
-
-:   You are a storehouse of natural energy. Increase your maximum Might 
-    by 5.
-
-Wild Strength
-
-:   You are as hard to take down as the mightiest of beasts. Increase your
-    maximum Health by 5.
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -526,30 +418,17 @@ Wild Strength
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
+TBD
 
-:   There are few things that can seriously harm you.  Increase your maximum 
-    Health by 5.
+:   To be determined.
 
-Power Burn
+TBD
 
-:   You can call upon your life-force to fuel your powers.  You can spend 
-    Health whenever you would normally spend Might. Increase your maximum
-    Health by 3.
+:   To be determined.
 
-Soul Bond
+TBD
 
-:   *Prerequisite: Humanity's Best Friend.*
-    You have a quasi-mystical bond with another person. Choose a
-    consenting hero who is essentially human. 
-
-    You gain the Psychic class's **Our Minds As One** Prime ability,
-    but only with your chosen hero. In addition, you gain **Soul**
-    and **Bond** as Core Power Words.
-
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Totem Class Personal Power Words List, or the Psychic Class Personal 
-    Power Words List.  Add any from the latter as Core Power Words.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -558,16 +437,13 @@ Soul Bond
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
+TBD
 
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
+:   To be determined.
 
-Immortal Totem
+TBD
 
-:   *Prerequisite: Mystic Totem* You might be seriously wounded, but you'll never stay dead. 
-    If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
-    start of the next Hero Phase.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

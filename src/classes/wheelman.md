@@ -261,7 +261,7 @@ Autonomous Operation
     Your Vehicle can act whenever you are unable to. At the end of each
     Hero Phase, if you didn't make a move, then you can have your Vehicle
     make a move -- using your own Approach scores, Skills, and Fighting 
-    Styles.
+    Styles, if needed.
 
 Dude, Where's Your Car?
 
@@ -297,6 +297,7 @@ Haunted Vehicle
     Your Vehicle isn't merely intelligent, but is possessed by the
     ghost of a human or other creature. 
 
+    [Haunt]{.crossover}
     Choose one Personal Power Word from the Haunt class and add it as
     a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
     Power Word, you can choose from the Haunt Personal Power Words List
@@ -311,6 +312,7 @@ Cursed Vehicle
     Like the *Haunted Vehicle* class ability, your Vehicle is possessed
     by a supernatural creature.
 
+    [Hellspawn]{.crossover}
     Choose one Personal Power Word from the Hellspawn class and add it as
     a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
     Power Word, you can choose from the Hellspan Personal Power Words
@@ -326,7 +328,10 @@ High-Tech Vehicle
 
     Choose one Personal Power Word from the Inventor Class Personal
     Power Words List or the Construct Class Personal Power Words List,
-    and add it as a Vehicle Scene Power Word. Whenever
+    and add it as a Vehicle Scene Power Word. 
+
+    [Inventor]{.crossover}
+    Whenever
     you add a new Vehicle Scene Power Word, you can choose from the
     Inventor Class Personal Power Words List, the Vehicle Scene Power Words
     List, or the Construct Class Personal Power Words List; such Power 

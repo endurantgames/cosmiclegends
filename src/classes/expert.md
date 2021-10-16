@@ -113,6 +113,11 @@ Flexible Faculties
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
+Hero Cave
+
+:   *Prerequisite: You can't have another __Hero Cave__Ability.*
+    This is a *Hero Cave* Ability.
+
 Perspicacious Pettifoggery
 
 :   Using your vast vocabulary of super-scientific knowledge, you can 
@@ -122,9 +127,10 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   You have a base of operations at the top of a tall building.
-    When you make a skill roll in that building, add 2 
-    to the dice pool.
+:   *Prerequisite: You can't have another __Hero Cave__Ability.*
+    You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 to the dice pool.
+    This is a *Hero Cave* Ability.
 
 TBD
 

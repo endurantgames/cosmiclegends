@@ -145,15 +145,13 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Psychic Abilities {  .class}
 
-Each Volume, you gain a new ability from your class.
-Your Wheelman abilities are new upgrades and changes to your
-*Unique Vehicle*.
+Each Volume, you gain a new ability from your class.  Your Wheelman 
+abilities are new upgrades and changes to your *Unique Vehicle*.
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Unique Vehicle** Prime ability common
-to all Wheelmen.
+Your hero has the **Unique Vehicle** Prime ability common to all Wheelmen.
 
 :::::: {.ability-list .prime }::::::::::
 Unique Vehicle

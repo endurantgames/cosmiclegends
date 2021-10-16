@@ -214,6 +214,11 @@ Iron Giant
     Monstrosity Class Personal Power Words List. Add the latter as 
     Core Power Words.
 
+It's Alive!
+
+:   If you are ever killed, you return to life at the end of the next Crisis
+    Countdown, with maximum Health and Might.
+
 Perfect Recall
 
 :   *Prerequisite: You can't have the Golem class ability.* You can perfectly remember, describe, and repeat back anything you read,
@@ -222,11 +227,6 @@ Perfect Recall
     Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
     Inventor Class Personal Power Words List. Add the latter as 
     Core Power Words.
-
-It's Alive!
-
-:   If you are ever killed, you return to life at the end of the next Crisis
-    Countdown, with maximum Health and Might.
 
 The Modern Prometheus
 
@@ -250,7 +250,10 @@ The Modern Prometheus
 
 Purpose-Built
 
-:   You were created with a specific function in mind. Add up to two 
+:   You were created with a specific function in mind. 
+
+    [Dynamo, Shaper]{.crossover .es}
+    Add up to two 
     Power Words from the Dynamo Energy Power Word List as Core Power
     Words, up to two Power Words from the Shaper Elemental Power Word
     List as Core Power Words, or up to two Power Words from the Inventor
@@ -270,6 +273,8 @@ Purpose-Built
 Purpose-Crafted
 
 :   *Prerequisite: Golem* You were crafted with a specific function in mind.
+
+    [Mage, Shaper]{.crossover .es}
     Add up to two Power Words from the Mage Power Word List as Core Power
     Words, up to two Power Words from the Shaper Elemental Power Word
     List as Core Power Words, or up to two Power Words from the Divine Personal

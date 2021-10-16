@@ -219,9 +219,10 @@ Unfamiliar Fighting Techniques
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
 
-TBD
+Palace of the Privileged
 
-:   To be determined.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -242,10 +243,9 @@ Soul of the Land
 :   Whenever you are in your home, you can draw upon your
     connection to the land. 
 
-    Add *Land* and *Soul* as Personal
-    Power Words; when you use one of them in a Power Stunt or Power
-    Combo while in your home, it doesn't cost any Might. (Adding
-    both costs 1 Might.)
+    Add *Land* and *Soul* as Personal Power Words; when you use one 
+    of them in a Power Stunt or Power Combo while in your home, 
+    it doesn't cost any Might. (Adding both costs 1 Might.)
 
 :::::::::::::::::::::::::::::::::::::
 

@@ -155,9 +155,11 @@ Mists of Misdirection
 
 Sanctuary of Sanctity
 
-:   You have a base of operations hidden in a normal-looking building
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a base of operations hidden in a normal-looking building
     or tower. When you make a skill roll in that building, add 2
     to the dice pool.
+    This is a *Hero Cave* Ability.
 
 Theurgy
 
@@ -211,7 +213,7 @@ Diabloist
     but perhaps you've stolen power from Hell to use on the
     side of angels?
 
-    [Hellspawn]{.crossover}
+    [Hellspawn, Mage]{.crossover .es}
     You have a variant of the Hellspawn Class's Prime
     Ability *Infernal Wrath*: *Hellish Rebuke.*
 
@@ -245,10 +247,10 @@ Arcane Infusion
 
 Healing Mantra
 
-:   You can use your magic to heal your allies. As an action, roll a
-    Power Display, Stunt, or Combo. One or more heroes of your choice
-    regain a total amount of Health equal to the Effectiveness of your
-    roll plus the Volume.
+:   []{.move .hero} You can use your magic to heal your allies. 
+    As your move during the Hero Phase, roll a Power Display, Stunt, or 
+    Combo. One or more heroes of your choice regain a total amount of 
+    Health equal to the Effectiveness of your roll plus the Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
