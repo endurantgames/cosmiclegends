@@ -80,25 +80,7 @@ the next Hero Phase.
 
 ### Core Power Words
 
-Your Core Power Words are **Sculpt** and **Environment**.
-
-In addition, you get a third Core Power Word -- known as your
-Element Power Word -- chosen from the following list:
-
-::::::::::::: cpw :::::::
-- Earth
-- Force
-- Gravity
-- Ice
-- Metal
-- Paper
-- Plants
-- Rock
-- Shadows
-- Technology
-- Water
-- Weather
-:::::::::::::::::::::::::
+Your Core Power Words are *TBD*.
 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
@@ -127,8 +109,8 @@ Choose six Personal Power Words from the following list:
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+You can use two Power Personal Words together to form a **Power Stunt** 
+or **Power Combo** by paying 1 Might for each beyond the first.
 
 ### Nova Power
 
@@ -136,8 +118,8 @@ Choose any two single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+if you spend 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::: { .classpic .wide } :::::::::::::::::::::::
 ![Riptide, the Wave-Wielding Wonder](art/jeshields/shaper.png "Riptide, the Wave-Wielding Wonder"){.class .wide}
@@ -145,9 +127,8 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Shaper Abilities {  .class}
 
-Each Volume, you gain a new ability from your class.
-Your Shaper Abilities show a widening diversity in the 
-applications of your control power.
+Each Volume, you gain a new ability from your class.  Your Shaper Abilities 
+show a widening diversity in the applications of your control power.
 Each ability can be chosen only once.
 
 ### Prime Ability
@@ -177,7 +158,10 @@ At the start of Volume 1, choose two abilities from this list.
 Energy Generation
 
 :   In addition to your ability to control physical elements,
-    you can also create it as well. Add one Word from the
+    you can also create it as well. 
+
+    [Dynamo]{.crossover}
+    Add one Word from the
     Dynamo's Energy Power Word list as a Personal Power Word.
 
 Force Field

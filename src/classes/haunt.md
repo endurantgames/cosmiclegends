@@ -379,6 +379,7 @@ Animal Partner
     spending Might, each once per Hero Phase. Your animal partner's 
     Health and Might equal the Volume.
 
+    [Totem]{.crossover}
     Choose one Skill possessed by your Animal Partner, and a Fighting
     Style. You can use that skill or Fighting Style whenever your 
     Animal Partner is present during a Crisis.
@@ -393,8 +394,9 @@ Animal Partner
 
 Alien Totem
 
-:   You are not connected to normal earth creatures, but alien versions
-    of them. All of your abilities and power words work with similar creatures,
+:   You are not connected to normal earth creatures, but alien versions of them. 
+
+    All of your abilities and power words work with similar creatures,
     no matter what worlds they originate from.
 
     In addition, add **Alien** as a Core Power Word.
@@ -412,6 +414,8 @@ Mystic Totem
 
 :   Your link to your nature totem is a result of mystical means, not 
     technological a strictly scientific process. You gain the Mystic skill.
+
+    [Mage]{.crossover}
     Whenever you choose a Personal Power Word, you can choose from the 
     Mage Class Personal Power Words List or the Divine Class Personal 
     Power Words List.
@@ -424,11 +428,6 @@ Summon Swarm
     These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
     Nature Power Word as a scene power word until the end of the crisis.
 
-Unkillable
-
-:   You get knocked down but you get up again. They're never gonna keep you 
-    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
-
 Unbeatable
 
 :   Your powers cause people to under-estimate you and you actually punch can
@@ -437,6 +436,11 @@ Unbeatable
     Totem Nature Power Word present -- including from the *Animal Companion* or
     *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
     you make to advance any goal.
+
+Unkillable
+
+:   You get knocked down but you get up again. They're never gonna keep you 
+    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
 
 Variable Totem
 

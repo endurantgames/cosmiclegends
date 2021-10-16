@@ -159,8 +159,7 @@ At the start of Volume 1, choose two abilities from this list.
 
 Stamina of Atlas
 
-:   You are tougher than a mere mortal. 
-    Increase your maximum Health by 5.
+:   You are tougher than a mere mortal. Increase your maximum Health by 5.
 
 Strength of Kratos
 
@@ -173,6 +172,8 @@ Weapon of the Gods
 :   You have a weapon that is unique in the universe, possibly 
     crafted by a deity of the forge. Decide on the specific
     weapon, and add that weapon's proper name as a Core Power Word. 
+
+    [Dynamo, Shaper]{.crossover}
     In addition, choose either one Energy Power Word from the Dynamo 
     class or one Element Power Word from the Shaper list, and use that 
     as Personal Power Word whenever you have your weapon.

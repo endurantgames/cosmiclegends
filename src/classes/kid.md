@@ -545,7 +545,11 @@ Magical Familiar
 :   *Prerequisite: You must have the __Pet__ class ability.*
     Whenever you choose a Core Power Word for your Pet, you can
     choose from the Divine Class Personal Power Words List or the
-    Mage Class Personal Power Words List. These become Core Power
+    Mage Class Personal Power Words List. 
+
+
+    [Divine, Mage]{.crossover}
+    These become Core Power
     Words that you can use for free, each once per Hero Phase, as
     described in the *Pet* class ability.
 
@@ -559,6 +563,7 @@ Alien Pet
     Your pet isn't from Earth -- or might not even be from this universe,
     in the case of a magical pet.
 
+    [Monstrosity, Totem]{.crossover}
     Whenever you choose a Core Power Word for your Pet, you can choose 
     from the Monstrosity Class Personal Power Words List or the
     Paragon Class Personal Power Words List. These become Core Power
@@ -575,11 +580,13 @@ Holy Catchphrase!
     
 Intelligent Pet
 
-:   *Prerequisite: You must hve the __Pet__ class ability.*
+:   *Prerequisite: You must have the __Pet__ class ability.*
     Your pet is smarter than an average animal of that type. It can
     communicate intelligently in one language that you choose when
     you gain this class ability, although its voice is clearly
-    non-human. In addition, choose a second Skill possessed by
+    non-human. 
+
+    In addition, choose a second Skill possessed by
     the Pet, and one Approach. Whenever your Pet is present at a
     Crisis, add 3 dice whenever you make a roll using the chosen
     Approach.
@@ -597,7 +604,7 @@ Youthful Power
 
 Wild Strength
 
-:   You are as hard to take down as the mightiest of beasts. Increase your
+:   You are as hard to take down as the hardiest of beasts. Increase your
     maximum Health by 5.
 
 Youthful Relatability

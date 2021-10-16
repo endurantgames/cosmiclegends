@@ -44,8 +44,10 @@ During Issue 0 or the start of an Issue, you should ask
 the other players and the Editor about whether they view
 reading someone's mind without consent as the same kind
 of violation. Are surface thoughts fine, but deep memories
-not? You *need* to have these kinds of talks, as a group,
-before it comes up in play.
+not? 
+
+You *need* to have these kinds of talks, as a group,
+*before* it comes up during game play.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Questions
@@ -74,8 +76,7 @@ As you create your Psychic hero, answer any or all of these questions.
 
 ## Skills
 
-You have the **Academic** skill, plus two
-additional skills of your choice.
+You have the **Academic** skill, plus two additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.

@@ -397,12 +397,14 @@ How Do You Do Fellow Animals?
     Totem Nature Power Word. They might not fully understand who you are and
     what you want from them, but you can audibly speak back and forth, and get
     information or possibly assistance from them, as if you were all sharing a
-    common language.
+    common language that is unintelligible to anyone else listening.
 
 Mystic Totem
 
 :   Your link to your nature totem is a result of mystical means, not 
     technological a strictly scientific process. You gain the Mystic skill.
+
+    [Divine, Mage]{.crossover .es}
     Whenever you choose a Personal Power Word, you can choose from the 
     Mage Class Personal Power Words List or the Divine Class Personal 
     Power Words List.

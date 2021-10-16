@@ -164,7 +164,8 @@ At the start of Volume 1, choose two abilities from this list.
 ::::: {.ability-list .v1 } ::::::::::
 Azimovian Disciple
 
-:   *Prerequisite: You can't have the Golem class ability.* Isaac Azimov's three laws of robotics are like scripture to you. 
+:   *Prerequisite: You can't have the Golem class ability.* 
+    Isaac Azimov's three laws of robotics are like scripture to you. 
     As long as you abide by them, add 2 dice whenever you roll to advance
     the Allay or Rescue goals. If you deliberately break one, you lose this
     benefit until you successfully resolve a Crisis.
@@ -186,17 +187,21 @@ Efficient Response
 Even An Android Can Cry
 
 :   *Prerequisite: Humaniform Robot* 
-    *Prerequisite: You can't have the Golem class ability.* Add 2 to the dice pool when you display 
+    *Prerequisite: You can't have the Golem class ability.* 
+    Add 2 to the dice pool when you display 
     human emotions while trying to advance the Allay or Rescue goals.
 
 Golem
 
-:   You were created through mystical means, not technological ones. Replace
-    your Engineer and Hacker skills with Academic, Historian, and Mystic.
+:   You were created through mystical means, not technological ones. 
+    
+    [Mage]{.crossover}
+    Replace your Engineer and Hacker skills with Academic, Historian, and Mystic.
 
 Humaniform Robot
 
-:   *Prerequisite: You can't have the Golem class ability.* Some humans suspect that you approximate humanity with more accuracy than they
+:   *Prerequisite: You can't have the Golem class ability.* 
+    Some humans suspect that you approximate humanity with more accuracy than they
     actually live it. Replace two of your skills with Artist and Performer.
 
 Iron Giant
@@ -209,7 +214,7 @@ Iron Giant
     Monstrosity Class Personal Power Words List. Add the latter as 
     Core Power Words.
 
-Instant Recall
+Perfect Recall
 
 :   *Prerequisite: You can't have the Golem class ability.* You can perfectly remember, describe, and repeat back anything you read,
     hear, or see. If you use this ability in a dice roll, spend 1 Might to add 
@@ -281,8 +286,10 @@ Self-Repair Circuits
 
 Unique Energy Source
 
-:   You can draw upon a rare form of energy that suffuses your artificial
-    form. Add one Power Word from the Dynamo Energy Power List as a Core
+:   You can draw upon a rare form of energy that suffuses your artificial form. 
+
+    [Dynamo]{.crossover}
+    Add one Power Word from the Dynamo Energy Power List as a Core
     Power Word, and up to three Power Words from the Dynamo Personal Power
     Word List as Personal Power Words. If you start a Hero Phase with fewer 
     than 2 Might, immediately refresh Might equal to the Volume. Increase your

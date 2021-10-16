@@ -161,17 +161,16 @@ Eight Ball, Corner Pocket
 
 Fight Fire With Fire
 
-:   If a Crisis threatens you or someone else with
-    harm from energy blasts, you can fire off a
-    blast of energy that intercepts and blocks it.
-    You can spend points of Might instead of points from
+:   If a Crisis threatens you or someone else with harm from energy 
+    blasts, you can fire off a blast of energy that intercepts and 
+    blocks it.  You can spend points of Might instead of points from
     the Teamwork Pool to counter energy-themed effects.
 
 Wide Angle
 
-:   You can spread your energy in a burst that hits
-    many targets. When you advance the Smash goal by
-    at least 1, advance another goal by 1.
+:   You can spread your energy in a burst that hits many targets. 
+    When you advance the Smash goal by at least 1, advance another goal 
+    by 1.
 
 TBD
 
@@ -186,8 +185,11 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Energy Shaping
 
-:   Add a Word from the Shaper class's Personal Power Word list
-    as a Personal Power Word. You can take this ability more than once.
+:   [Shaper]{.crossover}
+    Add a Word from the Shaper class's Personal Power Word list
+    as a Personal Power Word. 
+
+    You can take this ability more than once.
 
 Energy Versatility
 

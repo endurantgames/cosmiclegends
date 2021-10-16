@@ -234,9 +234,10 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 ::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
 
-:   You have a base of operations in a remote location. When
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a base of operations in a remote location. When
     you make a skill roll in that building, add 2 to the dice
-    pool.
+    pool. This is a *Hero Cave* Ability.
 
 Nigh-Invulnerable
 
@@ -256,6 +257,7 @@ Strange Visitor from Another Planet
     with advanced super-science. You have a variant of the
     Inventor Class's *No Wasted Effort* Prime Ability:
 
+    [Inventor]{.crossover}
     Whenever you advance a Goal, you can choose to add 1
     success from the roll's Effectiveness to the Teamwork
     Pool instead of using all of it to advance the Goal.

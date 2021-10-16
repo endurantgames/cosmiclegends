@@ -240,7 +240,9 @@ Inspiring Leadership
 Soul of the Land
 
 :   Whenever you are in your home, you can draw upon your
-    connection to the land. Add *Land* and *Soul* as Personal
+    connection to the land. 
+
+    Add *Land* and *Soul* as Personal
     Power Words; when you use one of them in a Power Stunt or Power
     Combo while in your home, it doesn't cost any Might. (Adding
     both costs 1 Might.)

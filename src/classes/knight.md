@@ -177,18 +177,34 @@ Toughness
 Trick Arrows
 
 :   You have specialized weapons, each for a different job.
+
+    [Dynamo, Paragon]{.crossover}
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Paragon Personal Power Words lists
     equal to the Volume.
+
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
 Weapons Locker
 :   You have a huge cache of conventional weapons.
     From the following list, pick a number equal to the
-    Volume and add those as Core Power Words: Bullets, Grenade, 
-    Handgun, Knife, Non-Lethal, Reload, Rifle, Scope, Sword, or Stun.
-    Add one more at the start of each subsequent Volume.
+    Volume and add those as Core Power Words: 
+    
+    Weapons Locker Core Power Words List:
+    - Bullets 
+    - Grenade
+    - Handgun
+    - Knife
+    - Non-Lethal
+    - Reload
+    - Rifle
+    - Scope
+    - Sword 
+    - Stun
+
+    At the start of each subsequent Volume, add one more from
+    the list as a Core Power Word.
 
 TBD
 
@@ -288,7 +304,7 @@ Custom Super-Mobile
     you do, track each Wheelman Class Power Words and Class Abilities
     separately, assigning each to a specific vehicle.
 
-    *Crossover: Wheelman*
+    [Wheelman]{.crossover}
     Your Unique Vehicle's **Maximum Health** and
     **Maximum Might** equal the **sum of your own Maximum
     Health plus your Maximum Might**. When your maximum Health
@@ -312,13 +328,16 @@ Custom Super-Mobile
 Dread Creature of the Night
 
 :   You have chosen one specific type of animal to emulate, in
-    your war on crime. Choose one Power Word from the
+    your war on crime. 
+
+    [Totem]{.crossover}
+    Choose one Power Word from the
     Totem Class Nature Core Power Words List, and add it as a
     Power Word. Unlike the Totem class, you don't physically or
     spiritually become that animal; you just draw upon its abilities
     as inspiration.
 
-    *Crossover: Totem* You have a variant of Totem Class's 
+    You have a variant of Totem Class's 
     *_Does Whatever a Totem Can_ Class Ability:*
     When you use your Nature Core Power Word in a Power Stunt or 
     Combo roll, add 2 dice as if you had a skill or fighting style

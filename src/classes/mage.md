@@ -159,14 +159,33 @@ Sanctuary of Sanctity
     or tower. When you make a skill roll in that building, add 2
     to the dice pool.
 
+Theurgy
+
+:   Your magic is grounded in the magic of the Gods themselves.
+    Choose one Power Word from the Divine Class Personal Power 
+    Word List as a Core Power Word.
+
+    You have a variant of the Divine Class Prime Ability
+    *_Give Me Strength!_*: *Invoke the Divine.*
+
+    When you use your Core or Nova Power Words in a Power
+    Stunt or Combo, you can count 6s as two successes 
+    instead of 1. If you do, lose either 1 Health or 1
+    Might after your roll, regardless of how many extra
+    successes you gained.
+
+    Instead of choosing a Volume 2 Mage Ability, you can
+    choose a Volume 2 or lower Ability from the Divine
+    Class. *Weapon of the Gods (1st)*, 
+    *Speed of Hermes (2nd)* and
+    *Skill of Artemis (3rd)* are among the most applicable
+    Divine Class Abilities to consider.
+    
 Thinking with Portals
 
 :   Add Portal as a Personal Power Word. You can make the General
-    Alert move without spending from the Teamwork Pool.
+    Alert move for free, without spending from the Teamwork Pool.
 
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -180,17 +199,35 @@ Arcane Arsenal
 :   At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
+
+    [Psychic, Shaper]{.crossover}
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+Diabloist
+
+:   Much of your power is drawn from the pits of Hell and
+    other dark sources. You might not serve evil directly, 
+    but perhaps you've stolen power from Hell to use on the
+    side of angels?
+
+    [Hellspawn]{.crossover}
+    You have a variant of the Hellspawn Class's Prime
+    Ability *Infernal Wrath*: *Hellish Rebuke.*
+
+    Add *Flame*, *Darkness* and *Demon* as Core Power Words. 
+    Whenever you add a Personal Power Word, you can pick 
+    either one from the Hellspawn Class Personal Power Words 
+    List or the Mage Class Personal Power Words List.
+
+    Instead of choosing a Volume 3 or higher Mage Ability,
+    you can choose a Hellspawn Class Ability of the same
+    Volume or lower.
+    
 Eldritch Might
 
 :   Your power continues to grow, but at what cost? Increase your
     maximum Might by 5.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -203,7 +240,7 @@ Arcane Infusion
 
 :   You can impart some of your magical power to another hero.
     Choose two of your Power Words. Until the
-    end of the current Storyline, they gain those Words as Personal
+    end of the current Storyline, they gain those Words as Core 
     Power Words. You can only do this once per Storyline.
 
 Healing Mantra
