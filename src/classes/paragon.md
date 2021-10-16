@@ -250,9 +250,29 @@ Nigh-Invulnerable
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Strange Visitor from Another Planet
 
-:   To be determined.
+:   You aren't from Earth, but are instead from another planet
+    with advanced super-science. You have a variant of the
+    Inventor Class's *No Wasted Effort* Prime Ability:
+
+    Whenever you advance a Goal, you can choose to add 1
+    success from the roll's Effectiveness to the Teamwork
+    Pool instead of using all of it to advance the Goal.
+
+    Choose one Power Word from the Inventor Class's
+    Personal Power Word List and add it as a Core Power Word.
+
+    Whenever you add a new Personal Power Word, you can
+    choose from the Inventor Personal Power Words List or
+    the Paragon Personal Power Words List.
+
+    Instead of choosing a Paragon Class Ability of Volume 3
+    or higher, you can choose an Inventor Class Ability of
+    the same or lower Volume. *Persipacacious Pettifoggery (1st)*,
+    *Stately Skyscraper (1st)*,  *Puissant Polymath (2nd)*, 
+    and *Overclocked Systems (3rd)* are among the most 
+    applicable Inventor Class Abilities to consdier.
 
 TBD
 

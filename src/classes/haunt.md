@@ -3,6 +3,13 @@
 
 > 
 
+You're dead.
+
+Sorry about the bad news.
+
+But for whatever reason ... you are cursed to walk the Earth, along
+the narrow line between life and death.
+
 ## Playing a Haunt
 
 You have Skills, Abilities, and possibly other Power Words that 
@@ -37,8 +44,10 @@ As you create your Haunt hero, answer any or all of these questions.
     adult heroes?
 - What kind of interests do you have that surprise other people? 
   - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
+- Why do you still walk the Earth?
+  - What (or who) prevents you from moving on to an afterlife?
+  - How can your spirit finally be laid to rest?
+  - Would your hero take the opportunity to move on, or fight against it?
 ::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
@@ -323,11 +332,12 @@ Choose at least two but no more than four single words you like;
 these are your **Nova Power Words**, and together are known as your
 **Nova Power Phrase**.
 
-When you check off all your Ideals, your Nova Power Words are 
-**Unlocked** until the end of the current Storyline.
+When you mark all your Ideals, your Nova Power Words are **Unlocked** 
+until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for 
+free; if you spend 1 Might, you can include the second Nova Power Word 
+as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 

@@ -288,6 +288,7 @@ Custom Super-Mobile
     you do, track each Wheelman Class Power Words and Class Abilities
     separately, assigning each to a specific vehicle.
 
+    *Crossover: Wheelman*
     Your Unique Vehicle's **Maximum Health** and
     **Maximum Might** equal the **sum of your own Maximum
     Health plus your Maximum Might**. When your maximum Health
@@ -317,8 +318,8 @@ Dread Creature of the Night
     spiritually become that animal; you just draw upon its abilities
     as inspiration.
 
-    You have a variant of Totem Class's *_Does Whatever a Totem Can_
-    Class Ability:*
+    *Crossover: Totem* You have a variant of Totem Class's 
+    *_Does Whatever a Totem Can_ Class Ability:*
     When you use your Nature Core Power Word in a Power Stunt or 
     Combo roll, add 2 dice as if you had a skill or fighting style
     that applies to such a use.
@@ -332,7 +333,7 @@ Super-Patriot
     Monarch Class Abilities to consider.
 
     *Repetition:* You can choose this Ability more than once; each
-    time, you must choose a different Ability.
+    time, you must choose a different Monarch Ability.
 
 Vehicle Customization
 :   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 

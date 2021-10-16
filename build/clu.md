@@ -4,6 +4,40 @@ lang: en-US
 title: Cosmic Legends of the Universe
 ...
 
+:::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
+![Cover Image](art/cover.png "Cover Image"){#img-cover} \ 
+
+![Cosmic Legends of the Universe](art/title-image.png "Cosmic Legends of the Universe"){#img-title} \ 
+
+<h1>Cosmic Legends of the Universe</h1>
+
+<h2> The World's Greatest Four-Color TTRPG! </h2>
+
+::::::::::: {#coverbox} :::::::::::::
+
+- Spindrift
+- Games
+- 1495*&cent;*
+- 2021
+- SEPT
+- *NOT* APPROVED BY THE COMICS CODE AUTHORITY
+- &nbsp;
+- ?
+- ?
+- ?
+- ?
+- ?
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::: {.hype} ::::::::::::::::
+- **Who** are the **Legends**?
+- **What** are their **Secrets**?
+- **How** did they get their **Powers**?
+- The **answers** will **shock** you!
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::{ #elk .header } :::::::::::::::::::::
 # Elk
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -515,253 +549,6 @@ in future sessions. This could include particular interactions
 between heroes, potential story moments and development, or 
 anything else that could make the game even better in the future.
 
-:::::::::::::::::::: cca ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## CODE OF THE COMICS MAGAZINE ASSOCIATION OF AMERICA, INC.
-
-### Adopted October 26, 1954
-
-#### PREAMBLE
-
-The comic-book medium, having come of age on the American cultural scene, 
-must measure up to its responsibilities.
-
-Constantly improving techniques and higher standards go hand in hand with 
-these responsibilities.
-
-To make a positive contribution to contemporary life, the industry must seek 
-new areas for developing sound, wholesome entertainment. The people 
-responsible for writing, drawing, printing, publishing, and selling comic 
-books have done a commendable job in the past, and have been striving toward 
-this goal.
-
-Their record of progress and continuing improvement compares favorably with 
-other media in the communications industry. An outstanding example is the 
-development of comic books as a unique and effective tool for instruction and 
-education. Comic books have also made their contribution in the field of 
-letters and criticism of contemporary life.
-
-In keeping with the American tradition, the members of this industry will and 
-must continue to work together in the future.
-
-In the same tradition, members of the industry must see to it that gains made 
-in this medium are not lost and that violations of standards of good taste, 
-which might tend toward corruption of the comic book as an instructive and 
-wholesome form of entertainment, will be eliminated.
-
-Therefore, the Comics Magazine Association of America, Inc. has adopted this 
-code, and placed strong powers of enforcement in the hands of an independent 
-code authority.
-
-Further, members of the association have endorsed the purpose and spirit of 
-this code as a vital instrument to the growth of the industry.
-
-To this end, they have pledged themselves to conscientiously adhere to its 
-principles and to abide by all decisions based on the code made by the 
-administrator.
-
-They are confident that this positive and forthright statement will provide an 
-effective bulwark for the protection and enhancement of the American reading 
-public, and that it will become a landmark in the history of self-regulation 
-for the entire communications industry.
-
-### CODE FOR EDITORIAL MATTER
-
-#### General standards—Part A
-
-For each of the following, decide whether your group wants 
-to []{.pick .break}           __deliberately break__          this rule, 
-   []{.pick .ign}             __ignore the existence__        of this rule,
-   []{.pick .na}    decide it __doesn't apply in your game__,
-   []{.pick .line}            __draw a hard line__            against the described content, 
-or []{.pick .veil}            __draw a veil__                 whenever such content arises.
-
-You should always feel empowered to re-negotiate the choices recorded here;
-no one can know with 100% certainty how any specific content in-game is going
-to affect them.
-
-- Crimes shall never be presented in such a way as to create sympathy for the 
-  criminal, to promote distrust of the forces of law and justice, or to inspire 
-  others with a desire to imitate criminals.
-  []{.recommend .pick .break}
-
-- No comics shall explicitly present the unique details and methods of a crime.
-  []{.recommend .pick .veil}
-
-- Policemen, judges, Government officials and respected 
-  institutions shall never be presented in such a way as to create disrespect 
-  for established authority. []{.recommend .pick .break}
-
-- If crime is depicted it shall be as a sordid and unpleasant activity.
-  []{.recommend .pick .veil}
-
-- Criminals shall not be presented so as to be rendered glamorous or to occupy 
-  a position which creates a desire for emulation.  []{.recommend .pick .break}
-
-- In every instance good shall triumph over evil and the criminal punished 
-  for his misdeeds.  []{.recommend .pick .na}
-
-- Scenes of excessive violence shall be prohibited. Scenes of brutal torture, 
-  excessive and unnecessary knife and gunplay, physical agony, gory and gruesome 
-  crime shall be eliminated. []{.recommend .pick .line}
-
-- No unique or unusual methods of concealing weapons shall be shown.
-  []{.recommend .pick .na}
-
-- Instances of law-enforcement officers dying as a result of a criminal’s 
-  activities should be discouraged. []{.recommmend .pick .ign}
-
-- The crime of kidnapping shall never be portrayed in any detail, nor shall any 
-  profit accrue to the abductor or kidnaper. The criminal or the kidnaper must be 
-  punished in every case. []{.recommend .pick .ign}
-
-- The letters of the word “crime” on a comics-magazine cover shall never be 
-  appreciably greater in dimension than the other words contained in the title. 
-  The word “crime” shall never appear alone on a cover. []{.recommend .pick .na}
-
-- Restraint in the use of the word “crime” in titles or subtitles shall be exercised.
-  []{.recommend .pick .na}
-
-#### General standards—Part B
-
-- No comic magazine shall use the word horror or terror in its title.
-  []{.recommend .pick .na}
-
-- All scenes of horror, excessive bloodshed, gory or gruesome crimes, depravity, 
-  lust, sadism, masochism shall not be permitted.  []{.recommend .pick .veil}
-
-- All lurid, unsavory, gruesome illustrations shall be eliminated.
-  []{.recommend .pick .veil}
-
-- Inclusion of stories dealing with evil shall be used or shall be published 
-  only where the intent is to illustrate a moral issue and in no case shall 
-  evil be presented alluringly, nor so as to injure the sensibilities of the reader.
-  []{.recommend .pick .ign}
-
-- Scenes dealing with, or instruments associated with walking dead, torture, 
-  vampires and vampirism, ghouls, cannibalism, and werewolfism are prohibited.
-  []{.recommend .pick .ign}
-
-#### General standards—Part C
-
-All elements or techniques not specifically mentioned herein, but which are 
-contrary to the spirit and intent of the code, and are considered violations of 
-good taste or decency, shall be prohibited.
-
-### Dialogue
-
-- Profanity, obscenity, smut, vulgarity, or words or symbols which have acquired 
-  undesirable meanings are forbidden.
-  []{.recommend .pick .veil}
-
-- Special precautions to avoid references to physical afflictions or deformities
-  shall be taken. []{.recommend .pick .ign}
-
-- Although slang and colloquialisms are acceptable, excessive use should be 
-  discouraged and, wherever possible, good grammar shall be employed.
-  []{.recommend .pick .na}
-
-### Religion
-
-- Ridicule or attack on any religious or racial group is never permissible.
-  []{.recommend .pick .veil}
-
-### Costume
-
-- Nudity in any form is prohibited, as is indecent or undue exposure.
-  []{.recommend .pick .line}
-
-- Suggestive and salacious illustration or suggestive posture is unacceptable.
-  []{.recommend .pick .line}
-
-- All characters shall be depicted in dress reasonably acceptable to society.
-  []{.recommend .pick .veil}
-
-- Females shall be drawn realistically without exaggeration of any physical qualities.
-  []{.recommend .pick .veil}
-
-### NOTE.
-
-— It should be recognized that all prohibitions dealing with costume, dialog, 
-  or artwork applies as specifically to the cover of a comic magazine as they do 
-  to the contents.
-
-Marriage and sex
-
-- Divorce shall not be treated humorously nor represented as desirable.
-  []{.recommend .pick .ign}
-
-- Illicit sex relations are neither to be hinted at nor portrayed. 
-  Violent love scenes as well as sexual abnormalities are unacceptable.
-  []{.recommend .pick .ign}
-
-- Respect for parents, the moral code, and for honorable behavior shall be 
-  fostered. A sympathetic understanding of the problems of love is not a 
-  license for morbid distortion.
-  []{.recommend .pick .break}
-
-- The treatment of live-romance stories shall emphasize the value of the 
-  home and the sanctity of marriage. []{.recommend .pick .break}
-
-- Passion or romantic interest shall never be treated in such a way as to 
-  stimulate the lower and baser emotions. []{.recommend .pick .ign}
-
-- Seduction and rape shall never be shown or suggested.
-  []{.recommend .pick .veil}
-
-- Sex perversion or any inference to same is strictly forbidden.
-  []{.recommend .pick .veil}
-
-### CODE FOR ADVERTISING MATTER
-
-These regulations are applicable to all magazines published by members of the 
-Comics Magazine Association of America, Inc. Good taste shall be the guiding 
-principle in the acceptance of advertising.
-
-- Liquor and tobacco advertising is not acceptable.
-  []{.recommend .pick .na}
-
-- Advertisement of sex or sex instruction books are unacceptable.
-  []{.recommend .pick .na}
-
-- The sale of picture postcards, “pinups,” "art studies," or any other 
-  reproduction of nude or seminude figures is prohibited.
-  []{.recommend .pick .na}
-
-- Advertising for the sale of knives or realistic gun facsimiles is prohibited.
-  []{.recommend .pick .na}
-
-- Advertising for the sale of fireworks is prohibited.
-  []{.recommend .pick .na}
-
-- Advertising dealing with the sale of gambling equipment or printed matter 
-  dealing with gambling shall not be accepted.  []{.recommend .pick .na}
-
-- Nudity with meretricious purpose and salacious postures shall not be 
-  permitted in the advertising of any product; clothed figures shall never be 
-  presented in such a way as to be offensive or contrary to good taste or morals.
-  []{.recommend .pick .na}
-
-- To the best of his ability, each publisher shall ascertain that all statements 
-  made in advertisements conform to fact and avoid misrepresentation.
-  []{.recommend .pick .na}
-
-- Advertisement of medical, health, or toiletry products of questionable nature 
-  are to be rejected. Advertisements for medical, health, or toiletry products 
-  endorsed by the American Medical Association, or the American Dental Association, 
-  shall be deemed acceptable if they conform with all other conditions of the 
-  Advertising Code. []{.recommend .pick .na}
-
-:::::::::::::::::::::::: copyright-note :::::::::::::::::::::::::::::::::::::::::::
-Source: Senate Committee on the Judiciary, Comic Books and Juvenile Delinquency,
-Interim Report, 1955 (Washington, D.C.: United States Government Printing Office, 
-1955).
-
-This work is in the public domain in the United States because it is a work of 
-the United States federal government (see 17 U.S.C. 105).
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Overview of Play {#toc-overview .colbefore }
 
 1. []{.gamename} is played as a series of **Storylines**, each
@@ -779,6 +566,43 @@ the United States federal government (see 17 U.S.C. 105).
 5. Once each player has had the Spotlight to address their 
    hero's Opportunity, that **Volume** of the campaign wraps up
    with an **Annual**.
+
+
+## Using the Dice {#toc-dice .breakbefore}
+
+The dice mechanic in []{.gamename} is a **dice pool** of six-sided dice. 
+When a player wants to take an uncertain action, they build a dice pool.
+
+- One die for every point they have in the relevant Facet
+- One die for every Volume if they have a relevant Skill
+- Two dice if they can mark off one of their Ideals
+- One die for every Power Word beyond the first
+- Other dice from any other source
+
+ Die Roll   Result
+----------  ---------------------
+    6       +1 Success
+    5       +1 Success
+    4       --
+    3       --
+    2       --
+    1       Edge Success
+
+Any dice that come up a 5 or a 6 are counted as Successes. 
+A challenging task can require 1-3 Successes to complete (outside combat).
+
+Any dice that come up 2, 3, or 4 are ignored.
+
+Any dice that come up 1 are counted as Edge Successes. 
+When a player rolls a 1, they inform the Editor, 
+who offers them a consequence. 
+
+If the player chooses to take the Editor’s consequence, 
+they count the 1 as a Success.
+
+This consequence can be mechanical, like losing Health, or it can be 
+narrative, like upsetting an NPC or missing an important clue. 
+The important part is that the player is presented with a difficult choice.
 
 
 ## From Issues to Volumes {#toc-issues .breakbefore}
@@ -1818,6 +1642,9 @@ The Dynamo      Science, plus any two       Energy,              6     Energy Re
                                             Overload, plus
                                             one more
 
+The Expert      Any one Prime Skill,        Renowned,            0     World-Renowned Expertise
+                plus any two                Expertise
+
 The Haunt       Mystic, Historian, plus     Beyond, The,         6     Immaterial World
                 any two                     Grave
 
@@ -1854,11 +1681,16 @@ The Totem       Explorer, plus any two      Whatever, Can, plus  6     Force of 
 The Twins       Any two, plus any two       Twin, Powers,      6 + 6   Twin Powers, Activate!
                                             Activate!
 
-The Wheelman    Engineer, Pilot, plus       Stunt, Driving,     [6]    Unique Vehicle
-                any two                     plus one Vehicle
-                                            Core Power Word
+The Wheelman    Engineer, Pilot, plus       Stunt, Driving,   [6]      Unique Vehicle
+                any two                     plus one Vehicle  <sup> 1
+                                            Core Power Word   </sup>
  
 -----------------------------------------------------------------------------------------------
+
+### Notes:
+
+- <sup>1</sup> The Wheelman class gains Vehicle Power Words instead of Personal Power Words.
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -3117,6 +2949,220 @@ Immortal
     If you're reduced to 0 Health or
     0 Might, regain 1 point of each at the start of the
     next Hero Phase.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::: { .classdata #class-expert } :::::::::::::::
+### The Expert {#toc-expert .breakbefore .class}
+
+> Actually, most people don't know this, but ...
+
+Like the Knight and Inventor, you aren't a hero who relies on your
+super-powers. Instead, you're very skilled at one specific thing --
+and there are few in the world who can match your expertise.
+
+#### Playing an Expert
+
+Don't be afraid to use your Engineer, Hacker, Scientist, or
+other skills in conjunction with your Power Words to represent
+making on-the-fly adjustments to whatever gear you carry.
+
+#### Questions
+
+As you create your Expert hero, answer any or all of these questions.
+
+:::::::::: questions ::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::
+
+#### Skills
+
+Choose any one skill as your **Prime Skill**. Whenever you use that
+skill in a roll, double the number of dice you get from being skilled;
+i.e., from 1 to 2.
+
+Alternately, you can choose a **Prime Fighting Style** instead of a
+**Prime Skill**. Whenever you use that Fighting Style, double the number
+of dice granted by it; for example, if you chose Brawler, which says *Add 2 dice when you use an unarmed attack to advance the Smash goal*, you would instead add 4 dice when you use an unarmed attack to advance the Smash goal.
+
+In addition, choose any two additional skills of your choice.
+
+Whenever you make a roll that uses your skill, roll an additional number of 
+dice equal to the Volume.
+
+#### Power Words
+
+You can use your Power Words in the following ways:
+
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
+##### Core Power Words
+
+Your Core Power Words are **Renowned** and **Expert**.
+
+When you use a **Power Display,** you can add one Core Power Word for free.
+
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Unlike other heroes, you don't have any Personal Power Words.
+
+##### Nova Power
+
+Unlike other heroes, you don't have Nova Power Words. When you have
+marked all of your Ideals, you gain the standard Might refresh, but don't
+unlock any additional Nova Power Words.
+
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Expert Abilities {.class}
+
+Each Volume, you gain a new ability from your class.
+Your Expert Abilities reflect growing expertise in your primary field
+and a number of related fields.
+Each ability can be chosen only once.
+
+##### Prime Ability
+
+Your hero has the **World-Renowned Expertise** Prime ability common 
+to all Experts.
+
+:::::: {.ability-list .prime }::::::::::
+World-Renowned Expertise
+
+:   When you chose your skills, you picked one as your
+    Prime Skill. Whenever you use that skill in a roll,
+    add 2 dice instead of 1 die.
+
+    If you chose a Prime Fighting Style instead of a Prime Skill,
+    double the number of dice that Fighting Style provides.
+
+::::::::::::::::::::::::::::::::::::::::::
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose two abilities from this list.
+
+:::::: { .ability-list .v1 } ::::::::
+
+Armorsmith
+
+:   You've invented a suit of armor. Add Armor as a Core
+    Power Word and one Personal Power Word from the Dynamo's
+    or Paragon's Personal Power Word list.
+
+Flexible Faculties
+
+:   Your abilities extend beyond your inventive endeavours, as you
+    possess an actual super-power. Add one Personal Power Word from 
+    the Monarch, Monstrosity, or Psychic class lists as a 
+    Personal Power Word.
+
+Perspicacious Pettifoggery
+
+:   Using your vast vocabulary of super-scientific knowledge, you can 
+    easily out-technobabble your opponents. When you roll to advance
+    the Outwit goal, add the largest number of syllables in a Power
+    Word you're using to the dice pool, with a maximum of 2 + the Volume.
+
+Stately Skyscraper
+
+:   You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 
+    to the dice pool.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+:::: {.ability-list .v2} ::::::::::::
+Puissant Polymath
+
+:   Your education covered a wide range of topics.  Gain a number of 
+    skills equal to the Volume. Add an additional skill at the 
+    start of each subsequent Volume.
+
+Weaponsmith
+
+:   You've created a number of weapons with a wide variety of effects.
+    At the start of each Storyline, pick a number of Power Words
+    from the Dynamo or Shaper Personal Power Words lists
+    equal to the Volume.
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+::::::::: {.ability-list .v3} :::::::
+Absorption Field
+
+:   Your defenses include an inertia-dampening force field
+    that block harm to you. Instead of losing Health, you can
+    lose an equal amount of Might.
+
+Overclocked Systems
+
+:   When you use a Power Display, Stunt, or Combo, choose one
+    of the Power Words you're using. Count all 6s in your roll
+    as 2 successes instead of 1. You then lose the use of that
+    Word after the Display, Stunt, or Combo and don't regain
+    it until the end of the current Crisis.
+
+:::::::::::::::::::::::::::::::::::::
+
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -4424,7 +4470,7 @@ Puissant Polymath
 
 :   Your education covered a wide range of topics.  Gain a number of 
     skills equal to the Volume. Add an additional skill at the 
-    start of each later Volume.
+    start of each subsequent Volume.
 
 Weaponsmith
 
@@ -5153,9 +5199,9 @@ TBD
 
 Most other heroes -- with the exception of some Inventors -- have
 superhuman powers and abilities. You're not like them. Your own
-training and talents are what made you what you are; you may have
-powers, you may have high-tech devices, but ultimately it comes
-down to your skill against someone else's.
+training and talents are what made you what you are: you may have a
+minor super-power, you may have high-tech devices, but ultimately 
+it comes down to your skill against someone else's.
 
 #### Playing a Knight
 
@@ -5196,8 +5242,8 @@ As you create your Knight hero, answer any or all of these questions.
 - Do you have any powers, and if so, how did you come by them?
   - In what ways can you combine those with your more mundane talents?
 - Who trained you, and why? 
+  - Are they still in your life, in some way? 
   - Are you on good or bad terms with them?
-  - Are they still in your life? 
   - Did you learn from one person, or from multiple masters? 
   - Did your instructor(s) have other students,
     and if so, how do you relate to each of them?
@@ -5208,17 +5254,16 @@ As you create your Knight hero, answer any or all of these questions.
 You have the **Criminal**, **Investigator**, and **Spy** skills, plus four
 additional skills of your choice.
 
-Whenever you make a roll that uses your skill, roll an additional number of 
-dice equal to the Volume.
+Whenever you make a roll that uses your skill, add 2 dice to the Dice Pool.
 
 #### Power Words
 
 You can use your Power Words in the following ways:
 
-- As a **Power Display**, costing no Might
-- As a **Power Stunt**, costing 1 Might for each Word beyond the first
-- As a **Power Combo**, costing 1 Might and letting others join in
-- Joining a **Power Combo**, costing 1 Might.
+- As a **Power Display**, cost of no Might
+- As a **Power Stunt**, cost of 1 Might (no Might if a Core Power Word, Nova Power Word, or Scene Power Word) for each Word beyond the first
+- As a **Power Combo**, cost of 1 Might (no Might if a Core Power Word, Nova Power Word, or Scene Power Word) and letting others potentially join in
+- Joining a **Power Combo**, costing 1 Might (no Might if a Core Power Word, Nova Power Word, or Scene Power Word).
 
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
@@ -5259,12 +5304,22 @@ by paying 1 Might for each beyond the first.
 
 ##### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
-When you check off all your Ideals, your Nova Power Words are **Unlocked**
+Choose any two or three single words you like; these are your 
+**Nova Power Words**.
+
+At the start of any Storyline, your Nova Power Words are **Locked** and
+you can't use them in Power Displays, Stunts, or Combos.
+
+When you mark all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your *Unlocked* Nova Power Words in a Power Stunt 
+or Combo for free; if you spend 1 Might, you can include a second 
+Nova Power Word as well.
+
+You can use one or more of your *Locked* Nova Power Words in a Power 
+Display, Stunt, or Combo by spending 1 Might per Nova Power Word. 
+The Nova Power Word remains *Locked*.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Percival, The Grailknight](art/jeshields/knight.png "Percival, the Grailknight"){.class}
@@ -5304,8 +5359,9 @@ At the start of Volume 1, choose two abilities from this list.
 Team, Together!
 
 :   You are a natural leader and members of your hero team
-    listen to you.
-    Add 2 to the Dice Pool to add to the Teamwork Pool.
+    look to you for leadership.
+    Add 2 additional successes to the Dice Pool whenever you 
+    add to the Teamwork Pool.
 
 Toughness
 
@@ -5322,13 +5378,11 @@ Trick Arrows
     during the current Storyline without paying any Might.
 
 Weapons Locker
-
 :   You have a huge cache of conventional weapons.
     From the following list, pick a number equal to the
-    Volume and add those as Personal Power Words:
-    Bullets, Grenade, Handgun, Knife, Non-Lethal,
-    Reload, Rifle, Scope. 
-    Add one more at the start of each later Volume.
+    Volume and add those as Core Power Words: Bullets, Grenade, 
+    Handgun, Knife, Non-Lethal, Reload, Rifle, Scope, Sword, or Stun.
+    Add one more at the start of each subsequent Volume.
 
 TBD
 
@@ -5344,19 +5398,38 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 I Work Alone
 
 :   Some people are just reluctant team members.
-    When you roll to create the Teamwork Pool, you can
-    choose to add the roll's Effectiveness to your
+    When you roll to create or add to the Teamwork Pool, you 
+    can choose to add the roll's Effectiveness to your
     maximum and current Might instead of the Teamwork Pool.
 
 Master of Skills
 
 :   Your education covered a wide range of topics.  Gain a number of
     skills equal to the Volume. Add an additional skill at the
-    start of each later Volume.
+    start of each subsequent Volume.
 
-TBD
+    *Repetition:* You can take this Ability more than once. When you
+    do, the three skills you gain must be different skills. You only gain
+    one skill at the start of each subsequent Volume, no matter how many
+    times you've taken this Ability.
 
-:   To be determined.
+Patriot
+
+:   Add your home country's name as a Core Power Word. You also
+    gain a version of the Monarch's *For My Kingdom!* Prime
+    ability:
+
+    Whenever you roll to form or add to the Teamwork Pool,
+    you can declare the current Crisis is an existential
+    threat to your country. If you do, add 2 dice to that roll.
+
+    Whenever you add a Personal Power Word, you can choose from
+    either the Monarch Class Personal Power Word List or the
+    Knight Class Personal Power Word List.
+
+    *Repetition:* You can take this Ability more than once. When you
+    do, choose a subsection of your original home country as a 
+    Core Power Word.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5371,11 +5444,24 @@ Implacable Foe
     Instead of losing Health, you can lose an equal
     amount of Might.
 
+Super-Patriot
+:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
+    a Volume 3 Knight Ability, you can choose a Volume 3 or lower
+    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
+
 Tactical Mastery
 
 :   Your mastery of combat techniques is unparalleled.
     Gain a number of fighting styles equal to the Volume.
-    Add an additional fighting style at the start of each later Volume.
+    Add an additional fighting style at the start of each 
+    later Volume.
+
+    *Repetition:* You can choose this Ability more than once; 
+    each time, you must choose different Fighting Styles. Only
+    add one Fighting Style for each subsequent Volume, regardless
+    of how many times you've chosen this Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5384,13 +5470,76 @@ Tactical Mastery
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Custom Super-Mobile
 
-:   To be determined.
+:   You have a custom-built vehicle unlike any other, and you
+    have a variant of the Wheelman Class's 
+    *_Unique Vehicle_ Class Ability.* Choose a Power Word from
+    the Wheelman Class Vehicle Core Power Word list as a Core
+    Power Word.
 
-TBD
+    *Repetition:* You can choose this ability more than once. If
+    you do, track each Wheelman Class Power Words and Class Abilities
+    separately, assigning each to a specific vehicle.
 
-:   To be determined.
+    Your Unique Vehicle's **Maximum Health** and
+    **Maximum Might** equal the **sum of your own Maximum
+    Health plus your Maximum Might**. When your maximum Health
+    or Might change, recalculate the Vehicle's Maximum Health
+    and Maximum Might.
+
+    The type of vehicle matches the Vehicle Core Power Word
+    that you chose. Each Unique Vehicle has a set of Vehicle
+    Scene Power Words.
+
+    Your Unique Vehicle can comfortably carry a number of human-sized
+    passengers equal to the Volume.
+
+    Whenever you add a Personal Power Word, you can instead add
+    a Vehicle Scene Power Word from the Wheelman Class's Vehicle
+    Scene Power Words List.
+
+    In addition, you are considered to have the **Ace Fighting 
+    Style** whenever you are in your Unique Vehicle.
+
+Dread Creature of the Night
+
+:   You have chosen one specific type of animal to emulate, in
+    your war on crime. Choose one Power Word from the
+    Totem Class Nature Core Power Words List, and add it as a
+    Power Word. Unlike the Totem class, you don't physically or
+    spiritually become that animal; you just draw upon its abilities
+    as inspiration.
+
+    You have a variant of Totem Class's *_Does Whatever a Totem Can_
+    Class Ability:*
+    When you use your Nature Core Power Word in a Power Stunt or 
+    Combo roll, add 2 dice as if you had a skill or fighting style
+    that applies to such a use.
+
+Super-Patriot
+:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
+    a Volume 4 Knight Ability, you can choose a Volume 4 or lower
+    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, 
+    *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
+
+    *Repetition:* You can choose this Ability more than once; each
+    time, you must choose a different Ability.
+
+Vehicle Customization
+:   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
+    Instead of choosing a Volume 4 Knight Ability, you can choose 
+    a Volume 4 or lower Wheelman ability. *Intelligent Vehicle* (1st),
+    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
+    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
+    *Autonomous Operation (1st)*, and *More than Meets the Eye 
+    (2nd)* are among the most applicable Wheelman Class 
+    Abilities to consider.
+
+    *Repetition:* You can choose this Ability more than once; each
+    time, you must choose a different Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5399,13 +5548,36 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Change the Course of Mighty Rivers
 
-:   To be determined.
+:   As a move during the Hero Phase, you can roll a Power Display,
+    Stunt, or Combo to affect the Scene. Choose a number of Scene
+    Power Words equal to the Effectiveness of the roll; those Scene
+    Power Words don't exist (and can't be used by you, the Editor's
+    characters, or any other Heroes) until the end of the current
+    Crisis, after which the Scene reset to normal.
 
-TBD
+Super-Patriot
+:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
+    a Volume 5 Knight Ability, you can choose a Volume 5 or lower
+    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
 
-:   To be determined.
+    *Limitation:* You can't choose the *_Bestow Citizenship (5th)_ Monarch Class Ability* unless you are 
+    literally the Monarch of your home country. 
+    (In such a situation, you may want to consider becoming a Multi-Class 
+    or Dual-Class Monarch.)
+
+Vehicle Customization
+:   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
+    Instead of choosing a Volume 5 Knight Ability, you can choose 
+    a Volume 5 or lower Wheelman ability. *Intelligent Vehicle* (1st),
+    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
+    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
+    *Autonomous Operation (1st)*, and *More than Meets the Eye 
+    (2nd)* are among the most applicable Wheelman Class 
+    Abilities to consider.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5877,6 +6049,7 @@ Unfamiliar Fighting Techniques
 
 :   You have trained in a number of fighting techniques
     unknown to the outside world.
+
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
 
@@ -7402,7 +7575,9 @@ Does Whatever a Totem Can
 
 :   When you use your Core or Nova Power Words in a Power Stunt
     or Combo roll, add 2 dice to as if you had a skill or fighting
-    style that applied to such a use.
+    style that applies to such a use. If you have a normal skill
+    or fighting style that could apply to a roll, only add the 
+    bonus dice from your *Does Whatever a Totem Can* Ability.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -8587,16 +8762,16 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 0 Might.
 
 ::::::::::::: cpw :::::::
-- Ship
-- Boat
-- Spaceship
-- Jet
 - Barge
+- Boat
 - Car
+- Jet
 - Motorcycle
-- Truck
-- Tank
 - Saucer
+- Ship
+- Spaceship
+- Tank
+- Truck
 :::::::::::::::::::::::::
 
 ##### Vehicle Scene Power Words
@@ -8626,9 +8801,11 @@ Word were one of the regular Scene Power Words.
 - Float
 - Glide
 - Ground
+- Harpoon
 - Horn
 - Hover
 - Intangible
+- Invisible
 - Jet
 - Jump
 - Landing
@@ -8636,6 +8813,7 @@ Word were one of the regular Scene Power Words.
 - Lights
 - Oil
 - Pontoons
+- Radar
 - Radio
 - Ramming
 - Rocket
@@ -8733,6 +8911,25 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
+Autonomous Operation
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Your Vehicle can act whenever you are unable to. At the end of each
+    Hero Phase, if you didn't make a move, then you can have your Vehicle
+    make a move -- using your own Approach scores, Skills, and Fighting 
+    Styles.
+
+Dude, Where's Your Car?
+
+:   *Prerequisite: __Autonomous Operation__ class ability.*
+    During the Roll-Call phase of a Crisis Countdown, you can decide 
+    if your Vehicle is present at the scene. If it isn't, then you 
+    can use the Timely Arrival move and pay only 1 success from the
+    Teamwork Pool, not 5 (the normal cost).
+
+    When your Vehicle arrives, you automatically enter it and are
+    in control of it.
+
 Intelligent Vehicle
 
 :   *Prerequisite: __Unique Vehicle__ class ability.*
@@ -8746,18 +8943,9 @@ Intelligent Vehicle
     In addition, choose one Skill possessed by the Vehicle. When you
     are in the Vehicle, you are considered to have that skill.
 
-    You *can* have a Vignette with your own Unique Vehicle.
+    You *can* have a Vignette with your own Unique Vehicle if it's
+    intelligent.
 
-Dude, Where's Your Car?
-
-:   *Prerequisite: __Autonomous Operation__ class ability.*
-    During the Roll-Call phase of a Crisis Countdown, you can decide 
-    if your Vehicle is present at the scene. If it isn't, then you 
-    can use the Timely Arrival move and pay only 1 success from the
-    Teamwork Pool, not 5 (the normal cost).
-
-    When your Vehicle arrives, you automatically enter it and are
-    in control.
     
 Haunted Vehicle
 
@@ -8803,14 +8991,6 @@ High-Tech Vehicle
 
     In addition, you gain the **Engineer Skill**.
 
-Autonomous Operation
-
-:   *Prerequisite: __Intelligent Vehicle__ class ability.*
-    Your Vehicle can act whenever you are unable to. At the end of each
-    Hero Phase, if you didn't make a move, then you can have your Vehicle
-    make a move -- using your own Approach scores, Skills, and Fighting 
-    Styles.
-
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 2 Abilities
@@ -8821,10 +9001,11 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 More than Meets the Eye
 
-:   Until you use one of your Vehicle Scene Power Words, your Unique
-    Vehicle appears to be a completely normal, ordinary vehicle of its
-    chosen type. At the end of each Crisis Countdown, your Unique
-    Vehicle loses its *Revealed* status if was *Revealed* before.
+:   Until you use one of your Vehicle Scene Power Words in a Power
+    Display, Stunt, or Combo, your Unique Vehicle appears to be a 
+    completely normal, ordinary vehicle of its chosen type. At the 
+    end of each Crisis Countdown, your Unique Vehicle loses its 
+    *Revealed* status if was *Revealed* before.  
 
     Once someone has used one of those Vehicle Scene Power
     Words, your Vehicle is *Revealed* until the current Crisis is 
@@ -8855,17 +9036,13 @@ TBD
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::: {.ability-list .v3 } ::::::
-Power Overwhelming
+TBD
 
-:   Your capacity for psionics is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
+:   To be determined.
 
-Skill Sharing
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Your mind link allows skills to be shared. 
-    Someone in your link is considered to have a skill if 
-    anyone in your link has that skill.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8874,12 +9051,9 @@ Skill Sharing
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-Battlemind
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Your mind link allows Fighting Styles to be shared.
-    Someone in your link is considered to have a Fighting Style
-    if anyone in your link has that Fighting Style.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8888,12 +9062,9 @@ Battlemind
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-Mantle of Inspiration
+TBD
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    Whenever you Add to the Teamwork Pool, increase the Effectiveness
-    by the number of heroes in your mind link -- to a maximum additional
-    number of successes equal to the Volume.    
+:   To be determined.
 
 TBD
 
