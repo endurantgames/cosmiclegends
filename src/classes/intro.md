@@ -52,6 +52,9 @@ The Shaper      Artist, Scientist,          Sculpt,              6     Reshape t
                 plus any two                Environment, plus
                                             one more
 
+The Speedster   Scientist, plus any two     Fastest, Alive       6     Ignore the Laws of 
+                                                                         Physics
+
 The Totem       Explorer, plus any two      Whatever, Can, plus  6     Force of Nature
                                             one Totem Nature
                                             Core Power Word

@@ -43,11 +43,12 @@ or 2 Might to add both.
 
 :::::::::: cpw ::::::::::::::
 - Action
+- Accelerate
+- Blink
 - Change
 - Direction
 - Fast
 - Faster
-- Fastest
 - Feet
 - Force
 - Instant
@@ -58,6 +59,8 @@ or 2 Might to add both.
 - Reflexes
 - Running
 - Speed
+- Stop
+- Unseen
 :::::::::::::::::::::::::::::
 
 ### Nova Power
