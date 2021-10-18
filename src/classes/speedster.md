@@ -51,6 +51,7 @@ or 2 Might to add both.
 - Faster
 - Feet
 - Force
+- Inertia
 - Instant
 - Light
 - Lightning
