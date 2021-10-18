@@ -113,11 +113,6 @@ Flexible Faculties
     the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
-Hero Cave
-
-:   *Prerequisite: You can't have another __Hero Cave__Ability.*
-    This is a *Hero Cave* Ability.
-
 Perspicacious Pettifoggery
 
 :   Using your vast vocabulary of super-scientific knowledge, you can 

@@ -225,6 +225,12 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
+Earth, Or A Reasonable Facsimile Thereof
+
+:   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
+
 Regeneration
 
 :   If you're ever wounded, you don't stay that way for long.
@@ -236,10 +242,6 @@ Relentless Power
 
 :   You are a storehouse of untapped energy. Increase your
     maximum Might by 5.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -266,17 +268,17 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
-
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
-
 Immortal
 
 :   You might be seriously wounded, but you never stay dead. 
     If you're reduced to 0 Health or
     0 Might, regain 1 point of each at the start of the
     next Hero Phase.
+
+Power Overwhelming
+
+:   Your capacity for destruction is extraordinary, even for a hero.
+    Increase your maximum Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 

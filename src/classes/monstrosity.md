@@ -210,9 +210,11 @@ Relentless Power
 :   You are a storehouse of untapped energy. Increase your
     maximum Might by 5.
 
-TBD
+Leave Me Alone!
 
-:   To be determined.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem} []{.lorem}
+    This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -228,9 +230,8 @@ Nigh-Invulnerable
 
 Power Burn
 
-:   You can call upon your life-force to fuel your powers.
-    You can spend Health whenever you would normally spend
-    Might.
+:   You can call upon your life-force to fuel your powers.  You can 
+    spend Health whenever you would normally spend Might.
 
 :::::::::::::::::::::::::::::::::::::
 

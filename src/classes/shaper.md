@@ -167,8 +167,7 @@ Energy Generation
 Force Field
 
 :   You can surround yourself with a clear bubble of force.
-    Instead of losing Health, you can lose an equal
-    amount of Might.
+    Instead of losing Health, you can lose an equal amount of Might.
 
 Shelter the Innocents
 
@@ -198,7 +197,9 @@ Grand Unified Theory
 
 :   You've discovered that your powers aren't limited to a
     single substance but can be extended to other types of
-    shaping. Add number of Words from the Element
+    shaping. 
+
+    Add number of Words from the Element
     Power Word list as Personal Power Words equal to the
     Volume.  Add another at the start of each later Volume.
 
@@ -238,9 +239,11 @@ Psychic Manifestation
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Shaper's Refuge
 
-:   To be determined.
+:   *Prerequisite: You can't have another _Hero Cave_ Ability.*
+    []{.lorem} []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 

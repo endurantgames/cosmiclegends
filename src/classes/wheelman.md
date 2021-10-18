@@ -348,6 +348,12 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
+Glorious Garage
+
+:   *Prequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
+
 More than Meets the Eye
 
 :   Until you use one of your Vehicle Scene Power Words in a Power
@@ -365,10 +371,6 @@ More than Meets the Eye
     roll whenever you use one of the Vehicle Scene Power Words to roll
     to advance the Outwit goal. (Note that this will also *Reveal* your
     Vehicle, as described in the previous paragraph.)
-
-TBD
-
-:   To Be Determined
 
 TBD
 

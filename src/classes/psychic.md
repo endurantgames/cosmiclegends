@@ -246,9 +246,11 @@ Battlemind
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Astral Retreat
 
-:   To be determined.
+:   *Prequisite: You can't have another _Hero Cave_ Ability.*
+    []{.lorem} []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 

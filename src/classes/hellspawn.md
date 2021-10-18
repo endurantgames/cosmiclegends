@@ -234,9 +234,10 @@ TBD
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-Hell on Earth
+My Own Personal Hell
 
 :   *Prerequisite: You can't have another __Hero Cave_ Ability.*
+    []{.lorem} []{.lorem}
     This is a *Hero Cave* Ability.
 
 TBD

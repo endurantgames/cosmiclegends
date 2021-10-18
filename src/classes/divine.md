@@ -183,10 +183,6 @@ Wisdom of Athena
 :   Your insight is unmatched by anyone save the gods themselves.
     Add 2 to the dice pool to advance the Outwit or Allay goals.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -208,6 +204,12 @@ Speed of Hermes
     at speeds approaching Mach 1.
     The Timely Arrival move costs you 0 points from the 
     Teamwork Pool.
+
+Temple of the Gods
+
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 

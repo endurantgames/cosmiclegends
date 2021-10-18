@@ -198,7 +198,8 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
-:   At the start of each Storyline, pick a number of Power Words
+:   *Prerequisite: You must have the _Sanctuary of Sanctity_ Ability.*
+    At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
 
@@ -206,11 +207,11 @@ Arcane Arsenal
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
-Diabloist
+Diabolical Power
 
-:   Much of your power is drawn from the pits of Hell and
-    other dark sources. You might not serve evil directly, 
-    but perhaps you've stolen power from Hell to use on the
+:   Much of your magical power is drawn from the pits of Hell and
+    similar dark sources. You might not serve evil directly, but 
+    perhaps you've stolen a bit of power from Hell to use on the 
     side of angels?
 
     [Hellspawn, Mage]{.crossover .es}

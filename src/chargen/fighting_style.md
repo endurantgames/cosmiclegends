@@ -6,6 +6,7 @@ with their fists or their powers. Those styles are:
 ::::::::: { .chargen-list .breakable } ::::::::::::::::::::::::::::
 - **Acrobat**        Reduce by 1 the cost to counter a Crisis move targeting only you.
 - **Ace**            Add 2 dice when you use a Vehicle power word to roll to advance any goal.
+- **Ambuscade**      Add 2 dice when you roll to advance any goal during the first Hero Turn of a Crisis.
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
 - **Demolisher**     Add 2 dice when you roll to advance the Smash Goal.

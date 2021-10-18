@@ -827,9 +827,11 @@ Immortal Totem
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Hidden Glade
 
-:   To be determined.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 
