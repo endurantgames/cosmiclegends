@@ -145,13 +145,14 @@ Puissant Polymath
     start of each subsequent Volume.
 
 Weaponsmith
-
-:   You've created a number of weapons with a wide variety of effects.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You've created a number of weapons with a wide variety of effects.
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
 
 TBD
 

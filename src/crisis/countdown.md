@@ -65,10 +65,11 @@ For example, []{.lorem}
 
 Once the Teamwork Pool is formed, it’s time to start dealing with the Crisis.
 
-Instead of having an initiative order like many games of this type, 
-there are two phases that alternate back and forth: 
+Instead of having an initiative order like many tabletop roleplaying games,
+there are two phases during a Crisis that alternate back and forth: 
 the Hero Phase and the Crisis Phase. 
 
 The first thing that happens after the Teamwork Pool is formed is 
 the Hero Phase.
+
 

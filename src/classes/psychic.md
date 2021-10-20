@@ -145,17 +145,14 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Psychic Abilities {  .class}
 
-Each Volume, you gain a new ability from your class.  Your Wheelman 
-abilities are new upgrades and changes to your *Unique Vehicle*.
+Each Volume, you gain a new ability from your class.  
+Your Psychic abilities are new ways of using your mind power to
+affect yourself and the world around you.
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Unique Vehicle** Prime ability common to all Wheelmen.
-
 :::::: {.ability-list .prime }::::::::::
-Unique Vehicle
-:   To Be Determined
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -165,18 +162,17 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
-More Than Meets the Eye
+Empath
 
-:   *Prerequisite: __Unique Vehicle__ class ability.*
-    To be determined.
+:   You can sense the emotions of others; your powers work primarily
+    on feelings rather than thoughts. Add 2 dice when you roll to
+    advance the Allay goal, as long as you have at least 1 Might.
 
-TBD
+Mind Over Matter
 
-:   To be determined.
-
-TBD
-
-:   To be determined.
+:   You can overcome the physical limitations of your body, and shrug
+    off wounds that would seriously harm a normal person. Instead of
+    losing Health, you can lose an equal amount of Might.
 
 TBD
 
@@ -189,9 +185,24 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-TBD
+Astral Projection
 
-:   To be determined.
+:   You can separate your consciousness from your physical form,
+    creating a duplicate of your body that exists on the astral
+    plane. When you do so, your physical body becomes unconscious.
+    Refresh your Might to its maximum value when you use astral
+    projection.
+    You can awaken at any time, and if you do, your mind is drawn
+    back to your body instantly. You automatically awaken if your
+    physical body is harmed or you are roughly shaken.
+    While astrally projecting, you are immune to all harm and can
+    pass through any barriers. You can use any of your Psychic
+    Class Abilities, Personal Power Words, Core Power Words, and
+    your Nova Power Words.
+    In astral form, you have "Flight" as a Core Power Word. You can
+    choose whether your astral form is visible to those in the same
+    location, or if it is invisible to all creatures lacking 
+    pan-dimensional vision.
 
 TBD
 
@@ -221,8 +232,8 @@ Skill Sharing
 
 :   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
     Your mind link allows skills to be shared. 
-    Someone in your link is considered to have a skill if 
-    anyone in your link has that skill.
+    Someone in your link is considered to have a skill if anyone in 
+    your link has that skill.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -233,8 +244,8 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 :::::: {.ability-list .v4 }::::::::::
 Battlemind
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: The __Skill Sharing__ class ability.*
+:   *Prerequisite: The __Our Minds As One__ Class Core Ability.*
+    *Prerequisite: The __Skill Sharing__ Class Ability.*
     Your mind link allows Fighting Styles to be shared.
     Someone in your link is considered to have a Fighting Style
     if anyone in your link has that Fighting Style.
@@ -249,7 +260,6 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 Astral Retreat
 
 :   *Prequisite: You can't have another _Hero Cave_ Ability.*
-    []{.lorem} []{.lorem}
     This is a *Hero Cave* Ability.
 
 TBD

@@ -40,6 +40,7 @@ or 2 Might to add both.
 
 ### Personal Power Words
 
+Choose six Personal Power Words from the following list:
 
 :::::::::: cpw ::::::::::::::
 - Action
@@ -51,6 +52,7 @@ or 2 Might to add both.
 - Faster
 - Feet
 - Force
+- Go
 - Inertia
 - Instant
 - Light
@@ -58,13 +60,39 @@ or 2 Might to add both.
 - Momentum
 - Reaction
 - Reflexes
+- Reverse
 - Running
 - Speed
 - Stop
 - Unseen
 :::::::::::::::::::::::::::::
 
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+
 ### Nova Power
+
+Choose any two or three single words you like; these are your
+**Nova Power Words**.
+
+At the start of any Storyline, your Nova Power Words are **Locked** and
+you can't use them in Power Displays, Stunts, or Combos.
+
+When you mark all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
+
+You can use one of your *Unlocked* Nova Power Words in a Power Stunt
+
+or Combo for free; if you spend 1 Might, you can include a second
+Nova Power Word as well.
+
+You can use one or more of your *Locked* Nova Power Words in a Power
+
+Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
+The Nova Power Word remains *Locked*.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -84,7 +112,11 @@ common to all Speedsters.
 :::::: {.ability-list .prime }::::::::::
 Ignore the Laws of Physics
 
-:   To be determined
+:   Your super-speed lets you break the standard laws of Newtonian physics --
+    you can ignore inertia and start/stop/turn on a dime, instantly; you don't
+    suffer any negative effects from moving at excessive speed, such as wind
+    burn, and you're able to breathe normally -- as well as ignoring relativistic
+    effects from moving at or beyond the speed of light.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -101,18 +133,18 @@ Anything's a Surface
     on a beam of light from a flashlight -- as easily as on flat, solid
     ground.
 
-Break the Time Barrier
-
-:   *Prerequisites: The __Ignore The Laws of Physics__ Prime Ability;
-    Add "Time" as a Core Power Word. You can travel forward or backward in
-    time under your own power.
-
 Break the Dimension Barrier
 
 :   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
     *The __Vibrate Through Walls__ Class Ability.*
     Add "Extra-Dimensional" as a Core Power Word. You can travel to alternate
     dimensions or timelines, including to alternate Earths.
+
+Break the Time Barrier
+
+:   *Prerequisites: The __Ignore The Laws of Physics__ Prime Ability.*
+    Add "Time" as a Core Power Word. You can travel forward or backward in
+    time under your own power.
 
 Hyper-Metabolism
 
@@ -143,14 +175,14 @@ Burst of Speed
 Escape Velocity
 
 :   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
-    You can move fast enough that you actually lift off the ground. Add "Flight" as a Core
-    Power Word.
+    You can move fast enough that you actually lift off the ground. 
+    Add "Flight" as a Core Power Word.
 
 Multitasking
 
 :   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
-    Whenever you roll to advance any goal, you can subtract 1 Success from the
-    roll's Effectiveness and add it to the Teamwork Pool instead.
+    Whenever you roll to advance any goal, you can subtract 1 Success 
+    from the roll's Effectiveness and add it to the Teamwork Pool instead.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -159,11 +191,11 @@ Multitasking
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 ::::::::: {.ability-list .v3} :::::::
-TBD
+Evacuate the Bystanders
 
 :   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
     When you roll to advance the Rescue goal, you can spend as much Might as you
-    wish and 1 to the Effectiveness of the roll for every 1 Might point spent.
+    wish and add 1 to the Effectiveness of the roll for each Might point spent.
 
 Human Whirlwind
 
@@ -178,7 +210,6 @@ Human Whirlwind
     any given Crisis you can only change a number of Scene Power
     Words equal to the Volume.
     
-
 :::::::::::::::::::::::::::::::::::::
 
 
@@ -187,13 +218,16 @@ Human Whirlwind
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Untouchable
 
-:   To be determined.
+:   No one can lay a hand on you. When you are affected by a Crisis
+    move, you can counter it by spending Might instead of Successes
+    from the Teamwork Pool.
 
-TBD
+Instant Power Recovery
 
-:   To be determined.
+:   Whenever you use one of your Core or Nova Power Words in a
+    Power Stunt or Combo, those Power Words do not go on cooldown.
 
 :::::::::::::::::::::::::::::::::::::
 

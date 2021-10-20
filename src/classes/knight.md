@@ -176,7 +176,8 @@ Toughness
 
 Trick Arrows
 
-:   You have specialized weapons, each for a different job.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You have specialized weapons, each for a different job.
 
     [Dynamo, Paragon]{.crossover}
     At the start of each Storyline, pick a number of Power Words
@@ -186,8 +187,11 @@ Trick Arrows
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+    This is an *Arsenal* Ability.
+
 Weapons Locker
-:   You have a huge cache of conventional weapons.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You have a huge cache of conventional weapons.
     From the following list, pick a number equal to the
     Volume and add those as Core Power Words: 
     
@@ -206,12 +210,7 @@ Weapons Locker
     At the start of each subsequent Volume, add one more from
     the list as a Core Power Word.
 
-Hero Cave
-
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
-    This is a *Hero Cave* Ability.
-
+    This is an *Arsenal* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -227,7 +226,7 @@ I Work Alone
     roll's Effectiveness to your maximum and current Might instead of 
     the Teamwork Pool.
 
-Master of Skills
+Skill Mastery
 
 :   Your education covered a wide range of topics.  Gain a number of
     skills equal to the Volume. Add an additional skill at the

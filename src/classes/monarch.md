@@ -103,7 +103,7 @@ Choose six Personal Power Words from the following list:
 
 :::::::: cpw ::::::::::::
 - Armor
-- Animals (specific)
+- Animal (specific)
 - Beasts
 - Call
 - Command
