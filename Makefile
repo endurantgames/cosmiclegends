@@ -84,14 +84,14 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS             = --pdf-engine-opt=--css-dpi=300
-# PRINCEFLAGS             = 
+PRINCEFLAGS             = 
 PRINCEFLAGS_PREGEN        = 
 PRINCEFLAGS_LETTER        = 
 PRINCEFLAGS_SHEET         = 
 PRINCEFLAGS_SHEET_ALT     = 
 PRINCEFLAGS_SHEET_COLOR   = 
 # PRINCEFLAGS_ORIGIN      = 
-PRINCEFLAGS               = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+# PRINCEFLAGS               = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/elk_%d.png
 PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
 PRINCEFLAGS_ORIGIN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png

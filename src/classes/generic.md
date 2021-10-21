@@ -1,12 +1,7 @@
-::::::::::::::::::: { .classdata #class-twins } :::::::::::
-# The Twins {#toc-twins .breakbefore .class}
+::::::::::::::::::: { .classdata } :::::::::::
+# Generic Abilities {#toc-generic .breakbefore .class}
 
 > Twin Powers - Activate!
-
-## Playing the Twins
-
-You have Skills, Abilities, and possibly other Power Words that 
-you can use to switch up your moves from Hero Phase to Hero Phase.
 
 ## Questions
 

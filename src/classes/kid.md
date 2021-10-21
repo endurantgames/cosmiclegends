@@ -84,7 +84,7 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 ### Core Power Words
 
-Your Core Power Words are **Does** **Whatever** and **Can**.
+Your Core Power Words are **Youthful** and **Exuberance**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
@@ -106,110 +106,113 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
   - Insect (Hornet)
   - Insect (Yellowjacket)
 - Reptiles
-  - Reptile (Alligator)
-  - Reptile (Crocodile)
-  - Dinosaur (Pterodon)
-  - Dinosaur (T-Rex)
-  - Dinosaur (Stegosaur)
-  - Lizard (Chameleon)
-  - Lizard (Iguana)
-  - Snake (Asp)
-  - Snake (Cobra)
-  - Snake (Python)
-  - Snake (Rattlesnake)
-  - Snake (Viper)
-  - Reptile (Tortoise)
-  - Reptile (Turtle)
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
+  - Alligator
+  - Crocodile
+  - Dinosaur 
+    - Pterodon
+    - Stegosaur
+    - T-Rex
+  - Lizard   
+    - Chameleon
+    - Iguana
+  - Snake
+    - Asp
+    - Cobra
+    - Python
+    - Rattlesnake
+    - Viper
+  - Tortoise
+  - Turtle
+- Mythological
+  - Dragon
+    - Hydra
+    - Wyrm
+    - Wyvern
+  - Pegasus
+  - Sphinx
+  - Unicorn
 - Felines
-  - Feline (Housecat)
-  - Feline (Cheetah)
-  - Feline (Cougar)
-  - Feline (Lion)
-  - Feline (Panther)
-  - Feline (Puma)
-  - Feline (Sabretooth)
-  - Feline (Tiger)
-- Birb
-  - Owl
-  - Vulture
+  - Cheetah
+  - Cougar / Puma
+  - Housecat
+  - Lion
+  - Panther
+  - Smilodon
+  - Tiger
+- Bird
+  - Chicken / Hen
+  - Dove
+  - Eagle
   - Falcon
   - Hawk
-  - Dove
+  - Ostrich
+  - Owl
   - Rooster
   - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
+  - Vulture
 - Amphibians
   - Frog
   - Newt
-  - Toad
   - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
+  - Toad
 - Fish
   - Barracuda
-  - Eel
   - Clam
   - Crab
+  - Eel
   - Fish
   - Lobster
-  - Moray
-  - Pirhanna
   - Merfolk
+  - Moray
   - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
+  - Pirhanna
   - Sea Horse
+  - Shark
+  - Squid (or Kraken)
+  - Starfish
+- Marsupials
+  - Kangaroo
+  - Koala
 - Mammals
   - Elephant
     - Mammoth
     - Mastodon
     - Pachyderm
   - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
+    - Goat (or Satyr)
+    - Bull (or Minotaur)
+    - Cow  (or Minotaur)
   - Monkey
     - Ape
+    - Chimp
     - Gorilla
     - Gibbon
-    - Ma
   - Pig
-    - Hog
     - Boar
-  - Stag
-  - Deer
+    - Hog
+  - Deer or Stag
   - Moose
-  - Kangaroo
   - Elk
   - Horse
     - Alicorn
     - Centaur
     - Hippopotamus
-    - Pegasus
+    - *Pegasus*
     - Unicorn
   - Rhino
   - Wolverine
   - Canines
+    - Coyote
     - Dog
       - Mastiff
       - Hound
       - Wolf
       - Dingo
-    - Coyote
-    - Jackal
     - Fox
+    - Jackal
   - Bear
-    - Koala
+    - Black
+    - Brown
     - Grizzly
     - Panda
     - Polar
@@ -232,16 +235,27 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
       - Ermine
       - Mink
       - Stoat
+  - Otter
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
 - Environment
   - Coral
   - Desert
   - Jungle
   - Mire
   - Peaks
+  - Sea
   - Tundra
-- Plant (Flower, specific)
-- Plant (Tree, specific)
-- Plant (Vine, specific)
+  - Void (space)
+- Plant 
+  - Flower
+    - (specific)
+  - Tree
+    - (specific)
+  - Vine
+    - (specific)
 
 ### Personal Power Words
 
@@ -266,16 +280,19 @@ Choose six Personal Power Words from the following list:
 - Dangerous
 - Dash
 - Dig
+- Dire
 - Direction
 - Distance
 - Echolocation
 - Elusive
 - Enduring
 - Environment
+- Feral
 - Giant
 - Growl
 - Horrifying
 - Howl
+- Huge
 - Hunger
 - Hunter
 - Immovable
@@ -426,44 +443,8 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Animal Instincts
-
-:   Whenever you roll Suspense or Mystery to advance the Allay or
-    Outwit goals, add 2 dice.
-
-Humanity's Best Friend
-
-:   Whenever you roll to add to the Teamwork pool or advance the Rescue
-    or Allay goals, add 1 die for every human hero present, to a maximum 
-    number of extra dice equal to the Volume.
-
-Savage Instincts
-
-:   Gain a number of Fighting Styles equal to the Volume, chosen from the
-    following list. At the start of each subsequent Volume, gain 1 more 
-    Fighting Style from this list.
-
-    - Acrobat
-    - Brawler
-    - Controller
-    - Demolisher
-    - Frenzy
-    - Find Weakness
-    - Guerilla
-    - Interceptor
-    - Harrier
-    - Martial Artist
-    - Meteor
-    - Rescuer
-    - Tactician
-    - Warlord
-
-    You can't ever gain the following Fighting Styles, from any source:
-    - Ace
-    - Makeshift Weapons
-    - Medic
-    - Sharpshooter
-    - Weapon Master
+TBD
+:    To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -471,7 +452,7 @@ Savage Instincts
 #### Kid Core Power Words
 
 Your Core Power Words are **Youthful** and **Exuberance**.
-You can spend 1 Might poitn to add one of those to a Power Stunt or
+You can spend 1 Might point to add one of those to a Power Stunt or
 Combo, or 2 Might to add both.
 :::::::::::::::::::::::::
 
@@ -594,18 +575,6 @@ Intelligent Pet
     Crisis, add 3 dice whenever you make a roll using the chosen
     Approach.
 
-Regeneration
-
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
-
-
-Wild Strength
-
-:   You are as hard to take down as the hardiest of beasts. Increase your
-    maximum Health by 5.
-
 Youthful Power
 
 :   You are a storehouse of indefatiguable energy. Increase your maximum 
@@ -623,16 +592,6 @@ Youthful Relatability
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
-
-:   There are few things that can seriously harm you.  Increase your 
-    maximum Health by 5.
-
-Power Burn
-
-:   You can call upon your life-force to fuel your powers.  You can spend 
-    Health whenever you would normally spend Might. Increase your maximum
-    Health by 3.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -641,6 +600,14 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities

@@ -1,0 +1,49 @@
+#team-sheet { page: teamsheet; column-span: all; }
+
+@page teamsheet { margin: 36pt; }
+@page teamsheet { @top-left      { content: normal; } }
+@page teamsheet { @top-right     { content: normal; } }
+@page teamsheet { @bottom-center { content: normal; } }
+
+#team-sheet ul { margin: 0; padding: 0; }
+#team-sheet li { margin: 0; padding: 0; list-style-type: none; }
+
+#team-sheet > .header > ul > li { display: inline-block; width: auto; }
+
+#team-sheet ul li span.field    { 
+  display: inline-block; 
+  border-bottom: 0.5pt solid black; 
+  font-size: var(-small); 
+  font-family: var(--font-sheet-2); 
+}
+
+#team-sheet > .header > ul > li > span.team-name   { width: 432pt; }
+#team-sheet > .header > ul > li > span.team-class  { width: 216pt; }
+#team-sheet > .header > ul > li > span.team-volume { width: 180pt; }
+
+#team-sheet > .header > .line {
+  margin-top:     8pt;
+  padding-top:    4pt;
+  padding-bottom: 4pt;
+  margin-bottom:  8pt;
+  border-top:     0.5pt solid black;
+  border-bottom:  0.5pt solid black;
+  display:        block;
+}
+
+#team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
+  font-size:   var(--body);
+  font-family: var(--font-header);
+  position:    absolute; top:  0; left: 0;
+}
+
+#team-sheet > .header> .line.team-approach-line > ul > li span {
+  width:         80pt; 
+  margin-right:  3.2pt; margin-left: 3.2pt;
+}
+
+#team-sheet > .body { column-count: 2; column-gap: 8pt; }
+
+#team-sheet > .body > .section { break-inside: avoid; }
+#team-sheet > .body > .section { break-after: column; }
+

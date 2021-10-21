@@ -1,16 +1,12 @@
-# Hero Teams
+# Team Classes
 
 []{.lorem}
 
-## Team Classes
+## Academy {#toc-team-class-academy}
 
 []{.lorem}
 
-### Academy {#toc-team-class-academy}
-
-[]{.lorem}
-
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -20,11 +16,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Activist Movement {#toc-team-class-movement}
+## Activist Movement {#toc-team-class-movement}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -34,11 +30,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Agency {#toc-team-class-agency}
+## Agency {#toc-team-class-agency}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -48,11 +44,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Bounty Hunters {#toc-team-class-hunters}
+## Bounty Hunters {#toc-team-class-hunters}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -62,11 +58,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Business Partners {#toc-team-class-partners}
+## Business Partners {#toc-team-class-partners}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -76,11 +72,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Corporate PR Group {#toc-team-class-pr}
+## Corporate PR Group {#toc-team-class-pr}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -90,11 +86,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Corporate Security {#toc-team-class-security}
+## Corporate Security {#toc-team-class-security}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -104,11 +100,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Elected Officials {#toc-team-class-elected}
+## Elected Officials {#toc-team-class-elected}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -118,11 +114,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Employment Agency {#toc-team-class-temps}
+## Employment Agency {#toc-team-class-temps}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -132,11 +128,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Explorers of the Unknown {#toc-team-class-explorers}
+## Explorers of the Unknown {#toc-team-class-explorers}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -146,11 +142,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Family {#toc-team-class-family}
+## Family {#toc-team-class-family}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -160,11 +156,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Fated Heroes {#toc-team-class-fated}
+## Fated Heroes {#toc-team-class-fated}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -174,11 +170,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### First Responders {#toc-team-class-rescue}
+## First Responders {#toc-team-class-rescue}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -188,11 +184,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Friends {#toc-team-class-friends}
+## Friends {#toc-team-class-friends}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -202,11 +198,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Government Agency {#toc-team-class-govt}
+## Government Agency {#toc-team-class-govt}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -216,11 +212,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### The Hunted {#toc-team-class-hunted}
+## The Hunted {#toc-team-class-hunted}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -230,11 +226,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Legacy {#toc-team-class-legacy}
+## Legacy {#toc-team-class-legacy}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -244,11 +240,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Mercenaries {#toc-team-class-mercs}
+## Mercenaries {#toc-team-class-mercs}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -258,11 +254,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Medical Team {#toc-team-class-medical}
+## Medical Team {#toc-team-class-medical}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -272,11 +268,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Pantheon {#toc-team-class-pantheon}
+## Pantheon {#toc-team-class-pantheon}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -286,11 +282,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Park Rangers {#toc-team-class-rangers}
+## Park Rangers {#toc-team-class-rangers}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -300,11 +296,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Planetary Settlers {#toc-team-class-settlers}
+## Planetary Settlers {#toc-team-class-settlers}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -314,11 +310,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Police Squad {#toc-team-class-squad}
+## Police Squad {#toc-team-class-squad}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -328,11 +324,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Private Investigators {#toc-team-class-pis}
+## Private Investigators {#toc-team-class-pis}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -342,11 +338,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Reality TV Show {#toc-team-class-reality-tv}
+## Reality TV Show {#toc-team-class-reality-tv}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -356,11 +352,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Reincarnations {#toc-team-class-reincarnations}
+## Reincarnations {#toc-team-class-reincarnations}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -370,11 +366,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Resistance Cell {#toc-team-class-resist}
+## Resistance Cell {#toc-team-class-resist}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -384,11 +380,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Retirement Community {#toc-team-class-retirement}
+## Retirement Community {#toc-team-class-retirement}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -398,11 +394,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Rock Band {#toc-team-class-band}
+## Rock Band {#toc-team-class-band}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -412,11 +408,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Royal Guards {#toc-team-class-guards}
+## Royal Guards {#toc-team-class-guards}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -426,11 +422,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Science Team {#toc-team-class-science}
+## Science Team {#toc-team-class-science}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -440,11 +436,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Secret Conspiracy {#toc-team-class-conspiracy}
+## Secret Conspiracy {#toc-team-class-conspiracy}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -454,11 +450,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Ship's Crew {#toc-team-class-crew}
+## Ship's Crew {#toc-team-class-crew}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -468,11 +464,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Space Pirates {#toc-team-class-pirates}
+## Space Pirates {#toc-team-class-pirates}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -482,11 +478,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Sports Team {#toc-team-class-team}
+## Sports Team {#toc-team-class-team}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -496,11 +492,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Supervillains {#toc-team-class-villains}
+## Supervillains {#toc-team-class-villains}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -510,11 +506,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Support Group {#toc-team-class-support}
+## Support Group {#toc-team-class-support}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -524,11 +520,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Survivors {#toc-team-class-survivors}
+## Survivors {#toc-team-class-survivors}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -538,11 +534,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Terrorist Cell {#toc-team-class-terrorists}
+## Terrorist Cell {#toc-team-class-terrorists}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -552,11 +548,11 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### W.G.H. {#toc-team-class-wgh}
+## W.G.H. {#toc-team-class-wgh}
 
 []{.lorem}
 
-#### Prime Ability
+### Prime Ability
 
 Your Team has the *TBD* ability common to all teams of the same type.
 
@@ -566,55 +562,55 @@ Your Team has the *TBD* ability common to all teams of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-## Team Base
+# Team Base
 []{.lorem}
 
-### Base Location
+## Base Location
 []{.lorem}
 
-### Base Type
+## Base Type
 []{.lorem}
 
-### Base Facilities
+## Base Facilities
 []{.lorem}
 
-#### Base Civilian Support
+### Base Civilian Support
 []{.lorem}
 
-#### Hero Caves and Bases
+### Hero Caves and Bases
 []{.lorem}
 
-## Team Membership
+# Team Membership
 []{.lorem}
 
-### Founding Members
+## Founding Members
 []{.lorem}
 
-##  Team Leadership
+#  Team Leadership
 []{.lorem}
 
-##  Team Reputation
+#  Team Reputation
 []{.lorem}
 
-###  Team Allies
+##  Team Allies
 []{.lorem}
 
-###  Team Foes
+##  Team Foes
 []{.lorem}
 
-## Group Resources
+# Group Resources
 []{.lorem}
 
-### Transportation
+## Transportation
 []{.lorem}
 
-## Team Abilities
+# Team Abilities
 
 Each Volume, your Team gains a new Ability. Team Abilities are based 
 on improved teamwork and pooling of shared resources.
 Each ability can be chosen only once.
 
-#### Prime Ability
+### Prime Ability
 
 Your Group has the *TBD* ability common to all groups of the same type.
 
@@ -624,13 +620,13 @@ Your Group has the *TBD* ability common to all groups of the same type.
      To Be Determined
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+## Volume 1 Abilities
 
 At the start of Volume 1, one player chooses two abilities from this list.
 Roll randomly to determine who chooses; the same player can't choose twice
 in a row.
 
-### Volume 2 Abilities
+## Volume 2 Abilities
 
 At the start of Volume 2, one player chooses one ability from this list, or
 the Volume 1 list. Roll randomly to determine who chooses; the same player
@@ -643,7 +639,7 @@ can't choose the Group Ability twice in a row.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+## Volume 3 Abilities
 
 At the start of Volume 3, one player chooses one ability from this list, or
 a prior list. Roll randomly to determine who chooses; the same player
@@ -656,7 +652,7 @@ can't choose the Group Ability twice in a row.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+## Volume 4 Abilities
 
 At the start of Volume 4, one player chooses one ability from this list, or
 a prior list. Roll randomly to determine who chooses; the same player
@@ -669,7 +665,7 @@ can't choose the Group Ability twice in a row.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+## Volume 5 Abilities
 
 At the start of Volume 5, one player chooses one ability from this list, or
 a prior    1 list. Roll randomly to determine who chooses; the same player

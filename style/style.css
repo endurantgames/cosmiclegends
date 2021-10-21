@@ -1,6 +1,8 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
+@import(team-sheet.css);
+
 @page         { size: 477pt 733pt; margin: 36pt; margin-bottom: 54pt; }
 header        { display: none;                       }
 header p.date { string-set: date content()           }
@@ -60,18 +62,18 @@ header h1     { string-set: gamename content()       }
   --color-roster        : #F0E0F0;
   --color-shadow        : rgba(  0,   0,   0, 0.50);
 
-  --color-rainbow-1     : #FFF0F0; /* red */
-  --color-rainbow-2     : #FFFFF0; /* yellow */
-  --color-rainbow-3     : #F0FFF0; /* green */
-  --color-rainbow-4     : #F0FFFF; /* cyan */
-  --color-rainbow-5     : #F0F0FF; /* blue */
+  --color-rainbow-1     : #FFF0F0; /* red     */
+  --color-rainbow-2     : #FFFFF0; /* yellow  */
+  --color-rainbow-3     : #F0FFF0; /* green   */
+  --color-rainbow-4     : #F0FFFF; /* cyan    */
+  --color-rainbow-5     : #F0F0FF; /* blue    */
   --color-rainbow-6     : #FFF0FF; /* magenta */
 
-  --color-rainbow-1d    : #800000; /* red */
-  --color-rainbow-2d    : #808000; /* yellow */
-  --color-rainbow-3d    : #008000; /* green */
-  --color-rainbow-4d    : #008080; /* cyan */
-  --color-rainbow-5d    : #000080; /* blue */
+  --color-rainbow-1d    : #800000; /* red     */
+  --color-rainbow-2d    : #808000; /* yellow  */
+  --color-rainbow-3d    : #008000; /* green   */
+  --color-rainbow-4d    : #008080; /* cyan    */
+  --color-rainbow-5d    : #000080; /* blue    */
   --color-rainbow-6d    : #800080; /* magenta */
 
   --color-stunt         : blue;

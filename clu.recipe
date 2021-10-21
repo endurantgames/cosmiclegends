@@ -42,13 +42,16 @@ crisis/countdown
 crisis/hero_phase
 crisis/crisis_phase
 crisis/post
-vignettes
 advancement
 setting/
 setting/what/*
+team/
+team/*
 editor/
 editor/storyline
 editor/crisis
+vignette_volumes/
+vignette_volumes/*
 sample_crises/
 sample_crises/aliens
 sample_crises/military

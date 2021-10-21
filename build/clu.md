@@ -1083,11 +1083,12 @@ with their fists or their powers. Those styles are:
 ::::::::: { .chargen-list .breakable } ::::::::::::::::::::::::::::
 - **Acrobat**        Reduce by 1 the cost to counter a Crisis move targeting only you.
 - **Ace**            Add 2 dice when you use a Vehicle power word to roll to advance any goal.
+- **Ambuscade**      Add 2 dice when you roll to advance any goal during the first Hero Turn of a Crisis.
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
-- **Demolisher**     Add 2 dice when you roll to advance the Smash Goal.
-- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash Goal.
-- **Find Weakness**  Add 2 dice when you roll with Suspense to advance the Smash Goal.
+- **Demolisher**     Add 2 dice when you roll to advance the Smash goal.
+- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash goal.
+- **Find Weakness**  Add 2 dice when you roll with Suspense to advance the Smash goal.
 - **Guerilla**       Add 2 dice when you use a Scene power word to roll to advance any goal or add to the Teamwork Pool.
 - **Interceptor**    Reduce by 1 the cost to Take the Hit for someone else.
 - **Inspiration**    Add 2 dice when you roll to add to the Teamwork Pool or advance the Allay goal.
@@ -1096,11 +1097,12 @@ with their fists or their powers. Those styles are:
 - **Martial Artist** Add 2 dice when you use an unarmed attack to advance the Outwit goal.
 - **Makeshift Weapons** Add 2 dice when you use a scene power word to advance the Smash goal.
 - **Meteor**         Add 2 dice when you use an unarmed attack to advance the Smash goal against someone who is slower than you.
-- **Mediator**       Add 2 dice when you roll to advance the Allay Goal.
+- **Mediator**       Add 2 dice when you roll to advance the Allay goal.
 - **Medic**          Add 2 dice when you roll to advance the Rescue or Allay goals.
-- **Rescuer**        Add 2 dice when you roll to advance the Rescue Goal.
+- **Rescuer**        Add 2 dice when you roll to advance the Rescue goal.
 - **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you roll to add to the Teamwork Pool.
+- **Trickster**      Add 2 dice when you use any Power Word to advance the Outwit goal.
 - **Warlord**        Whenever any hero rolls to add to the Teamwork Pool, they increase the effectiveness of their roll by the Volume as long as they can see or hear you.
 - **Weapon Master**  Add 2 dice when you use a melee Weapon power word to advance the Outwit goal.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1347,6 +1349,7 @@ The Skills are:
 
 - Academic
 - Artist
+- Bureaucrat
 - Criminal
 - Deputy
 - Engineer
@@ -1379,244 +1382,359 @@ If you don't have a Skill, you don't add any extra dice to the pool.
 ### Skill Descriptions
 
 The skills in []{.gamename} are listed below, along with 3 to 5 
-suggestions how you could use the skill with your hero's Approaches
+suggestions how you could use the skill with your hero's Approaches,
 and consequences the Editor can propose on an Edge Success.
+
+#### Losing Health or Might
+
+If you lose Health, you can describe how you injured yourself while
+using your skill. Losing Might generally means becoming tired, possibly
+from stress or overwork.
 
 ::::::: { .skill-list } ::::::::::::::::::
 Academic
 :   You've spent many years in education,
     either as an instructor or just a long-time student -- or 
-    both! -- you can decide.
+    both! -- you can decide. Optionally, you can choose one or more fields
+    studies as specialties; if you do, add 1 die to any roll related to those
+    specialties.
 
-    - Roll [Academic]{.action} to dispute widely accepted facts.
+    - Roll [Academic]{.action}    to dispute widely accepted facts.
     - Roll [Academic]{.detective} to research facts in a library.
-    - Roll [Academic]{.mystery} to falsify school records.
-    - Roll [Academic]{.suspense} to spot plagiarism.
-    - **Edge Success:** Someone in your department develops an intense jealousy of you.
+    - Roll [Academic]{.mystery}   to falsify school records.
+    - Roll [Academic]{.suspense}  to spot plagiarism.
+
+    - **Edge Success:** 
+      Someone in your department develops an intense jealousy of you.
       Online trolls try to get you fired from your job.
       You spend way too much time on a relatively trivial matter.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Artist
-:   You are skilled at creating works of art; choose
-    one or more media in which you primarily work.
+:   You are skilled at creating works of art; optionally, you can choose
+    one or more media in which you primarily work. If you do, add 1 die to 
+    any roll related to that media.
 
-    - Roll [Artist]{.action} to make a bold splash in the art world.
-    - Roll [Artist]{.mystery} to plant secret messages in a work of art.
+    - Roll [Artist]{.action}   to make a bold splash in the art world.
+    - Roll [Artist]{.mystery}  to plant secret messages in a work of art.
     - Roll [Artist]{.suspense} to detect a forgery.
-    - **Edge Success:** You're just not satisfied with this piece.
-      Someone will start selling knockoff of your work online.
+
+    - **Edge Success:** 
+      You're just not satisfied with this piece.
+      Someone will start selling knockoffs of your work online.
       A critic savages your work in a review.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Criminal
-:   You're skilled at evading the law and getting away with it.
+:   You're skilled at evading the law and getting away with it. Optionally, you can
+    add one or more types of crimes as specialties; if you do, add 1 die to any roll
+    related to those specialties.
 
     - Roll [Criminal]{.adventure} to crack a safe.
     - Roll [Criminal]{.detective} to plan a heist.
-    - Roll [Criminal]{.mystery} to steal something, unseen.
-    - Roll [Criminal]{.suspense} to notice hidden cameras.
-    - **Edge Success:** Your crime makes more noise than you had hoped.
+    - Roll [Criminal]{.mystery}   to steal something, unseen.
+    - Roll [Criminal]{.suspense}  to notice hidden cameras.
+
+    - **Edge Success:** 
+      Your crime makes more noise than you had hoped.
       A criminal organization takes an interest in your actions.
       You owe a favor to someone dodgy now.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 :::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
-Keep in mind that []{.gamename} is a four-color game, not a simulation
+Keep in mind that []{.gamename} is *a four-color game,* not a simulation
 of reality -- so Skills follow "comic book logic" rather than working
 as they really *should* in real life.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Deputy
 :   You are a police officer of some kind. If you like, you can be currently
-    deputized by a local or federal agency. All cats are beautiful.
+    deputized by a local or federal agency; if you do, add 1 die to any roll
+    related to that law-enforcement agency. Remember: All cats are beautiful.
 
-    - Roll [Deputy]{.action} to shake down an informant.
+    - Roll [Deputy]{.action}    to shake down an informant.
     - Roll [Deputy]{.adventure} to chase down an innocent person who is fleeing from you.
     - Roll [Deputy]{.detective} to contrive a reason to arrest someone.
-    - Roll [Deputy]{.mystery} to plant contraband on a suspect.
-    - Roll [Deputy]{.suspense} to spot a "likely" suspect for a crime.
-    - **Edge Success:** Your actions are filmed by bystanders.
+    - Roll [Deputy]{.mystery}   to plant contraband on a suspect.
+    - Roll [Deputy]{.suspense}  to spot a "likely" suspect for a crime.
+
+    - **Edge Success:** 
+      It takes much more time than you thought it would.
+      Your actions are filmed by bystanders.
       The suspect can afford a lawyer.
       Your "evidence" won't stand up in court.
+      Lose 1 Health or 1 Might.
   
 Engineer
 :   You can build high-tech devices. This is the four-color version
-    of Engineering, not real-world engineering.
-    You can choose one or more optional specialties.
+    of "Engineering", not real-world __engineering__.
+    You can choose one or more optional specialties; if you do, add 1 die to any
+    roll related to those specialties.
 
     - Roll [Engineer]{.adventure} to build something unprecedented.
-    - Roll [Engineer]{.detective} to dismantle something.
-    - Roll [Engineer]{.suspense} to identify the weaknesses in a design.
-    - **Edge Success:** You only have time to make one.
-      You use up the last of your unobtanium on this device.
-      Only you understand how to make this work.
+    - Roll [Engineer]{.detective} to dismantle something safely.
+    - Roll [Engineer]{.suspense}  to identify the weaknesses in a design.
+
+    - **Edge Success:** 
+      You only have time to make one.
+      You use up the last of your supplies on this device.
+      The device is so complex that only you can make it work, in the field.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Explorer
-:   You're at home in the wilds, and have a good sense of direction.
+:   You're at home in the wilds, and have a great sense of direction. Optionally,
+    you can choose one or more types of terrain as specialties; if you do, add 1 die
+    to any roll related to those specialties.
 
     - Roll [Explorer]{.adventure} to find food and shelter.
     - Roll [Explorer]{.detective} to create a map.
-    - Roll [Explorer]{.mystery} to ambush someone in the wilds.
-    - Roll [Explorer]{.suspense} to predict the weather.
-    - **Edge Success:** You attract the attention of a large predator.
-      The water and food you found is edible, but tastes terrible.
-      You are easily tracked.
+    - Roll [Explorer]{.mystery}   to ambush someone in the wilds.
+    - Roll [Explorer]{.suspense}  to predict the weather.
+
+    - **Edge Success:** 
+      You attract the attention of a large predator.
+      Any water or food you found is edible, but tastes terrible.
+      You are easily tracked by anyone.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Hacker
-:   You're quite talented with computers and can easily overcome most forms of digital security.
+:   You're quite talented with computers and can easily overcome most forms 
+    of digital security.
 
-    - Roll [Hacker]{.action} to shut down a machine.
+    - Roll [Hacker]{.action}    to shut down a machine.
     - Roll [Hacker]{.adventure} to search for information in a database.
     - Roll [Hacker]{.detective} to program a machine to perform a complicated task for you.
-    - Roll [Hacker]{.mystery} to access a machine without detection.
-    - **Edge Success:** You leave traces of your presence.
-      It takes longer to accomplish than you'd hoped.
-      You get immediately disconnected after this task.
+    - Roll [Hacker]{.mystery}   to access a machine without detection.
+
+    - **Edge Success:** 
+      You leave traces of your presence.
+      You'll get immediately disconnected after this task.
+      Your computer could get counter-hacked.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Historian
 :   You understand archaeology and are an authority on items and locations
-    of the past. You have one or more fields of study.
+    of the past. You can choose one or more specialties that are fields of study; 
+    if you do, add 1 die to any roll related to those specialties.
 
     - Roll [Historian]{.adventure} to explore a dig site.
     - Roll [Historian]{.detective} to recall the details of a historical event.
-    - Roll [Historian]{.suspense} to identify something's age and origin.
-    - **Edge Success:** You awaken something that shouldn't have been awakened.
+    - Roll [Historian]{.suspense}  to identify something's age and origin.
+
+    - **Edge Success:** 
+      You awaken something that shouldn't have been awakened.
       The artifact you're examining crumbles to dust.
       Another historian disputes your claims.
+      It takes much more time than you thought it would.
+      It belongs in a museum.
+      Lose 1 Health or 1 Might.
   
 Investigator
 :   You are trained in spotting clues and gathering information.
-    You might work for a law agency or, if you wish, you have a
-    valid private investigator's license.
+    You might work for a law agency or, if you wish, you have a valid private 
+    investigator's license; if you do, add 1 to any die roll related to 
+    working with police authorities.
 
     - Roll [Investigator]{.detective} to piece together a solution to a puzzle.
-    - Roll [Investigator]{.mystery} to plant evidence implicating someone.
-    - Roll [Investigator]{.suspense} to notice clues others might overlook.
-    - **Edge Success:** It takes longer than you had hoped.
+    - Roll [Investigator]{.mystery}   to plant evidence implicating someone.
+    - Roll [Investigator]{.suspense}  to notice clues others might overlook.
+
+    - **Edge Success:** 
       Someone notices you snooping around where you shouldn't be.
-      The evidence you've found isn't admissible in court.
+      The evidence you've found won't be admissible in court.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Journalist
 :   You're skilled at taking the facts and constructing a narrative
-    for publication.
+    for publication. Optionally, you can choose one or more media outlets
+    with whom you have a working relationship; if you do, add 1 die to any
+    roll related to that media outlet.
 
-    - Roll [Journalist]{.action} to make a story go viral.
+    - Roll [Journalist]{.action}    to make a story go viral.
     - Roll [Journalist]{.adventure} to interview a hostile source.
     - Roll [Journalist]{.detective} to track down a lead on a story.
-    - Roll [Journalist]{.mystery} to twist the facts to suit an agenda.
-    - Roll [Journalist]{.suspense} to spot something newsworthy.
-    - **Edge Success:** You get the message out, but you've made a powerful enemy.
-      You can't find another source to confirm your story.
-      Another reporter scooped the story before you.
+    - Roll [Journalist]{.mystery}   to twist the facts to suit an agenda.
+    - Roll [Journalist]{.suspense}  to spot something potentially newsworthy.
+
+    - **Edge Success:** 
+      You get the message out, but you've made a powerful enemy.
+      You can't find a second source to confirm your story.
+      Another reporter scooped the story and published it before you could.
+      It takes much more time than you thought it would.
+      This could get you "cancelled" online.
+      Lose 1 Health or 1 Might.
   
 Lawyer
 :   You're a member of the legal profession and can represent yourself
-    and others in court. Optionally, you can choose specific types of law
-    that you specialize in.
+    and others in court. Optionally, you can choose one or more specific types of 
+    law that you specialize in; if you do, add 1 die to any roll related to those
+    specialties.
 
-    - Roll [Lawyer]{.action} to strenuously object to something.
+    - Roll [Lawyer]{.action}    to strenuously object to something.
     - Roll [Lawyer]{.adventure} to cross-examine someone.
     - Roll [Lawyer]{.detective} to trap someone in a lie.
-    - Roll [Lawyer]{.mystery} to defend someone who is guilty, or convict someone who is innocent.
-    - Roll [Lawyer]{.suspense} to spot loopholes in a legal document.
-    - **Edge Success:** The court's decision is likely to be appealed by the other party.
+    - Roll [Lawyer]{.mystery}   to defend someone who is guilty, or convict someone who is innocent.
+    - Roll [Lawyer]{.suspense}  to spot loopholes in a legal document.
+
+    - **Edge Success:** 
+      This court's decision is likely to be appealed by the other party.
       The judge declares that if there's another outburst like that, they'll clear the courtroom.
       You'll answer to the state bar for this.
+      It takes much more time than you thought it would.
+      The judge accuses you of contempt-of-court.
+      Your client (if not representing yourself) objects to your legal strategy.
+      Lose 1 Health or 1 Might.
   
 Mystic
 :   You understand the roots of magical power and can even perform
     some rituals. As an option, you can specialize in one or more
-    types of magic.
+    types of magic; if you do, add 1 die to any roll related to those
+    specialties.
 
-    - Roll [Mystic]{.action} to counter someone else's ritual.
+    - Roll [Mystic]{.action}    to counter someone else's ritual.
     - Roll [Mystic]{.adventure} to calm a magical creature.
     - Roll [Mystic]{.detective} to comprehend a magical text.
-    - Roll [Mystic]{.suspense} to identify a magical effect.
-    - **Edge Success:** You draw unwanted attention from an extra-dimensional power.
+    - Roll [Mystic]{.suspense}  to identify a magical effect.
+
+    - **Edge Success:** 
+      You draw unwanted attention from an extra-dimensional power.
       You use up specific ritual ingredients that are in short supply.
-      It takes more time than you thought it would.
+      It takes much more time than you thought it would.
+      You won't be able to repeat this specific ritual in the future.
+      Lose 1 Health or 1 Might.
 
 Performer
 :   You're a talented actor, musician, acrobat, magician, or other 
     type of performer.
-    Optionally, you can choose one or more forms of expression.
+    Optionally, you can choose one or more forms of expression as specialties; 
+    if you do, add 1 die roll to any roll related to those specialties.
 
-    - Roll [Performer]{.action} to make yourself the center of attention.
-    - Roll [Performer]{.adventure} to have the show go one even if something unexpected happens.
-    - Roll [Performer]{.mystery} to perform believably in a role.
-    - **Edge Success:** Your performance draws the attention of a new rival.
-      Your performance had flaws that you hope nobody noticed.
-      Someone declares that you're a sell-out.
+    - Roll [Performer]{.action}    to make yourself or someone else the center of attention.
+    - Roll [Performer]{.adventure} to make the show go one even if something unexpected happens.
+    - Roll [Performer]{.mystery}   to perform believably in an acting role.
+    - Roll [Performer]{.suspense}  to notice anyone in the audience who *isn't* watching your performance.
+
+    - **Edge Success:** 
+      Your performance draws the attention of a new rival.
+      Your performance had flaws that you really hope nobody noticed.
+      Someone declares that you're a sell-out and they were into you *before* you were cool.
+      It takes much more time than you thought it would.
+      This could get you "cancelled" online.
+      Lose 1 Health or 1 Might.
   
 Physician
 :   You are trained as a doctor or other medical
-    professional. You can optionally choose a specialty if you wish.
+    professional. You can optionally choose one or more specialties if you wish; 
+    if you do, add 1 die to any roll related to those specialties.
 
-    - Roll [Physician]{.action} to perform major surgery.
+    - Roll [Physician]{.action}    to perform major surgery.
     - Roll [Physician]{.adventure} to apply first aid.
     - Roll [Physician]{.detective} to perform forensic medicine on a corpse.
-    - Roll [Physician]{.suspense} to diagnose someone's illness.
-    - **Edge Success:** There are unexpected side effects to the treatment you suggest.
-      You help someone, but they'll need more care later.
-      You use up the last of your medicine.
+    - Roll [Physician]{.suspense}  to diagnose someone's illness or injuries.
+
+    - **Edge Success:** 
+      There are unexpected side effects to the treatment you suggest.
+      You help your patient, but they'll need more care later.
+      You use up the last of your medicine -- until the end of the current Crisis.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Pilot
 :   You know how to operate planes, helicopters, ships, 
-    submarines, spaceships, and similar vessels.
+    submarines, spaceships, and similar vessels. Optionally, you can choose one or 
+    more types of vehicle as specialties if you wish; if you do, add 1 die to any
+    roll related to those specialties.
 
-    - Roll [Pilot]{.action} to handle a craft in battle.
+    - Roll [Pilot]{.action}    to handle a craft in battle.
     - Roll [Pilot]{.adventure} to weather the effects of a storm.
     - Roll [Pilot]{.detective} to calculate a flight path.
-    - Roll [Pilot]{.mystery} to run a blockade.
-    - **Edge Success:** Your strain the capabilities of your craft.
+    - Roll [Pilot]{.mystery}   to run a blockade.
+
+    - **Edge Success:** 
+      Any landing you can walk away from is a good landing, right? This is a ... good landing.
+      Your strain the capabilities of your craft.
       You use more fuel than you intended.
       The paint job on your craft is ruined.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Politician
 :   You're practiced at playing the system to influence the public.
 
-    - Roll [Politician]{.action} to rile up a crowd.
+    - Roll [Politician]{.action}    to rile up a crowd.
     - Roll [Politician]{.adventure} to avoid answering direct questions.
-    - Roll [Politician]{.detective} to discern someone's politics.
-    - Roll [Politician]{.mystery} to speak in dogwhistles and empty promises.
-    - Roll [Politician]{.suspense} to read the room. 
-    - **Edge Success:** Your speech is put on the Internet with humiliating captions.
-      People believe you, but for the wrong reasons.
+    - Roll [Politician]{.detective} to discern someone's political positions.
+    - Roll [Politician]{.mystery}   to speak in dogwhistles and empty promises.
+    - Roll [Politician]{.suspense}  to read the room. 
+
+    - **Edge Success:** 
+      Your speech will be put on the Internet with humiliating captions.
+      People believe you, ... but for the wrong reasons.
       You draw the attention of the rich and powerful.
+      It takes much more time than you thought it would.
+      This could get you "cancelled" online.
+      Lose 1 Health or 1 Might.
   
 Scientist
-:   You understand science. Not science of the real world, but
-    super-science that can create shrink rays or muscle serums.
-    Optionally, you can choose one or more scientific specialties.
+:   You understand science. Not *science* of the real world, but
+    super-"science" that can create shrink rays or muscle serums.
+    Optionally, you can choose one or more scientific specialties; if
+    you do, add 1 die to any roll related to those specialties.
 
-    - Roll [Scientist]{.action} to directly test your hypothesis.
+    - Roll [Scientist]{.action}    to directly test your hypothesis.
     - Roll [Scientist]{.detective} to reverse the effects of super-science.
-    - Roll [Scientist]{.suspense} to measure natural phenomena.
-    - **Edge Success:** It takes longer than you thought it would.
+    - Roll [Scientist]{.suspense}  to measure natural phenomena.
+
+    - **Edge Success:** 
       You won't be able to replicate the effects again.
-      Someone already patented your technique.
+      It turns out that someone already patented your "new" technique.
+      It takes much more time than you thought it would.
+      Lose 1 Health or 1 Might.
   
 Socialite
 :   You are a known figure in high society, and know how to make an appearance.
 
-    - Roll [Socialite]{.action} to impress someone with how important you are.
+    - Roll [Socialite]{.action}    to impress someone with how important you are.
     - Roll [Socialite]{.adventure} to successfully mingle with the upper classes.
     - Roll [Socialite]{.detective} to investigate a charity's funding sources.
-    - Roll [Socialite]{.mystery} to hide your true social rank.
-    - **Edge Success:** Someone vows that you've crossed the wrong person.
-      Someone is wearing the same outfit as you -- *the nerve!*
-      You end up in tomorrow's edition of the local gossip rag.
+    - Roll [Socialite]{.mystery}   to hide your true social rank.
+
+    - **Edge Success:** 
+      Someone vows that you've crossed the wrong person.
+      Oh no, it's your ex.
+      Someone is wearing the same outfit as you -- the *nerve!*
+      You'll end up in tomorrow's edition of the local gossip rag.
+      It takes much more time than you thought it would.
+      You won't get invited to future parties of your normal social circles.
+      This could get you "cancelled" online.
+      Lose 1 Health or 1 Might.
 
 Spy
 :   You're trained in espioniage, and have a number of false identities.
-    Optionally, you have security clearance in a spy agency.
+    Optionally, you have security clearance in a spy agency; if you do, add 1
+    die to any roll related to that agency.
 
-    - Roll [Spy]{.action} to sabotage a location or vehicle.
+    - Roll [Spy]{.action}    to sabotage a location or vehicle.
     - Roll [Spy]{.adventure} to infiltrate a hidden base.
     - Roll [Spy]{.detective} to break a code.
-    - Roll [Spy]{.mystery} to keep your secrets under interrogation.
-    - Roll [Spy]{.suspense} to see through another spy's disguise.
-    - **Edge Success:** You won't be able to use this cover identity again.
+    - Roll [Spy]{.mystery}   to keep your secrets under interrogation.
+    - Roll [Spy]{.suspense}  to see through another spy's disguise to identify their affiliation.
+
+    - **Edge Success:** 
+      You won't be able to use this cover identity again.
       An alarm will sound shortly after you leave the area.
       Your fellow agents start to mistrust you.
+      It takes much more time than you thought it would.
+      You'll lose your security clearance (if you had one).
+      Someone you trusted will turn out to be a double (or triple) agent.
+      Lose 1 Health or 1 Might.
   
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -1673,6 +1791,9 @@ The Psychic     Academic, plus any          Focused,             6     Our Minds
 The Shaper      Artist, Scientist,          Sculpt,              6     Reshape the Battlefield
                 plus any two                Environment, plus
                                             one more
+
+The Speedster   Scientist, plus any two     Fastest, Alive       6     Ignore the Laws of 
+                                                                         Physics
 
 The Totem       Explorer, plus any two      Whatever, Can, plus  6     Force of Nature
                                             one Totem Nature
@@ -1830,7 +1951,6 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Construct Abilities {  .class}
@@ -1860,7 +1980,8 @@ At the start of Volume 1, choose two abilities from this list.
 ::::: {.ability-list .v1 } ::::::::::
 Azimovian Disciple
 
-:   *Prerequisite: You can't have the Golem class ability.* Isaac Azimov's three laws of robotics are like scripture to you. 
+:   *Prerequisite: You can't have the Golem class ability.* 
+    Isaac Azimov's three laws of robotics are like scripture to you. 
     As long as you abide by them, add 2 dice whenever you roll to advance
     the Allay or Rescue goals. If you deliberately break one, you lose this
     benefit until you successfully resolve a Crisis.
@@ -1882,17 +2003,21 @@ Efficient Response
 Even An Android Can Cry
 
 :   *Prerequisite: Humaniform Robot* 
-    *Prerequisite: You can't have the Golem class ability.* Add 2 to the dice pool when you display 
+    *Prerequisite: You can't have the Golem class ability.* 
+    Add 2 to the dice pool when you display 
     human emotions while trying to advance the Allay or Rescue goals.
 
 Golem
 
-:   You were created through mystical means, not technological ones. Replace
-    your Engineer and Hacker skills with Academic, Historian, and Mystic.
+:   You were created through mystical means, not technological ones. 
+    
+    [Mage]{.crossover}
+    Replace your Engineer and Hacker skills with Academic, Historian, and Mystic.
 
 Humaniform Robot
 
-:   *Prerequisite: You can't have the Golem class ability.* Some humans suspect that you approximate humanity with more accuracy than they
+:   *Prerequisite: You can't have the Golem class ability.* 
+    Some humans suspect that you approximate humanity with more accuracy than they
     actually live it. Replace two of your skills with Artist and Performer.
 
 Iron Giant
@@ -1905,7 +2030,12 @@ Iron Giant
     Monstrosity Class Personal Power Words List. Add the latter as 
     Core Power Words.
 
-Instant Recall
+It's Alive!
+
+:   If you are ever killed, you return to life at the end of the next Crisis
+    Countdown, with maximum Health and Might.
+
+Perfect Recall
 
 :   *Prerequisite: You can't have the Golem class ability.* You can perfectly remember, describe, and repeat back anything you read,
     hear, or see. If you use this ability in a dice roll, spend 1 Might to add 
@@ -1913,11 +2043,6 @@ Instant Recall
     Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
     Inventor Class Personal Power Words List. Add the latter as 
     Core Power Words.
-
-It's Alive!
-
-:   If you are ever killed, you return to life at the end of the next Crisis
-    Countdown, with maximum Health and Might.
 
 The Modern Prometheus
 
@@ -1941,7 +2066,10 @@ The Modern Prometheus
 
 Purpose-Built
 
-:   You were created with a specific function in mind. Add up to two 
+:   You were created with a specific function in mind. 
+
+    [Dynamo, Shaper]{.crossover .es}
+    Add up to two 
     Power Words from the Dynamo Energy Power Word List as Core Power
     Words, up to two Power Words from the Shaper Elemental Power Word
     List as Core Power Words, or up to two Power Words from the Inventor
@@ -1961,6 +2089,8 @@ Purpose-Built
 Purpose-Crafted
 
 :   *Prerequisite: Golem* You were crafted with a specific function in mind.
+
+    [Mage, Shaper]{.crossover .es}
     Add up to two Power Words from the Mage Power Word List as Core Power
     Words, up to two Power Words from the Shaper Elemental Power Word
     List as Core Power Words, or up to two Power Words from the Divine Personal
@@ -1977,8 +2107,10 @@ Self-Repair Circuits
 
 Unique Energy Source
 
-:   You can draw upon a rare form of energy that suffuses your artificial
-    form. Add one Power Word from the Dynamo Energy Power List as a Core
+:   You can draw upon a rare form of energy that suffuses your artificial form. 
+
+    [Dynamo]{.crossover}
+    Add one Power Word from the Dynamo Energy Power List as a Core
     Power Word, and up to three Power Words from the Dynamo Personal Power
     Word List as Personal Power Words. If you start a Hero Phase with fewer 
     than 2 Might, immediately refresh Might equal to the Volume. Increase your
@@ -2248,8 +2380,7 @@ At the start of Volume 1, choose two abilities from this list.
 
 Stamina of Atlas
 
-:   You are tougher than a mere mortal. 
-    Increase your maximum Health by 5.
+:   You are tougher than a mere mortal. Increase your maximum Health by 5.
 
 Strength of Kratos
 
@@ -2262,6 +2393,8 @@ Weapon of the Gods
 :   You have a weapon that is unique in the universe, possibly 
     crafted by a deity of the forge. Decide on the specific
     weapon, and add that weapon's proper name as a Core Power Word. 
+
+    [Dynamo, Shaper]{.crossover}
     In addition, choose either one Energy Power Word from the Dynamo 
     class or one Element Power Word from the Shaper list, and use that 
     as Personal Power Word whenever you have your weapon.
@@ -2270,10 +2403,6 @@ Wisdom of Athena
 
 :   Your insight is unmatched by anyone save the gods themselves.
     Add 2 to the dice pool to advance the Outwit or Allay goals.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2296,6 +2425,12 @@ Speed of Hermes
     at speeds approaching Mach 1.
     The Timely Arrival move costs you 0 points from the 
     Teamwork Pool.
+
+Temple of the Gods
+
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 
@@ -2580,17 +2715,16 @@ Eight Ball, Corner Pocket
 
 Fight Fire With Fire
 
-:   If a Crisis threatens you or someone else with
-    harm from energy blasts, you can fire off a
-    blast of energy that intercepts and blocks it.
-    You can spend points of Might instead of points from
+:   If a Crisis threatens you or someone else with harm from energy 
+    blasts, you can fire off a blast of energy that intercepts and 
+    blocks it.  You can spend points of Might instead of points from
     the Teamwork Pool to counter energy-themed effects.
 
 Wide Angle
 
-:   You can spread your energy in a burst that hits
-    many targets. When you advance the Smash goal by
-    at least 1, advance another goal by 1.
+:   You can spread your energy in a burst that hits many targets. 
+    When you advance the Smash goal by at least 1, advance another goal 
+    by 1.
 
 TBD
 
@@ -2605,8 +2739,11 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Energy Shaping
 
-:   Add a Word from the Shaper class's Personal Power Word list
-    as a Personal Power Word. You can take this ability more than once.
+:   [Shaper]{.crossover}
+    Add a Word from the Shaper class's Personal Power Word list
+    as a Personal Power Word. 
+
+    You can take this ability more than once.
 
 Energy Versatility
 
@@ -2832,7 +2969,6 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Expatriate Abilities {.class}
@@ -2897,6 +3033,12 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
+Earth, Or A Reasonable Facsimile Thereof
+
+:   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
+
 Regeneration
 
 :   If you're ever wounded, you don't stay that way for long.
@@ -2908,10 +3050,6 @@ Relentless Power
 
 :   You are a storehouse of untapped energy. Increase your
     maximum Might by 5.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2938,17 +3076,17 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
-
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
-
 Immortal
 
 :   You might be seriously wounded, but you never stay dead. 
     If you're reduced to 0 Health or
     0 Might, regain 1 point of each at the start of the
     next Hero Phase.
+
+Power Overwhelming
+
+:   Your capacity for destruction is extraordinary, even for a hero.
+    Increase your maximum Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3093,9 +3231,10 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   You have a base of operations at the top of a tall building.
-    When you make a skill roll in that building, add 2 
-    to the dice pool.
+:   *Prerequisite: You can't have another __Hero Cave__Ability.*
+    You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 to the dice pool.
+    This is a *Hero Cave* Ability.
 
 TBD
 
@@ -3115,13 +3254,14 @@ Puissant Polymath
     start of each subsequent Volume.
 
 Weaponsmith
-
-:   You've created a number of weapons with a wide variety of effects.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You've created a number of weapons with a wide variety of effects.
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
 
 TBD
 
@@ -3183,10 +3323,235 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::: { .classdata } :::::::::::
+### Generic Abilities {#toc-generic .breakbefore .class}
+
+> Twin Powers - Activate!
+
+#### Questions
+
+:::::::::: questions :::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::
+
+#### Skills
+
+You have the **Explorer** skill, plus two additional skills of your choice.
+
+Whenever you make a roll that uses one of your skills, add 1 extra die. If
+you have more than one skill that could apply to a roll, add 1 extra die for each
+applicable skill.
+
+#### Power Words
+
+You can use your Power Words in the following ways:
+
+- As a **Power Display**, costing no Might
+- As a **Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase, and you can't use it until it is off cooldown.
+
+#### Generic Abilities {.class}
+
+Each Volume, you gain a new ability from your class.
+Instead of taking a Class Ability, you can choose a Generic
+Ability from the following lists.
+Each ability can be chosen only once.
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose two abilities from this list or from
+your Class's Volume 1 Class Ability List.
+
+::::: {.ability-list .v1 } ::::::::::
+
+Hero Cave
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a hidden location that is your personal base of operations.
+    Add 2 dice whenever you make a skill roll while in your Hero Cave.
+    Choose two Scene Power Words from the following Hero Cave Power Words
+    List:
+
+    ::: cpw :::::::::::::::::
+    # Hero Cave Power Words List {#list-hero-cave-power-words}
+
+    - Analysis
+    - Arsenal
+    - Beds
+    - Cell
+    - Communication
+    - Computer
+    - Costume
+    - Crime
+    - Dark
+    - Exit
+    - Extra
+    - Garage
+    - Hangar
+    - Hidden
+    - Laboratory
+    - Medical
+    - Memorial
+    - Passage
+    - Secure
+    - Secret
+    - Sensors
+    - Shielded
+    - Toys
+    - Trophy
+    - Underground
+    - Weapon
+    :::::::::::::::::::::::::
+
+    This is a *Hero Cave* Ability.
+
+Break the Fourth Wall
+:   Your hero knows they're in a comic book -- or, at least, in a 
+    tabletop roleplaying game.
+    When you roll to advance the Outwit goal, if you reference this
+    knowledge in a nonsensical way, count all 4s, 5s, or 6s as 
+    successes.
+
+Arsenal
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    At the start of each Storyline, pick a number of Power Words
+    from the Inventor or Knight Personal Power Words Lists
+    equal to the Volume.
+    You can use each such Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
+
+Hero Without Fear
+:   You are completely fearless. If you are exposed to any fear-
+    based effects, spend 1 Might to counter that use for you only.
+    Your lack of fear lets you take risks to save others without
+    concern for your own safety: You can choose to add 2 dice when 
+    you roll to advance the Rescue goal. If you do, lose 1 Health 
+    or 1 Might after resolving the roll.Choose any two or three single words you like; these are your
+**Nova Power Words**.
+
+At the start of any Storyline, your Nova Power Words are **Locked** and
+you can't use them in Power Displays, Stunts, or Combos.
+
+When you mark all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
+
+You can use one of your *Unlocked* Nova Power Words in a Power Stunt
+
+or Combo for free; if you spend 1 Might, you can include a second
+Nova Power Word as well.
+
+You can use one or more of your *Locked* Nova Power Words in a Power
+
+Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
+The Nova Power Word remains *Locked*.
+
+Local Hero
+:   You and your home town are near synonymous. 
+    You know the geography of the city like the back of your hand. 
+    Add the name of your city as a Core Power Word.
+    Add 2 dice whenever you make a skill roll related to the city. 
+    While you're in your home city, add 2 dice when you roll to advance 
+    the Allay or Rescue goals.
+
+    *Repetition* You can take this Ability more than once. When you do, 
+    choose another city in which you can use this Ability.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+:::::::: {.ability-list .v2 } :::::::
+
+Chameleon
+:   You can change your physical features to match any person you've
+    ever met, or a combination of such features.
+    Add "Disguise" as a Core Power Word.
+    Add 2 dice when you use Disguise in a Power Display, Power Stunt, or
+    Power Combo to advance the Outwit goal.
+
+Eidetic Memory
+:   You have what's sometimes called *photographic memory* -- you have perfect
+    recall of anything you see, hear, read, or otherwise experience.
+    Add 3 dice when you make a skill roll related to memory or knowledge.
+
+TBD
+:   To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+:::::::: {.ability-list .v3 } :::::::
+Weirdness Magnet
+
+:   Strange things happen around you *all the time*. This means you
+    are more likely to be on the scene whenever a Crisis breaks out!
+    If your hero isn't present at the start of a Crisis, you can
+    spend 1 Might during the *Teamwork Pool - Assemble!* phase of the
+    *Countdown to Crisis* to say that you've been there the whole time.
+    If you do, add 3 dice when you roll to create the initial Teamwork 
+    Pool.
+
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::::: {.ability-list .v4 } :::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
 ### The Haunt {#toc-haunt .breakbefore .class}
 
 > 
+
+You're dead.
+
+Sorry about the bad news.
+
+But for whatever reason ... you are cursed to walk the Earth, along
+the narrow line between life and death.
 
 #### Playing a Haunt
 
@@ -3222,8 +3587,10 @@ As you create your Haunt hero, answer any or all of these questions.
     adult heroes?
 - What kind of interests do you have that surprise other people? 
   - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
+- Why do you still walk the Earth?
+  - What (or who) prevents you from moving on to an afterlife?
+  - How can your spirit finally be laid to rest?
+  - Would your hero take the opportunity to move on, or fight against it?
 ::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
@@ -3508,11 +3875,12 @@ Choose at least two but no more than four single words you like;
 these are your **Nova Power Words**, and together are known as your
 **Nova Power Phrase**.
 
-When you check off all your Ideals, your Nova Power Words are 
-**Unlocked** until the end of the current Storyline.
+When you mark all your Ideals, your Nova Power Words are **Unlocked** 
+until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for 
+free; if you spend 1 Might, you can include the second Nova Power Word 
+as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
@@ -3554,6 +3922,7 @@ Animal Partner
     spending Might, each once per Hero Phase. Your animal partner's 
     Health and Might equal the Volume.
 
+    [Totem]{.crossover}
     Choose one Skill possessed by your Animal Partner, and a Fighting
     Style. You can use that skill or Fighting Style whenever your 
     Animal Partner is present during a Crisis.
@@ -3568,8 +3937,9 @@ Animal Partner
 
 Alien Totem
 
-:   You are not connected to normal earth creatures, but alien versions
-    of them. All of your abilities and power words work with similar creatures,
+:   You are not connected to normal earth creatures, but alien versions of them. 
+
+    All of your abilities and power words work with similar creatures,
     no matter what worlds they originate from.
 
     In addition, add **Alien** as a Core Power Word.
@@ -3587,6 +3957,8 @@ Mystic Totem
 
 :   Your link to your nature totem is a result of mystical means, not 
     technological a strictly scientific process. You gain the Mystic skill.
+
+    [Mage]{.crossover}
     Whenever you choose a Personal Power Word, you can choose from the 
     Mage Class Personal Power Words List or the Divine Class Personal 
     Power Words List.
@@ -3599,11 +3971,6 @@ Summon Swarm
     These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
     Nature Power Word as a scene power word until the end of the crisis.
 
-Unkillable
-
-:   You get knocked down but you get up again. They're never gonna keep you 
-    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
-
 Unbeatable
 
 :   Your powers cause people to under-estimate you and you actually punch can
@@ -3612,6 +3979,11 @@ Unbeatable
     Totem Nature Power Word present -- including from the *Animal Companion* or
     *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
     you make to advance any goal.
+
+Unkillable
+
+:   You get knocked down but you get up again. They're never gonna keep you 
+    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
 
 Variable Totem
 
@@ -3670,287 +4042,7 @@ Savage Instincts
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-##### Totem Nature Core Power Words
-
-- Bugs
-  - Spider
-    - Black Widow
-    - Recluse
-    - Tarantula
-  - Insect
-    - Ant
-      - Scorpion
-    - Fly
-      - Bee
-      - Butterfly
-      - Moth
-      - Roach
-      - Wasp
-        - Hornet
-        - Yellowjacket
-- Reptiles
-  - Alligator
-  - Crocodile
-  - Dinosaur
-    - Pterodon
-    - T-Rex
-  - Lizard
-    - Chameleon
-    - Iguana
-  - Snake
-    - Asp
-    - Cobra
-    - Python
-    - Rattlesnake
-    - Viper
-  - Tortoise
-  - Turtle
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
-- Felines
-  - Cat
-  - Cheetah
-  - Lion
-  - Panther
-  - Puma
-  - Sabre-Tooth
-  - Tiger
-- Birb
-  - Owl
-  - Vulture
-  - Falcon
-  - Hawk
-  - Dove
-  - Rooster
-  - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
-- Amphibians
-  - Frog
-  - Newt
-  - Toad
-  - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
-- Fish
-  - Barracuda
-  - Eel
-  - Clam
-  - Crab
-  - Fish
-  - Lobster
-  - Moray
-  - Pirhanna
-  - Merfolk
-  - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
-  - Sea Horse
-- Mammals
-  - Elephant
-    - Mammoth
-    - Mastodon
-    - Pachyderm
-  - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
-  - Monkey
-    - Ape
-    - Gorilla
-    - Gibbon
-    - Ma
-  - Pig
-    - Hog
-    - Boar
-  - Stag
-  - Deer
-  - Moose
-  - Kangaroo
-  - Elk
-  - Horse
-    - Alicorn
-    - Centaur
-    - Hippopotamus
-    - Pegasus
-    - Unicorn
-  - Rhino
-  - Wolverine
-  - Canines
-    - Dog
-      - Mastiff
-      - Hound
-      - Wolf
-      - Dingo
-    - Coyote
-    - Jackal
-    - Fox
-  - Bear
-    - Koala
-    - Grizzly
-    - Panda
-    - Polar
-  - Rodent
-    - Badger
-    - Bat
-    - Mongoose
-    - Mouse
-    - Otter
-    - Porcupine
-    - Rabbit
-      - Bunny
-      - Jackrabbit
-      - Hare
-    - Raccoon
-    - Rat
-    - Skunk
-    - Squirrel
-    - Weasel
-      - Ermine
-      - Mink
-      - Stoat
-- Environment
-  - Coral
-  - Mire
-  - Tree
-  - Tundra
-
-::::::::::::: cpw :::::::
-##### Totem Personal Power Words List
-
-- Agility
-- Amphibious
-- Anthropomorphic
-- Aquatic
-- Barbed
-- Bark
-- Breath
-- Camouflage
-- Claws
-- Climb
-- Colorful
-- Crawl
-- Cute
-- Danger
-- Ears
-- Elusive
-- Empathic
-- Essense
-- Eyes
-- Fangs
-- Feet
-- Fins
-- Flipper
-- Fly
-- Fur
-- Gills
-- Glide
-- Graceful
-- Grasp
-- Growl
-- Habitat
-- Hair
-- Hard
-- Harmless
-- Hearing
-- Hide
-- Hooves
-- Horn
-- Howl
-- Instincts
-- Jump
-- Leap
-- Legs
-- Luck
-- Lungs
-- Melodious
-- Mighty
-- Mimic
-- Musk
-- Muzzle
-- Neck
-- Night
-- Nobility
-- Normal
-- Nose
-- Odor
-- Paws
-- Proportionate
-- Quills
-- Regenerative
-- Roar
-- Run
-- Savagery
-- Scales
-- Scent
-- Senses
-- Shapechange
-- Sharp
-- Shell
-- Silent
-- Size
-- Skin
-- Sleek
-- Slippery
-- Snarl
-- Soft
-- Speed
-- Spines
-- Stamina
-- Stinger
-- Strength
-- Suckers
-- Swim
-- Tail
-- Teeth
-- Tentacle
-- Theriomorphic
-- Tiny
-- Tongue
-- Toxic
-- Transformation
-- Trunk
-- Unnoticed
-- Venom
-- Vision
-- Webs
-- Wet
-- Wings
-- Wisdom
 :::::::::::::::::::::::::
-
-Misunderstood Monster
-
-:   Even at your most animalistic, you wouldn't harm an innocent.
-    Add 2 to the dice pool when you advance the Allay
-    or Rescue goals. 
-    Whenever you choose a Personal Power Word,
-    you can choose from the Totem Class Nature Power Words List,
-    or the Totem Personal Power Words List.  Add any from the latter as 
-    Core Power Words.
-
-Regeneration
-
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
-
-Wild Power
-
-:   You are a storehouse of natural energy. Increase your maximum Might 
-    by 5.
-
-Wild Strength
-
-:   You are as hard to take down as the mightiest of beasts. Increase your
-    maximum Health by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3959,31 +4051,6 @@ Wild Strength
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
-
-:   There are few things that can seriously harm you.  Increase your maximum 
-    Health by 5.
-
-Power Burn
-
-:   You can call upon your life-force to fuel your powers.  You can spend 
-    Health whenever you would normally spend Might. Increase your maximum
-    Health by 3.
-
-Soul Bond
-
-:   *Prerequisite: Humanity's Best Friend.*
-    You have a quasi-mystical bond with another person. Choose a
-    consenting hero who is essentially human. 
-
-    You gain the Psychic class's **Our Minds As One** Prime ability,
-    but only with your chosen hero. In addition, you gain **Soul**
-    and **Bond** as Core Power Words.
-
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Totem Class Personal Power Words List, or the Psychic Class Personal 
-    Power Words List.  Add any from the latter as Core Power Words.
-
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -3991,17 +4058,6 @@ Soul Bond
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
-
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
-
-Immortal Totem
-
-:   *Prerequisite: Mystic Totem* You might be seriously wounded, but you'll never stay dead. 
-    If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
-    start of the next Hero Phase.
-
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -4009,14 +4065,6 @@ Immortal Totem
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -4257,9 +4305,11 @@ TBD
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+My Own Personal Hell
 
-:   To be determined.
+:   *Prerequisite: You can't have another __Hero Cave_ Ability.*
+    []{.lorem} []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 
@@ -4451,9 +4501,10 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   You have a base of operations at the top of a tall building.
-    When you make a skill roll in that building, add 2 
-    to the dice pool.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a base of operations at the top of a tall building.
+    When you make a skill roll in that building, add 2 to the dice pool.
+    This is a *Hero Cave* Ability.
 
 TBD
 
@@ -4474,12 +4525,14 @@ Puissant Polymath
 
 Weaponsmith
 
-:   You've created a number of weapons with a wide variety of effects.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You've created a number of weapons with a wide variety of effects.
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
 
 TBD
 
@@ -4627,7 +4680,7 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 ##### Core Power Words
 
-Your Core Power Words are **Does** **Whatever** and **Can**.
+Your Core Power Words are **Youthful** and **Exuberance**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
@@ -4649,110 +4702,113 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
   - Insect (Hornet)
   - Insect (Yellowjacket)
 - Reptiles
-  - Reptile (Alligator)
-  - Reptile (Crocodile)
-  - Dinosaur (Pterodon)
-  - Dinosaur (T-Rex)
-  - Dinosaur (Stegosaur)
-  - Lizard (Chameleon)
-  - Lizard (Iguana)
-  - Snake (Asp)
-  - Snake (Cobra)
-  - Snake (Python)
-  - Snake (Rattlesnake)
-  - Snake (Viper)
-  - Reptile (Tortoise)
-  - Reptile (Turtle)
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
+  - Alligator
+  - Crocodile
+  - Dinosaur 
+    - Pterodon
+    - Stegosaur
+    - T-Rex
+  - Lizard   
+    - Chameleon
+    - Iguana
+  - Snake
+    - Asp
+    - Cobra
+    - Python
+    - Rattlesnake
+    - Viper
+  - Tortoise
+  - Turtle
+- Mythological
+  - Dragon
+    - Hydra
+    - Wyrm
+    - Wyvern
+  - Pegasus
+  - Sphinx
+  - Unicorn
 - Felines
-  - Feline (Housecat)
-  - Feline (Cheetah)
-  - Feline (Cougar)
-  - Feline (Lion)
-  - Feline (Panther)
-  - Feline (Puma)
-  - Feline (Sabretooth)
-  - Feline (Tiger)
-- Birb
-  - Owl
-  - Vulture
+  - Cheetah
+  - Cougar / Puma
+  - Housecat
+  - Lion
+  - Panther
+  - Smilodon
+  - Tiger
+- Bird
+  - Chicken / Hen
+  - Dove
+  - Eagle
   - Falcon
   - Hawk
-  - Dove
+  - Ostrich
+  - Owl
   - Rooster
   - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
+  - Vulture
 - Amphibians
   - Frog
   - Newt
-  - Toad
   - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
+  - Toad
 - Fish
   - Barracuda
-  - Eel
   - Clam
   - Crab
+  - Eel
   - Fish
   - Lobster
-  - Moray
-  - Pirhanna
   - Merfolk
+  - Moray
   - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
+  - Pirhanna
   - Sea Horse
+  - Shark
+  - Squid (or Kraken)
+  - Starfish
+- Marsupials
+  - Kangaroo
+  - Koala
 - Mammals
   - Elephant
     - Mammoth
     - Mastodon
     - Pachyderm
   - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
+    - Goat (or Satyr)
+    - Bull (or Minotaur)
+    - Cow  (or Minotaur)
   - Monkey
     - Ape
+    - Chimp
     - Gorilla
     - Gibbon
-    - Ma
   - Pig
-    - Hog
     - Boar
-  - Stag
-  - Deer
+    - Hog
+  - Deer or Stag
   - Moose
-  - Kangaroo
   - Elk
   - Horse
     - Alicorn
     - Centaur
     - Hippopotamus
-    - Pegasus
+    - *Pegasus*
     - Unicorn
   - Rhino
   - Wolverine
   - Canines
+    - Coyote
     - Dog
       - Mastiff
       - Hound
       - Wolf
       - Dingo
-    - Coyote
-    - Jackal
     - Fox
+    - Jackal
   - Bear
-    - Koala
+    - Black
+    - Brown
     - Grizzly
     - Panda
     - Polar
@@ -4775,16 +4831,27 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
       - Ermine
       - Mink
       - Stoat
+  - Otter
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
 - Environment
   - Coral
   - Desert
   - Jungle
   - Mire
   - Peaks
+  - Sea
   - Tundra
-- Plant (Flower, specific)
-- Plant (Tree, specific)
-- Plant (Vine, specific)
+  - Void (space)
+- Plant 
+  - Flower
+    - (specific)
+  - Tree
+    - (specific)
+  - Vine
+    - (specific)
 
 ##### Personal Power Words
 
@@ -4809,16 +4876,19 @@ Choose six Personal Power Words from the following list:
 - Dangerous
 - Dash
 - Dig
+- Dire
 - Direction
 - Distance
 - Echolocation
 - Elusive
 - Enduring
 - Environment
+- Feral
 - Giant
 - Growl
 - Horrifying
 - Howl
+- Huge
 - Hunger
 - Hunter
 - Immovable
@@ -4969,44 +5039,8 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Animal Instincts
-
-:   Whenever you roll Suspense or Mystery to advance the Allay or
-    Outwit goals, add 2 dice.
-
-Humanity's Best Friend
-
-:   Whenever you roll to add to the Teamwork pool or advance the Rescue
-    or Allay goals, add 1 die for every human hero present, to a maximum 
-    number of extra dice equal to the Volume.
-
-Savage Instincts
-
-:   Gain a number of Fighting Styles equal to the Volume, chosen from the
-    following list. At the start of each subsequent Volume, gain 1 more 
-    Fighting Style from this list.
-
-    - Acrobat
-    - Brawler
-    - Controller
-    - Demolisher
-    - Frenzy
-    - Find Weakness
-    - Guerilla
-    - Interceptor
-    - Harrier
-    - Martial Artist
-    - Meteor
-    - Rescuer
-    - Tactician
-    - Warlord
-
-    You can't ever gain the following Fighting Styles, from any source:
-    - Ace
-    - Makeshift Weapons
-    - Medic
-    - Sharpshooter
-    - Weapon Master
+TBD
+:    To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5014,7 +5048,7 @@ Savage Instincts
 ##### Kid Core Power Words
 
 Your Core Power Words are **Youthful** and **Exuberance**.
-You can spend 1 Might poitn to add one of those to a Power Stunt or
+You can spend 1 Might point to add one of those to a Power Stunt or
 Combo, or 2 Might to add both.
 :::::::::::::::::::::::::
 
@@ -5070,7 +5104,10 @@ Only a Child
 Pet
 
 :   You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
+    you on your heroic adventures. 
+
+    [Totem]{.crossover}
+    This partner has three Core Power Words --
     one chosen from the Totem Class's Totem Nature Power Words List,
     and two others from the Totem Class's Personal Power Words List -- 
     that you can use for free without spending Might, each once per Hero 
@@ -5088,7 +5125,11 @@ Magical Familiar
 :   *Prerequisite: You must have the __Pet__ class ability.*
     Whenever you choose a Core Power Word for your Pet, you can
     choose from the Divine Class Personal Power Words List or the
-    Mage Class Personal Power Words List. These become Core Power
+    Mage Class Personal Power Words List. 
+
+
+    [Divine, Mage]{.crossover .es}
+    These become Core Power
     Words that you can use for free, each once per Hero Phase, as
     described in the *Pet* class ability.
 
@@ -5102,6 +5143,7 @@ Alien Pet
     Your pet isn't from Earth -- or might not even be from this universe,
     in the case of a magical pet.
 
+    [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
     from the Monstrosity Class Personal Power Words List or the
     Paragon Class Personal Power Words List. These become Core Power
@@ -5118,30 +5160,21 @@ Holy Catchphrase!
     
 Intelligent Pet
 
-:   *Prerequisite: You must hve the __Pet__ class ability.*
+:   *Prerequisite: You must have the __Pet__ class ability.*
     Your pet is smarter than an average animal of that type. It can
     communicate intelligently in one language that you choose when
     you gain this class ability, although its voice is clearly
-    non-human. In addition, choose a second Skill possessed by
+    non-human. 
+
+    In addition, choose a second Skill possessed by
     the Pet, and one Approach. Whenever your Pet is present at a
     Crisis, add 3 dice whenever you make a roll using the chosen
     Approach.
-
-Regeneration
-
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
 
 Youthful Power
 
 :   You are a storehouse of indefatiguable energy. Increase your maximum 
     Might by 5.
-
-Wild Strength
-
-:   You are as hard to take down as the mightiest of beasts. Increase your
-    maximum Health by 5.
 
 Youthful Relatability
 
@@ -5155,16 +5188,6 @@ Youthful Relatability
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
-
-:   There are few things that can seriously harm you.  Increase your 
-    maximum Health by 5.
-
-Power Burn
-
-:   You can call upon your life-force to fuel your powers.  You can spend 
-    Health whenever you would normally spend Might. Increase your maximum
-    Health by 3.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5173,6 +5196,14 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -5370,23 +5401,41 @@ Toughness
 
 Trick Arrows
 
-:   You have specialized weapons, each for a different job.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You have specialized weapons, each for a different job.
+
+    [Dynamo, Paragon]{.crossover}
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Paragon Personal Power Words lists
     equal to the Volume.
+
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+    This is an *Arsenal* Ability.
+
 Weapons Locker
-:   You have a huge cache of conventional weapons.
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You have a huge cache of conventional weapons.
     From the following list, pick a number equal to the
-    Volume and add those as Core Power Words: Bullets, Grenade, 
-    Handgun, Knife, Non-Lethal, Reload, Rifle, Scope, Sword, or Stun.
-    Add one more at the start of each subsequent Volume.
+    Volume and add those as Core Power Words: 
+    
+    Weapons Locker Core Power Words List:
+    - Bullets 
+    - Grenade
+    - Handgun
+    - Knife
+    - Non-Lethal
+    - Reload
+    - Rifle
+    - Scope
+    - Sword 
+    - Stun
 
-TBD
+    At the start of each subsequent Volume, add one more from
+    the list as a Core Power Word.
 
-:   To be determined.
+    This is an *Arsenal* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5397,12 +5446,12 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 I Work Alone
 
-:   Some people are just reluctant team members.
-    When you roll to create or add to the Teamwork Pool, you 
-    can choose to add the roll's Effectiveness to your
-    maximum and current Might instead of the Teamwork Pool.
+:   Some people are just reluctant team members.  When you roll to 
+    create or add to the Teamwork Pool, you can choose to add the 
+    roll's Effectiveness to your maximum and current Might instead of 
+    the Teamwork Pool.
 
-Master of Skills
+Skill Mastery
 
 :   Your education covered a wide range of topics.  Gain a number of
     skills equal to the Volume. Add an additional skill at the
@@ -5482,6 +5531,7 @@ Custom Super-Mobile
     you do, track each Wheelman Class Power Words and Class Abilities
     separately, assigning each to a specific vehicle.
 
+    [Wheelman]{.crossover}
     Your Unique Vehicle's **Maximum Health** and
     **Maximum Might** equal the **sum of your own Maximum
     Health plus your Maximum Might**. When your maximum Health
@@ -5505,14 +5555,18 @@ Custom Super-Mobile
 Dread Creature of the Night
 
 :   You have chosen one specific type of animal to emulate, in
-    your war on crime. Choose one Power Word from the
+    your war on crime. 
+
+    [Totem]{.crossover}
+    Choose one Power Word from the
     Totem Class Nature Core Power Words List, and add it as a
     Power Word. Unlike the Totem class, you don't physically or
     spiritually become that animal; you just draw upon its abilities
     as inspiration.
 
-    You have a variant of Totem Class's *_Does Whatever a Totem Can_
-    Class Ability:*
+    You have a variant of Totem Class's 
+    *_Does Whatever a Totem Can_ Class Ability*,
+    *Does Some Things a Totem Can Do*:
     When you use your Nature Core Power Word in a Power Stunt or 
     Combo roll, add 2 dice as if you had a skill or fighting style
     that applies to such a use.
@@ -5526,7 +5580,7 @@ Super-Patriot
     Monarch Class Abilities to consider.
 
     *Repetition:* You can choose this Ability more than once; each
-    time, you must choose a different Ability.
+    time, you must choose a different Monarch Ability.
 
 Vehicle Customization
 :   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
@@ -5550,8 +5604,10 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 :::::: {.ability-list .v5 }::::::::::
 Change the Course of Mighty Rivers
 
-:   As a move during the Hero Phase, you can roll a Power Display,
-    Stunt, or Combo to affect the Scene. Choose a number of Scene
+:   []{.move .hero} As a move during the Hero Phase, you can roll a 
+    Power Display, Stunt, or Combo to affect the Scene. 
+
+    Choose a number of Scene
     Power Words equal to the Effectiveness of the roll; those Scene
     Power Words don't exist (and can't be used by you, the Editor's
     characters, or any other Heroes) until the end of the current
@@ -5740,18 +5796,39 @@ Mists of Misdirection
 
 Sanctuary of Sanctity
 
-:   You have a base of operations hidden in a normal-looking building
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a base of operations hidden in a normal-looking building
     or tower. When you make a skill roll in that building, add 2
     to the dice pool.
+    This is a *Hero Cave* Ability.
 
+Theurgy
+
+:   Your magic is grounded in the magic of the Gods themselves.
+    Choose one Power Word from the Divine Class Personal Power 
+    Word List as a Core Power Word.
+
+    You have a variant of the Divine Class Prime Ability
+    *_Give Me Strength!_*: *Invoke the Divine.*
+
+    When you use your Core or Nova Power Words in a Power
+    Stunt or Combo, you can count 6s as two successes 
+    instead of 1. If you do, lose either 1 Health or 1
+    Might after your roll, regardless of how many extra
+    successes you gained.
+
+    Instead of choosing a Volume 2 Mage Ability, you can
+    choose a Volume 2 or lower Ability from the Divine
+    Class. *Weapon of the Gods (1st)*, 
+    *Speed of Hermes (2nd)* and
+    *Skill of Artemis (3rd)* are among the most applicable
+    Divine Class Abilities to consider.
+    
 Thinking with Portals
 
 :   Add Portal as a Personal Power Word. You can make the General
-    Alert move without spending from the Teamwork Pool.
+    Alert move for free, without spending from the Teamwork Pool.
 
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5762,20 +5839,39 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
-:   At the start of each Storyline, pick a number of Power Words
+:   *Prerequisite: You must have the _Sanctuary of Sanctity_ Ability.*
+    At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
+
+    [Psychic, Shaper]{.crossover}
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+Diabolical Power
+
+:   Much of your magical power is drawn from the pits of Hell and
+    similar dark sources. You might not serve evil directly, but 
+    perhaps you've stolen a bit of power from Hell to use on the 
+    side of angels?
+
+    [Hellspawn, Mage]{.crossover .es}
+    You have a variant of the Hellspawn Class's Prime
+    Ability *Infernal Wrath*: *Hellish Rebuke.*
+
+    Add *Flame*, *Darkness* and *Demon* as Core Power Words. 
+    Whenever you add a Personal Power Word, you can pick 
+    either one from the Hellspawn Class Personal Power Words 
+    List or the Mage Class Personal Power Words List.
+
+    Instead of choosing a Volume 3 or higher Mage Ability,
+    you can choose a Hellspawn Class Ability of the same
+    Volume or lower.
+    
 Eldritch Might
 
 :   Your power continues to grow, but at what cost? Increase your
     maximum Might by 5.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5788,15 +5884,15 @@ Arcane Infusion
 
 :   You can impart some of your magical power to another hero.
     Choose two of your Power Words. Until the
-    end of the current Storyline, they gain those Words as Personal
+    end of the current Storyline, they gain those Words as Core 
     Power Words. You can only do this once per Storyline.
 
 Healing Mantra
 
-:   You can use your magic to heal your allies. As an action, roll a
-    Power Display, Stunt, or Combo. One or more heroes of your choice
-    regain a total amount of Health equal to the Effectiveness of your
-    roll plus the Volume.
+:   []{.move .hero} You can use your magic to heal your allies. 
+    As your move during the Hero Phase, roll a Power Display, Stunt, or 
+    Combo. One or more heroes of your choice regain a total amount of 
+    Health equal to the Effectiveness of your roll plus the Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -5937,7 +6033,7 @@ Choose six Personal Power Words from the following list:
 
 :::::::: cpw ::::::::::::
 - Armor
-- Animals (specific)
+- Animal (specific)
 - Beasts
 - Call
 - Command
@@ -6053,9 +6149,10 @@ Unfamiliar Fighting Techniques
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
 
-TBD
+Palace of the Privileged
 
-:   To be determined.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6074,10 +6171,11 @@ Inspiring Leadership
 Soul of the Land
 
 :   Whenever you are in your home, you can draw upon your
-    connection to the land. Add *Land* and *Soul* as Personal
-    Power Words; when you use one of them in a Power Stunt or Power
-    Combo while in your home, it doesn't cost any Might. (Adding
-    both costs 1 Might.)
+    connection to the land. 
+
+    Add *Land* and *Soul* as Personal Power Words; when you use one 
+    of them in a Power Stunt or Power Combo while in your home, 
+    it doesn't cost any Might. (Adding both costs 1 Might.)
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6337,9 +6435,11 @@ Relentless Power
 :   You are a storehouse of untapped energy. Increase your
     maximum Might by 5.
 
-TBD
+Leave Me Alone!
 
-:   To be determined.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem} []{.lorem}
+    This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6355,9 +6455,8 @@ Nigh-Invulnerable
 
 Power Burn
 
-:   You can call upon your life-force to fuel your powers.
-    You can spend Health whenever you would normally spend
-    Might.
+:   You can call upon your life-force to fuel your powers.  You can 
+    spend Health whenever you would normally spend Might.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6366,17 +6465,17 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
-
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
-
 Immortal
 
 :   You might be seriously wounded, but you never stay dead. 
     If you're reduced to 0 Health or
     0 Might, regain 1 point of each at the start of the
     next Hero Phase.
+
+Power Overwhelming
+
+:   Your capacity for destruction is extraordinary, even for a hero.
+    Increase your maximum Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6620,10 +6719,9 @@ Power Overwhelming
 
 Never-Ending Battle
 
-:   You refuse to stay down if there are innocents in
-    danger. When you are at 0 Health or 0 Might, regain 1
-    point of each at the start of the next Hero Phase if
-    the Rescue goal can still be advanced.
+:   You refuse to stay down if there are innocents in danger. When you 
+    are at 0 Health or 0 Might, regain 1 point of each at the start of 
+    the next Hero Phase if the Rescue goal can still be advanced.
 
 TBD
 
@@ -6638,9 +6736,10 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 ::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
 
-:   You have a base of operations in a remote location. When
-    you make a skill roll in that building, add 2 to the dice
-    pool.
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a base of operations in a remote location. When
+    you make a skill roll in that building, add 2 to the dice pool. 
+    This is a *Hero Cave* Ability.
 
 Nigh-Invulnerable
 
@@ -6654,9 +6753,30 @@ Nigh-Invulnerable
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Strange Visitor from Another Planet
 
-:   To be determined.
+:   You aren't from Earth, but are instead from another planet
+    with advanced super-science. You have a variant of the
+    Inventor Class's *No Wasted Effort* Prime Ability:
+
+    [Inventor]{.crossover}
+    Whenever you advance a Goal, you can choose to add 1
+    success from the roll's Effectiveness to the Teamwork
+    Pool instead of using all of it to advance the Goal.
+
+    Choose one Power Word from the Inventor Class's
+    Personal Power Word List and add it as a Core Power Word.
+
+    Whenever you add a new Personal Power Word, you can
+    choose from the Inventor Personal Power Words List or
+    the Paragon Personal Power Words List.
+
+    Instead of choosing a Paragon Class Ability of Volume 3
+    or higher, you can choose an Inventor Class Ability of
+    the same or lower Volume. *Persipacacious Pettifoggery (1st)*,
+    *Stately Skyscraper (1st)*,  *Puissant Polymath (2nd)*, 
+    and *Overclocked Systems (3rd)* are among the most 
+    applicable Inventor Class Abilities to consdier.
 
 TBD
 
@@ -6727,8 +6847,10 @@ During Issue 0 or the start of an Issue, you should ask
 the other players and the Editor about whether they view
 reading someone's mind without consent as the same kind
 of violation. Are surface thoughts fine, but deep memories
-not? You *need* to have these kinds of talks, as a group,
-before it comes up in play.
+not? 
+
+You *need* to have these kinds of talks, as a group,
+*before* it comes up during game play.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Questions
@@ -6757,8 +6879,7 @@ As you create your Psychic hero, answer any or all of these questions.
 
 #### Skills
 
-You have the **Academic** skill, plus two
-additional skills of your choice.
+You have the **Academic** skill, plus two additional skills of your choice.
 
 Whenever you make a roll that uses your skill, roll an additional number of 
 dice equal to the Volume.
@@ -6827,19 +6948,14 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Psychic Abilities {  .class}
 
-Each Volume, you gain a new ability from your class.
-Your Wheelman abilities are new upgrades and changes to your
-*Unique Vehicle*.
+Each Volume, you gain a new ability from your class.  
+Your Psychic abilities are new ways of using your mind power to
+affect yourself and the world around you.
 Each ability can be chosen only once.
 
 ##### Prime Ability
 
-Your hero has the **Unique Vehicle** Prime ability common
-to all Wheelmen.
-
 :::::: {.ability-list .prime }::::::::::
-Unique Vehicle
-:   To Be Determined
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -6849,18 +6965,17 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: {.ability-list .v1 } :::::::::
 
-More Than Meets the Eye
+Empath
 
-:   *Prerequisite: __Unique Vehicle__ class ability.*
-    To be determined.
+:   You can sense the emotions of others; your powers work primarily
+    on feelings rather than thoughts. Add 2 dice when you roll to
+    advance the Allay goal, as long as you have at least 1 Might.
 
-TBD
+Mind Over Matter
 
-:   To be determined.
-
-TBD
-
-:   To be determined.
+:   You can overcome the physical limitations of your body, and shrug
+    off wounds that would seriously harm a normal person. Instead of
+    losing Health, you can lose an equal amount of Might.
 
 TBD
 
@@ -6873,9 +6988,24 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-TBD
+Astral Projection
 
-:   To be determined.
+:   You can separate your consciousness from your physical form,
+    creating a duplicate of your body that exists on the astral
+    plane. When you do so, your physical body becomes unconscious.
+    Refresh your Might to its maximum value when you use astral
+    projection.
+    You can awaken at any time, and if you do, your mind is drawn
+    back to your body instantly. You automatically awaken if your
+    physical body is harmed or you are roughly shaken.
+    While astrally projecting, you are immune to all harm and can
+    pass through any barriers. You can use any of your Psychic
+    Class Abilities, Personal Power Words, Core Power Words, and
+    your Nova Power Words.
+    In astral form, you have "Flight" as a Core Power Word. You can
+    choose whether your astral form is visible to those in the same
+    location, or if it is invisible to all creatures lacking 
+    pan-dimensional vision.
 
 TBD
 
@@ -6905,8 +7035,8 @@ Skill Sharing
 
 :   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
     Your mind link allows skills to be shared. 
-    Someone in your link is considered to have a skill if 
-    anyone in your link has that skill.
+    Someone in your link is considered to have a skill if anyone in 
+    your link has that skill.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6917,8 +7047,8 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 :::::: {.ability-list .v4 }::::::::::
 Battlemind
 
-:   *Prerequisite: The __Our Minds As One__ psychic class core ability.*
-    *Prerequisite: The __Skill Sharing__ class ability.*
+:   *Prerequisite: The __Our Minds As One__ Class Core Ability.*
+    *Prerequisite: The __Skill Sharing__ Class Ability.*
     Your mind link allows Fighting Styles to be shared.
     Someone in your link is considered to have a Fighting Style
     if anyone in your link has that Fighting Style.
@@ -6930,9 +7060,10 @@ Battlemind
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Astral Retreat
 
-:   To be determined.
+:   *Prequisite: You can't have another _Hero Cave_ Ability.*
+    This is a *Hero Cave* Ability.
 
 TBD
 
@@ -7024,25 +7155,7 @@ the next Hero Phase.
 
 ##### Core Power Words
 
-Your Core Power Words are **Sculpt** and **Environment**.
-
-In addition, you get a third Core Power Word -- known as your
-Element Power Word -- chosen from the following list:
-
-::::::::::::: cpw :::::::
-- Earth
-- Force
-- Gravity
-- Ice
-- Metal
-- Paper
-- Plants
-- Rock
-- Shadows
-- Technology
-- Water
-- Weather
-:::::::::::::::::::::::::
+Your Core Power Words are *TBD*.
 
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
@@ -7071,8 +7184,8 @@ Choose six Personal Power Words from the following list:
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+You can use two Power Personal Words together to form a **Power Stunt** 
+or **Power Combo** by paying 1 Might for each beyond the first.
 
 ##### Nova Power
 
@@ -7080,8 +7193,8 @@ Choose any two single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+if you spend 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::: { .classpic .wide } :::::::::::::::::::::::
 ![Riptide, the Wave-Wielding Wonder](art/jeshields/shaper.png "Riptide, the Wave-Wielding Wonder"){.class .wide}
@@ -7089,9 +7202,8 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Shaper Abilities {  .class}
 
-Each Volume, you gain a new ability from your class.
-Your Shaper Abilities show a widening diversity in the 
-applications of your control power.
+Each Volume, you gain a new ability from your class.  Your Shaper Abilities 
+show a widening diversity in the applications of your control power.
 Each ability can be chosen only once.
 
 ##### Prime Ability
@@ -7121,14 +7233,16 @@ At the start of Volume 1, choose two abilities from this list.
 Energy Generation
 
 :   In addition to your ability to control physical elements,
-    you can also create it as well. Add one Word from the
+    you can also create it as well. 
+
+    [Dynamo]{.crossover}
+    Add one Word from the
     Dynamo's Energy Power Word list as a Personal Power Word.
 
 Force Field
 
 :   You can surround yourself with a clear bubble of force.
-    Instead of losing Health, you can lose an equal
-    amount of Might.
+    Instead of losing Health, you can lose an equal amount of Might.
 
 Shelter the Innocents
 
@@ -7158,7 +7272,9 @@ Grand Unified Theory
 
 :   You've discovered that your powers aren't limited to a
     single substance but can be extended to other types of
-    shaping. Add number of Words from the Element
+    shaping. 
+
+    Add number of Words from the Element
     Power Word list as Personal Power Words equal to the
     Volume.  Add another at the start of each later Volume.
 
@@ -7198,9 +7314,11 @@ Psychic Manifestation
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Shaper's Refuge
 
-:   To be determined.
+:   *Prerequisite: You can't have another _Hero Cave_ Ability.*
+    []{.lorem} []{.lorem}
+    This is a *Hero Cave* Ability.
 
 TBD
 
@@ -7225,52 +7343,291 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
-### The Kid {#toc-kid .breakbefore .class}
+::::::::::::::::::::: { .classdata #class-speedster } :::::::::::::::
+### The Speedster {#toc-speedster .breakbefore .class}
 
-> 
+> OkaybutIjustrememberedsomethingIgottagodo;I'llberightback,don'tgoanywhere!
 
-#### Playing a Kid
+#### Playing a Speedster
 
-You have Skills, Abilities, and possibly other Power Words that 
-you can use to switch up your moves from Hero Phase to Hero Phase.
 
 #### Questions
 
-As you create your Kid hero, answer any or all of these questions.
+As you create your Speedster hero, answer any or all of these questions.
+
+:::::::::: questions ::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::
+
+#### Skills
+
+In addition, choose any two additional skills of your choice.
+
+#### Power Words
+
+You can use your Power Words in the following ways:
+
+- As a **Power Display**, costing no Might
+- As a **Power Stunt**, costing 1 Might for each Word beyond the first
+- As a **Power Combo**, costing 1 Might and letting others join in
+- Joining a **Power Combo**, costing 1 Might.
+
+When you use a Power Word, it goes on cooldown until the start of
+the next Hero Phase.
+
+##### Core Power Words
+
+Your Core Power Words are **Fastest** and **Alive**.
+
+When you use a **Power Display,** you can add one Core Power Word for free.
+
+You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+or 2 Might to add both.
+
+##### Personal Power Words
+
+Choose six Personal Power Words from the following list:
+
+:::::::::: cpw ::::::::::::::
+- Action
+- Accelerate
+- Blink
+- Change
+- Direction
+- Fast
+- Faster
+- Feet
+- Force
+- Go
+- Inertia
+- Instant
+- Light
+- Lightning
+- Momentum
+- Reaction
+- Reflexes
+- Reverse
+- Running
+- Speed
+- Stop
+- Unseen
+:::::::::::::::::::::::::::::
+
+When you use a **Power Display,** you can add one Personal Power Word for free.
+
+You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+by paying 1 Might for each beyond the first.
+
+
+##### Nova Power
+
+Choose any two or three single words you like; these are your
+**Nova Power Words**.
+
+At the start of any Storyline, your Nova Power Words are **Locked** and
+you can't use them in Power Displays, Stunts, or Combos.
+
+When you mark all your Ideals, your Nova Power Words are **Unlocked**
+until the end of the current Storyline.
+
+You can use one of your *Unlocked* Nova Power Words in a Power Stunt
+
+or Combo for free; if you spend 1 Might, you can include a second
+Nova Power Word as well.
+
+You can use one or more of your *Locked* Nova Power Words in a Power
+
+Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
+The Nova Power Word remains *Locked*.
+
+:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Speedster Abilities {.class}
+
+Each Volume, you gain a new ability from your class.
+Your Speedster Abilities reflect your increased velocity and ability to 
+maneuver at a high rate of speed.
+Each ability can be taken only once.
+
+##### Prime Ability
+
+Your hero has the **Ignore the Laws of Physics** Prime Ability 
+common to all Speedsters.
+
+:::::: {.ability-list .prime }::::::::::
+Ignore the Laws of Physics
+
+:   Your super-speed lets you break the standard laws of Newtonian physics --
+    you can ignore inertia and start/stop/turn on a dime, instantly; you don't
+    suffer any negative effects from moving at excessive speed, such as wind
+    burn, and you're able to breathe normally -- as well as ignoring relativistic
+    effects from moving at or beyond the speed of light.
+
+::::::::::::::::::::::::::::::::::::::::::
+
+##### Volume 1 Abilities
+
+At the start of Volume 1, choose two abilities from this list.
+
+:::::: { .ability-list .v1 } ::::::::
+
+Anything's a Surface
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    You can run on anything -- water, lava, up the side of a building,
+    on a beam of light from a flashlight -- as easily as on flat, solid
+    ground.
+
+Break the Dimension Barrier
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    *The __Vibrate Through Walls__ Class Ability.*
+    Add "Extra-Dimensional" as a Core Power Word. You can travel to alternate
+    dimensions or timelines, including to alternate Earths.
+
+Break the Time Barrier
+
+:   *Prerequisites: The __Ignore The Laws of Physics__ Prime Ability.*
+    Add "Time" as a Core Power Word. You can travel forward or backward in
+    time under your own power.
+
+Hyper-Metabolism
+
+:   You need to eat a lot because you burn through so many calories so quickly.
+    Increase your maximum Might by 2.
+
+Vibrate Through Walls
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    Add "Immaterial" as a Core Power Word. By spending 1 Might at the start of a Hero
+    Phase, you can run through any number of solid walls or solid objects until the
+    end of that Hero Phase.
+
+:::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Abilities
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+:::: {.ability-list .v2} ::::::::::::
+
+Burst of Speed
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    At the end of a Hero Phase, you can spend a number of Might equal to the Volume and
+    make another move. You can only make one such extra move per Hero Phase.
+
+Escape Velocity
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    You can move fast enough that you actually lift off the ground. 
+    Add "Flight" as a Core Power Word.
+
+Multitasking
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    Whenever you roll to advance any goal, you can subtract 1 Success 
+    from the roll's Effectiveness and add it to the Teamwork Pool instead.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Abilities
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+::::::::: {.ability-list .v3} :::::::
+Evacuate the Bystanders
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    When you roll to advance the Rescue goal, you can spend as much Might as you
+    wish and add 1 to the Effectiveness of the roll for each Might point spent.
+
+Human Whirlwind
+
+:   *Prerequisite: The __Ignore The Laws of Physics__ Prime Ability.*
+    Add "Wind" as an Elemental Core Power Word. 
+    [Shaper]{.crossover} You gain *Reshape the Winds,* 
+    a variant of the Shaper's *Reshape the Battlefield* Prime Ability.
+
+    When you use your Core or Nova Power Words in a Power Stunt or
+    Combo, you can choose to spend 2 Effectiveness to change one
+    of the Scene Power Words to one of your own Power Words. During
+    any given Crisis you can only change a number of Scene Power
+    Words equal to the Volume.
+    
+:::::::::::::::::::::::::::::::::::::
+
+
+##### Volume 4 Abilities
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v4 }::::::::::
+Untouchable
+
+:   No one can lay a hand on you. When you are affected by a Crisis
+    move, you can counter it by spending Might instead of Successes
+    from the Teamwork Pool.
+
+Instant Power Recovery
+
+:   Whenever you use one of your Core or Nova Power Words in a
+    Power Stunt or Combo, those Power Words do not go on cooldown.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Abilities
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::: { .classdata #class-totem } :::::::::::
+### The Totem {#toc-totem .breakbefore .class}
+
+> 
+
+#### Playing a Totem
+
+
+#### Questions
+
+As you create your Totem hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
-- How do you look different from normal humans? 
-  - How much larger (or smaller) are you than other people? 
-  - What color is your skin, and what does it feel and look like? 
-  - What kind of strange appearance do you have that makes the ignorant 
-    assume you're just an animalistic brute?
-  - What does your voice sound like, and what kind of vocabulary do 
-    you employ?
-- Are you *always* a kid?  
-  (If not, then you may want to consider playing your hero as 
-   <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
-   for heroes who magically transform from child form to an adult shape!)
-  - If not, what triggers that change? 
-    Is it an emotional state, a substance, a situation, a magic word,
-    or your own free will? 
-  - How do you get along with adult heroes? Do you look up to them as
-    role models? Do they usually talk down to you?
-  - In what ways are you less mature than the average hero?
-  - In what ways are you more mature than the average hero?
-  - Were you *always* a hero? How did you become one? Why did you
-    become one?
-  - Do you have any other friends your age, or do you just associate with
-    adult heroes?
-- What kind of interests do you have that surprise other people? 
-  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
 ::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
 
-You have the **Explorer** skill, plus two additional skills of your choice.
+You have the **Explorer** skill, plus two additional skills of your choice
+chosen from the following list:
+
+- Artist
+- Criminal
+- Historian
+- Investigator
+- Performer
+- Scientist
+
+You can't ever gain the following skills, from any source:
+
+- Deputy
+- Lawyer
+- Mystic
+- Physician
+- Politician
+- Spy
 
 Whenever you make a roll that uses one of your skills, add 1 extra die. If
 you have more than one skill that could apply to a roll, add 1 extra die for each
@@ -7290,7 +7647,7 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 ##### Core Power Words
 
-Your Core Power Words are **Does** **Whatever** and **Can**.
+Your Core Power Words are **Wild** and **Nature**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
@@ -7298,124 +7655,129 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
 ##### Totem Nature Core Power Words
 
 - Bugs
-  - Spider (Black Widow)
-  - Spider (Recluse)
-  - Spider (Tarantula)
-  - Insect (Ant)
-  - Insect (Scorpion)
-  - Insect (Fly)
-  - Insect (Bee)
-  - Insect (Butterfly)
-  - Insect (Moth)
-  - Insect (Roach)
-  - Insect (Wasp)
-  - Insect (Hornet)
-  - Insect (Yellowjacket)
+  - Arachnid
+    - Black Widow
+    - Recluse
+    - Tarantula
+  - Insect 
+    - Ant
+    - Bee
+    - Butterfly
+    - Fly
+    - Hornet
+    - Moth
+    - Roach
+    - Scorpion
+    - Wasp
+    - Yellowjacket
 - Reptiles
-  - Reptile (Alligator)
-  - Reptile (Crocodile)
-  - Dinosaur (Pterodon)
-  - Dinosaur (T-Rex)
-  - Dinosaur (Stegosaur)
-  - Lizard (Chameleon)
-  - Lizard (Iguana)
-  - Snake (Asp)
-  - Snake (Cobra)
-  - Snake (Python)
-  - Snake (Rattlesnake)
-  - Snake (Viper)
-  - Reptile (Tortoise)
-  - Reptile (Turtle)
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
+  - Alligator
+  - Crocodile
+  - Dinosaur 
+    - Pterodon
+    - Stegosaur
+    - T-Rex
+  - Lizard   
+    - Chameleon
+    - Iguana
+  - Snake
+    - Asp
+    - Cobra
+    - Python
+    - Rattlesnake
+    - Viper
+  - Tortoise
+  - Turtle
+- Mythological
+  - Dragon
+    - Hydra
+    - Wyrm
+    - Wyvern
+  - Pegasus
+  - Sphinx
+  - Unicorn
 - Felines
-  - Feline (Housecat)
-  - Feline (Cheetah)
-  - Feline (Cougar)
-  - Feline (Lion)
-  - Feline (Panther)
-  - Feline (Puma)
-  - Feline (Sabretooth)
-  - Feline (Tiger)
-- Birb
-  - Owl
-  - Vulture
+  - Cheetah
+  - Cougar / Puma
+  - Housecat
+  - Lion
+  - Panther
+  - Smilodon
+  - Tiger
+- Bird
+  - Chicken / Hen
+  - Dove
+  - Eagle
   - Falcon
   - Hawk
-  - Dove
+  - Ostrich
+  - Owl
   - Rooster
   - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
+  - Vulture
 - Amphibians
   - Frog
   - Newt
-  - Toad
   - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
+  - Toad
 - Fish
   - Barracuda
-  - Eel
   - Clam
   - Crab
+  - Eel
   - Fish
   - Lobster
-  - Moray
-  - Pirhanna
   - Merfolk
+  - Moray
   - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
+  - Pirhanna
   - Sea Horse
+  - Shark
+  - Squid (or Kraken)
+  - Starfish
+- Marsupials
+  - Kangaroo
+  - Koala
 - Mammals
   - Elephant
     - Mammoth
     - Mastodon
     - Pachyderm
   - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
+    - Goat (or Satyr)
+    - Bull (or Minotaur)
+    - Cow  (or Minotaur)
   - Monkey
     - Ape
+    - Chimp
     - Gorilla
     - Gibbon
-    - Ma
   - Pig
-    - Hog
     - Boar
-  - Stag
-  - Deer
+    - Hog
+  - Deer or Stag
   - Moose
-  - Kangaroo
   - Elk
   - Horse
     - Alicorn
     - Centaur
     - Hippopotamus
-    - Pegasus
+    - *Pegasus*
     - Unicorn
   - Rhino
   - Wolverine
   - Canines
+    - Coyote
     - Dog
       - Mastiff
       - Hound
       - Wolf
       - Dingo
-    - Coyote
-    - Jackal
     - Fox
+    - Jackal
   - Bear
-    - Koala
+    - Black
+    - Brown
     - Grizzly
     - Panda
     - Polar
@@ -7438,16 +7800,27 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
       - Ermine
       - Mink
       - Stoat
+  - Otter
+  - Whale
+    - Orca
+    - Dolphin
+    - Porpoise
 - Environment
   - Coral
   - Desert
   - Jungle
   - Mire
   - Peaks
+  - Sea
   - Tundra
-- Plant (Flower, specific)
-- Plant (Tree, specific)
-- Plant (Vine, specific)
+  - Void (space)
+- Plant 
+  - Flower
+    - (specific)
+  - Tree
+    - (specific)
+  - Vine
+    - (specific)
 
 ##### Personal Power Words
 
@@ -7472,16 +7845,19 @@ Choose six Personal Power Words from the following list:
 - Dangerous
 - Dash
 - Dig
+- Dire
 - Direction
 - Distance
 - Echolocation
 - Elusive
 - Enduring
 - Environment
+- Feral
 - Giant
 - Growl
 - Horrifying
 - Howl
+- Huge
 - Hunger
 - Hunter
 - Immovable
@@ -7562,13 +7938,15 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 #### Totem Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Totem Abilities show your increasing distance from humanity.
+Your Totem abilities show your 
+increasing identification with your totem nature and distance
+from humanity.
 Each ability can be chosen only once.
 
 ##### Prime Ability
 
-Your hero has the **Force of Nature** Prime ability common 
-to all Totems.
+Your hero has the **Does Whatever a Totem Can** Prime ability common 
+to all Totem heroes.
 
 :::::: {.ability-list .prime }::::::::::
 Does Whatever a Totem Can
@@ -7576,7 +7954,7 @@ Does Whatever a Totem Can
 :   When you use your Core or Nova Power Words in a Power Stunt
     or Combo roll, add 2 dice to as if you had a skill or fighting
     style that applies to such a use. If you have a normal skill
-    or fighting style that could apply to a roll, only add the 
+    or fighting style that could apply to a roll, only add the
     bonus dice from your *Does Whatever a Totem Can* Ability.
 
 ::::::::::::::::::::::::::::::::::::::::::
@@ -7589,8 +7967,7 @@ At the start of Volume 1, choose two abilities from this list.
 
 Animal Partner
 
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You have an unusually intelligent pet or companion that accompanies
+:   You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. This partner has three Core Power Words --
     one matching your Totem Nature Power Word, and two others from the
     Totem Personal Power Words List -- that you can use for free without
@@ -7609,59 +7986,14 @@ Animal Partner
     end of the next Crisis Countdown, and join you as soon as they
     can.
 
-Alien Totem
-
-:   You are not connected to normal earth creatures, but alien versions
-    of them. All of your abilities and power words work with similar creatures,
-    no matter what worlds they originate from.
-
-    In addition, add **Alien** as a Core Power Word.
-    
-How Do You Do Fellow Animals?
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You can automatically communicate with any creatures matching your
-    Totem Nature Power Word. They might not fully understand who you are and
-    what you want from them, but you can audibly speak back and forth, and get
-    information or possibly assistance from them, as if you were all sharing a
-    common language.
-
-Mystic Totem
-
-:   Your link to your nature totem is a result of mystical means, not 
-    technological a strictly scientific process. You gain the Mystic skill.
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Mage Class Personal Power Words List or the Divine Class Personal 
-    Power Words List.
-
-Summon Swarm 
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    As a move during the Hero Phase, you can spend 1 Might to call up a 
-    swarm of normal creatures of the same type as your Totem Nature Power Word. 
-    These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
-    Nature Power Word as a scene power word until the end of the crisis.
-
-Unkillable
-
-:   You get knocked down but you get up again. They're never gonna keep you 
-    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
-
 Unbeatable
 
-:   Your powers cause people to under-estimate you and you actually punch can
-    punch far above your normal weight class.
+:   Your humble powers cause people to under-estimate you and you 
+    actually can punch punch far above your normal weight class.
     Whenever you have one or more companions of the same type as your
-    Totem Nature Power Word present -- including from the *Animal Companion* or
-    *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
-    you make to advance any goal.
-
-Variable Totem
-
-:   At the start of the Hero Phase, you can change your Totem Nature Core 
-    Power Word to any other power word on the Totem Nature Core Power
-    Words List. All of your abilities use the new Totem Nature until the
-    start of the next Crisis Phase.
+    Totem Nature Power Word present -- including from the *Animal Companion* 
+    or *Summon Swarm* class abilities -- add 1 to the Effectiveness of any 
+    roll you make to advance any goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -7671,329 +8003,90 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Animal Instincts
+All Animals Love Me. Really. I Wouldn't Make Something Like That Up.
 
-:   Whenever you roll Suspense or Mystery to advance the Allay or
-    Outwit goals, add 2 dice.
-
-Humanity's Best Friend
-
-:   Whenever you roll to add to the Teamwork pool or advance the Rescue
-    or Allay goals, add 1 die for every human hero present, to a maximum 
-    number of extra dice equal to the Volume.
-
-Savage Instincts
-
-:   Gain a number of Fighting Styles equal to the Volume, chosen from the
-    following list. At the start of each subsequent Volume, gain 1 more 
-    Fighting Style from this list.
-
-    - Acrobat
-    - Brawler
-    - Controller
-    - Demolisher
-    - Frenzy
-    - Find Weakness
-    - Guerilla
-    - Interceptor
-    - Harrier
-    - Martial Artist
-    - Meteor
-    - Rescuer
-    - Tactician
-    - Warlord
-
-    You can't ever gain the following Fighting Styles, from any source:
-    - Ace
-    - Makeshift Weapons
-    - Medic
-    - Sharpshooter
-    - Weapon Master
+:    When you roll to advance the Allay goal and the source of
+     the Crisis is an animal, or when you roll to advance the
+     Rescue goal and animals are endangered, add 2 to the
+     Effectiveness of the roll.
 
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-##### Totem Nature Core Power Words
+##### Totem Core Power Words
 
-- Bugs
-  - Spider
-    - Black Widow
-    - Recluse
-    - Tarantula
-  - Insect
-    - Ant
-      - Scorpion
-    - Fly
-      - Bee
-      - Butterfly
-      - Moth
-      - Roach
-      - Wasp
-        - Hornet
-        - Yellowjacket
-- Reptiles
-  - Alligator
-  - Crocodile
-  - Dinosaur
-    - Pterodon
-    - T-Rex
-  - Lizard
-    - Chameleon
-    - Iguana
-  - Snake
-    - Asp
-    - Cobra
-    - Python
-    - Rattlesnake
-    - Viper
-  - Tortoise
-  - Turtle
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
-- Felines
-  - Cat
-  - Cheetah
-  - Lion
-  - Panther
-  - Puma
-  - Sabre-Tooth
-  - Tiger
-- Birb
-  - Owl
-  - Vulture
-  - Falcon
-  - Hawk
-  - Dove
-  - Rooster
-  - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
-- Amphibians
-  - Frog
-  - Newt
-  - Toad
-  - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
-- Fish
-  - Barracuda
-  - Eel
-  - Clam
-  - Crab
-  - Fish
-  - Lobster
-  - Moray
-  - Pirhanna
-  - Merfolk
-  - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
-  - Sea Horse
-- Mammals
-  - Elephant
-    - Mammoth
-    - Mastodon
-    - Pachyderm
-  - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
-  - Monkey
-    - Ape
-    - Gorilla
-    - Gibbon
-    - Ma
-  - Pig
-    - Hog
-    - Boar
-  - Stag
-  - Deer
-  - Moose
-  - Kangaroo
-  - Elk
-  - Horse
-    - Alicorn
-    - Centaur
-    - Hippopotamus
-    - Pegasus
-    - Unicorn
-  - Rhino
-  - Wolverine
-  - Canines
-    - Dog
-      - Mastiff
-      - Hound
-      - Wolf
-      - Dingo
-    - Coyote
-    - Jackal
-    - Fox
-  - Bear
-    - Koala
-    - Grizzly
-    - Panda
-    - Polar
-  - Rodent
-    - Badger
-    - Bat
-    - Mongoose
-    - Mouse
-    - Otter
-    - Porcupine
-    - Rabbit
-      - Bunny
-      - Jackrabbit
-      - Hare
-    - Raccoon
-    - Rat
-    - Skunk
-    - Squirrel
-    - Weasel
-      - Ermine
-      - Mink
-      - Stoat
-- Environment
-  - Coral
-  - Mire
-  - Tree
-  - Tundra
-
-::::::::::::: cpw :::::::
-##### Totem Personal Power Words List
-
-- Agility
-- Amphibious
-- Anthropomorphic
-- Aquatic
-- Barbed
-- Bark
-- Breath
-- Camouflage
-- Claws
-- Climb
-- Colorful
-- Crawl
-- Cute
-- Danger
-- Ears
-- Elusive
-- Empathic
-- Essense
-- Eyes
-- Fangs
-- Feet
-- Fins
-- Flipper
-- Fly
-- Fur
-- Gills
-- Glide
-- Graceful
-- Grasp
-- Growl
-- Habitat
-- Hair
-- Hard
-- Harmless
-- Hearing
-- Hide
-- Hooves
-- Horn
-- Howl
-- Instincts
-- Jump
-- Leap
-- Legs
-- Luck
-- Lungs
-- Melodious
-- Mighty
-- Mimic
-- Musk
-- Muzzle
-- Neck
-- Night
-- Nobility
-- Normal
-- Nose
-- Odor
-- Paws
-- Proportionate
-- Quills
-- Regenerative
-- Roar
-- Run
-- Savagery
-- Scales
-- Scent
-- Senses
-- Shapechange
-- Sharp
-- Shell
-- Silent
-- Size
-- Skin
-- Sleek
-- Slippery
-- Snarl
-- Soft
-- Speed
-- Spines
-- Stamina
-- Stinger
-- Strength
-- Suckers
-- Swim
-- Tail
-- Teeth
-- Tentacle
-- Theriomorphic
-- Tiny
-- Tongue
-- Toxic
-- Transformation
-- Trunk
-- Unnoticed
-- Venom
-- Vision
-- Webs
-- Wet
-- Wings
-- Wisdom
+Your Core Power Words are **TBD** and **TBD**.
+You can spend 1 Might point to add one of those to a Power Stunt or
+Combo, or 2 Might to add both.
 :::::::::::::::::::::::::
 
-Misunderstood Monster
+##### Totem Personal Power Words List
 
-:   Even at your most animalistic, you wouldn't harm an innocent.
-    Add 2 to the dice pool when you advance the Allay
-    or Rescue goals. 
-    Whenever you choose a Personal Power Word,
-    you can choose from the Totem Class Nature Power Words List,
-    or the Totem Personal Power Words List.  Add any from the latter as 
-    Core Power Words.
+Choose six Personal Power Words from the following list:
+::::::::::::: cpw :::::::
 
-Regeneration
+:::::::::::::::::::::::::
 
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
+Alien Pet
 
-Wild Power
+:   *Prerequisite: You must have the __Pet__ or __Animal Partner__ class ability.*
+    Your pet or animal partner isn't from Earth -- or might not even be from 
+    this universe, in the case of a magical pet.
 
-:   You are a storehouse of natural energy. Increase your maximum Might 
-    by 5.
+    [Monstrosity, Totem]{.crossover .es}
+    Whenever you choose a Core Power Word for your Pet, you can choose 
+    from the Monstrosity Class Personal Power Words List or the
+    Paragon Class Personal Power Words List. 
+    These become Core Power
+    Words that you can use for free, once per Hero Phase, as described 
+    in the *Pet* or *Animal Partner* class abilities.
+    
+Pet
 
-Wild Strength
+:   You have an unusually intelligent pet or companion that accompanies
+    you on your heroic adventures. 
 
-:   You are as hard to take down as the mightiest of beasts. Increase your
-    maximum Health by 5.
+    This partner has three Core Power Words --
+    one chosen from the Totem Class's Totem Nature Power Words List,
+    and two others from the Totem Class's Personal Power Words List -- 
+    that you can use for free without spending Might, each once per Hero 
+    Phase. Your animal partner's Health and Might equal the Volume.
+
+    Choose one Skill possessed by your Animal Partner, and a Fighting
+    Style. You can use that skill or Fighting Style whenever your 
+    Animal Partner is present during a Crisis.
+
+    During any Hero Phase, either your hero can make a move or your
+    animal partner can make a move -- not both.
+
+Magical Familiar
+
+:   *Prerequisite: You must have the __Pet__ or __Animal Partner__ class ability.*
+    Whenever you choose a Core Power Word for your Pet, you can
+    choose from the Divine Class Personal Power Words List or the
+    Mage Class Personal Power Words List. 
+
+
+    [Divine, Mage]{.crossover .es}
+    These become Core Power
+    Words that you can use for free, each once per Hero Phase, as
+    described in the *Pet* class ability.
+
+    If your Magical Familiar is ever killed, they return to life at 
+    the end of the next Crisis Countdown, and join you as soon as they
+    can.
+
+Intelligent Pet
+
+:   *Prerequisite: You must have the __Pet__ or __Animal Partner__ class ability.*
+    Your pet is smarter than an average animal of that type. It can
+    communicate intelligently in one language that you choose when
+    you pick this class ability, although its voice is clearly
+    non-human. 
+
+    In addition, pick a second Skill possessed by the Pet, and one Approach. 
+    Whenever your Pet is present at a Crisis, add 3 dice whenever you make a roll 
+    using the chosen Approach.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8002,30 +8095,13 @@ Wild Strength
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
+TBD
 
-:   There are few things that can seriously harm you.  Increase your maximum 
-    Health by 5.
+:   To be determined.
 
-Power Burn
+TBD
 
-:   You can call upon your life-force to fuel your powers.  You can spend 
-    Health whenever you would normally spend Might. Increase your maximum
-    Health by 3.
-
-Soul Bond
-
-:   *Prerequisite: Humanity's Best Friend.*
-    You have a quasi-mystical bond with another person. Choose a
-    consenting hero who is essentially human. 
-
-    You gain the Psychic class's **Our Minds As One** Prime ability,
-    but only with your chosen hero. In addition, you gain **Soul**
-    and **Bond** as Core Power Words.
-
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Totem Class Personal Power Words List, or the Psychic Class Personal 
-    Power Words List.  Add any from the latter as Core Power Words.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8034,16 +8110,13 @@ Soul Bond
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
+TBD
 
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
+:   To be determined.
 
-Immortal Totem
+TBD
 
-:   *Prerequisite: Mystic Totem* You might be seriously wounded, but you'll never stay dead. 
-    If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
-    start of the next Hero Phase.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8067,7 +8140,7 @@ TBD
 ::::::::::::::::::: { .classdata #class-twins } :::::::::::
 ### The Twins {#toc-twins .breakbefore .class}
 
-> 
+> Twin Powers - Activate!
 
 #### Playing the Twins
 
@@ -8424,81 +8497,20 @@ At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
 
-Animal Partner
+TBD
+:   To Be Determined
 
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
-    one matching your Totem Nature Power Word, and two others from the
-    Totem Personal Power Words List -- that you can use for free without
-    spending Might, each once per Hero Phase. Your animal partner's 
-    Health and Might equal the Volume.
+TBD
+:   To Be Determined
 
-    Choose one Skill possessed by your Animal Partner, and a Fighting
-    Style. You can use that skill or Fighting Style whenever your 
-    Animal Partner is present during a Crisis.
+TBD
+:   To Be Determined
 
-    During any Hero Phase, either your hero can make a move or your
-    animal partner can make a move -- not both.
+TBD
+:   To Be Determined
 
-    *Prerequisite: The __Mystic Totem__ class ability.* 
-    If your animal partner is ever killed, they return to life at the 
-    end of the next Crisis Countdown, and join you as soon as they
-    can.
-
-Alien Totem
-
-:   You are not connected to normal earth creatures, but alien versions
-    of them. All of your abilities and power words work with similar creatures,
-    no matter what worlds they originate from.
-
-    In addition, add **Alien** as a Core Power Word.
-    
-How Do You Do Fellow Animals?
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You can automatically communicate with any creatures matching your
-    Totem Nature Power Word. They might not fully understand who you are and
-    what you want from them, but you can audibly speak back and forth, and get
-    information or possibly assistance from them, as if you were all sharing a
-    common language.
-
-Mystic Totem
-
-:   Your link to your nature totem is a result of mystical means, not 
-    technological a strictly scientific process. You gain the Mystic skill.
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Mage Class Personal Power Words List or the Divine Class Personal 
-    Power Words List.
-
-Summon Swarm 
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    As a move during the Hero Phase, you can spend 1 Might to call up a 
-    swarm of normal creatures of the same type as your Totem Nature Power Word. 
-    These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
-    Nature Power Word as a scene power word until the end of the crisis.
-
-Unkillable
-
-:   You get knocked down but you get up again. They're never gonna keep you 
-    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
-
-Unbeatable
-
-:   Your powers cause people to under-estimate you and you actually punch can
-    punch far above your normal weight class.
-    Whenever you have one or more companions of the same type as your
-    Totem Nature Power Word present -- including from the *Animal Companion* or
-    *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
-    you make to advance any goal.
-
-Variable Totem
-
-:   At the start of the Hero Phase, you can change your Totem Nature Core 
-    Power Word to any other power word on the Totem Nature Core Power
-    Words List. All of your abilities use the new Totem Nature until the
-    start of the next Crisis Phase.
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8508,44 +8520,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Animal Instincts
+TBD
+:   To Be Determined
 
-:   Whenever you roll Suspense or Mystery to advance the Allay or
-    Outwit goals, add 2 dice.
+TBD
+:   To Be Determined
 
-Humanity's Best Friend
-
-:   Whenever you roll to add to the Teamwork pool or advance the Rescue
-    or Allay goals, add 1 die for every human hero present, to a maximum 
-    number of extra dice equal to the Volume.
-
-Savage Instincts
-
-:   Gain a number of Fighting Styles equal to the Volume, chosen from the
-    following list. At the start of each subsequent Volume, gain 1 more 
-    Fighting Style from this list.
-
-    - Acrobat
-    - Brawler
-    - Controller
-    - Demolisher
-    - Frenzy
-    - Find Weakness
-    - Guerilla
-    - Interceptor
-    - Harrier
-    - Martial Artist
-    - Meteor
-    - Rescuer
-    - Tactician
-    - Warlord
-
-    You can't ever gain the following Fighting Styles, from any source:
-    - Ace
-    - Makeshift Weapons
-    - Medic
-    - Sharpshooter
-    - Weapon Master
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8559,31 +8541,14 @@ Savage Instincts
 - 
 :::::::::::::::::::::::::
 
-Misunderstood Monster
+TBD
+:   To Be Determined
 
-:   Even at your most animalistic, you wouldn't harm an innocent.
-    Add 2 to the dice pool when you advance the Allay
-    or Rescue goals. 
-    Whenever you choose a Personal Power Word,
-    you can choose from the Totem Class Nature Power Words List,
-    or the Totem Personal Power Words List.  Add any from the latter as 
-    Core Power Words.
+TBD
+:   To Be Determined
 
-Regeneration
-
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
-
-Wild Power
-
-:   You are a storehouse of natural energy. Increase your maximum Might 
-    by 5.
-
-Wild Strength
-
-:   You are as hard to take down as the mightiest of beasts. Increase your
-    maximum Health by 5.
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8592,30 +8557,17 @@ Wild Strength
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
+TBD
 
-:   There are few things that can seriously harm you.  Increase your maximum 
-    Health by 5.
+:   To be determined.
 
-Power Burn
+TBD
 
-:   You can call upon your life-force to fuel your powers.  You can spend 
-    Health whenever you would normally spend Might. Increase your maximum
-    Health by 3.
+:   To be determined.
 
-Soul Bond
+TBD
 
-:   *Prerequisite: Humanity's Best Friend.*
-    You have a quasi-mystical bond with another person. Choose a
-    consenting hero who is essentially human. 
-
-    You gain the Psychic class's **Our Minds As One** Prime ability,
-    but only with your chosen hero. In addition, you gain **Soul**
-    and **Bond** as Core Power Words.
-
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Totem Class Personal Power Words List, or the Psychic Class Personal 
-    Power Words List.  Add any from the latter as Core Power Words.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8624,16 +8576,13 @@ Soul Bond
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Power Overwhelming
+TBD
 
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
+:   To be determined.
 
-Immortal Totem
+TBD
 
-:   *Prerequisite: Mystic Totem* You might be seriously wounded, but you'll never stay dead. 
-    If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
-    start of the next Hero Phase.
+:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8917,7 +8866,7 @@ Autonomous Operation
     Your Vehicle can act whenever you are unable to. At the end of each
     Hero Phase, if you didn't make a move, then you can have your Vehicle
     make a move -- using your own Approach scores, Skills, and Fighting 
-    Styles.
+    Styles, if needed.
 
 Dude, Where's Your Car?
 
@@ -8953,6 +8902,7 @@ Haunted Vehicle
     Your Vehicle isn't merely intelligent, but is possessed by the
     ghost of a human or other creature. 
 
+    [Haunt]{.crossover}
     Choose one Personal Power Word from the Haunt class and add it as
     a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
     Power Word, you can choose from the Haunt Personal Power Words List
@@ -8967,6 +8917,7 @@ Cursed Vehicle
     Like the *Haunted Vehicle* class ability, your Vehicle is possessed
     by a supernatural creature.
 
+    [Hellspawn]{.crossover}
     Choose one Personal Power Word from the Hellspawn class and add it as
     a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
     Power Word, you can choose from the Hellspan Personal Power Words
@@ -8982,7 +8933,10 @@ High-Tech Vehicle
 
     Choose one Personal Power Word from the Inventor Class Personal
     Power Words List or the Construct Class Personal Power Words List,
-    and add it as a Vehicle Scene Power Word. Whenever
+    and add it as a Vehicle Scene Power Word. 
+
+    [Inventor]{.crossover}
+    Whenever
     you add a new Vehicle Scene Power Word, you can choose from the
     Inventor Class Personal Power Words List, the Vehicle Scene Power Words
     List, or the Construct Class Personal Power Words List; such Power 
@@ -8998,6 +8952,12 @@ High-Tech Vehicle
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
+
+Glorious Garage
+
+:   *Prequisite: You can't have another __Hero Cave__ Ability.*
+    []{.lorem}
+    This is a *Hero Cave* Ability.
 
 More than Meets the Eye
 
@@ -9016,10 +8976,6 @@ More than Meets the Eye
     roll whenever you use one of the Vehicle Scene Power Words to roll
     to advance the Outwit goal. (Note that this will also *Reveal* your
     Vehicle, as described in the previous paragraph.)
-
-TBD
-
-:   To Be Determined
 
 TBD
 
@@ -9543,12 +9499,13 @@ For example, []{.lorem}
 
 Once the Teamwork Pool is formed, it’s time to start dealing with the Crisis.
 
-Instead of having an initiative order like many games of this type, 
-there are two phases that alternate back and forth: 
+Instead of having an initiative order like many tabletop roleplaying games,
+there are two phases during a Crisis that alternate back and forth: 
 the Hero Phase and the Crisis Phase. 
 
 The first thing that happens after the Teamwork Pool is formed is 
 the Hero Phase.
+
 
 
 ### Hero Phase {#toc-crisis-hero }
@@ -11227,6 +11184,932 @@ been Volcano City.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Hero Teams
+
+[]{.lorem}
+
+
+### Team Classes
+
+[]{.lorem}
+
+#### Academy {#toc-team-class-academy}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Activist Movement {#toc-team-class-movement}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Agency {#toc-team-class-agency}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Bounty Hunters {#toc-team-class-hunters}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Business Partners {#toc-team-class-partners}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Corporate PR Group {#toc-team-class-pr}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Corporate Security {#toc-team-class-security}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Elected Officials {#toc-team-class-elected}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Employment Agency {#toc-team-class-temps}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Explorers of the Unknown {#toc-team-class-explorers}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Family {#toc-team-class-family}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Fated Heroes {#toc-team-class-fated}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### First Responders {#toc-team-class-rescue}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Friends {#toc-team-class-friends}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Government Agency {#toc-team-class-govt}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### The Hunted {#toc-team-class-hunted}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Legacy {#toc-team-class-legacy}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Mercenaries {#toc-team-class-mercs}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Medical Team {#toc-team-class-medical}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Pantheon {#toc-team-class-pantheon}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Park Rangers {#toc-team-class-rangers}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Planetary Settlers {#toc-team-class-settlers}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Police Squad {#toc-team-class-squad}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Private Investigators {#toc-team-class-pis}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Reality TV Show {#toc-team-class-reality-tv}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Reincarnations {#toc-team-class-reincarnations}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Resistance Cell {#toc-team-class-resist}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Retirement Community {#toc-team-class-retirement}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Rock Band {#toc-team-class-band}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Royal Guards {#toc-team-class-guards}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Science Team {#toc-team-class-science}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Secret Conspiracy {#toc-team-class-conspiracy}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Ship's Crew {#toc-team-class-crew}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Space Pirates {#toc-team-class-pirates}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Sports Team {#toc-team-class-team}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Supervillains {#toc-team-class-villains}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Support Group {#toc-team-class-support}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Survivors {#toc-team-class-survivors}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Terrorist Cell {#toc-team-class-terrorists}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### W.G.H. {#toc-team-class-wgh}
+
+[]{.lorem}
+
+##### Prime Ability
+
+Your Team has the *TBD* ability common to all teams of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+### Team Base
+[]{.lorem}
+
+#### Base Location
+[]{.lorem}
+
+#### Base Type
+[]{.lorem}
+
+#### Base Facilities
+[]{.lorem}
+
+##### Base Civilian Support
+[]{.lorem}
+
+##### Hero Caves and Bases
+[]{.lorem}
+
+### Team Membership
+[]{.lorem}
+
+#### Founding Members
+[]{.lorem}
+
+###  Team Leadership
+[]{.lorem}
+
+###  Team Reputation
+[]{.lorem}
+
+####  Team Allies
+[]{.lorem}
+
+####  Team Foes
+[]{.lorem}
+
+### Group Resources
+[]{.lorem}
+
+#### Transportation
+[]{.lorem}
+
+### Team Abilities
+
+Each Volume, your Team gains a new Ability. Team Abilities are based 
+on improved teamwork and pooling of shared resources.
+Each ability can be chosen only once.
+
+##### Prime Ability
+
+Your Group has the *TBD* ability common to all groups of the same type.
+
+:::::: {.ability-list .prime} :::::::
+:    TBD
+
+     To Be Determined
+:::::::::::::::::::::::::::::::::::::
+
+#### Volume 1 Abilities
+
+At the start of Volume 1, one player chooses two abilities from this list.
+Roll randomly to determine who chooses; the same player can't choose twice
+in a row.
+
+#### Volume 2 Abilities
+
+At the start of Volume 2, one player chooses one ability from this list, or
+the Volume 1 list. Roll randomly to determine who chooses; the same player
+can't choose the Group Ability twice in a row.
+
+:::::: {.ability-list .v2} :::::::
+:    TBD
+
+     To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+#### Volume 3 Abilities
+
+At the start of Volume 3, one player chooses one ability from this list, or
+a prior list. Roll randomly to determine who chooses; the same player
+can't choose the Group Ability twice in a row.
+
+:::::: {.ability-list .v3} :::::::
+:    TBD
+
+     To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+#### Volume 4 Abilities
+
+At the start of Volume 4, one player chooses one ability from this list, or
+a prior list. Roll randomly to determine who chooses; the same player
+can't choose the Group Ability twice in a row.
+
+:::::: {.ability-list .v4} :::::::
+:    TBD
+
+     To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+#### Volume 5 Abilities
+
+At the start of Volume 5, one player chooses one ability from this list, or
+a prior    1 list. Roll randomly to determine who chooses; the same player
+can't choose the Group Ability twice in a row.
+
+:::::: {.ability-list .v5} :::::::
+:    TBD
+
+     To Be Determined
+
+:::::::::::::::::::::::::::::::::::::
+
+
+
+:::::::::::::::::::: { #team-sheet } :::::::::::::::::::::::::::::::::::::::
+### Team Sheet
+
+:::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
+- [Team Name]{.team-name     .field}
+- [Class    ]{.team-class    .field}
+- [Volume   ]{.team-volume   .field}
+
+:::::::::: { .team-leaders-line .line } :::::::
+### Team Leader(s)
+
+- [Leader Name]{.team-leader .field}
+- [Leader Name]{.team-leader .field}
+- [Leader Name]{.team-leader .field}
+- [Leader Name]{.team-leader .field}
+- [Leader Name]{.team-leader .field}
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::: { .team-approach-line .line } :::::::
+### Team Approaches
+
+- [Adventure]{.team-approach .field}
+- [Action   ]{.team-approach .field}
+- [Detective]{.team-approach .field}
+- [Mystery  ]{.team-approach .field}
+- [Suspense ]{.team-approach .field}
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::: { .team-attrs-line .line } :::::::::::::
+### Team Attributes
+
+- [Influence        ]{.team-rep .field}
+- [Authority        ]{.team-rep .field}
+- [Skill(s)         ]{.team-attr .skills          .field}
+- [Fighting Style(s)]{.team-attr .fighting-styles .field}
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::: { .body } :::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::: { .membership .section } :::::::::::::::::::::::::::
+### Team Membership
+
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- []{.skip}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- []{.skip}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- []{.skip}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- []{.skip}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+- [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::: { .abilities .section } :::::::::
+### Team Abilities
+
+- [Core]{.ability-volume .core}
+  [    ]{.ability-desc        }
+- [1   ]{.ability-volume .v1  }
+  [    ]{.ability-desc        }
+- [1   ]{.ability-volume .v1  }
+  [    ]{.ability-desc        }
+- [2   ]{.ability-volume .v2  }
+  [    ]{.ability-desc        }
+- [3   ]{.ability-volume .v3  }
+  [    ]{.ability-desc        }
+- [4   ]{.ability-volume .v4  }
+  [    ]{.ability-desc        }
+- [5   ]{.ability-volume .v5  }
+  [    ]{.ability-desc        }
+:::::::::::::::::::::::::::::::
+
+::::::: {.resources .section} ::::::::::::::
+### Team Resources
+
+::::::: {.base .subsection } :::::::::::
+#### Team Base
+
+[Base Name]{.base-line .name    }
+[Location ]{.base-line .location}
+[Type     ]{.base-line .type    }
+
+:: {.facilities .subsubsection } ::
+##### Facilities
+
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.skip}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.skip}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+- []{.facility-score} []{.facility}
+
+:::::::::::::::::::::::::::::::::::
+
+::::::::: {.support    .subsubsection } :::::::
+##### Civilian Support
+
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- []{.skip}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- []{.skip}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+- [Name]{.civilian} [Job]{.job} [Notes]{.notes}
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::: {.transport .subsection } ::::::::
+### Transportation
+#### Primary
+
+[Transport Name]{.base-line .xport-name  }
+[Type          ]{.base-line .xport-type  }
+[Number        ]{.base-line .xport-number}
+[Op Skill(s)   ]{.base-line .xport-skills}
+
+#### Secondary
+
+[Transport Name]{.base-line .xport-name  }
+[Type          ]{.base-line .xport-type  }
+[Number        ]{.base-line .xport-number}
+[Op Skill(s)   ]{.base-line .xport-skills}
+::::::::::::::::::::::::::::::::::::::::::
+
+::::::: {.gear      .subsection } ::::::::
+### Standard Gear
+
+#### Uniform(s)
+
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.skip}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+
+#### Signal Device
+
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.skip}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+- []{.gear-line}
+
+::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::::::::::
+:::: {.allies .section } :::::::::
+### Team Allies
+
+- []{.ally}
+- []{.ally}
+- []{.ally}
+- []{.ally}
+- []{.ally}
+- []{.skip}
+- []{.ally}
+- []{.ally}
+- []{.ally}
+- []{.ally}
+- []{.ally}
+::::::::::::::::::::::::::::::::::
+
+:::: {.foes   .section } :::::::::
+### Team Foes
+
+- []{.foe}
+- []{.foe}
+- []{.foe}
+- []{.foe}
+- []{.foe}
+- []{.skip}
+- []{.foe}
+- []{.foe}
+- []{.foe}
+- []{.foe}
+- []{.foe}
+::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## The Editor's Role {#toc-editor .breakbefore}
 
 []{.lorem}
@@ -11353,6 +12236,12 @@ been Volcano City.
 #### Adjusting a Crisis
 
 []{.lorem}
+[]{.lorem}
+
+
+
+## Vignettes {#toc-vignettes}
+
 []{.lorem}
 
 

@@ -160,7 +160,6 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Expatriate Abilities {.class}
