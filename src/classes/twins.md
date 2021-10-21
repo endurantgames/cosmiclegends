@@ -10,7 +10,7 @@ you can use to switch up your moves from Hero Phase to Hero Phase.
 
 ## Questions
 
-As you create your Kid hero, answer any or all of these questions.
+As you create your Twin heroes, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
 - How do you look different from normal humans? 
@@ -68,247 +68,13 @@ You can spend 1 Might point to add one of these to a Power Stunt
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
 ::::::::::::: cpw :::::::
-#### Totem Nature Core Power Words
-
-- Bugs
-  - Spider (Black Widow)
-  - Spider (Recluse)
-  - Spider (Tarantula)
-  - Insect (Ant)
-  - Insect (Scorpion)
-  - Insect (Fly)
-  - Insect (Bee)
-  - Insect (Butterfly)
-  - Insect (Moth)
-  - Insect (Roach)
-  - Insect (Wasp)
-  - Insect (Hornet)
-  - Insect (Yellowjacket)
-- Reptiles
-  - Reptile (Alligator)
-  - Reptile (Crocodile)
-  - Dinosaur (Pterodon)
-  - Dinosaur (T-Rex)
-  - Dinosaur (Stegosaur)
-  - Lizard (Chameleon)
-  - Lizard (Iguana)
-  - Snake (Asp)
-  - Snake (Cobra)
-  - Snake (Python)
-  - Snake (Rattlesnake)
-  - Snake (Viper)
-  - Reptile (Tortoise)
-  - Reptile (Turtle)
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
-- Felines
-  - Feline (Housecat)
-  - Feline (Cheetah)
-  - Feline (Cougar)
-  - Feline (Lion)
-  - Feline (Panther)
-  - Feline (Puma)
-  - Feline (Sabretooth)
-  - Feline (Tiger)
-- Birb
-  - Owl
-  - Vulture
-  - Falcon
-  - Hawk
-  - Dove
-  - Rooster
-  - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
-- Amphibians
-  - Frog
-  - Newt
-  - Toad
-  - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
-- Fish
-  - Barracuda
-  - Eel
-  - Clam
-  - Crab
-  - Fish
-  - Lobster
-  - Moray
-  - Pirhanna
-  - Merfolk
-  - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
-  - Sea Horse
-- Mammals
-  - Elephant
-    - Mammoth
-    - Mastodon
-    - Pachyderm
-  - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
-  - Monkey
-    - Ape
-    - Gorilla
-    - Gibbon
-    - Ma
-  - Pig
-    - Hog
-    - Boar
-  - Stag
-  - Deer
-  - Moose
-  - Kangaroo
-  - Elk
-  - Horse
-    - Alicorn
-    - Centaur
-    - Hippopotamus
-    - Pegasus
-    - Unicorn
-  - Rhino
-  - Wolverine
-  - Canines
-    - Dog
-      - Mastiff
-      - Hound
-      - Wolf
-      - Dingo
-    - Coyote
-    - Jackal
-    - Fox
-  - Bear
-    - Koala
-    - Grizzly
-    - Panda
-    - Polar
-  - Rodent
-    - Badger
-    - Bat
-    - Mongoose
-    - Mouse
-    - Otter
-    - Porcupine
-    - Rabbit
-      - Bunny
-      - Jackrabbit
-      - Hare
-    - Raccoon
-    - Rat
-    - Skunk
-    - Squirrel
-    - Weasel
-      - Ermine
-      - Mink
-      - Stoat
-- Environment
-  - Coral
-  - Desert
-  - Jungle
-  - Mire
-  - Peaks
-  - Tundra
-- Plant (Flower, specific)
-- Plant (Tree, specific)
-- Plant (Vine, specific)
+:::::::::::::::::::::::::
 
 ### Personal Power Words
 
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
-- Alert
-- Ambush
-- Animalistic
-- Armored
-- Beast
-- Bloody
-- Body
-- Brutal
-- Burrow
-- Camouflage
-- Charge
-- Claws
-- Clever
-- Constrict
-- Curiosity
-- Dangerous
-- Dash
-- Dig
-- Direction
-- Distance
-- Echolocation
-- Elusive
-- Enduring
-- Environment
-- Giant
-- Growl
-- Horrifying
-- Howl
-- Hunger
-- Hunter
-- Immovable
-- Inhuman
-- Instinctive
-- Instincts
-- Leap
-- Lift
-- Massive
-- Maw
-- Musk
-- Mutant
-- Natural
-- Nest
-- Networked
-- Override
-- Pack
-- Poison
-- Positronic
-- Pounce
-- Predator
-- Prey
-- Prowl
-- Purr
-- Quick
-- Rage
-- Reflexes
-- Regenerate
-- Roar
-- Savage
-- Screech
-- Shell
-- Shifting
-- Silent
-- Sly
-- Spiked
-- Stamina
-- Stampede
-- Stocky
-- Stomp
-- Strength
-- Stubborn
-- Survival
-- Tall
-- Technical
-- Throw
-- Track
-- Trample
-- Tunnel
-- Understanding
-- Venomous
-- Warning
-- Weather
-- Wild
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -332,23 +98,20 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Totem Abilities {.class}
+## Twin Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Totem Abilities show your increasing distance from humanity.
+Your Twin Abilities show your 
 Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Force of Nature** Prime ability common 
-to all Totems.
+Your hero has the **TBD** Prime ability common to all Twins.
 
 :::::: {.ability-list .prime }::::::::::
-Does Whatever a Totem Can
+TBD
 
-:   When you use your Core or Nova Power Words in a Power Stunt
-    or Combo roll, add 2 dice to as if you had a skill or fighting
-    style that applied to such a use.
+:   To be determined.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -393,11 +156,11 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-#### Kid Core Power Words
+#### Twin Core Power Words
 :::::::::::::::::::::::::
 
 ::::::::::::: cpw :::::::
-#### Kid Personal Power Words List
+#### Twin Personal Power Words List
 
 - 
 :::::::::::::::::::::::::
