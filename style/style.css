@@ -1,7 +1,7 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@import(team-sheet.css);
+@import url("team-sheet.css");
 
 @page         { size: 477pt 733pt; margin: 36pt; margin-bottom: 54pt; }
 header        { display: none;                       }
