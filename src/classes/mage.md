@@ -97,8 +97,11 @@ Choose six Personal Power Words from the following list:
 - Bands
 - Banish
 - Blast
+- Charm
+- Curse
 - Extradimensional
 - Flight
+- Hex
 - Magic
 - Sense
 - Shatter
@@ -148,6 +151,38 @@ Auspicious Alliteration
     for each Word whose first letter matches the first letter of 
     another Word in the Stunt or Combo.
 
+Familiar Familiaris
+
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+
+    You have an unusually intelligent pet or animal
+    companion that accompanies you on your magical adventures.
+
+    This animal partner has three Core Power Words -- one
+    chosen from the Totem Class's Totem Nature Power Words
+    List, representing the animal form of the Familiar --
+    and two others from the Totem Class's Personal Power Words
+    List, the Mage Class's Personal Power Words List, or
+    the Divine Class's Personal Power Words List. You can use each of these Core Power Words for free,
+    once per Hero Phase.
+
+    Whenever you can pick a new Personal Power Word, you can
+    instead choose a new Core Power Word for your familiar,
+    from the Totem Class's, Mage Class's, or 
+    Divine Class's Personal Power Words list.
+
+    Your familiar's Health and Might are equal to the Volume.
+    Choose one Skill possessed by your familiar and a Fighting
+    Style. You can use that skill or Fighting Style whenever
+    your Familiar is present.
+
+    During any Hero Phase, either your hero can make a move or your familar can make a move -- not both.
+
+    If your Familiar is ever killed, they return to life at the
+    end of the next Crisis Countdown, and join you as soon as they can.
+
+    This is a *Pet* Ability.
+
 Mists of Misdirection
 
 :   Your magicks can cloud the minds of mortals. Add 2 dice when you use
@@ -156,10 +191,45 @@ Mists of Misdirection
 Sanctuary of Sanctity
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    You have a base of operations hidden in a normal-looking building
-    or tower. When you make a skill roll in that building, add 2
+    You have a base of operations hidden in a normal-looking city building
+    or a tower. When you make a skill roll in that building, add 2
     to the dice pool.
     This is a *Hero Cave* Ability.
+
+Talismans of Power
+
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You have a number of magical trinkets, each imbued with
+    their own magical power.
+
+    At the start of each Storyline, pick a number of Power
+    Words from the Divine, Mage, Psychic, or Shaper Personal
+    Power Words lists equal to the Volume. Choose the form of
+    each trinket from the following list:
+
+    :::::: cpw :::::::::
+    - Amulet
+    - Belt
+    - Book or Tome
+    - Broom
+    - Cloak
+    - Doll
+    - Fetish
+    - Gloves
+    - Hat
+    - Mirror
+    - Orb
+    - Scroll
+    - Wand
+    ::::::::::::::::::::
+
+    You can pick each Power Word only once, and each trinket
+    shape only once.
+
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+
+    This is an *Arsenal* Ability.
 
 Theurgy
 
@@ -167,6 +237,7 @@ Theurgy
     Choose one Power Word from the Divine Class Personal Power 
     Word List as a Core Power Word.
 
+    [Divine]{.crossover}
     You have a variant of the Divine Class Prime Ability
     *_Give Me Strength!_*: *Invoke the Divine.*
 
@@ -178,15 +249,14 @@ Theurgy
 
     Instead of choosing a Volume 2 Mage Ability, you can
     choose a Volume 2 or lower Ability from the Divine
-    Class. *Weapon of the Gods (1st)*, 
-    *Speed of Hermes (2nd)* and
-    *Skill of Artemis (3rd)* are among the most applicable
+    Class. *Weapon of the Gods (1st)* and 
+    *Speed of Hermes (2nd)* are among the most applicable
     Divine Class Abilities to consider.
     
 Thinking with Portals
 
-:   Add Portal as a Personal Power Word. You can make the General
-    Alert move for free, without spending from the Teamwork Pool.
+:   Add Portal as a Core Power Word. You can make the General
+    Alert move for free, without spending any successes from the Teamwork Pool.
 
 
 :::::::::::::::::::::::::::::::::::::
