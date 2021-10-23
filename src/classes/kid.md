@@ -399,7 +399,9 @@ At the start of Volume 1, choose two abilities from this list.
 
 Animal Partner
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+    
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. This partner has three Core Power Words --
     one matching your Totem Nature Power Word, and two others from the
     Totem Personal Power Words List -- that you can use for free without
@@ -417,6 +419,8 @@ Animal Partner
     If your animal partner is ever killed, they return to life at the 
     end of the next Crisis Countdown, and join you as soon as they
     can.
+
+    This is a *Pet* Ability.
 
 Comic Relief
 
@@ -507,7 +511,8 @@ Only a Child
 
 Pet
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
 
     [Totem]{.crossover}
@@ -524,22 +529,25 @@ Pet
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
+    This is a *Pet* Ability.
+
 Magical Familiar
 
 :   *Prerequisite: You must have the __Pet__ class ability.*
     Whenever you choose a Core Power Word for your Pet, you can
-    choose from the Divine Class Personal Power Words List or the
-    Mage Class Personal Power Words List. 
-
+    choose from the Divine Class's Personal Power Words List, the
+    Hellspawn Class's Personal Power Words List, or the
+    Mage Class's Personal Power Words List. 
 
     [Divine, Mage]{.crossover .es}
-    These become Core Power
-    Words that you can use for free, each once per Hero Phase, as
-    described in the *Pet* class ability.
+    These become Core Power Words that you can use for free, 
+    each once per Hero Phase, as described in the *Pet* class ability.
 
     If your Magical Familiar is ever killed, they return to life at 
     the end of the next Crisis Countdown, and join you as soon as they
     can.
+
+    This is __not__ a *Pet* Ability.
 
 Alien Pet
 
@@ -549,11 +557,13 @@ Alien Pet
 
     [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class Personal Power Words List or the
-    Paragon Class Personal Power Words List. These become Core Power
+    from the Monstrosity Class's Personal Power Words List or the
+    Paragon Class's Personal Power Words List. These become Core Power
     Words that you can use for free, once per Hero Phase, as described 
     in the *Pet* class ability.
     
+    This is __not__ a *Pet* Ability.
+
 Holy Catchphrase!
 
 :   Once per Hero Phase, you can make a pun related to one of the
@@ -574,6 +584,8 @@ Intelligent Pet
     the Pet, and one Approach. Whenever your Pet is present at a
     Crisis, add 3 dice whenever you make a roll using the chosen
     Approach.
+
+    This is __not__ a *Pet* Ability.
 
 Youthful Power
 
