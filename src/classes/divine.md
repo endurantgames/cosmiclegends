@@ -208,7 +208,20 @@ Speed of Hermes
 Temple of the Gods
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
+    You have a hidden location that is your personal base of 
+    operations. Outside of a Crisis, you can spend 1 Might to 
+    teleport yourself to your Temple. Add 2 dice whenever you
+    skill roll while in your Temple of the Gods.
+    Choose two Scene Power Words for your Temple from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Divine
+    - Hallowed
+    - Holy
+    - Quiet
+    - Shrine
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD

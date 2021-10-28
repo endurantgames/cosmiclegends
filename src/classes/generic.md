@@ -60,24 +60,45 @@ Hero Cave
     - Computer
     - Costume
     - Crime
+    - Database
     - Dark
+    - Defenses
+    - Dinosaur
+    - Dock
+    - Entertainment
     - Exit
     - Extra
+    - Fountain
     - Garage
+    - Globe
     - Hangar
     - Hidden
+    - Kitchen
     - Laboratory
+    - Library
+    - Map
     - Medical
     - Memorial
     - Passage
+    - Penny
+    - Repairs
+    - Reinforced
+    - Robot
     - Secure
     - Secret
     - Sensors
+    - Shelter
     - Shielded
+    - Statue
+    - Storage
+    - Studio
     - Toys
     - Trophy
+    - Tunnel
     - Underground
+    - Wealth
     - Weapon
+    - Zoo
     :::::::::::::::::::::::::
 
     This is a *Hero Cave* Ability.
@@ -124,7 +145,7 @@ Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
 The Nova Power Word remains *Locked*.
 
 Local Hero
-:   You and your home town are near synonymous. 
+:   You and your home town are nearly synonymous. 
     You know the geography of the city like the back of your hand. 
     Add the name of your city as a Core Power Word.
     Add 2 dice whenever you make a skill roll related to the city. 

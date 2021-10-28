@@ -192,8 +192,25 @@ Sanctuary of Sanctity
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     You have a base of operations hidden in a normal-looking city building
-    or a tower. When you make a skill roll in that building, add 2
-    to the dice pool.
+    or a medieval tower. When you make a skill roll in that building, 
+    add 2 to the dice pool.
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby willing Heroes to your Sanctuary, or return 
+    to the location you left from.
+    Choose two Scene Power Words for your Sanctuary from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
+
+    - Archaic
+    - Haunted
+    - Historic
+    - Illusory
+    - Ley-Lines
+    - Unassuming
+    - Warded
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 Talismans of Power
@@ -208,6 +225,9 @@ Talismans of Power
     each trinket from the following list:
 
     :::::: cpw :::::::::
+
+    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms-list}
+
     - Amulet
     - Belt
     - Book or Tome
@@ -268,14 +288,16 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
-:   *Prerequisite: You must have the _Sanctuary of Sanctity_ Ability.*
+:   *Prerequisites: You must have the _Sanctuary of Sanctity_ Ability.*
+    *You can't have another __Arsenal__ Ability.*
     At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
 
-    [Psychic, Shaper]{.crossover}
+    [Psychic, Shaper]{.arsenal .es}
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
 
 Diabolical Power
 
@@ -287,6 +309,9 @@ Diabolical Power
     [Hellspawn, Mage]{.crossover .es}
     You have a variant of the Hellspawn Class's Prime
     Ability *Infernal Wrath*: *Hellish Rebuke.*
+
+    Whenever you lose Health, add 2 dice in the next Hero
+    Phase on rolls to advance the Smash goal.
 
     Add *Flame*, *Darkness* and *Demon* as Core Power Words. 
     Whenever you add a Personal Power Word, you can pick 
@@ -319,9 +344,10 @@ Arcane Infusion
 Healing Mantra
 
 :   []{.move .hero} You can use your magic to heal your allies. 
-    As your move during the Hero Phase, roll a Power Display, Stunt, or 
+    As your move during a Hero Phase, roll a Power Display, Stunt, or 
     Combo. One or more heroes of your choice regain a total amount of 
-    Health equal to the Effectiveness of your roll plus the Volume.
+    Health or Might equal to the Effectiveness of your roll plus the 
+    Volume.
 
 :::::::::::::::::::::::::::::::::::::
 

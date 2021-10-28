@@ -263,6 +263,21 @@ Autonomous Operation
     make a move -- using your own Approach scores, Skills, and Fighting 
     Styles, if needed.
 
+Cursed Vehicle
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Like the *Haunted Vehicle* class ability, your Vehicle is possessed
+    by a supernatural creature.
+
+    [Hellspawn]{.crossover}
+    Choose one Personal Power Word from the Hellspawn class and add it as
+    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
+    Power Word, you can choose from the Hellspan Personal Power Words
+    List or the Vehicle Scene Power Words List; such Power Words become
+    Vehicle Scene Power Words.
+
+    In addition, you gain the **Mystic Skill**.
+
 Dude, Where's Your Car?
 
 :   *Prerequisite: __Autonomous Operation__ class ability.*
@@ -306,21 +321,6 @@ Haunted Vehicle
 
     In addition, you gain the **Mystic Skill**.
 
-Cursed Vehicle
-
-:   *Prerequisite: __Intelligent Vehicle__ class ability.*
-    Like the *Haunted Vehicle* class ability, your Vehicle is possessed
-    by a supernatural creature.
-
-    [Hellspawn]{.crossover}
-    Choose one Personal Power Word from the Hellspawn class and add it as
-    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
-    Power Word, you can choose from the Hellspan Personal Power Words
-    List or the Vehicle Scene Power Words List; such Power Words become
-    Vehicle Scene Power Words.
-
-    In addition, you gain the **Mystic Skill**.
-
 High-Tech Vehicle
 
 :   *Prerequisite: __Intelligent Vehicle__ class ability.*
@@ -351,7 +351,18 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Glorious Garage
 
 :   *Prequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
+
+    Add 2 dice whenever you make a skill roll while in your Garage.
+    Choose two Scene Power Words for your Glorious Garage from the
+    [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
+
+    - Automatic
+    - Fuel
+    - Hidden
+    - Repair
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 More than Meets the Eye

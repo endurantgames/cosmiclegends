@@ -242,7 +242,24 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 Shaper's Refuge
 
 :   *Prerequisite: You can't have another _Hero Cave_ Ability.*
-    []{.lorem} []{.lorem}
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby, willing Heroes to your Refuge, or return
+    to Earth at the location you left from.
+    Add 2 dice whenever you make a skill roll while in your Shaper's Refuge.
+    Choose two Scene Power Words for your Refuge from the
+    [](#list-hero-cave-power-words){.list-link}. 
+    Your Refuge also has your Element Core Power Word as a third
+    Scene Power Word.
+    In addition, choose one of the following as a fourth Scene Power Word:
+    ::::::: cpw :::::::::::::
+    # Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
+
+    - Cloaked
+    - Defensive
+    - Energized
+    - Extraplanar
+    - Fortified
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD

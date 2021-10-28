@@ -184,9 +184,21 @@ Noblesse Oblige
 
 Remote Palace
 
-:   You have a hidden base of operations somewhere in your distant 
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a hidden base of operations somewhere in your distant 
     monarchy. 
-    When you make a skill roll in that base, add 2 to the dice pool.
+    Add 2 dice whenever you make a skill roll while in your Palace.
+    Choose two Scene Power Words for your Palace from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
+
+    - Expansive
+    - Fortress
+    - Opulent
+    :::::::::::::::::::::::::
+    This is a *Hero Cave* Ability.
 
 Righteous Rage
 

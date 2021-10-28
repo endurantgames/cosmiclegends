@@ -218,16 +218,16 @@ Human Whirlwind
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
+Instant Power Recovery
+
+:   Whenever you use one of your Core or Nova Power Words in a
+    Power Stunt or Combo, those Power Words do not go on cooldown.
+
 Untouchable
 
 :   No one can lay a hand on you. When you are affected by a Crisis
     move, you can counter it by spending Might instead of Successes
     from the Teamwork Pool.
-
-Instant Power Recovery
-
-:   Whenever you use one of your Core or Nova Power Words in a
-    Power Stunt or Combo, those Power Words do not go on cooldown.
 
 :::::::::::::::::::::::::::::::::::::
 

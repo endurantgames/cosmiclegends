@@ -202,7 +202,7 @@ Astral Projection
     In astral form, you have "Flight" as a Core Power Word. You can
     choose whether your astral form is visible to those in the same
     location, or if it is invisible to all creatures lacking 
-    pan-dimensional vision.
+    pan-dimensional vision or similar extrasensory abilities.
 
 TBD
 
@@ -260,6 +260,25 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 Astral Retreat
 
 :   *Prequisite: You can't have another _Hero Cave_ Ability.*
+    You have a stronghold located on the astral plane.
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby, willing Heroes to your Retreat, or return
+    to Earth at the location you left from.
+    Add 2 dice whenever you make a skill roll while in your Astral Retreat.
+    Choose two Scene Power Words for your Astral Retreat from the
+    [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
+
+    - Astral
+    - Cloaked
+    - Immaterial
+    - Memory
+    - Mental
+    - Psionic
+    - Solidified
+    - Viewing
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD

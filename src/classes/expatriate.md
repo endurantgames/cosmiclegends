@@ -228,6 +228,19 @@ Earth, Or A Reasonable Facsimile Thereof
 
 :   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
     []{.lorem}
+    You have a holosuite or room made to replicate the environment(s)
+    of your home planet.
+    Add 2 dice whenever you make a 
+    skill roll while in your Facsimile.
+    Choose two Scene Power Words for your Facsimile from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Earth
+    - Familiar
+    - Home
+    - Terran
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 Regeneration

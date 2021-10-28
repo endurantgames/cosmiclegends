@@ -213,7 +213,23 @@ Relentless Power
 Leave Me Alone!
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem} []{.lorem}
+    You have a remote, safe place to which you can retreat and hide
+    from others.
+    Add 2 dice whenever you make a skill roll while in your Safe Place.
+    Choose two Scene Power Words for your Safe Place from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
+
+    - Comfortable
+    - Fortified
+    - Hidden
+    - Peaceful
+    - Refreshing
+    - Quiet
+    - Tranquil
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::

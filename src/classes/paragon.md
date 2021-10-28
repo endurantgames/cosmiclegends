@@ -234,8 +234,21 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 Castle of Quiettude
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    You have a base of operations in a remote location. When
-    you make a skill roll in that building, add 2 to the dice pool. 
+    You have a base of operations in a remote location. 
+    Add 2 dice whenever you make a skill roll while in your Castle of 
+    Quiettude.  Choose two Scene Power Words for your Castle from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
+
+    - Alien
+    - Locked
+    - Memories
+    - Relaxing
+    - Solitude
+    - Uncharted
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 Nigh-Invulnerable
@@ -250,6 +263,29 @@ Nigh-Invulnerable
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
+Faster than a Speeding Bullet
+
+:   You can act and react at speeds that defy understanding.
+    
+    [Speedster]{.crossover}
+    You have a variant of the Speedster Class's __Ignore The Laws of
+    Physics__ Prime Ability: *Bend the Laws of Physics.*
+
+    Your speed lets you bend the standard laws of Newtonian physics --
+    you can ignore the effects of inertia and start, stop, or turn on
+    dime, instantly; you don't suffer any negative effects from moving
+    at excessive speed, such as wind burn, and you're able to breathe
+    normally -- as well as ignoring relativistic effects from moving
+    near the speed of light.
+
+    Instead of choosing a Paragon Class Ability of Volume 3 or higher,
+    you can choose a Speedster Class Ability of the same or lower
+    Volume. *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
+    *Vibrate Through Walls (1st)*, *Burst of Speed (2nd)*,
+    *Evacuate the Bystanders (3rd)*, *Human Whirlwind (3rd)*,
+    *Untouchable (4th)*, and *Instant Power Recovery (4th)* 
+    are among the most applicable Speedster Class Abilities to consider.
+
 Strange Visitor from Another Planet
 
 :   You aren't from Earth, but are instead from another planet
@@ -271,13 +307,8 @@ Strange Visitor from Another Planet
     Instead of choosing a Paragon Class Ability of Volume 3
     or higher, you can choose an Inventor Class Ability of
     the same or lower Volume. *Persipacacious Pettifoggery (1st)*,
-    *Stately Skyscraper (1st)*,  *Puissant Polymath (2nd)*, 
-    and *Overclocked Systems (3rd)* are among the most 
-    applicable Inventor Class Abilities to consdier.
-
-TBD
-
-:   To be determined.
+    *Puissant Polymath (2nd)*, and *Overclocked Systems (3rd)* are 
+    among the most applicable Inventor Class Abilities to consider.
 
 :::::::::::::::::::::::::::::::::::::
 

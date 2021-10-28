@@ -125,6 +125,16 @@ Stately Skyscraper
 :   *Prerequisite: You can't have another __Hero Cave__Ability.*
     You have a base of operations at the top of a tall building.
     When you make a skill roll in that building, add 2 to the dice pool.
+    Choose two Scene Power Words for your Skyscraper from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Downtown
+    - High-Tech
+    - Invisible
+    - Penthouse
+    - Phased
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD
