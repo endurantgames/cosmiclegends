@@ -137,7 +137,7 @@ No Wasted Effort
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Inventor Class Abilities {#list-class-inventor-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -172,6 +172,8 @@ Stately Skyscraper
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
+
+    # Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
     - Downtown
     - High-Tech
     - Invisible
@@ -186,7 +188,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Inventor Class Abilities {#list-class-inventor-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -214,7 +216,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Inventor Class Abilities {#list-class-inventor-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -236,7 +238,7 @@ Overclocked Systems
 :::::::::::::::::::::::::::::::::::::
 
 
-### Volume 4 Abilities
+### Volume 4 Inventor Class Abilities {#list-class-inventor-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -251,7 +253,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Inventor Class Abilities {#list-class-inventor-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

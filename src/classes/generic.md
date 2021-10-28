@@ -1,20 +1,10 @@
 ::::::::::::::::::: { .classdata } :::::::::::
-# Generic Abilities {#toc-generic .breakbefore .class}
-
-> Twin Powers - Activate!
+# Generic Hero Abilities {#toc-generic .breakbefore .class}
 
 ## Questions
 
 :::::::::: questions :::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::
-
-## Skills
-
-You have the **Explorer** skill, plus two additional skills of your choice.
-
-Whenever you make a roll that uses one of your skills, add 1 extra die. If
-you have more than one skill that could apply to a roll, add 1 extra die for each
-applicable skill.
 
 ## Power Words
 
@@ -28,14 +18,14 @@ You can use your Power Words in the following ways:
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase, and you can't use it until it is off cooldown.
 
-## Generic Abilities {.class}
+## Generic Hero Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
 Instead of taking a Class Ability, you can choose a Generic
-Ability from the following lists.
+Hero Ability from the following lists.
 Each ability can be chosen only once.
 
-### Volume 1 Abilities
+### Volume 1 Generic Hero Abilities {#list-generic-hero-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list or from
 your Class's Volume 1 Class Ability List.
@@ -157,7 +147,7 @@ Local Hero
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Generic Hero Abilities {#list-generic-hero-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -180,7 +170,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Generic Hero Abilities {#list-generic-hero-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -205,7 +195,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Generic Hero Abilities {#list-generic-hero-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -220,7 +210,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Generic Hero Abilities {#list-generic-hero-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

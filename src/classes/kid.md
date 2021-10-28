@@ -391,7 +391,7 @@ Why, It's Just a Child
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Kid Class Abilities {#list-class-kid-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -460,7 +460,7 @@ You can spend 1 Might point to add one of those to a Power Stunt or
 Combo, or 2 Might to add both.
 :::::::::::::::::::::::::
 
-#### Kid Personal Power Words List
+#### Kid Class Personal Power Words List {#list-class-kid-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
@@ -480,6 +480,31 @@ Choose six Personal Power Words from the following list:
 - Young
 :::::::::::::::::::::::::
 
+### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
+
+Alien Pet
+
+:   *Prerequisite: You must have the __Pet__ class ability.*
+    Your pet isn't from Earth -- or might not even be from this universe,
+    in the case of a magical pet.
+
+    [Monstrosity, Totem]{.crossover .es}
+    Whenever you choose a Core Power Word for your Pet, you can choose 
+    from the Monstrosity Class's Personal Power Words List or the
+    Paragon Class's Personal Power Words List. These become Core Power
+    Words that you can use for free, once per Hero Phase, as described 
+    in the *Pet* class ability.
+    
+    This is __not__ a *Pet* Ability.
+
+Holy Catchphrase!
+
+:   Once per Hero Phase, you can make a pun related to one of the
+    Scene Power Words or an Ideal that you or another hero Marked
+    since the start of the last Hero Phase. If you do, add 3 to the
+    next roll you or any other hero makes before the end of the current
+    Hero Phase.
+    
 Knowing is Half the Battle
 
 :   At the end of an issue, you can do a solo Vignette wherein you 
@@ -549,29 +574,6 @@ Magical Familiar
 
     This is __not__ a *Pet* Ability.
 
-Alien Pet
-
-:   *Prerequisite: You must have the __Pet__ class ability.*
-    Your pet isn't from Earth -- or might not even be from this universe,
-    in the case of a magical pet.
-
-    [Monstrosity, Totem]{.crossover .es}
-    Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class's Personal Power Words List or the
-    Paragon Class's Personal Power Words List. These become Core Power
-    Words that you can use for free, once per Hero Phase, as described 
-    in the *Pet* class ability.
-    
-    This is __not__ a *Pet* Ability.
-
-Holy Catchphrase!
-
-:   Once per Hero Phase, you can make a pun related to one of the
-    Scene Power Words or an Ideal that you or another hero Marked
-    since the start of the last Hero Phase. If you do, add 3 to the
-    next roll you or any other hero makes before the end of the current
-    Hero Phase.
-    
 Intelligent Pet
 
 :   *Prerequisite: You must have the __Pet__ class ability.*
@@ -599,7 +601,7 @@ Youthful Relatability
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Kid Class Abilities {#list-class-kid-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -607,7 +609,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Abilities {#list-class-kid-abilities-v3}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -622,7 +624,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Abilities {#list-class-kid-abilities-v3}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

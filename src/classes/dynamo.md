@@ -62,7 +62,7 @@ You can use your Power Words in the following ways:
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
 
-### Core Power Words
+### Core Power Words {#list-class-dynamo-energy-core-power-words}
 
 Your Core Power Words are **Energy** and **Overload**.
 
@@ -83,7 +83,7 @@ Energy Power Word -- chosen from the following list:
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
 
-### Personal Power Words
+### Personal Power Words {#list-class-dynamo-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -143,7 +143,7 @@ Energy Reserve
     Might points, you regain 1 Might.
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Dynamo Class Abilities {#list-dynamo-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -178,7 +178,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Abilities {#list-dynamo-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -204,7 +204,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Dynamo Class Abilities {#list-dynamo-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -221,7 +221,7 @@ Power Overwhelming
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Dynamo Class Abilities {#list-dynamo-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -236,7 +236,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Dynamo Class Abilities {#list-dynamo-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

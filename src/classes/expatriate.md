@@ -3,51 +3,21 @@
 
 > 
 
-Just a machine.
+## Playing an Expatriate
 
-That's all they say you are. Created in a lab, created by other
-people, originally from non-living material.
-
-Who *doesn't* that describe?
-
-Do your origins make you any *less* of a person?
-
-You're more than just a simple gadget or toy. You've found there
-is more to being a person than simply being born human or looking
-like they do.
-
-
-## Playing a Construct
-
-Your hero is really, really good at breaking things. You're going
-to want to advance the Smash goal whenever you can, but keep in
-mind that you're more than *just* muscle. You have Skills, Abilities,
-and possibly other Power Words that you can use switch up your
-moves from Hero Phase to Hero Phase.
+[]{.lorem}
 
 ## Questions
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
-- How do you look different from normal humans? 
-  - How much larger are you than other people? 
-  - What color is your skin, and what does it feel like? 
-  - What kind of strange appearance do you have that
-    makes the ignorant assume you're a mere brute? 
-  - What does your voice sound like, and what kind of vocabulary do you employ?
-- Are you *always* a monster? 
-  - If not, what triggers that change? 
-  - Is it an emotional state, a substance, a situation, or your own
-    choice? 
-  - Will people not like you when you're angry?
-  - *Were* you always a monster?
-- What kind of interests do you have that surprise other people? 
-  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-- Why *aren't* you the monster they say you are? 
-  - What makes you a *hero* and not a villain or mindless threat? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
+- []{.lorem}
+  - []{.lorem}
+  - []{.lorem}
+- []{.lorem}
+  - []{.lorem}
+  - []{.lorem}
 ::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
@@ -74,7 +44,7 @@ Your Core Power Words are **Human** and **Ingenuity**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, or 2 Might to add both.
 
-### Personal Power Words
+### Personal Power Words {#list-class-expatriate-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -89,6 +59,7 @@ Choose six Personal Power Words from the following list:
 - Beast
 - Body
 - Bravado
+- Charm
 - Civilization
 - Claws
 - Crash
@@ -100,7 +71,9 @@ Choose six Personal Power Words from the following list:
 - Discovery
 - Earth
 - Explosives
+- Eye
 - Fascinating
+- Fin
 - Folksy
 - Forgotten
 - Grok
@@ -111,6 +84,7 @@ Choose six Personal Power Words from the following list:
 - Jumpsuit
 - Immovable
 - Improvised
+- Innocent
 - Leadership
 - Leap
 - Linguist
@@ -171,7 +145,7 @@ environment from your home.  Each ability can be chosen only once.
 ### Prime Ability
 
 Your hero has the **Quick Learner** Prime ability common 
-to all Monstrosities.
+to all Expatriates.
 
 :::::: {.ability-list .prime }::::::::::
 Quick Learner
@@ -186,7 +160,7 @@ Quick Learner
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Expatriate Class Abilities {#list-expatriate-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -219,7 +193,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Expatriate Class Abilities {#list-expatriate-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -227,7 +201,6 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Earth, Or A Reasonable Facsimile Thereof
 
 :   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
     You have a holosuite or room made to replicate the environment(s)
     of your home planet.
     Add 2 dice whenever you make a 
@@ -239,6 +212,7 @@ Earth, Or A Reasonable Facsimile Thereof
     - Earth
     - Familiar
     - Home
+    - Terrain
     - Terran
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
@@ -257,7 +231,7 @@ Relentless Power
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Expatriate Class Abilities {#list-expatriate-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -275,7 +249,7 @@ Power Burn
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Expatriate Class Abilities {#list-expatriate-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -294,7 +268,7 @@ Power Overwhelming
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Expatriate Class Abilities {#list-expatriate-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

@@ -171,7 +171,7 @@ Beyond the Grave
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Abilities {#list-class-haunt-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -194,7 +194,7 @@ Unfinished Business
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Haunt Class Abilities {#list-class-haunt-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -211,7 +211,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Haunt Class Abilities {#list-class-haunt-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -227,7 +227,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Haunt Class Abilities {#list-class-haunt-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -243,7 +243,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Haunt Class Abilities {#list-class-haunt-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

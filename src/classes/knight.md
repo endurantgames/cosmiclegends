@@ -24,7 +24,7 @@ Knight has a *Weapon* Power Word for that reason. If you pick
 Rifle, Boomerang, Sword, Shield, and so on.
 
 If you're going to play a more realistic hero, consider the
-*Weapons Locker* ability for access to weapon Power Words, and
+*Weapons Locker* ability for access to more weapon Power Words, and
 devote your own Personal Power Words to expanding the variety
 of effects you can produce.
 
@@ -80,7 +80,7 @@ Your Core Power Words are **Prepared** and **Gambit**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-### Personal Power Words
+### Knight Class Personal Power Words {#list-class-knight-personal-power-words}
 
 Choose five Personal Power Words from the following list:
 
@@ -156,7 +156,7 @@ Peak Human Potential
     Choose one additional Fighting Style.
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Knight Class Abilities {#list-class-knight-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -214,7 +214,7 @@ Weapons Locker
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Knight Class Abilities {#list-class-knight-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -257,7 +257,7 @@ Patriot
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Knight Class Abilities {#list-class-knight-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -289,7 +289,7 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Knight Class Abilities {#list-class-knight-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -372,7 +372,7 @@ Vehicle Customization
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Knight Class Abilities {#list-class-knight-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

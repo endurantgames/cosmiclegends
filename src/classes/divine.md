@@ -91,7 +91,7 @@ Your Core Power Words are **Blessed** and **Champion**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-### Personal Power Words
+### Divine Class Personal Power Words List {#list-class-divine-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -151,7 +151,7 @@ Give Me Strength!
     regardless of how many extra successes you gained.
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Divine Class Abilities {#list-divine-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -185,7 +185,7 @@ Wisdom of Athena
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Divine Class Abilities {#list-divine-abilities-v1}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -230,7 +230,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Divine Class Abilities {#list-divine-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -251,7 +251,7 @@ Skill of Artemis
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Divine Class Abilities {#list-divine-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -266,7 +266,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Divine Class Abilities {#list-divine-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

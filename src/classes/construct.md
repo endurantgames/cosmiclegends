@@ -83,7 +83,7 @@ Your Core Power Words are **Synthetic** and **Sentience**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, or 2 Might to add both.
 
-### Personal Power Words
+### Personal Power Words {#list-class-construct-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -156,15 +156,15 @@ Engine of Destruction
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Construct Class Abilities {#list-construct-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
-Azimovian Disciple
+Asimovian Disciple
 
 :   *Prerequisite: You can't have the Golem class ability.* 
-    Isaac Azimov's three laws of robotics are like scripture to you. 
+    Isaac Asimov's three laws of robotics are like scripture to you. 
     As long as you abide by them, add 2 dice whenever you roll to advance
     the Allay or Rescue goals. If you deliberately break one, you lose this
     benefit until you successfully resolve a Crisis.
@@ -310,7 +310,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Construct Class Abilities {#list-construct-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -348,7 +348,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Construct Class Abilities {#list-construct-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -366,7 +366,7 @@ Power Burn
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Construct Class Abilities {#list-construct-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -385,7 +385,7 @@ Immortal
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Construct Class Abilities {#list-construct-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

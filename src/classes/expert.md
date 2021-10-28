@@ -5,7 +5,7 @@
 
 Like the Knight and Inventor, you aren't a hero who relies on your
 super-powers. Instead, you're very skilled at one specific thing --
-and there are few in the world who can match your expertise.
+and there are few in the world who can match your expertise in your chosen field.
 
 ## Playing an Expert
 
@@ -87,14 +87,14 @@ World-Renowned Expertise
 
 :   When you chose your skills, you picked one as your
     Prime Skill. Whenever you use that skill in a roll,
-    add 2 dice instead of 1 die.
+    add 3 dice instead of 1 die.
 
     If you chose a Prime Fighting Style instead of a Prime Skill,
-    double the number of dice that Fighting Style provides.
+    triple the number of dice that Fighting Style provides.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Expert Class Abilities {#list-expert-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -122,7 +122,7 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   *Prerequisite: You can't have another __Hero Cave__Ability.*
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     You have a base of operations at the top of a tall building.
     When you make a skill roll in that building, add 2 to the dice pool.
     Choose two Scene Power Words for your Skyscraper from the
@@ -143,7 +143,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Expert Class Abilities {#list-expert-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -170,7 +170,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Expert Class Abilities {#list-expert-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -192,7 +192,7 @@ Overclocked Systems
 :::::::::::::::::::::::::::::::::::::
 
 
-### Volume 4 Abilities
+### Volume 4 Expert Class Abilities {#list-expert-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -207,7 +207,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Expert Class Abilities {#list-expert-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

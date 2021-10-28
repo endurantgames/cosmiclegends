@@ -139,7 +139,7 @@ you can use additional Nova Power Words by paying 1 Might for each beyond the fi
 ![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Hellspawn Abilities { .class}
+## Hellspawn Class Abilities { .class}
 
 Each Volume, you gain a new ability from your class. Your Hellspawn
 Abilities are gifts from the Lower Powers, whether by birth or by boon.
@@ -160,7 +160,7 @@ Infernal Wrath
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Abilities
+### Volume 1 Hellspawn Class Abilities {#list-class-hellspawn-v1} 
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -210,7 +210,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Hellspawn Class Abilities {#list-class-hellspawn-v2} 
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -275,7 +275,7 @@ Fiendish Destroyer
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Abilities
+### Volume 3 Hellspawn Class Abilities {#list-class-hellspawn-v3} 
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -291,7 +291,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities
+### Volume 4 Hellspawn Class Abilities {#list-class-hellspawn-v4} 
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -327,7 +327,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities
+### Volume 5 Hellspawn Class Abilities {#list-class-hellspawn-v5} 
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
