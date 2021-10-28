@@ -185,7 +185,7 @@ Wisdom of Athena
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Divine Class Abilities {#list-divine-abilities-v1}
+### Volume 2 Divine Class Abilities {#list-divine-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 

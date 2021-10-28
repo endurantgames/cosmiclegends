@@ -1933,7 +1933,7 @@ Your Core Power Words are **Synthetic** and **Sentience**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, or 2 Might to add both.
 
-##### Personal Power Words
+##### Personal Power Words {#list-class-construct-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -2006,15 +2006,15 @@ Engine of Destruction
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Construct Class Abilities {#list-construct-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
-Azimovian Disciple
+Asimovian Disciple
 
 :   *Prerequisite: You can't have the Golem class ability.* 
-    Isaac Azimov's three laws of robotics are like scripture to you. 
+    Isaac Asimov's three laws of robotics are like scripture to you. 
     As long as you abide by them, add 2 dice whenever you roll to advance
     the Allay or Rescue goals. If you deliberately break one, you lose this
     benefit until you successfully resolve a Crisis.
@@ -2160,7 +2160,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Construct Class Abilities {#list-construct-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -2198,7 +2198,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Construct Class Abilities {#list-construct-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -2216,7 +2216,7 @@ Power Burn
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Construct Class Abilities {#list-construct-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -2235,7 +2235,7 @@ Immortal
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Construct Class Abilities {#list-construct-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -2345,7 +2345,7 @@ Your Core Power Words are **Blessed** and **Champion**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-##### Personal Power Words
+##### Divine Class Personal Power Words List {#list-class-divine-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -2405,7 +2405,7 @@ Give Me Strength!
     regardless of how many extra successes you gained.
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Divine Class Abilities {#list-divine-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -2439,7 +2439,7 @@ Wisdom of Athena
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Divine Class Abilities {#list-divine-abilities-v1}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -2484,7 +2484,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Divine Class Abilities {#list-divine-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -2505,7 +2505,7 @@ Skill of Artemis
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Divine Class Abilities {#list-divine-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -2520,7 +2520,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Divine Class Abilities {#list-divine-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -2662,7 +2662,7 @@ You can use your Power Words in the following ways:
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase.
 
-##### Core Power Words
+##### Core Power Words {#list-class-dynamo-energy-core-power-words}
 
 Your Core Power Words are **Energy** and **Overload**.
 
@@ -2683,7 +2683,7 @@ Energy Power Word -- chosen from the following list:
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
 
-##### Personal Power Words
+##### Personal Power Words {#list-class-dynamo-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -2743,7 +2743,7 @@ Energy Reserve
     Might points, you regain 1 Might.
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Dynamo Class Abilities {#list-dynamo-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -2778,7 +2778,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Abilities {#list-dynamo-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -2804,7 +2804,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Dynamo Class Abilities {#list-dynamo-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -2821,7 +2821,7 @@ Power Overwhelming
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Dynamo Class Abilities {#list-dynamo-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -2836,7 +2836,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Dynamo Class Abilities {#list-dynamo-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -2858,51 +2858,21 @@ TBD
 
 > 
 
-Just a machine.
+#### Playing an Expatriate
 
-That's all they say you are. Created in a lab, created by other
-people, originally from non-living material.
-
-Who *doesn't* that describe?
-
-Do your origins make you any *less* of a person?
-
-You're more than just a simple gadget or toy. You've found there
-is more to being a person than simply being born human or looking
-like they do.
-
-
-#### Playing a Construct
-
-Your hero is really, really good at breaking things. You're going
-to want to advance the Smash goal whenever you can, but keep in
-mind that you're more than *just* muscle. You have Skills, Abilities,
-and possibly other Power Words that you can use switch up your
-moves from Hero Phase to Hero Phase.
+[]{.lorem}
 
 #### Questions
 
 As you create your Monstrosity hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
-- How do you look different from normal humans? 
-  - How much larger are you than other people? 
-  - What color is your skin, and what does it feel like? 
-  - What kind of strange appearance do you have that
-    makes the ignorant assume you're a mere brute? 
-  - What does your voice sound like, and what kind of vocabulary do you employ?
-- Are you *always* a monster? 
-  - If not, what triggers that change? 
-  - Is it an emotional state, a substance, a situation, or your own
-    choice? 
-  - Will people not like you when you're angry?
-  - *Were* you always a monster?
-- What kind of interests do you have that surprise other people? 
-  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-- Why *aren't* you the monster they say you are? 
-  - What makes you a *hero* and not a villain or mindless threat? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
+- []{.lorem}
+  - []{.lorem}
+  - []{.lorem}
+- []{.lorem}
+  - []{.lorem}
+  - []{.lorem}
 ::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
@@ -2929,7 +2899,7 @@ Your Core Power Words are **Human** and **Ingenuity**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, or 2 Might to add both.
 
-##### Personal Power Words
+##### Personal Power Words {#list-class-expatriate-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
@@ -2944,6 +2914,7 @@ Choose six Personal Power Words from the following list:
 - Beast
 - Body
 - Bravado
+- Charm
 - Civilization
 - Claws
 - Crash
@@ -2955,7 +2926,9 @@ Choose six Personal Power Words from the following list:
 - Discovery
 - Earth
 - Explosives
+- Eye
 - Fascinating
+- Fin
 - Folksy
 - Forgotten
 - Grok
@@ -2966,6 +2939,7 @@ Choose six Personal Power Words from the following list:
 - Jumpsuit
 - Immovable
 - Improvised
+- Innocent
 - Leadership
 - Leap
 - Linguist
@@ -3026,7 +3000,7 @@ environment from your home.  Each ability can be chosen only once.
 ##### Prime Ability
 
 Your hero has the **Quick Learner** Prime ability common 
-to all Monstrosities.
+to all Expatriates.
 
 :::::: {.ability-list .prime }::::::::::
 Quick Learner
@@ -3041,7 +3015,7 @@ Quick Learner
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Expatriate Class Abilities {#list-expatriate-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -3074,7 +3048,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Expatriate Class Abilities {#list-expatriate-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -3082,7 +3056,6 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Earth, Or A Reasonable Facsimile Thereof
 
 :   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
     You have a holosuite or room made to replicate the environment(s)
     of your home planet.
     Add 2 dice whenever you make a 
@@ -3094,6 +3067,7 @@ Earth, Or A Reasonable Facsimile Thereof
     - Earth
     - Familiar
     - Home
+    - Terrain
     - Terran
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
@@ -3112,7 +3086,7 @@ Relentless Power
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Expatriate Class Abilities {#list-expatriate-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -3130,7 +3104,7 @@ Power Burn
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Expatriate Class Abilities {#list-expatriate-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -3149,7 +3123,7 @@ Power Overwhelming
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Expatriate Class Abilities {#list-expatriate-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -3173,7 +3147,7 @@ TBD
 
 Like the Knight and Inventor, you aren't a hero who relies on your
 super-powers. Instead, you're very skilled at one specific thing --
-and there are few in the world who can match your expertise.
+and there are few in the world who can match your expertise in your chosen field.
 
 #### Playing an Expert
 
@@ -3255,14 +3229,14 @@ World-Renowned Expertise
 
 :   When you chose your skills, you picked one as your
     Prime Skill. Whenever you use that skill in a roll,
-    add 2 dice instead of 1 die.
+    add 3 dice instead of 1 die.
 
     If you chose a Prime Fighting Style instead of a Prime Skill,
-    double the number of dice that Fighting Style provides.
+    triple the number of dice that Fighting Style provides.
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Expert Class Abilities {#list-expert-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -3290,7 +3264,7 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   *Prerequisite: You can't have another __Hero Cave__Ability.*
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     You have a base of operations at the top of a tall building.
     When you make a skill roll in that building, add 2 to the dice pool.
     Choose two Scene Power Words for your Skyscraper from the
@@ -3311,7 +3285,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Expert Class Abilities {#list-expert-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -3338,7 +3312,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Expert Class Abilities {#list-expert-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -3360,7 +3334,7 @@ Overclocked Systems
 :::::::::::::::::::::::::::::::::::::
 
 
-##### Volume 4 Abilities
+##### Volume 4 Expert Class Abilities {#list-expert-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -3375,7 +3349,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Expert Class Abilities {#list-expert-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -3393,22 +3367,12 @@ TBD
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::: { .classdata } :::::::::::
-### Generic Abilities {#toc-generic .breakbefore .class}
-
-> Twin Powers - Activate!
+### Generic Hero Abilities {#toc-generic .breakbefore .class}
 
 #### Questions
 
 :::::::::: questions :::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::
-
-#### Skills
-
-You have the **Explorer** skill, plus two additional skills of your choice.
-
-Whenever you make a roll that uses one of your skills, add 1 extra die. If
-you have more than one skill that could apply to a roll, add 1 extra die for each
-applicable skill.
 
 #### Power Words
 
@@ -3422,14 +3386,14 @@ You can use your Power Words in the following ways:
 When you use a Power Word, it goes on cooldown until the start of
 the next Hero Phase, and you can't use it until it is off cooldown.
 
-#### Generic Abilities {.class}
+#### Generic Hero Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
 Instead of taking a Class Ability, you can choose a Generic
-Ability from the following lists.
+Hero Ability from the following lists.
 Each ability can be chosen only once.
 
-##### Volume 1 Abilities
+##### Volume 1 Generic Hero Abilities {#list-generic-hero-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list or from
 your Class's Volume 1 Class Ability List.
@@ -3551,7 +3515,7 @@ Local Hero
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Generic Hero Abilities {#list-generic-hero-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -3574,7 +3538,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Generic Hero Abilities {#list-generic-hero-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -3599,7 +3563,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Generic Hero Abilities {#list-generic-hero-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -3614,7 +3578,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Generic Hero Abilities {#list-generic-hero-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -3804,7 +3768,7 @@ Beyond the Grave
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Abilities {#list-class-haunt-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -3827,7 +3791,7 @@ Unfinished Business
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Haunt Class Abilities {#list-class-haunt-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -3844,7 +3808,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Haunt Class Abilities {#list-class-haunt-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -3860,7 +3824,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Haunt Class Abilities {#list-class-haunt-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -3876,7 +3840,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Haunt Class Abilities {#list-class-haunt-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -4032,7 +3996,7 @@ you can use additional Nova Power Words by paying 1 Might for each beyond the fi
 ![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-#### Hellspawn Abilities { .class}
+#### Hellspawn Class Abilities { .class}
 
 Each Volume, you gain a new ability from your class. Your Hellspawn
 Abilities are gifts from the Lower Powers, whether by birth or by boon.
@@ -4053,7 +4017,7 @@ Infernal Wrath
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Hellspawn Class Abilities {#list-class-hellspawn-v1} 
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -4103,7 +4067,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Hellspawn Class Abilities {#list-class-hellspawn-v2} 
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -4168,7 +4132,7 @@ Fiendish Destroyer
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Hellspawn Class Abilities {#list-class-hellspawn-v3} 
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -4184,7 +4148,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Hellspawn Class Abilities {#list-class-hellspawn-v4} 
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -4220,7 +4184,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Hellspawn Class Abilities {#list-class-hellspawn-v5} 
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -4376,7 +4340,7 @@ No Wasted Effort
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Inventor Class Abilities {#list-class-inventor-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -4411,6 +4375,8 @@ Stately Skyscraper
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
+
+    # Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
     - Downtown
     - High-Tech
     - Invisible
@@ -4425,7 +4391,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Inventor Class Abilities {#list-class-inventor-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -4453,7 +4419,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Inventor Class Abilities {#list-class-inventor-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -4475,7 +4441,7 @@ Overclocked Systems
 :::::::::::::::::::::::::::::::::::::
 
 
-##### Volume 4 Abilities
+##### Volume 4 Inventor Class Abilities {#list-class-inventor-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -4490,7 +4456,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Inventor Class Abilities {#list-class-inventor-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -4900,7 +4866,7 @@ Why, It's Just a Child
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Kid Class Abilities {#list-class-kid-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -4969,7 +4935,7 @@ You can spend 1 Might point to add one of those to a Power Stunt or
 Combo, or 2 Might to add both.
 :::::::::::::::::::::::::
 
-##### Kid Personal Power Words List
+##### Kid Class Personal Power Words List {#list-class-kid-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
@@ -4989,6 +4955,31 @@ Choose six Personal Power Words from the following list:
 - Young
 :::::::::::::::::::::::::
 
+##### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
+
+Alien Pet
+
+:   *Prerequisite: You must have the __Pet__ class ability.*
+    Your pet isn't from Earth -- or might not even be from this universe,
+    in the case of a magical pet.
+
+    [Monstrosity, Totem]{.crossover .es}
+    Whenever you choose a Core Power Word for your Pet, you can choose 
+    from the Monstrosity Class's Personal Power Words List or the
+    Paragon Class's Personal Power Words List. These become Core Power
+    Words that you can use for free, once per Hero Phase, as described 
+    in the *Pet* class ability.
+    
+    This is __not__ a *Pet* Ability.
+
+Holy Catchphrase!
+
+:   Once per Hero Phase, you can make a pun related to one of the
+    Scene Power Words or an Ideal that you or another hero Marked
+    since the start of the last Hero Phase. If you do, add 3 to the
+    next roll you or any other hero makes before the end of the current
+    Hero Phase.
+    
 Knowing is Half the Battle
 
 :   At the end of an issue, you can do a solo Vignette wherein you 
@@ -5058,29 +5049,6 @@ Magical Familiar
 
     This is __not__ a *Pet* Ability.
 
-Alien Pet
-
-:   *Prerequisite: You must have the __Pet__ class ability.*
-    Your pet isn't from Earth -- or might not even be from this universe,
-    in the case of a magical pet.
-
-    [Monstrosity, Totem]{.crossover .es}
-    Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class's Personal Power Words List or the
-    Paragon Class's Personal Power Words List. These become Core Power
-    Words that you can use for free, once per Hero Phase, as described 
-    in the *Pet* class ability.
-    
-    This is __not__ a *Pet* Ability.
-
-Holy Catchphrase!
-
-:   Once per Hero Phase, you can make a pun related to one of the
-    Scene Power Words or an Ideal that you or another hero Marked
-    since the start of the last Hero Phase. If you do, add 3 to the
-    next roll you or any other hero makes before the end of the current
-    Hero Phase.
-    
 Intelligent Pet
 
 :   *Prerequisite: You must have the __Pet__ class ability.*
@@ -5108,7 +5076,7 @@ Youthful Relatability
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Kid Class Abilities {#list-class-kid-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -5116,7 +5084,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Abilities {#list-class-kid-abilities-v3}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -5131,7 +5099,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Abilities {#list-class-kid-abilities-v3}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -5174,7 +5142,7 @@ Knight has a *Weapon* Power Word for that reason. If you pick
 Rifle, Boomerang, Sword, Shield, and so on.
 
 If you're going to play a more realistic hero, consider the
-*Weapons Locker* ability for access to weapon Power Words, and
+*Weapons Locker* ability for access to more weapon Power Words, and
 devote your own Personal Power Words to expanding the variety
 of effects you can produce.
 
@@ -5230,7 +5198,7 @@ Your Core Power Words are **Prepared** and **Gambit**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-##### Personal Power Words
+##### Knight Class Personal Power Words {#list-class-knight-personal-power-words}
 
 Choose five Personal Power Words from the following list:
 
@@ -5306,7 +5274,7 @@ Peak Human Potential
     Choose one additional Fighting Style.
 ::::::::::::::::::::::::::::::::::::::::::
 
-##### Volume 1 Abilities
+##### Volume 1 Knight Class Abilities {#list-class-knight-abilities-v1}
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -5364,7 +5332,7 @@ Weapons Locker
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Abilities
+##### Volume 2 Knight Class Abilities {#list-class-knight-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -5407,7 +5375,7 @@ Patriot
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 3 Abilities
+##### Volume 3 Knight Class Abilities {#list-class-knight-abilities-v3}
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -5439,7 +5407,7 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities
+##### Volume 4 Knight Class Abilities {#list-class-knight-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -5522,7 +5490,7 @@ Vehicle Customization
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities
+##### Volume 5 Knight Class Abilities {#list-class-knight-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
@@ -5782,7 +5750,7 @@ Sanctuary of Sanctity
 Talismans of Power
 
 :   *Prerequisite: You can't have another __Arsenal__ Ability.*
-    You have a number of magical trinkets, each imbued with
+    You have a number of magical artifacts, each imbued with
     their own magical power.
 
     At the start of each Storyline, pick a number of Power
@@ -5792,7 +5760,7 @@ Talismans of Power
 
     :::::: cpw :::::::::
 
-    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms-list}
+    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
 
     - Amulet
     - Belt
@@ -5802,10 +5770,13 @@ Talismans of Power
     - Doll
     - Fetish
     - Gloves
-    - Hat
+    - Hat or Crown
+    - Mask
     - Mirror
     - Orb
     - Scroll
+    - Skull
+    - Tattoo
     - Wand
     ::::::::::::::::::::
 
@@ -13027,6 +12998,84 @@ Defeat
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+## Index: Power Word Lists
+
+This index links to various lists throughout the rules containing
+personal, scene, or other power words.
+
+- [](#list-astral-retreat-scene-power-words             ){.list-link}
+- [](#list-class-construct-abilities-v1                 ){.list-link}
+- [](#list-class-construct-abilities-v2                 ){.list-link}
+- [](#list-class-construct-abilities-v3                 ){.list-link}
+- [](#list-class-construct-abilities-v4                 ){.list-link}
+- [](#list-class-construct-abilities-v5                 ){.list-link}
+- [](#list-class-construct-personal-power-words         ){.list-link}
+- [](#list-class-divine-abilities-v1                    ){.list-link}
+- [](#list-class-divine-abilities-v2                    ){.list-link}
+- [](#list-class-divine-abilities-v3                    ){.list-link}
+- [](#list-class-divine-abilities-v4                    ){.list-link}
+- [](#list-class-divine-abilities-v5                    ){.list-link}
+- [](#list-class-dynamo-abilities-v1                    ){.list-link}
+- [](#list-class-dynamo-abilities-v2                    ){.list-link}
+- [](#list-class-dynamo-abilities-v3                    ){.list-link}
+- [](#list-class-dynamo-abilities-v4                    ){.list-link}
+- [](#list-class-dynamo-abilities-v5                    ){.list-link}
+- [](#list-class-dynamo-energy-core-power-words         ){.list-link}
+- [](#list-class-dynamo-personal-power-words            ){.list-link}
+- [](#list-class-expatriate-abilities-v1                ){.list-link}
+- [](#list-class-expatriate-abilities-v2                ){.list-link}
+- [](#list-class-expatriate-abilities-v3                ){.list-link}
+- [](#list-class-expatriate-abilities-v4                ){.list-link}
+- [](#list-class-expatriate-abilities-v5                ){.list-link}
+- [](#list-class-expatriate-personal-power-words        ){.list-link}
+- [](#list-class-expert-abilities-v1                    ){.list-link}
+- [](#list-class-expert-abilities-v2                    ){.list-link}
+- [](#list-class-expert-abilities-v3                    ){.list-link}
+- [](#list-class-expert-abilities-v4                    ){.list-link}
+- [](#list-class-expert-abilities-v5                    ){.list-link}
+- [](#list-class-haunt-abilities-v1                     ){.list-link}
+- [](#list-class-haunt-abilities-v2                     ){.list-link}
+- [](#list-class-haunt-abilities-v3                     ){.list-link}
+- [](#list-class-haunt-abilities-v4                     ){.list-link}
+- [](#list-class-haunt-abilities-v5                     ){.list-link}
+- [](#list-class-hellspawn-abilities-v1                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v2                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v3                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v4                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v5                 ){.list-link}
+- [](#list-class-inventor-abilities-v1                  ){.list-link}
+- [](#list-class-inventor-abilities-v2                  ){.list-link}
+- [](#list-class-inventor-abilities-v3                  ){.list-link}
+- [](#list-class-inventor-abilities-v4                  ){.list-link}
+- [](#list-class-inventor-abilities-v5                  ){.list-link}
+- [](#list-class-kid-abilities-v1                       ){.list-link}
+- [](#list-class-kid-abilities-v2                       ){.list-link}
+- [](#list-class-kid-abilities-v3                       ){.list-link}
+- [](#list-class-kid-abilities-v4                       ){.list-link}
+- [](#list-class-kid-abilities-v5                       ){.list-link}
+- [](#list-class-kid-personal-power-words               ){.list-link}
+- [](#list-class-knight-abilities-v1                    ){.list-link}
+- [](#list-class-knight-abilities-v2                    ){.list-link}
+- [](#list-class-knight-abilities-v3                    ){.list-link}
+- [](#list-class-knight-abilities-v4                    ){.list-link}
+- [](#list-class-knight-abilities-v5                    ){.list-link}
+- [](#list-class-knight-personal-power-words            ){.list-link}
+- [](#list-generic-hero-abilities-v1                    ){.list-link}
+- [](#list-generic-hero-abilities-v2                    ){.list-link}
+- [](#list-generic-hero-abilities-v3                    ){.list-link}
+- [](#list-generic-hero-abilities-v4                    ){.list-link}
+- [](#list-generic-hero-abilities-v5                    ){.list-link}
+- [](#list-glorious-garage-scene-power-words            ){.list-link}
+- [](#list-hero-cave-power-words                        ){.list-link}
+- [](#list-hero-cave-power-words                        ){.list-link}
+- [](#list-inventor-stately-skyscraper-scene-power-words){.list-link}
+- [](#list-leave-me-alone-safe-place-scene-power-words  ){.list-link}
+- [](#list-my-own-personal-hell-scene-power-words       ){.list-link}
+- [](#list-sanctuary-of-sanctity-scene-power-words      ){.list-link}
+- [](#list-shapers-refuge-scene-power-words             ){.list-link}
+- [](#list-shapers-refuge-scene-power-words             ){.list-link}
+- [](#list-talismans-of-power-trinket-forms             ){.list-link}
 
 ## Glossary of Game Terms {#toc-glossary .breakbefore}
 
