@@ -1083,12 +1083,11 @@ with their fists or their powers. Those styles are:
 ::::::::: { .chargen-list .breakable } ::::::::::::::::::::::::::::
 - **Acrobat**        Reduce by 1 the cost to counter a Crisis move targeting only you.
 - **Ace**            Add 2 dice when you use a Vehicle power word to roll to advance any goal.
-- **Ambuscade**      Add 2 dice when you roll to advance any goal during the first Hero Turn of a Crisis.
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
-- **Demolisher**     Add 2 dice when you roll to advance the Smash goal.
-- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash goal.
-- **Find Weakness**  Add 2 dice when you roll with Suspense to advance the Smash goal.
+- **Demolisher**     Add 2 dice when you roll to advance the Smash Goal.
+- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash Goal.
+- **Find Weakness**  Add 2 dice when you roll with Suspense to advance the Smash Goal.
 - **Guerilla**       Add 2 dice when you use a Scene power word to roll to advance any goal or add to the Teamwork Pool.
 - **Interceptor**    Reduce by 1 the cost to Take the Hit for someone else.
 - **Inspiration**    Add 2 dice when you roll to add to the Teamwork Pool or advance the Allay goal.
@@ -1097,12 +1096,11 @@ with their fists or their powers. Those styles are:
 - **Martial Artist** Add 2 dice when you use an unarmed attack to advance the Outwit goal.
 - **Makeshift Weapons** Add 2 dice when you use a scene power word to advance the Smash goal.
 - **Meteor**         Add 2 dice when you use an unarmed attack to advance the Smash goal against someone who is slower than you.
-- **Mediator**       Add 2 dice when you roll to advance the Allay goal.
+- **Mediator**       Add 2 dice when you roll to advance the Allay Goal.
 - **Medic**          Add 2 dice when you roll to advance the Rescue or Allay goals.
-- **Rescuer**        Add 2 dice when you roll to advance the Rescue goal.
+- **Rescuer**        Add 2 dice when you roll to advance the Rescue Goal.
 - **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you roll to add to the Teamwork Pool.
-- **Trickster**      Add 2 dice when you use any Power Word to advance the Outwit goal.
 - **Warlord**        Whenever any hero rolls to add to the Teamwork Pool, they increase the effectiveness of their roll by the Volume as long as they can see or hear you.
 - **Weapon Master**  Add 2 dice when you use a melee Weapon power word to advance the Outwit goal.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1815,6 +1813,41 @@ The Wheelman    Engineer, Pilot, plus       Stunt, Driving,   [6]      Unique Ve
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+### Ability Categories
+
+There are four categories of abilities that all use similar mechanics:
+
+- **Arsenal Abilities** let you pick a number of single-use Core
+  Power Words at the start of a Storyline;
+- **Crossover Abilities** give you access to Power Words (and, usually,
+  abilities) from another class;
+- **Hero Cave Abilities** give you a personal headquarters where
+  you can store your trophies or use your skills;
+- **Pet Abilities** let you have an animal companion, familiar,
+  or special pet that accompanies you.
+
+For **Arsenal**, **Hero Cave**, and **Pet** Abilities, the following
+rules apply:
+
+- You can have only one ability of each type. 
+- Thus you can have only one Arsenal ability, one Hero Cave ability, 
+  and one Pet ability.
+
+For **Crossover** Abilities, the following rules apply:
+
+- Each Crossover Ability is tied to a specific class;
+- You can't already be a member of that class (including via 
+  Multi-Class or Dual-Class options);
+- You can't take a second Crossover Ability tied to that class.
+- Some Crossover Abilities let you take abilities from that
+  class instead of your own class; however, ...
+- You can't take a Crossover Ability as a result of another
+  Crossover Ability. For example, if you take a Crossover (Mage)
+  Ability that lets you take a Mage class ability instead of one
+  of your class abilities, you can't take a Mage class ability
+  that's a Crossover ability.
+
+
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
 ### The Construct {#toc-construct .breakbefore .class}
 
@@ -2429,7 +2462,20 @@ Speed of Hermes
 Temple of the Gods
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
+    You have a hidden location that is your personal base of 
+    operations. Outside of a Crisis, you can spend 1 Might to 
+    teleport yourself to your Temple. Add 2 dice whenever you
+    skill roll while in your Temple of the Gods.
+    Choose two Scene Power Words for your Temple from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Divine
+    - Hallowed
+    - Holy
+    - Quiet
+    - Shrine
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD
@@ -3037,6 +3083,19 @@ Earth, Or A Reasonable Facsimile Thereof
 
 :   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
     []{.lorem}
+    You have a holosuite or room made to replicate the environment(s)
+    of your home planet.
+    Add 2 dice whenever you make a 
+    skill roll while in your Facsimile.
+    Choose two Scene Power Words for your Facsimile from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Earth
+    - Familiar
+    - Home
+    - Terran
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 Regeneration
@@ -3234,6 +3293,16 @@ Stately Skyscraper
 :   *Prerequisite: You can't have another __Hero Cave__Ability.*
     You have a base of operations at the top of a tall building.
     When you make a skill roll in that building, add 2 to the dice pool.
+    Choose two Scene Power Words for your Skyscraper from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Downtown
+    - High-Tech
+    - Invisible
+    - Penthouse
+    - Phased
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD
@@ -3385,24 +3454,45 @@ Hero Cave
     - Computer
     - Costume
     - Crime
+    - Database
     - Dark
+    - Defenses
+    - Dinosaur
+    - Dock
+    - Entertainment
     - Exit
     - Extra
+    - Fountain
     - Garage
+    - Globe
     - Hangar
     - Hidden
+    - Kitchen
     - Laboratory
+    - Library
+    - Map
     - Medical
     - Memorial
     - Passage
+    - Penny
+    - Repairs
+    - Reinforced
+    - Robot
     - Secure
     - Secret
     - Sensors
+    - Shelter
     - Shielded
+    - Statue
+    - Storage
+    - Studio
     - Toys
     - Trophy
+    - Tunnel
     - Underground
+    - Wealth
     - Weapon
+    - Zoo
     :::::::::::::::::::::::::
 
     This is a *Hero Cave* Ability.
@@ -3449,7 +3539,7 @@ Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
 The Nova Power Word remains *Locked*.
 
 Local Hero
-:   You and your home town are near synonymous. 
+:   You and your home town are nearly synonymous. 
     You know the geography of the city like the back of your hand. 
     Add the name of your city as a Core Power Word.
     Add 2 dice whenever you make a skill roll related to the city. 
@@ -3566,27 +3656,17 @@ As you create your Haunt hero, answer any or all of these questions.
 - How do you look different from normal humans? 
   - How much larger (or smaller) are you than other people? 
   - What color is your skin, and what does it feel and look like? 
-  - What kind of strange appearance do you have that makes the ignorant 
-    assume you're just an animalistic brute?
   - What does your voice sound like, and what kind of vocabulary do 
     you employ?
-- Are you *always* a Haunt?  
+- Are you *always* a Ghost?  
   (If not, then you may want to consider playing your hero as 
    <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
    for heroes who magically transform from child form to an adult shape!)
   - If not, what triggers that change? 
     Is it an emotional state, a substance, a situation, a magic word,
     or your own free will? 
-  - How do you get along with adult heroes? Do you look up to them as
-    role models? Do they usually talk down to you?
-  - In what ways are you less mature than the average hero?
-  - In what ways are you more mature than the average hero?
-  - Were you *always* a hero? How did you become one? Why did you
-    become one?
   - Do you have any other friends your age, or do you just associate with
     adult heroes?
-- What kind of interests do you have that surprise other people? 
-  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
 - Why do you still walk the Earth?
   - What (or who) prevents you from moving on to an afterlife?
   - How can your spirit finally be laid to rest?
@@ -3616,252 +3696,72 @@ the next Hero Phase, and you can't use it until it is off cooldown.
 
 ##### Core Power Words
 
-Your Core Power Words are **Does** **Whatever** and **Can**.
+Your Core Power Words are **To** **Be** and **Determined**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
 ::::::::::::: cpw :::::::
-##### Totem Nature Core Power Words
-
-- Bugs
-  - Spider (Black Widow)
-  - Spider (Recluse)
-  - Spider (Tarantula)
-  - Insect (Ant)
-  - Insect (Scorpion)
-  - Insect (Fly)
-  - Insect (Bee)
-  - Insect (Butterfly)
-  - Insect (Moth)
-  - Insect (Roach)
-  - Insect (Wasp)
-  - Insect (Hornet)
-  - Insect (Yellowjacket)
-- Reptiles
-  - Reptile (Alligator)
-  - Reptile (Crocodile)
-  - Dinosaur (Pterodon)
-  - Dinosaur (T-Rex)
-  - Dinosaur (Stegosaur)
-  - Lizard (Chameleon)
-  - Lizard (Iguana)
-  - Snake (Asp)
-  - Snake (Cobra)
-  - Snake (Python)
-  - Snake (Rattlesnake)
-  - Snake (Viper)
-  - Reptile (Tortoise)
-  - Reptile (Turtle)
-- Dragon
-  - Hydra
-  - Wyvern
-  - Wyrm
-- Felines
-  - Feline (Housecat)
-  - Feline (Cheetah)
-  - Feline (Cougar)
-  - Feline (Lion)
-  - Feline (Panther)
-  - Feline (Puma)
-  - Feline (Sabretooth)
-  - Feline (Tiger)
-- Birb
-  - Owl
-  - Vulture
-  - Falcon
-  - Hawk
-  - Dove
-  - Rooster
-  - Turkey
-  - Chicken / Hen
-  - Ostrich
-  - Eagle
-- Amphibians
-  - Frog
-  - Newt
-  - Toad
-  - Salamander
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-  - Otter
-- Fish
-  - Barracuda
-  - Eel
-  - Clam
-  - Crab
-  - Fish
-  - Lobster
-  - Moray
-  - Pirhanna
-  - Merfolk
-  - Octopus
-  - Shark
-  - Squid (Craken)
-  - Starfish
-  - Sea Horse
-- Mammals
-  - Elephant
-    - Mammoth
-    - Mastodon
-    - Pachyderm
-  - Minotaur
-    - Goat (Satyr)
-    - Bull (Minotaur)
-    - Cow (Minotaur)
-  - Monkey
-    - Ape
-    - Gorilla
-    - Gibbon
-    - Ma
-  - Pig
-    - Hog
-    - Boar
-  - Stag
-  - Deer
-  - Moose
-  - Kangaroo
-  - Elk
-  - Horse
-    - Alicorn
-    - Centaur
-    - Hippopotamus
-    - Pegasus
-    - Unicorn
-  - Rhino
-  - Wolverine
-  - Canines
-    - Dog
-      - Mastiff
-      - Hound
-      - Wolf
-      - Dingo
-    - Coyote
-    - Jackal
-    - Fox
-  - Bear
-    - Koala
-    - Grizzly
-    - Panda
-    - Polar
-  - Rodent
-    - Badger
-    - Bat
-    - Mongoose
-    - Mouse
-    - Otter
-    - Porcupine
-    - Rabbit
-      - Bunny
-      - Jackrabbit
-      - Hare
-    - Raccoon
-    - Rat
-    - Skunk
-    - Squirrel
-    - Weasel
-      - Ermine
-      - Mink
-      - Stoat
-- Environment
-  - Coral
-  - Desert
-  - Jungle
-  - Mire
-  - Peaks
-  - Tundra
-- Plant (Flower, specific)
-- Plant (Tree, specific)
-- Plant (Vine, specific)
-
-##### Personal Power Words
-
-Choose six Personal Power Words from the following list:
-
-::::::::::::: cpw :::::::
-- Alert
-- Ambush
-- Animalistic
-- Armored
-- Beast
-- Bloody
-- Body
-- Brutal
-- Burrow
-- Camouflage
-- Charge
-- Claws
-- Clever
-- Constrict
-- Curiosity
-- Dangerous
-- Dash
-- Dig
-- Direction
-- Distance
-- Echolocation
-- Elusive
-- Enduring
-- Environment
-- Giant
-- Growl
-- Horrifying
-- Howl
-- Hunger
-- Hunter
-- Immovable
-- Inhuman
-- Instinctive
-- Instincts
-- Leap
-- Lift
-- Massive
-- Maw
-- Musk
-- Mutant
-- Natural
-- Nest
-- Networked
-- Override
-- Pack
-- Poison
-- Positronic
-- Pounce
-- Predator
-- Prey
-- Prowl
-- Purr
-- Quick
-- Rage
-- Reflexes
-- Regenerate
-- Roar
-- Savage
-- Screech
-- Shell
-- Shifting
-- Silent
-- Sly
-- Spiked
-- Stamina
-- Stampede
-- Stocky
-- Stomp
-- Strength
-- Stubborn
-- Survival
-- Tall
-- Technical
-- Throw
-- Track
-- Trample
-- Tunnel
-- Understanding
-- Venomous
-- Warning
-- Weather
-- Wild
+Afterlife
+Aura
+Banish
+Banshee
+Beyond
+Bones
+Cavaderous
+Chains
+Chill
+Cloak
+Coffin
+Cross
+Crypt
+Darkness
+Dead
+Death
+Disguise
+Eyes
+Fear
+Fog
+Forboding
+Ghost
+Ghoul
+Grave
+Grim
+Grinning
+Haunting
+Immaterial
+Immortal
+Invisible
+Legend
+Living
+Materialize
+Message
+Midnight
+Mist
+Moon
+Music
+Mystic
+Omen
+Pallor
+Peace
+Punish
+Rattle
+Rest
+Seance
+Sensitive
+Shadows
+Sheet
+Shriek
+Slime
+Soul
+Sounds
+Spectre
+Spirit
+Spooky
+Supernatural
+Terrorize
+Vision
+Wrath
+Wraith
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -3883,26 +3783,24 @@ free; if you spend 1 Might, you can include the second Nova Power Word
 as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
+[No class picture]
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-#### Totem Abilities {.class}
+#### Haunt Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
-Your Totem Abilities show your increasing distance from humanity.
+Your Haunt Abilities show your increasing distance from the living.
 Each ability can be chosen only once.
 
 ##### Prime Ability
 
-Your hero has the **Force of Nature** Prime ability common 
-to all Totems.
+Your hero has the **Beyond the Grave** Prime ability common 
+to all Haunts.
 
 :::::: {.ability-list .prime }::::::::::
-Does Whatever a Totem Can
+Beyond the Grave
 
-:   When you use your Core or Nova Power Words in a Power Stunt
-    or Combo roll, add 2 dice to as if you had a skill or fighting
-    style that applied to such a use.
+:   To be determined
 
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -3912,85 +3810,20 @@ At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
 
-Animal Partner
+Ironic Justice
+:   To Be Determined
 
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
-    one matching your Totem Nature Power Word, and two others from the
-    Totem Personal Power Words List -- that you can use for free without
-    spending Might, each once per Hero Phase. Your animal partner's 
-    Health and Might equal the Volume.
+Poltergeist
+:   To Be Determined
 
-    [Totem]{.crossover}
-    Choose one Skill possessed by your Animal Partner, and a Fighting
-    Style. You can use that skill or Fighting Style whenever your 
-    Animal Partner is present during a Crisis.
+Possession
+:   To Be Determined
 
-    During any Hero Phase, either your hero can make a move or your
-    animal partner can make a move -- not both.
+This chamber has no windows and no doors...
+:   To Be Determined
 
-    *Prerequisite: The __Mystic Totem__ class ability.* 
-    If your animal partner is ever killed, they return to life at the 
-    end of the next Crisis Countdown, and join you as soon as they
-    can.
-
-Alien Totem
-
-:   You are not connected to normal earth creatures, but alien versions of them. 
-
-    All of your abilities and power words work with similar creatures,
-    no matter what worlds they originate from.
-
-    In addition, add **Alien** as a Core Power Word.
-    
-How Do You Do Fellow Animals?
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    You can automatically communicate with any creatures matching your
-    Totem Nature Power Word. They might not fully understand who you are and
-    what you want from them, but you can audibly speak back and forth, and get
-    information or possibly assistance from them, as if you were all sharing a
-    common language.
-
-Mystic Totem
-
-:   Your link to your nature totem is a result of mystical means, not 
-    technological a strictly scientific process. You gain the Mystic skill.
-
-    [Mage]{.crossover}
-    Whenever you choose a Personal Power Word, you can choose from the 
-    Mage Class Personal Power Words List or the Divine Class Personal 
-    Power Words List.
-
-Summon Swarm 
-
-:   *Prequisite: You can't have the __Alien Totem__ class ability.*
-    As a move during the Hero Phase, you can spend 1 Might to call up a 
-    swarm of normal creatures of the same type as your Totem Nature Power Word. 
-    These arrive at the start of the next Crisis Phase, and the scene gains your Totem 
-    Nature Power Word as a scene power word until the end of the crisis.
-
-Unbeatable
-
-:   Your powers cause people to under-estimate you and you actually punch can
-    punch far above your normal weight class.
-    Whenever you have one or more companions of the same type as your
-    Totem Nature Power Word present -- including from the *Animal Companion* or
-    *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
-    you make to advance any goal.
-
-Unkillable
-
-:   You get knocked down but you get up again. They're never gonna keep you 
-    down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
-
-Variable Totem
-
-:   At the start of the Hero Phase, you can change your Totem Nature Core 
-    Power Word to any other power word on the Totem Nature Core Power
-    Words List. All of your abilities use the new Totem Nature until the
-    start of the next Crisis Phase.
+Unfinished Business
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -4000,49 +3833,14 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Animal Instincts
+TBD
+:   To Be Determined
 
-:   Whenever you roll Suspense or Mystery to advance the Allay or
-    Outwit goals, add 2 dice.
+TBD
+:   To Be Determined
 
-Humanity's Best Friend
-
-:   Whenever you roll to add to the Teamwork pool or advance the Rescue
-    or Allay goals, add 1 die for every human hero present, to a maximum 
-    number of extra dice equal to the Volume.
-
-Savage Instincts
-
-:   Gain a number of Fighting Styles equal to the Volume, chosen from the
-    following list. At the start of each subsequent Volume, gain 1 more 
-    Fighting Style from this list.
-
-    - Acrobat
-    - Brawler
-    - Controller
-    - Demolisher
-    - Frenzy
-    - Find Weakness
-    - Guerilla
-    - Interceptor
-    - Harrier
-    - Martial Artist
-    - Meteor
-    - Rescuer
-    - Tactician
-    - Warlord
-
-    You can't ever gain the following Fighting Styles, from any source:
-    - Ace
-    - Makeshift Weapons
-    - Medic
-    - Sharpshooter
-    - Weapon Master
-
-:::::::::::::::::::::::::::::::::::::
-
-::::::::::::: cpw :::::::
-:::::::::::::::::::::::::
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -4051,6 +3849,15 @@ Savage Instincts
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
+TBD
+:   To Be Determined
+
+TBD
+:   To Be Determined
+
+TBD
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 4 Abilities
@@ -4058,6 +3865,15 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
+TBD
+:   To Be Determined
+
+TBD
+:   To Be Determined
+
+TBD
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 5 Abilities
@@ -4065,6 +3881,12 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
+TBD
+:   To Be Determined
+
+TBD
+:   To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -4139,7 +3961,7 @@ more of the Norse gods of myth.
 
 You should be careful when you use mythological deities,
 *especially* those from a culture that's foreign to you.
-Check with the other players and the Editor, and be prepared
+Check in with the other players and the Editor, and be prepared
 to change either your Hellspawn hero or the concept behind
 them.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -4148,9 +3970,9 @@ them.
 
 You can use your Power Words in the following ways:
 
-- As a **Power Display**, costing no Might
-- As a **Power Stunt**, costing 1 Might for each Word beyond the first
-- As a **Power Combo**, costing 1 Might and letting others join in
+- As a **Power Display**,    costing no Might
+- As a **Power Stunt**,      costing 1 Might for each Word beyond the first
+- As a **Power Combo**,      costing 1 Might and letting others join in
 - Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
@@ -4158,7 +3980,7 @@ the next Hero Phase.
 
 ##### Core Power Words
 
-Your Core Power Words are **Blessed** and **Champion**.
+Your Core Power Words are **Damned** and **Soul**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
@@ -4167,27 +3989,35 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+- Afterlife
 - Anger
-- Armor
-- Command
-- Extraplanar
-- Faith
-- Flight
-- Peace
-- Radiant
-- Resist
-- Senses
-- Speed
-- Strength
-- Thunder
-- Unbreakable
-- Wisdom
+- Blood
+- Contract
+- Darkness
+- Death
+- Demon
+- Devil
+- Evil
+- Fire
+- Flame
+- Hell
+- Horns
+- Infernal
+- Mark
+- Pentagram
+- Penance
+- Pyre
+- Rage
+- Ritual
+- Stare
+- Tattoo
+- Wrath
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+You can use two Power Personal Words together to form a **Power Stunt** or 
+**Power Combo** by paying 1 Might for each beyond the first.
 
 ##### Nova Power
 
@@ -4195,8 +4025,8 @@ Choose any two single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+you can use additional Nova Power Words by paying 1 Might for each beyond the first.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
@@ -4204,7 +4034,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 #### Hellspawn Abilities { .class}
 
-Each Volume, you gain a new ability from your class. Your Divine
+Each Volume, you gain a new ability from your class. Your Hellspawn
 Abilities are gifts from the Lower Powers, whether by birth or by boon.
 Each ability can be chosen only once.
 
@@ -4216,7 +4046,10 @@ to all Hellspawn.
 :::::: {.ability-list .prime }::::::::::
 Infernal Wrath
 
-:   To Be Determined
+:   Whenever you lose Health, you gain a bonus in the next Hero Phase on rolls
+    made to advance the Smash goal.
+    This bonus equals one die per point of Health lost, to a maximum number
+    of bonus dice equal to the Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -4226,30 +4059,43 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::::: {.ability-list .v1 }::::::::
 
-Stamina of Atlas
+Magicks of Hell
 
-:   You are tougher than a mere mortal. 
-    Increase your maximum Health by 5.
+:   You have a variant of the Monstrosity Class's Prime Ability
+    __Price of Magic__: *Hellish Bargain.*
 
-Strength of Kratos
+    [Mage]{.crossover}
+    When you use one of your Core or Nova Power Words in a Power Stunt
+    or Combo, count 3s as Edge Successes in addition 1s.
 
-:   Imbued with power comparable to the titan personification of
-    strength, you can break down most barriers with ease.
-    Add 2 to the dice pool to advance the Smash or Rescue goals.
+    In addition, choose one Power Word from the Mage Class's
+    Personal Power Words List and add it as a Core Power Word. Whenever
+    you pick a Personal Power Word, you can choose from the Hellspawn
+    Class's Personal Power Words list or the Mage Class's
+    Personal Power Words list. If you choose the latter, add those
+    words as Core Power Words.
 
-Weapon of the Gods
+    Instead of choosing a Hellspawn Class Ability of Volume 3 or
+    higher, you can choose a Mage Class Ability of
+    the same or lower Volume.
+    Auspicious Alliteration (1st), Mists of Misdirection (1st),
+    Talismans of Power (1st), Thinking with Portals (1st), and
+    Arcane Infusion (3rd)
+    are among the most applicable Mage Class Abilities to
+    consider.
 
-:   You have a weapon that is unique in the universe, possibly 
-    crafted by a deity of the forge. Decide on the specific
-    weapon, and add that weapon's proper name as a Core Power Word. 
-    In addition, choose either one Energy Power Word from the Dynamo 
-    class or one Element Power Word from the Shaper list, and use that 
-    as Personal Power Word whenever you have your weapon.
+:::::::::::::::::::::::::::::::::::::
 
-Wisdom of Athena
+Rhymer
 
-:   Your insight is unmatched by anyone save the gods themselves.
-    Add 2 to the dice pool to advance the Outwit or Allay goals.
+:   Whenever you use one of your Core or Nova Power Words in a Power
+    Display, Stunt, or Combo, you can add any one word that rhymes with
+    one of those Power Words -- without paying any additional Might. The
+    rhyming word need not be one of your usual Power Words.
+
+TBD
+
+:   To be determined.
 
 TBD
 
@@ -4262,24 +4108,63 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 ::::::: {.ability-list .v2 }:::::::::
+Devil's Advocate
 
-Courage of Ares
+:   You have the Lawyer skill in addition to your other skills.
 
-:   Your divine spirit won't give up, even when the odds are
-    against you.
-    When you are below half your Health, add 1 to the dice pool
-    to advance any Goal.
+    When you use your Core or Nova Power Words in a Power Stunt or Combo to
+    advance the Outwit goal, or make a skill roll using your Lawyer skill,
+    add 1 to the Effectiveness.
 
-Speed of Hermes
+God of Evil
 
-:   You can run -- or fly, if you have Flight as a Power Word --
-    at speeds approaching Mach 1.
-    The Timely Arrival move costs you 0 points from the 
-    Teamwork Pool.
+:   Your infernal powers come from your connection to an
+    deity, such as Loki, Moros, or Bres.
 
-TBD
+    You have a variant of the Divine Class's Prime Ability __Give
+    Me Strength!__: *Unholy Empowerment*.
+    When you use your Core or Nova Power Words in a Power Stunt or
+    Combo, you can count 6s as two successes instead of 1.
+    If you do, lose either 1 Health and 1 Might after your roll,
+    regardless of how many extra successes you gained.
 
-:   To be determined.
+    [Divine, Paragon]{.crossover}
+    In addition, choose one Power Word from the Divine Class
+    or Paragon Class Personal Power Word Lists, and add it as
+    a Core Power Word. Whenever you add a Personal Power Word,
+    you can choose from the Hellspawn Class's Personal Power
+    Words list or the Divine Class's Personal Power Words list.
+    If you choose from the latter, add those words as Core Power 
+    Words.
+
+    Instead of choosing a Hellspawn Class Ability of Volume 3 or
+    higher, you can choose a Divine or Paragon Class Ability of
+    the same or lower Volume.
+
+Fiendish Destroyer
+
+:   You have a variant of the Monstrosity Class's Prime Ability
+    __Engine of Destruction__: *Fiendish Destruction.*
+
+    [Monstrosity]{.crossover}
+    When you use your Core or Nova Power Words in a Power Stunt or Combo to
+    advance the Smash goal, add 1 to the Effectiveness.
+
+    In addition, choose one Power Word from the Monstrosity Class's
+    Personal Power Words List and add it as a Core Power Word. Whenever
+    you pick a Personal Power Word, you can choose from the Hellspawn
+    Class's Personal Power Words lit or the Monstrosity Class's
+    Personal Power Words List. If you choose the latter, add those
+    words as Core Power Words.
+
+    Instead of choosing a Hellspawn Class Ability of Volume 3 or
+    higher, you can choose a Monstrosity Class Ability of
+    the same or lower Volume.
+    All-Consuming Rage (1st), Misunderstood Monster (1st),
+    Immortal (1st), Regeneration (2nd), and 
+    Nigh-Invulnerable (3rd)
+    are among the most applicable Monstrosity Class Abilities to
+    consider.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -4291,9 +4176,8 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 
 Flames of Hell
 
-:   You're empowered with divine energy that crackles
-    like flames when you spend Might.  
-    Increase your maximum Might by 5.
+:   You're empowered with infernal energy that crackles like fire whenever 
+    you spend Might. Increase your maximum Might by 5.
 
 TBD
 :   To Be Determined
@@ -4308,7 +4192,26 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 My Own Personal Hell
 
 :   *Prerequisite: You can't have another __Hero Cave_ Ability.*
-    []{.lorem} []{.lorem}
+    You have a stronghold located in one of the lower dimensions.
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby, willing Heroes to your Personal Hell, or return
+    to Earth at the location you left from.
+    Add 2 dice whenever you make a skill roll while in your Personal Hell.
+    Choose two Scene Power Words for your Personal Hell from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # My Own Personal Hell Scene Power Words {#list-my-own-personal-hell-scene-power-words}
+
+    - Afterlife
+    - Flaming
+    - Hellish
+    - Infernal
+    - Secrets
+    - Torment
+    - Visions
+    - Warded
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD
@@ -4504,6 +4407,16 @@ Stately Skyscraper
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     You have a base of operations at the top of a tall building.
     When you make a skill roll in that building, add 2 to the dice pool.
+    Choose two Scene Power Words for your Skyscraper from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    - Downtown
+    - High-Tech
+    - Invisible
+    - Penthouse
+    - Phased
+    :::::::::::::::::::::::::`
     This is a *Hero Cave* Ability.
 
 TBD
@@ -4995,7 +4908,9 @@ At the start of Volume 1, choose two abilities from this list.
 
 Animal Partner
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+    
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. This partner has three Core Power Words --
     one matching your Totem Nature Power Word, and two others from the
     Totem Personal Power Words List -- that you can use for free without
@@ -5013,6 +4928,8 @@ Animal Partner
     If your animal partner is ever killed, they return to life at the 
     end of the next Crisis Countdown, and join you as soon as they
     can.
+
+    This is a *Pet* Ability.
 
 Comic Relief
 
@@ -5103,7 +5020,8 @@ Only a Child
 
 Pet
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
 
     [Totem]{.crossover}
@@ -5120,22 +5038,25 @@ Pet
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
+    This is a *Pet* Ability.
+
 Magical Familiar
 
 :   *Prerequisite: You must have the __Pet__ class ability.*
     Whenever you choose a Core Power Word for your Pet, you can
-    choose from the Divine Class Personal Power Words List or the
-    Mage Class Personal Power Words List. 
-
+    choose from the Divine Class's Personal Power Words List, the
+    Hellspawn Class's Personal Power Words List, or the
+    Mage Class's Personal Power Words List. 
 
     [Divine, Mage]{.crossover .es}
-    These become Core Power
-    Words that you can use for free, each once per Hero Phase, as
-    described in the *Pet* class ability.
+    These become Core Power Words that you can use for free, 
+    each once per Hero Phase, as described in the *Pet* class ability.
 
     If your Magical Familiar is ever killed, they return to life at 
     the end of the next Crisis Countdown, and join you as soon as they
     can.
+
+    This is __not__ a *Pet* Ability.
 
 Alien Pet
 
@@ -5145,11 +5066,13 @@ Alien Pet
 
     [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class Personal Power Words List or the
-    Paragon Class Personal Power Words List. These become Core Power
+    from the Monstrosity Class's Personal Power Words List or the
+    Paragon Class's Personal Power Words List. These become Core Power
     Words that you can use for free, once per Hero Phase, as described 
     in the *Pet* class ability.
     
+    This is __not__ a *Pet* Ability.
+
 Holy Catchphrase!
 
 :   Once per Hero Phase, you can make a pun related to one of the
@@ -5170,6 +5093,8 @@ Intelligent Pet
     the Pet, and one Approach. Whenever your Pet is present at a
     Crisis, add 3 dice whenever you make a roll using the chosen
     Approach.
+
+    This is __not__ a *Pet* Ability.
 
 Youthful Power
 
@@ -5738,8 +5663,11 @@ Choose six Personal Power Words from the following list:
 - Bands
 - Banish
 - Blast
+- Charm
+- Curse
 - Extradimensional
 - Flight
+- Hex
 - Magic
 - Sense
 - Shatter
@@ -5789,6 +5717,38 @@ Auspicious Alliteration
     for each Word whose first letter matches the first letter of 
     another Word in the Stunt or Combo.
 
+Familiar Familiaris
+
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+
+    You have an unusually intelligent pet or animal
+    companion that accompanies you on your magical adventures.
+
+    This animal partner has three Core Power Words -- one
+    chosen from the Totem Class's Totem Nature Power Words
+    List, representing the animal form of the Familiar --
+    and two others from the Totem Class's Personal Power Words
+    List, the Mage Class's Personal Power Words List, or
+    the Divine Class's Personal Power Words List. You can use each of these Core Power Words for free,
+    once per Hero Phase.
+
+    Whenever you can pick a new Personal Power Word, you can
+    instead choose a new Core Power Word for your familiar,
+    from the Totem Class's, Mage Class's, or 
+    Divine Class's Personal Power Words list.
+
+    Your familiar's Health and Might are equal to the Volume.
+    Choose one Skill possessed by your familiar and a Fighting
+    Style. You can use that skill or Fighting Style whenever
+    your Familiar is present.
+
+    During any Hero Phase, either your hero can make a move or your familar can make a move -- not both.
+
+    If your Familiar is ever killed, they return to life at the
+    end of the next Crisis Countdown, and join you as soon as they can.
+
+    This is a *Pet* Ability.
+
 Mists of Misdirection
 
 :   Your magicks can cloud the minds of mortals. Add 2 dice when you use
@@ -5797,10 +5757,65 @@ Mists of Misdirection
 Sanctuary of Sanctity
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    You have a base of operations hidden in a normal-looking building
-    or tower. When you make a skill roll in that building, add 2
-    to the dice pool.
+    You have a base of operations hidden in a normal-looking city building
+    or a medieval tower. When you make a skill roll in that building, 
+    add 2 to the dice pool.
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby willing Heroes to your Sanctuary, or return 
+    to the location you left from.
+    Choose two Scene Power Words for your Sanctuary from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
+
+    - Archaic
+    - Haunted
+    - Historic
+    - Illusory
+    - Ley-Lines
+    - Unassuming
+    - Warded
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
+
+Talismans of Power
+
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    You have a number of magical trinkets, each imbued with
+    their own magical power.
+
+    At the start of each Storyline, pick a number of Power
+    Words from the Divine, Mage, Psychic, or Shaper Personal
+    Power Words lists equal to the Volume. Choose the form of
+    each trinket from the following list:
+
+    :::::: cpw :::::::::
+
+    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms-list}
+
+    - Amulet
+    - Belt
+    - Book or Tome
+    - Broom
+    - Cloak
+    - Doll
+    - Fetish
+    - Gloves
+    - Hat
+    - Mirror
+    - Orb
+    - Scroll
+    - Wand
+    ::::::::::::::::::::
+
+    You can pick each Power Word only once, and each trinket
+    shape only once.
+
+    You can use each Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+
+    This is an *Arsenal* Ability.
 
 Theurgy
 
@@ -5808,6 +5823,7 @@ Theurgy
     Choose one Power Word from the Divine Class Personal Power 
     Word List as a Core Power Word.
 
+    [Divine]{.crossover}
     You have a variant of the Divine Class Prime Ability
     *_Give Me Strength!_*: *Invoke the Divine.*
 
@@ -5819,15 +5835,14 @@ Theurgy
 
     Instead of choosing a Volume 2 Mage Ability, you can
     choose a Volume 2 or lower Ability from the Divine
-    Class. *Weapon of the Gods (1st)*, 
-    *Speed of Hermes (2nd)* and
-    *Skill of Artemis (3rd)* are among the most applicable
+    Class. *Weapon of the Gods (1st)* and 
+    *Speed of Hermes (2nd)* are among the most applicable
     Divine Class Abilities to consider.
     
 Thinking with Portals
 
-:   Add Portal as a Personal Power Word. You can make the General
-    Alert move for free, without spending from the Teamwork Pool.
+:   Add Portal as a Core Power Word. You can make the General
+    Alert move for free, without spending any successes from the Teamwork Pool.
 
 
 :::::::::::::::::::::::::::::::::::::
@@ -5839,14 +5854,16 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
-:   *Prerequisite: You must have the _Sanctuary of Sanctity_ Ability.*
+:   *Prerequisites: You must have the _Sanctuary of Sanctity_ Ability.*
+    *You can't have another __Arsenal__ Ability.*
     At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
 
-    [Psychic, Shaper]{.crossover}
+    [Psychic, Shaper]{.arsenal .es}
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
 
 Diabolical Power
 
@@ -5858,6 +5875,9 @@ Diabolical Power
     [Hellspawn, Mage]{.crossover .es}
     You have a variant of the Hellspawn Class's Prime
     Ability *Infernal Wrath*: *Hellish Rebuke.*
+
+    Whenever you lose Health, add 2 dice in the next Hero
+    Phase on rolls to advance the Smash goal.
 
     Add *Flame*, *Darkness* and *Demon* as Core Power Words. 
     Whenever you add a Personal Power Word, you can pick 
@@ -5890,9 +5910,10 @@ Arcane Infusion
 Healing Mantra
 
 :   []{.move .hero} You can use your magic to heal your allies. 
-    As your move during the Hero Phase, roll a Power Display, Stunt, or 
+    As your move during a Hero Phase, roll a Power Display, Stunt, or 
     Combo. One or more heroes of your choice regain a total amount of 
-    Health equal to the Effectiveness of your roll plus the Volume.
+    Health or Might equal to the Effectiveness of your roll plus the 
+    Volume.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -6114,9 +6135,21 @@ Noblesse Oblige
 
 Remote Palace
 
-:   You have a hidden base of operations somewhere in your distant 
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a hidden base of operations somewhere in your distant 
     monarchy. 
-    When you make a skill roll in that base, add 2 to the dice pool.
+    Add 2 dice whenever you make a skill roll while in your Palace.
+    Choose two Scene Power Words for your Palace from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
+
+    - Expansive
+    - Fortress
+    - Opulent
+    :::::::::::::::::::::::::
+    This is a *Hero Cave* Ability.
 
 Righteous Rage
 
@@ -6438,7 +6471,23 @@ Relentless Power
 Leave Me Alone!
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem} []{.lorem}
+    You have a remote, safe place to which you can retreat and hide
+    from others.
+    Add 2 dice whenever you make a skill roll while in your Safe Place.
+    Choose two Scene Power Words for your Safe Place from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
+
+    - Comfortable
+    - Fortified
+    - Hidden
+    - Peaceful
+    - Refreshing
+    - Quiet
+    - Tranquil
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
@@ -6737,8 +6786,21 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 Castle of Quiettude
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    You have a base of operations in a remote location. When
-    you make a skill roll in that building, add 2 to the dice pool. 
+    You have a base of operations in a remote location. 
+    Add 2 dice whenever you make a skill roll while in your Castle of 
+    Quiettude.  Choose two Scene Power Words for your Castle from the
+    [](#list-hero-cave-power-words){.list-link}. In addition,
+    choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
+
+    - Alien
+    - Locked
+    - Memories
+    - Relaxing
+    - Solitude
+    - Uncharted
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 Nigh-Invulnerable
@@ -6753,6 +6815,29 @@ Nigh-Invulnerable
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
+Faster than a Speeding Bullet
+
+:   You can act and react at speeds that defy understanding.
+    
+    [Speedster]{.crossover}
+    You have a variant of the Speedster Class's __Ignore The Laws of
+    Physics__ Prime Ability: *Bend the Laws of Physics.*
+
+    Your speed lets you bend the standard laws of Newtonian physics --
+    you can ignore the effects of inertia and start, stop, or turn on
+    dime, instantly; you don't suffer any negative effects from moving
+    at excessive speed, such as wind burn, and you're able to breathe
+    normally -- as well as ignoring relativistic effects from moving
+    near the speed of light.
+
+    Instead of choosing a Paragon Class Ability of Volume 3 or higher,
+    you can choose a Speedster Class Ability of the same or lower
+    Volume. *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
+    *Vibrate Through Walls (1st)*, *Burst of Speed (2nd)*,
+    *Evacuate the Bystanders (3rd)*, *Human Whirlwind (3rd)*,
+    *Untouchable (4th)*, and *Instant Power Recovery (4th)* 
+    are among the most applicable Speedster Class Abilities to consider.
+
 Strange Visitor from Another Planet
 
 :   You aren't from Earth, but are instead from another planet
@@ -6774,13 +6859,8 @@ Strange Visitor from Another Planet
     Instead of choosing a Paragon Class Ability of Volume 3
     or higher, you can choose an Inventor Class Ability of
     the same or lower Volume. *Persipacacious Pettifoggery (1st)*,
-    *Stately Skyscraper (1st)*,  *Puissant Polymath (2nd)*, 
-    and *Overclocked Systems (3rd)* are among the most 
-    applicable Inventor Class Abilities to consdier.
-
-TBD
-
-:   To be determined.
+    *Puissant Polymath (2nd)*, and *Overclocked Systems (3rd)* are 
+    among the most applicable Inventor Class Abilities to consider.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -7005,7 +7085,7 @@ Astral Projection
     In astral form, you have "Flight" as a Core Power Word. You can
     choose whether your astral form is visible to those in the same
     location, or if it is invisible to all creatures lacking 
-    pan-dimensional vision.
+    pan-dimensional vision or similar extrasensory abilities.
 
 TBD
 
@@ -7063,6 +7143,25 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 Astral Retreat
 
 :   *Prequisite: You can't have another _Hero Cave_ Ability.*
+    You have a stronghold located on the astral plane.
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby, willing Heroes to your Retreat, or return
+    to Earth at the location you left from.
+    Add 2 dice whenever you make a skill roll while in your Astral Retreat.
+    Choose two Scene Power Words for your Astral Retreat from the
+    [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
+
+    - Astral
+    - Cloaked
+    - Immaterial
+    - Memory
+    - Mental
+    - Psionic
+    - Solidified
+    - Viewing
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD
@@ -7317,7 +7416,24 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 Shaper's Refuge
 
 :   *Prerequisite: You can't have another _Hero Cave_ Ability.*
-    []{.lorem} []{.lorem}
+    Outside of a Crisis, you can spend 1 Might per person to transport
+    yourself and any nearby, willing Heroes to your Refuge, or return
+    to Earth at the location you left from.
+    Add 2 dice whenever you make a skill roll while in your Shaper's Refuge.
+    Choose two Scene Power Words for your Refuge from the
+    [](#list-hero-cave-power-words){.list-link}. 
+    Your Refuge also has your Element Core Power Word as a third
+    Scene Power Word.
+    In addition, choose one of the following as a fourth Scene Power Word:
+    ::::::: cpw :::::::::::::
+    # Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
+
+    - Cloaked
+    - Defensive
+    - Energized
+    - Extraplanar
+    - Fortified
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 TBD
@@ -7563,16 +7679,16 @@ Human Whirlwind
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
+Instant Power Recovery
+
+:   Whenever you use one of your Core or Nova Power Words in a
+    Power Stunt or Combo, those Power Words do not go on cooldown.
+
 Untouchable
 
 :   No one can lay a hand on you. When you are affected by a Crisis
     move, you can counter it by spending Might instead of Successes
     from the Teamwork Pool.
-
-Instant Power Recovery
-
-:   Whenever you use one of your Core or Nova Power Words in a
-    Power Stunt or Combo, those Power Words do not go on cooldown.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -7981,6 +8097,8 @@ Animal Partner
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
+    This is a *Pet* Ability.
+
     *Prerequisite: The __Mystic Totem__ class ability.* 
     If your animal partner is ever killed, they return to life at the 
     end of the next Crisis Countdown, and join you as soon as they
@@ -8029,7 +8147,7 @@ Choose six Personal Power Words from the following list:
 
 Alien Pet
 
-:   *Prerequisite: You must have the __Pet__ or __Animal Partner__ class ability.*
+:   *Prerequisite: You must have a __Pet__ Ability.*
     Your pet or animal partner isn't from Earth -- or might not even be from 
     this universe, in the case of a magical pet.
 
@@ -8041,9 +8159,44 @@ Alien Pet
     Words that you can use for free, once per Hero Phase, as described 
     in the *Pet* or *Animal Partner* class abilities.
     
+    This is __not__ a *Pet* Ability.
+
+Intelligent Pet
+
+:   *Prerequisite: You must have a __Pet__ Ability.*
+    Your pet is smarter than an average animal of that type. It can
+    communicate intelligently in one language that you choose when
+    you pick this class ability, although its voice is clearly
+    non-human. 
+
+    In addition, pick a second Skill possessed by the Pet, and one Approach. 
+    Whenever your Pet is present at a Crisis, add 3 dice whenever you make a roll 
+    using the chosen Approach.
+
+    This is __not__ a *Pet* Ability.
+
+Magical Familiar
+
+:   *Prerequisite: You must have a __Pet__ Ability.*
+    Whenever you choose a Core Power Word for your Pet, you can
+    choose from the Divine Class's Personal Power Words List, the
+    Hellspawn Class's Personal Power Words List, or the
+    Mage Class Personal Power Words List. 
+
+    [Divine, Mage]{.crossover .es}
+    These become Core Power Words that you can use for free, 
+    each once per Hero Phase, as described in the *Pet* class ability.
+
+    If your Magical Familiar is ever killed, they return to life at 
+    the end of the next Crisis Countdown, and join you as soon as they
+    can.
+
+    This is __not__ a *Pet* Ability.
+
 Pet
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
 
     This partner has three Core Power Words --
@@ -8059,34 +8212,7 @@ Pet
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
-Magical Familiar
-
-:   *Prerequisite: You must have the __Pet__ or __Animal Partner__ class ability.*
-    Whenever you choose a Core Power Word for your Pet, you can
-    choose from the Divine Class Personal Power Words List or the
-    Mage Class Personal Power Words List. 
-
-
-    [Divine, Mage]{.crossover .es}
-    These become Core Power
-    Words that you can use for free, each once per Hero Phase, as
-    described in the *Pet* class ability.
-
-    If your Magical Familiar is ever killed, they return to life at 
-    the end of the next Crisis Countdown, and join you as soon as they
-    can.
-
-Intelligent Pet
-
-:   *Prerequisite: You must have the __Pet__ or __Animal Partner__ class ability.*
-    Your pet is smarter than an average animal of that type. It can
-    communicate intelligently in one language that you choose when
-    you pick this class ability, although its voice is clearly
-    non-human. 
-
-    In addition, pick a second Skill possessed by the Pet, and one Approach. 
-    Whenever your Pet is present at a Crisis, add 3 dice whenever you make a roll 
-    using the chosen Approach.
+    This is a *Pet* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -8631,6 +8757,21 @@ Autonomous Operation
     make a move -- using your own Approach scores, Skills, and Fighting 
     Styles, if needed.
 
+Cursed Vehicle
+
+:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+    Like the *Haunted Vehicle* class ability, your Vehicle is possessed
+    by a supernatural creature.
+
+    [Hellspawn]{.crossover}
+    Choose one Personal Power Word from the Hellspawn class and add it as
+    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
+    Power Word, you can choose from the Hellspan Personal Power Words
+    List or the Vehicle Scene Power Words List; such Power Words become
+    Vehicle Scene Power Words.
+
+    In addition, you gain the **Mystic Skill**.
+
 Dude, Where's Your Car?
 
 :   *Prerequisite: __Autonomous Operation__ class ability.*
@@ -8674,21 +8815,6 @@ Haunted Vehicle
 
     In addition, you gain the **Mystic Skill**.
 
-Cursed Vehicle
-
-:   *Prerequisite: __Intelligent Vehicle__ class ability.*
-    Like the *Haunted Vehicle* class ability, your Vehicle is possessed
-    by a supernatural creature.
-
-    [Hellspawn]{.crossover}
-    Choose one Personal Power Word from the Hellspawn class and add it as
-    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
-    Power Word, you can choose from the Hellspan Personal Power Words
-    List or the Vehicle Scene Power Words List; such Power Words become
-    Vehicle Scene Power Words.
-
-    In addition, you gain the **Mystic Skill**.
-
 High-Tech Vehicle
 
 :   *Prerequisite: __Intelligent Vehicle__ class ability.*
@@ -8719,7 +8845,18 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Glorious Garage
 
 :   *Prequisite: You can't have another __Hero Cave__ Ability.*
-    []{.lorem}
+
+    Add 2 dice whenever you make a skill roll while in your Garage.
+    Choose two Scene Power Words for your Glorious Garage from the
+    [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
+    ::::::: cpw :::::::::::::
+    # Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
+
+    - Automatic
+    - Fuel
+    - Hidden
+    - Repair
+    :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
 More than Meets the Eye
@@ -10948,6 +11085,69 @@ been Volcano City.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Hero Teams
+
+[]{.lorem}
+
+### Team Classes
+
+[]{.lorem}
+
+### Team Leaders
+
+[]{.lorem}
+
+### Team Charter
+
+[]{.lorem}
+
+#### Sponsor
+
+[]{.lorem}
+
+#### Scope
+
+[]{.lorem}
+
+| Scope        | Modifier    | Example             | Example(s)                  |
+| +---------   | +---------+ | +----------------   | +-----------------------    |
+| Local        | -2          | Los Angeles, CA     | Champions of L.A.           |
+| Regional     | -1          | West Coast, USA     | Avengers West Coast         |
+| National     | +0          | United States       | X-Men (Krakoan)             |
+| Global       | +1          | International       | Avengers                    |
+| Interstellar | +2          | Interstellar        | Imperial Guard              |
+| Galactic     | +3          | Milky Way Galaxy    | Guardians of the Galaxy     |
+| Cosmic       | +4          | This world/timeline | Legion of Super-Heroes      |
+| Multiversal  | +5          | All of reality      | Guardians of the Multiverse |
+
+#### Funding
+
+[]{.lorem}
+
+### Team Attributes
+
+#### Reputation
+
+##### Influence
+
+
+##### Authority
+
+
+##### Approaches
+
+
+##### Using Team Approaches
+
+
+### Team Abilities
+
+[]{.lorem}
+
+#### Selecting Abilities
+
+[]{.lorem}
+
+### Team Membership
 
 []{.lorem}
 

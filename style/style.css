@@ -2372,4 +2372,17 @@ width: calc(20 - 6 * 4pt / 5); }
 .cca .pick.recommend.veil:after  { content: 'designating this kind of content to be Veiled';            text-decoration: underline; }
 
 
+a.list-link:before {
+  font-style: normal;
+  content: "See ";
+}
 
+a.list-link { 
+  content: target-content(attr(href), page);         
+  font-style: italic;
+}
+  
+a.list-link:after { 
+  content: ", page " target-counter(attr(href), page); 
+  font-style: normal;
+}

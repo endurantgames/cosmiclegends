@@ -216,7 +216,7 @@ Sanctuary of Sanctity
 Talismans of Power
 
 :   *Prerequisite: You can't have another __Arsenal__ Ability.*
-    You have a number of magical trinkets, each imbued with
+    You have a number of magical artifacts, each imbued with
     their own magical power.
 
     At the start of each Storyline, pick a number of Power
@@ -226,7 +226,7 @@ Talismans of Power
 
     :::::: cpw :::::::::
 
-    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms-list}
+    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
 
     - Amulet
     - Belt
@@ -236,10 +236,13 @@ Talismans of Power
     - Doll
     - Fetish
     - Gloves
-    - Hat
+    - Hat or Crown
+    - Mask
     - Mirror
     - Orb
     - Scroll
+    - Skull
+    - Tattoo
     - Wand
     ::::::::::::::::::::
 
