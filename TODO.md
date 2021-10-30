@@ -1,13 +1,14 @@
 # TODO
 
-Cosmic Legends of the Universe
+## Cosmic Legends of the Universe
 
 - [/] Preface
   - [/] Bronze Age (finish essay)
-- [/] Issues 
+- [/] Issues etc
   - [ ] Update Examples
 - [/] Abilities blurb
-- [ ] Vignettes
+- [/] Table of Contents (TOC)
+- [ ] Vignettes (write about)
 - [ ] General ideas:
   - [ ] Mecha / Kaiju (Red Ronin vs. Godzilla)
   - [x] The Normal Kid class
@@ -24,8 +25,10 @@ Cosmic Legends of the Universe
   - [/] The Divine      (new abilities)
   - [/] The Dynamo      (new abilities)
   - [/] The Expatriate  (cleanup)
-  - [ ] The Haunt       (new class)
+  - [/] The Haunt       (new class)
+  - [/] The Hellspawn   (new class)
   - [/] The Inventor    (new abilities)
+  - [/] The Kid         (new class)
   - [/] The Knight      (new abilities)
   - [/] The Mage        (new abilities)
   - [/] The Monarch     (new abilities)
@@ -34,25 +37,27 @@ Cosmic Legends of the Universe
   - [/] The Psychic     (new abilities)
   - [/] The Shaper      (new abilities)
   - [/] The Totem       (cleanup)
+  - [/] The Twins       (new class)
 - [ ] Pregens: 1 extra ability each
   - [ ] Using pregens
-  - [ ] Adam-42              (complete writeup)
   - [ ] Multi- and/or Dual-Class pregens?
     - [ ] Multi-Class pregen (complete writeup)
     - [ ] Dual-Class pregen  (complete writeup)
-  - [ ] Brigantia            (tbd ability)
-  - [ ] Energy Boy           (tbd ability)
-  - [ ] Grailknight          (tbd ability)
-  - [ ] Head Librarian       (tbd ability)
-  - [ ] Jack Dee             (tbd ability)
-  - [ ] Obsidius Rex         (tbd ability)
-  - [ ] Riptide              (tbd ability)
-  - [ ] Rockstar             (tbd ability)
-  - [ ] Titan                (tbd ability)
-  - [ ] Vespa                (tbd ability)
+  - [ ] Adam-42              (complete writeup)
+  - [ ] Brigantia            (new ability)
+  - [ ] Energy Boy           (new ability)
+  - [ ] Grailknight          (new ability)
+  - [ ] Head Librarian       (new ability)
+  - [ ] Jack Dee             (new ability)
+  - [ ] Obsidius Rex         (new ability)
+  - [ ] Riptide              (new ability)
+  - [ ] Rockstar             (new ability)
+  - [ ] Titan                (new ability)
+  - [ ] Vespa                (new ability)
 - [/] Ideals
   - [ ] Tie to approach? (yes)
     - [ ] Review pregens / NPCs
+      - [ ] Adam-42
       - [ ] Brigantia
       - [ ] Energy Boy
       - [ ] Grailknight
@@ -99,7 +104,8 @@ Cosmic Legends of the Universe
 - [/] Crisis
   - [/] Countdown
     - [ ] Set the Scene
-      - [ ] Scene power words (examples)
+      - [ ] Scene power words
+        - [ ] Scene examples
     - [/] Hero Roll-Call
     - [x] Defining the Goals
     - [x] Assemble the Teamwork Pool
@@ -107,8 +113,10 @@ Cosmic Legends of the Universe
   - [/] Hero Phase
     - [/] Advance a Goal
     - [/] Contribute to the Teamwork Pool
+    - [ ] Team Moves
     - [ ] Hero Moves
       - [ ] Power Moves
+      - [ ] Skill Moves
       - [ ] Other Moves
         - [x] Timely Arrival
         - [x] General Alert
@@ -117,11 +125,13 @@ Cosmic Legends of the Universe
   - [/] What's What?
     - [/] Adam-42        (full entry)
     - [/] Rockstar       (bio)
-    - [x] Titan          (bio)
+    - [/] Titan          (bio)
     - [/] Villains, Inc. (backstory)
 - [ ] The Editor
   - [ ] Creating Story Arcs
   - [ ] Creating Crises
+    - [ ] Crisis Moves
+  - [ ] Offering Edge Consequences
 - [/] Sample Crises
   - [/] Aliens
   - [ ] Military
