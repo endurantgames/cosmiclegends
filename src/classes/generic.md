@@ -69,8 +69,10 @@ Hero Cave
     - Map
     - Medical
     - Memorial
+    - Observatory
     - Passage
     - Penny
+    - Portal
     - Repairs
     - Reinforced
     - Robot
