@@ -2439,7 +2439,7 @@ Wisdom of Athena
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 2 Divine Class Abilities {#list-divine-abilities-v1}
+##### Volume 2 Divine Class Abilities {#list-divine-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -5084,7 +5084,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 4 Abilities {#list-class-kid-abilities-v3}
+##### Volume 4 Abilities {#list-class-kid-abilities-v4}
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -5099,7 +5099,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-##### Volume 5 Abilities {#list-class-kid-abilities-v3}
+##### Volume 5 Abilities {#list-class-kid-abilities-v5}
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
