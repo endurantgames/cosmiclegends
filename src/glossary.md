@@ -64,7 +64,7 @@ Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
 
 Editor
-:   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues. (*GM* in Harmony Drive.)
+:   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players between Issues. (*GM* in Harmony Drive.)
 
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
@@ -128,7 +128,7 @@ Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
-:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+:   Two to Four Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
 
 One-Shot
 :   A game session that isn't part of an ongoing story.
