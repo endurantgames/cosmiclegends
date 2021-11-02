@@ -1481,7 +1481,7 @@ input.sheet-tab-button.sheet-tab5:checked ~ .sheet-extraordinary-tab-span {
 .sheet-fantasy-age-selected,
 .sheet-titansgrave-selected,
 .sheet-blue-rose-selected,
-.sheet-age-selected,
+.sheet-clotu-selected,
 .sheet-second-gen-selected,
 .sheet-modern-age-selected,
 .sheet-threefold-selected,
@@ -1495,7 +1495,7 @@ input.sheet-black-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked 
 		background-color: #000000;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-red,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-red,
 input.sheet-red-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-red-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-red-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1503,7 +1503,7 @@ input.sheet-red-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
 		background-color: #810206;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-teal1,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-teal1,
 input.sheet-teal1-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-teal1-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-teal1-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1511,7 +1511,7 @@ input.sheet-teal1-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
 		background-color: #00576B;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-teal2,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-teal2,
 input.sheet-teal2-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-teal2-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-teal2-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1519,7 +1519,7 @@ input.sheet-teal2-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
 		background-color: #1f7b92;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-blue1,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-blue1,
 input.sheet-blue1-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-blue1-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-blue1-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1527,7 +1527,7 @@ input.sheet-blue1-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
 		background-color: #007ab8;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-blue2,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-blue2,
 input.sheet-blue2-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-blue2-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-blue2-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1535,7 +1535,7 @@ input.sheet-blue2-color-checkbox:checked ~ .sheet-page .sheet-section-name {
 		background-color: #006496;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-orange,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-orange,
 input.sheet-orange-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-orange-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-orange-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1543,7 +1543,7 @@ input.sheet-orange-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
                 background-image: radial-gradient(ellipse at top, #bc610e, #431c00);
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-threefold,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-threefold,
 input.sheet-threefold-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-threefold-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-threefold-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1551,7 +1551,7 @@ input.sheet-threefold-color-checkbox:checked ~ .sheet-page .sheet-section-name  
                 background-image: linear-gradient(135deg, #00658D, #2A828E, #87641B, #c79846, #851c07);
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-rainbow,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-rainbow,
 input.sheet-rainbow-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-rainbow-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-rainbow-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1559,7 +1559,7 @@ input.sheet-rainbow-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
                 background-image: radial-gradient(circle at bottom left, mediumvioletred, firebrick, darkorange, darkkhaki, forestgreen, blue, darkviolet);
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-green,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-green,
 input.sheet-green-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-green-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-green-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1568,7 +1568,7 @@ input.sheet-green-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
 }
 
 /* dragonscale texture from https://www.myfreetextures.com/four-dragon-scale-background-textures/ */
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-dragon,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-dragon,
 input.sheet-dragon-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-dragon-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-dragon-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1576,7 +1576,7 @@ input.sheet-dragon-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
                 background-image: url("https://i.imgur.com/ZiUOVSE.jpg");
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-lazarus,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-lazarus,
 input.sheet-lazarus-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-lazarus-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-lazarus-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1584,7 +1584,7 @@ input.sheet-lazarus-color-checkbox:checked ~ .sheet-page .sheet-section-name  {
                 background-image: radial-gradient(circle at center, #3A8BCC, #124179);
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-title.sheet-age-roller-color-stars,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title.sheet-clotu-roller-color-stars,
 input.sheet-stars-color-checkbox:checked ~ .sheet-tab-button:checked + span,
 input.sheet-stars-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span,
 input.sheet-stars-color-checkbox:checked ~ .sheet-tab-button.sheet-tab5:checked + span + span + span,
@@ -1765,9 +1765,9 @@ input.sheet-the-expanse-button:checked      ~ .sheet-page .sheet-the-expanse-sel
 input.sheet-modern-age-button:checked       ~ .sheet-page .sheet-modern-age-selected,
 input.sheet-threefold-button:checked        ~ .sheet-page .sheet-threefold-selected,
 input.sheet-world-of-lazarus-button:checked ~ .sheet-page .sheet-world-of-lazarus-selected,
-input.sheet-dragon-age-button:checked       ~ .sheet-page .sheet-age-selected,
-input.sheet-fantasy-age-button:checked      ~ .sheet-page .sheet-age-selected,
-input.sheet-titansgrave-button:checked      ~ .sheet-page .sheet-age-selected,
+input.sheet-dragon-age-button:checked       ~ .sheet-page .sheet-clotu-selected,
+input.sheet-fantasy-age-button:checked      ~ .sheet-page .sheet-clotu-selected,
+input.sheet-titansgrave-button:checked      ~ .sheet-page .sheet-clotu-selected,
 input.sheet-modern-age-button:checked       ~ .sheet-page .sheet-mod-selected,
 input.sheet-threefold-button:checked        ~ .sheet-page .sheet-mod-selected,
 input.sheet-world-of-lazarus-button:checked ~ .sheet-page .sheet-mod-selected,
@@ -1786,7 +1786,7 @@ display: none;
 input.sheet-dragon-age-button:checked ~ .sheet-page .sheet-blue-rose-selected,
 input.sheet-fantasy-age-button:checked ~ .sheet-page .sheet-blue-rose-selected,
 input.sheet-titansgrave-button:checked ~ .sheet-page .sheet-blue-rose-selected,
-input.sheet-blue-rose-button:checked ~ .sheet-page .sheet-age-selected,
+input.sheet-blue-rose-button:checked ~ .sheet-page .sheet-clotu-selected,
 input.sheet-the-expanse-button:checked ~ .sheet-page .sheet-blue-rose-selected { 
 		display: none;
 }
@@ -1969,24 +1969,24 @@ input.sheet-ammo-col-checkbox:checked ~ .sheet-page .sheet-attack-container .she
 		text-align: right;
 }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-container { width: 225px; border: 1px solid black; padding: 0; margin: 0; background-color: white; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-result { width: 100%; padding-top: 10px; text-align: center; border-bottom: 1px solid black;padding-bottom: 5px; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-container { width: 225px; border: 1px solid black; padding: 0; margin: 0; background-color: white; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-result { width: 100%; padding-top: 10px; text-align: center; border-bottom: 1px solid black;padding-bottom: 5px; }
 .sheet-rolltemplate-age-roller .sheet-die-face { font-size: 48px; font-weight: bold; font-family: "dicefontd6"; color: #333333; }
 .sheet-rolltemplate-age-roller .sheet-die-face-drama { text-transform: uppercase; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-stunt + .sheet-age-roller-stunt { display: none; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-line { padding-top: 2px; padding-bottom: 2px; text-align: top; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-stunt { border-top: 1px solid black; color: green; font-weight: bold; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-col1 { display: inline-block; width: 165px; text-align: left; margin-left: 5px; margin-right: 5px; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-col2 { display: inline-block; width: 36px;  text-align: right; margin-left: 5px; margin-right: 5px; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-title { background-color: black; color: white; font-weight: bold; padding-left: 5px; padding-right: 5px; padding-bottom: 2px; padding-top: 2px; margin-bottom: 3px; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-total { border-top: 1px solid black; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-total .sheet-age-roller-col1 { font-weight: bold; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-tn { border-top: 1px solid black; font-style: italic; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-stunt + .sheet-clotu-roller-stunt { display: none; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-line { padding-top: 2px; padding-bottom: 2px; text-align: top; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-stunt { border-top: 1px solid black; color: green; font-weight: bold; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-col1 { display: inline-block; width: 165px; text-align: left; margin-left: 5px; margin-right: 5px; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-col2 { display: inline-block; width: 36px;  text-align: right; margin-left: 5px; margin-right: 5px; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-title { background-color: black; color: white; font-weight: bold; padding-left: 5px; padding-right: 5px; padding-bottom: 2px; padding-top: 2px; margin-bottom: 3px; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-total { border-top: 1px solid black; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-total .sheet-clotu-roller-col1 { font-weight: bold; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-tn { border-top: 1px solid black; font-style: italic; }
 
-.sheet-rolltemplate-age-roller .sheet-age-roller-col2 .inlinerollresult { background-color: transparent; border: none; padding: 0; margin: 0; text-align: right; }
-.sheet-rolltemplate-age-roller .sheet-age-roller-col2 .inlinerollresult.fullfail,
-.sheet-rolltemplate-age-roller .sheet-age-roller-col2 .inlinerollresult.fullcrit,
-.sheet-rolltemplate-age-roller .sheet-age-roller-col2 .inlinerollresult.importantroll { border: none; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-col2 .inlinerollresult { background-color: transparent; border: none; padding: 0; margin: 0; text-align: right; }
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-col2 .inlinerollresult.fullfail,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-col2 .inlinerollresult.fullcrit,
+.sheet-rolltemplate-age-roller .sheet-clotu-roller-col2 .inlinerollresult.importantroll { border: none; }
 
 /* Tool tips based on http://jsfiddle.net/Lithl/4naLge77/ */
 .sheet-tooltip {
