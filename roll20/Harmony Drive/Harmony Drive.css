@@ -7,23 +7,27 @@
 /* Configuration of Tabs */
 input.sheet-tab-button {
 		opacity: 0;	
-		position: absolute;
+		/* position: absolute;
 		top: 92px;
 		right: 0px;
+		*/
 		width: 18px;
 		height: 18px;
 		z-index: 2;
+		background-color: lime;
 }
 
 input.sheet-tab-button + span {
-		position: absolute;
+		/* position: absolute;
 		top: 92px;
 		right: 0px;
+                */
 		width: 17px;
 		height: 17px;
 		border: 1px solid black;
 		border-radius: 5px;
 		background-color: #E8E8E8;
+		background-color: lime;
 		color: black;
 		text-align: center;
 		font-weight: bold;
@@ -2016,18 +2020,4 @@ input.sheet-ammo-col-checkbox:checked ~ .sheet-page .sheet-attack-container .she
     background: #eee;
 }
 
-.sheet-page select.sheet-color-select option { color: white; }
-.sheet-page select.sheet-color-select option[value=black] { background-color: black; }
-.sheet-page select.sheet-color-select option[value=red] { background-color: #810206; }
-.sheet-page select.sheet-color-select option[value=teal1] { background-color: #00576b; }
-.sheet-page select.sheet-color-select option[value=teal2] { background-color: #1f7b92; }
-.sheet-page select.sheet-color-select option[value=blue1] { background-color: #007ab8; }
-.sheet-page select.sheet-color-select option[value=blue2] { background-color: #006496; }
-.sheet-page select.sheet-color-select option[value=orange] { background-color: white; color: #bc610e; font-weight: bold; }
-.sheet-page select.sheet-color-select option[value=stars] { background-color: white; color: black; font-weight: bold; }
-.sheet-page select.sheet-color-select option[value=threefold] { background-color: white; color: #1f7b92; font-weight: bold; }
-.sheet-page select.sheet-color-select option[value=lazarus] { background-color: white; color: #007ab8; font-weight: bold; }
-.sheet-page select.sheet-color-select option[value=green] { background-color: white; color: #1d8514; font-weight: bold; }
-.sheet-page select.sheet-color-select option[value=rainbow] { background-color: white; color: blueviolet; font-weight: bold; }
-.sheet-page select.sheet-color-select option[value=dragon] { background-color: white; color: darkred; font-weight: bold; }
-
+.sheet-page.sheet-tab6 .system-approaches-input > ul > li > input.approach-name { width: 100px; color: black; background-color: yellow; font-size: large; }
