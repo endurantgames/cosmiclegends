@@ -11,9 +11,13 @@
 <input class="tab-button tab-whisper" type="checkbox" name="attr_whisper-toggle" value="/w gm ">
 <span data-i18n="whisper-u">WHISPER</span>
 
+<p class="tab-visible-select">
+<input class="tab-visible-select tab-visible" type="text" name="attr_tab" value="1" />
+</p>
+
 <input class="tab-button tab1" type="radio" name="attr_tab" value="1" checked="checked"/><span data-i18n="character-u">CHARACTER</span>
-<input class="tab-button tab3" type="radio" name="attr_tab" value="3"/><span data-i18n="powers-u">POWER WORDS</span>
-<input class="tab-button tab4" type="radio" name="attr_tab" value="4"/><span data-i18n="focuses-u">ABILITIES</span>
+<input class="tab-button tab3" type="radio" name="attr_tab" value="3"/><span data-i18n="power-words-u">POWER WORDS</span>
+<input class="tab-button tab4" type="radio" name="attr_tab" value="4"/><span data-i18n="abilities-u">ABILITIES</span>
 <input class="tab-button tab5" type="radio" name="attr_tab" value="5"/>SYSTEM
 <input class="tab-button tab6" type="radio" name="attr_tab" value="6"/><span style="font-family: pictos">y</span> CONFIG
 
@@ -104,6 +108,32 @@
 <div class="page tab6">
   <div class="header">
     <h3>System Tab</h3>
+
+    <h4>Predefined Systems</h4>
+
+    <p>Load the defaults</p>
+
+    <label for="attr_sys_select">Game System (pre-coded):</label>
+
+    <select name="attr_sys_select">
+      <option selected="selected" value="clotu">Cosmic Legends of the Universe</option>
+      <option value="hc">Heroic Chord</option>
+      <option value="srd">Custom (Harmony Drive SRD)</option>
+    </select>
+
+    <button type="action" name="act_loadsystem">
+      Load Selected System
+    </button>
+
+    <div class="game-system-details">
+
+      <h4>Game System Details</h4>
+
+      <ul>
+        <li><span>System Name   </span><input type="text" name="attr_sys_gamename" /></li>
+        <li><span>Character Term</span><input type="text" name="attr_sys_character_term" /></li>
+      </ul>
+    </div>
 
     <h4>Approaches</h4>
 
@@ -202,6 +232,10 @@
 <script type="text/worker">
 console.log("==================================");
 console.log("Loading script(s)");
+
+on("clicked:loadsystem", function(eventInfo) {
+  console.log("You clicked to load this system!");
+}
 
 /*config Roll Queries translations */
 on("sheet:opened", function(eventInfo){

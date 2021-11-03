@@ -17,12 +17,16 @@ input.sheet-tab-button {
 		background-color: lime;
 }
 
+p.tab-visible-select {
+  background-color: lime;
+}
+
 input.sheet-tab-button + span {
 		/* position: absolute;
 		top: 92px;
 		right: 0px;
                 */
-		width: 17px;
+		width: 42px;
 		height: 17px;
 		border: 1px solid black;
 		border-radius: 5px;
@@ -145,6 +149,9 @@ input.sheet-tab-button.sheet-tab-whisper + span {
 		-webkit-appearance: none; 
 		margin: 0; 
 }
+
+.sheet-game-system-details > ul > li > span { font-weight: bold; width: 100px; }
+.sheet-game-system-details > ul > li > input { background-color: yellow; width: 100px; }
 
 .sheet-header span {
 		display: block;
