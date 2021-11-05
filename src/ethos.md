@@ -11,7 +11,7 @@ without being left behind by your team.
 
 ## Teamwork
 
-[]{.gamename} games is written to encourage the players to work 
+[]{.gamename} is written to encourage the players to work 
 together. Whether you're combining your powers to use Power Combos
 or using your skills to overcome an opponent together, heroes in 
 []{.gamename} succeed or fail as a team.
