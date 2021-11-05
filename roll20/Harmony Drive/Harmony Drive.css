@@ -42,7 +42,14 @@ input.sheet-tab-button:checked + span {
 		background-color: #000000;
 }
 
-.sheet-page { 
+.sheet-page.sheet-tab1,
+.sheet-page.sheet-tab2,
+.sheet-page.sheet-tab3,
+.sheet-page.sheet-tab4,
+.sheet-page.sheet-tab5,
+.sheet-page.sheet-tab6 
+
+{ 
 	display: none;
 }
 
@@ -63,41 +70,34 @@ button.sheet-floating-dice-roller {
   left: 242px; }
 button.sheet-floating-dice-roller[type=roll]::before { font-size: 24px; }
 
-input.sheet-tab-button.sheet-tab1,
+input.sheet-tab-button + span {
+  width: 125px;
+  background-color: yellow;
+}
+
 input.sheet-tab-button.sheet-tab1 + span {
 		right: 281px;
 		width: 87px;
 }
 
-input.sheet-tab-button.sheet-tab2,
 input.sheet-tab-button.sheet-tab2 + span {
 		right: 209px;
 		width: 69px;
 }
 
-input.sheet-tab-button.sheet-tab3,
 input.sheet-tab-button.sheet-tab3 + span {
 		right: 141px;
 		width: 65px;
 }
 
-input.sheet-tab-button.sheet-tab4,
 input.sheet-tab-button.sheet-tab4 + span {
 		right: 70px;
 		width: 68px;
 }
 
-input.sheet-tab-button.sheet-tab5,
 input.sheet-tab-button.sheet-tab5 + span {
 		right: 20px;
 		width: 47px;
-}
-
-input.sheet-tab-button.sheet-tab-aim,
-input.sheet-tab-button.sheet-tab-aim + span {
-		left: 68px;
-		width: 28px;
-		display: none;
 }
 
 input.sheet-tab-button.sheet-tab-whisper,

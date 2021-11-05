@@ -118,7 +118,13 @@
 
     <h4>Predefined Systems</h4>
 
-    <p>Load the defaults</p>
+    <p>Load the defaults for predefined system such as 
+       <b>Cosmic Legends of the Universe</b> or
+       <b>Heroic Chord</b>.</p>
+
+    <p>If you don't know what you're using, choose 
+       <b>Custom (Harmony Drive SRD)</b> for the most
+       generic options.</p>
 
     <label for="attr_sys_select">Game System (pre-coded):</label>
 
@@ -132,19 +138,188 @@
       Load Selected System
     </button>
 
-    <div class="game-system-details">
+    <div class="game-system-terms">
 
       <h4>Game System Details</h4>
 
+      <h5>Game Terms</h5>
+
+      <p>These help set up each game system's terms. 
+         This lets sheets more accurately represent each game system.</p>
+
+      <p>If you are using an existing system (see above), you shouldn't need to change these values.</p>
+
       <ul>
-        <li><span>System Name   </span><input type="text" name="attr_sys_gamename" /></li>
-        <li><span>Character Term</span><input type="text" name="attr_sys_character_term" /></li>
+        <li><span>System Name</span><input type="text" name="attr_sys_gamename" /></li>
+        <li><span>System Full Name</span><input type="text" name="attr_sys_game_fullname" /></li>
+        <li><span>Gamemaster Term</span><input type="text" name="attr_sys_term_gamemaster" /></li>
+        <li><span>Gamemaster (abbreviation)</span><input type="text" name="attr_sys_term_gamemaster_abbr" /></li>
+        <li><span>Player Character Term</span><input type="text" name="attr_sys_term_character" /></li>
+        <li><span>Player Character Term (plural)</span><input type="text" name="attr_sys_term_character_plural" /></li>
+        <li><span>Player Character Name Term</span><input type="text" name="attr_sys_term_character_name" /></li>
+	<li><span>Encounter Term</span><input type="text" name="attr_sys_term_encounter" /></li>
+	<li><span>Encounter Term (plural)</span><input type="text" name="attr_sys_term_encounter_plural" /></li>
+	<li><span>Action Term</span><input type="text" name="attr_sys_term_action" /></li>
+	<li><span>Specialty Term</span><input type="text" name="attr_sys_term_specialty" /></li>
+	<li><span>Specialty Term (plural)</span><input type="text" name="attr_sys_term_specialty_plural" /></li>
+	<li><span>GM Turn</span><input type="text" name="attr_sys_term_gm_turn" /></li>
+	<li><span>Player Turn</span><input type="text" name="attr_sys_term_player_turn" /></li>
+	<li><span>Skill</span><input type="text" name="attr_sys_term_skill" /></li>
+	<li><span>Skills</span><input type="text" name="attr_sys_term_skill_plural" /></li>
+	<li><span>Take the Hit</span><input type="text" name="attr_sys_term_take_the_hit" /></li>
+	<li><span>Advantage Pool</span><input type="text" name="attr_sys_term_advantage_pool" /></li>
+	<li><span>Form the Advantage Pool</span><input type="text" name="attr_sys_term_form_the_advantage_pool" /></li>
+	<li><span>Add to the Advantage Pool</span><input type="text" name="attr_sys_term_add_to_the_advantage_pool" /></li>
+	<li><span>Success</span><input type="text" name="attr_sys_term_success" /></li>
+	<li><span>Success (plural)</span><input type="text" name="attr_sys_term_success_plural" /></li>
+	<li><span>Edge Success</span><input type="text" name="attr_sys_term_success" /></li>
+	<li><span>Edge Success (plural)</span><input type="text" name="attr_sys_term_edge_success_plural" /></li>
+	<li><span>Consequence</span><input type="text" name="attr_sys_term_consequence" /></li>
+	<li><span>Consequence (plural)</span><input type="text" name="attr_sys_term_consequence_plural" /></li>
+	<li><span>Goal</span><input type="text" name="attr_sys_term_goal" /></li>
+	<li><span>Goal (plural)</span><input type="text" name="attr_sys_term_goal_plural" /></li>
+	<li><span>Season</span><input type="text" name="attr_sys_term_season" /></li>
+	<li><span>Season (plural)</span><input type="text" name="attr_sys_term_season_plural" /></li>
+	<li><span>Health Point</span><input type="text" name="attr_sys_term_hp" /></li>
+	<li><span>Health Point (abbreviation)</span><input type="text" name="attr_sys_term_hp_abbr" /></li>
+	<li><span>Energy</span><input type="text" name="attr_sys_term_energy" /></li>
+	<li><span>Energy Point</span><input type="text" name="attr_sys_term_energy_point" /></li>
+	<li><span>Energy Point (abbreviation)</span><input type="text" name="attr_sys_term_energy_point_abbr" /></li>
+	<li><span>Key</span><input type="text" name="attr_sys_term_key" /></li>
+	<li><span>Key (plural)</span><input type="text" name="attr_sys_term_key_plural" /></li>
+	<li><span>Power Word</span><input type="text" name="attr_sys_term_power_word" /></li>
+	<li><span>Power Word (plural)</span><input type="text" name="attr_sys_term_power_word_plural" /></li>
+	<li><span>Power Stunt / Spell</span><input type="text" name="attr_sys_term_power_stunt" /></li>
+	<li><span>Power Stunt / Spell (plural)</span><input type="text" name="attr_sys_term_power_stunt_plural" /></li>
+	<li><span>Power Combo</span><input type="text" name="attr_sys_term_power_combo" /></li>
+	<li><span>Power Combo (plural)</span><input type="text" name="attr_sys_term_power_combo_plural" /></li>
+	<li><span>(Power Word) Cooldown</span><input type="text" name="attr_sys_term_cooldown" /></li>
+	<li><span>Personal Power Word</span><input type="text" name="attr_sys_term_ppw" /></li>
+	<li><span>Personal Power Word (plural)</span><input type="text" name="attr_sys_term_ppw_plural" /></li>
+	<li><span>Scene Power Word</span><input type="text" name="attr_sys_term_spw" /></li>
+	<li><span>Scene Power Word (plural)</span><input type="text" name="attr_sys_term_spw_plural" /></li>
+	<li><span>Core Power Word</span><input type="text" name="attr_sys_term_cpw" /></li>
+	<li><span>Core Power Word (plural)</span><input type="text" name="attr_sys_term_cpw_plural" /></li>
+	<li><span>Nova Power Word</span><input type="text" name="attr_sys_term_npw" /></li>
+	<li><span>Nova Power Word (plural)</span><input type="text" name="attr_sys_term_npw_plural" /></li>
+	<li><span>Unlock (verb)</span><input type="text" name="attr_sys_term_unlock_verb" /></li>
+	<li><span>Unlock (verb, past tense)</span><input type="text" name="attr_sys_term_unlock_verb_past_tense" /></li>
+	<li><span>Ability</span><input type="text" name="attr_sys_term_ability" /></li>
+	<li><span>Ability (plural)</span><input type="text" name="attr_sys_term_ability_plural" /></li>
+	<li><span>Prime Ability</span><input type="text" name="attr_sys_term_prime_ability" /></li>
+	<li><span>Prime Ability (plural)</span><input type="text" name="attr_sys_term_prime_ability_plural" /></li>
+	<li><span>Advance (a goal, verb)</span><input type="text" name="attr_sys_term_advance_verb" /></li>
+	<li><span>Advanced (a goal, verb, past tense)</span><input type="text" name="attr_sys_term_advance_verb_past_tense" /></li>
+	<li><span>Facet</span><input type="text" name="attr_sys_term_facet" /></li>
+	<li><span>Facet (plural)</span><input type="text" name="attr_sys_term_facet_plural" /></li>
+	<li><span>Lesson</span><input type="text" name="attr_sys_term_lesson" /></li>
+	<li><span>Lesson (plural)</span><input type="text" name="attr_sys_term_lesson_plural" /></li>
+	<li><span>Advancement</span><input type="text" name="attr_sys_term_advancement" /></li>
+	<li><span>Advancement (plural)</span><input type="text" name="attr_sys_term_advancement_plural" /></li>
+	<li><span>Assist Pool</span><input type="text" name="attr_sys_term_assist_pool" /></li>
+	<li><span>Assist Pool (plural)</span><input type="text" name="attr_sys_term_assist_pool_plural" /></li>
+	<li><span>Assist Pool Resource Pool point</span><input type="text" name="attr_sys_term_assist_pool_point" /></li>
+	<li><span>Assist Pool Resource Pool point (plural)</span><input type="text" name="attr_sys_term_assist_pool_point_plural" /></li>
+	<li><span>Class</span><input type="text" name="attr_sys_term_class" /></li>
+	<li><span>Class (plural)</span><input type="text" name="attr_sys_term_class_plural" /></li>
+	<li><span>Class Names Start with "The"</span><input type="checkbox" name="attr_sys_classes_start_with_the" /></li>
+	<li><span>(Story) Arc</span><input type="text" name="attr_sys_term_arc" /></li>
+	<li><span>(Story) Arc (plural)</span><input type="text" name="attr_sys_term_arc_plural" /></li>
+	<li><span>Spotlight</span><input type="text" name="attr_sys_term_spotlight" /></li>
+	<li><span>Spotlight Character</span><input type="text" name="attr_sys_term_spotlight_char" /></li>
+
+	<li><span>Keys (number)</span><input type="number" name="attr_sys_keys_count" /></li>
+	<li><span>Key Dice Bonus</span><input type="number" name="attr_sys_keys_dice_bonus" /></li>
+	<li><span>Key Dice Bonus Equals Season</span><input type="number" name="attr_sys_keys_dice_bonus_equals_season" /></li>
+	<li><span>Skill Dice Bonus</span><input type="number" name="attr_sys_skill_dice_bonus" /></li>
+	<li><span>Skill Dice Bonus Equals Season</span><input type="number" name="attr_sys_skill_dice_bonus_equals_season" /></li>
+	<li><span>Class Abilities per Season</span><input type="number" name="attr_sys_class_abilities_per_season" /></li>
+
+      </ul>
+    </div>
+   
+    <div class="game-system-chargen">
+    <h4>Character Creation</h4>
+
+    <p>These define how characters get their stats.</p>
+
+    <p>If you are using an existing system (see above), you shouldn't need to change these values.</p>
+
+      <ul>
+        <li><span>Starting Health</span><input type="number" name="attr_sys_chargen_hp" /></li>
+        <li><span>Starting Magic</span><input type="number" name="attr_sys_chargen_magic_p" /></li>
+	<li><span>Maximum Health</span><input type="number" name="attr_sys_hp_max" /></li>
+	<li><span>Maximum Magic</span><input type="number" name="attr_sys_magic_p_max" /></li>
+        <li><span>Starting Facet</span><input type="number" name="attr_sys_chargen_base_facet" /></li>
+        <li><span>Additional Facet</span><input type="number" name="attr_sys_chargen_additional_facet" /></li>
+        <li><span>Maximum Facet</span><input type="number" name="attr_sys_chargen_maximum_facet" /></li>
+	<li><span>Lose Consciousness at 0 Health</span><input type="number" name="attr_sys_unconscious_health_0" /></li>
+	<li><span>Lose Consciousness at 0 Magic</span><input type="number" name="attr_sys_unconscious_magic_0" /></li>
+	<li><span>Death at 0 Health + 0 Magic</span><input type="number" name="attr_sys_unconscious_health_0_magic_0" /></li>
+	<li><span>Magic Recovery Method</span><input type="text" name="attr_sys_magic_recovery_method" /></li>
+	<li><span>Health Recovery Method</span><input type="text" name="attr_sys_health_recovery_method" /></li>
+	<li><span>Build the Encounter Pool Facet</span><input type="text" name="attr_sys_build_pool_facet" /></li>
+	<li><span>Build the Encounter Pool Skill</span><input type="text" name="attr_sys_build_pool_skill" /></li>
+	<li><span>Advancement Effect 1</span><input type="text" name="attr_sys_advancement_1" /></li>
+	<li><span>Advancement Effect 2</span><input type="text" name="attr_sys_advancement_2" /></li>
+	<li><span>Advancement Effect 3</span><input type="text" name="attr_sys_advancement_3" /></li>
+	<li><span>Class-Based (Survival) Specialty</span><input type="text" name="attr_sys_term_class_specialty" /></li>
+      </ul>
+
+    <h4>Game Parameters</h4>
+
+    <p>These affect the options used in the game.</p>
+
+    <p>If you are using an existing system (see above), you shouldn't need to change these values.</p>
+
+      <ul>
+	<li><span>Use Power Word Cooldowns</span><input type="checkbox" name="attr_sys_chargen_use_pw_cooldown" /></li>
+	<li><span>Use Assist Pools</span><input type="checkbox" name="attr_sys_chargen_use_assist_pools" /></li>
+	<li><span>Use Assist Pools Separate Resource Pools</span><input type="checkbox" name="attr_sys_chargen_use_assist_pool_separate_resource_pools" /></li>
+	<li><span>Assist Pool Resource Pool Maximum</span><input type="number" name="attr_sys_chargen_assist_pool_max" /></li>
+	<li><span>Assist Pool Power Words (count)</span><input type="number" name="attr_sys_chargen_assist_pool_power_words_count" /></li>
+	<li><span>Use Assist Pool Consequences</span><input type="checkbox" name="attr_sys_use_assist_pool_consequences" /></li>
+	<li><span>Use Classes</span><input type="checkbox" name="attr_sys_chargen_use_classes" /></li>
+	<li><span>Use Questions based on Classes</span><input type="checkbox" name="attr_sys_use_questions_based_on_classes" /></li>
+	<li><span>Use "You May Have" based on Classes</span><input type="checkbox" name="attr_sys_use_you_may_have_based_on_classes" /></li>
+	<li><span>Class Core Power Words (count)</span><input type="number" name="attr_sys_chargen_class_core_power_words" /></li>
+	<li><span>Use "Generic" Abilities</span><input type="checkbox" name="attr_sys_chargen_use_generic_abilities" /></li>
+	<li><span>Allow "Multi-Classing"</span><input type="checkbox" name="attr_sys_chargen_use_multi_class" /></li>
+	<li><span>Allow "Dual-Classing"</span><input type="checkbox" name="attr_sys_chargen_use_dual_class" /></li>
+	<li><span>Skills per Class</span><input type="number" name="attr_sys_class_skills" /></li>
+	<li><span>Number of Starting Specialties</span><input type="number" name="attr_sys_class_specialty_count" /></li>
+	<li><span>Power Words per Class</span><input type="number" name="attr_sys_class_power_words_count" /></li>
+	<li><span>Classes Provide a Specialty<span><input type="checkbox" name="attr_sys_class_provides_specialty" /></li>
+	<li><span>Starting Power Words</span><input type="number" name="attr_sys_chargen_power_words" /></li>
+	<li><span>Free-Choice Starting Skills</span><input type="number" name="attr_sys_chargen_any_skills_count" /></li>
+	<li><span>Use Team Sheets</span><input type="checkbox" name="attr_sys_use_team_sheet" /></li>
+	<li><span>Use Team Classes</span><input type="checkbox" name="attr_sys_use_team_classes" /></li>
+	<li><span>Track if a Character is "Present"</span><input type="checkbox" name="attr_sys_track_present" /></li>
+	<li><span>Track Inventory</span><input type="checkbox" name="attr_sys_track_inventory" /></li>
+	<li><span>Enable Armories</span><input type="checkbox" name="attr_sys_enable_armories" /></li>
+	<li><span>Enable Hero Caves</span><input type="checkbox" name="attr_sys_enable_hero_caves" /></li>
+	<li><span>Enable Pets</span><input type="checkbox" name="attr_sys_enable_pets" /></li>
       </ul>
     </div>
 
-    <h4>Approaches</h4>
+    <div class="game-system-goals">
 
-    <p>Approaches are the primary "stat".</p>
+    <h4>Goals</h4>
+
+    <p>Each game has up to 5 goals that can be advanced in each encounter.</p>
+
+      <ul>
+	<li><span>Goal 1</span><input type="text" name="attr_sys_goal_1" /></li>
+	<li><span>Goal 2</span><input type="text" name="attr_sys_goal_2" /></li>
+	<li><span>Goal 3</span><input type="text" name="attr_sys_goal_3" /></li>
+	<li><span>Goal 4</span><input type="text" name="attr_sys_goal_4" /></li>
+	<li><span>Goal 5</span><input type="text" name="attr_sys_goal_5" /></li>
+      </ul>
+    </div>
+
+    <h4>Facets</h4>
+
+    <p>Facets are the primary "stat".</p>
 
     <div class="system-approaches-input">
       <ul>
@@ -198,36 +373,36 @@
     <div class="system-spec-input">
     <h4>Specialties</h4>
     <ul>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_01" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_01" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_02" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_02" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_03" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_03" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_04" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_04" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_05" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_05" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_06" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_06" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_07" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_07" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_08" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_08" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_09" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_09" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_10" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_10" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_11" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_11" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_12" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_12" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_13" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_13" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_14" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_14" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_15" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_15" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_16" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_16" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_17" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_17" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_18" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_18" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_19" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_19" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_20" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_20" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_21" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_21" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_22" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_22" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_23" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_23" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_24" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_24" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_25" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_25" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_26" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_26" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_27" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_27" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_28" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_28" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_29" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_29" /></li>
-      <li><input class="spec-name" type="text" name="attr_sys_spec_20" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_30" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_01" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_01" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_02" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_02" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_03" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_03" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_04" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_04" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_05" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_05" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_06" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_06" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_07" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_07" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_08" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_08" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_09" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_09" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_10" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_10" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_11" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_11" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_12" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_12" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_13" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_13" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_14" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_14" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_15" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_15" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_16" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_16" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_17" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_17" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_18" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_18" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_19" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_19" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_20" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_20" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_21" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_21" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_22" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_22" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_23" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_23" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_24" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_24" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_25" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_25" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_26" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_26" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_27" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_27" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_28" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_28" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_29" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_29" value="specialty description" /></li>
+      <li><input class="spec-name" value="specialty name" type="text" name="attr_sys_spec_20" /><input class="spec-desc" type="text" name="attr_sys_spec_desc_30" value="specialty description" /></li>
     </ul>
     </div>
 
@@ -273,35 +448,23 @@
 </rolltemplate>
 
 <script type="text/worker">
-console.log("==================================");
-console.log("Loading script(s)");
+console.log("==== START =======================");
+console.log("Loading scripts");
 
 on("clicked:loadsystem", function(eventInfo) {
   console.log("You clicked to load this system!");
-}
+});
 
-/*config Roll Queries translations */
+console.log("Script load complete");
+console.log("==== FINISH ======================");
+
+/* config Roll Queries translations */
 on("sheet:opened", function(eventInfo){
   setAttrs({
     public_roll:           getTranslationByKey("public_roll"),
     whisper_roll:          getTranslationByKey("whisper_roll"),
     whisper:               getTranslationByKey("whisper"),
-    fighting_label:        getTranslationByKey("fighting"),
-    income_label:          getTranslationByKey("income_label"),
-    accuracy_label:        getTranslationByKey("accuracy"),
-    communication_label:   getTranslationByKey("communication"),
-    constitution_label:    getTranslationByKey("constitution"),
-    dexterity_label:       getTranslationByKey("dexterity"),
-    perception_label:      getTranslationByKey("perception"),
-    strength_label:        getTranslationByKey("strength"),
-    willpower_label:       getTranslationByKey("willpower"),
-    intelligence_label:    getTranslationByKey("intelligence"),
-    cunning_label:         getTranslationByKey("cunning"),
     none:                  getTranslationByKey("none"),
-    plus_one_tn:           getTranslationByKey("plus_one_tn"),
-    power_cost_label:      getTranslationByKey("power_cost_label"),
-    kanna_cost_label:      getTranslationByKey("kanna_cost_label"),
-    fatigue_tn_label:      getTranslationByKey("fatigue_tn_label"),
     ability:               getTranslationByKey("ability"),
     ability_value:         getTranslationByKey("ability_value"),
     focus_value:           getTranslationByKey("focus_value"),
@@ -310,24 +473,6 @@ on("sheet:opened", function(eventInfo){
     ability_score:         getTranslationByKey("ability_score"),
     roll_description:      getTranslationByKey("roll_description"),
     die_roll:              getTranslationByKey("die_roll"),
-    focus:                 getTranslationByKey("focus"),
-    magic_label:           getTranslationByKey("magic"),
-    magic_arcana_focus:    getTranslationByKey("magic_arcana_focus"),
-    spellcasting_ability:  getTranslationByKey("spellcasting_ability"),
-    psychic_ability:       getTranslationByKey("psychic_ability"),
-    ability_focus:         getTranslationByKey("ability_focus"),
-    arcana_focus:          getTranslationByKey("arcana_focus"),
-    psychic_focus:         getTranslationByKey("psychic_focus"),
-    fatigue_check_for:     getTranslationByKey("fatigue_check_for"),
-    each_fatiguing_spell:  getTranslationByKey("each_fatiguing_spell"),
-    fear_label:            getTranslationByKey("fear_label"),
-    armor_penalty:         getTranslationByKey("armor_penalty"),
-    initiative_adjustment: getTranslationByKey("initiative_adjustment"),
-    initiative:            getTranslationByKey("initiative"),
-    resources:             getTranslationByKey("resources"),
-    attack_bonus_label:    getTranslationByKey("attack_bonus_label"),
-    magic_arcana_focus:    getTranslationByKey("magic_arcana_focus"),
-    spellpower_label:      getTranslationByKey("spellpower_label")
   });     
 });
 
@@ -377,10 +522,11 @@ on('clicked:test', (info) => {
 
 on("sheet:opened", 
   function(event) {
+    console.log("==== SHEET ====");
     console.log("opened sheet");
+    console.log("==== SHEET ====");
   }
 ); // on opened/changes
 
-console.log("Script load complete");
-console.log("==================================");
+
 </script>
