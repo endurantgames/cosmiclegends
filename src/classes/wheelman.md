@@ -106,15 +106,26 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 0 Might.
 
 ::::::::::::: cpw :::::::
+- Balloon
 - Barge
+- Bike
+- Blimp
 - Boat
+- Bus
 - Car
+- Gyrocopter
 - Jet
+- Helicopter
 - Motorcycle
+- Racecar
+- Rocket
 - Saucer
+- Shuttle
 - Ship
+- Skateboard
 - Spaceship
 - Tank
+- Train
 - Truck
 :::::::::::::::::::::::::
 
@@ -128,24 +139,35 @@ Word were one of the regular Scene Power Words.
 ::::::::::::: cpw :::::::
 - Air
 - Alarm
+- Analysis
 - Armor
+- Automatic
 - Blade
 - Boost
 - Brakes
 - Burrowing
 - Cable
+- Camouflaged
 - Cannon
+- Cargo
+- Carry
 - Cloud
+- Compact
+- Construction
 - Crash
 - Eject
 - Evade
 - Exhaust
+- Faster
+- Firefighting
 - Flames
 - Flight
 - Float
+- Fuel
 - Glide
 - Ground
 - Harpoon
+- Heavy
 - Horn
 - Hover
 - Intangible
@@ -155,17 +177,27 @@ Word were one of the regular Scene Power Words.
 - Landing
 - Lift
 - Lights
+- Locked
+- Loud
+- Medical
+- Morphing
 - Oil
+- Off-road
+- Overland
+- Paddle
 - Pontoons
 - Radar
 - Radio
 - Ramming
+- Refuel
+- Repair
 - Rocket
 - Roll
 - Safety
 - Scanner
 - Shield
 - Sideways
+- Silent
 - Siren
 - Skidmark
 - Slick
@@ -174,6 +206,7 @@ Word were one of the regular Scene Power Words.
 - Speed
 - Spikes
 - Stable
+- Stealth
 - Stunt
 - Submersible
 - Tires
@@ -181,7 +214,7 @@ Word were one of the regular Scene Power Words.
 - Trunk
 - Tunnelling
 - Turbo
-- Paddle
+- Uplink
 - Vertical
 - Wheel
 - Winch
@@ -192,7 +225,7 @@ Word were one of the regular Scene Power Words.
 When you have your *Unique Vehicle* use a **Power Display,** you can add 
 one Vehicle Scene Power Word for free.
 
-You can have your *Unique Vehicle* use two Vehicle Scene Power Words 
+You can have your *Unique Vehicle* use two or more Vehicle Scene Power Words 
 together to form a **Power Stunt** or **Power Combo** by paying 1 Might 
 for each beyond the first.
 

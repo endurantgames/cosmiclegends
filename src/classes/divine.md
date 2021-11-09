@@ -120,12 +120,12 @@ by paying 1 Might for each beyond the first.
 
 ### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
+Choose any two to four single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+1 Might, you can include a second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}

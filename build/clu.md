@@ -144,7 +144,7 @@ without being left behind by your team.
 
 ### Teamwork
 
-[]{.gamename} games is written to encourage the players to work 
+[]{.gamename} is written to encourage the players to work 
 together. Whether you're combining your powers to use Power Combos
 or using your skills to overcome an opponent together, heroes in 
 []{.gamename} succeed or fail as a team.
@@ -1976,14 +1976,15 @@ by paying 1 Might for each beyond the first.
 
 ##### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
+Choose any two to four single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+1 Might, you can include a second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+![Adam-42: The One-Officer Police Force](art/jeshields/construct.png "Adam-42: The One-Officer Police Force"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Construct Abilities {  .class}
@@ -2374,12 +2375,12 @@ by paying 1 Might for each beyond the first.
 
 ##### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
+Choose any two to four single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+1 Might, you can include a second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
@@ -3369,23 +3370,6 @@ TBD
 ::::::::::::::::::: { .classdata } :::::::::::
 ### Generic Hero Abilities {#toc-generic .breakbefore .class}
 
-#### Questions
-
-:::::::::: questions :::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::
-
-#### Power Words
-
-You can use your Power Words in the following ways:
-
-- As a **Power Display**, costing no Might
-- As a **Stunt**, costing 1 Might for each Word beyond the first
-- As a **Power Combo**, costing 1 Might and letting others join in
-- Joining a **Power Combo**, costing 1 Might.
-
-When you use a Power Word, it goes on cooldown until the start of
-the next Hero Phase, and you can't use it until it is off cooldown.
-
 #### Generic Hero Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
@@ -3399,6 +3383,21 @@ At the start of Volume 1, choose two abilities from this list or from
 your Class's Volume 1 Class Ability List.
 
 ::::: {.ability-list .v1 } ::::::::::
+
+Arsenal
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+    At the start of each Storyline, pick a number of Power Words
+    from the Inventor or Knight Personal Power Words Lists
+    equal to the Volume.
+    You can use each such Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
+
+Dependable Allies
+:   to be determined
+
+Digital Interface
+:   to be determined
 
 Hero Cave
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
@@ -3437,8 +3436,10 @@ Hero Cave
     - Map
     - Medical
     - Memorial
+    - Observatory
     - Passage
     - Penny
+    - Portal
     - Repairs
     - Reinforced
     - Robot
@@ -3468,50 +3469,27 @@ Break the Fourth Wall
     knowledge in a nonsensical way, count all 4s, 5s, or 6s as 
     successes.
 
-Arsenal
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
-    At the start of each Storyline, pick a number of Power Words
-    from the Inventor or Knight Personal Power Words Lists
-    equal to the Volume.
-    You can use each such Power Word as a Core Power Word once
-    during the current Storyline without paying any Might.
-    This is an *Arsenal* Ability.
-
 Hero Without Fear
 :   You are completely fearless. If you are exposed to any fear-
     based effects, spend 1 Might to counter that use for you only.
     Your lack of fear lets you take risks to save others without
     concern for your own safety: You can choose to add 2 dice when 
     you roll to advance the Rescue goal. If you do, lose 1 Health 
-    or 1 Might after resolving the roll.Choose any two or three single words you like; these are your
-**Nova Power Words**.
-
-At the start of any Storyline, your Nova Power Words are **Locked** and
-you can't use them in Power Displays, Stunts, or Combos.
-
-When you mark all your Ideals, your Nova Power Words are **Unlocked**
-until the end of the current Storyline.
-
-You can use one of your *Unlocked* Nova Power Words in a Power Stunt
-
-or Combo for free; if you spend 1 Might, you can include a second
-Nova Power Word as well.
-
-You can use one or more of your *Locked* Nova Power Words in a Power
-
-Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
-The Nova Power Word remains *Locked*.
+    or 1 Might after resolving the roll.
 
 Local Hero
 :   You and your home town are nearly synonymous. 
     You know the geography of the city like the back of your hand. 
-    Add the name of your city as a Core Power Word.
+    Add the name of your city as a single Core Power Word.
     Add 2 dice whenever you make a skill roll related to the city. 
     While you're in your home city, add 2 dice when you roll to advance 
     the Allay or Rescue goals.
 
     *Repetition* You can take this Ability more than once. When you do, 
-    choose another city in which you can use this Ability.
+    choose another city covered by this Ability.
+
+Well-Connected
+:   To be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3525,8 +3503,9 @@ Chameleon
 :   You can change your physical features to match any person you've
     ever met, or a combination of such features.
     Add "Disguise" as a Core Power Word.
-    Add 2 dice when you use Disguise in a Power Display, Power Stunt, or
-    Power Combo to advance the Outwit goal.
+    When you use "Disguise" in a Power Display, Power Stunt, or
+    Power Combo roll to advance the Outwit goal, add 2 to the 
+    Effectiveness of that roll.
 
 Eidetic Memory
 :   You have what's sometimes called *photographic memory* -- you have perfect
@@ -6986,7 +6965,7 @@ by paying 1 Might for each beyond the first.
 
 ##### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
+Choose any two to four single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
@@ -9808,46 +9787,23 @@ or elsewhere.
 :::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::: bio  :::::::::::::::::::::::::::
 - **Eyes:** (as Del) , (as Energy Boy) 
-- **Hair:** (as Del) , (as Energy Boy) 
+- **Hair:** Brown (originally), none (as Adam-42)
 :::::::::::::::::::::::::::::::::::::::::::::
  
 **History:**
 
-Martin McCord never wanted to be the world's first
+Martin McCord never wanted to become the world's first
 One-Officer-Police-Force, but a near-fatal shootout took
 that choice away from him. Seconds away from dying, his injured
 brain was transplanted into the ADAM-42 android body, saving
 his life and trapping him in a metal form physically superior
 to, and distinctively less functional than, his original human body.
+Officially, McCord is dead -- but with the right prosthetic mask,
+he can pass among humans as Adam Lii, the newest recruit of the
+Los Angeles Police Department.
 
-
-As fate would have it ... that was the time that Thompson's hubris was proven
-a false vanity. The reactor raged out of control as dangerous energies washed
-over her laboratory and the rest of Technopolis.
-
-With Delphine unconscious and dying from radiation poisoning, only quick 
-thinking by Del managed to halt the out-of-control reaction -- at the cost
-of his life. The young boy was completely disintegrated.
-
-Or so everyone believed. Over the next few weeks, Del reformed his body
-from pure nuclear energy. He regained consciousness to find his
-mother had survived -- but had likewise been changed by the overloaded
-reactor. Calling herself Neutrino, she fled police custody and soon joined
-the newly-forming Villains, Inc.
-
-Del was taken in by his mother's former lab partner, Hazel Montgomery,
-the original Vespa. Together with Montgomery's child Lin -- the sidekick
-hero Bug -- Del became one of the first two students at Technopolis Academy 
-and a founding member of the Junior Legends of America.
 
 **Powers:**
-Del's natural state of being is a humanoid form composed of supercharged plasma.
-He can use this energy as destructive blasts, as an energy-backed "nuke punch!", 
-and as a force bubble to absorb energy.
-
-With concentration -- and as a result of years of practice -- he can dampen
-his nuclear energies and assume a human shape, becoming the young man he would
-have been had his mother's pride not cost them both dearly.
 
 :::::::::::: {.stats} ::::::::::::::::
 ##### Adam 42: O-O-P-F
@@ -13143,7 +13099,7 @@ Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
 
 Editor
-:   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues. (*GM* in Harmony Drive.)
+:   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players between Issues. (*GM* in Harmony Drive.)
 
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
@@ -13207,7 +13163,7 @@ Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
-:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+:   Two to Four Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
 
 One-Shot
 :   A game session that isn't part of an ongoing story.

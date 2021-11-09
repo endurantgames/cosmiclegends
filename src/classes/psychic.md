@@ -132,7 +132,7 @@ by paying 1 Might for each beyond the first.
 
 ### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
+Choose any two to four single words you like; these are your **Nova Power Words**.
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 

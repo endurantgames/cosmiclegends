@@ -25,7 +25,7 @@ with their fists or their powers. Those styles are:
 - **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you roll to add to the Teamwork Pool.
 - **Warlord**        Whenever any hero rolls to add to the Teamwork Pool, they increase the effectiveness of their roll by the Volume as long as they can see or hear you.
-- **Weapon Master**  Add 2 dice when you use a melee Weapon power word to advance the Outwit goal.
+- **Weapon Master**  Add 2 dice when you use a melee Weapon power word to roll to advance the Outwit goal.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 If you choose the Knight class, you get to pick an additional fighting style before Volume One.

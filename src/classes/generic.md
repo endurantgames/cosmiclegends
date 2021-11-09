@@ -138,6 +138,19 @@ Chameleon
     Power Combo roll to advance the Outwit goal, add 2 to the 
     Effectiveness of that roll.
 
+Cover Identity
+:   You have a well-established cover identity that hides
+    your secrets, whatever those may be. Choose a name for
+    that identity; you have identification and other
+    documentation for that identity, and you appear credible
+    in databases and online searches.
+
+    Add "Secret" as a Core Power Word.
+    When you use "Secret" in a Power Display, Stunt, or
+    Combo roll to advance the Outwit goal, or when you
+    make a skill roll using the Spy skill, add 2 to the
+    Effectiveness of that roll.
+
 Eidetic Memory
 :   You have what's sometimes called *photographic memory* -- you have perfect
     recall of anything you see, hear, read, or otherwise experience.
