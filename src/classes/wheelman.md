@@ -185,6 +185,7 @@ Word were one of the regular Scene Power Words.
 - Off-road
 - Overland
 - Paddle
+- Parachute
 - Pontoons
 - Radar
 - Radio
@@ -211,6 +212,7 @@ Word were one of the regular Scene Power Words.
 - Submersible
 - Tires
 - Tow
+- Trackless
 - Trunk
 - Tunnelling
 - Turbo
