@@ -1,0 +1,1805 @@
+.container {
+    width: 750px;
+    background-color: white;
+    position: relative;
+}
+
+/* Configuration of Tabs */
+input.tab-button 
+  { opacity: 0;	
+    width: 18px; height: 18px;
+    background-color: lime;
+  }
+
+p.tab-visible-select input { background-color: lime; }
+
+input.tab-button + span {
+    width: 42px; height: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lime;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.tab-button:checked + span { 
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.page.tab1,
+.page.tab2,
+.page.tab3,
+.page.tab4,
+.page.tab5,
+.page.tab6 
+
+{ 
+	display: none;
+}
+
+input.tab-button.tab1:checked ~ .page.tab1,
+input.tab-button.tab2:checked ~ .page.tab2,
+input.tab-button.tab3:checked ~ .page.tab3,
+input.tab-button.tab4:checked ~ .page.tab4,
+input.tab-button.tab5:checked ~ .page.tab5,
+input.tab-button.tab6:checked ~ .page.tab6 { display: block; }
+
+/* SHEET BODY */
+.body {
+    width: 750px;
+    margin-top: 21px;
+}
+
+textarea {
+    width: calc(100% - 8px);
+    resize: vertical;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+}
+
+input { color: black; }
+
+.section {
+    margin-bottom: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 0px;
+    vertical-align: top;
+}
+
+.section-name {
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    height: 25px;
+    width: 100%;
+    border-radius: 0px;
+    background-color: #000000;
+}
+
+.section-name span {
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3px;
+    color: #FFFFFF;
+}
+
+/* CHARACTER TAB */
+
+/* Abilities table */
+
+.col-left-character-tab {
+	width: 325px;
+}
+	
+.col-right-character-tab {
+	width: 421px;
+}
+
+/* Abilities table */
+.abilities-table {
+    display: inline-block;
+}
+
+.ability-container {
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+.left-ability-container { 
+    display: inline-block;
+    width: 267px;
+    border-right: 1px solid black;
+    min-height: 70px;
+}
+
+.ability-name { 
+    width: 250px;
+    display: inline-block;
+}
+
+button.legacy-money-import-button,
+.autoconfig button[type=action],
+.initiative-section button[type=roll],
+.income-section button[type=roll],
+.ability-name button[type=roll] { 
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 12px;
+    background: none;
+    background-image: none;
+    text-shadow: none;
+    box-shadow: none;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.initiative-section .section-name { text-align: center; }
+
+.page .pictos {
+  font-family: "pictos";
+}
+
+.autoconfig button[type=action],
+.initiative-section button[type=roll],
+.income-section button[type=roll] {
+  text-align: center;
+}
+
+.initiative-section button[type=roll]::before,
+.income-section button[type=roll]::before,
+.ability-name button[type=roll]::before,
+.ability-focus-list button[type=roll]::before,
+.spell-short-container button[type=roll]::before { 
+    content: "";
+}
+
+.initiative-section button[type=roll]:hover,
+.initiative-section button[type=roll]:hover *,
+.income-section button[type=roll]:hover,
+.income-section button[type=roll]:hover *,
+.ability-name button[type=roll]:hover,
+.ability-name button[type=roll]:hover *,
+.ability-focus-list button[type=roll]:hover,
+.ability-focus-list button[type=roll]:hover *,
+.spell-short-container button[type=roll]:hover,
+.spell-short-container button[type=roll]:hover * { 
+    color: #EC2127;
+}
+
+.ability-name button[type=roll] *,
+.ability-focus-list button[type=roll] * {
+    pointer-events: none;
+}
+
+.autoconfig { text-align: center; }
+
+.condition-checkbox,
+.primary-checkbox { 
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.condition-checkbox input[type="checkbox"],
+.primary-checkbox input[type="checkbox"],
+.list-toggle-container input[type="checkbox"] {
+    opacity: 0;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    left: 5px;
+    margin: -10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.condition-checkbox span {
+        text-size: 7px;
+}
+
+
+.condition-checkbox input[type="checkbox"] + span::before,
+.primary-checkbox input[type="checkbox"] + span::before,
+.list-toggle-container input[type="checkbox"] + span::before {
+    margin-right: 4px;
+    border: 1px solid black;
+    line-height: 12px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    background: white;
+}
+
+.condition-checkbox input[type="checkbox"] + span::before,
+.primary-checkbox input[type="checkbox"] + span::before,
+.list-toggle-container input[type="checkbox"] + span::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.condition-checkbox input[type="checkbox"]:checked + span::before,
+.primary-checkbox input[type="checkbox"]:checked + span::before,
+.list-toggle-container input[type="checkbox"]:checked + span::before {
+    content: "✓";
+    color: black;
+}
+
+.right-ability-container input[type=number]::-webkit-inner-spin-button,
+.right-ability-container input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.right-ability-container input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.right-ability-container input[type=number] {
+
+    text-align: center;
+    font-size: 35px;
+    width: 50px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    color: black;
+    margin-top: 24%;
+    margin-bottom: 15%;
+}
+
+.ability-focus-list {
+    width: 100%;
+    min-height: 44px;
+    background: #f5f5f5;
+}
+
+.ability-focus-list button[type=roll] {
+    display: inline-block;
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-size: 12px;
+    padding-right: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.ability-focus-list .repitem {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ability-focus-list .repitem:last-child .focus-comma,
+.ability-focus-list .repcontrol {
+    display:none;
+}
+
+	/* Right column */
+.sectionfourth {
+    width: calc(25% - 4.71px);
+    height: 92px;
+}
+
+.sectiontwofourths {
+    width:  calc(50% - 3.79px);
+    height: 92px;
+}
+
+.sectiononethird {
+                width:  calc(33.3% - 3.79px);
+        /*      height: 92px;  */
+}
+
+.conditions {
+        width: 100%;
+        text-align: center;
+}
+
+.condition-list .sectiononethird div {
+        width: 100%;
+        padding-left: 1.0em;
+}
+
+.conditions-section,
+.conviction-section,
+.corruption-section,
+.equipment-section,
+.experience-points-section,
+.fatigue-section,
+.fear-section,
+.horror-section,
+.income-section,
+.initiative-section,
+.mana-section,
+.money-section,
+.power-short-container,
+.spell-short-divtohide, {
+    display: none;
+}
+
+.fear-section select,
+.horror-section select,
+.fatigue-section select {
+    display: inline-block;
+    font-size: 9px;
+    line-height: 9px;
+    width: 100%;
+    color: #A0A0A0;
+    text-align: center;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border: none;
+    color: black;
+    padding: none;
+}
+
+.income-section input[name="attr_income"],
+.health input[name="attr_health"],
+
+.fear-section input,
+.horror-section input,
+.fatigue-section input,
+.initiative-section input[name="attr_init"],
+.conviction-section input[name="attr_conviction"],
+.corruption-section input {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+    font-size: 30px;
+    padding-right: 0px;
+    padding-left: 19px;	
+    padding-bottom: 0px;
+    padding-top: 7px;
+}
+
+.fear-section input,
+.horror-section input,
+.fatigue-section input {
+    padding-left: 10px;
+}
+
+.health .maximum-input span { 
+    height: 50px;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A0A0A0;
+}
+
+.conviction-section .maximum-input span { 
+    height: 50px;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: right;
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A0A0A0;
+}
+
+.health input[name="attr_health"],
+.mana-section input[name="attr_mana"],
+.experience-points-section input[name="attr_experience-points"] { 
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+    font-size: 30px;
+    padding-right: 0px;
+    padding-left: 19px;	
+    padding-bottom: 0px;
+    padding-top: 7px;
+}
+
+.maximum-input span { 
+    height: 50px;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A0A0A0;
+}
+
+.maximum-input input { 
+    display: inline-block;
+    border-bottom: 1px solid #B0B0B0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: #A0A0A0;
+    width: 30px;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: center;
+}
+
+.maximum-input input[type=number]::-webkit-inner-spin-button,
+.maximum-input input[type=number]::-webkit-outer-spin-button,
+.experience-points-section input[type=number]::-webkit-inner-spin-button,
+.experience-points-section input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.experience-points-section .maximum-input span { 
+    margin-left: 62px;
+}
+
+.experience-points-section .maximum-input input { 
+    width: 55px;
+}
+
+.health .maximum-input input[type=number],
+.mana-section .maximum-input input[type=number],
+.experience-points-section input[type=number] { 
+    -moz-appearance:textfield;
+}
+
+.experience-points-section input[name="attr_experience-points"] {
+    padding-right: 20px;
+}
+
+.sectionfull { 
+    width: 419px;
+}
+
+/* ------------------- sdaat ------------- */
+input.mana-section-checkbox:not(:checked) + input.exp-section-checkbox:not(:checked) + input.fatigue-section-checkbox:not(:checked) + input.conviction-section-checkbox:not(:checked) + input.corruption-section-checkbox:not(:checked) ~ .page .sdaat-container .maximum-input span { margin-left: 0; }
+
+.sdaat-container .sdaat-i,
+.sdaat-container .sdaat-b { position: absolute; top: 36px; font-size: 20px; font-family: serif; text-transform: uppercase; color: #A0A0A0; }
+.sdaat-container .sdaat-i { right: 92px; }
+.sdaat-container .sdaat-b { right: 6px; }
+
+.sdaat-container select { 
+                height: 20px; 
+                display: inline-block; 
+                background: transparent; 
+                border: none; 
+                font-size: 10px;
+                line-height: 9px; 
+                margin-left: 0; 
+                margin-right: 0; 
+                margin-top: 0; 
+                margin-right: 0; 
+                color: #A0A0A0; 
+                text-align: center;
+                width: 75px; 
+}
+.sdaat-container .col-double { display: inline-block; width: 39%; }
+
+.sdaat-container { text-align: center; height: 92px; position: relative; }
+.sdaat-container .col { width: 19%; }
+
+.income-container .income-score,
+.sdaat-container .sdaat-score {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.income-container .income-score input,
+.sdaat-container .sdaat-score input {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.sdaat-container .sdaat-score input[name="attr_armor"], 
+.sdaat-container .sdaat-score input[name="attr_toughness"],
+.sdaat-container .sdaat-score input[name="attr_armor-b"] { margin-left: 7.5px; }  
+.sdaat-container .col .maximum-input span { margin-left: 0; height: 24px; }
+.sdaat-container .col .maximum-input input { width: 35px; margin-left: 0; margin-top: -1px; height: 24px; } 
+.sdaat-container .sdaat-score input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.sdaat-container .sdaat-score input[type=number] { -moz-appearance:textfield; }
+
+/* ------------------- sdaat ------------- */
+
+.speed-defense-armor-container {
+    height: 92px;
+}
+
+.speed-defense-armor-container .col {
+    width: 32.5%;
+}
+
+.speed-defense-score { 
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.speed-defense-score input {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.speed-defense-score input[name="attr_armor"] { 
+    margin-left: 7.5px;
+}
+
+
+.speed-defense-armor-container .maximum-input span { 
+    margin-left: 37px;
+}
+
+
+.speed-defense-armor-container .maximum-input input { width: 35px; margin-top: -1px; }
+.speed-defense-score input[type=number]::-webkit-inner-spin-button,
+.speed-defense-score input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.speed-defense-score input[type=number] { 
+    -moz-appearance:textfield;
+}
+
+.sectionfull .repitem {
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.repeatingcol input,
+.col-weapon-groups input { 
+    display: inline-block;
+    font-size: 12px;
+    border:none;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.col-attack-name input,
+.col-attack-range input,
+.col-attack-reload input,
+.col-ammo input[type=number],
+.equipment-name input,
+.equipment-quantity input,
+.equipment-description input,
+.power-short-name input,
+.power-short-description input { 
+    width: 100%;
+}
+
+.col-attack-name { 
+    width: 158px;
+}
+
+.col-attack-range,
+.col-attack-reload,
+.col-attackdice { 
+    width: 55px;
+}
+
+.attack-container .col-ammo {
+    width: 30px;
+    display: none;
+}
+
+.col-ammo input[type=number]::-webkit-inner-spin-button,
+.col-ammo input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+}
+
+.money-score input[type=number] { 
+    -moz-appearance:textfield;
+}
+
+.col-attackdice input {
+    width: 38px;
+    margin-left: 5px;
+}
+
+.col-attackdice .attackroll-withprompt,
+.col-attackdice .attackroll-withprompt::before {
+    display: none;
+}
+
+.col-attack-damage {
+    width: 80px;
+}
+
+.col-attack-damage input {
+    width: 58px;
+    margin-left: 6px;
+}
+
+.repeatingcol button[type=roll],
+.focus-container button[type=roll] {
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 18px;
+    width: 10px;
+    padding: 0px;
+    margin-left: -2px;
+    margin-right: 0px;
+}
+
+.equipment-name {
+    width: 150px;
+}
+
+.equipment-quantity {
+    width: 75px;
+}
+
+.equipment-description {
+	width: 186px;
+}
+
+.col-weapon-groups {
+	border-top: 1px solid black;
+}
+
+.col-weapon-groups input {
+	width: 100%;
+	border-bottom: none;
+}
+
+.power-short-description textarea,
+.spell-short-description textarea,
+.row-spell-short-description textarea,
+.equipment-description textarea {
+    display: inline-block;
+    min-height: 36px;
+    height: 18px;
+    resize: vertical;
+    border: none;
+    margin: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+
+.equipment-description textarea {
+    min-height: 22px;
+    height: 22px
+}
+
+.power-short-name {
+    width: 150px;
+}
+
+.power-short-name input[type=text] {
+    margin-top: 7px;
+}
+
+.power-short-description {
+	width: 265px;
+}
+
+.power-short-container .repcontrol,
+.spell-short-container .repcontrol {
+	display: none;
+}
+
+.spell-short-name {
+    width: 150px;
+}
+
+.spell-short-name {
+    margin-left: 0px;
+}
+
+.spell-short-description {
+    width: 265px;
+    margin-bottom: 1px;
+}
+
+
+
+.spell-short-container button[type=roll] {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-size: 12px;
+    padding-right: 0px;
+    margin-top: 11px;
+    color: black;
+}
+
+.spell-short-container textarea {
+    background-color:#FFF !important;
+                margin-bottom: 0;
+}
+
+.money-section { 
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.money-container { display: inline-block; height: 68px; width: 50px; }
+
+.legacy-money-section .money-score,
+.money-section .money-score { 
+    display: inline-block;
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    float: right;
+}
+
+.page .autoconfig.section-name,
+.legacy-money-section .section-name {
+  text-align: right;
+}
+
+.legacy-money-section .money-score input[type="number"],
+.money-section .money-score input[type="text"] {
+                width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+    margin-top: 6px;
+}
+
+.money-section .money-name input[type="text"] {
+                width: 100%;
+                font-size: 12px;
+                color: gray; 
+                border: none;
+                text-align: center;
+                box-shadow: none;
+                height: 16px;
+}
+
+.money-section fieldset + div { text-align: right; }
+.money-section fieldset + div > div { display: inline-block; }
+
+.money-score input[type=number]::-webkit-inner-spin-button,
+.money-score input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.money-score input[type=number] { 
+    -moz-appearance:textfield;
+}
+
+.legacy-money-section { display: none; }
+input.legacy-money-checkbox:checked ~ .page .legacy-money-section {
+  display: block;
+}
+
+.income-section {
+                height: 92px;
+                text-align: center;
+                width: 100px;
+}
+
+.ability-name button[type=roll] *,
+/* PERSONA TAB */
+
+.persona-section {
+    width: 100%
+}
+
+.left-persona {
+    width: 249px;
+}
+
+.right-persona {
+    width: 495px;
+}
+
+.textbox textarea {
+    border: none;
+    margin: 0px;
+    padding-bottom: 0px;
+    min-height: 48px;
+    height: 48px;
+    line-height: 20px;
+}
+
+/* POWERS TAB */
+
+.power-container {
+    width: 748px;
+}
+
+.power-section-name,
+.spell-section-name {
+    border: 1px solid black;
+}
+
+.power-section-name input[type=text],
+.spell-section-name input[type=text] {
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding: 0px;
+    color: #FFFFFF;
+}
+
+.power-stats .col {
+    width: 372px;
+}
+
+.power-stats span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.row-power-type-source {
+    margin-bottom: 4px;
+}
+
+.power-stats input[type=text],
+.focus-container input[type=text] {
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #B0B0B0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .spell-container .row-shortpowerdescription textarea,
+.spell-container .row-fullpowerdescription textarea,
+.spell-container .row-short-spell-description textarea,
+.spell-container .row-full-spell-description textarea {
+    display: inline-block;
+    width: 658px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #B0B0B0;
+    padding: 0px;
+                margin-bottom: 0;
+}
+*/
+
+.row-shortpowerdescription textarea,
+.row-short-spell-description textarea { 
+    height: 36px;
+}
+
+.row-fullpowerdescription textarea,
+.row-full-spell-description textarea { 
+    height: 72px;
+}
+
+/* FOCUSES TAB */
+.tab4 .col { 
+    width: 247px;
+}
+
+.focus-section { 
+    display:inline-block;
+    width: 100%;
+}
+
+.focus-section-name { 
+    border: 1px solid black;
+}
+
+.focus-container span { 
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.focus-container input[name=attr_focusname] { 
+    width: 158px;
+}
+
+.focus-container input[type=number]::-webkit-inner-spin-button,
+.focus-container input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.focus-container input[type=number] { 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #B0B0B0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px;
+    width: 15px;
+    -moz-appearance:textfield;
+}
+
+.focus-container textarea { 
+    display: inline-block;
+    width: 247px;
+    height: 36px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #B0B0B0;
+    padding: 0px;
+}
+
+/* MAGIC/ARCANA TAB */
+
+.spell-container { 
+    width: 748px;
+}
+
+select.spell-method { width: 100px; position: absolute; left: 2px; top: 2px; height: 20px; background-color: transparent; color: white; padding: 0; border: none; }
+select.spell-method option { background-color: white; color: black; }
+.spell-section-name { position: relative; }
+
+.spell-container input.spell-method-uses-fatigue:checked ~ .spell-stats .spell-uses-points,
+.spell-container input.spell-method-uses-points:checked  ~ .spell-stats .spell-uses-fatigue { display: none; }
+.spell-container input.spell-method-uses-fatigue:checked ~ .spell-stats .spell-uses-fatigue,
+.spell-container input.spell-method-uses-points:checked  ~ .spell-stats .spell-uses-points { display: inline-block; }
+
+.spell-short-container input.spell-method-uses-fatigue:checked ~ .spell-short-name .spell-uses-points,
+.spell-short-container input.spell-method-uses-points:checked  ~ .spell-short-name .spell-uses-fatigue { display: none; }
+.spell-short-container input.spell-method-uses-fatigue:checked ~ .spell-short-name .spell-uses-fatigue,
+.spell-short-container input.spell-method-uses-points:checked  ~ .spell-short-name .spell-uses-points { display: inline-block; }
+
+.spell-container .spell-uses-fatigue input[type=text] { width: 132px; }
+
+.col-spell-stats { 
+    width: 245px;
+}
+
+.col-spell-stats .row { 
+    height: 20px;
+}
+
+.spell-stats span { 
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.spell-stats input { 
+    width: 148px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #B0B0B0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+.spell-stats input[type=number] {
+    -moz-appearance:textfield;
+    width: 148px;
+}
+
+.spell-stats input[type=number]::-webkit-inner-spin-button,
+.spell-stats input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.spell-stats button[type=roll] {
+    display: inline-block;
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.spell-stats select {
+    display: inline-block;
+    width: 148px;
+    border-bottom: 1px solid #B0B0B0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: -9px;
+    background: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    color: black;
+}
+
+/* OPTIONS TAB */
+
+.page.tab6 select[name="attr_armor-penalty-for-dex"] {
+  width: 50px;
+}
+
+input[type=checkbox].hiddencheckbox  { 
+    display:none
+}
+
+.extraordinary-tab-span,
+.arcana-tab-span {
+    display: none;
+}
+
+input.threefold-button:checked ~ .magic-tab-span,
+input.world-of-lazarus-button:checked ~ .magic-tab-span,
+input.modern-age-button:checked ~ .magic-tab-span,
+input.blue-rose-button:checked ~ .magic-tab-span { 
+    display: none;
+}
+
+input.blue-rose-button:checked ~ input.tab-button.tab1,
+input.blue-rose-button:checked ~ input.tab-button.tab1 + span {
+    right: 294px;
+    width: 87px;
+}
+
+input.blue-rose-button:checked ~ input.tab-button.tab2,
+input.blue-rose-button:checked ~ input.tab-button.tab2 + span {
+    right: 222px;
+    width: 69px;
+}
+
+input.blue-rose-button:checked ~ input.tab-button.tab3,
+input.blue-rose-button:checked ~ input.tab-button.tab3 + span {
+    right: 154px;
+    width: 65px;
+}
+
+input.blue-rose-button:checked ~ input.tab-button.tab4,
+input.blue-rose-button:checked ~ input.tab-button.tab4 + span {
+    right: 85px;
+    width: 66px;
+}
+
+input.threefold-button:checked ~ input.tab-button.tab1,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab1,
+input.modern-age-button:checked ~ input.tab-button.tab1,
+input.threefold-button:checked ~ input.tab-button.tab1 + span,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab1 + span,
+input.modern-age-button:checked ~ input.tab-button.tab1 + span {
+    right: 347px;
+    width: 87px;
+}
+
+input.threefold-button:checked ~ input.tab-button.tab2,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab2,
+input.modern-age-button:checked ~ input.tab-button.tab2,
+input.threefold-button:checked ~ input.tab-button.tab2 + span,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab2 + span,
+input.modern-age-button:checked ~ input.tab-button.tab2 + span {
+    right: 275px;
+    width: 69px;
+}
+
+input.threefold-button:checked ~ input.tab-button.tab3,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab3,
+input.modern-age-button:checked ~ input.tab-button.tab3,
+input.threefold-button:checked ~ input.tab-button.tab3 + span,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab3 + span,
+input.modern-age-button:checked ~ input.tab-button.tab3 + span {
+    right: 207px;
+    width: 65px;
+}
+
+input.threefold-button:checked ~ input.tab-button.tab4,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab4,
+input.modern-age-button:checked ~ input.tab-button.tab4,
+input.threefold-button:checked ~ input.tab-button.tab4 + span,
+input.world-of-lazarus-button:checked ~ input.tab-button.tab4 + span,
+input.modern-age-button:checked ~ input.tab-button.tab4 + span {
+    right: 138px;
+    width: 66px;
+}
+
+input.blue-rose-button:checked ~ .arcana-tab-span,
+input.blue-rose-button:checked ~ .tab-button.tab5 { 
+    display: block;
+    position: absolute;
+    top: 92px;
+    right: 20px;
+    width: 62px;
+    height: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.tab-button.tab5:checked ~ .arcana-tab-span {
+    color: #FFFFFF;
+}
+
+input.threefold-button:checked ~ .extraordinary-tab-span,
+input.modern-age-button:checked ~ .extraordinary-tab-span,
+input.threefold-button:checked ~ .tab-button.tab5,
+input.world-of-lazarus-button:checked ~ .tab-button.tab5,
+input.modern-age-button:checked ~ .tab-button.tab5 { 
+    display: block;
+    position: absolute;
+    top: 92px;
+    right: 20px;
+    width: 115px;
+    height: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.tab-button.tab5:checked ~ .extraordinary-tab-span {
+    color: #FFFFFF;
+}
+
+.dragon-age-selected,
+.fantasy-age-selected,
+.titansgrave-selected,
+.blue-rose-selected,
+.clotu-selected,
+.second-gen-selected,
+.modern-age-selected,
+.threefold-selected,
+.world-of-lazarus-selected,
+.the-expanse-selected {
+    display:none;
+}
+
+input.black-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.black-color-checkbox:checked ~ .tab-button.tab5:checked + span + span {
+    background-color: #000000;
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-red,
+input.red-color-checkbox:checked ~ .tab-button:checked + span,
+input.red-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.red-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.red-color-checkbox:checked ~ .page .section-name  { 
+    background-color: #810206;
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-teal1,
+input.teal1-color-checkbox:checked ~ .tab-button:checked + span,
+input.teal1-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.teal1-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.teal1-color-checkbox:checked ~ .page .section-name  { 
+    background-color: #00576B;
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-teal2,
+input.teal2-color-checkbox:checked ~ .tab-button:checked + span,
+input.teal2-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.teal2-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.teal2-color-checkbox:checked ~ .page .section-name  {
+    background-color: #1f7b92;
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-blue1,
+input.blue1-color-checkbox:checked ~ .tab-button:checked + span,
+input.blue1-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.blue1-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.blue1-color-checkbox:checked ~ .page .section-name  { 
+    background-color: #007ab8;
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-blue2,
+input.blue2-color-checkbox:checked ~ .tab-button:checked + span,
+input.blue2-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.blue2-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.blue2-color-checkbox:checked ~ .page .section-name { 
+    background-color: #006496;
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-orange,
+input.orange-color-checkbox:checked ~ .tab-button:checked + span,
+input.orange-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.orange-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.orange-color-checkbox:checked ~ .page .section-name  { 
+                background-image: radial-gradient(ellipse at top, #bc610e, #431c00);
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-threefold,
+input.threefold-color-checkbox:checked ~ .tab-button:checked + span,
+input.threefold-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.threefold-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.threefold-color-checkbox:checked ~ .page .section-name  { 
+                background-image: linear-gradient(135deg, #00658D, #2A828E, #87641B, #c79846, #851c07);
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-rainbow,
+input.rainbow-color-checkbox:checked ~ .tab-button:checked + span,
+input.rainbow-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.rainbow-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.rainbow-color-checkbox:checked ~ .page .section-name  { 
+                background-image: radial-gradient(circle at bottom left, mediumvioletred, firebrick, darkorange, darkkhaki, forestgreen, blue, darkviolet);
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-green,
+input.green-color-checkbox:checked ~ .tab-button:checked + span,
+input.green-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.green-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.green-color-checkbox:checked ~ .page .section-name  { 
+                background-image: radial-gradient(circle at center, #1d8514, #1d8514, black);
+}
+
+/* dragonscale texture from https://www.myfreetextures.com/four-dragon-scale-background-textures/ */
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-dragon,
+input.dragon-color-checkbox:checked ~ .tab-button:checked + span,
+input.dragon-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.dragon-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.dragon-color-checkbox:checked ~ .page .section-name  { 
+                background-image: url("https://i.imgur.com/ZiUOVSE.jpg");
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-lazarus,
+input.lazarus-color-checkbox:checked ~ .tab-button:checked + span,
+input.lazarus-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.lazarus-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.lazarus-color-checkbox:checked ~ .page .section-name  { 
+                background-image: radial-gradient(circle at center, #3A8BCC, #124179);
+}
+
+.rolltemplate-age-roller .clotu-roller-title.clotu-roller-color-stars,
+input.stars-color-checkbox:checked ~ .tab-button:checked + span,
+input.stars-color-checkbox:checked ~ .tab-button.tab5:checked + span + span,
+input.stars-color-checkbox:checked ~ .tab-button.tab5:checked + span + span + span,
+input.stars-color-checkbox:checked ~ .page .section-name  { 
+                background-image: url("http://i.imgur.com/Xsnnevo.png");
+}
+
+input.stars-color-checkbox:checked ~ .tab4 .ability-strength .section-name, 
+input.stars-color-checkbox:checked ~ .tab4 .ability-intelligence .section-name, 
+input.stars-color-checkbox:checked ~ .tab4 .ability-accuracy .section-name,
+input.stars-color-checkbox:checked ~ .tab1 .ability-strength .section-name, 
+input.stars-color-checkbox:checked ~ .tab1 .ability-fighting .section-name, 
+input.stars-color-checkbox:checked ~ .tab1 .ability-communication .section-name, 
+input.stars-color-checkbox:checked ~ .page .section:nth-child(odd) .section-name  { 
+                background-image: url("http://i.imgur.com/CEij2yw.png");
+}
+input.stars-color-checkbox:checked ~ .tab4 .ability-willpower .section-name,
+input.stars-color-checkbox:checked ~ .tab4 .ability-dexterity .section-name,
+input.stars-color-checkbox:checked ~ .tab4 .ability-communication .section-name, 
+input.stars-color-checkbox:checked ~ .tab1 .ability-constitution .section-name, 
+input.stars-color-checkbox:checked ~ .tab1 .ability-intelligence .section-name, 
+input.stars-color-checkbox:checked ~ .tab1 .ability-willpower .section-name { 
+                background-image: url("https://i.imgur.com/aRp1Jdz.png");
+}
+
+.rolltemplate-age-roller .die-face-drama.color-red,
+input.red-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.red-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.red-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.red-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.red-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.red-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.red-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #810206;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-teal1,
+input.teal1-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.teal1-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.teal1-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.teal1-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.teal1-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.teal1-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.teal1-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #00576B;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-teal2,
+input.teal2-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.teal2-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.teal2-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.teal2-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.teal2-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.teal2-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.teal2-color-checkbox:checked ~ .page .spell-container button[type=roll]::before { 
+    color: #1f7b92;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-blue1,
+input.blue1-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.blue1-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.blue1-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.blue1-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.blue1-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.blue1-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.blue1-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #007ab8;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-blue2,
+input.blue2-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.blue2-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.blue2-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.blue2-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.blue2-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.blue2-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.blue2-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #006496;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-orange,
+input.orange-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.orange-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.orange-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.orange-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.orange-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.orange-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.orange-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #BC610E;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-stars,
+input.stars-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.stars-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.stars-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.stars-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.stars-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.stars-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.stars-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: black;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-threefold,
+input.threefold-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.threefold-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.threefold-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.threefold-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.threefold-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.threefold-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.threefold-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #1f7b92;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-lazarus,
+input.lazarus-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.lazarus-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.lazarus-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.lazarus-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.lazarus-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.lazarus-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.lazarus-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+    color: #007ab8;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-green,
+input.green-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.green-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.green-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.green-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.green-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.green-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.green-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+                color: #1D8514;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-rainbow,
+input.rainbow-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.rainbow-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.rainbow-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.rainbow-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.rainbow-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.rainbow-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.rainbow-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+                color: blueviolet;
+}
+
+.rolltemplate-age-roller .die-face-drama.color-dragon,
+input.dragon-color-checkbox:checked ~ .page .repcontrol .repcontrol_edit:after,
+input.dragon-color-checkbox:checked ~ .page .repcontrol .repcontrol_add:before,
+input.dragon-color-checkbox:checked ~ button[type=roll].floating-dice-roller::before,
+input.dragon-color-checkbox:checked ~ .page .attack-container button[type=roll]::before,
+input.dragon-color-checkbox:checked ~ .page .spell-short-container button[type=roll]::before,
+input.dragon-color-checkbox:checked ~ .page .focus-container button[type=roll]::before,
+input.dragon-color-checkbox:checked ~ .page .spell-container button[type=roll]::before {
+                color: darkred;
+}
+
+
+input.dragon-age-button:checked       ~ .page .no-dragon-age-selected,
+input.fantasy-age-button:checked      ~ .page .no-fantasy-age-selected,
+input.titansgrave-button:checked      ~ .page .no-titansgrave-selected,
+input.blue-rose-button:checked        ~ .page .no-blue-rose-selected,
+input.the-expanse-button:checked      ~ .page .no-the-expanse-selected,
+input.modern-age-button:checked       ~ .page .no-modern-age-selected,
+input.threefold-button:checked        ~ .page .no-threefold-selected,
+input.world-of-lazarus-button:checked ~ .page .no-world-of-lazarus-selected {
+  display: none;
+}
+
+.mod-selected { display: none; }
+
+/* specific games */
+input.dragon-age-button:checked       ~ .page .dragon-age-selected,
+input.fantasy-age-button:checked      ~ .page .fantasy-age-selected,
+input.titansgrave-button:checked      ~ .page .titansgrave-selected,
+input.blue-rose-button:checked        ~ .page .blue-rose-selected,
+input.the-expanse-button:checked      ~ .page .the-expanse-selected,
+input.modern-age-button:checked       ~ .page .modern-age-selected,
+input.threefold-button:checked        ~ .page .threefold-selected,
+input.world-of-lazarus-button:checked ~ .page .world-of-lazarus-selected,
+input.dragon-age-button:checked       ~ .page .clotu-selected,
+input.fantasy-age-button:checked      ~ .page .clotu-selected,
+input.titansgrave-button:checked      ~ .page .clotu-selected,
+input.modern-age-button:checked       ~ .page .mod-selected,
+input.threefold-button:checked        ~ .page .mod-selected,
+input.world-of-lazarus-button:checked ~ .page .mod-selected,
+input.fantasy-age-button:checked      ~ .page .second-gen-selected,
+input.titansgrave-button:checked      ~ .page .second-gen-selected,
+input.blue-rose-button:checked        ~ .page .second-gen-selected { 
+    display: inline-block;
+}
+
+input.modern-age-button:checked ~ .page .no-mod-selected,
+input.threefold-button:checked ~ .page .no-mod-selected,
+input.world-of-lazarus-button:checked ~ .page .no-mod-selected {
+display: none;
+}
+
+input.dragon-age-button:checked ~ .page .blue-rose-selected,
+input.fantasy-age-button:checked ~ .page .blue-rose-selected,
+input.titansgrave-button:checked ~ .page .blue-rose-selected,
+input.blue-rose-button:checked ~ .page .clotu-selected,
+input.the-expanse-button:checked ~ .page .blue-rose-selected { 
+    display: none;
+}
+
+.tab6 .row {
+    float: right;
+}
+
+.col-options {
+    width: 373px;
+}
+
+.small-section {
+    width: 182.7px;
+}
+
+.larger-section {
+    width: 371px;
+}
+
+.list-toggle-text {
+    margin-top: 1px;
+    margin-right: 7px;
+    margin-bottom: 3px;
+}
+
+.aim-toggle-text {
+    margin-top: 5px;
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+
+.select-text {
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.list-toggle-container input[type="checkbox"] + span::before {
+    margin-right: none;
+}
+
+.tab6 .section select {
+	    border-bottom: 1px solid #D3D3D3;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: none;
+    box-shadow: none;
+    float: right;
+    width: 150px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 1px;
+    padding: 0px;
+}
+
+.tab6 .section select[name="attr_char-name-option"] {
+    width: 75px;
+}
+
+input.aim-toggle-checkbox:checked ~ .page .attackroll-noaim,
+input.aim-toggle-checkbox:checked ~ .page .attackroll-noaim::before,
+input.aim-prompt-checkbox:checked ~ .page .attackroll-noaim,
+input.aim-prompt-checkbox:checked ~ .page .attackroll-noaim::before,
+input.aim-always-checkbox:checked ~ .page .attackroll-noaim,
+input.aim-always-checkbox:checked ~ .page .attackroll-noaim::before
+{
+    display: none;
+}
+
+input.aim-toggle-checkbox:checked         ~ .page .attackroll-withprompt,
+input.aim-toggle-checkbox:checked         ~ .page .attackroll-withprompt::before,
+input.aim-prompt-checkbox:checked         ~ .page .attackroll-withprompt,
+input.aim-prompt-checkbox:checked         ~ .page .attackroll-withprompt::before,
+input.aim-always-checkbox:checked         ~ .page .attackroll-withprompt,
+input.aim-always-checkbox:checked         ~ .page .attackroll-withprompt::before,
+input.conditions-section-checkbox:checked ~ .page .conditions-section,
+input.mana-section-checkbox:checked       ~ .page .mana-section,
+input.exp-section-checkbox:checked        ~ .page .experience-points-section,
+input.fatigue-section-checkbox:checked    ~ .page .fatigue-section,
+input.fear-section-checkbox:checked       ~ .page .fear-section,
+input.horror-section-checkbox:checked     ~ .page .horror-section,
+input.conviction-section-checkbox:checked ~ .page .conviction-section,
+input.corruption-section-checkbox:checked ~ .page .corruption-section,
+input.ammo-col-checkbox:checked           ~ .page .attack-container .col-ammo,
+input.power-list-checkbox:checked         ~ .page .power-short-container,
+input.spell-list-checkbox:checked         ~ .page .spell-short-divtohide,
+input.equipment-section-checkbox:checked  ~ .page .equipment-section,
+input.income-section-checkbox:checked     ~ .page .income-section,
+input.initiative-section-checkbox:checked ~ .page .initiative-section,
+input.money-section-checkbox:checked      ~ .page .money-section  {
+    display: inline-block;
+}
+
+input.whisper-toggle-checkbox:checked ~ input.tab-button.tab-whisper,
+input.whisper-toggle-checkbox:checked ~ input.tab-button.tab-whisper + span,
+input.aim-toggle-checkbox:checked ~ input.tab-button.tab-aim,
+input.aim-toggle-checkbox:checked ~ input.tab-button.tab-aim + span {
+    display: block;
+}
+
+input.old-section-checkbox:checked ~ input.tab-button.tab-whisper,
+input.old-section-checkbox:checked ~ input.tab-button.tab-whisper + span {
+    left: 154px;
+}
+
+input.old-section-checkbox:checked ~ input.tab-button.tab-aim,
+input.old-section-checkbox:checked ~ input.tab-button.tab-aim + span {
+    left: 222px;
+}
+
+input.mana-section-checkbox:not(:checked) + input.exp-section-checkbox:not(:checked) + input.fatigue-section-checkbox:not(:checked) + input.conviction-section-checkbox:not(:checked) + input.corruption-section-checkbox:not(:checked) ~ .page .speed-defense-armor-container {
+    width: calc(75% - 2.9px);
+}
+
+input.mana-section-checkbox:not(:checked) + input.exp-section-checkbox:not(:checked) + input.fatigue-section-checkbox:not(:checked) + input.conviction-section-checkbox:not(:checked) + input.corruption-section-checkbox:not(:checked) ~ .page .speed-defense-score {
+    margin-left: 33%;
+}
+
+input.mana-section-checkbox:not(:checked) + input.exp-section-checkbox:not(:checked) + input.fatigue-section-checkbox:not(:checked) + input.conviction-section-checkbox:not(:checked) + input.corruption-section-checkbox:not(:checked) ~ .page .maximum-input span {
+    margin-left: 20px;
+}
+
+input.ammo-col-checkbox:checked ~ .page .attack-container .col-attack-name {
+    width: 125px;
+}
+
+.aim-value-field input[type=number] {
+    text-align: center;
+    width: 18px;
+    border-top: 0px;
+    border-left:0px;
+    border-right: 0px;
+    border-bottom: 1px solid #D3D3D3;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-right: 3px;
+    margin-top: 6px;
+    padding: 0px;
+}
+
+.aim-value-field input[type=number]::-webkit-inner-spin-button,
+.aim-value-field input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+}
+
+.aim-value-field input[type=number] { 
+    -moz-appearance:textfield;
+}
+
+.version-name {
+    font-weight: bold;
+    float: right;
+}
+
+/* ROLL TEMPLATES */
+
+.rolltemplate-default table {
+    border: 1px solid black;
+}
+
+.rolltemplate-default caption {
+    background-color: black;
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.rolltemplate-default td:first-child {
+    text-align: left;
+}
+
+.rolltemplate-default td:nth-child(2) {
+    text-align: right;
+}
+
+.rolltemplate-age-roller .clotu-roller-container { width: 225px; border: 1px solid black; padding: 0; margin: 0; background-color: white; }
+.rolltemplate-age-roller .clotu-roller-result { width: 100%; padding-top: 10px; text-align: center; border-bottom: 1px solid black;padding-bottom: 5px; }
+.rolltemplate-age-roller .die-face { font-size: 48px; font-weight: bold; font-family: "dicefontd6"; color: #333333; }
+.rolltemplate-age-roller .die-face-drama { text-transform: uppercase; }
+.rolltemplate-age-roller .clotu-roller-stunt + .clotu-roller-stunt { display: none; }
+.rolltemplate-age-roller .clotu-roller-line { padding-top: 2px; padding-bottom: 2px; text-align: top; }
+.rolltemplate-age-roller .clotu-roller-stunt { border-top: 1px solid black; color: green; font-weight: bold; }
+.rolltemplate-age-roller .clotu-roller-col1 { display: inline-block; width: 165px; text-align: left; margin-left: 5px; margin-right: 5px; }
+.rolltemplate-age-roller .clotu-roller-col2 { display: inline-block; width: 36px;  text-align: right; margin-left: 5px; margin-right: 5px; }
+.rolltemplate-age-roller .clotu-roller-title { background-color: black; color: white; font-weight: bold; padding-left: 5px; padding-right: 5px; padding-bottom: 2px; padding-top: 2px; margin-bottom: 3px; }
+.rolltemplate-age-roller .clotu-roller-total { border-top: 1px solid black; }
+.rolltemplate-age-roller .clotu-roller-total .clotu-roller-col1 { font-weight: bold; }
+.rolltemplate-age-roller .clotu-roller-tn { border-top: 1px solid black; font-style: italic; }
+
+.rolltemplate-age-roller .clotu-roller-col2 .inlinerollresult { background-color: transparent; border: none; padding: 0; margin: 0; text-align: right; }
+.rolltemplate-age-roller .clotu-roller-col2 .inlinerollresult.fullfail,
+.rolltemplate-age-roller .clotu-roller-col2 .inlinerollresult.fullcrit,
+.rolltemplate-age-roller .clotu-roller-col2 .inlinerollresult.importantroll { border: none; }
+
+/* Tool tips based on http://jsfiddle.net/Lithl/4naLge77/ */
+.tooltip {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    outline: none;
+    cursor: help;
+}
+/* .tooltip strong { line-height: 30px; }  */
+.tooltip:hover span {
+    display: block;
+    position: absolute;
+}
+.tooltip:hover { text-decoration: none; }
+.tooltip span {
+    display: none;
+    border-radius: 4px;
+ /*   box-shadow: 5px 5px 8px #eee;  */
+    z-index: 10;
+    padding: 14px 20px;
+    margin-top: 10px;
+    margin-left: -150px;
+    width: 300px;
+    line-height: 16px;
+    color: #111;
+    border: 1px solid #333;
+    background: #eee;
+}
+
+.page.tab6 .system-approaches-input > ul > li > input.approach-name { width: 100px; color: black; background-color: yellow; font-size: large; }
