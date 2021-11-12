@@ -1,5 +1,8 @@
 { 
    "abilities-u": "ABILITIES",
+   "label-existing-system-info": "If you are using an existing system (see above), you shouldn't need to change these values.",
+   "label-ability": "Ability",
+   "label-ability-plural": "Ability (plural)",
    "advance": "Advance",
    "advance-a-goal": "Advance a Goal",
    "char-name-u": "CHARACTER NAME",
