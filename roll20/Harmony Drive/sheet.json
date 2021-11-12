@@ -1,98 +1,22 @@
 {
-  "html": "Harmony Drive.html",
-  "css": "Harmony Drive.css",
-  "authors": "Cadera Spindrift",
+  "html":         "Harmony Drive.html",
+  "css":          "Harmony Drive.css",
+  "authors":      "Cadera Spindrift",
   "roll20userid": "594486,636802",
-  "preview": "Harmony Drive.png",
+  "preview":      "Harmony Drive.png",
   "instructions": "A sheet made for the Harmony Drive family of games:\n- **Harmony Drive SRD**\n- **Cosmic Legends of the Universe**\n- **Heroic Chord**\n- **GMs:** Make sure to edit the Default Sheet Settings after creating the campaign.\n\nSheet version 1.00.01 (2021-10-30); created character sheet.",
   "useroptions": [
     {
-      "attribute": "game",
-      "displayname": "Game System",
+      "attribute":             "game",
+      "displayname":           "Game System",
       "displaytranslationkey": "game-system",
-      "type": "select",
+      "type":                  "select",
+      "default": "Harmony Drive SRD",
       "options": [
-        "Harmony Drive SRD|harmony-drive",
         "Cosmic Legends of the Universe|cosmic-legends",
+        "Harmony Drive SRD|harmony-drive",
         "Heroic Chord|heroic-chord"
-      ],
-      "default": "Harmony Drive SRD"
-    },
-    {
-      "attribute": "color",
-      "displayname": "Color Selection",
-      "displaytranslationkey": "color-selection",
-      "type": "select",
-      "options": [
-        "Black|black",
-        "Red|red",
-        "Teal 1|teal1",
-        "Teal 2|teal2",
-        "Blue|blue1",
-        "Blue|blue2",
-        "Dragonscale Red|dragon",
-        "Expansive Starfield|stars",
-        "Lazarus Blue|lazarus",
-        "Modern Orange|orange",
-        "Proud Rainbow|rainbow",
-        "Ronin Green|green",
-        "Threefold Blend|threefold"
-      ],
-      "optiontranslationkeys": [
-        "black",
-        "red",
-        "teal-1",
-        "teal-2",
-        "blue-1",
-        "blue-2",
-        "dragonscale-red",
-        "expansive-starfield",
-        "lazarus-blue",
-        "modern-orange",
-        "proud-rainbow",
-        "ronin-green",
-        "threefold-color"
-      ],
-      "default": "Black",
-      "description": "Select the color for the character sheet section headers and buttons.",
-      "descriptiontranslationkey": "color-selection-info"
-    },
-    {
-      "attribute": "wtype",
-      "displayname": "Whisper rolls to GM",
-      "displaytranslationkey": "whisp-rolls-gm",
-      "type": "select",
-      "options": [
-        "Never Whisper Rolls|",
-        "Toggle|@{whisper-toggle}",
-        "Query Whisper|?{Whisper?|Public Roll,|Whisper Roll,/w gm }",
-        "Always Whisper Rolls|/w gm "
-      ],
-      "optiontranslationkeys": [
-        "never-whisper-roll",
-        "toggle",
-        "query-whisper-roll",
-        "always-whisper-roll"
-      ],
-      "default": "",
-      "description": "All sheet rolls are sent to all players in chat by default. Query Whisper option gives you a prompt with each roll of whether or not the roll should be sent privately only to yourself and the GM. Always Whisper Rolls will send all rolls only to yourself and the GM.",
-      "descriptiontranslationkey": "whisp-rolls-gm-info"
-    },
-    {
-      "attribute": "char-name-option",
-      "displayname": "Show the character name in roll results",
-      "displaytranslationkey": "show-the-character-name-in-roll-results",
-      "type": "select",
-      "options": [
-        "Show|@{character_name} &#124; ",
-        "Hide| "
-      ],
-      "optiontranslationkeys": [
-        "show",
-        "hide"
-      ],
-      "default": "@{character_name} &#124; "
-    },
-  ],
-  "legacy": false
+      ]
+    }
+  ]
 }

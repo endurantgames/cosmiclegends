@@ -24,7 +24,7 @@
 <!-- CHARACTER TAB -->
 <div class="page tab1">
   <div class="header">
-    <h3>Character Tab</h3>
+    <h3>Tab 1: Character Tab</h3>
   </div>
 
   <!-- Approaches  -->
@@ -93,7 +93,7 @@
 <!-- POWER WORDS TAB -->
 <div class="page tab2">
   <div class="header">
-    <h3>Power Words Tab</h3>
+    <h3>Tab 2: Power Words Tab</h3>
 
     <p>This is where your power words are listed.</p>
 
@@ -103,7 +103,7 @@
 <!-- SKILLS TAB -->
 <div class="page tab3">
   <div class="header">
-    <h3>Skills Tab</h3>
+    <h3>Tab 3: Skills Tab</h3>
 
     <p>This is where your skills are listed.</p>
   </div>
@@ -112,7 +112,7 @@
 <!-- SYSTEM TAB -->
 <div class="page tab6">
   <div class="header">
-    <h3>Game System Tab</h3>
+    <h3>Tab 6: Game System Tab</h3>
 
     <p>This is where you set up the game system.</p>
 
@@ -413,7 +413,7 @@
 <!-- OPTIONS TAB -->
 <div class="page tab7">
   <div class="header">
-    <h3>Options Tab</h3>
+    <h3>Tab 7: Options Tab</h3>
 
     <p>This is where you set your options for how the sheet functions.</p>
 
@@ -434,15 +434,15 @@
     <div class="sheet-template-container">
       <h1>{{name}}</h1>
       <div class="sheet-results">
-        <h4>All Dice Rolls = {{computed::roll1}}  </h4>
-        <h4>Ones           = {{computed::ones}}   </h4>
-        <h4>Twos           = {{computed::twos}}   </h4>
-        <h4>Threes         = {{computed::threes}} </h4>
-        <h4>Fours          = {{computed::fours}}  </h4>
-        <h4>Fives          = {{computed::fives}}  </h4>
-        <h4>Sixes          = {{computed::sixes}}  </h4>
-        <h4>Edge Successes = {{computed::edge}}   </h4>
-        <h4>Successes      = {{computed::success}}</h4>
+        <h4>All Dice Rolls = {{computed::roll1  }} </h4>
+        <h4>Ones           = {{computed::ones   }} </h4>
+        <h4>Twos           = {{computed::twos   }} </h4>
+        <h4>Threes         = {{computed::threes }} </h4>
+        <h4>Fours          = {{computed::fours  }} </h4>
+        <h4>Fives          = {{computed::fives  }} </h4>
+        <h4>Sixes          = {{computed::sixes  }} </h4>
+        <h4>Edge Successes = {{computed::edge   }} </h4>
+        <h4>Successes      = {{computed::success}} </h4>
       </div>
     </div>
 </rolltemplate>
@@ -466,33 +466,24 @@ on("sheet:opened", function(eventInfo){
     whisper:               getTranslationByKey("whisper"),
     none:                  getTranslationByKey("none"),
     ability:               getTranslationByKey("ability"),
-    ability_value:         getTranslationByKey("ability_value"),
-    focus_value:           getTranslationByKey("focus_value"),
-    additional_modifier:   getTranslationByKey("additional_modifier"),
-    additional_modifier2:  getTranslationByKey("additional_modifier2"),
-    ability_score:         getTranslationByKey("ability_score"),
-    roll_description:      getTranslationByKey("roll_description"),
-    die_roll:              getTranslationByKey("die_roll"),
+    ability_value:         getTranslationByKey("ability_value")
   });     
 });
 
 on('clicked:test', (info) => {
   console.log("You clicked the test!");
   startRoll("&{template:test} {{name=Test}} {{roll1=[[12d6]]}}", (results) => 
-       {
-            const total = results.results.roll1.result
-            const computed = total % 4;
+  {
+      const total = results.results.roll1.result
+      const computed = total % 4;
 
       let returnValues = new Array(6);
 
-      returnValues[1] = 0;
-      returnValues[2] = 0;
-      returnValues[3] = 0;
-      returnValues[4] = 0;
-      returnValues[5] = 0;
-      returnValues[6] = 0;
+      returnValues[1] = 0; returnValues[2] = 0;
+      returnValues[3] = 0; returnValues[4] = 0;
+      returnValues[5] = 0; returnValues[6] = 0;
       
-            for (const die of results.results.roll1.dice)
+      for (const die of results.results.roll1.dice)
       {  
         console.log("this die is " + die);
         returnValues[die] = returnValues[die]+1;
@@ -505,16 +496,16 @@ on('clicked:test', (info) => {
       console.log("sixes     = " + returnValues[6]);
       console.log("edge      = " + returnValues[1]);
       console.log("successes = " + (returnValues[5] + returnValues[6]));
-            finishRoll( results.rollId, 
-        { ones:      returnValues[1],
-          twos:      returnValues[2],
-    threes:    returnValues[3],
-    fours:     returnValues[4],
-    fives:     returnValues[5],
-    sixes:     returnValues[6],
-    edge:      returnValues[1],
-    successes: returnValues[5]+returnValues[6],
-    roll1:     results.results.roll1.dice
+      finishRoll( results.rollId, 
+      { ones:      returnValues[1],
+        twos:      returnValues[2],
+        threes:    returnValues[3],
+        fours:     returnValues[4],
+        fives:     returnValues[5],
+        sixes:     returnValues[6],
+        edge:      returnValues[1],
+        successes: returnValues[5]+returnValues[6],
+        roll1:     results.results.roll1.dice
         }
       );
         });

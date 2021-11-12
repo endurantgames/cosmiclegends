@@ -9,8 +9,8 @@ with their fists or their powers. Those styles are:
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
 - **Demolisher**     Add 2 dice when you roll to advance the Smash Goal.
-- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash Goal.
 - **Find Weakness**  Add 2 dice when you roll with Suspense to advance the Smash Goal.
+- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash Goal.
 - **Guerilla**       Add 2 dice when you use a Scene power word to roll to advance any goal or add to the Teamwork Pool.
 - **Interceptor**    Reduce by 1 the cost to Take the Hit for someone else.
 - **Inspiration**    Add 2 dice when you roll to add to the Teamwork Pool or advance the Allay goal.
