@@ -1086,8 +1086,8 @@ with their fists or their powers. Those styles are:
 - **Brawler**        Add 2 dice when you use an unarmed attack to advance the Smash goal.
 - **Controller**     Add 2 dice when you use a Power to advance the Outwit goal.
 - **Demolisher**     Add 2 dice when you roll to advance the Smash Goal.
-- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash Goal.
 - **Find Weakness**  Add 2 dice when you roll with Suspense to advance the Smash Goal.
+- **Frenzy**         Add 2 dice when you use any Personal power word to advance the Smash Goal.
 - **Guerilla**       Add 2 dice when you use a Scene power word to roll to advance any goal or add to the Teamwork Pool.
 - **Interceptor**    Reduce by 1 the cost to Take the Hit for someone else.
 - **Inspiration**    Add 2 dice when you roll to add to the Teamwork Pool or advance the Allay goal.
@@ -1102,7 +1102,7 @@ with their fists or their powers. Those styles are:
 - **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you roll to add to the Teamwork Pool.
 - **Warlord**        Whenever any hero rolls to add to the Teamwork Pool, they increase the effectiveness of their roll by the Volume as long as they can see or hear you.
-- **Weapon Master**  Add 2 dice when you use a melee Weapon power word to advance the Outwit goal.
+- **Weapon Master**  Add 2 dice when you use a melee Weapon power word to roll to advance the Outwit goal.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 If you choose the Knight class, you get to pick an additional fighting style before Volume One.
@@ -2095,6 +2095,7 @@ The Modern Prometheus
     - Scientist
     - Spy
 
+    [Monstrosity]{.crossover}
     Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
     Monstrosity Class Personal Power Words List.
 
@@ -2107,18 +2108,7 @@ Purpose-Built
     Power Words from the Dynamo Energy Power Word List as Core Power
     Words, up to two Power Words from the Shaper Elemental Power Word
     List as Core Power Words, or up to two Power Words from the Inventor
-    Personal Power Word List as Personal Power Words. Choose up to two
-    fighting styles from the following list:
-
-    - Brawler
-    - Demolisher
-    - Interceptor
-    - Frenzy
-    - Makeshift Weapons
-    - Mediator
-    - Medic
-    - Rescuer
-    - Weapon Master
+    Personal Power Word List as Personal Power Words. 
 
 Purpose-Crafted
 
@@ -2155,9 +2145,17 @@ Unkillable
 :   You get knocked down but you get up again. They're never gonna keep you 
     down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
 
-TBD
+War Machine
 
-:   To be determined.
+:   *Note: This is a variant of the Knight Class's __Tactical Mastery__ ability.* 
+    You are trained in a number of specialized combat techniques.
+    Gain a number of fighting styles equal to the Volume. Add an 
+    additional fighting style at the start of each later Volume.
+
+    *Repetition:* You can choose this Ability more than once;
+    each time, you must choose different Fighting Styles. Only
+    add one Fighting Style for each subsequent Volume, regardless
+    of how many times you've chosen this Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -2167,18 +2165,16 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
-Auspicious Alliteration
+Misunderstood Mechanical
 
-:   *Prerequisite: Golem* Everyone enjoys euphonious enunciation! When you 
-    roll a Power Stunt or Power Combo to add to the Teamwork Pool, 
-    add 1 die to the dice pool for each Word whose first letter matches the 
-    first letter of another Word in the Stunt or Combo.
-
-Misunderstood Monster
-
-:   Even at your worst, you wouldn't harm an innocent.
+:   *Note: This is a variant of the Monstrosity Class's
+    __Misunderstood Monster__ class ability.*
+    Even at your worst, you wouldn't harm an innocent.
     Add 2 to the dice pool when you advance the Allay
-    or Rescue goals. Whenever you choose a Personal Power Word,
+    or Rescue goals. 
+
+    [Monstrosity]{.crossover}
+    Whenever you choose a Personal Power Word,
     you can choose from the Construct Class Personal Power Words List,
     or the Monstrosity Class Personal Power Words List. Add any from the
     latter as Core Power Words.
@@ -2229,10 +2225,9 @@ Power Overwhelming
 
 Immortal
 
-:   You might be seriously wounded, but you never stay dead. 
-    If you're reduced to 0 Health or
-    0 Might, regain 1 point of each at the start of the
-    next Hero Phase.
+:   You might be seriously wounded, but you'll never stay dead. 
+    If you have 0 Health or 0 Might at the start of a 
+    Hero Phase, regain 1 point of each.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -3505,6 +3500,19 @@ Chameleon
     Add "Disguise" as a Core Power Word.
     When you use "Disguise" in a Power Display, Power Stunt, or
     Power Combo roll to advance the Outwit goal, add 2 to the 
+    Effectiveness of that roll.
+
+Cover Identity
+:   You have a well-established cover identity that hides
+    your secrets, whatever those may be. Choose a name for
+    that identity; you have identification and other
+    documentation for that identity, and you appear credible
+    in databases and online searches.
+
+    Add "Secret" as a Core Power Word.
+    When you use "Secret" in a Power Display, Stunt, or
+    Combo roll to advance the Outwit goal, or when you
+    make a skill roll using the Spy skill, add 2 to the
     Effectiveness of that roll.
 
 Eidetic Memory
@@ -8550,15 +8558,26 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 0 Might.
 
 ::::::::::::: cpw :::::::
+- Balloon
 - Barge
+- Bike
+- Blimp
 - Boat
+- Bus
 - Car
+- Gyrocopter
 - Jet
+- Helicopter
 - Motorcycle
+- Racecar
+- Rocket
 - Saucer
+- Shuttle
 - Ship
+- Skateboard
 - Spaceship
 - Tank
+- Train
 - Truck
 :::::::::::::::::::::::::
 
@@ -8572,24 +8591,35 @@ Word were one of the regular Scene Power Words.
 ::::::::::::: cpw :::::::
 - Air
 - Alarm
+- Analysis
 - Armor
+- Automatic
 - Blade
 - Boost
 - Brakes
 - Burrowing
 - Cable
+- Camouflaged
 - Cannon
+- Cargo
+- Carry
 - Cloud
+- Compact
+- Construction
 - Crash
 - Eject
 - Evade
 - Exhaust
+- Faster
+- Firefighting
 - Flames
 - Flight
 - Float
+- Fuel
 - Glide
 - Ground
 - Harpoon
+- Heavy
 - Horn
 - Hover
 - Intangible
@@ -8599,17 +8629,28 @@ Word were one of the regular Scene Power Words.
 - Landing
 - Lift
 - Lights
+- Locked
+- Loud
+- Medical
+- Morphing
 - Oil
+- Off-road
+- Overland
+- Paddle
+- Parachute
 - Pontoons
 - Radar
 - Radio
 - Ramming
+- Refuel
+- Repair
 - Rocket
 - Roll
 - Safety
 - Scanner
 - Shield
 - Sideways
+- Silent
 - Siren
 - Skidmark
 - Slick
@@ -8618,14 +8659,16 @@ Word were one of the regular Scene Power Words.
 - Speed
 - Spikes
 - Stable
+- Stealth
 - Stunt
 - Submersible
 - Tires
 - Tow
+- Trackless
 - Trunk
 - Tunnelling
 - Turbo
-- Paddle
+- Uplink
 - Vertical
 - Wheel
 - Winch
@@ -8636,7 +8679,7 @@ Word were one of the regular Scene Power Words.
 When you have your *Unique Vehicle* use a **Power Display,** you can add 
 one Vehicle Scene Power Word for free.
 
-You can have your *Unique Vehicle* use two Vehicle Scene Power Words 
+You can have your *Unique Vehicle* use two or more Vehicle Scene Power Words 
 together to form a **Power Stunt** or **Power Combo** by paying 1 Might 
 for each beyond the first.
 
