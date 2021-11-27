@@ -2338,7 +2338,6 @@ width: calc(20 - 6 * 4pt / 5); }
     var(--color-rainbow-1d) 125%); 
 }
 
-
 .classdata#class-divine      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(128,  69,   0); }
 .classdata#class-dynamo      :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 75,   0, 130); }
 .classdata#class-inventor    :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 92,  67,   6); }
@@ -2349,7 +2348,6 @@ width: calc(20 - 6 * 4pt / 5); }
 .classdata#class-paragon     :matches(h1, h2, h3, h4, h5, h6) { color: rgb( 53,  94,  59); }
 .classdata#class-psychic     :matches(h1, h2, h3, h4, h5, h6) { color: rgb(159,  29,  53); }
 .classdata#class-shaper      :matches(h1, h2, h3, h4, h5, h6) { color: rgb(139,   0, 139); }
-
 
 .cca ul li::marker { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; position: relative; }
 .cca .pick.break  { content: 'B';     font-family: var(--font-bubble); position: absolute; left: 0;  }
@@ -2365,24 +2363,23 @@ width: calc(20 - 6 * 4pt / 5); }
 
 .cca .pick.recommend             { display: block;           }
 .cca .pick.recommend:before      { content: 'We recommend '; }
-.cca .pick.recommend.break:after { content: 'that you Deliberately Break this Rule (because it sucks)'; text-decoration: underline; }
-.cca .pick.recommend.ign:after   { content: 'Ignore the Existence of this Rule (because it sucks)';     text-decoration: underline; }
+.cca .pick.recommend.break:after { content: 'that you Deliberately Break This Rule (because it sucks)'; text-decoration: underline; }
+.cca .pick.recommend.ign:after   { content: 'that you Ignore the Existence of This Rule (because it sucks)';     text-decoration: underline; }
 .cca .pick.recommend.na:after    { content: 'that this Rule probably isn\'t applicable to your game';   text-decoration: underline; }
 .cca .pick.recommend.line:after  { content: 'considering a Hard Line regarding this kind of content';   text-decoration: underline; }
 .cca .pick.recommend.veil:after  { content: 'designating this kind of content to be Veiled';            text-decoration: underline; }
 
-
 a.list-link:before {
   font-style: normal;
-  content: "See ";
+  content: "the ";
 }
 
 a.list-link { 
-  content: target-content(attr(href), page);         
+  content: target-content(attr(href)) " list ";
   font-style: italic;
 }
   
 a.list-link:after { 
-  content: ", page " target-counter(attr(href), page); 
+  content: " (see page " target-counter(attr(href), page) ")"; 
   font-style: normal;
 }

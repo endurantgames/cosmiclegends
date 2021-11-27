@@ -1430,10 +1430,10 @@ Criminal
     add one or more types of crimes as specialties; if you do, add 1 die to any roll
     related to those specialties.
 
-    - Roll [Criminal]{.adventure} to crack a safe.
+    - Roll [Criminal]{.adventure} to crack a safe or remove security systems.
     - Roll [Criminal]{.detective} to plan a heist.
     - Roll [Criminal]{.mystery}   to steal something, unseen.
-    - Roll [Criminal]{.suspense}  to notice hidden cameras.
+    - Roll [Criminal]{.suspense}  to notice hidden cameras or alarm triggers.
 
     - **Edge Success:** 
       Your crime makes more noise than you had hoped.
@@ -1449,11 +1449,13 @@ as they really *should* in real life.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Deputy
-:   You are a police officer of some kind. If you like, you can be currently
-    deputized by a local or federal agency; if you do, add 1 die to any roll
-    related to that law-enforcement agency. Remember: All cats are beautiful.
+:   You are -- or were -- a police officer of some kind. If you 
+    like, you can be currently deputized by a local, federal, or 
+    global law-enforcement agency; if you do, add 1 die to any 
+    roll related to that law-enforcement agency. Reminder, though: 
+    All cats *are* beautiful.
 
-    - Roll [Deputy]{.action}    to shake down an informant.
+    - Roll [Deputy]{.action}    to shake down an informant or force a confession.
     - Roll [Deputy]{.adventure} to chase down an innocent person who is fleeing from you.
     - Roll [Deputy]{.detective} to contrive a reason to arrest someone.
     - Roll [Deputy]{.mystery}   to plant contraband on a suspect.
@@ -1472,14 +1474,37 @@ Engineer
     You can choose one or more optional specialties; if you do, add 1 die to any
     roll related to those specialties.
 
+    With enough time and a laboratory or workshop, you can create
+    a gadget that gives the user up to three Power Words from
+    the Inventor Personal Power Words list as Core Power Words.
+    The maximum number of words you can place in such a gadget
+    equals the Effectiveness of your Engineer roll.
+    This gadget can be used only once, and doesn't require
+    Might to activate either or both Core Power Words.
+    The gadget will only function up to the start of the next
+    Crisis Countdown.
+
+    Characters with an *Arsenal* ability can't use such gadgets,
+    unless their ability comes from a non-scientific source.
+    You can also reset anyone's *Arsenal* ability, if it's already
+    been used and comes from a scientific source.
+
+    With enough time, a laboratory or workshop, and a successful 
+    roll, you can restore Might or Health to a mechanical creature
+    or vehicle, up to a maximum total equal to the Effectiveness 
+    of your Engineer roll.
+    
     - Roll [Engineer]{.adventure} to build something unprecedented.
     - Roll [Engineer]{.detective} to dismantle something safely.
-    - Roll [Engineer]{.suspense}  to identify the weaknesses in a design.
+    - Roll [Engineer]{.suspense}  to identify the weaknesses in a design before seeing it operational.
 
     - **Edge Success:** 
       You only have time to make one.
+      After this roll, your laboratory or workshop is
+      trashed. You automatically clean it up between the end of 
+      the current Crisis and the start of the next Crisis Countdown.
       You use up the last of your supplies on this device.
-      The device is so complex that only you can make it work, in the field.
+      The device is so complex that only you can make it work in the field.
       It takes much more time than you thought it would.
       Lose 1 Health or 1 Might.
   
@@ -1596,13 +1621,43 @@ Mystic
     types of magic; if you do, add 1 die to any roll related to those
     specialties.
 
-    - Roll [Mystic]{.action}    to counter someone else's ritual.
-    - Roll [Mystic]{.adventure} to calm a magical creature.
-    - Roll [Mystic]{.detective} to comprehend a magical text.
-    - Roll [Mystic]{.suspense}  to identify a magical effect.
+    With enough time, a laboratory or workshop, and a successful
+    Mystic roll, you can create an artifact that gives the user up 
+    to two Power Words from the Mage Personal Power Words list as 
+    Core Power Words.
+
+    The maximum number of words you can place in such an artifact
+    equals the Effectiveness of your Mystic roll.
+    The form of the artifact must be chosen from
+    [](#list-talismans-of-power-trinken-forms){.list-link} list.
+
+    This artifact can be used only once, and doesn't require
+    Might to activate either or both Core Power Words.
+    The Artifact will only function up to the start of the next
+    Crisis Countdown.
+
+    Characters with an *Arsenal* ability from a mystical source
+    can't use such artifacts.
+    You can also reset anyone's *Arsenal* ability, if it's already
+    been used and it comes from a mystical source -- such as the
+    *Talismans of Power* Mage Class Ability.
+
+    With enough time, a laboratory or workshop, and a successful 
+    roll, you can restore Might to a magical creature, up to a 
+    maximum total equal to the Effectiveness of your Mystic roll.
+    
+    - Roll [Engineer]{.adventure} to build something unprecedented.
+    - Roll [Mystic]{.action}      to counter someone else's ritual.
+    - Roll [Mystic]{.adventure}   to calm a magical creature.
+    - Roll [Mystic]{.detective}   to comprehend a magical text.
+    - Roll [Mystic]{.suspense}    to identify a magical effect.
 
     - **Edge Success:** 
       You draw unwanted attention from an extra-dimensional power.
+      After this roll, your workshop is trashed. You automatically 
+      clean it up between the end of the current Crisis and the 
+      start of the next Crisis Countdown. Until then, you can't
+      use it in Mystic rolls.
       You use up specific ritual ingredients that are in short supply.
       It takes much more time than you thought it would.
       You won't be able to repeat this specific ritual in the future.
@@ -1623,8 +1678,13 @@ Performer
       Your performance draws the attention of a new rival.
       Your performance had flaws that you really hope nobody noticed.
       Someone declares that you're a sell-out and they were into you *before* you were cool.
+      After this roll, your instruments or other performance
+      equiment are trashed. You automatically repair them between 
+      the end of the current Crisis and the start of the next 
+      Crisis Countdown.
+      Until then, you can't use them in any Performer rolls.
       It takes much more time than you thought it would.
-      This could get you "cancelled" online.
+      This performance could get you "cancelled" online.
       Lose 1 Health or 1 Might.
   
 Physician
@@ -1632,6 +1692,11 @@ Physician
     professional. You can optionally choose one or more specialties if you wish; 
     if you do, add 1 die to any roll related to those specialties.
 
+    With enough time, medical supplies, and a successful roll, 
+    you can restore Might and/or Health to a living creature, 
+    up to a maximum total equal to the Effectiveness of your
+    Physician roll.
+    
     - Roll [Physician]{.action}    to perform major surgery.
     - Roll [Physician]{.adventure} to apply first aid.
     - Roll [Physician]{.detective} to perform forensic medicine on a corpse.
@@ -1640,7 +1705,8 @@ Physician
     - **Edge Success:** 
       There are unexpected side effects to the treatment you suggest.
       You help your patient, but they'll need more care later.
-      You use up the last of your medicine -- until the end of the current Crisis.
+      You use up the last of your medical supplies -- until the end of the current Crisis. (You can replenish between the end of this
+      Crisis and the start of the next Crisis Countdown.)
       It takes much more time than you thought it would.
       Lose 1 Health or 1 Might.
   
@@ -1656,12 +1722,14 @@ Pilot
     - Roll [Pilot]{.mystery}   to run a blockade.
 
     - **Edge Success:** 
-      Any landing you can walk away from is a good landing, right? This is a ... good landing.
+      Any landing you can walk away from is a good landing, right? 
+      And this is ... a good landing.
       Your strain the capabilities of your craft.
       You use more fuel than you intended.
       The paint job on your craft is ruined.
       It takes much more time than you thought it would.
       Lose 1 Health or 1 Might.
+      Everyone in your vehicle loses 1 Health.
   
 Politician
 :   You're practiced at playing the system to influence the public.
@@ -1673,11 +1741,11 @@ Politician
     - Roll [Politician]{.suspense}  to read the room. 
 
     - **Edge Success:** 
-      Your speech will be put on the Internet with humiliating captions.
-      People believe you, ... but for the wrong reasons.
+      Your words and image will be put on the Internet with humiliating captions.
+      People support you ... but for all the wrong reasons.
       You draw the attention of the rich and powerful.
       It takes much more time than you thought it would.
-      This could get you "cancelled" online.
+      This action could get you "cancelled" online.
       Lose 1 Health or 1 Might.
   
 Scientist
@@ -1686,15 +1754,24 @@ Scientist
     Optionally, you can choose one or more scientific specialties; if
     you do, add 1 die to any roll related to those specialties.
 
+    With enough time, a laboratory, and a successful roll, 
+    you can restore Might to a living creature, 
+    up to a maximum total equal to the Effectiveness of your
+    Scientist roll.
+    
     - Roll [Scientist]{.action}    to directly test your hypothesis.
     - Roll [Scientist]{.detective} to reverse the effects of super-science.
     - Roll [Scientist]{.suspense}  to measure natural phenomena.
 
     - **Edge Success:** 
       You won't be able to replicate the effects again.
+      After this roll, your laboratory is trashed. You automatically 
+      clean it up between the end of the current Crisis and the start of the next Crisis Countdown. Until then, you can't use it in
+      any Engineering rolls.
       It turns out that someone already patented your "new" technique.
       It takes much more time than you thought it would.
       Lose 1 Health or 1 Might.
+      Everyone in your laboratory loses 1 Health.
   
 Socialite
 :   You are a known figure in high society, and know how to make an appearance.
@@ -6670,7 +6747,7 @@ to all Paragons.
 My One Weakness!
 
 :   Before Volume One, pick a weakness for your hero,
-    like a substance, energy type, or other physical 
+    like a substance, energy or radiation type, or other physical 
     effect.
 
     Once during a Crisis, instead of making a move, you can 
@@ -6678,6 +6755,10 @@ My One Weakness!
     and you can't use any Power Words. Each later Hero Phase
     that you don't make a move, add the Volume to the
     Teamwork Pool.
+
+    If one of your teammates uses their move to remove the
+    source of your weakness, your Might and Health are immediately
+    restored to their maximum values.
 ::::::::::::::::::::::::::::::::::::::::::
 
 ##### Volume 1 Abilities
@@ -6716,7 +6797,7 @@ TBD
 
 ##### Volume 2 Abilities
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+At the start of Volume 2, choose an ability from this list or the Volume 1 Paragon ability list.
 
 ::::: {.ability-list .v2 } ::::::::::
 Power Overwhelming
@@ -6730,15 +6811,28 @@ Never-Ending Battle
     are at 0 Health or 0 Might, regain 1 point of each at the start of 
     the next Hero Phase if the Rescue goal can still be advanced.
 
-TBD
+Ultra-Energy Limitation
 
-:   To be determined.
+:   *Prerequisite: You must have the __My One Weakness!__ Ability to
+    choose this.*
+
+    Remove your *My One Weakness!* ability and replace it with the
+    following Ability:
+
+    You can only use one super-power at a time. Immediately after
+    you use any Power Word or Words in a Power Display, Stunt, or 
+    Combo, __all__ of your Power Words (from any source) go on 
+    cooldown.
+
+    At the start of the next Hero Phase, when your Power Words
+    come off of cooldown, regain 1 point of Might.
+    Increase your maximum Might by 3.
 
 :::::::::::::::::::::::::::::::::::::
 
 ##### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list or any previous list.
+At the start of Volume 3, choose an ability from this list or any previous Paragon list.
 
 ::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
@@ -6770,7 +6864,7 @@ Nigh-Invulnerable
 
 ##### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
+At the start of Volume 4, choose an ability from this list or any previous Paragon list.
 
 :::::: {.ability-list .v4 }::::::::::
 Faster than a Speeding Bullet
@@ -6824,12 +6918,19 @@ Strange Visitor from Another Planet
 
 ##### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+At the start of Volume 5, choose an ability from this list or any previous Paragon list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+My *Other* One Weakness!
 
-:   To be determined.
+:   *Prerequisite: You must have the __My One Weakness!__ Ability.*
+    Choose a second weakness that triggers your *My One Weakness!*
+    ability. Either source can trigger that ability. Both can't
+    be triggered at the same time; overlapping *One Weakness!*es
+    don't stack for a double effect.
+
+    If both sources are present but one is removed by a teammate, 
+    you don't regain Health and Might until both are removed.
 
 TBD
 
