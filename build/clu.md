@@ -38,10 +38,6 @@ title: Cosmic Legends of the Universe
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::{ #elk .header } :::::::::::::::::::::
-# Elk
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::::::::::: { #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Table of Contents
 
@@ -53,6 +49,15 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-stars-wishes"></a>
 - <a href="#toc-overview"></a>
 - <a href="#toc-issues"></a>
+  - <a href="#toc-struct-issue}
+    - <a href="#toc-struct-issue-0}
+    - <a href="#toc-struct-issue-1}
+    - <a href="#toc-struct-issue-annual}
+  - <a href="#toc-struct-storyline}
+  - <a href="#toc-struct-volume}
+  - <a href="#toc-struct-series}
+  - <a href="#toc-struct-one-shots}
+  - <a href="#toc-struct-crossovers}
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
   - <a href="#toc-approaches"></a>
@@ -106,7 +111,7 @@ title: Cosmic Legends of the Universe
     - <a href="#toc-crisis-hero-moves"></a>
   - <a href="#toc-crisis-crisis"></a>
   - <a href="#toc-crisis-post"></a>
-- <a href="#toc-downtime"></a>
+- <a href="#toc-vignette-issues"></a>
 - <a href="#toc-advancements"></a>
 - <a href="#toc-setting"></a>
   - <a href="#toc-setting-era"></a>
@@ -550,6 +555,253 @@ in future sessions. This could include particular interactions
 between heroes, potential story moments and development, or 
 anything else that could make the game even better in the future.
 
+:::::::::::::::::::: cca ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## CODE OF THE COMICS MAGAZINE ASSOCIATION OF AMERICA, INC.
+
+### Adopted October 26, 1954
+
+#### PREAMBLE
+
+The comic-book medium, having come of age on the American cultural scene, 
+must measure up to its responsibilities.
+
+Constantly improving techniques and higher standards go hand in hand with 
+these responsibilities.
+
+To make a positive contribution to contemporary life, the industry must seek 
+new areas for developing sound, wholesome entertainment. The people 
+responsible for writing, drawing, printing, publishing, and selling comic 
+books have done a commendable job in the past, and have been striving toward 
+this goal.
+
+Their record of progress and continuing improvement compares favorably with 
+other media in the communications industry. An outstanding example is the 
+development of comic books as a unique and effective tool for instruction and 
+education. Comic books have also made their contribution in the field of 
+letters and criticism of contemporary life.
+
+In keeping with the American tradition, the members of this industry will and 
+must continue to work together in the future.
+
+In the same tradition, members of the industry must see to it that gains made 
+in this medium are not lost and that violations of standards of good taste, 
+which might tend toward corruption of the comic book as an instructive and 
+wholesome form of entertainment, will be eliminated.
+
+Therefore, the Comics Magazine Association of America, Inc. has adopted this 
+code, and placed strong powers of enforcement in the hands of an independent 
+code authority.
+
+Further, members of the association have endorsed the purpose and spirit of 
+this code as a vital instrument to the growth of the industry.
+
+To this end, they have pledged themselves to conscientiously adhere to its 
+principles and to abide by all decisions based on the code made by the 
+administrator.
+
+They are confident that this positive and forthright statement will provide an 
+effective bulwark for the protection and enhancement of the American reading 
+public, and that it will become a landmark in the history of self-regulation 
+for the entire communications industry.
+
+### CODE FOR EDITORIAL MATTER
+
+#### General standards—Part A
+
+For each of the following, decide whether your group wants 
+to []{.pick .break}           __deliberately break__          this rule, 
+   []{.pick .ign}             __ignore the existence__        of this rule,
+   []{.pick .na}    decide it __doesn't apply in your game__,
+   []{.pick .line}            __draw a hard line__            against the described content, 
+or []{.pick .veil}            __draw a veil__                 whenever such content arises.
+
+You should always feel empowered to re-negotiate the choices recorded here;
+no one can know with 100% certainty how any specific content in-game is going
+to affect them.
+
+- Crimes shall never be presented in such a way as to create sympathy for the 
+  criminal, to promote distrust of the forces of law and justice, or to inspire 
+  others with a desire to imitate criminals.
+  []{.recommend .pick .break}
+
+- No comics shall explicitly present the unique details and methods of a crime.
+  []{.recommend .pick .veil}
+
+- Policemen, judges, Government officials and respected 
+  institutions shall never be presented in such a way as to create disrespect 
+  for established authority. []{.recommend .pick .break}
+
+- If crime is depicted it shall be as a sordid and unpleasant activity.
+  []{.recommend .pick .veil}
+
+- Criminals shall not be presented so as to be rendered glamorous or to occupy 
+  a position which creates a desire for emulation.  []{.recommend .pick .break}
+
+- In every instance good shall triumph over evil and the criminal punished 
+  for his misdeeds.  []{.recommend .pick .na}
+
+- Scenes of excessive violence shall be prohibited. Scenes of brutal torture, 
+  excessive and unnecessary knife and gunplay, physical agony, gory and gruesome 
+  crime shall be eliminated. []{.recommend .pick .line}
+
+- No unique or unusual methods of concealing weapons shall be shown.
+  []{.recommend .pick .na}
+
+- Instances of law-enforcement officers dying as a result of a criminal’s 
+  activities should be discouraged. []{.recommmend .pick .ign}
+
+- The crime of kidnapping shall never be portrayed in any detail, nor shall any 
+  profit accrue to the abductor or kidnaper. The criminal or the kidnaper must be 
+  punished in every case. []{.recommend .pick .ign}
+
+- The letters of the word “crime” on a comics-magazine cover shall never be 
+  appreciably greater in dimension than the other words contained in the title. 
+  The word “crime” shall never appear alone on a cover. []{.recommend .pick .na}
+
+- Restraint in the use of the word “crime” in titles or subtitles shall be exercised.
+  []{.recommend .pick .na}
+
+#### General standards—Part B
+
+- No comic magazine shall use the word horror or terror in its title.
+  []{.recommend .pick .na}
+
+- All scenes of horror, excessive bloodshed, gory or gruesome crimes, depravity, 
+  lust, sadism, masochism shall not be permitted.  []{.recommend .pick .veil}
+
+- All lurid, unsavory, gruesome illustrations shall be eliminated.
+  []{.recommend .pick .veil}
+
+- Inclusion of stories dealing with evil shall be used or shall be published 
+  only where the intent is to illustrate a moral issue and in no case shall 
+  evil be presented alluringly, nor so as to injure the sensibilities of the reader.
+  []{.recommend .pick .ign}
+
+- Scenes dealing with, or instruments associated with walking dead, torture, 
+  vampires and vampirism, ghouls, cannibalism, and werewolfism are prohibited.
+  []{.recommend .pick .ign}
+
+#### General standards—Part C
+
+All elements or techniques not specifically mentioned herein, but which are 
+contrary to the spirit and intent of the code, and are considered violations of 
+good taste or decency, shall be prohibited.
+
+### Dialogue
+
+- Profanity, obscenity, smut, vulgarity, or words or symbols which have acquired 
+  undesirable meanings are forbidden.
+  []{.recommend .pick .veil}
+
+- Special precautions to avoid references to physical afflictions or deformities
+  shall be taken. []{.recommend .pick .ign}
+
+- Although slang and colloquialisms are acceptable, excessive use should be 
+  discouraged and, wherever possible, good grammar shall be employed.
+  []{.recommend .pick .na}
+
+### Religion
+
+- Ridicule or attack on any religious or racial group is never permissible.
+  []{.recommend .pick .veil}
+
+### Costume
+
+- Nudity in any form is prohibited, as is indecent or undue exposure.
+  []{.recommend .pick .line}
+
+- Suggestive and salacious illustration or suggestive posture is unacceptable.
+  []{.recommend .pick .line}
+
+- All characters shall be depicted in dress reasonably acceptable to society.
+  []{.recommend .pick .veil}
+
+- Females shall be drawn realistically without exaggeration of any physical qualities.
+  []{.recommend .pick .veil}
+
+### NOTE.
+
+— It should be recognized that all prohibitions dealing with costume, dialog, 
+  or artwork applies as specifically to the cover of a comic magazine as they do 
+  to the contents.
+
+Marriage and sex
+
+- Divorce shall not be treated humorously nor represented as desirable.
+  []{.recommend .pick .ign}
+
+- Illicit sex relations are neither to be hinted at nor portrayed. 
+  Violent love scenes as well as sexual abnormalities are unacceptable.
+  []{.recommend .pick .ign}
+
+- Respect for parents, the moral code, and for honorable behavior shall be 
+  fostered. A sympathetic understanding of the problems of love is not a 
+  license for morbid distortion.
+  []{.recommend .pick .break}
+
+- The treatment of live-romance stories shall emphasize the value of the 
+  home and the sanctity of marriage. []{.recommend .pick .break}
+
+- Passion or romantic interest shall never be treated in such a way as to 
+  stimulate the lower and baser emotions. []{.recommend .pick .ign}
+
+- Seduction and rape shall never be shown or suggested.
+  []{.recommend .pick .veil}
+
+- Sex perversion or any inference to same is strictly forbidden.
+  []{.recommend .pick .veil}
+
+### CODE FOR ADVERTISING MATTER
+
+These regulations are applicable to all magazines published by members of the 
+Comics Magazine Association of America, Inc. Good taste shall be the guiding 
+principle in the acceptance of advertising.
+
+- Liquor and tobacco advertising is not acceptable.
+  []{.recommend .pick .na}
+
+- Advertisement of sex or sex instruction books are unacceptable.
+  []{.recommend .pick .na}
+
+- The sale of picture postcards, “pinups,” "art studies," or any other 
+  reproduction of nude or seminude figures is prohibited.
+  []{.recommend .pick .na}
+
+- Advertising for the sale of knives or realistic gun facsimiles is prohibited.
+  []{.recommend .pick .na}
+
+- Advertising for the sale of fireworks is prohibited.
+  []{.recommend .pick .na}
+
+- Advertising dealing with the sale of gambling equipment or printed matter 
+  dealing with gambling shall not be accepted.  []{.recommend .pick .na}
+
+- Nudity with meretricious purpose and salacious postures shall not be 
+  permitted in the advertising of any product; clothed figures shall never be 
+  presented in such a way as to be offensive or contrary to good taste or morals.
+  []{.recommend .pick .na}
+
+- To the best of his ability, each publisher shall ascertain that all statements 
+  made in advertisements conform to fact and avoid misrepresentation.
+  []{.recommend .pick .na}
+
+- Advertisement of medical, health, or toiletry products of questionable nature 
+  are to be rejected. Advertisements for medical, health, or toiletry products 
+  endorsed by the American Medical Association, or the American Dental Association, 
+  shall be deemed acceptable if they conform with all other conditions of the 
+  Advertising Code. []{.recommend .pick .na}
+
+:::::::::::::::::::::::: copyright-note :::::::::::::::::::::::::::::::::::::::::::
+Source: Senate Committee on the Judiciary, Comic Books and Juvenile Delinquency,
+Interim Report, 1955 (Washington, D.C.: United States Government Printing Office, 
+1955).
+
+This work is in the public domain in the United States because it is a work of 
+the United States federal government (see 17 U.S.C. 105).
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Overview of Play {#toc-overview .colbefore }
 
 1. []{.gamename} is played as a series of **Storylines**, each
@@ -606,17 +858,20 @@ narrative, like upsetting an NPC or missing an important clue.
 The important part is that the player is presented with a difficult choice.
 
 
-## From Issues to Volumes {#toc-issues .breakbefore}
+## [From Issues to Volumes]{#toc-issues .breakbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.
 
-### Issues
+### [Issues]{#toc-struct-issue}
 
 Each individual game session is known as an **Issue**, and roughly
-corresponds to one issue of a comic book.
+corresponds to one issue of a comic book. Generally, an Issue probably
+takes 2 to 4 hours to play out, although your group can agree to play
+a longer session or a shorter one, as time allows. Be flexible *and*
+aware of others' schedules and other time constraints!
 
-#### Issue #0
+#### [Issue #0]{#toc-struct-issue-0}
 
 ::::::::::: struct ::::::::::::
 <div class="issue wide zero">
@@ -638,7 +893,7 @@ and set expectations on the kind of story and play.
 Issue 0s are also a great time to create heroes together as a group,
 rather than separately.
 
-#### Issue #1
+#### [Issue #1]{#toc-struct-issue-1}
 
 ::::::::: struct :::::::::::
 <div class="issue first wide">
@@ -667,6 +922,8 @@ campaigned played by a group -- but first you should have an Issue 0.
 
 []{.lorem}
 
+### [Annuals]{#toc-struct-issue-annual}
+
 ::::::::: struct :::::::::::
 <div class="issue wide">
   <div class="recap wide"></div>
@@ -681,7 +938,7 @@ campaigned played by a group -- but first you should have an Issue 0.
 
 []{.lorem}
 
-### Storylines
+### [Storylines]{#toc-struct-storyline}
 
 :::::::::::: struct :::::::::::::::::::
 <div class="storyline wide">
@@ -716,7 +973,7 @@ can take long and might run for 2 or 3 sessions, or longer.
 Once your hero finishes your Storyline, both your hero and your 
 fellow players' heroes gain an **Advancement.**
 
-### Volumes
+### [Volumes]{#toc-structure-volumes}
 
 ::::::::::::: struct :::::::::::
 <div class="volume wide extra ">
@@ -751,7 +1008,7 @@ Volume, and then that Volume concludes.
 At the start of a new Volume, your hero develops new powers or finds 
 new ways to use their existing powers.
 
-### Series
+### [Series]{#toc-struct-series}
 
 :::::::::::::: struct :::::::::::
 <div class="series wide">
@@ -771,7 +1028,7 @@ If your group reaches the end of Volume 5 and with to continue with
 with the same heroes, you can do so: just treat later Volumes as having
 a Volume number of 5, and proceed from there.
 
-#### One-Shots
+#### [One-Shots and Specials]{#toc-struct-one-shots}
 
 ::::::::: struct :::::::::::
 <div class="issue wide">
@@ -795,7 +1052,7 @@ all the Crises.
 One-Shots obviously won't have a separate Issue 0, but time should still
 be set aside at the start of the Issue to touch on important safety tools.
 
-### Guest Stars and Crossovers
+### [Guest Stars and Crossovers]{#toc-struct-crossovers}
 
 A **Guest Star** is a hero character from another Series -- either played
 by the same group or a different one -- who plays in the Series for an
@@ -1075,6 +1332,51 @@ each Volume.
   []{.ability .volume .v5}
   []{.ability .volume .v6 .new}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### [Abilities and Ability Categories]{#toc-ability-categories}
+
+At the start of each Volume, you can choose one ability from your class
+or from the list of Generic Abilities; before Volume One, you can choose
+two abilities from either your class list or the list of Generic Abilities.
+
+Each ability can be chosen only once, unless otherwise noted.
+You can't choose an ability if you already have that ability or a
+variant of that ability.
+
+There are four categories of abilities that all use similar mechanics:
+
+- **Arsenal Abilities** let you pick a number of single-use Core
+  Power Words at the start of a Storyline;
+- **Crossover Abilities** give you access to Power Words (and, usually,
+  abilities) from another class;
+- **Hero Cave Abilities** give you a personal headquarters where
+  you can store your trophies or use your skills;
+- **Pet Abilities** let you have an animal companion, familiar,
+  or special pet that accompanies you.
+
+For **Arsenal**, **Hero Cave**, and **Pet** Abilities, the following
+rules apply:
+
+- You can have only one ability of each type; every ability of a certain
+  type is considered to be a variant ability of all other abilities of
+  that type.
+- Thus you can have only one Arsenal ability, one Hero Cave ability, 
+  and one Pet ability.
+
+For **Crossover** Abilities, the following rules apply:
+
+- Each Crossover Ability is tied to a specific class;
+- You can't already be a member of that class (including via 
+  Multi-Class or Dual-Class options);
+- You can't take a second Crossover Ability tied to that class.
+- Some Crossover Abilities let you take abilities from that
+  class instead of your own class; however, ...
+- You can't take a Crossover Ability as a result of another
+  Crossover Ability. For example, if you take a Crossover (Mage)
+  Ability that lets you take a Mage class ability instead of one
+  of your class abilities, you can't take a Mage class ability
+  that's a Crossover ability itself.
+
 
 ### Fighting Style {#toc-fighting-style }
 
@@ -1913,41 +2215,6 @@ The Wheelman    Engineer, Pilot, plus       Stunt, Driving,   [6]      Unique Ve
 - <sup>1</sup> The Wheelman class gains Vehicle Power Words instead of Personal Power Words.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Ability Categories
-
-There are four categories of abilities that all use similar mechanics:
-
-- **Arsenal Abilities** let you pick a number of single-use Core
-  Power Words at the start of a Storyline;
-- **Crossover Abilities** give you access to Power Words (and, usually,
-  abilities) from another class;
-- **Hero Cave Abilities** give you a personal headquarters where
-  you can store your trophies or use your skills;
-- **Pet Abilities** let you have an animal companion, familiar,
-  or special pet that accompanies you.
-
-For **Arsenal**, **Hero Cave**, and **Pet** Abilities, the following
-rules apply:
-
-- You can have only one ability of each type. 
-- Thus you can have only one Arsenal ability, one Hero Cave ability, 
-  and one Pet ability.
-
-For **Crossover** Abilities, the following rules apply:
-
-- Each Crossover Ability is tied to a specific class;
-- You can't already be a member of that class (including via 
-  Multi-Class or Dual-Class options);
-- You can't take a second Crossover Ability tied to that class.
-- Some Crossover Abilities let you take abilities from that
-  class instead of your own class; however, ...
-- You can't take a Crossover Ability as a result of another
-  Crossover Ability. For example, if you take a Crossover (Mage)
-  Ability that lets you take a Mage class ability instead of one
-  of your class abilities, you can't take a Mage class ability
-  that's a Crossover ability.
 
 
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
@@ -3465,7 +3732,7 @@ TBD
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::: { .classdata } :::::::::::
-### Generic Hero Abilities {#toc-generic .breakbefore .class}
+### [Generic Hero Abilities]{#toc-generic .breakbefore .class}
 
 #### Generic Hero Abilities {.class}
 
@@ -13122,6 +13389,2934 @@ Defeat
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### The COSMIC LEGENDS, written up as a as a rival crisis-team
+
+
+### Alternate Universes {#toc-sample-alternate-universes}
+
+Alt Universe crises take familiar characters and twist them into unregognizable personalities andmotivations. In this way they're quite similar to a supervillain team or a rival superhero team -- described later in the Crises section.
+
+In some situations, the main heroes end up in an alternate universe, and the inhabitants of that universe are people they already know from their original universe -- and their primary goal may be to return home even if they don't set everything "right" in the alt-universe.
+
+Related vignettes include heroes who find alternate versions of people they care about, and how they choose to relate to those variants. Some alt-universes are parallel timelines, and heroes may end up waxing nostalgic about what could have been, and debating whether they feel responsible for these worlds
+that are very similar to "home".
+
+Because of these similarities in personalities ad histories, the heroes may be at a distinct advantage over any variants they encounter. If a variant is an alternate-timeline version of one of their loved ones, they could know more about that variant than the alt-universe natives know of the heroes' lives in their own universe. "Aha, so you became a Knight when your parents were murderered by a random street criminal, while i became a Knight when my children were murdered by a random street kariminal." "As our own Titan is vulnerable to saline water, I hypothesize that yours might have a similar weaknesss, being a Sentinel from an analogue of our Saturn."
+
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Mighty         ]{.label .core}               [Personal       ]{.label .personal}
+[  ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Brawler]{.label .fighting-styles}
+
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .rockstar } :::::::::::::::::::::::
+[4]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[2]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[1]{.pregen-facet .suspense}
+
+[Rockstar]{.pregen-name}
+[Monstrosity]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Frenzy** Add 2 dice to advance the Smash goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Criminal]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Hacker]{.pregen-skill}
+[Performer (Punk)]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Strongest]{.pregen-word}
+[Monster]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Body]{.pregen-word}
+[Leap]{.pregen-word}
+[Rocky]{.pregen-word}
+[Stomp]{.pregen-word}
+[Strength]{.pregen-word}
+[Throw]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Mosh]{.pregen-word}
+[Pit]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Engine of Destruction**
+Add 2 to Smash roll's Effectiveness if
+using Core or Nova as 3rd Power Word]{.pregen-ability-class}
+[**Misunderstood Monster**
+Add 2 dice when advancing Allay or Rescue]{.pregen-ability-v1}
+
+[Fun]{.pregen-ideal .pregen-i1}
+[Music]{.pregen-ideal .pregen-i2}
+[Kindness]{.pregen-ideal .pregen-i3}
+[Bold]{.pregen-ideal .pregen-i4}
+[Comfort]{.pregen-ideal .pregen-i5}
+
+[Jeri North]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Before the radiation accident, Jeri North was a
+promising young musician. But then she got changed
+into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
+[I want Rockstar to be **invited to join a new band.**]{.pregen-storyline}
+
+![Rockstar](art/jeshields/rockstar_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .brigantia } ::::::::::::::::::::::
+[3]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[1]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Brigantia]{.pregen-name}
+[The Divine]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Brawler** Add 2 dice to Advance Smash when punching.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Explorer  ]{.pregen-skill}
+[Historian ]{.pregen-skill}
+[Mystic    ]{.pregen-skill}
+[Performer (poet)]{.pregen-skill}
+[Physician]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Blessed]{.pregen-word}
+[Champion]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Flight]{.pregen-word}
+[Peace]{.pregen-word}
+[Radiant]{.pregen-word}
+[Resist]{.pregen-word}
+[Speed]{.pregen-word}
+[Strength]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Blazing]{.pregen-word}
+[Sword]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Give Me Strength!**
+Use Core / Nova Power Words in Power Stunt / Combo, 
+count six as 2 successes, lose 1 Health or Might 
+per extra success]{.pregen-ability-class}
+[**Wisdom of Athena**
+Add 2 to the dice pool to advance the Outwit or Allay goals.]{.pregen-ability-v1}
+
+[ Vengeance ]{.pregen-ideal .pregen-i1}
+[ Honor     ]{.pregen-ideal .pregen-i2}
+[ Loyalty   ]{.pregen-ideal .pregen-i3}
+[ Justice   ]{.pregen-ideal .pregen-i4}
+[ Culture   ]{.pregen-ideal .pregen-i5}
+
+[Sienna MacGowan]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[In her normal form, Sienna is a shy, nerdy young
+woman about 22 years old, about 5'2" and 145 lbs. 
+As **Brigantia**, she is over 7 feet tall and weighs
+over 300 lbs.]{.pregen-bio}
+[Brigantia needs to learn that **Not everything can be solved by punching something.**]{.pregen-storyline}
+
+![Brigantia](art/jeshields/brigantia_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:q!
+vi 
+
+/bin/bash: v: command not found
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+/bin/bash: v: command not found
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .vespa } ::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Vespa 2.0]{.pregen-name}
+[The Inventor]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Interceptor** -1 cost on Take the Hit]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Artist (fanfic)]{.pregen-skill}
+[Engineer]{.pregen-skill}
+[Hacker]{.pregen-skill}
+[Pilot]{.pregen-skill}
+[Scientist (entomology)]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Armor]{.pregen-word}
+[Experimental]{.pregen-word}
+[Prototype]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Analyze]{.pregen-word}
+[Communicate]{.pregen-word}
+[Dynamic]{.pregen-word}
+[Laser]{.pregen-word}
+[Protection]{.pregen-word}
+[Telemetry]{.pregen-word}
+[Wings]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Bug]{.pregen-word}
+[Zapper]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**No Wasted Effort** can add some of Advancing Goal to Teamwork pool]{.pregen-ability-class}
+[**Armorsmith** Add Armor as Core and 1 other Personal Power Word]{.pregen-ability-v1}
+
+[Science]{.pregen-ideal .pregen-i1}
+[Honesty]{.pregen-ideal .pregen-i2}
+[Self-Sacrifice]{.pregen-ideal .pregen-i3 .shrink}
+[]{.pregen-ideal .pregen-i4}
+[Manipulation]{.pregen-ideal .pregen-i5}
+
+[Lin Montgomery]{.pregen-nickname}
+[they/them]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Lin is only 19 years old and is the second person to carry
+the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
+[Lin wants to **fight one of their mother's supervillains.**]{.pregen-storyline}
+
+![Vespa 2.0](art/jeshields/vespa_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Capitalism {#toc-sample-capitalism}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Eviction
+##### 3 Actions
+
+- **Smash:  3** 
+- **Outwit: 3** 
+- **Allay:  3** 
+- **Rescue: -** 
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Hunger
+##### n Actions
+
+- **Smash:  -**
+- **Outwit: 5**
+- **Allay:  3**
+- **Rescue: 5**
+
+[]{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### The COSMIC LEGENDS, written up as a as a rival crisis-team
+
+
+### The COSMIC LEGENDS, written up as a as a supervillain crisis-team
+
+
+
+### The COSMIC LEGENDS, written up as a as a supervillain crisis-team
+
+:r energy-boy.md
+
+:r energy-boy.md
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .energy-boy } :::::::::::::::::::::
+[2]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[2]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Energy Boy]{.pregen-name .shrink}
+[The Dynamo]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Acrobat** -1 cost to counter a Crisis move targeting only you]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Academic]{.pregen-skill}
+[Pilot]{.pregen-skill}
+[Scientist]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Energy]{.pregen-word}
+[Overload]{.pregen-word}
+[Radiation]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Absorb]{.pregen-word}
+[Beam]{.pregen-word}
+[Bubble]{.pregen-word}
+[Explosion]{.pregen-word}
+[Flare]{.pregen-word}
+[Punch]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Nuclear]{.pregen-word}
+[Meltdown]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Energy Reserve** Refresh 1 Might if start Hero Phase with 2 or less.]{.pregen-ability-class}
+[**Fight Fire with Fire** Spend Might instead of Teamwork vs energy attacks]{.pregen-ability-v1}
+
+[Politeness]{.pregen-ideal .pregen-i1}
+[Longing]{.pregen-ideal .pregen-i2}
+[Responsibility]{.pregen-ideal .pregen-i3}
+[Guilt]{.pregen-ideal .pregen-i4}
+[Relax]{.pregen-ideal .pregen-i5}
+
+[Del Thompson]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[When he's not powered up, Del looks like normal college student;
+he has short black hair and brown eyes. As **Energy Boy** he looks
+like a walking nebula.]{.pregen-bio}
+[Del wants to **reunite with his mom, even though she caused the accident that gave him powers.**]{.pregen-storyline}
+
+![Energy Boy](art/jeshields/energy_boy_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Espionage Operation {#toc-sample-espionage}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Crisis Name
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::: { .pregen .grailknight } :::::::::::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[The Grailknight]{.pregen-name .shrink}
+[The Knight]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Weapon Master** +2 dice w/melee to Outwit; **Sharpshooter** +2 dice w/ranged to Smash]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Criminal]{.pregen-skill}
+[Deputy]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Investigator]{.pregen-skill}
+[Mystic]{.pregen-skill}
+[Spy]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Gambit]{.pregen-word}
+[Prepared]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Armor]{.pregen-word}
+[Crossbow]{.pregen-word}
+[Line]{.pregen-word}
+[Snare]{.pregen-word}
+[Sword]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Immortal]{.pregen-word}
+[Quest]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Peak Human Potential** Choose a second fighting style.]{.pregen-ability-class}
+[**Trick Arrows** Each Storyline, choose 1 Dynamo or Paragon Power Word.]{.pregen-ability-v1}
+
+[Honor]{.pregen-ideal .pregen-i1}
+[Law]{.pregen-ideal .pregen-i2}
+[Faith]{.pregen-ideal .pregen-i3}
+[Vows]{.pregen-ideal .pregen-i4}
+[Chivalry]{.pregen-ideal .pregen-i5}
+
+[Sir Percival]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[For man of over 1,000 years, Percival is in good shape.
+He looks no older than 40.]{.pregen-bio}
+[I want Percival to **cross swords with another Arthurian knight.**]{.pregen-storyline}
+
+![The Grailknight](art/jeshields/grailknight_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Weapon (Sniper-Rifle)                                        ]{.label .section .power-words}
+[Weapon (Combat-Knife)                                        ]{.label .section .power-words}
+[Vindicated     ]{.label .core}               [Personal       ]{.label .personal}
+[Violence       ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills        ]{.label .skills}             [:lsq
+[Sharpshooter  ]{.label .fighting-styles}
+[Weaponmaster  ]{.label .fighting-styles}
+[Tactician     ]{.label .fighting-styles}
+[Martial Artist]{.label .fighting-styles}
+
+[Health        ]{.label .health}             [Max            ]{.label .health-max}
+[Might         ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action        ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense      ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                     ]{.label .facet .mystery}
+
+[              ]{.box .b1 .motiv .m1}        [Justice        ]{.label .motiv .m1}
+[              ]{.box .b1 .motiv .m2}        [Family         ]{.label .motiv .m2}
+[              ]{.box .b1 .motiv .m3}        [Thin-Blue-Line ]{.label .motiv .m3}
+[              ]{.box .b1 .motiv .m4}        [Violence       ]{.label .motiv .m4}
+[              ]{.box .b1 .motiv .m5}        [Discipline     ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+::::::::::::::::::: {.pregen .jackdee } :::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[1]{.pregen-facet .adventure}
+[4]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Jack Dee]{.pregen-name}
+[The Mage]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Controller** Add 2 dice when use Power to advance Outwit goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Academic]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Lawyer]{.pregen-skill}
+[Mystic]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Sorcery]{.pregen-word}
+[Supreme]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Banish]{.pregen-word}
+[Blast]{.pregen-word}
+[Extradimensional]{.pregen-word}
+[Magic]{.pregen-word}
+[Shield]{.pregen-word}
+[Ward]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Ancestral]{.pregen-word}
+[Empowerment]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**The Price of Magic** If using Core or Nova as 3rd Power Word,
+count 2s as Edge Successes.]{.pregen-ability-class}
+[**Mists of Misdirection** Add 2 dice when Advancing the Outwit or Rescue goals]{.pregen-ability-v1}
+
+[Responsibility]{.pregen-ideal .pregen-i1}
+[Duty]{.pregen-ideal .pregen-i2}
+[Pedantry]{.pregen-ideal .pregen-i3}
+[Family]{.pregen-ideal .pregen-i4}
+[Secrecy]{.pregen-ideal .pregen-i5}
+
+[The Master Magister]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Jack Dee is the scion of a long line of mystical protectors.
+He'd rather be a lawyer, so usually dresses like one.
+Jack has brown hair and vandyke.]{.pregen-bio}
+[I want Jack to **Get asked out by some villain dude.**]{.pregen-storyline}
+
+![Jack Dee](art/jeshields/jackdee_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+::::::::::::::::::::{ .pregen .head-librarian } :::::::::::::::::
+[1]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[1]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[4]{.pregen-facet .suspense}
+
+[The Head Librarian]{.pregen-name .shrink2}
+[The Psychic]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Tactician** Add 2 dice when you add to the Teamwork Pool]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Academic]{.pregen-skill}
+[Artist]{.pregen-skill}
+[Journalist]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Focused]{.pregen-word}
+[Totality]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Erase]{.pregen-word}
+[Language]{.pregen-word}
+[Memory]{.pregen-word}
+[Paper]{.pregen-word}
+[Probe]{.pregen-word}
+[Restore]{.pregen-word}
+[Move]{.pregen-word}
+[Transfer]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Information]{.pregen-word}
+[Overload]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Our Minds as One** If everyone is in mindlink, +2 on Power Combos]{.pregen-ability-class}
+[**Telekinetics** Add 1 Element, 1 Personal Power Words from Shaper]{.pregen-ability-v1}
+
+[Knowledge]{.pregen-ideal .pregen-i1}
+[Compassion]{.pregen-ideal .pregen-i2}
+[Learning]{.pregen-ideal .pregen-i3}
+[Aesthetics]{.pregen-ideal .pregen-i4}
+[Order]{.pregen-ideal .pregen-i5}
+
+[Unknown]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[The Head Librarian looks like a man about 30 years of age; he doesn't appear in any databases, online or off.]{.pregen-bio}
+[His storyline is **discover where he is from.**]{.pregen-storyline}
+
+![The Head Librarian](art/jeshields/head_librarian_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[The Paragon    ]{.label .class}              [Renegade Sentinel of Saturn.         ]{.label .}
+[Volume         ]{.label .volume}             [he/him      ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+**Powers:**
+Hyperion is perhaps the most powerful individual on the planet, rivalled only by Titan.
+His Titanian strength lets him lift well over 100 tons, and he is
+able to project the cold frost of the Titanian sky from his
+eyes as energy beams. Flight, speed, and telepathy round out his
+vast array of alien powers -- which are exceptional even for a
+Titanian.
+
+:::::::::::::::::: {.stats} :::::::::::::::::::::::::
+#### Hyperion
+
+- **Class:** Fallen Paragon
+- **Approaches:** Action 1, Adventure 2, Detective 3, Mystery 3, Suspense 3**
+-- **Health:** 15
+-- **Might:** 10
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [15 Max            ]{.label .health-max}
+[Might  10      ]{.label .might}              [10 Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Mystery        ]{.label .facet .detective} 
+[Detective                                                    ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; l:q
+:q:Jshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .titan } ::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Titan]{.pregen-name}
+[The Fallen Paragon]{.pregen-class}
+[15]{.pregen-health}
+[10]{.pregen-might}
+
+[**Mediator** Add 2 dice when you advance the Allay Goal. ]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Investigator]{.pregen-skill}
+[Scientist]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Powers   ]{.pregen-word}
+[Abilities]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Alien   ]{.pregen-word}
+[Frost   ]{.pregen-word}
+[Flight  ]{.pregen-word}
+[Rend    ]{.pregen-word}
+[Strength]{.pregen-word}
+[Thoughts]{.pregen-word}
+[Vision  ]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Selfish      ]{.pregen-word}
+[Dispassionate]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**My One Weakness!** (salt water)]{.pregen-ability-class}
+[**Endless Cruelty** Increase your Health to 15]{.pregen-ability-v1} [TBD ]{.pregen-ability-v3}
+
+[Control   ]{.pregen-ideal .pregen-i1}
+[Domination]{.pregen-ideal .pregen-i2}
+[Fear      ]{.pregen-ideal .pregen-i3}
+[Ignorance ]{.pregen-ideal .pregen-i4}
+[Deception ]{.pregen-ideal .pregen-i5}
+
+[Renegade Sentinel of Saturn]{.pregen-nickname}
+[He/They]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Hyperion is a tall alien about 7 1/2 feet tall with green skin and yellowish-orange eyes. They don't have an alternate identity.]{.pregen-bio}
+[The Renegade Sentinel of Saturn needs to **Stop trying to enslave earthlings as unwitting servants.**]{.pregen-storyline}
+
+![Titan](art/jeshields/titan_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [volcanic       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Flame          ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Weapon Master]{.label .fighting-styles}
+[Skills         ]{.label .skills}             [Frenzy       ]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max          ]{.label .health-max}
+[Might          ]{.label .might}              [Max          ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure    ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective    ]{.label .facet .detective} 
+[Mystery                                                    ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal        ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal        ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal        ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal        ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal        ]{.label .motiv .m5}
+
+[Abilities                                                  ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1     ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3     ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5     ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks        ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed    ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Pae]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+::::::::::::::::::: {.pregen .obsidius-rex } ::::::::::::::::::::
+[2]{.pregen-facet .action}
+[4]{.pregen-facet .adventure}
+[1]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[1]{.pregen-facet .suspense}
+
+[Igneia Regina{.pregen-name .shrink}
+[The Monarch]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Weapon Master** Add 2 dice with melee weapon to advance Outwit goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Engineer]{.pregen-skill}
+[Artist (Sculptor)]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Politician]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Reserves]{.pregen-word}
+[Unexpected]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Weapon (flamberge)]{.pregen-word}
+[Communicate]{.pregen-word}
+[Superior]{.pregen-word}
+[Survivor]{.pregen-word}
+[Magma]{.pregen-word}
+[Gasses]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Immolatiion]{.pregen-word}
+[Destructive]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**For My Kingdom!** +3 to Teamwork pool if Vulcanor is threatened]{.pregen-ability-class}
+[**Righteous Rage** +2 dice to Advance Smash if below half Health]{.pregen-ability-v1}
+
+[Nobility]{.pregen-ideal .pregen-i1}
+[Pride]{.pregen-ideal .pregen-i2}
+[Stubbornness]{.pregen-ideal .pregen-i3 .shrink}
+[Nationalism]{.pregen-ideal .pregen-i4}
+[Security]{.pregen-ideal .pregen-i5}
+
+[The Stone Prince]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Like all Vulcanors, Rex's skin is a dark obsidian color and
+he lacks hair.]{.pregen-bio}
+[I want him to **find a potential consort and invite them home.**]{.pregen-storyline}
+
+![Obsidius Rex](art/jeshields/obsidius_rex_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+::::::::::::::::::: {.pregen .jackdee } :::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[1]{.pregen-facet .adventure}
+[4]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Jack Dee]{.pregen-name}
+[The Mage]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Controller** Add 2 dice when use Power to advance Outwit goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Academic]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Lawyer]{.pregen-skill}
+[Mystic]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Sorcery]{.pregen-word}
+[Supreme]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Banish]{.pregen-word}
+[Blast]{.pregen-word}
+[Extradimensional]{.pregen-word}
+[Magic]{.pregen-word}
+[Shield]{.pregen-word}
+[Ward]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Ancestral]{.pregen-word}
+[Empowerment]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**The Price of Magic** If using Core or Nova as 3rd Power Word,
+count 2s as Edge Successes.]{.pregen-ability-class}
+[**Mists of Misdirection** Add 2 dice when Advancing the Outwit or Rescue goals]{.pregen-ability-v1}
+
+[Responsibility]{.pregen-ideal .pregen-i1}
+[Duty]{.pregen-ideal .pregen-i2}
+[Pedantry]{.pregen-ideal .pregen-i3}
+[Family]{.pregen-ideal .pregen-i4}
+[Secrecy]{.pregen-ideal .pregen-i5}
+
+[The Master Magister]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Jack Dee is the scion of a long line of mystical protectors.
+He'd rather be a lawyer, so usually dresses like one.
+Jack has brown hair and vandyke.]{.pregen-bio}
+[I want Jack to **Get asked out by some villain dude.**]{.pregen-storyline}
+
+![Jack Dee](art/jeshields/jackdee_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Legal Entanglements {#toc-sample-legal}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Crisis Name
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Media Relations {#toc-sample-media}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Crisis Name
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Mystery Investigation {#toc-sample-mystery}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Crisis Name
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Mythological Monsters {#toc-sample-myth-monsters}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Fire-Breathing Dragon
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### The Walking Dead
+##### n Actions
+
+- **Smash:  x** 
+- **Outwit: x** 
+- **Allay:  x** 
+- **Rescue: x** 
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Vampire and Spawn
+##### n Actions
+
+- **Smash:  x** 
+- **Outwit: x** 
+- **Allay:  x** 
+- **Rescue: x** 
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Controller, Frenzy, Tactician]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .energy-boy } :::::::::::::::::::::
+[2]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[2]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Neutrino the Energy Woman]{.pregen-name .shrink}
+[The Dynamo]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Acrobat** -1 cost to counter a Crisis move targeting only you]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Academic]{.pregen-skill}
+[Pilot]{.pregen-skill}
+[Scientist]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Energy]{.pregen-word}
+[Overload]{.pregen-word}
+[Radiation]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Absorb]{.pregen-word}
+[Beam]{.pregen-word}
+[Bubble]{.pregen-word}
+[Explosion]{.pregen-word}
+[Flare]{.pregen-word}
+[Punch]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Nuclear]{.pregen-word}
+[Meltdown]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Energy Reserve** Refresh 1 Might if start Hero Phase with 2 or less.]{.pregen-ability-class}
+[**Fight Fire with Fire** Spend Might instead of Teamwork vs energy attacks]{.pregen-ability-v1}
+
+[Power]{.pregen-ideal .pregen-i1}
+[Science]{.pregen-ideal .pregen-i2}
+[Revenge]{.pregen-ideal .pregen-i3}
+[Greed]{.pregen-ideal .pregen-i4}
+[Rage]{.pregen-ideal .pregen-i5}
+
+[Del Thompson]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[When he's not powered up, Del looks like normal college student;
+he has short black hair and brown eyes. As **Energy Boy** he looks
+like a walking nebula.]{.pregen-bio}
+[Del wants to **reunite with his mom, even though she caused the accident that gave him powers.**]{.pregen-storyline}
+
+![Energy Boy](art/jeshields/energy_boy_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+::::::::::::::::::: {.pregen .obsidius-rex } ::::::::::::::::::::
+[2]{.pregen-facet .action}
+[4]{.pregen-facet .adventure}
+[1]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[1]{.pregen-facet .suspense}
+
+[Obsidius Rex]{.pregen-name .shrink}
+[The Monarch]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Weapon Master** Add 2 dice with melee weapon to advance Outwit goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Engineer]{.pregen-skill}
+[Artist (Sculptor)]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Politician]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Reserves]{.pregen-word}
+[Unexpected]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Weapon (greatsword)]{.pregen-word}
+[Communicate]{.pregen-word}
+[Superior]{.pregen-word}
+[Survivor]{.pregen-word}
+[Remote]{.pregen-word}
+[Armor]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Unbreakable]{.pregen-word}
+[Stone]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**For My Kingdom!** +3 to Teamwork pool if Vulcanor is threatened]{.pregen-ability-class}
+[**Righteous Rage** +2 dice to Advance Smash if below half Health]{.pregen-ability-v1}
+
+[Nobility]{.pregen-ideal .pregen-i1}
+[Pride]{.pregen-ideal .pregen-i2}
+[Stubbornness]{.pregen-ideal .pregen-i3 .shrink}
+[Nationalism]{.pregen-ideal .pregen-i4}
+[Security]{.pregen-ideal .pregen-i5}
+
+[The Stone Prince]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Like all Vulcanors, Rex's skin is a dark obsidian color and
+he lacks hair.]{.pregen-bio}
+[I want him to **find a potential consort and invite them home.**]{.pregen-storyline}
+
+![Obsidius Rex](art/jeshields/obsidius_rex_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Poker Night {#toc-poker-night}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#### Poker Night
+##### 3 Actions
+
+- **Smash:  3**   (grab the stakes, flip the table)
+- **Outwit: 6**   (just be *that good* at cards)
+- **Allay:  5**   (sometimes it's about reading the cards, other times about reading the table)
+- **Rescue: n/a** (--)
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::::::::::::::::::::::::::
+Scene Power Words
+:   cards, stakes, table, crowd, bet, luck, secluded, truce, powerless
+
+No One Needs Rescuing
+:   There's no one in any actual danger. The Rescue goal can't be advanced
+    or resolved during this crisis.
+
+There's No Teams in Poker
+:   The heroes can't form or add to a Teamwork Pool during this crisis. Two
+    heroes *can* decide to work together as partners; if so, all the other
+    characters at Poker Night are aware of the partnership and may resent
+    them for the effort.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Smash 
+:   You grab whatever stakes you want and flip the table. A general melee may
+    break out now, and you probably won't be invited back.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   The Rescue goal can't be advanced or resolved during this
+    crisis.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### The Police {#toc-sample-police}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Police Riot
+##### n Actions
+
+- **Smash:  x** 
+- **Outwit: x** 
+- **Allay:  x** 
+- **Rescue: x** 
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### S.W.A.T. Unit
+##### n Actions
+
+- **Smash:  x** 
+- **Outwit: x** 
+- **Allay:  x** 
+- **Rescue: x** 
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+::::::::::::::::::: {.pregen .riptide } :::::::::::::::::::::::::
+[2]{.pregen-facet .action}
+[4]{.pregen-facet .adventure}
+[2]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[1]{.pregen-facet .suspense}
+
+[Riptide]{.pregen-name}
+[The Shaper]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Rescuer** Add 1 die when you advance the Rescue goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Socialite]{.pregen-skill}
+[Artist (sandcastles)]{.pregen-skill}
+[Physician (first aid)]{.pregen-skill}
+[Scientist (marine bio)]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Water]{.pregen-word}
+[Sculpt]{.pregen-word}
+[Environment]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Blast]{.pregen-word}
+[Create]{.pregen-word}
+[Move]{.pregen-word}
+[Quell]{.pregen-word}
+[Reshape]{.pregen-word}
+[Shield]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Towering]{.pregen-word}
+[Tsunami]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Reshape the Battlefield** roll to change 1 Scene Power Word to 1 of mine]{.pregen-ability-class}
+[**Shelter the Innocents** Add 2 to advance the Rescue goal.]{.pregen-ability-v1}
+
+[Lifesaving]{.pregen-ideal .pregen-i1}
+[Nature]{.pregen-ideal .pregen-i2}
+[Humor]{.pregen-ideal .pregen-i3}
+[Protection]{.pregen-ideal .pregen-i4}
+[Surfing]{.pregen-ideal .pregen-i5}
+
+[Kelly Liang]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Kelly is a woman of normal height who is in good shape.
+Her hair is dyed magenta and her skin is quite tan.]{.pregen-bio}
+[Kelly wants to **confront poachers who harm sea animals.**]{.pregen-storyline}
+
+![Riptide](art/jeshields/riptide_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Rival Heroes {#toc-sample-rivals}
+
+Rival Hero crises introduce other superheroes who work alongside the 
+primary heroes of the game, presumably working toward the same goals.
+They might not get along with each other even though they're on the same
+team; an explicit campaign of one-upsmanship may ensue, competing for glory
+as they advance the Smash, Outwit, Allay, and Rescue goals. 
+
+Vignettes between heroes from rival groups can be useful for contrasting the
+unte'
+primary heroes with their rivals in terms of approach, ideals, and powers --
+unlike other non-hero characters, rival heroes can still use actions and make action rolls to advance goals, often to embarass or deligitimize the more
+established team of heroes in the game.
+
+Rival Heroes Teams are usually built like Supervillain TEams or Alt-Universe Teams -- with defined classes, Approaches, Power Words, Ideals, and Abilities like those possessed by the primary heroes.
+Their Teamwork pool is tracked separately from the heroes', and can only be added to, or used on behalf of, the team affiliated with that that teamwork pool. Heroes or villains from separate teams can't join in combos initiated y individuals from those other hero or villain teams.
+
+#### Building Other Teams 
+
+Crises that center on other teams of super-powered individuals, such as
+Rival Heroes Team Crises, or Super-Villain Team Crises, or Alternate-Universe Crises, need to have those teams built.
+
+Each crisis-team can take a number of actions in a round equal to their numbers of members. Create each member as you would a hero character -- choose a class for that hero character and distribute 5 points to their approaches as heroes distribute 5 to their own, all of which start at 1.
+
+A crisis-team has a separate teamwork-pool that can be added to, and used onbehalf of, members of that crisis-team. If fighting a villain crisis-team, the heroes can't spend the villains' teamwork-pool to avoid those villains' attacks.
+
+Pick skills, abilities, and approaches that make sense for those crisis-team
+members. If one is meant to be the opposite number to a secretivive hero who doesn't trust their own members, consider giving that crisis-team opposite a high score in the Detective approach.
+
+While it can be tempting to make rivals, supervillains, and alt-universe variants that are identical to the series' primary heroes with color-swapped costumes and evil facial hair ... it's also one of the least interesting things you do when you create a crisis-team group. Mixing up their classes. abilities, approaches, ideals, and power-words requires more work, but lets you avoid palatte-swqpp3ed retr3ads of fa,miliar heroes.
+
+
+c
+'0
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rules
+:   One or more additional rules.905 tht describe how hte pimrary heroes deal with members of the crisis-team. These rules setup the barriers between how the two teams can relate to each other -- for example, if they can work together or directly attack each other. As a general rule, it requires as many successes to counter another team's moves as the amount of Might spent by that team to produce the move's effects. For example, if it costs the heroes 3 Might to pull off a combo that could knock out their rivals, the rival crisis-team could counter that effect by spending 3 Successes from their own teamwork-pool. They can use their own moves to add to their teamwork-pools, or force the heroes to spend from their own to teamwork-pool to counter their moves' effects. Abilities that can advance, reduce, add to, teamwork-pools can be used on any crisis-team's teamwork-pools; whenever a crisis-team succcessfully advances a Goal, the members of that team earn the Might refresh from advancing the Goal, not all characters who are members of involved crisis-teams when a Goal advances.
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+When you write up a crisis-team, list all of that team members' class moves and abilities
+using the standard method for writing up a crisis. You'll need to track Might and Health separately for each member of each crisis-team, so you may want to give them complete character sheets that have boxes for tracking Might and Health.
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+:::::::::::::::::::::::::::::::::::::::::::::::::::: ::::::::::::: resolve :::::::::::::::::::::::::::::: 
+If the crisis-team are opposed to the primary heroes, give them moves and resolutions that let them roll-back or hinter Goal advancements -- villains or rivals may have moves that kill bystanders instead of Resuing them, or increasing the number of bystandards that need need to be rescued. They could even roll-back Goal advancements by the heroes if they've proven particularly effective at smashing down down crises or allaying the causes of those criseses. "Too Many Chefs" is a classic move for a rival crisis-team that reduces the main hero team's abilities to Outwit a crisis. Subtract 1 effectiveness from the next Outwit roll by the heroes after the crisis-team spends at least 1 Might on the Too Many Chefs move, representing the uncoordinated attempts at "help" from untrained teammates trying to work together.
+Too Many Chefs (1 per each crisis-team member)
+Subtract 1 from the effectiveness of the next heroes' outwit move for each crisis-team member who spends at least 1 Might on the *Too Many Chefs* move.
+You're Not Helping (1 per each crisis-team member)
+Reduce the hero-team's teamwork-pool by a number of successes limited by the size of the crisis-team; each success removed from the crisis-team's teamwork-pool removes one success from the hero-team's teamwork-pool.
+
+Smash :   A desc of this resolution.  
+Outwit :   A des55c of this resolution.  
+Allay :   A desc of this resolution.  
+Rescue :   A desc of this resolution.  
+Defeat :   A desc of this resolution.  :::::::::::::::::::::::::::::::::::::::::::::::::::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .rockstar } :::::::::::::::::::::::
+[4]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[2]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[1]{.pregen-facet .suspense}
+
+[Rockstar]{.pregen-name}
+[Monstrosity]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Frenzy** Add 2 dice to advance the Smash goal.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Criminal]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Hacker]{.pregen-skill}
+[Performer (Punk)]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Strongest]{.pregen-word}
+[Monster]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Body]{.pregen-word}
+[Leap]{.pregen-word}
+[Rocky]{.pregen-word}
+[Stomp]{.pregen-word}
+[Strength]{.pregen-word}
+[Throw]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Mosh]{.pregen-word}
+[Pit]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Engine of Destruction**
+Add 2 to Smash roll's Effectiveness if
+using Core or Nova as 3rd Power Word]{.pregen-ability-class}
+[**Misunderstood Monster**
+Add 2 dice when advancing Allay or Rescue]{.pregen-ability-v1}
+
+[Fun]{.pregen-ideal .pregen-i1}
+[Music]{.pregen-ideal .pregen-i2}
+[Kindness]{.pregen-ideal .pregen-i3}
+[Bold]{.pregen-ideal .pregen-i4}
+[Comfort]{.pregen-ideal .pregen-i5}
+
+[Jeri North]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Before the radiation accident, Jeri North was a
+promising young musician. But then she got changed
+into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
+[I want Rockstar to be **invited to join a new band.**]{.pregen-storyline}
+
+![Rockstar](art/jeshields/rockstar_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Romantic Outing {#toc-sample-romance}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Crisis Name
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .brigantia } ::::::::::::::::::::::
+[3]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[1]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Brigantia]{.pregen-name}
+[The Divine]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Brawler** Add 2 dice to Advance Smash when punching.]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Explorer  ]{.pregen-skill}
+[Historian ]{.pregen-skill}
+[Mystic    ]{.pregen-skill}
+[Performer (poet)]{.pregen-skill}
+[Physician]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Blessed]{.pregen-word}
+[Champion]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Flight]{.pregen-word}
+[Peace]{.pregen-word}
+[Radiant]{.pregen-word}
+[Resist]{.pregen-word}
+[Speed]{.pregen-word}
+[Strength]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Blazing]{.pregen-word}
+[Sword]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Give Me Strength!**
+Use Core / Nova Power Words in Power Stunt / Combo, 
+count six as 2 successes, lose 1 Health or Might 
+per extra success]{.pregen-ability-class}
+[**Wisdom of Athena**
+Add 2 to the dice pool to advance the Outwit or Allay goals.]{.pregen-ability-v1}
+
+[ Vengeance ]{.pregen-ideal .pregen-i1}
+[ Honor     ]{.pregen-ideal .pregen-i2}
+[ Loyalty   ]{.pregen-ideal .pregen-i3}
+[ Justice   ]{.pregen-ideal .pregen-i4}
+[ Culture   ]{.pregen-ideal .pregen-i5}
+
+[Sienna MacGowan]{.pregen-nickname}
+[she/her]{.pregen-pronouns}
+[In her normal form, Sienna is a shy, nerdy young
+woman about 22 years old, about 5'2" and 145 lbs. 
+As **Brigantia**, she is over 7 feet tall and weighs
+over 300 lbs.]{.pregen-bio}
+[Brigantia needs to learn that **Not everything can be solved by punching something.**]{.pregen-storyline}
+
+![Brigantia](art/jeshields/brigantia_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+vi sesquana.md
+
+
+### Sports Event {#toc-sample-sports}
+
+[]{.lorem}
+
+:::::::::::::: crisis-block :::::::::::::::::::::::::::::::
+#### Crisis Name
+##### n Actions
+
+- **Smash:  x**
+- **Outwit: x**
+- **Allay:  x**
+- **Rescue: x**
+
+[]{.lorem} []{.lorem}
+
+::::::::::::::::::: rules ::::::::::::::::::::::::::
+Scene Power Words
+:   list, of, twelve, possible, power, words
+
+Special Rule
+:   One or more additional rules.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: moves ::::::::::::::::::::::::::::::::
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+
+Move (a)
+:   A desc of the move.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: resolve ::::::::::::::::::::::::::::::
+Smash
+:   A desc of this resolution.
+
+Outwit
+:   A desc of this resolution.
+
+Allay
+:   A desc of this resolution.
+
+Rescue
+:   A desc of this resolution.
+
+Defeat
+:   A desc of this resolution.
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .titan } ::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[2]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[2]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Titan]{.pregen-name}
+[The Paragon]{.pregen-class}
+[15]{.pregen-health}
+[10]{.pregen-might}
+
+[**Mediator** Add 2 dice when you advance the Allay Goal. ]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Investigator]{.pregen-skill}
+[Scientist]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Powers]{.pregen-word}
+[Abilities]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Alien]{.pregen-word}
+[Cold]{.pregen-word}
+[Flight]{.pregen-word}
+[Probe]{.pregen-word}
+[Strength]{.pregen-word}
+[Thoughts]{.pregen-word}
+[Vision]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Selfless]{.pregen-word}
+[Compassion]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**My One Weakness!** When doused with salt water]{.pregen-ability-class}
+[**Boundless Fortitude** Increase your Health to 15]{.pregen-ability-v1}
+
+[Freedom]{.pregen-ideal .pregen-i1}
+[Joy]{.pregen-ideal .pregen-i2}
+[Caution]{.pregen-ideal .pregen-i3}
+[Curiosity]{.pregen-ideal .pregen-i4}
+[Privacy]{.pregen-ideal .pregen-i5}
+
+[Sentinel of Saturn]{.pregen-nickname}
+[He/They/It]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Titan is a tall alien about 7 1/2 feet tall with green skin and yellowish eyes. They don't have an alternate identity.]{.pregen-bio}
+[The Sentinel of Saturn needs to **Let humans make their own mistakes.**]{.pregen-storyline}
+
+![Titan](art/jeshields/titan_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::: { .pregen .grailknight } :::::::::::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[The Grailknight]{.pregen-name .shrink}
+[The Knight]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Weapon Master** +2 dice w/melee to Outwit; **Sharpshooter** +2 dice w/ranged to Smash]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Criminal]{.pregen-skill}
+[Deputy]{.pregen-skill}
+[Explorer]{.pregen-skill}
+[Historian]{.pregen-skill}
+[Investigator]{.pregen-skill}
+[Mystic]{.pregen-skill}
+[Spy]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Gambit]{.pregen-word}
+[Prepared]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Armor]{.pregen-word}
+[Crossbow]{.pregen-word}
+[Line]{.pregen-word}
+[Snare]{.pregen-word}
+[Sword]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Immortal]{.pregen-word}
+[Quest]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**Peak Human Potential** Choose a second fighting style.]{.pregen-ability-class}
+[**Trick Arrows** Each Storyline, choose 1 Dynamo or Paragon Power Word.]{.pregen-ability-v1}
+
+[Honor]{.pregen-ideal .pregen-i1}
+[Law]{.pregen-ideal .pregen-i2}
+[Faith]{.pregen-ideal .pregen-i3}
+[Vows]{.pregen-ideal .pregen-i4}
+[Chivalry]{.pregen-ideal .pregen-i5}
+
+[Sir Percival]{.pregen-nickname}
+[he/him]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[For man of over 1,000 years, Percival is in good shape.
+He looks no older than 40.]{.pregen-bio}
+[I want Percival to **cross swords with another Arthurian knight.**]{.pregen-storyline}
+
+![The Grailknight](art/jeshields/grailknight_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[Hero Name                                                    ]{.label .name}
+[Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
+[Volume         ]{.label .volume}             [Pronouns       ]{.label .pronouns}
+[               ]{.box .b5 .volume-boxes}
+
+[Power Words                                                  ]{.label .section .power-words}
+[Core           ]{.label .core}               [Personal       ]{.label .personal}
+[Nova           ]{.label .nova}
+[               ]{.box .b1 .nova-unlocked}    [Unlocked       ]{.label .nova-unlocked}
+
+[Skills         ]{.label .skills}             [Fighting Styles]{.label .fighting-styles}
+
+[Health         ]{.label .health}             [Max            ]{.label .health-max}
+[Might          ]{.label .might}              [Max            ]{.label .might-max}
+
+[Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
+[Suspense       ]{.label .facet .suspense}    [Detective      ]{.label .facet .detective} 
+[Mystery                                                      ]{.label .facet .mystery}
+
+[               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
+[               ]{.box .b1 .motiv .m2}        [Ideal          ]{.label .motiv .m2}
+[               ]{.box .b1 .motiv .m3}        [Ideal          ]{.label .motiv .m3}
+[               ]{.box .b1 .motiv .m4}        [Ideal          ]{.label .motiv .m4}
+[               ]{.box .b1 .motiv .m5}        [Ideal          ]{.label .motiv .m5}
+
+[Abilities                                                    ]{.label .section .abilities}
+[Class          ]{.label .class-ability}      [Volume 1       ]{.label .volume-ability .v1}
+[Volume 2       ]{.label .volume-ability .v2} [Volume 3       ]{.label .volume-ability .v3}
+[Volume 4       ]{.label .volume-ability .v4} [Volume 5       ]{.label .volume-ability .v5}
+
+[Storyline      ]{.label .story-arc}          [Looks          ]{.label .bio}
+[               ]{.box .b1 .arc-complete}     [Completed      ]{.label .arc-complete}
+
+
+[Retcon         ]{.safety .label .s1}     [Continued Next Page]{.safety .label .s2}
+[Meanwhile, ... ]{.safety .label .s3}     [Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Art &copy; Jeshields]{.copy-art}
+
+:::::::::::::::::::: {.pregen .vespa } ::::::::::::::::::::::::::
+[1]{.pregen-facet .action}
+[3]{.pregen-facet .adventure}
+[3]{.pregen-facet .detective}
+[1]{.pregen-facet .mystery}
+[2]{.pregen-facet .suspense}
+
+[Vespa 2.0]{.pregen-name}
+[The Inventor]{.pregen-class}
+[10]{.pregen-health}
+[10]{.pregen-might}
+
+[**Interceptor** -1 cost on Take the Hit]{.pregen-fighting-style}
+
+::::::::::: pregen-skills ::::::::::
+[Artist (fanfic)]{.pregen-skill}
+[Engineer]{.pregen-skill}
+[Hacker]{.pregen-skill}
+[Pilot]{.pregen-skill}
+[Scientist (entomology)]{.pregen-skill}
+:::::::::::::::::::::::::::::
+
+::::::::::: pregen-core :::::::::::
+[Armor]{.pregen-word}
+[Experimental]{.pregen-word}
+[Prototype]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+::::::: pregen-personal :::::::::::
+[Analyze]{.pregen-word}
+[Communicate]{.pregen-word}
+[Dynamic]{.pregen-word}
+[Laser]{.pregen-word}
+[Protection]{.pregen-word}
+[Telemetry]{.pregen-word}
+[Wings]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+:::::::: pregen-nova ::::::::::::::
+[Bug]{.pregen-word}
+[Zapper]{.pregen-word}
+:::::::::::::::::::::::::::::::::::
+
+[**No Wasted Effort** can add some of Advancing Goal to Teamwork pool]{.pregen-ability-class}
+[**Armorsmith** Add Armor as Core and 1 other Personal Power Word]{.pregen-ability-v1}
+
+[Science]{.pregen-ideal .pregen-i1}
+[Honesty]{.pregen-ideal .pregen-i2}
+[Self-Sacrifice]{.pregen-ideal .pregen-i3 .shrink}
+[Legacy]{.pregen-ideal .pregen-i4}
+[Comaraderie]{.pregen-ideal .pregen-i5}
+
+[Lin Montgomery]{.pregen-nickname}
+[they/them]{.pregen-pronouns}
+[]{.pregen-volume .box .v1}
+[Lin is only 19 years old and is the second person to carry
+the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
+[Lin wants to **fight one of their mother's supervillains.**]{.pregen-storyline}
+
+![Vespa 2.0](art/jeshields/vespa_face.png){.pregen-face} \ 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Index: Power Word Lists
