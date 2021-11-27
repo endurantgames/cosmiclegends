@@ -268,7 +268,7 @@ Astral Retreat
     Choose two Scene Power Words for your Astral Retreat from the
     [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
+    #### Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
 
     - Astral
     - Cloaked

@@ -252,7 +252,7 @@ Shaper's Refuge
     Scene Power Word.
     In addition, choose one of the following as a fourth Scene Power Word:
     ::::::: cpw :::::::::::::
-    # Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
+    #### Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
 
     - Cloaked
     - Defensive

@@ -51,6 +51,9 @@ If you lose Health, you can describe how you injured yourself while
 using your skill. Losing Might generally means becoming tired, possibly
 from stress or overwork.
 
+You can only choose a consequence for an Edge Success that injures
+another hero with the permission of that hero's player.
+
 ::::::: { .skill-list } ::::::::::::::::::
 Academic
 :   You've spent many years in education,
@@ -65,27 +68,29 @@ Academic
     - Roll [Academic]{.suspense}  to spot plagiarism.
 
     - **Edge Success:** 
-      Someone in your department develops an intense jealousy of you.
-      Online trolls try to get you fired from your job.
-      You spend way too much time on a relatively trivial matter.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - Someone in your department develops an intense jealousy 
+        of you.
+      - Online trolls will try to get you fired from your job.
+      - You spend way too much time on a relatively trivial matter.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 Artist
 :   You are skilled at creating works of art; optionally, you can choose
     one or more media in which you primarily work. If you do, add 1 die to 
-    any roll related to that media.
+    any roll related to those media.
 
     - Roll [Artist]{.action}   to make a bold splash in the art world.
     - Roll [Artist]{.mystery}  to plant secret messages in a work of art.
     - Roll [Artist]{.suspense} to detect a forgery.
 
     - **Edge Success:** 
-      You're just not satisfied with this piece.
-      Someone will start selling knockoffs of your work online.
-      A critic savages your work in a review.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - You're just not satisfied with this piece.
+      - Someone will start selling knockoffs of your work online.
+      - A critic will savage your work in a review.
+      - It takes much more time than you thought it would.
+      - This could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Criminal
 :   You're skilled at evading the law and getting away with it. Optionally, you can
@@ -98,11 +103,11 @@ Criminal
     - Roll [Criminal]{.suspense}  to notice hidden cameras or alarm triggers.
 
     - **Edge Success:** 
-      Your crime makes more noise than you had hoped.
-      A criminal organization takes an interest in your actions.
-      You owe a favor to someone dodgy now.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - Your crime makes more noise than you had hoped.
+      - A criminal organization takes an interest in your actions.
+      - You owe a favor to someone dodgy now.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 :::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
 Keep in mind that []{.gamename} is *a four-color game,* not a simulation
@@ -124,11 +129,11 @@ Deputy
     - Roll [Deputy]{.suspense}  to spot a "likely" suspect for a crime.
 
     - **Edge Success:** 
-      It takes much more time than you thought it would.
-      Your actions are filmed by bystanders.
-      The suspect can afford a lawyer.
-      Your "evidence" won't stand up in court.
-      Lose 1 Health or 1 Might.
+      - It takes much more time than you thought it would.
+      - Your actions are filmed by bystanders.
+      - The suspect can afford a lawyer.
+      - Your "evidence" won't stand up in court.
+      - Lose 1 Health or 1 Might.
   
 Engineer
 :   You can build high-tech devices. This is the four-color version
@@ -161,14 +166,15 @@ Engineer
     - Roll [Engineer]{.suspense}  to identify the weaknesses in a design before seeing it operational.
 
     - **Edge Success:** 
-      You only have time to make one.
-      After this roll, your laboratory or workshop is
-      trashed. You automatically clean it up between the end of 
-      the current Crisis and the start of the next Crisis Countdown.
-      You use up the last of your supplies on this device.
-      The device is so complex that only you can make it work in the field.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - You only have time to make one.
+      - After this roll, your laboratory or workshop is
+        trashed. You automatically clean it up between the end of 
+        the current Crisis and the start of the next Crisis Countdown.
+      - You use up the last of your supplies on this device.
+      - The device is so complex that only __you__ can make it work in the field.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Anyone in your laboratory loses 1 Health.
   
 Explorer
 :   You're at home in the wilds, and have a great sense of direction. Optionally,
@@ -181,11 +187,11 @@ Explorer
     - Roll [Explorer]{.suspense}  to predict the weather.
 
     - **Edge Success:** 
-      You attract the attention of a large predator.
-      Any water or food you found is edible, but tastes terrible.
-      You are easily tracked by anyone.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - You attract the attention of a large predator.
+      - Any water or food you found is edible, but tastes terrible.
+      - You are easily tracked by anyone.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 Hacker
 :   You're quite talented with computers and can easily overcome most forms 
@@ -197,11 +203,14 @@ Hacker
     - Roll [Hacker]{.mystery}   to access a machine without detection.
 
     - **Edge Success:** 
-      You leave traces of your presence.
-      You'll get immediately disconnected after this task.
-      Your computer could get counter-hacked.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - You leave traces of your presence.
+      - You'll get immediately disconnected after this task.
+      - Your computer could get counter-hacked.
+      - Your computer breaks. Between the end of the current Crisis
+        and the next Crisis Countdown, you automatically get it
+        fixed. Until then, you can't use it in a Hacker skill roll.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 Historian
 :   You understand archaeology and are an authority on items and locations
@@ -213,12 +222,12 @@ Historian
     - Roll [Historian]{.suspense}  to identify something's age and origin.
 
     - **Edge Success:** 
-      You awaken something that shouldn't have been awakened.
-      The artifact you're examining crumbles to dust.
-      Another historian disputes your claims.
-      It takes much more time than you thought it would.
-      It belongs in a museum.
-      Lose 1 Health or 1 Might.
+      - You awaken something that shouldn't have been awakened.
+      - The artifact you're examining crumbles to dust.
+      - Another historian will dispute your claims.
+      - It takes much more time than you thought it would.
+      - It belongs in a museum. No, really, it does.
+      - Lose 1 Health or 1 Might.
   
 Investigator
 :   You are trained in spotting clues and gathering information.
@@ -231,10 +240,13 @@ Investigator
     - Roll [Investigator]{.suspense}  to notice clues others might overlook.
 
     - **Edge Success:** 
-      Someone notices you snooping around where you shouldn't be.
-      The evidence you've found won't be admissible in court.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - Someone notices you snooping around where you shouldn't be.
+      - The evidence you've found won't be admissible in court.
+      - It takes much more time than you thought it would.
+      - Jinkies!
+      - You're told that the bad guy could have gotten away with
+        it, if it weren't for you meddling heroes and/or your pet.
+      - Lose 1 Health or 1 Might.
   
 Journalist
 :   You're skilled at taking the facts and constructing a narrative
@@ -249,12 +261,12 @@ Journalist
     - Roll [Journalist]{.suspense}  to spot something potentially newsworthy.
 
     - **Edge Success:** 
-      You get the message out, but you've made a powerful enemy.
-      You can't find a second source to confirm your story.
-      Another reporter scooped the story and published it before you could.
-      It takes much more time than you thought it would.
-      This could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+      - You get the message out, but you've made a powerful enemy.
+      - You can't find a second source to confirm your story.
+      - Another reporter scooped the story and published it before you could.
+      - It takes much more time than you thought it would.
+      - This could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Lawyer
 :   You're a member of the legal profession and can represent yourself
@@ -269,13 +281,15 @@ Lawyer
     - Roll [Lawyer]{.suspense}  to spot loopholes in a legal document.
 
     - **Edge Success:** 
-      This court's decision is likely to be appealed by the other party.
-      The judge declares that if there's another outburst like that, they'll clear the courtroom.
-      You'll answer to the state bar for this.
-      It takes much more time than you thought it would.
-      The judge accuses you of contempt-of-court.
-      Your client (if not representing yourself) objects to your legal strategy.
-      Lose 1 Health or 1 Might.
+      - This court's decision is likely to be appealed by the other party.
+      - The judge declares that if there's another outburst 
+        like that, they'll clear the courtroom.
+      - You'll answer to the state bar for this.
+      - It takes much more time than you thought it would.
+      - The judge accuses you of contempt-of-court.
+      - Your client (if not representing yourself) objects to 
+        your legal strategy.
+      - Lose 1 Health or 1 Might.
   
 Mystic
 :   You understand the roots of magical power and can even perform
@@ -315,15 +329,17 @@ Mystic
     - Roll [Mystic]{.suspense}    to identify a magical effect.
 
     - **Edge Success:** 
-      You draw unwanted attention from an extra-dimensional power.
-      After this roll, your workshop is trashed. You automatically 
-      clean it up between the end of the current Crisis and the 
-      start of the next Crisis Countdown. Until then, you can't
-      use it in Mystic rolls.
-      You use up specific ritual ingredients that are in short supply.
-      It takes much more time than you thought it would.
-      You won't be able to repeat this specific ritual in the future.
-      Lose 1 Health or 1 Might.
+      - You draw unwanted attention from an extra-dimensional power.
+      - After this roll, your workshop is trashed. You automatically 
+        clean it up between the end of the current Crisis and the 
+        start of the next Crisis Countdown. Until then, you can't
+        use it in Mystic rolls.
+      - You use up specific ritual ingredients that are in short 
+        supply.
+      - It takes much more time than you thought it would.
+      - You won't be able to repeat this specific ritual in the future.
+      - Lose 1 Health or 1 Might.
+      - Everyone present loses 1 Health.
 
 Performer
 :   You're a talented actor, musician, acrobat, magician, or other 
@@ -337,17 +353,17 @@ Performer
     - Roll [Performer]{.suspense}  to notice anyone in the audience who *isn't* watching your performance.
 
     - **Edge Success:** 
-      Your performance draws the attention of a new rival.
-      Your performance had flaws that you really hope nobody noticed.
-      Someone declares that you're a sell-out and they were into you *before* you were cool.
-      After this roll, your instruments or other performance
-      equiment are trashed. You automatically repair them between 
-      the end of the current Crisis and the start of the next 
-      Crisis Countdown.
-      Until then, you can't use them in any Performer rolls.
-      It takes much more time than you thought it would.
-      This performance could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+      - Your performance draws the attention of a new rival.
+      - Your performance had flaws that you really hope nobody noticed.
+      - Someone declares that you're a sell-out and they were into you *before* you were cool.
+      - After this roll, your instruments or other performance
+        equiment are trashed. You automatically repair them between 
+        the end of the current Crisis and the start of the next 
+        Crisis Countdown.
+        Until then, you can't use them in any Performer rolls.
+      - It takes much more time than you thought it would.
+      - This performance could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Physician
 :   You are trained as a doctor or other medical
@@ -365,12 +381,15 @@ Physician
     - Roll [Physician]{.suspense}  to diagnose someone's illness or injuries.
 
     - **Edge Success:** 
-      There are unexpected side effects to the treatment you suggest.
-      You help your patient, but they'll need more care later.
-      You use up the last of your medical supplies -- until the end of the current Crisis. (You can replenish between the end of this
-      Crisis and the start of the next Crisis Countdown.)
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+      - There are unexpected side effects to the treatment you suggest.
+      - You help your patient, but they'll need more care later.
+      - You use up the last of your medical supplies -- until the 
+        end of the current Crisis. You automatically replenish 
+        your supplies between the end of this
+        Crisis and the start of the next Crisis Countdown.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Your patient loses Health equal to the current Volume.
   
 Pilot
 :   You know how to operate planes, helicopters, ships, 
@@ -384,14 +403,14 @@ Pilot
     - Roll [Pilot]{.mystery}   to run a blockade.
 
     - **Edge Success:** 
-      Any landing you can walk away from is a good landing, right? 
-      And this is ... a good landing.
-      Your strain the capabilities of your craft.
-      You use more fuel than you intended.
-      The paint job on your craft is ruined.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
-      Everyone in your vehicle loses 1 Health.
+      - Any landing you can walk away from is a good landing, right? 
+        And this is ... a good landing.
+      - Your strain the capabilities of your craft.
+      - You use more fuel than you intended.
+      - The paint job on your craft is ruined.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Everyone in your vehicle loses 1 Health.
   
 Politician
 :   You're practiced at playing the system to influence the public.
@@ -403,12 +422,13 @@ Politician
     - Roll [Politician]{.suspense}  to read the room. 
 
     - **Edge Success:** 
-      Your words and image will be put on the Internet with humiliating captions.
-      People support you ... but for all the wrong reasons.
-      You draw the attention of the rich and powerful.
-      It takes much more time than you thought it would.
-      This action could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+      - Your words and image will be put on the Internet with 
+        humiliating captions. These memes will go viral.
+      - People support you ... but for all the wrong reasons.
+      - You draw the attention of the rich and powerful.
+      - It takes much more time than you thought it would.
+      - This action could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Scientist
 :   You understand science. Not *science* of the real world, but
@@ -426,14 +446,16 @@ Scientist
     - Roll [Scientist]{.suspense}  to measure natural phenomena.
 
     - **Edge Success:** 
-      You won't be able to replicate the effects again.
-      After this roll, your laboratory is trashed. You automatically 
-      clean it up between the end of the current Crisis and the start of the next Crisis Countdown. Until then, you can't use it in
-      any Engineering rolls.
-      It turns out that someone already patented your "new" technique.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
-      Everyone in your laboratory loses 1 Health.
+      - You won't be able to replicate the effects again.
+      - After this roll, your laboratory is trashed. 
+        You automatically clean it up between the end of the 
+        current Crisis and the start of the next Crisis Countdown. 
+        Until then, you can't use it in any Engineering rolls.
+      - It turns out that someone already patented your "new" 
+        technique. This could present problems later on.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Everyone in your laboratory loses 1 Health.
   
 Socialite
 :   You are a known figure in high society, and know how to make an appearance.
@@ -444,14 +466,15 @@ Socialite
     - Roll [Socialite]{.mystery}   to hide your true social rank.
 
     - **Edge Success:** 
-      Someone vows that you've crossed the wrong person.
-      Oh no, it's your ex.
-      Someone is wearing the same outfit as you -- the *nerve!*
-      You'll end up in tomorrow's edition of the local gossip rag.
-      It takes much more time than you thought it would.
-      You won't get invited to future parties of your normal social circles.
-      This could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+      - Someone vows that you've crossed the wrong person.
+      - ... Oh no, it's your ex.
+      - Someone is wearing the same outfit as you -- the *nerve!*
+      - You'll end up in tomorrow's edition of the local gossip rag.
+      - It takes much more time than you thought it would.
+      - You won't get invited to future parties of your normal 
+        social circles.
+      - This could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
 
 Spy
 :   You're trained in espioniage, and have a number of false identities.
@@ -465,12 +488,13 @@ Spy
     - Roll [Spy]{.suspense}  to see through another spy's disguise to identify their affiliation.
 
     - **Edge Success:** 
-      You won't be able to use this cover identity again.
-      An alarm will sound shortly after you leave the area.
-      Your fellow agents start to mistrust you.
-      It takes much more time than you thought it would.
-      You'll lose your security clearance (if you had one).
-      Someone you trusted will turn out to be a double (or triple) agent.
-      Lose 1 Health or 1 Might.
+      - You won't be able to use this cover identity again.
+      - An alarm will sound shortly after you leave the area.
+      - Your fellow agents start to mistrust you.
+      - It takes much more time than you thought it would.
+      - You'll lose your security clearance (if you had one).
+      - Someone you trusted will turn out to be a double 
+        (or triple) agent.
+      - Lose 1 Health or 1 Might.
   
 ::::::::::::::::::::::::::::::::::::::::::

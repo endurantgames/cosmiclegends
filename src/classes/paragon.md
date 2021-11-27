@@ -257,7 +257,7 @@ Castle of Quiettude
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
+    #### Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
 
     - Alien
     - Locked

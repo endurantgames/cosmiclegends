@@ -391,7 +391,7 @@ Glorious Garage
     Choose two Scene Power Words for your Glorious Garage from the
     [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
+    #### Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
 
     - Automatic
     - Fuel

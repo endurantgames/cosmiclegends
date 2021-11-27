@@ -173,7 +173,7 @@ Stately Skyscraper
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
 
-    # Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
+    #### Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
     - Downtown
     - High-Tech
     - Invisible

@@ -308,7 +308,7 @@ My Own Personal Hell
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # My Own Personal Hell Scene Power Words {#list-my-own-personal-hell-scene-power-words}
+    #### My Own Personal Hell Scene Power Words {#list-my-own-personal-hell-scene-power-words}
 
     - Afterlife
     - Flaming

@@ -192,7 +192,7 @@ Remote Palace
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
+    #### Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
 
     - Expansive
     - Fortress

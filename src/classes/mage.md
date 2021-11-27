@@ -201,7 +201,7 @@ Sanctuary of Sanctity
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
+    #### Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
 
     - Archaic
     - Haunted
@@ -226,7 +226,7 @@ Talismans of Power
 
     :::::: cpw :::::::::
 
-    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
+    #### Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
 
     - Amulet
     - Belt

@@ -38,7 +38,7 @@ Hero Cave
     List:
 
     ::: cpw :::::::::::::::::
-    # Hero Cave Power Words List {#list-hero-cave-power-words}
+    #### Hero Cave Power Words List {#list-hero-cave-power-words}
 
     - Analysis
     - Arsenal

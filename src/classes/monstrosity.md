@@ -220,7 +220,7 @@ Leave Me Alone!
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
+    #### Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
 
     - Comfortable
     - Fortified
