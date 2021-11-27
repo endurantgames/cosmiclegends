@@ -160,7 +160,7 @@ to all Paragons.
 My One Weakness!
 
 :   Before Volume One, pick a weakness for your hero,
-    like a substance, energy type, or other physical 
+    like a substance, energy or radiation type, or other physical 
     effect.
 
     Once during a Crisis, instead of making a move, you can 
@@ -168,6 +168,10 @@ My One Weakness!
     and you can't use any Power Words. Each later Hero Phase
     that you don't make a move, add the Volume to the
     Teamwork Pool.
+
+    If one of your teammates uses their move to remove the
+    source of your weakness, your Might and Health are immediately
+    restored to their maximum values.
 ::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
@@ -206,7 +210,7 @@ TBD
 
 ### Volume 2 Abilities
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+At the start of Volume 2, choose an ability from this list or the Volume 1 Paragon ability list.
 
 ::::: {.ability-list .v2 } ::::::::::
 Power Overwhelming
@@ -220,15 +224,28 @@ Never-Ending Battle
     are at 0 Health or 0 Might, regain 1 point of each at the start of 
     the next Hero Phase if the Rescue goal can still be advanced.
 
-TBD
+Ultra-Energy Limitation
 
-:   To be determined.
+:   *Prerequisite: You must have the __My One Weakness!__ Ability to
+    choose this.*
+
+    Remove your *My One Weakness!* ability and replace it with the
+    following Ability:
+
+    You can only use one super-power at a time. Immediately after
+    you use any Power Word or Words in a Power Display, Stunt, or 
+    Combo, __all__ of your Power Words (from any source) go on 
+    cooldown.
+
+    At the start of the next Hero Phase, when your Power Words
+    come off of cooldown, regain 1 point of Might.
+    Increase your maximum Might by 3.
 
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list or any previous list.
+At the start of Volume 3, choose an ability from this list or any previous Paragon list.
 
 ::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
@@ -260,7 +277,7 @@ Nigh-Invulnerable
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
+At the start of Volume 4, choose an ability from this list or any previous Paragon list.
 
 :::::: {.ability-list .v4 }::::::::::
 Faster than a Speeding Bullet
@@ -314,12 +331,19 @@ Strange Visitor from Another Planet
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+At the start of Volume 5, choose an ability from this list or any previous Paragon list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+My *Other* One Weakness!
 
-:   To be determined.
+:   *Prerequisite: You must have the __My One Weakness!__ Ability.*
+    Choose a second weakness that triggers your *My One Weakness!*
+    ability. Either source can trigger that ability. Both can't
+    be triggered at the same time; overlapping *One Weakness!*es
+    don't stack for a double effect.
+
+    If both sources are present but one is removed by a teammate, 
+    you don't regain Health and Might until both are removed.
 
 TBD
 
