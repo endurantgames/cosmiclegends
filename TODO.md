@@ -6,44 +6,48 @@
   - [/] Bronze Age (finish essay)
 - [/] Issues etc
   - [ ] Update Examples
-- [/] Abilities blurb
+- [/] Abilities blurb (?)
 - [/] Table of Contents (TOC)
 - [ ] Vignettes (write about)
 - [ ] General ideas:
-  - [ ] Mecha / Kaiju (Red Ronin vs. Godzilla)
-  - [x] The Normal Kid class
-  - [x] The Twins class
+  - [ ] Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
+  - [/] The Normal Kid class
+  - [/] The Twins class
   - [x] Vehicles (Ghost Rider)
   - [ ] Pet class (?)
-  - [ ] CCA Checklist
+  - [/] CCA Checklist
+    - [ ] Separate file
 - [/] Classes
   - [/] Introduction
-    - [ ] Dual-class    (cleanup)
+    - [ ] Dual-class         (cleanup)
       - [ ] Examples?
-    - [ ] Multiclass    (cleanup)
+    - [ ] Multiclass         (cleanup)
       - [ ] Examples?
-  - [/] The Divine      (new abilities)
-  - [/] The Dynamo      (new abilities)
-  - [/] The Expatriate  (cleanup)
-  - [/] The Haunt       (new class)
-  - [/] The Hellspawn   (new class)
-  - [/] The Inventor    (new abilities)
-  - [/] The Kid         (new class)
-  - [/] The Knight      (new abilities)
-  - [/] The Mage        (new abilities)
-  - [/] The Monarch     (new abilities)
-  - [/] The Monstrosity (new abilities)
-  - [/] The Paragon     (new abilities)
-  - [/] The Psychic     (new abilities)
-  - [/] The Shaper      (new abilities)
-  - [/] The Totem       (cleanup)
-  - [/] The Twins       (new class)
+    - [ ] Generic Abilities  (cleanup)
+  - [/] The Divine           (new abilities)
+  - [/] The Dynamo           (new abilities)
+  - [/] The Expatriate       (cleanup)
+  - [/] The Expert           (new class)
+  - [/] The Haunt            (new class)
+  - [/] The Hellspawn        (new class)
+  - [/] The Inventor         (new abilities)
+  - [/] The Kid              (new class)
+  - [/] The Knight           (new abilities)
+  - [/] The Mage             (new abilities)
+  - [/] The Monarch          (new abilities)
+  - [/] The Monstrosity      (new abilities)
+  - [/] The Paragon          (new abilities)
+  - [/] The Psychic          (new abilities)
+  - [/] The Shaper           (new abilities)
+  - [/] The Speedster        (new class)
+  - [/] The Totem            (cleanup)
+  - [/] The Twins            (new class)
 - [ ] Pregens: 1 extra ability each
   - [ ] Using pregens
   - [ ] Multi- and/or Dual-Class pregens?
     - [ ] Multi-Class pregen (complete writeup)
     - [ ] Dual-Class pregen  (complete writeup)
-  - [ ] Adam-42              (complete writeup)
+  - [/] Adam-42              (complete writeup)
   - [ ] Brigantia            (new ability)
   - [ ] Energy Boy           (new ability)
   - [ ] Grailknight          (new ability)
@@ -77,14 +81,16 @@
   - [x] Story Arc character
   - [x] Everyone else
 - [/] Powers
-  - [x] Core
-  - [x] Personal
-  - [x] Nova
-  - [/] Scene
-    - [ ] Examples
-    - [ ] Changing
-      - [ ] Shaper (shape environment)
-      - [ ] Totem (summon swarm)
+  - [x] Core     Power Words
+  - [x] Personal Power Words
+  - [x] Nova     Power Words
+  - [/] Scene    Power Words
+    - [/] Examples (lists)
+    - [ ] Hero Cave abilities
+    - [/] Changing Scene Words (classes that can do it)
+      - [ ] Shaper      (shape environment)
+      - [ ] Totem       (summon swarm)
+      - [ ] Wheelmaster (vehicle scene words)
 - [/] Power Use
   - [x] Power Displays
     - [x] Examples
@@ -101,43 +107,47 @@
       - [ ] Examples
     - [/] Scene
       - [ ] Examples
+- [ ] Teams
 - [/] Crisis
   - [/] Countdown
     - [ ] Set the Scene
       - [ ] Scene power words
         - [ ] Scene examples
     - [/] Hero Roll-Call
-    - [x] Defining the Goals
+    - [/] Defining the Goals
     - [x] Assemble the Teamwork Pool
   - [x] Start
   - [/] Hero Phase
     - [/] Advance a Goal
     - [/] Contribute to the Teamwork Pool
-    - [ ] Team Moves
-    - [ ] Hero Moves
-      - [ ] Power Moves
+    - [ ] Team Moves (write section)
+    - [/] Hero Moves
+      - [/] Power Moves
       - [ ] Skill Moves
-      - [ ] Other Moves
+      - [/] Other Moves
         - [x] Timely Arrival
         - [x] General Alert
-  - [ ] Post-Crisis
+      - [ ] Non-Hero Moves
+        - [ ] Pets
+        - [ ] Vehicles
+  - [ ] Post-Crisis (write section)
 - [/] Setting
   - [/] What's What?
     - [/] Adam-42        (full entry)
     - [/] Rockstar       (bio)
     - [/] Titan          (bio)
     - [/] Villains, Inc. (backstory)
-- [ ] The Editor
+- [ ] The Editor (write section)
   - [ ] Creating Story Arcs
   - [ ] Creating Crises
     - [ ] Crisis Moves
   - [ ] Offering Edge Consequences
 - [/] Sample Crises
   - [/] Aliens
-  - [ ] Military
-  - [ ] Natural Disasters
-  - [ ] Ordinary Criminals
-  - [ ] Personal Matters
-  - [ ] Science
-  - [ ] Super-Villains
+  - [/] Military
+  - [/] Natural Disasters
+  - [/] Ordinary Criminals
+  - [/] Personal Matters
+  - [/] Science
+  - [/] Super-Villains
 
