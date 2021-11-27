@@ -14,7 +14,7 @@ safety/before/
 safety/during
 safety/after/
 safety/*
-# cca
+cca
 overview
 dice
 issues
@@ -24,6 +24,7 @@ chargen/class
 chargen/skills_chargen
 chargen/approaches
 chargen/abilities
+chargen/ability_types
 chargen/fighting_style
 chargen/ideals
 chargen/power_words
@@ -60,6 +61,7 @@ sample_crises/ord_crim
 sample_crises/personal
 sample_crises/science
 sample_crises/super_villains
+sample_crises/*
 lists_index
 glossary
 credits/
