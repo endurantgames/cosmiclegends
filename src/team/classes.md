@@ -610,7 +610,7 @@ Each Volume, your Team gains a new Ability. Team Abilities are based
 on improved teamwork and pooling of shared resources.
 Each ability can be chosen only once.
 
-### Prime Ability
+## Prime Ability
 
 Your Group has the *TBD* ability common to all groups of the same type.
 

@@ -19,8 +19,8 @@
   - <a href="#toc-storyline"></a>
   - <a href="#toc-skills"></a>
 - <a href="#toc-classes"></a>
-  - <a href="#toc-dual-class"></a>
-  - <a href="#toc-multi-class"></a>
+  - <a href="#toc-class-dual-class"></a>
+  - <a href="#toc-class-multi-class"></a>
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>

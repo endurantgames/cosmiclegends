@@ -67,7 +67,7 @@ Academic
     - Roll [Academic]{.mystery}   to falsify school records.
     - Roll [Academic]{.suspense}  to spot plagiarism.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Someone in your department develops an intense jealousy 
         of you.
       - Online trolls will try to get you fired from your job.
@@ -84,7 +84,7 @@ Artist
     - Roll [Artist]{.mystery}  to plant secret messages in a work of art.
     - Roll [Artist]{.suspense} to detect a forgery.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You're just not satisfied with this piece.
       - Someone will start selling knockoffs of your work online.
       - A critic will savage your work in a review.
@@ -102,7 +102,7 @@ Criminal
     - Roll [Criminal]{.mystery}   to steal something, unseen.
     - Roll [Criminal]{.suspense}  to notice hidden cameras or alarm triggers.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Your crime makes more noise than you had hoped.
       - A criminal organization takes an interest in your actions.
       - You owe a favor to someone dodgy now.
@@ -128,7 +128,7 @@ Deputy
     - Roll [Deputy]{.mystery}   to plant contraband on a suspect.
     - Roll [Deputy]{.suspense}  to spot a "likely" suspect for a crime.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - It takes much more time than you thought it would.
       - Your actions are filmed by bystanders.
       - The suspect can afford a lawyer.
@@ -165,7 +165,7 @@ Engineer
     - Roll [Engineer]{.detective} to dismantle something safely.
     - Roll [Engineer]{.suspense}  to identify the weaknesses in a design before seeing it operational.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You only have time to make one.
       - After this roll, your laboratory or workshop is
         trashed. You automatically clean it up between the end of 
@@ -186,7 +186,7 @@ Explorer
     - Roll [Explorer]{.mystery}   to ambush someone in the wilds.
     - Roll [Explorer]{.suspense}  to predict the weather.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You attract the attention of a large predator.
       - Any water or food you found is edible, but tastes terrible.
       - You are easily tracked by anyone.
@@ -202,7 +202,7 @@ Hacker
     - Roll [Hacker]{.detective} to program a machine to perform a complicated task for you.
     - Roll [Hacker]{.mystery}   to access a machine without detection.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You leave traces of your presence.
       - You'll get immediately disconnected after this task.
       - Your computer could get counter-hacked.
@@ -221,7 +221,7 @@ Historian
     - Roll [Historian]{.detective} to recall the details of a historical event.
     - Roll [Historian]{.suspense}  to identify something's age and origin.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You awaken something that shouldn't have been awakened.
       - The artifact you're examining crumbles to dust.
       - Another historian will dispute your claims.
@@ -239,7 +239,7 @@ Investigator
     - Roll [Investigator]{.mystery}   to plant evidence implicating someone.
     - Roll [Investigator]{.suspense}  to notice clues others might overlook.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Someone notices you snooping around where you shouldn't be.
       - The evidence you've found won't be admissible in court.
       - It takes much more time than you thought it would.
@@ -260,7 +260,7 @@ Journalist
     - Roll [Journalist]{.mystery}   to twist the facts to suit an agenda.
     - Roll [Journalist]{.suspense}  to spot something potentially newsworthy.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You get the message out, but you've made a powerful enemy.
       - You can't find a second source to confirm your story.
       - Another reporter scooped the story and published it before you could.
@@ -280,7 +280,7 @@ Lawyer
     - Roll [Lawyer]{.mystery}   to defend someone who is guilty, or convict someone who is innocent.
     - Roll [Lawyer]{.suspense}  to spot loopholes in a legal document.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - This court's decision is likely to be appealed by the other party.
       - The judge declares that if there's another outburst 
         like that, they'll clear the courtroom.
@@ -328,7 +328,7 @@ Mystic
     - Roll [Mystic]{.detective}   to comprehend a magical text.
     - Roll [Mystic]{.suspense}    to identify a magical effect.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You draw unwanted attention from an extra-dimensional power.
       - After this roll, your workshop is trashed. You automatically 
         clean it up between the end of the current Crisis and the 
@@ -352,7 +352,7 @@ Performer
     - Roll [Performer]{.mystery}   to perform believably in an acting role.
     - Roll [Performer]{.suspense}  to notice anyone in the audience who *isn't* watching your performance.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Your performance draws the attention of a new rival.
       - Your performance had flaws that you really hope nobody noticed.
       - Someone declares that you're a sell-out and they were into you *before* you were cool.
@@ -380,7 +380,7 @@ Physician
     - Roll [Physician]{.detective} to perform forensic medicine on a corpse.
     - Roll [Physician]{.suspense}  to diagnose someone's illness or injuries.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - There are unexpected side effects to the treatment you suggest.
       - You help your patient, but they'll need more care later.
       - You use up the last of your medical supplies -- until the 
@@ -402,7 +402,7 @@ Pilot
     - Roll [Pilot]{.detective} to calculate a flight path.
     - Roll [Pilot]{.mystery}   to run a blockade.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Any landing you can walk away from is a good landing, right? 
         And this is ... a good landing.
       - Your strain the capabilities of your craft.
@@ -421,7 +421,7 @@ Politician
     - Roll [Politician]{.mystery}   to speak in dogwhistles and empty promises.
     - Roll [Politician]{.suspense}  to read the room. 
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Your words and image will be put on the Internet with 
         humiliating captions. These memes will go viral.
       - People support you ... but for all the wrong reasons.
@@ -445,7 +445,7 @@ Scientist
     - Roll [Scientist]{.detective} to reverse the effects of super-science.
     - Roll [Scientist]{.suspense}  to measure natural phenomena.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You won't be able to replicate the effects again.
       - After this roll, your laboratory is trashed. 
         You automatically clean it up between the end of the 
@@ -465,7 +465,7 @@ Socialite
     - Roll [Socialite]{.detective} to investigate a charity's funding sources.
     - Roll [Socialite]{.mystery}   to hide your true social rank.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - Someone vows that you've crossed the wrong person.
       - ... Oh no, it's your ex.
       - Someone is wearing the same outfit as you -- the *nerve!*
@@ -487,7 +487,7 @@ Spy
     - Roll [Spy]{.mystery}   to keep your secrets under interrogation.
     - Roll [Spy]{.suspense}  to see through another spy's disguise to identify their affiliation.
 
-    - **Edge Success:** 
+    - **Potential Edge Success Consequences:** 
       - You won't be able to use this cover identity again.
       - An alarm will sound shortly after you leave the area.
       - Your fellow agents start to mistrust you.

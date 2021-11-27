@@ -63,8 +63,8 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-storyline"></a>
   - <a href="#toc-skills"></a>
 - <a href="#toc-classes"></a>
-  - <a href="#toc-dual-class"></a>
-  - <a href="#toc-multi-class"></a>
+  - <a href="#toc-class-dual-class"></a>
+  - <a href="#toc-class-multi-class"></a>
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
@@ -1389,6 +1389,9 @@ If you lose Health, you can describe how you injured yourself while
 using your skill. Losing Might generally means becoming tired, possibly
 from stress or overwork.
 
+You can only choose a consequence for an Edge Success that injures
+another hero with the permission of that hero's player.
+
 ::::::: { .skill-list } ::::::::::::::::::
 Academic
 :   You've spent many years in education,
@@ -1402,28 +1405,30 @@ Academic
     - Roll [Academic]{.mystery}   to falsify school records.
     - Roll [Academic]{.suspense}  to spot plagiarism.
 
-    - **Edge Success:** 
-      Someone in your department develops an intense jealousy of you.
-      Online trolls try to get you fired from your job.
-      You spend way too much time on a relatively trivial matter.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - Someone in your department develops an intense jealousy 
+        of you.
+      - Online trolls will try to get you fired from your job.
+      - You spend way too much time on a relatively trivial matter.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 Artist
 :   You are skilled at creating works of art; optionally, you can choose
     one or more media in which you primarily work. If you do, add 1 die to 
-    any roll related to that media.
+    any roll related to those media.
 
     - Roll [Artist]{.action}   to make a bold splash in the art world.
     - Roll [Artist]{.mystery}  to plant secret messages in a work of art.
     - Roll [Artist]{.suspense} to detect a forgery.
 
-    - **Edge Success:** 
-      You're just not satisfied with this piece.
-      Someone will start selling knockoffs of your work online.
-      A critic savages your work in a review.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You're just not satisfied with this piece.
+      - Someone will start selling knockoffs of your work online.
+      - A critic will savage your work in a review.
+      - It takes much more time than you thought it would.
+      - This could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Criminal
 :   You're skilled at evading the law and getting away with it. Optionally, you can
@@ -1435,12 +1440,12 @@ Criminal
     - Roll [Criminal]{.mystery}   to steal something, unseen.
     - Roll [Criminal]{.suspense}  to notice hidden cameras or alarm triggers.
 
-    - **Edge Success:** 
-      Your crime makes more noise than you had hoped.
-      A criminal organization takes an interest in your actions.
-      You owe a favor to someone dodgy now.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - Your crime makes more noise than you had hoped.
+      - A criminal organization takes an interest in your actions.
+      - You owe a favor to someone dodgy now.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 :::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
 Keep in mind that []{.gamename} is *a four-color game,* not a simulation
@@ -1461,12 +1466,12 @@ Deputy
     - Roll [Deputy]{.mystery}   to plant contraband on a suspect.
     - Roll [Deputy]{.suspense}  to spot a "likely" suspect for a crime.
 
-    - **Edge Success:** 
-      It takes much more time than you thought it would.
-      Your actions are filmed by bystanders.
-      The suspect can afford a lawyer.
-      Your "evidence" won't stand up in court.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - It takes much more time than you thought it would.
+      - Your actions are filmed by bystanders.
+      - The suspect can afford a lawyer.
+      - Your "evidence" won't stand up in court.
+      - Lose 1 Health or 1 Might.
   
 Engineer
 :   You can build high-tech devices. This is the four-color version
@@ -1498,15 +1503,16 @@ Engineer
     - Roll [Engineer]{.detective} to dismantle something safely.
     - Roll [Engineer]{.suspense}  to identify the weaknesses in a design before seeing it operational.
 
-    - **Edge Success:** 
-      You only have time to make one.
-      After this roll, your laboratory or workshop is
-      trashed. You automatically clean it up between the end of 
-      the current Crisis and the start of the next Crisis Countdown.
-      You use up the last of your supplies on this device.
-      The device is so complex that only you can make it work in the field.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You only have time to make one.
+      - After this roll, your laboratory or workshop is
+        trashed. You automatically clean it up between the end of 
+        the current Crisis and the start of the next Crisis Countdown.
+      - You use up the last of your supplies on this device.
+      - The device is so complex that only __you__ can make it work in the field.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Anyone in your laboratory loses 1 Health.
   
 Explorer
 :   You're at home in the wilds, and have a great sense of direction. Optionally,
@@ -1518,12 +1524,12 @@ Explorer
     - Roll [Explorer]{.mystery}   to ambush someone in the wilds.
     - Roll [Explorer]{.suspense}  to predict the weather.
 
-    - **Edge Success:** 
-      You attract the attention of a large predator.
-      Any water or food you found is edible, but tastes terrible.
-      You are easily tracked by anyone.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You attract the attention of a large predator.
+      - Any water or food you found is edible, but tastes terrible.
+      - You are easily tracked by anyone.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 Hacker
 :   You're quite talented with computers and can easily overcome most forms 
@@ -1534,12 +1540,15 @@ Hacker
     - Roll [Hacker]{.detective} to program a machine to perform a complicated task for you.
     - Roll [Hacker]{.mystery}   to access a machine without detection.
 
-    - **Edge Success:** 
-      You leave traces of your presence.
-      You'll get immediately disconnected after this task.
-      Your computer could get counter-hacked.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You leave traces of your presence.
+      - You'll get immediately disconnected after this task.
+      - Your computer could get counter-hacked.
+      - Your computer breaks. Between the end of the current Crisis
+        and the next Crisis Countdown, you automatically get it
+        fixed. Until then, you can't use it in a Hacker skill roll.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
   
 Historian
 :   You understand archaeology and are an authority on items and locations
@@ -1550,13 +1559,13 @@ Historian
     - Roll [Historian]{.detective} to recall the details of a historical event.
     - Roll [Historian]{.suspense}  to identify something's age and origin.
 
-    - **Edge Success:** 
-      You awaken something that shouldn't have been awakened.
-      The artifact you're examining crumbles to dust.
-      Another historian disputes your claims.
-      It takes much more time than you thought it would.
-      It belongs in a museum.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You awaken something that shouldn't have been awakened.
+      - The artifact you're examining crumbles to dust.
+      - Another historian will dispute your claims.
+      - It takes much more time than you thought it would.
+      - It belongs in a museum. No, really, it does.
+      - Lose 1 Health or 1 Might.
   
 Investigator
 :   You are trained in spotting clues and gathering information.
@@ -1568,11 +1577,14 @@ Investigator
     - Roll [Investigator]{.mystery}   to plant evidence implicating someone.
     - Roll [Investigator]{.suspense}  to notice clues others might overlook.
 
-    - **Edge Success:** 
-      Someone notices you snooping around where you shouldn't be.
-      The evidence you've found won't be admissible in court.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - Someone notices you snooping around where you shouldn't be.
+      - The evidence you've found won't be admissible in court.
+      - It takes much more time than you thought it would.
+      - Jinkies!
+      - You're told that the bad guy could have gotten away with
+        it, if it weren't for you meddling heroes and/or your pet.
+      - Lose 1 Health or 1 Might.
   
 Journalist
 :   You're skilled at taking the facts and constructing a narrative
@@ -1586,13 +1598,13 @@ Journalist
     - Roll [Journalist]{.mystery}   to twist the facts to suit an agenda.
     - Roll [Journalist]{.suspense}  to spot something potentially newsworthy.
 
-    - **Edge Success:** 
-      You get the message out, but you've made a powerful enemy.
-      You can't find a second source to confirm your story.
-      Another reporter scooped the story and published it before you could.
-      It takes much more time than you thought it would.
-      This could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You get the message out, but you've made a powerful enemy.
+      - You can't find a second source to confirm your story.
+      - Another reporter scooped the story and published it before you could.
+      - It takes much more time than you thought it would.
+      - This could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Lawyer
 :   You're a member of the legal profession and can represent yourself
@@ -1606,14 +1618,16 @@ Lawyer
     - Roll [Lawyer]{.mystery}   to defend someone who is guilty, or convict someone who is innocent.
     - Roll [Lawyer]{.suspense}  to spot loopholes in a legal document.
 
-    - **Edge Success:** 
-      This court's decision is likely to be appealed by the other party.
-      The judge declares that if there's another outburst like that, they'll clear the courtroom.
-      You'll answer to the state bar for this.
-      It takes much more time than you thought it would.
-      The judge accuses you of contempt-of-court.
-      Your client (if not representing yourself) objects to your legal strategy.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - This court's decision is likely to be appealed by the other party.
+      - The judge declares that if there's another outburst 
+        like that, they'll clear the courtroom.
+      - You'll answer to the state bar for this.
+      - It takes much more time than you thought it would.
+      - The judge accuses you of contempt-of-court.
+      - Your client (if not representing yourself) objects to 
+        your legal strategy.
+      - Lose 1 Health or 1 Might.
   
 Mystic
 :   You understand the roots of magical power and can even perform
@@ -1652,16 +1666,18 @@ Mystic
     - Roll [Mystic]{.detective}   to comprehend a magical text.
     - Roll [Mystic]{.suspense}    to identify a magical effect.
 
-    - **Edge Success:** 
-      You draw unwanted attention from an extra-dimensional power.
-      After this roll, your workshop is trashed. You automatically 
-      clean it up between the end of the current Crisis and the 
-      start of the next Crisis Countdown. Until then, you can't
-      use it in Mystic rolls.
-      You use up specific ritual ingredients that are in short supply.
-      It takes much more time than you thought it would.
-      You won't be able to repeat this specific ritual in the future.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You draw unwanted attention from an extra-dimensional power.
+      - After this roll, your workshop is trashed. You automatically 
+        clean it up between the end of the current Crisis and the 
+        start of the next Crisis Countdown. Until then, you can't
+        use it in Mystic rolls.
+      - You use up specific ritual ingredients that are in short 
+        supply.
+      - It takes much more time than you thought it would.
+      - You won't be able to repeat this specific ritual in the future.
+      - Lose 1 Health or 1 Might.
+      - Everyone present loses 1 Health.
 
 Performer
 :   You're a talented actor, musician, acrobat, magician, or other 
@@ -1674,18 +1690,18 @@ Performer
     - Roll [Performer]{.mystery}   to perform believably in an acting role.
     - Roll [Performer]{.suspense}  to notice anyone in the audience who *isn't* watching your performance.
 
-    - **Edge Success:** 
-      Your performance draws the attention of a new rival.
-      Your performance had flaws that you really hope nobody noticed.
-      Someone declares that you're a sell-out and they were into you *before* you were cool.
-      After this roll, your instruments or other performance
-      equiment are trashed. You automatically repair them between 
-      the end of the current Crisis and the start of the next 
-      Crisis Countdown.
-      Until then, you can't use them in any Performer rolls.
-      It takes much more time than you thought it would.
-      This performance could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - Your performance draws the attention of a new rival.
+      - Your performance had flaws that you really hope nobody noticed.
+      - Someone declares that you're a sell-out and they were into you *before* you were cool.
+      - After this roll, your instruments or other performance
+        equiment are trashed. You automatically repair them between 
+        the end of the current Crisis and the start of the next 
+        Crisis Countdown.
+        Until then, you can't use them in any Performer rolls.
+      - It takes much more time than you thought it would.
+      - This performance could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Physician
 :   You are trained as a doctor or other medical
@@ -1702,13 +1718,16 @@ Physician
     - Roll [Physician]{.detective} to perform forensic medicine on a corpse.
     - Roll [Physician]{.suspense}  to diagnose someone's illness or injuries.
 
-    - **Edge Success:** 
-      There are unexpected side effects to the treatment you suggest.
-      You help your patient, but they'll need more care later.
-      You use up the last of your medical supplies -- until the end of the current Crisis. (You can replenish between the end of this
-      Crisis and the start of the next Crisis Countdown.)
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - There are unexpected side effects to the treatment you suggest.
+      - You help your patient, but they'll need more care later.
+      - You use up the last of your medical supplies -- until the 
+        end of the current Crisis. You automatically replenish 
+        your supplies between the end of this
+        Crisis and the start of the next Crisis Countdown.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Your patient loses Health equal to the current Volume.
   
 Pilot
 :   You know how to operate planes, helicopters, ships, 
@@ -1721,15 +1740,15 @@ Pilot
     - Roll [Pilot]{.detective} to calculate a flight path.
     - Roll [Pilot]{.mystery}   to run a blockade.
 
-    - **Edge Success:** 
-      Any landing you can walk away from is a good landing, right? 
-      And this is ... a good landing.
-      Your strain the capabilities of your craft.
-      You use more fuel than you intended.
-      The paint job on your craft is ruined.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
-      Everyone in your vehicle loses 1 Health.
+    - **Potential Edge Success Consequences:** 
+      - Any landing you can walk away from is a good landing, right? 
+        And this is ... a good landing.
+      - Your strain the capabilities of your craft.
+      - You use more fuel than you intended.
+      - The paint job on your craft is ruined.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Everyone in your vehicle loses 1 Health.
   
 Politician
 :   You're practiced at playing the system to influence the public.
@@ -1740,13 +1759,14 @@ Politician
     - Roll [Politician]{.mystery}   to speak in dogwhistles and empty promises.
     - Roll [Politician]{.suspense}  to read the room. 
 
-    - **Edge Success:** 
-      Your words and image will be put on the Internet with humiliating captions.
-      People support you ... but for all the wrong reasons.
-      You draw the attention of the rich and powerful.
-      It takes much more time than you thought it would.
-      This action could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - Your words and image will be put on the Internet with 
+        humiliating captions. These memes will go viral.
+      - People support you ... but for all the wrong reasons.
+      - You draw the attention of the rich and powerful.
+      - It takes much more time than you thought it would.
+      - This action could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
   
 Scientist
 :   You understand science. Not *science* of the real world, but
@@ -1763,15 +1783,17 @@ Scientist
     - Roll [Scientist]{.detective} to reverse the effects of super-science.
     - Roll [Scientist]{.suspense}  to measure natural phenomena.
 
-    - **Edge Success:** 
-      You won't be able to replicate the effects again.
-      After this roll, your laboratory is trashed. You automatically 
-      clean it up between the end of the current Crisis and the start of the next Crisis Countdown. Until then, you can't use it in
-      any Engineering rolls.
-      It turns out that someone already patented your "new" technique.
-      It takes much more time than you thought it would.
-      Lose 1 Health or 1 Might.
-      Everyone in your laboratory loses 1 Health.
+    - **Potential Edge Success Consequences:** 
+      - You won't be able to replicate the effects again.
+      - After this roll, your laboratory is trashed. 
+        You automatically clean it up between the end of the 
+        current Crisis and the start of the next Crisis Countdown. 
+        Until then, you can't use it in any Engineering rolls.
+      - It turns out that someone already patented your "new" 
+        technique. This could present problems later on.
+      - It takes much more time than you thought it would.
+      - Lose 1 Health or 1 Might.
+      - Everyone in your laboratory loses 1 Health.
   
 Socialite
 :   You are a known figure in high society, and know how to make an appearance.
@@ -1781,15 +1803,16 @@ Socialite
     - Roll [Socialite]{.detective} to investigate a charity's funding sources.
     - Roll [Socialite]{.mystery}   to hide your true social rank.
 
-    - **Edge Success:** 
-      Someone vows that you've crossed the wrong person.
-      Oh no, it's your ex.
-      Someone is wearing the same outfit as you -- the *nerve!*
-      You'll end up in tomorrow's edition of the local gossip rag.
-      It takes much more time than you thought it would.
-      You won't get invited to future parties of your normal social circles.
-      This could get you "cancelled" online.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - Someone vows that you've crossed the wrong person.
+      - ... Oh no, it's your ex.
+      - Someone is wearing the same outfit as you -- the *nerve!*
+      - You'll end up in tomorrow's edition of the local gossip rag.
+      - It takes much more time than you thought it would.
+      - You won't get invited to future parties of your normal 
+        social circles.
+      - This could get you "cancelled" online.
+      - Lose 1 Health or 1 Might.
 
 Spy
 :   You're trained in espioniage, and have a number of false identities.
@@ -1802,14 +1825,15 @@ Spy
     - Roll [Spy]{.mystery}   to keep your secrets under interrogation.
     - Roll [Spy]{.suspense}  to see through another spy's disguise to identify their affiliation.
 
-    - **Edge Success:** 
-      You won't be able to use this cover identity again.
-      An alarm will sound shortly after you leave the area.
-      Your fellow agents start to mistrust you.
-      It takes much more time than you thought it would.
-      You'll lose your security clearance (if you had one).
-      Someone you trusted will turn out to be a double (or triple) agent.
-      Lose 1 Health or 1 Might.
+    - **Potential Edge Success Consequences:** 
+      - You won't be able to use this cover identity again.
+      - An alarm will sound shortly after you leave the area.
+      - Your fellow agents start to mistrust you.
+      - It takes much more time than you thought it would.
+      - You'll lose your security clearance (if you had one).
+      - Someone you trusted will turn out to be a double 
+        (or triple) agent.
+      - Lose 1 Health or 1 Might.
   
 ::::::::::::::::::::::::::::::::::::::::::
 
@@ -2611,7 +2635,7 @@ TBD
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-### Dual-Class Heroes
+### Dual-Class Heroes {#toc-class-dual-class}
 
 A Dual-Class Hero is one who can change between a *primary class*
 and a *secondary class* form, and is likely a hero who looks 
@@ -3479,7 +3503,7 @@ Hero Cave
     List:
 
     ::: cpw :::::::::::::::::
-    # Hero Cave Power Words List {#list-hero-cave-power-words}
+    #### Hero Cave Power Words List {#list-hero-cave-power-words}
 
     - Analysis
     - Arsenal
@@ -4229,7 +4253,7 @@ My Own Personal Hell
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # My Own Personal Hell Scene Power Words {#list-my-own-personal-hell-scene-power-words}
+    #### My Own Personal Hell Scene Power Words {#list-my-own-personal-hell-scene-power-words}
 
     - Afterlife
     - Flaming
@@ -4440,7 +4464,7 @@ Stately Skyscraper
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
 
-    # Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
+    #### Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
     - Downtown
     - High-Tech
     - Invisible
@@ -5799,7 +5823,7 @@ Sanctuary of Sanctity
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
+    #### Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
 
     - Archaic
     - Haunted
@@ -5824,7 +5848,7 @@ Talismans of Power
 
     :::::: cpw :::::::::
 
-    # Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
+    #### Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
 
     - Amulet
     - Belt
@@ -6178,7 +6202,7 @@ Remote Palace
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
+    #### Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
 
     - Expansive
     - Fortress
@@ -6513,7 +6537,7 @@ Leave Me Alone!
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
+    #### Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
 
     - Comfortable
     - Fortified
@@ -6581,7 +6605,7 @@ TBD
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-### Multi-Class Characters
+### Multi-Class Characters {#toc-class-multi-class}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -6844,7 +6868,7 @@ Castle of Quiettude
     [](#list-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
+    #### Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
 
     - Alien
     - Locked
@@ -7210,7 +7234,7 @@ Astral Retreat
     Choose two Scene Power Words for your Astral Retreat from the
     [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
+    #### Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
 
     - Astral
     - Cloaked
@@ -7485,7 +7509,7 @@ Shaper's Refuge
     Scene Power Word.
     In addition, choose one of the following as a fourth Scene Power Word:
     ::::::: cpw :::::::::::::
-    # Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
+    #### Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
 
     - Cloaked
     - Defensive
@@ -8944,7 +8968,7 @@ Glorious Garage
     Choose two Scene Power Words for your Glorious Garage from the
     [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
     ::::::: cpw :::::::::::::
-    # Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
+    #### Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
 
     - Automatic
     - Fuel
@@ -11835,7 +11859,7 @@ Each Volume, your Team gains a new Ability. Team Abilities are based
 on improved teamwork and pooling of shared resources.
 Each ability can be chosen only once.
 
-##### Prime Ability
+#### Prime Ability
 
 Your Group has the *TBD* ability common to all groups of the same type.
 

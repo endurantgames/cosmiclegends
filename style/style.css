@@ -611,6 +611,8 @@ blockquote {
   line-height: 1.1; 
 }
 
+.skill-list dl dd ul li ul li::marker { content: '\0025A1'; }
+
 .skill-list    .action:before { content: 'Action/';    }
 .skill-list .detective:before { content: 'Detective/'; }
 .skill-list .adventure:before { content: 'Adventure/'; }
