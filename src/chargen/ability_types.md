@@ -1,4 +1,12 @@
-# Ability Categories
+# [Abilities and Ability Categories]{#toc-ability-categories}
+
+At the start of each Volume, you can choose one ability from your class
+or from the list of Generic Abilities; before Volume One, you can choose
+two abilities from either your class list or the list of Generic Abilities.
+
+Each ability can be chosen only once, unless otherwise noted.
+You can't choose an ability if you already have that ability or a
+variant of that ability.
 
 There are four categories of abilities that all use similar mechanics:
 
@@ -14,7 +22,9 @@ There are four categories of abilities that all use similar mechanics:
 For **Arsenal**, **Hero Cave**, and **Pet** Abilities, the following
 rules apply:
 
-- You can have only one ability of each type. 
+- You can have only one ability of each type; every ability of a certain
+  type is considered to be a variant ability of all other abilities of
+  that type.
 - Thus you can have only one Arsenal ability, one Hero Cave ability, 
   and one Pet ability.
 
@@ -30,5 +40,5 @@ For **Crossover** Abilities, the following rules apply:
   Crossover Ability. For example, if you take a Crossover (Mage)
   Ability that lets you take a Mage class ability instead of one
   of your class abilities, you can't take a Mage class ability
-  that's a Crossover ability.
+  that's a Crossover ability itself.
 

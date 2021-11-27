@@ -1,14 +1,17 @@
-# From Issues to Volumes {#toc-issues .breakbefore}
+# [From Issues to Volumes]{#toc-issues .breakbefore}
 
 []{.gamename} uses some terms from comic books to talk about how 
 the game is played.
 
-## Issues
+## [Issues]{#toc-struct-issue}
 
 Each individual game session is known as an **Issue**, and roughly
-corresponds to one issue of a comic book.
+corresponds to one issue of a comic book. Generally, an Issue probably
+takes 2 to 4 hours to play out, although your group can agree to play
+a longer session or a shorter one, as time allows. Be flexible *and*
+aware of others' schedules and other time constraints!
 
-### Issue #0
+### [Issue #0]{#toc-struct-issue-0}
 
 ::::::::::: struct ::::::::::::
 <div class="issue wide zero">
@@ -30,7 +33,7 @@ and set expectations on the kind of story and play.
 Issue 0s are also a great time to create heroes together as a group,
 rather than separately.
 
-### Issue #1
+### [Issue #1]{#toc-struct-issue-1}
 
 ::::::::: struct :::::::::::
 <div class="issue first wide">
@@ -59,6 +62,8 @@ campaigned played by a group -- but first you should have an Issue 0.
 
 []{.lorem}
 
+## [Annuals]{#toc-struct-issue-annual}
+
 ::::::::: struct :::::::::::
 <div class="issue wide">
   <div class="recap wide"></div>
@@ -73,7 +78,7 @@ campaigned played by a group -- but first you should have an Issue 0.
 
 []{.lorem}
 
-## Storylines
+## [Storylines]{#toc-struct-storyline}
 
 :::::::::::: struct :::::::::::::::::::
 <div class="storyline wide">
@@ -108,7 +113,7 @@ can take long and might run for 2 or 3 sessions, or longer.
 Once your hero finishes your Storyline, both your hero and your 
 fellow players' heroes gain an **Advancement.**
 
-## Volumes
+## [Volumes]{#toc-structure-volumes}
 
 ::::::::::::: struct :::::::::::
 <div class="volume wide extra ">
@@ -143,7 +148,7 @@ Volume, and then that Volume concludes.
 At the start of a new Volume, your hero develops new powers or finds 
 new ways to use their existing powers.
 
-## Series
+## [Series]{#toc-struct-series}
 
 :::::::::::::: struct :::::::::::
 <div class="series wide">
@@ -163,7 +168,7 @@ If your group reaches the end of Volume 5 and with to continue with
 with the same heroes, you can do so: just treat later Volumes as having
 a Volume number of 5, and proceed from there.
 
-### One-Shots
+### [One-Shots and Specials]{#toc-struct-one-shots}
 
 ::::::::: struct :::::::::::
 <div class="issue wide">
@@ -187,7 +192,7 @@ all the Crises.
 One-Shots obviously won't have a separate Issue 0, but time should still
 be set aside at the start of the Issue to touch on important safety tools.
 
-## Guest Stars and Crossovers
+## [Guest Stars and Crossovers]{#toc-struct-crossovers}
 
 A **Guest Star** is a hero character from another Series -- either played
 by the same group or a different one -- who plays in the Series for an

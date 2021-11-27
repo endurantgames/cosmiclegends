@@ -1,5 +1,5 @@
 ::::::::::::::::::: { .classdata } :::::::::::
-# Generic Hero Abilities {#toc-generic .breakbefore .class}
+# [Generic Hero Abilities]{#toc-generic .breakbefore .class}
 
 ## Generic Hero Abilities {.class}
 

@@ -9,6 +9,15 @@
   - <a href="#toc-stars-wishes"></a>
 - <a href="#toc-overview"></a>
 - <a href="#toc-issues"></a>
+  - <a href="#toc-struct-issue}
+    - <a href="#toc-struct-issue-0}
+    - <a href="#toc-struct-issue-1}
+    - <a href="#toc-struct-issue-annual}
+  - <a href="#toc-struct-storyline}
+  - <a href="#toc-struct-volume}
+  - <a href="#toc-struct-series}
+  - <a href="#toc-struct-one-shots}
+  - <a href="#toc-struct-crossovers}
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
   - <a href="#toc-approaches"></a>
@@ -62,7 +71,7 @@
     - <a href="#toc-crisis-hero-moves"></a>
   - <a href="#toc-crisis-crisis"></a>
   - <a href="#toc-crisis-post"></a>
-- <a href="#toc-downtime"></a>
+- <a href="#toc-vignette-issues"></a>
 - <a href="#toc-advancements"></a>
 - <a href="#toc-setting"></a>
   - <a href="#toc-setting-era"></a>
