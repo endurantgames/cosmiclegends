@@ -1,4 +1,4 @@
 ::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-# Multi-Class Characters {#toc-class-multi-class}
+# [Multi-Class Characters]{#toc-class-multi-class}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

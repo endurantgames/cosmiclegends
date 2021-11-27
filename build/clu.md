@@ -65,6 +65,7 @@ title: Cosmic Legends of the Universe
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
+  - <a href="#toc-generic"></a>
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
@@ -2635,7 +2636,7 @@ TBD
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-### Dual-Class Heroes {#toc-class-dual-class}
+### [Dual-Class Heroes]{#toc-class-dual-class}
 
 A Dual-Class Hero is one who can change between a *primary class*
 and a *secondary class* form, and is likely a hero who looks 
@@ -6605,7 +6606,7 @@ TBD
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-### Multi-Class Characters {#toc-class-multi-class}
+### [Multi-Class Characters]{#toc-class-multi-class}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

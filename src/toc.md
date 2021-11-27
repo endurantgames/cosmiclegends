@@ -21,6 +21,7 @@
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
+  - <a href="#toc-generic"></a>
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>

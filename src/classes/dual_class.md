@@ -1,5 +1,5 @@
 ::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-# Dual-Class Heroes {#toc-class-dual-class}
+# [Dual-Class Heroes]{#toc-class-dual-class}
 
 A Dual-Class Hero is one who can change between a *primary class*
 and a *secondary class* form, and is likely a hero who looks 

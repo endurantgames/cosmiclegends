@@ -1,4 +1,7 @@
-# Power Words Index {#toc-power-words-index}
+# [Power Words Index]{#toc-power-words-index}
+
+This index lists all the power words found in []{.gamename}, with the
+exception of Nova Power Words which are freely chosen by the players.
 
 ::::::::::::: pw-index ::::::::::::::::::::::::::::::::::::
 - [Absorb            ]{.word .cpw .dynamo            }
