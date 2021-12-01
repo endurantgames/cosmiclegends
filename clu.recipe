@@ -25,6 +25,7 @@ chargen/skills_chargen
 chargen/approaches
 chargen/abilities
 chargen/ability_types
+chargen/generic_abilities
 chargen/fighting_style
 chargen/ideals
 chargen/power_words

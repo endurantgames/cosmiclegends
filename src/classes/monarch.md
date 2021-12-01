@@ -223,6 +223,11 @@ Monarch's Benevolence
     If the source of the Crisis is one of your subjects, 
     also add the Volume to the dice pool.
 
+Palace of the Privileged
+
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    This is a *Hero Cave* Ability.
+
 Unfamiliar Fighting Techniques
 
 :   You have trained in a number of fighting techniques
@@ -230,11 +235,6 @@ Unfamiliar Fighting Techniques
 
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
-
-Palace of the Privileged
-
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 

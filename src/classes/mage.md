@@ -359,9 +359,15 @@ Healing Mantra
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Invisibility
 
-:   To be determined.
+:   You can make yourself imperceptible by normal senses.
+
+    Add "Invisibility" as a Core Power Word.
+
+    Whenever you are the only target of a Crisis Move, you can spend 1
+    Might to become invisible and automatically counter that Crisis
+    Move.
 
 TBD
 
@@ -374,9 +380,14 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Mass Invisibility
 
-:   To be determined.
+:   *Prerequisite: You must have "Invisibility" as a Power Word.*
+
+    Whenever a Crisis Move affects your entire Team, you can spend Might
+    equal to its Counter Cost instead of successes from the Teamwork Pool
+    to make your team invisible and automatically counter that Crisis
+    Move.
 
 TBD
 
