@@ -27,6 +27,9 @@ credits/safety
 chargen/
 chargen/class
 chargen/skills_chargen
+chargen/abilities
+chargen/ability_types
+chargen/generic_abilities
 chargen/approaches
 chargen/fighting_style
 chargen/ideals
