@@ -48,6 +48,10 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-ethos-teamwork"></a>
   - <a href="#toc-ethos-difficult-choices"></a>
 - <a href="#toc-preface"></a>
+  - <a href="#toc-preface-ages"></a>
+  - <a href="#toc-preface-the-bronze-age"></a>
+  - <a href="#toc-preface-four-color"></a>
+  - <a href="#toc-preface-super-friends"></a>
 - <a href="#toc-safety"></a>
   - <a href="#toc-comics-code"></a>
   - <a href="#toc-script-change"></a>
@@ -139,9 +143,11 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-sample-super-villains"></a>
 - <a href="#toc-glossary"></a>
 - <a href="#toc-credits"></a>
-- <a href="#anchor-license"></a>
-- <a href="#anchor-herosheet"></a>
-- <a href="#anchor-team-sheet"></a>
+- <a href="#anchor-license"     ></a>
+- Records Sheets
+  - <a href="#anchor-herosheet"   ></a> (Character)
+  - <a href="#anchor-team-sheet"  ></a> (Group)
+  - <a href="#anchor-series-sheet"></a> (Campaign)
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -191,7 +197,7 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 []{.lorem}
 
 
-### "Four-Color"
+### "Four-Color" {#toc-preface-four-color}
 
 The term "four-color" refers to the printing process used
 in comics that led to most heroes having bold, primary
@@ -208,31 +214,31 @@ superheroes of the '50s and '60s met the social issues of
 the '70s and '80s.
 
 
-### The Super Friends
+### The Super Friends {#toc-preface-super-friends}
 
-In case you didn't notice, this game is inspired by the 
+In case you weren't aware, this game is inspired by the 
 [Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
 cartoon show that was on the air from 1973 to 1985 -- also
 the years yours truly was age 5 and 16. It's fair to say
 the show influenced how I view comics and superheroes
 in general.
 
-The first season has this great opening monologue where the four 
+The first season has an opening monologue where the four 
 heroes were "created from the cosmic legends of the universe!"
 
-What on earth does *that* mean?  How exactly was *Bruce Wayne*
-created from the __cosmic legends of the universe__?!
+What on earth does *that* mean?  How exactly was *millionaire playboy 
+Bruce Wayne* created from the __cosmic legends of the universe__?!
 I've never figured that out, but it does make a great title
-for this Bronze Age-inspired, four-color tabletop RPG.
+for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
-### The Ages of Comics
+### The Ages of Comics {#toc-preface-ages}
 
 American comics fans and scholars divide the history of 
 comics into four loosely defined "ages": the Golden Age, the
 Silver Age, the Bronze Age, and the Modern Age.
 
-The Golden Age - 1938 to 1956
+[The Golden Age]{#toc-preface-ages-golden} - 1938 to 1956 
 
 :   The Golden Age started with the introduction of Superman
     and the concept of superheroes in general.
@@ -246,7 +252,7 @@ The Golden Age - 1938 to 1956
     Unfortunately, racism and sexism often were major themes in Golden 
     Age comics; examples of anti-Asian hatred are all too easy to find.
 
-The Silver Age - 1956 to circa 1970
+[The Silver Age]{#toc-preface-ages-silver} - 1956 to circa 1970 
 
 :   The Silver Age began when DC Comics created new versions of the Flash, 
     Green Lantern, and others, then the Justice League of America. 
@@ -263,26 +269,26 @@ The Silver Age - 1956 to circa 1970
     always lost, and authority figures were portrayed with respect -- 
     at least, that's what the Comics Code demanded.
 
-The Bronze Age - ca. 1970 to ca. 1985
+[The Bronze Age]{#toc-preface-ages-bronze} - ca. 1970 to ca. 1985
 
 :   The Bronze Age is less distinctly defined chronologically, but was 
     a time when comics went through changes: becoming more socially 
     relevant and less restrained by the CCA. More on that later.
   
-The Modern Age - ca. 1985 to present
+[The Modern Age]{#toc-preface-ages-modern} - ca. 1985 to present
 
-:   The current age of comics is usually dated to 
+:   The current age of comics is usually dated to the end of
     DC's *Crisis on Infinite Earths* and Marvel's *Secret Wars*.
 
     Modern superhero comics often feature antiheroes, complex
     storylines, and mature themes. Many of the older characters
     were revamped to more contemporary versions.
 
-    The CCA also withered away to nothing as the major publishers
-    increasingly created comics without the CCA seal on the cover.
+    The CCA also withered away to irrelevancy as the major publishers
+    increasingly often published comics without the CCA seal on the cover.
   
 
-### The Bronze Age
+### The Bronze Age {#toc-preface-the-bronze-age}
 
 []{.lorem}
 []{.lorem}
@@ -16572,6 +16578,12 @@ the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Vignettes {#toc-vignettes}
+
+[]{.lorem}
+
 
 
 ## Index: Power Word Lists
