@@ -1,0 +1,49 @@
+#series-sheet { page: seriessheet; column-span: all; }
+
+@page seriessheet { margin: var(--page-margin); }
+@page seriessheet { @top-left      { content: normal; } }
+@page seriessheet { @top-right     { content: normal; } }
+@page seriessheet { @bottom-center { content: normal; } }
+
+#series-sheet ul { margin: 0; padding: 0; }
+#series-sheet li { margin: 0; padding: 0; list-style-type: none; }
+
+#series-sheet > .header > ul > li { display: inline-block; width: auto; }
+
+#series-sheet ul li span.field    { 
+  display: inline-block; 
+  border-bottom: 0.5pt solid black; 
+  font-size: var(-small); 
+  font-family: var(--font-sheet-2); 
+}
+
+#series-sheet > .header > ul > li > span.team-name   { width: 432pt; }
+#series-sheet > .header > ul > li > span.team-class  { width: 216pt; }
+#series-sheet > .header > ul > li > span.team-volume { width: 180pt; }
+
+#series-sheet > .header > .line {
+  margin-top:     8pt;
+  padding-top:    4pt;
+  padding-bottom: 4pt;
+  margin-bottom:  8pt;
+  border-top:     0.5pt solid black;
+  border-bottom:  0.5pt solid black;
+  display:        block;
+}
+
+#series-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
+  font-size:   var(--body);
+  font-family: var(--font-header);
+  position:    absolute; top:  0; left: 0;
+}
+
+#series-sheet > .header> .line.team-approach-line > ul > li span {
+  width:         80pt; 
+  margin-right:  3.2pt; margin-left: 3.2pt;
+}
+
+#series-sheet > .body { column-count: 2; column-gap: 8pt; }
+
+#series-sheet > .body > .section { break-inside: avoid; }
+#series-sheet > .body > .section { break-after: column; }
+

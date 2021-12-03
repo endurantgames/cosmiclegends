@@ -26,7 +26,7 @@
   - <a href="#toc-struct-one-shots"></a>
   - <a href="#toc-struct-crossovers"></a>
 - <a href="#toc-dice"></a>
-- <a href="#toc-chargen"></a> (Character Creation)
+- <a href="#toc-chargen"> (Character Creation)</a>
   - <a href="#toc-approaches"></a>
     - <a href="#toc-abilities"></a>
     - <a href="#toc-ability-types"></a>
@@ -103,8 +103,8 @@
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"     ></a>
 - Records Sheets
-  - <a href="#anchor-herosheet"   ></a> (Character)
-  - <a href="#anchor-team-sheet"  ></a> (Group)
-  - <a href="#anchor-series-sheet"></a> (Campaign)
+  - <a href="#anchor-herosheet"   > (Character)</a>
+  - <a href="#anchor-team-sheet"  > (Group)    </a> 
+  - <a href="#anchor-series-sheet"> (Campaign) </a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
