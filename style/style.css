@@ -3,7 +3,9 @@
 
 @import url("team-sheet.css");
 
-@page         { size: 477pt 733pt; margin: 36pt; margin-bottom: 54pt; }
+@page         { size: var(--page-size);
+                margin: var(--page-margin);
+	        margin-bottom: var(--page-margin-bottom); }
 header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
@@ -15,6 +17,11 @@ header h1     { string-set: gamename content()       }
 
 :root {
 
+  --page-width          : 6.625in;         /* 477pt;       */
+  --page-height         : 10.18in;         /* 733pt;       */
+  --page-size           : 6.625in 10.18in; /* 477pt 733pt; */
+  --page-margin         : 0.5in;           /* 36pt;        */
+  --page-margin-bottom  : 0.75in;          /* 54pt;        */
   --font                : "Comic Neue";
   --font-bubble         : "Rodau Buttons";
   --font-caption        : "Legio Sabina Condensed";
@@ -235,7 +242,7 @@ li { line-height: 1.10; }
   text-align:      right;
 } }
 
-@page:nth(3) { margin-top: 36pt;                     }
+@page:nth(3) { margin-top: var(--page-margin);       }
 @page:nth(3) { @bottom-center  { content: normal; }  }
 @page:nth(3) { @bottom-right   { content: normal; }  }
 
@@ -337,8 +344,8 @@ a:hover   { text-decoration: none; color: red;    }
 
 #cover { 
   break-after: page; 
-  width: 477pt; 
-  height: 733pt; 
+  width: var(--page-width);
+  height: var(--page-height);
   position: relative; 
 }
 @page :first {
@@ -480,9 +487,9 @@ color: crimson; }
 #cover .hype ul li { text-transform: uppercase; margin: 0; list-style-type: none; position: absolute; font-size: var(--hype); font-family: var(--font-hype); }
 
 #cover .hype strong { font-size: 125%; }
-#cover .hype ul li:nth-child(1) { top: 270pt; left: 36pt; transform: rotate(-10deg); }
-#cover .hype ul li:nth-child(2) { top: 390pt; right: 36pt; transform: rotate(10deg); }
-#cover .hype ul li:nth-child(3) { top: 510pt; left: 36pt; transform: rotate(-10deg); }
+#cover .hype ul li:nth-child(1) { top: 270pt; left: var(--page-margin); transform: rotate(-10deg); }
+#cover .hype ul li:nth-child(2) { top: 390pt; right: var(--page-margin); transform: rotate(10deg); }
+#cover .hype ul li:nth-child(3) { top: 510pt; left: var(--page-margin); transform: rotate(-10deg); }
 #cover .hype ul li:nth-child(4) { top: 640pt; left: 0; right: 0; text-align: center; }
 
 #cover img#img-title { 
@@ -500,6 +507,8 @@ color: crimson; }
     'consectetur adipiscing elit. '
     'Curabitur ornare ex nisi.';
 }
+
+.lorem { }
 
 #cover img#img-cover { display: none; }
 
@@ -571,29 +580,29 @@ blockquote {
 #power-table table.power-table tbody:nth-child(odd) tr td:nth-child(2n+3) { background-color: #e0e0e0; }
 #power-table table.power-table tbody:nth-child(even)  tr td:nth-child(2n+3) { background-color: #e8e8e8; }
 
-#power-table table.power-table tbody tr.cost { }
+#power-table table.power-table tbody tr.cost           { }
 #power-table table.power-table tbody tr.cost td        { font-size: var(--table-cost-size); font-style: italic; }
 #power-table table.power-table tbody tr.cost th        { font-size: var(--table-cost-size); font-style: italic; font-weight: normal; text-align: right; }
-#power-table table.power-table tbody tr.cost td        {                                                       }
-#power-table table.power-table tbody tr.cost td.na     { content: '--';                                        }
-#power-table table.power-table tbody tr.cost td.might0 { content: 'Might 0';                                   }
-#power-table table.power-table tbody tr.cost td.might1 { content: 'Might 1';                                   }
+#power-table table.power-table tbody tr.cost td        { }
+#power-table table.power-table tbody tr.cost td.na     { content: '--';      }
+#power-table table.power-table tbody tr.cost td.might0 { content: 'Might 0'; }
+#power-table table.power-table tbody tr.cost td.might1 { content: 'Might 1'; }
 
 #power-table table.power-table tbody tr.main              {                                                                       }
 #power-table table.power-table tbody tr.main th { font-weight: normal; }
 #power-table table.power-table tbody tr.main td           { font-family: var( --font-icons  ); font-size: var(--table-icon-size); }
-#power-table table.power-table tbody tr.main td.yes       { content:     var( --yes-green   ); color: var(--color-yes);           }
-#power-table table.power-table tbody tr.main td.yes.gray  { content:     var( --yes-gray    ); color: var(--color-gray);          }
-#power-table table.power-table tbody tr.main td.no        { content:     var( --no          ); color: var(--color-no);            }
-#power-table table.power-table tbody tr.main td.lock      { content:     var( --lock-yellow ); color: var(--color-lock);          }
-#power-table table.power-table tbody tr.main td.lock.gray { content:     var( --lock-gray   ); color: var(--color-gray);          }
+#power-table table.power-table tbody tr.main td.yes       { content: var( --yes-green   ); color: var(--color-yes);  }
+#power-table table.power-table tbody tr.main td.yes.gray  { content: var( --yes-gray    ); color: var(--color-gray); }
+#power-table table.power-table tbody tr.main td.no        { content: var( --no          ); color: var(--color-no);   }
+#power-table table.power-table tbody tr.main td.lock      { content: var( --lock-yellow ); color: var(--color-lock); }
+#power-table table.power-table tbody tr.main td.lock.gray { content: var( --lock-gray   ); color: var(--color-gray); }
 
-#power-table table.power-table tbody.use-type tr td.combo   { background-color: var(--color-combo); }
+#power-table table.power-table tbody.use-type tr td.combo   { background-color: var(--color-combo);   }
 #power-table table.power-table tbody.use-type tr td.stunt   { background-color: var(--color-stunt);   }
 #power-table table.power-table tbody.use-type tr td.display { background-color: var(--color-display); }
-#power-table table.power-table tbody.use-type tr td { height: 5pt; vertical-align: bottom; color: white; font-weight: bold; font-size: var(--body); padding-bottom: 1pt;}
+#power-table table.power-table tbody.use-type tr td         { height: 5pt; vertical-align: bottom; color: white; font-weight: bold; font-size: var(--body); padding-bottom: 1pt;}
 #power-table table.power-table tbody.use-type tr:nth-child(3) td:nth-child(2) { background-color: transparent; }
-#power-table table.power-table tbody.use-type:nth-child(even) { background-color: transparent; }
+#power-table table.power-table tbody.use-type:nth-child(even)                 { background-color: transparent; }
 
 .skill-list dl dt { 
   font-family: var(--font-h5); 
@@ -613,11 +622,11 @@ blockquote {
 
 .skill-list dl dd ul li ul li::marker { content: '\0025A1'; }
 
-.skill-list    .action:before { content: 'Action/';    }
-.skill-list .detective:before { content: 'Detective/'; }
-.skill-list .adventure:before { content: 'Adventure/'; }
-.skill-list   .mystery:before { content: 'Mystery/';   }
-.skill-list  .suspense:before { content: 'Suspense/';  }
+.skill-list    .action:before { content: 'Action/';               }
+.skill-list .detective:before { content: 'Detective/';            }
+.skill-list .adventure:before { content: 'Adventure/';            }
+.skill-list   .mystery:before { content: 'Mystery/';              }
+.skill-list  .suspense:before { content: 'Suspense/';             }
 .skill-list .action           { font-weight: bold; color: green;  }
 .skill-list .detective        { font-weight: bold; color: blue;   }
 .skill-list .adventure        { font-weight: bold; color: red;    }
@@ -639,11 +648,11 @@ blockquote {
 .ability-list dl dd ul li         { margin-left: 1em; list-style-type: circle; }
 .ability-list dl dd ul li::marker { padding-right: 0.25em; }
 
-.ability-list.v1 dl > * { background: linear-gradient(90deg, var(--color-rainbow-1) 75%, var(--color-rainbow-2)); }
-.ability-list.v2 dl > * { background: linear-gradient(90deg, var(--color-rainbow-2) 75%, var(--color-rainbow-3)); }
-.ability-list.v3 dl > * { background: linear-gradient(90deg, var(--color-rainbow-3) 75%, var(--color-rainbow-4)); }
-.ability-list.v4 dl > * { background: linear-gradient(90deg, var(--color-rainbow-4) 75%, var(--color-rainbow-5)); }
-.ability-list.v5 dl > * { background: linear-gradient(90deg, var(--color-rainbow-5) 75%, var(--color-rainbow-6)); }
+.ability-list.v1    dl > * { background: linear-gradient(90deg, var(--color-rainbow-1) 75%, var(--color-rainbow-2)); }
+.ability-list.v2    dl > * { background: linear-gradient(90deg, var(--color-rainbow-2) 75%, var(--color-rainbow-3)); }
+.ability-list.v3    dl > * { background: linear-gradient(90deg, var(--color-rainbow-3) 75%, var(--color-rainbow-4)); }
+.ability-list.v4    dl > * { background: linear-gradient(90deg, var(--color-rainbow-4) 75%, var(--color-rainbow-5)); }
+.ability-list.v5    dl > * { background: linear-gradient(90deg, var(--color-rainbow-5) 75%, var(--color-rainbow-6)); }
 .ability-list.prime dl > * { background: linear-gradient(90deg, var(--color-rainbow-6) 75%, var(--color-rainbow-1)); }
 
 .ability-list dl dt {
@@ -1336,10 +1345,10 @@ blockquote {
 
 #what-page img.ww {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 477pt;
-  height: 733pt;
+  top:      0;
+  right:    0;
+  width:    var(--page-width);  /* 477pt; */
+  height:   var(--page-height); /* 733pt; */
 }
 
 #section-what :matches(h1, h2, h3, h4, h5, h6) { font-family: var(--font-h2); }

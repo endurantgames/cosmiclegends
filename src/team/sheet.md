@@ -1,6 +1,5 @@
-
 :::::::::::::::::::: { #team-sheet } :::::::::::::::::::::::::::::::::::::::
-# Team Sheet {#team-sheet .anchor}
+# Team Sheet {#team-sheet-anchor .anchor}
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
 - [Team Name]{.team-name     .field}

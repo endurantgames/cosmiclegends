@@ -6,6 +6,10 @@
   - <a href="#toc-ethos-teamwork"></a>
   - <a href="#toc-ethos-difficult-choices"></a>
 - <a href="#toc-preface"></a>
+  - <a href="#toc-preface-ages"></a>
+  - <a href="#toc-preface-the-bronze-age"></a>
+  - <a href="#toc-preface-four-color"></a>
+  - <a href="#toc-preface-super-friends"></a>
 - <a href="#toc-safety"></a>
   - <a href="#toc-comics-code"></a>
   - <a href="#toc-script-change"></a>
@@ -97,8 +101,10 @@
   - <a href="#toc-sample-super-villains"></a>
 - <a href="#toc-glossary"></a>
 - <a href="#toc-credits"></a>
-- <a href="#anchor-license"></a>
-- <a href="#anchor-herosheet"></a>
-- <a href="#anchor-team-sheet"></a>
+- <a href="#anchor-license"     ></a>
+- Records Sheets
+  - <a href="#anchor-herosheet"   ></a> (Character)
+  - <a href="#anchor-team-sheet"  ></a> (Group)
+  - <a href="#anchor-series-sheet"></a> (Campaign)
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -52,8 +52,6 @@ team/*
 editor/
 editor/storyline
 editor/crisis
-vignette_volumes/
-vignette_volumes/*
 sample_crises/
 sample_crises/aliens
 sample_crises/military
@@ -63,6 +61,9 @@ sample_crises/personal
 sample_crises/science
 sample_crises/super_villains
 sample_crises/*
+vignettes/
+vignettes/vignette_issue
+vignettes/examples/*
 lists_index
 glossary
 credits/

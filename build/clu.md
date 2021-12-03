@@ -12458,9 +12458,8 @@ at the start of the Hero Phase. Unless otherwise noted, the
 members of that Team can't make their own moves that Hero Phase.
 
 
-
 :::::::::::::::::::: { #team-sheet } :::::::::::::::::::::::::::::::::::::::
-### Team Sheet {#team-sheet .anchor}
+### Team Sheet {#team-sheet-anchor .anchor}
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
 - [Team Name]{.team-name     .field}
@@ -12824,12 +12823,6 @@ members of that Team can't make their own moves that Hero Phase.
 #### Adjusting a Crisis
 
 []{.lorem}
-[]{.lorem}
-
-
-
-## Vignettes {#toc-vignettes}
-
 []{.lorem}
 
 

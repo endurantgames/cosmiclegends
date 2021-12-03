@@ -1,10 +1,10 @@
-# The Ages of Comics
+# The Ages of Comics {#toc-preface-ages}
 
 American comics fans and scholars divide the history of 
 comics into four loosely defined "ages": the Golden Age, the
 Silver Age, the Bronze Age, and the Modern Age.
 
-The Golden Age - 1938 to 1956
+[The Golden Age]{#toc-preface-ages-golden} - 1938 to 1956 
 
 :   The Golden Age started with the introduction of Superman
     and the concept of superheroes in general.
@@ -18,7 +18,7 @@ The Golden Age - 1938 to 1956
     Unfortunately, racism and sexism often were major themes in Golden 
     Age comics; examples of anti-Asian hatred are all too easy to find.
 
-The Silver Age - 1956 to circa 1970
+[The Silver Age]{#toc-preface-ages-silver} - 1956 to circa 1970 
 
 :   The Silver Age began when DC Comics created new versions of the Flash, 
     Green Lantern, and others, then the Justice League of America. 
@@ -35,21 +35,21 @@ The Silver Age - 1956 to circa 1970
     always lost, and authority figures were portrayed with respect -- 
     at least, that's what the Comics Code demanded.
 
-The Bronze Age - ca. 1970 to ca. 1985
+[The Bronze Age]{#toc-preface-ages-bronze} - ca. 1970 to ca. 1985
 
 :   The Bronze Age is less distinctly defined chronologically, but was 
     a time when comics went through changes: becoming more socially 
     relevant and less restrained by the CCA. More on that later.
   
-The Modern Age - ca. 1985 to present
+[The Modern Age]{#toc-preface-ages-modern} - ca. 1985 to present
 
-:   The current age of comics is usually dated to 
+:   The current age of comics is usually dated to the end of
     DC's *Crisis on Infinite Earths* and Marvel's *Secret Wars*.
 
     Modern superhero comics often feature antiheroes, complex
     storylines, and mature themes. Many of the older characters
     were revamped to more contemporary versions.
 
-    The CCA also withered away to nothing as the major publishers
-    increasingly created comics without the CCA seal on the cover.
+    The CCA also withered away to irrelevancy as the major publishers
+    increasingly often published comics without the CCA seal on the cover.
   

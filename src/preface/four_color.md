@@ -1,4 +1,4 @@
-# "Four-Color"
+# "Four-Color" {#toc-preface-four-color}
 
 The term "four-color" refers to the printing process used
 in comics that led to most heroes having bold, primary
