@@ -1,32 +1,37 @@
-# [Abilities and Ability Categories]{#toc-ability-categories}
+# [Abilities and Ability Categories]{#toc-ability-types}
 
-At the start of each Volume, you can choose one ability from your class
-or from the list of Generic Abilities; before Volume One, you can choose
-two abilities from either your class list or the list of Generic Abilities.
+At the start of each Volume, you can choose one ability from your 
+class or from the list of Generic Abilities; before Volume One, 
+you can choose two abilities from either your class list or the 
+list of Generic Abilities.
 
-Each ability can be chosen only once, unless otherwise noted.
+Each ability can be chosen only once, unless otherwise noted with
+a *Repetition* statement.
+
 You can't choose an ability if you already have that ability or a
-variant of that ability.
+variant of that ability. 
 
-There are four categories of abilities that all use similar mechanics:
+A *variant* is any ability that says "This is a variant of *another 
+ability.*", or any ability with the same name as another ability
+that you already have.
+
+There are four categories of abilities, where each ability of that
+type uses similar game rules and mechanics:
 
 - **Arsenal Abilities** let you pick a number of single-use Core
   Power Words at the start of a Storyline;
+- You can only have one *Arsenal Ability*; all Arsenal Abilities
+  are considered variants of all other Arsenal Abilities;
 - **Crossover Abilities** give you access to Power Words (and, usually,
   abilities) from another class;
 - **Hero Cave Abilities** give you a personal headquarters where
   you can store your trophies or use your skills;
+- You can only have one *Hero Cave Ability*; all Hero Cave Abilities
+  are considered variants of all other Hero Cave Abilities;
 - **Pet Abilities** let you have an animal companion, familiar,
-  or special pet that accompanies you.
-
-For **Arsenal**, **Hero Cave**, and **Pet** Abilities, the following
-rules apply:
-
-- You can have only one ability of each type; every ability of a certain
-  type is considered to be a variant ability of all other abilities of
-  that type.
-- Thus you can have only one Arsenal ability, one Hero Cave ability, 
-  and one Pet ability.
+  or special pet that accompanies you;
+- You can only have one *Pet Ability*; all Pet Abilities are 
+  considered variants of all other Pet Abilities.
 
 For **Crossover** Abilities, the following rules apply:
 
@@ -40,5 +45,5 @@ For **Crossover** Abilities, the following rules apply:
   Crossover Ability. For example, if you take a Crossover (Mage)
   Ability that lets you take a Mage class ability instead of one
   of your class abilities, you can't take a Mage class ability
-  that's a Crossover ability itself.
+  that's a Crossover ability itself (of another class).
 

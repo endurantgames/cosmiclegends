@@ -2,6 +2,9 @@
 # Table of Contents
 
 - <a href="#toc-ethos"></a>
+  - <a href="#toc-ethos-self-expression"></a>
+  - <a href="#toc-ethos-teamwork"></a>
+  - <a href="#toc-ethos-difficult-choices"></a>
 - <a href="#toc-preface"></a>
 - <a href="#toc-safety"></a>
   - <a href="#toc-comics-code"></a>
@@ -19,8 +22,11 @@
   - <a href="#toc-struct-one-shots"></a>
   - <a href="#toc-struct-crossovers"></a>
 - <a href="#toc-dice"></a>
-- <a href="#toc-chargen"></a>
+- <a href="#toc-chargen"></a> (Character Creation)
   - <a href="#toc-approaches"></a>
+    - <a href="#toc-abilities"></a>
+    - <a href="#toc-ability-types"></a>
+    - <a href="#toc-generic"></a>
   - <a href="#toc-fighting-style"></a>
   - <a href="#toc-ideals"></a>
   - <a href="#toc-powers"></a>
@@ -30,7 +36,6 @@
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
-  - <a href="#toc-generic"></a>
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
@@ -94,5 +99,6 @@
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"></a>
 - <a href="#anchor-herosheet"></a>
+- <a href="#anchor-teamsheet"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

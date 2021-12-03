@@ -1,4 +1,4 @@
-# Abilities
+# Abilities {#toc-abilities}
 
 **blurb about abilities** []{.lorem}
 
@@ -15,8 +15,8 @@ or you don't have it. There are a few abilities that are
 excepts to this rule, and they specifically that you can
 take them more than once.
 
-The following diagram summarizes the abilities gained at
-each Volume.
+The following diagram summarizes the abilities gained at the end of
+each Volume, before the next one begins.
 
 ::::::::::::::::::: volume-ability-chart :::::::::::
 - **Volume 1** 
