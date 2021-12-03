@@ -16586,6 +16586,11 @@ the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
 
 
 
+### Vignettes Issue {#toc-vignettes-issue}
+
+[]{.lorem}
+
+
 ## Index: Power Word Lists
 
 This index links to various lists throughout the rules containing

@@ -17,11 +17,11 @@ header h1     { string-set: gamename content()       }
 
 :root {
 
-  --page-width          : 6.625in;         /* 477pt;       */
-  --page-height         : 10.18in;         /* 733pt;       */
-  --page-size           : 6.625in 10.18in; /* 477pt 733pt; */
-  --page-margin         : 0.5in;           /* 36pt;        */
-  --page-margin-bottom  : 0.75in;          /* 54pt;        */
+  --page-width          : 6.625in;                 /* 477pt;       */
+  --page-height         : 10.18in;                 /* 733pt;       */
+  --page-size           : 6.625in 10.1805555556in; /* 477pt 733pt; */
+  --page-margin         : 0.5in;                   /* 36pt;        */
+  --page-margin-bottom  : 0.75in;                  /* 54pt;        */
   --font                : "Comic Neue";
   --font-bubble         : "Rodau Buttons";
   --font-caption        : "Legio Sabina Condensed";
