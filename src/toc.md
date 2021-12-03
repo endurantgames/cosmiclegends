@@ -99,6 +99,6 @@
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"></a>
 - <a href="#anchor-herosheet"></a>
-- <a href="#anchor-teamsheet"></a>
+- <a href="#anchor-team-sheet"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

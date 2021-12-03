@@ -44,6 +44,9 @@ title: Cosmic Legends of the Universe
 ## Table of Contents
 
 - <a href="#toc-ethos"></a>
+  - <a href="#toc-ethos-self-expression"></a>
+  - <a href="#toc-ethos-teamwork"></a>
+  - <a href="#toc-ethos-difficult-choices"></a>
 - <a href="#toc-preface"></a>
 - <a href="#toc-safety"></a>
   - <a href="#toc-comics-code"></a>
@@ -61,8 +64,11 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-struct-one-shots"></a>
   - <a href="#toc-struct-crossovers"></a>
 - <a href="#toc-dice"></a>
-- <a href="#toc-chargen"></a>
+- <a href="#toc-chargen"></a> (Character Creation)
   - <a href="#toc-approaches"></a>
+    - <a href="#toc-abilities"></a>
+    - <a href="#toc-ability-types"></a>
+    - <a href="#toc-generic"></a>
   - <a href="#toc-fighting-style"></a>
   - <a href="#toc-ideals"></a>
   - <a href="#toc-powers"></a>
@@ -72,7 +78,6 @@ title: Cosmic Legends of the Universe
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
-  - <a href="#toc-generic"></a>
   - <a href="#toc-construct"></a>
   - <a href="#toc-divine"></a>
   - <a href="#toc-dynamo"></a>
@@ -136,6 +141,7 @@ title: Cosmic Legends of the Universe
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"></a>
 - <a href="#anchor-herosheet"></a>
+- <a href="#anchor-team-sheet"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -143,21 +149,21 @@ title: Cosmic Legends of the Universe
 
 []{.gamename} revolves around the following three pillars:
 
-### Self Expression
+### Self Expression {#toc-ethos-self-expression}
 
 The Power Word system and Crisis system are intentionally built to 
 give players freedom to engage with problems in their own style. 
 []{.gamename} lets you be yourself, and do things in your own way, 
 without being left behind by your team.
 
-### Teamwork
+### Teamwork {#toc-ethos-teamwork}
 
 []{.gamename} is written to encourage the players to work 
 together. Whether you're combining your powers to use Power Combos
 or using your skills to overcome an opponent together, heroes in 
 []{.gamename} succeed or fail as a team.
 
-### Difficult Choices
+### Difficult Choices {#toc-ethos-difficult-choices}
 
 The Edge Success system is built so that you have the freedom 
 to choose failure. The Crisis system is built so that you can 
@@ -975,7 +981,7 @@ can take long and might run for 2 or 3 sessions, or longer.
 Once your hero finishes your Storyline, both your hero and your 
 fellow players' heroes gain an **Advancement.**
 
-### [Volumes]{#toc-structure-volumes}
+### [Volumes]{#toc-structure-volume}
 
 ::::::::::::: struct :::::::::::
 <div class="volume wide extra ">
@@ -1273,7 +1279,7 @@ which represent their preferred methods to solve problems.
 Each of your hero's Approaches starts with a score of 1, and you have 5 
 additional points to distribute to them.
 
-### Abilities
+### Abilities {#toc-abilities}
 
 **blurb about abilities** []{.lorem}
 
@@ -1290,8 +1296,8 @@ or you don't have it. There are a few abilities that are
 excepts to this rule, and they specifically that you can
 take them more than once.
 
-The following diagram summarizes the abilities gained at
-each Volume.
+The following diagram summarizes the abilities gained at the end of
+each Volume, before the next one begins.
 
 ::::::::::::::::::: volume-ability-chart :::::::::::
 - **Volume 1** 
@@ -1335,35 +1341,40 @@ each Volume.
   []{.ability .volume .v6 .new}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### [Abilities and Ability Categories]{#toc-ability-categories}
+### [Abilities and Ability Categories]{#toc-ability-types}
 
-At the start of each Volume, you can choose one ability from your class
-or from the list of Generic Abilities; before Volume One, you can choose
-two abilities from either your class list or the list of Generic Abilities.
+At the start of each Volume, you can choose one ability from your 
+class or from the list of Generic Abilities; before Volume One, 
+you can choose two abilities from either your class list or the 
+list of Generic Abilities.
 
-Each ability can be chosen only once, unless otherwise noted.
+Each ability can be chosen only once, unless otherwise noted with
+a *Repetition* statement.
+
 You can't choose an ability if you already have that ability or a
-variant of that ability.
+variant of that ability. 
 
-There are four categories of abilities that all use similar mechanics:
+A *variant* is any ability that says "This is a variant of *another 
+ability.*", or any ability with the same name as another ability
+that you already have.
+
+There are four categories of abilities, where each ability of that
+type uses similar game rules and mechanics:
 
 - **Arsenal Abilities** let you pick a number of single-use Core
   Power Words at the start of a Storyline;
+- You can only have one *Arsenal Ability*; all Arsenal Abilities
+  are considered variants of all other Arsenal Abilities;
 - **Crossover Abilities** give you access to Power Words (and, usually,
   abilities) from another class;
 - **Hero Cave Abilities** give you a personal headquarters where
   you can store your trophies or use your skills;
+- You can only have one *Hero Cave Ability*; all Hero Cave Abilities
+  are considered variants of all other Hero Cave Abilities;
 - **Pet Abilities** let you have an animal companion, familiar,
-  or special pet that accompanies you.
-
-For **Arsenal**, **Hero Cave**, and **Pet** Abilities, the following
-rules apply:
-
-- You can have only one ability of each type; every ability of a certain
-  type is considered to be a variant ability of all other abilities of
-  that type.
-- Thus you can have only one Arsenal ability, one Hero Cave ability, 
-  and one Pet ability.
+  or special pet that accompanies you;
+- You can only have one *Pet Ability*; all Pet Abilities are 
+  considered variants of all other Pet Abilities.
 
 For **Crossover** Abilities, the following rules apply:
 
@@ -1377,7 +1388,7 @@ For **Crossover** Abilities, the following rules apply:
   Crossover Ability. For example, if you take a Crossover (Mage)
   Ability that lets you take a Mage class ability instead of one
   of your class abilities, you can't take a Mage class ability
-  that's a Crossover ability itself.
+  that's a Crossover ability itself (of another class).
 
 
 ::::::::::::::::::: { .classdata } :::::::::::
@@ -4731,8 +4742,6 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 
 ::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
 ### The Inventor {#toc-inventor .breakbefore .class}
@@ -12451,7 +12460,7 @@ members of that Team can't make their own moves that Hero Phase.
 
 
 :::::::::::::::::::: { #team-sheet } :::::::::::::::::::::::::::::::::::::::
-### Team Sheet
+### Team Sheet {#team-sheet .anchor}
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
 - [Team Name]{.team-name     .field}
