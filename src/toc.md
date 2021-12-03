@@ -40,23 +40,24 @@
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
-  - <a href="#toc-construct"></a>
-  - <a href="#toc-divine"></a>
-  - <a href="#toc-dynamo"></a>
-  - <a href="#toc-expatriate"></a>
-  - <a href="#toc-haunt"></a>
-  - <a href="#toc-hellspawn"></a>
-  - <a href="#toc-inventor"></a>
-  - <a href="#toc-knight"></a>
-  - <a href="#toc-kid"></a>
-  - <a href="#toc-mage"></a>
-  - <a href="#toc-monarch"></a>
-  - <a href="#toc-monstrosity"></a>
-  - <a href="#toc-paragon"></a>
-  - <a href="#toc-psychic"></a>
-  - <a href="#toc-shaper"></a>
-  - <a href="#toc-twins"></a>
-  - <a href="#toc-wheelman"></a>
+  - <a href="#toc-construct"           class="class-toc construct"   ></a>
+  - <a href="#toc-divine"              class="class-toc divine"      ></a>
+  - <a href="#toc-dynamo"              class="class-toc dynamo"      ></a>
+  - <a href="#toc-expatriate"          class="class-toc expatriate"  ></a>
+  - <a href="#toc-expert"              class="class-toc expert"      ></a>
+  - <a href="#toc-haunt"               class="class-toc haunt"       ></a>
+  - <a href="#toc-hellspawn"           class="class-toc hellspawn"   ></a>
+  - <a href="#toc-inventor"            class="class-toc inventor"    ></a>
+  - <a href="#toc-kid"                 class="class-toc kid"         ></a>
+  - <a href="#toc-knight"              class="class-toc knight"      ></a>
+  - <a href="#toc-mage"                class="class-toc mage"        ></a>
+  - <a href="#toc-monarch"             class="class-toc monarch"     ></a>
+  - <a href="#toc-monstrosity"         class="class-toc monstrosity" ></a>
+  - <a href="#toc-paragon"             class="class-toc paragon"     ></a>
+  - <a href="#toc-psychic"             class="class-toc psychic"     ></a>
+  - <a href="#toc-shaper"              class="class-toc shaper"      ></a>
+  - <a href="#toc-twins"               class="class-toc twins"       ></a>
+  - <a href="#toc-wheelman"            class="class-toc wheelman"    ></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>

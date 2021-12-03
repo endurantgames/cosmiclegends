@@ -128,19 +128,19 @@ figure figcaption {
 }
 
 #toc {
-  column-span: all; 
-  float: top;
-  float-defer-page: 1;
-  column-count: 2; 
-  column-width: auto; 
-  column-gap: 9pt;
-  margin-bottom: 1em;
-  background-color: var(--color-toc-white);
-  border-radius: var(--border-radius);
-  border: 0.5pt solid var(--color-line);
-  padding-right: 6pt;
-  padding-top: 4pt;
-  padding-bottom: 4pt; 
+  column-span      : all;
+  float            : top;
+  float-defer-page : 1;
+  column-count     : 2;
+  column-width     : auto;
+  column-gap       : 9pt;
+  margin-bottom    : 1em;
+  background-color : var(--color-toc-white);
+  border-radius    : var(--border-radius);
+  border           : 0.5pt solid var(--color-line);
+  padding-right    : 6pt;
+  padding-top      : 4pt;
+  padding-bottom   : 4pt;
 }
 
 #toc a:before    { content: target-content(attr(href)) ' ';                        }
@@ -150,10 +150,26 @@ figure figcaption {
 #toc ul ul li    { margin-left: 8pt; font-weight: normal;                       break-inside: avoid;   }
 #toc ul ul ul li { font-size: var(--smaller);                            break-inside: avoid;          }
 #toc > ul > li   { margin-bottom: 4pt; font-size: var(--larger); font-family: var(--font-h2); }
-#toc a:link,
-#toc a:visited,
-#toc a:active,
-#toc a:hover { color: black; }
+#toc a:link,   #toc a:visited,
+#toc a:active, #toc a:hover       { color: black;                          }
+#toc a:link.class-toc.construct   { color: var(--color-class-construct);   }
+#toc a:link.class-toc.divine      { color: var(--color-class-divine);      }
+#toc a:link.class-toc.dynamo      { color: var(--color-class-dynamo);      }
+#toc a:link.class-toc.expatriate  { color: var(--color-class-expatriate);  }
+#toc a:link.class-toc.expert      { color: var(--color-class-expert);      }
+#toc a:link.class-toc.haunt       { color: var(--color-class-haunt);       }
+#toc a:link.class-toc.hellspawn   { color: var(--color-class-hellspawn);   }
+#toc a:link.class-toc.inventor    { color: var(--color-class-inventor);    }
+#toc a:link.class-toc.kid         { color: var(--color-class-kid);         }
+#toc a:link.class-toc.knight      { color: var(--color-class-knight);      }
+#toc a:link.class-toc.mage        { color: var(--color-class-mage);        }
+#toc a:link.class-toc.monarch     { color: var(--color-class-monarch);     }
+#toc a:link.class-toc.monstrosity { color: var(--color-class-monstrosity); }
+#toc a:link.class-toc.paragon     { color: var(--color-class-paragon);     }
+#toc a:link.class-toc.psychic     { color: var(--color-class-psychic);     }
+#toc a:link.class-toc.shaper      { color: var(--color-class-shaper);      }
+#toc a:link.class-toc.twins       { color: var(--color-class-twins);       }
+#toc a:link.class-toc.wheelman    { color: var(--color-class-wheelman);    }
 
 #toc ul { -prince-pdf-tag-type: TOC;  }
 #toc li { -prince-pdf-tag-type: TOCI; }
