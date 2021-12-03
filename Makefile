@@ -13,7 +13,7 @@ PROJ = clu
 #   Edit: probably unnecessary
 IMGDIR    = ./art
 STYLEDIR  = ./style
-OUT       = out
+OUT       = clu-out
 OUTDIR    = ./$(OUT)
 BINDIR    = ./bin
 SRCDIR    = ./src
