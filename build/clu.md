@@ -38,6 +38,8 @@ title: Cosmic Legends of the Universe
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+
 :::::::::::::::::::::::::::: { #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Table of Contents
 
@@ -49,15 +51,15 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-stars-wishes"></a>
 - <a href="#toc-overview"></a>
 - <a href="#toc-issues"></a>
-  - <a href="#toc-struct-issue}
-    - <a href="#toc-struct-issue-0}
-    - <a href="#toc-struct-issue-1}
-    - <a href="#toc-struct-issue-annual}
-  - <a href="#toc-struct-storyline}
-  - <a href="#toc-struct-volume}
-  - <a href="#toc-struct-series}
-  - <a href="#toc-struct-one-shots}
-  - <a href="#toc-struct-crossovers}
+  - <a href="#toc-struct-issue"></a>
+    - <a href="#toc-struct-issue-0"></a>
+    - <a href="#toc-struct-issue-1"></a>
+    - <a href="#toc-struct-issue-annual"></a>
+  - <a href="#toc-struct-storyline"></a>
+  - <a href="#toc-struct-volume"></a>
+  - <a href="#toc-struct-series"></a>
+  - <a href="#toc-struct-one-shots"></a>
+  - <a href="#toc-struct-crossovers"></a>
 - <a href="#toc-dice"></a>
 - <a href="#toc-chargen"></a>
   - <a href="#toc-approaches"></a>
@@ -1377,6 +1379,399 @@ For **Crossover** Abilities, the following rules apply:
   of your class abilities, you can't take a Mage class ability
   that's a Crossover ability itself.
 
+
+::::::::::::::::::: { .classdata } :::::::::::
+### [Generic Hero Abilities]{#toc-generic }
+
+Each Volume, you gain a new ability from your class.
+Instead of taking a Class Ability, you can choose a Generic
+Hero Ability from the following lists.
+
+#### Generic Hero Abilities
+
+These are abilities that can be taken by any Hero of the Ability's
+Volume score or higher, regardless of the Hero's class.
+Each ability can be chosen only once.
+
+##### Volume 1 Generic Hero Abilities {#list-generic-hero-abilities-v1}
+
+At the start of Volume 1, choose two abilities from this list or from
+your Class's Volume 1 Class Ability List.
+
+::::: {.ability-list .v1 } ::::::::::
+
+Arsenal
+:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+
+    At the start of each Storyline, pick a number of Power Words
+    from the Inventor or Knight Personal Power Words Lists
+    equal to the Volume.
+
+    You can use each such Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+    This is an *Arsenal* Ability.
+
+Dependable Allies
+:   You have a network of normal people upon whom you can rely for help. While 
+    they're not quite at the level of a Knight or an Expert, they all have 
+    at least one special talent that assists you in fighting crime, and are
+    sworn to keep your secrets (if you have any).
+
+    Included with this Ability is a reliable and discreet way to contact your
+    allies. As a Move during the Hero Phase of a Crisis, you can spend 1 Might
+    to contact one or all of your Dependable Allies.
+
+    When you first gain this Ability, create a list of allies, with a number of
+    entries on the list equal to the Volume. Add an additional ally before each
+    subsequent Volume.
+
+    Each ally is defined by three qualities: First, their name. Secondly, their
+    favored Approach. And thirdly, a Skill that defines their expertise and/or
+    "day job."
+
+    For example, you could create a photojournalist named James Bartholomew and
+    assign him "Action" as a favored Approach, and Journalist as his skill.
+
+    Any ally you call in has a score of 1 for all Approaches save their favored
+    Approach (which is a 4), a maximum Might score equal to the Volume, and a
+    maximum Health score equal to the Volume.
+
+    Without spending any Might to contact one or more Dependable Allies, you
+    can freely propose a Vignette between your Hero and one of your Allies.
+
+Digital Interface
+:   You can connect to any computerized machine or network. When you gain 
+    this Ability, you may decide if you need to touch the machine or if you
+    can do it with any machine you can see. If you choose the latter, you can
+    also decide whether this Ability applies to wireless or cellular networks.
+
+    Add the word "Interface" as a Core Power Word, and the Hacker skill (if you
+    don't already have it.) Whenever you make a roll for
+    a Power Display, Stunt, or Combo that uses the "Interface" Power Word, add 
+    the current Volume to the roll's Effectiveness. You can also do this whenever
+    you make a Hacking skill roll that uses your Digital Interface.
+
+    If you have to touch a machine to use your Digital Interface, add an 
+    additional success to the roll's Effectiveness. If you are accessing wireless
+    and/or cellular networks, you can make a Hacking roll at the start of each
+    Hero Phase to search for public information -- without using your move for 
+    that Hero Phase to make the roll.
+
+Hero Cave
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    You have a hidden location that is your personal base of operations.
+    Add 2 dice whenever you make a skill roll while in your Hero Cave.
+    Choose two Scene Power Words from the following Hero Cave Power Words
+    List:
+
+    ::: cpw :::::::::::::::::
+    #### Hero Cave Power Words List {#list-hero-cave-power-words}
+
+    - Analysis
+    - Arsenal
+    - Beds
+    - Cell
+    - Communication
+    - Computer
+    - Costume
+    - Crime
+    - Database
+    - Dark
+    - Defenses
+    - Dinosaur
+    - Dock
+    - Entertainment
+    - Exit
+    - Extra
+    - Fountain
+    - Garage
+    - Globe
+    - Hangar
+    - Hidden
+    - Kitchen
+    - Laboratory
+    - Library
+    - Map
+    - Medical
+    - Memorial
+    - Observatory
+    - Passage
+    - Penny
+    - Portal
+    - Repairs
+    - Reinforced
+    - Robot
+    - Secure
+    - Secret
+    - Sensors
+    - Shelter
+    - Shielded
+    - Statue
+    - Storage
+    - Studio
+    - Toys
+    - Trophy
+    - Tunnel
+    - Underground
+    - Wealth
+    - Weapon
+    - Zoo
+    :::::::::::::::::::::::::
+
+    This is a *Hero Cave* Ability.
+
+Break the Fourth Wall
+:   Your hero knows they're in a comic book -- or, if you'd like, in a 
+    tabletop roleplaying game based on a comic book. (Or possibly even in
+    a movie or television show based on a superhero comic book.)
+
+    When you roll to advance the Outwit goal, if you reference this
+    meta-knowledge in a nonsensical way, count all 4s, 5s, or 6s as 
+    successes.
+
+Hero Without Fear
+:   You are completely fearless. If you are exposed to any fear-
+    based effects, spend 1 Might to counter that use for you only.
+    Your lack of fear lets you take risks to save others without
+    concern for your own safety: You can choose to add 2 dice when 
+    you roll to advance the Rescue goal. If you do, lose 1 Health 
+    or 1 Might after resolving the roll.
+
+Local Hero
+:   You and your home town are nearly synonymous. 
+    You know the geography of the city like the back of your hand. 
+    Add the name of your city as a single Core Power Word.
+    Add 2 dice whenever you make a skill roll related to the city. 
+    While you're in your home city, add 2 dice when you roll to advance 
+    the Allay or Rescue goals.
+
+    *Repetition* You can take this Ability more than once. When you do, 
+    choose another city covered by this Ability.
+
+Three-Point Landing
+:   You can pull off the classic "superhero landing" with practiced 
+    ease.
+    Whenever you make a roll at the end of a Crisis Countdown to 
+    create the Teamwork Pool, or a roll for the 
+    [Timely Arrival move](#toc-crisis-timely), any roll of 3 counts
+    as a success as long as you describe a badass three-point 
+    landing as part of your arrival on the scene.
+    
+Well-Connected
+:   *Prerequisite: You can't have the __Local Hero__ Generic Ability.*
+    You've regularly teamed up with a wide variety of super-heroes and are
+    well known in the heroic community. As such, you can usually get in touch
+    with any given hero who has specific talents that might be required for
+    a Crisis.
+
+    Whenever you roll to create the initial Teamwork Pool, add 1 additional
+    success to the Pool for each Hero who is present and who isn't a regular
+    teammate or partner, up to a maximum number of additional successes equaling
+    the Volume.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 2 Generic Hero Abilities {#list-generic-hero-abilities-v2}
+
+At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+
+:::::::: {.ability-list .v2 } :::::::
+
+Chameleon
+:   You can change your physical features to match any person you've
+    ever met, or a combination of such features. This could be a result of
+    shapechanging, image induction technologies, or simply preternatural
+    skill with a disguise kit.
+
+    Add "Disguise" as a Core Power Word.
+
+    When you use "Disguise" in a Power Display, Power Stunt, or
+    Power Combo roll to advance the Outwit goal, add 2 to the 
+    Effectiveness of that roll.
+
+Cover Identity
+:   You have a well-established cover identity that hides your secrets, 
+    whatever those may be. Choose a name for that identity; you have 
+    identification and other documentation for that identity, and you appear 
+    credible in databases and online searches.
+
+    Add "Secret" as a Core Power Word.  When you use "Secret" in a Power 
+    Display, Stunt, or Combo roll to advance the Outwit goal, or when you
+    make a skill roll using the Spy skill, add 2 to the Effectiveness of 
+    that roll. You can only do this as long as you are in your cover identity,
+    and not your true identity.
+
+    *Repetition* You can take this Ability more than once. When you do, 
+    create an additional cover identity.
+
+    *Note* You can combine the *Chameleon* and *Cover Identity* Abilities to
+    add a total of 4 successes to a roll's Effectiveness to outwit someone.
+
+Eidetic Memory
+:   You have what's sometimes called *photographic memory* -- you have perfect
+    recall of anything you see, hear, read, or otherwise experience.
+    Add 3 dice when you make a skill roll related to memory or knowledge.
+
+Fighting Pose
+:   You're a poser.
+
+    You have a trademark "thing" you do during a fight -- with your
+    hair, your jaw, your hands on your hips, or whatever else you
+    decide makes a good aesthetics-only signature pose -- that shows 
+    everyone you really mean business.
+
+    Add the word "Signature" as a Core Power Word. When you use "Signature" as 
+    a Power Word in a Power Display, Stunt, or Combo, add an additional 1 
+    success to the roll's Effectiveness.
+
+    If you're somehow disguised, using this ability breaks your disguise and 
+    reveals your true identity to anyone who would be familiar with your 
+    fighting style. Which could be anyone, if you're famous.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 3 Generic Hero Abilities {#list-generic-hero-abilities-v3}
+
+At the start of Volume 3, choose an ability from this list or any previous list.
+
+:::::::: {.ability-list .v3 } :::::::
+Superhero Soundtrack
+
+:   You have a theme song, or at least, a set of songs that inspire
+    your hero to action. Pick a number of songs equal to the Volume that
+    you feel fit your hero. Add an additional song at the start of each
+    subsequent Volume.
+
+    Once per Crisis you can mark off one of those songs to add 2 dice to any 
+    single roll that is thematically connected with the song you're using
+    or your hero's current situation.
+
+    If your hero has the ability to generate and/or play music -- such as
+    having the Performer skill or speakers in a suit of armor or vehicle -- 
+    then you can choose to have that song of the soundtrack be *diegetic*,
+    meaning it exists within the fiction: your hero and those around them
+    are *literally* hearing that song. If you declare the song to be 
+    diegetic, add 1 success to the Effectiveness of your roll.
+
+    If you have the ability to produce the song at the gaming table, such as
+    on a cell phone or laptop (or you're just a good singer), and the rest of
+    your party consents, you can play (or sing) the song and add 1 success to
+    the Teamwork Pool. You can combine this with declaring the song to
+    be diegetic, for a total of 1 extra success added to the Effectiveness
+    of the roll and 1 success added to the Teamwork Pool.
+
+Weirdness Magnet
+
+:   Strange things happen around you *all the time*. This means you
+    are more likely to be on the scene whenever a Crisis breaks out!
+
+    If your hero isn't present at the start of a Crisis, you can
+    spend 1 Might during the *Teamwork Pool - Assemble!* phase of the
+    *Countdown to Crisis* to say that you've been there the whole time --
+    because you were drawn to the Crisis before other heroes were even
+    aware it's a thing.
+
+    If you use this Ability, add 3 dice when you roll to create the initial 
+    Teamwork Pool.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 4 Generic Hero Abilities {#list-generic-hero-abilities-v4}
+
+At the start of Volume 4, choose an ability from this list or any previous list.
+
+:::::::: {.ability-list .v4 } :::::::
+Arch-Enemy
+
+:   *Prerequisite: If you have the __Rogues' Gallery__ Class Ability, your 
+    Arch-Enemy __cannot__ be part of it.*
+    You have one particular opponent who returns time after time to bedevil you
+    and the innocent people of the world. This villain could be just a dark 
+    copy of yourself, with nearly identical abilities, or their own powers,
+    skills, and abilities could be the complement of yours -- strong where you
+    are weak, weak where you are strongest.
+
+    At the start of a Crisis, you can choose to declare that your arch-enemy is
+    the source of the Crisis. Whenever you do, the Editor describes their role 
+    in that Crisis.
+
+    Because of your familiarity in opposing each other, you add 2 to the 
+    Effectiveness of any roll you make to advance one of the goals opposed by
+    that member of your Rogues' Gallery. You also add 2 to the Effectiveness
+    of any Skill roll that could benefit from your familiarity with this dastardly
+    criminal, 
+    such as gathering clues to their motives or analyzing any equipment you've 
+    confiscated from them.
+    
+    In addition, increase by 2 the cost from the Teamwork Pool to avoid any 
+    Crisis Move that is directed only at you -- they're *prepared* for your 
+    interference, do-gooder!
+
+    Each time that you (personally) advance a goal during that Crisis, you can
+    choose to mark one or two of your unmarked Ideals.
+
+    *Repetition:* You can take this ability more than once. Each time you do,
+    create a new arch-enemy. Only one arch-enemy can show up during any given
+    Crisis.
+
+Rogues' Gallery
+
+:   *Prerequisite: If you have the __Arch Enemy__ Class Ability, your 
+    Arch-Enemy __cannot__ be part of your Rogues' Gallery.*
+    You have a consistent set of foes against whom you regularly strive, and
+    a kind of gruding, love-hate, quasi-professional relationship has arisen 
+    between you and the members of your Rogues' Gallery.
+
+    When you gain this Ability, create a list with a number of supervillain
+    names equal the Volume, who are members of your Rogues' Gallery. You've
+    clashed with them in the past, and will do so again in the future.
+
+    Keep a copy of this list for yourself, then make an extra copy and give 
+    it to the Editor. Add another name to the list before each subsequent 
+    Volume, and inform your Editor so their copy of the list can be kept in
+    sync with yours.
+
+    At the start of a Crisis, you can choose to declare that a member of your 
+    Rogues' Gallery is the source of the Crisis. Whenever you do, the Editor 
+    selects a member from the list and describes their role in that Crisis.
+
+    Because of your familiarity in opposing each other, you add 1 to the 
+    Effectiveness of any roll you make to advance one of the goals opposed by
+    that member of your Rogues' Gallery. You also add 1 to the Effectiveness
+    of any Skill roll that could benefit from your familiarity with this dastardly
+    criminal, 
+    such as gathering clues to their motives or analyzing any equipment you've 
+    confiscated from them.
+    
+    In addition, increase by 1 the cost from the Teamwork Pool to avoid any 
+    Crisis Move that is directed only at you -- they're *prepared* for your 
+    interference, do-gooder!
+
+    Each time that you (personally) advance a goal during that Crisis, you can
+    choose to mark one of your unmarked Ideals.
+
+:::::::::::::::::::::::::::::::::::::
+
+##### Volume 5 Generic Hero Abilities {#list-generic-hero-abilities-v5}
+
+At the start of Volume 5, choose an ability from this list or any previous list.
+
+:::::: {.ability-list .v5 }::::::::::
+TBD
+
+:   To be determined.
+
+TBD
+
+:   To be determined.
+
+:::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Fighting Style {#toc-fighting-style }
 
@@ -3731,226 +4126,6 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::: { .classdata } :::::::::::
-### [Generic Hero Abilities]{#toc-generic .breakbefore .class}
-
-#### Generic Hero Abilities {.class}
-
-Each Volume, you gain a new ability from your class.
-Instead of taking a Class Ability, you can choose a Generic
-Hero Ability from the following lists.
-Each ability can be chosen only once.
-
-##### Volume 1 Generic Hero Abilities {#list-generic-hero-abilities-v1}
-
-At the start of Volume 1, choose two abilities from this list or from
-your Class's Volume 1 Class Ability List.
-
-::::: {.ability-list .v1 } ::::::::::
-
-Arsenal
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
-    At the start of each Storyline, pick a number of Power Words
-    from the Inventor or Knight Personal Power Words Lists
-    equal to the Volume.
-    You can use each such Power Word as a Core Power Word once
-    during the current Storyline without paying any Might.
-    This is an *Arsenal* Ability.
-
-Dependable Allies
-:   to be determined
-
-Digital Interface
-:   to be determined
-
-Hero Cave
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    You have a hidden location that is your personal base of operations.
-    Add 2 dice whenever you make a skill roll while in your Hero Cave.
-    Choose two Scene Power Words from the following Hero Cave Power Words
-    List:
-
-    ::: cpw :::::::::::::::::
-    #### Hero Cave Power Words List {#list-hero-cave-power-words}
-
-    - Analysis
-    - Arsenal
-    - Beds
-    - Cell
-    - Communication
-    - Computer
-    - Costume
-    - Crime
-    - Database
-    - Dark
-    - Defenses
-    - Dinosaur
-    - Dock
-    - Entertainment
-    - Exit
-    - Extra
-    - Fountain
-    - Garage
-    - Globe
-    - Hangar
-    - Hidden
-    - Kitchen
-    - Laboratory
-    - Library
-    - Map
-    - Medical
-    - Memorial
-    - Observatory
-    - Passage
-    - Penny
-    - Portal
-    - Repairs
-    - Reinforced
-    - Robot
-    - Secure
-    - Secret
-    - Sensors
-    - Shelter
-    - Shielded
-    - Statue
-    - Storage
-    - Studio
-    - Toys
-    - Trophy
-    - Tunnel
-    - Underground
-    - Wealth
-    - Weapon
-    - Zoo
-    :::::::::::::::::::::::::
-
-    This is a *Hero Cave* Ability.
-
-Break the Fourth Wall
-:   Your hero knows they're in a comic book -- or, at least, in a 
-    tabletop roleplaying game.
-    When you roll to advance the Outwit goal, if you reference this
-    knowledge in a nonsensical way, count all 4s, 5s, or 6s as 
-    successes.
-
-Hero Without Fear
-:   You are completely fearless. If you are exposed to any fear-
-    based effects, spend 1 Might to counter that use for you only.
-    Your lack of fear lets you take risks to save others without
-    concern for your own safety: You can choose to add 2 dice when 
-    you roll to advance the Rescue goal. If you do, lose 1 Health 
-    or 1 Might after resolving the roll.
-
-Local Hero
-:   You and your home town are nearly synonymous. 
-    You know the geography of the city like the back of your hand. 
-    Add the name of your city as a single Core Power Word.
-    Add 2 dice whenever you make a skill roll related to the city. 
-    While you're in your home city, add 2 dice when you roll to advance 
-    the Allay or Rescue goals.
-
-    *Repetition* You can take this Ability more than once. When you do, 
-    choose another city covered by this Ability.
-
-Well-Connected
-:   To be determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 2 Generic Hero Abilities {#list-generic-hero-abilities-v2}
-
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
-
-:::::::: {.ability-list .v2 } :::::::
-
-Chameleon
-:   You can change your physical features to match any person you've
-    ever met, or a combination of such features.
-    Add "Disguise" as a Core Power Word.
-    When you use "Disguise" in a Power Display, Power Stunt, or
-    Power Combo roll to advance the Outwit goal, add 2 to the 
-    Effectiveness of that roll.
-
-Cover Identity
-:   You have a well-established cover identity that hides
-    your secrets, whatever those may be. Choose a name for
-    that identity; you have identification and other
-    documentation for that identity, and you appear credible
-    in databases and online searches.
-
-    Add "Secret" as a Core Power Word.
-    When you use "Secret" in a Power Display, Stunt, or
-    Combo roll to advance the Outwit goal, or when you
-    make a skill roll using the Spy skill, add 2 to the
-    Effectiveness of that roll.
-
-Eidetic Memory
-:   You have what's sometimes called *photographic memory* -- you have perfect
-    recall of anything you see, hear, read, or otherwise experience.
-    Add 3 dice when you make a skill roll related to memory or knowledge.
-
-TBD
-:   To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 3 Generic Hero Abilities {#list-generic-hero-abilities-v3}
-
-At the start of Volume 3, choose an ability from this list or any previous list.
-
-:::::::: {.ability-list .v3 } :::::::
-Weirdness Magnet
-
-:   Strange things happen around you *all the time*. This means you
-    are more likely to be on the scene whenever a Crisis breaks out!
-    If your hero isn't present at the start of a Crisis, you can
-    spend 1 Might during the *Teamwork Pool - Assemble!* phase of the
-    *Countdown to Crisis* to say that you've been there the whole time.
-    If you do, add 3 dice when you roll to create the initial Teamwork 
-    Pool.
-
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 4 Generic Hero Abilities {#list-generic-hero-abilities-v4}
-
-At the start of Volume 4, choose an ability from this list or any previous list.
-
-:::::::: {.ability-list .v4 } :::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::::
-
-##### Volume 5 Generic Hero Abilities {#list-generic-hero-abilities-v5}
-
-At the start of Volume 5, choose an ability from this list or any previous list.
-
-:::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
-:::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
 ### The Haunt {#toc-haunt .breakbefore .class}
 
@@ -4556,6 +4731,8 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 ::::::::::::::::::::: { .classdata #class-inventor } :::::::::::::::
 ### The Inventor {#toc-inventor .breakbefore .class}
@@ -6249,9 +6426,15 @@ Healing Mantra
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
+Invisibility
 
-:   To be determined.
+:   You can make yourself imperceptible by normal senses.
+
+    Add "Invisibility" as a Core Power Word.
+
+    Whenever you are the only target of a Crisis Move, you can spend 1
+    Might to become invisible and automatically counter that Crisis
+    Move.
 
 TBD
 
@@ -6264,9 +6447,14 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
+Mass Invisibility
 
-:   To be determined.
+:   *Prerequisite: You must have "Invisibility" as a Power Word.*
+
+    Whenever a Crisis Move affects your entire Team, you can spend Might
+    equal to its Counter Cost instead of successes from the Teamwork Pool
+    to make your team invisible and automatically counter that Crisis
+    Move.
 
 TBD
 
@@ -6501,6 +6689,11 @@ Monarch's Benevolence
     If the source of the Crisis is one of your subjects, 
     also add the Volume to the dice pool.
 
+Palace of the Privileged
+
+:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+    This is a *Hero Cave* Ability.
+
 Unfamiliar Fighting Techniques
 
 :   You have trained in a number of fighting techniques
@@ -6508,11 +6701,6 @@ Unfamiliar Fighting Techniques
 
     Gain a number of fighting styles equal to the Volume.
     Add an additional fighting style at the start of each later Volume.
-
-Palace of the Privileged
-
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    This is a *Hero Cave* Ability.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -11459,28 +11647,39 @@ been Volcano City.
 
 []{.lorem}
 
+#### Selecting the Team Leader
+
+[]{.lorem}
+
+#### Team Leader Moves
+
+[]{.lorem}
+
 ### Team Charter
 
 []{.lorem}
 
-#### Sponsor
+#### Team Sponsor
 
 []{.lorem}
 
-#### Scope
+#### Team Scope
 
 []{.lorem}
 
-| Scope        | Modifier    | Example             | Example(s)                  |
-| +---------   | +---------+ | +----------------   | +-----------------------    |
-| Local        | -2          | Los Angeles, CA     | Champions of L.A.           |
-| Regional     | -1          | West Coast, USA     | Avengers West Coast         |
-| National     | +0          | United States       | X-Men (Krakoan)             |
-| Global       | +1          | International       | Avengers                    |
-| Interstellar | +2          | Interstellar        | Imperial Guard              |
-| Galactic     | +3          | Milky Way Galaxy    | Guardians of the Galaxy     |
-| Cosmic       | +4          | This world/timeline | Legion of Super-Heroes      |
-| Multiversal  | +5          | All of reality      | Guardians of the Multiverse |
+:::::::::::::: { .hide-column .column-4 } ::::::::::::::::::::::::::::::::::::::
+| Scope        | Modifier  | Example             | Example(s)                  |
+| +----------- | +-------+ | +------------------ | +-------------------------- |
+| Personal     | -3        | --                  | New Mutants                 |
+| Local        | -2        | Los Angeles, CA     | Champions of L.A.           |
+| Regional     | -1        | West Coast, USA     | Avengers West Coast         |
+| National     | +0        | United States       | X-Men (Krakoan)             |
+| Global       | +1        | International       | Avengers                    |
+| Interstellar | +2        | Interstellar        | Imperial Guard              |
+| Galactic     | +3        | Milky Way Galaxy    | Guardians of the Galaxy     |
+| Cosmic       | +4        | This world/timeline | Legion of Super-Heroes      |
+| Multiversal  | +5        | All of reality      | Guardians of the Multiverse, Justice League Incarnate |
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Funding
 
@@ -11488,19 +11687,47 @@ been Volcano City.
 
 ### Team Attributes
 
+[]{.lorem}
+
 #### Reputation
+
+[]{.lorem}
 
 ##### Influence
 
+[]{.lorem}
 
 ##### Authority
 
+[]{.lorem}
 
 ##### Approaches
 
+[]{.lorem}
+
+##### Action
+
+[]{.lorem}
+
+##### Adventure
+
+[]{.lorem}
+
+##### Detective
+
+[]{.lorem}
+
+##### Mystery
+
+[]{.lorem}
+
+##### Suspense
+
+[]{.lorem}
 
 ##### Using Team Approaches
 
+[]{.lorem}
 
 ### Team Abilities
 
@@ -11510,9 +11737,19 @@ been Volcano City.
 
 []{.lorem}
 
+#### Team Moves
+
+[]{.lorem}
+
 ### Team Membership
 
 []{.lorem}
+
+
+### Team Abilities
+
+[]{.lorem}
+
 
 
 ### Team Classes
@@ -12194,6 +12431,22 @@ can't choose the Group Ability twice in a row.
      To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
+
+
+### Team Leaders
+
+[]{.lorem}
+
+#### Leader Moves
+
+[]{.lorem}
+
+
+### Team Moves
+
+These are moves that can be made by the members of a Team
+at the start of the Hero Phase. Unless otherwise noted, the 
+members of that Team can't make their own moves that Hero Phase.
 
 
 
@@ -16401,22 +16654,22 @@ personal, scene, or other power words.
 
 ::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
 Ability
-:   Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
+:   Something granted by a Hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 
 Action
-:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
+:   An Approach of a Hero. Describes how much the Hero likes to solve problems with direct action. (*Daring* in Harmony Drive.)
 
 Add to the Teamwork Pool
-:   A move taken by a hero designed to give the team an upcoming advantage against a Crisis.
+:   A move taken by a Hero designed to give the team an upcoming advantage against a Crisis.
 
 Advance a Goal
-:   A move taken by a hero designed to move a Crisis closer to resolution.
+:   A move taken by a Hero designed to move a Crisis closer to resolution.
 
 Advancement
-:   The choice made by a player at the end of a Storyline that reflects the hero's growth.
+:   The choice made by a player at the end of a Storyline that reflects the Hero's growth.
 
 Adventure
-:   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
+:   An Approach of a Hero. Describes how much the Hero likes to solve problems by coming up with a new approach to fit the situation. (*Adaptability* in Harmony Drive.)
 
 Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
@@ -16425,7 +16678,10 @@ Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
 
 Approach
-:   A hero's "stats". Approaches describe a hero's preferred ways of solving problems.
+:   A Hero's "stats". Approaches describe a Hero's preferred ways of solving problems.
+
+Class Ability
+:   An Ability possessed by a Hero, chosen from their Hero Class's list of Class Abilities.
 
 Cooldown
 :   A state after using a Power Word that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
@@ -16433,31 +16689,46 @@ Cooldown
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
 
+Construct
+:   A Hero Class where the Hero is a constructed or artificial life form, such as an android, robot, or golem.
+
 Contined Next Page
 :   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
 
 Counter
-:   Avoiding the consequences of a Crisis Move, by spending from the Teamwork Pool.
+:   Avoiding the consequences of a Crisis Move, by spending from the Teamwork Pool a number of successes equal to the Move's Counter Cost.
+
+Counter Cost
+:   The number of successes that a Team must pay from the Teamwork Pool to counter any given Crisis Move. 
 
 Crisis
-:   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. 
+:   A challenge the Heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. 
     (*Encounter* in Harmony Drive.)
+
+Crisis Move
+:   An action taken by the Editor during the Crisis Phases of a Crisis. Each Crisis Move is defined by five things: the name of the move; a description of fictional effects; the Counter Cost that can be paid from the Teamwork Pool to counter that move; the consequences to one or more Heroes if the move isn't countered; and which Heroes are affected by the move.
 
 Crisis Phase
 :   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase. (*GM Turn* in Harmony Drive.)
 
 Crisis-Team
-:   A team of superheroes or supervillains who oppose the heroes in a Crisis; 
-    they can be rival good guys or outright baddies, and are built by the Editor in the same way heroes are built.
+:   A team of superheroes or supervillains who oppose the Heroes in a Crisis; 
+    they can be rival good guys or outright baddies, and are built by the Editor in the same way Heroes are built.
 
 Crossover
-:   A game session with heroes from two or more different campaigns working together, usually on a battleworld.
+:   A game session with Heroes from two or more different campaigns working together, usually on a battleworld.
 
 Detective
-:   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
+:   An Approach of a Hero. Describes how much the Hero likes to solve problems by connecting information. (*Understanding* in Harmony Drive.)
+
+Divine
+:   A Hero Class where the Hero is either a god themselves, or is empowered by one or more deities with holy powers.
 
 Dual-Class
-:   A hero who is a member of two classes and switches between two forms; each form having a different appearance, class, abilities, and powers. See also *Multi-Class*.
+:   A Hero who is a member of two classes and switches between two forms; each form having a different appearance, class, abilities, and powers. See also *Multi-Class*.
+
+Dynamo
+:   A Hero Class where the Hero is a living generator of super-energy of a specific type, and is usually able to release that energy in destructive blasts.
 
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
@@ -16468,32 +16739,50 @@ Editor
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
 
+Expatriate
+:   A Hero Class where the Hero is a "normal person", usually from contemporary Earth, who finds themselves in an alien environment where their human ingenuity makes them a champion of their new home.
+
+Expert
+:   A Hero Class where the Hero is a "normal person" whose prowess with one specific skill makes them one of the foremost practitioners of that talent or profession in the world. For example, the world's greatest surgeon could be an Expert.
+
 Fighting Style
-:   An ability that changes the way a hero interacts with Crises. (*Specialty* in Harmony Drive.)
+:   An ability that changes the way a Hero interacts with Crises. (*Specialty* in Harmony Drive.)
 
 First Issue
 :   The first session of an ongoing Series; usually consisting of character introductions.
 
 General Alert
-:   A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
+:   A move taken by a Hero to call for any Heroes not present at the scene; they arrive at the start of the next Hero Phase.
+
+Generic Ability
+:   An Ability possessed by a Hero chosen from the lists of Generic Abilities that aren't tied to specific Hero Classes.
 
 Goal
-:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
+:   One of four ways in which a Crisis could be resolved by the Heroes: Smash, Outwit, Allay, or Rescue.
 
 Guest Star
-:   A hero played by someone who isn't a regular player in the group.
+:   A Hero played by someone who isn't a regular player in the group.
+
+Haunt
+:   A Hero Class where the Hero is an incorporeal ghost whose spirit has yet to move on to the afterlife.
 
 Health
-:   A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
+:   A measure of how much harm a Hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. (*HP* in Harmony Drive.)
+
+Hellspawn
+:   A Hero Class where the Hero is either a demon themself, or is empowered by fiendish ancestry or gifts. Many Hellspawn are darker anti-heroes.
 
 Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
 
 Hero Phase
-:   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
+:   The part of a Crisis when the players choose the moves taken by their Heroes; alternates with Crisis Phase. (*Player Turn* in Harmony Drive.)
 
 Ideals
-:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll. (*Key* in Harmony Drive.)
+:   A list of a Hero's unique motivations and values. When a Hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll. (*Key* in Harmony Drive.)
+
+Inventor
+:   A Hero Class where the Hero is a creator of super-scientific gadgets, weapons, or armor that allow them to compete with super-powered beings despite being a "normal person".
 
 Issue
 :   A game session, usually 2 to 4 hours.
@@ -16501,33 +16790,48 @@ Issue
 Issue 0
 :   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game. (*Session 0* in other roleplaying games.)
 
+Kid
+:   A Hero Class who is a "normal person" who isn't quite an adult yet, and whose youthful perspectives and attitudes can provide a refreshing contrast to more jaded, veteran heroes.
+
+Knight
+:   A Hero Class who is a "normal person" with extensive training and skills, often using unique and/or specialized weaponry to fight a war against crime.
+
 Later That Day, ...
 :   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
 
 Lines and Veils
 :   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
 
+Mage
+:   A Hero Class where the Hero wields powerful magical spells and artifacts, able to draw upon the very mystic forces of the universe if they're willing to pay the costs of magic ...
+
 Meanwhile, ...
 :   A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
 
 Meta-Crisis
 :   A *crisis* that affects the nature of reality, such as rewriting the
-    multiverse or changing a hero's past or future.
+    multiverse or changing a Hero's past or future.
 
 Might
-:   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
+:   A measure of a Hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. (*Scatter* in Harmony Drive.)
+
+Monarch
+:   A Hero Class where the Hero is the ruler of a remote country or metaphysical "kingdom," who carries the burden of responsibility even if they never asked for it themselves.
+
+Monstrosity
+:   A Hero Class where the Hero is seen by others as a savage monster, usually due to their physical appearance and/or actions, but whose heroic heart beats below the surface of their terrifying visage.
 
 Move
-:   A fictional action taken by the hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
+:   A fictional action taken by the Hero that usually includes a roll of the dice to resolve. (*Action* in Harmony Drive.)
 
 Multi-Class
-:   A hero who is a member of two classes and combines their Class Abilities together.
+:   A Hero who is a member of two classes and combines their Class Abilities together.
 
 Mystery
-:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
+:   An Approach of a Hero. Describes how much the Hero likes to solve problems by hiding their motives or actions from others. (*Subtlety* in Harmony Drive.)
 
 Nova Power Words
-:   Two to Four Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
+:   Two to Four Power Words that are available to the Hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. (*Signature Spell Pieces* in Harmony Drive.)
 
 One-Shot
 :   A game session that isn't part of an ongoing story.
@@ -16536,28 +16840,34 @@ Open Door
 :   A safety tool that promises any player can step away from the game table if they need to.
 
 Opportunity
-:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player. (*Lesson* in Harmony Drive.)
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight Hero's player. (*Lesson* in Harmony Drive.)
 
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. (*Redirect* in Harmony Drive.)
 
+Paragon
+:   A Hero Class where the Hero is the embodiment of everything that a superhero can and should be -- powerful, fearless, self-sacrificing, and often with a fluttering cape.
+
 Personal Power Words
-:   Six or more Power Words that define a hero's Powers. (*Personal Spell Pieces* in Harmony Drive.)
-
-Power Combo
-:   A move using the Power Words of two or more heroes. (*Chord* in Harmony Drive.)
-
-Power Display
-:   A move by a hero that uses one of their Power Words in the description but gives no additional game benefits.
-
-Power Stunt
-:   A move by a hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
-
-Power Words
-:   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo. (*Spell Pieces* in Harmony Drive.)
+:   Six or more Power Words that define a Hero's Powers. (*Personal Spell Pieces* in Harmony Drive.)
 
 Power
 :   The capacity for actions beyond those of normal humans; it could represent a literal super-power, an advanced piece of technology, or extensive training.
+
+Power Combo
+:   A move using the Power Words of two or more Heroes. (*Chord* in Harmony Drive.)
+
+Power Display
+:   A move by a Hero that uses one of their Power Words in the description but gives no additional game benefits.
+
+Power Stunt
+:   A move by a Hero using two or more of their Power Words. (*Spell* in Harmony Drive.)
+
+Power Words
+:   The words a player puts together to define their Hero's use of a Power Display, Power Stunt, or Power Combo. (*Spell Pieces* in Harmony Drive.)
+
+Psychic
+:   A Hero Class where the Hero uses the psionic powers of their minds to overcome Crises, including powers such as telepathy and telekinesis.
 
 Rescue
 :   A Goal that could resolve a Crisis by removing people or property from harm.
@@ -16566,43 +16876,61 @@ Retcon
 :   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
 
 Scene Power Words
-:   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
+:   Power Words defined by the Editor at the start of a Crisis which can be used by Heroes in Power Stunts. (*Terrain Spell Pieces* in Harmony Drive.)
 
 Series
-:   A group of Storylines following the same group of heroes; a campaign.
+:   A group of Storylines following the same group of Heroes; a campaign.
+
+Shaper
+:   A Hero Class where the Hero can manipulate a type of matter known as an "Element", such as controlling the weather, water, or magnetic metals. Shapers are able to change the Scene Power Words in a Crisis.
 
 Skill
-:   A group of professional talents, contacts, and experience possessed by a hero; if your Skill is pertinent to any roll, add 2 dice.
+:   A group of professional talents, contacts, and experience possessed by a Hero; if your Skill is pertinent to any roll, add 1 die to the roll.
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage. (*Destroy* in Harmony Drive.)
 
+Speedster
+:   A Hero Class where the Hero can move at extremely high speed, usually with reflexes to match their running (or flying) speeds.
+
 Spotlight 
-:   A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
+:   A Storyline revolving around a Hero's Opportunity, usually only a couple sessions long, after which the Hero learns and grows.
 
 Stars and Wishes
 :   A safety tool you can use after an Issue to talk about what you liked and what you hope for future Issues.
 
 Storyline
-:   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
+:   One or more Stories in which one Hero receives the Spotlight and their Opportunity is addressed.
 
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
 
 Success
-:   A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
+:   A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a Hero typically needs 1 to 3 to succeed at an uncertain action.
 
 Suspense
-:   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
+:   An Approach of a Hero. Describes how much the Hero likes to solve problems by taking in information from the surroundings. (*Sensitivity* in Harmony Drive.)
 
 Take the Hit
-:   When one hero takes the entire effect of a Crisis move instead of another hero.
+:   When one Hero takes the entire effect of a Crisis move instead of another Hero.
+
+Team
+:   A group of Heroes working together, either in a One-Shot or as part of an ongoing Series. Teams are defined by Classes, Abilities, and Volumes, just as Heroes are.
 
 Timely Arrival
-:   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
+:   A move taken by a Hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
+
+Totem
+:   A Hero Class where the Hero embodies certain aspects of a specific animal, and may be able to communicate with or control those creatures.
+
+Twins
+:   A Hero Class where the player controls two Heroes with distinct sets of Power Words, each one emulating another Hero Class.
 
 Volume
-:   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual. (*Season* in Harmony Drive.)
+:   A set of Storylines in which each Hero has had a Spotlight, which concludes with an Annual. (*Season* in Harmony Drive.)
+
+Wheelman
+:   A Hero Class that specializes in piloting and mastering exotic vehicles.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
