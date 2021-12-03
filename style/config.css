@@ -1,0 +1,144 @@
+:root {
+
+  /* START of config variables ========================================= */
+
+  /* Page Dimensions =================================================== */
+  --page-width          : 6.625in;            /* 477pt;       */
+  --page-height         : 10.18in;            /* 733pt;       */
+  --page-size           : 6.625in 10.18056in; /* 477pt 733pt; */
+  --page-margin         : 0.5in;              /* 36pt;        */
+  --page-margin-bottom  : 0.75in;             /* 54pt;        */
+
+  /* Fonts ============================================================= */
+  --font                : "Comic Neue"                  ;
+  --font-bubble         : "Rodau Buttons"               ;
+  --font-caption        : "Legio Sabina Condensed"      ;
+  --font-coverbox       : "Bebas Neue"                  ;
+  --font-coverbox-qm    : "HackeIt Bold"                ;
+  --font-digit          : "Legio Sabina Punch"          ;
+  --font-display        : 'Legio Sabina Title'          ;
+  --font-gamename       : 'Legio Sabina Condensed'      ;
+  --font-h1             : 'Legio Sabina Semi-Italic'    ;
+  --font-h2             : 'Legio Sabina Bevel'          ;
+  --font-h3             : 'Legio Sabina Halftone'       ;
+  --font-h4             : 'Legio Sabina Gradient'       ;
+  --font-h5             : 'Fawn Script'                 ;
+  --font-h6             : 'Fawn Script'                 ;
+  --font-header         : "Legio Sabina Semi-Italic"    ;
+  --font-hype           : "Fawn Script"                 ;
+  --font-icon-game      : 'game-icons'                  ;
+  --font-icon-solid     : 'Font Awesome 5 Free Solid'   ;
+  --font-icon-thin      : 'Font Awesome 5 Free Regular' ;
+  --font-icons          : 'game-icons'                  ;
+  --font-icons-noto     : 'Noto Color Emoji'            ;
+  --font-icons-media    : 'fontcustom'                  ;
+  --font-pagenum        : "Legio Sabina"                ;
+  --font-pregens        : "Ad Astra"                    ;
+  --font-profile        : 'Profile'                     ;
+  --font-quote          : "Fawn Script"                 ;
+  --font-sheet-1        : "Legio Sabina"                ;
+  --font-sheet-2        : "Legio Sabina Condensed"      ;
+  --font-sheet-4        : "Fawn Script"                 ;
+  --font-subtitle       : "Fawn Script"                 ;
+  --font-what           : "Bebas Neue"                  ;
+
+  /* Colors ============================================================ */
+  --color-sidebar           : #E0F0F0                   ;
+  --color-almost-white      : #F0F0F0                   ;
+  --color-combo             : purple                    ;
+  --color-display           : teal                      ;
+  --color-gray              : #808080                   ;
+  --color-light             : silver                    ;
+  --color-line              : gray                      ;
+  --color-lock              : goldenrod                 ;
+  --color-no                : red                       ;
+  --color-sheet-dark        : #555555                   ;
+  --color-sheet-light       : #AAAAAA                   ;
+  --color-sheet-lighter     : rgba(128, 128, 128, 0.25) ;
+  --color-roster            : #F0E0F0                   ;
+
+  --color-shadow            : rgba(  0,   0,   0, 0.50) ;
+
+  --color-rainbow-1         : #FFF0F0                   ; /* red          */
+  --color-rainbow-2         : #FFFFF0                   ; /* yellow       */
+  --color-rainbow-3         : #F0FFF0                   ; /* green        */
+  --color-rainbow-4         : #F0FFFF                   ; /* cyan         */
+  --color-rainbow-5         : #F0F0FF                   ; /* blue         */
+  --color-rainbow-6         : #FFF0FF                   ; /* magenta      */
+  --color-rainbow-1d        : #800000                   ; /* red          */
+  --color-rainbow-2d        : #808000                   ; /* yellow       */
+  --color-rainbow-3d        : #008000                   ; /* green        */
+  --color-rainbow-4d        : #008080                   ; /* cyan         */
+  --color-rainbow-5d        : #000080                   ; /* blue         */
+  --color-rainbow-6d        : #800080                   ; /* magenta      */
+  
+  --color-class-divine      : rgb( 128 , 69  , 0   )    ; /* orangey      */
+  --color-class-dynamo      : rgb( 75  , 0   , 130 )    ; /* indigo       */
+  --color-class-expatriate  : rgb( 92  , 130 , 0   )    ; /* golden       */
+  --color-class-expert      : rgb( 130 , 130 , 0   )    ; /* yellow       */
+  --color-class-haunt       : rgb( 128 , 128 , 128 )    ; /* silver       */
+  --color-class-hellspawn   : rgb( 130 , 75  , 0   )    ; /* orange       */
+  --color-class-inventor    : rgb( 92  , 67  , 6   )    ; /* brown(?)     */
+  --color-class-kid         : rgb( 0   , 128 , 0   )    ; /* green        */
+  --color-class-knight      : rgb( 0   , 100 , 0   )    ; /* dark green   */
+  --color-class-mage        : rgb( 128 , 0   , 32  )    ; /* violet-red   */
+  --color-class-monarch     : rgb( 16  , 16  , 16  )    ; /* dark gray    */
+  --color-class-monstrosity : rgb( 0   , 128 , 128 )    ; /* teal         */
+  --color-class-paragon     : rgb( 53  , 94  , 59  )    ; /* pale green   */
+  --color-class-psychic     : rgb( 159 , 29  , 53  )    ; /* violetish    */
+  --color-class-shaper      : rgb( 139 , 0   , 139 )    ; /* purple       */
+  --color-class-speedster   : rgb( 159 , 29  , 29  )    ; /* dark scarlet */
+  --color-class-totem       : rgb( 159 , 94  , 94  )    ; /* pale scarlet */
+  --color-class-twins       : rgb( 139 , 0   , 139 )    ; /* purple       */
+  --color-class-wheelman    : rgb( 75  , 75  , 75  )    ; /* gray         */
+
+  --color-stunt             : blue                      ;
+  --color-toc-white         : #F0F0F0                   ;
+  --color-yes               : green                     ;
+  --color-goal-smash        : #000080; --color-goal-outwit : #808000;
+  --color-goal-allay        : #008000; --color-goal-rescue : #800000;
+
+  /* Default Box Styles ================================================ */
+  --border-radius       : 6pt 0;
+  --border-radius-dice  : 2pt;
+  --box-shadow          : 1.5pt 1.5pt;
+
+  /* Generated Content ================================================= */
+  --lock-gray           : '\00EC83'; --lock-yellow         : '\00EC83';
+  --no                  : '\00E06D';
+  --yes-gray            : '\00E093'; --yes-green           : '\00E093';
+  --iant                : '\00fe0f'; /* for "variants" */
+  --icon-female         : '\002640' var(--iant);
+  --icon-male           : '\002642' var(--iant);
+  --icon-trans          : '\0026a7' var(--iant);
+
+  /* Font Sizes ======================================================== */
+  --wide-one            : calc(100% - 2 * 2pt / 1 ); 
+  --pagenum             : 20pt;
+  --body                : 9pt;
+  --large               : 11pt;  --larger              : 10pt;
+  --small               : 7pt;   --smaller             : 8pt;
+  --tiny                : 5.5pt; --caption             : 10pt;
+  --title               : 54pt;  --largetitle          : 44pt;
+  --subtitle            : 26pt;  --subsubtitle         : 28pt;
+  --h1                  : 24pt;  --h2                  : 22pt;
+  --h3                  : 16pt;  --h4                  : 14pt;
+  --h5                  : 13pt;  --h6                  : 11pt;
+  --hype                : 28pt;
+  --pregen              : 12pt;  --pregen-small        : 10pt;
+  --pregen-class        : 20pt;  --pregen-class-shrink : 18pt;
+  --pregen-facet        : 50pt;
+  --pregen-name         : 30pt;  --pregen-name-shrink  : 25pt;
+                                 --pregen-name-shrink2 : 20pt;
+  --quote               : 24pt;  --quote-class         : 16pt;
+  --sheet               : 11pt;
+  --sheet-box           : 14pt;  --sheet-huge          : 32pt;
+  --sheet-large         : 16pt;  --sheet-larger        : 13pt;
+  --sheet-small         : 9pt;   --sheet-tiny          : 7pt;
+  --td                  : 9pt;   --th                  : 9pt;
+  --table-cost-size     : 7pt;   --table-icon-size     : 14pt;
+  --what-size           : 10pt;
+
+  /* END of variables ================================================== */
+}
+

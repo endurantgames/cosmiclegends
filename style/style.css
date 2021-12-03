@@ -2,6 +2,7 @@
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
   /* Imported files (sheets mostly) ====----============================ */
+@import url(      "config.css");
 @import url(  "team-sheet.css");
 @import url("series-sheet.css");
 
@@ -18,171 +19,6 @@ header h1     { string-set: gamename content()       }
 
   -prince-pdf-profile:     "PDF/A-3a+PDF/UA-1";
   -prince-pdf-page-layout: two-column-right;
-}
-
-:root {
-
-  /* START of variables ================================================ */
-
-  /* Page Dimensions =================================================== */
-  --page-width          : 6.625in;            /* 477pt;       */
-  --page-height         : 10.18in;            /* 733pt;       */
-  --page-size           : 6.625in 10.18056in; /* 477pt 733pt; */
-  --page-margin         : 0.5in;              /* 36pt;        */
-  --page-margin-bottom  : 0.75in;             /* 54pt;        */
-
-  /* Fonts ============================================================= */
-  --font                : "Comic Neue";
-  --font-bubble         : "Rodau Buttons";
-  --font-caption        : "Legio Sabina Condensed";
-  --font-coverbox       : "Bebas Neue";
-  --font-coverbox-qm    : "HackeIt Bold";
-  --font-digit          : "Legio Sabina Punch";
-  --font-display        : 'Legio Sabina Title';
-  --font-gamename       : 'Legio Sabina Condensed';
-  --font-h1             : 'Legio Sabina Semi-Italic';
-  --font-h2             : 'Legio Sabina Bevel';
-  --font-h3             : 'Legio Sabina Halftone';
-  --font-h4             : 'Legio Sabina Gradient';
-  --font-h5             : 'Fawn Script';
-  --font-h6             : 'Fawn Script';
-  --font-header         : "Legio Sabina Semi-Italic";
-  --font-hype           : "Fawn Script";
-  --font-icon-game      : 'game-icons';
-  --font-icon-solid     : 'Font Awesome 5 Free Solid';
-  --font-icon-thin      : 'Font Awesome 5 Free Regular';
-  --font-icons          : 'game-icons';
-  --font-icons-noto     : 'Noto Color Emoji';
-  --font-icons-media    : 'fontcustom';
-  --font-pagenum        : "Legio Sabina";
-  --font-pregens        : "Ad Astra";
-  --font-profile        : 'Profile';
-  --font-quote          : "Fawn Script";
-  --font-sheet-1        : "Legio Sabina";
-  --font-sheet-2        : "Legio Sabina Condensed";
-  --font-sheet-4        : "Fawn Script";
-  --font-subtitle       : "Fawn Script";
-  --font-what           : "Bebas Neue";
-
-  /* Colors ============================================================ */
-  --color-sidebar       : #E0F0F0;
-  --color-almost-white  : #F0F0F0;
-  --color-combo         : purple;
-  --color-display       : teal;
-  --color-gray          : #808080;
-  --color-light         : silver;
-  --color-line          : gray;
-  --color-lock          : goldenrod;
-  --color-no            : red;
-  --color-sheet-dark    : #555555;
-  --color-sheet-light   : #AAAAAA;
-  --color-sheet-lighter : rgba(128, 128, 128, 0.25);
-  --color-roster        : #F0E0F0;
-  --color-shadow        : rgba(  0,   0,   0, 0.50);
-
-  --color-rainbow-1     : #FFF0F0; /* red     */
-  --color-rainbow-2     : #FFFFF0; /* yellow  */
-  --color-rainbow-3     : #F0FFF0; /* green   */
-  --color-rainbow-4     : #F0FFFF; /* cyan    */
-  --color-rainbow-5     : #F0F0FF; /* blue    */
-  --color-rainbow-6     : #FFF0FF; /* magenta */
-
-  --color-rainbow-1d    : #800000; /* red     */
-  --color-rainbow-2d    : #808000; /* yellow  */
-  --color-rainbow-3d    : #008000; /* green   */
-  --color-rainbow-4d    : #008080; /* cyan    */
-  --color-rainbow-5d    : #000080; /* blue    */
-  --color-rainbow-6d    : #800080; /* magenta */
-
-  --color-class-divine:      rgb( 128 , 69  , 0   );
-  --color-class-dynamo:      rgb( 75  , 0   , 130 );
-  --color-class-expatriate:  rgb( 75  , 0   , 130 );
-  --color-class-expert:      rgb( 75  , 0   , 130 );
-  --color-class-haunt:       rgb( 75  , 0   , 130 );
-  --color-class-hellspawn:   rgb( 75  , 0   , 130 );
-  --color-class-inventor:    rgb( 92  , 67  , 6   );
-  --color-class-kid:         rgb( 0   , 100 , 0   );
-  --color-class-knight:      rgb( 0   , 100 , 0   );
-  --color-class-mage:        rgb( 128 , 0   , 32  );
-  --color-class-monarch:     rgb( 16  , 16  , 16  );
-  --color-class-monstrosity: rgb( 0   , 128 , 128 );
-  --color-class-paragon:     rgb( 53  , 94  , 59  );
-  --color-class-psychic:     rgb( 159 , 29  , 53  );
-  --color-class-shaper:      rgb( 139 , 0   , 139 );
-  --color-class-speedster:   rgb( 139 , 0   , 139 );
-  --color-class-totem:       rgb( 139 , 0   , 139 );
-  --color-class-twins:       rgb( 139 , 0   , 139 );
-  --color-class-wheelman:    rgb( 139 , 0   , 139 );
-
-  --color-stunt         : blue;
-  --color-toc-white     : #F0F0F0;
-  --color-yes           : green;
-
-  --color-smash         : #000080;
-  --color-outwit        : #808000;
-  --color-allay         : #008000;
-  --color-rescue        : #800000;
-
-  --lock-gray           : '\00EC83';
-  --lock-yellow         : '\00EC83';
-  --no                  : '\00E06D';
-  --yes-gray            : '\00E093';
-  --yes-green           : '\00E093';
-  --border-radius       : 6pt 0;
-  --border-radius-dice  : 2pt;
-  --box-shadow          : 1.5pt 1.5pt;
-
-  /* Generated Content ================================================= */
-  --iant                : '\00fe0f';
-  --icon-female         : '\002640' var(--iant);
-  --icon-male           : '\002642' var(--iant);
-  --icon-trans          : '\0026a7' var(--iant);
-
-  /* Font Sizes ======================================================== */
-  --wide-one            : calc(100% - 2 * 2pt / 1 ); 
-  --large               : 11pt;
-  --larger              : 10pt;
-  --body                : 9pt;
-  --smaller             : 8pt;
-  --small               : 7pt;
-  --tiny                : 5.5pt;
-  --caption             : 10pt;
-  --title               : 54pt;
-  --largetitle          : 44pt;
-  --subtitle            : 26pt;
-  --subsubtitle         : 28pt;
-  --h1                  : 24pt;
-  --h2                  : 22pt;
-  --h3                  : 16pt;
-  --h4                  : 14pt;
-  --h5                  : 13pt;
-  --h6                  : 11pt;
-  --hype                : 28pt;
-  --pagenum             : 20pt;
-  --pregen              : 12pt;
-  --pregen-class        : 20pt;
-  --pregen-class-shrink : 18pt;
-  --pregen-facet        : 50pt;
-  --pregen-name         : 30pt;
-  --pregen-name-shrink  : 25pt;
-  --pregen-name-shrink2 : 20pt;
-  --pregen-small        : 10pt;
-  --quote               : 24pt;
-  --quote-class         : 16pt;
-  --sheet-box           : 14pt;
-  --sheet-huge          : 32pt;
-  --sheet-large         : 16pt;
-  --sheet-larger        : 13pt;
-  --sheet               : 11pt;
-  --sheet-small         : 9pt;
-  --sheet-tiny          : 7pt;
-  --td                  : 9pt;
-  --th                  : 9pt;
-  --table-cost-size     : 7pt;
-  --table-icon-size     : 14pt;
-  --what-size           : 10pt;
-
-  /* END of variables ================================================== */
 }
 
 body { font-family: var(--font); font-size: var(--body);  }
@@ -1696,10 +1532,10 @@ blockquote {
 .crisis-block > ul > li:nth-child(even) { text-align: right; }
 .crisis-block > ul > li:nth-child(odd ) { text-align: left;  }
 
-.crisis-block > ul > li:nth-child(1) strong { color: var(--color-smash);  }
-.crisis-block > ul > li:nth-child(2) strong { color: var(--color-outwit); }
-.crisis-block > ul > li:nth-child(3) strong { color: var(--color-allay);  }
-.crisis-block > ul > li:nth-child(4) strong { color: var(--color-rescue); }
+.crisis-block > ul > li:nth-child(1) strong { color: var(--color-goal-smash);  }
+.crisis-block > ul > li:nth-child(2) strong { color: var(--color-goal-outwit); }
+.crisis-block > ul > li:nth-child(3) strong { color: var(--color-goal-allay);  }
+.crisis-block > ul > li:nth-child(4) strong { color: var(--color-goal-rescue); }
 	
 .crisis-block > ul > li strong {
   display:     block;
@@ -1716,7 +1552,7 @@ blockquote {
 }
 
 .crisis-block + .crisis-block { margin-top: 0.5em; }
-.crisis-block dl { margin-top: 0.5em; margin-bottom: 0.5em; }
+.crisis-block dl              { margin-top: 0.5em; margin-bottom: 0.5em; }
 
 .crisis-block dl dd { 
   display:      inline; 
@@ -1774,31 +1610,32 @@ sup { line-height: none; font-size: 50%; }
 }
 
 #section-what .member-list {
-  padding-left: 4pt;
-  padding-right: 4pt;
-  padding-top: 2pt;
-  padding-bottom: 2pt;
-  background-color: var(--color-roster);
-  border: 0.5pt solid var(--color-sheet-dark);
-  border-radius: var(--border-radius);
+  padding-left     : 4pt;
+  padding-right    : 4pt;
+  padding-top      : 2pt;
+  padding-bottom   : 2pt;
+  background-color : var(--color-roster);
+  border           : 0.5pt solid var(--color-sheet-dark);
+  border-radius    : var(--border-radius);
 }
 
 #section-what .member-list em { 
-  font-style: normal; 
-  font-variant: small-caps;
+  font-style   : normal;
+  font-variant : small-caps;
 }
+
 #section-what .other-list em { 
-  font-style: normal; 
-  font-variant: small-caps;
+  font-style   : normal;
+  font-variant : small-caps;
 }
 
 #section-what .member-list ul { break-inside: auto; }
-#section-what .other-list ul { break-inside: auto; }
+#section-what .other-list  ul { break-inside: auto; }
 
 .icon-female, .icon-male, .icon-trans {
-  font-family: var(--font-icons-noto);
-  line-height: none;
-  position: relative;
+  font-family : var(--font-icons-noto);
+  line-height : none;
+  position    : relative;
 }
 
 .icon-female { content: var(--icon-female); font-size: 70%; top: -1pt; }
@@ -1810,25 +1647,25 @@ sup { line-height: none; font-size: 50%; }
 
 .volume-ability-chart ul { margin: 0; line-height: 1; }
 .volume-ability-chart ul li { 
-  margin: 0; 
-  list-style-type: none;
-  vertical-align: top;
-  position: relative;
-  margin-left: 55pt;
-  line-height: 1;
-  margin-bottom: 2pt;
+  margin          : 0;
+  list-style-type : none;
+  vertical-align  : top;
+  position        : relative;
+  margin-left     : 55pt;
+  line-height     : 1;
+  margin-bottom   : 2pt;
 }
 
 .volume-ability-chart ul li strong { 
-  font-family: var(--font-h3);
-  font-size: var(--body);
-  display: inline-block;
-  width: 55pt;
-  position: absolute;
-  top: 4.50pt;
-  left: -55pt;
-  line-height: 1;
-  box-sizing: border-box;
+  font-family : var(--font-h3);
+  font-size   : var(--body);
+  display     : inline-block;
+  width       : 55pt;
+  position    : absolute;
+  top         : 4.50pt;
+  left        : -55pt;
+  line-height : 1;
+  box-sizing  : border-box;
 }
 
 .volume-ability-chart ul li:nth-child(1) strong { color: var(--color-rainbow-1d); }
@@ -1839,23 +1676,23 @@ sup { line-height: none; font-size: 50%; }
 .volume-ability-chart ul li:nth-child(6) strong { color: var(--color-rainbow-6d); }
 
 .volume-ability-chart ul li .ability { 
-  font-family: var(--font-caption);
-  font-size: var(--body);
-  box-sizing: border-box;
-  width: 20pt;
-  height: 20pt;
-  display: inline-block;
-  vertical-align: top;
-  font-weight: bold;
-  border: 0.25pt solid var(--color-sheet-dark);
-  border-radius: 2pt;
-  box-shadow: 1.50pt 1.50pt var(--color-sheet-light);
-  text-align: center;
-  margin-bottom: 4pt;
-  padding: 0;
-  line-height: 1;
-  position: relative;
-  margin-right: 1pt;
+  font-family    : var(--font-caption);
+  font-size      : var(--body);
+  box-sizing     : border-box;
+  width          : 20pt;
+  height         : 20pt;
+  display        : inline-block;
+  vertical-align : top;
+  font-weight    : bold;
+  border         : 0.25pt solid var(--color-sheet-dark);
+  border-radius  : 2pt;
+  box-shadow     : 1.50pt 1.50pt var(--color-sheet-light);
+  text-align     : center;
+  margin-bottom  : 4pt;
+  padding        : 0;
+  line-height    : 1;
+  position       : relative;
+  margin-right   : 1pt;
 }
 
 .volume-ability-chart ul li .ability.new { }
@@ -1983,37 +1820,38 @@ sup { line-height: none; font-size: 50%; }
   content: 'Ability';
 }
 
-.volume-ability-chart ul li .ability.v1.volume.new { color: var(--color-rainbow-1d); } 
-.volume-ability-chart ul li .ability.v2.volume.new { color: var(--color-rainbow-2d); } 
-.volume-ability-chart ul li .ability.v3.volume.new { color: var(--color-rainbow-3d); } 
-.volume-ability-chart ul li .ability.v4.volume.new { color: var(--color-rainbow-4d); } 
-.volume-ability-chart ul li .ability.v5.volume.new { color: var(--color-rainbow-5d); } 
-.volume-ability-chart ul li .ability.v6.volume.new { color: var(--color-rainbow-6d); } 
-.volume-ability-chart ul li .ability.class.new:before { color: var(--color-rainbow-6d); } 
+.volume-ability-chart ul li .ability.v1.volume.new    { color: var(--color-rainbow-1d); }
+.volume-ability-chart ul li .ability.v2.volume.new    { color: var(--color-rainbow-2d); }
+.volume-ability-chart ul li .ability.v3.volume.new    { color: var(--color-rainbow-3d); }
+.volume-ability-chart ul li .ability.v4.volume.new    { color: var(--color-rainbow-4d); }
+.volume-ability-chart ul li .ability.v5.volume.new    { color: var(--color-rainbow-5d); }
+.volume-ability-chart ul li .ability.v6.volume.new    { color: var(--color-rainbow-6d); }
+.volume-ability-chart ul li .ability.class.new:before { color: var(--color-rainbow-6d); }
 
 .volume-ability-chart ul li .ability.volume {
-  padding-top: 6.00pt;
-  padding-right: 0.5pt;
-  font-size: var(--h5);
-  font-family: var(--font-digit);
-  line-height: 1;
-  color: var(--color-sheet-light);
+  padding-top   : 6.00pt;
+  padding-right : 0.5pt;
+  font-size     : var(--h5);
+  font-family   : var(--font-digit);
+  line-height   : 1;
+  color         : var(--color-sheet-light);
 }
+
 .volume-ability-chart ul li .ability.volume:before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--tiny);
-  font-family: var(--font-caption);
-  display: block;
-  width: 20pt;
-  content: 'Volume';
-  position: absolute;
-  top: 1.25pt;
-  left: 0.75pt;
-  color: var(--color-sheet-light);
-  line-height: 1;
+  margin      : 0;
+  padding     : 0;
+  box-sizing  : border-box;
+  text-align  : left;
+  font-size   : var(--tiny);
+  font-family : var(--font-caption);
+  display     : block;
+  width       : 20pt;
+  content     : 'Volume';
+  position    : absolute;
+  top         : 1.25pt;
+  left        : 0.75pt;
+  color       : var(--color-sheet-light);
+  line-height : 1;
 }
 
 .volume-ability-chart ul li .ability.volume.new.v1:before { color: var(--color-rainbow-1d); }
@@ -2022,9 +1860,9 @@ sup { line-height: none; font-size: 50%; }
 .volume-ability-chart ul li .ability.volume.new.v4:before { color: var(--color-rainbow-4d); }
 .volume-ability-chart ul li .ability.volume.new.v5:before { color: var(--color-rainbow-5d); }
 .volume-ability-chart ul li .ability.volume.new.v6:before { color: var(--color-rainbow-6d); }
-.volume-ability-chart ul li .ability.new.class:after { color: var(--color-rainbow-6d); }
+.volume-ability-chart ul li .ability.new.class:after      { color: var(--color-rainbow-6d); }
 
-.volume-ability-chart ul li .ability.v1 { content: '1'; }
+.volume-ability-chart ul li .ability.v1 { content: '1';   }
 .volume-ability-chart ul li .ability.v2 { content: '1-2'; }
 .volume-ability-chart ul li .ability.v3 { content: '1-3'; }
 .volume-ability-chart ul li .ability.v4 { content: '1-4'; }
@@ -2033,90 +1871,86 @@ sup { line-height: none; font-size: 50%; }
 
 
 .struct { 
-  break-inside: avoid;
-  font-size: var(--larger);
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 16pt;
-  margin-bottom: 24pt;
-  margin-top: 12pt;
+  break-inside  : avoid;
+  font-size     : var(--larger);
+  box-sizing    : border-box;
+  width         : 100%;
+  margin-left   : 0;
+  margin-right  : 16pt;
+  margin-bottom : 24pt;
+  margin-top    : 12pt;
 }
 
 .struct + p { break-before: avoid; }
 
 .struct.wide {
-  break-before: page;
-  column-span: all; 
-  margin: 0;
+  break-before : page;
+  column-span  : all;
+  margin       : 0;
 }
 
 .struct div { 
-  position: relative;
-  display: inline-block;
-  border: 1pt dashed var(--color-sheet-dark);
-  border-radius: 3pt;
-  vertical-align: top;
-  box-sizing: border-box;
-  margin-left: 4pt;
-  margin-bottom: 4pt;
-  max-width: calc(100% - 2 * 4pt / 1); 
-  float: left;
-}  
+  position       : relative;
+  display        : inline-block;
+  border         : 1pt dashed var(--color-sheet-dark);
+  border-radius  : 3pt;
+  vertical-align : top;
+  box-sizing     : border-box;
+  margin-left    : 4pt;
+  margin-bottom  : 4pt;
+  max-width      : calc(100% - 2 * 4pt / 1);
+  float          : left;
+}
 
 .struct div.dotdotdot {
-  height: auto;
-  border: none;
-  padding: none;
-  text-align: center;
-  content: '...';
-  font-size: var(--h4);
-  font-family: var(--font-h2);
+  height      : auto;
+  border      : none;
+  padding     : none;
+  text-align  : center;
+  content     : '...';
+  font-size   : var(--h4);
+  font-family : var(--font-h2);
 }
 
 .struct div { font-size: 90%; }
 
 .struct div span { 
-  position: absolute; 
-  top: 1pt; 
-  right: 2pt; 
-  font-family: var(--font-caption);
-  font-size: var(--tiny);
+  position    : absolute;
+  top         : 1pt;
+  right       : 2pt;
+  font-family : var(--font-caption);
+  font-size   : var(--tiny);
 }
 
 /*
-.struct div.storyline      > span.hero        { content: 'h'; }
-.struct div.storyline      > span.opp:after   { content: '/o'; }
+.struct div.storyline         > span.hero            { content: 'h';                 }
+.struct div.storyline         > span.opp:after       { content: '/o';                }
 */
-
-.struct div.storyline > p span.hero,
-.struct div.storyline > span.hero        { content: 'Hero'; }
-.struct div.storyline > p span.opp:after,
-.struct div.storyline > span.opp:after   { content: '/o'; }
-.struct div.storyline.wide > p span.opp:after,
-.struct div.storyline.wide > span.opp:after   { content: '/Opportunity'; }
-
-
-.struct div.vignette       > span.hero            { content: 'h'; }
-.struct div.vignette       > span.hero.two        { content: 'hh'; }
-.struct div.vignette.wide  > span.hero            { content: 'Hero'; }
-.struct div.vignette.wide  > span.hero.two        { content: 'Hero/i : Hero'; }
-.struct div.vignette.wide  > span.ideal:after     { content: '/i'; }
-.struct div.vignette       > span.ideal.two:after { content: ''; }
-
-.struct div.crisis      > span.scene { content: 's.p.w.'; }
-.struct div.crisis.wide > span.scene { content: 'Scene P.W.'; }
-.struct div.crisis.extra.wide > span.scene { content: 'Scene Power Words'; }
+.struct div.storyline         > p span.hero,
+.struct div.storyline         > span.hero            { content: 'Hero';              }
+.struct div.storyline         > p span.opp:after,
+.struct div.storyline         > span.opp:after       { content: '/o';                }
+.struct div.storyline.wide    > p span.opp:after,
+.struct div.storyline.wide    > span.opp:after       { content: '/Opportunity';      }
+.struct div.vignette          > span.hero            { content: 'h';                 }
+.struct div.vignette          > span.hero.two        { content: 'hh';                }
+.struct div.vignette.wide     > span.hero            { content: 'Hero';              }
+.struct div.vignette.wide     > span.hero.two        { content: 'Hero/i : Hero';     }
+.struct div.vignette.wide     > span.ideal:after     { content: '/i';                }
+.struct div.vignette          > span.ideal.two:after { content: '';                  }
+.struct div.crisis            > span.scene           { content: 's.p.w.';            }
+.struct div.crisis.wide       > span.scene           { content: 'Scene P.W.';        }
+.struct div.crisis.extra.wide > span.scene           { content: 'Scene Power Words'; }
 
 
 
 .struct div:before {
-  display: block;
-  content: attr(class string);
-  margin-left: 4pt;
-  margin-right: 4pt;
-  margin-top: 2pt;
-  margin-bottom: 2pt;
+  display       : block;
+  content       : attr(class string);
+  margin-left   : 4pt;
+  margin-right  : 4pt;
+  margin-top    : 2pt;
+  margin-bottom : 2pt;
 }
 
 /* borders */
@@ -2132,57 +1966,57 @@ width: calc(33.33% - 4 * 4pt / 3 ); }
 width: calc(25%    - 5 * 4pt / 4 ); }
 width: calc(20     - 6 * 4pt / 5 ); }
 */
-.struct div.do_chargen        { width: calc(33.33% - 4 * 4pt / 3 );   }
-.struct div.lines_veils       { width: calc(33.33% - 4 * 4pt / 3 );   }
-.struct div.comics_code       { width: calc(33.33% - 4 * 4pt / 3 );   }
-.struct div.do_chargen.wide   { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.lines_veils.wide  { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.comics_code.wide  { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.bleed             { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.stars_wishes      { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.bleed.wide        { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.stars_wishes.wide { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.storyline         { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.storyline.wide    { width: calc(100% - 2 * 4pt / 1 ) ;    }
-.struct div.series            { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.series.outside    { width: calc(50%  - 2 * 8pt / 2 ) ;    }
-.struct div.series.wide       { width: calc(100% - 2 * 4pt / 1 ) ;    }
-.struct div.recap             { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.recap.wide        { width: calc(100% - 2 * 4pt / 1 ) ;    }
-.struct div.lettercol         { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.lettercol.wide    { width: calc(100% - 2 * 4pt / 1 ) ;    }
-.struct div.volume            { width: calc(25%  - 5 * 8pt / 4 ) ;    }
-.struct div.volume.wide       { width: calc(50%  - 3 * 8pt / 2 ) ;    }
-.struct div.volume.wide.extra { width: calc(100% - 2 * 8pt / 1 );     }
-.struct div.volume            { margin-left: 8pt; margin-bottom: 8pt; }
-.struct div.crisis            { width: calc(25%  - 5 * 4pt / 4 ) ;    }
-.struct div.crisis.wide       { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.crisis.extra.wide { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.vignette          { width: calc(25%  - 5 * 4pt / 4 ) ;    }
-.struct div.vignette.wide     { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.countdown         { width: calc(100% - 2 * 4pt / 1 ) ;    }
-.struct div.hero_phase        { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.crisis_phase      { width: calc(50%  - 3 * 4pt / 2 ) ;    }
-.struct div.hero_phase.wide   { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.crisis_phase.wide { width: calc(100% - 2 * 4pt / 1 );     }
-.struct div.post_crisis       { width: calc(100% - 2 * 4pt / 1 ) ;    }
 
-.struct                    div.issue         { width: calc(50%  - 3 * 4pt / 2 ); }
-.struct                    div.issue.outside { width: calc(50%  - 2 * 8pt / 2 ); }
-.struct                    div.issue.wide    { width: calc(100% - 2 * 4pt / 1 ); }
-.struct                    div.issue.zero    { width: calc(100% - 2 * 8pt / 1 ); }
-.struct div.storyline.wide div.issue         { width: calc(25%  - 5 * 4pt / 4 ); }
-.struct div.storyline.wide div.issue.wide    { width: calc(100% - 2 * 4pt / 1 ); }
+.struct div.do_chargen        { width: calc(33.33%  -  4 * 4pt / 3 ) ; }
+.struct div.lines_veils       { width: calc(33.33%  -  4 * 4pt / 3 ) ; }
+.struct div.comics_code       { width: calc(33.33%  -  4 * 4pt / 3 ) ; }
+.struct div.do_chargen.wide   { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.lines_veils.wide  { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.comics_code.wide  { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.bleed             { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.stars_wishes      { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.bleed.wide        { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.stars_wishes.wide { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.storyline         { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.storyline.wide    { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.series            { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.series.outside    { width: calc(50%     -  2 * 8pt / 2 ) ; }
+.struct div.series.wide       { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.recap             { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.recap.wide        { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.lettercol         { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.lettercol.wide    { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.volume            { width: calc(25%     -  5 * 8pt / 4 ) ; }
+.struct div.volume.wide       { width: calc(50%     -  3 * 8pt / 2 ) ; }
+.struct div.volume.wide.extra { width: calc(100%    -  2 * 8pt / 1 ) ; }
+.struct div.crisis            { width: calc(25%     -  5 * 4pt / 4 ) ; }
+.struct div.crisis.wide       { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.crisis.extra.wide { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.vignette          { width: calc(25%     -  5 * 4pt / 4 ) ; }
+.struct div.vignette.wide     { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.countdown         { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.hero_phase        { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.crisis_phase      { width: calc(50%     -  3 * 4pt / 2 ) ; }
+.struct div.hero_phase.wide   { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.crisis_phase.wide { width: calc(100%    -  2 * 4pt / 1 ) ; }
+.struct div.post_crisis       { width: calc(100%    -  2 * 4pt / 1 ) ; }
+
+.struct div.volume                           { margin-left: 8pt; margin-bottom: 8pt; }
+.struct                    div.issue         { width: calc(50%  - 3 * 4pt / 2 );     }
+.struct                    div.issue.outside { width: calc(50%  - 2 * 8pt / 2 );     }
+.struct                    div.issue.wide    { width: calc(100% - 2 * 4pt / 1 );     }
+.struct                    div.issue.zero    { width: calc(100% - 2 * 8pt / 1 );     }
+.struct div.storyline.wide div.issue         { width: calc(25%  - 5 * 4pt / 4 );     }
+.struct div.storyline.wide div.issue.wide    { width: calc(100% - 2 * 4pt / 1 );     }
 
 .struct div.issue                    { margin-left: 2pt; margin-right: 2pt; }
 .struct div.storyline.wide div.issue { margin-left: 2pt; margin-right: 2pt; }
-.struct div.issue.zero               { margin-left: 6pt; }
+.struct div.issue.zero               { margin-left: 6pt;                    }
 
-.struct div.outside       { margin-right: 4pt; }
-.struct div.issue.outside { margin-right: 6pt; }
-
-.struct > div.storyline { margin-left: 2pt; }
-.struct > div.volume    { margin-left: 0; margin-right: 0; }
+.struct div.outside       { margin-right: 4pt;               }
+.struct div.issue.outside { margin-right: 6pt;               }
+.struct > div.storyline   { margin-left: 2pt;                }
+.struct > div.volume      { margin-left: 0; margin-right: 0; }
 
 /* above is ok */
 
@@ -2328,6 +2162,7 @@ width: calc(20     - 6 * 4pt / 5 ); }
   color:        var(--color-rainbow-3d);
   border-color: var(--color-rainbow-3d);
 }
+
 .struct div.crisis { 
   background:   
     linear-gradient(
@@ -2338,6 +2173,7 @@ width: calc(20     - 6 * 4pt / 5 ); }
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
+
 .struct div.crisis div {
   background:   
     linear-gradient(
@@ -2348,6 +2184,7 @@ width: calc(20     - 6 * 4pt / 5 ); }
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
+
 .struct div.crisis div.hero_phase {
   background:   linear-gradient(90deg, var(--color-rainbow-2), var(--color-rainbow-4));
   color:        var(--color-rainbow-2d);
@@ -2416,17 +2253,17 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .classdata#class-twins       :matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-twins       ); }
 .classdata#class-wheelman    :matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-wheelman    ); }
 
-.cca ul li::marker { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; position: relative; }
-.cca .pick.break   { content: 'B';     font-family: var(--font-bubble); position: absolute; left: 0;  }
-.cca .pick.ign     { content: 'i';     font-family: var(--font-bubble); position: absolute; left: 0;  }
-.cca .pick.na      { content: 'N';     font-family: var(--font-bubble); position: absolute; left: 0;  }
-.cca .pick.line    { content: 'L';     font-family: var(--font-bubble); position: absolute; left: 0;  }
-.cca .pick.veil    { content: 'V';     font-family: var(--font-bubble); position: absolute; left: 0;  }
+.cca ul li::marker           { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; position: relative; }
+.cca .pick.break             { content: 'B';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
+.cca .pick.ign               { content: 'i';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
+.cca .pick.na                { content: 'N';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
+.cca .pick.line              { content: 'L';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
+.cca .pick.veil              { content: 'V';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
 
-.cca p  { font-size: var(--small); }
-.cca h1 { column-span: all;        }
-.cca h2 { column-span: all;        }
-.cca h3 { column-span: all;        }
+.cca p  { font-size:   var(--small); }
+.cca h1 { column-span: all;          }
+.cca h2 { column-span: all;          }
+.cca h3 { column-span: all;          }
 
 .cca .pick.recommend             { display: block;           }
 .cca .pick.recommend:before      { content: 'We recommend '; }
@@ -2439,11 +2276,11 @@ width: calc(20     - 6 * 4pt / 5 ); }
 a.list-link:before { font-style: normal; content: "the "; }
 
 a.list-link { 
-  content: target-content(attr(href)) " list ";
+  content:    target-content(attr(href)) " list ";
   font-style: italic;
 }
   
 a.list-link:after { 
-  content: " (see page " target-counter(attr(href), page) ")"; 
+  content:    " (see page " target-counter(attr(href), page) ")"; 
   font-style: normal;
 }
