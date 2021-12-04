@@ -1489,6 +1489,9 @@ blockquote {
 
 .crisis-block { }
 
+.crisis-block dd { margin-bottom: 0; }
+.crisis-block dt { margin-top:    0; }
+
 .crisis-block >:matches(h1, h2, h3, h4, h5, h6) {
   font-size:      var(--h6);
   font-family:    var(--font-h2);

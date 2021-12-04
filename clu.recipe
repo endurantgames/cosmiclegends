@@ -31,6 +31,9 @@ chargen/power_words
 chargen/identity
 chargen/storyline
 skills
+classes/
+classes/dual_class
+classes/multi_class
 classes/*
 powers/
 powers/display

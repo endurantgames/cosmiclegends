@@ -1,14 +1,98 @@
+@import url("config.css");
+
 #team-sheet { page: teamsheet; column-span: all; }
 
-@page teamsheet { margin: 36pt; }
+header          { display: none;                  }
+header p.date   { string-set: date content();     }
+header h1       { string-set: gamename content(); }
+
+@page teamsheet { size: var(--page-size);
+                  margin: var(--page-margin);
+	          margin-bottom: var(--page-margin);  }
 @page teamsheet { @top-left      { content: normal; } }
 @page teamsheet { @top-right     { content: normal; } }
 @page teamsheet { @bottom-center { content: normal; } }
+@page teamsheet { background: white;                  }
+
+#team-sheet .gear > ul { margin-left: 0; }
+#team-sheet .gear > li { padding-left: 0; }
+
+#team-sheet .sheet-box {
+  width: 100%;
+  display: block;
+  height: 1in;
+  border: 0.5pt solid black;
+  content: " ";
+}
+
+#team-sheet img.clu-logo {
+  height:    0.620in;
+  width:     auto;
+  position:  absolute;
+  top:       0.25in;
+  left:      0.25in;
+}
+
+#team-sheet img.hd-logo {
+  height:    0.600in;
+  width:     auto;
+  position:  absolute;
+  top:       0.25in;
+  right:     0.48in;
+
+}
+
+#team-sheet .hd-logo-copy {
+  transform-origin:  top right;
+  transform:         rotate(-90deg);
+  position:          absolute;
+  right:             -0.25in;
+  bottom:             0.0in;
+  color:             var(--color-sheet-light);
+  font-size:         var(--sheet-tiny);
+  font-family:       var(--font);
+}
 
 #team-sheet ul { margin: 0; padding: 0; }
 #team-sheet li { margin: 0; padding: 0; list-style-type: none; }
 
-#team-sheet > .header > ul > li { display: inline-block; width: auto; }
+#team-sheet > .membership.section > ul > li {
+  height: 0.25in;
+  border-bottom: 0.5pt solid black;
+}
+
+#team-sheet > ul > li > span.field { position: relative;
+  height: 0.25in;
+  border-bottom: 0.5pt solid black;
+}
+
+#team-sheet > .membership.section > ul > li > span.field:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--sheet-tiny);
+  content: "boop";
+}
+
+#team-sheet > .membership.section > ul > li > span.field.box:after {
+  text-align: center;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--color-sheet-dark);
+  font-size: var(--sheet-box);
+  content: '\002610';
+}
+
+#team-sheet > .membership.section > ul > li > span.field.founder:before { content: "Founder?"    }
+#team-sheet > .membership.section > ul > li > span.field.member:before  { content: "Member Name" }
+#team-sheet > .membership.section > ul > li > span.field.class:before   { content: "Core Class?" }
+
+#team-sheet > ul > li > span.field
+
+#team-sheet > .header > ul > li > span.field { display: inline-block; border-bottom: 0.5pt solid black; }
 
 #team-sheet ul li span.field    { 
   display: inline-block; 
@@ -17,9 +101,9 @@
   font-family: var(--font-sheet-2); 
 }
 
-#team-sheet > .header > ul > li > span.team-name   { width: 432pt; }
-#team-sheet > .header > ul > li > span.team-class  { width: 216pt; }
-#team-sheet > .header > ul > li > span.team-volume { width: 180pt; }
+#team-sheet > .header > .team-basics.line > ul > li > span.field.team-name   { width: 50%; }
+#team-sheet > .header > .team-basics.line > ul > li > span.field.team-class  { width: 20%; }
+#team-sheet > .header > .team-basics.line > ul > li > span.field.team-volume { width: 25%; }
 
 #team-sheet > .header > .line {
   margin-top:     8pt;
@@ -29,6 +113,7 @@
   border-top:     0.5pt solid black;
   border-bottom:  0.5pt solid black;
   display:        block;
+  position:       relative;
 }
 
 #team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
@@ -37,13 +122,23 @@
   position:    absolute; top:  0; left: 0;
 }
 
-#team-sheet > .header> .line.team-approach-line > ul > li span {
-  width:         80pt; 
+#team-sheet > .header > .line.team-approach-line > ul > li {
+  display: inline-block;
+}
+
+#team-sheet > .header > .line.team-approach-line > ul > li > span {
+  width:         75pt; 
   margin-right:  3.2pt; margin-left: 3.2pt;
+  height: 0.25in;
+  border: 0.5pt solid black;
 }
 
 #team-sheet > .body { column-count: 2; column-gap: 8pt; }
 
 #team-sheet > .body > .section { break-inside: avoid; }
 #team-sheet > .body > .section { break-after: column; }
+
+#team-sheet > .allies.section         > ul > li       { border-bottom: 0.5pt solid black; }
+#team-sheet > .foes.section         > ul > li         { border-bottom: 0.5pt solid black; }
+#team-sheet > .transport.subsection > .line > ul > li { border-bottom: 0.5pt solid black; }
 

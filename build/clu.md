@@ -147,9 +147,9 @@ title: Cosmic Legends of the Universe
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"     ></a>
 - Records Sheets
-  - <a href="#anchor-herosheet"   > (Character)</a>
-  - <a href="#anchor-team-sheet"  > (Group)    </a> 
-  - <a href="#anchor-series-sheet"> (Campaign) </a>
+  - <a href="#anchor-herosheet"          > (Character)</a>
+  - <a href="#anchor-team-sheet-anchor"  > (Group)    </a> 
+  - <a href="#anchor-series-sheet-anchor"> (Campaign) </a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -742,7 +742,7 @@ can take long and might run for 2 or 3 sessions, or longer.
 Once your hero finishes your Storyline, both your hero and your 
 fellow players' heroes gain an **Advancement.**
 
-### [Volumes]{#toc-structure-volume}
+### [Volumes]{#toc-struct-volumes}
 
 ::::::::::::: struct :::::::::::
 <div class="volume wide extra ">
@@ -2386,6 +2386,72 @@ The Wheelman    Engineer, Pilot, plus       Stunt, Driving,   [6]      Unique Ve
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
+### [Dual-Class Heroes]{#toc-class-dual-class}
+
+A Dual-Class Hero is one who can change between a *primary class*
+and a *secondary class* form, and is likely a hero who looks 
+different in each form. One might be a meek scientist while the
+other a rampaging monster; one could be a young student while the
+other is a dazzling magical star-princess.
+
+Dual-Class Heroes are a way to build a hero who transforms to do 
+their superheroic deeds, including magical girls and were-creatures.
+
+When you create your Dual-Class Hero, you get to choose the following:
+
+1. What they look like in their *primary class*.
+2. What they look like in their *secondary class*.
+3. How they change between *primary class* and *secondary class*,
+   and how long that takes.
+4. Their Class Abilities, Fighting Styles, Skills, and Personal
+   Power Words for each class.
+
+At the start of each Season, you choose a new Class Ability for each
+of the two classes. Whenever you gain a new Fighting Style or
+Skill, assign it to one of the two classes; it can only be used when
+your hero is in that class or form.
+
+Whenever you get to choose a new personal power word, choose one word
+for each class and add it to the Personal Power Words for that form.
+If your Health or Might advances, it applies to *both* class forms.
+
+These stay consistent between *primary class* and *secondary class*
+for the same hero:
+
+1. The values for their Approaches. (Action, Adventure, Detective,
+   Mystery, and Suspense.)
+2. Their Ideals, and whether they've tagged their keys for each Ideal.
+3. Their Season (which is consistent for the Series).
+4. Their (maximum) Health and (maximum) Might.
+5. Whether they've unlocked their Nova Power Words this Storyline,
+   whether they're the Spotlight Hero, and their Advancements.
+
+Switching from *primary* to *secondary* class does the following:
+0. Costs 1 Might or 1 Health.
+1. Resets their current Health to its maximum value.
+2. Keeps their Might at its current level.
+
+Switching from *secondary* to *primary* class does the following:
+0. Costs 1 Might or 1 Health.
+1. Resets their current Might to its maximum value.
+2. Keeps their Health at its current level.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::::::::
+### Character Sheets for Dual-Class Heroes {#soapbox-charsheet-dual-class}
+
+The easiest way to run a dual-class hero is just maintain two 
+different character sheets, and flip between them when the 
+character changes form/class!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
+### [Multi-Class Characters]{#toc-class-multi-class}
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
 ### The Construct {#toc-construct .breakbefore .class}
 
@@ -3070,67 +3136,6 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-### [Dual-Class Heroes]{#toc-class-dual-class}
-
-A Dual-Class Hero is one who can change between a *primary class*
-and a *secondary class* form, and is likely a hero who looks 
-different in each form. One might be a meek scientist while the
-other a rampaging monster; one could be a young student while the
-other is a dazzling magical star-princess.
-
-Dual-Class Heroes are a way to build a hero who transforms to do 
-their superheroic deeds, including magical girls and were-creatures.
-
-When you create your Dual-Class Hero, you get to choose the following:
-
-1. What they look like in their *primary class*.
-2. What they look like in their *secondary class*.
-3. How they change between *primary class* and *secondary class*,
-   and how long that takes.
-4. Their Class Abilities, Fighting Styles, Skills, and Personal
-   Power Words for each class.
-
-At the start of each Season, you choose a new Class Ability for each
-of the two classes. Whenever you gain a new Fighting Style or
-Skill, assign it to one of the two classes; it can only be used when
-your hero is in that class or form.
-
-Whenever you get to choose a new personal power word, choose one word
-for each class and add it to the Personal Power Words for that form.
-If your Health or Might advances, it applies to *both* class forms.
-
-These stay consistent between *primary class* and *secondary class*
-for the same hero:
-
-1. The values for their Approaches. (Action, Adventure, Detective,
-   Mystery, and Suspense.)
-2. Their Ideals, and whether they've tagged their keys for each Ideal.
-3. Their Season (which is consistent for the Series).
-4. Their (maximum) Health and (maximum) Might.
-5. Whether they've unlocked their Nova Power Words this Storyline,
-   whether they're the Spotlight Hero, and their Advancements.
-
-Switching from *primary* to *secondary* class does the following:
-0. Costs 1 Might or 1 Health.
-1. Resets their current Health to its maximum value.
-2. Keeps their Might at its current level.
-
-Switching from *secondary* to *primary* class does the following:
-0. Costs 1 Might or 1 Health.
-1. Resets their current Might to its maximum value.
-2. Keeps their Health at its current level.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::::::::
-### Character Sheets for Dual-Class Heroes {#soapbox-charsheet-dual-class}
-
-The easiest way to run a dual-class hero is just maintain two 
-different character sheets, and flip between them when the 
-character changes form/class!
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::: { .classdata #class-dynamo } :::::::::::::::
 ### The Dynamo {#toc-dynamo .breakbefore .class}
@@ -6831,11 +6836,6 @@ TBD
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::: optional ::::::::::::::::::::::::::::::::::::::
-### [Multi-Class Characters]{#toc-class-multi-class}
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::: { .classdata #class-paragon } :::::::::::::::::::
 ### The Paragon  {#toc-paragon .breakbefore .class}
@@ -12046,40 +12046,47 @@ members of that Team can't make their own moves that Hero Phase.
 
 
 :::::::::::::::::::: { #team-sheet } :::::::::::::::::::::::::::::::::::::::
-### Team Sheet {#team-sheet-anchor .anchor}
+#### Team Sheet {#team-sheet-anchor .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
-- [Team Name]{.team-name     .field}
-- [Class    ]{.team-class    .field}
-- [Volume   ]{.team-volume   .field}
+- [Team Name]{ .team-name     .field }
+- [Class    ]{ .team-class    .field }
+- [Volume   ]{ .team-volume   .field }
 
 :::::::::: { .team-leaders-line .line } :::::::
-### Team Leader(s)
+#### Team Leader(s)
 
-- [Leader Name]{.team-leader .field}
-- [Leader Name]{.team-leader .field}
-- [Leader Name]{.team-leader .field}
-- [Leader Name]{.team-leader .field}
-- [Leader Name]{.team-leader .field}
+- [Leader Name]{ .team-leader .field }
+- [Leader Name]{ .team-leader .field }
+- [Leader Name]{ .team-leader .field }
+- [Leader Name]{ .team-leader .field }
+- [Leader Name]{ .team-leader .field }
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::: { .team-approach-line .line } :::::::
-### Team Approaches
+#### Team Approaches
 
-- [Adventure]{.team-approach .field}
-- [Action   ]{.team-approach .field}
-- [Detective]{.team-approach .field}
-- [Mystery  ]{.team-approach .field}
-- [Suspense ]{.team-approach .field}
+- [Adventure]{ .team-approach .field }
+- [Action   ]{ .team-approach .field }
+- [Detective]{ .team-approach .field }
+- [Mystery  ]{ .team-approach .field }
+- [Suspense ]{ .team-approach .field }
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::: { .team-attrs-line .line } :::::::::::::
-### Team Attributes
+#### Team Attributes
 
-- [Influence        ]{.team-rep .field}
-- [Authority        ]{.team-rep .field}
-- [Skill(s)         ]{.team-attr .skills          .field}
-- [Fighting Style(s)]{.team-attr .fighting-styles .field}
+- [Influence        ]{ .team-rep  .field                  }
+- [Authority        ]{ .team-rep  .field                  }
+- [Skill(s)         ]{ .team-attr .field .skills          }
+- [Fighting Style(s)]{ .team-attr .field .fighting-styles }
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -12087,7 +12094,7 @@ members of that Team can't make their own moves that Hero Phase.
 :::::::::: { .body } :::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::: { .membership .section } :::::::::::::::::::::::::::
-### Team Membership
+#### Team Membership
 
 - [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
 - [Founder]{.founder .box} [Name]{.member} [Class]{.class .box}
@@ -12122,7 +12129,7 @@ members of that Team can't make their own moves that Hero Phase.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::: { .abilities .section } :::::::::
-### Team Abilities
+#### Team Abilities
 
 - [Core]{.ability-volume .core}
   [    ]{.ability-desc        }
@@ -12141,7 +12148,7 @@ members of that Team can't make their own moves that Hero Phase.
 :::::::::::::::::::::::::::::::
 
 ::::::: {.resources .section} ::::::::::::::
-### Team Resources
+#### Team Resources
 
 ::::::: {.base .subsection } :::::::::::
 #### Team Base
@@ -12197,7 +12204,7 @@ members of that Team can't make their own moves that Hero Phase.
 :::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::: {.transport .subsection } ::::::::
-### Transportation
+#### Transportation
 #### Primary
 
 [Transport Name]{.base-line .xport-name  }
@@ -12214,42 +12221,22 @@ members of that Team can't make their own moves that Hero Phase.
 ::::::::::::::::::::::::::::::::::::::::::
 
 ::::::: {.gear      .subsection } ::::::::
-### Standard Gear
+#### Standard Gear
 
 #### Uniform(s)
 
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.skip}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
+- []{.sheet-box .lines}
 
 #### Signal Device
 
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.skip}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
-- []{.gear-line}
+- []{.sheet-box .lines}
 
 ::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::::::::::
 :::: {.allies .section } :::::::::
-### Team Allies
+#### Team Allies
 
 - []{.ally}
 - []{.ally}
@@ -12265,7 +12252,7 @@ members of that Team can't make their own moves that Hero Phase.
 ::::::::::::::::::::::::::::::::::
 
 :::: {.foes   .section } :::::::::
-### Team Foes
+#### Team Foes
 
 - []{.foe}
 - []{.foe}
@@ -12281,6 +12268,8 @@ members of that Team can't make their own moves that Hero Phase.
 ::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -13262,7 +13251,9 @@ In some situations, the main heroes end up in an alternate universe, and the inh
 Related vignettes include heroes who find alternate versions of people they care about, and how they choose to relate to those variants. Some alt-universes are parallel timelines, and heroes may end up waxing nostalgic about what could have been, and debating whether they feel responsible for these worlds
 that are very similar to "home".
 
-Because of these similarities in personalities ad histories, the heroes may be at a distinct advantage over any variants they encounter. If a variant is an alternate-timeline version of one of their loved ones, they could know more about that variant than the alt-universe natives know of the heroes' lives in their own universe. "Aha, so you became a Knight when your parents were murderered by a random street criminal, while i became a Knight when my children were murdered by a random street kariminal." "As our own Titan is vulnerable to saline water, I hypothesize that yours might have a similar weaknesss, being a Sentinel from an analogue of our Saturn."
+Because of these similarities in personalities ad histories, the heroes may be at a distinct advantage over any variants they encounter. If a variant is an alternate-timeline version of one of their loved ones, they could know more about that variant than the alt-universe natives know of the heroes' lives in their own universe. 
+
+"Aha, so you became a Knight when your parents were murderered by a random street criminal, while I became a Knight when my children were murdered by a random street criminal." "As our own Titan is vulnerable to saline water, I hypothesize that yours might have a similar weaknesss, being a Sentinel from an analogue of our Saturn."
 
 
 
@@ -13502,7 +13493,6 @@ over 300 lbs.]{.pregen-bio}
 :q!
 vi 
 
-/bin/bash: v: command not found
 ::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}
 
@@ -13526,7 +13516,6 @@ vi
 [Might          ]{.label .might}              [Max            ]{.label .might-max}
 
 [Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
-/bin/bash: v: command not found
 [Mystery                                                      ]{.label .facet .mystery}
 
 [               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}
@@ -16184,7 +16173,7 @@ the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
 
 
 
-### Vignettes Issue {#toc-vignettes-issue}
+### The All-Vignettes Issue {#toc-vignettes-issue}
 
 []{.lorem}
 
@@ -17373,9 +17362,13 @@ the United States federal government (see 17 U.S.C. 105).
 ## Series Sheet {#team-series-anchor .anchor}
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
+### Series Sheet
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::: { .body } :::::::::::::::::::::::::::::::::::::::::::::::
+### Details
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

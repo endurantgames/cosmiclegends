@@ -1,4 +1,4 @@
-# Vignettes Issue {#toc-vignettes-issue}
+# The All-Vignettes Issue {#toc-vignettes-issue}
 
 []{.lorem}
 

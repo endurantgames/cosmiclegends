@@ -1,4 +1,3 @@
-/bin/bash: v: command not found
 ::::::::::::::::::::::::::::::::: {.herosheet .pregen} ::::::::::::::::::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}
 
@@ -22,7 +21,6 @@
 [Might          ]{.label .might}              [Max            ]{.label .might-max}
 
 [Action         ]{.label .facet .action}      [Adventure      ]{.label .facet .adventure}
-/bin/bash: v: command not found
 [Mystery                                                      ]{.label .facet .mystery}
 
 [               ]{.box .b1 .motiv .m1}        [Ideal          ]{.label .motiv .m1}

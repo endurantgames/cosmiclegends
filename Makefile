@@ -25,18 +25,19 @@ PAGEDIR   = $(OUTDIR)/pages
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
-BACKUPS = --backup=numbered
+BACKUPS   = --backup=numbered
 # BACKUPS = -b
 # BACKUPS = 
 
 # File Locations
 #   Edit: probably unnecessary
-PROJ_RECIPE  = $(PROJ)
-PROJ_SRC     = $(BUILDDIR)/$(PROJ).md
-PROJ_OUT     = $(OUTDIR)/Cosmic-Legends.pdf
-HTML_OUT     = $(OUTDIR)/$(PROJ).html
-ELK_HTML_OUT = $(OUTDIR)/$(ELK).html
-ELK_PDF_OUT  = $(OUTDIR)/$(CLOUD_ELK).pdf
+PROJ_RECIPE   = $(PROJ)
+PROJ_SRC      = $(BUILDDIR)/$(PROJ).md
+PROJ_OUT      = $(OUTDIR)/Cosmic-Legends.pdf
+HTML_OUT      = $(OUTDIR)/$(PROJ).html
+ELK_HTML_OUT  = $(OUTDIR)/$(ELK).html
+ELK_PDF_OUT   = $(OUTDIR)/$(CLOUD_ELK).pdf
+WHATSWHAT_OUT = $(OUTDIR)/$(PDFTITLE)-whats-what.pdf
 
 ORIGIN_RECIPE      = origin
 SHEET_RECIPE       = herosheet
@@ -44,6 +45,7 @@ TEAMSHEET_RECIPE   = teamsheet
 SERIESSHEET_RECIPE = seriessheet
 ALLSHEETS_RECIPE   = allsheets
 PREGEN_RECIPE      = pregens
+WHATSWHAT_RECIPE   = what
 
 ORIGIN_SRC          = $(BUILDDIR)/origins.md
 ORIGIN_OUT          = $(OUTDIR)/$(PDFTITLE)-secret-origins.pdf
@@ -76,7 +78,8 @@ SHEET_CSS       = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
 LETTER_CSS      = --css=$(STYLEDIR)/letter.css
-ELK_CSS         =   --css=$(ELKDIR)/style/elk.css
+ELK_CSS         = --css=$(ELKDIR)/style/elk.css
+TEAMSHEET_CSS   = --css=$(STYLEDIR)/team-sheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -90,7 +93,8 @@ SHEET_FLAGS        = $(FLAGS) $(SHEET_CSS)       $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS    = $(FLAGS) $(SHEET_ALT_CSS)   $(PRINCEFLAGS_SHEET_ALT)
 SHEET_COLOR_FLAGS  = $(FLAGS) $(SHEET_COLOR_CSS) $(PRINCEFLAGS_SHEET_COLOR)
 ALLSHEETS_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_ALLSHEETS)
-TEAMSHEET_FLAGS    = $(FLAGS) $(TEAMSHEETJ_CSS)  $(PRINCEFLAGS_TEAMSHEET)
+TEAMSHEET_FLAGS    = $(FLAGS) $(TEAMSHEET_CSS)   $(PRINCEFLAGS_TEAMSHEET)
+WHATSWHAT_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_WHATSWHAT)
 
 # Application Configruation #############################################################################
 #
@@ -110,16 +114,18 @@ PRINCEFLAGS_SHEET         =
 PRINCEFLAGS_SHEET_ALT     = 
 PRINCEFLAGS_SHEET_COLOR   = 
 # PRINCEFLAGS_ORIGIN      = 
-ALLSHEETS_PAGENAME = sheet
-ELK_PAGENAME = elk_page
-LETTER_PAGENAME = letter
-ORIGIN_PAGENAME = origin
-PAGENAME = page
-PREGEN_PAGENAME = pregen
-SHEET_ALT_PAGENAME = sheet_alt
+#
+ALLSHEETS_PAGENAME   = sheet
+ELK_PAGENAME         = elk_page
+LETTER_PAGENAME      = letter
+ORIGIN_PAGENAME      = origin
+PAGENAME             = page
+PREGEN_PAGENAME      = pregen
+SHEET_ALT_PAGENAME   = sheet_alt
 SHEET_COLOR_PAGENAME = sheet_color
-SHEET_PAGENAME = herosheet
-TEAMSHEET_PAGENAME = teamsheet
+SHEET_PAGENAME       = herosheet
+TEAMSHEET_PAGENAME   = teamsheet
+WHATSWHAT_PAGENAME   = setting
 
 # PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PAGENAME            )_%d.png
 PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ELK_PAGENAME        )_%d.png
@@ -131,6 +137,7 @@ PRINCEFLAGS_TEAMSHEET     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(TEAMSH
 PRINCEFLAGS_ALLSHEETS     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ALLSHEETS_PAGENAME  )_%d.png
 # PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_ALT_PAGENAME  )_%d.png
 # PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_COLOR_PAGENAME)_%d.png
+# PRINCEFLAGS_WHATSWHAT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(WHATSWHAT_PAGENAME  )_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -203,7 +210,8 @@ blorng := $(shell tput setab 208)
 # default: help
 # default: pregen
 # default: origin
-default: pdf
+# default: pdf
+default: team
 # default: all
 # default: sheet
 
@@ -330,6 +338,10 @@ origin-markdown:
 	@ echo '$(ltmagn)Collecting secret origins markdown.$(resetc)'
 	@       $(MAKE_MD) $(ORIGIN_RECIPE)
 
+what-markdown:
+	@ echo "$(ltmagn)Collecting What's What markdown.$(resetc)"
+	@       $(MAKE_MD) $(WHATSWHAT_RECIPE)
+
 pregen-markdown:
 	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
 	@       $(MAKE_MD) $(PREGEN_RECIPE)
@@ -351,6 +363,11 @@ origin: origin-markdown
 	@      -$(EXPLORER)
 
 team-sheet:   team-sheet-markdown
+	@ echo '$(ltblue)Making Team Sheet.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(TEAMSHEET_FLAGS) -o $(TEAMSHEET_OUT) $(TEAMSHEET_SRC)
+	@       $(PDFINFO) $(TEAMSHEET_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
 series-sheet: series-sheet-markdown
 all-sheets:   all-sheets-markdown
 
@@ -384,19 +401,24 @@ elk-pdf: elk-markdown
 	@      $(PDFINFO) $(ELK_PDF_OUT) $(PDFINFO_GREP)
 	@     -$(EXPLORER)
 
+what-pdf: what-markdown
+	@ echo "$(elkcolor)Making What's What PDF.$(resetc)"
+	@      $(PANDOC) $(PANDOCFLAGS_WHATSWHAT) $(WHATSWHAT_FLAGS) -o $(WHATSWHAT_PDF_OUT) $(WHATSWHAT_SRC)
+	@      $(PDFINFO) $(WHATSWHAT_PDF_OUT) $(PDFINFO_GREP)
+	@     -$(EXPLORER)
 
 # make HTML
 #   Edit: if you are making more than one html
 html: origin-markdown
 	@ echo '$(ltcyan)Making HTML.$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(HTML_OUT) $(PROJ_SRC)
+	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(BUILDDIR)/$(HTML_OUT) $(PROJ_SRC)
 	@ echo '$(ltcyan)HTML built.$(resetc)'
-	@       $(EDITOR) $(HTML_OUT)
+	@       $(EDITOR) $(BUILDDIR)/$(HTML_OUT)
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all:    pdf   letter    sheets      pregen  origin 
-sheets: sheet alt-sheet color-sheet elk-pdf
+all:    pdf   letter    sheets      pregen  origin what-pdf
+sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
@@ -411,3 +433,5 @@ origins:        origin
 secret:         origin
 secret-origins: origin
 secret-origin:  origin
+what:           what-pdf
+team:           team-sheet

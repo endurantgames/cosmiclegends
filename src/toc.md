@@ -105,8 +105,8 @@
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"     ></a>
 - Records Sheets
-  - <a href="#anchor-herosheet"   > (Character)</a>
-  - <a href="#anchor-team-sheet"  > (Group)    </a> 
-  - <a href="#anchor-series-sheet"> (Campaign) </a>
+  - <a href="#anchor-herosheet"          > (Character)</a>
+  - <a href="#anchor-team-sheet-anchor"  > (Group)    </a> 
+  - <a href="#anchor-series-sheet-anchor"> (Campaign) </a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
