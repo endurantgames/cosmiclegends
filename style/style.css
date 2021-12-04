@@ -113,7 +113,7 @@ dd    { margin-left: 1.5em;                            }
 }
 
 .sidebar.next { float-defer-column: 1; }
-.sidebar: matches(h1, h2, h3, h4, h5, h6) { 
+.sidebar:matches(h1, h2, h3, h4, h5, h6) { 
   font-weight: bold; 
   font-family: var(--font-h4); 
   font-size: var(--h4); 
@@ -199,7 +199,7 @@ figure figcaption {
 #toc a.class-toc.wheelman      { color: var(--color-class-wheelman);                                                    }
 
 
-#toc: matches(h1, h2, h3, h4, h5, h6) {
+#toc:matches(h1, h2, h3, h4, h5, h6) {
   font-size:     var(--h3);
   column-span:   all;
   font-family:   var(--font-h1);
@@ -448,7 +448,7 @@ a.onpage { content: 'on page ' target-counter(attr(href), page); }
   display:        inline;
 }
 
-.glossary dl dd:  after { content : '\a\a'; white-space : pre; }
+.glossary dl dd:after { content : '\a\a'; white-space : pre; }
 
 blockquote p { line-height: 1.0; margin: 0; }
 
@@ -630,11 +630,11 @@ blockquote {
   float-defer-column:  outside;
 }
 
-.soapbox: matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2):before {
+.soapbox:matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2):before {
   content: "Spindrift's Soapbox: ";
 }
 
-.soapbox: matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { 
+.soapbox:matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { 
   margin-bottom:  0.25em;
   column-span:    all;
   font-family:    var(--font-h3);
@@ -642,7 +642,7 @@ blockquote {
   color:          darkgreen;
 }
 
-.soapbox: matches(h1, h2, h3, h4, h5, h6) {
+.soapbox:matches(h1, h2, h3, h4, h5, h6) {
   font-family:  var(--font-h4);
   font-size:    var(--h5);
   margin-top:   0;
@@ -760,7 +760,7 @@ blockquote {
 
 .classtable thead                    { border-bottom: var(--color-line);            }
 .classtable tbody tr:nth-child(even) { background-color: var(--color-almost-white); }
-.classtable: matches(th, td)         { padding: 1pt;                                }
+.classtable:matches(th, td)         { padding: 1pt;                                }
 .classtable a:link                   { color: black;                                }
 .classtable a:visited                { color: black;                                }
 .classtable a:hover                  { color: black;                                }
@@ -1243,7 +1243,7 @@ blockquote {
   height:    var(--page-height); /* 733pt; */
 }
 
-#section-what: matches(h1, h2, h3, h4, h5, h6) { font-family: var(--font-h2); }
+#section-what:matches(h1, h2, h3, h4, h5, h6) { font-family: var(--font-h2); }
 
 #section-what figure {
   break-inside:   avoid;
@@ -1288,7 +1288,7 @@ blockquote {
   break-inside:      avoid-page;
 }
 
-#section-what .stats: matches(h1, h2, h3, h4, h5, h6) {
+#section-what .stats:matches(h1, h2, h3, h4, h5, h6) {
   font-size:    var(--h5);
   font-family:  var(--font-h4);
   break-after:  avoid;
@@ -1487,7 +1487,7 @@ blockquote {
 
 .crisis-block { }
 
-.crisis-block >: matches(h1, h2, h3, h4, h5, h6) {
+.crisis-block >:matches(h1, h2, h3, h4, h5, h6) {
   font-size:      var(--h6);
   font-family:    var(--font-h2);
   font-weight:    normal;
@@ -1497,12 +1497,12 @@ blockquote {
   color:          black;
 }
 
-.crisis-block >: matches(h1, h2, h3, h4, h5, h6):first-child {
+.crisis-block >:matches(h1, h2, h3, h4, h5, h6):first-child {
   border-bottom:   2pt double silver;
   padding-bottom:  4pt;
 }
 
-.crisis-block >: matches(h1, h2, h3, h4, h5, h6) + :matches(h1, h2, h3, h4, h5, h6) {
+.crisis-block >:matches(h1, h2, h3, h4, h5, h6) + :matches(h1, h2, h3, h4, h5, h6) {
   font-size:      var(--smaller);
   font-family:    var(--font-display);
   font-weight:    normal;
@@ -1585,7 +1585,7 @@ blockquote {
   line-height:    none;
 }
 
-.crisis-block: matches(.rules, .moves, .resolve):before {
+.crisis-block:matches(.rules, .moves, .resolve):before {
   display:        block;
   margin-top:     0.6em;
   margin-bottom:  0.15em;
@@ -1595,7 +1595,7 @@ blockquote {
   break-after:    avoid;
 }
 
-.crisis-block: matches(.rules, .moves, .resolve) dl dd:before { content: ' - '; }
+.crisis-block:matches(.rules, .moves, .resolve) dl dd:before { content: ' - '; }
 
 .crisis-block .rules:before   { content: 'Crisis Rules'; }
 .crisis-block .moves:before   { content: 'Moves';        }
@@ -2242,25 +2242,25 @@ width: calc(20     - 6 * 4pt / 5 ); }
     var(--color-rainbow-1d) 125%); 
 }
 
-.classdata#class-divine:      matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-divine      ); }
-.classdata#class-dynamo:      matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-dynamo      ); }
-.classdata#class-expatriate:  matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-expatriate  ); }
-.classdata#class-expert:      matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-expert      ); }
-.classdata#class-haunt:       matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-haunt       ); }
-.classdata#class-hellspawn:   matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-hellspawn   ); }
-.classdata#class-inventor:    matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-inventor    ); }
-.classdata#class-kid:         matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-kid         ); }
-.classdata#class-knight:      matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-knight      ); }
-.classdata#class-mage:        matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-mage        ); }
-.classdata#class-monarch:     matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-monarch     ); }
-.classdata#class-monstrosity: matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-monstrosity ); }
-.classdata#class-paragon:     matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-paragon     ); }
-.classdata#class-psychic:     matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-psychic     ); }
-.classdata#class-shaper:      matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-shaper      ); }
-.classdata#class-speedster:   matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-speedster   ); }
-.classdata#class-totem:       matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-totem       ); }
-.classdata#class-twins:       matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-twins       ); }
-.classdata#class-wheelman:    matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-wheelman    ); }
+.classdata#class-divine:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-divine      ); }
+.classdata#class-dynamo:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-dynamo      ); }
+.classdata#class-expatriate:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-expatriate  ); }
+.classdata#class-expert:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-expert      ); }
+.classdata#class-haunt:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-haunt       ); }
+.classdata#class-hellspawn:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-hellspawn   ); }
+.classdata#class-inventor:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-inventor    ); }
+.classdata#class-kid:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-kid         ); }
+.classdata#class-knight:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-knight      ); }
+.classdata#class-mage:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-mage        ); }
+.classdata#class-monarch:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-monarch     ); }
+.classdata#class-monstrosity:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-monstrosity ); }
+.classdata#class-paragon:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-paragon     ); }
+.classdata#class-psychic:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-psychic     ); }
+.classdata#class-shaper:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-shaper      ); }
+.classdata#class-speedster:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-speedster   ); }
+.classdata#class-totem:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-totem       ); }
+.classdata#class-twins:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-twins       ); }
+.classdata#class-wheelman:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-wheelman    ); }
 
 .cca ul li::marker           { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; position: relative; }
 .cca .pick.break             { content: 'B';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
