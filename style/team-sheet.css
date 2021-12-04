@@ -1,88 +1,87 @@
 @import url("config.css");
 
-#team-sheet { page: teamsheet; column-span: all; }
+#team-sheet   { page: teamsheet; column-span: all; }
+header        { display: none;                     }
+header p.date { string-set: date     content();    }
+header h1     { string-set: gamename content();    }
 
-header          { display: none;                  }
-header p.date   { string-set: date content();     }
-header h1       { string-set: gamename content(); }
-
-@page teamsheet { size: var(--page-size);
-                  margin: var(--page-margin);
+@page teamsheet { size:          var(--page-size);
+                  margin:        var(--page-margin);
 	          margin-bottom: var(--page-margin);  }
 @page teamsheet { @top-left      { content: normal; } }
 @page teamsheet { @top-right     { content: normal; } }
 @page teamsheet { @bottom-center { content: normal; } }
-@page teamsheet { background: white;                  }
+@page teamsheet { background: white; }
 
 #team-sheet .gear > ul { margin-left:  0; }
 #team-sheet .gear > li { padding-left: 0; }
 
 #team-sheet .sheet-box {
-  width: 100%;
+  width:   100%;
   display: block;
-  height: 1in;
-  border: 0.5pt solid black;
+  height:  1in;
+  border:  0.5pt solid black;
   content: " ";
 }
 
 #team-sheet img.clu-logo {
-  height:    0.600in;
-  width:     auto;
-  position:  absolute;
-  top:       0.00in;
-  left:      0.00in;
+  height:   0.600in;
+  width:    auto;
+  position: absolute;
+  top:      0;
+  left:     0;
 }
 
 #team-sheet img.hd-logo {
-  height:    0.600in;
-  width:     auto;
-  position:  absolute;
-  top:       0.00in;
-  right:     0.13in;
+  height:   0.600in;
+  width:    auto;
+  position: absolute;
+  top:      0;
+  right:    0;
 }
 
 #team-sheet .hd-logo-copy {
-  transform-origin:  top right;
-  transform:         rotate(-90deg);
-  position:          absolute;
-  right:             0.00in;
-  top:               0.00in;
-  color:             var(--color-sheet-light);
-  font-size:         var(--sheet-tiny);
-  font-family:       var(--font);
+  transform-origin: top right;
+  transform:        rotate(-90deg);
+  position:         absolute;
+  right:            0.00in;
+  top:              0.00in;
+  color:            var(--color-sheet-light);
+  font-size:        var(--sheet-tiny);
+  font-family:      var(--font);
 }
 
 #team-sheet ul { margin: 0; padding: 0; }
 #team-sheet li { margin: 0; padding: 0; list-style-type: none; }
 
 #team-sheet > .membership.section > ul > li {
-  height: 0.25in;
+  height:        0.25in;
   border-bottom: 0.5pt solid black;
 }
 
 #team-sheet > ul > li > span.field { position: relative;
-  height: 0.25in;
+  height:        0.25in;
   border-bottom: 0.5pt solid black;
 }
 
 #team-sheet > .membership.section > ul > li > span.field:before {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position:  absolute;
+  top:       0;
+  left:      0;
   font-size: var(--sheet-tiny);
-  content: "boop";
+  content:   "boop";
 }
 
 #team-sheet > .membership.section > ul > li > span.field.box:after {
   text-align: center;
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: var(--color-sheet-dark);
-  font-size: var(--sheet-box);
-  content: '\002610';
+  display:    block;
+  position:   absolute;
+  left:       0;
+  right:      0;
+  bottom:     0;
+  color:      var(--color-sheet-dark);
+  font-size:  var(--sheet-box);
+  content:    '\002610';
 }
 
 #team-sheet > .membership.section > ul > li > span.field.founder:before { content: "Founder?"    }
@@ -90,13 +89,13 @@ header h1       { string-set: gamename content(); }
 #team-sheet > .membership.section > ul > li > span.field.class:before   { content: "Core Class?" }
 
 #team-sheet > .header > ul > li > span.field { 
-  display: inline-block; 
+  display:       inline-block; 
   border-bottom: 0.5pt solid black; 
 }
 
-#team-sheet span.field    { 
-  display: inline-block; 
-  font-size: var(-small); 
+#team-sheet span.field { 
+  display:     inline-block; 
+  font-size:   var(-small); 
   font-family: var(--font-sheet-2); 
 }
 
@@ -109,12 +108,12 @@ header h1       { string-set: gamename content(); }
   padding-top:    4pt;
   padding-bottom: 4pt;
   margin-bottom:  8pt;
+  display:        block;
+  position:       relative;
   /*
   border-top:     0.5pt solid black;
   border-bottom:  0.5pt solid black;
   */
-  display:        block;
-  position:       relative;
 }
 
 #team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
@@ -122,12 +121,12 @@ header h1       { string-set: gamename content(); }
   font-family: var(--font-header);
   /*
   position:    absolute; 
-  top:  0; 
-  left: 0;
+  top:         0; 
+  left:        0;
   */
 }
 
-#team-sheet > :matches(h1, h2, h3, h4, h5, h6) { text-align: center; }
+#team-sheet :matches(h1, h2, h3, h4, h5, h6) { text-align: center; }
 
 #team-sheet > .header > .line.team-approach-line > ul > li {
   display: inline-block;
@@ -142,12 +141,12 @@ header h1       { string-set: gamename content(); }
 #team-sheet > .header > .line.team-approach-line > ul { text-align: center; }
 
 #team-sheet > .header > .line.team-approach-line > ul > li > span {
-  width:         1.0in; 
-  margin-right:  2.5pt;
-  margin-left:   2.5pt;
-  padding-top:   2.5pt;
-  height:        0.5in;
-  border:        0.5pt solid black;
+  width:         0.75in; 
+  margin-right:  2.50pt;
+  margin-left:   2.50pt;
+  padding-top:   2.50pt;
+  height:        0.75in;
+  border:        0.50pt solid black;
   text-align:    center;
   font-size:     var(--sheet);
   border-radius: var(--border-radius);
