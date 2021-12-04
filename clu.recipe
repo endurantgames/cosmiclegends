@@ -14,7 +14,6 @@ safety/before/
 safety/during
 safety/after/
 safety/*
-cca
 overview
 dice
 issues
@@ -76,3 +75,5 @@ credits/safety
 license
 herosheet
 team/sheet
+cca
+series_sheet

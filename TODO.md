@@ -2,21 +2,28 @@
 
 ## Cosmic Legends of the Universe
 
+General ideas
+-------------
+
+- [ ] Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
+- [/] The Normal Kid class
+- [/] The Twins class
+- [x] Vehicles (Ghost Rider)
+- [ ] Pet class (?)
+- [/] CCA Checklist
+  - [ ] Separate file
+- [/] Series sheet
+
+
+Manuscript
+----------
+
 - [/] Preface
   - [/] Bronze Age (finish essay)
 - [/] Issues etc
   - [ ] Update Examples
 - [/] Abilities blurb (?)
 - [/] Table of Contents (TOC)
-- [ ] Vignettes (write about)
-- [ ] General ideas:
-  - [ ] Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
-  - [/] The Normal Kid class
-  - [/] The Twins class
-  - [x] Vehicles (Ghost Rider)
-  - [ ] Pet class (?)
-  - [/] CCA Checklist
-    - [ ] Separate file
 - [/] Classes
   - [/] Introduction
     - [ ] Dual-class         (cleanup)
@@ -128,7 +135,7 @@
         - [x] Timely Arrival
         - [x] General Alert
       - [ ] Non-Hero Moves
-        - [ ] Pets
+        - [ ] Pets/Companions/Autonomous Companions/Allies
         - [ ] Vehicles
   - [ ] Post-Crisis (write section)
 - [/] Setting
@@ -150,4 +157,17 @@
   - [/] Personal Matters
   - [/] Science
   - [/] Super-Villains
-
+- [ ] Vignettes (write about)
+  - [ ] (all-)Vignettes issues
+  - [ ] Examples
+- [ ] Index
+  - [ ] Lists
+  - [ ] Power Words
+  - [ ] Setting
+- [/] Glossary
+- [x] License
+- [/] Sheets
+  - [ ] Hero Sheet
+  - [ ] Team Sheet
+  - [ ] Series Sheet
+  - [ ] CCA Checklist

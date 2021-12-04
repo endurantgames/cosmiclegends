@@ -3,6 +3,7 @@
 This index links to various lists throughout the rules containing
 personal, scene, or other power words.
 
+:::::::::::::::: list-index :::::::::::::::::::::::::::::::::::::::::
 - [](#list-astral-retreat-scene-power-words             ){.list-link}
 - [](#list-class-construct-abilities-v1                 ){.list-link}
 - [](#list-class-construct-abilities-v2                 ){.list-link}
@@ -75,3 +76,4 @@ personal, scene, or other power words.
 - [](#list-shapers-refuge-scene-power-words             ){.list-link}
 - [](#list-shapers-refuge-scene-power-words             ){.list-link}
 - [](#list-talismans-of-power-trinket-forms             ){.list-link}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

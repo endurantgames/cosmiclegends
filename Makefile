@@ -20,6 +20,8 @@ SRCDIR    = ./src
 BUILDDIR  = ./build
 BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
+PDFTITLE  = Cosmic-Legends
+PAGEDIR   = $(OUTDIR)/pages
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
@@ -29,26 +31,41 @@ BACKUPS = --backup=numbered
 
 # File Locations
 #   Edit: probably unnecessary
-PROJ_RECIPE = $(PROJ)
-PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
-PROJ_OUT    = $(OUTDIR)/Cosmic-Legends.pdf
-HTML_OUT    = $(OUTDIR)/$(PROJ).html
+PROJ_RECIPE  = $(PROJ)
+PROJ_SRC     = $(BUILDDIR)/$(PROJ).md
+PROJ_OUT     = $(OUTDIR)/Cosmic-Legends.pdf
+HTML_OUT     = $(OUTDIR)/$(PROJ).html
 ELK_HTML_OUT = $(OUTDIR)/$(ELK).html
-ELK_PDF_OUT = $(OUTDIR)/$(CLOUD_ELK).pdf
+ELK_PDF_OUT  = $(OUTDIR)/$(CLOUD_ELK).pdf
 
-ORIGIN_RECIPE = origin
-ORIGIN_SRC = $(BUILDDIR)/origin.md
-ORIGIN_OUT = $(OUTDIR)/Cosmic-Legends-secret-origins.pdf
-PREGEN_RECIPE = pregens
-PREGEN_SRC = $(BUILDDIR)/pregens.md
-PREGEN_OUT = $(OUTDIR)/Cosmic-Legends-pregens.pdf
-SHEET_RECIPE = herosheet
-SHEET_SRC = $(BUILDDIR)/herosheet.md
-SHEET_OUT = $(OUTDIR)/Cosmic-Legends-herosheet.pdf
-SHEET_ALT_OUT = $(OUTDIR)/Cosmic-Legends-herosheet-alt.pdf
-SHEET_COLOR_OUT = $(OUTDIR)/Cosmic-Legends-herosheet-colors.pdf
+ORIGIN_RECIPE      = origin
+SHEET_RECIPE       = herosheet
+TEAMSHEET_RECIPE   = teamsheet
+SERIESSHEET_RECIPE = seriessheet
+ALLSHEETS_RECIPE   = allsheets
+PREGEN_RECIPE      = pregens
 
-LETTER_OUT = $(OUTDIR)/Cosmic-Legends-letter.pdf
+ORIGIN_SRC          = $(BUILDDIR)/origins.md
+ORIGIN_OUT          = $(OUTDIR)/$(PDFTITLE)-secret-origins.pdf
+#
+PREGEN_SRC          = $(BUILDDIR)/$(PDFTITLE)-pregens.md
+PREGEN_OUT          = $(OUTDIR)/$(PDFTITLE)-pregens.pdf
+#
+HEROSHEET_SRC       = $(BUILDDIR)/$(PDFTITLE)-herosheet.md
+HEROSHEET_ALT_OUT   = $(OUTDIR)/$(PDFTITLE)-herosheet-alt.pdf
+HEROSHEET_COLOR_OUT = $(OUTDIR)/$(PDFTITLE)-herosheet-colors.pdf
+HEROSHEET_OUT       = $(OUTDIR)/$(PDFTITLE)-herosheet.pdf
+#
+TEAMSHEET_SRC       = $(BUILDDIR)/teamsheet.md
+TEAMSHEET_OUT       = $(OUTDIR)/$(PDFTITLE)-team-sheet.pdf
+#
+ALLSHEETS_SRC       = $(BUILDDIR)/allsheets.md
+ALLSHEETS_OUT       = $(OUTDIR)/$(PDFTITLE)-sheets.pdf
+#
+WHATSWHAT_SRC       = $(BUILDDIR)/whatswhat.md
+WHATSWHAT_OUT       = $(OUTDIR)/$(PDFTITLE)-setting.pdf
+#
+LETTER_OUT          = $(OUTDIR)/Cosmic-Legends-letter.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
@@ -59,7 +76,7 @@ SHEET_CSS       = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
 LETTER_CSS      = --css=$(STYLEDIR)/letter.css
-ELK_CSS         = --css=$(ELKDIR)/style/elk.css
+ELK_CSS         =   --css=$(ELKDIR)/style/elk.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -72,6 +89,8 @@ LETTER_FLAGS       = $(FLAGS) $(LETTER_CSS)      $(PRINCEFLAGS_LETTER)
 SHEET_FLAGS        = $(FLAGS) $(SHEET_CSS)       $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS    = $(FLAGS) $(SHEET_ALT_CSS)   $(PRINCEFLAGS_SHEET_ALT)
 SHEET_COLOR_FLAGS  = $(FLAGS) $(SHEET_COLOR_CSS) $(PRINCEFLAGS_SHEET_COLOR)
+ALLSHEETS_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_ALLSHEETS)
+TEAMSHEET_FLAGS    = $(FLAGS) $(TEAMSHEETJ_CSS)  $(PRINCEFLAGS_TEAMSHEET)
 
 # Application Configruation #############################################################################
 #
@@ -91,23 +110,36 @@ PRINCEFLAGS_SHEET         =
 PRINCEFLAGS_SHEET_ALT     = 
 PRINCEFLAGS_SHEET_COLOR   = 
 # PRINCEFLAGS_ORIGIN      = 
-# PRINCEFLAGS               = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/elk_%d.png
-PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
-PRINCEFLAGS_ORIGIN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/origin_%d.png
-# PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/letter_%d.png
-# PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_%d.png
-# PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_alt_%d.png
-# PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/herosheet_color_%d.png
+ALLSHEETS_PAGENAME = sheet
+ELK_PAGENAME = elk_page
+LETTER_PAGENAME = letter
+ORIGIN_PAGENAME = origin
+PAGENAME = page
+PREGEN_PAGENAME = pregen
+SHEET_ALT_PAGENAME = sheet_alt
+SHEET_COLOR_PAGENAME = sheet_color
+SHEET_PAGENAME = herosheet
+TEAMSHEET_PAGENAME = teamsheet
+
+# PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PAGENAME            )_%d.png
+PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ELK_PAGENAME        )_%d.png
+PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PREGEN_PAGENAME     )_%d.png
+PRINCEFLAGS_ORIGIN        = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ORIGIN_PAGENAME     )_%d.png
+# PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(LETTER_PAGENAME     )_%d.png
+# PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_PAGENAME      )_%d.png
+PRINCEFLAGS_TEAMSHEET     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(TEAMSHEET_PAGENAME  )_%d.png
+PRINCEFLAGS_ALLSHEETS     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ALLSHEETS_PAGENAME  )_%d.png
+# PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_ALT_PAGENAME  )_%d.png
+# PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_COLOR_PAGENAME)_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
-PDFINFO        = /usr/bin/pdfinfo
-PDFINFO_GREP   = | /bin/grep -v "no"
+PDFINFO      = /usr/bin/pdfinfo
+PDFINFO_GREP = | /bin/grep -v "no"
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet mode
-MAKE_MD = $(BINDIR)/make-markdown.lua -q
+MAKE_MD   = $(BINDIR)/make-markdown.lua -q
 # MAKE_MD = $(BINDIR)/make-markdown.lua
 
 # Editor Config (for make edit)
@@ -122,7 +154,7 @@ EXPLORER =
 #
 # Date Variable
 #   Edit: no
-DATE           = $(shell date '+%Y-%b-%d %H:%M %z')
+DATE = $(shell date '+%Y-%b-%d %H:%M %z')
 
 # Color variables
 #   Edit: no
@@ -185,6 +217,10 @@ help:
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf        $(resetc)- create pdf'
 	@ echo '  $(dkcyan)make$(resetc) $(ltcyan)html       $(resetc)- create html'
 	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, html'
+	@ echo '  $(dkcyan)make$(resetc) $(ltgren)sheet      $(resetc)- create hero sheet pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltgren)team       $(resetc)- create team sheet pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltgren)series     $(resetc)- create series sheet pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltgren)sheets     $(resetc)- create document with all sheets'
 	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
 	@ echo '  $(dkcyan)make$(resetc) $(ltorng)backups    $(resetc)- back up $(OUTDIR), $(BUILDDIR)'
 	@ echo '  $(dkcyan)make$(resetc) $(dkredd)purge      $(resetc)- $(dkredd)purge$(resetc) $(OUTDIR), $(BUILDDIR), $(BACKDIR)'
@@ -275,8 +311,20 @@ letter: markdown
 	@      -$(EXPLORER)
 
 sheet-markdown:
-	@ echo '$(ltmagn)Collecting sheet markdown.$(resetc)'
+	@ echo '$(ltmagn)Collecting hero sheet markdown.$(resetc)'
 	@       $(MAKE_MD) $(SHEET_RECIPE)
+
+team-sheet-markdown:
+	@ echo '$(ltmagn)Collecting team sheet markdown.$(resetc)'
+	@       $(MAKE_MD) $(TEAMSHEET_RECIPE)
+
+series-sheet-markdown:
+	@ echo '$(ltmagn)Collecting series sheet markdown.$(resetc)'
+	@       $(MAKE_MD) $(SERIESSHEET_RECIPE)
+
+all-sheets-markdown:
+	@ echo '$(ltmagn)Collecting ALL sheet markdown.$(resetc)'
+	@       $(MAKE_MD) $(ALLSHEETS_RECIPE)
 
 origin-markdown:
 	@ echo '$(ltmagn)Collecting secret origins markdown.$(resetc)'
@@ -302,10 +350,20 @@ origin: origin-markdown
 	@       $(PDFINFO) $(ORIGIN_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
+team-sheet:   team-sheet-markdown
+series-sheet: series-sheet-markdown
+all-sheets:   all-sheets-markdown
+
 sheet: sheet-markdown
 	@ echo '$(ltblue)Making Hero Sheet.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
 	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
+allsheets: all-sheets-markdown
+	@ echo '$(ltblue)Making ALL Sheets.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(ALLSHEETS_FLAGS) -o $(ALLSHEETS_OUT) $(ALLSHEETS_SRC)
+	@       $(PDFINFO) $(ALLSHEETS_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 alt-sheet: sheet-markdown
