@@ -21,7 +21,7 @@
     - <a href="#toc-struct-issue-1"></a>
     - <a href="#toc-struct-issue-annual"></a>
   - <a href="#toc-struct-storyline"></a>
-  - <a href="#toc-struct-volume"></a>
+  - <a href="#toc-struct-volumes"></a>
   - <a href="#toc-struct-series"></a>
   - <a href="#toc-struct-one-shots"></a>
   - <a href="#toc-struct-crossovers"></a>
