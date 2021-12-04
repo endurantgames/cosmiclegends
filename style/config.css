@@ -92,6 +92,12 @@
   --color-class-twins       : rgb( 139 , 0   , 139 )    ; /* purple       */
   --color-class-wheelman    : rgb( 75  , 75  , 75  )    ; /* gray         */
 
+  --color-action:    green;
+  --color-adventure: red;
+  --color-detective: blue;
+  --color-mystery:   orange;
+  --color-suspense:  purple;
+
   --color-stunt             : blue                      ;
   --color-toc-white         : #F0F0F0                   ;
   --color-yes               : green                     ;

@@ -17,11 +17,11 @@
 :::::::::: { .team-approach-line .line } ::::::::::::::::::::::::::::::::::::
 ## Team Approaches
 
-- [Adventure]{ .team-approach .field }
-- [Action   ]{ .team-approach .field }
-- [Detective]{ .team-approach .field }
-- [Mystery  ]{ .team-approach .field }
-- [Suspense ]{ .team-approach .field }
+- [Action   ]{ .team-approach .action    .field }
+- [Adventure]{ .team-approach .adventure .field }
+- [Detective]{ .team-approach .detective .field }
+- [Mystery  ]{ .team-approach .mystery   .field }
+- [Suspense ]{ .team-approach .suspense  .field }
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy} \

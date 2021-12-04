@@ -94,9 +94,8 @@ header h1       { string-set: gamename content(); }
 
 #team-sheet > .header > ul > li > span.field { display: inline-block; border-bottom: 0.5pt solid black; }
 
-#team-sheet ul li span.field    { 
+#team-sheet span.field    { 
   display: inline-block; 
-  border-bottom: 0.5pt solid black; 
   font-size: var(-small); 
   font-family: var(--font-sheet-2); 
 }
@@ -110,8 +109,10 @@ header h1       { string-set: gamename content(); }
   padding-top:    4pt;
   padding-bottom: 4pt;
   margin-bottom:  8pt;
+  /*
   border-top:     0.5pt solid black;
   border-bottom:  0.5pt solid black;
+  */
   display:        block;
   position:       relative;
 }
@@ -119,26 +120,32 @@ header h1       { string-set: gamename content(); }
 #team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
   font-size:   var(--body);
   font-family: var(--font-header);
-  position:    absolute; top:  0; left: 0;
+  /*
+  position:    absolute; 
+  top:  0; 
+  left: 0;
+  */
 }
 
 #team-sheet > .header > .line.team-approach-line > ul > li {
   display: inline-block;
 }
 
+#team-sheet > .header > .line.team-approach-line > ul > li > span.field.action { color: var(--color-action); }
+#team-sheet > .header > .line.team-approach-line > ul > li > span.field.adventure { color: var(--color-adventure); }
+#team-sheet > .header > .line.team-approach-line > ul > li > span.field.detective { color: var(--color-detective); }
+#team-sheet > .header > .line.team-approach-line > ul > li > span.field.mystery { color: var(--color-mystery); }
+#team-sheet > .header > .line.team-approach-line > ul > li > span.field.suspense { color: var(--color-suspense); }
+
 #team-sheet > .header > .line.team-approach-line > ul > li > span {
-  width:         75pt; 
+  width:         70pt; 
   margin-right:  3.2pt; margin-left: 3.2pt;
-  height: 0.25in;
+  height: 0.5in;
   border: 0.5pt solid black;
+  text-align: center;
+  font-size: var(--sheet);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow) var(--color-shadow);
 }
 
 #team-sheet > .body { column-count: 2; column-gap: 8pt; }
-
-#team-sheet > .body > .section { break-inside: avoid; }
-#team-sheet > .body > .section { break-after: column; }
-
-#team-sheet > .allies.section         > ul > li       { border-bottom: 0.5pt solid black; }
-#team-sheet > .foes.section         > ul > li         { border-bottom: 0.5pt solid black; }
-#team-sheet > .transport.subsection > .line > ul > li { border-bottom: 0.5pt solid black; }
-

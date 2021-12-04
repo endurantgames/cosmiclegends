@@ -552,11 +552,11 @@ blockquote {
 .skill-list .adventure:before { content: 'Adventure/';            }
 .skill-list   .mystery:before { content: 'Mystery/';              }
 .skill-list  .suspense:before { content: 'Suspense/';             }
-.skill-list .action           { font-weight: bold; color: green;  }
-.skill-list .detective        { font-weight: bold; color: blue;   }
-.skill-list .adventure        { font-weight: bold; color: red;    }
-.skill-list .mystery          { font-weight: bold; color: orange; }
-.skill-list .suspense         { font-weight: bold; color: purple; }
+.skill-list .action           { font-weight: bold; color: var(--color-action);    }
+.skill-list .detective        { font-weight: bold; color: var(--color-detective); }
+.skill-list .adventure        { font-weight: bold; color: var(--color-adventure); }
+.skill-list .mystery          { font-weight: bold; color: var(--color-mystery);   }
+.skill-list .suspense         { font-weight: bold; color: var(--color-suspense);  }
 
 .breakable ul { break-inside: auto; }
 
