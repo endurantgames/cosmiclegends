@@ -1,6 +1,6 @@
 #series-sheet { page: seriessheet; column-span: all; }
 
-@page seriessheet { margin: var(--page-margin); }
+@page seriessheet { margin:         var(--page-margin); }
 @page seriessheet { @top-left      { content: normal; } }
 @page seriessheet { @top-right     { content: normal; } }
 @page seriessheet { @bottom-center { content: normal; } }
