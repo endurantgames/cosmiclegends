@@ -5,151 +5,150 @@
 General ideas
 -------------
 
-- [ ] Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
-- [/] The Normal Kid class
-- [/] The Twins class
-- [x] Vehicles (Ghost Rider)
-- [ ] Pet class (?)
-- [/] CCA Checklist
+- [ ]   Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
+- [/]   The Normal Kid class
+- [/]   The Twins class
+- [x]   Vehicles (Ghost Rider)
+- [ ]   Pet class (?)
+- [/]   CCA Checklist
   - [ ] Separate file
-- [/] Series sheet
+- [/]   Series sheet
 
 
 Manuscript
 ----------
 
-- [/] Preface
+- [/]   Preface
   - [/] Bronze Age (finish essay)
-- [/] Issues etc
+- [/]   Issues etc
   - [ ] Update Examples
-- [/] Abilities blurb (?)
-- [/] Table of Contents (TOC)
-- [/] Classes
-  - [/] Introduction
-    - [ ] Dual-class         (cleanup)
+- [/]   Abilities blurb (?)
+- [/]   Table of Contents (TOC)
+- [/]       Classes
+  - [/]     Introduction
+    - [/]   Dual-class         (cleanup)
       - [ ] Examples?
-    - [ ] Multiclass         (cleanup)
+    - [/]   Multiclass         (cleanup)
       - [ ] Examples?
-    - [ ] Generic Abilities  (cleanup)
-  - [/] The Divine           (new abilities)
-  - [/] The Dynamo           (new abilities)
-  - [/] The Expatriate       (cleanup)
-  - [/] The Expert           (new class)
-  - [/] The Haunt            (new class)
-  - [/] The Hellspawn        (new class)
-  - [/] The Inventor         (new abilities)
-  - [/] The Kid              (new class)
-  - [/] The Knight           (new abilities)
-  - [/] The Mage             (new abilities)
-  - [/] The Monarch          (new abilities)
-  - [/] The Monstrosity      (new abilities)
-  - [/] The Paragon          (new abilities)
-  - [/] The Psychic          (new abilities)
-  - [/] The Shaper           (new abilities)
-  - [/] The Speedster        (new class)
-  - [/] The Totem            (cleanup)
-  - [/] The Twins            (new class)
-- [ ] Pregens: 1 extra ability each
-  - [ ] Using pregens
-  - [ ] Multi- and/or Dual-Class pregens?
+    - [/] Generic Abilities  (cleanup)
+  - [/]   The Divine           (new abilities)
+  - [/]   The Dynamo           (new abilities)
+  - [/]   The Expatriate       (cleanup)
+  - [/]   The Expert           (new class)
+  - [/]   The Haunt            (new class)
+  - [/]   The Hellspawn        (new class)
+  - [/]   The Inventor         (new abilities)
+  - [/]   The Kid              (new class)
+  - [/]   The Knight           (new abilities)
+  - [/]   The Mage             (new abilities)
+  - [/]   The Monarch          (new abilities)
+  - [/]   The Monstrosity      (new abilities)
+  - [/]   The Paragon          (new abilities)
+  - [/]   The Psychic          (new abilities)
+  - [/]   The Shaper           (new abilities)
+  - [/]   The Speedster        (new class)
+  - [/]   The Totem            (cleanup)
+  - [/]   The Twins            (new class)
+- [ ]     Pregens: 1 extra ability each
+  - [ ]   Using pregens
+  - [ ]   Multi- and/or Dual-Class pregens?
     - [ ] Multi-Class pregen (complete writeup)
     - [ ] Dual-Class pregen  (complete writeup)
-  - [/] Adam-42              (complete writeup)
-  - [ ] Brigantia            (new ability)
-  - [ ] Energy Boy           (new ability)
-  - [ ] Grailknight          (new ability)
-  - [ ] Head Librarian       (new ability)
-  - [ ] Jack Dee             (new ability)
-  - [ ] Obsidius Rex         (new ability)
-  - [ ] Riptide              (new ability)
-  - [ ] Rockstar             (new ability)
-  - [ ] Titan                (new ability)
-  - [ ] Vespa                (new ability)
-- [/] Ideals
-  - [ ] Tie to approach? (yes)
-    - [ ] Review pregens / NPCs
-      - [ ] Adam-42
-      - [ ] Brigantia
-      - [ ] Energy Boy
-      - [ ] Grailknight
-      - [ ] Head Librarian
-      - [ ] Jack Dee
-      - [ ] Obsidius Rex
-      - [ ] Riptide
-      - [ ] Rockstar
-      - [ ] Titan
-      - [ ] Vespa
-- [/] Goals
+  - [/]   Adam-42              (complete writeup)
+  - [ ]   Brigantia            (new ability)
+  - [ ]   Energy Boy           (new ability)
+  - [ ]   Grailknight          (new ability)
+  - [ ]   Head Librarian       (new ability)
+  - [ ]   Jack Dee             (new ability)
+  - [ ]   Obsidius Rex         (new ability)
+  - [ ]   Riptide              (new ability)
+  - [ ]   Rockstar             (new ability)
+  - [ ]   Titan                (new ability)
+  - [ ]   Vespa                (new ability)
+- [/]     Ideals
+  - [ ]   Review pregens / NPCs
+    - [ ] Adam-42
+    - [ ] Brigantia
+    - [ ] Energy Boy
+    - [ ] Grailknight
+    - [ ] Head Librarian
+    - [ ] Jack Dee
+    - [ ] Obsidius Rex
+    - [ ] Riptide
+    - [ ] Rockstar
+    - [ ] Titan
+    - [ ] Vespa
+- [/]   Goals
   - [x] Smash
   - [x] Outwit
   - [/] Allay
   - [/] Rescue
-- [x] Advancements
+- [x]   Advancements
   - [x] Story Arc character
   - [x] Everyone else
-- [/] Powers
-  - [x] Core     Power Words
-  - [x] Personal Power Words
-  - [x] Nova     Power Words
-  - [/] Scene    Power Words
-    - [/] Examples (lists)
-    - [ ] Hero Cave abilities
-    - [/] Changing Scene Words (classes that can do it)
+- [/]       Powers
+  - [x]     Core     Power Words
+  - [x]     Personal Power Words
+  - [x]     Nova     Power Words
+  - [/]     Scene    Power Words
+    - [/]   Examples (lists)
+    - [ ]   Hero Cave abilities
+    - [/]   Changing Scene Words (classes that can do it)
       - [ ] Shaper      (shape environment)
       - [ ] Totem       (summon swarm)
       - [ ] Wheelmaster (vehicle scene words)
-- [/] Power Use
-  - [x] Power Displays
-    - [x] Examples
-  - [/] Power Stunts
-    - [ ] Examples
-  - [/] Power Combos
-    - [ ] Examples
-  - [/] Power Words
-    - [/] Core
+- [/]       Power Use
+  - [x]     Power Displays
+    - [x]   Examples
+  - [/]     Power Stunts
+    - [ ]   Examples
+  - [/]     Power Combos
+    - [ ]   Examples
+  - [/]     Power Words
+    - [/]   Core
       - [ ] Examples
-    - [/] Personal
+    - [/]   Personal
       - [ ] Examples
-    - [/] Nova
+    - [/]   Nova
       - [ ] Examples
-    - [/] Scene
+    - [/]   Scene
       - [ ] Examples
-- [ ] Teams
-- [/] Crisis
-  - [/] Countdown
-    - [ ] Set the Scene
-      - [ ] Scene power words
+- [ ]         Teams
+- [/]         Crisis
+  - [/]       Countdown
+    - [ ]     Set the Scene
+      - [ ]   Scene power words
         - [ ] Scene examples
-    - [/] Hero Roll-Call
-    - [/] Defining the Goals
-    - [x] Assemble the Teamwork Pool
-  - [x] Start
-  - [/] Hero Phase
-    - [/] Advance a Goal
-    - [/] Contribute to the Teamwork Pool
-    - [ ] Team Moves (write section)
-    - [/] Hero Moves
-      - [/] Power Moves
-      - [ ] Skill Moves
-      - [/] Other Moves
+    - [/]     Hero Roll-Call
+    - [/]     Defining the Goals
+    - [x]     Assemble the Teamwork Pool
+  - [x]       Start
+  - [/]       Hero Phase
+    - [/]     Advance a Goal
+    - [/]     Contribute to the Teamwork Pool
+    - [ ]     Team Moves (write section)
+    - [/]     Hero Moves
+      - [/]   Power Moves
+      - [ ]   Skill Moves
+      - [/]   Other Moves
         - [x] Timely Arrival
         - [x] General Alert
-      - [ ] Non-Hero Moves
+      - [ ]   Non-Hero Moves
         - [ ] Pets/Companions/Autonomous Companions/Allies
         - [ ] Vehicles
-  - [ ] Post-Crisis (write section)
-- [/] Setting
-  - [/] What's What?
+  - [ ]   Post-Crisis (write section)
+- [/]     Setting
+  - [/]   What's What?
     - [/] Adam-42        (full entry)
     - [/] Rockstar       (bio)
     - [/] Titan          (bio)
     - [/] Villains, Inc. (backstory)
-- [ ] The Editor (write section)
-  - [ ] Creating Story Arcs
-  - [ ] Creating Crises
+- [ ]     The Editor (write section)
+  - [ ]   Creating Story Arcs
+  - [ ]   Creating Crises
     - [ ] Crisis Moves
-  - [ ] Offering Edge Consequences
-- [/] Sample Crises
+  - [ ]   Offering Edge Consequences
+- [/]   Sample Crises
   - [/] Aliens
   - [/] Military
   - [/] Natural Disasters
@@ -157,17 +156,17 @@ Manuscript
   - [/] Personal Matters
   - [/] Science
   - [/] Super-Villains
-- [ ] Vignettes (write about)
+- [ ]   Vignettes (write about)
   - [ ] (all-)Vignettes issues
   - [ ] Examples
-- [ ] Indices
+- [ ]   Indices
   - [/] Lists
   - [/] Power Words
   - [ ] Setting
   - [/] Soapboxes
   - [/] Glossary
-- [x] License
-- [/] Sheets
+- [x]   License
+- [/]   Sheets
   - [ ] Hero Sheet
   - [ ] Team Sheet
   - [ ] Series Sheet

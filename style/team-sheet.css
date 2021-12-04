@@ -142,10 +142,10 @@ header h1     { string-set: gamename content();    }
 
 #team-sheet > .header > .line.team-approach-line > ul > li > span {
   width:         0.75in; 
-  margin-right:  2.50pt;
-  margin-left:   2.50pt;
-  padding-top:   2.50pt;
-  height:        0.75in;
+  margin-right:  3.00pt;
+  margin-left:   3.00pt;
+  padding-top:   3.00pt;
+  height:        0.65in;
   border:        0.50pt solid black;
   text-align:    center;
   font-size:     var(--sheet);

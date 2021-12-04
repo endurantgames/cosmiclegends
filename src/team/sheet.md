@@ -8,6 +8,12 @@
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::: { .team-basics .line } ::::::
+- [Team Name]{.team-name   .field}
+- [Class    ]{.team-class  .field}
+- [Volume   ]{.team-volume .field}
+::::::::::::::::::::::::::::::::::
+
 :::::::::: { .team-approach-line .line } ::::::::::::::::::::::::::::::::::::
 ## Team Approaches
 
