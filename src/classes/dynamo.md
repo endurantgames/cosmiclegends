@@ -42,7 +42,7 @@ Whenever you make a roll that uses your skill, roll an additional number of
 dice equal to the Volume.
 
 ::::::::::::::::::: soapbox :::::::::::::::::::::::::::::
-## Other Energy Power Words
+## Other Energy Power Words {#soapbox-other-energy-power-words}
 
 If you've got an idea for another type of energy,
 go for it! You can run it past the Editor for ideas,

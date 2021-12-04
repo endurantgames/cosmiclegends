@@ -1,5 +1,5 @@
 :::::::::: {.soapbox .approaches } :::::::::::::::::::::::::::::::::::::::
-# Approaches
+# Approaches {#soapbox-approaches}
 
 These Approaches -- named for key Golden Age or Silver Age comic titles --
 were chosen to express how a hero chooses to solve problems, not 

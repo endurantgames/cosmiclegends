@@ -110,6 +110,8 @@ Criminal
       - Lose 1 Health or 1 Might.
   
 :::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
+# [Skills and Realism]{#soapbox-skills-and-realism}
+
 Keep in mind that []{.gamename} is *a four-color game,* not a simulation
 of reality -- so Skills follow "comic book logic" rather than working
 as they really *should* in real life.

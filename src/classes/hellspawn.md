@@ -55,7 +55,7 @@ Whenever you make a roll that uses your skill, roll an additional number of
 dice equal to the Volume.
 
 :::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
-## Real-World Religions?
+## Real-World Religions? {#soapbox-real-world-religions-hellspawn}
 
 It's a staple of superhero comic books that real-life
 deities are portrayed as either heroes themselves or the

@@ -1,5 +1,5 @@
 ::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Facets 
+# Facets  {#soapbox-facets}
 
 These Facets -- named for key Golden Age or Silver Age comic titles --
 were chosen to express how a hero chooses to solve problems, not 

@@ -1,5 +1,5 @@
 :::::::::::::::: {.soapbox #soapbox-no-fascists } :::::::::::::::::::::::::::::::::::::::::::::::::
-# No Fascists
+# [No Fascists]{#soapbox-no-fascists}
 
 If you're a fascist, you're not welcome to play this game. It's against the rules. 
 

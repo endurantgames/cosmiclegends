@@ -24,6 +24,8 @@ header h1     { string-set: gamename content()       }
 #toc ul { -prince-pdf-tag-type: TOC;  }
 #toc li { -prince-pdf-tag-type: TOCI; }
 
+#toc .toc-heading { font-family: var(--font-h1); font-size: var(--h1); }
+
 body         { column-count: 2;                                                                   }
 body         { column-gap: 24pt;                                                                  }
 body         { column-width: auto;                                                                }
@@ -251,10 +253,10 @@ a:hover   { text-decoration: none; color: red;    }
   color:         #BB00BB;
 }
 
-@page: first { margin: 0;                          }
-@page: first { @top-left      { content: normal; } }
-@page: first { @top-right     { content: normal; } }
-@page: first { @bottom-center { content: normal; } }
+@page:first { margin: 0;                          }
+@page:first { @top-left      { content: normal; } }
+@page:first { @top-right     { content: normal; } }
+@page:first { @bottom-center { content: normal; } }
 
 #cover { 
   break-after:          page;
@@ -262,7 +264,7 @@ a:hover   { text-decoration: none; color: red;    }
   height:               var(--page-height);
   position:             relative;
 }
-@page:                  first {
+@page:first {
   background-image:     url("../art/rainbow.svg");
   background-repeat:    no-repeat;
   background-size:      auto 130%;
@@ -349,7 +351,7 @@ a:hover   { text-decoration: none; color: red;    }
   font-size:      17pt;
   transform:      scaleY(0.5);
 }
-#coverbox ul li:  nth-child(6) {
+#coverbox ul li:nth-child(6) {
   top:            162pt;
   right:          0;
   left:           48pt;
@@ -496,10 +498,10 @@ blockquote {
   padding-left:                                2pt;
   padding-right:                               2pt;
 }
-#power-table table.power-table tbody tr td:    nth-child(n+1)                           { width : 10%;                }
-#power-table table.power-table tbody tr th:    nth-child(n+1)                           { width : 10%;                }
-#power-table table.power-table tbody:          nth-child(odd) tr td   : nth-child(2n+3) { background-color : #e0e0e0; }
-#power-table table.power-table tbody:          nth-child(even)  tr td : nth-child(2n+3) { background-color : #e8e8e8; }
+#power-table table.power-table tbody tr td:nth-child(n+1) { width: 10%; }
+#power-table table.power-table tbody tr th:nth-child(n+1) { width: 10%; }
+#power-table table.power-table tbody:nth-child(odd) tr td:nth-child(2n+3) { background-color: #e0e0e0; }
+#power-table table.power-table tbody:nth-child(even)  tr td:nth-child(2n+3) { background-color: #e8e8e8; }
 
 #power-table table.power-table tbody tr.cost           { }
 #power-table table.power-table tbody tr.cost td        { font-size: var(--table-cost-size); font-style: italic; }

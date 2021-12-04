@@ -160,11 +160,12 @@ Manuscript
 - [ ] Vignettes (write about)
   - [ ] (all-)Vignettes issues
   - [ ] Examples
-- [ ] Index
-  - [ ] Lists
-  - [ ] Power Words
+- [ ] Indices
+  - [/] Lists
+  - [/] Power Words
   - [ ] Setting
-- [/] Glossary
+  - [/] Soapboxes
+  - [/] Glossary
 - [x] License
 - [/] Sheets
   - [ ] Hero Sheet

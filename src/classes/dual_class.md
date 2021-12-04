@@ -52,7 +52,7 @@ Switching from *secondary* to *primary* class does the following:
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::::::::
-# Character Sheets for Dual-Class Heroes
+# Character Sheets for Dual-Class Heroes {#soapbox-charsheet-dual-class}
 
 The easiest way to run a dual-class hero is just maintain two 
 different character sheets, and flip between them when the 

@@ -26,7 +26,7 @@ present -- so look for ways to use your own Power Words, Skills,
 and Abilities in creative and original ways.
 
 :::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
-## No Ethical Mind Control Under Capitalism
+## No Ethical Mind Control Under Capitalism {#soapbox-no-ethical-mind-control}
 
 Many comic books and roleplaying games will gloss over
 it, but I'll state it directly: nearly any use of mind

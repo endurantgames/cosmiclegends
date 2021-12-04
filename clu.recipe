@@ -6,12 +6,12 @@ ethos
 no_fascists
 preface/
 preface/four_color
-preface/super_friends
 preface/ages_of_comics
 preface/bronze_age
+preface/influences
 safety/
 safety/before/
-safety/during
+safety/during/
 safety/after/
 safety/*
 overview
@@ -37,7 +37,6 @@ powers/display
 powers/stunt
 powers/combo
 powers/table
-powers/words
 crisis/
 crisis/countdown
 crisis/hero_phase
@@ -46,11 +45,12 @@ crisis/post
 advancement
 setting/
 setting/what/*
-team/
+# team/
 team/*
 editor/
 editor/storyline
 editor/crisis
+editor/scenes
 sample_crises/
 sample_crises/aliens
 sample_crises/military
@@ -63,8 +63,10 @@ sample_crises/*
 vignettes/
 vignettes/vignettes_issue
 vignettes/examples/*
-lists_index
 glossary
+lists_index
+powers/words
+soapbox_index
 credits/
 credits/license
 credits/harmony_drive

@@ -50,7 +50,7 @@ As you create your Monarch hero, answer any or all of these questions.
 :::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
-## Cultural Sensitivity
+## Cultural Sensitivity {#soapbox-cultural-sensitivity}
 
 You can define any details you like about your Monarch's
 home. That doesn't mean that you shouldn't be aware of

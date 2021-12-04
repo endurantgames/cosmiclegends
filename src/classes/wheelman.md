@@ -25,51 +25,11 @@ unless you choose otherwise, everyone's connected when you're
 present -- so look for ways to use your own Power Words, Skills,
 and Abilities in creative and original ways.
 
-:::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
-## No Ethical Mind Control Under Capitalism
-
-Many comic books and roleplaying games will gloss over
-it, but I'll state it directly: nearly any use of mind
-control powers represents gross violations of another
-person's autonomy and consent.
-
-This doesn't mean you can't *ever* do that in an Issue
-of []{.gamename}, but it means that you have to be careful
-and safe by checking in with the other players and the
-Editor -- because your Psychic hero is probably doing
-something that's quite horrific if you're using mind
-control.
-
-During Issue 0 or the start of an Issue, you should ask
-the other players and the Editor about whether they view
-reading someone's mind without consent as the same kind
-of violation. Are surface thoughts fine, but deep memories
-not? You *need* to have these kinds of talks, as a group,
-before it comes up in play.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Questions
 
-As you create your Psychic hero, answer any or all of these questions.
+As you create your Wheelman hero, answer any or all of these questions.
 
 :::::::::::: questions :::::::::::::::::::::
-- How do you come by these amazing mental powers? 
-  - What kind of training or education did you undertake to master them?
-- Are there obvious signs to your powers, such as an enlarged forehead,
-  glowing eyes, or a visible crackle of power -- or are they completely
-  invisible and undetectable?
-- What limits have you imposed on your own power due to ethical and
-  moral concerns? 
-  - What type of actions won't you take, and what would
-    push you to actually commit those acts? 
-  - What makes you a *hero* and not
-    a mind-powered villain, looting others' skulls with impunity?
-- What kind of mental self-image do you have?
-  - Does your telepathic voice "sound" like your *physical* voice? 
-  - Do others recognize you when you make mental contact with you? 
-- Do you have any *physical* limitations, such as a disability? 
-  - How do your powers compensate for those limits, and in what ways can
-    they never fully substitute for them?
 ::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills

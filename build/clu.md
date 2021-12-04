@@ -41,7 +41,8 @@ title: Cosmic Legends of the Universe
 
 
 :::::::::::::::::::::::::::: { #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Table of Contents
+
+[Table of Contents]{.toc-heading}
 
 - <a href="#toc-ethos"></a>
   - <a href="#toc-ethos-self-expression"></a>
@@ -82,24 +83,24 @@ title: Cosmic Legends of the Universe
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
-  - <a href="#toc-construct"           class="class-toc construct"   ></a>
-  - <a href="#toc-divine"              class="class-toc divine"      ></a>
-  - <a href="#toc-dynamo"              class="class-toc dynamo"      ></a>
-  - <a href="#toc-expatriate"          class="class-toc expatriate"  ></a>
-  - <a href="#toc-expert"              class="class-toc expert"      ></a>
-  - <a href="#toc-haunt"               class="class-toc haunt"       ></a>
-  - <a href="#toc-hellspawn"           class="class-toc hellspawn"   ></a>
-  - <a href="#toc-inventor"            class="class-toc inventor"    ></a>
-  - <a href="#toc-kid"                 class="class-toc kid"         ></a>
-  - <a href="#toc-knight"              class="class-toc knight"      ></a>
-  - <a href="#toc-mage"                class="class-toc mage"        ></a>
-  - <a href="#toc-monarch"             class="class-toc monarch"     ></a>
-  - <a href="#toc-monstrosity"         class="class-toc monstrosity" ></a>
-  - <a href="#toc-paragon"             class="class-toc paragon"     ></a>
-  - <a href="#toc-psychic"             class="class-toc psychic"     ></a>
-  - <a href="#toc-shaper"              class="class-toc shaper"      ></a>
-  - <a href="#toc-twins"               class="class-toc twins"       ></a>
-  - <a href="#toc-wheelman"            class="class-toc wheelman"    ></a>
+  - <a href="#toc-construct"   class="class-toc construct"   ></a>
+  - <a href="#toc-divine"      class="class-toc divine"      ></a>
+  - <a href="#toc-dynamo"      class="class-toc dynamo"      ></a>
+  - <a href="#toc-expatriate"  class="class-toc expatriate"  ></a>
+  - <a href="#toc-expert"      class="class-toc expert"      ></a>
+  - <a href="#toc-haunt"       class="class-toc haunt"       ></a>
+  - <a href="#toc-hellspawn"   class="class-toc hellspawn"   ></a>
+  - <a href="#toc-inventor"    class="class-toc inventor"    ></a>
+  - <a href="#toc-kid"         class="class-toc kid"         ></a>
+  - <a href="#toc-knight"      class="class-toc knight"      ></a>
+  - <a href="#toc-mage"        class="class-toc mage"        ></a>
+  - <a href="#toc-monarch"     class="class-toc monarch"     ></a>
+  - <a href="#toc-monstrosity" class="class-toc monstrosity" ></a>
+  - <a href="#toc-paragon"     class="class-toc paragon"     ></a>
+  - <a href="#toc-psychic"     class="class-toc psychic"     ></a>
+  - <a href="#toc-shaper"      class="class-toc shaper"      ></a>
+  - <a href="#toc-twins"       class="class-toc twins"       ></a>
+  - <a href="#toc-wheelman"    class="class-toc wheelman"    ></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
@@ -180,7 +181,7 @@ The Editor’s job is to give you those difficult choices.
 
 
 :::::::::::::::: {.soapbox #soapbox-no-fascists } :::::::::::::::::::::::::::::::::::::::::::::::::
-## No Fascists
+## [No Fascists]{#soapbox-no-fascists}
 
 If you're a fascist, you're not welcome to play this game. It's against the rules. 
 
@@ -213,24 +214,6 @@ print process for this game but instead to the general tone
 of late Silver Age and Bronze Age comics -- when primary-color 
 superheroes of the '50s and '60s met the social issues of 
 the '70s and '80s.
-
-
-### The Super Friends {#toc-preface-super-friends}
-
-In case you weren't aware, this game is inspired by the 
-[Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
-cartoon show that was on the air from 1973 to 1985 -- also
-the years yours truly was age 5 and 16. It's fair to say
-the show influenced how I view comics and superheroes
-in general.
-
-The first season has an opening monologue where the four 
-heroes were "created from the cosmic legends of the universe!"
-
-What on earth does *that* mean?  How exactly was *millionaire playboy 
-Bruce Wayne* created from the __cosmic legends of the universe__?!
-I've never figured that out, but it does make a great title
-for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 ### The Ages of Comics {#toc-preface-ages}
@@ -300,6 +283,24 @@ Silver Age, the Bronze Age, and the Modern Age.
 
 []{.lorem}
 []{.lorem}
+
+
+### The Super Friends {#toc-preface-super-friends}
+
+In case you weren't aware, this game is inspired by the 
+[Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
+cartoon show that was on the air from 1973 to 1985 -- also
+the years yours truly was age 5 and 16. It's fair to say
+the show influenced how I view comics and superheroes
+in general.
+
+The first season has an opening monologue where the four 
+heroes were "created from the cosmic legends of the universe!"
+
+What on earth does *that* mean?  How exactly was *millionaire playboy 
+Bruce Wayne* created from the __cosmic legends of the universe__?!
+I've never figured that out, but it does make a great title
+for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 ## Safety Tools {#toc-safety .breakbefore}
@@ -1005,7 +1006,7 @@ for free; in addition, you have at least 2 free picks.
 
 
 :::::::::: {.soapbox .approaches } :::::::::::::::::::::::::::::::::::::::
-### Approaches
+### Approaches {#soapbox-approaches}
 
 These Approaches -- named for key Golden Age or Silver Age comic titles --
 were chosen to express how a hero chooses to solve problems, not 
@@ -1917,6 +1918,8 @@ Criminal
       - Lose 1 Health or 1 Might.
   
 :::::::::::::::: {.soapbox .small } :::::::::::::::::::::::::::::::::::
+## [Skills and Realism]{#soapbox-skills-and-realism}
+
 Keep in mind that []{.gamename} is *a four-color game,* not a simulation
 of reality -- so Skills follow "comic book logic" rather than working
 as they really *should* in real life.
@@ -2840,7 +2843,7 @@ Whenever you make a roll that uses your skill, roll an additional number of
 dice equal to the Volume.
 
 :::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
-#### Real-World Religions?
+#### Real-World Religions? {#soapbox-real-world-religions}
 
 It's a staple of superhero comic books that real-life
 deities are portrayed as either heroes themselves or the
@@ -3122,7 +3125,7 @@ Switching from *secondary* to *primary* class does the following:
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::::::::
-### Character Sheets for Dual-Class Heroes
+### Character Sheets for Dual-Class Heroes {#soapbox-charsheet-dual-class}
 
 The easiest way to run a dual-class hero is just maintain two 
 different character sheets, and flip between them when the 
@@ -3173,7 +3176,7 @@ Whenever you make a roll that uses your skill, roll an additional number of
 dice equal to the Volume.
 
 ::::::::::::::::::: soapbox :::::::::::::::::::::::::::::
-#### Other Energy Power Words
+#### Other Energy Power Words {#soapbox-other-energy-power-words}
 
 If you've got an idea for another type of energy,
 go for it! You can run it past the Editor for ideas,
@@ -4214,7 +4217,7 @@ Whenever you make a roll that uses your skill, roll an additional number of
 dice equal to the Volume.
 
 :::::::::::::::::::: soapbox :::::::::::::::::::::::::::::::
-#### Real-World Religions?
+#### Real-World Religions? {#soapbox-real-world-religions-hellspawn}
 
 It's a staple of superhero comic books that real-life
 deities are portrayed as either heroes themselves or the
@@ -6285,7 +6288,7 @@ As you create your Monarch hero, answer any or all of these questions.
 :::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::: soapbox ::::::::::::::::::::::::
-#### Cultural Sensitivity
+#### Cultural Sensitivity {#soapbox-cultural-sensitivity}
 
 You can define any details you like about your Monarch's
 home. That doesn't mean that you shouldn't be aware of
@@ -7217,7 +7220,7 @@ present -- so look for ways to use your own Power Words, Skills,
 and Abilities in creative and original ways.
 
 :::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
-#### No Ethical Mind Control Under Capitalism
+#### No Ethical Mind Control Under Capitalism {#soapbox-no-ethical-mind-control}
 
 Many comic books and roleplaying games will gloss over
 it, but I'll state it directly: nearly any use of mind
@@ -7509,7 +7512,7 @@ costs 0 Might to use! Reshaping at the start of a Crisis can
 save you a *lot* of Might in the long run!
 
 ::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
-#### Other Element Power Words
+#### Other Element Power Words {#soapbox-other-element-power-words}
 
 If you can think of something else you'd like your Shaper
 hero to control, then choose that as your Element Power
@@ -8827,51 +8830,11 @@ unless you choose otherwise, everyone's connected when you're
 present -- so look for ways to use your own Power Words, Skills,
 and Abilities in creative and original ways.
 
-:::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
-#### No Ethical Mind Control Under Capitalism
-
-Many comic books and roleplaying games will gloss over
-it, but I'll state it directly: nearly any use of mind
-control powers represents gross violations of another
-person's autonomy and consent.
-
-This doesn't mean you can't *ever* do that in an Issue
-of []{.gamename}, but it means that you have to be careful
-and safe by checking in with the other players and the
-Editor -- because your Psychic hero is probably doing
-something that's quite horrific if you're using mind
-control.
-
-During Issue 0 or the start of an Issue, you should ask
-the other players and the Editor about whether they view
-reading someone's mind without consent as the same kind
-of violation. Are surface thoughts fine, but deep memories
-not? You *need* to have these kinds of talks, as a group,
-before it comes up in play.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 #### Questions
 
-As you create your Psychic hero, answer any or all of these questions.
+As you create your Wheelman hero, answer any or all of these questions.
 
 :::::::::::: questions :::::::::::::::::::::
-- How do you come by these amazing mental powers? 
-  - What kind of training or education did you undertake to master them?
-- Are there obvious signs to your powers, such as an enlarged forehead,
-  glowing eyes, or a visible crackle of power -- or are they completely
-  invisible and undetectable?
-- What limits have you imposed on your own power due to ethical and
-  moral concerns? 
-  - What type of actions won't you take, and what would
-    push you to actually commit those acts? 
-  - What makes you a *hero* and not
-    a mind-powered villain, looting others' skulls with impunity?
-- What kind of mental self-image do you have?
-  - Does your telepathic voice "sound" like your *physical* voice? 
-  - Do others recognize you when you make mental contact with you? 
-- Do you have any *physical* limitations, such as a disability? 
-  - How do your powers compensate for those limits, and in what ways can
-    they never fully substitute for them?
 ::::::::::::::::::::::::::::::::::::::::::::
 
 #### Skills
@@ -9519,142 +9482,6 @@ For example, []{.lorem}
   </table>
 
 </div>
-
-### Using Power Words {#toc-power-use-words}
-
-[]{.lorem}
-
-#### Personal Power Words {#toc-power-use-personal }
-
-:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
-[]{.power-word .first .any .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[]{.lorem}
-
-:::::::::::::: example :::::::::::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Core Power Words {#toc-power-use-core }
-
-:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
-[]{.power-word .core .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any} 
-[]{.power-word .core} 
-[]{.power-word .dashed}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any } 
-[]{.power-word .core} 
-[]{.power-word .dashed} 
-[]{.plus} 
-[]{.power-word .any} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-You can use one of your Core Power Words as a *third* Power Word 
-in a Power Stunt. Doing so costs 1 additional point of Might, 
-and adds another 1 die to the dice pool on your roll.
-
-By spending yet 1 *more* Might point you can add your *other* 
-Core Power Word as a *fourth* Power Word in a Power Stunt. 
-Collectively this gives a bonus of 3 dice in the dice pool,
-but also costs you 3 Might points.
-
-:::::::::::::::: example :::::::::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-#### Nova Power Words {#toc-power-use-nova }
-
-:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
-[]{.power-word .nova .free}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .nova .free} 
-[]{.power-word .nova .free .dashed}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .nova .free} 
-[]{.power-word .nova .free .dashed}
-[]{.plus} 
-[]{.power-word .any} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .any } 
-[]{.plus} 
-[]{.power-word .nova .free} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Once you've checked all of your hero's Ideals, you unlock
-your **Nova Power Words** and can use them until the end of 
-the current Storyline.
-
-You can use one of your Nova Power Words as the *second* Power
-Word in a Stunt without spending any Might; likewise, you can add 
-use one as your contribution to a Combo for free. In both cases, the 
-Nova Power Word still increases the roll's dice pool by 1 die.
-
-Using your *other* Nova Power Word in the same Power Stunt or
-Power Combo requires spending 1 Might. 
-
-:::::::::::::::::::: example ::::::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-#### Scene Power Words {#toc-power-use-scene}
-
-:::::::::::::: {.power-chart .power-stunt} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .scene .free} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: {.power-chart .power-combo} :::::::::::::::::
-[]{.power-word .first .any .free} 
-[]{.power-word .scene .free} 
-[]{.plus} 
-[]{.power-word} 
-[]{.plus .dashed} 
-[]{.power-word .dashed} 
-[]{.plus .dashed .dotdotdot} 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Each scene has up to 6 Scene Power Words, chosen by the Editor.
-
-You can use one Scene Power Word as a second Power Word in a 
-Power Stunt without spending any Might; Scene Power Words are free, 
-but they still contribute 1 die to the dice pool.
-
-Each Power Combo can also include one Scene Power Word for free, 
-and it likewise increases the dice pool of that Combo.
-
-Like other Power Words, every time a Scene Power Word is used in
-a Display, Stunt, or Power, it goes on Cooldown until the start
-of the next Hero Phase and can't be used again until then.
-
-:::::::::::::::::::::::::::: example ::::::::::::::::::::::::::::
-For example, []{.lorem}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 ## Crisis {#toc-crisis .breakbefore}
 
@@ -12594,6 +12421,12 @@ members of that Team can't make their own moves that Hero Phase.
 #### Adjusting a Crisis
 
 []{.lorem}
+[]{.lorem}
+
+
+
+### Scene Power Words
+
 []{.lorem}
 
 
@@ -16358,86 +16191,6 @@ the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
 
 
 
-## Index: Power Word Lists
-
-This index links to various lists throughout the rules containing
-personal, scene, or other power words.
-
-:::::::::::::::: list-index :::::::::::::::::::::::::::::::::::::::::
-- [](#list-astral-retreat-scene-power-words             ){.list-link}
-- [](#list-class-construct-abilities-v1                 ){.list-link}
-- [](#list-class-construct-abilities-v2                 ){.list-link}
-- [](#list-class-construct-abilities-v3                 ){.list-link}
-- [](#list-class-construct-abilities-v4                 ){.list-link}
-- [](#list-class-construct-abilities-v5                 ){.list-link}
-- [](#list-class-construct-personal-power-words         ){.list-link}
-- [](#list-class-divine-abilities-v1                    ){.list-link}
-- [](#list-class-divine-abilities-v2                    ){.list-link}
-- [](#list-class-divine-abilities-v3                    ){.list-link}
-- [](#list-class-divine-abilities-v4                    ){.list-link}
-- [](#list-class-divine-abilities-v5                    ){.list-link}
-- [](#list-class-dynamo-abilities-v1                    ){.list-link}
-- [](#list-class-dynamo-abilities-v2                    ){.list-link}
-- [](#list-class-dynamo-abilities-v3                    ){.list-link}
-- [](#list-class-dynamo-abilities-v4                    ){.list-link}
-- [](#list-class-dynamo-abilities-v5                    ){.list-link}
-- [](#list-class-dynamo-energy-core-power-words         ){.list-link}
-- [](#list-class-dynamo-personal-power-words            ){.list-link}
-- [](#list-class-expatriate-abilities-v1                ){.list-link}
-- [](#list-class-expatriate-abilities-v2                ){.list-link}
-- [](#list-class-expatriate-abilities-v3                ){.list-link}
-- [](#list-class-expatriate-abilities-v4                ){.list-link}
-- [](#list-class-expatriate-abilities-v5                ){.list-link}
-- [](#list-class-expatriate-personal-power-words        ){.list-link}
-- [](#list-class-expert-abilities-v1                    ){.list-link}
-- [](#list-class-expert-abilities-v2                    ){.list-link}
-- [](#list-class-expert-abilities-v3                    ){.list-link}
-- [](#list-class-expert-abilities-v4                    ){.list-link}
-- [](#list-class-expert-abilities-v5                    ){.list-link}
-- [](#list-class-haunt-abilities-v1                     ){.list-link}
-- [](#list-class-haunt-abilities-v2                     ){.list-link}
-- [](#list-class-haunt-abilities-v3                     ){.list-link}
-- [](#list-class-haunt-abilities-v4                     ){.list-link}
-- [](#list-class-haunt-abilities-v5                     ){.list-link}
-- [](#list-class-hellspawn-abilities-v1                 ){.list-link}
-- [](#list-class-hellspawn-abilities-v2                 ){.list-link}
-- [](#list-class-hellspawn-abilities-v3                 ){.list-link}
-- [](#list-class-hellspawn-abilities-v4                 ){.list-link}
-- [](#list-class-hellspawn-abilities-v5                 ){.list-link}
-- [](#list-class-inventor-abilities-v1                  ){.list-link}
-- [](#list-class-inventor-abilities-v2                  ){.list-link}
-- [](#list-class-inventor-abilities-v3                  ){.list-link}
-- [](#list-class-inventor-abilities-v4                  ){.list-link}
-- [](#list-class-inventor-abilities-v5                  ){.list-link}
-- [](#list-class-kid-abilities-v1                       ){.list-link}
-- [](#list-class-kid-abilities-v2                       ){.list-link}
-- [](#list-class-kid-abilities-v3                       ){.list-link}
-- [](#list-class-kid-abilities-v4                       ){.list-link}
-- [](#list-class-kid-abilities-v5                       ){.list-link}
-- [](#list-class-kid-personal-power-words               ){.list-link}
-- [](#list-class-knight-abilities-v1                    ){.list-link}
-- [](#list-class-knight-abilities-v2                    ){.list-link}
-- [](#list-class-knight-abilities-v3                    ){.list-link}
-- [](#list-class-knight-abilities-v4                    ){.list-link}
-- [](#list-class-knight-abilities-v5                    ){.list-link}
-- [](#list-class-knight-personal-power-words            ){.list-link}
-- [](#list-generic-hero-abilities-v1                    ){.list-link}
-- [](#list-generic-hero-abilities-v2                    ){.list-link}
-- [](#list-generic-hero-abilities-v3                    ){.list-link}
-- [](#list-generic-hero-abilities-v4                    ){.list-link}
-- [](#list-generic-hero-abilities-v5                    ){.list-link}
-- [](#list-glorious-garage-scene-power-words            ){.list-link}
-- [](#list-hero-cave-power-words                        ){.list-link}
-- [](#list-hero-cave-power-words                        ){.list-link}
-- [](#list-inventor-stately-skyscraper-scene-power-words){.list-link}
-- [](#list-leave-me-alone-safe-place-scene-power-words  ){.list-link}
-- [](#list-my-own-personal-hell-scene-power-words       ){.list-link}
-- [](#list-sanctuary-of-sanctity-scene-power-words      ){.list-link}
-- [](#list-shapers-refuge-scene-power-words             ){.list-link}
-- [](#list-shapers-refuge-scene-power-words             ){.list-link}
-- [](#list-talismans-of-power-trinket-forms             ){.list-link}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Glossary of Game Terms {#toc-glossary .breakbefore}
 
 ::::::::::::::: glossary ::::::::::::::::::::::::::::::::::::
@@ -16721,6 +16474,240 @@ Wheelman
 :   A Hero Class that specializes in piloting and mastering exotic vehicles.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Index: Power Word Lists
+
+This index links to various lists throughout the rules containing
+personal, scene, or other power words.
+
+:::::::::::::::: list-index :::::::::::::::::::::::::::::::::::::::::
+- [](#list-astral-retreat-scene-power-words             ){.list-link}
+- [](#list-class-construct-abilities-v1                 ){.list-link}
+- [](#list-class-construct-abilities-v2                 ){.list-link}
+- [](#list-class-construct-abilities-v3                 ){.list-link}
+- [](#list-class-construct-abilities-v4                 ){.list-link}
+- [](#list-class-construct-abilities-v5                 ){.list-link}
+- [](#list-class-construct-personal-power-words         ){.list-link}
+- [](#list-class-divine-abilities-v1                    ){.list-link}
+- [](#list-class-divine-abilities-v2                    ){.list-link}
+- [](#list-class-divine-abilities-v3                    ){.list-link}
+- [](#list-class-divine-abilities-v4                    ){.list-link}
+- [](#list-class-divine-abilities-v5                    ){.list-link}
+- [](#list-class-dynamo-abilities-v1                    ){.list-link}
+- [](#list-class-dynamo-abilities-v2                    ){.list-link}
+- [](#list-class-dynamo-abilities-v3                    ){.list-link}
+- [](#list-class-dynamo-abilities-v4                    ){.list-link}
+- [](#list-class-dynamo-abilities-v5                    ){.list-link}
+- [](#list-class-dynamo-energy-core-power-words         ){.list-link}
+- [](#list-class-dynamo-personal-power-words            ){.list-link}
+- [](#list-class-expatriate-abilities-v1                ){.list-link}
+- [](#list-class-expatriate-abilities-v2                ){.list-link}
+- [](#list-class-expatriate-abilities-v3                ){.list-link}
+- [](#list-class-expatriate-abilities-v4                ){.list-link}
+- [](#list-class-expatriate-abilities-v5                ){.list-link}
+- [](#list-class-expatriate-personal-power-words        ){.list-link}
+- [](#list-class-expert-abilities-v1                    ){.list-link}
+- [](#list-class-expert-abilities-v2                    ){.list-link}
+- [](#list-class-expert-abilities-v3                    ){.list-link}
+- [](#list-class-expert-abilities-v4                    ){.list-link}
+- [](#list-class-expert-abilities-v5                    ){.list-link}
+- [](#list-class-haunt-abilities-v1                     ){.list-link}
+- [](#list-class-haunt-abilities-v2                     ){.list-link}
+- [](#list-class-haunt-abilities-v3                     ){.list-link}
+- [](#list-class-haunt-abilities-v4                     ){.list-link}
+- [](#list-class-haunt-abilities-v5                     ){.list-link}
+- [](#list-class-hellspawn-abilities-v1                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v2                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v3                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v4                 ){.list-link}
+- [](#list-class-hellspawn-abilities-v5                 ){.list-link}
+- [](#list-class-inventor-abilities-v1                  ){.list-link}
+- [](#list-class-inventor-abilities-v2                  ){.list-link}
+- [](#list-class-inventor-abilities-v3                  ){.list-link}
+- [](#list-class-inventor-abilities-v4                  ){.list-link}
+- [](#list-class-inventor-abilities-v5                  ){.list-link}
+- [](#list-class-kid-abilities-v1                       ){.list-link}
+- [](#list-class-kid-abilities-v2                       ){.list-link}
+- [](#list-class-kid-abilities-v3                       ){.list-link}
+- [](#list-class-kid-abilities-v4                       ){.list-link}
+- [](#list-class-kid-abilities-v5                       ){.list-link}
+- [](#list-class-kid-personal-power-words               ){.list-link}
+- [](#list-class-knight-abilities-v1                    ){.list-link}
+- [](#list-class-knight-abilities-v2                    ){.list-link}
+- [](#list-class-knight-abilities-v3                    ){.list-link}
+- [](#list-class-knight-abilities-v4                    ){.list-link}
+- [](#list-class-knight-abilities-v5                    ){.list-link}
+- [](#list-class-knight-personal-power-words            ){.list-link}
+- [](#list-generic-hero-abilities-v1                    ){.list-link}
+- [](#list-generic-hero-abilities-v2                    ){.list-link}
+- [](#list-generic-hero-abilities-v3                    ){.list-link}
+- [](#list-generic-hero-abilities-v4                    ){.list-link}
+- [](#list-generic-hero-abilities-v5                    ){.list-link}
+- [](#list-glorious-garage-scene-power-words            ){.list-link}
+- [](#list-hero-cave-power-words                        ){.list-link}
+- [](#list-hero-cave-power-words                        ){.list-link}
+- [](#list-inventor-stately-skyscraper-scene-power-words){.list-link}
+- [](#list-leave-me-alone-safe-place-scene-power-words  ){.list-link}
+- [](#list-my-own-personal-hell-scene-power-words       ){.list-link}
+- [](#list-sanctuary-of-sanctity-scene-power-words      ){.list-link}
+- [](#list-shapers-refuge-scene-power-words             ){.list-link}
+- [](#list-shapers-refuge-scene-power-words             ){.list-link}
+- [](#list-talismans-of-power-trinket-forms             ){.list-link}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Using Power Words {#toc-power-use-words}
+
+[]{.lorem}
+
+#### Personal Power Words {#toc-power-use-personal }
+
+:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
+[]{.power-word .first .any .free}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .any} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
+
+:::::::::::::: example :::::::::::::::::::::::::::::::::::::
+For example, []{.lorem}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#### Core Power Words {#toc-power-use-core }
+
+:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
+[]{.power-word .core .free}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .any} 
+[]{.power-word .core} 
+[]{.power-word .dashed}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .any } 
+[]{.power-word .core} 
+[]{.power-word .dashed} 
+[]{.plus} 
+[]{.power-word .any} 
+[]{.plus .dashed .dotdotdot} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+You can use one of your Core Power Words as a *third* Power Word 
+in a Power Stunt. Doing so costs 1 additional point of Might, 
+and adds another 1 die to the dice pool on your roll.
+
+By spending yet 1 *more* Might point you can add your *other* 
+Core Power Word as a *fourth* Power Word in a Power Stunt. 
+Collectively this gives a bonus of 3 dice in the dice pool,
+but also costs you 3 Might points.
+
+:::::::::::::::: example :::::::::::::::::::::::::::::::::::
+For example, []{.lorem}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Nova Power Words {#toc-power-use-nova }
+
+:::::::::::::: {.power-chart .power-display .label} :::::::::::::::
+[]{.power-word .nova .free}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-stunt .label} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .nova .free} 
+[]{.power-word .nova .free .dashed}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .nova .free} 
+[]{.power-word .nova .free .dashed}
+[]{.plus} 
+[]{.power-word .any} 
+[]{.plus .dashed .dotdotdot} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-combo .label} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .any } 
+[]{.plus} 
+[]{.power-word .nova .free} 
+[]{.plus .dashed .dotdotdot} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Once you've checked all of your hero's Ideals, you unlock
+your **Nova Power Words** and can use them until the end of 
+the current Storyline.
+
+You can use one of your Nova Power Words as the *second* Power
+Word in a Stunt without spending any Might; likewise, you can add 
+use one as your contribution to a Combo for free. In both cases, the 
+Nova Power Word still increases the roll's dice pool by 1 die.
+
+Using your *other* Nova Power Word in the same Power Stunt or
+Power Combo requires spending 1 Might. 
+
+:::::::::::::::::::: example ::::::::::::::::::::::::::::::::
+For example, []{.lorem}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### Scene Power Words {#toc-power-use-scene}
+
+:::::::::::::: {.power-chart .power-stunt} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .scene .free} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::: {.power-chart .power-combo} :::::::::::::::::
+[]{.power-word .first .any .free} 
+[]{.power-word .scene .free} 
+[]{.plus} 
+[]{.power-word} 
+[]{.plus .dashed} 
+[]{.power-word .dashed} 
+[]{.plus .dashed .dotdotdot} 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Each scene has up to 6 Scene Power Words, chosen by the Editor.
+
+You can use one Scene Power Word as a second Power Word in a 
+Power Stunt without spending any Might; Scene Power Words are free, 
+but they still contribute 1 die to the dice pool.
+
+Each Power Combo can also include one Scene Power Word for free, 
+and it likewise increases the dice pool of that Combo.
+
+Like other Power Words, every time a Scene Power Word is used in
+a Display, Stunt, or Power, it goes on Cooldown until the start
+of the next Hero Phase and can't be used again until then.
+
+:::::::::::::::::::::::::::: example ::::::::::::::::::::::::::::
+For example, []{.lorem}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Spindrift's Soapboxes
+
+[]{.lorem}
+
+:::::::::::: soapbox-index :::::::::::::::::
+- [](#soapbox-approaches)
+- [](#soapbox-charsheet-dual-class)
+- [](#soapbox-cultural-sensitivity)
+- [](#soapbox-facets)
+- [](#soapbox-no-ethical-mind-control)
+- [](#soapbox-no-facists)
+- [](#soapbox-other-element-power-words)
+- [](#soapbox-other-energy-power-words)
+- [](#soapbox-real-world-religions)
+- [](#soapbox-skills-and-realism)
+::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Game Credits {#toc-credits .breakbefore}
 

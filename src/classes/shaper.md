@@ -27,7 +27,7 @@ costs 0 Might to use! Reshaping at the start of a Crisis can
 save you a *lot* of Might in the long run!
 
 ::::::::::::::: soapbox :::::::::::::::::::::::::::::::::
-## Other Element Power Words
+## Other Element Power Words {#soapbox-other-element-power-words}
 
 If you can think of something else you'd like your Shaper
 hero to control, then choose that as your Element Power
