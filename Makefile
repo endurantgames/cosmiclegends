@@ -127,17 +127,17 @@ SHEET_PAGENAME       = herosheet
 TEAMSHEET_PAGENAME   = teamsheet
 WHATSWHAT_PAGENAME   = setting
 
-# PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PAGENAME            )_%d.png
-PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ELK_PAGENAME        )_%d.png
-PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PREGEN_PAGENAME     )_%d.png
-PRINCEFLAGS_ORIGIN        = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ORIGIN_PAGENAME     )_%d.png
-# PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(LETTER_PAGENAME     )_%d.png
-# PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_PAGENAME      )_%d.png
-PRINCEFLAGS_TEAMSHEET     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(TEAMSHEET_PAGENAME  )_%d.png
-PRINCEFLAGS_ALLSHEETS     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ALLSHEETS_PAGENAME  )_%d.png
-# PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_ALT_PAGENAME  )_%d.png
+# PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PAGENAME)_%d.png
+PRINCEFLAGS_ELK           = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ELK_PAGENAME)_%d.png
+PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(PREGEN_PAGENAME)_%d.png
+PRINCEFLAGS_ORIGIN        = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ORIGIN_PAGENAME)_%d.png
+# PRINCEFLAGS_LETTER      = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(LETTER_PAGENAME)_%d.png
+# PRINCEFLAGS_SHEET       = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_PAGENAME)_%d.png
+PRINCEFLAGS_TEAMSHEET     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(TEAMSHEET_PAGENAME)_%d.png
+PRINCEFLAGS_ALLSHEETS     = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(ALLSHEETS_PAGENAME)_%d.png
+# PRINCEFLAGS_SHEET_ALT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_ALT_PAGENAME)_%d.png
 # PRINCEFLAGS_SHEET_COLOR = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(SHEET_COLOR_PAGENAME)_%d.png
-# PRINCEFLAGS_WHATSWHAT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(WHATSWHAT_PAGENAME  )_%d.png
+# PRINCEFLAGS_WHATSWHAT   = --pdf-engine-opt=--raster-output=$(PAGEDIR)/$(WHATSWHAT_PAGENAME)_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
