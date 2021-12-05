@@ -23,20 +23,10 @@ h6 { font-size: var(--h6); font-family: var(--font-h6); }
 #team-sheet ul { margin: 0; padding: 0; }
 #team-sheet li { margin: 0; padding: 0; list-style-type: none; }
 
-#team-sheet .sheet-box {
-  width:   100%; height: 1in; display: block;
-  border:  0.5pt solid black; content: " ";
-}
+#team-sheet .sheet-box { width: 100%; height: 1in; display: block; border: 0.5pt solid black; content: " "; }
 
-#team-sheet img.clu-logo {
-  height:   0.600in; width: auto; 
-  position: absolute; top: 0; left: 0;
-}
-
-#team-sheet img.hd-logo {
-  height:   0.600in; width: auto; 
-  position: absolute; top: 0; right: 0;
-}
+#team-sheet img.clu-logo { height: 0.600in; width: auto; position: absolute; top: 0; left:  0; }
+#team-sheet img.hd-logo  { height: 0.600in; width: auto; position: absolute; top: 0; right: 0; }
 
 #team-sheet .hd-logo-copy { /* copyright notice */
   transform-origin: top right;
@@ -48,26 +38,19 @@ h6 { font-size: var(--h6); font-family: var(--font-h6); }
   font-family:      var(--font);
 }
 
-#team-sheet > ul > li > span.field { 
-  position:      relative;
-  height:        0.25in;
-  border-bottom: 0.5pt solid black;
-}
-
 /* members ======================================================================================= */
 
-#team-sheet > .members.section { column-count: 2; column-gap: 8pt; }
+#team-sheet > .members      { column-count: 2; column-gap: 8pt; }
+#team-sheet > .members > ul { background: silver;               }
 
-#team-sheet > .members.section > ul > li { 
-  border-radius: 0.0625in 0.0625in;
-  border:        0.5pt solid black;
-  height:        0.125in; 
-  position:      relative;
-  display:       block;
+#team-sheet > .members > ul > li { 
+  border-radius: 0.0625in 0.0625in; border: 0.5pt solid black;
+  height:        0.25in;            position: relative; display: block;
+  background:    black;             color: white;
 }
 
-#team-sheet > .members.section > ul > li > span { 
-  background-color: silver; 
+#team-sheet > .members > ul > li > span { 
+  background-color: white;
   border:           0.5pt solid var(--color-sheet-light); 
   height:           0.125in; 
   display:          inline-block; 
@@ -76,31 +59,30 @@ h6 { font-size: var(--h6); font-family: var(--font-h6); }
   font-family:      var(--font-sheet-2); font-size: var(--sheet-tiny);
 }
 
-#team-sheet > .members.section > ul > li > span:before {
+#team-sheet > .members > ul > li > span:before {
   display:     block; position: absolute; top: 0; left: 0; right: 0;
   font-family: var(--font-sheet-2); font-size: var(--sheet-tiny);
   border:      0.5pt solid var(--color-sheet-light);
   background:  gray;
-  content:     "*";
 }
 
-#team-sheet > .members.section > ul > li > span:after {
+#team-sheet > .members > ul > li > span:after {
   text-align:  center; display: block; position: absolute;
   left:        0; right: 0; bottom: 0;
   color:       var(--color-sheet-dark);
   font-size:   var(--sheet-box); font-family: var(--font-sheet-box);
 }
 
-#team-sheet > .members.section > ul > li > span:nth-child(1)        { width: 1in;             }
-#team-sheet > .members.section > ul > li > span:nth-child(2)        { width: 2in;             }
-#team-sheet > .members.section > ul > li > span:nth-child(3)        { width: 1in;             }
-#team-sheet > .members.section > ul > li > span:nth-child(4)        { width: 0.5in;           }
-#team-sheet > .members.section > ul > li > span:nth-child(1):before { content: "Founder?";    }
-#team-sheet > .members.section > ul > li > span:nth-child(2):before { content: "Member Name"; }
-#team-sheet > .members.section > ul > li > span:nth-child(3):before { content: "Class";       }
-#team-sheet > .members.section > ul > li > span:nth-child(4):before { content: "Core Class?"; }
-#team-sheet > .members.section > ul > li > span:nth-child(1):after  { content: '\002610';     }
-#team-sheet > .members.section > ul > li > span:nth-child(4):after  { content: '\002610';     }
+#team-sheet > .members > ul > li > span:nth-child(1)        { width: 1in;             }
+#team-sheet > .members > ul > li > span:nth-child(2)        { width: 2in;             }
+#team-sheet > .members > ul > li > span:nth-child(3)        { width: 1in;             }
+#team-sheet > .members > ul > li > span:nth-child(4)        { width: 0.5in;           }
+#team-sheet > .members > ul > li > span:nth-child(1):before { content: "Founder?";    }
+#team-sheet > .members > ul > li > span:nth-child(2):before { content: "Member Name"; }
+#team-sheet > .members > ul > li > span:nth-child(3):before { content: "Class";       }
+#team-sheet > .members > ul > li > span:nth-child(4):before { content: "Core Class?"; }
+#team-sheet > .members > ul > li > span:nth-child(1):after  { content: '\002610';     }
+#team-sheet > .members > ul > li > span:nth-child(4):after  { content: '\002610';     }
 
 /* basics =========================================================================================== */
 
@@ -119,9 +101,7 @@ h6 { font-size: var(--h6); font-family: var(--font-h6); }
 #team-sheet > .header > .basics.line > ul > li:nth-child(2) { width: 1.50in;         }
 #team-sheet > .header > .basics.line > ul > li:nth-child(3) { width: 0.625in;        }
 
-#team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
-  font-size: var(--body); font-family: var(--font-header);
-}
+#team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) { font-size: var(--body); font-family: var(--font-header); }
 
 #team-sheet :matches(h1, h2, h3, h4, h5, h6) { text-align: center; }
 
