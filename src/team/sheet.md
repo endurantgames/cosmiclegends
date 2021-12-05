@@ -30,11 +30,11 @@
 
 ## Team Members
 
-- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
-- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
-- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
-- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
-- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
+- [.]{} []{} []{} []{}
+- [.]{} []{} []{} []{}
+- [.]{} []{} []{} []{}
+- [.]{} []{} []{} []{}
+- [.]{} []{} []{} []{}
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy} \
