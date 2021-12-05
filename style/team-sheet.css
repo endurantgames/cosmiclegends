@@ -13,146 +13,144 @@ header h1     { string-set: gamename content();    }
 @page teamsheet { @bottom-center { content: normal; } }
 @page teamsheet { background: white; }
 
-#team-sheet .gear > ul { margin-left:  0; }
-#team-sheet .gear > li { padding-left: 0; }
+h1 { font-size: var(--h1); font-family: var(--font-h1); }
+h2 { font-size: var(--h2); font-family: var(--font-h2); }
+h3 { font-size: var(--h3); font-family: var(--font-h3); }
+h4 { font-size: var(--h4); font-family: var(--font-h4); }
+h5 { font-size: var(--h5); font-family: var(--font-h5); }
+h6 { font-size: var(--h6); font-family: var(--font-h6); }
+
+#team-sheet ul { margin: 0; padding: 0; }
+#team-sheet li { margin: 0; padding: 0; list-style-type: none; }
 
 #team-sheet .sheet-box {
-  width:   100%;
+  width:   100%; height: 1in;
   display: block;
-  height:  1in;
   border:  0.5pt solid black;
   content: " ";
 }
 
 #team-sheet img.clu-logo {
-  height:   0.600in;
-  width:    auto;
-  position: absolute;
-  top:      0;
-  left:     0;
+  height:   0.600in; width: auto; 
+  position: absolute; top: 0; left: 0;
 }
 
 #team-sheet img.hd-logo {
-  height:   0.600in;
-  width:    auto;
-  position: absolute;
-  top:      0;
-  right:    0;
+  height:   0.600in; width: auto; 
+  position: absolute; top: 0; right: 0;
 }
 
-#team-sheet .hd-logo-copy {
+#team-sheet .hd-logo-copy { /* copyright notice */
   transform-origin: top right;
   transform:        rotate(-90deg);
   position:         absolute;
-  right:            0.00in;
-  top:              0.00in;
+  right:            0; top: 0;
   color:            var(--color-sheet-light);
   font-size:        var(--sheet-tiny);
   font-family:      var(--font);
 }
 
-#team-sheet ul { margin: 0; padding: 0; }
-#team-sheet li { margin: 0; padding: 0; list-style-type: none; }
-
-#team-sheet > .membership.section > ul > li {
+#team-sheet > ul > li > span.field { 
+  position:      relative;
   height:        0.25in;
   border-bottom: 0.5pt solid black;
 }
 
-#team-sheet > ul > li > span.field { position: relative;
-  height:        0.25in;
-  border-bottom: 0.5pt solid black;
+/* members ======================================================================================= */
+
+#team-sheet > .members.section { column-count: 2; column-gap: 8pt; }
+
+#team-sheet > .members.section > ul > li { 
+  border-bottom: 0.25pt solid var(--color-sheet-light); 
+  height:        0.125in; 
+  position:      relative;
+  border:        0.5pt solid var(--color-sheet-light);
+  border-radius: 0.0625in 0.0625in;
+  display:       block;
 }
 
-#team-sheet > .membership.section > ul > li > span.field:before {
-  position:  absolute;
-  top:       0;
-  left:      0;
-  font-size: var(--sheet-tiny);
-  content:   "boop";
+#team-sheet > .members.section > ul > li > span { 
+  background-color: silver; 
+  border:           0.5pt solid var(--color-sheet-light); 
+  height:           0.125in; 
+  display:          inline-block; 
+  width:            0.75in;
+  display:          inline-block; position: absolute; top: 0; left: 0; right: 0;
+  font-family:      var(--font-sheet-2); font-size: var(--sheet-tiny);
 }
 
-#team-sheet > .membership.section > ul > li > span.field.box:after {
-  text-align: center;
-  display:    block;
-  position:   absolute;
-  left:       0;
-  right:      0;
-  bottom:     0;
-  color:      var(--color-sheet-dark);
-  font-size:  var(--sheet-box);
-  content:    '\002610';
+#team-sheet > .members.section > ul > li > span:before {
+  display:     inline-block; position: absolute; top: 0; left: 0; right: 0;
+  font-family: var(--font-sheet-2); font-size: var(--sheet-tiny);
+  border:      0.5pt solid var(--color-sheet-light);
+  background:  gray;
 }
 
-#team-sheet > .membership.section > ul > li > span.field.founder:before { content: "Founder?"    }
-#team-sheet > .membership.section > ul > li > span.field.member:before  { content: "Member Name" }
-#team-sheet > .membership.section > ul > li > span.field.class:before   { content: "Core Class?" }
+#team-sheet > .members.section > ul > li > span:after {
+  text-align:  center; display: block; position: absolute;
+  left:        0; right: 0; bottom: 0;
+  color:       var(--color-sheet-dark);
+  font-size:   var(--sheet-box); font-family: var(--font-sheet-box);
+}
 
-#team-sheet > .header > ul > li > span.field { 
+#team-sheet > .members.section > ul > li > span:nth-child(1)        { width: 1in;   }
+#team-sheet > .members.section > ul > li > span:nth-child(2)        { width: 2in;   }
+#team-sheet > .members.section > ul > li > span:nth-child(3)        { width: 1in;   }
+#team-sheet > .members.section > ul > li > span:nth-child(4)        { width: 0.5in; }
+/*
+#team-sheet > .members.section > ul > li > span:nth-child(1):before { content: "Founder?";    }
+#team-sheet > .members.section > ul > li > span:nth-child(2):before { content: "Member Name"; }
+#team-sheet > .members.section > ul > li > span:nth-child(3):before { content: "Class";       }
+#team-sheet > .members.section > ul > li > span:nth-child(4):before { content: "Core Class?"; }
+#team-sheet > .members.section > ul > li > span:nth-child(1):after  { content: '\002610';     }
+#team-sheet > .members.section > ul > li > span:nth-child(4):after  { content: '\002610';     }
+*/
+
+
+/* basics =========================================================================================== */
+
+#team-sheet > .header > .basics.line > ul > li { 
+  border:        0.5pt solid var(--color-sheet-light);
+  border-radius: 0.25in 0.25in;
   display:       inline-block; 
-  border-bottom: 0.5pt solid black; 
+  color:         var(--color-sheet-dark);
+  height:        0.50in; padding-left:  0.25in;
+  display:       inline-block; 
+  font-size:     var(--sheet-tiny); font-family: var(--font-sheet-2); 
 }
 
-#team-sheet span.field { 
-  display:     inline-block; 
-  font-size:   var(-small); 
-  font-family: var(--font-sheet-2); 
-}
-
-#team-sheet > .header > .team-basics.line > ul > li > span.field.team-name   { width: 50%; }
-#team-sheet > .header > .team-basics.line > ul > li > span.field.team-class  { width: 20%; }
-#team-sheet > .header > .team-basics.line > ul > li > span.field.team-volume { width: 25%; }
-
-#team-sheet > .header > .line {
-  margin-top:     8pt;
-  padding-top:    4pt;
-  padding-bottom: 4pt;
-  margin-bottom:  8pt;
-  display:        block;
-  position:       relative;
-  /*
-  border-top:     0.5pt solid black;
-  border-bottom:  0.5pt solid black;
-  */
-}
+#team-sheet > .header > .basics.line > ul > li              { display: inline-block; }
+#team-sheet > .header > .basics.line > ul > li:nth-child(1) { width: 2.50in;         }
+#team-sheet > .header > .basics.line > ul > li:nth-child(2) { width: 1.50in;         }
+#team-sheet > .header > .basics.line > ul > li:nth-child(3) { width: 0.625in;        }
 
 #team-sheet > .header > .line :matches(h1, h2, h3, h4, h5, h6) {
-  font-size:   var(--body);
-  font-family: var(--font-header);
-  /*
-  position:    absolute; 
-  top:         0; 
-  left:        0;
-  */
+  font-size:   var(--body); font-family: var(--font-header);
 }
 
 #team-sheet :matches(h1, h2, h3, h4, h5, h6) { text-align: center; }
 
-#team-sheet > .header > .line.team-approach-line > ul > li {
-  display: inline-block;
-}
+/* team-approach ==================================================================================== */
 
-#team-sheet > .header > .line.team-approach-line > ul > li > span.field.action    { color: var(--color-action);    }
-#team-sheet > .header > .line.team-approach-line > ul > li > span.field.adventure { color: var(--color-adventure); }
-#team-sheet > .header > .line.team-approach-line > ul > li > span.field.detective { color: var(--color-detective); }
-#team-sheet > .header > .line.team-approach-line > ul > li > span.field.mystery   { color: var(--color-mystery);   }
-#team-sheet > .header > .line.team-approach-line > ul > li > span.field.suspense  { color: var(--color-suspense);  }
+#team-sheet > .header > .line.approach > ul > li                  { display: inline-block;           }
+#team-sheet > .header > .line.approach > ul > li > span.action    { color:   var(--color-action);    }
+#team-sheet > .header > .line.approach > ul > li > span.adventure { color:   var(--color-adventure); }
+#team-sheet > .header > .line.approach > ul > li > span.detective { color:   var(--color-detective); }
+#team-sheet > .header > .line.approach > ul > li > span.mystery   { color:   var(--color-mystery);   }
+#team-sheet > .header > .line.approach > ul > li > span.suspense  { color:   var(--color-suspense);  }
 
-#team-sheet > .header > .line.team-approach-line > ul { text-align: center; }
+#team-sheet > .header > .line.approach > ul { text-align: center; }
 
-#team-sheet > .header > .line.team-approach-line > ul > li > span {
-  width:         0.75in; 
-  margin-right:  3.00pt;
-  margin-left:   3.00pt;
-  padding-top:   3.00pt;
-  height:        0.65in;
-  border:        0.50pt solid black;
+#team-sheet > .header > .line.approach > ul > li > span {
+  width:         0.90in; height: 0.65in;
+  display:       inline-block;
+  margin-right:  2pt; margin-left: 2pt; padding-top: 2pt;
   text-align:    center;
-  font-size:     var(--sheet);
+  font-size:     var(--sheet); font-family:   var(--font-h4);
+  border:        0.50pt solid black;
   border-radius: var(--border-radius);
-  box-shadow:    var(--box-shadow) var(--color-shadow);
+  box-shadow:    var(--box-shadow) /* var(--color-shadow) */;
 }
 
-#team-sheet > .body { column-count: 2; column-gap: 8pt; }
+/* ================================================================================================== */
 
-#team-sheet > .team-basics { display: none; }

@@ -8,22 +8,35 @@
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::: { .team-basics .line } ::::::
+:::: { .basics .line } ::::::
 - [Team Name]{.team-name   .field}
 - [Class    ]{.team-class  .field}
 - [Volume   ]{.team-volume .field}
 ::::::::::::::::::::::::::::::::::
 
-:::::::::: { .team-approach-line .line } ::::::::::::::::::::::::::::::::::::
+:::::::::: { .approach .line } ::::::::::::::::::::::::::::::::::::
+
 ## Team Approaches
 
-- [Action   ]{ .team-approach .action    .field }
-- [Adventure]{ .team-approach .adventure .field }
-- [Detective]{ .team-approach .detective .field }
-- [Mystery  ]{ .team-approach .mystery   .field }
-- [Suspense ]{ .team-approach .suspense  .field }
+- [Action   ]{.approach .action    .field}
+- [Adventure]{.approach .adventure .field}
+- [Detective]{.approach .detective .field}
+- [Mystery  ]{.approach .mystery   .field}
+- [Suspense ]{.approach .suspense  .field}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+:::::::::: { .members .section } :::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Team Members
+
+- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
+- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
+- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
+- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
+- [Founder?]{} [Member Name]{} [Class]{} [Core Class?]{}
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy} \
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
