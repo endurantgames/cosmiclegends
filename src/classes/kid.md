@@ -13,32 +13,7 @@ you can use to switch up your moves from Hero Phase to Hero Phase.
 As you create your Kid hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
-- How do you look different from normal humans? 
-  - How much larger (or smaller) are you than other people? 
-  - What color is your skin, and what does it feel and look like? 
-  - What kind of strange appearance do you have that makes the ignorant 
-    assume you're just an animalistic brute?
-  - What does your voice sound like, and what kind of vocabulary do 
-    you employ?
-- Are you *always* a kid?  
-  (If not, then you may want to consider playing your hero as 
-   <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
-   for heroes who magically transform from child form to an adult shape!)
-  - If not, what triggers that change? 
-    Is it an emotional state, a substance, a situation, a magic word,
-    or your own free will? 
-  - How do you get along with adult heroes? Do you look up to them as
-    role models? Do they usually talk down to you?
-  - In what ways are you less mature than the average hero?
-  - In what ways are you more mature than the average hero?
-  - Were you *always* a hero? How did you become one? Why did you
-    become one?
-  - Do you have any other friends your age, or do you just associate with
-    adult heroes?
-- What kind of interests do you have that surprise other people? 
-  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
+- ***To Be Determined***
 ::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
@@ -88,174 +63,8 @@ Your Core Power Words are **Youthful** and **Exuberance**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
-::::::::::::: cpw :::::::
-#### Totem Nature Core Power Words
-
-- Bugs
-  - Spider (Black Widow)
-  - Spider (Recluse)
-  - Spider (Tarantula)
-  - Insect (Ant)
-  - Insect (Scorpion)
-  - Insect (Fly)
-  - Insect (Bee)
-  - Insect (Butterfly)
-  - Insect (Moth)
-  - Insect (Roach)
-  - Insect (Wasp)
-  - Insect (Hornet)
-  - Insect (Yellowjacket)
-- Reptiles
-  - Alligator
-  - Crocodile
-  - Dinosaur 
-    - Pterodon
-    - Stegosaur
-    - T-Rex
-  - Lizard   
-    - Chameleon
-    - Iguana
-  - Snake
-    - Asp
-    - Cobra
-    - Python
-    - Rattlesnake
-    - Viper
-  - Tortoise
-  - Turtle
-- Mythological
-  - Dragon
-    - Hydra
-    - Wyrm
-    - Wyvern
-  - Pegasus
-  - Sphinx
-  - Unicorn
-- Felines
-  - Cheetah
-  - Cougar / Puma
-  - Housecat
-  - Lion
-  - Panther
-  - Smilodon
-  - Tiger
-- Bird
-  - Chicken / Hen
-  - Dove
-  - Eagle
-  - Falcon
-  - Hawk
-  - Ostrich
-  - Owl
-  - Rooster
-  - Turkey
-  - Vulture
-- Amphibians
-  - Frog
-  - Newt
-  - Salamander
-  - Toad
-- Fish
-  - Barracuda
-  - Clam
-  - Crab
-  - Eel
-  - Fish
-  - Lobster
-  - Merfolk
-  - Moray
-  - Octopus
-  - Pirhanna
-  - Sea Horse
-  - Shark
-  - Squid (or Kraken)
-  - Starfish
-- Marsupials
-  - Kangaroo
-  - Koala
-- Mammals
-  - Elephant
-    - Mammoth
-    - Mastodon
-    - Pachyderm
-  - Minotaur
-    - Goat (or Satyr)
-    - Bull (or Minotaur)
-    - Cow  (or Minotaur)
-  - Monkey
-    - Ape
-    - Chimp
-    - Gorilla
-    - Gibbon
-  - Pig
-    - Boar
-    - Hog
-  - Deer or Stag
-  - Moose
-  - Elk
-  - Horse
-    - Alicorn
-    - Centaur
-    - Hippopotamus
-    - *Pegasus*
-    - Unicorn
-  - Rhino
-  - Wolverine
-  - Canines
-    - Coyote
-    - Dog
-      - Mastiff
-      - Hound
-      - Wolf
-      - Dingo
-    - Fox
-    - Jackal
-  - Bear
-    - Black
-    - Brown
-    - Grizzly
-    - Panda
-    - Polar
-  - Rodent
-    - Badger
-    - Bat
-    - Mongoose
-    - Mouse
-    - Otter
-    - Porcupine
-    - Rabbit
-      - Bunny
-      - Jackrabbit
-      - Hare
-    - Raccoon
-    - Rat
-    - Skunk
-    - Squirrel
-    - Weasel
-      - Ermine
-      - Mink
-      - Stoat
-  - Otter
-  - Whale
-    - Orca
-    - Dolphin
-    - Porpoise
-- Environment
-  - Coral
-  - Desert
-  - Jungle
-  - Mire
-  - Peaks
-  - Sea
-  - Tundra
-  - Void (space)
-- Plant 
-  - Flower
-    - (specific)
-  - Tree
-    - (specific)
-  - Vine
-    - (specific)
+:::::::::: cpw ::::::::
+:::::::::::::::::::::::
 
 ### Personal Power Words
 
@@ -447,6 +256,21 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 
+Squire
+:    You have the potential and training to become a Knight. You
+     have a variant of the Knight Hero Class's *Peak Human Potential*
+     Prime Ability.
+
+     [Knight]{.crossover}
+     Choose one additional Fighting Style, and one additional Skill
+     of your choice.
+
+     Instead of choosing a Kid Class Ability of Volume 3 or higher, you
+     can choose a Knight Class Ability of the same or lower volume.
+     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
+     *Tactical Mastery (3rd)* are among the most applicable
+     Knight Class Abilities to consider.
+
 TBD
 :    To Be Determined
 
@@ -463,7 +287,8 @@ Combo, or 2 Might to add both.
 #### Kid Class Personal Power Words List {#list-class-kid-personal-power-words}
 
 Choose six Personal Power Words from the following list:
-::::::::::::: cpw :::::::
+
+::::::::::::: cpw :::::::::::::::
 
 - Creative
 - Curious
@@ -478,7 +303,7 @@ Choose six Personal Power Words from the following list:
 - Trusting
 - Witty
 - Young
-:::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
 
 ### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
 
@@ -510,6 +335,26 @@ Knowing is Half the Battle
 :   At the end of an issue, you can do a solo Vignette wherein you 
     summarize the events of the last Crisis, and relate them to one or 
     more of your ideals.  When you do so, you can Mark those ideals.
+
+Intelligent Pet
+
+:   *Prerequisite: You must have the __Pet__ class ability.*
+    Your pet is smarter than an average animal of that type. It can
+    communicate intelligently in one language that you choose when
+    you gain this class ability, although its voice is clearly
+    non-human. 
+
+    In addition, choose a second Skill possessed by
+    the Pet, and one Approach. Whenever your Pet is present at a
+    Crisis, add 3 dice whenever you make a roll using the chosen
+    Approach.
+
+    This is __not__ a *Pet* Ability.
+
+Youthful Power
+
+:   You are a storehouse of indefatiguable energy. Increase your maximum 
+    Might by 5.
 
 Mentor
 
@@ -573,26 +418,6 @@ Magical Familiar
     can.
 
     This is __not__ a *Pet* Ability.
-
-Intelligent Pet
-
-:   *Prerequisite: You must have the __Pet__ class ability.*
-    Your pet is smarter than an average animal of that type. It can
-    communicate intelligently in one language that you choose when
-    you gain this class ability, although its voice is clearly
-    non-human. 
-
-    In addition, choose a second Skill possessed by
-    the Pet, and one Approach. Whenever your Pet is present at a
-    Crisis, add 3 dice whenever you make a roll using the chosen
-    Approach.
-
-    This is __not__ a *Pet* Ability.
-
-Youthful Power
-
-:   You are a storehouse of indefatiguable energy. Increase your maximum 
-    Might by 5.
 
 Youthful Relatability
 

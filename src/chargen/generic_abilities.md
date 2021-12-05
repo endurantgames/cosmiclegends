@@ -29,6 +29,15 @@ Arsenal
     during the current Storyline without paying any Might.
     This is an *Arsenal* Ability.
 
+Break the Fourth Wall
+:   Your hero knows they're in a comic book -- or, if you'd like, in a 
+    tabletop roleplaying game based on a comic book. (Or possibly even in
+    a movie or television show based on a superhero comic book.)
+
+    When you roll to advance the Outwit goal, if you reference this
+    meta-knowledge in a nonsensical way, count all 4s, 5s, or 6s as 
+    successes.
+
 Dependable Allies
 :   You have a network of normal people upon whom you can rely for help. While 
     they're not quite at the level of a Knight or an Expert, they all have 
@@ -138,15 +147,6 @@ Hero Cave
 
     This is a *Hero Cave* Ability.
 
-Break the Fourth Wall
-:   Your hero knows they're in a comic book -- or, if you'd like, in a 
-    tabletop roleplaying game based on a comic book. (Or possibly even in
-    a movie or television show based on a superhero comic book.)
-
-    When you roll to advance the Outwit goal, if you reference this
-    meta-knowledge in a nonsensical way, count all 4s, 5s, or 6s as 
-    successes.
-
 Hero Without Fear
 :   You are completely fearless. If you are exposed to any fear-
     based effects, spend 1 Might to counter that use for you only.
@@ -253,6 +253,29 @@ Fighting Pose
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
+Ageless
+
+:   ***Special Note:** If you are of the __Construct__, __Divine__,
+    __Haunt__, or __Hellspawn__ classes, you can take an additional
+    Ability of Volume 3 or lower when you select this Ability. That
+    free ability must be one you could normally choose; i.e., from your
+    class or a generic ability, for which you qualify.*
+
+    You can add *Ageless* as a Personal Power Word.
+
+    You don't age over time -- or if you do, you only do so very slowly. 
+    Your natural lifespan, if you are indeed alive, is measured in 
+    hundreds or thousands of years.
+
+    Once per Crisis, you can counter any aging-associated Crisis Move 
+    that affects you without spending any Might or successes from the 
+    Teamwork Pool. For example, you can ignore an "old age ray" from a 
+    time-themed supervillain.
+
+    It's possible that you're hundreds or even thousands of years old.
+    If you decide that you're over 100 years old, add the Historian
+    skill for free.
+
 Superhero Soundtrack
 
 :   You have a theme song, or at least, a set of songs that inspire
@@ -292,10 +315,6 @@ Weirdness Magnet
     If you use this Ability, add 3 dice when you roll to create the initial 
     Teamwork Pool.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Generic Hero Abilities {#list-generic-hero-abilities-v4}
@@ -307,6 +326,7 @@ Arch-Enemy
 
 :   *Prerequisite: If you have the __Rogues' Gallery__ Class Ability, your 
     Arch-Enemy __cannot__ be part of it.*
+
     You have one particular opponent who returns time after time to bedevil you
     and the innocent people of the world. This villain could be just a dark 
     copy of yourself, with nearly identical abilities, or their own powers,
@@ -320,14 +340,13 @@ Arch-Enemy
     Because of your familiarity in opposing each other, you add 2 to the 
     Effectiveness of any roll you make to advance one of the goals opposed by
     that member of your Rogues' Gallery. You also add 2 to the Effectiveness
-    of any Skill roll that could benefit from your familiarity with this dastardly
-    criminal, 
-    such as gathering clues to their motives or analyzing any equipment you've 
-    confiscated from them.
+    of any Skill roll that could benefit from your familiarity with these
+    dastardly criminals, such as gathering clues to their current motives or 
+    analyzing any equipment you've confiscated from them.
     
-    In addition, increase by 2 the cost from the Teamwork Pool to avoid any 
+    In addition, increase by 1 the cost from the Teamwork Pool to avoid any 
     Crisis Move that is directed only at you -- they're *prepared* for your 
-    interference, do-gooder!
+    interference, accursed do-gooder!
 
     Each time that you (personally) advance a goal during that Crisis, you can
     choose to mark one or two of your unmarked Ideals.
@@ -340,6 +359,7 @@ Rogues' Gallery
 
 :   *Prerequisite: If you have the __Arch Enemy__ Class Ability, your 
     Arch-Enemy __cannot__ be part of your Rogues' Gallery.*
+
     You have a consistent set of foes against whom you regularly strive, and
     a kind of gruding, love-hate, quasi-professional relationship has arisen 
     between you and the members of your Rogues' Gallery.
@@ -360,14 +380,13 @@ Rogues' Gallery
     Because of your familiarity in opposing each other, you add 1 to the 
     Effectiveness of any roll you make to advance one of the goals opposed by
     that member of your Rogues' Gallery. You also add 1 to the Effectiveness
-    of any Skill roll that could benefit from your familiarity with this dastardly
-    criminal, 
-    such as gathering clues to their motives or analyzing any equipment you've 
-    confiscated from them.
+    of any Skill roll that could benefit from your familiarity with this 
+    dastardly criminal, such as gathering clues to their current motives or 
+    analyzing any equipment you've confiscated from them.
     
-    In addition, increase by 1 the cost from the Teamwork Pool to avoid any 
+    In addition, increase by 2 the cost from the Teamwork Pool to avoid any 
     Crisis Move that is directed only at you -- they're *prepared* for your 
-    interference, do-gooder!
+    interference, accursed do-gooder!
 
     Each time that you (personally) advance a goal during that Crisis, you can
     choose to mark one of your unmarked Ideals.

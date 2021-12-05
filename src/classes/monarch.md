@@ -168,29 +168,70 @@ At the start of Volume 1, choose two abilities from this list.
 ::::::: {.ability-list .v1 } ::::::::
 Exotic Weaponry
 
-:   The weapons from your home use a technology that defies
+:   *Prerequisite:  You can't have another __Arsenal__ ability.*
+    The weapons from your home use a technology that defies
     conventional explanation. 
+
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Mage Personal Power Words lists
     equal to the Volume.
+
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
+
+    This is an *Arsenal* ability.
+
+Loyal Subjects
+
+:   *Note: This is a variant of the __Dependable Allies__ Generic
+    Ability.*
+    You have a network of citizens upon whom you can rely for help. While
+    they're not quite at the level of a Knight or an Expert, they all have
+    at least one special talent that assists you in fighting crime, and are
+    sworn to keep your secrets (if you have any).
+
+    Included with this Ability is a reliable and discreet way to contact your
+    subjects. As a Move during the Hero Phase of a Crisis, you can spend 1 Might
+    to contact one or all of your Loyal Subjects.
+
+    When you first gain this Ability, create a list of subjects, with a number of
+    entries on the list equal to the Volume. Add an additional subject before each
+    subsequent Volume.
+
+    Each subject is defined by three qualities: First, their name. Secondly, their
+    favored Approach. And thirdly, a Skill that defines their expertise and/or
+    "day job."
+
+    For example, you could create a photojournalist named James Bartholomew and
+    assign him "Action" as a favored Approach, and Journalist as his skill.
+
+    Any subject you call in has a score of 1 for all Approaches save their favored
+    Approach (which is a 4), a maximum Might score equal to the Volume, and a
+    maximum Health score equal to the Volume.
+
+    Without spending any Might to contact one or more Loyal Subjects, you
+    can freely propose a Vignette between your Hero and one of your Subjects.
 
 Noblesse Oblige
 
 :   You feel an obligation to protect the ordinary people of the world. 
+
     Add 2 to the dice pool to advance the Rescue goal. 
-    If the bystanders are your subjects, also add the Volume to the dice pool.
+    If the bystanders are from your kingdom, also add the Volume to the dice 
+    pool.
 
 Remote Palace
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    You have a hidden base of operations somewhere in your distant 
-    monarchy. 
+
+    You have a hidden base of operations somewhere in your distant monarchy. 
+
     Add 2 dice whenever you make a skill roll while in your Palace.
-    Choose two Scene Power Words for your Palace from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+
+    Choose two Scene Power Words for your Palace from
+    [](#list-hero-cave-power-words){.list-link}. 
+    In addition, choose one of the following as a third Scene Word:
+
     ::::::: cpw :::::::::::::
     #### Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
 
@@ -198,16 +239,13 @@ Remote Palace
     - Fortress
     - Opulent
     :::::::::::::::::::::::::
+
     This is a *Hero Cave* Ability.
 
 Righteous Rage
 
-:   If you are below half Health, add 2 to the dice pool to 
-    advance the Smash goal.
-
-TBD
-
-:   To be determined.
+:   If you are below half Health, add 2 to the dice pool to advance the 
+    Smash goal.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -216,17 +254,37 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
+Divine Right of Kings
+
+:   Your rule is blessed by the gods of your homeland. When you use your
+    Core or Nova Power Words in a Power Display, Stunt, or Combo, you can
+    count 5s as two successes instead of 1.
+
+    [Divine]{.crossover}
+    If you do, lose either 1 Health or 1 Might after your roll, regardless
+    of how many extra successes you gained.
+
+    This is a variant of the Divine Hero Class's *Give Me Strength!* prime
+    class ability.
+
 Monarch's Benevolence
 
 :   Your favor is freely bestowed as a boon to those in need.
     Add 2 to the dice pool when you advance the Allay goal.
-    If the source of the Crisis is one of your subjects, 
-    also add the Volume to the dice pool.
+
+    If the source of the Crisis is from your kingdom, also add 
+    the Volume to the dice pool.
 
 Palace of the Privileged
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     This is a *Hero Cave* Ability.
+
+    ::::::::::: cpw :::::::::::::
+    - ***To Be Determined.***
+    - ***To Be Determined.***
+    - ***To Be Determined.***
+    :::::::::::::::::::::::::::::
 
 Unfamiliar Fighting Techniques
 
@@ -247,12 +305,13 @@ Inspiring Leadership
 
 :   Others follow your directions based on your force of personality,
     tactical acumen, or keen insight.
-    Whenever another hero adds to the Teamwork pool, your
-    leadership gives them a number of bonus dice equal to the Volume.
+
+    Whenever another hero adds to the Teamwork pool, your leadership 
+    gives them a number of bonus dice equal to the Volume.
 
 Soul of the Land
 
-:   Whenever you are in your home, you can draw upon your
+:   Whenever you are in your homeland, you can draw upon your
     connection to the land. 
 
     Add *Land* and *Soul* as Personal Power Words; when you use one 
@@ -266,17 +325,17 @@ Soul of the Land
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
+Avenging Monarch
+
+:   No slight goes unpunished. If someone has harmed you or your home during
+    the current Crisis, add 1 to the Effectiveness whenever you advance the 
+    Smash goal against them.
+
 Unkillable
 
 :   As long as your home is imperiled, you can't be killed. If you're
     reduced to 0 Health or 0 Might while defending your home, regain 1
     point of each at the start of the next Hero Phase.
-
-Vengeance is Mine
-
-:   No slight goes unpunished. If someone has harmed you or your home,
-    add 1 to the Effectiveness whenever you advance the Smash goal against 
-    them.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -289,17 +348,20 @@ Bestow Citizenship
 
 :   You can make someone an honorary member of your home -- which also
     bestows a boon upon them, possibly even a supernatural one. 
-    Choose two of your Power Words. Until the 
-    end of the current Storyline, they gain those Words as Personal 
-    Power Words. You can only do this once per Storyline, although you
-    can reaffirm someone's status in a later Storyline, if you wish.
+
+    Choose two of your Power Words. Until the end of the current Storyline, 
+    they gain those Words as Personal Power Words. 
+
+    You can only do this once per Storyline, although you can choose to
+    reaffirm someone's status in a later Storyline, if you wish.
 
 Force of the Land
 
 :   You can call upon the energy of your home -- mystical, inspirational,
-    or physical -- to end a threat. As a move, you can spend 1 Might to
-    fully Advance one goal of a Crisis that threatens your home. You can
-    do this only once for each Crisis.
+    or physical -- to end a threat. 
+
+    As a move, you can spend 1 Might to fully Advance one goal of a Crisis 
+    that threatens your home. You can do this only once for each Crisis.
 
 :::::::::::::::::::::::::::::::::::::
 

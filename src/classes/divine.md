@@ -115,8 +115,8 @@ Choose six Personal Power Words from the following list:
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+You can use two Power Personal Words together to form a **Power Stunt** 
+or **Power Combo** by paying 1 Might for each beyond the first.
 
 ### Nova Power
 
@@ -124,8 +124,9 @@ Choose any two to four single words you like; these are your **Nova Power Words*
 When you check off all your Ideals, your Nova Power Words are **Unlocked**
 until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include a second Nova Power Word as well.
+You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+you can include more Nova Power Words by paying 1 Might for each beyond the
+first.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}

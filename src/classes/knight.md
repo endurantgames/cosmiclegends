@@ -341,7 +341,7 @@ Dread Creature of the Night
 
     You have a variant of Totem Class's 
     *_Does Whatever a Totem Can_ Class Ability*,
-    *Does Some Things a Totem Can Do*:
+    *Does Many Things a Totem Can Do*:
     When you use your Nature Core Power Word in a Power Stunt or 
     Combo roll, add 2 dice as if you had a skill or fighting style
     that applies to such a use.
@@ -377,17 +377,6 @@ Vehicle Customization
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-Change the Course of Mighty Rivers
-
-:   []{.move .hero} As a move during the Hero Phase, you can roll a 
-    Power Display, Stunt, or Combo to affect the Scene. 
-
-    Choose a number of Scene
-    Power Words equal to the Effectiveness of the roll; those Scene
-    Power Words don't exist (and can't be used by you, the Editor's
-    characters, or any other Heroes) until the end of the current
-    Crisis, after which the Scene reset to normal.
-
 Super-Patriot
 :   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
     a Volume 5 Knight Ability, you can choose a Volume 5 or lower
