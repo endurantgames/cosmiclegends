@@ -1,0 +1,124 @@
+- metadata
+  - yaml_version: 1.2
+  - x-format: group
+  - title: &title Cosmic Legends of the Universe
+  - anchor: setting-clotu
+
+- group
+  - Type of Group: Superhero Team
+  - Base of Operations: [Sun City, U.S.A., Technopolis, U.S.A. (former base), Mag Findargat, Otherworld (temporary base), Pittsburgh, Pennsylvania (former base)]
+  - Active Members: [Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0]
+  - Reserve Members: [The Grailknight, Jack Dee, Obsidius Rex, Titan]
+  - Former Members: [Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled), Vespa I (deceased), Zaar]
+  - Allies: [A.L.E.R.T., The Junior Legends of America, N.O.V.A. Labs, Technopolis Academy]
+  - Enemies: [A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, The Visitors, Villains Inc., Xana Mega]
+  
+- history >
+  The Cosmic Legends of the Universe were founded in September 1963 by 
+  Titan, the Sentinel of Saturn;
+  Sir Percival, the Grailknight;
+  Miss Magister: Maddie Dee;
+  Sequana, Champion of the Tuatha Dé Danann;
+  Vespa (I); 
+  and the Falconer.
+
+  They came together to fight against the invasion of Earth by 
+  Fomorians under the control of Xana Mega, faerie queen of the 
+  Aos Sí.
+
+  Although their membership has changed over the decades, they remain
+  committed to protecting the Earth from the forces of evil.
+
+- member-list
+  - Brigantia
+    - gender: female
+    - c.f.: Brigantia
+    - active: yes
+    - founder: yes
+  - Bug (Mar Ferrandis)
+    - real name: Mar Ferrandis
+    - gender: female
+    - retired: yes
+    - bio: The second hero to use the name *Bug* and friend of Lin Montgomery. Retired from superheroics.
+    - active: no
+  - Energy Boy
+    - gender: male
+    - c.f.: Energy Boy
+    - active: yes
+  - The Falconer
+    - gender: female
+    - bio: A mysterious winged hero who could communicate with avians; current location and status unknown.
+    - active: no
+  - The Head Librarian
+    - gender: male
+    - c.f.: Head Librarian
+    - active: yes
+  - Master Magister
+    - real name: Jack Dee
+    - gender: male
+    - reserve: yes
+    - c.f.: Jack Dee
+    - active: no
+  - Master Magister
+    - real name: Johnny Dee
+    - gender: male
+    - deceased: yes
+    - bio: Younger brother of Miss Magister and uncle of Jack Dee.
+    - active: no
+  - Miss Magister
+    - real name: Maddie Dee
+    - gender: female
+    - deceased: yes
+    - bio: Founding member of the Cosmic Legends and mother of Jack Dee.
+    - active: no
+    - founder: yes
+  - Obsidius Rex
+    - gender: male
+    - reserve: yes
+    - c.f.: Obsidius Rex
+    - active: no
+    - founder: yes
+  - Riptide
+    - gender: female
+    - c.f.: Riptide
+    - active: yes
+  - Rockstar
+    - gender: female
+    - c.f.: Rockstar
+    - active: yes
+  - Sequana
+    - gender: female
+    - expelled: yes
+    - c.f.: Villains, Inc.
+    - active: no
+    - founder: yes
+  - Sir Percival, the Grailknight
+    - gender: male
+    - reserve: yes
+    - c.f.: Grailknight
+    - active: no
+    - founder: yes
+  - Titan, Sentinel of Saturn
+    - gender: trans
+    - c.f.: Titan
+    - reserve: yes
+    - active: no
+    - founder: yes
+  - Vespa
+    - real name: Hazel Montgomery
+    - gender: female
+    - deceased: true
+    - c.f.: Vespa I
+    - active: no
+    - founder: yes
+  - Vespa 
+    - real name: Lin Montgomery
+    - gender: trans
+    - c.f.: Vespa 2.0
+    - active: yes
+  - Zaar
+    - gender: female
+    - active: no
+    - bio: Time-traveller from the 24th Century; returned to her own century rather than face trial for killing Sinhammer.
+
+

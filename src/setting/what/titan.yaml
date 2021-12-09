@@ -1,28 +1,33 @@
-# Titan {#setting-titan}
+- metadata
+  - title: &title Titan
+  - x-format: character
+  - yaml_version: 1.2
+  - anchor: setting-titan
 
-![Titan](art/jeshields/paragon.png)
+- art
+  - url: art/jeshields/paragon.png
+  - alt: *title
 
-::::::::::::: {.bio} ::::::::::::::::::::::::
-- **Real Name:** Ty'Tonn To'Rezz
-- **Occupation:** sentinel
-- **Legal Status:** Honorary citizen of Canada
-- **Gender:** nyrr-t'vor (he/him, they/them, or it/its)
-- **Identity:** public
-- **Former Aliases:** Thomas "Tom" Torres
-- **Place of Birth:** L'Shar'Ak, Titan
-- **Marital Status:** widowed
-- **Known Relatives:** unnamed spouses (deceased), My'Tonn To'Rezz (sibling, deceased), My'Rinn To'Rezz (sibling's child)
-- **Group Affiliation:** Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)
-- **Base of Operations:** Halifax, Nova Scotia and Sun City, U.S.A.
-:::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::: bio2 :::::::::::::::::::::::::::
-- **Height:** 7' 6"
-- **Weight:** 280 lbs.
-- **Eyes:** yellow
-- **Hair:** none
-:::::::::::::::::::::::::::::::::::::::::::::
+- bio
+  - Real Name: Ty'Tonn To'Rezz
+  - Occupation: sentinel
+  - Legal Status: Honorary citizen of Canada
+  - Gender: nyrr-t'vor 
+    - Pronouns: he/him, they/them, or it/its
+  - Identity: public
+  - Former Aliases: Thomas "Tom" Torres
+  - Place of Birth: L'Shar'Ak, Titan
+  - Marital Status: widowed
+  - Known Relatives: [unnamed spouses (deceased), My'Tonn To'Rezz (sibling, deceased), My'Rinn To'Rezz (sibling's child)]
+  - Group Affiliation: [Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)]
+  - Base of Operations: Halifax, Nova Scotia and Sun City, U.S.A.
+- bio2
+  - **Height:** 7' 6"
+  - **Weight:** 280 lbs.
+  - **Eyes:** yellow
+  - **Hair:** none
  
-**History:**
+- history >
 Titan is widely acknowledged as the first public superhero and one
 of the primary leaders among the heroes.
 
@@ -40,7 +45,7 @@ for *W'Ty'Dah'k*, the third planet from the sun: Earth.
 
 Fearing the harm the Visitors could do to the primitive, just-barely-nuclear
 civilizations of *W'Ty'Dah'k*, Ty'Tonn urged the *Kyl'Sh'Tal* to intervene.
-"Are we not the Sentinels for the entire solar system?", Ty argued; "should we 
+"Are we not the Sentinels for the entire solar system?", Ty argued; "Should we
 not be concerned with the fate of all who are threatened by the Visitors?"
 
 The *Kyl'Sh'Tal* council debated for many hours but it soon became clear that
@@ -71,7 +76,8 @@ since discontinued the use of an alternate identity. Since the start of the 21
 century, he has lived in Nova Scotia and has been granted honorary Canadian
 citizenship.
 
-**Powers:**
+- powers >
+
 Titan is perhaps the most powerful individual on the planet.
 His Titanian strength lets him lift well over 100 tons, and he is
 able to project the cold frost of the Titanian sky from his
@@ -79,18 +85,16 @@ eyes as energy beams. Flight, speed, and telepathy round out his
 vast array of alien powers -- which are exceptional even for a
 Titanian.
 
-:::::::::::: {.stats} ::::::::::::::::
-## Titan
-
-- **Class:** The Paragon
-- **Approaches:** Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
-- **Health:** 15
-- **Might:** 10
-- **Power Words:**
-  - *Core:* Abilities, Powers
-  - *Personal:* Alien, Cold, Flight, Probe, Speed, Strength, Thoughts, Vision
-  - *Nova:* Compassion, Selfless
-- **Abilities:** My One Weakness! (salt water), Boundless Fortitude, TBD
-- **Skills:** Investigator, Scientist
-- **Ideals:** Caution, Curiosity, Freedom, Joy, Privacy
-::::::::::::::::::::::::::::::::::::::
+- stats
+  - name: title
+  - Class: The Paragon
+  - Approaches: Action 1, Adventure 2, Detective 3, Mystery 2, Suspense 2
+  - Health: 15
+  - Might: 10
+  - Power Words:
+    - Core: [Abilities, Powers]
+    - Personal: [Alien, Cold, Flight, Probe, Speed, Strength, Thoughts, Vision]
+    - Nova: [Compassion, Selfless]
+  - Abilities: ["My One Weakness! (salt water)", Boundless Fortitude, TBD]
+  - Skills: [Investigator, Scientist]
+  - Ideals: [Caution, Curiosity, Freedom, Joy, Privacy]

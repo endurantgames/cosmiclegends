@@ -1,0 +1,51 @@
+- metadata
+  - yaml_version: 1.2
+  - x-format: character
+  - title: &title; Adam-42: O.O.P.F.
+  - anchor: setting-adam-42
+
+- picture
+  - url: art/jeshields/construct.png
+  - alt: *title
+  
+- bio
+  - name: *title
+  - Real Name: Martin "Adam X. Lii" McCord
+  - Occupation: police officer
+  - Legal Status: Citizen of the United States, offically deceased
+  - Gender: non-gendered/male 
+    - Pronouns: it/its, he/him
+  - Identity: classified
+  - Place of Birth: Technopolis, U.S.A.
+  - Marital Status: single - n/a, formerly married
+  - Known Relatives: none
+  - Group Affiliation: Cosmic Legends of the Universe (reserve), Los Angeles Police Department (medical leave)
+  - Base of Operations: Los Angeles, California and Technopolis, U.S.A.
+- bio2
+  - Height: 5' 10"
+  - Weight:* 305 lbs.
+
+- history >
+  Martin McCord never wanted to become the world's first
+  One-Officer-Police-Force, but a near-fatal shootout took
+  that choice away from him. Seconds away from dying, his injured
+  brain was transplanted into the ADAM-42 android body, saving
+  his life and trapping him in a metal form physically superior
+  to, and distinctively less functional than, his original human body.
+  Officially, McCord is dead -- but with the right prosthetic mask,
+  he can pass among humans as Adam Lii, the newest recruit of the
+  Los Angeles Police Department.
+
+- stats
+  - Class: The Construct
+  - Approaches: { Action: 3, Adventure: 1, Detective: 3, Mystery: 1, Suspense: 3}
+  - Health: 10
+  - Might: 10
+  - Power Words:
+    - Core: [Synthetic, Sentience]
+    - Personal: [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
+    - Nova: [One, Officer, Police, Force]
+  - Abilities: [Energy Reserve, Fight Fire With Fire, TBD]
+  - Fighting Styles: [Brawler, Guerilla, Interceptor, Sharpshooter, Rescuer, Weaponmaster]
+  - Skills: [Deputy, Engineer, Hacker, Investigator, Lawyer]
+  - Ideals: [Angst, Guilt, Duty, Law, Pain, Obedience, Violence]

@@ -1,0 +1,70 @@
+- metadata
+  - title: Other Groups
+  - anchor: setting-other-groups
+  - x-format: list
+  - item-format: group
+  - yaml_version: 1.2
+  - list-class: other-list
+
+- list
+  - Aos Sí
+    - bio: Faeries of Otherworld formerly ruled by Xana Mega.
+    - active: true
+    - definite: true
+    - villain: true
+  - Atomicorps 
+    - bio: A team of mercenaries using nuclear-powered battlesuits.
+    - active: true
+    - villain: true
+  - Crime Institute
+    - definite: true
+    - active: false
+    - disbanded: true
+    - bio: The School created by Villains, Inc. to rival Technopolis Academy and train super-villains.
+    - c.f.: "Villains, Inc"
+    - villain: true
+  - Firbolgs
+    - definite: true
+    - bio: Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc.
+    - c.f.: [Tuatha Dé Danann, "Villains, Inc."]
+    - active: true
+    - villain: true
+  - Fomorians
+    - definite: true
+    - bio: Mythological giants from Otherworld; enemies of the Tuatha Dé Danann, Brigantia, and the Cosmic Legends.
+    - active: true
+    - villain: true
+  - Junior Legends of America
+    - active: true
+    - definite: true
+    - hero: true
+    - bio: Team of teenage and young adult heroes, many of whom attended Technopolis Academy. Although they've collectively been offered membership in the Cosmic Legends, most have preferred to stay members of the JLA instead.
+  - Kyl'Sh'Tal
+    - definite: true
+    - active: true
+    - bio: Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors.
+    - hero: true
+  - Ro'Tan'Okk
+    - definite: true
+    - bio: The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion.
+    - ally: true
+    - c.f.: Titan, Tethys, Hyperion
+  - Sun City University 
+    - bio: Four-year and graduate university located in Sun City, U.S.A.
+    - active: true
+    - ally: true
+  - T.R.E.L.A. 
+    - bio: A outlawed splinter group that broke off from A.L.E.R.T., engaged in terrorism world-wide.
+    - active: true
+    - villain: true
+    - c.f.: A.L.E.R.T.
+  - Vulcanor Royal Family
+    - definite: true
+    - ally: true
+    - members: 
+    - c.f.: Obsidius Rex
+  - Visitors
+    - definite: true
+    - villain: true
+    - bio: Alien species with vast powers over space and time; creators of the Titanian race.
+  
