@@ -1,24 +1,26 @@
 #!/usr/bin/lua
 
 local CONFIG = {
-  appname    = "make-markdown.lua",
-  bin_dir    = "./bin",
-  build_dir  = "./build",
-  errors     = true,
-  extension  = ".md",
-  ignore     = "^(%.git|Makefile|%.test|%.)",
-  index      = "intro",
-  logformat  = "  %-30s %-40s",
-  out_suffix = ".md",
-  outdir     = "./out",
-  outfile    = "build",
-  recipe     = "test",
-  recipe_dir = "./",
-  recipe_sfx = ".recipe",
-  src_dir    = "./src",
-  summary    = true,
-  verbose    = true,
-  yaml_ext   = ".yaml"
+  appname      = "make-markdown.lua",
+  bin_dir      = "./bin",
+  build_dir    = "./build",
+  errors       = true,
+  extension    = ".md",
+  extensions   = ".md;.yaml",
+  ext_markdown = ".md",
+  ext_yaml     = ".yaml"
+  ignore       = "^(%.git|Makefile|%.test|%.)",
+  index        = "intro",
+  logformat    = "  %-30s %-40s",
+  out_suffix   = ".md",
+  outdir       = "./out",
+  outfile      = "build",
+  recipe       = "test",
+  recipe_dir   = "./",
+  recipe_sfx   = ".recipe",
+  src_dir      = "./src",
+  summary      = true,
+  verbose      = true,
   };
 
 local lfs  = require "lfs"
@@ -190,12 +192,13 @@ local function sprint(s, l) if CONFIG.summary then print(string.format(CONFIG.lo
 -- http://lua-users.org/wiki/FileInputOutput
 
 local function slug(filename)
-  filename = string.gsub(filename, "^%" .. CONFIG.src_dir, "");
-  filename = string.gsub(filename, "%"  .. CONFIG.extension .. "$", "");
-  filename = string.gsub(filename, "^/", "");
-  filename = string.gsub(filename, "/$", "");
+  filename = string.gsub(filename, "^%" .. CONFIG.src_dir,             "");
+  filename = string.gsub(filename, "%"  .. CONFIG.ext_markdown .. "$", "");
+  filename = string.gsub(filename, "%"  .. CONFIG.ext_yaml ..     "$", "");
+  filename = string.gsub(filename, "^/",                               "");
+  filename = string.gsub(filename, "/$",                               "");
   return filename;
-  end;
+end;
 
 local function path_level(path)
   path = slug(path);
@@ -207,7 +210,7 @@ local function path_level(path)
      else level = level + 1;
      end;
   return level;
-  end;
+end;
 
 -- see if the file exists
 local function file_exists(file)
@@ -217,9 +220,10 @@ local function file_exists(file)
 end
 
 local function slurp_yaml(filename)
-  if CONFIG.yaml then 
-  local yaml_structure = yaml.loadpath(filename);
-  if yaml_structure then return yaml_structure, true else return nil, false end;
+  if CONFIG.yaml
+  then local yaml_structure = yaml.loadpath(filename);
+       if yaml_structure then return yaml_structure, true else return nil, false end;
+  end;
 end;
 
 -- get all lines from a file, returns an empty
@@ -291,6 +295,8 @@ local function slurp(file, no_parse, no_yaml)
               end;
           elseif xformat == "character"
           then -- character statblock
+          elseif xformat == "list"
+          then -- a list of people, places, or things
           elseif xformat
           then eprint("Unknown format for yaml block in " .. file .. ": " .. xformat);
           end; -- if xformat
@@ -353,8 +359,8 @@ local function load_fs()
   for k, v in pairs(files)
     do --
       if   string.find(v.path, CONFIG.ignore) then break end;
-      if   string.find(v.name, "%" .. CONFIG.extension .. "$") 
-        or string.find(v.name, "%" .. CONFIG.yaml_ext  .. "$")
+      if   string.find(v.name, "%" .. CONFIG.ext_markdown .. "$") 
+        or string.find(v.name, "%" .. CONFIG.ext_yaml     .. "$")
       then --
              local filename = slug(v.path..v.name);
              local pathdirs = split(filename, "/");
@@ -363,7 +369,7 @@ local function load_fs()
   return files, dirs;
   end;
 
-local TEMPLATE = { };
+local TEMPLATE = {};
 
 local function parse_line(line)
   local asterisk, template = false;
@@ -412,12 +418,13 @@ local function parse_line(line)
           vprint("found a /* construction", line .. "/*");
           local dir = CONFIG.src_dir .. "/" .. line;
           vprint("looking for files in ", dir)
-          local md_files, _ = file_search(dir, CONFIG.extension);
+          local md_files, _ = file_search(dir, CONFIG.extensions);
 
           vprint("found this many", #md_files .. " files");
           for k, v in pairs(md_files)
           do local sl = v.name;
-             sl = string.gsub(sl, "%" .. CONFIG.extension .. "$", "");
+             sl = string.gsub(sl, "%" .. CONFIG.ext_markdown .. "$", "");
+             sl = string.gsub(sl, "%" .. CONFIG.ext_yaml     .. "$", "");
              parse_line(line .. "/" .. sl)
           end; -- for
         end; -- if asterisk
@@ -430,7 +437,7 @@ local function parse_line(line)
     then --
       vprint("skipping entry", line);
     else --
-      vprint("this doesn't exist", line);
+      eprint("this doesn't exist", line);
       table.insert(ERR, line);
     end;
 end; 
@@ -445,7 +452,7 @@ local function recipe_list()
          string.format(
            CONFIG.logformat, 
            v.path .. v.name,  
-       CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
+           CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
          )
        ); 
     end;
