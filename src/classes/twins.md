@@ -80,10 +80,10 @@ Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **TBD** Prime ability common to all Twins.
+Your hero has the **Side by Side** Prime ability common to all Twins.
 
 :::::: {.ability-list .prime }::::::::::
-TBD
+Side by Side
 
 :   To be determined.
 
