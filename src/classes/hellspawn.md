@@ -9,42 +9,15 @@ worshipped as gods.
 
 ## Playing a Hellspawn
 
-As a Hellspawn hero, you have a wide range of abilities to choose from.
-Look for ways you can find synergy with other heroes -- if they
-join in a Power Combo that you initiate, your *Give Me Strength!*
-bonus applies to the dice they provide, too.
+[]{.lorem}
 
 ## Questions
 
 As you create your Hellspawn hero, answer any or all of these questions.
 
 ::::::::::::::::: questions :::::::::::::::::::::::::
-- Are you a deity yourself? 
-  - A demigod? 
-  - The champion of one or more deities? 
-  - Or even someone who figuratively or literally stole power from the gods?
-- What god, gods or pantheon are you associated with? 
-  - Do you gain power from your association with a single deity, 
-    or do multiple gods grant you power? 
-  - Are your powers bestowed by the gods, or are
-    they a result of your own divine essence?
-- How do you relate to the god(s) who empower you? 
-  - Are you on good terms with them, are they distant and silent, 
-    or have they sent you to a mortal existence for your own good? 
-  - Are there other gods or other people empowered by the gods, and 
-    if so, do you get along with them? 
-- Are there any mythological monsters or enemies that your choice 
-  of a divine power source implies?
-- Do you have a single form and identity, or do you change through
-  supernatural means between your Hellspawn form and a "mortal" one?
-  - If so, what triggers such a change -- a spoken word, a transformation
-    sequence, or just calling upon your Divine powers?
-- If you're not a mortal yourself, what *do* you think of the
-  mortal world? 
-  - Does it mystify you, or are you thoroughly immersed in modern culture? 
-  - What are your views on religion -- both your
-    hero's own religion and those that could be seen as rival faiths?
-::::::::::::::::::::::::::::::::::::::::::::::::
+- **questions needed**
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
 
@@ -136,7 +109,6 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free;
 you can use additional Nova Power Words by paying 1 Might for each beyond the first.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Brigantia, chosen of the Tuatha Dé Danann](art/jeshields/divine.png "Brigantia, Chosen of the Tuatha Dé Danann"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Hellspawn Class Abilities { .class}
@@ -197,14 +169,6 @@ Rhymer
     Display, Stunt, or Combo, you can add any one word that rhymes with
     one of those Power Words -- without paying any additional Might. The
     rhyming word need not be one of your usual Power Words.
-
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -284,9 +248,6 @@ Flames of Hell
 :   You're empowered with infernal energy that crackles like fire whenever 
     you spend Might. Increase your maximum Might by 5.
 
-TBD
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Hellspawn Class Abilities {#list-class-hellspawn-v4} 
@@ -319,10 +280,6 @@ My Own Personal Hell
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Hellspawn Class Abilities {#list-class-hellspawn-v5} 
@@ -330,14 +287,6 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

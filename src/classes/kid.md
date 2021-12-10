@@ -178,34 +178,11 @@ Unbeatable
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities
+### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-
-Squire
-:    You have the potential and training to become a Knight. You
-     have a variant of the Knight Hero Class's *Peak Human Potential*
-     Prime Ability.
-
-     [Knight]{.crossover}
-     Choose one additional Fighting Style, and one additional Skill
-     of your choice.
-
-     Instead of choosing a Kid Class Ability of Volume 3 or higher, you
-     can choose a Knight Class Ability of the same or lower volume.
-     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
-     *Tactical Mastery (3rd)* are among the most applicable
-     Knight Class Abilities to consider.
-
-TBD
-:    To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
-
-
-### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
 
 Alien Pet
 
@@ -250,6 +227,21 @@ Intelligent Pet
     Approach.
 
     This is __not__ a *Pet* Ability.
+
+Squire
+:    You have the potential and training to become a Knight. You
+     have a variant of the Knight Hero Class's *Peak Human Potential*
+     Prime Ability.
+
+     [Knight]{.crossover}
+     Choose one additional Fighting Style, and one additional Skill
+     of your choice.
+
+     Instead of choosing a Kid Class Ability of Volume 3 or higher, you
+     can choose a Knight Class Ability of the same or lower volume.
+     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
+     *Tactical Mastery (3rd)* are among the most applicable
+     Knight Class Abilities to consider.
 
 Youthful Power
 
@@ -327,12 +319,7 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 :::::::: {.ability-list .v3 } :::::::
 
 TBD
-
-:     To be determined
-
-TBD
-
-:     To be determined
+:    To be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -342,12 +329,7 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
 TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
+:    To be determined
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -357,12 +339,7 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
 TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
+:    To be determined
 
 :::::::::::::::::::::::::::::::::::::
 

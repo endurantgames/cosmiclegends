@@ -98,18 +98,6 @@ At the start of Volume 1, choose two abilities from this list.
 TBD
 :   To Be Determined
 
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -117,12 +105,6 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
 
 TBD
 :   To Be Determined
@@ -138,14 +120,6 @@ TBD
 
 :   To be determined.
 
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Abilities
@@ -157,10 +131,6 @@ TBD
 
 :   To be determined.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -168,10 +138,6 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
 TBD
 
 :   To be determined.

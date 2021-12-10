@@ -224,11 +224,6 @@ Temple of the Gods
     - Shrine
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Divine Class Abilities {#list-divine-abilities-v3}
@@ -257,14 +252,6 @@ Skill of Artemis
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Divine Class Abilities {#list-divine-abilities-v5}
@@ -272,14 +259,6 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

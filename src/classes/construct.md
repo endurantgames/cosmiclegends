@@ -335,10 +335,6 @@ Relentless Power
 
 :   You are a storehouse of untapped energy. Increase your maximum Might by 5.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Construct Class Abilities {#list-construct-abilities-v3}
@@ -382,14 +378,6 @@ Immortal
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

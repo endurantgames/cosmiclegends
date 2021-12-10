@@ -172,10 +172,6 @@ Wide Angle
     When you advance the Smash goal by at least 1, advance another goal 
     by 1.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities {#list-dynamo-abilities-v2}
@@ -197,10 +193,6 @@ Energy Versatility
     to your primary energy type. Add a Word from the Energy
     Power Word list as a Personal Power Word.
     You can take this ability more than once.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -226,14 +218,6 @@ Power Overwhelming
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Dynamo Class Abilities {#list-dynamo-abilities-v5}
@@ -241,14 +225,6 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -187,10 +187,6 @@ Unkillable
     gonna keep you down. Regain 1 Health at the start of the
     Hero Phase if you have 0 Health.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Expatriate Class Abilities {#list-expatriate-abilities-v2}
@@ -273,14 +269,6 @@ Power Overwhelming
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

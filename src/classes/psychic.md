@@ -174,10 +174,6 @@ Mind Over Matter
     off wounds that would seriously harm a normal person. Instead of
     losing Health, you can lose an equal amount of Might.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -280,10 +276,6 @@ Astral Retreat
     - Viewing
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

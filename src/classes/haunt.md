@@ -189,9 +189,6 @@ Possession
 This chamber has no windows and no doors...
 :   To Be Determined
 
-Unfinished Business
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Haunt Class Abilities {#list-class-haunt-abilities-v2}
@@ -199,16 +196,6 @@ Unfinished Business
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Haunt Class Abilities {#list-class-haunt-abilities-v3}
@@ -216,15 +203,6 @@ TBD
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 4 Haunt Class Abilities {#list-class-haunt-abilities-v4}
@@ -232,15 +210,6 @@ TBD
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Haunt Class Abilities {#list-class-haunt-abilities-v5}
@@ -248,12 +217,6 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

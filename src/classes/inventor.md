@@ -182,10 +182,6 @@ Stately Skyscraper
     :::::::::::::::::::::::::`
     This is a *Hero Cave* Ability.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Inventor Class Abilities {#list-class-inventor-abilities-v2}
@@ -209,10 +205,6 @@ Weaponsmith
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
     This is an *Arsenal* Ability.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -243,14 +235,6 @@ Overclocked Systems
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Inventor Class Abilities {#list-class-inventor-abilities-v5}
@@ -258,14 +242,6 @@ TBD
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-
-:   To be determined.
-
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

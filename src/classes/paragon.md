@@ -202,10 +202,6 @@ Multipower
     in a Hero Phase, choose one Power Word used. That Word 
     doesn't go on cooldown.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -344,10 +340,6 @@ My *Other* One Weakness!
 
     If both sources are present but one is removed by a teammate, 
     you don't regain Health and Might until both are removed.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 

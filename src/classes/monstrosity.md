@@ -187,10 +187,6 @@ Misunderstood Monster
     Add 2 to the dice pool when you advance the Allay 
     or Rescue goals.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Abilities
@@ -276,11 +272,6 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
 TBD
-
-:   To be determined.
-
-TBD
-
 :   To be determined.
 
 :::::::::::::::::::::::::::::::::::::

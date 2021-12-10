@@ -111,7 +111,6 @@ Choose six Personal Power Words from the following list:
 - Time
 - Travel
 - Ward
-- *TBD*
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
@@ -369,10 +368,6 @@ Invisibility
     Might to become invisible and automatically counter that Crisis
     Move.
 
-TBD
-
-:   To be determined.
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -388,10 +383,6 @@ Mass Invisibility
     equal to its Counter Cost instead of successes from the Teamwork Pool
     to make your team invisible and automatically counter that Crisis
     Move.
-
-TBD
-
-:   To be determined.
 
 :::::::::::::::::::::::::::::::::::::
 
