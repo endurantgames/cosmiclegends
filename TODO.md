@@ -14,6 +14,7 @@ General ideas
   - [ ] Separate file
 - [/]   Series sheet
 - [ ]   Coding for yaml
+  - [/] Glossary
   - [ ] Characters
   - [ ] Lists
   - [ ] Places
@@ -97,11 +98,11 @@ Manuscript
   - [x]     Nova     Power Words
   - [/]     Scene    Power Words
     - [/]   Examples (lists)
-    - [ ]   Hero Cave abilities
+    - [ ]   Hero Cave power words
     - [/]   Changing Scene Words (classes that can do it)
       - [ ] Shaper      (shape environment)
       - [ ] Totem       (summon swarm)
-      - [ ] Wheelmaster (vehicle scene words)
+      - [ ] Wheelman    (vehicle scene words)
 - [/]       Power Use
   - [x]     Power Displays
     - [x]   Examples
@@ -172,8 +173,8 @@ Manuscript
   - [/] Glossary
 - [x]   License
 - [/]   Sheets
-  - [ ] Hero Sheet
-  - [ ] Team Sheet
+  - [/] Hero Sheet
+  - [/] Team Sheet
   - [ ] Series Sheet
   - [ ] CCA Checklist
 

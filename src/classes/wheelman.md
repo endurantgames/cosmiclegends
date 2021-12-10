@@ -362,14 +362,6 @@ More than Meets the Eye
     to advance the Outwit goal. (Note that this will also *Reveal* your
     Vehicle, as described in the previous paragraph.)
 
-TBD
-
-:   To Be Determined
-
-TBD
-
-:   To Be Determined
-
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
