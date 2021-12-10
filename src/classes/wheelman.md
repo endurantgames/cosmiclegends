@@ -1,29 +1,13 @@
 :::::::::::::::: {.classdata #class-wheelman} :::::::::::::::
 # The Wheelman {#toc-wheelman .breakbefore .class}
 
-> I know secrets about you that you don't even know yourself.
+> quote needed
 
-Psychics are masters of mind powers, able to communicate
-with others and link minds together.
-
-Their powers are often purely mental without a physical
-manifestation; a duel between two Psychics could take place
-in the middle of a crowded restaurant with no one any the
-wiser.
-
-If normal people knew that a Psychic was among them -- and could 
-potentially access their innermost thoughts and desires! --
-they would react with fear and hostility. Some Psychics will
-pose as some other type of hero to avoid such prejudices ... even
-as they admit such biases might not be entirely unwarranted.
+[]{.lorem}
 
 ## Playing a Wheelman
 
-Your Psychic hero is likely the lynchpin of the team, although
-not necessarily the leader. This is a passive ability, though --
-unless you choose otherwise, everyone's connected when you're
-present -- so look for ways to use your own Power Words, Skills,
-and Abilities in creative and original ways.
+[]{.lorem}
 
 ## Questions
 
@@ -408,6 +392,10 @@ TBD
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
+TBD
+
+:   To be determined.
+
 TBD
 
 :   To be determined.

@@ -24,11 +24,7 @@ like they do.
 
 ## Playing a Construct
 
-Your hero is really, really good at breaking things. You're going
-to want to advance the Smash goal whenever you can, but keep in
-mind that you're more than *just* muscle. You have Skills, Abilities,
-and possibly other Power Words that you can use switch up your
-moves from Hero Phase to Hero Phase.
+[]{.lorem}
 
 ## Questions
 

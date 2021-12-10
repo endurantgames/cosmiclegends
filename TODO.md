@@ -13,6 +13,11 @@ General ideas
 - [/]   CCA Checklist
   - [ ] Separate file
 - [/]   Series sheet
+- [ ]   Coding for yaml
+  - [ ] Characters
+  - [ ] Lists
+  - [ ] Places
+  - [ ] Teams
 
 
 Manuscript
@@ -171,3 +176,29 @@ Manuscript
   - [ ] Team Sheet
   - [ ] Series Sheet
   - [ ] CCA Checklist
+
+Status: Number of Abilities
+---------------------------
+
+| Class       | Playing... | Questions  | Prime      | Volume 1   | Volume 2   | Volume 3   | Volume 4   | Volume 5   |
+| :---------  | :--------: | :-------:  | :------:   | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Construct   | **Needed** | *Review*   | *Review*   | *17 of 4*  | ~~3 of 3~~ | __2 of 3__ | ~~2 of 2~~ | **0 of 2** |
+| Divine      | *Review*   | *Review*   | ~Done~     | ~~4 of 4~~ | ~~3 of 3~~ | ~~2 of 2~~ | **0 of 2** | **0 of 2** |
+| Dynamo      | *Review*   | *Review*   | ~Done~     | __3 of 4__ | __2 of 3__ | __2 of 3__ | **0 of 2** | **0 of 2** |
+| Expatriate  | **Needed** | **Needed** | *Review*   | __3 of 4__ | ~~3 of 3~~ | __2 of 3__ | ~~2 of 2~~ | **0 of 2** |
+| Expert      | **Needed** | **Needed** | *Review*   | ~~4 of 4~~ | __2 of 3__ | __2 of 3__ | **0 of 2** | **0 of 2** |
+| Haunt       | **Needed** | **Needed** | **Needed** | __0 of 4__ | **0 of 3** | **0 of 3** | **0 of 2** | **0 of 2** |
+| Hellspawn   | **Needed** | **Needed** | *Review*   | __2 of 4__ | ~~3 of 3~~ | __1 of 3__ | __1 of 2__ | **0 of 2** |
+| Inventor    | *Review*   | *Review*   | *Review*   | ~~4 of 4~~ | __2 of 3__ | __2 of 3__ | **0 of 2** | **0 of 2** |
+| Kid         | **Needed** | **Needed** | *Review*   | __3 of 4__ | __1 of 3__ | **0 of 3** | **0 of 2** | **0 of 2** |
+| Knight      | *Review*   | *Review*   | *Review*   | ~~4 of 4~~ | ~~3 of 3~~ | ~~3 of 3~~ | *4  of 2*  | ~~2 of 2~~ |
+| Mage        | *Review*   | *Review*   | *Review*   | *7  of 4*  | ~~3 of 3~~ | __2 of 3__ | __1 of 2__ | __1 of 2__ |
+| Monarch     | *Review*   | *Review*   | *Review*   | *5  of 4*  | *4  of 3*  | __2 of 3__ | ~~2 of 2~~ | ~~2 of 2~~ |
+| Monstrosity | *Review*   | *Review*   | *Review*   | *5  of 4*  | ~~3 of 3~~ | __2 of 3__ | ~~2 of 2~~ | **0 of 2** |
+| Paragon     | *Review*   | *Review*   | *Review*   | ~~4 of 4~~ | ~~3 of 3~~ | ~~2 of 2~~ | ~~2 of 2~~ | __1 of 2__ |
+| Psychic     | *Review*   | *Review*   | **Needed** | __2 of 4__ | __1 of 3__ | __2 of 3__ | __1 of 2__ | __1 of 2__ |
+| Shaper      | *Review*   | *Review*   | *Review*   | ~~4 of 4~~ | __2 of 3__ | __2 of 3__ | __1 of 2__ | **0 of 2** |
+| Speedster   | **Needed** | **Needed** | *Review*   | *5  of 4*  | ~~3 of 3~~ | ~~3 of 3~~ | ~~2 of 2~~ | **0 of 2** |
+| Totem       | **Needed** | **Needed** | *Review*   | __2 of 4__ | __1 of 3__ | **0 of 3** | **0 of 2** | **0 of 2** |
+| Twins       | **Needed** | **Needed** | **Needed** | __0 of 4__ | **0 of 3** | **0 of 3** | **0 of 2** | **0 of 2** |
+| Wheelman    | **Needed** | **Needed** | *Review*   | *6  of 4*  | __2 of 3__ | **0 of 3** | **0 of 2** | **0 of 2** |

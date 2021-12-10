@@ -191,8 +191,6 @@ Magicks of Hell
     are among the most applicable Mage Class Abilities to
     consider.
 
-:::::::::::::::::::::::::::::::::::::
-
 Rhymer
 
 :   Whenever you use one of your Core or Nova Power Words in a Power

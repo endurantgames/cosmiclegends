@@ -213,16 +213,16 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 Paragon ability list.
 
 ::::: {.ability-list .v2 } ::::::::::
-Power Overwhelming
-
-:   Your capacity for heroic deeds is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
-
 Never-Ending Battle
 
 :   You refuse to stay down if there are innocents in danger. When you 
     are at 0 Health or 0 Might, regain 1 point of each at the start of 
     the next Hero Phase if the Rescue goal can still be advanced.
+
+Power Overwhelming
+
+:   Your capacity for heroic deeds is extraordinary, even for a hero.
+    Increase your maximum Might by 5.
 
 Ultra-Energy Limitation
 

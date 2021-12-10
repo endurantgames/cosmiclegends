@@ -13,32 +13,6 @@ you can use to switch up your moves from Hero Phase to Hero Phase.
 As you create your Twin heroes, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
-- How do you look different from normal humans? 
-  - How much larger (or smaller) are you than other people? 
-  - What color is your skin, and what does it feel and look like? 
-  - What kind of strange appearance do you have that makes the ignorant 
-    assume you're just an animalistic brute?
-  - What does your voice sound like, and what kind of vocabulary do 
-    you employ?
-- Are you *always* a kid?  
-  (If not, then you may want to consider playing your hero as 
-   <a href="#toc-multi-class">Multi-Class Hero</a> -- this is appropriate
-   for heroes who magically transform from child form to an adult shape!)
-  - If not, what triggers that change? 
-    Is it an emotional state, a substance, a situation, a magic word,
-    or your own free will? 
-  - How do you get along with adult heroes? Do you look up to them as
-    role models? Do they usually talk down to you?
-  - In what ways are you less mature than the average hero?
-  - In what ways are you more mature than the average hero?
-  - Were you *always* a hero? How did you become one? Why did you
-    become one?
-  - Do you have any other friends your age, or do you just associate with
-    adult heroes?
-- What kind of interests do you have that surprise other people? 
-  - Are you an artist at heart, a scientist, a poet, a doctor, a pilot? 
-  - What would push you over that edge, and how have you avoided going 
-    over it so far?
 ::::::::::::::::::::::::::::::::::::::::
 
 ## Skills
@@ -143,27 +117,6 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-TBD
-:   To Be Determined
-
-:::::::::::::::::::::::::::::::::::::
-
-::::::::::::: cpw :::::::
-#### Twin Core Power Words
-:::::::::::::::::::::::::
-
-::::::::::::: cpw :::::::
-#### Twin Personal Power Words List
-
-- 
-:::::::::::::::::::::::::
 
 TBD
 :   To Be Determined

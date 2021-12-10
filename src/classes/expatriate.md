@@ -9,7 +9,7 @@
 
 ## Questions
 
-As you create your Monstrosity hero, answer any or all of these questions.
+As you create your Expatriate hero, answer any or all of these questions.
 
 :::::::::: questions :::::::::::::::::::
 - []{.lorem}
@@ -156,7 +156,7 @@ Quick Learner
 
     At the start of each Volume, add one of the following Skills:
     **Academic**, **Criminal**, **Deputy**, **Engineer**, **Hacker**,
-    **Historian**, **Investigator**, **Pilot**, **Scientist**, or **Spy**,
+    **Historian**, **Investigator**, **Pilot**, **Scientist**, or **Spy**.
 
 ::::::::::::::::::::::::::::::::::::::::::
 

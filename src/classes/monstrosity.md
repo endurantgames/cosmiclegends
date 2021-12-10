@@ -174,18 +174,18 @@ Fast Healer
     the start of the Hero Phase if you are at or
     above half of your maximum Health.
 
-Misunderstood Monster
-
-:   Even at your worst, you wouldn't harm an innocent.
-    Add 2 to the dice pool when you advance the Allay 
-    or Rescue goals.
-
 Immortal
 
 :   The monstrous forces that force you onward won't let you
     ever rest. If you are dead at the start of a Crisis Countdown,
     return to life -- with full Might and Health -- at the end of
     that Countdown.
+
+Misunderstood Monster
+
+:   Even at your worst, you wouldn't harm an innocent.
+    Add 2 to the dice pool when you advance the Allay 
+    or Rescue goals.
 
 TBD
 
@@ -198,18 +198,6 @@ TBD
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
-Regeneration
-
-:   If you're ever wounded, you don't stay that way for long.
-    Regain 1 Health at the start of the Hero Phase if you are
-    at less than half of your maximum Health but have at least
-    1 Health.
-
-Relentless Power
-
-:   You are a storehouse of untapped energy. Increase your
-    maximum Might by 5.
-
 Leave Me Alone!
 
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
@@ -231,6 +219,18 @@ Leave Me Alone!
     - Tranquil
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
+
+Regeneration
+
+:   If you're ever wounded, you don't stay that way for long.
+    Regain 1 Health at the start of the Hero Phase if you are
+    at less than half of your maximum Health but have at least
+    1 Health.
+
+Relentless Power
+
+:   You are a storehouse of untapped energy. Increase your
+    maximum Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 

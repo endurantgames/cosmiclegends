@@ -63,100 +63,26 @@ Your Core Power Words are **Youthful** and **Exuberance**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
-:::::::::: cpw ::::::::
-:::::::::::::::::::::::
-
-### Personal Power Words
+#### Kid Class Personal Power Words List {#list-class-kid-personal-power-words}
 
 Choose six Personal Power Words from the following list:
 
-::::::::::::: cpw :::::::
-- Alert
-- Ambush
-- Animalistic
-- Armored
-- Beast
-- Bloody
-- Body
-- Brutal
-- Burrow
-- Camouflage
-- Charge
-- Claws
-- Clever
-- Constrict
-- Curiosity
-- Dangerous
-- Dash
-- Dig
-- Dire
-- Direction
-- Distance
-- Echolocation
-- Elusive
-- Enduring
-- Environment
-- Feral
-- Giant
-- Growl
-- Horrifying
-- Howl
-- Huge
-- Hunger
-- Hunter
-- Immovable
-- Inhuman
-- Instinctive
-- Instincts
-- Leap
-- Lift
-- Massive
-- Maw
-- Musk
-- Mutant
-- Natural
-- Nest
-- Networked
-- Override
-- Pack
-- Poison
-- Positronic
-- Pounce
-- Predator
-- Prey
-- Prowl
-- Purr
-- Quick
-- Rage
-- Reflexes
-- Regenerate
-- Roar
-- Savage
-- Screech
-- Shell
-- Shifting
-- Silent
-- Sly
-- Spiked
-- Stamina
-- Stampede
-- Stocky
-- Stomp
-- Strength
-- Stubborn
-- Survival
-- Tall
-- Technical
-- Throw
-- Track
-- Trample
-- Tunnel
-- Understanding
-- Venomous
-- Warning
-- Weather
-- Wild
-:::::::::::::::::::::::::
+::::::::::::: cpw :::::::::::::::
+
+- Creative
+- Curious
+- Eager
+- Energetic
+- Friendly
+- Genius
+- Impulsive
+- Innocent
+- Original
+- Popular
+- Trusting
+- Witty
+- Young
+:::::::::::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.
 
@@ -179,7 +105,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 ![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Totem Abilities {.class}
+## Kid Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
 Your Kid abilities show your increasing ability to compete with
@@ -211,9 +137,11 @@ Animal Partner
 :   *Prerequisite: You can't have another __Pet__ Ability.*
     
     You have an unusually intelligent pet or companion that accompanies
-    you on your heroic adventures. This partner has three Core Power Words --
-    one matching your Totem Nature Power Word, and two others from the
-    Totem Personal Power Words List -- that you can use for free without
+    you on your heroic adventures. 
+    This partner has three Core Power Words --
+    *revise this part*, and two others from the
+    *revise this part too* ~~Totem Personal Power Words List~~ -- 
+    that you can use for free without
     spending Might, each once per Hero Phase. Your animal partner's 
     Health and Might equal the Volume.
 
@@ -276,34 +204,6 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-::::::::::::: cpw :::::::
-#### Kid Core Power Words
-
-Your Core Power Words are **Youthful** and **Exuberance**.
-You can spend 1 Might point to add one of those to a Power Stunt or
-Combo, or 2 Might to add both.
-:::::::::::::::::::::::::
-
-#### Kid Class Personal Power Words List {#list-class-kid-personal-power-words}
-
-Choose six Personal Power Words from the following list:
-
-::::::::::::: cpw :::::::::::::::
-
-- Creative
-- Curious
-- Eager
-- Energetic
-- Friendly
-- Genius
-- Impulsive
-- Innocent
-- Original
-- Popular
-- Trusting
-- Witty
-- Young
-:::::::::::::::::::::::::::::::::
 
 ### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
 
@@ -373,12 +273,6 @@ Mentor
     When your Mentor is present with you, you can use one of their skills
     once per Hero Phase, as if you had the Skill yourself.
 
-Only a Child
-
-:   Most adults underestimate you. Add 3 to the dice pool when
-    you roll to advance the Outwit goal against a source that's
-    older than you.
-
 Pet
 
 :   *Prerequisite: You can't have another __Pet__ Ability.*
@@ -431,6 +325,14 @@ Youthful Relatability
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
+
+TBD
+
+:     To be determined
+
+TBD
+
+:     To be determined
 
 :::::::::::::::::::::::::::::::::::::
 
