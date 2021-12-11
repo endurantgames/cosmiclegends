@@ -570,6 +570,13 @@ local function slurp(filename, no_parse, no_yaml, return_format)
 
 end; -- function slurp
    
+local function get_file_contents(filename, no_parse, no_yaml, return_format)
+  if   return_format ~= "string" and return_format ~= "table" and return_format ~= "yaml table"
+  then eprint("Error: invalid return_format, return_format);
+       return nil;
+  end;
+end;
+
 local function dump_to_file(file, contents)
       local f = io.open(file, "wb");
       f:write(contents);
