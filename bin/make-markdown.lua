@@ -8,7 +8,7 @@ local CONFIG = {
   extension    = ".md",
   extensions   = ".md;.yaml",
   ext_markdown = ".md",
-  ext_yaml     = ".yaml"
+  ext_yaml     = ".yaml",
   ignore       = "^(%.git|Makefile|%.test|%.)",
   index        = "intro",
   logformat    = "  %-30s %-40s",
@@ -20,7 +20,7 @@ local CONFIG = {
   recipe_sfx   = ".recipe",
   src_dir      = "./src",
   summary      = true,
-  verbose      = true,
+  verbose      = false,
   };
 
 local lfs  = require "lfs"
@@ -116,7 +116,7 @@ function file_search(dir_path, filter, s, pformat)
 
     -- == MAIN ==
     local files = {}
-    local dirs = {}
+    local dirs  = {}
     local paths = dir_path:split(";")
     for i,path in ipairs(paths) do
         for f in lfs.dir(path) do
@@ -214,255 +214,326 @@ end;
 
 -- see if the file exists
 local function file_exists(file)
-  local f = io.open(file, "rb")
-  if f then f:close() end
-  return f ~= nil
-end
+      local f = io.open(file, "rb")
+      if f then f:close() end
+      return f ~= nil
+end -- function file_exists
 
 local function slurp_yaml(filename)
-  if CONFIG.yaml
+  if   CONFIG.yaml
   then local yaml_structure = yaml.loadpath(filename);
-       if yaml_structure then return yaml_structure, true else return nil, false end;
-  end;
-end;
+       if   yaml_structure 
+       then return yaml_structure, true 
+       else return nil, false 
+       end;
+  end; -- if CONFIG.yaml
+end; -- function slurp_yaml
 
 -- get all lines from a file, returns an empty
 -- list/table if the file does not exist
 local function slurp(file, no_parse, no_yaml)
-  if   not file_exists(file) 
-  then eprint("File not found: " .. file);
-       return nil 
-  end
-  lines = {}
-  if   string.find(v.name, "%" .. CONFIG.yaml_ext  .. "$") and CONFIG.yaml and not no_yaml
-  then 
-    -- load the YAML
-    local yaml_structure, yaml_loaded = slurp_yaml(file);
-    if   yaml_structure and yaml_loaded
-    then -- create the text representation
-         local metadata = yaml_structure.metadata
-         if   metadata   and metadata.file
-         then local file   = metadata.file
-              local htitle = metadata.file.title      or "YAML Data"
-              local hlevel = metadata.file["h-level"] or 1;
-              local anchor = metadata.file.anchor;
-              local class  = metadata.file["css class"];
-              local plevel = path_level(file);
-              if   plevel > hlevel
-              then vprint(slug(file), "should be " .. plevel .. ", is " .. hlevel);
-                   hlevel = plevel;
-              end;
-              slurped = slurped .. "\n" .. string.rep("#", plevel + hlevel);
-              slurped = slurped .. " " .. htitle;
-              if   anchor or class
-              then slurped = slurped .. " {"; end;
-                   if anchor then slurped = slurped .. " #" .. anchor .. " "; end;
-                   if class  then slurped = slurped .. " ." .. class  .. " "; end;
-                   slurped = slurped .. " }\n";
-              end;
-         end;
+  string.gsub(file,"\n$","");
 
-         local xformat = nil;
-         local defaults = {};
+  local is_markdown, is_yaml = false, false;
+  local file_yaml = "(no yaml)";
+  local file_markdown = file;
 
-         if metadata and metadata["x-format"] then xformat = metadata["x-format"]; end; 
-         if metadata and metadata.default     then defaults = metadata.default;    end;
-
-         /* x-formats we recognize ======================================================== */
-         if   xformat == "glossary"
-         then local markdown_section_started = false;
-              for item, value in pairs(yaml_structure)
-              do  local term, def = "", "";
-                  local indent = "     ";
-                  if   item == "metadata"
-                  then -- skip it
-                  else if not markdown_section_started
-                       then slurped = slurped .. "\n" .. string.rep(":", 20) .. " glossary " .. string.rep(":", 40) .. "\n\n";
-                            markdown_section_started = true;
-                       end;
-                       if   value.def and type(value.def) == "string" 
-                       then 
-                            slurped = slurped .. "\n"             .. item;
-                            slurped = slurped .. "\n\n" .. indent .. value.def;
-                            if value.hd_equiv
-                            then
-                                 slurped = slurped .. "(*" .. value.hd_equiv .. "* in Harmony Drive.");
-                            end;
-                            slurped = slurped .. "\n\n";
-                       else eprint("Undefined term: " .. item .. " has no definition!");
-                       end;
-                  end;
-              end;
-          elseif xformat == "character"
-          then -- character statblock
-          elseif xformat == "list"
-          then -- a list of people, places, or things
-          elseif xformat
-          then eprint("Unknown format for yaml block in " .. file .. ": " .. xformat);
-          end; -- if xformat
-    end -- if yaml_loaded
+  if     string.find(file, "%" .. CONFIG.ext_markdown)
+  then   vprint("Looking for markdown: ", file_markdown);
+	 is_markdown = true;
+	 file_yaml   = file;
+         string.gsub(file_yaml, "%" .. CONFIG.ext_markdown, CONFIG.ext_yaml);
+  elseif string.find(file, "%" .. CONFIG.ext_yaml)
+  then   vprint("Looking for YAML: ", file);
+	 is_yaml = true;
+  else   vprint("Unknown file type:", file);
   end;
-  for line in io.lines(file) do lines[#lines + 1] = line end
-  local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
-  if not no_parse
-     then -- normalize the number of octothorpes
+
+  vprint("looking for: " .. file_yaml .. " or " .. file_markdown .. " (" .. file ..")");
+
+  if     file_exists(file_yaml)
+  then   vprint("File found: " .. file_yaml);
+  elseif file_exists(file_markdown)
+  then   vprint("File found: " .. file_markdown);
+  else   eprint("Couldn't find: " .. file);
+  end;
+
+  lines = {};
+
+  if   is_yaml and CONFIG.yaml and not no_yaml
+  then -- load the YAML
+
+       sprint("loading yaml file", file);
+       local yaml_structure, yaml_loaded = slurp_yaml(file);
+       if   yaml_structure and yaml_loaded
+       then -- create the text representation
+            local metadata = yaml_structure.metadata
    
-     local octo, _    = string.match(slurped, "(#+)");
-     local octo_level = string.len(octo or "");
+            if   metadata   and metadata.file
+            then local file   = metadata.file
+                 local htitle = metadata.file.title      or "YAML Data"
+                 local hlevel = metadata.file["h-level"] or 1;
+                 local anchor = metadata.file.anchor;
+                 local class  = metadata.file["css class"];
+                 local plevel = path_level(file);
+   
+                 if   plevel > hlevel
+                 then vprint(slug(file), "should be " .. plevel .. ", is " .. hlevel);
+                      hlevel = plevel;
+                 end; -- if plevel
+   
+                 slurped = slurped .. "\n" .. string.rep("#", plevel + hlevel);
+                 slurped = slurped .. " " .. htitle;
 
-     if   octo_level > 1
-     then local mod     = octo_level - 1;
-          local oldhash = "\n" .. string.rep("#", mod);
-          local newhash = "\n";
-          slurped       = string.gsub(slurped, oldhash, newhash);
-     end;
+                 if   anchor or class
+                 then -- drop a curly brace
+                      slurped = slurped .. " {"; 
 
-     local level = path_level(file);
-     vprint(slug(file), "should be " .. level .. ", is " .. octo_level);
-     if   level >= 1
-     then local mod = level - 1;
-          local oldhash = "\n#";
-          local newhash = "\n#" .. string.rep("#", mod)
-          slurped = string.gsub(slurped, oldhash, newhash);
-          slurped = string.gsub(slurped, "\n#####+", "\n#####");
-          -- handle the H6 headings
-          slurped = string.gsub(slurped, "\n:#", "\n######");
-     end; -- if
-  end;
+                      if   anchor
+                      then slurped = slurped .. " #" .. anchor .. " "; 
+                      end; -- if anchor
+
+                      if   class  
+                      then slurped = slurped .. " ." .. class  .. " "; 
+                      end; -- if class
+
+                      slurped = slurped .. " }\n"; -- closing curly brace
+                 end; -- if anchor or class
+            end; -- if metadata and metadata.file
+
+            local xformat = nil;
+            local defaults = {};
+
+            if   metadata and metadata["x-format"] 
+            then xformat  = metadata["x-format"]; 
+            end; -- if metadata.x-format
+
+            if   metadata and metadata.default     
+            then defaults = metadata.default;     
+            end; -- if metadata.default
+
+            -- x-formats we recognize --------------------------------------------------------
+
+            if   xformat == "glossary"
+            then -- glossary file
+                 local markdown_section_started = false;
+                 for item, value in pairs(yaml_structure)
+                 do  vprint("Found a glossary file:")
+                     local term, def = "", "";
+                     local indent = "     ";
+                     if   item == "metadata"
+                     then -- skip it
+                     else -- not metadata, don't skip
+
+                          if   not markdown_section_started
+                          then slurped = slurped .. "\n" .. string.rep(":", 20) .. " glossary " .. string.rep(":", 40) .. "\n\n";
+                               markdown_section_started = true;
+                          end; -- not markdown section started
+
+                          if   value.def and type(value.def) == "string" 
+                          then slurped = slurped .. "\n"             .. item;
+                               slurped = slurped .. "\n\n" .. indent .. value.def;
+
+                               if   value.hd_equiv
+                               then slurped = slurped .. "(*" .. value.hd_equiv .. "* in Harmony Drive.)";
+                               end; -- if value hd_equiv
+
+                               slurped = slurped .. "\n\n";
+                          else eprint("Undefined term: " .. item .. " has no definition!");
+                          end;  -- if value.def = string
+  
+                       end; -- else item not metadata
+                   end;   -- for item, value in pairs
+
+            elseif xformat == "character"
+            then   -- character statblock
+                   local markdown_section_started = false;
+            elseif xformat == "list"
+            then   -- a list of people, places, or things
+                   local markdown_section_started = false;
+            elseif xformat
+            then   eprint("Unknown format for yaml block in " .. file .. ": " .. xformat);
+            end; -- if xformat
+    end -- if   yaml_structure and yaml_loaded
+  end; -- if string.find yaml
+
+  for line in io.lines(file) 
+  do  lines[#lines + 1] = line 
+  end; -- for line in io.lines(file)
+
+  local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
+
+  if   not no_parse
+       then -- normalize the number of octothorpes
+       local octo, _    = string.match(slurped, "(#+)");
+       local octo_level = string.len(octo or "");
+        if   octo_level > 1
+        then local mod     = octo_level - 1;
+             local oldhash = "\n" .. string.rep("#", mod);
+             local newhash = "\n";
+             slurped       = string.gsub(slurped, oldhash, newhash);
+        end; -- if octo_leel
+   
+        local level = path_level(file);
+        vprint(slug(file), "### should be " .. level .. ", is " .. octo_level);
+   
+        if   level >= 1
+        then local mod = level - 1;
+             local oldhash = "\n#";
+             local newhash = "\n#" .. string.rep("#", mod)
+             slurped = string.gsub(slurped, oldhash, newhash);
+             slurped = string.gsub(slurped, "\n#####+", "\n#####");
+             -- handle the H6 headings
+             slurped = string.gsub(slurped, "\n:#", "\n######");
+        end; -- if level
+ 
+  end; -- if not no_parse
+
+  slurped = slurped .. "<!-- source file of preceeding: " .. file .. " -->"
   return slurped;
-end
-
+end; -- function slurp
+   
 local function dump_to_file(file, contents)
-  local f = io.open(file, "wb");
-  f:write(contents);
-  f:close();
-end
+      local f = io.open(file, "wb");
+      f:write(contents);
+      f:close();
+end; -- function dump_to_file
 
-local outtxt = "";
-local FILES  = {};
-local DIRS   = {};
-local BUILD  = {};
-local USED   = {};
-local ERR    = {};
-
+local outtxt = ""; local FILES  = {}; local DIRS   = {};
+local BUILD  = {}; local USED   = {}; local ERR    = {};
 
 local function load_fs()
   files, dirs = file_search(CONFIG.src_dir, "*", true)
   for k, v in pairs(dirs)
-    do 
-      if string.find(v.path, CONFIG.ignore) then vprint("Skipping directory", v.name); break end;
-      local filename = slug(v.path .. v.name);
-      DIRS[filename] = true;
-      vprint("Learning directory location", filename);
-      end;
+    do  if   string.find(v.path, CONFIG.ignore) 
+        then vprint("Skipping directory", v.name); 
+             break 
+        end;
+        local filename = slug(v.path .. v.name);
+        DIRS[filename] = true;
+        vprint("Learning directory location", filename);
+    end; -- for k, v
   
   for k, v in pairs(files)
-    do --
-      if   string.find(v.path, CONFIG.ignore) then break end;
-      if   string.find(v.name, "%" .. CONFIG.ext_markdown .. "$") 
-        or string.find(v.name, "%" .. CONFIG.ext_yaml     .. "$")
-      then --
-             local filename = slug(v.path..v.name);
-             local pathdirs = split(filename, "/");
-             FILES[filename] = true;
-      end;
+  do --
+     if   string.find(v.path, CONFIG.ignore) then break end;
+     if   string.find(v.name, "%" .. CONFIG.ext_markdown .. "$") 
+       or string.find(v.name, "%" .. CONFIG.ext_yaml     .. "$")
+     then --
+          local filename = slug(v.path..v.name);
+          local pathdirs = split(filename, "/");
+          FILES[filename] = true;
+     end; -- if markdown or yaml
+  end; -- for k, v
   return files, dirs;
-  end;
+end; -- function load_fs
 
 local TEMPLATE = {};
+
+local function add_line_by_number(line)
+  if   USED[line]
+  then vprint("trying to add line ", line, "but it's already used");
+  end;
+
+  USED[line] = true;
+
+  if   FILES[line]
+  then   --
+         vprint("found an entry", line);
+         table.insert(BUILD, CONFIG.src_dir .. "/" .. line .. CONFIG.extension);
+         USED[line] = true;
+  elseif FILES[line] and USED[line]
+  then   --
+         vprint("skipping entry", line);
+  else   --
+         eprint("this doesn't exist", line);
+  end; -- if FILES[line]
+end;
 
 local function parse_line(line)
   local asterisk, template = false;
   line = string.gsub(line, "/$", "");
-  if string.find(line, "/%*$")
-     then asterisk = true;
-      line = string.gsub(line, "/%*$", "");
-      end;
+
+  if   string.find(line, "/%*$")
+  then asterisk = true;
+       line = string.gsub(line, "/%*$", "");
+  end; -- if string.find(line)
+
   if string.find(line, "/?::[a-z]+$")
-     then 
-      vprint("looks like a template", line);
-      template = string.match(line, "/?::([a-z]+)$");
-      vprint("i think it's this template", template);
-      line = string.gsub(line, "/?::[a-z]+$", "");
-      if not TEMPLATE[template] 
-         then template = nil; 
-          vprint("the template doesn't exist")
-         else vprint("the template DOES exit!")
-         end;
-      end;
+  then vprint("looks like a template", line);
+       template = string.match(line, "/?::([a-z]+)$");
+       vprint("i think it's this template", template);
+       line = string.gsub(line, "/?::[a-z]+$", "");
+       if not TEMPLATE[template] 
+       then template = nil; 
+       vprint("the template doesn't exist")
+       else vprint("the template DOES exit!")
+       end; -- if not TEMPLATE[template]
+  end; -- if matches template syntax
+
   if string.find(line, "^>")
-    then --
-     local outfile = string.gsub(line, "^>%s*", "");
-           outfile = string.gsub(outfile, ".out$", "");
-     CONFIG.outfile = outfile;
-     vprint("setting the output file", "\"" .. outfile .. "\"");
-    elseif string.find(line, "^#")
-    then --
-     vprint("comment", line);
-    elseif DIRS[line] 
-    then --
-     vprint("found a directory", line);
-     vprint("looking for index", line .. "/" .. CONFIG.index);
-     parse_line(line .. "/" .. CONFIG.index);
-
-     if template
-        then
-          vprint("found a template call", line .. "/::" .. template);
-          for k, v in pairs(TEMPLATE[template]) 
-          do parse_line(v(line));
-          end;
-        end;
-
-     if asterisk 
-        then 
-          vprint("found a /* construction", line .. "/*");
-          local dir = CONFIG.src_dir .. "/" .. line;
-          vprint("looking for files in ", dir)
-          local md_files, _ = file_search(dir, CONFIG.extensions);
-
-          vprint("found this many", #md_files .. " files");
-          for k, v in pairs(md_files)
-          do local sl = v.name;
-             sl = string.gsub(sl, "%" .. CONFIG.ext_markdown .. "$", "");
-             sl = string.gsub(sl, "%" .. CONFIG.ext_yaml     .. "$", "");
-             parse_line(line .. "/" .. sl)
-          end; -- for
-        end; -- if asterisk
-    elseif FILES[line] and not USED[line]
-    then --
-      vprint("found an entry", line);
-      table.insert(BUILD, CONFIG.src_dir .. "/" .. line .. CONFIG.extension);
-      USED[line] = true;
-    elseif FILES[line] and USED[line]
-    then --
-      vprint("skipping entry", line);
-    else --
-      eprint("this doesn't exist", line);
-      table.insert(ERR, line);
+  then --
+         local outfile = string.gsub(line, "^>%s*", "");
+               outfile = string.gsub(outfile, ".out$", "");
+         CONFIG.outfile = outfile;
+         vprint("setting the output file", "\"" .. outfile .. "\"");
+  elseif string.find(line, "^#")
+  then   --
+         vprint("comment", line);
+  elseif DIRS[line] 
+  then   --
+         vprint("found a directory", line);
+         vprint("looking for index", line .. "/" .. CONFIG.index);
+         parse_line(line .. "/" .. CONFIG.index);
+  
+         if template
+         then vprint("found a template call", line .. "/::" .. template);
+              for k, v in pairs(TEMPLATE[template]) 
+              do  parse_line(v(line));
+              end; -- for k, v
+          end; -- if template
+   
+          if asterisk 
+          then vprint("found a /* construction", line .. "/*");
+               local dir = CONFIG.src_dir .. "/" .. line;
+               vprint("looking for files in ", dir)
+               local md_files, _ = file_search(dir, CONFIG.extensions);
+   
+               vprint("found this many", #md_files .. " files");
+               for k, v in pairs(md_files)
+               do  local sl = v.name;
+                   sl = string.gsub(sl, "%" .. CONFIG.ext_markdown .. "$", "");
+                   sl = string.gsub(sl, "%" .. CONFIG.ext_yaml     .. "$", "");
+                   parse_line(line .. "/" .. sl)
+               end; -- for k, v
+           end; -- if asterisk
+   
+    else add_line_by_number(line);
     end;
 end; 
 
 
 local function recipe_list()
   local files, dirs = file_search(CONFIG.recipe_dir, CONFIG.recipe_sfx, false)
-    sprint("Listing Recipes:", #files .. " known");
-    sprint("Recipe directory", CONFIG.recipe_dir);
-    for k, v in pairs(files) 
-    do print(
+  sprint("Listing Recipes:", #files .. " known");
+  sprint("Recipe directory", CONFIG.recipe_dir);
+  for k, v in pairs(files) 
+  do  print(
          string.format(
            CONFIG.logformat, 
            v.path .. v.name,  
            CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
          )
        ); 
-    end;
+  end; -- for k, v
           
-    os.exit(1);
-end;
+  os.exit(1); -- exits
+end; -- function recipe_list
 
--- =======================================================================================================================
+-- ===================================
 -- Command line interface
 -- https://lua-cliargs.netlify.com/#/
+-- ===================================
 
 cli:set_name(CONFIG.appname);
 cli:set_description("it creates the .md files we need");
@@ -472,11 +543,11 @@ cli:splat("RECIPE", "the recipe to build", "", 1);
 
 cli:option("-o, --outfile=OUTFILE", "specify the outfile");
 
-cli:flag("-v, --verbose",     "be more wordy than usual", false);
+cli:flag("-v, --verbose",     "be more wordy than usual",  false);
 cli:flag("-q, --quiet",       "don't summarize each step", false);
-cli:flag("-l, --list",        "list the known recipes", false);
-cli:flag("-y, --yaml",        "parse YAML files", false)
-cli:flag("-e, --[no-]errors", "show errors", true);
+cli:flag("-l, --list",        "list the known recipes",    false);
+cli:flag("-y, --yaml",        "parse YAML files",           true); -- true = default to ON
+cli:flag("-e, --[no-]errors", "show errors",                true); -- true = default to OFF 
 
 local args, err = cli:parse(arg);
 if not args then cli:print_help(); os.exit(1); end;
@@ -489,57 +560,62 @@ if args.verbose then CONFIG.verbose = true  else CONFIG.verbose = false; end;
 if args.errors  then CONFIG.errors  = true  else CONFIG.errors  = false; end;
 if args.yaml    then CONFIG.yaml    = true  else CONFIG.yaml    = false; end;
 
-if args.RECIPE  
-   then CONFIG.recipe  = args.RECIPE;
+if   args.RECIPE  
+then CONFIG.recipe  = args.RECIPE;
      CONFIG.outfile = args.RECIPE;
-   end;
+end; -- if args.RECIPE
 
 if args.outfile then CONFIG.outfile = args.outfile end;
 
--- 
+-- =======================================
+-- Everything above this is initialization
+-- =======================================
+-- =======================================
+-- =======================================
+-- =======================================
 
--- =======================================================================================================================
--- Everything above this is initializion
--- =======================================================================================================================
--- =======================================================================================================================
--- =======================================================================================================================
--- =======================================================================================================================
-
--- start run ------------------------------------------------------------------------------
+-- start run -----------------------------
 vprint("Running in verbose mode");
 sprint("Showing summaries");
 
--- read the recipe
+-- read the recipe -----------------------
 sprint("reading recipe", CONFIG.recipe);
 local recipe_src = slurp(CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.recipe_sfx, true);
 
-if not recipe_src then print("Error: Can't read that recipe file"); os.exit() end
+if not recipe_src then print("Error: Can't read that recipe file"); os.exit() end;
+
 local recipe = split(recipe_src, "[\r\n]+");
 sprint("recipe read", #recipe .. " lines");
 
--- parse the filesystem tree
+-- parse the filesystem tree ---------------------------------------
 sprint("Loading the filesystem map", "source = " .. CONFIG.src_dir );
 load_fs();
 
--- parse the recipe
-for _, i in pairs(recipe) do parse_line(i) end;
+-- parse the recipe ------------------------------------
+for _, i in pairs(recipe) 
+do  parse_line(i) 
+end; -- for _, i in pairs(recipe)
 
+-- slurp other files ----------------------------------
 sprint("slurping other files now", #BUILD .. " files");
-for i, v in pairs(BUILD) do outtxt = outtxt .. slurp(v) end;
+for i, v in pairs(BUILD) 
+do  outtxt = outtxt .. (slurp(v)  or "");
+end; -- for i, v
 
--- save the output
+-- save the output ------------------------------------------------------------
 local outfile = CONFIG.build_dir .. "/" .. CONFIG.outfile .. CONFIG.out_suffix;
 
 sprint("Writing to file", outfile);
 sprint("Content size is", string.len(outtxt) .. " characters");
 dump_to_file(outfile, outtxt);
 
--- notify of errors
+-- notify of errors -----------------------------------------------------------
 sprint("number of errors", (#ERR or 0) .. " error" .. ((#ERR and #ERR == 1) and "" or "s" ));
-if #ERR 
-   then for i, v in pairs(ERR) 
-    do local errmsg = "Alert: Missing file";
-       if string.find(v, CONFIG.index .. "$") then errmsg = "Warning: Missing index"; end;
-       eprint(errmsg, v)
-    end; -- do
-   end; -- if #ERR
+if   #ERR 
+then for i, v in pairs(ERR) 
+     do local errmsg = "Alert: Missing file";
+        if string.find(v, CONFIG.index .. "$") then errmsg = "Warning: Missing index"; end;
+        eprint(errmsg, v)
+     end; -- for i, v in pairs(ERR)
+end; -- if #ERR
+

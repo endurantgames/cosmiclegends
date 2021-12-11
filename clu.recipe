@@ -10,10 +10,10 @@ preface/ages_of_comics
 preface/bronze_age
 preface/influences
 safety/
-safety/before/
-safety/during/
-safety/after/
-safety/*
+safety/before
+safety/during
+safety/after
+# safety/*
 overview
 dice
 issues
@@ -34,7 +34,7 @@ skills
 classes/
 classes/dual_class
 classes/multi_class
-classes/*
+# classes/*
 powers/
 powers/display
 powers/stunt
@@ -62,14 +62,14 @@ sample_crises/ord_crim
 sample_crises/personal
 sample_crises/science
 sample_crises/super_villains
-sample_crises/*
+# sample_crises
 vignettes/
 vignettes/vignettes_issue
 vignettes/examples/*
 glossary
 lists_index
 powers/words
-soapbox_index
+# soapbox_index
 credits/
 credits/license
 credits/harmony_drive
@@ -79,6 +79,6 @@ credits/no_fascists
 credits/safety
 license
 herosheet
-team/sheet
+# team/sheet
 cca
 series_sheet
