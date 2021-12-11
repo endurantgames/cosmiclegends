@@ -22,6 +22,7 @@ BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
 PDFTITLE  = Cosmic-Legends
 PAGEDIR   = $(OUTDIR)/pages
+MMD       = $(BINDIR)/make-markdown.lua
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
@@ -145,10 +146,11 @@ PDFINFO      = /usr/bin/pdfinfo
 PDFINFO_GREP = | /bin/grep -v "no"
 
 # Make Markdown Script Config
-#   Edit: you can turn off quiet mode
-# MAKE_MD   = $(BINDIR)/make-markdown.lua -q
-# MAKE_MD   = $(BINDIR)/make-markdown.lua -v
-MAKE_MD = $(BINDIR)/make-markdown.lua -q
+#   Edit: you can turn off quiet or verbose mode
+# MAKE_MD    = $(MMD) -q
+MAKE_MD    = $(MMD) -v
+# MAKE_MD      = $(MMD) -q
+MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
 EDITOR = /usr/bin/vim
@@ -235,6 +237,7 @@ help:
 	@ echo '  $(dkcyan)make$(resetc) $(dkredd)purge      $(resetc)- $(dkredd)purge$(resetc) $(OUTDIR), $(BUILDDIR), $(BACKDIR)'
 	@ echo '  $(dkcyan)make$(resetc) $(dkmagn)edit       $(resetc)- edit the Makefile in $(EDITOR)'
 	@ echo '  $(dkcyan)make$(resetc) $(dkblue)ls         $(resetc)- recursive ls'
+	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)menu       $(resetc)- list available recipes'
 
 # Various Make Utilities ################################################################################
 #
@@ -416,6 +419,11 @@ html: origin-markdown
 	@ echo '$(ltcyan)HTML built.$(resetc)'
 	@       $(EDITOR) $(BUILDDIR)/$(HTML_OUT)
 
+# recipe list
+recipes:
+	@ echo '$(ltcyan)Recipes List:$(resetc)'
+	@       $(MAKE_MD_LIST)
+
 # make all
 #   Edit: if you are making more than one pdf or html
 all:    pdf   letter    sheets      pregen  origin what-pdf
@@ -424,6 +432,11 @@ sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
 md:             markdown
+list:           recipes
+recipe:         recipes
+recipe-list:    recipes
+recipes-list:   recipes
+menu:           recipes
 game:           pdf letter
 backup:         backups
 vi:             edit

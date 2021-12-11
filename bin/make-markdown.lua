@@ -9,15 +9,15 @@ local CONFIG = {
   extensions   = ".md;.yaml",
   ext_markdown = ".md",
   ext_yaml     = ".yaml",
+  ext_recipe   = ".recipe",
   ignore       = "^(%.git|Makefile|%.test|%.)",
   index        = "intro",
   logformat    = "  %-30s %-40s",
   out_suffix   = ".md",
   outdir       = "./out",
   outfile      = "build",
-  recipe       = "test",
+  recipe       = "clu",
   recipe_dir   = "./",
-  recipe_sfx   = ".recipe",
   src_dir      = "./src",
   summary      = true,
   verbose      = false,
@@ -234,31 +234,30 @@ end; -- function slurp_yaml
 local function slurp(file, no_parse, no_yaml)
   string.gsub(file,"\n$","");
 
-  local is_markdown, is_yaml = false, false;
+  local is_markdown, is_yaml, is_recipe = false, false, false;
   local file_yaml = "(no yaml)";
   local file_markdown = file;
 
   if     string.find(file, "%" .. CONFIG.ext_markdown)
   then   vprint("Looking for markdown: ", file_markdown);
-	 is_markdown = true;
-	 file_yaml   = file;
+         is_markdown = true;
+         file_yaml   = file;
          string.gsub(file_yaml, "%" .. CONFIG.ext_markdown, CONFIG.ext_yaml);
   elseif string.find(file, "%" .. CONFIG.ext_yaml)
   then   vprint("Looking for YAML: ", file);
-	 is_yaml = true;
-  else   vprint("Unknown file type:", file);
+         is_yaml = true;
+  elseif string.find(file, "%" .. CONFIG.ext_recipe)
+  then   is_recipe = true;
+         vprint("Looking for recipe: ", file);
   end;
 
-  vprint("looking for: " .. file_yaml .. " or " .. file_markdown .. " (" .. file ..")");
+  -- vprint("looking for: " .. file_yaml .. " or " .. file_markdown .. " (" .. file ..")");
 
-  if     file_exists(file_yaml)
-  then   vprint("File found: " .. file_yaml);
-  elseif file_exists(file_markdown)
-  then   vprint("File found: " .. file_markdown);
-  else   eprint("Couldn't find: " .. file);
+  if     is_recipe   and file_exists(file)          then vprint("File found: "    .. file         );
+  elseif is_yaml     and file_exists(file_yaml)     then vprint("File found: "    .. file_yaml    );
+  elseif is_markdown and file_exists(file_markdown) then vprint("File found: "    .. file_markdown);
+                                                    else eprint("Couldn't find: " .. file         );
   end;
-
-  lines = {};
 
   if   is_yaml and CONFIG.yaml and not no_yaml
   then -- load the YAML
@@ -355,42 +354,47 @@ local function slurp(file, no_parse, no_yaml)
             then   eprint("Unknown format for yaml block in " .. file .. ": " .. xformat);
             end; -- if xformat
     end -- if   yaml_structure and yaml_loaded
-  end; -- if string.find yaml
+    else lines = {};
+         for line in io.lines(file) 
 
-  for line in io.lines(file) 
-  do  lines[#lines + 1] = line 
-  end; -- for line in io.lines(file)
+         do  lines[#lines + 1] = line 
+         end; -- for line in io.lines(file)
+       
+         local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
+       
+         if   not no_parse
+         then -- normalize the number of octothorpes
+              local octo, _    = string.match(slurped, "(#+)");
+              local octo_level = string.len(octo or "");
+               if   octo_level > 1
+               then local mod     = octo_level - 1;
+                    local oldhash = "\n" .. string.rep("#", mod);
+                    local newhash = "\n";
+                    slurped       = string.gsub(slurped, oldhash, newhash);
+               end; -- if octo_leel
+          
+               local level = path_level(file);
+               vprint(slug(file), "### should be " .. level .. ", is " .. octo_level);
+          
+               if   level >= 1
+               then local mod = level - 1;
+                    local oldhash = "\n#";
+                    local newhash = "\n#" .. string.rep("#", mod)
+                    slurped = string.gsub(slurped, oldhash, newhash);
+                    slurped = string.gsub(slurped, "\n#####+", "\n#####");
+                    -- handle the H6 headings
+                    slurped = string.gsub(slurped, "\n:#", "\n######");
+               end; -- if level
+       
+               if is_markdown
+               then slurped = slurped .. "<!-- source file of preceeding: " .. file .. " -->"
+               end;
+         end; -- if not no_parse
 
-  local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
+         return slurped;
+        
+  end; -- if is_yaml
 
-  if   not no_parse
-       then -- normalize the number of octothorpes
-       local octo, _    = string.match(slurped, "(#+)");
-       local octo_level = string.len(octo or "");
-        if   octo_level > 1
-        then local mod     = octo_level - 1;
-             local oldhash = "\n" .. string.rep("#", mod);
-             local newhash = "\n";
-             slurped       = string.gsub(slurped, oldhash, newhash);
-        end; -- if octo_leel
-   
-        local level = path_level(file);
-        vprint(slug(file), "### should be " .. level .. ", is " .. octo_level);
-   
-        if   level >= 1
-        then local mod = level - 1;
-             local oldhash = "\n#";
-             local newhash = "\n#" .. string.rep("#", mod)
-             slurped = string.gsub(slurped, oldhash, newhash);
-             slurped = string.gsub(slurped, "\n#####+", "\n#####");
-             -- handle the H6 headings
-             slurped = string.gsub(slurped, "\n:#", "\n######");
-        end; -- if level
- 
-  end; -- if not no_parse
-
-  slurped = slurped .. "<!-- source file of preceeding: " .. file .. " -->"
-  return slurped;
 end; -- function slurp
    
 local function dump_to_file(file, contents)
@@ -514,7 +518,7 @@ end;
 
 
 local function recipe_list()
-  local files, dirs = file_search(CONFIG.recipe_dir, CONFIG.recipe_sfx, false)
+  local files, dirs = file_search(CONFIG.recipe_dir, CONFIG.ext_recipe, false)
   sprint("Listing Recipes:", #files .. " known");
   sprint("Recipe directory", CONFIG.recipe_dir);
   for k, v in pairs(files) 
@@ -522,12 +526,12 @@ local function recipe_list()
          string.format(
            CONFIG.logformat, 
            v.path .. v.name,  
-           CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
+           CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.ext_recipe, "")
          )
        ); 
   end; -- for k, v
           
-  os.exit(1); -- exits
+  os.exit(); -- exits
 end; -- function recipe_list
 
 -- ===================================
@@ -562,6 +566,7 @@ if args.yaml    then CONFIG.yaml    = true  else CONFIG.yaml    = false; end;
 
 if   args.RECIPE  
 then CONFIG.recipe  = args.RECIPE;
+     vprint("args.RECIPE is " .. args.RECIPE);
      CONFIG.outfile = args.RECIPE;
 end; -- if args.RECIPE
 
@@ -579,10 +584,10 @@ vprint("Running in verbose mode");
 sprint("Showing summaries");
 
 -- read the recipe -----------------------
-sprint("reading recipe", CONFIG.recipe);
-local recipe_src = slurp(CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.recipe_sfx, true);
+sprint("reading recipe", CONFIG.recipe or "NIL");
+local recipe_src = slurp(CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.ext_recipe, true);
 
-if not recipe_src then print("Error: Can't read that recipe file"); os.exit() end;
+if not recipe_src then eprint("Can't read that recipe file: " .. (CONFIG.recipe or "NIL")); os.exit() end;
 
 local recipe = split(recipe_src, "[\r\n]+");
 sprint("recipe read", #recipe .. " lines");
