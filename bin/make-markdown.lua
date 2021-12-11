@@ -23,19 +23,44 @@ local CONFIG = {
   verbose      = false,
   };
 
-local lfs  = require "lfs"
-local cli  = require "cliargs";
-local yaml = require "yaml";
+local lfs   = require "lfs"
+local cli   = require "cliargs";
+local lyaml = require "lyaml";
 
 local function parse_yaml(str)
   if not str then return false, nil end;
-  local yaml_structure = yaml.load(str);
+  local yaml_structure = lyaml.load(str);
 
   if   yaml_structure 
   then return true,  yaml_structure 
   else return false, nil
   end;
 
+end
+
+function tprint(tbl, indent)
+  if not indent then indent = 0 end
+  local toprint = string.rep(" ", indent) .. "{\r\n"
+  indent = indent + 2 
+  for k, v in pairs(tbl) do
+    toprint = toprint .. string.rep(" ", indent)
+    if (type(k) == "number") then
+      toprint = toprint .. "[" .. k .. "] = "
+    elseif (type(k) == "string") then
+      toprint = toprint  .. k ..  "= "   
+    end
+    if (type(v) == "number") then
+      toprint = toprint .. v .. ",\r\n"
+    elseif (type(v) == "string") then
+      toprint = toprint .. "\"" .. v .. "\",\r\n"
+    elseif (type(v) == "table") then
+      toprint = toprint .. tprint(v, indent + 2) .. ",\r\n"
+    else
+      toprint = toprint .. "\"" .. tostring(v) .. "\",\r\n"
+    end
+  end
+  toprint = toprint .. string.rep(" ", indent-2) .. "}"
+  return toprint
 end
 
 local function split(str, pat)
@@ -221,35 +246,33 @@ local function file_exists(file)
       return f ~= nil
 end -- function file_exists
 
-local function slurp_yaml(filename)
-  if   CONFIG.yaml
-  then if file_exists(filename)
-       then vprint("Gonna try to load YAML from", filename);
-            local yaml_structure = yaml.loadpath(filename);
-            if   yaml_structure 
-            then vprint("YAML loaded!");
-		 return yaml_structure, true 
-            else eprint("YAML not loaded :(");
-		 return nil, false 
-            end;
-       else eprint("Not loading YAML from", filename);
-            eprint("File not found", filename);
-       end;
-  end; -- if CONFIG.yaml
-end; -- function slurp_yaml
+-- local function slurp_yaml(filename)
+--   if   CONFIG.yaml
+--   then if file_exists(filename)
+--        then vprint("Gonna try to load YAML from", filename);
+--             local yaml_file = slurp(filename, true, true, true);
+--             local yaml_structure = lyaml.load(yaml_file);
+--             if   yaml_structure 
+--             then vprint("YAML loaded!");
+--                  return yaml_structure, true 
+--             else eprint("YAML not loaded :(");
+--                  return nil, false 
+--             end;
+--        else eprint("Not loading YAML from", filename);
+--             eprint("File not found",        filename);
+--        end;
+--   end; -- if CONFIG.yaml
+-- end; -- function slurp_yaml
 
 -- get all lines from a file, returns an empty
 -- list/table if the file does not exist
-local function slurp(filename, no_parse, no_yaml)
+local function slurp(filename, no_parse, no_yaml, return_format)
 
   string.gsub(filename,"\n$",""); -- remove extra newlines at the end
 
   local file = {};
   file.base           = filename;
   file.stub           = slug(filename);
-  -- file.is_md       = false;
-  -- file.is_yaml     = false;
-  -- file.is_recipe   = false;
   local file_yaml     = "(no yaml)";
   local file_markdown = file;
 
@@ -261,6 +284,7 @@ local function slurp(filename, no_parse, no_yaml)
          file.is_md     = false;
          file.is_yaml   = true;
          file.markdown  = file.stub .. CONFIG.ext_markdown;
+         if return_format == "string" then return_format = "yaml" end;
          vprint("Identified " .. file.base .. " as:", "YAML");
   elseif string.find(filename, "%" .. CONFIG.ext_markdown .. "$")
   then   file.stub      = file.stub:gsub("%" .. CONFIG.ext_markdown .. "$", "");
@@ -294,26 +318,40 @@ local function slurp(filename, no_parse, no_yaml)
   then -- load the YAML
 
        sprint("This is a YAML file:", file.yaml);
-       file.yaml_structure, file.yaml_loaded = slurp_yaml(file.yaml);
+       file.yaml_structure, file.yaml_loaded = slurp(file.yaml, nil, nil, "yaml");
        if   file.yaml_structure and file.yaml_loaded
        then -- create the text representation
-            local metadata = file.yaml_structure.metadata
+            -- if   not file.yaml_structure 
+            -- then vprint("no yaml_structure!"); 
+            -- else vprint( "we have some structure:", #file.yaml_structure .. " blocks worth"); 
+            --      -- for k, v in pairs(file.yaml_structure) do vprint(tprint(v, 2)); end;
+            -- end;
+
+            local slurped = {};
+
+            local metadata;
+
+            if file.yaml_structure[1] and file.yaml_structure[1].metadata
+            then vprint(tprint(file.yaml_structure[1].metadata, 2));
+                 metadata = file.yaml_structure[1].metadata;
+            else vprint(tprint(file.yaml_structure[1], 2));
+            end;
    
-            if   metadata     and metadata.file
-            then local virtfile = metadata.file
-                 local htitle   = virtfile.title      or "YAML Data"
-                 local hlevel   = virtfile["h-level"] or 1;
-                 local anchor   = virtfile.anchor;
-                 local class    = virtfile["css class"];
-                 local plevel   = path_level(file.base);
+            if   metadata  
+            then -- local virtfile = metadata.file
+                 -- local htitle   = virtfile and virtfile.title      or "YAML Data"
+                 -- local hlevel   = virtfile and virtfile["h-level"] or 1;
+                 -- local anchor   = virtfile and virtfile.anchor;
+                 -- local class    = virtfile and virtfile["css class"];
+                 -- local plevel   = path_level(file.base);
    
-                 if   plevel > hlevel
-                 then -- vprint(slug(file.stub), "should be " .. plevel .. ", is " .. hlevel);
-                      hlevel = plevel;
-                 end; -- if plevel
+                 -- if   plevel > hlevel
+                 -- then vprint(slug(file.stub), "should be " .. plevel .. ", is " .. hlevel);
+                 --      hlevel = plevel + hlevel - 1;
+                 -- end; -- if plevel
    
-                 slurped = slurped .. "\n" .. string.rep("#", plevel + hlevel - 1);
-                 slurped = slurped .. " " .. htitle;
+                 -- slurped = slurped .. "\n" .. string.rep("#", hlevel);
+                 -- slurped = slurped .. " " .. htitle;
 
                  if   anchor or class
                  then -- drop a curly brace
@@ -334,8 +372,14 @@ local function slurp(filename, no_parse, no_yaml)
             local xformat = nil;
             local defaults = {};
 
+            if not metadata
+            then vprint("No metadata found.");
+            else vprint("metadata found!   ");
+            end;
+
             if   metadata and metadata["x-format"] 
-            then xformat  = metadata["x-format"]; 
+            then xformat = metadata["x-format"]; 
+            else vprint("No x-format found.");
             end; -- if metadata.x-format
 
             if   metadata and metadata.default     
@@ -356,7 +400,7 @@ local function slurp(filename, no_parse, no_yaml)
                      else -- not metadata, don't skip
 
                           if   not markdown_section_started
-                          then slurped = slurped .. "\n" .. string.rep(":", 20) .. " glossary " .. string.rep(":", 40) .. "\n\n";
+                          then table.insert(slurped, string.rep(":", 20) .. " glossary " .. string.rep(":", 40));
                                markdown_section_started = true;
                           end; -- not markdown section started
 
@@ -375,14 +419,20 @@ local function slurp(filename, no_parse, no_yaml)
                        end; -- else item not metadata
                    end;   -- for item, value in pairs
 
-                   return slurped;
+                   if     return_format == "string"
+                   then   return table.concat(slurped, "\n");
+                   elseif not return_format or return_format == "table"
+                   then   return slurped; 
+                   elseif return_format == "yaml"
+                   then   return lyaml.load( table.concat(slurped, "\n")), true;
+                   end;
 
             elseif xformat == "character"
             then   -- character statblock
-		   vprint("Found a character!");
+                   vprint("Found a character in YAML!");
 
                    local slurped   = "";
-		   local yaml_data = file.yaml_structure;
+                   local yaml_data = file.yaml_structure;
                    local bio       = yaml_data.bio;
                    local history   = yaml_data.history;
                    local powers    = yaml_data.powers;
@@ -402,9 +452,9 @@ local function slurp(filename, no_parse, no_yaml)
                          elseif #field_path > 1                             then for i, field in pairs(value) do value = value[field]; end;
                          end;
                          if   value
-		         then vprint("generating stat line " .. caption);
+                         then vprint("generating stat line " .. caption);
                               slurped = slurped .. string.rep("  ", 2 * (#field_path)) .. "\n- **" .. caption .. ":**" .. value;
-			 end;
+                         end;
                    end;
 
                    slurped = slurped .. "\n# " .. (metadata.title or "Character");
@@ -426,7 +476,7 @@ local function slurp(filename, no_parse, no_yaml)
                         if   bio.gender and bio.gender.desc and bio.gender.pronouns
                         then slurped = slurped .. "\n- **Gender:**" .. bio.gender.desc .. " (" ..  bio.gender.pronouns .. ")";
                         else slurp_bio_field("gender",     "Gender");
-		             slurp_bio_field("pronouns", "Pronouns");
+                             slurp_bio_field("pronouns", "Pronouns");
                         end;
 
                         slurp_bio_field("identity",             "Identity");
@@ -722,7 +772,7 @@ sprint("Showing summaries");
 
 -- read the recipe -----------------------
 sprint("reading recipe", CONFIG.recipe or "NIL");
-local recipe_src = slurp(CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.ext_recipe, true);
+local recipe_src = slurp(CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.ext_recipe, true, true, "string");
 
 if not recipe_src then eprint("Can't read that recipe file: " .. (CONFIG.recipe or "NIL")); os.exit() end;
 
@@ -747,7 +797,7 @@ end; -- for _, i in pairs(recipe)
 sprint("slurping other files now", #BUILD .. " files");
 for i, v in pairs(BUILD) 
 do  vprint("Slurping ", v);
-    outtxt = outtxt .. (slurp(v)  or "");
+    outtxt = outtxt .. (slurp(v, true, false)  or "");
 end; -- for i, v
 
 -- save the output ------------------------------------------------------------
