@@ -469,7 +469,8 @@ local function slurp(filename, no_parse, no_yaml, return_format)
   then -- load the YAML
 
        sprint("This is a YAML file:", file.yaml);
-       file.yaml_structure, file.yaml_loaded = slurp(file.yaml, nil, nil, "yaml");
+       file.contents = slurp(file.yaml, true, true);
+       -- file.yaml_structure, file.yaml_loaded = slurp(file.yaml, nil, nil, "yaml");
        if   file.yaml_structure and file.yaml_loaded
        then -- create the text representation
             -- if   not file.yaml_structure 
