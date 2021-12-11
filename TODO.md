@@ -13,13 +13,14 @@ General ideas
 - [/]   CCA Checklist
   - [ ] Separate file
 - [/]   Series sheet
-- [ ]   Coding for yaml
+- [/]   Coding for yaml
   - [/] Glossary
-  - [ ] Characters
+  - [/] Characters
   - [ ] Lists
   - [ ] Places
   - [ ] Teams
-
+  - [ ] Classes
+- [ ]   Abilities database
 
 Manuscript
 ----------
