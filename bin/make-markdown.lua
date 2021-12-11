@@ -264,6 +264,160 @@ end -- function file_exists
 --   end; -- if CONFIG.yaml
 -- end; -- function slurp_yaml
 
+local xformat = {}
+
+xformat.glossary = function(yaml, return_format)
+            -- glossary file
+                 local markdown_section_started = false;
+                 for item, value in pairs(yaml_structure)
+                 do  vprint("Found a glossary file:")
+                     local term, def = "", "";
+                     local indent = "     ";
+                     if   item == "metadata"
+                     then -- skip it
+                     else -- not metadata, don't skip
+
+                          if   not markdown_section_started
+                          then table.insert(slurped, string.rep(":", 20) .. " glossary " .. string.rep(":", 40));
+                               markdown_section_started = true;
+                          end; -- not markdown section started
+
+                          if   value.def and type(value.def) == "string" 
+                          then slurped = slurped .. "\n"             .. item;
+                               slurped = slurped .. "\n\n" .. indent .. value.def;
+
+                               if   value.hd_equiv
+                               then slurped = slurped .. "(*" .. value.hd_equiv .. "* in Harmony Drive.)";
+                               end; -- if value hd_equiv
+
+                               slurped = slurped .. "\n\n";
+                          else eprint("Undefined term: " .. item .. " has no definition!");
+                          end;  -- if value.def = string
+  
+                       end; -- else item not metadata
+                   end;   -- for item, value in pairs
+
+                   if     return_format == "string"
+                   then   return table.concat(slurped, "\n");
+                   elseif not return_format or return_format == "table"
+                   then   return slurped; 
+                   elseif return_format == "yaml"
+                   then   return lyaml.load( table.concat(slurped, "\n")), true;
+                   end;
+
+end;
+
+
+xformat.character = function(yaml, return_format)
+             -- character statblock
+                   vprint("Found a character in YAML!");
+
+                   local slurped   = "";
+                   local yaml_data = file.yaml_structure;
+                   local bio       = yaml_data.bio;
+                   local history   = yaml_data.history;
+                   local powers    = yaml_data.powers;
+                   local stats     = yaml_data.stats;
+                   local weapons   = yaml_data.weapons;
+
+                   local function slurp_bio_field(yfield, caption)
+                      vprint("generating bio line " .. caption);
+                      if   bio[yfield] then slurped = slurped .. "\n- **" .. caption .. ":** " .. bio[yfield]; end;
+                   end;
+
+                   local function slurp_stats_field(yfield, caption)
+                         local field_path = split(yfield, ":");
+                         local value = stats[yfield];
+                         if     type(value) ~= "table" and #field_path == 1 then slurped = slurped .. "\n- **" .. caption .. ":** " .. stats[yfield]; 
+                         elseif #field_path == 1 and value[1] == "*"        then value = table.concat(value, ", ");
+                         elseif #field_path > 1                             then for i, field in pairs(value) do value = value[field]; end;
+                         end;
+                         if   value
+                         then vprint("generating stat line " .. caption);
+                              slurped = slurped .. string.rep("  ", 2 * (#field_path)) .. "\n- **" .. caption .. ":**" .. value;
+                         end;
+                   end;
+
+                   slurped = slurped .. "\n# " .. (metadata.title or "Character");
+
+                   if   metadata.anchor or metadata.classes
+                   then slurped = slurped .. " {";
+                        if metadata.anchor   then slurped = slurped .. "#" .. metadata.anchor  end;
+                        if metadata.classes then slurped = slurped .. " ." .. metadata.classes end;
+                        slurped = slurped .. "}\n";
+                   end;
+
+                   if   bio
+                   then vprint("generating bio block");
+                        slurped = slurped .. "::::::::::: { .bio } ::::::::::::::::"
+                        slurp_bio_field("real_name",    "Real Name"   );
+                        slurp_bio_field("occupation",   "Occupation"  );
+                        slurp_bio_field("legal_status", "Legal Status");
+
+                        if   bio.gender and bio.gender.desc and bio.gender.pronouns
+                        then slurped = slurped .. "\n- **Gender:**" .. bio.gender.desc .. " (" ..  bio.gender.pronouns .. ")";
+                        else slurp_bio_field("gender",     "Gender");
+                             slurp_bio_field("pronouns", "Pronouns");
+                        end;
+
+                        slurp_bio_field("identity",             "Identity");
+                        slurp_bio_field("former_aliases", "Former Aliases");
+                        slurp_bio_field("place_of_birth", "Place of Birth");
+                        slurp_bio_field("marital_status", "Marital Status");
+
+                        if   bio.height or bio.weight or bio.eyes or bio.hair
+                        then vprint("generating bio2 block");
+                             slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
+                             slurped = slurped .. "::::::::::: { .bio2 } :::::::::::::::";
+                             slurp_bio_field("height", "Height");
+                             slurp_bio_field("weight", "Weight");
+                             slurp_bio_field("eyes",   "Eyes"  );
+                             slurp_bio_field("hair",   "Hair"  );
+                        end; 
+                        slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
+                    end; -- if bio
+                    if history then slurped = slurped .. "\n\n**History:**\n" .. history; end;
+                    if powers  then slurped = slurped .. "\n\n**Powers:**\n"  .. powers;  end;
+                    if weapons then slurped = slurped .. "\n\n**Weapons:**\n" .. weapons; end;
+                    if stats
+                    then vprint("generating stats block");
+                         slurped = slurped .. "::::::::::: { .stats } ::::::::::::::";
+                         if metadata.title then slurped = slurped .. "\n\n## " .. metadata.title .. "\n\n"; end;
+                         slurp_stats_field("class",                "Class"      );
+                         slurp_stats_field("approaches",           "Approaches" );
+                         slurp_stats_field("approaches:action",    "Action"     );
+                         slurp_stats_field("approaches:adventure", "Adventure"  );
+                         slurp_stats_field("approaches:detective", "Detective"  );
+                         slurp_stats_field("approaches:mystery",   "Mystery"    );
+                         slurp_stats_field("approaches:suspense",  "Suspense"   );
+                         slurp_stats_field("health",               "Health"     );
+                         slurp_stats_field("might",                "Might"      );
+                         slurp_stats_field("power_words",          "Power Words");
+                         slurp_stats_field("power_words:core",     "Core"       );
+                         slurp_stats_field("power_words:personal", "Personal"   );
+                         slurp_stats_field("power_words:nova",     "Nova"       );
+                         slurp_stats_field("abilities:*",          "Abilities"  );
+                         slurp_stats_field("skills:*",             "Skills"     );
+                         slurp_stats_field("ideals:*",             "Ideals"     );
+                         slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
+                    end;
+                   
+end;
+
+xformat.list = function(yaml, return_format)
+   -- a list of people, places, or things
+   local markdown_section_started = false;
+end;
+
+xformat.place = function(yaml, return_format)
+   -- a place
+   local markdown_section_started = false;
+end;
+
+xformat.unknown = function(yaml, return_format)
+  eprint("Unknown format for yaml block in " .. file .. ": " .. xformat);
+end;
+
 -- get all lines from a file, returns an empty
 -- list/table if the file does not exist
 local function slurp(filename, no_parse, no_yaml, return_format)
@@ -388,145 +542,6 @@ local function slurp(filename, no_parse, no_yaml, return_format)
 
             -- x-formats we recognize --------------------------------------------------------
 
-            if   xformat == "glossary"
-            then -- glossary file
-                 local markdown_section_started = false;
-                 for item, value in pairs(yaml_structure)
-                 do  vprint("Found a glossary file:")
-                     local term, def = "", "";
-                     local indent = "     ";
-                     if   item == "metadata"
-                     then -- skip it
-                     else -- not metadata, don't skip
-
-                          if   not markdown_section_started
-                          then table.insert(slurped, string.rep(":", 20) .. " glossary " .. string.rep(":", 40));
-                               markdown_section_started = true;
-                          end; -- not markdown section started
-
-                          if   value.def and type(value.def) == "string" 
-                          then slurped = slurped .. "\n"             .. item;
-                               slurped = slurped .. "\n\n" .. indent .. value.def;
-
-                               if   value.hd_equiv
-                               then slurped = slurped .. "(*" .. value.hd_equiv .. "* in Harmony Drive.)";
-                               end; -- if value hd_equiv
-
-                               slurped = slurped .. "\n\n";
-                          else eprint("Undefined term: " .. item .. " has no definition!");
-                          end;  -- if value.def = string
-  
-                       end; -- else item not metadata
-                   end;   -- for item, value in pairs
-
-                   if     return_format == "string"
-                   then   return table.concat(slurped, "\n");
-                   elseif not return_format or return_format == "table"
-                   then   return slurped; 
-                   elseif return_format == "yaml"
-                   then   return lyaml.load( table.concat(slurped, "\n")), true;
-                   end;
-
-            elseif xformat == "character"
-            then   -- character statblock
-                   vprint("Found a character in YAML!");
-
-                   local slurped   = "";
-                   local yaml_data = file.yaml_structure;
-                   local bio       = yaml_data.bio;
-                   local history   = yaml_data.history;
-                   local powers    = yaml_data.powers;
-                   local stats     = yaml_data.stats;
-                   local weapons   = yaml_data.weapons;
-
-                   local function slurp_bio_field(yfield, caption)
-                      vprint("generating bio line " .. caption);
-                      if   bio[yfield] then slurped = slurped .. "\n- **" .. caption .. ":** " .. bio[yfield]; end;
-                   end;
-
-                   local function slurp_stats_field(yfield, caption)
-                         local field_path = split(yfield, ":");
-                         local value = stats[yfield];
-                         if     type(value) ~= "table" and #field_path == 1 then slurped = slurped .. "\n- **" .. caption .. ":** " .. stats[yfield]; 
-                         elseif #field_path == 1 and value[1] == "*"        then value = table.concat(value, ", ");
-                         elseif #field_path > 1                             then for i, field in pairs(value) do value = value[field]; end;
-                         end;
-                         if   value
-                         then vprint("generating stat line " .. caption);
-                              slurped = slurped .. string.rep("  ", 2 * (#field_path)) .. "\n- **" .. caption .. ":**" .. value;
-                         end;
-                   end;
-
-                   slurped = slurped .. "\n# " .. (metadata.title or "Character");
-
-                   if   metadata.anchor or metadata.classes
-                   then slurped = slurped .. " {";
-                        if metadata.anchor   then slurped = slurped .. "#" .. metadata.anchor  end;
-                        if metadata.classes then slurped = slurped .. " ." .. metadata.classes end;
-                        slurped = slurped .. "}\n";
-                   end;
-
-                   if   bio
-                   then vprint("generating bio block");
-                        slurped = slurped .. "::::::::::: { .bio } ::::::::::::::::"
-                        slurp_bio_field("real_name",    "Real Name"   );
-                        slurp_bio_field("occupation",   "Occupation"  );
-                        slurp_bio_field("legal_status", "Legal Status");
-
-                        if   bio.gender and bio.gender.desc and bio.gender.pronouns
-                        then slurped = slurped .. "\n- **Gender:**" .. bio.gender.desc .. " (" ..  bio.gender.pronouns .. ")";
-                        else slurp_bio_field("gender",     "Gender");
-                             slurp_bio_field("pronouns", "Pronouns");
-                        end;
-
-                        slurp_bio_field("identity",             "Identity");
-                        slurp_bio_field("former_aliases", "Former Aliases");
-                        slurp_bio_field("place_of_birth", "Place of Birth");
-                        slurp_bio_field("marital_status", "Marital Status");
-
-                        if   bio.height or bio.weight or bio.eyes or bio.hair
-                        then vprint("generating bio2 block");
-                             slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
-                             slurped = slurped .. "::::::::::: { .bio2 } :::::::::::::::";
-                             slurp_bio_field("height", "Height");
-                             slurp_bio_field("weight", "Weight");
-                             slurp_bio_field("eyes",   "Eyes"  );
-                             slurp_bio_field("hair",   "Hair"  );
-                        end; 
-                        slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
-                    end; -- if bio
-                    if history then slurped = slurped .. "\n\n**History:**\n" .. history; end;
-                    if powers  then slurped = slurped .. "\n\n**Powers:**\n"  .. powers;  end;
-                    if weapons then slurped = slurped .. "\n\n**Weapons:**\n" .. weapons; end;
-                    if stats
-                    then vprint("generating stats block");
-                         slurped = slurped .. "::::::::::: { .stats } ::::::::::::::";
-                         if metadata.title then slurped = slurped .. "\n\n## " .. metadata.title .. "\n\n"; end;
-                         slurp_stats_field("class",                "Class"      );
-                         slurp_stats_field("approaches",           "Approaches" );
-                         slurp_stats_field("approaches:action",    "Action"     );
-                         slurp_stats_field("approaches:adventure", "Adventure"  );
-                         slurp_stats_field("approaches:detective", "Detective"  );
-                         slurp_stats_field("approaches:mystery",   "Mystery"    );
-                         slurp_stats_field("approaches:suspense",  "Suspense"   );
-                         slurp_stats_field("health",               "Health"     );
-                         slurp_stats_field("might",                "Might"      );
-                         slurp_stats_field("power_words",          "Power Words");
-                         slurp_stats_field("power_words:core",     "Core"       );
-                         slurp_stats_field("power_words:personal", "Personal"   );
-                         slurp_stats_field("power_words:nova",     "Nova"       );
-                         slurp_stats_field("abilities:*",          "Abilities"  );
-                         slurp_stats_field("skills:*",             "Skills"     );
-                         slurp_stats_field("ideals:*",             "Ideals"     );
-                         slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
-                    end;
-                   
-            elseif xformat == "list"
-            then   -- a list of people, places, or things
-                   local markdown_section_started = false;
-            elseif xformat
-            then   eprint("Unknown format for yaml block in " .. file .. ": " .. xformat);
-            end; -- if xformat
     end -- if   yaml_structure and yaml_loaded
     else lines = {};
          for line in io.lines(file.base) 
@@ -575,6 +590,11 @@ local function get_file_contents(filename, no_parse, no_yaml, return_format)
   then eprint("Error: invalid return_format, return_format);
        return nil;
   end;
+  local lines = slurp(filename, no_parse, no_yaml);
+  if     return_format == "table"      then return lines or {};
+  elseif return_format == "string"     then return lines and table.concat(lines, "\n") or "";
+  elseif return_format == "yaml table" then return lines and lyaml.load(table.concat(lines, "\n")) or "";
+  end;
 end;
 
 local function dump_to_file(file, contents)
@@ -583,8 +603,7 @@ local function dump_to_file(file, contents)
       f:close();
 end; -- function dump_to_file
 
-local outtxt = ""; local FILES  = {}; local DIRS   = {};
-local BUILD  = {}; local USED   = {}; local ERR    = {};
+local outtxt = ""; local FILES = {}; local DIRS = {}; local BUILD = {}; local USED = {}; local ERR = {};
 
 local function load_fs()
   files, dirs = file_search(CONFIG.src_dir, "*", true)
@@ -616,7 +635,6 @@ end; -- function load_fs
 local TEMPLATE = {};
 
 local function add_line(line)
-  vprint("ADD LINE BY TEXT: ", line);
 
   if   USED[line]
   then vprint("trying to add line [", line, "] but it's already used");
