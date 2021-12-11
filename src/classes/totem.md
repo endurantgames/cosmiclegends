@@ -296,6 +296,7 @@ Choose six Personal Power Words from the following list:
 - Screech
 - Shell
 - Shifting
+- Smell
 - Silent
 - Sly
 - Spiked

@@ -84,6 +84,33 @@ Digital Interface
     Hero Phase to search for public information -- without using your move for 
     that Hero Phase to make the roll.
 
+Faithful Pet
+:   *Prerequisite: You can't have another __Pet__ Ability.*
+    You have a pet, that may or may not be more intelligent than other creatures
+    of its type.
+
+    This animal partner has three Core Power Words -- one chosen from the
+    Totem Class's Totem Nature Power Words List, representing the animal
+    form of your pet -- and two others from the Totem Class's Personal Power
+    Words List. You can use each of these Core Power Words for free, once
+    per Hero Phase, whenever your pet is present at a Crisis.
+
+    Whenever you pick a new Personal Power Word, you can instead choose a
+    new Core Power Word for your pet, from the Totem Class's Personal Power
+    Words list.
+
+    Your pet's Health and Might are equal to the Volume.
+    Your pet's approaches are all 1, except for one Approach of your choice
+    that is a 4.
+    Choose one Skill possessed by your pet and a Fighting Style. You can use
+    that Skill or Fighting Style whenever your pet is present at a 
+    Crisis.
+
+    During any Hero Phase, either your hero can make a move or your pet
+    can make a move -- not both.
+
+    This is a *Pet* Ability.
+
 Hero Cave
 :   *Prerequisite: You can't have another __Hero Cave__ Ability.*
     You have a hidden location that is your personal base of operations.

@@ -8,7 +8,7 @@ To create your hero, you just follow these steps:
    - Pick six **Personal Power Words** from your Class list
    - Choose 2 words as your **Nova Power Words**
    - Pick your **Skills**, based on your Class
-   - Pick a **Volume** 1 ability from your Class
+   - Pick two **Volume** 1 abilities from your Class
 2. Assign 1 point to each **Approach**, then distribute more 5 points as you wish
 3. Pick a **Fighting Style**
 4. Choose 5 words as **Ideals**

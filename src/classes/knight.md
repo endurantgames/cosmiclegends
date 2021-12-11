@@ -86,8 +86,10 @@ Choose five Personal Power Words from the following list:
 
 ::::::::::: cpw :::::::::::::::::
 - Acrobat
+- Aim
 - Armor
 - Fear
+- Fearless
 - Hidden
 - Improvised
 - Line

@@ -21,6 +21,7 @@ with their fists or their powers. Those styles are:
 - **Meteor**         Add 2 dice when you use an unarmed attack to advance the Smash goal against someone who is slower than you.
 - **Mediator**       Add 2 dice when you roll to advance the Allay Goal.
 - **Medic**          Add 2 dice when you roll to advance the Rescue or Allay goals.
+- **Non-Combatant**  You aren't skilled at fighting, but somehow manage to avoid the worst of a fight. You can spend 1 Might or 1 Success from the Teamwork Pool to counter any Crisis Move affecting only you.
 - **Rescuer**        Add 2 dice when you roll to advance the Rescue Goal.
 - **Sharpshooter**   Add 2 dice when you use a ranged Weapon to advance the Smash goal.
 - **Tactician**      Add 2 dice when you roll to add to the Teamwork Pool.

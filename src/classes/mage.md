@@ -162,8 +162,8 @@ Familiar Familiaris
     List, representing the animal form of the Familiar --
     and two others from the Totem Class's Personal Power Words
     List, the Mage Class's Personal Power Words List, or
-    the Divine Class's Personal Power Words List. You can use each of these Core Power Words for free,
-    once per Hero Phase.
+    the Divine Class's Personal Power Words List. You can use 
+    each of these Core Power Words for free, once per Hero Phase.
 
     Whenever you can pick a new Personal Power Word, you can
     instead choose a new Core Power Word for your familiar,
@@ -175,7 +175,8 @@ Familiar Familiaris
     Style. You can use that skill or Fighting Style whenever
     your Familiar is present.
 
-    During any Hero Phase, either your hero can make a move or your familar can make a move -- not both.
+    During any Hero Phase, either your hero can make a move or your 
+    familar can make a move -- not both.
 
     If your Familiar is ever killed, they return to life at the
     end of the next Crisis Countdown, and join you as soon as they can.
