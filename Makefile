@@ -415,9 +415,9 @@ what-pdf: what-markdown
 #   Edit: if you are making more than one html
 html: origin-markdown
 	@ echo '$(ltcyan)Making HTML.$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(BUILDDIR)/$(HTML_OUT) $(PROJ_SRC)
+	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(HTML_OUT) $(PROJ_SRC)
 	@ echo '$(ltcyan)HTML built.$(resetc)'
-	@       $(EDITOR) $(BUILDDIR)/$(HTML_OUT)
+	@       $(EDITOR) $(HTML_OUT)
 
 # recipe list
 recipes:

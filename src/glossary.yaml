@@ -1,20 +1,20 @@
 - metadata:
   - slug: clotu_equiv
-  - title: Cosmic Legends of the Universe
+  - title: 
+    - full: Cosmic Legends of the Universe
     - sub: CLotU
   - url: clotu_url
   - people:
     - data_entry: dera
-      - self: 1
+    - self: true
   - author: dera
   - yaml-version: 1.2
   - x-format: glossary
   - game: clotu
-  - file:
-    - title: Glossary of Terms
-    - h-level: 1
-    - anchor: toc-glossary
-    - css class: breakbefore
+  - title: Glossary of Terms
+  - h-level: 1
+  - anchor: toc-glossary
+  - css class: breakbefore
   - default:
     - term: clotu
     - src: clotu
@@ -26,343 +26,357 @@
     - generic_equiv: General TTRPG
     - safety_equiv: General TTRPG Safety Tools
 
-- Ability
-  -def: Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
+- Ability:
+  - def: Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 
-- Action
-  -def: An Approach of a hero. Describes how much the hero likes to solve problems with direct action. 
+- Action:
+  - def: An Approach of a hero. Describes how much the hero likes to solve problems with direct action. 
   - hd_equiv: Daring
 
-- Add to the Teamwork Pool
-  -def: A move taken by a hero designed to give the team an advantage against a Crisis.
+- Add to the Teamwork Pool:
+  - def: A move taken by a hero designed to give the team an advantage against a Crisis.
   - hd_equiv: Contribute to the Teamwork Pool
 
-- Advance a Goal 
+- Advance a Goal:
   - def: A move taken by a hero designed to move a Crisis closer to resolution.
 
-- Advancement 
+- Advancement:
   - def: The choice made by a player at the end of a Storyline that reflects the hero's growth.
 
-- Adventure
+- Adventure:
   - def: An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation. 
   - hd_equiv: Adaptability
 
-- Allay
+- Allay:
   - def: A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
   - generic_equiv: Diplomacy
 
-- Annual
+- Annual:
   - def: A session (or sessions) at the end of a Volume that tie the Storylines together.
   - generic_equiv: finale
 
-- Approach
+- Approach:
   - def: A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
 
-- Cooldown
+- Cooldown:
   - def: The state of a Power Word after using it that lasts until the 
          start of the next Hero Phase; 
          the Power Word can't be used while on Cooldown.
   - generic_equiv: recharge
 
-- Comic Page Change Tools
-  - def: A safety tool that lets players stop, 
-  fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
+- Comic Page Change Tools:
+  - def: 
+      A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
   - safety_equiv: Script Change Tools
 
-- Contined Next Page
+- Contined Next Page:
   - def: A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
   - src: cpc
 
-- Counter
+- Counter:
   - def: Avoiding the consequences of a Crisis Move.
   - src: clotu
   - generic_equiv: Saving Throw
 
-- Crisis
+- Crisis:
   - def: A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system. 
   - src: clotu
   - hd_equiv: Encounter
   - generic_equiv: Encounter
   - src: clotu
 
-- Crisis Phase
+- Crisis Phase:
   - def: The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase. 
   - src: clotu
   - hq_equiv: GM Turn
   - generic_equiv: NPCs' Turn
   - src: clotu
 
-- Crossover
+- Crossover:
   - def: A game session with heroes from two or more different campaigns working together.
-   - src: clotu
+  - src: clotu
 
-- Detective
+- Detective:
   - src: clotu
   - def: An Approach of a hero. Describes how much the hero likes to solve problems by connecting information. 
   - hd_equiv: Understanding
   - generic_equiv: Intelligence
 
-- Edge Success
+- Edge Success:
   - src: clotu
   - def: A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
-  - generic_equiv: Success
+  - generic_equiv: 
+    - term: Success
     - sub: Conditional
 
-- Editor
+- Editor:
   - src: clotu
   - def: The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues. 
   - hd_equiv: GM
-    - generic_equiv: Game Master
-      - sub: GM
+  - generic_equiv: 
+    - term: Game Master
+    - sub: GM
 
-- Effectiveness
+- Effectiveness:
   - src: clotu
-  - def: The total number of successes in a roll, including those 
-         from Edge Successes, Fighting Styles, and Power Stunts or 
-         Combos.
-  - generic_equiv: Total, Result
+  - def: 
+      The total number of successes in a roll, including those 
+      from Edge Successes, Fighting Styles, and Power Stunts or 
+      Combos.
+  - generic_equiv: 
+    - term: Total, Result
   - sub: successes
 
-- Fighting Style
+- Fighting Style:
   - def: An ability that changes the way a hero interacts with Crises. 
   - generic_equiv: feat, special ability
   - hd_equiv: Specialty
 
-- First Issue
+- First Issue:
   - src: clotu
   - glossary: clotu
   - def: The first session of an ongoing Series; usually consisting of character introductions.
 
-- General Alert
+- General Alert:
   - src: clotu
   - glossary: clotu
   - def: A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
 
-- Goal
+- Goal:
   - src: clotu
   - glossary: clotu
-  - def: One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
+  - def: "One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue."
 
-- Guest Star
+- Guest Star:
   - def: A hero played by someone who isn't a regular player in the group.
   - src: clotu
   - glossary: clotu
   - generic_equiv: guest player
 
-- Health
+- Health:
   - def: A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health. 
   - generic_equiv: Health Points
   - glossary: clotu
   - hd_equiv: HP
   - glossary: clotu
 
-- Hero
+- Hero:
   - def: A single character whose actions are determined by a player who isn't the Editor.
   - glossary: clotu
   - generic_equiv: Player Character
 
-- Hero Phase
+- Hero Phase:
   - def: The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase. 
   - glossary: clotu
   - hd_equiv: Player Turn
   - generic_equiv: Players' Turns
 
-- Ideals
+- Ideals:
   - def: A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll. 
   - glossary: clotu
   - hd_equiv: Key
 
-- Issue
+- Issue:
   - def: A game session, usually 2 to 4 hours.
   - generic_equiv: game session
 
-- Issue 0
+- Issue 0:
   - src: clotu
   - def: A game session for talking about player and Editor expectations, as well safety tools that will be used in the game. 
   - safety_equiv: Session 0
   - hd_equiv: Session 0
 
-- Later That Day, ...
+- "Later That Day, ...":
   - def: A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
   - src: cpc
   - cpp_equiv: fast-forward
   - safety_equiv: fast-forward
 
-- Lines and Veils
-  -def: A safety tool for designating some content as a hard line "no", and others only with "fade to black".
+- Lines and Veils:
+  - def: A safety tool for designating some content as a hard line "no", and others only with "fade to black".
   - src: cpc
   - safety_equiv: Lines and Veils
 
-- Meanwhile, ...
+- "Meanwhile, ...":
   - def: A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
   - src: cpc
   - safety_equiv: fast-forward
 
-- Might
+- Might:
   - term: clotu
   - def: A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might. 
   - hd_equiv: Scatter
   - src: cpc
   - generic_equiv: energy
 
-- Move
+- Move:
   - def: A fictional action taken by the hero that usually includes a roll of the dice to resolve. 
   - hd_equiv: Action
   - term: clotu
   - generic_equiv: check or attack roll
   - sub: ability
 
-- Mystery
+- Mystery:
   - def: An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others. 
   - hd_equiv: Subtlety
   - generic_equiv: Deception
   - term: clotu
 
-- Nova Power Words
+- Nova Power Words:
   - def: Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like. 
   - hd_equiv: Signature Spell Pieces
   - term: clotu
 
-- Power combo
+- Power combo:
   - plural: power combos
   - src: clotu
   - def: A move using the power words of two or more heroes. 
   - hd_equiv: chord
   - generic_equiv: cooperative spellcasting, aid another
   
-- One-Shot
+- One-Shot:
   - term: cpc
   - def: A game session that isn't part of an ongoing story.
   
-- Open Door
+- Open Door:
   - term: cpc
   - def: A safety tool that promises any player can step away from the game table if they need to.
   
-- Opportunity
+- Opportunity:
   - term: cpc
   - def: The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player. 
-  - generic_equiv: moral of the story
-  - sub: learning opportunity
+  - generic_equiv: 
+    - term: moral of the story
+    - sub: learning opportunity
   - hd_equiv: lesson
   
-- Outwit
+- Outwit:
   - term: cpc
   - def: A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis. 
   - generic_equiv: trickery
   - hd_equiv: redirect
   
-- Personal power word
+- Personal power word:
   - term: clotu
   - plural: personal power words
   - def: Six or more power words that define a hero's powers. 
   - hd_equiv: personal spell pieces
   - sub: PPW
   
-- Power display
+- Power display:
   - plural: power displays
   - src: clotu
   - def: A move by a hero that uses one of their power words in the description but gives no additional game benefits.
   - generic_equiv: at-will cantrip
   
-- Power stunt
+- Power stunt:
   - plural: power stunts
   - def: A move by a hero using two or more of their power words. 
   - src: clotu
-  - hd_equiv: spell
+  - hd_equiv: 
+    - term: spell
     - plural: spells
   
-- Power Word
+- Power Word:
   - def: The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo. 
   - plural: Power Word
   - src: clotu
-  - hd_equiv: Spell Piece
+  - hd_equiv: 
+    - term: Spell Piece
     - plural: Spell Pieces
   - plural: Power Words
-  - generic_equiv: power keyword
+  - generic_equiv: 
+    - term: power keyword
     - plural: power keywords
   
-- Power
+- Power:
   - src: clotu
   - def: The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
   - generic_equiv: superpower, trait
   
-- Rescue
+- Rescue:
   - src: clotu
   - def: A Goal that could resolve a Crisis by removing people or property from harm.
   - generic_equiv: Saving Innocents
   
-- Retcon
+- Retcon:
   - src: cpp
   - def: A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
   - generic_equiv: Undo
   - safety_equiv: Rewind
-    - sub: Rewind
+  - sub: Rewind
   
-- Scene Power Words
+- Scene Power Words:
   - src: clotu
   - def: Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts. 
   - hd_equiv: Terrain Spell Pieces
   
-- Series
+- Series:
   - src: clotu
   - def: A group of Storylines following the same group of heroes
   - generic_equiv: RPG Campaign
   
-- Smash
+- Smash:
   - src: clotu
   - def: A Goal that could resolve a Crisis through causing physical damage. 
   - hd_equiv: Destroy
   - generic_equiv: Damage
   
-- Spotlight 
+- Spotlight:
   - src: clotu
   - def: A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
-  - generic_equiv: adventure path
+  - generic_equiv: 
+    - term: adventure path
     - sub: plot
   
-- Stars and Wishes
+- Stars and Wishes:
   - src: clotu
   - def: A safety tool you can use after an Issue to talk about what you liked and what you hope for future Issues.
   - safety_equiv: Stars and Wishes
   - generic_equiv: Feedback
   
-- Storyline
+- Storyline:
   - src: clotu
   - def: One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
-  - generic_equiv: plot
+  - generic_equiv: 
+    - term: plot
     - sub: adventure, module
   
-- Story
+- Story:
   - src: clotu
   - def: An adventure, either self-contained in one Issue or continued to the next Issue.
   
-- Success
+- Success:
   - src: clotu
   - def: A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
   
-- Suspense
+- Suspense:
   - term: clotu
   - def: An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings. 
   - hd_equiv: Sensitivity
-  - generic_equiv: Wisdom
+  - generic_equiv: 
+    - term: Wisdom
     - sub: Perception, Insight
   
-- Take the Hit
+- Take the Hit:
   - term: clotu
   - def: When one hero takes the entire effect of a Crisis move instead of another hero.
   - generic_equiv: tanking, defending, sacrifice
   
-- Timely Arrival
+- Timely Arrival:
   - src: clotu
   - def: A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
   - generic_equiv: initiative roll
   
-- Volume
+- Volume:
   - src: clotu
   - def: A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual. 
-  - hd_equiv: season
+  - hd_equiv: 
+    - term: season
     - plural: seasons
-  - generic_equiv: season
-  - plural: seasons
+  - plural: Volumes
+  - generic_equiv: 
+    - term: season
+    - plural: seasons
     - sub: e.g. of Critical Role
   

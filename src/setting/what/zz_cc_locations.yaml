@@ -1,40 +1,40 @@
-- metadata
-  - title: Other Locations
+- metadata:
+  - title: &title Other Locations
   - x-format: list
   - list-class: other-list
   - item-format: location
   - anchor: setting-other-locations
-
-- list
-  - L'Shar'Ak 
+- list:
+  - L'Shar'Ak:
     - bio: Capital city of Titan; original home of Titan and Tethys.
     - where: Titan
-  - Mag Findargat 
+  - Mag Findargat:
     - bio: Castle of the Tuatha Dé Danann in Otherworld. One-time headquarters of the Cosmic Legends.
     - where: Otherworld
-  - Moulin Air Force Base 
+  - Moulin Air Force Base:
     - bio: U.S. military base located outside of Sun City, U.S.A.
     - where: Sun City
-  - Museum of Superhuman History 
+  - Museum of Superhuman History:
     - bio: Museum and library connected with Sun City University, devoted to archiving super-powered individuals.
     - where: Sun City
-  - Nuke City 
+  - Nuke City:
     - bio: Informal name for Sun City Nuclear Power Plant, located outside Sun City.
     - where: Sun City
-  - Otherworld 
+  - Otherworld:
     - bio: Parallel dimension that is home to the Tuatha Dé Danann, the Firbolgs, the Fomorians, and Xana Mega. 
-  - Sun City Zoo 
+    - c.f.: Brigantia
+  - Sun City Zoo:
     - bio: Zoo and marine park located outside Sun City, affiliated with Sun City University.
     - where: Sun City
-  - Technopolis, U.S.A. 
+  - Technopolis, U.S.A.:
     - bio: Large city located not far from Sun City. Home to Technopolis Academy, Vespa 2.0, and the central laboratories of N.O.V.A. Labs.
-  - Titan (Moon) 
+  - Titan (Moon):
     - bio: Largest moon of Saturn and second-largest satellite in the Solar System; home to the Titanian people.
     - where: Saturn
-  - Vadyvokia 
+  - Vadyvokia:
     - bio: Eastern European "republic" wholly controlled by Marquis Malign.
     - where: Eastern Europe
-  - Volcano City 
+  - Volcano City:
     - bio: Capital city of Vulcanor; home of King Tachylus and Obsidius Rex.
     - where: Vulcanor
   

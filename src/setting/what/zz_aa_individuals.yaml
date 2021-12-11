@@ -1,108 +1,109 @@
-- metadata
+- metadata:
   - title: Other Individuals
   - x-format: list
   - list-class: other-list
   - item-format: list-character
   - anchor: setting-other-individuals
 
-- Balor
-  - gender: male
-  - c.f.: Villains, Inc.
-  - villain: yes
-- Bres
-  - gender: male
-  - bio: Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
-  - villain: yes
-- Dindrane
-  - gender: female
-  - bio: Immortal wizard; sister of Percival, the Grailknight.
-  - ally: yes
-- Gloom
-  - gender: male
-  - bio: Independent hero and former student at Technopolis Academy with darkness and emotion powers.
-  - hero: yes
-- Glytch
-  - gender: trans
-  - c.f.: Villains, Inc.
-  - villain: yes
-- The Hornette
-  - gender: trans
-  - bio: Alias used by Lin Montgomery to infiltrate Villains, Inc. 
-  - c.f.: Vespa 2.0
-  - villain: yes
-- Hyperion
-  - gender: trans
-  - bio: Renegade Sentinel of Saturn and frequent enemy of Titan.
-  - villain: yes
-- Igneia Vulcanor
-  - gender: female
-  - c.f.: Villains, Inc.
-  - villain: yes
-- Kaleidoscope Kid, The
-  - gender: trans
-  - bio: Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
-  - hero: yes
-- Limuo Pele
-  - gender: female
-  - bio: Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
-  - ally: yes
-- Lucky Star
-  - gender: female
-  - bio: Teen heroine with luck-based powers. Member of the Junior Legends of America.
-  - hero: yes
-- The Man in Black
-  - gender: male
-  - bio: Sorceror and arch-enemy of Obsidius Rex.
-  - villain: yes
-- Marlinspike
-  - gender: male
-  - deceased: yes
-  - bio: Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
-  - hero: yes
-- Magnus Merlyn Malign, Marquis of Vadyvokia
-  - gender: male
-  - bio: Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
-  - villain: yes
-- Master Magister (John A. Dee VI)
-  - gender: male
-  - retired: true
-  - bio: Grandfather of Jack Dee.
-  - ally: yes
-- Neutrino
-  - gender: female
-  - bio: Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
-  - villain: yes
-- Dr. Phineas Pann
-  - gender: male
-  - c.f.: Villains, Inc.
-  - villain: yes
-- Sandra Starr
-  - gender: female
-  - bio: Agent of A.L.E.R.T. and liaison to the Cosmic Legends.
-  - c.f.: A.L.E.R.T.
-  - ally: yes
-- Sequana
-  - gender: female
-  - c.f.: Villains, Inc.
-  - villain: yes
-- Sreng
-  - gender: male
-  - c.f.: Villains, Inc.
-  - villain: yes
-- Tachylus Rex
-  - gender: male
-  - bio: King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
-  - ally: yes
-- Tethys (My'Rinn To'Rezz)
-  - gender: trans
-  - bio: Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
-  - hero: yes
-- The Verdict
-  - gender: male
-  - bio: Former district attorney and anti-hero known for delivering extra-judicial punishments; wanted by both A.L.E.R.T. and Villains, Inc.
-  - villain: yes
-  - hero: yes
-- Xana Mega
-  - gender: female
-  - bio: Faerie queen of the Aos Sí and arch-enemy of Sir Percival. 
-  - villain: yes
+- list:
+  - Balor:
+    - gender: male
+    - c.f.: Villains, Inc.
+    - villain: yes
+  - Bres:
+    - gender: male
+    - bio: Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
+    - villain: yes
+  - Dindrane:
+    - gender: female
+    - bio: Immortal wizard; sister of Percival, the Grailknight.
+    - ally: yes
+  - Gloom:
+    - gender: male
+    - bio: Independent hero and former student at Technopolis Academy with darkness and emotion powers.
+    - hero: yes
+  - Glytch:
+    - gender: trans
+    - c.f.: Villains, Inc.
+    - villain: yes
+  - The Hornette:
+    - gender: trans
+    - bio: Alias used by Lin Montgomery to infiltrate Villains, Inc. 
+    - c.f.: Vespa 2.0
+    - villain: yes
+  - Hyperion:
+    - gender: trans
+    - bio: Renegade Sentinel of Saturn and frequent enemy of Titan.
+    - villain: yes
+  - Igneia Vulcanor:
+    - gender: female
+    - c.f.: Villains, Inc.
+    - villain: yes
+  - Kaleidoscope Kid, The:
+    - gender: trans
+    - bio: Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
+    - hero: yes
+  - Limuo Pele:
+    - gender: female
+    - bio: Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
+    - ally: yes
+  - Lucky Star:
+    - gender: female
+    - bio: Teen heroine with luck-based powers. Member of the Junior Legends of America.
+    - hero: yes
+  - The Man in Black:
+    - gender: male
+    - bio: Sorceror and arch-enemy of Obsidius Rex.
+    - villain: yes
+  - Marlinspike:
+    - gender: male
+    - deceased: yes
+    - bio: Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
+    - hero: yes
+  - Magnus Merlyn Malign, Marquis of Vadyvokia:
+    - gender: male
+    - bio: Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
+    - villain: yes
+  - Master Magister (John A. Dee VI):
+    - gender: male
+    - retired: true
+    - bio: Grandfather of Jack Dee.
+    - ally: yes
+  - Neutrino:
+    - gender: female
+    - bio: Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+    - villain: yes
+  - Dr. Phineas Pann:
+    - gender: male
+    - c.f.: Villains, Inc.
+    - villain: yes
+  - Sandra Starr:
+    - gender: female
+    - bio: Agent of A.L.E.R.T. and liaison to the Cosmic Legends.
+    - c.f.: A.L.E.R.T.
+    - ally: yes
+  - Sequana:
+    - gender: female
+    - c.f.: Villains, Inc.
+    - villain: yes
+  - Sreng:
+    - gender: male
+    - c.f.: Villains, Inc.
+    - villain: yes
+  - Tachylus Rex:
+    - gender: male
+    - bio: King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
+    - ally: yes
+  - Tethys (My'Rinn To'Rezz):
+    - gender: trans
+    - bio: Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
+    - hero: yes
+  - The Verdict:
+    - gender: male
+    - bio: Former district attorney and anti-hero known for delivering extra-judicial punishments; wanted by both A.L.E.R.T. and Villains, Inc.
+    - villain: yes
+    - hero: yes
+  - Xana Mega:
+    - gender: female
+    - bio: Faerie queen of the Aos Sí and arch-enemy of Sir Percival. 
+    - villain: yes

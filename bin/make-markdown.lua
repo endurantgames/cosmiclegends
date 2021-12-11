@@ -201,6 +201,8 @@ local function slug(filename)
 end;
 
 local function path_level(path)
+  if type(path) ~= "string" then return 0 end;
+  vprint("path is", path);
   path = slug(path);
 --  vprint("considering this", path);
   local pathdirs = split(path, "/");
@@ -221,67 +223,96 @@ end -- function file_exists
 
 local function slurp_yaml(filename)
   if   CONFIG.yaml
-  then local yaml_structure = yaml.loadpath(filename);
-       if   yaml_structure 
-       then return yaml_structure, true 
-       else return nil, false 
+  then if file_exists(filename)
+       then vprint("Gonna try to load YAML from", filename);
+            local yaml_structure = yaml.loadpath(filename);
+            if   yaml_structure 
+            then vprint("YAML loaded!");
+		 return yaml_structure, true 
+            else eprint("YAML not loaded :(");
+		 return nil, false 
+            end;
+       else eprint("Not loading YAML from", filename);
+            eprint("File not found", filename);
        end;
   end; -- if CONFIG.yaml
 end; -- function slurp_yaml
 
 -- get all lines from a file, returns an empty
 -- list/table if the file does not exist
-local function slurp(file, no_parse, no_yaml)
-  string.gsub(file,"\n$","");
+local function slurp(filename, no_parse, no_yaml)
 
-  local is_markdown, is_yaml, is_recipe = false, false, false;
-  local file_yaml = "(no yaml)";
+  string.gsub(filename,"\n$",""); -- remove extra newlines at the end
+
+  local file = {};
+  file.base           = filename;
+  file.stub           = slug(filename);
+  -- file.is_md       = false;
+  -- file.is_yaml     = false;
+  -- file.is_recipe   = false;
+  local file_yaml     = "(no yaml)";
   local file_markdown = file;
 
-  if     string.find(file, "%" .. CONFIG.ext_markdown)
-  then   vprint("Looking for markdown: ", file_markdown);
-         is_markdown = true;
-         file_yaml   = file;
-         string.gsub(file_yaml, "%" .. CONFIG.ext_markdown, CONFIG.ext_yaml);
-  elseif string.find(file, "%" .. CONFIG.ext_yaml)
-  then   vprint("Looking for YAML: ", file);
-         is_yaml = true;
-  elseif string.find(file, "%" .. CONFIG.ext_recipe)
-  then   is_recipe = true;
-         vprint("Looking for recipe: ", file);
+  -- first let's identify what kind of file we have
+  if     string.find(filename, "%" .. CONFIG.ext_yaml .. "$")
+  then   file.stub      = file.stub:gsub("%" .. CONFIG.ext_yaml .. "$", "");
+         file.yaml      = filename;
+         file.ext       = CONFIG.ext_yaml;
+         file.is_md     = false;
+         file.is_yaml   = true;
+         file.markdown  = file.stub .. CONFIG.ext_markdown;
+         vprint("Identified " .. file.base .. " as:", "YAML");
+  elseif string.find(filename, "%" .. CONFIG.ext_markdown .. "$")
+  then   file.stub      = file.stub:gsub("%" .. CONFIG.ext_markdown .. "$", "");
+         file.yaml      = file.stub .. CONFIG.ext_yaml;
+         file.markdown  = file.base;
+         file.ext       = CONFIG.ext_markdown;
+         vprint("Identified " .. file.base .. " as:", "Markdown");
+  elseif string.find(filename, "%" .. CONFIG.ext_recipe .. "$")
+  then   file.stub      = file.stub:gsub("%" .. CONFIG.ext_recipe .. "$", "");
+         file.recipe    = filename;
+         file.is_recipe = true;
+         file.markdown  = "(no markdown)";
+         file.yaml      = "(no yaml)";
+         file.ext       = CONFIG.ext_recipe;
+         vprint("Identified " .. file.base .. " as:", "Recipe");
   end;
 
-  -- vprint("looking for: " .. file_yaml .. " or " .. file_markdown .. " (" .. file ..")");
+  vprint("looking for: " .. file.yaml .. " or " .. file.markdown .. " (" .. file.base ..")");
 
-  if     is_recipe   and file_exists(file)          then vprint("File found: "    .. file         );
-  elseif is_yaml     and file_exists(file_yaml)     then vprint("File found: "    .. file_yaml    );
-  elseif is_markdown and file_exists(file_markdown) then vprint("File found: "    .. file_markdown);
-                                                    else eprint("Couldn't find: " .. file         );
+  if     file.is_recipe and file_exists(file.base)     then vprint("File found: "   ..file.base    );
+  elseif file.is_yaml   and file_exists(file.yaml)     then vprint("File found: "   ..file.yaml    );
+  elseif file.is_md     and file_exists(file.markdown) then vprint("File found: "   ..file.markdown);
+  elseif file.is_md     and file_exists(file.yaml)     
+  then   vprint("Markdown not found: ", file.markdown);
+         vprint("File YAML found: ",    file.yaml    );
+         file.is_md, file.is_yaml = false, true;       
+  else   eprint("Couldn't find: "..file.base.." or "..file.yaml.." or "..file.markdown);
   end;
 
-  if   is_yaml and CONFIG.yaml and not no_yaml
+  if   file.is_yaml and CONFIG.yaml and not no_yaml
   then -- load the YAML
 
-       sprint("loading yaml file", file);
-       local yaml_structure, yaml_loaded = slurp_yaml(file);
-       if   yaml_structure and yaml_loaded
+       sprint("This is a YAML file:", file.yaml);
+       file.yaml_structure, file.yaml_loaded = slurp_yaml(file.yaml);
+       if   file.yaml_structure and file.yaml_loaded
        then -- create the text representation
-            local metadata = yaml_structure.metadata
+            local metadata = file.yaml_structure.metadata
    
-            if   metadata   and metadata.file
-            then local file   = metadata.file
-                 local htitle = metadata.file.title      or "YAML Data"
-                 local hlevel = metadata.file["h-level"] or 1;
-                 local anchor = metadata.file.anchor;
-                 local class  = metadata.file["css class"];
-                 local plevel = path_level(file);
+            if   metadata     and metadata.file
+            then local virtfile = metadata.file
+                 local htitle   = virtfile.title      or "YAML Data"
+                 local hlevel   = virtfile["h-level"] or 1;
+                 local anchor   = virtfile.anchor;
+                 local class    = virtfile["css class"];
+                 local plevel   = path_level(file.base);
    
                  if   plevel > hlevel
-                 then vprint(slug(file), "should be " .. plevel .. ", is " .. hlevel);
+                 then -- vprint(slug(file.stub), "should be " .. plevel .. ", is " .. hlevel);
                       hlevel = plevel;
                  end; -- if plevel
    
-                 slurped = slurped .. "\n" .. string.rep("#", plevel + hlevel);
+                 slurped = slurped .. "\n" .. string.rep("#", plevel + hlevel - 1);
                  slurped = slurped .. " " .. htitle;
 
                  if   anchor or class
@@ -344,9 +375,102 @@ local function slurp(file, no_parse, no_yaml)
                        end; -- else item not metadata
                    end;   -- for item, value in pairs
 
+                   return slurped;
+
             elseif xformat == "character"
             then   -- character statblock
-                   local markdown_section_started = false;
+		   vprint("Found a character!");
+
+                   local slurped   = "";
+		   local yaml_data = file.yaml_structure;
+                   local bio       = yaml_data.bio;
+                   local history   = yaml_data.history;
+                   local powers    = yaml_data.powers;
+                   local stats     = yaml_data.stats;
+                   local weapons   = yaml_data.weapons;
+
+                   local function slurp_bio_field(yfield, caption)
+                      vprint("generating bio line " .. caption);
+                      if   bio[yfield] then slurped = slurped .. "\n- **" .. caption .. ":** " .. bio[yfield]; end;
+                   end;
+
+                   local function slurp_stats_field(yfield, caption)
+                         local field_path = split(yfield, ":");
+                         local value = stats[yfield];
+                         if     type(value) ~= "table" and #field_path == 1 then slurped = slurped .. "\n- **" .. caption .. ":** " .. stats[yfield]; 
+                         elseif #field_path == 1 and value[1] == "*"        then value = table.concat(value, ", ");
+                         elseif #field_path > 1                             then for i, field in pairs(value) do value = value[field]; end;
+                         end;
+                         if   value
+		         then vprint("generating stat line " .. caption);
+                              slurped = slurped .. string.rep("  ", 2 * (#field_path)) .. "\n- **" .. caption .. ":**" .. value;
+			 end;
+                   end;
+
+                   slurped = slurped .. "\n# " .. (metadata.title or "Character");
+
+                   if   metadata.anchor or metadata.classes
+                   then slurped = slurped .. " {";
+                        if metadata.anchor   then slurped = slurped .. "#" .. metadata.anchor  end;
+                        if metadata.classes then slurped = slurped .. " ." .. metadata.classes end;
+                        slurped = slurped .. "}\n";
+                   end;
+
+                   if   bio
+                   then vprint("generating bio block");
+                        slurped = slurped .. "::::::::::: { .bio } ::::::::::::::::"
+                        slurp_bio_field("real_name",    "Real Name"   );
+                        slurp_bio_field("occupation",   "Occupation"  );
+                        slurp_bio_field("legal_status", "Legal Status");
+
+                        if   bio.gender and bio.gender.desc and bio.gender.pronouns
+                        then slurped = slurped .. "\n- **Gender:**" .. bio.gender.desc .. " (" ..  bio.gender.pronouns .. ")";
+                        else slurp_bio_field("gender",     "Gender");
+		             slurp_bio_field("pronouns", "Pronouns");
+                        end;
+
+                        slurp_bio_field("identity",             "Identity");
+                        slurp_bio_field("former_aliases", "Former Aliases");
+                        slurp_bio_field("place_of_birth", "Place of Birth");
+                        slurp_bio_field("marital_status", "Marital Status");
+
+                        if   bio.height or bio.weight or bio.eyes or bio.hair
+                        then vprint("generating bio2 block");
+                             slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
+                             slurped = slurped .. "::::::::::: { .bio2 } :::::::::::::::";
+                             slurp_bio_field("height", "Height");
+                             slurp_bio_field("weight", "Weight");
+                             slurp_bio_field("eyes",   "Eyes"  );
+                             slurp_bio_field("hair",   "Hair"  );
+                        end; 
+                        slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
+                    end; -- if bio
+                    if history then slurped = slurped .. "\n\n**History:**\n" .. history; end;
+                    if powers  then slurped = slurped .. "\n\n**Powers:**\n"  .. powers;  end;
+                    if weapons then slurped = slurped .. "\n\n**Weapons:**\n" .. weapons; end;
+                    if stats
+                    then vprint("generating stats block");
+                         slurped = slurped .. "::::::::::: { .stats } ::::::::::::::";
+                         if metadata.title then slurped = slurped .. "\n\n## " .. metadata.title .. "\n\n"; end;
+                         slurp_stats_field("class",                "Class"      );
+                         slurp_stats_field("approaches",           "Approaches" );
+                         slurp_stats_field("approaches:action",    "Action"     );
+                         slurp_stats_field("approaches:adventure", "Adventure"  );
+                         slurp_stats_field("approaches:detective", "Detective"  );
+                         slurp_stats_field("approaches:mystery",   "Mystery"    );
+                         slurp_stats_field("approaches:suspense",  "Suspense"   );
+                         slurp_stats_field("health",               "Health"     );
+                         slurp_stats_field("might",                "Might"      );
+                         slurp_stats_field("power_words",          "Power Words");
+                         slurp_stats_field("power_words:core",     "Core"       );
+                         slurp_stats_field("power_words:personal", "Personal"   );
+                         slurp_stats_field("power_words:nova",     "Nova"       );
+                         slurp_stats_field("abilities:*",          "Abilities"  );
+                         slurp_stats_field("skills:*",             "Skills"     );
+                         slurp_stats_field("ideals:*",             "Ideals"     );
+                         slurped = slurped .. ":::::::::::::::::::::::::::::::::::::";
+                    end;
+                   
             elseif xformat == "list"
             then   -- a list of people, places, or things
                    local markdown_section_started = false;
@@ -355,10 +479,9 @@ local function slurp(file, no_parse, no_yaml)
             end; -- if xformat
     end -- if   yaml_structure and yaml_loaded
     else lines = {};
-         for line in io.lines(file) 
-
+         for line in io.lines(file.base) 
          do  lines[#lines + 1] = line 
-         end; -- for line in io.lines(file)
+         end; -- for line in io.lines(file.base)
        
          local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
        
@@ -374,7 +497,7 @@ local function slurp(file, no_parse, no_yaml)
                end; -- if octo_leel
           
                local level = path_level(file);
-               vprint(slug(file), "### should be " .. level .. ", is " .. octo_level);
+               -- vprint(slug(file), "### should be " .. level .. ", is " .. octo_level);
           
                if   level >= 1
                then local mod = level - 1;
@@ -420,13 +543,14 @@ local function load_fs()
   
   for k, v in pairs(files)
   do --
-     if   string.find(v.path, CONFIG.ignore) then break end;
-     if   string.find(v.name, "%" .. CONFIG.ext_markdown .. "$") 
-       or string.find(v.name, "%" .. CONFIG.ext_yaml     .. "$")
-     then --
-          local filename = slug(v.path..v.name);
-          local pathdirs = split(filename, "/");
-          FILES[filename] = true;
+     if     string.find(v.path, CONFIG.ignore) 
+     then   break 
+     elseif string.find(v.name, "%" .. CONFIG.ext_markdown .. "$") 
+         or string.find(v.name, "%" .. CONFIG.ext_yaml     .. "$")
+     then   --
+            local filename  = slug(v.path..v.name);
+            local pathdirs  = split(filename, "/");
+            FILES[filename] = true;
      end; -- if markdown or yaml
   end; -- for k, v
   return files, dirs;
@@ -434,17 +558,25 @@ end; -- function load_fs
 
 local TEMPLATE = {};
 
-local function add_line_by_number(line)
+local function add_line(line)
+  vprint("ADD LINE BY TEXT: ", line);
+
   if   USED[line]
-  then vprint("trying to add line ", line, "but it's already used");
+  then vprint("trying to add line [", line, "] but it's already used");
   end;
 
   USED[line] = true;
 
-  if   FILES[line]
-  then   --
-         vprint("found an entry", line);
-         table.insert(BUILD, CONFIG.src_dir .. "/" .. line .. CONFIG.extension);
+  if     FILES[line]
+  then   vprint("found a FILES entry for: ", line);
+
+         local file_yaml = CONFIG.src_dir .. "/" .. line .. CONFIG.ext_yaml;
+         local file_md   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext_markdown;
+
+         if     file_exists(file_md)   then table.insert(BUILD, file_md);
+         elseif file_exists(file_yaml) then table.insert(BUILD, file_yaml);
+         end;
+
          USED[line] = true;
   elseif FILES[line] and USED[line]
   then   --
@@ -455,34 +587,39 @@ local function add_line_by_number(line)
 end;
 
 local function parse_line(line)
+  vprint("=====================================================================");
+  vprint("PARSE LINE", line);
   local asterisk, template = false;
-  line = string.gsub(line, "/$", "");
+  line = string.gsub(line, "/$", ""); -- strip extraneous ending slash: file/ -> file
 
   if   string.find(line, "/%*$")
   then asterisk = true;
        line = string.gsub(line, "/%*$", "");
+       vprint("Found an asterisk: " .. line);
   end; -- if string.find(line)
 
-  if string.find(line, "/?::[a-z]+$")
+  if   string.find(line, "/?::[a-z]+$")
   then vprint("looks like a template", line);
        template = string.match(line, "/?::([a-z]+)$");
        vprint("i think it's this template", template);
        line = string.gsub(line, "/?::[a-z]+$", "");
-       if not TEMPLATE[template] 
+
+       if   not TEMPLATE[template] 
        then template = nil; 
-       vprint("the template doesn't exist")
-       else vprint("the template DOES exit!")
+            vprint("the template doesn't exist")
+       else vprint("the template DOES exist!")
        end; -- if not TEMPLATE[template]
+
   end; -- if matches template syntax
 
   if string.find(line, "^>")
-  then --
+  then -- found an output redirect line
          local outfile = string.gsub(line, "^>%s*", "");
                outfile = string.gsub(outfile, ".out$", "");
          CONFIG.outfile = outfile;
          vprint("setting the output file", "\"" .. outfile .. "\"");
   elseif string.find(line, "^#")
-  then   --
+  then   -- found a comment
          vprint("comment", line);
   elseif DIRS[line] 
   then   --
@@ -512,7 +649,7 @@ local function parse_line(line)
                end; -- for k, v
            end; -- if asterisk
    
-    else add_line_by_number(line);
+    else add_line(line);
     end;
 end; 
 
@@ -601,10 +738,16 @@ for _, i in pairs(recipe)
 do  parse_line(i) 
 end; -- for _, i in pairs(recipe)
 
+-- list all the files ---------------------------------
+-- (for debugging)
+-- for i, v in pairs(FILES) do vprint("FILE:", i);  end; -- all the files we've found
+-- for i, v in pairs(BUILD) do vprint("BUILD:", v); end; -- all that we've added to the build
+
 -- slurp other files ----------------------------------
 sprint("slurping other files now", #BUILD .. " files");
 for i, v in pairs(BUILD) 
-do  outtxt = outtxt .. (slurp(v)  or "");
+do  vprint("Slurping ", v);
+    outtxt = outtxt .. (slurp(v)  or "");
 end; -- for i, v
 
 -- save the output ------------------------------------------------------------
