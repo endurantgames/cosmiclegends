@@ -7,19 +7,28 @@
   - url: art/jeshields/knight.png
   - alt: Percival, the Grailknight
 - bio:
-  - Real Name: Percival Pellinore
-  - Occupation: Adventurer
-  - Legal Status: unknown
-  - Gender: 
-    - Desc: male 
-    - Pronouns: he/him
-  - Identity: public
-  - Former Aliases: Peredur, Percevaus li Galois
-  - Place of Birth: Aberffraw, Wales
-  - Marital Status: single
-  - Known Relatives: King Pellinore (father, deceased), Algovale (brother, deceased), Lamorak (brother, deceased), Dindrane (sister), Agresizia (sister, deceased)
-  - Group Affiliation: Knights of the Round Table, Cosmic Legends of the Universe (reserve member), A.L.E.R.T. (reserve operative)
-  - Base of Operations: New York City, New York and Sun City, U.S.A.
+  - real_name: Percival Pellinore
+  - occupation: Adventurer
+  - legal_status: unknown
+  - gender: 
+    - desc: male 
+    - pronouns: he/him
+  - identity: public
+  - former_aliases: Peredur, Percevaus li Galois
+  - place_of_birth: Aberffraw, Wales
+  - marital_status: single
+  - known_relatives: King Pellinore (father, deceased), Algovale (brother, deceased), Lamorak (brother, deceased), Dindrane (sister), Agresizia (sister, deceased)
+  - group_affiliation: 
+    - Knights of the Round Table:
+      - active: no
+    - Cosmic Legends of the Universe:
+      - active: no
+      - reserve: yes
+      - founder: yes
+    - "A.L.E.R.T.":
+      - active: no
+      - reserve: yes
+  - base: ["New York City, New York", "Sun City, U.S.A."]
   - height: 5' 6"
   - weight: 170 lbs.
   - eyes: brown
@@ -56,15 +65,15 @@
     His chainmail is a gift from the Aos Sí and is completely unbreakable, while his
     sword, Sequence, is a sister blade to Excalibur from Arthur's arsenal.
 - stats:
-  - Name: &title
-  - Class: The Knight
-  - Approaches: {Action: 1, Adventure: 3, Detective: 3, Mystery: 1, Suspense: 2}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Gambit, Prepared]
-    - Personal: [Armor, Crossbow, Line, Restrain, Sword]
-    - Nova: [Immortal, Quest]
-  - Abilities: [Peak Human Potential, Trick Arrows, TBD]
-  - Skills: [Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy]
-  - Ideals: [Chivalry, Faith, Honor, Law, Vows]
+  - name: *title
+  - class: The Knight
+  - approaches: {action: 1, adventure: 3, detective: 3, mystery: 1, suspense: 2}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Gambit, Prepared]
+    - personal: [Armor, Crossbow, Line, Restrain, Sword]
+    - nova: [Immortal, Quest]
+  - abilities: [Peak Human Potential, Trick Arrows, TBD]
+  - skills: [Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy]
+  - ideals: [Chivalry, Faith, Honor, Law, Vows]

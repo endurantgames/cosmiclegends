@@ -7,22 +7,22 @@
   - url: art/jeshields/dynamo.png
   - alt: *title
 - bio:
-  - Real Name: Delmore "Del" Langston Thompson
-  - Occupation: College student
-  - Legal Status: Citizen of the United States
-  - Gender:
-    - Desc: male
-    - Pronouns: he/him
-  - Identity: secret
-  - Place of Birth: Chicago, Illinois
-  - Marital Status: single
-  - Known Relatives: Delphine Thompson (mother)
-  - Group Affiliation: Cosmic Legends of the Universe, Junior Legends of America (reserve)
-  - Base of Operations: Tuskaloosa, Alabama and Sun City, U.S.A.
-  - height: 5' 9"
-  - weight: 155 lbs.
-  - eyes: (as Del) brown, (as Energy Boy) green
-  - hair: (as Del) black, (as Energy Boy) none
+  - real_name: Delmore "Del" Langston Thompson
+  - occupation: College student
+  - legal_status: Citizen of the United States
+  - gender:
+    - desc: male
+    - pronouns: he/him
+  - identity: secret
+  - place_of_birth: Chicago, Illinois
+  - marital_status: single
+  - known_relatives: Delphine Thompson (mother)
+  - group_affiliation: Cosmic Legends of the Universe, Junior Legends of America (reserve)
+  - base: ["Tuskaloosa, Alabama", "Sun City, U.S.A."]
+  - height: "5' 9\""
+  - weight: "155 lbs."
+  - eyes: "(as Del) brown, (as Energy Boy) green"
+  - hair: "(as Del) black, (as Energy Boy) none"
 - history: >
     Del Thompson grew up in the shadow of brilliance -- his mother and namesake,
     Delphine Thompson, was one of the most gifted physicists of her generation.
@@ -59,14 +59,14 @@
     his nuclear energies and assume a human shape, becoming the young man he would
     have been had his mother's pride not cost them both dearly.
 - stats:
-  - Class: The Dynamo
-  - Approaches: {Action: 2, Adventure: 3, Detective: 2, Mystery: 1, Suspense: 2}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Energy, Overload, Radiation]
-    - Personal: [Absorb, Beam, Bubble, Explosion, Flare, Punch]
-    - Nova: [ Meltdown, Nuclear ]
-  - Abilities: [Energy Reserve, Fight Fire With Fire, TBD]
-  - Skills: [Academic, Scientist]
-  - Ideals: [Guilt, Longing, Politeness, Relax, Responsibility]
+  - class: The Dynamo
+  - approaches: {action: 2, adventure: 3, detective: 2, mystery: 1, suspense: 2}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Energy, Overload, Radiation]
+    - personal: [Absorb, Beam, Bubble, Explosion, Flare, Punch]
+    - nova: [ Meltdown, Nuclear ]
+  - abilities: [Energy Reserve, Fight Fire With Fire, TBD]
+  - skills: [Academic, Scientist]
+  - ideals: [Guilt, Longing, Politeness, Relax, Responsibility]

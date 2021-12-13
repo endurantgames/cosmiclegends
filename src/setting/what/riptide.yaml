@@ -7,22 +7,26 @@
   - url: art/jeshields/shaper.png
   - alt: *title
 - bio:
-  - Real Name: Kelly Liang
-  - Occupation: lifeguard, marine biologist
-  - Legal Status: Citizen of the United States
-  - Gender: 
-    - Desc: female
-    - Pronouns: she/her
-  - Identity: (mostly) secret
-  - Place of Birth: Honolulu, Hawai'i
-  - Marital Status: single
-  - Known Relatives: none
-  - Group Affiliation: [University of Hawai'i faculty, Cosmic Legends of the Universe]
-  - Base of Operations: Hilo, Hawai'i and Sun City, U.S.A.
-  - height: 5' 9"
-  - weight: 135 lbs.
+  - real_name: Kelly Liang
+  - occupation: lifeguard, marine biologist
+  - legal_status: Citizen of the United States
+  - gender: 
+    - desc: female
+    - pronouns: she/her
+  - identity: (mostly) secret
+  - place_of_birth: Honolulu, Hawai'i
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: 
+    - "University of Hawai'i faculty":
+      - active: true
+    - "Cosmic Legends of the Universe":
+      - active: true
+  - base: ["Hilo, Hawai'i", "Sun City, U.S.A."]
+  - height: "5' 9\""
+  - weight: "135 lbs."
   - eyes: brown
-  - hair: (dyed) magenta, (natural) black
+  - hair: "(dyed) magenta, (natural) black"
 - history: |
 
     Kelly Liang always loved the sea; while a high school
@@ -69,15 +73,15 @@
     or on the surface of a body of water, and 50 m.p.h. over land.
 - stats:
   - name: *title
-  - Class: The Shaper
-  - Approaches: {Action: 2, Adventure: 4, Detective: 2, Mystery: 1, Suspense: 1}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Environment, Sculpt, Water]
-    - Personal: [Blast, Create, Move, Quell, Reshape, Shield]
-    - Nova: [Towering, Tsunami]
-  - Abilities: [Reshape the Battlefield, Shelter the Innocents, TBD]
-  - Skills: [Artist (sandcastles), Physician (first aid), Scientist (marine biology), Socialite]
-  - Ideals: [Lifesaving, Nature, Protection, Surfing, Humor]
+  - class: The Shaper
+  - approaches: {action: 2, adventure: 4, detective: 2, mystery: 1, suspense: 1}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Environment, Sculpt, Water]
+    - personal: [Blast, Create, Move, Quell, Reshape, Shield]
+    - nova: [Towering, Tsunami]
+  - abilities: [Reshape the Battlefield, Shelter the Innocents, TBD]
+  - skills: [Artist (sandcastles), Physician (first aid), Scientist (marine biology), Socialite]
+  - ideals: [Lifesaving, Nature, Protection, Surfing, Humor]
   

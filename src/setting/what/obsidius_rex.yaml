@@ -7,20 +7,32 @@
   - url: art/jeshields/monarch.png
   - alt: *title
 - bio:
-  - Real Name: Obsidius Vulcanor Rex
-  - Occupation: Prince, adventurer
-  - Legal Status: Citizen of Vulcanor
-  - Gender: 
-    - Desc: male
-    - Pronouns: he/him
-  - Identity: public
-  - Place of Birth: Volcano City, Vulcanor Island
-  - Marital Status: single
-  - Known Relatives: Tachylus Vulcanor Rex (father), Limuo Pele Vulcanor (mother), Igneia Vulcanor (sister)
-  - Group Affiliation: Vulcanor Royal Family, Cosmic Legends of the Universe (reserve member)
-  - Base of Operations: Volcano City, Vulcanor Island and Sun City, U.S.A.
-  - height: 6' 1"
-  - weight: 300 lbs.
+  - real_name: Obsidius Vulcanor Rex
+  - occupation: Prince, adventurer
+  - legal_status: Citizen of Vulcanor
+  - gender: 
+    - desc: male
+    - pronouns: he/him
+  - identity: public
+  - place_of_birth: Volcano City, Vulcanor Island
+  - marital_status: single
+  - known_relatives: Tachylus Vulcanor Rex (father), Limuo Pele Vulcanor (mother), Igneia Vulcanor (sister)
+  - group_affiliation: 
+    - Vulcanor Royal Family:
+      - active: true
+      - founder: false
+      - reserve: false
+    - Cosmic Legends of the Universe:
+      - active: false
+      - reserve: true
+      - founder: true
+    - "N.O.V.A. Labs":
+      - active: false
+      - reserve: false
+      - founder: true
+  - base: ["Volcano City, Vulcanor Island", "Sun City, U.S.A."]
+  - height: "6' 1\""
+  - weight: "300 lbs."
   - eyes: black
   - hair: none
 - history: |
@@ -68,14 +80,14 @@
     symbol of rank, but it was destroyed by the Man in Black in 2003.
 - stats:
   - name: *title
-  - Class: The Monarch
-  - Approaches: {Action: 2, Adventure: 4, Detective: 1, Mystery: 2, Suspense: 1}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Reinforcements, Unexpected]
-    - Personal: [Armor, Communicate, Greatsword, Remote, Superior, Survivor]
-    - Nova: [Stone, Unbreakable]
-  - Abilities: [For My Kingdom, Righteous Rage, TBD]
-  - Skills: [Artist (sculptor), Engineer, Explorer, Historian, Politician]
-  - Ideals: [Nationalism, Nobility, Pride, Security, Stubbornness]
+  - class: The Monarch
+  - approaches: {action: 2, adventure: 4, detective: 1, mystery: 2, suspense: 1}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Reinforcements, Unexpected]
+    - personal: [Armor, Communicate, Greatsword, Remote, Superior, Survivor]
+    - nova: [Stone, Unbreakable]
+  - abilities: [For My Kingdom, Righteous Rage, TBD]
+  - skills: [Artist (sculptor), Engineer, Explorer, Historian, Politician]
+  - ideals: [Nationalism, Nobility, Pride, Security, Stubbornness]

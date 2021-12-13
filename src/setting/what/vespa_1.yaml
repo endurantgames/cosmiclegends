@@ -3,21 +3,44 @@
   - anchor: setting-vespa-1
   - yaml_version: 1.2
 - bio:
-  - Real Name: Hazel Montgomery
-  - Occupation: scientist, inventor
-  - Legal Status: Citizen of the United States
-  - Gender: 
+  - real_name: Hazel Montgomery
+  - occupation: scientist, inventor
+  - legal_status: Citizen of the United States
+  - gender: 
     - desc: female
     - pronouns: she/her
-  - Identity: public
-  - Place of Birth: Albuquerque, New Mexico
-  - Marital Status: divorced
-  - Known Relatives: [Marquis Malign (ex-husband), Lin Montgomery (child),
-                      Del Thompson (ward)]
-  - Group Affiliation: [A.L.E.R.T. (former operative), Cosmic Legends of the Universe, N.O.V.A. Labs (co-founder), Neutrino (former science partner)]
-  - Base of Operations: Technopolis, U.S.A. and Sun City, U.S.A.
-  - height: 5' 2"
-  - weight: 125 lbs.
+  - identity: public
+  - place_of_birth: Albuquerque, New Mexico
+  - marital_status: divorced
+  - known_relatives: 
+    - Magnus Merlyn Malign:
+      - relationship: ex-husband
+      - gender: male
+      - aka: Marquis Malign
+    - Lin Montgomery:
+      - relationship: child
+      - aka: "Vespa 2.0"
+      - gender: trans
+    - Del Thompson:
+      - relationship: ward
+      - aka: Energy Boy
+      - gender: male
+  - Group Affiliation: 
+    - "A.L.E.R.T.":
+      - active: false
+      - status: former operative
+    - Cosmic Legends of the Universe:
+      - active: false
+      - founder: true
+    - "N.O.V.A. Labs":
+      - active: true
+      - founder: true
+    - Neutrino:
+      - active: false
+      - status: former science partner
+  - base: ["Technopolis, U.S.A.", "Sun City, U.S.A."]
+  - height: "5' 2\""
+  - weight: "125 lbs."
   - eyes: hazel
   - hair: light brown
 - history: |

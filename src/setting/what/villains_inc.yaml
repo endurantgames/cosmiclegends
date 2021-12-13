@@ -3,29 +3,20 @@
   - anchor: setting-villains-inc
   - yaml_version: 1.2
   - x-format: group
+  - members:
+    - term: member
+    - plural: members
 - group:
-  - type_of_group: Supervillain Team
-  - base_of_operations: 
-    - unknown
-    - "Technopolis, U.S.A. (former base)"
-    - "Vadyvokia (former base)"
-  - current_members: 
-    - Balor
-    - Deathsong
-    - Glytch
-    - Gunlock
-    - Igneia
-    - Phineas Pann Jr.
-    - The Teleidoscopic Man
-    - Sequana
-    - Sreng
-  - former_members: 
-    - The Hornette (expelled)
-    - Marquis Malign
-    - Neutrino
-    - Dr. Phineas Pann (deceased)
-    - Sinhammer (deceased)
-    - Xana Mega
+  - type: Supervillain Team
+  - base: 
+    - unknown:
+      - active: true
+    - "Technopolis, U.S.A.":
+      - active: false
+      - former: true
+    - Vadyvokia:
+      - active: false
+      - former: true
   - allies: 
     - Atomicorps
     - the Formorians
@@ -117,4 +108,4 @@
     - resigned: true
     - c.f.: Other Individuals
     - active: false
-  
+

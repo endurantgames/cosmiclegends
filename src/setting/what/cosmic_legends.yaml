@@ -3,15 +3,100 @@
   - x-format: group
   - title: &title Cosmic Legends of the Universe
   - anchor: setting-clotu
-
+  - members:
+    - term: Legend
+    - plural: Legends
 - group:
-  - Type of Group: Superhero Team
-  - Base of Operations: [Sun City, U.S.A., Technopolis, U.S.A. (former base), Mag Findargat, Otherworld (temporary base), Pittsburgh, Pennsylvania (former base)]
-  - Active Members: [Brigantia, Energy Boy, The Head Librarian, Riptide, Rockstar, Vespa 2.0]
-  - Reserve Members: [The Grailknight, Jack Dee, Obsidius Rex, Titan]
-  - Former Members: [Bug II, The Falconer, Johnny Dee (deceased), Maddie Dee (deceased), Sequana (expelled), Vespa I (deceased), Zaar]
-  - Allies: [A.L.E.R.T., The Junior Legends of America, N.O.V.A. Labs, Technopolis Academy]
-  - Enemies: [A.L.E.R.T. (periodically), Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, N.O.V.A. Labs (periodically), Sequana, The Verdict, The Visitors, Villains Inc., Xana Mega]
+  - type: Superhero Team
+  - base: 
+    - Sun City, U.S.A.:
+      - active: true
+    - Technopolis, U.S.A.:
+      - active: false
+    - Mag Findargat, Otherworld:
+      - active: false
+      - temporary: yes
+    - Pittsburgh, Pennsylvania:
+      - active: false
+  - members:
+    - Brigantia:
+      - gender: female
+      - active: true
+    - Energy Boy:
+      - gender: male
+      - active: true
+    - The Head Librarian:
+      - gender: male
+      - active: true
+    - Riptide:
+      - gender: female
+      - active: true
+    - Rockstar:
+      - gender: female
+      - active: true
+    - "Vespa 2.0":
+      - gender: trans
+      - active: true
+    - Percival:
+      - aka: The Grailknight
+      - active: false
+      - reserve: true
+      - gender: male
+      - founder: true
+    - Jack Dee:
+      - active: false
+      - reserve: true
+      - gender: male
+    - Obsidius Rex:
+      - active: false
+      - reserve: true
+      - gender: male
+    - Titan:
+      - active: false
+      - reserve: true
+      - gender: trans
+      - founder: true
+    - Bug II:
+      - active: false
+      - reserve: false
+      - gender: male
+    - Falconer:
+      - definite: true
+      - active: false
+      - reserve: false
+      - gender: female
+    - Johnny Dee:
+      - aka: Master Magister
+      - active: false
+      - deceased: true
+      - gender: male
+      - reserve: false
+    - Maddie Dee:
+      - aka: Miss Magister
+      - active: false
+      - deceased: true
+      - gender: female
+      - reserve: false
+      - founder: true
+    - Sequana:
+      - active: false
+      - expelled: true
+      - villain: true
+      - gender: female
+      - reserve: false
+      - founder: true
+    - Vespa I:
+      - active: false
+      - gender: female
+      - deceased: true
+      - reserve: false
+      - founder: true
+    - Zaar:
+      - active: false
+      - gender: female
+      - reserve: false
+  - Allies: ["A.L.E.R.T.", "The Junior Legends of America", "N.O.V.A. Labs", "Technopolis Academy"]
+  - Enemies: ["A.L.E.R.T. (periodically)", Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, "N.O.V.A. Labs (periodically)", Sequana, The Verdict, The Visitors, "Villains Inc.", Xana Mega]
   
 - history: |
     The Cosmic Legends of the Universe were founded in September 1963 by 

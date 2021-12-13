@@ -2,9 +2,8 @@
   - title: Other Individuals
   - x-format: list
   - list-class: other-list
-  - item-format: list-character
+  - item-format: minor-character
   - anchor: setting-other-individuals
-
 - list:
   - Balor:
     - gender: male
@@ -39,7 +38,7 @@
     - gender: female
     - c.f.: Villains, Inc.
     - villain: yes
-  - Kaleidoscope Kidd, The:
+  - Kaleidoscope Kidd:
     - gender: trans
     - bio: Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
     - hero: yes

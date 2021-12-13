@@ -4,20 +4,22 @@
   - yaml_version: 1.2
   - x-format: character
 - bio:
-  - Real Name: Geraldine "Jeri" North
-  - Occupation: musician
-  - Legal Status: Citizen of the United States
-  - Gender: 
-    - Desc: female
-    - Pronouns: she/her
-  - Identity: public
-  - Place of Birth: Toms River, New Jersey
-  - Marital Status: single
-  - Known Relatives: none
-  - Group Affiliation: Cosmic Legends of the Universe
-  - Base of Operations: New York City, New York and Sun City, U.S.A.
-  - height: 8'
-  - weight: 1040 lbs.
+  - real_name: Geraldine "Jeri" North
+  - occupation: musician
+  - legal_status: Citizen of the United States
+  - gender: 
+    - desc: female
+    - pronouns: she/her
+  - identity: public
+  - place_of_birth: Toms River, New Jersey
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: yes
+  - base: ["New York City, New York", "Sun City, U.S.A."]
+  - height: "8'"
+  - weight: "1040 lbs."
   - eyes: blue
   - hair: none
 - history: >
@@ -34,14 +36,14 @@
     
 - stats:
   - name: *title
-  - Class: The Monstrosity
-  - Approaches: {Action: 4, Adventure: 2, Detective: 2, Mystery: 1, Suspense: 1}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Monster, Strongest]
-    - Personal: [Body, Leap, Rocky, Stomp, Strength, Throw]
-    - Nova: [Mosh, Pit]
-  - Abilities: [Engine of Destruction, Misunderstood Monster, TBD]
-  - Skills: [Criminal, Explorer, Hacker, Performer (punk)]
-  - Ideals: [Bold, Comfort, Fun, Kindness, Music]
+  - class: The Monstrosity
+  - approaches: {action: 4, adventure: 2, detective: 2, mystery: 1, suspense: 1}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Monster, Strongest]
+    - personal: [Body, Leap, Rocky, Stomp, Strength, Throw]
+    - nova: [Mosh, Pit]
+  - abilities: [Engine of Destruction, Misunderstood Monster, TBD]
+  - skills: [Criminal, Explorer, Hacker, Performer (punk)]
+  - ideals: [Bold, Comfort, Fun, Kindness, Music]

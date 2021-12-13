@@ -3,13 +3,39 @@
   - yaml_version: 1.2
   - x-format: group
   - anchor: setting-tuatha
+  - members:
+    - term: Member
+    - plural: Members
 - group:
-  - Type of Group: Pantheon
-  - Base of Operations: [Mag Findargat, Otherworld]
-  - Current Members: [Aengus, Brigid, Dagda, Dian Cecht, Goibniu, Lugh, Manannán, Morrigan]
-  - Former Members: [Bres, Miach (deceased), Nuada (deceased)]
-  - Other Affiliations: [Brigantia (champion), Sequana (former champion)]
-  - Enemies: [Balor, Bres, the Firbolgs, the Fomorians, Sequana, Sreng, Xana Mega]
+  - type: Pantheon
+  - base: [Mag Findargat, Otherworld]
+  - members:
+    - Aengus:
+      - active: yes
+    - Brigid:
+      - active: yes
+    - Dagda:
+      - active: yes
+    - Dian Cecht:
+      - active: yes
+    - Goibniu:
+      - active: yes
+    - Lugh: 
+      - active: yes
+    - Manannán:
+      - active: yes
+    - Morrigan:
+      - active: yes
+    - Bres:
+      - active: no
+    - Miach:
+      - active: no
+      - deceased: true
+    - Nuada:
+      - active: no
+      - deceased: true
+  - other_affiliations: ["Brigantia (champion)", "Sequana (former champion)"]
+  - enemies: [Balor, Bres, the Firbolgs, the Fomorians, Sequana, Sreng, Xana Mega]
   - history: >
       The *Fir Domnann* people -- collectively known as the 
       Tuatha Dé Danann --

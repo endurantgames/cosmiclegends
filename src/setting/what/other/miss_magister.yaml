@@ -1,0 +1,60 @@
+- metadata:
+  - yaml_version: 1.2
+  - x-format: character
+  - title: "Maddie Dee: Miss Magister"
+  - anchor: setting-maddie-dee
+- bio:
+  - name: *title
+  - real_name: Madinia Katherin Dee
+  - occupation: Paranormal investigator, mage, former advice columnist
+  - legal_status: Deceased citizen of the United States
+  - gender:
+    - desc: female
+    - pronouns: she/her
+  - identity: Public
+  - place_of_birth: Boston, Massachusetts
+  - marital_status: Single
+  - known_relatives:
+    - John Arthur Dee VIII:
+      - relationship: son
+      - aka: "Jack Dee: Master Magister"
+    - John Arthur Dee IV:
+      - relationship: father
+      - aka: "John Dee: Master Magister"
+    - John Arthur Dee VII:
+      - aka: "Johnny Dee: Master Magister"
+      - relationship: brother
+      - deceased: true
+    - Arthur Dee:
+      - relationship: purported ancestor
+      - deceased: true
+    - John Dee:
+      - relationship: purported ancestor
+      - deceased: true
+  - group_affiliation: Cosmic Legends of the Universe
+  - base_of_operations: ["Danvers, Massachusetts", "Sun City, U.S.A"]
+  - height: 5' 3"
+  - weight: 130 lbs.
+  - eyes: brown
+  - hair: brown
+- history: |
+
+- powers: |
+
+- weapons: |
+
+- stats:
+  - class: The Mage
+  - name: *title
+  - approaches: { action: 1, adventure: 1, detective: 4, mystery: 3, suspense: 1 }
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Sorcery, Supreme]
+    - personal: []
+    - nova: [Ancestral, Empowerment]
+  - skills: [Academic, Historian, Journalist, Mystic]
+  - abilities: [The Price of Magic, TBD, TBD]
+  - ideals: []
+  - fighting_styles: []
+

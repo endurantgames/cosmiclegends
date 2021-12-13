@@ -7,23 +7,23 @@
   - url: art/jeshields/psychic.png
   - alt: *title
 - bio:
-  - Real Name: unknown
-  - Occupation: none
-  - Legal Status: unknown
-  - Gender: 
-    - Desc: male 
-    - Pronouns: he/him
-  - Identity: unknown
-  - Former Aliases: unknown
-  - Place of Birth: unknown
-  - Marital Status: unknown
-  - Known Relatives: unknown
-  - Group Affiliation: Cosmic Legends of the Universe, N.O.V.A. Labs (consultant)
-  - Base of Operations: Sun City, U.S.A.
-  - Height: 5' 10"
-  - Weight: 160 lbs.
-  - Eyes: Brown
-  - Hair: Black
+  - real_name: unknown
+  - occupation: none
+  - legal_status: unknown
+  - gender: 
+    - desc: male 
+    - pronouns: he/him
+  - identity: unknown
+  - former_aliases: unknown
+  - place_of_birth: unknown
+  - marital_status: unknown
+  - known_relatives: unknown
+  - group_affiliation: Cosmic Legends of the Universe, N.O.V.A. Labs (consultant)
+  - base: "Sun City, U.S.A."
+  - height: "5' 10\""
+  - weight: "160 lbs."
+  - eyes: Brown
+  - hair: Black
 - history: | 
     The Head Librarian has no idea who he is or where he
     is from. He awoke in a field outside of Peshawar, Pakistan,
@@ -54,14 +54,14 @@
     ground and move them about.
 - stats:
   - name: *title
-  - Class: The Psychic
-  - Approaches: {Action: 1, Adventure: 2, Detective: 1, Mystery: 2, Suspense: 4}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Focused, Totality]
-    - Personal: [Erase, Language, Memory, Move, Paper, Probe, Restore, Transfer]
-    - Nova: [Information, Overload]
-  - Abilities: [Our Minds As One, Telekinetics, TBD]
-  - Skills: [Academic, Artist, Journalist]
-  - Ideals: [Aesthetics, Compassion, Knowledge, Learning, Order]
+  - class: The Psychic
+  - approaches: {action: 1, adventure: 2, detective: 1, mystery: 2, suspense: 4}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Focused, Totality]
+    - personal: [Erase, Language, Memory, Move, Paper, Probe, Restore, Transfer]
+    - nova: [Information, Overload]
+  - abilities: [Our Minds As One, Telekinetics, TBD]
+  - skills: [Academic, Artist, Journalist]
+  - ideals: [Aesthetics, Compassion, Knowledge, Learning, Order]

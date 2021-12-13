@@ -6,21 +6,23 @@
   - url: art/jeshields/divine.png
   - alt: *title
 - bio:
-  - Real Name: Sienna MacGowan
-  - Occupation: Graduate student, poet
-  - Legal Status: Citizen of the Republic of Ireland
-  - Gender: 
-    - Desc: female 
-    - Pronouns: she/her
-  - Identity: secret
-  - Place of Birth: Cork, Ireland
-  - Marital Status: single
-  - Group Affiliation: Cosmic Legends of the Universe
-  - Base of Operations: Dublin, Ireland and Sun City, U.S.A.
+  - real_name: Sienna MacGowan
+  - occupation: Graduate student, poet
+  - legal_status: Citizen of the Republic of Ireland
+  - gender: 
+    - desc: female 
+    - pronouns: she/her
+  - identity: secret
+  - place_of_birth: Cork, Ireland
+  - marital_status: single
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: true
+  - base: ["Dublin, Ireland", "Sun City, U.S.A."]
   - Height: "(as Sienna) 5'2\" (as Brigantia) 7'2\""
-  - Weight: (as Sienna) 145 lbs. (as Brigantia) 340 lbs.
-  - Eyes: (as Sienna) green (as Brigantia) green
-  - Hair: (as Sienna) brown (as Brigantia) red
+  - Weight: "(as Sienna) 145 lbs. (as Brigantia) 340 lbs."
+  - Eyes: "(as Sienna) green (as Brigantia) green"
+  - Hair: "(as Sienna) brown (as Brigantia) red"
 - history: |+
     As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
     from her grandmother, and she claimed the Celtic gods even spoke 
@@ -47,14 +49,15 @@
     and projection of light rays from her eyes; in times of great 
     need, she can form a sword of blazing light.
 - stats:
-  - Class: The Divine
-  - Approaches: {Action: 3, Adventure: 3, Detective: 1, Mystery: 1, Suspense: 2}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Blessed, Champion]
-    - Personal: [Flight, Peace, Radiant, Resist, Speed, Strength]
-    - Nova: [Blazing, Sword]
-  - Abilities: [Give Me Strength!, Wisdom of Athena, TBD]
-  - Skills: [Explorer, Historian, Performer (poet), Physician]
-  - Ideals: [Culture, Honor, Justice, Loyalty, Vengeance]
+  - class: The Divine
+  - approaches: {action: 3, adventure: 3, detective: 1, mystery: 1, suspense: 2}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Blessed, Champion]
+    - personal: [Flight, Peace, Radiant, Resist, Speed, Strength]
+    - nova: [Blazing, Sword]
+  - abilities: [Give Me Strength!, Wisdom of Athena, TBD]
+  - fighting_styles: []
+  - skills: [Explorer, Historian, Performer (poet), Physician]
+  - ideals: [Culture, Honor, Justice, Loyalty, Vengeance]

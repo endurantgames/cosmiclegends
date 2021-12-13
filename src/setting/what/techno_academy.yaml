@@ -3,11 +3,50 @@
   - anchor: setting-technopolis
   - x-format: group
   - yaml_version: 1.2
+  - members:
+    - term: student
+    - plural: students
 - group:
-  - Type of Group: Private School
-  - Base of Operations: Technopolis, U.S.A.
-  - Graduates: [Bug (II), Energy Boy, Kaleidoscope Kidd, Lucky Star, Vespa 2.0, others]
-  - Former Students: [Glytch (expelled), Gloom (resigned), Marlinspike (deceased), others]
+  - type: Private School
+  - base: Technopolis, U.S.A.
+  - members:
+    - Bug II:
+      - active: false
+      - graduated: true
+      - gender: male
+    - Energy Boy:
+      - active: false
+      - graduated: true
+      - gender: male
+    - Kaleidoscope Kid:
+      - active: false
+      - graduated: true
+      - gender: male
+    - Lucky Star:
+      - active: false
+      - graduated: true
+      - gender: female
+    - "Vespa 2.0":
+      - active: false
+      - graduated: true
+      - gender: trans
+    - others: true
+    - Glytch:
+      - active: false
+      - graduated: false
+      - expelled: true
+      - gender: trans
+    - Gloom:
+      - active: false
+      - graduated: false
+      - expelled: false
+      - withdrew: true
+      - gender: female
+    - Marlinspike:
+      - active: false
+      - graduated: false
+      - deceased: true
+      - gender: male
   - Allies: [N.O.V.A. Labs, Cosmic Legends of the Universe, Junior Legends of America]
   - Enemies: [Atomicorps, The Crime Institute, Glytch, Marquis Malign, Xana Mega]
 - history | 
@@ -19,5 +58,6 @@
     even while studying at Techno-A.
     
     Most of the Academy students who have had basic crisis training go on to
-    join the Junior Legends of America. Of those, Energy Boy and Vespa 2.0 have
-    gone on to the core Cosmic Legends team.
+    join the Junior Legends of America. Of those, Bug II, Energy Boy, and Vespa 2.0 have
+    gone on to the core Cosmic Legends team, although Bug is not currently a member.
+

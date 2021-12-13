@@ -1,0 +1,57 @@
+- metadata:
+  - yaml_version: 1.2
+  - x-format: character-villain
+  - title: 
+  - anchor: 
+- bio:
+  - name: *title
+  - real_name: 
+  - occupation: 
+  - legal_status: 
+  - gender:
+    - desc: 
+    - pronouns: 
+  - identity: 
+  - place_of_birth: 
+  - marital_status: 
+  - known_relatives: 
+  - group_affiliation: 
+  - base_of_operations: 
+  - height: 
+  - weight: 
+- history: |
+
+- powers: |
+
+- weapons: |
+
+- stats:
+  - name: *title
+  - goals:
+    - smash:  "+1", 
+    - outwit: "+1", 
+    - allay:  "+1", 
+    - rescue: "+1"
+  - resolution:
+    - smash: 
+    - outwit: 
+    - allay: 
+    - rescue: 
+  - crisis_rules:
+    - "name":
+      - desc: 
+    - "name":
+      - desc: 
+    - "name":
+      - desc: 
+  - crisis_moves:
+    - "name": 
+      - counter_cost: 
+      - consequence: 
+    - "name": 
+      - counter_cost: 
+      - consequence: 
+    - "name": 
+      - counter_cost: 
+      - consequence: 
+

@@ -10,20 +10,24 @@
   
 - bio:
   - name: *title
-  - Real Name: "Martin \"Adam X. Lii\" McCord"
-  - Occupation: police officer
-  - Legal Status: Citizen of the United States, offically deceased
-  - Gender: 
-    - Desc: "non-gendered/male"
-    - Pronouns: "it/its, he/him"
-  - Identity: classified
-  - Place of Birth: Technopolis, U.S.A.
-  - Marital Status: "single - n/a, formerly married"
-  - Known Relatives: none
-  - Group Affiliation: Cosmic Legends of the Universe (reserve), Los Angeles Police Department (medical leave)
-  - Base of Operations: Los Angeles, California and Technopolis, U.S.A.
-  - height: 5' 10"
-  - weight: 305 lbs.
+  - real_name: "Martin \"Adam X. Lii\" McCord"
+  - occupation: police officer
+  - legal_status: Citizen of the United States, offically deceased
+  - gender: 
+    - desc: "non-gendered/male"
+    - pronouns: "it/its, he/him"
+  - identity: classified
+  - place_of_birth: Technopolis, U.S.A.
+  - marital_status: "single - n/a, formerly married"
+  - known_relatives: none
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - reserve: true 
+    - Los Angeles Police Department:
+      - status: "medical leave"
+  - base: ["Los Angeles, California", "Technopolis, U.S.A."]
+  - height: "5' 10\""
+  - weight: "305 lbs."
 
 - history: |+
     Martin McCord never wanted to become the world's first
@@ -37,15 +41,16 @@
     he can pass among humans as Adam Lii, the newest recruit of the
     Los Angeles Police Department.
 - stats:
-  - Class: The Construct
-  - Approaches: { Action: 3, Adventure: 1, Detective: 3, Mystery: 1, Suspense: 3}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Synthetic, Sentience]
-    - Personal: [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
-    - Nova: [One, Officer, Police, Force]
-  - Abilities: [Energy Reserve, Fight Fire With Fire, TBD]
-  - Fighting Styles: [Brawler, Guerilla, Interceptor, Sharpshooter, Rescuer, Weaponmaster]
-  - Skills: [Deputy, Engineer, Hacker, Investigator, Lawyer]
-  - Ideals: [Angst, Guilt, Duty, Law, Pain, Obedience, Violence]
+  - name: *title
+  - class: The Construct
+  - approaches: { action: 3, adventure: 1, detective: 3, mystery: 1, suspense: 3}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Synthetic, Sentience]
+    - personal: [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
+    - nova: [One, Officer, Police, Force]
+  - abilities: [Energy Reserve, Fight Fire With Fire, TBD]
+  - fighting_styles: [Brawler, Guerilla, Interceptor, Sharpshooter, Rescuer, Weaponmaster]
+  - skills: [Deputy, Engineer, Hacker, Investigator, Lawyer]
+  - ideals: [Angst, Guilt, Duty, Law, Pain, Obedience, Violence]

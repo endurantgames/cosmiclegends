@@ -7,20 +7,25 @@
   - url: art/jeshields/mage.png
   - alt: Jack Dee
 - bio:
-  - Real Name: John Arthur Dee
-  - Occupation: Lawyer, mage
-  - Legal Status: Citizen of the United States
-  - Gender: 
-    - Desc: male
-    - Pronouns: he/him
-  - Identity: public
-  - Place of Birth: Sacramento, California
-  - Marital Status: single
-  - Known Relatives: Madinia Katherine Dee (mother, deceased), John Arthur Dee VI (maternal grandfather), John Arthur Dee VII (uncle, deceased), Arthur Dee (purported ancestor, deceased), John Dee (purported ancestor)
-  - Group Affiliation: Cosmic Legends of the Universe (reserve member), State Bar of California
-  - Base of Operations: San Francisco, California and Sun City, U.S.A. 
-  - height: 6' 0"
-  - weight: 170 lbs.
+  - real_name: John Arthur Dee VIII
+  - occupation: Lawyer, mage
+  - legal_status: Citizen of the United States
+  - gender: 
+    - desc: male
+    - pronouns: he/him
+  - identity: public
+  - place_of_birth: Sacramento, California
+  - marital_status: single
+  - known_relatives: Madinia Katherine Dee (mother, deceased), John Arthur Dee VI (maternal grandfather), John Arthur Dee VII (uncle, deceased), Arthur Dee (purported ancestor, deceased), John Dee (purported ancestor)
+  - group_affiliation: 
+    - "Cosmic Legends of the Universe":
+      - active: no
+      - reserve: yes
+    - "State Bar of California":
+      - active: yes
+  - base: ["San Francisco, California", "Sun City, U.S.A."]
+  - height: "6' 0\""
+  - weight: "170 lbs."
   - eyes: brown
   - hair: brown
    
@@ -58,14 +63,14 @@
     
 - stats:
   - name: Jack Dee
-  - Class: The Mage
-  - Approaches: {Action: 1, Adventure: 1, Detective: 4, Mystery: 2, Suspense: 2}
-  - Health: 10
-  - Might: 10
-  - Power Words:
-    - Core: [Sorcery, Supreme]
-    - Personal: [Banish, Blast, Extradimensional, Magic, Shield, Ward]
-    - Nova: [Ancestral, Empowerment]
-  - Abilities: [The Price of Magic, Mists of Misdirection, TBD]
-  - Skills: [Academic, Historian, Lawyer, Mystic]
-  - Ideals: [Duty, Family, Pedantry, Responsibility, Secrecy]
+  - class: The Mage
+  - approaches: {action: 1, adventure: 3, detective: 2, mystery: 2, suspense: 2}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Sorcery, Supreme]
+    - personal: [Banish, Blast, Extradimensional, Magic, Shield, Ward]
+    - nova: [Ancestral, Empowerment]
+  - abilities: [The Price of Magic, Mists of Misdirection, TBD]
+  - skills: [Academic, Historian, Lawyer, Mystic]
+  - ideals: [Duty, Family, Pedantry, Responsibility, Secrecy]
