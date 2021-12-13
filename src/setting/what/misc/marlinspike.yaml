@@ -1,0 +1,44 @@
+- metadata:
+  - yaml_version: 1.2
+  - x-format: character
+  - title: &title Marlinspike
+  - anchor: setting-marlinspike
+- bio:
+  - name: *title
+  - real_name: "Marlin \"Spike\" Something"
+  - occupation: student
+  - legal_status: Deceased citizen of Vulcanor
+  - gender:
+    - desc: male
+    - pronouns: he/him
+  - identity: Secret
+  - place_of_birth: Volcano City, Vulcanor
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: Technopolis Academy student
+  - base_of_operations: Technopolis Academy
+  - height: 5' 9"
+  - weight: 125 lbs.
+- history: |
+    This is this history of poor Marlinspike.
+- powers: |
+    Marlinspike had water-control powers.
+- weapons: |
+    Marlinspike used a spike (a marlinspike, really) and a net as
+    weapons.
+- stats:
+  - class: The Shaper
+  - name: *title
+  - approaches: { action: 1, adventure: 3, detective: 2, mystery: 2, suspense: 2 }
+  - health: 10
+  - might: 10
+  - volume: 1
+  - power_words:
+    - core: [Environment, Sculpt, Water]
+    - personal: [Blast, Sphere, Move, Sense, Shield, Trap]
+    - nova: [Time, And, Tide, Wait, For, No, Man]
+  - skills: [Artist, Scientist]
+  - abilities: []
+  - ideals: [Curiosity, Ecology, Friendly, Impulsive, Truth]
+  - fighting_styles: [Submariner, Controller]
+

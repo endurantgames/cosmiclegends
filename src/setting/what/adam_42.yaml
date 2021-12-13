@@ -9,7 +9,7 @@
   - alt: "Adam-42: One-Officer-Police-Force"
   
 - bio:
-  - name: "Adam 42: O.O.P.F."
+  - name: *title
   - Real Name: "Martin \"Adam X. Lii\" McCord"
   - Occupation: police officer
   - Legal Status: Citizen of the United States, offically deceased

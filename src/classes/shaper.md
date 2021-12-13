@@ -93,16 +93,16 @@ Choose six Personal Power Words from the following list:
 - Absorb
 - Become
 - Blast
-- Sphere
 - Create
 - Destroy
-- Ring
 - Flight
 - Move
 - Quell
 - Reshape
+- Ring
 - Sense
 - Shield
+- Sphere
 - Transmute
 - Trap
 :::::::::::::::::::::::::

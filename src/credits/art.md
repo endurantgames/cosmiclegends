@@ -1,2 +1,2 @@
-Artwork &copy; Jeshields.
+Artwork &copy;[Jeshields](https://jeshields.com/).
 
