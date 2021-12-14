@@ -5,13 +5,14 @@
 
 ![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
 
-[Hero Name                                                    ]{.label .name}
-[The Paragon    ]{.label .class}              [Renegade Sentinel of Saturn.         ]{.label .}
-[Volume         ]{.label .volume}             [he/him      ]{.label .pronouns}
-[               ]{.box .b5 .volume-boxes}
+[Hero Name]{.label .name}
+[The Paragon]{.label .class} [Renegade Sentinel of Saturn.]{.label .}
+[Volume]{.label .volume}             [he/him]{.label .pronouns}
+[      ]{.box .b5 .volume-boxes}
 
 **Powers:**
-Hyperion is perhaps the most powerful individual on the planet, rivalled only by Titan.
+Hyperion is perhaps the most powerful individual on the planet, 
+rivalled only by Titan.
 His Titanian strength lets him lift well over 100 tons, and he is
 able to project the cold frost of the Titanian sky from his
 eyes as energy beams. Flight, speed, and telepathy round out his
@@ -23,8 +24,8 @@ Titanian.
 
 - **Class:** Fallen Paragon
 - **Approaches:** Action 1, Adventure 2, Detective 3, Mystery 3, Suspense 3**
--- **Health:** 15
--- **Might:** 10
+- **Health:** 15
+- **Might:** 10
 
 [Power Words                                                  ]{.label .section .power-words}
 [Core           ]{.label .core}               [Personal       ]{.label .personal}
