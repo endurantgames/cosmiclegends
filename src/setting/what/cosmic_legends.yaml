@@ -1,23 +1,27 @@
 - metadata:
   - yaml_version: 1.2
-  - x-format: group
-  - title: &title Cosmic Legends of the Universe
-  - anchor: setting-clotu
+  - x-format:     group
+  - title:        &title Cosmic Legends of the Universe
+  - anchor:       setting-clotu
   - members:
-    - term: Legend
-    - plural: Legends
+    - term:       Legend
+    - plural:     Legends
 - group:
   - type: Superhero Team
   - base: 
-    - Sun City, U.S.A.:
-      - active: true
-    - Technopolis, U.S.A.:
-      - active: false
-    - Mag Findargat, Otherworld:
-      - active: false
+    - "Sun City, U.S.A.":
+      - active:    true
+      - current:   true
+    - "Technopolis, U.S.A.":
+      - active:    false
+      - former:    true
+    - "Mag Findargat, Otherworld":
+      - active:    false
       - temporary: yes
-    - Pittsburgh, Pennsylvania:
-      - active: false
+      - former:    true
+    - "Pittsburgh, Pennsylvania":
+      - active:    false
+      - former:    true
   - members:
     - Brigantia:
       - gender: female
@@ -39,62 +43,67 @@
       - active: true
     - Percival:
       - aka: The Grailknight
-      - active: false
+      - active:  false
       - reserve: true
-      - gender: male
+      - gender:  male
       - founder: true
     - Jack Dee:
-      - active: false
+      - active:  false
       - reserve: true
-      - gender: male
+      - gender:  male
     - Obsidius Rex:
-      - active: false
+      - active:  false
       - reserve: true
-      - gender: male
+      - gender:  male
     - Titan:
-      - active: false
+      - active:  false
       - reserve: true
-      - gender: trans
+      - gender:  trans
       - founder: true
     - Bug II:
-      - active: false
+      - active:  false
       - reserve: false
-      - gender: male
+      - gender:  male
     - Falconer:
       - definite: true
-      - active: false
-      - reserve: false
-      - gender: female
+      - active:   false
+      - reserve:  false
+      - gender:   female
     - Johnny Dee:
       - aka: Master Magister
-      - active: false
+      - active:   false
       - deceased: true
-      - gender: male
-      - reserve: false
+      - gender:   male
+      - reserve:  false
     - Maddie Dee:
       - aka: Miss Magister
-      - active: false
+      - active:   false
       - deceased: true
-      - gender: female
-      - reserve: false
-      - founder: true
+      - gender:   female
+      - reserve:  false
+      - founder:  true
     - Sequana:
-      - active: false
+      - active:   false
       - expelled: true
-      - villain: true
-      - gender: female
-      - reserve: false
-      - founder: true
+      - villain:  true
+      - gender:   female
+      - reserve:  false
+      - founder:  true
     - Vespa I:
-      - active: false
-      - gender: female
+      - active:   false
+      - gender:   female
       - deceased: true
-      - reserve: false
-      - founder: true
+      - reserve:  false
+      - founder:  true
     - Zaar:
-      - active: false
-      - gender: female
-      - reserve: false
+      - active:   false
+      - gender:   female
+      - reserve:  false
+    - Far-Seeker:
+      - active:   false
+      - honorary: true
+      - gender:   female
+      - reserve:  false
   - Allies: ["A.L.E.R.T.", "The Junior Legends of America", "N.O.V.A. Labs", "Technopolis Academy"]
   - Enemies: ["A.L.E.R.T. (periodically)", Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, "N.O.V.A. Labs (periodically)", Sequana, The Verdict, The Visitors, "Villains Inc.", Xana Mega]
   

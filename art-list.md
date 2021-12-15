@@ -4,6 +4,7 @@ Heroes:
 - Adam-42 / the Construct class: https://jeshields.com/product/scifi-bot/
 - the Haunt class: https://jeshields.com/product/fantasy-bloody-ghost-with-knife-and-noose-cnb/
 - the Hellspawn class: https://jeshields.com/product/modern-fantasy-nigerian-demon-slayer-with-supernatural-sword-cnb/
+- the Expert class: https://jeshields.com/product/modern-asian-mercenary-with-pistol-and-flak-jacket-cnb/
 
 - the Speedster class (possible): https://jeshields.com/product/supers-quick-hero-in-solid-masks-runs-with-speed/
 - the Totem class (possible): https://jeshields.com/product/supers-wolf-girl-with-collar-and-torn-clothes/
@@ -25,6 +26,8 @@ Heroes:
 - Miss Magister: Maddie Dee (needed?, possible) https://jeshields.com/product/modern-elite-woman-in-fancy-dress-sings-or-chants-with-book-cnb/
 - Bug (II, Mar Ferrandis, needed?, possible): https://jeshields.com/product/supers-miniature-insect-hero-leaping-cnb/
 - Tethys: My'Rinn To'Rezz (needed?, possible): https://jeshields.com/product/scifi-alien-lady-in-dress-with-antennae-cnb/
+
+- Far-Seeker (N.J. Campbell, iconic expat): https://jeshields.com/product/scifi-douglas-female-with-tattoos-and-mohawk-cnb/ - love the mohawk for a Storm-ish look
 
 Villains:
 

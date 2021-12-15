@@ -134,6 +134,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+[N.J. Campbell: Farseeker](art/jeshields/expat.png "N.J. Campbell: Frseeker"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Expatriate Abilities {.class}
@@ -171,12 +172,6 @@ Boundless Fortitude
 :   You are amazingly hard to hurt. Increase your maximum
     Health by 5.
 
-Self-Repair
-
-:   Your injuries heal quickly. Regain 1 Health at
-    the start of the Hero Phase if you have at least 1 Might
-    and 1 Health.
-
 In a Strange Land
 
 :   To be determined
@@ -213,13 +208,6 @@ Earth, Or A Reasonable Facsimile Thereof
     :::::::::::::::::::::::::
     This is a *Hero Cave* Ability.
 
-Regeneration
-
-:   If you're ever wounded, you don't stay that way for long.
-    Regain 1 Health at the start of the Hero Phase if you are
-    at less than half of your maximum Health but have at least
-    1 Health.
-
 Relentless Power
 
 :   You are a storehouse of untapped energy. Increase your
@@ -232,16 +220,8 @@ Relentless Power
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-Nigh-Invulnerable
-
-:   There are few things that can seriously harm you.
-    Increase your maximum Health by 5.
-
-Power Burn
-
-:   You can call upon your life-force to fuel your powers.
-    You can spend Health whenever you would normally spend
-    Might.
+TBD
+:   To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 

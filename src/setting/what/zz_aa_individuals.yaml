@@ -13,6 +13,11 @@
     - gender: male
     - bio: Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
     - villain: yes
+  - Far-Seeker
+    - gender: female
+    - bio: N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends
+    - full_name: Nora Jamila Campbell
+    - hero: yes
   - Dindrane:
     - gender: female
     - bio: Immortal wizard; sister of Percival, the Grailknight.
