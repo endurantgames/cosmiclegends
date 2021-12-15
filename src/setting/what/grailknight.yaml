@@ -14,10 +14,33 @@
     - desc: male 
     - pronouns: he/him
   - identity: public
-  - former_aliases: Peredur, Percevaus li Galois
+  - former_aliases: [Peredur, Percevaus li Galois]
   - place_of_birth: Aberffraw, Wales
   - marital_status: single
-  - known_relatives: King Pellinore (father, deceased), Algovale (brother, deceased), Lamorak (brother, deceased), Dindrane (sister), Agresizia (sister, deceased)
+  - known_relatives: 
+    - King Pellinore:
+      - relationship: father
+      - deceased:     true
+      - gender:       male
+    - Algovale:
+      - relationship: brother
+      - deceased:     true
+      - gender:       male
+    - Lamorak:
+      - relationship: brother
+      - deceased:     true
+      - gender:       male
+    - Dindrane:
+      - relationship: sister
+      - gender:       female
+    - Agresizia:
+      - relationship: sister
+      - gender:       female
+      - deceased:     true
+    - Galahad y Llyn:
+      - relationship: nephew
+      - gender:       male
+      - deceased:     true
   - group_affiliation: 
     - Knights of the Round Table:
       - active: no

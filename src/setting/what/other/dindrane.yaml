@@ -1,36 +1,61 @@
 - metadata:
   - yaml_version: 1.2
-  - x-format: character
-  - title: 
-  - anchor: 
+  - x-format:     character
+  - title:        &title Dindrane
+  - anchor:       setting-dindrane
 - bio:
   - name: *title
-  - real_name: 
-  - occupation: 
-  - legal_status: 
+  - real_name:      Dindrane Pellinore
+  - former_aliases: [Grail, Heliabel]
+  - occupation:     Sorceress
+  - legal_status:   unknown
   - gender:
-    - desc: 
-    - pronouns: 
-  - identity: 
-  - place_of_birth: 
-  - marital_status: 
+    - desc:     female
+    - pronouns: she/her
+  - identity: public
+  - place_of_birth: Aberffraw, Wales
+  - marital_status: unknown
   - known_relatives: 
+    - Percival Pellinor
+      - relationship: brother
+      - aka:          The Grailknight
+      - gender:       male
+    - King Pellinore:
+      - relationship: father
+      - deceased:     true
+      - gender:       male
+    - Algovale:
+      - relationship: brother
+      - deceased:     true
+      - gender:       male
+    - Lamorak:
+      - relationship: brother
+      - deceased:     true
+      - gender:       male
+    - Agresizia:
+      - relationship: sister
+      - gender:       female
+      - deceased:     true
+    - Galahad y Llyn:
+      - relationship: son
+      - gender:       male
+      - deceased:     true
   - group_affiliation: 
   - base_of_operations: 
   - height: 
   - weight: 
 - history: |
-
+    To be determined
 - powers: |
-
+    To be determined
 - weapons: |
-
+    To be determined
 - stats:
-  - class: The 
+  - class: The Mage
   - name: *title
-  - approaches: { action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1 }
+  - approaches: { action: 1, adventure: 2, detective: 1, mystery: 4, suspense: 2 }
   - health: 10
-  - might: 10
+  - might: 15
   - power_words:
     - core: []
     - personal: []
