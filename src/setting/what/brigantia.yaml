@@ -1,28 +1,28 @@
 - metadata:
-  - title: &title Brigantia
+  - title:    &title Brigantia
   - x-format: character
-  - anchor: setting-brigantia
+  - anchor:   setting-brigantia
 - image:
-  - url: art/jeshields/divine.png
-  - alt: *title
+  - url:      art/jeshields/divine.png
+  - alt:      *title
 - bio:
-  - real_name: Sienna MacGowan
-  - occupation: Graduate student, poet
-  - legal_status: Citizen of the Republic of Ireland
+  - real_name:      Sienna MacGowan
+  - occupation:     Graduate student, poet
+  - legal_status:   Citizen of the Republic of Ireland
   - gender: 
-    - desc: female 
-    - pronouns: she/her
-  - identity: secret
-  - place_of_birth: Cork, Ireland
+    - desc:         female 
+    - pronouns:     she/her
+  - identity:       secret
+  - place_of_birth: "Cork, Ireland"
   - marital_status: single
   - group_affiliation: 
     - Cosmic Legends of the Universe:
-      - active: true
-  - base: ["Dublin, Ireland", "Sun City, U.S.A."]
+      - active:     true
+  - base:   ["Dublin, Ireland", "Sun City, U.S.A."]
   - Height: "(as Sienna) 5'2\" (as Brigantia) 7'2\""
   - Weight: "(as Sienna) 145 lbs. (as Brigantia) 340 lbs."
-  - Eyes: "(as Sienna) green (as Brigantia) green"
-  - Hair: "(as Sienna) brown (as Brigantia) red"
+  - Eyes:   "(as Sienna) green (as Brigantia) green"
+  - Hair:   "(as Sienna) brown (as Brigantia) red"
 - history: |+
     As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
     from her grandmother, and she claimed the Celtic gods even spoke 
@@ -61,3 +61,11 @@
   - fighting_styles: []
   - skills: [Explorer, Historian, Performer (poet), Physician]
   - ideals: [Culture, Honor, Justice, Loyalty, Vengeance]
+- sidebar:
+  - title: Apology to Celtic Pagans
+  - "css-classes": [soapbox, small]
+  - text >
+      I apologize in advance for the horrible mishandling of the
+      Tuatha Dé Danann and other elements of Celtic mythology.
+      It's done specifically in reference to the way Marvel Comics
+      handled the Norse, Greek, and other pantheons over the years.

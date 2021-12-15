@@ -20,12 +20,12 @@
     - active: false
     - disbanded: true
     - bio: The School created by Villains, Inc. to rival Technopolis Academy and train super-villains.
-    - c.f.: "Villains, Inc"
+    - cf: "Villains, Inc"
     - villain: true
   - Firbolgs:
     - definite: true
     - bio: Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc.
-    - c.f.: [Tuatha Dé Danann, "Villains, Inc."]
+    - cf: [Tuatha Dé Danann, "Villains, Inc."]
     - active: true
     - villain: true
   - Fomorians:
@@ -47,7 +47,7 @@
     - definite: true
     - bio: The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion.
     - ally: true
-    - c.f.: Titan, Tethys, Hyperion
+    - cf: Titan, Tethys, Hyperion
   - Sun City University:
     - bio: Four-year and graduate university located in Sun City, U.S.A.
     - active: true
@@ -76,7 +76,7 @@
     - active:    false
     - hero:      true
     - disbanded: true
-    - bio:       "Group of dinosaurs cloned during World War 2 to fight for the Allies in the Pacific theatre; current status and location unknown."
+    - bio:       "Group of dinosaurs cloned during World War 2 to fight for the Allies in the Pacfc theatre; current status and location unknown."
     - members: 
       - dino one:
       - dino two:
@@ -86,7 +86,7 @@
     - bio: A outlawed splinter group that broke off from A.L.E.R.T., engaged in terrorism world-wide.
     - active: true
     - villain: true
-    - c.f.: "A.L.E.R.T."
+    - cf: "A.L.E.R.T."
   - Vulcanor Royal Family:
     - definite: true
     - ally: true
@@ -107,7 +107,7 @@
         - active:   true
         - gender:   male
         - leader:   true
-    - c.f.: Obsidius Rex
+    - cf: Obsidius Rex
   - Interstellar Consortium of Civilizations:
     - definite: true
     - bio: 

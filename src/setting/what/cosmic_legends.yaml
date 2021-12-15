@@ -104,9 +104,67 @@
       - honorary: true
       - gender:   female
       - reserve:  false
-  - Allies: ["A.L.E.R.T.", "The Junior Legends of America", "N.O.V.A. Labs", "Technopolis Academy"]
-  - Enemies: ["A.L.E.R.T. (periodically)", Balor, the Fomorians, Glytch, Marquis Malign, Neutrino, "N.O.V.A. Labs (periodically)", Sequana, The Verdict, The Visitors, "Villains Inc.", Xana Mega]
-  
+  - Allies: 
+    - "A.L.E.R.T.":
+      - group:    true
+      - hero:     true
+    - "Junior Legends of America":
+      - group:    true
+      - definite: true
+      - hero:     true
+    - "N.O.V.A. Labs":
+      - group:    true
+      - hero:     true
+    - "Technopolis Academy"
+      - group:    true
+      - hero:     true
+    - Dindrane:
+      - hero:     true
+      - gender:   female
+      - aka:      Grail
+  - Enemies: 
+    - "A.L.E.R.T.":
+      - ally:       true
+      - group:      true
+      - infrequent: true
+    - Balor:
+      - gender:     male
+      - villain:    true
+    - Fomorians:
+      - definite:   true
+      - group:      true
+    - Glytch:
+      - gender:     trans
+      - villain:    true
+    - Marquis Malign:
+      - gender:     male
+      - villain:    true
+    - Neutrino:
+      - gender:   female
+      - villain:  true
+      - cf:     Energy Boy
+    - "N.O.V.A. Labs":
+      - group:      true
+      - infrequent: true
+      - ally:       true
+    - Sequana:
+      - villain:    true
+      - gender:     female
+    - Verdict:
+      - definite:   true
+      - gender:     male
+      - villain:    true
+      - hero:       true
+    - Visitors:
+      - definite:   true
+      - group:      true
+      - villain:    true
+    - "Villains Inc.":
+      - group:      true
+      - villain:    true
+    - Xana Mega:
+      - villain:    true
+      - gender:     female
 - history: |
     The Cosmic Legends of the Universe were founded in September 1963 by 
     Titan, the Sentinel of Saturn;
@@ -125,7 +183,7 @@
 - member-list:
   - Brigantia:
     - gender: female
-    - c.f.: Brigantia
+    - cf: Brigantia
     - active: yes
     - founder: yes
   - Bug:
@@ -136,7 +194,7 @@
     - active: no
   - Energy Boy:
     - gender: male
-    - c.f.: Energy Boy
+    - cf: Energy Boy
     - active: yes
   - The Falconer:
     - gender: female
@@ -144,13 +202,13 @@
     - active: no
   - The Head Librarian:
     - gender: male
-    - c.f.: Head Librarian
+    - cf: Head Librarian
     - active: yes
   - Master Magister:
     - real name: Jack Dee
     - gender: male
     - reserve: yes
-    - c.f.: Jack Dee
+    - cf: Jack Dee
     - active: no
   - Master Magister:
     - real name: Johnny Dee
@@ -168,32 +226,32 @@
   - Obsidius Rex:
     - gender: male
     - reserve: yes
-    - c.f.: Obsidius Rex
+    - cf: Obsidius Rex
     - active: no
     - founder: yes
   - Riptide:
     - gender: female
-    - c.f.: Riptide
+    - cf: Riptide
     - active: yes
   - Rockstar:
     - gender: female
-    - c.f.: Rockstar
+    - cf: Rockstar
     - active: yes
   - Sequana:
     - gender: female
     - expelled: yes
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - active: no
     - founder: yes
   - Sir Percival, the Grailknight:
     - gender: male
     - reserve: yes
-    - c.f.: Grailknight
+    - cf: Grailknight
     - active: no
     - founder: yes
   - Titan, Sentinel of Saturn:
     - gender: trans
-    - c.f.: Titan
+    - cf: Titan
     - reserve: yes
     - active: no
     - founder: yes
@@ -201,13 +259,13 @@
     - real name: Hazel Montgomery
     - gender: female
     - deceased: true
-    - c.f.: Vespa I
+    - cf: Vespa I
     - active: no
     - founder: yes
   - Vespa:
     - real name: Lin Montgomery
     - gender: trans
-    - c.f.: Vespa 2.0
+    - cf: Vespa 2.0
     - active: yes
   - Zaar:
     - gender: female

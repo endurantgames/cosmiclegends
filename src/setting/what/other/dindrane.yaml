@@ -40,6 +40,10 @@
       - relationship: son
       - gender:       male
       - deceased:     true
+    - Lawnslot y Llyn:
+      - relationship: ex-husband
+      - gender:       male
+      - deceased:     true
   - group_affiliation: 
   - base_of_operations: 
   - height: 

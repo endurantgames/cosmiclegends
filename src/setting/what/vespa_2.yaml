@@ -38,6 +38,7 @@
   - hair: (dyed) blonde, (natural) brown
 - sidebar:
   - title: Lin's Gender
+  - "css-classes": [sidebar, small]
   - text: |
       As a non-binary character who uses they/them pronouns,
       Lin Montgomery could be viewed as slightly anachronistic

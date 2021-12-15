@@ -7,7 +7,7 @@
 - list:
   - Balor:
     - gender: male
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - villain: yes
   - Bres:
     - gender: male
@@ -28,12 +28,12 @@
     - hero: yes
   - Glytch:
     - gender: trans
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - villain: yes
   - The Hornette:
     - gender: trans
     - bio: Alias used by Lin Montgomery to infiltrate Villains, Inc. 
-    - c.f.: Vespa 2.0
+    - cf: Vespa 2.0
     - villain: yes
   - Hyperion:
     - gender: trans
@@ -41,7 +41,7 @@
     - villain: yes
   - Igneia Vulcanor:
     - gender: female
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - villain: yes
   - Kaleidoscope Kidd:
     - gender: trans
@@ -79,20 +79,20 @@
     - villain: yes
   - Dr. Phineas Pann:
     - gender: male
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - villain: yes
   - Sandra Starr:
     - gender: female
     - bio: Agent of A.L.E.R.T. and liaison to the Cosmic Legends.
-    - c.f.: A.L.E.R.T.
+    - cf: A.L.E.R.T.
     - ally: yes
   - Sequana:
     - gender: female
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - villain: yes
   - Sreng:
     - gender: male
-    - c.f.: Villains, Inc.
+    - cf: Villains, Inc.
     - villain: yes
   - Tachylus Rex:
     - gender: male

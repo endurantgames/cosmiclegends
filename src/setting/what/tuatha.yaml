@@ -45,7 +45,7 @@
       known as Brigantia of the Cosmic Legends.
 - sidebar:
   - title: Apology to Celtic Pagans
-  - css-classes: [soapbox, small]
+  - "css-classes": [soapbox, small]
   - text >
       I apologize in advance for the horrible mishandling of the 
       Tuatha Dé Danann and other elements of Celtic mythology.
