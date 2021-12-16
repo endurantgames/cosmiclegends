@@ -26,6 +26,7 @@
   - generic_equiv: General TTRPG
   - safety_equiv:  General TTRPG Safety Tools
 ...
+---
 - Ability:
   - def: Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 - Action:
@@ -318,4 +319,4 @@
     - term: season
     - plural: seasons
     - sub: e.g. of Critical Role
-  
+...  

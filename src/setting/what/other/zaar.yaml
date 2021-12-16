@@ -1,20 +1,20 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character
-  - title: 
-  - anchor: 
+  - title: &title Zaar
+  - anchor: setting-zaar
 - bio:
   - name: *title
-  - real_name: 
+  - real_name: Zaar
   - occupation: 
   - legal_status: 
   - gender:
-    - desc: 
-    - pronouns: 
-  - identity: 
+    - desc: female
+    - pronouns: "she/her"
+  - identity: Secret
   - place_of_birth: 
-  - marital_status: 
-  - known_relatives: 
+  - marital_status: Unknown
+  - known_relatives: none
   - group_affiliation: 
   - base_of_operations: 
   - height: 
@@ -26,7 +26,7 @@
 - weapons: |
 
 - stats:
-  - class: The 
+  - class: The Dynamo
   - name: *title
   - approaches: { action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1 }
   - health: 10

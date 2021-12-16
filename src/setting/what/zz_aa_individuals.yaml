@@ -1,8 +1,8 @@
 - metadata:
   - title: Other Individuals
-  - x-format: list
-  - list-class: other-list
-  - item-format: minor-character
+  - "x-format": list
+  - "list-class": other-list
+  - "item-format": minor-character
   - anchor: setting-other-individuals
 - list:
   - Balor:
@@ -13,7 +13,7 @@
     - gender: male
     - bio: Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
     - villain: yes
-  - Far-Seeker
+  - "Far-Seeker":
     - gender: female
     - bio: N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends
     - full_name: Nora Jamila Campbell
