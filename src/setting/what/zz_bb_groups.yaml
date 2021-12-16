@@ -1,36 +1,36 @@
 - metadata:
   - title: Other Groups
   - anchor: setting-other-groups
-  - x-format: list
-  - item-format: group
-  - yaml_version: 1.2
-  - list-class: other-list
+  - "x-format": list
+  - "item-format": group
+  - "yaml_version": 1.2
+  - "list-class": other-list
 - list:
   - Aos Sí:
-    - bio: Faeries of Otherworld formerly ruled by Xana Mega.
+    - bio: "Faeries of Otherworld formerly ruled by Xana Mega."
     - active: true
     - definite: true
     - villain: true
   - Atomicorps:
-    - bio: A team of mercenaries using nuclear-powered battlesuits.
+    - bio: "A team of mercenaries using nuclear-powered battlesuits."
     - active: true
     - villain: true
   - Crime Institute:
     - definite: true
     - active: false
     - disbanded: true
-    - bio: The School created by Villains, Inc. to rival Technopolis Academy and train super-villains.
+    - bio: "The school created by Villains, Inc. to rival Technopolis Academy and train super-villains."
     - cf: "Villains, Inc"
     - villain: true
   - Firbolgs:
     - definite: true
-    - bio: Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc.
+    - bio: "Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc."
     - cf: [Tuatha Dé Danann, "Villains, Inc."]
     - active: true
     - villain: true
   - Fomorians:
     - definite: true
-    - bio: Mythological giants from Otherworld; enemies of the Tuatha Dé Danann, Brigantia, and the Cosmic Legends.
+    - bio: "Mythological giants from Otherworld; enemies of the Tuatha Dé Danann, Brigantia, and the Cosmic Legends."
     - active: true
     - villain: true
   - Junior Legends of America:
@@ -41,15 +41,15 @@
   - "Kyl'Sh'Tal":
     - definite: true
     - active: true
-    - bio: Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors.
+    - bio: "Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors."
     - hero: true
   - "Ro'Tan'Okk":
     - definite: true
-    - bio: The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion.
+    - bio: "The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion."
     - ally: true
-    - cf: Titan, Tethys, Hyperion
+    - cf: [Titan, Tethys, Hyperion]
   - Sun City University:
-    - bio: Four-year and graduate university located in Sun City, U.S.A.
+    - bio: "Four-year and graduate university located in Sun City, U.S.A."
     - active: true
     - ally: true
   - Specialists:
@@ -58,6 +58,11 @@
     - hero: true
     - ally: true
     - bio: Loosely-affiliated network of experts and troubleshooters.
+    - members:
+      - spec one:
+      - spec two:
+      - spec three:
+      - spec four:
   - Foreigners:
     - definite: the
     - active: true
@@ -96,14 +101,14 @@
         - resigned: true
         - active:   false
         - gender:   female
-      - Limuo Pele
+      - Limuo Pele:
         - active:   false
         - resigned: true
         - gender:   female
-      - Obsidius Vulcanor Rex
+      - Obsidius Vulcanor Rex:
         - active:   true
         - gender:   male
-      - Tachylus Rex
+      - Tachylus Rex:
         - active:   true
         - gender:   male
         - leader:   true
@@ -128,7 +133,7 @@
         - rep:
           - name:   "N.J. Campbell (de-facto)"
           - aka:    "Far-Seeker"
-          - title:  "Ambassador (de-facto)"
+          - title:  "Ambassador Plenipotentiary (de-facto)"
           - active: true
           - gender: female
       - Vulcanor:
@@ -136,6 +141,7 @@
         - rep:
           - name:   none currently
           - aka:    Igneia
+          - title:  Ambassador
           - former: true
           - active: false
           - gender: female
@@ -146,5 +152,5 @@
   - Visitors:
     - definite: true
     - villain: true
-    - bio: "Alien species with vast powers over space and time; creators of the Titanian race."
+    - bio: "Alien species with vast powers over space and time; creators of the Titanian, Vulcanor, and Foreigner races."
   
