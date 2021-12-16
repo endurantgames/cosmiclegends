@@ -1,12 +1,6 @@
 - metadata:
   - slug: clotu_equiv
-  - title: 
-    - full: Cosmic Legends of the Universe
-    - sub: CLotU
   - url: clotu_url
-  - people:
-    - data_entry: dera
-    - self: true
   - author: dera
   - yaml-version: 1.2
   - x-format: glossary
@@ -15,6 +9,12 @@
   - h-level: 1
   - anchor: toc-glossary
   - css class: breakbefore
+  - title: 
+    - full: Cosmic Legends of the Universe
+    - sub: CLotU
+  - people:
+    - data_entry: dera
+    - self: true
   - default:
     - term: clotu
     - src: clotu

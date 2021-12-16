@@ -5,14 +5,12 @@ local CONFIG = {
   bin_dir    = "./bin",
   build_dir  = "./build",
   errors     = true,
-  ext        = { markdown = ".md",
-                 yaml     = ".yaml",
-                 recipe   = ".recipe",
-                 filter   = ".md;.yaml"
+  ext        = { markdown = ".md",     yaml     = ".yaml",
+                 recipe   = ".recipe", filter   = ".md;.yaml"
                },
   ignore     = "^(%.git|Makefile|%.test|%.)",
   index      = "intro",
-  logformat  = "  %-30s %-40s",
+  logformat  = "  %-30s %-20s",
   out_suffix = ".md",
   outdir     = "./out",
   outfile    = "build",
@@ -327,36 +325,84 @@ parse_yaml.place     = yaml_place;
 parse_yaml.group     = yaml_group;
 parse_yaml.unknown   = yaml_error;
 
+local function find_metadata(yaml_tree)
+  vprint("Looking in yaml_tree.metadata", "=================");
+  if   yaml_tree.metadata
+  then vprint("Found it!", "yaml_tree.metadata");
+       return yaml_tree.metadata
+  else vprint("Parsing through each element of yaml_tree");
+       for k, v in pairs(yaml_tree)
+       do  vprint("checking k = ", k);
+           if k == "metadata" then return v end;
+           vprint("didn't find it in", k);
+           for kk, vv in pairs(v)
+           do  vprint("checking kk =", kk);
+               if kk  == "metadata" 
+                 then vprint("Found!", kk);
+                      print("=== start tprint ========================================"); 
+                      tprint(vv);
+                      print("=== end   tprint ========================================"); 
+                      
+                      return vv end;
+               vprint("didn't find it in", kk);
+           end;
+       end;
+       return nil;
+  end;
+end;
+
 local function slurp_yaml(filename)
+  if   filename then vprint("Recognized as YAML:", filename); end;
+
   local yaml_source = slurp(filename, true);
   local yaml_tree   = {};
   local success     = false;
   local metadata    = {};
   local xformat;
-  local slurped     = "";
+  local slurped     = "\n<!-- above: " .. filename .. " -->\n";
+
+  if   yaml_source
+  then vprint("size of yaml_source", string.len(yaml_source) .. " bytes");
+  end;
 
   if   yaml_source 
   then yaml_tree = lyaml.load(yaml_source);
        vprint("Successfully read file:", filename);
-  else eprint("Couldn't slurp yaml:", filename);
+  else eprint("Couldn't read yaml:", filename);
        success = false;
   end;
 
-  if   yaml_tree
-  then vprint("Successfully parsed:", filename);
+  if   true or yaml_tree and yaml_tree ~= {} 
+  then vprint("Successfully parsed " .. filename, "to yaml_tree");
        success = true;
+       
+       print("=== start tprint ========================================"); 
+       tprint(yaml_tree, 2);
+       print("=== end   tprint ========================================"); 
   else eprint("Couldn't parse yaml:", filename);
        success = false;
   end;
   
-  if   yaml_tree and yaml_tree.metadata
+  local metadata = find_metadata(yaml_tree);
+
+  if   yaml_tree and metadata
   then vprint("YAML tree has metadata!");
-       metadata = yaml_tree.metadata;
+       -- metadata = yaml_tree.metadata;
+       vprint("metadata type is", type(metadata));
+       if   type(metadata) == "table"
+       then for k, v in pairs(metadata)
+            do   print("=== start metadata tprint ==============================="); 
+                 vprint(k, v);
+                 tprint(v, 2);
+                 print("=== end   metadata tprint ==============================="); 
+            end;
+       else eprint("ERROR: metadata is not", "table");
+       end;
   else eprint("YAML tree doesn't have metadata", ":(");
        success = false;
-       print("=== start file dump =====================================");
-       print(yaml_source);
-       print("=== end   file dump =====================================");
+       print("=== start file text dump ================================");
+       print(yaml_source:sub(1, 30));
+       print("=== end   file text dump ================================");
 
        print("=== start tprint ========================================"); 
         -- for k, v in pairs(yaml_tree) 
@@ -509,25 +555,26 @@ local function parse_line(line)
          local md_file   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown;
          local yaml_file = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.yaml;
          if     file_exists(yaml_file) 
-         then   table.insert(BUILD, yaml_file)
+         then   vprint("found yaml", yaml_file);
+                table.insert(BUILD, yaml_file)
+                vprint("added to BUILD list", yaml_file);
                 USED[line] = true;
-                vprint("found yaml", yaml_file);
          elseif file_exists(md_file)   
-                then table.insert(BUILD, md_file)
-                USED[line] = true;
+         then   table.insert(BUILD, md_file)
                 vprint("found markdown", md_file);
+                USED[line] = true;
          else   eprint("failed to find:", yaml_file .. "/" .. md_file);
          end;
          -- table.insert(BUILD, CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown);
     elseif FILES[line] and USED[line]
     then vprint("skipping used entry", line);
-    else vprint("trying find this",    line);
+    else vprint("trying to find this",    line);
          local md_file   = line .. CONFIG.ext.markdown;
          local yaml_file = line .. CONFIG.ext.yaml;
-         vprint("FILES[" .. line      .. "]:", FILES[line]);
-         vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file]);
-         vprint("FILES[" .. md_file   .. "]:", FILES[md_file]);
-         vprint("USED["  .. line      .. "]:", USED[line] );
+         vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope");
+         vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :(");
+         vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :(");
+         vprint("USED["  .. line      .. "]:", USED[line]       or "nope :( :( :(");
          vprint("> no further info on:", line);
          table.insert(ERR, line);
          
@@ -611,12 +658,14 @@ for i, v in pairs(FILES) do vprint("FILE[" ..i .."]", v) end;
 -- parse the recipe
 for _, i in pairs(recipe) do parse_line(i) end;
 
-sprint("slurping other files now", #BUILD .. " files");
+sprint("reading/parsing other files now", #BUILD .. " files");
 for i, v in pairs(BUILD) 
-do  print("slurping", v);
+do  
     if v:find("%" .. CONFIG.ext.yaml .. "$")
     then outtxt = outtxt .. slurp_yaml(v);
+         vprint("reading", v .. CONFIG.ext.yaml);
     else outtxt = outtxt .. slurp(v, false, false) 
+         vprint("reading", v .. CONFIG.ext.markdown);
     end;
 end;
 

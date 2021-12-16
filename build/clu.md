@@ -29,11 +29,11 @@ title: Cosmic Legends of the Universe
 - ?
 :::::::::::::::::::::::::::::::::::::
 
-:::::::::::: {.hype} ::::::::::::::::
-- **Who** are the **Legends**?
-- **What** are their **Secrets**?
-- **How** did they get their **Powers**?
-- The **answers** will **shock** you!
-:::::::::::::::::::::::::::::::::::::
+:::::::::::: {.hype} :::::::::::::::::::::::::::::
+- **Who**  are         the **Legends**?
+- **What** are         their **Secrets**?
+- **How**  did         they get their **Powers**?
+- The      **answers** will **shock** you!
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
