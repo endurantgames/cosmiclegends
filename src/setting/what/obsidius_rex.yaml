@@ -16,7 +16,17 @@
   - identity: public
   - place_of_birth: Volcano City, Vulcanor Island
   - marital_status: single
-  - known_relatives: Tachylus Vulcanor Rex (father), Limuo Pele Vulcanor (mother), Igneia Vulcanor (sister)
+  - known_relatives: 
+    - Tachylus Vulcanor Rex:
+      - relationship: father
+      - gender: male
+    - Limuo Pele Vulcanor:
+      - relationship: mother
+      - gender: female
+    - Igneia Vulcanor:
+      - relationship: sister
+      - gender: female
+      - estranged: true
   - group_affiliation: 
     - Vulcanor Royal Family:
       - active: true

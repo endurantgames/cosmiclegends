@@ -1,20 +1,31 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character
-  - title: 
-  - anchor: 
+  - title: &title Tachylus Rex
+  - anchor: setting-tachylus-rex
 - bio:
   - name: *title
-  - real_name: 
-  - occupation: 
-  - legal_status: 
+  - real_name: Tachylus Vulcanor
+  - occupation: King of Vulcanor
+  - legal_status: Head of state of the kingdom of Vulcanor
   - gender:
-    - desc: 
-    - pronouns: 
-  - identity: 
-  - place_of_birth: 
-  - marital_status: 
+    - desc: male
+    - pronouns: "he/him"
+  - identity: Public
+  - place_of_birth: "Volcano City, Vulcanor"
+  - marital_status: Separated
   - known_relatives: 
+    - Obsidius Rex:
+      - relationship: son
+      - gender: male
+    - Limuo Pele Vulcanor:
+      - relationship: "ex-wife"
+      - gender: female
+      - estranged: true
+    - Igneia Vulcanor:
+      - relationship: daughter
+      - gender: female
+      - estranged: true
   - group_affiliation: 
   - base_of_operations: 
   - height: 
