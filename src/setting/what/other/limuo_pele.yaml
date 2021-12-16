@@ -1,8 +1,8 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character
-  - title: 
-  - anchor: 
+  - title: &title Limuo Pele
+  - anchor: anchor-limuo
 - bio:
   - name: *title
   - real_name: 

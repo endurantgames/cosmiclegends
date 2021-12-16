@@ -1,7 +1,7 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character
-  - title: 
+  - title: &title Lucky Star
   - anchor: 
 - bio:
   - name: *title

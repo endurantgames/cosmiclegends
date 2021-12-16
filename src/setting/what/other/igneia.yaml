@@ -1,7 +1,7 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character-villain
-  - title: 
+  - title: &title Igneia Vulcanor
   - anchor: 
 - bio:
   - name: *title
@@ -28,9 +28,9 @@
 - stats:
   - name: *title
   - goals:
-    - smash:  "+1", 
-    - outwit: "+1", 
-    - allay:  "+1", 
+    - smash:  "+1"
+    - outwit: "+1"
+    - allay:  "+1"
     - rescue: "+1"
   - resolution:
     - smash: 
