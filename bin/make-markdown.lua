@@ -22,9 +22,12 @@ local CONFIG = {
   verbose    = true,
   };
 
-local lfs   = require "lfs"
-local cli   = require "cliargs";
-local lyaml = require "lyaml";   -- https://github.com/gvvaughan/lyaml
+local lfs        = require "lfs"
+local cli        = require "cliargs";
+local lyaml      = require "lyaml";      -- https://github.com/gvvaughan/lyaml
+-- local table_dump = require "table_dump"; -- https://github.com/suikabreaker/lua-table-dump
+-- local dump       = require "lua-dump";   -- https://github.com/mah0x211/lua-dump
+local inspect    = require "inspect";    -- https://github.com/kikito/inspect.lua
 
 function yprint(tbl, comment)
   print("yprint!", comment);
@@ -44,10 +47,7 @@ end;
 function tprint(tbl, indent)
   indent = indent or 1;
 
-  if   type(tbl) ~= "table" 
-  then print("Error: not a table"); 
-       os.exit(1); 
-  end;
+  if   type(tbl) ~= "table" then print("Error: not a table"); os.exit(1); end;
 
   local toprint = string.rep(" ", indent) .. "{\r\n"
   indent = indent + 2 
@@ -218,8 +218,6 @@ size    805 in byte
         ]=]
 end
 
-
-
 local function vprint(s, l) if CONFIG.verbose then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 local function eprint(s, l) if CONFIG.errors  then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 local function sprint(s, l) if CONFIG.summary then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
@@ -295,56 +293,32 @@ end -- function
 local function flatten_yaml_tree(yaml_tree, comment)
   vprint("About to start", "FLATTEN_YAML_TREE " .. comment);
   comment = comment or "yaml_tree(?)";
-  if type(yaml_tree) ~= "table"
+  if   type(yaml_tree) ~= "table"
   then eprint("Error!", "type(" .. comment .. ") = " .. type(yaml_tree));
        vprint("Should be:", "table");
        os.exit(1);
   else vprint("It's a table so", "here's the tprint");
        vprint("==================", "before!");
-       -- yprint(yaml_tree);
-       tprint(yaml_tree);
+       print(inspect(yaml_tree));
+       -- tprint(yaml_tree);
        vprint("==================", "after!");
   end;
 
   local flat_tree = {};
 
---   for k, v in pairs(yaml_tree)
---   do  if   type(v) == "table"
---       then local values = {};
---            for _, val in pairs(v)
---            do  local valtype = type(val);
---                if   valtype == "table"
---                then local valsize = #val;
---                     table.insert(values, "(" .. valtype .. " of " .. valsize ..")");
---                     for i, p in pairs(val)
---                     do  print("> " .. i, p);
---                     end;
---                else table.insert(values, val)
---                end;
---                values = table.concat(values, ", ");
---            end;
---            print(k, "{ " .. values .. " }");
---       else print(k, v);
---       end;
---   end;
---   
-     return yaml_tree;
---   vprint("", "__________________________");
---   vprint("#" .. comment, #yaml_tree);
---   for i, v in pairs(yaml_tree)
---   do  if type(v) == "table"
---       then vprint("#v is ...",      #v);
---            vprint("type(v) is ...", type(v));
---            vprint("===  tprint ===", comment .. "[" .. i .. "]");
---            tprint(v);
---            vprint("=== /tprint ===", comment .. "[" .. i .. "]");
---       else eprint("type(v) is ...", type(v) .. " :(");
---       end;
---       local key, value = v[1] or "(key)", v[2] or "(value)";
---       vprint("key = " .. key .. "; value = ", value);
---       flat_tree[key] = value;
---   end;
---   return flat_tree;
+  for k, v in pairs(yaml_tree)
+  do  if   type(v) == "table"
+      then print(k, inspect(v));
+      else print(k, v);
+      end;
+      -- print( comment .. "[" .. k .. "] = ", v);
+      flat_tree[k] = v;
+  end;
+
+  tprint(flat_tree);
+
+  return flat_tree;
+
 end;
 
 local function get_node_from_yaml(yaml_tree, node, comment)
