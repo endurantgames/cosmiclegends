@@ -16,7 +16,7 @@
   - place_of_birth: Aberffraw, Wales
   - marital_status: unknown
   - known_relatives: 
-    - Percival Pellinor
+    - "Percival Pellinor":
       - relationship: brother
       - aka:          The Grailknight
       - gender:       male
@@ -36,11 +36,11 @@
       - relationship: sister
       - gender:       female
       - deceased:     true
-    - Galahad y Llyn:
+    - "Galahad y Llyn":
       - relationship: son
       - gender:       male
       - deceased:     true
-    - Lawnslot y Llyn:
+    - "Lawnslot y Llyn":
       - relationship: ex-husband
       - gender:       male
       - deceased:     true

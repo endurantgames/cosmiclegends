@@ -30,6 +30,10 @@ BACKUPS   = --backup=numbered
 # BACKUPS = -b
 # BACKUPS = 
 
+# Lint
+YAMLLINT  = /usr/local/bin/yamllint
+FIND_YAML = `find $(SRCDIR) -iname "*.yaml"`
+
 # File Locations
 #   Edit: probably unnecessary
 PROJ_RECIPE   = $(PROJ)
@@ -305,7 +309,7 @@ ls-back:
 #
 # make markdown
 #   Edit: if you are making multiple docs
-markdown:
+markdown: yaml-lint
 	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
 	@       $(MAKE_MD) $(PROJ_RECIPE)
 
@@ -406,7 +410,7 @@ elk-pdf: elk-markdown
 	@      $(PDFINFO) $(ELK_PDF_OUT) $(PDFINFO_GREP)
 	@     -$(EXPLORER)
 
-what-pdf: what-markdown
+what-pdf: yaml-lint what-markdown
 	@ echo "$(elkcolor)Making What's What PDF.$(resetc)"
 	@      $(PANDOC) $(PANDOCFLAGS_WHATSWHAT) $(WHATSWHAT_FLAGS) -o $(WHATSWHAT_PDF_OUT) $(WHATSWHAT_SRC)
 	@      $(PDFINFO) $(WHATSWHAT_PDF_OUT) $(PDFINFO_GREP)
@@ -425,6 +429,9 @@ recipes:
 	@ echo '$(ltcyan)Recipes List:$(resetc)'
 	@       $(MAKE_MD_LIST)
 
+yaml-lint:
+	@ echo '$(ltcyan)Checking YAML files.$(resetc)'
+	@       $(YAMLLINT) $(FIND_YAML)
 # make all
 #   Edit: if you are making more than one pdf or html
 all:    pdf   letter    sheets      pregen  origin what-pdf
@@ -450,3 +457,5 @@ secret-origins: origin
 secret-origin:  origin
 what:           what-pdf
 team:           team-sheet
+yaml:           yaml-lint
+yamllint:       yaml-lint
