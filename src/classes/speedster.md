@@ -46,6 +46,7 @@ Choose six Personal Power Words from the following list:
 - Action
 - Accelerate
 - Blink
+- Blur
 - Change
 - Direction
 - Fast

@@ -119,9 +119,11 @@ Hero Cave
     List:
 
     ::: cpw :::::::::::::::::
-    #### Hero Cave Power Words List {#list-hero-cave-power-words}
+    #### Hero Cave Scene Power Words List {#list-hero-cave-scene-power-words}
 
+    - Alien
     - Analysis
+    - Archive
     - Arsenal
     - Beds
     - Cell

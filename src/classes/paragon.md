@@ -104,7 +104,7 @@ or 2 Might to add both.
 
 ### Personal Power Words
 
-Choose six Personal Power Words from the following list:
+Choose seven (not six!) Personal Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
 - Alien
