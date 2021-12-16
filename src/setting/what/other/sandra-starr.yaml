@@ -1,17 +1,17 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character
-  - title: 
+  - title: &title "Sandra Starr: Agent of A.L.E.R.T."
   - anchor: 
 - bio:
   - name: *title
-  - real_name: 
-  - occupation: 
+  - real_name: Sandra Starr
+  - occupation: "Agent of A.L.E.R.T."
   - legal_status: 
   - gender:
-    - desc: 
-    - pronouns: 
-  - identity: 
+    - desc: female
+    - pronouns: "she/her"
+  - identity: Classified
   - place_of_birth: 
   - marital_status: 
   - known_relatives: 
