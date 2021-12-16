@@ -22,9 +22,32 @@ local CONFIG = {
   verbose    = true,
   };
 
+local lfs   = require "lfs"
+local cli   = require "cliargs";
+local lyaml = require "lyaml";   -- https://github.com/gvvaughan/lyaml
+
+function yprint(tbl, comment)
+  print("yprint!", comment);
+
+  if type(tbl) ~= "table" then print("Error: not table"); os.exit(1); end;
+
+  local yaml_table = lyaml.dump(tbl);
+  if   not yaml_table
+  then print("Error: no yaml_table");
+       os.exit(1);
+  else print(yaml_table);
+  end;
+
+  print("/yprint", comment);
+end;
+
 function tprint(tbl, indent)
-  if not indent then indent = 0 end
-  if type(tbl) ~= "table" then print("Error: not a table"); os.exit(1); end;
+  indent = indent or 1;
+
+  if   type(tbl) ~= "table" 
+  then print("Error: not a table"); 
+       os.exit(1); 
+  end;
 
   local toprint = string.rep(" ", indent) .. "{\r\n"
   indent = indent + 2 
@@ -48,10 +71,6 @@ function tprint(tbl, indent)
   toprint = toprint .. string.rep(" ", indent-2) .. "}"
   return toprint
 end
-
-local lfs   = require "lfs"
-local cli   = require "cliargs";
-local lyaml = require "lyaml";
 
 local function split(str, pat)
    local t = {}  -- NOTE: use {n = 0} in Lua-5.0
@@ -82,10 +101,10 @@ end
 -- @return  files, dirs - files and dir are tables {name, modification, path, size}
 
 function file_search(dir_path, filter, s, pformat)
-        -- === Preliminary functions ===
-        -- comparison function like the IN() function like SQLlite, item in a array
-        -- useful for compair table for escaping already processed item
-        -- Gianluca Vespignani 2012-03-03
+  -- === Preliminary functions ===
+  -- comparison function like the IN() function like SQLlite, item in a array
+  -- useful for compair table for escaping already processed item
+  -- Gianluca Vespignani 2012-03-03
         local c_in = function(value, tab)
                 for k,v in pairs(tab) do
                         if v==value then
@@ -273,6 +292,80 @@ local function slurp(file, no_parse)
   return slurped;
 end -- function
 
+local function flatten_yaml_tree(yaml_tree, comment)
+  vprint("About to start", "FLATTEN_YAML_TREE " .. comment);
+  comment = comment or "yaml_tree(?)";
+  if type(yaml_tree) ~= "table"
+  then eprint("Error!", "type(" .. comment .. ") = " .. type(yaml_tree));
+       vprint("Should be:", "table");
+       os.exit(1);
+  else vprint("It's a table so", "here's the tprint");
+       vprint("==================", "before!");
+       -- yprint(yaml_tree);
+       tprint(yaml_tree);
+       vprint("==================", "after!");
+  end;
+
+  local flat_tree = {};
+
+--   for k, v in pairs(yaml_tree)
+--   do  if   type(v) == "table"
+--       then local values = {};
+--            for _, val in pairs(v)
+--            do  local valtype = type(val);
+--                if   valtype == "table"
+--                then local valsize = #val;
+--                     table.insert(values, "(" .. valtype .. " of " .. valsize ..")");
+--                     for i, p in pairs(val)
+--                     do  print("> " .. i, p);
+--                     end;
+--                else table.insert(values, val)
+--                end;
+--                values = table.concat(values, ", ");
+--            end;
+--            print(k, "{ " .. values .. " }");
+--       else print(k, v);
+--       end;
+--   end;
+--   
+     return yaml_tree;
+--   vprint("", "__________________________");
+--   vprint("#" .. comment, #yaml_tree);
+--   for i, v in pairs(yaml_tree)
+--   do  if type(v) == "table"
+--       then vprint("#v is ...",      #v);
+--            vprint("type(v) is ...", type(v));
+--            vprint("===  tprint ===", comment .. "[" .. i .. "]");
+--            tprint(v);
+--            vprint("=== /tprint ===", comment .. "[" .. i .. "]");
+--       else eprint("type(v) is ...", type(v) .. " :(");
+--       end;
+--       local key, value = v[1] or "(key)", v[2] or "(value)";
+--       vprint("key = " .. key .. "; value = ", value);
+--       flat_tree[key] = value;
+--   end;
+--   return flat_tree;
+end;
+
+local function get_node_from_yaml(yaml_tree, node, comment)
+  if   not yaml_tree
+  then eprint("Error, yaml_tree is", yaml_tree);
+       os.exit(1);
+  end;
+
+  if   type(yaml_tree) ~= "table"
+  then eprint("Error, yaml_tree is", type(yaml_tree)); 
+       os.exit(1); 
+  end;
+  if   yaml_tree[node]
+  then vprint("Found the node!", comment .. "[" .. node .. "]");
+       return yaml_tree[node];
+  else for k, v in pairs(yaml_tree)
+       do print(k, v);
+       end;
+  end;
+end;
+
 local function yaml_error(yaml_tree, unknown_xformat, filename, return_text)
   return_text = return_text == nil or return_text;
   eprint("Unknown xformat:", unknown_xformat);
@@ -282,79 +375,77 @@ end;
 
 local function yaml_common(yaml_tree)
   local metadata = yaml_common.metadata;
-  
   return "";
 end;
 
 local function yaml_character(yaml_tree, return_text)
   return_text = return_text == nil or return_text;
-  vprint("yaml xformat:", "character");
+  vprint("yaml xformat is:", "character");
   
   local slurped = yaml_common(yaml_tree);
 end;
 
 local function yaml_list(yaml_tree, return_text)
   return_text = return_text == nil or return_text;
-  vprint("yaml xformat:", "list");
+  vprint("yaml xformat is:", "list");
   local slurped = yaml_common(yaml_tree);
 end;
 
 local function yaml_glossary(yaml_tree, return_text)
+  vprint("yaml xformat is:", "=== GLOSSARY ===");
   return_text = return_text == nil or return_text;
-  vprint("yaml xformat:", "glossary");
+  local flat_tree = flatten_yaml_tree(yaml_tree);
+  vprint("number of entries:", #yaml_tree);
   local slurped = yaml_common(yaml_tree);
 end;
 
 local function yaml_place(yaml_tree, return_text)
   return_text = return_text == nil or return_text;
-  vprint("yaml xformat:", "place");
+  vprint("yaml xformat is:", "place");
   local slurped = yaml_common(yaml_tree);
 end;
 
 local function yaml_group(yaml_tree, return_text)
   return_text = return_text == nil or return_text;
-  vprint("yaml xformat:", "group");
+  vprint("yaml xformat is:", "group");
   local slurped = yaml_common(yaml_tree);
 end;
 
-local parse_yaml     = {};
-parse_yaml.character = yaml_character;
-parse_yaml.list      = yaml_list;
-parse_yaml.glossary  = yaml_glossary;
-parse_yaml.place     = yaml_place;
-parse_yaml.group     = yaml_group;
-parse_yaml.unknown   = yaml_error;
-
-local function find_metadata(yaml_tree)
-  vprint("Looking in yaml_tree.metadata", "=================");
-  if   yaml_tree.metadata
-  then vprint("Found it!", "yaml_tree.metadata");
-       return yaml_tree.metadata
-  else vprint("Parsing through each element of yaml_tree");
-       for k, v in pairs(yaml_tree)
-       do  vprint("checking k = ", k);
-           if k == "metadata" then return v end;
-           vprint("didn't find it in", k);
-           for kk, vv in pairs(v)
-           do  vprint("checking kk =", kk);
-               if kk  == "metadata" 
-                 then vprint("Found!", kk);
-                      print("=== start tprint ========================================"); 
-                      tprint(vv);
-                      print("=== end   tprint ========================================"); 
-                      
-                      return vv end;
-               vprint("didn't find it in", kk);
-           end;
-       end;
-       return nil;
-  end;
-end;
+local format_yaml     = {};
+format_yaml.character = yaml_character;
+format_yaml.list      = yaml_list;
+format_yaml.glossary  = yaml_glossary;
+format_yaml.place     = yaml_place;
+format_yaml.group     = yaml_group;
+format_yaml.unknown   = yaml_error;
 
 local function slurp_yaml(filename)
-  if   filename then vprint("Recognized as YAML:", filename); end;
+
+  local function yprint(tab, comment)
+    if   type(tab) ~= "table"
+    then eprint("Error!", comment .. " is not a table");
+    else local yaml_text = lyaml.dump(tab);
+         vprint("=== start " .. comment .. " Yprint", "==============");
+         print(yaml_text);
+         vprint("=== end   " .. comment .. " Yprint", "==============");
+    end;
+  end;
+
+  local function ttprint(tab, indent, comment)
+    comment = comment or "";
+    indent  = indent or 2;
+
+    vprint("--- start " .. comment .. " tprint", "-------------");
+    tprint(tab, indent);
+    vprint("--- end   " .. comment .. " tprint", "-------------");
+  end;
+
+  if filename then vprint("Recognized as YAML location", filename); end;
 
   local yaml_source = slurp(filename, true);
+
+  vprint("Reading YAML file now", yaml_source:len() .. " bytes");
+
   local yaml_tree   = {};
   local success     = false;
   local metadata    = {};
@@ -365,64 +456,55 @@ local function slurp_yaml(filename)
   then vprint("size of yaml_source", string.len(yaml_source) .. " bytes");
   end;
 
-  if   yaml_source 
-  then yaml_tree = lyaml.load(yaml_source);
-       vprint("Successfully read file:", filename);
-  else eprint("Couldn't read yaml:", filename);
+  -- filename = "(inline YAML)";
+
+  if   type(yaml_source) == "string"
+  then 
+       vprint("Successfully read YAML file:", filename);
+       vprint("YAML source size",             yaml_source:len() .. " bytes");
+       yaml_tree = lyaml.load(yaml_source);
+  else eprint("Couldn't read yaml:",          filename);
        success = false;
   end;
 
-  if   true or yaml_tree and yaml_tree ~= {} 
-  then vprint("Successfully parsed " .. filename, "to yaml_tree");
+  if   yaml_tree and yaml_tree ~= {} 
+  then vprint("Successfully parsed ", filename .. " to yaml_tree");
        success = true;
        
-       print("=== start tprint ========================================"); 
-       tprint(yaml_tree, 2);
-       print("=== end   tprint ========================================"); 
   else eprint("Couldn't parse yaml:", filename);
        success = false;
   end;
   
-  local metadata = find_metadata(yaml_tree);
+  vprint("yaml_tree type is", type(yaml_tree));
+  vprint("#yaml_tree is",     #yaml_tree     );
+
+  local flat_tree = flatten_yaml_tree(yaml_tree, "yaml_tree (initial)");
+
+  metadata = flat_tree.metadata;
 
   if   yaml_tree and metadata
-  then vprint("YAML tree has metadata!");
-       -- metadata = yaml_tree.metadata;
+  then 
+       vprint("YAML tree has metadata!");
        vprint("metadata type is", type(metadata));
        if   type(metadata) == "table"
-       then for k, v in pairs(metadata)
-            do   print("=== start metadata tprint ==============================="); 
-                 vprint(k, v);
-                 tprint(v, 2);
-                 print("=== end   metadata tprint ==============================="); 
+       then vprint("It's a table!", "yes, a table!");
+            for k, v in pairs(metadata)
+            do  if type(v) == "table"
+                then ttprint(v, 2, "metadata[" .. k .. "]");
+                else vprint("metadata[" .. k .. "] = ", v);
+                end;
             end;
-       else eprint("ERROR: metadata is not", "table");
+       else eprint("ERROR: metadata is not", "a table :( :(");
        end;
-  else eprint("YAML tree doesn't have metadata", ":(");
+  else eprint("YAML tree doesn't have",  "metadata :(");
        success = false;
-       print("=== start file text dump ================================");
-       print(yaml_source:sub(1, 30));
-       print("=== end   file text dump ================================");
-
-       print("=== start tprint ========================================"); 
-        -- for k, v in pairs(yaml_tree) 
-        -- do  for a, b in pairs(v) do eprint(a, b); 
-            -- if type(b) == "table"
-            -- then for x, y in pairs(b) 
-                 -- do  eprint(a .. ":" .. x, y) 
-                     -- if type(y) == "table"
-                     -- then for m, n in pairs(y) do eprint(a .. ":" .. "m", n); end;
-                     -- end;
-                 -- end;
-            -- end;
-        -- end;
-       tprint(yaml_tree, 2);
-       print("=== end tprint   ========================================"); 
+       ttprint(yaml_tree, nil, "yaml_tree");
   end;
   
-  if   metadata and metadata["x-format"]
-  then xformat = metadata["x-format"];
-       vprint("metadata has x-format!", xformat);
+  -- local xformat = get_node_from_yaml(metadata, "x-format", "yaml_tree.metadata");
+  
+  if   xformat
+  then vprint("metadata has x-format!", xformat);
   else eprint("metadata has no x-format", ":( :(");
        success = false;
        xformat = nil;
@@ -431,24 +513,22 @@ local function slurp_yaml(filename)
 
   local parse_func;
 
-  if   xformat and not parse_yaml[xformat]
-  then eprint("Unknown x-format:", xformat);
-       parse_func = parse_yaml.unknown; 
+  if   xformat and not format_yaml[xformat]
+  then eprint("Unknown x-format:",     xformat);
+       parse_func = format_yaml.unknown; 
        slurped    = parse_func(yaml_tree, true);
-  else vprint(xformat, parse_yaml[xformat]);
-       parse_func = parse_yaml[xformat];
+  else vprint("Known x-format:",       xformat);
+       vprint("Parsing with x-format", "format_yaml[" .. xformat .. "]");
+       parse_func = format_yaml[xformat];
        slurped    = parse_func(yaml_tree, true);
 
-       if   slurped and slurped ~= "" 
-       then return slurped; 
-       else success = false; 
-       end;
+       success = slurped and slurped ~= "";
 
   end;
 
   if   success and slurped 
   then return slurped, yaml_tree, metadata;
-  else return "", yaml_tree, metadata;
+  else return "",      yaml_tree, metadata;
   end;
 
 end;
@@ -565,7 +645,6 @@ local function parse_line(line)
                 USED[line] = true;
          else   eprint("failed to find:", yaml_file .. "/" .. md_file);
          end;
-         -- table.insert(BUILD, CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown);
     elseif FILES[line] and USED[line]
     then vprint("skipping used entry", line);
     else vprint("trying to find this",    line);
@@ -653,19 +732,24 @@ sprint("recipe read", #recipe .. " lines");
 sprint("Loading the filesystem map", "source = " .. CONFIG.src_dir );
 load_fs();
 
-for i, v in pairs(FILES) do vprint("FILE[" ..i .."]", v) end;
+tprint(FILES, 1);
+
+-- for i, v in pairs(FILES) do vprint("FILES[" ..i .."]", v) end;
 
 -- parse the recipe
 for _, i in pairs(recipe) do parse_line(i) end;
 
-sprint("reading/parsing other files now", #BUILD .. " files");
+sprint("Recipe loaded.");
+
+-- ready now to read files
+sprint("reading/parsing files now", #BUILD .. " files");
 for i, v in pairs(BUILD) 
-do  
-    if v:find("%" .. CONFIG.ext.yaml .. "$")
-    then outtxt = outtxt .. slurp_yaml(v);
-         vprint("reading", v .. CONFIG.ext.yaml);
-    else outtxt = outtxt .. slurp(v, false, false) 
-         vprint("reading", v .. CONFIG.ext.markdown);
+do  if     v:find("%" .. CONFIG.ext.yaml .. "$")
+    then   outtxt = outtxt .. slurp_yaml(v);
+           vprint("slurping YAML", v);
+    elseif v:find("%" .. CONFIG.ext.markdown .. "$")
+    then   outtxt = outtxt .. slurp(v, false, false) 
+           vprint("slurping", v .. CONFIG.ext.markdown);
     end;
 end;
 

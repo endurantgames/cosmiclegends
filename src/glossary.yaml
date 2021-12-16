@@ -1,30 +1,30 @@
 - metadata:
-  - slug: clotu_equiv
-  - url: clotu_url
-  - author: dera
-  - yaml-version: 1.2
-  - x-format: glossary
-  - game: clotu
-  - title: Glossary of Terms
-  - h-level: 1
-  - anchor: toc-glossary
-  - css class: breakbefore
+  - slug:            clotu_equiv
+  - url:             clotu_url
+  - author:          dera
+  - yaml-version:    1.2
+  - x-format:        glossary
+  - game:            clotu
+  - title:           Glossary of Terms
+  - h-level:         1
+  - anchor:          toc-glossary
+  - css class:       breakbefore
   - title: 
-    - full: Cosmic Legends of the Universe
-    - sub: CLotU
+    - full:          Cosmic Legends of the Universe
+    - sub:           CLotU
   - people:
-    - data_entry: dera
-    - self: true
+    - data_entry:    dera
+    - self:          true
   - default:
-    - term: clotu
-    - src: clotu
-    - glossary: clotu
+    - term:          clotu
+    - src:           clotu
+    - glossary:      clotu
   - games:
-    - clotu: Cosmic Legends of the Universe
-    - hd_equiv: Harmony Drive SRD
-    - cpc: Comic Page Change
+    - clotu:         Cosmic Legends of the Universe
+    - hd_equiv:      Harmony Drive SRD
+    - cpc:           Comic Page Change
     - generic_equiv: General TTRPG
-    - safety_equiv: General TTRPG Safety Tools
+    - safety_equiv:  General TTRPG Safety Tools
 - Ability:
   - def: Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises. 
 - Action:
