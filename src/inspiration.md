@@ -14,22 +14,23 @@
 
 - Adventures of Superman (Motion Pictures for Television,         1952-1958)
 - Batman                 (ABC,                                    1966-1968)
+- Bionic Woman, The      (ABC / NBC,                              1976-1978)
 - Birds of Prey          (Tollin/Robbins Productions,             2002-2003)
 - DC's Stargirl          (Warner Premiere,                        2008-)
 - Doom Patrol            (DC Universe / HBO Max,                  2019-)
 - Flash, The             (Pet Fly Productions,                    1990-1991)
+- Incredible Hulk        (NBC Universal,                          1977-1982)
 - Powerless              (NBC / TVNZ OnDemand,                    2017)
+- Secrets of Isis        (CBS,                                    1975-1976)
 - Shazam!                (CBS,                                    1974-1976)
+- Six Million Dollar Man (ABC,                                    1973-1978)
 - Superboy               (Alexander and Ilya Salkind Productions, 1988-1992)
 - Supergirl              (CBS / The CW,                           2015-)
-- The Secrets of Isis    (CBS,                                    1975-1976)
 - Titans                 (HBO Max,                                2018-)
 - Wonder Woman           (The Douglas S. Cramer Co.,              1975-1979)
-- Incredible Hulk        (NBC Universal,                          1977-1982)
-- Six Million Dollar Man (ABC,                                    1973-1978)
-- The Bionic Woman       (ABC / NBC,                              1976-1978)
 
 ### Animated Television Shows
+
 
 []{.lorem}
 
