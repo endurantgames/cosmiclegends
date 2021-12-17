@@ -1,4 +1,6 @@
-# The Super Friends {#toc-preface-super-friends}
+# Influences
+
+## The Super Friends {#toc-preface-super-friends}
 
 In case you weren't aware, this game is inspired by the 
 [Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
