@@ -369,14 +369,14 @@ local function yaml_character(yaml_tree, return_text)
 end;
 
 local function yaml_list(yaml_tree, metadata)
-  local errors = false;
+  local errors = 0;
   return_text  = return_text == nil or return_text;
   vprint("yaml xformat is:", "list");
   local metadata;
   if   yaml_tree.metadata 
   then metadata = unpack_yaml_tree(yaml_tree.metadata)
   else eprint("No METADATA?", "???");
-       errors = true;
+       errors = errors + 1;
   end;
 
   local slurped = "\n";
@@ -384,14 +384,14 @@ local function yaml_list(yaml_tree, metadata)
   if   metadata and metadata.title
   then slurped = slurped .. "# " .. metadata.title .. "\n";
   else eprint("no title?!", "???");
-       errors = true;
+       errors = errors + 1;
   end;
   if   metadata and metadata["list-class"]
   then slurped = slurped .. string.rep(":", 35);
        slurped = slurped .. metadata["list-class"];
        slurped = slurped .. string.rep(":", 35);
   else eprint("no list-class?", "???");
-       errors = true;
+       errors = errors + 1;
   end;
 
   local item_format = metadata and metadata["item-format"];
@@ -399,7 +399,7 @@ local function yaml_list(yaml_tree, metadata)
   if   item_format and format_yaml[item_format]
   then vprint("item format is ", item_format);
   else eprint("no item-format???!", "???");
-       errors = true;
+       errors = errors + 1;
   end;
 
   local item_list = yaml_tree.list;
@@ -416,13 +416,13 @@ local function yaml_list(yaml_tree, metadata)
            local term = k;
            if   not data
            then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST");
-                errors = true;
+                errors = errors + 1;
                 break;
            end;
            local item_formatter = format_yaml["item:" .. item_format];
            if   not item_formatter
            then eprint("no item formatter?!", item_format);
-                errors = true;
+                errors = errors + 1;
                 break;
            end;
      
@@ -432,10 +432,10 @@ local function yaml_list(yaml_tree, metadata)
            vprint("defined list entry " .. term, item_info);
        end;
   else eprint("no item list?!", "???");
-       errors = true;
+       errors = errors + 1;
   end;
 
-  if errors then os.exit(1); end;
+  if errors > 0 then eprint("Errors!", errors); os.exit(1); end;
   slurped = slurped .. string.rep(":", 70);
   return slurped;
 
