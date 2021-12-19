@@ -60,6 +60,7 @@
 - Justice League: Action                        (Warner Bros. Animation,      2016-2018)
 - Krypto the Superdog                           (Warner Bros. Animation,      2005-2006)
 - Legion of Super Heroes                        (The CW / Kids' WB,           2006-2008)
+- Marvel Super Heroes, The                      (Grantray-Lawrence Animation,      1966)
 - New Adventures of Batman                      (Filmation,                        1977)
 - New Adventures of Superman                    (CBS,                         1966-1970)
 - Plastic-Man Comedy/Adventure Show             (Ruby-Spears Productions,     1979-1981)
