@@ -333,7 +333,7 @@ Tactical Mastery
     Add an additional fighting style at the start of each 
     later Volume.
 
-    *Repetition:* You can choose this Ability more than once; 
+    []{.repeat .semi-colon}
     each time, you must choose different Fighting Styles. Only
     add one Fighting Style for each subsequent Volume, regardless
     of how many times you've chosen this Ability.
@@ -389,7 +389,7 @@ Custom Super-Mobile
     (2nd)* are among the most applicable Wheelman Class 
     Abilities to consider.
 
-    *Repetition:* You can choose this Ability more than once. If
+    []{.repeat} If
     you do, you create another vehicle each time you take this 
     Ability. Track each Wheelman Power Word and Class Ability 
     separately, assigning each to a specific Custom Ride.

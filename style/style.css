@@ -2479,8 +2479,35 @@ dl dd .box-it {
   box-shadow:    var(--box-shadow);
 }
 
-dl dd .repeat:before { content: "Repetition:"; font-style: italic; }
-dl dd .repeat        { content: "You can choose this Ability more than once."; }
+dl dd .repeat:before     { content: "Repetition:"; font-style: italic; }
+dl dd .repeat            { content: "You can choose this Ability more than once."; }
+dl dd .repeat.semi-colon { content: "You can choose this Ability more than once;"; }
+
+dl dd .variant:before        { content: "Note: "; text-style: italic;               }
+dl dd .variant.construct     { content: " This is a variant of the Construct's ";   }
+dl dd .variant.divine        { content: " This is a variant of the Divine's ";      }
+dl dd .variant.dynamo        { content: " This is a variant of the Dynamo's ";      }
+dl dd .variant.expat         { content: " This is a variant of the Expatriate's ";  }
+dl dd .variant.expert        { content: " This is a variant of the Expert's ";      }
+dl dd .variant.haunt         { content: " This is a variant of the Haunt's ";       }
+dl dd .variant.hellspawn     { content: " This is a variant of the Hellspawn's ";   }
+dl dd .variant.inventor      { content: " This is a variant of the Inventor's ";    }
+dl dd .variant.kid           { content: " This is a variant of the Kid's ";         }
+dl dd .variant.knight        { content: " This is a variant of the Knight's ";      }
+dl dd .variant.mage          { content: " This is a variant of the Mage's ";        }
+dl dd .variant.monarch       { content: " This is a variant of the Monarch's ";     }
+dl dd .variant.monstrosity   { content: " This is a variant of the Monstrosity's "; }
+dl dd .variant.paragon       { content: " This is a variant of the Paragon's ";     }
+dl dd .variant.psychic       { content: " This is a variant of the Psychic's ";     }
+dl dd .variant.shaper        { content: " This is a variant of the Shaper's ";      }
+dl dd .variant.speedster     { content: " This is a variant of the Speedster's ";   }
+dl dd .variant.totem         { content: " This is a variant of the Totem's ";       }
+dl dd .variant.twins         { content: " This is a variant of the Twins' ";        }
+dl dd .variant.wheelman      { content: " This is a variant of the Wheelman's ";    }
+dl dd .variant.generic       { content: " This is a variant of the Generic ";       }
+dl dd .variant:after         { content: content() .. " Class Ability.";             }
+dl dd .variant.prime:after   { content: content() .. " Prime Ability.";             }
+dl dd .variant.generic:after { content: content() .. " Ability.";                   }
 
 .at-the-start.v1 { content: "At the start of Volume 1, choose two Class Abilities from this list."; }
 .at-the-start.v2 { content: "At the start of Volume 2, choose a Class Ability from this list or any previous " string(class) " list."; }

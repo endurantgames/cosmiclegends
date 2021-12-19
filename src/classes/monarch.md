@@ -185,8 +185,7 @@ Exotic Weaponry
 
 Loyal Subjects
 
-:   *Note: This is a variant of the __Dependable Allies__ Generic
-    Ability.*
+:   [Dependable Allies]{.variant .generic}
     You have a network of citizens upon whom you can rely for help. While
     they're not quite at the level of a Knight or an Expert, they all have
     at least one special talent that assists you in fighting crime, and are
@@ -296,8 +295,7 @@ Palace of the Privileged
 
 Unfamiliar Fighting Techniques
 
-:   *Note: This is a variant of the Knight Class's __Tactical Mastery__
-    Class Ability.* 
+:   [Tactical Mastery]{.variant .knight}
     You have trained in a number of fighting techniques
     unknown to the outside world.
 

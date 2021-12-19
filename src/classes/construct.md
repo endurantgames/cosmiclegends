@@ -341,7 +341,7 @@ Unkillable
 
 War Machine
 
-:   *Note: This is a variant of the Knight Class's __Tactical Mastery__ ability.* 
+:   [Tactical Mastery]{.variant .knight}
     You are trained in a number of specialized combat techniques.
     Gain a number of fighting styles equal to the Volume. Add an 
     additional fighting style at the start of each later Volume.
