@@ -172,14 +172,16 @@ Strength of Kratos
 
 Weapon of the Gods
 
-:   You have a weapon that is unique in the universe, possibly 
+:   [Dynamo, Shaper]{.crossover .new .plural}
+    You have a weapon that is unique in the universe, possibly 
     crafted by a deity of the forge. Decide on the specific
     weapon, and add that weapon's proper name as a Core Power Word. 
 
-    [Dynamo, Shaper]{.crossover}
     In addition, choose either one Energy Power Word from the Dynamo 
-    class or one Element Power Word from the Shaper list, and use that 
-    as Personal Power Word whenever you have your weapon.
+    [](#dynamo-class-energy-core-power-word) or one Element Power Word 
+    [](#shaper-class-element-core-power-word) as a Core Power Word.
+    You can use that Power Word for 0 Might whenever you have your
+    weapon.
 
 Wisdom of Athena
 
@@ -203,32 +205,43 @@ Courage of Ares
 
 Speed of Hermes
 
-:   You can move at godly speed.
+:   [Speedster]{.crossover .new}
+    You can move at (un)godly speed.
 
     You can run -- or fly, if you have Flight as a Power Word --
     at speeds approaching Mach 1.
 
-    [Speedster]{.crossover}
-    You have a variant of the Speedster Class's __Ignore The Laws of Physics__ 
-    Prime Ability: *Bend the Laws of Physics*
+    Choose one Power Word from the
+    [](#speedster-personal-power-words){.list-link} and add it as a
+    Core Power Word.
 
-    Your speed lets you bend the standard laws of Newtonian physics --
-    you can ignore the effects of inertia and start, stop, or turn on
-    dime, instantly; you don't suffer any negative effects from moving
-    at excessive speed, such as wind burn, and you're able to breathe
-    normally -- as well as ignoring relativistic effects from moving
-    near the speed of light.
+    Whenever you add a Personal Power Word, can choose from the
+    [](#divine-personal-power-words){.list-link .nopage} or the
+    [](#speedster-personal-power-words){.list-link}. If you choose
+    from the latter list, add such words as Core Power Words.
 
-    Instead of choosing a Divine Class Ability of Volume 3 or higher,
-    you can choose a Speedster Class Ability of the same or lower
-    Volume. *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
+    You have a variant of the Speedster Class's 
+    __Ignore The Laws of Physics__ 
+    Prime Ability: *Subjective Laws of Physics*.
+
+    :::::::::: box-it :::::::::::::
+    Subjective Laws of Physics
+    :    Your speed lets you bend the standard laws of Newtonian physics --
+         you can ignore the effects of inertia and start, stop, or turn on
+         dime, instantly; you don't suffer any negative effects from moving
+         at excessive speed, such as wind burn, and you're able to breathe
+         normally -- as well as ignoring relativistic effects from moving
+         near the speed of light.
+    :::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .speedster .v3}
+    *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
     *Burst of Speed (2nd)*, *Evacuate the Bystanders (3rd)*, 
     *Human Whirlwind (3rd)*, *Untouchable (4th)*, and 
     *Instant Power Recovery (4th)* are among the most 
     applicable Speedster Class Abilities to consider.
 
-    The Timely Arrival move costs you 0 points from the 
-    Teamwork Pool.
+    The Timely Arrival move costs you 0 points from the Teamwork Pool.
 
 Temple of the Gods
 

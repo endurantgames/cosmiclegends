@@ -1,4 +1,4 @@
-::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
+::::::::::::::::::: { .classdata #class-haunt } :::::::::::
 # The Haunt {#toc-haunt .breakbefore .class}
 
 > 

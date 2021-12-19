@@ -97,7 +97,32 @@ dl    {                                                }
 dt    {                                                }
 dd    { margin-left: 1.5em;                            }
 
-.chargen-list ul    { margin: 0;                                                                                                   }
+.classdata                   { string-set(classarticle, "a"    ) ; }
+.classdata#inventor,
+.classdata#expert,
+.classdata#expatriate        { string-set(classarticle, "an"   ) ; }
+.classdata#class-construct   { string-set(class, "Construct"   ) ; }
+.classdata#class-divine      { string-set(class, "Divine"      ) ; }
+.classdata#class-dynamo      { string-set(class, "Dynamo"      ) ; }
+.classdata#class-expatriate  { string-set(class, "Expatriate"  ) ; }
+.classdata#class-expert      { string-set(class, "Expert"      ) ; }
+.classdata#class-haunt       { string-set(class, "Haunt"       ) ; }
+.classdata#class-hellspawn   { string-set(class, "Hellspawn"   ) ; }
+.classdata#class-inventor    { string-set(class, "Inventor"    ) ; }
+.classdata#class-kid         { string-set(class, "Kid"         ) ; }
+.classdata#class-knight      { string-set(class, "Knight"      ) ; }
+.classdata#class-mage        { string-set(class, "Mage"        ) ; }
+.classdata#class-monarch     { string-set(class, "Monarch"     ) ; }
+.classdata#class-monstrosity { string-set(class, "Monstrosity" ) ; }
+.classdata#class-paragon     { string-set(class, "Paragon"     ) ; }
+.classdata#class-psychic     { string-set(class, "Psychic"     ) ; }
+.classdata#class-shaper      { string-set(class, "Shaper"      ) ; }
+.classdata#class-speedster   { string-set(class, "Speedster"   ) ; }
+.classdata#class-totem       { string-set(class, "Totem"       ) ; }
+.classdata#class-twins       { string-set(class, "Twins"       ) ; }
+.classdata#class-wheelman    { string-set(class, "Wheelman"    ) ; }
+
+.chargen-list ul    { margin: 0; }
 .chargen-list ul li { margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; margin-bottom: 2pt; }
 
 .sidebar p { margin-top: 4pt; margin-bottom: 0; line-height: 1.1; font-size: var(--smaller); }
@@ -2247,25 +2272,25 @@ width: calc(20     - 6 * 4pt / 5 ); }
     var(--color-rainbow-1d) 125%); 
 }
 
-.classdata#class-divine:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-divine      ); }
-.classdata#class-dynamo:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-dynamo      ); }
-.classdata#class-expatriate:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-expatriate  ); }
-.classdata#class-expert:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-expert      ); }
-.classdata#class-haunt:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-haunt       ); }
-.classdata#class-hellspawn:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-hellspawn   ); }
-.classdata#class-inventor:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-inventor    ); }
-.classdata#class-kid:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-kid         ); }
-.classdata#class-knight:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-knight      ); }
-.classdata#class-mage:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-mage        ); }
-.classdata#class-monarch:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-monarch     ); }
-.classdata#class-monstrosity:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-monstrosity ); }
-.classdata#class-paragon:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-paragon     ); }
-.classdata#class-psychic:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-psychic     ); }
-.classdata#class-shaper:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-shaper      ); }
-.classdata#class-speedster:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-speedster   ); }
-.classdata#class-totem:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-totem       ); }
-.classdata#class-twins:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-twins       ); }
-.classdata#class-wheelman:matches( h1, h2, h3, h4, h5, h6) { color: var(--color-class-wheelman    ); }
+.classdata#class-divine:matches(      h1 , h2, h3, h4, h5, h6) { color: var(--color-class-divine      ); }
+.classdata#class-dynamo:matches(      h1 , h2, h3, h4, h5, h6) { color: var(--color-class-dynamo      ); }
+.classdata#class-expatriate:matches(  h1 , h2, h3, h4, h5, h6) { color: var(--color-class-expatriate  ); }
+.classdata#class-expert:matches(      h1 , h2, h3, h4, h5, h6) { color: var(--color-class-expert      ); }
+.classdata#class-haunt:matches(       h1 , h2, h3, h4, h5, h6) { color: var(--color-class-haunt       ); }
+.classdata#class-hellspawn:matches(   h1 , h2, h3, h4, h5, h6) { color: var(--color-class-hellspawn   ); }
+.classdata#class-inventor:matches(    h1 , h2, h3, h4, h5, h6) { color: var(--color-class-inventor    ); }
+.classdata#class-kid:matches(         h1 , h2, h3, h4, h5, h6) { color: var(--color-class-kid         ); }
+.classdata#class-knight:matches(      h1 , h2, h3, h4, h5, h6) { color: var(--color-class-knight      ); }
+.classdata#class-mage:matches(        h1 , h2, h3, h4, h5, h6) { color: var(--color-class-mage        ); }
+.classdata#class-monarch:matches(     h1 , h2, h3, h4, h5, h6) { color: var(--color-class-monarch     ); }
+.classdata#class-monstrosity:matches( h1 , h2, h3, h4, h5, h6) { color: var(--color-class-monstrosity ); }
+.classdata#class-paragon:matches(     h1 , h2, h3, h4, h5, h6) { color: var(--color-class-paragon     ); }
+.classdata#class-psychic:matches(     h1 , h2, h3, h4, h5, h6) { color: var(--color-class-psychic     ); }
+.classdata#class-shaper:matches(      h1 , h2, h3, h4, h5, h6) { color: var(--color-class-shaper      ); }
+.classdata#class-speedster:matches(   h1 , h2, h3, h4, h5, h6) { color: var(--color-class-speedster   ); }
+.classdata#class-totem:matches(       h1 , h2, h3, h4, h5, h6) { color: var(--color-class-totem       ); }
+.classdata#class-twins:matches(       h1 , h2, h3, h4, h5, h6) { color: var(--color-class-twins       ); }
+.classdata#class-wheelman:matches(    h1 , h2, h3, h4, h5, h6) { color: var(--color-class-wheelman    ); }
 
 .cca ul li::marker           { content: 'BiNLV'; font-family: var(--font-bubble); color: var(--color-light); width: 0.5in; text-align: left; position: relative; }
 .cca .pick.break             { content: 'B';     font-family: var(--font-bubble); position: absolute; left: 0;                                                   }
@@ -2453,3 +2478,64 @@ dl dd .box-it {
   border-radius: var(--border-radius);
   box-shadow:    var(--box-shadow);
 }
+
+dl dd .repeat:before { content: "Repetition:"; font-style: italic; }
+dl dd .repeat        { content: "You can choose this Ability more than once."; }
+
+.at-the-start.v1 { content: "At the start of Volume 1, choose two Class Abilities from this list."; }
+.at-the-start.v2 { content: "At the start of Volume 2, choose a Class Ability from this list or any previous " string(class) " list."; }
+.at-the-start.v3 { content: "At the start of Volume 3, choose a Class Ability from this list or any previous " string(class) " list."; }
+.at-the-start.v4 { content: "At the start of Volume 4, choose a Class Ability from this list or any previous " string(class) " list."; }
+.at-the-start.v5 { content: "At the start of Volume 5, choose a Class Ability from this list or any previous " string(class) " list."; }
+
+.crossover-instead:before { content: "Instead of adding " string(classarticle) " " string(class) " Ability "; }
+/*
+.crossover-instead.from-construct:before   { content: "Instead of adding a  Construct   Ability "; }
+.crossover-instead.from-divine:before      { content: "Instead of adding a  Divine      Ability "; }
+.crossover-instead.from-dynamo:before      { content: "Instead of adding a  Dynamo      Ability "; }
+.crossover-instead.from-expat:before       { content: "Instead of adding an Expatriate  Ability "; }
+.crossover-instead.from-expert:before      { content: "Instead of adding an Expert      Ability "; }
+.crossover-instead.from-haunt:before       { content: "Instead of adding a  Haunt       Ability "; }
+.crossover-instead.from-hellspawn:before   { content: "Instead of adding a  Hellspawn   Ability "; }
+.crossover-instead.from-inventor:before    { content: "Instead of adding an Inventor    Ability "; }
+.crossover-instead.from-kid:before         { content: "Instead of adding a  Kid         Ability "; }
+.crossover-instead.from-knight:before      { content: "Instead of adding a  Knight      Ability "; }
+.crossover-instead.from-mage:before        { content: "Instead of adding a  Mage        Ability "; }
+.crossover-instead.from-monarch:before     { content: "Instead of adding a  Monarch     Ability "; }
+.crossover-instead.from-monstrosity:before { content: "Instead of adding a  Monstrosity Ability "; }
+.crossover-instead.from-paragon:before     { content: "Instead of adding a  Paragon     Ability "; }
+.crossover-instead.from-psychic:before     { content: "Instead of adding a  Psychic     Ability "; }
+.crossover-instead.from-shaper:before      { content: "Instead of adding a  Shaper      Ability "; }
+.crossover-instead.from-speedster:before   { content: "Instead of adding a  Speedster   Ability "; }
+.crossover-instead.from-totem:before       { content: "Instead of adding a  Totem       Ability "; }
+.crossover-instead.from-twins:before       { content: "Instead of adding a  Twins       Ability "; }
+.crossover-instead.from-wheelman:before    { content: "Instead of adding a  Wheelman    Ability "; }
+*/
+
+.crossover-instead.v1                      { content:                       ", you can pick"; }
+.crossover-instead.v2                      { content: " of Volume 2 or higher, you can pick"; }
+.crossover-instead.v3                      { content: " of Volume 3 or higher, you can pick"; }
+.crossover-instead.v4                      { content: " of Volume 4 or higher, you can pick"; }
+.crossover-instead.v5                      { content: " of Volume 5,           you can pick"; }
+
+.crossover-instead.construct:after         { content: " a  Construct   Ability of the same or lower Volume."; }
+.crossover-instead.divine:after            { content: " a  Divine      Ability of the same or lower Volume."; }
+.crossover-instead.dynamo:after            { content: " a  Dynamo      Ability of the same or lower Volume."; }
+.crossover-instead.expat:after             { content: " an Expatriate  Ability of the same or lower Volume."; }
+.crossover-instead.expert:after            { content: " an Expert      Ability of the same or lower Volume."; }
+.crossover-instead.haunt:after             { content: " a  Haunt       Ability of the same or lower Volume."; }
+.crossover-instead.hellspawn:after         { content: " a  Hellspawn   Ability of the same or lower Volume."; }
+.crossover-instead.inventor:after          { content: " an Inventor    Ability of the same or lower Volume."; }
+.crossover-instead.kid:after               { content: " a  Kid         Ability of the same or lower Volume."; }
+.crossover-instead.knight:after            { content: " a  Knight      Ability of the same or lower Volume."; }
+.crossover-instead.mage:after              { content: " a  Mage        Ability of the same or lower Volume."; }
+.crossover-instead.monarch:after           { content: " a  Monarch     Ability of the same or lower Volume."; }
+.crossover-instead.monstrosity:after       { content: " a  Monstrosity Ability of the same or lower Volume."; }
+.crossover-instead.paragon:after           { content: " a  Paragon     Ability of the same or lower Volume."; }
+.crossover-instead.psychic:after           { content: " a  Psychic     Ability of the same or lower Volume."; }
+.crossover-instead.shaper:after            { content: " a  Shaper      Ability of the same or lower Volume."; }
+.crossover-instead.speedster:after         { content: " a  Speedster   Ability of the same or lower Volume."; }
+.crossover-instead.totem:after             { content: " a  Totem       Ability of the same or lower Volume."; }
+.crossover-instead.twins:after             { content: " a  Twins       Ability of the same or lower Volume."; }
+.crossover-instead.wheelman:after          { content: " a  Wheelman    Ability of the same or lower Volume."; }
+.crossover-instead.divine.or.paragon:after { content: " a  Divine or Paragon Ability of the same or lower Volume."; }

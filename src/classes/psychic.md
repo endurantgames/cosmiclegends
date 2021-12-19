@@ -153,7 +153,8 @@ Each ability can be chosen only once.
 ### Prime Ability
 
 :::::: {.ability-list .prime }::::::::::
-
+Our Minds As One
+:    To Be Determined
 ::::::::::::::::::::::::::::::::::::::::::
 
 ### Volume 1 Abilities
@@ -172,7 +173,7 @@ Mind Over Matter
 
 :   You can overcome the physical limitations of your body, and shrug
     off wounds that would seriously harm a normal person. Instead of
-    losing Health, you can lose an equal amount of Might.
+    losing Health, you can choose to lose an equal amount of Might instead.
 
 :::::::::::::::::::::::::::::::::::::
 

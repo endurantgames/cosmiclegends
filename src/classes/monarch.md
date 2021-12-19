@@ -259,18 +259,20 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Divine Right of Kings
 
-:   Your rule is blessed by the gods of your homeland. 
+:   [Divine]{.crossover .new .divine}
+    Your rule is blessed by the gods of your homeland. 
 
-    [Divine]{.crossover}
-    You have a variant of the Divine Class's **Give Me Strength!** Prime Ability, *Strengthen the Kingdom:*
-    When you use your
-    Core or Nova Power Words in a Power Display, Stunt, or Combo, you can
-    count 5s as two successes instead of 1.
-    If you do, lose either 1 Health or 1 Might after your roll, regardless
-    of how many extra successes you gained.
+    You have a variant of the Divine Class's **Give Me Strength!** 
+    Prime Ability:  *Strengthen the Kingdom:*
 
-    This is a variant of the Divine Hero Class's *Give Me Strength!* prime
-    class ability.
+    ::::::::::: box-it :::::::::::::::::::
+    Strengthen the Kingdom
+    :    When you use your
+         Core or Nova Power Words in a Power Display, Stunt, or Combo, 
+         you can count 5s as two successes instead of 1.
+         If you do, lose either 1 Health or 1 Might after your roll, 
+         regardless of how many extra successes you gained.
+    ::::::::::::::::::::::::::::::::::::::
 
 Monarch's Benevolence
 

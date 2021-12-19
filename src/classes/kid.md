@@ -1,4 +1,4 @@
-::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
+::::::::::::::::::: { .classdata #class-kid } :::::::::::
 # The Kid {#toc-kid .breakbefore .class}
 
 > 
@@ -69,6 +69,8 @@ Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::::::::::
 
+# [Kid Class Personal Power Words]{#kid-class-personal-power-words}
+
 - Creative
 - Curious
 - Eager
@@ -128,7 +130,7 @@ Why, It's Just a Child
 
 ### Volume 1 Kid Class Abilities
 
-At the start of Volume 1, choose two abilities from this list.
+[]{.at-the-start .v1}
 
 ::::: {.ability-list .v1 } ::::::::::
 
@@ -139,8 +141,8 @@ Animal Partner
     You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
     This partner has three Core Power Words --
-    *revise this part*, and two others from the
-    *revise this part too* ~~Totem Personal Power Words List~~ -- 
+    *TBD: revise this part*, and two others from the
+    *TBD: revise this part too* ~~Totem Personal Power Words List~~ -- 
     that you can use for free without
     spending Might, each once per Hero Phase. Your animal partner's 
     Health and Might equal the Volume.
@@ -173,7 +175,7 @@ Comic Relief
 
 ### Volume 2 Kid Class Abilities
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+[]{.at-the-start .v2}
 
 :::::::: {.ability-list .v2 } :::::::
 
@@ -224,7 +226,7 @@ Intelligent Pet
 
 Squire
 
-:   [Knight]{.crossover}
+:   [Knight]{.crossover .new}
     You have the potential and temperament to become a Knight. 
 
     You have a variant of the Knight Hero Class's *Peak Human Potential*
@@ -240,8 +242,7 @@ Squire
     of your choice.
     ::::::::::::::::::::::::::
 
-    Instead of choosing a Kid Class Ability of Volume 3 or higher, you
-    can choose a Knight Class Ability of the same or lower volume.
+    []{.crossover-instead .v3 .knight}
     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
     *Tactical Mastery (3rd)* are among the most applicable
     Knight Class Abilities to consider.
@@ -299,7 +300,6 @@ Magical Familiar
     [](#hellspawn-class-personal-power-words){.list-link}, or the
     [](#mage-class-personal-power-words){.list-link}.
 
-    [Divine, Mage]{.crossover .es}
     These become Core Power Words that you can use for free, 
     each once per Hero Phase, as described in the *Pet* class ability.
 
@@ -311,14 +311,12 @@ Magical Familiar
 
 Whiz-Kid
 
-:   [Expert]{.crossover}
+:   [Expert]{.crossover .new}
     You have a strong natural aptitude for something, similar to an Expert.
     You have a variant of the Expert Hero Class's *World-Renowned Expertise*
     Prime Ability, *Prodigy*.
 
-    Instead of choosing a Kid Class Ability of Volume 3
-    or higher, you can choose an Expert Class Ability
-    of the same or lower Volume.
+    []{.crossover-instead .v3 .expert}
     *TBD: List needed here.*
 
     ::::::::::: box-it ::::::::::
@@ -344,7 +342,7 @@ Youthful Relatability
 
 ### Volume 3 Kid Class Abilities
 
-At the start of Volume 3, choose an ability from this list or any previous list.
+[]{.at-the-start .v3}
 
 :::::::: {.ability-list .v3 } :::::::
 
@@ -355,7 +353,7 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
+[]{.at-the-start .v4}
 
 :::::::: {.ability-list .v4 } :::::::
 TBD
@@ -365,7 +363,7 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+[]{.at-the-start .v5}
 
 :::::: {.ability-list .v5 }::::::::::
 TBD

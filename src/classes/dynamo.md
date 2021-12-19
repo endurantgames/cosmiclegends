@@ -185,19 +185,38 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Energy Shaping
 
-:   [Shaper]{.crossover}
-    Add a Word from the Shaper class's Personal Power Word list
-    as a Personal Power Word. 
+:   [Shaper]{.crossover .new}
+    You can control both matter and energy.
 
-    You can take this ability more than once.
+    Add a Word from the 
+    [](#shaper-class-personal-power-words){.list-link} as a 
+    Core Power Word.
+
+    You have a variant of the Shaper Class's *Reshape the Battlefield*
+    Prime Ability: *Infuse the Battlefield*.
+
+    :::::::::: box-it ::::::::::::
+    Infuse the Battlefield
+    :    When you use your Core or Nova Power Words in a Power Stunt
+         or Combo, you can choose to spend 2 Effectiveness to change
+         one of the Scene Power Words to one of your own Power Words.
+
+         You can only do this once during any given Crisis, even if
+         you take this Ability multiple times.
+    ::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .shaper .v3}
+
+    []{.repeat} When you do, choose a different Elemental Power Word.
 
 Energy Versatility
 
 :   You've mastered another form of energy projection in addition
-    to your primary energy type. Add a Word from the Energy
-    Power Word list as a Personal Power Word.
-    You can take this ability more than once.
+    to your primary energy type. Add another Energy Core Power Word from the 
+    [](#dynamo-class-energy-core-power-word){.list-link .nopage}
+    as a Core Power Word.
 
+    []{.repeat} When you do, choose a different Energy Power Word.
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Dynamo Class Abilities

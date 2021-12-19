@@ -269,30 +269,32 @@ Talismans of Power
 
 Theurgy
 
-:   Your magic is grounded in the magic of the Gods themselves.
+:   [Divine]{.crossover .new .divine}
+    Your magic is grounded in the magic of the Gods themselves.
     Choose one Power Word from the 
     [](#divine-class-personal-power-words){.list-link}
     as a Core Power Word.
 
-    [Divine]{.crossover}
     You have a variant of the Divine Class Prime Ability
     *_Give Me Strength!_*: *Invoke the Divine.*
 
-    When you use your Core or Nova Power Words in a Power
-    Stunt or Combo, you can count 6s as two successes 
-    instead of 1. If you do, lose either 1 Health or 1
-    Might after your roll, regardless of how many extra
-    successes you gained.
+    ::::::::::: box-it ::::::::::::
+    Invoke the Divine
+    :   When you use your Core or Nova Power Words in a Power
+        Stunt or Combo, you can count 6s as two successes 
+        instead of 1. If you do, lose either 1 Health or 1
+        Might after your roll, regardless of how many extra
+        successes you gained.
+    :::::::::::::::::::::::::::::::
 
-    Instead of choosing a Volume 2 or higher Mage Ability, you can
-    choose a Volume 2 or lower Ability from the Divine
-    Class. *Weapon of the Gods (1st)* and 
+    []{.crossover-instead .v2 .divine}
+    *Weapon of the Gods (1st)* and 
     *Speed of Hermes (2nd)* are among the most applicable
     Divine Class Abilities to consider.
     
 Thinking with Portals
 
-:   Add Portal as a Core Power Word. You can make the General
+:   Add **Portal** as a Core Power Word. You can make the General
     Alert move for free, without spending any successes from the Teamwork Pool.
 
 
@@ -305,8 +307,7 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Arcane Arsenal
 
-:   *Prerequisites: You must have the _Sanctuary of Sanctity_ Ability.*
-    []{.arsenal-prereq}
+:   []{.arsenal-prereq}
     At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
@@ -315,6 +316,7 @@ Arcane Arsenal
     You can use each such Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
+    **Extra:** *Prerequisite: You must have the __Sanctuary of Sanctity__ Ability.*
     If you return to your *Sanctuary of Sanctity*, you can
     replace all of these Core Power Words -- whether you've used
     them or not -- with an equal number of Power Words from the
@@ -327,26 +329,28 @@ Arcane Arsenal
 
 Diabolicist
 
-:   Much of your magical power is drawn from the pits of Hell and
+:   [Hellspawn]{.crossover .new .hellspawn}
+    Much of your magical power is drawn from the pits of Hell and
     similar dark sources. You might not serve evil directly, but 
     perhaps you've stolen a bit of power from Hell to use on the 
     side of angels?
 
-    [Hellspawn, Mage]{.crossover .es}
     You have a variant of the Hellspawn Class's Prime
     Ability *Infernal Wrath*: *Hellish Rebuke.*
-
-    Whenever you lose Health, add 2 dice in the next Hero
-    Phase on rolls to advance the Smash goal.
 
     Add *Flame*, *Darkness* and *Demon* as Core Power Words. 
     Whenever you add a Personal Power Word, you can pick 
     either one from the Hellspawn Class Personal Power Words 
     List or the Mage Class Personal Power Words List.
 
-    Instead of choosing a Volume 3 or higher Mage Ability,
-    you can choose a Hellspawn Class Ability of the same
-    Volume or lower.
+    ::::::::: box-it ::::::::::::::::::
+    Hellish Rebuke
+    :    Whenever you lose Health, add 2 dice in the next Hero
+         Phase on rolls to advance the Smash goal.
+    :::::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .v3 .hellspawn}
+    *TBD: a list*
     
 Eldritch Might
 

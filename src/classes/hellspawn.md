@@ -140,8 +140,8 @@ At the start of Volume 1, choose two abilities from this list.
 
 Magicks of Hell
 
-:   [Mage]{.crossover}
-    You have a variant of the Monstrosity Class's Prime Ability
+:   [Mage]{.crossover .new}
+    You have a variant of the Mage Class's Prime Ability
     __Price of Magic__: *Hellish Bargain.*
 
     In addition, choose one Power Word from the 
@@ -161,8 +161,7 @@ Magicks of Hell
          successes.
     ::::::::::::::::::::::::::::::
 
-    Instead of choosing a Hellspawn Class Ability of Volume 3 or
-    higher, you can choose a Mage Class Ability of the same or lower Volume.
+    []{.crossover-instead .mage .v3}
     *Auspicious Alliteration* (1st), *Mists of Misdirection* (1st),
     *Talismans of Power* (1st), *Thinking with Portals* (1st),
     *Arcane Infusion* (3rd), and *Healing Mantra* (3rd)
@@ -193,7 +192,7 @@ Devil's Advocate
 
 God of Evil
 
-:   [Divine, Paragon]{.crossover}
+:   [Divine, Paragon]{.crossover .new}
     Your infernal powers come from your connection to an
     deity, such as Loki, Moros, or Bres.
 
@@ -220,32 +219,34 @@ God of Evil
          regardless of how many extra successes you gained.
     ::::::::::::::::::::::::::::
 
-    Instead of choosing a Hellspawn Class Ability of Volume 3 or
-    higher, you can choose a Divine or Paragon Class Ability of
-    the same or lower Volume.
+    []{.crossover-instead .divine .or .paragon .v3}
+    *TBD: list goes here*
 
 Fiendish Destroyer
 
+.   [Monstrosity]{.crossover .new}
 :   You have a variant of the Monstrosity Class's Prime Ability
     __Engine of Destruction__: *Fiendish Destruction.*
 
-    [Monstrosity]{.crossover}
-    When you use your Core or Nova Power Words in a Power Stunt or Combo to
-    advance the Smash goal, add 1 to the Effectiveness.
+    :::::::::::: box-it ::::::::::::::
+    Fiendish Destruction
+    :    When you use your Core or Nova Power Words in a Power Stunt 
+         or Combo to advance the Smash goal, add 1 to the Effectiveness.
+    ::::::::::::::::::::::::::::::::::
 
-    In addition, choose one Power Word from the Monstrosity Class's
-    Personal Power Words List and add it as a Core Power Word. Whenever
-    you pick a Personal Power Word, you can choose from the Hellspawn
-    Class's Personal Power Words lit or the Monstrosity Class's
-    Personal Power Words List. If you choose the latter, add those
-    words as Core Power Words.
+    In addition, choose one Power Word from the 
+    [](#monstrosity-class-personal-power-words){.list-link}
+    and add it as a Core Power Word. 
 
-    Instead of choosing a Hellspawn Class Ability of Volume 3 or
-    higher, you can choose a Monstrosity Class Ability of
-    the same or lower Volume.
-    All-Consuming Rage (1st), Misunderstood Monster (1st),
-    Immortal (1st), Regeneration (2nd), and 
-    Nigh-Invulnerable (3rd)
+    Whenever you pick a Personal Power Word, you can choose from the 
+    [](#hellspawn-class-personal-power-words){.list-link .nopage} or the
+    [](#monstrosity-class-personal-power-words){.list-link}.
+    If you choose a word from the latter list, add it as a Core Power Word.
+
+    []{.crossover-instead .v3 .monstrosity}
+    *All-Consuming Rage* (1st), *Misunderstood Monster* (1st),
+    *Immortal* (1st), *Regeneration* (2nd), and 
+    *Nigh-Invulnerable* (3rd)
     are among the most applicable Monstrosity Class Abilities to
     consider.
 

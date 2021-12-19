@@ -180,9 +180,7 @@ Paladin's Faith
     [](#divine-class-personal-power-words){.list-link} or the
     [](#knight-class-personal-power-words){.list-link .nopage}
 
-    Instead of choosing a Knight Class Ability of Volume 2 or 
-    higher, you can choose a Divine Class Ability of the same or
-    lower volume.
+    []{.crossover-instead .v2 .divine}
     *TBD: list needed*
 
     :::::::: box-it :::::::::
@@ -278,34 +276,41 @@ Skill Mastery
     skills equal to the Volume. Add an additional skill at the
     start of each subsequent Volume.
 
-    *Repetition:* You can take this Ability more than once. When you
+    []{.repeat}
+    When you
     do, the three skills you gain must be different skills. You only gain
     one skill at the start of each subsequent Volume, no matter how many
     times you've taken this Ability.
 
 Patriot
 
-:   Add your home country's name as a Core Power Word. You also
+:   [Monarch]{.crossover .new}
+    Add your home country's name as a Core Power Word. You also
     gain a version of the Monarch's *For My Kingdom!* Prime
     ability, *For My Country!*
 
-    [Monarch]{.crossover}
-    Whenever you roll to form or add to the Teamwork Pool,
-    you can declare the current Crisis is an existential
-    threat to your country. If you do, add 2 dice to that roll.
+    :::::::: box-it ::::::::::
+    For My Country!
+    :   Whenever you roll to form or add to the Teamwork Pool,
+        you can declare the current Crisis is an existential
+        threat to your country. If you do, add 2 dice to that roll.
+    ::::::::::::::::::::::::::
 
     Whenever you add a Personal Power Word, you can choose from
-    either the [](#monarch-persona-power-words) or the
-    Knight Class Personal Power Word List.
+    either the 
+    [](#knight-class-personal-power-words){.list-link .nopage} or the
+    [](#monarch-class-persona-power-words){.list-link}. If
+    you choose from the latter list, add such words as
+    Core Power Words.
 
+    []{.crossover-instead .v3 .monarch}
     *Force of the Land (5th)*, *Soul of the Land (3rd)*, 
     *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
     *Inspiring Leadership (3rd)* are among the most applicable 
     Monarch Class Abilities to consider.
 
-    *Repetition:* You can take this Ability more than once. When you
-    do, choose a subsection of your original home country as a 
-    Core Power Word.
+    []{.repeat} When you do, add a subsection of your 
+    original home country as a Nova Power Word.  
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -319,6 +324,7 @@ Implacable Foe
 :   Your determination may be your greatest asset.
     Instead of losing Health, you can lose an equal
     amount of Might.
+    [Mind Over Matter]{.variant .psychic}
 
 Tactical Mastery
 
@@ -341,38 +347,41 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 :::::: {.ability-list .v4 }::::::::::
 Custom Super-Mobile
 
-:   You have a custom-built vehicle unlike any other, and you
-    have a variant of the Wheelman Class's 
-    *_Unique Vehicle_ Class Ability,* *Custom Ride*.
+:   [Wheelman]{.crossover .new}
+    You have a variant of the Wheelman Class's 
+    *_Unique Vehicle_ Class Ability*: *Custom Ride*.
 
-    Choose a Power Word from the
-    [](#wheelman-class-core-scene-power-words){.list-link}
-    as a Core Power Word, to represent the form of your vehicle.
-    The type of vehicle matches the Vehicle Core Power Word
-    that you chose. Each Unique Vehicle has a set of Vehicle
-    Scene Power Words.
+    :::::::::::: box-it :::::::::::::::::
+    Custom Ride
+    :  You have a custom-built vehicle unlike any other.
 
-    [Wheelman]{.crossover}
-    Your Unique Vehicle's **Maximum Health** and
-    **Maximum Might** equal the **sum of your own Maximum
-    Health plus your Maximum Might**. When your maximum Health
-    or Might change, recalculate the Vehicle's Maximum Health
-    and Maximum Might.
+       Choose a Power Word from the
+       [](#wheelman-class-core-scene-power-words){.list-link}
+       as a Core Vehicle Power Word, to represent the form of your 
+       Custom Ride.
+       The type of vehicle matches the Vehicle Core Power Word
+       that you chose. Each Custom Ride has a set of Vehicle
+       Scene Power Words.
 
-    Your Unique Vehicle can comfortably carry a number of 
-    human-sized passengers equal to the Volume.
+       Your Custom Ride's **Maximum Health** and
+       **Maximum Might** equal the **sum of your own Maximum
+       Health plus your Maximum Might**. When your maximum Health
+       or Might change, recalculate the Vehicle's Maximum Health
+       and Maximum Might.
 
-    Whenever you add a Personal Power Word, you can instead add
-    a Vehicle Scene Power Word from the 
-    [](#wheelman-class-vehicle-scene-power-word){.list-link}
-    to your Custom Ride.
+       Your Custom Ride can comfortably carry a number of 
+       human-sized passengers equal to the Volume.
 
-    In addition, you are considered to have the **Ace Fighting 
-    Style** whenever you are in your Custom Ride.
+       Whenever you add a Personal Power Word, you can instead add
+       a Vehicle Scene Power Word from the 
+       [](#wheelman-class-vehicle-scene-power-word){.list-link}
+       to your Custom Ride.
 
-    Instead of choosing a Knight Class Ability of Volume 4 or
-    higher, you can choose a Wheelman Class Ability of the
-    same or lower Volume.
+       In addition, you are considered to have the **Ace Fighting 
+       Style** whenever you are in your Custom Ride.
+    :::::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .wheelman .v4}
     *Intelligent Vehicle* (1st),
     *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
     *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
@@ -383,14 +392,14 @@ Custom Super-Mobile
     *Repetition:* You can choose this Ability more than once. If
     you do, you create another vehicle each time you take this 
     Ability. Track each Wheelman Power Word and Class Ability 
-    separately, assigning each to a specific vehicle.
+    separately, assigning each to a specific Custom Ride.
 
 Dread Creature of the Night
 
-:   You have chosen one specific type of animal to emulate, in
+:   [Totem]{.crossover .new}
+    You have chosen one specific type of animal to emulate in
     your war on crime. 
 
-    [Totem]{.crossover}
     Choose one Power Word from the
     [](#totem-class-nature-core-power-words), and add it as a
     Core Power Word. Unlike the Totem class, you don't physically or
@@ -398,11 +407,15 @@ Dread Creature of the Night
     as inspiration.
 
     You have a variant of Totem Class's 
-    *_Does Whatever a Totem Can_ Class Ability*,
+    *_Does Whatever a Totem Can_ Class Ability*:
     *Does Many Things a Totem Can Do*:
-    When you use your Nature Core Power Word in a Power Stunt or 
-    Combo roll, add 2 dice as if you had a skill or fighting style
-    that applies to such a use.
+
+    ::::::::::::: box-it ::::::::::::
+    Does Many Things a Totem Can Do
+    :   When you use your Nature Core Power Word in a Power Stunt or 
+        Combo roll, add 2 dice as if you had a skill or fighting style
+        that applies to such a use.
+    :::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::
 

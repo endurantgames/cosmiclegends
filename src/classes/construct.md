@@ -1,4 +1,4 @@
-::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
+::::::::::::::::::: { .classdata #class-construct } :::::::::::
 # The Construct {#toc-construct .breakbefore .class}
 
 > I must not injure a human being or, through inaction, allow a human
@@ -191,27 +191,57 @@ Even An Android Can Cry
 
 Golem
 
-:   You were created through mystical means, not technological ones. 
+:   [Mage]{.crossover .mage .new}
+    You were created through mystical means, not technological ones. 
     
-    [Mage]{.crossover}
     Replace your Engineer and Hacker skills with Academic, Historian, and Mystic.
+
+    You have a variant of the Mage Hero Class's *Price of Magic*
+    Prime Ability: *Infused with Magic*.
+
+    ::::::::::: box-it ::::::::::::::
+    Infused with Magic
+    :   When you use one of your Core or Nova Power Words in a
+        Power Stunt or Combo to advance the Smash Goal, count
+        3s as Edge Successes.
+    :::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .mage .v2}
 
 Humaniform Robot
 
 :   *Prerequisite: You can't have the Golem class ability.* 
-    Some humans suspect that you approximate humanity with more accuracy than they
-    actually live it. Replace two of your skills with Artist and Performer.
+    Some humans may suspect that you approximate humanity with more 
+    accuracy than they actually live it. 
+
+    Replace two of your skills with Artist and Performer.
 
 Iron Giant
 
-:   *Prerequisite: You can't have the Humaniform Robot class ability.*
-    You are much larger than humans -- about the size of a building.
-    Add **Giant** as a Core Power Word; whenever you lose Health, the
-    maximum you can lose is 1.
+:   [Monstrosity]{.crossover .monstrosity .new}
+    *Prerequisite: You can't have the __Humaniform Robot__ class ability.*
+
+    You have a variant of the Giant Hero Class's *Giant Size*
+    Volume 5 Class Ability: *Fortress Maximus*
+
     Whenever you add a Personal Power Word, you can choose one from the 
     [](#construct-class-personal-power-words) or the
-    [](#monstrosity-class-personal-power-words)
-    Add Power Words from the latter as Core Power Words.
+    [](#monstrosity-class-personal-power-words).
+    Add Power Words from the latter list as Core Power Words.
+
+    ::::::::::: box-it ::::::::::::
+    Fortress Maximus
+
+    :    You are much larger than humans -- about the size of a 
+         building.
+
+         Add **Giant** as a Core Power Word.
+      
+         Whenever you lose Health, the maximum you can lose is 2.
+    :::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .monstrosity .v2}
+    *TBD: list needed here*
 
 It's Alive!
 
@@ -220,12 +250,16 @@ It's Alive!
 
 Perfect Recall
 
-:   *Prerequisite: You can't have the Golem class ability.* You can perfectly remember, describe, and repeat back anything you read,
-    hear, or see. If you use this ability in a dice roll, spend 1 Might to add 
-    the Volume to the roll.
-    Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
-    Inventor Class Personal Power Words List. Add the latter as 
-    Core Power Words.
+:   [Inventor]{.crossover .inventor .new}
+    *Prerequisite: You can't have the Golem class ability.* 
+    You can perfectly remember, describe, and repeat back anything 
+    you read, hear, or see. If you use this ability in a dice roll, 
+    spend 1 Might to add the Volume to the roll.
+
+    Whenever you add a Personal Power Word, you can choose one from the 
+    [](#construct-class-personal-power-words){.list-link .nopage} or the
+    [](#inventor-class-personal-power-words){.list-link}
+    Add Power Words from the latter list as Core Power Words.
 
 The Modern Prometheus
 
@@ -244,30 +278,30 @@ The Modern Prometheus
     - Scientist
     - Spy
 
-    [Monstrosity]{.crossover}
-    Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
-    Monstrosity Class Personal Power Words List.
-
 Purpose-Built
 
 :   You were created with a specific function in mind. 
 
-    [Dynamo, Shaper]{.crossover .es}
-    Add up to two 
-    Power Words from the Dynamo Energy Power Word List as Core Power
-    Words, up to two Power Words from the Shaper Elemental Power Word
-    List as Core Power Words, or up to two Power Words from the Inventor
-    Personal Power Word List as Personal Power Words. 
+    Add up to two Power Words from the Dynamo Energy Power Word List 
+    [](#dynamo-class-energy-core-power-words){.list-link}
+    Words, up to two 
+    [](#shaper-class-elemental-core-power-words){.list-link} or
+    up to two Power Words from the 
 
 Purpose-Crafted
 
-:   *Prerequisite: Golem* You were crafted with a specific function in mind.
+:   *Prerequisite: You must have the __Golem__ class ability.* 
+    You were crafted with a specific function in mind.
 
-    [Mage, Shaper]{.crossover .es}
-    Add up to two Power Words from the Mage Power Word List as Core Power
-    Words, up to two Power Words from the Shaper Elemental Power Word
-    List as Core Power Words, or up to two Power Words from the Divine Personal
-    Power Word List as Personal Power Words.
+    Add up to two Power Words from the 
+    [](#mage-class-personal-power-words){.list-link} as Core Power Words,
+    up to two Power Words from the 
+    [](#shaper-class-elemental-power-words){.list-link} as Core Power Words, 
+    up to two Power Words from the 
+    [](#hellspawn-class-personal-power-words){.list-link} as Personal Power Words,
+    or up to two Power Words from the 
+    [](#divine-class-personal-power-words){.list-link}
+    as Personal Power Words.
 
 Reinforced Construction
 
@@ -280,14 +314,25 @@ Self-Repair Circuits
 
 Unique Energy Source
 
-:   You can draw upon a rare form of energy that suffuses your artificial form. 
+:   [Dynamo]{.crossover .dynamo .new}
+    You can draw upon a rare form of energy that suffuses your artificial form. 
 
-    [Dynamo]{.crossover}
-    Add one Power Word from the Dynamo Energy Power List as a Core
-    Power Word, and up to three Power Words from the Dynamo Personal Power
-    Word List as Personal Power Words. If you start a Hero Phase with fewer 
-    than 2 Might, immediately refresh Might equal to the Volume. Increase your
-    maximum Might by 5.
+    Add one Power Word from the 
+    [](#dynamo-class-energy-core-power-list){.list-link} as a Core Power Word, 
+    and up to three Power Words from the 
+    [](#dynamo-class-personal-power-list){.list-link} as Personal Power Words. 
+
+    Increase your maximum Might by 5.
+
+    You have a variant of the Dynamo Class's *Energy Reserve*
+    Prime Ability, *Self-Regenerating Energy Source*.
+
+    ::::::::::: box-it ::::::::::::::
+    Self-Regenerating Energy Source
+
+    :   If you start a Hero Phase with fewer than 2 Might,
+        immediately regain Might equal to the Volume.
+    :::::::::::::::::::::::::::::::::
 
 Unkillable
 
@@ -301,7 +346,7 @@ War Machine
     Gain a number of fighting styles equal to the Volume. Add an 
     additional fighting style at the start of each later Volume.
 
-    *Repetition:* You can choose this Ability more than once;
+    []{.repeat .semi-colon}
     each time, you must choose different Fighting Styles. Only
     add one Fighting Style for each subsequent Volume, regardless
     of how many times you've chosen this Ability.
@@ -316,27 +361,39 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 Misunderstood Mechanical
 
-:   *Note: This is a variant of the Monstrosity Class's
-    __Misunderstood Monster__ class ability.*
-    Even at your worst, you wouldn't harm an innocent.
-    Add 2 to the dice pool when you advance the Allay
-    or Rescue goals. 
+:   [Monstrosity]{.crossover .monstrosity .new}
+    You have a variant of the the Monstrosity Class's
+    __Misunderstood Monster__ class ability:
+    *Mechanized Kindness*.
 
-    [Monstrosity]{.crossover}
+    Add one Power Word from the 
+    [](#monstrosity-class-personal-power-words){.list-link} as
+    a Core Power Word.
+
     Whenever you choose a Personal Power Word,
-    you can choose from the Construct Class Personal Power Words List,
-    or the Monstrosity Class Personal Power Words List. Add any from the
-    latter as Core Power Words.
+    you can choose from the 
+    [](#construct-class-personal-power-words){.list-link .nopage} or the
+    [](#monstrosity-class-personal-power-words){.list-link}.
+    Add any words chosen from the latter list as Core Power Words.
+
+    ::::::::: box-it ::::::::::::
+    Mechanized Kindness
+    :   Even at your worst, you wouldn't harm an innocent.
+        Add 2 to the dice pool when you advance the Allay
+        or Rescue goals. 
+    :::::::::::::::::::::::::::::
 
 Regeneration
 
-:   *Prerequisite: Golem* If you're ever wounded, you don't stay that way for long.  
-    Regain 1 Health at the start of the Hero Phase if you are at less than half of 
-    your maximum Health but have at least 1 Health.
+:   *Prerequisite: You must have the __Golem__ Class Ability.* 
+    If you're ever wounded, you don't stay that way for long.  
+    Regain 1 Health at the start of the Hero Phase if you are at less 
+    than half of your maximum Health but have at least 1 Health.
 
 Relentless Power
 
-:   You are a storehouse of untapped energy. Increase your maximum Might by 5.
+:   You are a storehouse of untapped energy. Increase your maximum Might 
+    by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -370,9 +427,9 @@ Power Overwhelming
 
 Immortal
 
-:   You might be seriously wounded, but you'll never stay dead. 
-    If you have 0 Health or 0 Might at the start of a 
-    Hero Phase, regain 1 point of each.
+:   You might become seriously wounded, but you'll never stay dead. 
+    If you have 0 Health or 0 Might at the start of a Hero Phase, regain 
+    1 point of each.
 
 :::::::::::::::::::::::::::::::::::::
 

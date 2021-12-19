@@ -185,10 +185,32 @@ Stately Skyscraper
 
     []{.herocave-id}
 
-Technomage
-:   You combine sorcery with science to produce your devices.
-    [Mage]{.crossover}
+Technomagic
+:   [Mage]{.crossover .new}
+    You combine sorcery with science to produce your devices.
+    
+    Choose one Power Word from the
+    [](#mage-class-personal-power-words){.list-link} and add it as a 
+    Core Power Word.
 
+    Whenever you add a Personal Power Word, you can choose from the
+    [](#inventor-class-personal-power-words){.list-link .nopage} or the
+    [](#mage-class-personal-power-words){.list-link}. If you choose from
+    the latter list, add it as a Core Power Word.
+
+    You have a variant of the Mage Class's *Price of Magic* Prime Ability,
+    *Binary Magic*.
+
+    ::::::::::: box-it :::::::::::::::::::
+    Binary Magic
+    :    When you use one of your Core or Nova Power Words in a Power
+         Stunt or Combo, you can spend 1 Might to count 2s as Edge 
+         Successes in addition to 1s.
+    ::::::::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .v3 .mage}
+    *TBD: list goes here*
+ 
 :::::::::::::::::::::::::::::::::::
 
 ### Volume 2 Inventor Class Abilities {#list-class-inventor-abilities-v2}
@@ -239,7 +261,8 @@ Absorption Field
 
 :   Your defenses include an inertia-dampening force field
     that block harm to you. Instead of losing Health, you can
-    lose an equal amount of Might.
+    choose to lose an equal amount of Might.
+    [Mind Over Matter]{.variant .psychic}
 
 Overclocked Systems
 

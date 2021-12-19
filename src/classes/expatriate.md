@@ -1,4 +1,4 @@
-::::::::::::::::::: { .classdata #class-monstrosity } :::::::::::
+::::::::::::::::::: { .classdata #class-expatriate } :::::::::::
 # The Expatriate {#toc-expatriate .breakbefore .class}
 
 > 
@@ -180,7 +180,7 @@ In a Strange Land
 
 Unkillable
 
-:   You get knocked down but you get up again. They're never
+:   You get knocked down, but you get up again; they're never
     gonna keep you down. Regain 1 Health at the start of the
     Hero Phase if you have 0 Health.
 
@@ -216,8 +216,8 @@ Earth, Or A Reasonable Facsimile Thereof
 
 Relentless Power
 
-:   You are a storehouse of untapped energy. Increase your
-    maximum Might by 5.
+:   You are a storehouse of untapped energy. Increase your maximum 
+    Might by 5.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -227,17 +227,23 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
 Space-Knight
-:   You are highly adept at a wide variety of skills and at personal 
+:   [Knight]{.crossover}
+    You are highly adept at a wide variety of skills and at personal 
     combat. You have a variant of the Knight Class's 
     *Peak Human Potential* Prime Ability,
     *Peak Earthling Potential*
 
-    [Knight]{.crossover}
-    Choose one additional Fighting Style, and one additional Skill of
-    your choice.
+    Choose one Power Word from the
+    [](#knight-class-personal-power-words){.list-link} and add it as
+    a Core Power Word.
 
-    Instead of choosing an Expatriate Class Ability of Volume 4 or higher,
-    you can choose a Knight Class Ability of the same or lower volume.
+    ::::::::::: box-it :::::::::::::
+    Peak Earthling Potential
+    :    Choose one additional Fighting Style, and one additional 
+         Skill of your choice.
+    ::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .v4 .knight}
     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
     *Tactical Mastery (3rd)* are among the most applicable
     Knight Class Abilities to consider.

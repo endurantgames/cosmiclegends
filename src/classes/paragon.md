@@ -288,18 +288,11 @@ At the start of Volume 4, choose an ability from this list or any previous Parag
 :::::: {.ability-list .v4 }::::::::::
 Faster than a Speeding Bullet
 
-:   You can act and react at speeds that defy understanding.
+:   [Speedster]{.crossover}
+    You can act and react at speeds that defy understanding.
     
-    [Speedster]{.crossover}
     You have a variant of the Speedster Class's __Ignore The Laws of
     Physics__ Prime Ability: *Bend the Laws of Physics.*
-
-    Your speed lets you bend the standard laws of Newtonian physics --
-    you can ignore the effects of inertia and start, stop, or turn on
-    dime, instantly; you don't suffer any negative effects from moving
-    at excessive speed, such as wind burn, and you're able to breathe
-    normally -- as well as ignoring relativistic effects from moving
-    near the speed of light.
 
     Choose one Power Word from the 
     [](#speedster-class-personal-power-words){.list-link}
@@ -310,9 +303,18 @@ Faster than a Speeding Bullet
     [](#speedster-class-personal-power-words){.list-link} or the
     [](#paragon-class-personal-power-words){.list-link .nopage}.
 
-    Instead of choosing a Paragon Class Ability of Volume 3 or higher,
-    you can choose a Speedster Class Ability of the same or lower
-    Volume. *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
+    ::::::::: box-it :::::::::::::::::
+    Bend the Laws of Physics
+    :    Your speed lets you bend the standard laws of Newtonian 
+         physics -- you can ignore the effects of inertia and start, 
+         stop, or turn on dime, instantly; you don't suffer any negative 
+         effects from moving at excessive speed, such as wind burn, 
+         and you're able to breathe normally -- as well as ignoring 
+         relativistic effects from moving near the speed of light.
+    ::::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .v3 .speedster}
+    *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
     *Vibrate Through Walls (1st)*, *Burst of Speed (2nd)*,
     *Evacuate the Bystanders (3rd)*, *Human Whirlwind (3rd)*,
     *Untouchable (4th)*, and *Instant Power Recovery (4th)* 
@@ -322,14 +324,11 @@ Faster than a Speeding Bullet
 
 Strange Visitor from Another Planet
 
-:   You aren't from Earth, but are instead from another planet
+:   [Inventor]{.crossover .new .inventor}
+    You aren't from Earth, but are instead from another planet
     with advanced super-science. You have a variant of the
-    Inventor Class's *No Wasted Effort* Prime Ability:
-
-    [Inventor]{.crossover}
-    Whenever you advance a Goal, you can choose to add 1
-    success from the roll's Effectiveness to the Teamwork
-    Pool instead of using all of it to advance the Goal.
+    Inventor Class's *No Wasted Effort* Prime Ability,
+    *Alien Engineering*.
 
     Choose one Power Word from the 
     [](#inventor-class-personal-power-words){.list-link}
@@ -337,12 +336,20 @@ Strange Visitor from Another Planet
 
     Whenever you add a new Personal Power Word, you can
     choose from the 
-    [](#inventor-class-personal-power-words){.list-link} or the
-    [](#paragon-class-personal-power-words){.list-link .nopage}.
+    [](#inventor-class-personal-power-words){.list-link .nopage} or the
+    [](#paragon-class-personal-power-words){.list-link}.
+    If you choose a word from the latter source, add it as a Core
+    Power Word.
 
-    Instead of choosing a Paragon Class Ability of Volume 3
-    or higher, you can choose an Inventor Class Ability of
-    the same or lower Volume. *Persipacacious Pettifoggery (1st)*,
+    ::::::::::: box-it :::::::::::::::
+    Alien Engineering
+    :    Whenever you advance a Goal, you can choose to add 1
+         success from the roll's Effectiveness to the Teamwork
+         Pool instead of using all of it to advance the Goal.
+    ::::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .v5 .inventor}
+    *Persipacacious Pettifoggery (1st)*,
     *Puissant Polymath (2nd)*, and *Overclocked Systems (3rd)* are 
     among the most applicable Inventor Class Abilities to consider.
 

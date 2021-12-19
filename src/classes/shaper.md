@@ -159,17 +159,35 @@ At the start of Volume 1, choose two abilities from this list.
 
 Energy Generation
 
-:   In addition to your ability to control physical elements,
-    you can also create it as well. 
+:   [Dynamo]{.crossover .dynamo .new}
+    In addition to your ability to control physical elements,
+    you can also create energy as well. 
 
-    [Dynamo]{.crossover}
+    You have a variant of the Dynamo Class's *Energy Reserve* Prime Ability, *Energy Absorption.*
+
     Add one Word from the
-    Dynamo's Energy Power Word list as a Personal Power Word.
+    [](#dynamo-class-energy-core-power-word)
+    as a Core Power Word.
+
+    Whenever you add a Personal Power Word, you can choose from the
+    [](#shaper-class-personal-power-word){.list-link .nopage} or the
+    [](#dynamo-class-personal-power-word){.list-link}. If you choose
+    a Power Word from the latter list, add it as a Core Power Word.
+
+    :::::::::::::: box-it :::::::::::::::
+    Energy Absorption
+    :    If you start a Hero Phase with 2 or less Might points
+         and at least one of the Scene Power Words matches one
+         of your Power Words, regain Might equal to the Volume.
+    :::::::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .dynamo .v2}
 
 Force Field
 
 :   You can surround yourself with a clear bubble of force.
     Instead of losing Health, you can lose an equal amount of Might.
+    [Mind Over Matter]{.variant .psychic}
 
 Shelter the Innocents
 
@@ -230,9 +248,33 @@ Draw Power from the Surroundings
 
 Psychic Manifestation
 
-:   Your powers also give you a measure of control over minds.
-    Add one Word from the Psychic's Personal Power Word list
+:   [Psychic]{.crossover .new .psychic}
+    Your powers also give you a measure of control over thoughts.
+    You have a variant of the Psychic Class's *Our Minds As One*
+    Prime Ability: *Mind-Touch*.
+
+    Add one Word from the 
+    [](#psychic-class-personal-power-words){.list-link}
     as a Personal Power Word.
+
+    Whenever you add a Personal Power Word, you can choose from the
+    [](#shaper-class-personal-power-words){.list-link} or the
+    [](#psychic-class-personal-power-words){.list-link}. If you choose
+    a Power Word from the latter list, add it as a Core Power Word.
+
+    :::::::::::: box-it :::::::::::::
+    Mind-Touch
+    :   As long as you are conscious, you and the other heroes 
+        can communicate with each other telepathically. The maximum
+        number of heroes you can connect, not counting yourself,
+        equals the Volume.
+
+        If everyone in a Power Combo is part of your Mind Link, 
+        the hero making the roll adds an extra die to the roll.
+    :::::::::::::::::::::::::::::::::
+
+    []{.crossover-instead .psychic .v4}
+    *TBD: list goes here*
 
 :::::::::::::::::::::::::::::::::::::
 

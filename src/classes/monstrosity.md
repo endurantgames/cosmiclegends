@@ -274,8 +274,14 @@ Power Overwhelming
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-TBD
-:   To be determined.
+Giant Size
+
+:   You are immensely large -- about the size of a building.
+    
+    Add **Giant** as a Core Power Word.
+
+    Whenever you lose Health, the maximum you can lose
+    from a single source is 1.    
 
 :::::::::::::::::::::::::::::::::::::
 
