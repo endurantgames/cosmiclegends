@@ -293,7 +293,7 @@ end -- function
 local function unpack_yaml_tree(yaml_tree, comment, quiet)
   comment = comment or "yaml_tree(?)";
   quiet   = true;
-  if not quiet then vprint("About to FLATTEN", comment); end;
+  -- if not quiet then vprint("About to FLATTEN", comment); end;
   if   type(yaml_tree) ~= "table"
   then eprint("Error!", "type(" .. comment .. ") = " .. type(yaml_tree));
        vprint("Should be:", "table");
@@ -308,10 +308,10 @@ local function unpack_yaml_tree(yaml_tree, comment, quiet)
            for i, j in pairs(v)
            do  if   type(i) == "string"
                then flat_tree[i] = j;
-                    if not quiet then vprint("SAVING: " .. i, inspect(j)); end;
+                    -- if not quiet then vprint("SAVING: " .. i, inspect(j)); end;
                end;
            end;
-           if not quiet then print("------------------------------"); end;
+           -- if not quiet then print("------------------------------"); end;
       end;
       flat_tree[k] = v;
   end;
@@ -419,16 +419,17 @@ local function yaml_list(yaml_tree, metadata)
                 errors = true;
                 break;
            end;
-           local item_formatter = format_yaml[item_format];
-           if not item_formatter
+           local item_formatter = format_yaml["item:" .. item_format];
+           if   not item_formatter
            then eprint("no item formatter?!", item_format);
                 errors = true;
                 break;
            end;
      
            slurped = slurped .. "\n- **" .. term .. "**";
-           slurped = slurped .. item_formatter(data);
-           vprint("defined list entry " .. term, data);
+           local item_info = item_formatter(data);
+           slurped = slurped .. item_info;
+           vprint("defined list entry " .. term, item_info);
        end;
   else eprint("no item list?!", "???");
        errors = true;
@@ -530,13 +531,13 @@ local function yaml_group(yaml_tree, return_text)
   local slurped = yaml_common(yaml_tree);
 end;
 
-format_yaml.character          = yaml_character;
-format_yaml.list               = yaml_list;
-format_yaml.glossary           = yaml_glossary;
-format_yaml.place              = yaml_place;
-format_yaml.group              = yaml_group;
-format_yaml.unknown            = yaml_error;
-format_yaml["minor-character"] = yaml_minor_character;
+format_yaml.character               = yaml_character;
+format_yaml.list                    = yaml_list;
+format_yaml.glossary                = yaml_glossary;
+format_yaml.place                   = yaml_place;
+format_yaml.group                   = yaml_group;
+format_yaml.unknown                 = yaml_error;
+format_yaml["item:minor-character"] = yaml_minor_character;
 
 local function slurp_yaml(filename)
 
@@ -623,7 +624,7 @@ local function slurp_yaml(filename)
   else vprint("Known x-format:",       xformat);
        vprint("Parsing with x-format", "format_yaml[" .. xformat .. "]");
        parse_func = format_yaml[xformat];
-       slurped    = parse_func(yaml_tree, true);
+       slurped    = parse_func(flat_tree, true);
 
        success = slurped and slurped ~= "";
 
