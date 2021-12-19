@@ -151,9 +151,9 @@ Armorsmith
 
 Flexible Faculties
 
-:   Your abilities extend beyond your inventive endeavours, as you
-    possess an actual super-power. Add one Personal Power Word from 
-    the Monarch, Monstrosity, or Psychic class lists as a 
+:   Your abilities extend beyond simply your inventive endeavours, 
+    as you possess an actual super-power. Add one Personal Power Word 
+    from the Monarch, Monstrosity, or Psychic class lists as a 
     Personal Power Word.
 
 Perspicacious Pettifoggery
@@ -165,22 +165,29 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a base of operations at the top of a tall building.
     When you make a skill roll in that building, add 2 to the dice pool.
-    Choose two Scene Power Words for your Skyscraper from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
-    ::::::: cpw :::::::::::::
 
-    #### Stately Skyscraper Scene Power Words List {#list-inventor-stately-skyscraper-scene-power-words}
+    Choose two Scene Power Words for your Skyscraper from the
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
+    choose a third Scene Word for your Skyscraper from
+    [](#inventor-class-stately-skyscraper-scene-power-words){.list-link .nopage}:
+
+    ::::::: cpw :::::::::::::
+    #### Stately Skyscraper Scene Power Words List {#inventor-class-stately-skyscraper-scene-power-words}
     - Downtown
     - High-Tech
     - Invisible
     - Penthouse
     - Phased
     :::::::::::::::::::::::::`
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
+
+Technomage
+:   You combine sorcery with science to produce your devices.
+    [Mage]{.crossover}
 
 :::::::::::::::::::::::::::::::::::
 
@@ -189,6 +196,19 @@ Stately Skyscraper
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::: {.ability-list .v2} ::::::::::::
+Artificer
+:   []{.arsenal-prereq}
+    *Prerequisite: You must have the __Technomage__ Ability.*
+
+    At the start of each Storyline, pick a number of Power Words
+    from the Divine, Dynamo, Hellspawn, or Shaper Personal Power Words
+    lists equal to the Volume.
+
+    You can use each such Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+
+    []{.arsenal-id}
+
 Puissant Polymath
 
 :   Your education covered a wide range of topics.  Gain a number of 
@@ -197,14 +217,16 @@ Puissant Polymath
 
 Weaponsmith
 
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+:   []{.arsenal-prereq}
     You've created a number of weapons with a wide variety of effects.
+
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
-    You can use each Power Word as a Core Power Word once
+
+    You can use each such Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
-    This is an *Arsenal* Ability.
+    []{.arsenal-id}
 
 :::::::::::::::::::::::::::::::::::::
 

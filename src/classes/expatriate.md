@@ -44,11 +44,13 @@ Your Core Power Words are **Human** and **Ingenuity**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, or 2 Might to add both.
 
-### Personal Power Words {#list-class-expatriate-personal-power-words}
+### Personal Power Words
 
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Expatriate Class Personal Power Words]{#expatriate-class-personal-power-words}
+
 - Alien
 - Animal (specific)
 - Anachronism
@@ -191,22 +193,26 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Earth, Or A Reasonable Facsimile Thereof
 
-:   *Prerequisite:  You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a holosuite or room made to replicate the environment(s)
     of your home planet.
-    Add 2 dice whenever you make a 
-    skill roll while in your Facsimile.
+    Add 2 dice whenever you make a skill roll while in your Facsimile.
+
     Choose two Scene Power Words for your Facsimile from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
     choose one of the following as a third Scene Word:
+
     ::::::: cpw :::::::::::::
+    # [Earth, Or A Reasonable Facsimile Thereof Scene Power Words]{#expatriate-class-earth-scene-powers}
+
     - Earth
     - Familiar
     - Home
     - Terrain
     - Terran
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 Relentless Power
 
@@ -215,40 +221,47 @@ Relentless Power
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Expatriate Class Abilities {#list-expatriate-abilities-v3}
+### Volume 3 Expatriate Class Abilities
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v3 } :::::::
-TBD
-:   To Be Determined
+Space-Knight
+:   You are highly adept at a wide variety of skills and at personal 
+    combat. You have a variant of the Knight Class's 
+    *Peak Human Potential* Prime Ability,
+    *Peak Earthling Potential*
+
+    [Knight]{.crossover}
+    Choose one additional Fighting Style, and one additional Skill of
+    your choice.
+
+    Instead of choosing an Expatriate Class Ability of Volume 4 or higher,
+    you can choose a Knight Class Ability of the same or lower volume.
+    *Team, Together! (1st)*, *Trick Arrows (1st)*, and
+    *Tactical Mastery (3rd)* are among the most applicable
+    Knight Class Abilities to consider.
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Expatriate Class Abilities {#list-expatriate-abilities-v4}
+### Volume 4 Expatriate Class Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Immortal
-
-:   You might be seriously wounded, but you never stay dead. 
-    If you're reduced to 0 Health or
-    0 Might, regain 1 point of each at the start of the
-    next Hero Phase.
-
-Power Overwhelming
-
-:   Your capacity for destruction is extraordinary, even for a hero.
-    Increase your maximum Might by 5.
+TBD
+:    To Be Determined
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Expatriate Class Abilities {#list-expatriate-abilities-v5}
+### Volume 5 Expatriate Class Abilities
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
+TBD
+:    To Be Determined
+
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -102,6 +102,8 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 :::::::: cpw ::::::::::::
+# [Monarch Class Personal Power Words]{#monarch-class-personal-power-words}
+
 - Armor
 - Animal (specific)
 - Beasts
@@ -139,7 +141,7 @@ if you spend 1 Might, you can include the second Nova Power Word as well.
 ![Obsidius Rex, Prince of Vulcanor](art/jeshields/monarch.png "Obsidius Rex, prince of Vulcanor"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Monarch Abilities {  .class}
+## Monarch Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
 Your Monarch Abilities represent esoteric knowledge that
@@ -168,7 +170,7 @@ At the start of Volume 1, choose two abilities from this list.
 ::::::: {.ability-list .v1 } ::::::::
 Exotic Weaponry
 
-:   *Prerequisite:  You can't have another __Arsenal__ ability.*
+:   []{.arsenal-prereq}
     The weapons from your home use a technology that defies
     conventional explanation. 
 
@@ -179,7 +181,7 @@ Exotic Weaponry
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
-    This is an *Arsenal* ability.
+    []{.arsenal-id}
 
 Loyal Subjects
 
@@ -222,25 +224,26 @@ Noblesse Oblige
 
 Remote Palace
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
 
     You have a hidden base of operations somewhere in your distant monarchy. 
 
     Add 2 dice whenever you make a skill roll while in your Palace.
 
     Choose two Scene Power Words for your Palace from
-    [](#list-hero-cave-power-words){.list-link}. 
-    In addition, choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. 
+    In addition, a third Scene Power Word for your Palace from the
+    [](#monarch-class-scene-power-words){.list-link .nopage}:
 
     ::::::: cpw :::::::::::::
-    #### Remote Palace Scene Power Words {#list-remote-palace-scene-power-words}
+    #### [Remote Palace Scene Power Words]{#monarch-list-remote-palace-scene-power-words}
 
     - Expansive
     - Fortress
     - Opulent
     :::::::::::::::::::::::::
 
-    This is a *Hero Cave* Ability.
+    []{.herocave-id}
 
 Righteous Rage
 
@@ -256,11 +259,13 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Divine Right of Kings
 
-:   Your rule is blessed by the gods of your homeland. When you use your
-    Core or Nova Power Words in a Power Display, Stunt, or Combo, you can
-    count 5s as two successes instead of 1.
+:   Your rule is blessed by the gods of your homeland. 
 
     [Divine]{.crossover}
+    You have a variant of the Divine Class's **Give Me Strength!** Prime Ability, *Strengthen the Kingdom:*
+    When you use your
+    Core or Nova Power Words in a Power Display, Stunt, or Combo, you can
+    count 5s as two successes instead of 1.
     If you do, lose either 1 Health or 1 Might after your roll, regardless
     of how many extra successes you gained.
 
@@ -277,8 +282,7 @@ Monarch's Benevolence
 
 Palace of the Privileged
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
-    This is a *Hero Cave* Ability.
+:   []{.herocave-prereq}
 
     ::::::::::: cpw :::::::::::::
     - ***To Be Determined.***
@@ -286,9 +290,13 @@ Palace of the Privileged
     - ***To Be Determined.***
     :::::::::::::::::::::::::::::
 
+    []{.herocave-id}
+
 Unfamiliar Fighting Techniques
 
-:   You have trained in a number of fighting techniques
+:   *Note: This is a variant of the Knight Class's __Tactical Mastery__
+    Class Ability.* 
+    You have trained in a number of fighting techniques
     unknown to the outside world.
 
     Gain a number of fighting styles equal to the Volume.
@@ -346,8 +354,9 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 :::::::: {.ability-list .v5 } :::::::
 Bestow Citizenship
 
-:   You can make someone an honorary member of your home -- which also
-    bestows a boon upon them, possibly even a supernatural one. 
+:   []{.move .hero}
+    As a move, you can make someone an honorary member of your home -- 
+    which also bestows a boon upon them, possibly even a supernatural one. 
 
     Choose two of your Power Words. Until the end of the current Storyline, 
     they gain those Words as Personal Power Words. 
@@ -357,7 +366,8 @@ Bestow Citizenship
 
 Force of the Land
 
-:   You can call upon the energy of your home -- mystical, inspirational,
+:   []{.move .hero} 
+    You can call upon the energy of your home -- mystical, inspirational,
     or physical -- to end a threat. 
 
     As a move, you can spend 1 Might to fully Advance one goal of a Crisis 

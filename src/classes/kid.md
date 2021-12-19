@@ -63,7 +63,7 @@ Your Core Power Words are **Youthful** and **Exuberance**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
-#### Kid Class Personal Power Words List {#list-class-kid-personal-power-words}
+#### Kid Class Personal Power Words List
 
 Choose six Personal Power Words from the following list:
 
@@ -126,7 +126,7 @@ Why, It's Just a Child
 
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Kid Class Abilities {#list-class-kid-abilities-v1}
+### Volume 1 Kid Class Abilities
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -134,7 +134,7 @@ At the start of Volume 1, choose two abilities from this list.
 
 Animal Partner
 
-:   *Prerequisite: You can't have another __Pet__ Ability.*
+:   []{.pet-prereq}
     
     You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
@@ -152,33 +152,26 @@ Animal Partner
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
-    *Prerequisite: The __Mystic Totem__ class ability.* 
+    :::::::::: box-it :::::::::::::::::
+    **Extra:** (*Prerequisite: The __Mystic Totem__ class ability.*)
     If your animal partner is ever killed, they return to life at the 
-    end of the next Crisis Countdown, and join you as soon as they
-    can.
+    end of the next Crisis Countdown, and join you as soon as they can.
+    :::::::::::::::::::::::::::::::::::
 
-    This is a *Pet* Ability.
+    []{.pet-id}
 
 Comic Relief
 
 :   Whenever you make a roll, count 2s as Edge Successes in 
-    addition to 1s. If the consequence is funny and at least one
+    addition to 1s. If you accept consequence of one or more such
+    Edge Successes, the consequence is funny, and at least one
     adult hero present laughs at the situation or your reaction to it, 
     count each Edge Success for which you accept the consequence as two
     successes when you calculate the roll's Effectiveness.
 
-Unbeatable
-
-:   Your powers cause people to under-estimate you and you actually punch can
-    punch far above your normal weight class.
-    Whenever you have one or more companions of the same type as your
-    Totem Nature Power Word present -- including from the *Animal Companion* or
-    *Summon Swarm* class abilities -- add 1 to the Effectiveness of any roll
-    you make to advance any goal.
-
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Kid Class Abilities {#list-class-kid-abilities-v2}
+### Volume 2 Kid Class Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -186,18 +179,19 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 Alien Pet
 
-:   *Prerequisite: You must have the __Pet__ class ability.*
+:   []{.pet-related-prereq}
     Your pet isn't from Earth -- or might not even be from this universe,
     in the case of a magical pet.
 
-    [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class's Personal Power Words List or the
-    Paragon Class's Personal Power Words List. These become Core Power
+    from the 
+    [](#monstrosity-class-personal-power-words){.list-link} or the
+    [](#paragon-class-personal-power-words){.list-link .plural}.
+    These become Core Power
     Words that you can use for free, once per Hero Phase, as described 
     in the *Pet* class ability.
     
-    This is __not__ a *Pet* Ability.
+    []{.pet-related-id}
 
 Holy Catchphrase!
 
@@ -210,12 +204,12 @@ Holy Catchphrase!
 Knowing is Half the Battle
 
 :   At the end of an issue, you can do a solo Vignette wherein you 
-    summarize the events of the last Crisis, and relate them to one or 
-    more of your ideals.  When you do so, you can Mark those ideals.
+    summarize the events of the most recent Crisis, and relate them to 
+    one or more of your ideals. When you do so, you can Mark those ideals.
 
 Intelligent Pet
 
-:   *Prerequisite: You must have the __Pet__ class ability.*
+:   []{.pet-related-prereq}
     Your pet is smarter than an average animal of that type. It can
     communicate intelligently in one language that you choose when
     you gain this class ability, although its voice is clearly
@@ -226,27 +220,36 @@ Intelligent Pet
     Crisis, add 3 dice whenever you make a roll using the chosen
     Approach.
 
-    This is __not__ a *Pet* Ability.
+    []{.pet-related-id}
 
 Squire
-:    You have the potential and training to become a Knight. You
-     have a variant of the Knight Hero Class's *Peak Human Potential*
-     Prime Ability.
 
-     [Knight]{.crossover}
-     Choose one additional Fighting Style, and one additional Skill
-     of your choice.
+:   [Knight]{.crossover}
+    You have the potential and temperament to become a Knight. 
 
-     Instead of choosing a Kid Class Ability of Volume 3 or higher, you
-     can choose a Knight Class Ability of the same or lower volume.
-     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
-     *Tactical Mastery (3rd)* are among the most applicable
-     Knight Class Abilities to consider.
+    You have a variant of the Knight Hero Class's *Peak Human Potential*
+    Prime Ability, *Youthful Potential*.
+
+    Whenever you add a Personal Power Word, you can choose from the
+    [](#knight-class-personal-power-words){.list-link} or the
+    [](#kid-class-personal-power-words){.list-link .nopage}.
+
+    :::::::: box-it ::::::::::
+    Youthful Potential 
+    :    Choose one additional Fighting Style, and one additional Skill
+    of your choice.
+    ::::::::::::::::::::::::::
+
+    Instead of choosing a Kid Class Ability of Volume 3 or higher, you
+    can choose a Knight Class Ability of the same or lower volume.
+    *Team, Together! (1st)*, *Trick Arrows (1st)*, and
+    *Tactical Mastery (3rd)* are among the most applicable
+    Knight Class Abilities to consider.
 
 Youthful Power
 
-:   You are a storehouse of indefatiguable energy. Increase your maximum 
-    Might by 5.
+:   You are a storehouse of indefatiguable energy. 
+    Increase your maximum Might by 5.
 
 Mentor
 
@@ -267,7 +270,7 @@ Mentor
 
 Pet
 
-:   *Prerequisite: You can't have another __Pet__ Ability.*
+:   []{.pet-prereq}
     You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
 
@@ -285,15 +288,16 @@ Pet
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
-    This is a *Pet* Ability.
+    []{.pet-id}
 
 Magical Familiar
 
-:   *Prerequisite: You must have the __Pet__ class ability.*
+:   []{.pet-related-prereq}
     Whenever you choose a Core Power Word for your Pet, you can
-    choose from the Divine Class's Personal Power Words List, the
-    Hellspawn Class's Personal Power Words List, or the
-    Mage Class's Personal Power Words List. 
+    choose from the 
+    [](#divine-class-personal-power-words){.list-link}, the
+    [](#hellspawn-class-personal-power-words){.list-link}, or the
+    [](#mage-class-personal-power-words){.list-link}.
 
     [Divine, Mage]{.crossover .es}
     These become Core Power Words that you can use for free, 
@@ -303,7 +307,33 @@ Magical Familiar
     the end of the next Crisis Countdown, and join you as soon as they
     can.
 
-    This is __not__ a *Pet* Ability.
+    []{.pet-related-id}
+
+Whiz-Kid
+
+:   [Expert]{.crossover}
+    You have a strong natural aptitude for something, similar to an Expert.
+    You have a variant of the Expert Hero Class's *World-Renowned Expertise*
+    Prime Ability, *Prodigy*.
+
+    Instead of choosing a Kid Class Ability of Volume 3
+    or higher, you can choose an Expert Class Ability
+    of the same or lower Volume.
+    *TBD: List needed here.*
+
+    ::::::::::: box-it ::::::::::
+    Prodigy
+    :   When you gain this Ability, pick either
+        any skill of your choice or any fighting
+        style. You gain that Skill or Fighting
+        Style.
+
+        If you chose a skill, whenever you use that
+        skill in a roll, add 2 dice instead of 1 die.
+
+        If you chose a Fighting Style, double the
+        number of dice that Fighting Style provides.
+    :::::::::::::::::::::::::::::
 
 Youthful Relatability
 
@@ -312,7 +342,7 @@ Youthful Relatability
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Kid Class Abilities {#list-class-kid-abilities-v3}
+### Volume 3 Kid Class Abilities
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -323,7 +353,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Abilities {#list-class-kid-abilities-v4}
+### Volume 4 Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -333,7 +363,7 @@ TBD
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Abilities {#list-class-kid-abilities-v5}
+### Volume 5 Abilities
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

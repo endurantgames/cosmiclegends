@@ -2294,4 +2294,157 @@ width: calc(20     - 6 * 4pt / 5 ); }
 a.list-link:before { font-style: normal; content: "the ";                                                }
 a.list-link        { content:    target-content(attr(href)) " list "; font-style: italic;                }
 a.list-link:after  { content:    " (see page " target-counter(attr(href), page) ")"; font-style: normal; }
+a.list-link.nopage:after { content: ""; }
+
+.herocave-prereq { 
+  font-style: italic;
+  text-decoration: underline;
+  content: "Hero Cave";
+  font-weight: bold;
+}
+.herocave-prereq:before { 
+  content: "Prerequisite: You can't have another "; 
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.herocave-prereq:after {
+  content: " Ability."
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.herocave-id {
+  display: block;
+  content: "Hero Cave";
+  font-style: italic;
+}
+
+.herocave-id:before {
+  content: "This is a ";
+  font-style: normal;
+}
+
+.herocave-id:after {
+  content: " Ability.";
+  font-style: normal;
+}
+
+.arsenal-prereq { 
+  font-style: italic;
+  text-decoration: underline;
+  content: "Arsenal";
+  font-weight: bold;
+}
+.arsenal-prereq:before { 
+  content: "Prerequisite: You can't have another "; 
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.arsenal-prereq:after {
+  content: " Ability."
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.arsenal-id {
+  display: block;
+  content: "Arsenal";
+  font-style: italic;
+}
+
+.arsenal-id:before {
+  content: "This is an ";
+  font-style: normal;
+}
+
+.arsenal-id:after {
+  content: " Ability.";
+  font-style: normal;
+}
+
+.pet-prereq { 
+  font-style: italic;
+  text-decoration: underline;
+  content: "Pet";
+  font-weight: bold;
+}
+.pet-prereq:before { 
+  content: "Prerequisite: You can't have another "; 
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.pet-prereq:after {
+  content: " Ability."
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.pet-id {
+  display: block;
+  content: "Pet";
+  font-style: italic;
+}
+
+.pet-id:before {
+  content: "This is a ";
+  font-style: normal;
+}
+
+.pet-id:after {
+  content: " Ability.";
+  font-style: normal;
+}
+
+.pet-related-prereq { 
+  font-style: italic;
+  text-decoration: underline;
+  content: "Pet";
+  font-weight: bold;
+}
+.pet-related-prereq:before { 
+  content: "Prerequisite: You must have ":
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.pet-related-prereq:after {
+  content: " Ability."
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.pet-related-id {
+  display: block;
+  content: "Pet";
+  font-style: italic;
+}
+
+.pet-related-id:before {
+  content: "This is NOT a ";
+  font-style: normal;
+}
+
+.pet-related-id:after {
+  content: " Ability.";
+  font-style: normal;
+}
+
+.move:before {
+  display: block;
+  content: "This ability gives you a new type of move you cna take on the ";
+  font-weight: normal;
+}
+
+.move.hero { 
+  font-weight: bold; 
+  content: "Hero";
+}
+
+.move:after { 
+   content: " phase"; 
+  font-weight: normal;
+}
 

@@ -104,9 +104,11 @@ or 2 Might to add both.
 
 ### Personal Power Words
 
-Choose seven (not six!) Personal Power Words from the following list:
+Choose six Personal Power Words from the following list:
 
 ::::::::::: cpw ::::::::::::::::
+# [Paragon Class Personal Power Words](#paragon-class-personal-power-words)
+
 - Alien
 - Blast
 - Breath
@@ -206,7 +208,8 @@ Multipower
 
 ### Volume 2 Abilities
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 Paragon ability list.
+At the start of Volume 2, choose an Ability from this list or the 
+Volume 1 Paragon ability list.
 
 ::::: {.ability-list .v2 } ::::::::::
 Never-Ending Battle
@@ -220,13 +223,13 @@ Power Overwhelming
 :   Your capacity for heroic deeds is extraordinary, even for a hero.
     Increase your maximum Might by 5.
 
-Ultra-Energy Limitation
+Ultra-Energy Infusion
 
-:   *Prerequisite: You must have the __My One Weakness!__ Ability to
-    choose this.*
+:   *Prerequisite: You must have the __My One Weakness!__ Prime Ability.*
 
-    Remove your *My One Weakness!* ability and replace it with the
-    following Ability:
+    Remove your *My One Weakness!* Prime Ability and replace it with the
+    following Ability, which is a variant of the *My One Weakness!* Prime
+    Ability:
 
     You can only use one super-power at a time. Immediately after
     you use any Power Word or Words in a Power Display, Stunt, or 
@@ -235,7 +238,8 @@ Ultra-Energy Limitation
 
     At the start of the next Hero Phase, when your Power Words
     come off of cooldown, regain 1 point of Might.
-    Increase your maximum Might by 3.
+
+    Also, increase your maximum Might by 3.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -246,14 +250,19 @@ At the start of Volume 3, choose an ability from this list or any previous Parag
 ::::::: {.ability-list .v3 } ::::::::
 Castle of Quiettude
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a base of operations in a remote location. 
+
     Add 2 dice whenever you make a skill roll while in your Castle of 
-    Quiettude.  Choose two Scene Power Words for your Castle from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+    Quiettude.  
+
+    Choose two Scene Power Words for your Castle from the
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
+    choose a third Scene Word for your Castle from the
+    [](#castle-of-quiettude-scene-power-words){.list-link .nopage}
+
     ::::::: cpw :::::::::::::
-    #### Castle of Quiettude Scene Power Words { #castle-of-quiettude-scene-power-words-list}
+    # [Castle of Quiettude Scene Power Words]{ #castle-of-quiettude-scene-power-words-list}
 
     - Alien
     - Locked
@@ -262,7 +271,8 @@ Castle of Quiettude
     - Solitude
     - Uncharted
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 Nigh-Invulnerable
 
@@ -291,6 +301,15 @@ Faster than a Speeding Bullet
     normally -- as well as ignoring relativistic effects from moving
     near the speed of light.
 
+    Choose one Power Word from the 
+    [](#speedster-class-personal-power-words){.list-link}
+    and add it as a Core Power Word.
+
+    Whenever you add a new Personal Power Word, you can
+    choose from the 
+    [](#speedster-class-personal-power-words){.list-link} or the
+    [](#paragon-class-personal-power-words){.list-link .nopage}.
+
     Instead of choosing a Paragon Class Ability of Volume 3 or higher,
     you can choose a Speedster Class Ability of the same or lower
     Volume. *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
@@ -312,12 +331,14 @@ Strange Visitor from Another Planet
     success from the roll's Effectiveness to the Teamwork
     Pool instead of using all of it to advance the Goal.
 
-    Choose one Power Word from the Inventor Class's
-    Personal Power Word List and add it as a Core Power Word.
+    Choose one Power Word from the 
+    [](#inventor-class-personal-power-words){.list-link}
+    and add it as a Core Power Word.
 
     Whenever you add a new Personal Power Word, you can
-    choose from the Inventor Personal Power Words List or
-    the Paragon Personal Power Words List.
+    choose from the 
+    [](#inventor-class-personal-power-words){.list-link} or the
+    [](#paragon-class-personal-power-words){.list-link .nopage}.
 
     Instead of choosing a Paragon Class Ability of Volume 3
     or higher, you can choose an Inventor Class Ability of
@@ -334,10 +355,11 @@ At the start of Volume 5, choose an ability from this list or any previous Parag
 :::::: {.ability-list .v5 }::::::::::
 My *Other* One Weakness!
 
-:   *Prerequisite: You must have the __My One Weakness!__ Ability.*
-    Choose a second weakness that triggers your *My One Weakness!*
-    ability. Either source can trigger that ability. Both can't
-    be triggered at the same time; overlapping *One Weakness!*es
+:   *Prerequisite: You must have the __My One Weakness!__ Prime Ability.*
+
+    Choose a second weakness that triggers your *My One Weakness!* Prime
+    Ability. Either source can trigger that Ability. Both can't
+    be triggered at the same time; overlapping *Weakness!*es
     don't stack for a double effect.
 
     If both sources are present but one is removed by a teammate, 

@@ -24,7 +24,7 @@ Knight has a *Weapon* Power Word for that reason. If you pick
 Rifle, Boomerang, Sword, Shield, and so on.
 
 If you're going to play a more realistic hero, consider the
-*Weapons Locker* ability for access to more weapon Power Words, and
+*Weapons Locker* Ability for access to more weapon Power Words, and
 devote your own Personal Power Words to expanding the variety
 of effects you can produce.
 
@@ -80,11 +80,13 @@ Your Core Power Words are **Prepared** and **Gambit**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-### Knight Class Personal Power Words {#list-class-knight-personal-power-words}
+### Knight Class Personal Power Words
 
 Choose five Personal Power Words from the following list:
 
 ::::::::::: cpw :::::::::::::::::
+# [Knight Class Personal Power Words](#knight-class-personal-power-words)
+
 - Acrobat
 - Aim
 - Armor
@@ -135,14 +137,14 @@ The Nova Power Word remains *Locked*.
 
 ## Knight Abilities { .class}
 
-Each Volume, you gain a new ability from your class.
+Each Volume, you gain a new Ability from your class.
 Your Knight Abilities are based on continued training and
 perfection of your physical and mental capabilities.
-Each ability can be chosen only once.
+Each Ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Peak Human Potential** Prime ability common 
+Your hero has the **Peak Human Potential** Prime Ability common 
 to all Knights.
 
 :::::: {.ability-list .prime }::::::::::
@@ -158,75 +160,117 @@ Peak Human Potential
     Choose one additional Fighting Style.
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Knight Class Abilities {#list-class-knight-abilities-v1}
+### Volume 1 Knight Class Abilities
 
 At the start of Volume 1, choose two abilities from this list.
 
 ::::: {.ability-list .v1 } ::::::::::
 
+Paladin's Faith
+:   [Divine]{.crossover}
+    You have dedicated yourself to the service of one or more gods.
+
+    You have a variant of the Divine Class's
+    **Give Me Strength!** Prime Ability: *Fist of the Deity.*
+
+    Choose one Power Word from the
+    [](#divine-class-personal-power-words){.list-link}. Every time
+    you choose a new Personal Power Word, you can choose from either
+    the
+    [](#divine-class-personal-power-words){.list-link} or the
+    [](#knight-class-personal-power-words){.list-link .nopage}
+
+    Instead of choosing a Knight Class Ability of Volume 2 or 
+    higher, you can choose a Divine Class Ability of the same or
+    lower volume.
+    *TBD: list needed*
+
+    :::::::: box-it :::::::::
+    Fist of the Deity
+    :  
+         Whenever you use your Core or Nova Power Words
+         in a Power Display, Stunt or Combo, you can
+         count 5s as two successes instead of 1.
+    
+         If you do, lose either 1 Health or 1 Might 
+         after your roll, regardless of many extra 
+         successes you gained.
+    ::::::::::::::::::::::::::
+
+
 Team, Together!
 
-:   You are a natural leader and members of your hero team
+:   *Prerequisite: You can't have the __I Work Alone__ Knight Class Ability.*
+    You are a natural leader and members of your hero team
     look to you for leadership.
     Add 2 additional successes to the Dice Pool whenever you 
-    add to the Teamwork Pool.
+    roll to add to the Teamwork Pool.
 
 Toughness
 
-:   Your training focuses on increasing your ability to
+:   Your training focuses on increasing your capacity to
     withstand pain. Increase your maximum Health by 2.
 
 Trick Arrows
 
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+:   []{.arsenal-prereq}
     You have specialized weapons, each for a different job.
 
-    [Dynamo, Paragon]{.crossover}
     At the start of each Storyline, pick a number of Power Words
-    from the Dynamo or Paragon Personal Power Words lists
+    from the 
+    [Dynamo Class Energy Core Power Words](#dynamo-class-energy-core-power-words),
+    [Dynamo Class Personal Power Words](#dynamo-class-energy-core-power-words),
+    [Paragon Class Personal Power Words](#paragon-class-personal-power-words) 
+    lists
     equal to the Volume.
 
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
-    This is an *Arsenal* Ability.
+    []{.arsenal-id}
 
 Weapons Locker
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+:   []{.arsenal-prereq}
     You have a huge cache of conventional weapons.
-    From the following list, pick a number equal to the
-    Volume and add those as Core Power Words: 
-    
-    Weapons Locker Core Power Words List:
+
+    At the start of each Storyline, pick a number of Power Words
+    from the [](#weapons-locker-core-power-words-list){.list-link}
+    equal to the Volume as Core Power Words.
+
+    :::::::: cpw ::::::::::::
+    #[Weapons Locker Core Power Words List]{.weapons-locker-core-power-words}
+    - Automatic
+    - Bazooka
     - Bullets 
+    - Concealed
     - Grenade
     - Handgun
     - Knife
     - Non-Lethal
     - Reload
     - Rifle
+    - Rocket
     - Scope
     - Sword 
     - Stun
+    ::::::::::::::::::::::::::
 
-    At the start of each subsequent Volume, add one more from
-    the list as a Core Power Word.
-
-    This is an *Arsenal* Ability.
+    []{.arsenal-id}
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Knight Class Abilities {#list-class-knight-abilities-v2}
+### Volume 2 Knight Class Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 :::::::: {.ability-list .v2 } :::::::
 I Work Alone
 
-:   Some people are just reluctant team members.  When you roll to 
+:   *Prerequisite: You can't have the __Team, Together!__ Knight Class Ability.*
+    Some people are just reluctant team members.  When you roll to 
     create or add to the Teamwork Pool, you can choose to add the 
-    roll's Effectiveness to your maximum and current Might instead of 
-    the Teamwork Pool.
+    roll's Effectiveness to your maximum and current Health or Might 
+    instead of the Teamwork Pool.
 
 Skill Mastery
 
@@ -243,15 +287,21 @@ Patriot
 
 :   Add your home country's name as a Core Power Word. You also
     gain a version of the Monarch's *For My Kingdom!* Prime
-    ability:
+    ability, *For My Country!*
 
+    [Monarch]{.crossover}
     Whenever you roll to form or add to the Teamwork Pool,
     you can declare the current Crisis is an existential
     threat to your country. If you do, add 2 dice to that roll.
 
     Whenever you add a Personal Power Word, you can choose from
-    either the Monarch Class Personal Power Word List or the
+    either the [](#monarch-persona-power-words) or the
     Knight Class Personal Power Word List.
+
+    *Force of the Land (5th)*, *Soul of the Land (3rd)*, 
+    *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
+    *Inspiring Leadership (3rd)* are among the most applicable 
+    Monarch Class Abilities to consider.
 
     *Repetition:* You can take this Ability more than once. When you
     do, choose a subsection of your original home country as a 
@@ -259,7 +309,7 @@ Patriot
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Knight Class Abilities {#list-class-knight-abilities-v3}
+### Volume 3 Knight Class Abilities
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -269,13 +319,6 @@ Implacable Foe
 :   Your determination may be your greatest asset.
     Instead of losing Health, you can lose an equal
     amount of Might.
-
-Super-Patriot
-:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
-    a Volume 3 Knight Ability, you can choose a Volume 3 or lower
-    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
-    *Inspiring Leadership (3rd)* are among the most applicable 
-    Monarch Class Abilities to consider.
 
 Tactical Mastery
 
@@ -291,7 +334,7 @@ Tactical Mastery
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Knight Class Abilities {#list-class-knight-abilities-v4}
+### Volume 4 Knight Class Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -300,13 +343,14 @@ Custom Super-Mobile
 
 :   You have a custom-built vehicle unlike any other, and you
     have a variant of the Wheelman Class's 
-    *_Unique Vehicle_ Class Ability.* Choose a Power Word from
-    the Wheelman Class Vehicle Core Power Word list as a Core
-    Power Word.
+    *_Unique Vehicle_ Class Ability,* *Custom Ride*.
 
-    *Repetition:* You can choose this ability more than once. If
-    you do, track each Wheelman Class Power Words and Class Abilities
-    separately, assigning each to a specific vehicle.
+    Choose a Power Word from the
+    [](#wheelman-class-core-scene-power-words){.list-link}
+    as a Core Power Word, to represent the form of your vehicle.
+    The type of vehicle matches the Vehicle Core Power Word
+    that you chose. Each Unique Vehicle has a set of Vehicle
+    Scene Power Words.
 
     [Wheelman]{.crossover}
     Your Unique Vehicle's **Maximum Health** and
@@ -315,19 +359,31 @@ Custom Super-Mobile
     or Might change, recalculate the Vehicle's Maximum Health
     and Maximum Might.
 
-    The type of vehicle matches the Vehicle Core Power Word
-    that you chose. Each Unique Vehicle has a set of Vehicle
-    Scene Power Words.
-
-    Your Unique Vehicle can comfortably carry a number of human-sized
-    passengers equal to the Volume.
+    Your Unique Vehicle can comfortably carry a number of 
+    human-sized passengers equal to the Volume.
 
     Whenever you add a Personal Power Word, you can instead add
-    a Vehicle Scene Power Word from the Wheelman Class's Vehicle
-    Scene Power Words List.
+    a Vehicle Scene Power Word from the 
+    [](#wheelman-class-vehicle-scene-power-word){.list-link}
+    to your Custom Ride.
 
     In addition, you are considered to have the **Ace Fighting 
-    Style** whenever you are in your Unique Vehicle.
+    Style** whenever you are in your Custom Ride.
+
+    Instead of choosing a Knight Class Ability of Volume 4 or
+    higher, you can choose a Wheelman Class Ability of the
+    same or lower Volume.
+    *Intelligent Vehicle* (1st),
+    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
+    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
+    *Autonomous Operation (1st)*, and *More than Meets the Eye 
+    (2nd)* are among the most applicable Wheelman Class 
+    Abilities to consider.
+
+    *Repetition:* You can choose this Ability more than once. If
+    you do, you create another vehicle each time you take this 
+    Ability. Track each Wheelman Power Word and Class Ability 
+    separately, assigning each to a specific vehicle.
 
 Dread Creature of the Night
 
@@ -336,8 +392,8 @@ Dread Creature of the Night
 
     [Totem]{.crossover}
     Choose one Power Word from the
-    Totem Class Nature Core Power Words List, and add it as a
-    Power Word. Unlike the Totem class, you don't physically or
+    [](#totem-class-nature-core-power-words), and add it as a
+    Core Power Word. Unlike the Totem class, you don't physically or
     spiritually become that animal; you just draw upon its abilities
     as inspiration.
 
@@ -348,59 +404,13 @@ Dread Creature of the Night
     Combo roll, add 2 dice as if you had a skill or fighting style
     that applies to such a use.
 
-Super-Patriot
-:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
-    a Volume 4 Knight Ability, you can choose a Volume 4 or lower
-    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, 
-    *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
-    *Inspiring Leadership (3rd)* are among the most applicable 
-    Monarch Class Abilities to consider.
-
-    *Repetition:* You can choose this Ability more than once; each
-    time, you must choose a different Monarch Ability.
-
-Vehicle Customization
-:   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
-    Instead of choosing a Volume 4 Knight Ability, you can choose 
-    a Volume 4 or lower Wheelman ability. *Intelligent Vehicle* (1st),
-    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
-    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
-    *Autonomous Operation (1st)*, and *More than Meets the Eye 
-    (2nd)* are among the most applicable Wheelman Class 
-    Abilities to consider.
-
-    *Repetition:* You can choose this Ability more than once; each
-    time, you must choose a different Ability.
-
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Knight Class Abilities {#list-class-knight-abilities-v5}
+### Volume 5 Knight Class Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+At the start of Volume 5, choose an Ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
-Super-Patriot
-:   *Prerequisite: The _Patriot_ Class Ability.* Instead of choosing
-    a Volume 5 Knight Ability, you can choose a Volume 5 or lower
-    Monarch ability. *Force of the Land (5th)*, *Soul of the Land (3rd)*, *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
-    *Inspiring Leadership (3rd)* are among the most applicable 
-    Monarch Class Abilities to consider.
-
-    *Limitation:* You can't choose the *_Bestow Citizenship (5th)_ Monarch Class Ability* unless you are 
-    literally the Monarch of your home country. 
-    (In such a situation, you may want to consider becoming a Multi-Class 
-    or Dual-Class Monarch.)
-
-Vehicle Customization
-:   *Prerequisite: The _Custom Super-Mobile_ Class Ability.* 
-    Instead of choosing a Volume 5 Knight Ability, you can choose 
-    a Volume 5 or lower Wheelman ability. *Intelligent Vehicle* (1st),
-    *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
-    *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
-    *Autonomous Operation (1st)*, and *More than Meets the Eye 
-    (2nd)* are among the most applicable Wheelman Class 
-    Abilities to consider.
-
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

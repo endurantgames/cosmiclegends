@@ -257,17 +257,22 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 :::::: {.ability-list .v4 }::::::::::
 My Own Personal Hell
 
-:   *Prerequisite: You can't have another __Hero Cave_ Ability.*
+:   []{.herocave-prereq}
     You have a stronghold located in one of the lower dimensions.
+
     Outside of a Crisis, you can spend 1 Might per person to transport
     yourself and any nearby, willing Heroes to your Personal Hell, or return
     to Earth at the location you left from.
+
     Add 2 dice whenever you make a skill roll while in your Personal Hell.
+
     Choose two Scene Power Words for your Personal Hell from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
+    choose a third Scene Word for your Personal Hell from
+    the [](#hellspawn-class-my-own-personal-hell-scene-power-words){.list-link .nopage}.
+
     ::::::: cpw :::::::::::::
-    #### My Own Personal Hell Scene Power Words {#list-my-own-personal-hell-scene-power-words}
+    #### [My Own Personal Hell Scene Power Words]{#hellspawn-class-my-own-personal-hell-scene-power-words}
 
     - Afterlife
     - Flaming
@@ -278,7 +283,8 @@ My Own Personal Hell
     - Visions
     - Warded
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 :::::::::::::::::::::::::::::::::::::
 

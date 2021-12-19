@@ -79,11 +79,13 @@ Your Core Power Words are **Synthetic** and **Sentience**.
 You can spend 1 Might point to add one of these to a Power Stunt 
 or Combo, or 2 Might to add both.
 
-### Personal Power Words {#list-class-construct-personal-power-words}
+### Personal Power Words 
 
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Construct Class Personal Power Words]{#construct-class-personal-power-words}
+
 - Analytical
 - Animal (specific)
 - Artificial
@@ -206,9 +208,10 @@ Iron Giant
     You are much larger than humans -- about the size of a building.
     Add **Giant** as a Core Power Word; whenever you lose Health, the
     maximum you can lose is 1.
-    Whenever you add a Personal Power Word, you can choose one from the Construct Class Personal Power Words List, or the
-    Monstrosity Class Personal Power Words List. Add the latter as 
-    Core Power Words.
+    Whenever you add a Personal Power Word, you can choose one from the 
+    [](#construct-class-personal-power-words) or the
+    [](#monstrosity-class-personal-power-words)
+    Add Power Words from the latter as Core Power Words.
 
 It's Alive!
 

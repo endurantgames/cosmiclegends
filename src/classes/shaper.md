@@ -90,6 +90,8 @@ You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Shaper Class Personal Power Words](#shaper-class-personal-power-words)
+
 - Absorb
 - Become
 - Blast
@@ -241,18 +243,23 @@ At the start of Volume 4, choose an ability from this list or any previous list.
 :::::: {.ability-list .v4 }::::::::::
 Shaper's Refuge
 
-:   *Prerequisite: You can't have another _Hero Cave_ Ability.*
+:   []{.herocave-prereq}
+
     Outside of a Crisis, you can spend 1 Might per person to transport
     yourself and any nearby, willing Heroes to your Refuge, or return
     to Earth at the location you left from.
+
     Add 2 dice whenever you make a skill roll while in your Shaper's Refuge.
+
     Choose two Scene Power Words for your Refuge from the
-    [](#list-hero-cave-power-words){.list-link}. 
+    [](#generic-hero-cave-power-words){.list-link}. 
     Your Refuge also has your Element Core Power Word as a third
     Scene Power Word.
-    In addition, choose one of the following as a fourth Scene Power Word:
+    In addition, a fourth Scene Power Word for your Refuge from the
+    [](#shaper-class-shapers-refuge-scene-power-words){.list-link .nopage}:
+
     ::::::: cpw :::::::::::::
-    #### Shaper's Refuge Scene Power Words {#list-shapers-refuge-scene-power-words}
+    #### Shaper's Refuge Scene Power Words {#shaper-class-shapers-refuge-scene-power-words}
 
     - Cloaked
     - Defensive
@@ -260,7 +267,8 @@ Shaper's Refuge
     - Extraplanar
     - Fortified
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 :::::::::::::::::::::::::::::::::::::
 

@@ -112,14 +112,14 @@ Faithful Pet
     This is a *Pet* Ability.
 
 Hero Cave
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a hidden location that is your personal base of operations.
     Add 2 dice whenever you make a skill roll while in your Hero Cave.
     Choose two Scene Power Words from the following Hero Cave Power Words
     List:
 
     ::: cpw :::::::::::::::::
-    #### Hero Cave Scene Power Words List {#list-hero-cave-scene-power-words}
+    #### Hero Cave Scene Power Words List {#generic-hero-cave-scene-power-words}
 
     - Alien
     - Analysis
@@ -174,7 +174,7 @@ Hero Cave
     - Zoo
     :::::::::::::::::::::::::
 
-    This is a *Hero Cave* Ability.
+    []{.herocave-id}
 
 Hero Without Fear
 :   You are completely fearless. If you are exposed to any fear-

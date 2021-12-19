@@ -57,7 +57,7 @@ You can spend 1 Might point to add one of these to a Power Stunt
 or Combo, 2 Might to add two, and 3 Might to add all three.
 
 ::::::::::::: cpw :::::::
-#### Totem Nature Core Power Words
+# [Totem Nature Core Power Words]{#totem-class-totem-nature-core-power-words}
 
 - Bugs
   - Arachnid
@@ -232,6 +232,8 @@ or Combo, 2 Might to add two, and 3 Might to add all three.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Totem Class Personal Power Words](#totem-class-personal-power-words)
+
 - Alert
 - Ambush
 - Animalistic
@@ -373,7 +375,8 @@ At the start of Volume 1, choose two abilities from this list.
 
 Animal Partner
 
-:   You have an unusually intelligent pet or companion that accompanies
+:   []{.pet-prereq}
+    You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. This partner has three Core Power Words --
     one matching your Totem Nature Power Word, and two others from the
     Totem Personal Power Words List -- that you can use for free without
@@ -387,7 +390,8 @@ Animal Partner
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
-    This is a *Pet* Ability.
+
+    []{.pet-id}
 
     *Prerequisite: The __Mystic Totem__ class ability.* 
     If your animal partner is ever killed, they return to life at the 
@@ -420,60 +424,47 @@ All Animals Love Me. Really. I Wouldn't Make Something Like That Up.
 
 :::::::::::::::::::::::::::::::::::::
 
-::::::::::::: cpw :::::::
-#### Totem Core Power Words
-
-Your Core Power Words are **TBD** and **TBD**.
-You can spend 1 Might point to add one of those to a Power Stunt or
-Combo, or 2 Might to add both.
-:::::::::::::::::::::::::
-
-#### Totem Personal Power Words List
-
-Choose six Personal Power Words from the following list:
-::::::::::::: cpw :::::::
-
-:::::::::::::::::::::::::
-
 Alien Pet
 
-:   *Prerequisite: You must have a __Pet__ Ability.*
+:   []{.pet-related-prereq}
     Your pet or animal partner isn't from Earth -- or might not even be from 
     this universe, in the case of a magical pet.
 
     [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
-    from the Monstrosity Class Personal Power Words List or the
-    Paragon Class Personal Power Words List. 
+    from the 
+    [](#monstrosity-class-personal-power-words){.list-link} or the
+    [](#paragon-class-personal-power-words){.list-link}
+
     These become Core Power
     Words that you can use for free, once per Hero Phase, as described 
-    in the *Pet* or *Animal Partner* class abilities.
+    in the *Pet* (or *Animal Partner*) class abilities.
     
-    This is __not__ a *Pet* Ability.
+    []{.pet-related-id}
 
 Intelligent Pet
 
-:   *Prerequisite: You must have a __Pet__ Ability.*
+:   []{.pet-related-prereq}
     Your pet is smarter than an average animal of that type. It can
     communicate intelligently in one language that you choose when
     you pick this class ability, although its voice is clearly
     non-human. 
 
     In addition, pick a second Skill possessed by the Pet, and one Approach. 
-    Whenever your Pet is present at a Crisis, add 3 dice whenever you make a roll 
-    using the chosen Approach.
+    Whenever your Pet is present at a Crisis, add 3 dice whenever you make 
+    a roll using the chosen Approach.
 
-    This is __not__ a *Pet* Ability.
+    []{.pet-related-id}
 
 Magical Familiar
 
-:   *Prerequisite: You must have a __Pet__ Ability.*
+:   []{.pet-related-prereq}
     Whenever you choose a Core Power Word for your Pet, you can
-    choose from the Divine Class's Personal Power Words List, the
-    Hellspawn Class's Personal Power Words List, or the
-    Mage Class Personal Power Words List. 
+    choose from the 
+    [](#divine-class-personal-power-words){.list-link}, the
+    [](#hellspawn-class-personal-power-words){.list-link}, or the
+    [](#mage-class-personal-power-words){.list-link}.
 
-    [Divine, Mage]{.crossover .es}
     These become Core Power Words that you can use for free, 
     each once per Hero Phase, as described in the *Pet* class ability.
 
@@ -481,28 +472,30 @@ Magical Familiar
     the end of the next Crisis Countdown, and join you as soon as they
     can.
 
-    This is __not__ a *Pet* Ability.
+    []{.pet-related-id}
 
-Pet
+Animal Partner
 
-:   *Prerequisite: You can't have another __Pet__ Ability.*
+:   []{.pet-prereq}
     You have an unusually intelligent pet or companion that accompanies
     you on your heroic adventures. 
 
-    This partner has three Core Power Words --
-    one chosen from the Totem Class's Totem Nature Power Words List,
-    and two others from the Totem Class's Personal Power Words List -- 
+    This partner has three Core Power Words -- one chosen from the 
+    [](#totem-class-totem-nature-core-power-words),
+    and two others from the 
+    [](#totem-class-personal-power-words) --
     that you can use for free without spending Might, each once per Hero 
-    Phase. Your animal partner's Health and Might equal the Volume.
+    Phase. 
 
-    Choose one Skill possessed by your Animal Partner, and a Fighting
-    Style. You can use that skill or Fighting Style whenever your 
+    Your animal partner's Health and Might equal the Volume.
+    Choose one Skill and one Fighting Style possessed by your Animal Partner
+    You can use that skill or Fighting Style whenever your 
     Animal Partner is present during a Crisis.
 
     During any Hero Phase, either your hero can make a move or your
     animal partner can make a move -- not both.
 
-    This is a *Pet* Ability.
+    []{.pet-id}
 
 :::::::::::::::::::::::::::::::::::::
 

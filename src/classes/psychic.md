@@ -255,16 +255,24 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 :::::: {.ability-list .v5 }::::::::::
 Astral Retreat
 
-:   *Prequisite: You can't have another _Hero Cave_ Ability.*
+:   []{.herocave-prereq}
+
     You have a stronghold located on the astral plane.
+
     Outside of a Crisis, you can spend 1 Might per person to transport
     yourself and any nearby, willing Heroes to your Retreat, or return
     to Earth at the location you left from.
+
     Add 2 dice whenever you make a skill roll while in your Astral Retreat.
+
     Choose two Scene Power Words for your Astral Retreat from the
-    [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. 
+    In addition, choose a third Scene Power Word for your Astral Retreat
+    from the
+    [](#psychic-class-astral-retreat-scene-power-words){.list-link .nopage}:
+
     ::::::: cpw :::::::::::::
-    #### Astral Retreat Scene Power Words {#list-astral-retreat-scene-power-words}
+    #### Astral Retreat Scene Power Words {#psychic-class-astral-retreat-scene-power-words}
 
     - Astral
     - Cloaked
@@ -275,7 +283,8 @@ Astral Retreat
     - Solidified
     - Viewing
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 :::::::::::::::::::::::::::::::::::::
 

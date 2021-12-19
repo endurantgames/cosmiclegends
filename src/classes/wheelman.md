@@ -50,8 +50,11 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 0 Might.
 
 ::::::::::::: cpw :::::::
+# [Vehicle Core Scene Power Words](#wheelman-class-core-scene-power-words)
+
 - Balloon
 - Barge
+- Big-Rig
 - Bike
 - Blimp
 - Boat
@@ -69,6 +72,7 @@ Word for you, and you can add it to Power Stunt or Combo by spending
 - Skateboard
 - Spaceship
 - Tank
+- Tractor
 - Train
 - Truck
 :::::::::::::::::::::::::
@@ -81,6 +85,8 @@ Scene Power Words to a roll for 0 Might, as if the Vehicle Scene Power
 Word were one of the regular Scene Power Words.
 
 ::::::::::::: cpw :::::::
+# [Vehicle Scene Power Words](#vehicle-class-scene-power-words)
+
 - Air
 - Alarm
 - Analysis
@@ -123,6 +129,7 @@ Word were one of the regular Scene Power Words.
 - Lights
 - Locked
 - Loud
+- Manipulator
 - Medical
 - Morphing
 - Oil
@@ -221,7 +228,8 @@ Unique Vehicle
     passengers equal to the Volume.
 
     Whenever you add a Personal Power Word, you can instead add a
-    Vehicle Scene Power Word from the Vehicle Scene Power Words List.
+    Vehicle Scene Power Word from the 
+    [](#wheelman-class-vehicle-scene-power-words).
 
     In addition, you are considered to have the **Ace Fighting Style**
     whenever you are in your Unique Vehicle.
@@ -236,7 +244,7 @@ At the start of Volume 1, choose two abilities from this list.
 
 Autonomous Operation
 
-:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+:   *Prerequisite: __Intelligent Vehicle__ Class Ability.*
     Your Vehicle can act whenever you are unable to. At the end of each
     Hero Phase, if you didn't make a move, then you can have your Vehicle
     make a move -- using your own Approach scores, Skills, and Fighting 
@@ -244,16 +252,18 @@ Autonomous Operation
 
 Cursed Vehicle
 
-:   *Prerequisite: __Intelligent Vehicle__ class ability.*
+:   *Prerequisite: __Intelligent Vehicle__ Class Ability.*
     Like the *Haunted Vehicle* class ability, your Vehicle is possessed
     by a supernatural creature.
 
     [Hellspawn]{.crossover}
-    Choose one Personal Power Word from the Hellspawn class and add it as
+    Choose one Personal Power Word from the 
+    [](#hellspawn-class-personal-power-word){.list-link} and add it as
     a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
-    Power Word, you can choose from the Hellspan Personal Power Words
-    List or the Vehicle Scene Power Words List; such Power Words become
-    Vehicle Scene Power Words.
+    Power Word, you can choose from the 
+    [](#hellspawn-class-personal-power-word){.list-link} or the
+    [](#wheelman-class-vehicle-core-scene-power-word){.list-link}; 
+    such Power Words become Vehicle Scene Power Words.
 
     In addition, you gain the **Mystic Skill**.
 
@@ -262,11 +272,11 @@ Dude, Where's Your Car?
 :   *Prerequisite: __Autonomous Operation__ class ability.*
     During the Roll-Call phase of a Crisis Countdown, you can decide 
     if your Vehicle is present at the scene. If it isn't, then you 
-    can use the Timely Arrival move and pay only 1 success from the
-    Teamwork Pool, not 5 (the normal cost).
+    can use the Timely Arrival move any time before it arrives, and 
+    pay only 1 success from the Teamwork Pool, not 5 (the normal cost).
 
-    When your Vehicle arrives, you automatically enter it and are
-    in control of it.
+    When your Vehicle arrives, you automatically enter it and take
+    control of it.
 
 Intelligent Vehicle
 
@@ -281,9 +291,8 @@ Intelligent Vehicle
     In addition, choose one Skill possessed by the Vehicle. When you
     are in the Vehicle, you are considered to have that skill.
 
-    You *can* have a Vignette with your own Unique Vehicle if it's
+    *Special:* You *can* have a Vignette with your own Unique Vehicle if it's
     intelligent.
-
     
 Haunted Vehicle
 
@@ -292,11 +301,14 @@ Haunted Vehicle
     ghost of a human or other creature. 
 
     [Haunt]{.crossover}
-    Choose one Personal Power Word from the Haunt class and add it as
-    a Vehicle Scene Power Word. Whenever you add a new Vehicle Scene
-    Power Word, you can choose from the Haunt Personal Power Words List
-    or the Vehicle Scene Power Words List; such Power Words become 
-    Vehicle Scene Power Words.
+    Choose one Personal Power Word from the 
+    [](#haunt-class-personal-power-word){.list-link} and add it as
+    a Vehicle Core Scene Power Word. Whenever you add a new Vehicle 
+    Scene Power Word, you can choose from the 
+    [](#haunt-class-personal-power-word){.list-link}
+    or the 
+    [](#wheelman-class-vehicle-core-scene-power-words){.list-link}; 
+    such Power Words become Vehicle Scene Power Words.
 
     In addition, you gain the **Mystic Skill**.
 
@@ -305,17 +317,18 @@ High-Tech Vehicle
 :   *Prerequisite: __Intelligent Vehicle__ class ability.*
     Your Vehicle is controlled by a computerized, artificial intelligence.
 
-    Choose one Personal Power Word from the Inventor Class Personal
-    Power Words List or the Construct Class Personal Power Words List,
+    Choose one Personal Power Word from the 
+    [](#inventor-class-personal-power-words){.list-link} or 
+    [](#construct-class-personal-power-words){.list-link},
     and add it as a Vehicle Scene Power Word. 
 
     [Inventor]{.crossover}
-    Whenever
-    you add a new Vehicle Scene Power Word, you can choose from the
-    Inventor Class Personal Power Words List, the Vehicle Scene Power Words
-    List, or the Construct Class Personal Power Words List; such Power 
-    Words become Vehicle Scene Power Words associated with your Unique
-    Vehicle.
+    Whenever you add a new Vehicle Scene Power Word, you can choose from the
+    [](#wheelman-class-vehicle-core-scene-power-words){.list-link},
+    [](#inventor-class-personal-power-words){.list-link}, or the
+    [](#construct-class-personal-power-words){.list-link}.
+    Such Power Words become Vehicle Scene Power Words associated with your 
+    Unique Vehicle.
 
     In addition, you gain the **Engineer Skill**.
 
@@ -329,20 +342,27 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
 Glorious Garage
 
-:   *Prequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
 
     Add 2 dice whenever you make a skill roll while in your Garage.
+
     Choose two Scene Power Words for your Glorious Garage from the
-    [](#list-hero-cave-power-words){.list-link}. In addition, choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. 
+
+    In addition, choose 
+    a third Scene Power Word from your Garage from the 
+    [](#wheelman-class-glorious-garage-scene-power-words){.list-link .nopage}:
+
     ::::::: cpw :::::::::::::
-    #### Glorious Garage Scene Power Words {#list-glorious-garage-scene-power-words}
+    #### Glorious Garage Scene Power Words {#wheelman-class-glorious-garage-scene-power-words}
 
     - Automatic
     - Fuel
     - Hidden
     - Repair
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 More than Meets the Eye
 

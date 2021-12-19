@@ -70,6 +70,8 @@ In addition, you get a third Core Power Word -- known as your
 Energy Power Word -- chosen from the following list:
 
 ::::::::::::: cpw :::::::
+# [Dynamo Class Energy Core Power Words (#dynamo-class-energy-core-power-words)
+
 - Cold
 - Darkness
 - Electricity
@@ -83,11 +85,13 @@ Energy Power Word -- chosen from the following list:
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 2 Might to add another, or 3 Might to add all three.
 
-### Personal Power Words {#list-class-dynamo-personal-power-words}
+### Personal Power Words 
 
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Dynamo Class Personal Power Words]{#dynamo-class-personal-power-words}
+
 - Absorb
 - Beam
 - Blast
@@ -143,7 +147,7 @@ Energy Reserve
     Might points, you regain 1 Might.
 ::::::::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Dynamo Class Abilities {#list-dynamo-abilities-v1}
+### Volume 1 Dynamo Class Abilities
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -174,7 +178,7 @@ Wide Angle
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Abilities {#list-dynamo-abilities-v2}
+### Volume 2 Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -196,7 +200,7 @@ Energy Versatility
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Dynamo Class Abilities {#list-dynamo-abilities-v3}
+### Volume 3 Dynamo Class Abilities
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -213,14 +217,14 @@ Power Overwhelming
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Dynamo Class Abilities {#list-dynamo-abilities-v4}
+### Volume 4 Dynamo Class Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v4 }::::::::::
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Dynamo Class Abilities {#list-dynamo-abilities-v5}
+### Volume 5 Dynamo Class Abilities
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 

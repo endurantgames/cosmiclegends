@@ -91,11 +91,13 @@ Your Core Power Words are **Blessed** and **Champion**.
 You can spend 1 Might point to add one of these to a Power Stunt or Combo,
 or 2 Might to add both.
 
-### Divine Class Personal Power Words List {#list-class-divine-personal-power-words}
+### Divine Class Personal Power Words List
 
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Divine Class Personal Power Words]{#divine-class-personal-power-words}
+
 - Anger
 - Armor
 - Command
@@ -230,17 +232,20 @@ Speed of Hermes
 
 Temple of the Gods
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a hidden location that is your personal base of 
     operations. Outside of a Crisis, you can spend 1 Might to 
     teleport yourself to your Temple. Add 2 dice whenever you
     skill roll while in your Temple of the Gods.
     Choose two Scene Power Words for your Temple from the
-    [](#list-hero-cave-power-words){.list-link}. 
+    [](#generic-hero-cave-power-words){.list-link}. 
 
-    In addition, choose one of the following as a third Scene Word:
+    In addition, choose one Scene Power Word from the
+    [](#divine-class-temple-of-the-gods-scene-power-words){.list-link}.
 
     ::::::: cpw :::::::::::::
+    # [Temple of the Gods Scene Power Words]{#divine-class-temple-of-the-gods-scene-power-words}
+
     - Divine
     - Hallowed
     - Holy
@@ -248,7 +253,7 @@ Temple of the Gods
     - Shrine
     :::::::::::::::::::::::::
 
-    This is a *Hero Cave* Ability.
+    []{.herocave-id}
 
 :::::::::::::::::::::::::::::::::::::
 

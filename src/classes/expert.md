@@ -63,19 +63,17 @@ Unlike other heroes, you don't have any Personal Power Words.
 ### Nova Power
 
 Unlike other heroes, you don't have Nova Power Words. When you have
-marked all of your Ideals, you gain the standard Might refresh, but don't
-unlock any additional Nova Power Words.
+marked all of your Ideals, you gain the standard Might refresh, 
+but don't unlock any additional Nova Power Words.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Expert Abilities {.class}
 
 Each Volume, you gain a new ability from your class.
 Your Expert Abilities reflect growing expertise in your primary field
-and a number of related fields.
-Each ability can be chosen only once.
+and a number of related fields.  Each ability can be chosen only once.
 
 ### Prime Ability
 
@@ -100,19 +98,6 @@ At the start of Volume 1, choose two abilities from this list.
 
 :::::: { .ability-list .v1 } ::::::::
 
-Armorsmith
-
-:   You've invented a suit of armor. Add Armor as a Core
-    Power Word and one Personal Power Word from the Dynamo's
-    or Paragon's Personal Power Word list.
-
-Flexible Faculties
-
-:   Your abilities extend beyond your inventive endeavours, as you
-    possess an actual super-power. Add one Personal Power Word from 
-    the Monarch, Monstrosity, or Psychic class lists as a 
-    Personal Power Word.
-
 Perspicacious Pettifoggery
 
 :   Using your vast vocabulary of super-scientific knowledge, you can 
@@ -122,20 +107,28 @@ Perspicacious Pettifoggery
 
 Stately Skyscraper
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a base of operations at the top of a tall building.
+
     When you make a skill roll in that building, add 2 to the dice pool.
+
     Choose two Scene Power Words for your Skyscraper from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
+    choose one word from the
+    [](#expert-class-stately-skyscraper-scene-power-words){.list-link}
+    as a third Scene Word for your Skyscraper.
+
     ::::::: cpw :::::::::::::
+    # [Stately Skyscraper Scene Power Words List]{#expert-class-stately-skyscraper-scene-power-words}
+
     - Downtown
     - High-Tech
     - Invisible
     - Penthouse
     - Phased
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 :::::::::::::::::::::::::::::::::::
 
@@ -151,14 +144,16 @@ Puissant Polymath
     start of each subsequent Volume.
 
 Weaponsmith
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+:   []{.arsenal-prereq}
     You've created a number of weapons with a wide variety of effects.
+
     At the start of each Storyline, pick a number of Power Words
     from the Dynamo or Shaper Personal Power Words lists
     equal to the Volume.
+
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
-    This is an *Arsenal* Ability.
+    []{.arsenal-id}
 
 :::::::::::::::::::::::::::::::::::::
 

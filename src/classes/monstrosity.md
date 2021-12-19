@@ -196,15 +196,17 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 :::::::: {.ability-list .v2 } :::::::
 Leave Me Alone!
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a remote, safe place to which you can retreat and hide
     from others.
     Add 2 dice whenever you make a skill roll while in your Safe Place.
     Choose two Scene Power Words for your Safe Place from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
+    choose a third Scene Power Word for your Safe Place from the
+    [](#monstrosity-class-leave-me-alone-safe-place-scene-power-words){.list-link .nopage}:
+
     ::::::: cpw :::::::::::::
-    #### Leave Me Alone! Safe Place Scene Power Words { #list-leave-me-alone-safe-place-scene-power-words} 
+    #### Leave Me Alone! Safe Place Scene Power Words { #monstrosity-class-leave-me-alone-safe-place-scene-power-words} 
 
     - Comfortable
     - Fortified
@@ -214,7 +216,8 @@ Leave Me Alone!
     - Quiet
     - Tranquil
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 Regeneration
 

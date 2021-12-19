@@ -94,6 +94,8 @@ or 2 Might to add both.
 Choose six Personal Power Words from the following list:
 
 ::::::::::::: cpw :::::::
+# [Mage Class Personal Power Words]{#mage-class-personal-power-words}
+
 - Bands
 - Banish
 - Blast
@@ -152,7 +154,7 @@ Auspicious Alliteration
 
 Familiar Familiaris
 
-:   *Prerequisite: You can't have another __Pet__ Ability.*
+:   []{.pet-prereq}
 
     You have an unusually intelligent pet or animal
     companion that accompanies you on your magical adventures.
@@ -181,7 +183,7 @@ Familiar Familiaris
     If your Familiar is ever killed, they return to life at the
     end of the next Crisis Countdown, and join you as soon as they can.
 
-    This is a *Pet* Ability.
+    []{.pet-id}
 
 Mists of Misdirection
 
@@ -190,18 +192,22 @@ Mists of Misdirection
 
 Sanctuary of Sanctity
 
-:   *Prerequisite: You can't have another __Hero Cave__ Ability.*
+:   []{.herocave-prereq}
     You have a base of operations hidden in a normal-looking city building
     or a medieval tower. When you make a skill roll in that building, 
     add 2 to the dice pool.
+
     Outside of a Crisis, you can spend 1 Might per person to transport
     yourself and any nearby willing Heroes to your Sanctuary, or return 
     to the location you left from.
+
     Choose two Scene Power Words for your Sanctuary from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+    [](#generic-hero-cave-power-words){.list-link}. In addition,
+    choose a third Scene Word for your Sanctuary from the
+    [](#mage-class-sanctuary-of-sanctity-scene-power-words){.list-link .nopage}:
+
     ::::::: cpw :::::::::::::
-    #### Sanctuary of Sanctity Scene Power Words {#list-sanctuary-of-sanctity-scene-power-words}
+    #### [Sanctuary of Sanctity Scene Power Words]{#mage-class-sanctuary-of-sanctity-scene-power-words}
 
     - Archaic
     - Haunted
@@ -211,22 +217,29 @@ Sanctuary of Sanctity
     - Unassuming
     - Warded
     :::::::::::::::::::::::::
-    This is a *Hero Cave* Ability.
+
+    []{.herocave-id}
 
 Talismans of Power
 
-:   *Prerequisite: You can't have another __Arsenal__ Ability.*
+:   []{.arsenal-prereq}
     You have a number of magical artifacts, each imbued with
     their own magical power.
 
     At the start of each Storyline, pick a number of Power
-    Words from the Divine, Mage, Psychic, or Shaper Personal
-    Power Words lists equal to the Volume. Choose the form of
-    each trinket from the following list:
+    Words from the 
+    [Divine](#divine-class-personal-power-words){.list-link},
+    [Mage](#mage-class-personal-power-words){.list-link},
+    [Psychic](#psychic-personal-power-words){.list-link}, or
+    [](#shaper-personal-power-words){.list-link .es}
+    equal to the Volume. 
+
+    Each Power Word is linked to a specific magical talisman.
+    Choose the form of each talisman from the 
+    [](#mage-class-talismans-of-power-trinket-forms){.list-link .nopage}:
 
     :::::: cpw :::::::::
-
-    #### Talismans of Power Trinket Forms {#list-talismans-of-power-trinket-forms}
+    # Talismans of Power Trinket Forms {#mage-class-talismans-of-power-trinket-forms}
 
     - Amulet
     - Belt
@@ -247,18 +260,19 @@ Talismans of Power
     ::::::::::::::::::::
 
     You can pick each Power Word only once, and each trinket
-    shape only once.
+    form only once.
 
     You can use each Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
 
-    This is an *Arsenal* Ability.
+    []{.arsenal-id}
 
 Theurgy
 
 :   Your magic is grounded in the magic of the Gods themselves.
-    Choose one Power Word from the Divine Class Personal Power 
-    Word List as a Core Power Word.
+    Choose one Power Word from the 
+    [](#divine-class-personal-power-words){.list-link}
+    as a Core Power Word.
 
     [Divine]{.crossover}
     You have a variant of the Divine Class Prime Ability
@@ -270,7 +284,7 @@ Theurgy
     Might after your roll, regardless of how many extra
     successes you gained.
 
-    Instead of choosing a Volume 2 Mage Ability, you can
+    Instead of choosing a Volume 2 or higher Mage Ability, you can
     choose a Volume 2 or lower Ability from the Divine
     Class. *Weapon of the Gods (1st)* and 
     *Speed of Hermes (2nd)* are among the most applicable
@@ -292,17 +306,26 @@ At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 Arcane Arsenal
 
 :   *Prerequisites: You must have the _Sanctuary of Sanctity_ Ability.*
-    *You can't have another __Arsenal__ Ability.*
+    []{.arsenal-prereq}
     At the start of each Storyline, pick a number of Power Words
     from the Psychic or Shaper Personal Power Words lists
     equal to the Volume.
 
     [Psychic, Shaper]{.arsenal .es}
-    You can use each Power Word as a Core Power Word once
+    You can use each such Power Word as a Core Power Word once
     during the current Storyline without paying any Might.
-    This is an *Arsenal* Ability.
 
-Diabolical Power
+    If you return to your *Sanctuary of Sanctity*, you can
+    replace all of these Core Power Words -- whether you've used
+    them or not -- with an equal number of Power Words from the
+    [](#psychic-class-persona-power-words){.list-link .nopage} or
+    [](#shaper-class-personal-power-words){.list-link .nopage}.
+    You can use each such Power Word as a Core Power Word once
+    during the current Storyline without paying any Might.
+
+    []{.arsenal-id}
+
+Diabolicist
 
 :   Much of your magical power is drawn from the pits of Hell and
     similar dark sources. You might not serve evil directly, but 
