@@ -290,55 +290,64 @@ local function slurp(file, no_parse)
   return slurped;
 end -- function
 
-local function flatten_yaml_tree(yaml_tree, comment)
-  vprint("About to start", "FLATTEN_YAML_TREE " .. comment);
+local function unpack_yaml_tree(yaml_tree, comment, quiet)
   comment = comment or "yaml_tree(?)";
+  quiet   = true;
+  if not quiet then vprint("About to FLATTEN", comment); end;
   if   type(yaml_tree) ~= "table"
   then eprint("Error!", "type(" .. comment .. ") = " .. type(yaml_tree));
        vprint("Should be:", "table");
        os.exit(1);
-  else vprint("It's a table so", "here's the tprint");
-       vprint("==================", "before!");
-       print(inspect(yaml_tree));
-       -- tprint(yaml_tree);
-       vprint("==================", "after!");
   end;
 
   local flat_tree = {};
 
   for k, v in pairs(yaml_tree)
   do  if   type(v) == "table"
-      then print(k, inspect(v));
-      else print(k, v);
+      then 
+           for i, j in pairs(v)
+           do  if   type(i) == "string"
+               then flat_tree[i] = j;
+                    if not quiet then vprint("SAVING: " .. i, inspect(j)); end;
+               end;
+           end;
+           if not quiet then print("------------------------------"); end;
       end;
-      -- print( comment .. "[" .. k .. "] = ", v);
       flat_tree[k] = v;
   end;
 
-  tprint(flat_tree);
+  if not quiet then vprint("finished flattening; entries:", #flat_tree); end;
+  
+  -- tprint(flat_tree);
 
   return flat_tree;
 
 end;
 
-local function get_node_from_yaml(yaml_tree, node, comment)
-  if   not yaml_tree
-  then eprint("Error, yaml_tree is", yaml_tree);
-       os.exit(1);
-  end;
+local function get_sorted_keys(t)
+  local function ignore_case(a, b) return string.lower(a) < string.lower(b); end;
 
-  if   type(yaml_tree) ~= "table"
-  then eprint("Error, yaml_tree is", type(yaml_tree)); 
-       os.exit(1); 
+  -- print("there are this many keys", #t);
+  local keys = {}
+  local n    = 0;
+  for k, v in pairs(t) 
+  do  n       = n + 1;
+      if   type(k) == "string"
+      then -- keys[n] = k .. "";
+           -- vprint("found key " ..n, k); 
+           table.insert(keys, k);
+      else -- eprint("OOPS type(" .. k .. ")", type(k));
+      end;
   end;
-  if   yaml_tree[node]
-  then vprint("Found the node!", comment .. "[" .. node .. "]");
-       return yaml_tree[node];
-  else for k, v in pairs(yaml_tree)
-       do print(k, v);
-       end;
-  end;
+  -- vprint("ended with n = ", n);
+  -- vprint("there are this many UNsorted keys", #keys);
+  -- vprint("table.concat(keys) are ", table.concat(keys, "; "));
+  table.sort(keys, ignore_case);
+  -- vprint("there are this many sorted keys", #keys);
+  return keys;
 end;
+
+local format_yaml     = {};
 
 local function yaml_error(yaml_tree, unknown_xformat, filename, return_text)
   return_text = return_text == nil or return_text;
@@ -348,7 +357,7 @@ local function yaml_error(yaml_tree, unknown_xformat, filename, return_text)
 end;
 
 local function yaml_common(yaml_tree)
-  local metadata = yaml_common.metadata;
+  local metadata = yaml_tree.metadata;
   return "";
 end;
 
@@ -359,18 +368,154 @@ local function yaml_character(yaml_tree, return_text)
   local slurped = yaml_common(yaml_tree);
 end;
 
-local function yaml_list(yaml_tree, return_text)
-  return_text = return_text == nil or return_text;
+local function yaml_list(yaml_tree, metadata)
+  local errors = false;
+  return_text  = return_text == nil or return_text;
   vprint("yaml xformat is:", "list");
-  local slurped = yaml_common(yaml_tree);
+  local metadata;
+  if   yaml_tree.metadata 
+  then metadata = unpack_yaml_tree(yaml_tree.metadata)
+  else eprint("No METADATA?", "???");
+       errors = true;
+  end;
+
+  local slurped = "\n";
+
+  if   metadata and metadata.title
+  then slurped = slurped .. "# " .. metadata.title .. "\n";
+  else eprint("no title?!", "???");
+       errors = true;
+  end;
+  if   metadata and metadata["list-class"]
+  then slurped = slurped .. string.rep(":", 35);
+       slurped = slurped .. metadata["list-class"];
+       slurped = slurped .. string.rep(":", 35);
+  else eprint("no list-class?", "???");
+       errors = true;
+  end;
+
+  local item_format = metadata and metadata["item-format"];
+
+  if   item_format and format_yaml[item_format]
+  then vprint("item format is ", item_format);
+  else eprint("no item-format???!", "???");
+       errors = true;
+  end;
+
+  local item_list = yaml_tree.list;
+
+  local keys;
+
+  if   item_list
+  then vprint("found the items list", item_list);
+       item_list  = unpack_yaml_tree(item_list);
+       local keys = get_sorted_keys(item_list);
+       vprint("keys:", table.concat(keys, "; "));
+       for _, k in pairs(keys)
+       do  local data = item_list[k];
+           local term = k;
+           if   not data
+           then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST");
+                errors = true;
+                break;
+           end;
+           local item_formatter = format_yaml[item_format];
+           if not item_formatter
+           then eprint("no item formatter?!", item_format);
+                errors = true;
+                break;
+           end;
+     
+           slurped = slurped .. "\n- **" .. term .. "**";
+           slurped = slurped .. item_formatter(data);
+           vprint("defined list entry " .. term, data);
+       end;
+  else eprint("no item list?!", "???");
+       errors = true;
+  end;
+
+  if errors then os.exit(1); end;
+  slurped = slurped .. string.rep(":", 70);
+  return slurped;
+
+end;
+
+local function yaml_minor_character(yaml_tree)
+  local char = unpack_yaml_tree(yaml_tree, "minor character", true);
+  local slurped = "";
+  if   char.gender
+  then slurped = slurped .. "[]{.icon-" .. char.gender .. "} ";
+  end;
+  if   char.bio
+  then slurped = slurped .. char.bio;
+  end;
+  if   char.cf
+  then slurped = slurped .. " See *" .. char.cf .. "*";
+  end;
+  slurped = slurped .. "\n";
+  return slurped;
 end;
 
 local function yaml_glossary(yaml_tree, return_text)
+  local slurped = "\n";
   vprint("yaml xformat is:", "=== GLOSSARY ===");
   return_text = return_text == nil or return_text;
-  local flat_tree = flatten_yaml_tree(yaml_tree);
-  vprint("number of entries:", #yaml_tree);
-  local slurped = yaml_common(yaml_tree);
+  local flat_tree = unpack_yaml_tree(yaml_tree, "yaml_tree", true);
+  vprint("number of entries:", #flat_tree);
+  local keys = get_sorted_keys(flat_tree);
+  -- vprint("keys:", table.concat(keys, "; "));
+  for _, k in pairs(keys)
+  do  -- vprint("type(" .. k ..")", type(k));
+      if   not flat_tree[k]
+      then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST");
+           os.exit(1);
+      end;
+      local term, data    = k, flat_tree[k];
+      -- vprint("term", term);
+      -- vprint("data", inspect(data));
+      if   term ~= "metadata"
+      then local glossary_data = unpack_yaml_tree(data, term, true);
+           local def           = glossary_data.def
+           local hq_equiv      = glossary_data.hq_equiv;
+           if   type(hq_equiv) == "table"
+           then hq_equiv       = unpack_yaml_tree(hq_equiv, term .. ".hq_equiv", true);
+                hq_equiv       = hq_equiv.term; end;
+           local generic_equiv = glossary_data.generic_equiv;
+           if   type(generic_equiv) == "table"
+           then generic_equiv  = unpack_yaml_tree(generic_equiv, term .. ".generic_equiv", true);
+                generic_equiv  = generic_equiv.term;
+           end;
+           if   def
+           then -- vprint(term .. " means:", def);
+                slurped = slurped .. term .. "\n";
+                slurped = slurped .. ":   " .. def;
+           else vprint("==============", "===============");
+                vprint("ERROR " .. term, "no def");
+                -- print(inspect(glossary_data));
+           end;
+           if     (hq_equiv and type(hq_equiv) == "string") and
+                  (generic_equiv and type(generic_equiv) == "string")
+           then   slurped = slurped .. "\n    (";
+                  slurped = slurped .. "*" .. hq_equiv .. "* in Harmony Drive";
+                  slurped = slurped .. "; *" .. generic_equiv .. "* in general TRPG terminology)";
+                  
+           elseif hq_equiv and type(hq_equiv) == "string"
+           then   slurped = slurped .. "\n    (*" .. hq_equiv .. "* in Harmony Drive.)\n\n";
+           elseif generic_equiv and type(generic_equiv) == "string"
+           then   slurped = slurped .. "\n    (*" .. generic_equiv .. "* in general TRPG terminology.)";
+           elseif hq_equiv
+           then   eprint("ERROR hq_equiv exists but is", type(hq_equiv));
+                  os.exit(1);
+           elseif generic_equiv
+           then   eprint("ERROR generic_equiv exists but is", type(generic_equiv));
+                  os.exit(1);
+           end;
+
+           slurped = slurped .. "\n\n";
+      else vprint("skipping metadata", "METADATA METADATA");
+      end;
+  end;
+  return slurped;
 end;
 
 local function yaml_place(yaml_tree, return_text)
@@ -385,13 +530,13 @@ local function yaml_group(yaml_tree, return_text)
   local slurped = yaml_common(yaml_tree);
 end;
 
-local format_yaml     = {};
-format_yaml.character = yaml_character;
-format_yaml.list      = yaml_list;
-format_yaml.glossary  = yaml_glossary;
-format_yaml.place     = yaml_place;
-format_yaml.group     = yaml_group;
-format_yaml.unknown   = yaml_error;
+format_yaml.character          = yaml_character;
+format_yaml.list               = yaml_list;
+format_yaml.glossary           = yaml_glossary;
+format_yaml.place              = yaml_place;
+format_yaml.group              = yaml_group;
+format_yaml.unknown            = yaml_error;
+format_yaml["minor-character"] = yaml_minor_character;
 
 local function slurp_yaml(filename)
 
@@ -403,15 +548,6 @@ local function slurp_yaml(filename)
          print(yaml_text);
          vprint("=== end   " .. comment .. " Yprint", "==============");
     end;
-  end;
-
-  local function ttprint(tab, indent, comment)
-    comment = comment or "";
-    indent  = indent or 2;
-
-    vprint("--- start " .. comment .. " tprint", "-------------");
-    tprint(tab, indent);
-    vprint("--- end   " .. comment .. " tprint", "-------------");
   end;
 
   if filename then vprint("Recognized as YAML location", filename); end;
@@ -452,30 +588,23 @@ local function slurp_yaml(filename)
   vprint("yaml_tree type is", type(yaml_tree));
   vprint("#yaml_tree is",     #yaml_tree     );
 
-  local flat_tree = flatten_yaml_tree(yaml_tree, "yaml_tree (initial)");
+  local flat_tree = unpack_yaml_tree(yaml_tree, "yaml_tree (initial)", true);
 
-  metadata = flat_tree.metadata;
-
-  if   yaml_tree and metadata
+  if   yaml_tree and flat_tree.metadata
   then 
        vprint("YAML tree has metadata!");
        vprint("metadata type is", type(metadata));
-       if   type(metadata) == "table"
-       then vprint("It's a table!", "yes, a table!");
-            for k, v in pairs(metadata)
-            do  if type(v) == "table"
-                then ttprint(v, 2, "metadata[" .. k .. "]");
-                else vprint("metadata[" .. k .. "] = ", v);
-                end;
-            end;
-       else eprint("ERROR: metadata is not", "a table :( :(");
+       metadata = unpack_yaml_tree(flat_tree.metadata, "metadata");
+       if   metadata["x-format"]
+       then xformat = metadata["x-format"];
+            vprint("metadata has x-format!", xformat);
+       else eprint("metadata has no x-format", ":(");
+            os.exit(1);
        end;
   else eprint("YAML tree doesn't have",  "metadata :(");
        success = false;
-       ttprint(yaml_tree, nil, "yaml_tree");
+       -- ttprint(yaml_tree, nil, "yaml_tree");
   end;
-  
-  -- local xformat = get_node_from_yaml(metadata, "x-format", "yaml_tree.metadata");
   
   if   xformat
   then vprint("metadata has x-format!", xformat);
@@ -719,8 +848,8 @@ sprint("Recipe loaded.");
 sprint("reading/parsing files now", #BUILD .. " files");
 for i, v in pairs(BUILD) 
 do  if     v:find("%" .. CONFIG.ext.yaml .. "$")
-    then   outtxt = outtxt .. slurp_yaml(v);
-           vprint("slurping YAML", v);
+    then   vprint("slurping YAML", v);
+           outtxt = outtxt .. slurp_yaml(v);
     elseif v:find("%" .. CONFIG.ext.markdown .. "$")
     then   outtxt = outtxt .. slurp(v, false, false) 
            vprint("slurping", v .. CONFIG.ext.markdown);
