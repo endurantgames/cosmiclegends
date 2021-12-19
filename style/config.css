@@ -108,6 +108,8 @@
   --border-radius       : 6pt 0;
   --border-radius-dice  : 2pt;
   --box-shadow          : 1.5pt 1.5pt;
+  --border-thin         : 0.5pt solid var(--color-line);
+  --border-soapbox      : 0.5pt solid darkgreen;
 
   /* Generated Content ================================================= */
   --lock-gray           : '\00EC83'; --lock-yellow         : '\00EC83';

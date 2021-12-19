@@ -430,7 +430,6 @@ Alien Pet
     Your pet or animal partner isn't from Earth -- or might not even be from 
     this universe, in the case of a magical pet.
 
-    [Monstrosity, Totem]{.crossover .es}
     Whenever you choose a Core Power Word for your Pet, you can choose 
     from the 
     [](#monstrosity-class-personal-power-words){.list-link} or the

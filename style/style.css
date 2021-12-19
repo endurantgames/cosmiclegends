@@ -105,7 +105,7 @@ dd    { margin-left: 1.5em;                            }
 .sidebar { 
   float-placement:   top;
   float-reference:   column;
-  border:            0.5pt solid var(--color-line);
+  border:            var(--border-line);
   border-radius:     var(--border-radius);
   padding-left:      9pt;
   padding-right:     9pt;
@@ -165,7 +165,7 @@ figure figcaption {
   margin-bottom:     1em;
   background-color:  var(--color-toc-white);
   border-radius:     var(--border-radius);
-  border:            0.5pt solid var(--color-line);
+  border:            var(--border-thin);
   padding-right:     6pt;
   padding-top:       4pt;
   padding-bottom:    4pt;
@@ -583,7 +583,7 @@ blockquote {
 .ability-list dl dt {
   background-color:  var(--color-sidebar);
   border-radius:     var(--border-radius) 0;
-  border:            0.5pt solid var(--color-line);
+  border:            var(--border-thin);
   border-bottom:     none;
   break-after:       avoid;
   break-inside:      avoid;
@@ -596,7 +596,7 @@ blockquote {
 }
 
 .ability-list dl dd {
-  border:            0.5pt solid var(--color-line);
+  border:            var(--border-thin);
   border-top:        none;
   padding:           0 4pt;
   border-radius:     0 0 var(--border-radius);
@@ -619,7 +619,7 @@ blockquote {
   margin-top:       1em;
   background:       var(--color-sidebar);
   border-radius:    var(--border-radius);
-  border:           0.5pt solid darkgreen;
+  border:           var(--border-soapbox);
 }
 
 .soapbox.small { 
@@ -2444,7 +2444,12 @@ a.list-link.nopage:after { content: ""; }
 }
 
 .move:after { 
-   content: " phase"; 
+  content: " phase"; 
   font-weight: normal;
 }
 
+dl dd .box-it {
+  border:        var(--border-thin);
+  border-radius: var(--border-radius);
+  box-shadow:    var(--box-shadow);
+}

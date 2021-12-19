@@ -132,7 +132,7 @@ Infernal Wrath
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 1 Hellspawn Class Abilities {#list-class-hellspawn-v1} 
+### Volume 1 Hellspawn Class Abilities
 
 At the start of Volume 1, choose two abilities from this list.
 
@@ -140,26 +140,32 @@ At the start of Volume 1, choose two abilities from this list.
 
 Magicks of Hell
 
-:   You have a variant of the Monstrosity Class's Prime Ability
+:   [Mage]{.crossover}
+    You have a variant of the Monstrosity Class's Prime Ability
     __Price of Magic__: *Hellish Bargain.*
 
-    [Mage]{.crossover}
-    When you use one of your Core or Nova Power Words in a Power Stunt
-    or Combo, count 3s as Edge Successes in addition 1s.
+    In addition, choose one Power Word from the 
+    [](#mage-class-personal-power-words){.list-link}
+    and add it as a Core Power Word. Whenever
+    you pick a Personal Power Word, you can choose from the 
+    [](#hellspawn-class-personal-words){.list-link .nopage}
+    or the 
+    [](#mage-class-personal-power-words){.list-link}.
+    If you choose the latter, add those words as Core Power Words.
 
-    In addition, choose one Power Word from the Mage Class's
-    Personal Power Words List and add it as a Core Power Word. Whenever
-    you pick a Personal Power Word, you can choose from the Hellspawn
-    Class's Personal Power Words list or the Mage Class's
-    Personal Power Words list. If you choose the latter, add those
-    words as Core Power Words.
+    :::::::::: box-it ::::::::::::
+    Hellish Bargain
+
+    :    When you use one of your Core or Nova Power Words in a 
+         Power Stunt or Combo, count 6s as both Edge Successes and 
+         successes.
+    ::::::::::::::::::::::::::::::
 
     Instead of choosing a Hellspawn Class Ability of Volume 3 or
-    higher, you can choose a Mage Class Ability of
-    the same or lower Volume.
-    Auspicious Alliteration (1st), Mists of Misdirection (1st),
-    Talismans of Power (1st), Thinking with Portals (1st), and
-    Arcane Infusion (3rd)
+    higher, you can choose a Mage Class Ability of the same or lower Volume.
+    *Auspicious Alliteration* (1st), *Mists of Misdirection* (1st),
+    *Talismans of Power* (1st), *Thinking with Portals* (1st),
+    *Arcane Infusion* (3rd), and *Healing Mantra* (3rd)
     are among the most applicable Mage Class Abilities to
     consider.
 
@@ -172,7 +178,7 @@ Rhymer
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 2 Hellspawn Class Abilities {#list-class-hellspawn-v2} 
+### Volume 2 Hellspawn Class Abilities
 
 At the start of Volume 2, choose an ability from this list or the Volume 1 list.
 
@@ -187,24 +193,32 @@ Devil's Advocate
 
 God of Evil
 
-:   Your infernal powers come from your connection to an
+:   [Divine, Paragon]{.crossover}
+    Your infernal powers come from your connection to an
     deity, such as Loki, Moros, or Bres.
 
-    You have a variant of the Divine Class's Prime Ability __Give
-    Me Strength!__: *Unholy Empowerment*.
-    When you use your Core or Nova Power Words in a Power Stunt or
-    Combo, you can count 6s as two successes instead of 1.
-    If you do, lose either 1 Health and 1 Might after your roll,
-    regardless of how many extra successes you gained.
+    In addition, choose one Power Word from the 
+    [](#divine-class-personal-power-words){.list-link} or
+    [](#paragon-class-personal-power-words){.list-link} 
+    and add it as a Core Power Word. Whenever
+    you pick a Personal Power Word, you can choose from the 
+    [](#hellspawn-class-personal-words){.list-link .nopage},
+    [](#paragon-class-personal-words){.list-link}
+    or the 
+    [](#divine-class-personal-power-words){.list-link}.
+    If you choose a Paragon or Divine Power Word, add that 
+    word as a Core Power Word.
 
-    [Divine, Paragon]{.crossover}
-    In addition, choose one Power Word from the Divine Class
-    or Paragon Class Personal Power Word Lists, and add it as
-    a Core Power Word. Whenever you add a Personal Power Word,
-    you can choose from the Hellspawn Class's Personal Power
-    Words list or the Divine Class's Personal Power Words list.
-    If you choose from the latter, add those words as Core Power 
-    Words.
+    You have a variant of the Divine Class's Prime Ability __Give
+    Me Strength!__: *Dread Might*.
+
+    ::::::::::: box-it :::::::::
+    Dread Might
+    :    When you use your Core or Nova Power Words in a Power Stunt or
+         Combo, you can count 6s as two successes instead of 1.
+         If you do, lose either 1 Health and 1 Might after your roll,
+         regardless of how many extra successes you gained.
+    ::::::::::::::::::::::::::::
 
     Instead of choosing a Hellspawn Class Ability of Volume 3 or
     higher, you can choose a Divine or Paragon Class Ability of
@@ -237,7 +251,7 @@ Fiendish Destroyer
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 3 Hellspawn Class Abilities {#list-class-hellspawn-v3} 
+### Volume 3 Hellspawn Class Abilities
 
 At the start of Volume 3, choose an ability from this list or any previous list.
 
@@ -250,7 +264,7 @@ Flames of Hell
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 4 Hellspawn Class Abilities {#list-class-hellspawn-v4} 
+### Volume 4 Hellspawn Class Abilities
 
 At the start of Volume 4, choose an ability from this list or any previous list.
 
@@ -288,7 +302,7 @@ My Own Personal Hell
 
 :::::::::::::::::::::::::::::::::::::
 
-### Volume 5 Hellspawn Class Abilities {#list-class-hellspawn-v5} 
+### Volume 5 Hellspawn Class Abilities
 
 At the start of Volume 5, choose an ability from this list or any previous list.
 
