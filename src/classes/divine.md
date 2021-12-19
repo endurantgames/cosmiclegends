@@ -201,8 +201,30 @@ Courage of Ares
 
 Speed of Hermes
 
-:   You can run -- or fly, if you have Flight as a Power Word --
+:   You can move at godly speed.
+
+    You can run -- or fly, if you have Flight as a Power Word --
     at speeds approaching Mach 1.
+
+    [Speedster]{.crossover}
+    You have a variant of the Speedster Class's __Ignore The Laws of Physics__ 
+    Prime Ability: *Bend the Laws of Physics*
+
+    Your speed lets you bend the standard laws of Newtonian physics --
+    you can ignore the effects of inertia and start, stop, or turn on
+    dime, instantly; you don't suffer any negative effects from moving
+    at excessive speed, such as wind burn, and you're able to breathe
+    normally -- as well as ignoring relativistic effects from moving
+    near the speed of light.
+
+    Instead of choosing a Divine Class Ability of Volume 3 or higher,
+    you can choose a Speedster Class Ability of the same or lower
+    Volume. *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
+    *Burst of Speed (2nd)*, *Evacuate the Bystanders (3rd)*, 
+    *Human Whirlwind (3rd)*, *Untouchable (4th)*, and 
+    *Instant Power Recovery (4th)* are among the most 
+    applicable Speedster Class Abilities to consider.
+
     The Timely Arrival move costs you 0 points from the 
     Teamwork Pool.
 
@@ -214,8 +236,10 @@ Temple of the Gods
     teleport yourself to your Temple. Add 2 dice whenever you
     skill roll while in your Temple of the Gods.
     Choose two Scene Power Words for your Temple from the
-    [](#list-hero-cave-power-words){.list-link}. In addition,
-    choose one of the following as a third Scene Word:
+    [](#list-hero-cave-power-words){.list-link}. 
+
+    In addition, choose one of the following as a third Scene Word:
+
     ::::::: cpw :::::::::::::
     - Divine
     - Hallowed
@@ -223,7 +247,9 @@ Temple of the Gods
     - Quiet
     - Shrine
     :::::::::::::::::::::::::
+
     This is a *Hero Cave* Ability.
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Divine Class Abilities {#list-divine-abilities-v3}

@@ -299,6 +299,8 @@ Faster than a Speeding Bullet
     *Untouchable (4th)*, and *Instant Power Recovery (4th)* 
     are among the most applicable Speedster Class Abilities to consider.
 
+    The Timely Arrival move costs you 0 points from the Teamwork Pool.
+
 Strange Visitor from Another Planet
 
 :   You aren't from Earth, but are instead from another planet
