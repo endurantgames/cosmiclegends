@@ -118,6 +118,7 @@
     - bio: 
     - ally:     true
     - active:   true
+    - membership-complex: true
     - members:
       - Titan:
         - active: yes
@@ -147,6 +148,7 @@
           - gender: female
       - Foreigners:
         - active:   no
+        - resigned: yes
         - rep:
           - name:   none
   - Visitors:

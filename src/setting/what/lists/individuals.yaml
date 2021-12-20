@@ -8,106 +8,107 @@
   - Balor:
     - gender: male
     - cf: Villains, Inc.
-    - villain: yes
+    - villain: "yes"
   - Bres:
     - gender: male
     - bio: Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
-    - villain: yes
+    - villain: "yes"
   - "Far-Seeker":
     - gender: female
-    - bio: N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends
+    - bio: "N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends."
     - full_name: Nora Jamila Campbell
-    - hero: yes
+    - hero: "yes"
   - Dindrane:
     - gender: female
-    - bio: Immortal wizard; sister of Percival, the Grailknight.
-    - ally: yes
+    - bio: "Immortal wizard; sister of Percival, the Grailknight."
+    - ally: "yes"
+    - cf: Pervical, the Grailknight
   - Gloom:
     - gender: male
     - bio: Independent hero and former student at Technopolis Academy with darkness and emotion powers.
-    - hero: yes
+    - hero: "yes"
   - Glytch:
     - gender: trans
     - cf: Villains, Inc.
-    - villain: yes
+    - villain: "yes"
   - The Hornette:
     - gender: trans
     - bio: Alias used by Lin Montgomery to infiltrate Villains, Inc. 
     - cf: Vespa 2.0
-    - villain: yes
+    - villain: "yes"
   - Hyperion:
     - gender: trans
     - bio: Renegade Sentinel of Saturn and frequent enemy of Titan.
-    - villain: yes
+    - villain: "yes"
   - Igneia Vulcanor:
     - gender: female
     - cf: Villains, Inc.
-    - villain: yes
+    - villain: "yes"
   - Kaleidoscope Kidd:
     - gender: trans
     - bio: Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
-    - hero: yes
+    - hero: "yes"
   - Limuo Pele:
     - gender: female
     - bio: Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
-    - ally: yes
+    - ally: "yes"
   - Lucky Star:
     - gender: female
     - bio: Teen heroine with luck-based powers, residing in St. Louis. Member of the Junior Legends of America.
-    - hero: yes
+    - hero: "yes"
   - The Man in Black:
     - gender: male
     - bio: Sorceror and arch-enemy of Obsidius Rex.
-    - villain: yes
+    - villain: "yes"
   - Marlinspike:
     - gender: male
-    - deceased: yes
+    - deceased: "yes"
     - bio: Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
-    - hero: yes
+    - hero: "yes"
   - Magnus Merlyn Malign, Marquis of Vadyvokia:
     - gender: male
     - bio: Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0. 
-    - villain: yes
+    - villain: "yes"
   - Master Magister (John A. Dee VI):
     - gender: male
     - retired: true
     - bio: Grandfather of Jack Dee.
-    - ally: yes
+    - ally: "yes"
   - Neutrino:
     - gender: female
     - bio: Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
-    - villain: yes
+    - villain: "yes"
   - Dr. Phineas Pann:
     - gender: male
     - cf: Villains, Inc.
-    - villain: yes
+    - villain: "yes"
   - Sandra Starr:
     - gender: female
     - bio: Agent of A.L.E.R.T. and liaison to the Cosmic Legends.
     - cf: A.L.E.R.T.
-    - ally: yes
+    - ally: "yes"
   - Sequana:
     - gender: female
     - cf: Villains, Inc.
-    - villain: yes
+    - villain: "yes"
   - Sreng:
     - gender: male
     - cf: Villains, Inc.
-    - villain: yes
+    - villain: "yes"
   - Tachylus Rex:
     - gender: male
     - bio: King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
-    - ally: yes
+    - ally: "yes"
   - Tethys (My'Rinn To'Rezz):
     - gender: trans
     - bio: Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
-    - hero: yes
+    - hero: "yes"
   - The Verdict:
     - gender: male
-    - bio: Former district attorney and anti-hero known for delivering extra-judicial punishments; wanted by both A.L.E.R.T. and Villains, Inc.
-    - villain: yes
-    - hero: yes
+    - bio: Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.
+    - villain: "yes"
+    - hero: "yes"
   - Xana Mega:
     - gender: female
     - bio: Faerie queen of the Aos Sí and arch-enemy of Sir Percival. 
-    - villain: yes
+    - villain: "yes"
