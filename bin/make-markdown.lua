@@ -458,6 +458,10 @@ local function yaml_list(yaml_tree)
        errors = errors + 1;
   end;
  
+  if   metadata and metadata.text
+  then slurped = slurped .. "\n\n" .. metadata.text .. "\n\n";
+  end;
+
   if   metadata and metadata["list-class"]
   then slurped = slurped .. string.rep(":", 35);
        slurped = slurped .. metadata["list-class"];
@@ -498,6 +502,12 @@ local function yaml_list(yaml_tree)
                      break;
                 end; -- not data
 
+                if   data.definite 
+                then vprint("===================", "---------------------");
+                     vprint("definite article on", term); 
+                     term = "The " .. term; 
+                     vprint("===================", "---------------------");
+                end;
                 slurped         = slurped .. "\n- **" .. term .. "**";
                 local item_info = item_formatter(data);
                 vprint("defined list entry " .. term, item_info);
@@ -532,8 +542,14 @@ local function yaml_minor_character(yaml_tree)
   if   char.bio
   then slurped = slurped .. char.bio;
   end;
-  if   char.cf
-  then slurped = slurped .. " See *" .. char.cf .. "*";
+  if   char.cf and type(char.cf) ~= "table"
+  then if     type(char.cf) == "string" 
+       then   slurped = slurped .. " See *" .. char.cf .. "*"; 
+       elseif type(char.cf) == "table"
+       then   local char_cf = table.concat(char.cf, ", ");
+              slurped = slurped .. " See *" .. char_cf .. "*";
+       end;
+         
   end;
   slurped = slurped .. "\n";
   return slurped;

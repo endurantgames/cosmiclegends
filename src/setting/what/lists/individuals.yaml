@@ -4,6 +4,8 @@
   - "list-class": other-list
   - "item-format": minor-character
   - anchor: setting-other-individuals
+  - text: |
+      This is a list of other individuals active in the CLotU Universe.
 - list:
   - Balor:
     - gender: male
@@ -32,6 +34,7 @@
     - cf: Villains, Inc.
     - villain: "yes"
   - The Hornette:
+    - definite: yes
     - gender: trans
     - bio: Alias used by Lin Montgomery to infiltrate Villains, Inc. 
     - cf: Vespa 2.0
@@ -57,6 +60,7 @@
     - bio: Teen heroine with luck-based powers, residing in St. Louis. Member of the Junior Legends of America.
     - hero: "yes"
   - The Man in Black:
+    - definite: true
     - gender: male
     - bio: Sorceror and arch-enemy of Obsidius Rex.
     - villain: "yes"
@@ -89,9 +93,11 @@
     - ally: "yes"
   - Sequana:
     - gender: female
-    - cf: Villains, Inc.
+    - bio: A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.
+    - cf: [Brigantia, "Villains, Inc."]
     - villain: "yes"
   - Sreng:
+    - bio: Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace.
     - gender: male
     - cf: Villains, Inc.
     - villain: "yes"
@@ -104,6 +110,7 @@
     - bio: Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
     - hero: "yes"
   - The Verdict:
+    - definite: yes
     - gender: male
     - bio: Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.
     - villain: "yes"
@@ -112,3 +119,4 @@
     - gender: female
     - bio: Faerie queen of the Aos Sí and arch-enemy of Sir Percival. 
     - villain: "yes"
+

@@ -5,8 +5,11 @@
   - "item-format": group
   - "yaml_version": 1.2
   - "list-class": other-list
+  - text: |
+      This is a listing of other groups known to be active in the universe of the
+      Cosmic Legends.
 - list:
-  - Aos Sí:
+  - The Aos Sí:
     - bio: "Faeries of Otherworld formerly ruled by Xana Mega."
     - active: true
     - definite: true
@@ -15,35 +18,35 @@
     - bio: "A team of mercenaries using nuclear-powered battlesuits."
     - active: true
     - villain: true
-  - Crime Institute:
+  - The Crime Institute:
     - definite: true
     - active: false
     - disbanded: true
     - bio: "The school created by Villains, Inc. to rival Technopolis Academy and train super-villains."
     - cf: "Villains, Inc"
     - villain: true
-  - Firbolgs:
+  - The Firbolgs:
     - definite: true
     - bio: "Otherworld pantheon opposing the Tuatha Dé Danann. They usually act through their Hero, Sreng of Villains, Inc."
     - cf: [Tuatha Dé Danann, "Villains, Inc."]
     - active: true
     - villain: true
-  - Fomorians:
+  - The Fomorians:
     - definite: true
     - bio: "Mythological giants from Otherworld; enemies of the Tuatha Dé Danann, Brigantia, and the Cosmic Legends."
     - active: true
     - villain: true
-  - Junior Legends of America:
+  - The Junior Legends of America:
     - active: true
     - definite: true
     - hero: true
     - bio: Team of teenage and young adult heroes, many of whom attended Technopolis Academy. Although they've collectively been offered membership in the Cosmic Legends, most have preferred to stay members of the JLA instead.
-  - "Kyl'Sh'Tal":
+  - "The Kyl'Sh'Tal":
     - definite: true
     - active: true
     - bio: "Titanese name for the Sentinels of Saturn, superpowered guardians who watch for the return of the Visitors."
     - hero: true
-  - "Ro'Tan'Okk":
+  - "The Ro'Tan'Okk":
     - definite: true
     - bio: "The Titanian people, in their own language. Notable individuals include Titan, Tethys, and Hyperion."
     - ally: true
@@ -52,7 +55,7 @@
     - bio: "Four-year and graduate university located in Sun City, U.S.A."
     - active: true
     - ally: true
-  - Specialists:
+  - The Specialists:
     - definite: true
     - active: false
     - hero: true
@@ -63,7 +66,7 @@
       - spec two:
       - spec three:
       - spec four:
-  - Foreigners:
+  - The Foreigners:
     - definite: the
     - active: true
     - hero: false
@@ -76,7 +79,7 @@
       - Settlers:
         - member three:
         - member four:
-  - "G.I. Dinosaurs":
+  - "The G.I. Dinosaurs":
     - definite:  true
     - active:    false
     - hero:      true
@@ -92,7 +95,7 @@
     - active: true
     - villain: true
     - cf: "A.L.E.R.T."
-  - Vulcanor Royal Family:
+  - The Vulcanor Royal Family:
     - definite: true
     - ally: true
     - active: true
@@ -113,7 +116,7 @@
         - gender:   male
         - leader:   true
     - cf: Obsidius Rex
-  - Interstellar Consortium of Civilizations:
+  - The Interstellar Consortium of Civilizations:
     - definite: true
     - bio: 
     - ally:     true
@@ -151,7 +154,7 @@
         - resigned: yes
         - rep:
           - name:   none
-  - Visitors:
+  - The Visitors:
     - definite: true
     - villain: true
     - bio: "Alien species with vast powers over space and time; creators of the Titanian, Vulcanor, and Foreigner races."
