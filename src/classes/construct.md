@@ -143,15 +143,13 @@ biological humanity. Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **Engine of Destruction** Prime ability common 
-to all Monstrosities.
+Your hero has the **TBD** Prime ability common 
+to all Constructs.
 
 :::::: {.ability-list .prime }::::::::::
-Engine of Destruction
+To Be Determined
 
-:   When you use your Core or Nova Power Words in a Power Stunt
-    or Combo to advance the Smash goal, add 
-    add 2 to the Effectiveness.
+:   TBD
 
 ::::::::::::::::::::::::::::::::::::::::::
 

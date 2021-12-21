@@ -483,6 +483,326 @@ local function yaml_char_power_words(stats_power_words)
   return markdown;
 end;
 
+local function yaml_sheet_approaches(sheet_approaches)
+  local  approaches = unpack_yaml_tree(sheet_approaches);
+  if not approaches or not type(approaches) == "table" then return "" end;
+  local  markdown = "";
+
+  local function one_approach(a)
+    if approaches[a]
+    then markdown = markdown .. "\n[" .. approaches[a] .. "]{.pregen-facet ." .. a .. "}";
+    end;
+  end;
+
+  one_approach("action");
+  one_approach("adventure");
+  one_approach("detective");
+  one_approach("mystery");
+  one_approach("suspense");
+
+  return markdown;
+end;
+
+local function yaml_sheet_basics(sheet_stats)
+  local  stats = unpack_yaml_tree(sheet_stats);
+  if not stats or not type(stats) == "table" then return "" end;
+
+  local markdown = "";
+  if   stats.name and type(stats.name) == "string"
+  then markdown = markdown .. "\n[" .. stats.name .. "]{.pregen-name}";
+  end;
+
+  if stats.class and type(stats.class) == "string"
+  then markdown = markdown .. "\n[" .. stats.class .. "]{.pregen-class}";
+  end;
+
+  if stats.health and type(stats.health) == "number"
+  then markdown = markdown .. "\n[" .. stats.health .. "]{.pregen-health}";
+  end;
+
+  if stats.might and type(stats.might) == "number"
+  then markdown = markdown .. "\n[" .. stats.might .. "]{.pregen-might}";
+  end;
+
+  if stats.fighting_style and type(stats.fighting_style) == "table"
+  then local bag = {};
+       local fighting_styles = unpack_yaml_tree(stats.fighting_style);
+       for fs, fs_info in pairs(fighting_styles)
+       do  local str = "\n[**" .. fs .. "**";
+           if type(fs_info) == "table" and fs_info.desc and type(fs_info) == "string"
+           then str = str .. " " .. fs_info.desc
+           end;
+	   str = str .. "]";
+           markdown = markdown .. str;
+       end;
+  end;
+
+  if   stats.volume and type(stats.volume) == "number"
+  then markdown = markdown .. "\n[" .. stats.volume .. "]{.pregen-volume .box .v1}";
+  else markdown = markdown .. "\n[]{.pregen-volume .box .v1}";
+  end;
+
+  if   stats.storyline and type(stats.storyline) == "string"
+  then markdown = markdown .. "[" .. stats.storyline .. "]{.pregen-storyline}";
+  end;
+
+  return markdown;
+end;
+
+local function yaml_sheet_bio(bio)
+  if not bio or not type(bio) == "table" then return ""; end;
+  local markdown = "";
+
+  if   bio.desc and type(bio.desc) == "string"
+  then markdown = markdown .. "\n[" .. bio.desc .. "]{.pregen-bio}";
+  end;
+
+  if bio.gender and type(bio.gender) == "table"
+  then local gender = unpack_yaml_tree(bio.gender);
+       if   gender.pronouns
+       then markdown = markdown .. "\n[" .. gender.pronouns .. "]{.pregen-pronouns}";
+       end; -- if pronouns
+  end; -- if bio gender
+
+  if   bio.name and bio.real_name and bio.name ~= bio.real_name
+  then markdown = markdown .. "\n[" .. bio.real_name .. "]{.pregen-nickname}";
+  end;
+  return markdown;
+end;
+
+local function yaml_sheet_face(sheet_picture)
+  if not sheet_picture or not type(sheet_picture) == "table" then return "" end;
+  local markdown = "";
+  if   sheet_picture.face and type(sheet_picture.face) == "string" and
+       sheet_picture.alt  and type(sheet_picture.alt)  == "string"
+  then markdown = markdown .. "![" .. sheet_picture.alt .. "](" .. sheet_picture.face .. "){.pregen-face} \\";
+  end;
+
+  return markdown;
+end;
+local function yaml_sheet_skills(stats_skills)
+  if not sheet_skills or not type(sheet_skills) == "table" then return ""; end;
+  local markdown = string.rep(":", 10) .. " pregen-skills " .. string.rep(":", 10);
+  
+  for _, skillname in ipairs(sheet_skills)
+  do  markdown = markdown .. "\n[" .. skillname .. "]{.pregen-skill}";
+  end;
+
+  markdown = markdown .. string.rep(":", 30);
+  return markdown
+end;
+
+local function yaml_sheet_power_words(stats_power_words)
+  if not sheet_power_words or not type(stats_power_words) == "table" then return ""; end;
+  local markdown = "";
+
+  local function pw_category(cat)
+    if   sheet_power_words[cat] and type(sheet_power_words[core]) == "table"
+    then markdown = markdown .. string.rep(":", 10) .. " pregen-" .. cat .. " " .. string.rep(":", 10);
+         local catwords = unpack_yaml_tree(sheet_power_words[cat]);
+         for _, word in ipairs(catwords)
+         do  markdown = markdown .. "\n[" .. word .. "]{.pregen-word}";
+         end;
+    else eprint("error! missing " .. cat .. " power words!");
+         os.exit(1);
+    end;
+    markdown = markdown .. string.rep(":", 30);
+  end;
+
+  pw_category("core");
+  pw_category("personal");
+  pw_category("nova");
+
+  return markdown
+end;
+
+local function yaml_sheet_abilities(stats_abilities)
+  if not sheet_abilities or not type(stats_abilities) == "table" then return "" end;
+
+  local markdown = "";
+
+  for i, ability in ipairs(stats_abilities)
+  do local ability_md = "";
+     if     type(ability) == "string" and i == 1
+     then   ability_md = ability_md .. "[**" .. ability .. "]{.pregen-ability-class}";
+     elseif type(ability) == "table"
+     then   local ability_data = unpack_yaml_tree(ability);
+            if   type(i) == "string"
+            then ability_md = ability_md .. "[**" .. i .. "**";
+                 if   ability_data.desc and type(ability_data.desc) == "string"
+                 then ability_md = ability_md .. ability_data.desc;
+                 end; -- if type desc string
+            end; -- if type i string
+            if   ability_data.volume and type(ability_data.volume) == "number"
+            then ability_md = ability_md .. "]{.pregen-ability-v" .. ability_data.volume .. "}";
+            elseif ability_data.volume and type(ability_data.volume) == "string"
+            then   ability_md = ability_md .. "]{.pregen-ability-" .. ability_data.volume .. "}";
+	    end; -- if ability_data.volume
+     end; -- if type ability string
+     markdown = markdown .. ability_md;
+  end; -- for i, ability
+  return markdown;
+end;
+
+local function yaml_sheet_ideals(stats_ideals)
+  if not stats_ideals or not type(stat_ideals) == "table" then return "" end;
+  local markdown = "";
+
+  for i, ideal in pairs(stats_ideals)
+  do  if   type(ideal) == "string"
+      then markdown = markdown .. "\n[ " .. ideal .. "]{.pregen-ideal .pregen-i" .. i .. "}";
+      end;
+  end;
+
+  return markdown;
+end;
+
+local function yaml_sheet(yaml_tree)
+  local sheet, metadata, markdown = yaml_common(yaml_tree);
+  if   not sheet or not type(sheet) == "table"
+  then return "" end;
+
+  markdown = [===[
+::::::::::::::::::::::::::::::::: {.herosheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Hero Sheet]{#anchor-herosheet .anchor}
+
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
+[A.K.A.]{.label .nickname}
+[Name]{.label .name}
+[Pronouns]{.label .pronouns}
+[Max]{.label .health-max}
+[Max]{.label .might-max}
+[Class]{.label .class}
+[Nova Power Words]{.label .nova}
+[Core Power Words]{.label .core}
+[Personal Power Words]{.label .personal}
+[Class Ability]{.label .class-ability}
+[Skills]{.label .skills}
+[Fighting Styles]{.label .fighting-styles}
+[Volume 1 Ability]{.label .volume-ability .v1}
+
+[Health]{.label .health}
+[Might]{.label .might}
+
+[Volume]{.label .volume}
+[]{.box .b5 .volume-boxes}
+[]{.box .b1 .motiv .m1}
+[]{.box .b1 .motiv .m2}
+[]{.box .b1 .motiv .m3}
+[]{.box .b1 .motiv .m4}
+[]{.box .b1 .motiv .m5}
+[Ideal]{.label .motiv .m1}
+[Ideal]{.label .motiv .m2}
+[Ideal]{.label .motiv .m3}
+[Ideal]{.label .motiv .m4}
+[Ideal]{.label .motiv .m5}
+[]{.box .b1 .nova-unlocked}
+[Unlocked]{.label .nova-unlocked}
+[]{.box .b1 .arc-complete}
+[Completed]{.label .arc-complete}
+
+[Volume 2 Ability]{.label .volume-ability .v2}
+[Volume 3 Ability]{.label .volume-ability .v3}
+[Volume 4 Ability]{.label .volume-ability .v4}
+[Volume 5 Ability]{.label .volume-ability .v5}
+
+[Appearance]{.label .bio}
+[Storyline]{.label .story-arc}
+
+[Action]{.label .facet .action}
+[Adventure]{.label .facet .adventure}
+[Detective]{.label .facet .detective}
+[Mystery]{.label .facet .mystery}
+[Suspense]{.label .facet .suspense}
+
+[Goals ]{.goal .label .g0}
+[Smash ]{.goal .label .g1}
+[Outwit]{.goal .label .g2}
+[Allay ]{.goal .label .g3}
+[Rescue]{.goal .label .g4}
+
+[Symbol]{.label .symbol}
+
+[Ethos            ]{.label .ethos .e0}
+[Self Expression  ]{.label .ethos .e1}
+[Teamwork         ]{.label .ethos .e2}
+[Difficult Choices]{.label .ethos .e3}
+
+[Retcon             ]{.safety .label .s1}
+[Continued Next Page]{.safety .label .s2}
+[Meanwhile, ...     ]{.safety .label .s3}
+[Later That Day, ...]{.safety .label .s4}
+
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
+
+[Crisis Countdown           ]{.label .crisis .c0}
+[5. Set the Scene           ]{.label .crisis .c5}
+[4. Hero Roll-Call          ]{.label .crisis .c4}
+[3. Define the Goals        ]{.label .crisis .c3}
+[2. Assemble Teamwork Pool  ]{.label .crisis .c2}
+[1. Crisis Begins!          ]{.label .crisis .c1}
+[Hero Turn                  ]{.label .crisis .cht}
+[Crisis Turn                ]{.label .crisis .cct}
+[Post-Crisis                ]{.label .crisis .cpost}
+
+[Hero Turn                  ]{.label .action .aht}
+[General Alert              ]{.label .action .a1}
+[Timely Arrival             ]{.label .action .a2}
+[Advance a Goal             ]{.label .action .a3}
+[Join a Power Combo         ]{.label .action .a4}
+[Add to Teamwork Pool       ]{.label .action .a5}
+[Crisis Turn                ]{.label .action .act}
+[Take the Hit               ]{.label .action .a6}
+[Counter a Crisis Effect    ]{.label .action .a7}
+
+]===];
+
+  markdown = markdown .. string.rep(":", 20) .. " pregen " .. string.rep(":", 20);
+
+  if    not sheet.stats or not type(sheet.stats) == "table" 
+  then  markdown = markdown .. string.rep(":", 50);
+        return markdown 
+  end;
+
+  local stats = unpack_yaml_tree(sheet.stats);
+
+  if    stats.approaches and type(stats.approaches) == "table"
+  then  markdown = markdown .. yaml_sheet_approaches(stats.approaches);
+  else  eprint("Error!", "no approaches");
+        os.exit(1);
+  end;
+
+  markdown = markdown .. yaml_sheet_basics(stats);
+
+  if   sheet.bio and type(sheet.bio) == "table"
+  then markdown = markdown .. yaml_sheet_bio(sheet.bio);
+  end;
+
+  if   sheet.picture and type(sheet.picture) == "table"
+  then markdown = markdown .. yaml_sheet_face(sheet.picture);
+  else eprint("no picture found!", sheet.name);
+  end;
+
+  if   stats.power_words and type(stats.power_words) == "table"
+  then markdown = markdown .. yaml_sheet_power_words(stats.power_words);
+  else eprint("Error!", "no power words");
+       os.exit(1);
+  end;
+
+  if     stats.ideals and type(stats.ideals) == "table"
+  then   markdown = markdown .. yaml_sheet_ideals(stats.ideals);
+  elseif type(stats.ideals) == "string"
+  then   local ideals_list = split(stats.ideals, ",");
+         markdown = markdown .. yaml_sheet_ideals(ideals_list);
+  end;
+
+  markdown = markdown .. string.rep(":", 50);
+  return markdown;
+end;
+
 local function yaml_character(yaml_tree)
   local character, metadata, markdown = yaml_common(yaml_tree);
   vprint("yaml xformat is:", "character");
@@ -552,6 +872,8 @@ local function yaml_character(yaml_tree)
             markdown = markdown .. "\n\n" .. "**History:**" .. "\n\n";
             markdown = markdown .. character.history;
        else eprint("we don't have history :(");
+	  local sheet, metadata, markdown = yaml_common(yaml_tree);
+	  return markdown;
        end;
 
        if   character.powers
@@ -939,21 +1261,12 @@ format_yaml.glossary                = yaml_glossary;
 format_yaml.place                   = yaml_place;
 format_yaml.group                   = yaml_group;
 format_yaml.unknown                 = yaml_error;
+format_yaml["character-sheet"]      = yaml_sheet;
 format_yaml["item:minor-character"] = yaml_minor_character;
 format_yaml["item:location"]        = yaml_place;
 format_yaml["item:group"]           = yaml_group;
 
 local function slurp_yaml(filename)
-
-  -- local function yprint(tab, comment)
-    -- if   type(tab) ~= "table"
-    -- then eprint("Error!", comment .. " is not a table");
-    -- else local yaml_text = lyaml.dump(tab);
-         -- vprint("=== start " .. comment .. " Yprint", "==============");
-         -- print(yaml_text);
-         -- vprint("=== end   " .. comment .. " Yprint", "==============");
-    -- end;
-  -- end;
 
   if filename then vprint("Recognized as YAML location", filename); end;
 
@@ -970,8 +1283,6 @@ local function slurp_yaml(filename)
   if   yaml_source
   then vprint("size of yaml_source", string.len(yaml_source) .. " bytes");
   end;
-
-  -- filename = "(inline YAML)";
 
   if   type(yaml_source) == "string"
   then
@@ -1174,13 +1485,14 @@ local function recipe_list()
     sprint("Recipe directory", CONFIG.recipe_dir);
     for k, v in pairs(files)
         do print(string.format(CONFIG.logformat,
-              v.path .. v.name,  CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
+              v.path .. v.name,  
+	      CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
               )); end;
 
     os.exit(1);
 end;
 
--- =======================================================================================================================
+-- ========================================================================================================
 -- Command line interface
 -- https://lua-cliargs.netlify.com/#/
 
@@ -1216,12 +1528,12 @@ if args.outfile then CONFIG.outfile = args.outfile end;
 
 --
 
--- =======================================================================================================================
+-- ====================================================================================================================
 -- Everything above this is initializion
--- =======================================================================================================================
--- =======================================================================================================================
--- =======================================================================================================================
--- =======================================================================================================================
+-- ====================================================================================================================
+-- ====================================================================================================================
+-- ====================================================================================================================
+-- ====================================================================================================================
 
 -- start run ------------------------------------------------------------------------------
 vprint("Running in verbose mode");
@@ -1250,7 +1562,7 @@ sprint("Recipe loaded.");
 
 -- ready now to read files
 sprint("reading/parsing files now", #BUILD .. " files");
-for i, v in pairs(BUILD)
+for _, v in pairs(BUILD)
 do  if     v:find("%" .. CONFIG.ext.yaml .. "$")
     then   vprint("slurping YAML", v);
            outtxt = outtxt .. slurp_yaml(v);
@@ -1270,7 +1582,7 @@ dump(outfile, outtxt);
 -- notify of errors
 sprint("number of errors", (#ERR or 0) .. " error" .. ((#ERR and #ERR == 1) and "" or "s" ));
 if #ERR
-   then for i, v in pairs(ERR)
+   then for _, v in pairs(ERR)
         do local errmsg = "Alert: Missing file";
            if string.find(v, CONFIG.index .. "$") then errmsg = "Warning: Missing index"; end;
            eprint(errmsg, v)

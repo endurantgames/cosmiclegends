@@ -1,11 +1,12 @@
 - metadata:
   - yaml_version: 1.2
   - x-format: character-sheet
-  - title: &title "Adam-42: O.O.P.F."
+  - title: &title "Adam-42: <span class=\"shrink2\">One-Officer Police Force</span>"
   - anchor: setting-adam-42
 - picture:
   - url: art/jeshields/construct.png
   - alt: "Adam-42: One-Officer-Police-Force"
+  - face: art/jeshields/construct_face.png
 - bio:
   - name: *title
   - real_name: "Martin \"Adam X. Lii\" McCord"
@@ -37,6 +38,14 @@
     Officially, McCord is dead -- but with the right prosthetic mask,
     he can pass among humans as Adam Lii, the newest recruit of the
     Los Angeles Police Department.
+- sheet-config:
+  - shrink:
+    - bio: true
+    - name: true
+    - class: true
+    - personal_pw: true
+  - "shrink2":
+    - bio: name
 - stats:
   - name: *title
   - class: The Construct
@@ -47,7 +56,57 @@
     - core: [Synthetic, Sentience]
     - personal: [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
     - nova: [One, Officer, Police, Force]
-  - abilities: [Energy Reserve, Fight Fire With Fire, TBD]
-  - fighting_styles: [Brawler, Guerilla, Interceptor, Sharpshooter, Rescuer, Weaponmaster]
-  - skills: [Deputy, Engineer, Hacker, Investigator, Lawyer]
+  - abilities: 
+    - To Be Determined:
+      - volume: core
+      - class: construct
+      - desc: |
+          To Be Determined
+    - "Purpose-Built":
+      - volume: 1
+      - class: construct
+      - desc: |
+          Add up to two Power Words from the Dynamo Energy Core Power Word list,
+          up to two Power Words from the Shaper Element Core Power Words list, and
+          up to two Power Words from the Inventor Personal Power Words list as
+          Personal Power Words.
+    - Unique Energy Source:
+      - volume: 1
+      - class: construct
+      - crossover: dynamo
+      - desc: |
+          Add one word Power Word from the Dynamo Energy Core Power Word list as a
+          Core Power Word, and up to three Power Words from the Dynamo Class 
+          Personal Power Word list as Personal Power Words.
+  
+          Increase your maximum Might by \5.
+  
+          You have a variant of the Dynamo Class's \*Energy Reserve\* Prime Ability,
+          \*Self-Regenerating Energy Source\*.
+    - "Self-Regenerating Energy Source":
+      - volume: variant
+      - class: dynamo
+      - desc: |
+          If you start a Hero Phase with fewer than \2 Might, immediately regain
+          Might equal to the Volume.
+  - fighting_styles: 
+    - Brawler: 
+      - desc: "Add 2 dice when you use an unarmed attack to advance the Smash goal."
+    - Guerilla: 
+      - desc: "Add 2 dice when you use a Scene power word to roll to advance any goal or add to the Teamwork Pool."
+    - Interceptor:
+      - desc: "Reduce by 1 the cost to Take the Hit for someone else."
+    - Sharpshooter:
+      - desc: "Add 2 dice when you use a ranged Weapon to advance the Smash goal."
+    - Rescuer:  
+      - desc: "Add 2 dice when you roll to advance the Rescue Goal."
+    - Weaponmaster:
+      - desc: "Add 2 dice when you use a melee Weapon power word to roll to advance the Outwit goal."
+  - skills: 
+    - Deputy: 
+    - Engineer:
+    - Hacker: 
+    - Investigator:
+    - Lawyer:
   - ideals: [Angst, Guilt, Duty, Law, Pain, Obedience, Violence]
+  - storyline: "I want Adam-42 to __encounter Martin's \"widow\".__"

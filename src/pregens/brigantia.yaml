@@ -19,10 +19,14 @@
     - Cosmic Legends of the Universe:
       - active:     true
   - base:   ["Dublin, Ireland", "Sun City, U.S.A."]
-  - Height: "(as Sienna) 5'2\" (as Brigantia) 7'2\""
-  - Weight: "(as Sienna) 145 lbs. (as Brigantia) 340 lbs."
-  - Eyes:   "(as Sienna) green (as Brigantia) green"
-  - Hair:   "(as Sienna) brown (as Brigantia) red"
+  - height: "(as Sienna) 5'2\" (as Brigantia) 7'2\""
+  - weight: "(as Sienna) 145 lbs. (as Brigantia) 340 lbs."
+  - eyes:   "(as Sienna) green (as Brigantia) green"
+  - hair:   "(as Sienna) brown (as Brigantia) red"
+  - desc: >
+      In her normal form, Sienna is a shy, nerdy woman about 22 years old,
+      about 5'2" and 145 lbs.
+      As \*\*Brigantia\*\*, she is over 7 feet tall and weighs over 300 lbs.
 - history: |+
     As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
     from her grandmother, and she claimed the Celtic gods even spoke 
@@ -43,7 +47,7 @@
     before Sienna, told her she was the Champion of the 
     Tuatha Dé Danann, and gifted her with power.
 - powers:  |+
-    When Sienna speaks the magic words, *Claidheamh Soluis*, she is
+    When Sienna speaks the magic words, \*Claidheamh Soluis\*, she is
     transformed into the superhumanly powerful Champion, Brigantia.
     Her powers include flight, wisdom, super-speed, super-strength, 
     and projection of light rays from her eyes; in times of great 
@@ -57,9 +61,27 @@
     - core: [Blessed, Champion]
     - personal: [Flight, Peace, Radiant, Resist, Speed, Strength]
     - nova: [Blazing, Sword]
-  - abilities: [Give Me Strength!, Wisdom of Athena, TBD]
-  - fighting_styles: []
-  - skills: [Explorer, Historian, Performer (poet), Physician]
+  - abilities: 
+    - "Give Me Strength!":
+      - class: divine
+      - volume: core
+      - desc: |
+          Use your Core or Nova Power Words in a Power Stunt/Combo and
+          count sixes as \2 successes; lose \1 Health or Might regardless of
+          the number of extra successes gained.
+    - Wisdom of Athena:
+      - class: divine
+      - volume: 1
+      - desc: |
+          Add \2 to the dice pool to advance the Outwit or Allay goals.
+    - To Be Determined:
+      - class: divine
+      - volume: 1
+      - desc: "TBD"
+  - fighting_styles:
+    - Brawler:
+      - desc: "Add 2 dice when you use an unarmed attack to advance the Smash goal."
+  - skills: [Explorer, Historian, "Performer (poet)", Physician]
   - ideals: [Culture, Honor, Justice, Loyalty, Vengeance]
 - sidebar:
   - title: Apology to Celtic Pagans

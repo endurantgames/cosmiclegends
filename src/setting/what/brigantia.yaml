@@ -19,10 +19,10 @@
     - Cosmic Legends of the Universe:
       - active:     true
   - base:   ["Dublin, Ireland", "Sun City, U.S.A."]
-  - Height: "(as Sienna) 5'2\" (as Brigantia) 7'2\""
-  - Weight: "(as Sienna) 145 lbs. (as Brigantia) 340 lbs."
-  - Eyes:   "(as Sienna) green (as Brigantia) green"
-  - Hair:   "(as Sienna) brown (as Brigantia) red"
+  - height: "(as Sienna) 5'2\" (as Brigantia) 7'2\""
+  - weight: "(as Sienna) 145 lbs. (as Brigantia) 340 lbs."
+  - eyes:   "(as Sienna) green (as Brigantia) green"
+  - hair:   "(as Sienna) brown (as Brigantia) red"
 - history: |+
     As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
     from her grandmother, and she claimed the Celtic gods even spoke 
