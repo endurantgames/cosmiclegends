@@ -309,7 +309,8 @@ ls-back:
 #
 # make markdown
 #   Edit: if you are making multiple docs
-markdown: yaml-lint
+# markdown: yaml-lint
+markdown: 
 	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
 	@       $(MAKE_MD) $(PROJ_RECIPE)
 

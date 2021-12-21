@@ -1,0 +1,53 @@
+- metadata:
+  - yaml_version: 1.2
+  - x-format: character
+  - title: &title "Adam-42: O.O.P.F."
+  - anchor: setting-adam-42
+- picture:
+  - url: art/jeshields/construct.png
+  - alt: "Adam-42: One-Officer-Police-Force"
+- bio:
+  - name: *title
+  - real_name: "Martin \"Adam X. Lii\" McCord"
+  - occupation: police officer
+  - legal_status: Citizen of the United States, offically deceased
+  - gender: 
+    - desc: "non-gendered/male"
+    - pronouns: "it/its, he/him"
+  - identity: classified
+  - place_of_birth: Technopolis, U.S.A.
+  - marital_status: "single - n/a, formerly married"
+  - known_relatives: none
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - reserve: true 
+    - Los Angeles Police Department:
+      - status: "medical leave"
+  - base: ["Los Angeles, California", "Technopolis, U.S.A."]
+  - height: "5' 10\""
+  - weight: "305 lbs."
+- history: |+
+    Martin McCord never wanted to become the world's first
+    One-Officer-Police-Force, but a near-fatal shootout took
+    that choice away from him. Seconds away from dying, his injured
+    brain was transplanted into the ADAM-42 android body, saving
+    his life and trapping him in a metal form physically superior
+    to, and distinctively less functional than, his original human body.
+
+    Officially, McCord is dead -- but with the right prosthetic mask,
+    he can pass among humans as Adam Lii, the newest recruit of the
+    Los Angeles Police Department.
+- stats:
+  - name: *title
+  - class: The Construct
+  - approaches: { action: 3, adventure: 1, detective: 3, mystery: 1, suspense: 3}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Synthetic, Sentience]
+    - personal: [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
+    - nova: [One, Officer, Police, Force]
+  - abilities: [Energy Reserve, Fight Fire With Fire, TBD]
+  - fighting_styles: [Brawler, Guerilla, Interceptor, Sharpshooter, Rescuer, Weaponmaster]
+  - skills: [Deputy, Engineer, Hacker, Investigator, Lawyer]
+  - ideals: [Angst, Guilt, Duty, Law, Pain, Obedience, Violence]

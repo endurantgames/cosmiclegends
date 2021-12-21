@@ -1,0 +1,76 @@
+- metadata:
+  - x-format: character
+  - title: &title Jack Dee, Master Magister
+  - anchor: setting-jackdee
+  - yaml_version: 1.2
+- art:
+  - url: art/jeshields/mage.png
+  - alt: Jack Dee
+- bio:
+  - real_name: John Arthur Dee VIII
+  - occupation: Lawyer, mage
+  - legal_status: Citizen of the United States
+  - gender: 
+    - desc: male
+    - pronouns: he/him
+  - identity: public
+  - place_of_birth: Sacramento, California
+  - marital_status: single
+  - known_relatives: Madinia Katherine Dee (mother, deceased), John Arthur Dee VI (maternal grandfather), John Arthur Dee VII (uncle, deceased), Arthur Dee (purported ancestor, deceased), John Dee (purported ancestor)
+  - group_affiliation: 
+    - "Cosmic Legends of the Universe":
+      - active: no
+      - reserve: yes
+    - "State Bar of California":
+      - active: yes
+  - base: ["San Francisco, California", "Sun City, U.S.A."]
+  - height: "6' 0\""
+  - weight: "170 lbs."
+  - eyes: brown
+  - hair: brown
+   
+- history: |
+
+    Jack Dee would really rather be doing anything else right now, instead of
+    saving the world from the latest mystical threat.
+      
+    The scion of a long line of magical champions, Jack planned to be a lawyer --
+    not a superhero. Corporate law is just so much more lucrative than 
+    wizardly troubleshooting.
+    
+    Even as his mother Maddie founded the Cosmic Legends of the Universe as Miss Magister,
+    Jack pursued other interests -- even serving as the Cosmic Legends' attorney
+    at times. 
+    
+    When Maddie retired from the Cosmic Legends, her brother Johnny Dee -- Jack's uncle -- 
+    assumed her position as the Master Magister. Johnny's tenure as Master Magister was
+    cut short by the duplicity of Sequana, who stole his power before taking his life.
+    
+    Maddie and Jack worked together to avenge Johnny, but the strain was too much for
+    the elder Dee; with her dying breath, she bequeathed her power and position to
+    Jack, naming him as the new Master Magister. He currently serves as a reserve member
+    of the Cosmic Legends, joining as a specialist on missions involving the occult and
+    supernatural.
+    
+- powers: |
+
+    As the Master Magister, Jack Dee's magical powers are limited only by his imagination
+    and his force of will. He can conjure shields, travel in astral form, cloud the
+    senses of the weak-willed, and call upon the strength of his ancestral line to
+    banish evil.
+    
+    He's also a fairly decent attorney.
+    
+- stats:
+  - name: Jack Dee
+  - class: The Mage
+  - approaches: {action: 1, adventure: 3, detective: 2, mystery: 2, suspense: 2}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Sorcery, Supreme]
+    - personal: [Banish, Blast, Extradimensional, Magic, Shield, Ward]
+    - nova: [Ancestral, Empowerment]
+  - abilities: [The Price of Magic, Mists of Misdirection, TBD]
+  - skills: [Academic, Historian, Lawyer, Mystic]
+  - ideals: [Duty, Family, Pedantry, Responsibility, Secrecy]

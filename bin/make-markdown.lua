@@ -324,17 +324,6 @@ local function get_sorted_keys(t)
   for k, v in pairs(t)
   do  n       = n + 1;
       vprint("==============", "===============");
-      -- if type(k) ~= "string"
-      -- then eprint("this is not a string", k);
-      --      eprint("type is", type(k));
-      --      k = k .. "";
-      -- end;
-      -- vprint("should i ignore?", k);
-      -- vprint(ignore and "ignoring" or "not ignoring", k);
-      -- if   ignore
-      -- then vprint("ignoring", k);
-      -- else vprint("not ignoring", k);
-      -- end;
       if     type(k) == "string"
       then   keys[n] = k .. "";
              -- vprint("found key " ..n, k);
@@ -344,11 +333,7 @@ local function get_sorted_keys(t)
       else   eprint("OOPS type(" .. k .. ")", type(k));
       end;
   end;
-  -- vprint("ended with n = ", n);
-  -- vprint("there are this many UNsorted keys", #keys);
-  -- vprint("table.concat(keys) are ", table.concat(keys, "; "));
   table.sort(keys, ignore_case);
-  -- vprint("there are this many sorted keys", #keys);
   return keys;
 end;
 
@@ -394,7 +379,7 @@ local function yaml_char_group(bio_group_affiliation)
            if data.resigned then table.insert(memdata, "resigned");        end;
            if data.reserve  then table.insert(memdata, "reserve member");  end;
            if data.status   then table.insert(memdata, data.status);       end;
-           str = str .. " (" .. table.concat(memdata, ", ") .. ")";
+            str = str .. " (" .. table.concat(memdata, ", ") .. ")";
       end;
       table.insert(group_list, str);
       markdown = markdown .. table.concat(group_list, ", ");
