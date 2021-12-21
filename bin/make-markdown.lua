@@ -274,15 +274,13 @@ local function slurp(file, no_parse)
   return slurped;
 end -- function
 
--- local function is_unpacked(yaml_tree)
---   return yaml_tree and yaml_tree.flat or false;
--- end; -- function
-
 local function unpack_yaml_tree(yaml_tree, comment)
+  comment = comment or "";
+  vprint("unpacking", comment);
   if     yaml_tree == nil
   then   eprint("Error!", "yaml_tree = nil");
   elseif yaml_tree and type(yaml_tree) ~= "table"
-  then   eprint("Error!", "type(" .. comment .. ") = " .. type(yaml_tree));
+  then   eprint("Error! unpacking", "type(" .. comment .. ") = " .. type(yaml_tree));
          vprint("Should be:", "table");
          os.exit(1);
   elseif comment and type(comment) ~= "string"
@@ -290,7 +288,6 @@ local function unpack_yaml_tree(yaml_tree, comment)
          vprint("Should be:", "string");
          os.exit(1);
   end;
-  comment = comment or "yaml_tree(?)";
 
   local flat_tree = {};
 
@@ -305,7 +302,6 @@ local function unpack_yaml_tree(yaml_tree, comment)
       flat_tree[k] = v;
   end;
 
-  flat_tree.flat = true;
   return flat_tree;
 
 end;
@@ -334,13 +330,12 @@ local function get_sorted_keys(t)
       --      k = k .. "";
       -- end;
       -- vprint("should i ignore?", k);
-      local ignore = string.match(k, "flat");
       -- vprint(ignore and "ignoring" or "not ignoring", k);
       -- if   ignore
       -- then vprint("ignoring", k);
       -- else vprint("not ignoring", k);
       -- end;
-      if     type(k) == "string" and not ignore
+      if     type(k) == "string"
       then   keys[n] = k .. "";
              -- vprint("found key " ..n, k);
              table.insert(keys, k);
@@ -384,118 +379,188 @@ local function yaml_common(yaml_tree, slurped)
   return yaml_tree, metadata, slurped, common_error;
 end;
 
+local function yaml_char_group(bio_group_affiliation)
+  local markdown = "";
+  vprint("we have group affiliation");
+  markdown = markdown .. "\n- **Group Affiliation:** ";
+  local group_list = {};
+  local membership = unpack_yaml_tree(bio_group_affiliation, "membership");
+  for group_name, data in pairs(membership)
+  do  local str = group_name
+      if   data.inactive or data.reserve or data.founder or data.resigned or data.expelled
+      then local memdata = {};
+           if data.founder  then table.insert(memdata, "founding member"); end;
+           if data.inactive then table.insert(memdata, "inactive");        end;
+           if data.resigned then table.insert(memdata, "resigned");        end;
+           if data.reserve  then table.insert(memdata, "reserve member");  end;
+           if data.status   then table.insert(memdata, data.status);       end;
+           str = str .. " (" .. table.concat(memdata, ", ") .. ")";
+      end;
+      table.insert(group_list, str);
+      markdown = markdown .. table.concat(group_list, ", ");
+  end;
+  return markdown;
+end;
+
+local function yaml_char_relatives(bio_relatives)
+  local markdown = "\n- **Known Relatives:** ";
+  local relatives = unpack_yaml_tree(bio_relatives, "relatives");
+  local rel_list = {};
+  for rel_name, rel in pairs(relatives)
+  do  local rel_string = rel_name;
+      local rel_data = unpack_yaml_tree(rel, "rel");
+      if rel.gender then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} "; end;
+
+      if   rel.relationship or rel.deceased or rel.aka
+      then rel_string = rel_string .. "(";
+           if   rel.relationship
+           then rel_string = rel_string .. rel.relationship;
+                if rel.deceased or rel.aka then rel_string = rel_string .. ", ";             end;
+           end; -- if rel.relationship
+
+           if rel.aka                      then rel_string = rel_string .. rel.aka;          end;
+           if rel.deceased                 then rel_string = rel_string .. "*deceased*";     end;
+           rel_string = rel_string .. ")";
+      end; -- if rel[relationship, deceased, aka]
+      table.insert(rel_list, rel_string);
+  end; -- for rel.name
+  markdown = markdown .. table.concat(rel_list, ", ");
+  return markdown;
+end;
+
+local function yaml_char_picture(character_picture)
+  local markdown = "";
+  local picture = unpack_yaml_tree(character_picture, "picture");
+  vprint("We have picture!");
+  if   picture.alt and picture.url
+  then markdown = markdown .. "![" .. picture.alt .. "]";
+  else markdown = markdown .. "![]";
+       eprint("We don't have alt text", ":(");
+  end;
+  if   picture.url
+  then markdown = markdown .. "(" .. picture.url .. ")";
+       vprint("We have url!", picture.url);
+  else eprint("We don't have url :(");
+  end;
+  return markdown;
+end;
+
+local function yaml_char_base(bio_base)
+  if type(bio_base) == "string" then return "\n- **Base of Operations:** " .. bio_base; end;
+  local markdown  = "\n- **Base of Operations:** ";
+  local base_list = {};
+  local bases     = unpack_yaml_tree(bio_base, "base");
+  for base_name, base_data in pairs(bases)
+  do  if   type(base_data) == "string"
+      then table.insert(base_list, base_data);
+      else local data         = unpack_yaml_tree(base_data, "base_data");
+           local str          = base_name;
+           local base_details = {};
+           if #bases > 1 and data.active then table.insert(base_details, "current");   end;
+           if data.former                then table.insert(base_details, "formerly");  end;
+           if data.temporary             then table.insert(base_details, "temporary"); end;
+           str = str .. " (" .. table.concat(base_details, ", ") .. ")";
+           table.insert(base_list, str);
+      end;
+  end;
+  markdown = markdown .. table.concat(base_list, "; ");
+  return markdown;
+end;
+
+local function yaml_char_gender(bio_gender)
+  if type(bio_gender) == "string" then return "\n- **Gender:** " .. bio_gender; end;
+  vprint("we have gender!");
+  local markdown = "\n- **Gender:** ";
+  local gender = unpack_yaml_tree(bio_gender, "gender");
+  if gender.desc     then markdown = markdown .. "\n- **Gender:** " .. gender.desc; end;
+  if gender.pronouns then markdown = markdown .. " (" .. gender.pronouns .. ")";    end;
+  return markdown;
+end;
+
+local function yaml_char_power_words(stats_power_words)
+  local markdown = "\n- **Power Words:**";
+  local power_words = unpack_yaml_tree(stats_power_words);
+
+  if   power_words.core
+  then markdown = markdown .. "\n  - *Core:* " .. table.concat(power_words.core, ", ");
+  else eprint("we don't have CORE power words", ":(");
+  end;
+
+  if   power_words.personal
+  then markdown = markdown .. "\n  - *Personal:* " .. table.concat(power_words.personal, ", ");
+  else eprint("we don't have PERSONAL power words", ":(");
+  end;
+
+  if   power_words.nova
+  then markdown = markdown .. "\n  - *Nova:* " .. table.concat(power_words.nova, ", ");
+  else eprint("we don't have NOVA power words", ":(");
+  end;
+  return markdown;
+end;
+
 local function yaml_character(yaml_tree)
   local character, metadata, markdown = yaml_common(yaml_tree);
   vprint("yaml xformat is:", "character");
 
-  -- if   metadata
-  -- then vprint("we have metadata!") 
-       -- if metadata.title  then markdown = markdown .. "# "  .. metadata.title;         end
-       -- if metadata.anchor then markdown = markdown .. " {#" .. metadata.anchor .. "}"; end;
-       -- markdown = markdown .. "\n\n";
-  -- else vprint("we don't have metadata :(");
-  -- end;
+  if   metadata
+  then vprint("we have metadata!")
+       if metadata.title  then markdown = markdown .. "# "  .. metadata.title;         end
+       if metadata.anchor then markdown = markdown .. " {#" .. metadata.anchor .. "}"; end;
+       markdown = markdown .. "\n\n";
+  else vprint("we don't have metadata :(");
+  end;
 
   if   character
   then vprint("we have character!")
 
        if   character.picture
-       then local picture = unpack_yaml_tree(character.picture);
-            vprint("We have picture!");
-            if   picture.alt and picture.url
-            then markdown = markdown .. "![" .. picture.alt .. "]";
-            else markdown = markdown .. "![]";
-                 eprint("We don't have alt text", ":(");
-            end;
-            if   picture.url
-            then markdown = markdown .. "(" .. picture.url .. ")";
-                 vprint("We have url!", picture.url);
-            else eprint("We don't have url :(");
-            end;
+       then markdown = markdown .. yaml_char_picture(character.picture);
        else eprint("We don't have picture :(");
+       end; -- character.picture
+
+       if   character.bio
+       then vprint("We have bio!");
+
+            markdown = markdown .. "\n" .. string.rep(":", 15) .. " {.bio} " ;
+            markdown = markdown .. "\n" .. string.rep(":", 15) .. "\n";
+
+            local bio = unpack_yaml_tree(character.bio, "bio");
+
+            if bio.real_name    then markdown = markdown .. "\n- **Real Name:** "    .. bio.real_name;    end;
+            if bio.occupation   then markdown = markdown .. "\n- **Occupation:** "   .. bio.occupation;   end;
+            if bio.legal_status then markdown = markdown .. "\n- **Legal Status:** " .. bio.legal_status; end;
+
+            if   bio.gender
+            then markdown = markdown .. yaml_char_gender(bio.gender);
+            else eprint("we don't have gender :(");
+            end;
+
+            if bio.identity       then markdown = markdown .. "\n- **Identity:** "       .. bio.identity;       end;
+            if bio.place_of_birth then markdown = markdown .. "\n- **Place of Birth:** " .. bio.place_of_birth; end;
+            if bio.marital_status then markdown = markdown .. "\n- **Marital Status:** " .. bio.marital_status; end;
+
+            if     bio.relatives and type(bio.relatives) == "table"
+            then   markdown = markdown .. yaml_char_relatives(bio.relatives);
+            elseif bio.relatives == "none"
+            then   markdown = markdown .. "- **Known Relatives:** none";
+            end;   -- bio.relatives
+
+            if     bio.base and type(bio.base) == "table"
+            then   markdown = markdown .. yaml_char_base(bio.base);
+            elseif bio.base == "none" then markdown = markdown .. "\n- **Base of Operations:** none";
+            end;   -- bio.base
+
+            if     bio.group_affiliation and type(bio.group_affiliation) == "table"
+            then   markdown = markdown .. yaml_char_group(bio.group_affiliation);
+            elseif bio.group_affiliation == "none"
+            then   markdown = markdown .. "\n- **Group Affiliation:** none";
+            else   eprint("We don't have group affiliation");
+            end;   -- bio.group_affiliation
+
+            markdown = markdown .. "\n\n" .. string.rep(":", 50);
+
+       else eprint("We don't have bio :(");
        end;
-
-       -- if   character.bio
-       -- then vprint("We have bio!");
-            -- markdown = markdown .. "\n" .. string.rep(":", 15) .. " {.bio} " ;
-            -- markdown = markdown .. "\n" .. string.rep(":", 15) .. "\n";
-            -- local bio = unpack_yaml_tree(character.bio);
-            -- if bio.real_name    then markdown = markdown .. "\n- **Real Name:** "    .. bio.real_name;    end;
-            -- if bio.occupation   then markdown = markdown .. "\n- **Occupation:** "   .. bio.occupation;   end;
-            -- if bio.legal_status then markdown = markdown .. "\n- **Legal Status:** " .. bio.legal_status; end;
-            -- if   bio.gender
-            -- then vprint("we have gender!");
-                 -- local gender = unpack_yaml_tree(bio.gender);
-                 -- if gender.desc     then markdown = markdown .. "\n- **Gender:** " .. gender.desc; end;
-                 -- if gender.pronouns then markdown = markdown .. " (" .. gender.pronouns .. ")";    end;
-            -- else eprint("we don't have gender :(");
-            -- end;
-            -- if bio.identity then markdown = markdown .. "\n- **Identity:** " .. bio.identity; end;
-            -- if bio.place_of_birth then markdown = markdown .. "\n- **Place of Birth:** " .. bio.place_of_birth; end;
-            -- if bio.marital_status then markdown = markdown .. "\n- **Marital Status:** " .. bio_marital_status; end;
-            -- if   bio.relatives
-            -- then markdown = markdown .. "\n- **Known Relatives:** ";
-                 -- local relatives = unpack_yaml_tree(bio.relatives);
-                 -- local rel_list = {};
-                 -- for rel_name, rel in pairs(relatives)
-                 -- do  local rel_string = rel_name;
-                     -- if rel.gender then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} "; end;
-                     -- if   rel.relationship or rel.deceased or rel.aka
-                     -- then rel_string = rel_string .. "(";
-                          -- if   rel.relationship        
-                          -- then rel_string = rel_string .. rel.relationship; 
-                               -- if rel.deceased or rel.aka then rel_string = rel_string .. ", ";             end;
-                          -- end; -- if rel.relationship
-                          -- if rel.aka                      then rel_string = rel_string .. rel.aka;          end;
-                          -- if rel.deceased                 then rel_string = rel_string .. "*deceased*";     end;
-                          -- rel_string = rel_string .. ")";
-                     -- end; -- if rel[relationship, deceased, aka]
-                     -- table.insert(rel_list, rel_string);
-                 -- end; -- for rel.name
-                 -- markdown = markdown .. table.concat(rel_list, ", ");
-            -- end; -- bio.relatives
-
-            -- if     bio.group_affiliation and bio.group_affiliation ~= "none" and type(bio.group_affiliation) == "table"
-            -- then   vprint("we have group affiliation");
-                   -- markdown = markdown .. "\n- **Group Affiliation:** ";
-                   -- local group_list = {};
-                   -- local membership = unpack_yaml_tree(bio.group_affiliation);
-                   -- for group_name, data in pairs(membership)
-                   -- do  local str = group_name
-                       -- if   data.inactive or data.reserve or data.founder or data.resigned or data.expelled
-                       -- then local memdata = {};
-                            -- if data.founder  then table.insert(memdata, "founding member"); end;
-                            -- if data.inactive then table.insert(memdata, "inactive");        end;
-                            -- if data.resigned then table.insert(memdata, "resigned");        end;
-                            -- if data.reserve  then table.insert(memdata, "reserve member");  end;
-                            -- if data.status   then table.insert(memdata, data.status);       end;
-                            -- str = str .. " (" .. table.concat(memdata, ", ") .. ")";
-                       -- end; 
-                       -- table.insert(group_list, str);
-                       -- markdown = markdown .. table.concat(group_list, ", ");
-                   -- end;
-            -- elseif bio.group_affiliation == "none"
-            -- then   markdown = markdown .. "\n- **Group Affiliation:** none"; end;
-            -- else   eprint("We don't have group affiliation");
-            -- end;
-            -- markdown = markdown .. "\n\n" .. string.rep(":", 50);
-            -- if   bio.base and type(bio.base) == "table"
-            -- then markdown = markdown .. "\n- **Base of Operations:** ";
-                 -- local baselist = {};
-                 -- local bases    = unpack_yaml_tree(bio.base);
-                 -- for base_name, base_data in pairs(bases)
-                 -- do  local data         = unpack_yaml_tree(base_data);
-                     -- local str          = base_name;
-                     -- local base_details = {};
-                     -- if data.former    then table.insert(base_details, "formerly");  end;
-                     -- if data.temporary then table.insert(base_details, "temporary"); end;
-                     -- str = str .. " (" .. table.concat(base_details, ", ") .. ")";
-                     -- table.insert(base_list, str);
-                 -- end;
-                 -- markdown = markdown .. table.concat(baselist, ", ");
-            -- end;
-       -- else eprint("We don't have bio :(");
-       -- end;
 
        if   character.history
        then vprint("we have history!");
@@ -520,75 +585,74 @@ local function yaml_character(yaml_tree)
 
        if   character.stats
        then vprint("we have stats!");
-      
+
             markdown = markdown .. "\n\n" .. string.rep(":", 25);
             markdown = markdown .. " stats ";
             markdown = markdown .. string.rep(":", 20) .. "\n";
-            local stats = unpack_yaml_tree(character.stats);
-	    
-            -- if stats.name  then markdown = markdown .. "\n## " .. stats.name .. "\n\n";            end;
-            -- if stats.class then markdown = markdown .. "- **" .. "Class:** " .. stats.class .. "\n" end;
-            -- if   stats.approaches
-            -- then vprint("We have approaches!");
-                 -- local approach = unpack_yaml_tree(stats.approaches);
-                 -- markdown = markdown .. "- **Approaches:**";
-                 -- if approach.action    then markdown = markdown ..  "\n  Action "    .. approach.action;    end;
-                 -- if approach.adventure then markdown = markdown .. ",\n  Adventure " .. approach.adventure; end;
-                 -- if approach.detective then markdown = markdown .. ",\n  Detective " .. approach.detective; end;
-                 -- if approach.mystery   then markdown = markdown .. ",\n  Mystery "   .. approach.mystery;   end;
-                 -- if approach.suspense  then markdown = markdown .. ",\n  Suspense "  .. approach.suspense;  end;
-            -- else vprint("We don't have approaches :(");
-            -- end;
+
+            local stats = unpack_yaml_tree(character.stats, "stats");
+
+            if stats.name  then markdown = markdown .. "\n## " .. stats.name .. "\n\n";             end;
+            if stats.class then markdown = markdown .. "- **" .. "Class:** " .. stats.class .. "\n" end;
+
+            if   stats.approaches
+            then vprint("We have approaches!");
+                 local approach = unpack_yaml_tree(stats.approaches, "approaches");
+                 markdown = markdown .. "- **Approaches:**";
+                 if approach.action    then markdown = markdown ..  "\n  Action "    .. approach.action;    end;
+                 if approach.adventure then markdown = markdown .. ",\n  Adventure " .. approach.adventure; end;
+                 if approach.detective then markdown = markdown .. ",\n  Detective " .. approach.detective; end;
+                 if approach.mystery   then markdown = markdown .. ",\n  Mystery "   .. approach.mystery;   end;
+                 if approach.suspense  then markdown = markdown .. ",\n  Suspense "  .. approach.suspense;  end;
+            else vprint("We don't have approaches :(");
+            end;
 
             if stats.health then markdown = markdown .. "\n- **Health:** " .. stats.health; end;
             if stats.might  then markdown = markdown .. "\n- **Might:** "  .. stats.might;  end;
 
-            -- if   stats.power_words
-            -- then vprint("We have power words!");
-                 -- markdown = markdown .. "\n- **Power Words:**";
-                 -- local power_words = unpack_yaml_tree(stats.power_words);
-                 -- if   power_words.core
-                 -- then markdown = markdown .. "\n  - *Core:* " .. table.concat(power_words.core, ", ");
-                 -- else eprint("we don't have CORE power words", ":(");
-                 -- end;
-                 -- if   power_words.personal
-                 -- then markdown = markdown .. "\n  - *Personal:* " .. table.concat(power_words.personal, ", ");
-                 -- else eprint("we don't have PERSONAL power words", ":(");
-                 -- end;
-                 -- if   power_words.nova
-                 -- then markdown = markdown .. "\n  - *Nova:* " .. table.concat(power_words.nova, ", ");
-                 -- else eprint("we don't have NOVA power words", ":(");
-                 -- end;
-            -- else eprint("We don't have power words :(");
-            -- end;
+            if   stats.power_words and type(stats.power_words) == "table"
+            then vprint("We have power words!");
+	            markdown = markdown .. yaml_char_power_words(stats.power_words);
+            else eprint("We don't have power words :(");
+            end;
 
-            if   stats.abilities
+            if   stats.abilities and type(stats.abilities) == "table"
             then vprint("We have abilities!");
-                 local abilities = unpack_yaml_tree(stats.abilities);
-                 markdown = markdown .. "\n- **Abilities:** " .. table.concat(abilities);
+                 local abilities = unpack_yaml_tree(stats.abilities, "abilities");
+                 markdown = markdown .. "\n- **Abilities:** " .. table.concat(abilities, ", ");
             else eprint("we don't have abilities :(");
             end;
 
-            if   stats.fighting_styles
+            if   stats.fighting_styles and type(stats.fighting_styles) == "table"
             then vprint("We have fighting styles!");
-                 local fighting_styles = unpack_yaml_tree(stats.fighting_styles);
+                 local fighting_styles = unpack_yaml_tree(stats.fighting_styles, "fighting styles");
                  markdown = markdown .. "\n- **Fighting Styles:** " .. table.concat(fighting_styles, ", ");
+            elseif stats.fighting_styles and type(stats.fighting_styles) == "string"
+            then vprint("we have fighting style(s?)");
+                 markdown = markdown .. "\n- **Fighting Styles:** " .. stats.fighting_styles;
             else eprint("We don't have fighting styles :(");
             end;
 
-            if   stats.skills
+            if   stats.skills and type(stats.skills) == "table"
             then vprint("We have skills!");
-                 local skills = unpack_yaml_tree(stats.skills);
+                 local skills = unpack_yaml_tree(stats.skills, "skills");
                  markdown = markdown .. "\n- **Skills:** " .. table.concat(skills, ", ");
+            elseif stats.skills and type(stats.skill) == "string"
+            then vprint("we have skill(s?)!");
+                 markdown = markdown .. "\n-- **Skills:** " .. stats.skills;
             else eprint("We don't have skills :(");
             end;
 
-            if   stats.ideals
+            if   stats.ideals and type(stats.ideals) == "table"
             then vprint("we have ideals!");
-                 local ideals = unpack_yaml_tree(stats.ideals);
+                 local ideals = unpack_yaml_tree(stats.ideals, "ideals");
                  markdown = markdown .. "\n- **Ideals:** " .. table.concat(ideals, ", ");
+            elseif stats.ideals and type(stats.ideals) == "string"
+            then markdown = markdown .. "\n- **Ideals:** " .. stats.ideals;
+                 vprint("we have ideal(s?)!");
             else eprint("we don't have ideals", ":(");
             end;
+
             markdown = markdown .. "\n\n" .. string.rep(":", 50);
 
        else eprint("we don't have stats :(");

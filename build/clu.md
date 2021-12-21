@@ -39,7 +39,24 @@ title: Cosmic Legends of the Universe
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+# Adam-42: O.O.P.F. {#setting-adam-42}
+
 ![Adam-42: One-Officer-Police-Force](art/jeshields/construct.png)
+::::::::::::::: {.bio} 
+:::::::::::::::
+
+- **Real Name:** Martin "Adam X. Lii" McCord
+- **Occupation:** police officer
+- **Legal Status:** Citizen of the United States, offically deceased
+- **Gender:** 
+- **Gender:** non-gendered/male (it/its, he/him)
+- **Identity:** classified
+- **Place of Birth:** Technopolis, U.S.A.
+- **Marital Status:** single - n/a, formerly married
+- **Base of Operations:** Los Angeles, California; Technopolis, U.S.A.
+- **Group Affiliation:** 11, 21, 2, Cosmic Legends of the Universe1, 2, Cosmic Legends of the Universe, Los Angeles Police Department
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 **History:**
 
@@ -57,9 +74,22 @@ Los Angeles Police Department.
 
 ::::::::::::::::::::::::: stats ::::::::::::::::::::
 
+## Adam-42: O.O.P.F.
+
+- **Class:** The Construct
+- **Approaches:**
+  Action 3,
+  Adventure 1,
+  Detective 3,
+  Mystery 1,
+  Suspense 3
 - **Health:** 10
 - **Might:** 10
-- **Abilities:** Energy ReserveFight Fire With FireTBD
+- **Power Words:**
+  - *Core:* Synthetic, Sentience
+  - *Personal:* Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)
+  - *Nova:* One, Officer, Police, Force
+- **Abilities:** Energy Reserve, Fight Fire With Fire, TBD
 - **Fighting Styles:** Brawler, Guerilla, Interceptor, Sharpshooter, Rescuer, Weaponmaster
 - **Skills:** Deputy, Engineer, Hacker, Investigator, Lawyer
 - **Ideals:** Angst, Guilt, Duty, Law, Pain, Obedience, Violence
