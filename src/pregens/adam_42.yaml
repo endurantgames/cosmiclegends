@@ -1,6 +1,6 @@
 - metadata:
   - yaml_version: 1.2
-  - x-format: character
+  - x-format: character-sheet
   - title: &title "Adam-42: O.O.P.F."
   - anchor: setting-adam-42
 - picture:

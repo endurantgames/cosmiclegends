@@ -1,7 +1,7 @@
 - metadata:
   - title: &title Vespa 2.0
   - anchor: setting-vespa
-  - x-format: character
+  - x-format: character-sheet
   - yaml_version: 1.2
 - art:
   - url: art/jeshields/inventor.png

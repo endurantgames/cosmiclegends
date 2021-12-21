@@ -1,6 +1,6 @@
 - metadata:
   - title: &title Obsidius Rex
-  - x-format: character
+  - x-format: character-sheet
   - yaml_version: 1.2
   - anchor: setting-obsidius-rex
 - art:

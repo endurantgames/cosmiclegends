@@ -1,7 +1,7 @@
 - metadata:
   - title: &title Energy Boy
   - yaml_version: 1.2
-  - x-format: character
+  - x-format: character-sheet
   - anchor: setting-energy-boy
 - art:
   - url: art/jeshields/dynamo.png

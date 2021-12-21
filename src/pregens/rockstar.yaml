@@ -2,7 +2,7 @@
   - title: &title Rockstar
   - anchor: setting-rockstar
   - yaml_version: 1.2
-  - x-format: character
+  - x-format: character-sheet
 - bio:
   - real_name: Geraldine "Jeri" North
   - occupation: musician
