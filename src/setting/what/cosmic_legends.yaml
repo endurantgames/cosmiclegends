@@ -142,7 +142,7 @@
     - Neutrino:
       - gender:   female
       - villain:  true
-      - cf:     Energy Boy
+      - cf:       Energy Boy
     - "N.O.V.A. Labs":
       - group:      true
       - infrequent: true
@@ -204,6 +204,7 @@
     - gender: male
     - cf: Head Librarian
     - active: yes
+    - real name: unknown
   - Master Magister:
     - real name: Jack Dee
     - gender: male

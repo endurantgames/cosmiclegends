@@ -48,8 +48,8 @@ Ability
 Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
 
-Add to the Teamwork Pool
-:   A move taken by a hero designed to give the team an advantage against a Crisis.
+Action
+:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
 
 Add to the Teamwork Pool
 :   A move taken by a hero designed to give the team an advantage against a Crisis.
@@ -69,13 +69,16 @@ Advancement
 Adventure
 :   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation.
 
+Adventure
+:   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation.
+
 Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
     (*Diplomacy* in general TRPG terminology.)
 
-Annual
-:   A session (or sessions) at the end of a Volume that tie the Storylines together.
-    (*finale* in general TRPG terminology.)
+Allay
+:   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
+    (*Diplomacy* in general TRPG terminology.)
 
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
@@ -94,6 +97,10 @@ Cooldown
 :   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
     (*recharge* in general TRPG terminology.)
 
+Cooldown
+:   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
+    (*recharge* in general TRPG terminology.)
+
 Counter
 :   Avoiding the consequences of a Crisis Move.
     (*Saving Throw* in general TRPG terminology.)
@@ -105,14 +112,6 @@ Counter
 Crisis
 :   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system.
     (*Encounter* in general TRPG terminology.)
-
-Crisis
-:   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system.
-    (*Encounter* in general TRPG terminology.)
-
-Crisis Phase
-:   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
-    (*GM Turn* in Harmony Drive; *NPCs' Turn* in general TRPG terminology)
 
 Crisis Phase
 :   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
@@ -120,6 +119,10 @@ Crisis Phase
 
 Crossover
 :   A game session with heroes from two or more different campaigns working together.
+
+Detective
+:   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information.
+    (*Intelligence* in general TRPG terminology.)
 
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information.
@@ -158,9 +161,8 @@ General Alert
 Goal
 :   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
 
-Guest Star
-:   A hero played by someone who isn't a regular player in the group.
-    (*guest player* in general TRPG terminology.)
+Goal
+:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
 
 Guest Star
 :   A hero played by someone who isn't a regular player in the group.
@@ -174,9 +176,9 @@ Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
     (*Player Character* in general TRPG terminology.)
 
-Hero
-:   A single character whose actions are determined by a player who isn't the Editor.
-    (*Player Character* in general TRPG terminology.)
+Hero Phase
+:   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase.
+    (*Players' Turns* in general TRPG terminology.)
 
 Hero Phase
 :   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase.
@@ -185,9 +187,8 @@ Hero Phase
 Ideals
 :   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
 
-Issue
-:   A game session, usually 2 to 4 hours.
-    (*game session* in general TRPG terminology.)
+Ideals
+:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
 
 Issue
 :   A game session, usually 2 to 4 hours.
@@ -196,14 +197,11 @@ Issue
 Issue 0
 :   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
 
-Later That Day, ...
-:   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
+Issue 0
+:   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
 
 Later That Day, ...
 :   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
-
-Lines and Veils
-:   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
 
 Lines and Veils
 :   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
@@ -234,9 +232,8 @@ Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
     (*Deception* in general TRPG terminology.)
 
-Mystery
-:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
-    (*Deception* in general TRPG terminology.)
+Nova Power Words
+:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
 
 Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
@@ -251,16 +248,20 @@ Opportunity
 :   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
     (*moral of the story* in general TRPG terminology.)
 
+Opportunity
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
+    (*moral of the story* in general TRPG terminology.)
+
+Outwit
+:   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
+    (*trickery* in general TRPG terminology.)
+
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
     (*trickery* in general TRPG terminology.)
 
 Personal power word
 :   Six or more power words that define a hero's powers.
-
-Power
-:   The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
-    (*superpower, trait* in general TRPG terminology.)
 
 Power
 :   The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
@@ -285,9 +286,9 @@ Power Word
 :   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
     (*power keyword* in general TRPG terminology.)
 
-Rescue
-:   A Goal that could resolve a Crisis by removing people or property from harm.
-    (*Saving Innocents* in general TRPG terminology.)
+Power Word
+:   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
+    (*power keyword* in general TRPG terminology.)
 
 Rescue
 :   A Goal that could resolve a Crisis by removing people or property from harm.
@@ -311,9 +312,9 @@ Series
 :   A group of Storylines following the same group of heroes
     (*RPG Campaign* in general TRPG terminology.)
 
-Smash
-:   A Goal that could resolve a Crisis through causing physical damage.
-    (*Damage* in general TRPG terminology.)
+Series
+:   A group of Storylines following the same group of heroes
+    (*RPG Campaign* in general TRPG terminology.)
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage.
@@ -338,8 +339,9 @@ Stars and Wishes
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
 
-Story
-:   An adventure, either self-contained in one Issue or continued to the next Issue.
+Storyline
+:   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
+    (*plot* in general TRPG terminology.)
 
 Storyline
 :   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
@@ -355,17 +357,13 @@ Suspense
 :   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
     (*Wisdom* in general TRPG terminology.)
 
-Suspense
-:   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
-    (*Wisdom* in general TRPG terminology.)
-
 Take the Hit
 :   When one hero takes the entire effect of a Crisis move instead of another hero.
     (*tanking, defending, sacrifice* in general TRPG terminology.)
 
-Timely Arrival
-:   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
-    (*initiative roll* in general TRPG terminology.)
+Take the Hit
+:   When one hero takes the entire effect of a Crisis move instead of another hero.
+    (*tanking, defending, sacrifice* in general TRPG terminology.)
 
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
@@ -398,38 +396,37 @@ This is a list of other individuals active in the CLotU Universe.
 - **Dindrane**"[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight. See *Pervical, the Grailknight*\n"
 - **Dindrane**"[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight. See *Pervical, the Grailknight*\n"
 - **Dr. Phineas Pann**"[]{.icon-male}  See *Villains, Inc.*\n"
-- **Dr. Phineas Pann**"[]{.icon-male}  See *Villains, Inc.*\n"
 - **Far-Seeker**"[]{.icon-female} N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends.\n"
 - **Far-Seeker**"[]{.icon-female} N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends.\n"
 - **Gloom**"[]{.icon-male} Independent hero and former student at Technopolis Academy with darkness and emotion powers.\n"
 - **Glytch**"[]{.icon-trans}  See *Villains, Inc.*\n"
-- **Hornette**"[]{.icon-trans} Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*\n"
-- **Hornette**"[]{.icon-trans} Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*\n"
-- **Hyperion**"[]{.icon-trans} Renegade Sentinel of Saturn and frequent enemy of Titan.\n"
+- **Glytch**"[]{.icon-trans}  See *Villains, Inc.*\n"
+- **The Hornette**"[]{.icon-trans} Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*\n"
 - **Hyperion**"[]{.icon-trans} Renegade Sentinel of Saturn and frequent enemy of Titan.\n"
 - **Igneia Vulcanor**"[]{.icon-female}  See *Villains, Inc.*\n"
 - **Igneia Vulcanor**"[]{.icon-female}  See *Villains, Inc.*\n"
 - **Kaleidoscope Kidd**"[]{.icon-trans} Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.\n"
 - **Limuo Pele**"[]{.icon-female} Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.\n"
+- **Limuo Pele**"[]{.icon-female} Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.\n"
 - **Lucky Star**"[]{.icon-female} Teen heroine with luck-based powers, residing in St. Louis. Member of the Junior Legends of America.\n"
 - **Magnus Merlyn Malign, Marquis of Vadyvokia**"[]{.icon-male} Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0.\n"
-- **Magnus Merlyn Malign, Marquis of Vadyvokia**"[]{.icon-male} Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0.\n"
-- **Man in Black**"[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.\n"
-- **Man in Black**"[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.\n"
+- **The Man in Black**"[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.\n"
+- **The Man in Black**"[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.\n"
 - **Marlinspike**"[]{.icon-male} Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.\n"
-- **Master Magister (John A. Dee VI)**"[]{.icon-male} Grandfather of Jack Dee.\n"
+- **Marlinspike**"[]{.icon-male} Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.\n"
 - **Master Magister (John A. Dee VI)**"[]{.icon-male} Grandfather of Jack Dee.\n"
 - **Neutrino**"[]{.icon-female} Cosmic-powered energy projector and mother of Energy Boy. Not a team player.\n"
 - **Sandra Starr**"[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends. See *A.L.E.R.T.*\n"
-- **Sandra Starr**"[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends. See *A.L.E.R.T.*\n"
+- **Sequana**"[]{.icon-female} A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.\n"
 - **Sequana**"[]{.icon-female} A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.\n"
 - **Sreng**"[]{.icon-male} Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace. See *Villains, Inc.*\n"
 - **Sreng**"[]{.icon-male} Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace. See *Villains, Inc.*\n"
 - **Tachylus Rex**"[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.\n"
 - **Tethys (My'Rinn To'Rezz)**"[]{.icon-trans} Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.\n"
 - **Tethys (My'Rinn To'Rezz)**"[]{.icon-trans} Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.\n"
-- **Verdict**"[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.\n"
-- **Verdict**"[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.\n"
+- **The Verdict**"[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.\n"
+- **The Verdict**"[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.\n"
+- **Xana Mega**"[]{.icon-female} Faerie queen of the Aos Sí and arch-enemy of Sir Percival.\n"
 - **Xana Mega**"[]{.icon-female} Faerie queen of the Aos Sí and arch-enemy of Sir Percival.\n"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -444,38 +441,37 @@ Cosmic Legends.
 
 
 :::::::::::::::::::::::::::::::::::other-list:::::::::::::::::::::::::::::::::::
-- **Aos Sí**"\n\n *status unknown* "
-- **Aos Sí**"\n\n *status unknown* "
+- **The Aos Sí**"\n\n *status unknown* "
+- **The Aos Sí**"\n\n *status unknown* "
 - **Atomicorps**"\n\n *status unknown* "
 - **Atomicorps**"\n\n *status unknown* "
-- **Crime Institute**"\n\n *status unknown* "
-- **Crime Institute**"\n\n *status unknown* "
-- **Firbolgs**"\n\n *status unknown* "
-- **Firbolgs**"\n\n *status unknown* "
-- **Fomorians**"\n\n *status unknown* "
-- **Fomorians**"\n\n *status unknown* "
-- **Foreigners**"\n\n *status unknown* "
-- **G.I. Dinosaurs**"\n\n *status unknown* "
-- **G.I. Dinosaurs**"\n\n *status unknown* "
-- **Interstellar Consortium of Civilizations**"\n\n *status unknown* "
-- **Interstellar Consortium of Civilizations**"\n\n *status unknown* "
-- **Junior Legends of America**"\n\n *status unknown* "
-- **Junior Legends of America**"\n\n *status unknown* "
-- **Kyl'Sh'Tal**"\n\n *status unknown* "
-- **Kyl'Sh'Tal**"\n\n *status unknown* "
-- **Ro'Tan'Okk**"\n\n *status unknown* "
-- **Ro'Tan'Okk**"\n\n *status unknown* "
-- **Specialists**"\n\n *status unknown* "
-- **Specialists**"\n\n *status unknown* "
+- **The Crime Institute**"\n\n *status unknown* "
+- **The Crime Institute**"\n\n *status unknown* "
+- **The Firbolgs**"\n\n *status unknown* "
+- **The Fomorians**"\n\n *status unknown* "
+- **The Fomorians**"\n\n *status unknown* "
+- **The Foreigners**"\n\n *status unknown* "
+- **The Foreigners**"\n\n *status unknown* "
+- **The G.I. Dinosaurs**"\n\n *status unknown* "
+- **The G.I. Dinosaurs**"\n\n *status unknown* "
+- **The Interstellar Consortium of Civilizations**"\n\n *status unknown* "
+- **The Interstellar Consortium of Civilizations**"\n\n *status unknown* "
+- **The Junior Legends of America**"\n\n *status unknown* "
+- **The Junior Legends of America**"\n\n *status unknown* "
+- **The Kyl'Sh'Tal**"\n\n *status unknown* "
+- **The Kyl'Sh'Tal**"\n\n *status unknown* "
+- **The Ro'Tan'Okk**"\n\n *status unknown* "
+- **The Ro'Tan'Okk**"\n\n *status unknown* "
+- **The Specialists**"\n\n *status unknown* "
+- **The Specialists**"\n\n *status unknown* "
 - **Sun City University**"\n\n *status unknown* "
 - **Sun City University**"\n\n *status unknown* "
 - **T.R.E.L.A.**"\n\n *status unknown* "
 - **T.R.E.L.A.**"\n\n *status unknown* "
-- **Visitors**"\n\n *status unknown* "
-- **Visitors**"\n\n *status unknown* "
-- **Vulcanor Royal Family**"\n\n *status unknown* "
-- **Vulcanor Royal Family**"\n\n *status unknown* "
-- **Foreigners**"\n\n *status unknown* "
+- **The Visitors**"\n\n *status unknown* "
+- **The Visitors**"\n\n *status unknown* "
+- **The Vulcanor Royal Family**"\n\n *status unknown* "
+- **The Vulcanor Royal Family**"\n\n *status unknown* "
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -489,24 +485,23 @@ These are key locations within the CLotU Universe.
 
 :::::::::::::::::::::::::::::::::::other-list:::::::::::::::::::::::::::::::::::
 - **L'Shar'Ak**"\n\n"
-- **Mag Findargat**"\n\n"
+- **L'Shar'Ak**"\n\n"
 - **Mag Findargat**"\n\n"
 - **Moulin Air Force Base**"\n\n"
-- **Museum of Superhuman History**"\n\n"
-- **Museum of Superhuman History**"\n\n"
+- **Moulin Air Force Base**"\n\n"
+- **The Museum of Superhuman History**"\n\n"
+- **The Museum of Superhuman History**"\n\n"
 - **Nuke City**"\n\n"
 - **Nuke City**"\n\n"
 - **Otherworld**"\n\n"
-- **Otherworld**"\n\n"
-- **Sun City Zoo**"\n\n"
 - **Volcano City**"\n\n"
-- **Sun City Zoo**"\n\n"
+- **The Sun City Zoo**"\n\n"
 - **Technopolis, U.S.A.**"\n\n"
 - **Technopolis, U.S.A.**"\n\n"
 - **Titan (Moon)**"\n\n"
 - **Titan (Moon)**"\n\n"
 - **Vadyvokia**"\n\n"
-- **Volcano City**"\n\n"
+- **Vadyvokia**"\n\n"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

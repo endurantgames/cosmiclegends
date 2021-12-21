@@ -97,30 +97,26 @@ dl    {                                                }
 dt    {                                                }
 dd    { margin-left: 1.5em;                            }
 
-.classdata                   { string-set(classarticle, "a"    ) ; }
-.classdata#inventor,
-.classdata#expert,
-.classdata#expatriate        { string-set(classarticle, "an"   ) ; }
-.classdata#class-construct   { string-set(class, "Construct"   ) ; }
-.classdata#class-divine      { string-set(class, "Divine"      ) ; }
-.classdata#class-dynamo      { string-set(class, "Dynamo"      ) ; }
-.classdata#class-expatriate  { string-set(class, "Expatriate"  ) ; }
-.classdata#class-expert      { string-set(class, "Expert"      ) ; }
-.classdata#class-haunt       { string-set(class, "Haunt"       ) ; }
-.classdata#class-hellspawn   { string-set(class, "Hellspawn"   ) ; }
-.classdata#class-inventor    { string-set(class, "Inventor"    ) ; }
-.classdata#class-kid         { string-set(class, "Kid"         ) ; }
-.classdata#class-knight      { string-set(class, "Knight"      ) ; }
-.classdata#class-mage        { string-set(class, "Mage"        ) ; }
-.classdata#class-monarch     { string-set(class, "Monarch"     ) ; }
-.classdata#class-monstrosity { string-set(class, "Monstrosity" ) ; }
-.classdata#class-paragon     { string-set(class, "Paragon"     ) ; }
-.classdata#class-psychic     { string-set(class, "Psychic"     ) ; }
-.classdata#class-shaper      { string-set(class, "Shaper"      ) ; }
-.classdata#class-speedster   { string-set(class, "Speedster"   ) ; }
-.classdata#class-totem       { string-set(class, "Totem"       ) ; }
-.classdata#class-twins       { string-set(class, "Twins"       ) ; }
-.classdata#class-wheelman    { string-set(class, "Wheelman"    ) ; }
+.classdata#class-construct   { --class-article:  "a"; --class: "Construct";   }
+.classdata#class-divine      { --class-article:  "a"; --class: "Divine";      }
+.classdata#class-dynamo      { --class-article:  "a"; --class: "Dynamo";      }
+.classdata#class-expatriate  { --class-article:  "an"; --class: "Expatriate"; }
+.classdata#class-expert      { --class-article:  "an"; --class: "Expert";     }
+.classdata#class-haunt       { --class-article:  "a"; --class: "Haunt";       }
+.classdata#class-hellspawn   { --class-article:  "a"; --class: "Hellspawn";   }
+.classdata#class-inventor    { --class-article:  "an"; --class: "Inventor";   }
+.classdata#class-kid         { --class-article:  "a"; --class: "Kid";         }
+.classdata#class-knight      { --class-article:  "a"; --class: "Knight";      }
+.classdata#class-mage        { --class-article:  "a"; --class: "Mage";        }
+.classdata#class-monarch     { --class-article:  "a"; --class: "Monarch";     }
+.classdata#class-monstrosity { --class-article:  "a"; --class: "Monstrosity"; }
+.classdata#class-paragon     { --class-article:  "a"; --class: "Paragon";     }
+.classdata#class-psychic     { --class-article:  "a"; --class: "Psychic";     }
+.classdata#class-shaper      { --class-article:  "a"; --class: "Shaper";      }
+.classdata#class-speedster   { --class-article:  "a"; --class: "Speedster";   }
+.classdata#class-totem       { --class-article:  "a"; --class: "Totem";       }
+.classdata#class-twins       { --class-article:  "a"; --class: "Twins";       }
+.classdata#class-wheelman    { --class-article:  "a"; --class: "Wheelman";    }
 
 .chargen-list ul    { margin: 0; }
 .chargen-list ul li { margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; margin-bottom: 2pt; }
@@ -2334,7 +2330,7 @@ a.list-link.nopage:after { content: ""; }
 }
 
 .herocave-prereq:after {
-  content: " Ability."
+  content: " Ability.";
   text-decoration: none;
   font-weight: normal;
 }
@@ -2368,7 +2364,7 @@ a.list-link.nopage:after { content: ""; }
 }
 
 .arsenal-prereq:after {
-  content: " Ability."
+  content: " Ability.";
   text-decoration: none;
   font-weight: normal;
 }
@@ -2402,7 +2398,7 @@ a.list-link.nopage:after { content: ""; }
 }
 
 .pet-prereq:after {
-  content: " Ability."
+  content: " Ability.";
   text-decoration: none;
   font-weight: normal;
 }
@@ -2430,13 +2426,13 @@ a.list-link.nopage:after { content: ""; }
   font-weight: bold;
 }
 .pet-related-prereq:before { 
-  content: "Prerequisite: You must have ":
+  content: "Prerequisite: You must have ";
   text-decoration: none;
   font-weight: normal;
 }
 
 .pet-related-prereq:after {
-  content: " Ability."
+  content: " Ability.";
   text-decoration: none;
   font-weight: normal;
 }
@@ -2483,7 +2479,7 @@ dl dd .repeat:before     { content: "Repetition:"; font-style: italic; }
 dl dd .repeat            { content: "You can choose this Ability more than once."; }
 dl dd .repeat.semi-colon { content: "You can choose this Ability more than once;"; }
 
-dl dd .variant:before        { content: "Note: "; text-style: italic;               }
+dl dd .variant:before        { content: "Note: "; font-style: italic;               }
 dl dd .variant.construct     { content: " This is a variant of the Construct's ";   }
 dl dd .variant.divine        { content: " This is a variant of the Divine's ";      }
 dl dd .variant.dynamo        { content: " This is a variant of the Dynamo's ";      }
@@ -2505,9 +2501,9 @@ dl dd .variant.totem         { content: " This is a variant of the Totem's ";   
 dl dd .variant.twins         { content: " This is a variant of the Twins' ";        }
 dl dd .variant.wheelman      { content: " This is a variant of the Wheelman's ";    }
 dl dd .variant.generic       { content: " This is a variant of the Generic ";       }
-dl dd .variant:after         { content: content() .. " Class Ability.";             }
-dl dd .variant.prime:after   { content: content() .. " Prime Ability.";             }
-dl dd .variant.generic:after { content: content() .. " Ability.";                   }
+dl dd .variant:after         { content: content() " Class Ability.";                }
+dl dd .variant.prime:after   { content: content() " Prime Ability.";                }
+dl dd .variant.generic:after { content: content() " Ability.";                      }
 
 .at-the-start.v1 { content: "At the start of Volume 1, choose two Class Abilities from this list."; }
 .at-the-start.v2 { content: "At the start of Volume 2, choose a Class Ability from this list or any previous " string(class) " list."; }
@@ -2515,7 +2511,8 @@ dl dd .variant.generic:after { content: content() .. " Ability.";               
 .at-the-start.v4 { content: "At the start of Volume 4, choose a Class Ability from this list or any previous " string(class) " list."; }
 .at-the-start.v5 { content: "At the start of Volume 5, choose a Class Ability from this list or any previous " string(class) " list."; }
 
-.crossover-instead:before { content: "Instead of adding " string(classarticle) " " string(class) " Ability "; }
+/* .crossover-instead:before { content: "Instead of adding " string(article, "a") " " string(class) " Ability "; } */
+.crossover-instead:before { content: "Instead of adding " var(--class-article) " " var(--class) " Ability "; }
 /*
 .crossover-instead.from-construct:before   { content: "Instead of adding a  Construct   Ability "; }
 .crossover-instead.from-divine:before      { content: "Instead of adding a  Divine      Ability "; }

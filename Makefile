@@ -106,13 +106,13 @@ WHATSWHAT_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_WHATSWHAT)
 # Pandoc Config
 #   Edit: probably unnecessary
 PANDOC         = /usr/bin/pandoc
-PANDOCFLAGS    = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT) --pdf-engine=prince -M document-css=false
+PANDOCFLAGS    = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT) --pdf-engine=prince -M document-css=false 
 PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fancy_lists+startnum+table_captions+link_attributes+fenced_divs+implicit_figures+bracketed_spans+auto_identifiers
 
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS             = --pdf-engine-opt=--css-dpi=300
-PRINCEFLAGS             = 
+# PRINCEFLAGS             = --verbose
 PRINCEFLAGS_PREGEN        = 
 PRINCEFLAGS_LETTER        = 
 PRINCEFLAGS_SHEET         = 
@@ -317,9 +317,9 @@ markdown: yaml-lint
 #   Edit: if you are making more than one pdf
 pdf: markdown
 	@ echo '$(ltblue)Making PDF.$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
-	@       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
-	@      -$(EXPLORER)
+	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
+	       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
+	      -$(EXPLORER)
 
 letter: markdown
 	@ echo '$(ltblue)Making Letter PDF.$(resetc)'
