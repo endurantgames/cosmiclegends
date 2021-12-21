@@ -44,16 +44,17 @@
   - group_affiliation: 
     - Knights of the Round Table:
       - active: no
+      - status: organization defunct
     - Cosmic Legends of the Universe:
       - active: no
       - reserve: yes
       - founder: yes
     - "A.L.E.R.T.":
       - active: no
-      - reserve: yes
+      - status: reserve operative
   - base: ["New York City, New York", "Sun City, U.S.A."]
-  - height: 5' 6"
-  - weight: 170 lbs.
+  - height: "5' 6\""
+  - weight: "170 lbs."
   - eyes: brown
   - hair: black
 - history: |

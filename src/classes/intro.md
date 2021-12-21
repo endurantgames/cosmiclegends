@@ -45,6 +45,8 @@ The Monstrosity Criminal, Explorer,         Strongest,           6          Engi
 The Paragon     Any two                     Powers,            6 + 1        My One Weakness!
                                             Abilities
 
+The Pet         Explorer, plus any two      Best, Friend         6          *To Be Determined*
+
 The Psychic     Academic, plus any          Focused,             6          Our Minds As One
                 two                         Totality
 

@@ -5,7 +5,7 @@
   - anchor: 
 - bio:
   - name: *title
-  - real_name: 
+  - real_name: My'Rinn To'Rezz
   - occupation: 
   - legal_status: 
   - gender:
@@ -15,6 +15,17 @@
   - place_of_birth: 
   - marital_status: 
   - known_relatives: 
+    - "Ty'tonn To'Rezz":
+      - relationship: parent's sibling
+      - aka:          Titan
+    - "My'Tonn To'Rezz":
+      - relationship: parent
+      - deceased:     true
+    - unnamed relatives:
+      - relationship: "parent's sibling's spouses"
+      - deceased:     true
+      - anonymous:    true
+      - plural:       true
   - group_affiliation: 
   - base_of_operations: 
   - height: 
@@ -26,9 +37,10 @@
 - weapons: |
 
 - stats:
-  - class: The 
+  - class: The Paragon
   - name: *title
   - approaches: { action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1 }
+  - volume: 2
   - health: 10
   - might: 10
   - power_words:

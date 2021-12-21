@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/dynamo.png
   - alt: *title
+  - face: art/jeshields/energy_boy_face.png
 - bio:
   - real_name: Delmore "Del" Langston Thompson
   - occupation: College student
@@ -23,6 +24,10 @@
   - weight: "155 lbs."
   - eyes: "(as Del) brown, (as Energy Boy) green"
   - hair: "(as Del) black, (as Energy Boy) none"
+  - desc: |
+      When he's not powered up, Del, looks like a normal college student; he has
+      short black hair and brown eyes. As \*\*Energy Boy\*\*, he looks like a
+      walking nebula.
 - history: |
     Del Thompson grew up in the shadow of brilliance -- his mother and namesake,
     Delphine Thompson, was one of the most gifted physicists of her generation.
@@ -70,3 +75,4 @@
   - abilities: [Energy Reserve, Fight Fire With Fire, TBD]
   - skills: [Academic, Scientist]
   - ideals: [Guilt, Longing, Politeness, Relax, Responsibility]
+  - storyline: "Del wants to **reunite with his mom, even though she caused the accident that gave him powers.**"

@@ -1,20 +1,20 @@
 - metadata:
-  - yaml_version: 1.2
-  - x-format:     character
-  - title:        &title Dindrane
-  - anchor:       setting-dindrane
+  - yaml_version:     1.2
+  - x-format:         character
+  - title:            &title Dindrane
+  - anchor:           setting-dindrane
 - bio:
-  - name: *title
-  - real_name:      Dindrane Pellinore
-  - former_aliases: [Grail, Heliabel]
-  - occupation:     Sorceress
-  - legal_status:   unknown
+  - name: *title      Dindrane
+  - real_name:        Dindrane Pellinore
+  - former_aliases:   [Grail, Heliabel, The Grailwitch]
+  - occupation:       Sorceress
+  - legal_status:     unknown
   - gender:
-    - desc:     female
-    - pronouns: she/her
-  - identity: public
-  - place_of_birth: Aberffraw, Wales
-  - marital_status: unknown
+    - desc:           female
+    - pronouns:       she/her
+  - identity:         public
+  - place_of_birth:   Aberffraw, Wales
+  - marital_status:   unknown
   - known_relatives: 
     - "Percival Pellinor":
       - relationship: brother
@@ -44,7 +44,7 @@
       - relationship: ex-husband
       - gender:       male
       - deceased:     true
-  - group_affiliation: 
+  - group_affiliation: none
   - base_of_operations: 
   - height: 
   - weight: 

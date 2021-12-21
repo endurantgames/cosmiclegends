@@ -17,7 +17,21 @@
   - former_aliases: Thomas "Tom" Torres
   - place_of_birth: L'Shar'Ak, Titan
   - marital_status: widowed
-  - known_relatives: [unnamed spouses (deceased), My'Tonn To'Rezz (sibling, deceased), My'Rinn To'Rezz (sibling's child)]
+  - known_relatives: 
+    - unnamed spouses:
+      - anonymous:    true
+      - deceased:     true
+      - plural:       true
+      - gender:       trans
+      - relationship: spouses
+    - "My'Tonn To'Rezz": 
+      - relationship: sibling
+      - gender:       trans
+      - deceased:     true
+    - "My'Rinn To'Rezz":
+      - relationship: "sibling's child"
+      - gender:       trans
+      - aka:          Tethys
   - group_affiliation: [Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)]
   - base: ["Halifax, Nova Scotia",  "Sun City, U.S.A."]
   - height: "7' 6\""
@@ -42,8 +56,8 @@
     
     Fearing the harm the Visitors could do to the primitive, just-barely-nuclear
     civilizations of *W'Ty'Dah'k*, Ty'Tonn urged the *Kyl'Sh'Tal* to intervene.
-    "Are we not the Sentinels for the entire solar system?", Ty argued; "Should we
-    not be concerned with the fate of all who are threatened by the Visitors?"
+    \"Are we not the Sentinels for the entire solar system?\", Ty argued; \"Should we
+    not be concerned with the fate of all who are threatened by the Visitors?\"
     
     The *Kyl'Sh'Tal* council debated for many hours but it soon became clear that
     they prioritized the survival of Titanian civilization over that of 

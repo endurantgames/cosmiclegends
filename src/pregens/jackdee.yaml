@@ -16,19 +16,40 @@
   - identity: public
   - place_of_birth: Sacramento, California
   - marital_status: single
-  - known_relatives: Madinia Katherine Dee (mother, deceased), John Arthur Dee VI (maternal grandfather), John Arthur Dee VII (uncle, deceased), Arthur Dee (purported ancestor, deceased), John Dee (purported ancestor)
+  - known_relatives: 
+    - Madinia Katherine Dee:
+      - aka: Miss Magister
+      - relationship: mother
+      - gender: female
+      - deceased: yes
+    - John Arthur Dee VI:
+      - relationship: maternal grandfather
+      - aka: Master Magister
+      - gender: male
+    - John Arthur Dee VII:
+      - relationship: uncle
+      - aka: Master Magister
+      - deceased: true
+    - Arthur Dee:
+      - relationship: purported ancestor
+      - deceased: true
+    - John Dee:
+      - relationship: purported ancestor
   - group_affiliation: 
-    - "Cosmic Legends of the Universe":
+    - Cosmic Legends of the Universe:
       - active: no
       - reserve: yes
-    - "State Bar of California":
+    - State Bar of California:
       - active: yes
   - base: ["San Francisco, California", "Sun City, U.S.A."]
   - height: "6' 0\""
   - weight: "170 lbs."
   - eyes: brown
   - hair: brown
-   
+  - desc: |
+      Jack Dee is the scion of a long line of mystical protectors.
+      He'd rather be a lawyer, so usually dresses like one.
+      Jack has brown hair and a vandyke.
 - history: |
 
     Jack Dee would really rather be doing anything else right now, instead of
@@ -71,6 +92,19 @@
     - core: [Sorcery, Supreme]
     - personal: [Banish, Blast, Extradimensional, Magic, Shield, Ward]
     - nova: [Ancestral, Empowerment]
-  - abilities: [The Price of Magic, Mists of Misdirection, TBD]
+  - abilities: 
+    - The Price of Magic:
+      - class: mage
+      - volume: prime
+      - desc: "*description coming soon*"
+    - Mists of Misdirection:
+      - class: mage
+      - volume: 1
+      - desc: "*description coming soon*"
+    - TBD:
+      - class: mage
+      - volume: 1
+      - desc: To Be Determined
   - skills: [Academic, Historian, Lawyer, Mystic]
   - ideals: [Duty, Family, Pedantry, Responsibility, Secrecy]
+  - storyline: "I want Jack to **get asked out on a date by some villanous guy.**"

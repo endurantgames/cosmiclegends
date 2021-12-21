@@ -100,7 +100,7 @@ count 2s as Edge Successes.]{.pregen-ability-class}
 [Jack Dee is the scion of a long line of mystical protectors.
 He'd rather be a lawyer, so usually dresses like one.
 Jack has brown hair and vandyke.]{.pregen-bio}
-[I want Jack to **Get asked out by some villain dude.**]{.pregen-storyline}
+[I want Jack to **get asked out by some villain dude.**]{.pregen-storyline}
 
 ![Jack Dee](art/jeshields/jackdee_face.png){.pregen-face} \ 
 

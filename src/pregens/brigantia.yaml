@@ -83,6 +83,7 @@
       - desc: "Add 2 dice when you use an unarmed attack to advance the Smash goal."
   - skills: [Explorer, Historian, "Performer (poet)", Physician]
   - ideals: [Culture, Honor, Justice, Loyalty, Vengeance]
+  - storyline: "Brigantia needs to learn that **Not everything can be solved by punching something.**"
 - sidebar:
   - title: Apology to Celtic Pagans
   - "css-classes": [soapbox, small]

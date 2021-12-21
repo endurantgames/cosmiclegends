@@ -16,12 +16,30 @@
   - identity: public
   - place_of_birth: Sacramento, California
   - marital_status: single
-  - known_relatives: Madinia Katherine Dee (mother, deceased), John Arthur Dee VI (maternal grandfather), John Arthur Dee VII (uncle, deceased), Arthur Dee (purported ancestor, deceased), John Dee (purported ancestor)
+  - known_relatives:
+    - Madinia Katherine Dee:
+      - aka: Miss Magister
+      - relationship: mother
+      - gender: female
+      - deceased: yes
+    - John Arthur Dee VI:
+      - relationship: maternal grandfather
+      - aka: Master Magister
+      - gender: male
+    - John Arthur Dee VII:
+      - relationship: uncle
+      - aka: Master Magister
+      - deceased: true
+    - Arthur Dee:
+      - relationship: purported ancestor
+      - deceased: true
+    - John Dee:
+      - relationship: purported ancestor
   - group_affiliation: 
-    - "Cosmic Legends of the Universe":
+    - Cosmic Legends of the Universe:
       - active: no
       - reserve: yes
-    - "State Bar of California":
+    - State Bar of California:
       - active: yes
   - base: ["San Francisco, California", "Sun City, U.S.A."]
   - height: "6' 0\""

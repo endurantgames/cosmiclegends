@@ -52,10 +52,13 @@
       - active: no
       - reserve: yes
   - base: ["New York City, New York", "Sun City, U.S.A."]
-  - height: 5' 6"
-  - weight: 170 lbs.
+  - height: "5' 6\""
+  - weight: "170 lbs."
   - eyes: brown
   - hair: black
+  - desc: >
+      For a man over \1,\0\0\0 years, Percival is in good shape.
+      He looks no older than \4\0.
 - history: |
     Percival Pellinore, the Grailknight, is *the* Percival of myth -- member
     of Arthur's Round Table, son of Pellinore, questing knight of the Holy Grail.
@@ -100,3 +103,4 @@
   - abilities: [Peak Human Potential, Trick Arrows, TBD]
   - skills: [Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy]
   - ideals: [Chivalry, Faith, Honor, Law, Vows]
+  - storyline: "I want Percival to \*\*cross swords with another Arthurian knight.\*\*"

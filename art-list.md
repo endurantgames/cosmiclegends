@@ -13,7 +13,7 @@ Heroes:
 
 - The Yeoman (new teen hero): https://jeshields.com/product/scifi-archer-with-high-tech-bow-and-laser-arrow/
 
-- Kaleidoscopic Kid (possible): https://jeshields.com/product/supers-teen-with-glowing-eyes-holds-skateboard-near-wall/
+- Kaleidoscope Kidd (possible): https://jeshields.com/product/supers-teen-with-glowing-eyes-holds-skateboard-near-wall/
 
 - Sandra Starr, Agent of A.L.E.R.T. (possible): https://jeshields.com/product/supers-woman-with-cybernetic-armor-and-blade/
 - Sandra Starr, Agent of A.L.E.R.T. (older, possible): https://jeshields.com/product/modern-wealthy-woman-in-gloves-and-glasses-with-cigarette-cnb/

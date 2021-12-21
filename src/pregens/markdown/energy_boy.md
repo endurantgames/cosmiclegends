@@ -95,7 +95,7 @@
 [Del Thompson]{.pregen-nickname}
 [he/him]{.pregen-pronouns}
 []{.pregen-volume .box .v1}
-[When he's not powered up, Del looks like normal college student;
+[When he's not powered up, Del looks like a normal college student;
 he has short black hair and brown eyes. As **Energy Boy** he looks
 like a walking nebula.]{.pregen-bio}
 [Del wants to **reunite with his mom, even though she caused

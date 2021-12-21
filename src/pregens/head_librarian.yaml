@@ -18,12 +18,19 @@
   - place_of_birth: unknown
   - marital_status: unknown
   - known_relatives: unknown
-  - group_affiliation: Cosmic Legends of the Universe, N.O.V.A. Labs (consultant)
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: true
+    - "N.O.V.A. Labs":
+      - status: consultant
   - base: "Sun City, U.S.A."
   - height: "5' 10\""
   - weight: "160 lbs."
   - eyes: Brown
   - hair: Black
+  - desc: |
+      The Head Librarian looks like a man about \30 years of age;
+      he doesn't appeara in any databases, online or off.
 - history: | 
     The Head Librarian has no idea who he is or where he
     is from. He awoke in a field outside of Peshawar, Pakistan,
@@ -46,7 +53,7 @@
     memory retention is not superhuman. The Librarian can hold only
     a few books in memory at once before the information starts to
     fade. For this reason, he brings reference materials with him
-    in the field -- "If I don't know the answer, I can look it up!"
+    in the field -- \"If I don't know the answer, I can look it up!\"
     is his motto.
     
     In addition to his purely mental powers, the Head Librarian's
@@ -62,6 +69,19 @@
     - core: [Focused, Totality]
     - personal: [Erase, Language, Memory, Move, Paper, Probe, Restore, Transfer]
     - nova: [Information, Overload]
-  - abilities: [Our Minds As One, Telekinetics, TBD]
+  - abilities: 
+    - Our Minds As One:
+      - desc: "*description coming soon*"
+      - volume: core
+      - class: psychic
+    - Telekinetics:
+      - desc: "*description coming soon*"
+      - volume: 1
+      - class: psychic
+    - TBD:
+      - desc: to be determined
+      - volume: 1
+      - class: psychic
   - skills: [Academic, Artist, Journalist]
   - ideals: [Aesthetics, Compassion, Knowledge, Learning, Order]
+  - storyline: "His storyline is to **discover where he is from.**"
