@@ -1,0 +1,68 @@
+- metadata:
+  - yaml_version:       1.2
+  - x-format:           character
+  - title:              &title "N.J. Campbell: Farseeker"
+  - anchor:             setting-farseeker
+- art:
+  - alt:                *title
+  - url:                art/jeshields/farseeker.png
+  - face:               art/jeshields/farseeker_face.png
+- bio:
+  - name:               *title
+  - real_name:          Nora Jamila Campbell
+  - occupation:         Interplanetary explorer
+  - legal_status:       "Citizen of the United States; naturalized citizen of the Interstellar Consortium of Civilizations"
+  - gender:
+    - desc:             female
+    - pronouns:         "she/her"
+  - identity:           Unknown to the populace of Earth
+  - place_of_birth:     "Rifton, New York"
+  - marital_status:     Divorced
+  - known_relatives:    none
+  - group_affiliation:
+    - Cosmic Legends of the Universe:
+      - active:         false
+      - reserve:        false
+      - honorary:       true
+    - Interstellar Consortium of Civilizations:
+      - active:         true
+      - title:          "(de-facto) Ambassador Plenipotentiary of Earth"
+      - honorary:       true
+  - base_of_operations: "Mobile (the Starship <i>Sojourner Truth</i>)"
+  - height:             "5' 9\""
+  - weight:             "154 lbs."
+  - hair:               pink
+  - eyes:               brown
+- history:              To be determined
+- powers:               To be determined
+- weapons:              To be determined
+- stats:
+  - classid:            &classid   expat
+  - classname:          &classname Expatriate
+  - class:              The Expatriate
+  - name:               *title
+  - approaches:         { action: 2, adventure: 4, detective: 2, mystery: 1, suspense: 2 }
+  - health:             12
+  - might:              10
+  - volume:             1
+  - power_words:
+    - core:             [Human, Ingenuity]
+    - personal:         [Bravado, Competency, Dangerous, Jetpack, Spaceship, "Weapon (Laser-Bow)", "Weapon (Star-Sword)"]
+    - nova:             [interstellar, warlord, of, Earth]
+  - skills:             [Academic, Explorer, Hacker, Historian, Pilot, Scientist, Spy]
+  - abilities:
+    - Quick Learner:
+      - volume:         Prime
+      - class:          Expatriate
+      - desc:           To be determined
+    - To Be Determined:
+      - volume:         1
+      - class:          Expatriate
+      - desc:           To be determined
+    - To Be Determined Two:
+      - volume:         1
+      - class:          Expatriate
+      - desc:           To be determined
+  - ideals:             [Freedom, Honor, Knowledge, Pride, Valor]
+  - fighting_styles:    [Ace, Harrier, Mediator, Sharpshooter, Warlord]
+

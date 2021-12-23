@@ -55,7 +55,7 @@ WHATSWHAT_RECIPE   = what
 ORIGIN_SRC          = $(BUILDDIR)/origins.md
 ORIGIN_OUT          = $(OUTDIR)/$(PDFTITLE)-secret-origins.pdf
 #
-PREGEN_SRC          = $(BUILDDIR)/$(PDFTITLE)-pregens.md
+PREGEN_SRC          = $(BUILDDIR)/pregens.md
 PREGEN_OUT          = $(OUTDIR)/$(PDFTITLE)-pregens.pdf
 #
 HEROSHEET_SRC       = $(BUILDDIR)/$(PDFTITLE)-herosheet.md

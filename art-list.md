@@ -22,12 +22,11 @@ Heroes:
 - Lucky Star, Techno Academy graduate (needed?, possible): https://jeshields.com/product/supers-black-heroine-in-fighting-pose/
 
 - Zaar (needed?, possible): https://jeshields.com/product/supers-asian-woman-with-electric-powers/
-- Miss Magister: Maddie Dee (needed?, possible): https://jeshields.com/product/supers-asian-woman-with-electric-powers/
 - Miss Magister: Maddie Dee (needed?, possible) https://jeshields.com/product/modern-elite-woman-in-fancy-dress-sings-or-chants-with-book-cnb/
-- Bug (II, Mar Ferrandis, needed?, possible): https://jeshields.com/product/supers-miniature-insect-hero-leaping-cnb/
-- Tethys: My'Rinn To'Rezz (needed?, possible): https://jeshields.com/product/scifi-alien-lady-in-dress-with-antennae-cnb/
+- Bug (II, Mar Ferrandis): https://jeshields.com/product/supers-miniature-insect-hero-leaping-cnb/
+- Tethys: My'Rinn To'Rezz: https://jeshields.com/product/scifi-alien-lady-in-dress-with-antennae-cnb/
 
-- Far-Seeker (N.J. Campbell, iconic expat): https://jeshields.com/product/scifi-douglas-female-with-tattoos-and-mohawk-cnb/ - love the mohawk for a Storm-ish look
+- Far-Seeker (N.J. Campbell, expat): https://jeshields.com/product/scifi-douglas-female-with-tattoos-and-mohawk-cnb/ - love the mohawk for a Storm-ish look
 
 Villains:
 

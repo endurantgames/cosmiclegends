@@ -1,0 +1,124 @@
+- metadata:
+  - x-format:  class
+  - classid:   expatriate
+  - classname: &classname Expatriate
+  - title:     The *classname
+  - anchor:    class-expatriate
+  - toc:       toc-expatriate
+- quote: "Coming soon"
+- desc: "Coming soon"
+- questions:
+  - "question?":
+    - "subquestion?"
+    - "subquestion?"
+    - "subquestion?"
+  - "question?":
+    - "subquestion?"
+    - "subquestion?"
+    - "subquestion?"
+  - "question?":
+    - "subquestion?"
+    - "subquestion?"
+    - "subquestion?"
+- skills:
+  - pre-chosen: [Academic, Explorer, Historian, Pilot]
+  - plus: "any two skills of your choice"
+- power-words:
+  - preamble: standard
+  - core:
+    - pre-chosen: [Human, Ingenuity]
+    - number: 2
+  - personal:
+    - number: 6
+    - title: Expatriate Class Personal Power Words
+    - anchor: expatriate-class-personal-power-words
+    - list:
+      - Alien
+      - Anachronism
+      - Armor
+      - Arrogance
+      - Competency
+      - Backwater
+      - Beast
+      - Body
+      - Bravado
+      - Charm
+      - Civilization
+      - Claws
+      - Crash
+      - Confusing
+      - Contradictory
+      - Customs
+      - Cyborg
+      - Dangerous
+      - Discovery
+      - Earth
+      - Explosives
+      - Eye
+      - Fascinating
+      - Fin
+      - Folksy
+      - Forgotten
+      - Grok
+      - Helmet
+      - Legendary
+      - Horrifying
+      - Jetpack
+      - Jumpsuit
+      - Immovable
+      - Improvised
+      - Innocent
+      - Leadership
+      - Leap
+      - Linguist
+      - Military
+      - Oxygen
+      - Pet
+      - Planetary
+      - Primitive
+      - Punch
+      - Radio
+      - Rally
+      - Raygun
+      - Regenerate
+      - Resourceful
+      - Reputation
+      - Relic
+      - Rocket
+      - Romance
+      - Sabotage
+      - Spaceship
+      - Strength
+      - Tactics
+      - Tank
+      - Teleportation
+      - Throw
+      - Trivia
+      - Unassuming
+      - Unpredictable
+      - Warlord
+      - Weapon (specific)
+      - Wisdom
+    - nova:
+      - standard: true
+- classpic:
+  - url: art/jeshields/expat.png
+  - alt: "N.J. Campbell: Farseeker"
+- abilities:
+  - preamble: { represent: "show your growth in a completely different environment from your home planet" }
+  - prime:
+    - "Quick Learner":
+      - desc: |  
+          'At the start of each Volume, add one of the following Fighting Styles:
+          **Acrobat**, **Ace**, **Brawler**, **Inspiration**, **Jester**,
+          **Martial Artist**, **Mediator**, or **Tactician**.
+
+          At the start of each Volume, add one of the following Skills:
+          **Academic**, **Criminal**, **Deputy**, **Engineer**, **Hacker**,
+          **Historian**, **Investigator**, **Pilot**, **Scientist**, or **Spy**.'
+  - "1": { tbd: true }
+  - "2": { tbd: true }
+  - "3": { tbd: true }
+  - "4": { tbd: true }
+  - "5": { tbd: true }
+

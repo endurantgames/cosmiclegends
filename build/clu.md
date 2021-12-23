@@ -134,8 +134,8 @@ for *W'Ty'Dah'k*, the third planet from the sun: Earth.
 
 Fearing the harm the Visitors could do to the primitive, just-barely-nuclear
 civilizations of *W'Ty'Dah'k*, Ty'Tonn urged the *Kyl'Sh'Tal* to intervene.
-"Are we not the Sentinels for the entire solar system?", Ty argued; "Should we
-not be concerned with the fate of all who are threatened by the Visitors?"
+\"Are we not the Sentinels for the entire solar system?\", Ty argued; \"Should we
+not be concerned with the fate of all who are threatened by the Visitors?\"
 
 The *Kyl'Sh'Tal* council debated for many hours but it soon became clear that
 they prioritized the survival of Titanian civilization over that of 

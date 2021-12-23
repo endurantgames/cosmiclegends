@@ -4,6 +4,7 @@
   - classname: &classname Divine
   - title:     The *classname
   - anchor:    class-divine
+  - toc:       toc-divine
 - quote: |
     Bright Mother Brigit, guide my hand!
 - desc: |

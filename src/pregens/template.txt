@@ -1,155 +1,66 @@
-::::::::::::::::::::::::::::::::: {.herosheet} ::::::::::::::::::::::::::::::::::::::::::::::::
-[Hero Sheet]{#anchor-herosheet .anchor}
-
-![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-
-![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
-
-[A.K.A.]{.label .nickname}
-[Name]{.label .name}
-[Pronouns]{.label .pronouns}
-[Max]{.label .health-max}
-[Max]{.label .might-max}
-[Class]{.label .class}
-[Nova Power Words]{.label .nova}
-[Core Power Words]{.label .core}
-[Personal Power Words]{.label .personal}
-[Class Ability]{.label .class-ability}
-[Skills]{.label .skills}
-[Fighting Styles]{.label .fighting-styles}
-[Volume 1 Ability]{.label .volume-ability .v1}
-
-[Health]{.label .health}
-[Might]{.label .might}
-
-[Volume]{.label .volume}
-[]{.box .b5 .volume-boxes}
-[]{.box .b1 .motiv .m1}
-[]{.box .b1 .motiv .m2}
-[]{.box .b1 .motiv .m3}
-[]{.box .b1 .motiv .m4}
-[]{.box .b1 .motiv .m5}
-[Ideal]{.label .motiv .m1}
-[Ideal]{.label .motiv .m2}
-[Ideal]{.label .motiv .m3}
-[Ideal]{.label .motiv .m4}
-[Ideal]{.label .motiv .m5}
-[]{.box .b1 .nova-unlocked}
-[Unlocked]{.label .nova-unlocked}
-[]{.box .b1 .arc-complete}
-[Completed]{.label .arc-complete}
-
-[Volume 2 Ability]{.label .volume-ability .v2}
-[Volume 3 Ability]{.label .volume-ability .v3}
-[Volume 4 Ability]{.label .volume-ability .v4}
-[Volume 5 Ability]{.label .volume-ability .v5}
-
-[Appearance]{.label .bio}
-[Storyline]{.label .story-arc}
-
-[Action]{.label .facet .action}
-[Adventure]{.label .facet .adventure}
-[Detective]{.label .facet .detective}
-[Mystery]{.label .facet .mystery}
-[Suspense]{.label .facet .suspense}
-
-[Goals ]{.goal .label .g0}
-[Smash ]{.goal .label .g1}
-[Outwit]{.goal .label .g2}
-[Allay ]{.goal .label .g3}
-[Rescue]{.goal .label .g4}
-
-[Symbol]{.label .symbol}
-
-[Ethos            ]{.label .ethos .e0}
-[Self Expression  ]{.label .ethos .e1}
-[Teamwork         ]{.label .ethos .e2}
-[Difficult Choices]{.label .ethos .e3}
-
-[Retcon             ]{.safety .label .s1}
-[Continued Next Page]{.safety .label .s2}
-[Meanwhile, ...     ]{.safety .label .s3}
-[Later That Day, ...]{.safety .label .s4}
-
-[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
-
-[Crisis Countdown             ]{.label .crisis .c0}
-[5. Set the Scene             ]{.label .crisis .c5}
-[4. Hero Roll-Call            ]{.label .crisis .c4}
-[3. Define the Goals          ]{.label .crisis .c3}
-[2. Assemble Teamwork Pool    ]{.label .crisis .c2}
-[1. Crisis Begins!            ]{.label .crisis .c1}
-[Hero Phase                   ]{.label .crisis .cht}
-[Crisis Phase                 ]{.label .crisis .cct}
-[Post-Crisis                  ]{.label .crisis .cpost}
-
-[Hero Phase                 ]{.label .act .aht}
-[General Alert              ]{.label .act .a1}
-[Timely Arrival             ]{.label .act .a2}
-[Advance a Goal             ]{.label .act .a3}
-[Join a Power Combo         ]{.label .act .a4}
-[Add to Teamwork Pool       ]{.label .act .a5}
-[Crisis Phase               ]{.label .act .act}
-[Take the Hit               ]{.label .act .a6}
-[Counter a Crisis Effect    ]{.label .act .a7}
-
-::::::::::::::::::::: pregen ::::::::::::::::::::::::::::::::::::
-[]{.pregen-facet .action}
-[]{.pregen-facet .adventure}
-[]{.pregen-facet .detective}
-[]{.pregen-facet .mystery}
-[]{.pregen-facet .suspense}
-
-[]{.pregen-name}
-[]{.pregen-class}
-[10]{.pregen-health}
-[10]{.pregen-might}
-
-[]{.pregen-fighting-style}
-
-::::::::::: pregen-skills ::::::::::
-[]{.pregen-skill}
-[]{.pregen-skill}
-[]{.pregen-skill}
-[]{.pregen-skill}
-[]{.pregen-skill}
-:::::::::::::::::::::::::::::
-
-::::::::::: pregen-core :::::::::::
-[]{.pregen-word}
-[]{.pregen-word}
-:::::::::::::::::::::::::::::::::::
-
-::::::: pregen-personal :::::::::::
-[]{.pregen-word}
-[]{.pregen-word}
-[]{.pregen-word}
-[]{.pregen-word}
-[]{.pregen-word}
-[]{.pregen-word}
-:::::::::::::::::::::::::::::::::::
-
-:::::::: pregen-nova ::::::::::::::
-[]{.pregen-word}
-[]{.pregen-word}
-:::::::::::::::::::::::::::::::::::
-
-[]{.pregen-ability-class}
-[]{.pregen-ability-v1}
-
-[]{.pregen-ideal .pregen-i1}
-[]{.pregen-ideal .pregen-i2}
-[]{.pregen-ideal .pregen-i3}
-[]{.pregen-ideal .pregen-i4}
-[]{.pregen-ideal .pregen-i5}
-
-[]{.pregen-nickname}
-[]{.pregen-pronouns}
-[]{.pregen-volume .box .v1}
-[]{.pregen-bio}
-[]{.pregen-storyline}
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+- metadata:
+  - title: &title    
+  - x-format:        character-sheet
+  - yaml_version:    1.2
+  - anchor:          
+- art:
+  - url:             
+  - alt:             *title
+  - face:            
+- bio:
+  - real_name:       
+  - occupation:      
+  - legal_status:    
+  - gender: 
+    - desc:          
+    - pronouns:      
+  - identity:        
+  - former_aliases:  
+  - place_of_birth:  
+  - marital_status:  
+  - known_relatives: 
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: true
+  - base:            "Sun City, U.S.A."
+  - height:          "x' y\""
+  - weight:          "zzz lbs."
+  - eyes:            Brown
+  - hair:            Black
+  - desc: |
+      '*description coming soon*'
+- history: | 
+    '*history coming soon*'
+- powers: |
+    '*description coming soon*'
+- weapons: |
+    '*description coming soon*'
+- stats:
+  - name:       *title
+  - classname:  &classname 
+  - class:      The *classname
+  - classid:    &classid 
+  - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
+  - health:     10
+  - might:      10
+  - volume:     1
+  - power_words:
+    - core:     []
+    - personal: []
+    - nova:     []
+  - abilities: 
+    - TBD:
+      - desc:   to be determined
+      - volume: prime
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+  - skills: []
+  - ideals: []
+  - storyline: ""

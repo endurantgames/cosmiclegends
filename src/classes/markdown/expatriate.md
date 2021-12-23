@@ -52,7 +52,6 @@ Choose six Personal Power Words from the following list:
 # [Expatriate Class Personal Power Words]{#expatriate-class-personal-power-words}
 
 - Alien
-- Animal (specific)
 - Anachronism
 - Armor
 - Arrogance
@@ -95,6 +94,7 @@ Choose six Personal Power Words from the following list:
 - Pet
 - Planetary
 - Primitive
+- Punch
 - Radio
 - Rally
 - Raygun
@@ -106,8 +106,6 @@ Choose six Personal Power Words from the following list:
 - Romance
 - Sabotage
 - Spaceship
-- Stomp
-- Stretch
 - Strength
 - Tactics
 - Tank

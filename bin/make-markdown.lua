@@ -926,7 +926,18 @@ local function yaml_character(yaml_tree)
             if   stats.abilities and type(stats.abilities) == "table"
             then vprint("We have abilities!");
                  local abilities = unpack_yaml_tree(stats.abilities, "abilities");
-                 markdown = markdown .. "\n- **Abilities:** " .. table.concat(abilities, ", ");
+                 markdown = markdown .. "\n- **Abilities:** ";
+		 local ab_list = {};
+		 for ab_name, ab_data in pairs(abilities)
+		 do  vprint("ability:", "--------------");
+                     vprint(ab_name, ab_data);
+		     if   type(ab_name) == "string"
+		     then table.insert(ab_list, ab_name);
+                     elseif type(ab_name) == "number" and type(ab_data) == "string"
+                     then table.insert(ab_list, ab_data);
+                     end;
+		 end;
+		 markdown = markdown .. table.concat(ab_list, ", ");
             else eprint("we don't have abilities :(");
             end;
 
