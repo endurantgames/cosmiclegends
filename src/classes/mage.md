@@ -289,8 +289,8 @@ Theurgy
 
     []{.crossover-instead .v2 .divine}
     *Weapon of the Gods (1st)* and 
-    *Speed of Hermes (2nd)* are among the most applicable
-    Divine Class Abilities to consider.
+    *Speed of Hermes (2nd)* 
+    []{.crossover-consider .divine}
     
 Thinking with Portals
 

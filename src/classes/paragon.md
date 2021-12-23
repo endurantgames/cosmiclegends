@@ -294,6 +294,8 @@ Faster than a Speeding Bullet
     You have a variant of the Speedster Class's __Ignore The Laws of
     Physics__ Prime Ability: *Bend the Laws of Physics.*
 
+    The Timely Arrival move costs you 0 points from the Teamwork Pool.
+
     Choose one Power Word from the 
     [](#speedster-class-personal-power-words){.list-link}
     and add it as a Core Power Word.
@@ -318,9 +320,7 @@ Faster than a Speeding Bullet
     *Vibrate Through Walls (1st)*, *Burst of Speed (2nd)*,
     *Evacuate the Bystanders (3rd)*, *Human Whirlwind (3rd)*,
     *Untouchable (4th)*, and *Instant Power Recovery (4th)* 
-    are among the most applicable Speedster Class Abilities to consider.
-
-    The Timely Arrival move costs you 0 points from the Teamwork Pool.
+    []{.crossover-consider .speedster}
 
 Strange Visitor from Another Planet
 
@@ -350,8 +350,8 @@ Strange Visitor from Another Planet
 
     []{.crossover-instead .v5 .inventor}
     *Persipacacious Pettifoggery (1st)*,
-    *Puissant Polymath (2nd)*, and *Overclocked Systems (3rd)* are 
-    among the most applicable Inventor Class Abilities to consider.
+    *Puissant Polymath (2nd)*, and *Overclocked Systems (3rd)* 
+    []{.crossover-consider .inventor}
 
 :::::::::::::::::::::::::::::::::::::
 

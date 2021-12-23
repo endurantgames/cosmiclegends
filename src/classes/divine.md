@@ -220,6 +220,8 @@ Speed of Hermes
     [](#speedster-personal-power-words){.list-link}. If you choose
     from the latter list, add such words as Core Power Words.
 
+    The Timely Arrival move costs you 0 points from the Teamwork Pool.
+
     You have a variant of the Speedster Class's 
     __Ignore The Laws of Physics__ 
     Prime Ability: *Subjective Laws of Physics*.
@@ -238,10 +240,8 @@ Speed of Hermes
     *Anything's a Surface (1st)*, *Break the Time Barrier (1st)*,
     *Burst of Speed (2nd)*, *Evacuate the Bystanders (3rd)*, 
     *Human Whirlwind (3rd)*, *Untouchable (4th)*, and 
-    *Instant Power Recovery (4th)* are among the most 
-    applicable Speedster Class Abilities to consider.
-
-    The Timely Arrival move costs you 0 points from the Teamwork Pool.
+    *Instant Power Recovery (4th)* 
+    []{.crossover-consider .speedster}
 
 Temple of the Gods
 

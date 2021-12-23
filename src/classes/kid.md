@@ -244,8 +244,8 @@ Squire
 
     []{.crossover-instead .v3 .knight}
     *Team, Together! (1st)*, *Trick Arrows (1st)*, and
-    *Tactical Mastery (3rd)* are among the most applicable
-    Knight Class Abilities to consider.
+    *Tactical Mastery (3rd)* 
+    []{.crossover-consider .knight}
 
 Youthful Power
 

@@ -216,10 +216,10 @@ Trick Arrows
 
     At the start of each Storyline, pick a number of Power Words
     from the 
-    [Dynamo Class Energy Core Power Words](#dynamo-class-energy-core-power-words),
-    [Dynamo Class Personal Power Words](#dynamo-class-energy-core-power-words),
-    [Paragon Class Personal Power Words](#paragon-class-personal-power-words) 
-    lists
+    [Dynamo Class Energy Core Power Words](#dynamo-class-energy-core-power-words){.list-link},
+    [Dynamo Class Personal Power Words](#dynamo-class-energy-core-power-words){.list-link},
+    [Inventor Class Personal Power Words](#inventor-class-personal-power-words){.list-link},
+    [Paragon Class Personal Power Words](#paragon-class-personal-power-words){.list-link .plural} 
     equal to the Volume.
 
     You can use each Power Word as a Core Power Word once
@@ -237,6 +237,7 @@ Weapons Locker
 
     :::::::: cpw ::::::::::::
     #[Weapons Locker Core Power Words List]{.weapons-locker-core-power-words}
+
     - Automatic
     - Bazooka
     - Bullets 
@@ -321,9 +322,8 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 :::::::: {.ability-list .v3 } :::::::
 Implacable Foe
 
-:   Your determination may be your greatest asset.
-    Instead of losing Health, you can lose an equal
-    amount of Might.
+:   Your determination may be your greatest asset.  Instead of losing Health, 
+    you can lose an equal amount of Might.
     [Mind Over Matter]{.variant .psychic}
 
 Tactical Mastery
@@ -385,9 +385,8 @@ Custom Super-Mobile
     *Intelligent Vehicle* (1st),
     *Dude, Where's your Car? (1st)*, *Haunted Vehicle (1st)*,
     *Cursed Vehicle (1st)*, *High-Tech Vehicle (1st)*, 
-    *Autonomous Operation (1st)*, and *More than Meets the Eye 
-    (2nd)* are among the most applicable Wheelman Class 
-    Abilities to consider.
+    *Autonomous Operation (1st)*, and *More than Meets the Eye (2nd)* 
+    []{.crossover-consider .wheelman}.
 
     []{.repeat} If
     you do, you create another vehicle each time you take this 
@@ -401,7 +400,7 @@ Dread Creature of the Night
     your war on crime. 
 
     Choose one Power Word from the
-    [](#totem-class-nature-core-power-words), and add it as a
+    [](#totem-class-nature-core-power-words){.list-link}, and add it as a
     Core Power Word. Unlike the Totem class, you don't physically or
     spiritually become that animal; you just draw upon its abilities
     as inspiration.

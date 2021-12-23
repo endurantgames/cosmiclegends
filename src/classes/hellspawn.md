@@ -165,8 +165,7 @@ Magicks of Hell
     *Auspicious Alliteration* (1st), *Mists of Misdirection* (1st),
     *Talismans of Power* (1st), *Thinking with Portals* (1st),
     *Arcane Infusion* (3rd), and *Healing Mantra* (3rd)
-    are among the most applicable Mage Class Abilities to
-    consider.
+    []{.crossover-consider .mage}
 
 Rhymer
 
@@ -247,8 +246,7 @@ Fiendish Destroyer
     *All-Consuming Rage* (1st), *Misunderstood Monster* (1st),
     *Immortal* (1st), *Regeneration* (2nd), and 
     *Nigh-Invulnerable* (3rd)
-    are among the most applicable Monstrosity Class Abilities to
-    consider.
+    []{.crossover-consider .monstrosity}
 
 :::::::::::::::::::::::::::::::::::::
 

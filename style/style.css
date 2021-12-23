@@ -2308,12 +2308,13 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .cca .pick.recommend.line:after  { content: 'considering a Hard Line regarding this kind of content';   text-decoration: underline;          }
 .cca .pick.recommend.veil:after  { content: 'designating this kind of content to be Veiled';            text-decoration: underline;          }
 
-.list-index a.list-link:before { content: '';                                                                            }
+.list-index a.list-link:before { content: ''; }
 .list-index a.list-link:after  { content: " " target-counter(attr(href), page); font-style: italic; font-weight: normal; }
-.list-index a.list-link        { content: target-content(attr(href)); font-weight: bold; color: black;                   }
+.list-index a.list-link        { content: target-content(attr(href)); font-weight: bold; color: black; }
 
-a.list-link:before { font-style: normal; content: "the ";                                                }
-a.list-link        { content:    target-content(attr(href)) " list "; font-style: italic;                }
+a.list-link:before { font-style: normal; content: "the "; }
+a.list-link        { content:    target-content(attr(href)) " list ";  font-style: italic; }
+a.list-link.plural { content:    target-content(attr(href)) " lists "; font-style: italic; }
 a.list-link:after  { content:    " (see page " target-counter(attr(href), page) ")"; font-style: normal; }
 a.list-link.nopage:after { content: ""; }
 
@@ -2563,3 +2564,30 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 .crossover-instead.twins:after             { content: " a  Twins       Ability of the same or lower Volume."; }
 .crossover-instead.wheelman:after          { content: " a  Wheelman    Ability of the same or lower Volume."; }
 .crossover-instead.divine.or.paragon:after { content: " a  Divine or Paragon Ability of the same or lower Volume."; }
+
+.crossover-consider:before {
+  content: " are among the most applicable ";
+}
+
+.crossover-consider.construct   { content: "Construct";   }
+.crossover-consider.divine      { content: "Divine";      }
+.crossover-consider.dynamo      { content: "Dynamo";      }
+.crossover-consider.expat       { content: "Expatriate";  }
+.crossover-consider.expert      { content: "Expert";      }
+.crossover-consider.haunt       { content: "Haunt";       }
+.crossover-consider.hellspawn   { content: "Hellspawn";   }
+.crossover-consider.inventor    { content: "Inventor";    }
+.crossover-consider.kid         { content: "Kid";         }
+.crossover-consider.knight      { content: "Knight";      }
+.crossover-consider.mage        { content: "Mage";        }
+.crossover-consider.monarch     { content: "Monarch";     }
+.crossover-consider.monstrosity { content: "Monstrosity"; }
+.crossover-consider.paragon     { content: "Paragon";     }
+.crossover-consider.pet         { content: "Pet";         }
+.crossover-consider.psychic     { content: "Psychic";     }
+.crossover-consider.shaper      { content: "Shaper";      }
+.crossover-consider.speedster   { content: "Speedster";   }
+.crossover-consider.totem       { content: "Totem";       }
+.crossover-consider.twins       { content: "Twins";       }
+.crossover-consider.wheelman    { content: "Wheelman";    }
+
