@@ -33,43 +33,49 @@ You can use your Power Words in the following ways:
 - Joining a **Power Combo**, costing 1 Might.
 
 When you use a Power Word, it goes on cooldown until the start of
-the next Hero Phase, and you can't use it until it is off cooldown.
+the next Hero Phase, and you can't use it again until it is off cooldown.
 
 ### Core Power Words
 
-Your Core Power Words are **Does** **Whatever** and **Can**.
-You can spend 1 Might point to add one of these to a Power Stunt 
-or Combo, 2 Might to add two, and 3 Might to add all three.
+[Twin, Powers, and Activate]{.power-words .core .three}
+<!-- Your Core Power Words are **Twin**, **Powers**, and **Activate**.
+     You can spend 1 Might point to add one of these to a Power Stunt 
+     or Combo, 2 Might to add two, and 3 Might to add all three. -->
 
 ::::::::::::: cpw :::::::
 :::::::::::::::::::::::::
 
 ### Personal Power Words
 
-Choose six Personal Power Words from the following list:
+[]{.power-words .personal .choose .six}
+<!-- Choose six Personal Power Words from the following list: -->
 
 ::::::::::::: cpw :::::::
 :::::::::::::::::::::::::
 
-When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** 
-or **Power Combo** by paying 1 Might for each beyond the first.
+[]{.power-words .personal .use}
+<!-- When you use a **Power Display,** you can add one Personal Power Word for free.
+
+     You can use two Power Personal Words together to form a **Power Stunt** 
+     or **Power Combo** by paying 1 Might for each beyond the first. -->
 
 ### Nova Power
 
-Choose at least two but no more than four single words you like; 
-these are your **Nova Power Words**, and together are known as your
-**Nova Power Phrase**.
+[]{.power-words .nova .choose}
+<!-- Choose at least two but no more than four single words you like; 
+     these are your **Nova Power Words**, and together are known as your
+     **Nova Power Phrase**. -->
 
-When you check off all your Ideals, your Nova Power Words are 
-**Unlocked** until the end of the current Storyline.
+[]{.power-words .nova .use}
+<!-- When you check off all your Ideals, your Nova Power Words are 
+     **Unlocked** until the end of the current Storyline.
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+     You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+     if you spend 1 Might, you can include the second Nova Power Word as well. -->
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
+<!-- no class picture ... yet -->
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Twin Abilities {.class}
@@ -91,7 +97,9 @@ Side by Side
 
 ### Volume 1 Abilities
 
-At the start of Volume 1, choose two abilities from this list.
+[]{.at-the-start .v1}
+
+<!-- At the start of Volume 1, choose two abilities from this list. -->
 
 ::::: {.ability-list .v1 } ::::::::::
 
@@ -102,7 +110,8 @@ TBD
 
 ### Volume 2 Abilities
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+[]{.at-the-start .v2}
+<!-- At the start of Volume 2, choose an ability from this list or the Volume 1 list. -->
 
 :::::::: {.ability-list .v2 } :::::::
 
@@ -113,7 +122,8 @@ TBD
 
 ### Volume 3 Abilities
 
-At the start of Volume 3, choose an ability from this list or any previous list.
+[]{.at-the-start .v3}
+<!-- At the start of Volume 3, choose an ability from this list or any previous list. -->
 
 :::::::: {.ability-list .v3 } :::::::
 TBD
@@ -124,7 +134,8 @@ TBD
 
 ### Volume 4 Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
+[]{.at-the-start .v4}
+<!-- At the start of Volume 4, choose an ability from this list or any previous list. -->
 
 :::::::: {.ability-list .v4 } :::::::
 TBD
@@ -135,7 +146,8 @@ TBD
 
 ### Volume 5 Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+[]{.at-the-start .v5}
+<!-- At the start of Volume 5, choose an ability from this list or any previous list. -->
 
 :::::: {.ability-list .v5 }::::::::::
 TBD

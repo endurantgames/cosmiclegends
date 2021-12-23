@@ -13,6 +13,9 @@ fun to play!
 ----------------------------------------------------------------------------------------------------
 Class           Skills                      Core Power Words    PPWs        Prime Ability
 --------------- -------------------------   -----------------  ------------ ------------------------
+The Construct   Engineer, Hacker, plus      Sentience,           6          TBD
+                any two                     Synthetic
+
 The Divine      Explorer, Historian,        Blessed,             6          Give Me Strength!
                 Mystic, plus any two        Champion   
 

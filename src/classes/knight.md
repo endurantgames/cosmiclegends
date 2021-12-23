@@ -307,8 +307,8 @@ Patriot
     []{.crossover-instead .v3 .monarch}
     *Force of the Land (5th)*, *Soul of the Land (3rd)*, 
     *Vengeance is Mine (3rd)*, *Unkillable (3rd)* and
-    *Inspiring Leadership (3rd)* are among the most applicable 
-    Monarch Class Abilities to consider.
+    *Inspiring Leadership (3rd)* 
+    []{.crossover-consider .monarch}
 
     []{.repeat} When you do, add a subsection of your 
     original home country as a Nova Power Word.  
@@ -350,6 +350,8 @@ Custom Super-Mobile
 :   [Wheelman]{.crossover .new}
     You have a variant of the Wheelman Class's 
     *_Unique Vehicle_ Class Ability*: *Custom Ride*.
+
+    You gain the Pilot skill.
 
     :::::::::::: box-it :::::::::::::::::
     Custom Ride

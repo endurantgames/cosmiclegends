@@ -229,7 +229,7 @@ Unique Vehicle
 
     Whenever you add a Personal Power Word, you can instead add a
     Vehicle Scene Power Word from the 
-    [](#wheelman-class-vehicle-scene-power-words).
+    [](#wheelman-class-vehicle-scene-power-words){.list-link}.
 
     In addition, you are considered to have the **Ace Fighting Style**
     whenever you are in your Unique Vehicle.

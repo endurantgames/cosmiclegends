@@ -98,7 +98,6 @@ Choose six Personal Power Words from the following list:
 ::::::::::::: cpw :::::::
 # [Divine Class Personal Power Words]{#divine-class-personal-power-words}
 
-- Anger
 - Armor
 - Command
 - Extraplanar
@@ -113,6 +112,7 @@ Choose six Personal Power Words from the following list:
 - Thunder
 - Unbreakable
 - Wisdom
+- Wrath
 :::::::::::::::::::::::::
 
 When you use a **Power Display,** you can add one Personal Power Word for free.

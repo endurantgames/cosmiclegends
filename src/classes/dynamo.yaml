@@ -1,0 +1,165 @@
+- metadata:
+  - x-format:  class
+  - classname: &classname Dynamo
+  - classid:   dynamo
+  - title:     The *classname
+  - anchor:    class-dynamo
+- quote: |
+    Stand back, everyone. This one's gonna hurt.
+- desc: |
+    You're a living source of energy. Whether you generate it
+    yourself or tap into another plane of existence, you can use
+    that energy as a blast, an explosion, a punch, and more.
+- playing: |
+    This makes you especially good at blowing things up; in fights, you
+    use up Might quickly, but regain it almost as quickly. Dynamo is one
+    of the few classes that gets a third Core Power Word, so use that
+    to increase your dice pools by spending Might freely.
+- questions:
+  - "What type of energy do you use? ":
+    - "Do you produce it yourself, or does it come from another source?"
+    - "How exactly did you gain your power to use this energy?"
+  - "What visual, audible, and olfactory signatures accompany your power?"
+    - "Is there a color associated with this energy, like silver, purple, or gold?"
+    - "Do you crackle with energy?"
+    - "An earth-shattering kaboom when your power goes off, a simple \"ZOT\" or something else?"
+    - "A burnt smell, or ozone, or petrichor?"
+  - "How does your hero feel about these powers?":
+    - "Do you revel in them, happy to show off? "
+    - "Or are you more restrained, afraid to let loose with your full strength?"
+    - "Have your powers ever harmed anyone else?":
+- skills:
+  - pre-chosen: [Scientist]
+  - plus: "any two skills of your choice"
+- soapbox:
+  - title: Other Energy Power Words
+  - anchor: soapbox-other-energy-power-words
+  - text: |
+      If you've got an idea for another type of energy,
+      go for it! You can run it past the Editor for ideas,
+      but if you say your energy is \"thunder\", for example,
+      then your power's thunder!
+- power_words:
+  - preamble: standard
+  - core:
+    - pre-chosen: [Energy, Overload]
+    - extra:
+      - term: Energy Core Power Word
+      - anchor: dynamo-class-energy-core-power-words
+      - title: Dynamo Class Energy Core Power Words
+      - list: 
+        - Cold
+        - Darkness
+        - Electricity
+        - Heat
+        - Light
+        - Radiation
+        - Sound
+        - Speed
+    - number: 3        
+  - personal:
+    - number: 6
+    - title: Dynamo Class Personal Power Words
+    - anchor: dynamo-class-personal-power-words
+    - list:
+      - Absorb
+      - Beam
+      - Blast
+      - Bubble
+      - Dampen
+      - Explosion
+      - Flare
+      - Flight
+      - Glow
+      - Punch
+      - Push
+      - Reflect
+      - Sense
+      - Shield
+      - Solid
+      - Space
+  - nova:
+    - standard: true
+- classpic:
+  - url: art/jeshields/dynamo.png
+  - alt: "Energy Boy, the Living Reactor"
+- abilities:
+  - preamble:
+    - represent: are refinements of your energy powers
+  - prime:
+    - Energy Reserve:
+      - desc: |
+          You're overflowing with energy.  If you start a Hero Phase with \2 or 
+          less Might, you regain \1 Might.
+  - volume:
+    - "1":
+      - list:
+        - Destructive Energies:
+          - desc: |
+            Your energy is even more damaging than other sources of the same
+            type. Add \2 to the dice pool to advance the Smash goal.
+        - "Eight Ball, Corner Pocket":
+          - desc: |
+              You're extremely good at bouncing your blasts off solid targets. 
+              When you do, add \2 to the dice pool to advance the Outwit goal.
+        - "Fight Fire With Fire": 
+          - desc: |
+              If a Crisis threatens you or someone else with harm from energy 
+              blasts, you can fire off a blast of energy that intercepts and 
+              blocks it.  You can spend points of Might instead of successes from
+              the Teamwork Pool to counter energy-themed effects.
+        - "Wide Angle":
+          - desc: |
+              You can spread your energy in a burst that hits many targets. 
+              When you advance the Smash goal, advance another goal as well.
+    - "2": 
+      - list:
+        - Energy Shaping:
+          - crossover: 
+            - class:   shaper
+            - ability: 
+              - Infuse the Battlefield:
+                - variant:
+                  - class:  shaper
+                  - volume: core
+                  - of:     Reshape the Battlefield
+                - desc: |
+                    When you use your Core or Nova Power Words in a Power Stunt
+                    or Combo, you can choose to spend \2 Effectiveness to change
+                    one of the Scene Power Words to one of your own Power Words.
+           
+                    You can only do this once during any given Crisis, even if
+                    you take this Ability multiple times.
+            - crossover_abilities: true
+          - repeat: 
+            - punctuate: "."
+            - desc: When you do, choose a different Energy Power Word. 
+        - Energy Versatility:
+          - desc: |
+              You've mastered another form of energy projection in addition
+              to your primary energy type. 
+          - power-words:
+            - Extra:
+              - number:    1
+              - list-link: dynamo-class-energy-core-power-word
+              - nopage:    true
+              - as:        core
+          - repeat: 
+            - punctuate: "."
+            - desc: When you do, choose a different Energy Power Word.
+    - "3": 
+      - list:
+        - Power Conduit:
+          - desc: |
+              You're able to channel your energy to great effect. When you
+              initiate or join a Power Combo, add \2 to the dice pool.
+        - Power Overwhelming:
+          - desc: |
+              Your capacity for energy use is extraordinary, even for a hero.
+              Increase your maximum Might by \5.
+          - might: 5
+    - "4": 
+      - tbd: true
+    - "5": 
+      - tbd: true
+

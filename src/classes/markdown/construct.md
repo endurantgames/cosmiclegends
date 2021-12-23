@@ -143,8 +143,7 @@ biological humanity. Each ability can be chosen only once.
 
 ### Prime Ability
 
-Your hero has the **TBD** Prime ability common 
-to all Constructs.
+Your hero has the **TBD** Prime ability common to all Constructs.
 
 :::::: {.ability-list .prime }::::::::::
 To Be Determined
@@ -155,7 +154,8 @@ To Be Determined
 
 ### Volume 1 Construct Class Abilities {#list-construct-abilities-v1}
 
-At the start of Volume 1, choose two abilities from this list.
+[]{.at-the-start .v1}
+<!-- At the start of Volume 1, choose two abilities from this list. -->
 
 ::::: {.ability-list .v1 } ::::::::::
 Asimovian Disciple
@@ -353,7 +353,8 @@ War Machine
 
 ### Volume 2 Construct Class Abilities {#list-construct-abilities-v2}
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+[]{.at-the-start .v2}
+<!-- At the start of Volume 2, choose an ability from this list or the Volume 1 list. -->
 
 :::::::: {.ability-list .v2 } :::::::
 
@@ -397,7 +398,8 @@ Relentless Power
 
 ### Volume 3 Construct Class Abilities {#list-construct-abilities-v3}
 
-At the start of Volume 3, choose an ability from this list or any previous list.
+[]{.at-the-start .v3}
+<!-- At the start of Volume 3, choose an ability from this list or any previous list. -->
 
 :::::::: {.ability-list .v3 } :::::::
 Nigh-Invulnerable
@@ -415,7 +417,8 @@ Power Burn
 
 ### Volume 4 Construct Class Abilities {#list-construct-abilities-v4}
 
-At the start of Volume 4, choose an ability from this list or any previous list.
+[]{.at-the-start .v4}
+<!-- At the start of Volume 4, choose an ability from this list or any previous list. -->
 
 :::::::: {.ability-list .v4 } :::::::
 Power Overwhelming
@@ -433,7 +436,8 @@ Immortal
 
 ### Volume 5 Construct Class Abilities {#list-construct-abilities-v5}
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+[]{.at-the-start .v5}
+<!-- At the start of Volume 5, choose an ability from this list or any previous list. -->
 
 :::::: {.ability-list .v5 }::::::::::
 :::::::::::::::::::::::::::::::::::::

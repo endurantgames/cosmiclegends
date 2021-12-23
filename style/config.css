@@ -119,6 +119,7 @@
   --icon-female         : '\002640' var(--iant);
   --icon-male           : '\002642' var(--iant);
   --icon-trans          : '\0026a7' var(--iant);
+  --newline             : '\a';
 
   /* Font Sizes ======================================================== */
   --wide-one            : calc(100% - 2 * 2pt / 1 ); 

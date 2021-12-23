@@ -97,26 +97,26 @@ dl    {                                                }
 dt    {                                                }
 dd    { margin-left: 1.5em;                            }
 
-.classdata#class-construct   { --class-article:  "a"; --class: "Construct";   }
-.classdata#class-divine      { --class-article:  "a"; --class: "Divine";      }
-.classdata#class-dynamo      { --class-article:  "a"; --class: "Dynamo";      }
-.classdata#class-expatriate  { --class-article:  "an"; --class: "Expatriate"; }
-.classdata#class-expert      { --class-article:  "an"; --class: "Expert";     }
-.classdata#class-haunt       { --class-article:  "a"; --class: "Haunt";       }
-.classdata#class-hellspawn   { --class-article:  "a"; --class: "Hellspawn";   }
-.classdata#class-inventor    { --class-article:  "an"; --class: "Inventor";   }
-.classdata#class-kid         { --class-article:  "a"; --class: "Kid";         }
-.classdata#class-knight      { --class-article:  "a"; --class: "Knight";      }
-.classdata#class-mage        { --class-article:  "a"; --class: "Mage";        }
-.classdata#class-monarch     { --class-article:  "a"; --class: "Monarch";     }
-.classdata#class-monstrosity { --class-article:  "a"; --class: "Monstrosity"; }
-.classdata#class-paragon     { --class-article:  "a"; --class: "Paragon";     }
-.classdata#class-psychic     { --class-article:  "a"; --class: "Psychic";     }
-.classdata#class-shaper      { --class-article:  "a"; --class: "Shaper";      }
-.classdata#class-speedster   { --class-article:  "a"; --class: "Speedster";   }
-.classdata#class-totem       { --class-article:  "a"; --class: "Totem";       }
-.classdata#class-twins       { --class-article:  "a"; --class: "Twins";       }
-.classdata#class-wheelman    { --class-article:  "a"; --class: "Wheelman";    }
+.classdata#class-construct   { --class-article:  "a";   --class: "Construct";    class-plural: "Constructs";     }
+.classdata#class-divine      { --class-article:  "a";   --class: "Divine";       class-plural: "Divines";        }
+.classdata#class-dynamo      { --class-article:  "a";   --class: "Dynamo";       class-plural: "Dynamos";        }
+.classdata#class-expatriate  { --class-article:  "an";  --class: "Expatriate";   class-plural: "Expatriates";    }
+.classdata#class-expert      { --class-article:  "an";  --class: "Expert";       class-plural: "Experts";        }
+.classdata#class-haunt       { --class-article:  "a";   --class: "Haunt";        class-plural: "Haunts";         }
+.classdata#class-hellspawn   { --class-article:  "a";   --class: "Hellspawn";    class-plural: "Hellspawn";      }
+.classdata#class-inventor    { --class-article:  "an";  --class: "Inventor";     class-plural: "Inventors";      }
+.classdata#class-kid         { --class-article:  "a";   --class: "Kid";          class-plural: "Kids";           }
+.classdata#class-knight      { --class-article:  "a";   --class: "Knight";       class-plural: "Knights";        }
+.classdata#class-mage        { --class-article:  "a";   --class: "Mage";         class-plural: "Mages";          }
+.classdata#class-monarch     { --class-article:  "a";   --class: "Monarch";      class-plural: "Monarchs";       }
+.classdata#class-monstrosity { --class-article:  "a";   --class: "Monstrosity";  class-plural: "Monstrosities";  }
+.classdata#class-paragon     { --class-article:  "a";   --class: "Paragon";      class-plural: "Paragons";       }
+.classdata#class-psychic     { --class-article:  "a";   --class: "Psychic";      class-plural: "Psychics";       }
+.classdata#class-shaper      { --class-article:  "a";   --class: "Shaper";       class-plural: "Shapers";        }
+.classdata#class-speedster   { --class-article:  "a";   --class: "Speedster";    class-plural: "Speedsters";     }
+.classdata#class-totem       { --class-article:  "a";   --class: "Totem";        class-plural: "Totems";         }
+.classdata#class-twins       { --class-article:  "a";   --class: "Twins";        class-plural: "Twins";          }
+.classdata#class-wheelman    { --class-article:  "a";   --class: "Wheelman";     class-plural: "Wheelmen";       }
 
 .chargen-list ul    { margin: 0; }
 .chargen-list ul li { margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; margin-bottom: 2pt; }
@@ -2591,3 +2591,92 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 .crossover-consider.twins       { content: "Twins";       }
 .crossover-consider.wheelman    { content: "Wheelman";    }
 
+.power-words.core:before {
+  content: "Your Core Power Words are ";
+  font-weight: normal;
+}
+
+.power-words.core.choose.third:before {
+  content: "In addition, you get a third Core Power Word -- known as your ";
+  font-weight: normal;
+}
+.power-words.core.choose.third:after {
+  content: " -- chosen from the following list:";
+  font-weight: normal;
+}
+.power-words.core.choose.third {
+  font-weight: bold;
+} 
+
+.power-words.core {
+  font-weight: bold;
+}
+
+.power-words.core.use.two {
+  content: "You can spend 1 Might to add one of these to a Power Stunt or Combo, "
+           "or 2 Might to add both of them.";
+}
+
+.power-words.core.use.three {
+  content: "You can spend 1 Might to add one of these to a Power Stunt or Combo, "
+           "2 Might to add a second, or 3 Might to add all three.";
+}
+
+.power-words.personal.choose.six {
+  content: "Choose six Personal Power Words from the following list:";
+}
+
+.power-words.personal.choose.five {
+  content: "Choose five Personal Power Words from the following list:";
+}
+.power-words.personal.use {
+  white-space: pre;
+  content: "When you use a Power Display you can add one Personal Power Word for free." 
+           var(--newline) 
+           var(--newline) 
+	   "You can use two Personal Power Words together in a Power Stunt or Poer Combo by paying 1 Might for each beyond the first.";
+}
+
+.power-words.nova.choose {
+  content: "Choose at least two but no more than four single words you like; "
+           "these are your Nova Power Words, and together are known as your "
+           "Nova Power Phrase";
+}
+
+.power-words.nova.use {
+  content: "When you check off all your Ideals, your Nova Power Words are "
+           "Unlocked until the end of the current Storyline."
+	   var(--newline)
+	   var(--newline)
+	   "You can use one of your unlocked Nova Power Words in a Power Stunt "
+	   "or Combo for free; you can include additional Nova Power Words by "
+	   "spending 1 Might for each additional Power Word.";
+}
+
+.power-words.core.choose.use.three:after {
+  font-weight: normal;
+  content: "You can spend 1 Might point to add one of these to a Power "
+           "Stunt or Combo, 2 Might to add two, or 3 Might to add all three.";
+}
+
+.power-words.core.use.two:after {
+  content: "You can spend 1 Might Point to add one of these to a Power "
+           "Stunt or Combo or 2 Might to add both."; }
+
+.your-abilities-are:before  {
+  content: "Each Volume, you gain a new ability from your class. Your " var(--class);
+}
+.your-abilities-are:after { 
+  content: " Each ability can be chosen only once unless otherwise noted.";
+}
+
+.your-hero-has-the-prime-ability:before {
+  content:     "Your hero has the ";
+  font-weight: normal;
+}
+
+.your-hero-has-the-prime-ability { font-weight: bold; }
+.your-hero-has-the-prime-ability:after {
+  font-weight: normal;
+  content:     " common to all " var(--class-plural) ".";
+}

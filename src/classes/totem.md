@@ -480,9 +480,9 @@ Animal Partner
     you on your heroic adventures. 
 
     This partner has three Core Power Words -- one chosen from the 
-    [](#totem-class-totem-nature-core-power-words),
+    [](#totem-class-totem-nature-core-power-words){.list-link},
     and two others from the 
-    [](#totem-class-personal-power-words) --
+    [](#totem-class-personal-power-words){.list-link} --
     that you can use for free without spending Might, each once per Hero 
     Phase. 
 

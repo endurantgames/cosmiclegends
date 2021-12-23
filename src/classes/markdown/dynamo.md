@@ -64,10 +64,12 @@ the next Hero Phase.
 
 ### Core Power Words {#list-class-dynamo-energy-core-power-words}
 
-Your Core Power Words are **Energy** and **Overload**.
+<!-- Your Core Power Words are **Energy** and **Overload**. -->
+[Energy and Overload]{.power-words .core}
 
-In addition, you get a third Core Power Word -- known as your
-Energy Power Word -- chosen from the following list:
+[Energy Core Power Word]{.power-words .core .choose .third}
+<!-- In addition, you get a third Core Power Word, known as your 
+     **Energy Power Word**, chosen from the following list: -->
 
 ::::::::::::: cpw :::::::
 # [Dynamo Class Energy Core Power Words (#dynamo-class-energy-core-power-words)
@@ -82,12 +84,14 @@ Energy Power Word -- chosen from the following list:
 - Speed
 :::::::::::::::::::::::::
 
-You can spend 1 Might point to add one of these to a Power Stunt or Combo,
-2 Might to add another, or 3 Might to add all three.
+[]{.power-words .core .use}
+<!-- You can spend 1 Might point to add one of these to a Power Stunt or Combo,
+     2 Might to add another, or 3 Might to add all three. -->
 
 ### Personal Power Words 
 
-Choose six Personal Power Words from the following list:
+<!-- Choose six Personal Power Words from the following list: -->
+[]{.power-words .personal .choose .six}
 
 ::::::::::::: cpw :::::::
 # [Dynamo Class Personal Power Words]{#dynamo-class-personal-power-words}
@@ -110,19 +114,23 @@ Choose six Personal Power Words from the following list:
 - Space
 :::::::::::::::::::::::::
 
-When you use a **Power Display,** you can add one Personal Power Word for free.
+[]{.power-words .personal .use}
+<!-- When you use a **Power Display,** you can add one Personal Power Word for free.
 
-You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
-by paying 1 Might for each beyond the first.
+     You can use two Power Personal Words together to form a **Power Stunt** or **Power Combo**
+     by paying 1 Might for each beyond the first. -->
 
 ### Nova Power
 
-Choose any two single words you like; these are your **Nova Power Words**.
-When you check off all your Ideals, your Nova Power Words are **Unlocked**
-until the end of the current Storyline.
+[]{.power-words .nova .choose}
 
-You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
-1 Might, you can include the second Nova Power Word as well.
+[]{.power-words .nova .use}
+<!-- Choose any two single words you like; these are your **Nova Power Words**.
+     When you check off all your Ideals, your Nova Power Words are **Unlocked**
+     until the end of the current Storyline.
+
+     You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
+     if you spend 1 Might, you can include the second Nova Power Word as well. -->
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
 ![Energy Boy, the Living Reactor](art/jeshields/dynamo.png "Energy Boy, the living reactor"){.class}
@@ -130,14 +138,16 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 
 ## Dynamo Abilities {.class}
 
-Each Volume, you gain a new ability from your class.
-Your Dynamo Abilities are refinements of your energy powers.
-Each ability can be chosen only once unless otherwise noted.
+[refinements of your energy powers.]{.your-abilities-are}
+<!-- Each Volume, you gain a new ability from your class.
+     Your Dynamo Abilities are 
+     Each ability can be chosen only once unless otherwise noted. -->
 
 ### Prime Ability
 
-Your hero has the **Energy Reserve** Prime ability common 
-to all Dynamos.
+[Energy Reserve]{.your-hero-has-the-prime-ability}
+<!-- Your hero has the **Energy Reserve** Prime ability common 
+     to all Dynamos. -->
 
 :::::: {.ability-list .prime }::::::::::
 Energy Reserve
@@ -149,7 +159,8 @@ Energy Reserve
 
 ### Volume 1 Dynamo Class Abilities
 
-At the start of Volume 1, choose two abilities from this list.
+[]{.at-the-start .v1}
+<!-- At the start of Volume 1, choose two abilities from this list. -->
 
 :::::: {.ability-list .v1 } :::::::::
 
@@ -180,7 +191,8 @@ Wide Angle
 
 ### Volume 2 Abilities
 
-At the start of Volume 2, choose an ability from this list or the Volume 1 list.
+[]{.at-the-start .v2}
+<!-- At the start of Volume 2, choose an ability from this list or the Volume 1 list. -->
 
 :::::::: {.ability-list .v2 } :::::::
 Energy Shaping
@@ -221,7 +233,8 @@ Energy Versatility
 
 ### Volume 3 Dynamo Class Abilities
 
-At the start of Volume 3, choose an ability from this list or any previous list.
+[]{.at-the-start .v3}
+<!-- At the start of Volume 3, choose an ability from this list or any previous list. -->
 
 ::::::: {.ability-list .v3 } ::::::::
 Power Conduit
@@ -238,14 +251,16 @@ Power Overwhelming
 
 ### Volume 4 Dynamo Class Abilities
 
-At the start of Volume 4, choose an ability from this list or any previous list.
+[]{.at-the-start .v4}
+<!-- At the start of Volume 4, choose an ability from this list or any previous list. -->
 
 :::::: {.ability-list .v4 }::::::::::
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Dynamo Class Abilities
 
-At the start of Volume 5, choose an ability from this list or any previous list.
+[]{.at-the-start .v5}
+<!-- At the start of Volume 5, choose an ability from this list or any previous list. -->
 
 :::::: {.ability-list .v5 }::::::::::
 :::::::::::::::::::::::::::::::::::::
