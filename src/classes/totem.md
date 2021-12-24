@@ -340,7 +340,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Adam-42, a.k.a. O.O.P.F.](art/jeshields/monstrosity.png "Adam-42, a.k.a. O.O.P.F."){.class} 
+*art coming soon*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Totem Abilities {.class}

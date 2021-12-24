@@ -113,7 +113,8 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 #   Edit: Sure, if you need to
 # PRINCEFLAGS             = --pdf-engine-opt=--css-dpi=300
 # PRINCEFLAGS             = --verbose
-PRINCEFLAGS_PREGEN        = 
+# PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
+PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
 PRINCEFLAGS_LETTER        = 
 PRINCEFLAGS_SHEET         = 
 PRINCEFLAGS_SHEET_ALT     = 
@@ -452,6 +453,9 @@ vi:             edit
 vim:            edit
 sheet-alt:      alt-sheet
 pregens:        pregen
+pregen-md:      pregen-markdown
+pregens-md:     pregen-markdown
+pgmd:           pregen-markdown
 origins:        origin
 secret:         origin
 secret-origins: origin

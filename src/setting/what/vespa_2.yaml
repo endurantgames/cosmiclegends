@@ -15,9 +15,19 @@
     - pronouns: they/them
   - identity: public
   - former_aliases: Bug, The Hornette
-  - place_of_birth: Technopolis, U.S.A.
+  - place_of_birth: Vadyvokia Castle, Vadyvokia
   - marital_status: single 
-  - known_relatives: [Hazel Montgomery (mother, deceased), Marquis Malign (father)]
+  - known_relatives: 
+    - Hazel Montgomery:
+      - relationship: mother
+      - aka: "Vespa (I)"
+      - deceased: true
+    - Magnus Merlyn Malign:
+      - relationship: father
+      - aka: "Marquis Malign (I)"
+    - Merlyn Malign:
+      - relationship: "half-brother"
+      - aka: "Marquis Malign II"
   - group_affiliation: 
     - "Cosmic Legends of the Universe":
       - active: true

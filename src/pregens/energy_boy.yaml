@@ -55,6 +55,9 @@
     the original Vespa. Together with Montgomery's child Lin -- the sidekick
     hero Bug -- Del became one of the first two students at Technopolis Academy 
     and a founding member of the Junior Legends of America.
+- "sheet-config":
+  - shrink:
+    - name: true
 - powers: |
     Del's natural state of being is a humanoid form composed of supercharged plasma.
     He can use this energy as destructive blasts, as an energy-backed "nuke punch!", 

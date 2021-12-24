@@ -96,7 +96,7 @@
   - might: 10
   - power_words:
     - core: [Gambit, Prepared]
-    - personal: [Armor, Crossbow, Line, Restrain, Sword]
+    - personal: [Armor, Weapon (crossbow), Line, Restrain, Weapon (sword)]
     - nova: [Immortal, Quest]
   - abilities: [Peak Human Potential, Trick Arrows, TBD]
   - skills: [Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy]

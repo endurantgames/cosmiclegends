@@ -5,7 +5,7 @@
   - "item-format": group
   - "yaml_version": 1.2
   - "list-class": other-list
-  - text: |
+- text: |
       This is a listing of other groups known to be active in the universe of the
       Cosmic Legends.
 - list:
@@ -84,7 +84,7 @@
     - active:    false
     - hero:      true
     - disbanded: true
-    - bio:       "Group of dinosaurs cloned during World War 2 to fight for the Allies in the Pacfc theatre; current status and location unknown."
+    - bio:       "Group of dinosaurs cloned during World War 2 to fight for the Allies in the Pacific theatre; current status and location unknown."
     - members: 
       - dino one:
       - dino two:

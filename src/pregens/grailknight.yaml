@@ -6,6 +6,10 @@
 - art:
   - url: art/jeshields/knight.png
   - alt: Percival, the Grailknight
+  - face: art/jeshields/grailknight_face.png
+- "sheet-config":
+  - shrink:
+    - name: true
 - bio:
   - real_name: Percival Pellinore
   - occupation: Adventurer
@@ -98,7 +102,7 @@
   - might: 10
   - power_words:
     - core: [Gambit, Prepared]
-    - personal: [Armor, Crossbow, Line, Restrain, Sword]
+    - personal: [Armor, Weapon (crossbow), Line, Restrain, Weapon (sword)]
     - nova: [Immortal, Quest]
   - abilities: [Peak Human Potential, Trick Arrows, TBD]
   - skills: [Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy]

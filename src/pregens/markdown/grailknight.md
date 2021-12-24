@@ -75,10 +75,10 @@
 
 ::::::: pregen-personal :::::::::::
 [Armor]{.pregen-word}
-[Crossbow]{.pregen-word}
 [Line]{.pregen-word}
 [Restrain]{.pregen-word}
-[Sword]{.pregen-word}
+[Weapon (sword)]{.pregen-word}
+[Weapon (crossbow)]{.pregen-word}
 :::::::::::::::::::::::::::::::::::
 
 :::::::: pregen-nova ::::::::::::::

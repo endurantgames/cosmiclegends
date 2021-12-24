@@ -1,30 +1,32 @@
 - metadata:
-  - title: &title Rockstar
-  - anchor: setting-rockstar
+  - title:        &title Rockstar
+  - anchor:       setting-rockstar
   - yaml_version: 1.2
-  - x-format: character-sheet
+  - x-format:     character-sheet
+- art:
+  - url:  art/jeshields/monstrosity.png
+  - alt:  *title
+  - face: art/jeshields/rockstar_face.png
 - bio:
-  - real_name: Geraldine "Jeri" North
-  - occupation: musician
-  - legal_status: Citizen of the United States
+  - real_name:       Geraldine "Jeri" North
+  - occupation:      musician
+  - legal_status:    Citizen of the United States
   - gender: 
-    - desc: female
-    - pronouns: she/her
-  - identity: public
-  - place_of_birth: Toms River, New Jersey
-  - marital_status: single
+    - desc:          female
+    - pronouns:      she/her
+  - identity:        public
+  - place_of_birth:  Toms River, New Jersey
+  - marital_status:  single
   - known_relatives: none
   - group_affiliation: 
     - Cosmic Legends of the Universe:
       - active: yes
-  - base: ["New York City, New York", "Sun City, U.S.A."]
-  - height: "8'"
-  - weight: "1040 lbs."
-  - eyes: blue
-  - hair: none
-- history: |
-    []{.lorem}
-
+  - base:       ["New York City, New York", "Sun City, U.S.A."]
+  - height:     "8'"
+  - weight:     "1040 lbs."
+  - eyes:       blue
+  - hair:       none
+- history: "*coming soon*"
 - powers: |
     Jeri North's exposure to *bremsstrahlung* rays fundamentally changed
     the nature of her body. Her skin is a rough, rocky substance with
@@ -33,17 +35,16 @@
     
     This grants her a high degree of imperviousness to pain and injury,
     and lets her lift in excess of 100 tons.
-    
 - stats:
-  - name: *title
-  - class: The Monstrosity
+  - name:       *title
+  - class:      The Monstrosity
   - approaches: {action: 4, adventure: 2, detective: 2, mystery: 1, suspense: 1}
-  - health: 10
-  - might: 10
+  - health:     10
+  - might:      10
   - power_words:
-    - core: [Monster, Strongest]
+    - core:     [Monster, Strongest]
     - personal: [Body, Leap, Rocky, Stomp, Strength, Throw]
-    - nova: [Mosh, Pit]
-  - abilities: [Engine of Destruction, Misunderstood Monster, TBD]
-  - skills: [Criminal, Explorer, Hacker, Performer (punk)]
-  - ideals: [Bold, Comfort, Fun, Kindness, Music]
+    - nova:     [Mosh, Pit]
+  - abilities:  [Engine of Destruction, Misunderstood Monster, TBD]
+  - skills:     [Criminal, Explorer, Hacker, Performer (punk)]
+  - ideals:     [Bold, Comfort, Fun, Kindness, Music]

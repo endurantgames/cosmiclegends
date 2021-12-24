@@ -4,16 +4,17 @@
   - yaml_version: 1.2
   - anchor: setting-titan
 - art:
-  - url: art/jeshields/paragon.png
-  - alt: *title
+  - url:  art/jeshields/paragon.png
+  - alt:  *title
+  - face: art/jeshields/titan_face.png
 - bio:
-  - real_name: Ty'Tonn To'Rezz
-  - occupation: Sentinel
-  - legal_status: Honorary citizen of Canada
+  - real_name:      Ty'Tonn To'Rezz
+  - occupation:     Sentinel
+  - legal_status:   Honorary citizen of Canada
   - gender: 
-    - desc: nyrr-t'vor 
-    - pronouns: he/him, they/them, or it/its
-  - identity: public
+    - desc:         nyrr-t'vor 
+    - pronouns:     he/him, they/them, or it/its
+  - identity:       public
   - former_aliases: Thomas "Tom" Torres
   - place_of_birth: L'Shar'Ak, Titan
   - marital_status: widowed
@@ -25,7 +26,7 @@
   - eyes: yellow
   - hair: none
 - history: |
-    Titan is widely acknowledged as the first public superhero and one
+    "Titan is widely acknowledged as the first public superhero and one
     of the primary leaders among the heroes.
     
     Ty'Tonn To'Rezz's story begins on Jarnsaxa, one of the smaller, outer moons
@@ -42,8 +43,8 @@
     
     Fearing the harm the Visitors could do to the primitive, just-barely-nuclear
     civilizations of *W'Ty'Dah'k*, Ty'Tonn urged the *Kyl'Sh'Tal* to intervene.
-    "Are we not the Sentinels for the entire solar system?", Ty argued; "Should we
-    not be concerned with the fate of all who are threatened by the Visitors?"
+    \"Are we not the Sentinels for the entire solar system?\", Ty argued; \"Should we
+    not be concerned with the fate of all who are threatened by the Visitors?\"
     
     The *Kyl'Sh'Tal* council debated for many hours but it soon became clear that
     they prioritized the survival of Titanian civilization over that of 
@@ -68,19 +69,17 @@
     
     Following that tragedy, Ty'Tonn relocated permanently to the planet Earth,
     despite the sweltering heat, and went on to help found the Cosmic Legends of
-    the Universe in September 1963. For while he used the name "Tom Torres" but has
-    since discontinued the use of an alternate identity. Since the start of the 21
+    the Universe in September 1963. For while he used the name \"Tom Torres\" but has
+    since discontinued the use of an alternate identity. Since the start of the 21st
     century, he has lived in Nova Scotia and has been granted honorary Canadian
-    citizenship.
-    
+    citizenship."
 - powers: |
-    Titan is perhaps the most powerful individual on the planet.
+    "Titan is perhaps the most powerful individual on the planet.
     His Titanian strength lets him lift well over 100 tons, and he is
     able to project the cold frost of the Titanian sky from his
     eyes as energy beams. Flight, speed, and telepathy round out his
     vast array of alien powers -- which are exceptional even for a
-    Titanian.
-    
+    Titanian."
 - stats:
   - name: *title
   - class: The Paragon

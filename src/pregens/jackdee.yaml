@@ -1,38 +1,39 @@
 - metadata:
-  - x-format: character-sheet
-  - title: &title Jack Dee, Master Magister
-  - anchor: setting-jackdee
+  - x-format:     character-sheet
+  - title:        &title Jack Dee, Master Magister
+  - anchor:       setting-jackdee
   - yaml_version: 1.2
 - art:
-  - url: art/jeshields/mage.png
-  - alt: Jack Dee
+  - url:  art/jeshields/mage.png
+  - alt:  Jack Dee
+  - face: art/jeshields/jackdee_face.png
 - bio:
-  - real_name: John Arthur Dee VIII
-  - occupation: Lawyer, mage
+  - real_name:    John Arthur Dee VIII
+  - occupation:   Lawyer, mage
   - legal_status: Citizen of the United States
   - gender: 
-    - desc: male
-    - pronouns: he/him
-  - identity: public
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
   - place_of_birth: Sacramento, California
   - marital_status: single
   - known_relatives: 
     - Madinia Katherine Dee:
-      - aka: Miss Magister
+      - aka:          Miss Magister
       - relationship: mother
-      - gender: female
-      - deceased: yes
+      - gender:       female
+      - deceased:     true
     - John Arthur Dee VI:
       - relationship: maternal grandfather
-      - aka: Master Magister
-      - gender: male
+      - aka:          Master Magister
+      - gender:       male
     - John Arthur Dee VII:
       - relationship: uncle
-      - aka: Master Magister
-      - deceased: true
+      - aka:          Master Magister
+      - deceased:     true
     - Arthur Dee:
       - relationship: purported ancestor
-      - deceased: true
+      - deceased:     true
     - John Dee:
       - relationship: purported ancestor
   - group_affiliation: 
@@ -41,11 +42,11 @@
       - reserve: yes
     - State Bar of California:
       - active: yes
-  - base: ["San Francisco, California", "Sun City, U.S.A."]
+  - base:   ["San Francisco, California", "Sun City, U.S.A."]
   - height: "6' 0\""
   - weight: "170 lbs."
-  - eyes: brown
-  - hair: brown
+  - eyes:   brown
+  - hair:   brown
   - desc: |
       Jack Dee is the scion of a long line of mystical protectors.
       He'd rather be a lawyer, so usually dresses like one.
@@ -74,7 +75,6 @@
     supernatural.
     
 - powers: |
-
     As the Master Magister, Jack Dee's magical powers are limited only by his imagination
     and his force of will. He can conjure shields, travel in astral form, cloud the
     senses of the weak-willed, and call upon the strength of his ancestral line to

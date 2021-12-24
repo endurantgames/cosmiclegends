@@ -1,43 +1,48 @@
 - metadata:
-  - title: &title Obsidius Rex
-  - x-format: character-sheet
+  - title:        &title Obsidius Rex
+  - x-format:     character-sheet
   - yaml_version: 1.2
-  - anchor: setting-obsidius-rex
+  - anchor:       setting-obsidius-rex
 - art:
-  - url: art/jeshields/monarch.png
-  - alt: *title
+  - url:  art/jeshields/monarch.png
+  - alt:  *title
+  - face: obsidius_rex_face.png
+- "sheet-config":
+  - shrink:
+    - ideal3: true
+    - name:   true
 - bio:
-  - real_name: Obsidius Vulcanor Rex
-  - occupation: Prince, adventurer
+  - real_name:    Obsidius Vulcanor Rex
+  - occupation:   Prince, adventurer
   - legal_status: Citizen of Vulcanor
   - gender: 
-    - desc: male
+    - desc:     male
     - pronouns: he/him
-  - identity: public
+  - identity:   public
   - place_of_birth: Volcano City, Vulcanor Island
   - marital_status: single
   - known_relatives: 
     - Tachylus Vulcanor Rex:
       - relationship: father
-      - gender: male
+      - gender:       male
     - Limuo Pele Vulcanor:
       - relationship: mother
-      - gender: female
+      - gender:       female
     - Igneia Vulcanor:
       - relationship: sister
-      - gender: female
-      - estranged: true
+      - gender:       female
+      - estranged:    true
   - group_affiliation: 
     - Vulcanor Royal Family:
-      - active: true
+      - active:  true
       - founder: false
       - reserve: false
     - Cosmic Legends of the Universe:
-      - active: false
+      - active:  false
       - reserve: true
       - founder: true
     - "N.O.V.A. Labs":
-      - active: false
+      - active:  false
       - reserve: false
       - founder: true
   - base: ["Volcano City, Vulcanor Island", "Sun City, U.S.A."]

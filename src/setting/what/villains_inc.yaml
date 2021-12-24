@@ -53,8 +53,7 @@
     - gender: female
     - bio: Wielder of a cursed pistol and enemy of Jack Dee.
     - active: true
-  - Hornette:
-    - definite: true
+  - The Hornette:
     - gender: trans
     - expelled: true
     - cf: Vespa 2.0

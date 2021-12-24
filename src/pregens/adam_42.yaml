@@ -1,34 +1,32 @@
 - metadata:
-  - yaml_version: 1.2
-  - x-format: character-sheet
-  - title: &title "Adam-42: <span class=\"shrink2\">One-Officer Police Force</span>"
-  - anchor: setting-adam-42
+  - yaml_version:    1.2
+  - x-format:        character-sheet
+  - title:           &title "Adam-42: <span class=\"shrink2\">One-Officer Police Force</span>"
+  - anchor:          setting-adam-42
 - picture:
-  - url: art/jeshields/construct.png
-  - alt: "Adam-42: One-Officer-Police-Force"
-  - face: art/jeshields/construct_face.png
+  - url:             art/jeshields/construct.png
+  - alt:             "Adam-42: One-Officer-Police-Force"
+  - face:            art/jeshields/construct_face.png
 - bio:
   - name: *title
-  - real_name: "Martin \"Adam X. Lii\" McCord"
-  - occupation: police officer
-  - legal_status: Citizen of the United States, offically deceased
+  - real_name:       "Martin \"Adam X. Lii\" McCord"
+  - occupation:      police officer
+  - legal_status:    Citizen of the United States, offically deceased
   - gender: 
-    - desc: "non-gendered/male"
-    - pronouns: "it/its, he/him"
-  - identity: classified
-  - place_of_birth: Technopolis, U.S.A.
-  - marital_status: "single - n/a, formerly married"
+    - desc:          "non-gendered/male"
+    - pronouns:      "it/its, he/him"
+  - identity:        classified
+  - place_of_birth:  Technopolis, U.S.A.
+  - marital_status:  "single - n/a, formerly married"
   - known_relatives: none
   - group_affiliation: 
-    - Cosmic Legends of the Universe:
-      - reserve: true 
-    - Los Angeles Police Department:
-      - status: "medical leave"
-  - base: ["Los Angeles, California", "Technopolis, U.S.A."]
+    - Cosmic Legends of the Universe: { reserve: true }
+    - Los Angeles Police Department:  { status: "medical leave" }
+  - base:   ["Los Angeles, California", "Technopolis, U.S.A."]
   - height: "5' 10\""
   - weight: "305 lbs."
-- history: |+
-    Martin McCord never wanted to become the world's first
+- history:  |+
+    "Martin McCord never wanted to become the world's first
     One-Officer-Police-Force, but a near-fatal shootout took
     that choice away from him. Seconds away from dying, his injured
     brain was transplanted into the ADAM-42 android body, saving
@@ -37,31 +35,30 @@
 
     Officially, McCord is dead -- but with the right prosthetic mask,
     he can pass among humans as Adam Lii, the newest recruit of the
-    Los Angeles Police Department.
-- sheet-config:
+    Los Angeles Police Department."
+- "sheet-config":
   - shrink:
-    - bio: true
-    - name: true
-    - class: true
+    - bio:         true
+    - name:        true
+    - class:       true
     - personal_pw: true
   - "shrink2":
-    - bio: name
+    - bio:         true
 - stats:
-  - name: *title
-  - class: The Construct
-  - approaches: { action: 3, adventure: 1, detective: 3, mystery: 1, suspense: 3}
-  - health: 10
-  - might: 10
+  - name:          *title
+  - class:         The Construct
+  - approaches:    { action: 3, adventure: 1, detective: 3, mystery: 1, suspense: 3}
+  - health:        10
+  - might:         10
   - power_words:
-    - core: [Synthetic, Sentience]
-    - personal: [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
-    - nova: [One, Officer, Police, Force]
+    - core:        [Synthetic, Sentience]
+    - personal:    [Armor, Brain, Body, Metal, Inhuman, Interface, Override, Networked, Strength, Technical, Weapon (pistol)]
+    - nova:        [One, Officer, Police, Force]
   - abilities: 
     - To Be Determined:
-      - volume: core
-      - class: construct
-      - desc: |
-          To Be Determined
+      - volume:    core
+      - class:     construct
+      - desc:      To Be Determined
     - "Purpose-Built":
       - volume: 1
       - class: construct
@@ -75,20 +72,20 @@
       - class: construct
       - crossover: dynamo
       - desc: |
-          Add one word Power Word from the Dynamo Energy Core Power Word list as a
+          "Add one word Power Word from the Dynamo Energy Core Power Word list as a
           Core Power Word, and up to three Power Words from the Dynamo Class 
           Personal Power Word list as Personal Power Words.
   
-          Increase your maximum Might by \5.
+          Increase your maximum Might by 5.
   
-          You have a variant of the Dynamo Class's \*Energy Reserve\* Prime Ability,
-          \*Self-Regenerating Energy Source\*.
+          You have a variant of the Dynamo Class's *Energy Reserve* Prime Ability,
+          *Self-Regenerating Energy Source*."
     - "Self-Regenerating Energy Source":
       - volume: variant
-      - class: dynamo
-      - desc: |
-          If you start a Hero Phase with fewer than \2 Might, immediately regain
-          Might equal to the Volume.
+      - class:  dynamo
+      - desc:   |
+          "If you start a Hero Phase with fewer than 2 Might, immediately regain
+          Might equal to the Volume."
   - fighting_styles: 
     - Brawler: 
       - desc: "Add 2 dice when you use an unarmed attack to advance the Smash goal."
@@ -101,12 +98,12 @@
     - Rescuer:  
       - desc: "Add 2 dice when you roll to advance the Rescue Goal."
     - Weaponmaster:
-      - desc: "Add 2 dice when you use a melee Weapon power word to roll to advance the Outwit goal."
+      - desc: "[Add 2 dice when you use a melee Weapon power word to roll to advance the Outwit goal.]{.shrink}"
   - skills: 
     - Deputy: 
     - Engineer:
     - Hacker: 
     - Investigator:
     - Lawyer:
-  - ideals: [Angst, Guilt, Duty, Law, Pain, Obedience, Violence]
+  - ideals: [Angst, Guilt, Obedience, Pain, Protect, Serve, Violence]
   - storyline: "I want Adam-42 to __encounter Martin's \"widow\".__"

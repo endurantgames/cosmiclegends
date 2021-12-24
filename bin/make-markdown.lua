@@ -118,7 +118,7 @@ function file_search(dir_path, filter, s, pformat)
         -- === Init ===
         dir_path         = dir_path or cwd
         filter           = string.lower(filter) or "*"
-        local extensions = filter:split(";")
+        local extensions = split(filter, ";") -- filter:split(";")
         s = s or false -- as /s : subdirectories
 
         if pformat == 'system' then        -- if 4th arg is explicity 'system', then return the system-dependent number representing date/time
@@ -464,7 +464,7 @@ end;
 
 local function yaml_char_power_words(stats_power_words)
   local markdown = "\n- **Power Words:**";
-  local power_words = unpack_yaml_tree(stats_power_words);
+  local power_words = unpack_yaml_tree(stats_power_words, "power words");
 
   if   power_words.core
   then markdown = markdown .. "\n  - *Core:* " .. table.concat(power_words.core, ", ");
@@ -484,7 +484,7 @@ local function yaml_char_power_words(stats_power_words)
 end;
 
 local function yaml_sheet_approaches(sheet_approaches)
-  local  approaches = unpack_yaml_tree(sheet_approaches);
+  local  approaches = unpack_yaml_tree(sheet_approaches, "sheet_approaches");
   if not approaches or not type(approaches) == "table" then return "" end;
   local  markdown = "";
 
@@ -504,12 +504,14 @@ local function yaml_sheet_approaches(sheet_approaches)
 end;
 
 local function yaml_sheet_basics(sheet_stats)
-  local  stats = unpack_yaml_tree(sheet_stats);
+  local  stats = unpack_yaml_tree(sheet_stats, "sheet_stats");
   if not stats or not type(stats) == "table" then return "" end;
 
   local markdown = "";
+
   if   stats.name and type(stats.name) == "string"
   then markdown = markdown .. "\n[" .. stats.name .. "]{.pregen-name}";
+       vprint("sheet for " .. stats.name, "---------------------");
   end;
 
   if stats.class and type(stats.class) == "string"
@@ -526,7 +528,7 @@ local function yaml_sheet_basics(sheet_stats)
 
   if stats.fighting_style and type(stats.fighting_style) == "table"
   then local bag = {};
-       local fighting_styles = unpack_yaml_tree(stats.fighting_style);
+       local fighting_styles = unpack_yaml_tree(stats.fighting_style, "stats.fighting_style");
        for fs, fs_info in pairs(fighting_styles)
        do  local str = "\n[**" .. fs .. "**";
            if type(fs_info) == "table" and fs_info.desc and type(fs_info) == "string"
@@ -558,7 +560,7 @@ local function yaml_sheet_bio(bio)
   end;
 
   if bio.gender and type(bio.gender) == "table"
-  then local gender = unpack_yaml_tree(bio.gender);
+  then local gender = unpack_yaml_tree(bio.gender, "bio.gender");
        if   gender.pronouns
        then markdown = markdown .. "\n[" .. gender.pronouns .. "]{.pregen-pronouns}";
        end; -- if pronouns
@@ -626,7 +628,7 @@ local function yaml_sheet_abilities(stats_abilities)
      if     type(ability) == "string" and i == 1
      then   ability_md = ability_md .. "[**" .. ability .. "]{.pregen-ability-class}";
      elseif type(ability) == "table"
-     then   local ability_data = unpack_yaml_tree(ability);
+     then   local ability_data = unpack_yaml_tree(ability, "stats_ability : ability");
             if   type(i) == "string"
             then ability_md = ability_md .. "[**" .. i .. "**";
                  if   ability_data.desc and type(ability_data.desc) == "string"
@@ -644,13 +646,19 @@ local function yaml_sheet_abilities(stats_abilities)
   return markdown;
 end;
 
-local function yaml_sheet_ideals(stats_ideals)
+local function yaml_sheet_ideals(stats_ideals, sheet_config)
   if not stats_ideals or not type(stat_ideals) == "table" then return "" end;
   local markdown = "";
 
   for i, ideal in pairs(stats_ideals)
   do  if   type(ideal) == "string"
-      then markdown = markdown .. "\n[ " .. ideal .. "]{.pregen-ideal .pregen-i" .. i .. "}";
+      then markdown = markdown .. "\n[" .. ideal .. "]{.pregen-ideal .pregen-i" .. i;
+	   if     sheet_config.shrink and sheet_config.shrink["ideal" .. i] 
+           then   markdown = markdown .. " .shrink"; 
+           elseif sheet_config["shrink2"] and sheet_config["shrink2"]["ideal" .. i]
+           then   markdown = markdown .. " .shrink2"; 
+	   end;
+	   markdown = markdown .. "}";
       end;
   end;
 
@@ -662,13 +670,26 @@ local function yaml_sheet(yaml_tree)
   if   not sheet or not type(sheet) == "table"
   then return "" end;
 
+  local sheet_config = {};
+  if   sheet["sheet-config"]
+  then sheet_config = unpack_yaml_tree(sheet["sheet-config"], "sheet-config");
+       vprint("found sheet-config!");
+       vprint("::::::: start sheet-config ::::::::::");
+       vprint(inspect(sheet_config));
+       vprint(":::::::: end sheet-config :::::::::::");
+       if sheet_config.shrink
+       then local shrink = unpack_yaml_tree(sheet_config.shrink, "sheet-config.shrink");
+            sheet_config.shrink = shrink;
+       end;
+  end;
+
   markdown = [===[
-::::::::::::::::::::::::::::::::: {.herosheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \ 
 
 [A.K.A.]{.label .nickname}
 [Name]{.label .name}
@@ -767,39 +788,45 @@ local function yaml_sheet(yaml_tree)
         return markdown 
   end;
 
-  local stats = unpack_yaml_tree(sheet.stats);
+  local stats = unpack_yaml_tree(sheet.stats, "sheet.stats");
 
   if    stats.approaches and type(stats.approaches) == "table"
-  then  markdown = markdown .. yaml_sheet_approaches(stats.approaches);
+  then  markdown = markdown .. yaml_sheet_approaches(stats.approaches, sheet_config);
   else  eprint("Error!", "no approaches");
         os.exit(1);
   end;
 
-  markdown = markdown .. yaml_sheet_basics(stats);
+  markdown = markdown .. yaml_sheet_basics(stats, sheet_config);
 
-  if   sheet.bio and type(sheet.bio) == "table"
-  then markdown = markdown .. yaml_sheet_bio(sheet.bio);
+  if     sheet.bio and type(sheet.bio) == "table"
+  then   markdown = markdown .. yaml_sheet_bio(sheet.bio, sheet_config);
   end;
 
-  if   sheet.picture and type(sheet.picture) == "table"
-  then markdown = markdown .. yaml_sheet_face(sheet.picture);
-  else eprint("no picture found!", sheet.name);
+  if     sheet.art and type(sheet.art) == "table"
+  then   vprint("we have art structure!", "yay!");
+         markdown = markdown .. yaml_sheet_face(sheet.art, sheet_config);
+  elseif sheet.art and type(sheet.art) == "string"
+  then   vprint("we have art string!", sheet.art);
+	 markdown = markdown .. sheet.art
+  elseif sheet.art
+  then   eprint("i guess we have sheet.art", sheet.art);
+  else   eprint("no art found!", sheet.name);
   end;
 
-  if   stats.power_words and type(stats.power_words) == "table"
-  then markdown = markdown .. yaml_sheet_power_words(stats.power_words);
-  else eprint("Error!", "no power words");
-       os.exit(1);
+  if     stats.power_words and type(stats.power_words) == "table"
+  then   markdown = markdown .. yaml_sheet_power_words(stats.power_words, sheet_config);
+  else   eprint("Error!", "no power words");
+         os.exit(1);
   end;
 
   if     stats.ideals and type(stats.ideals) == "table"
-  then   markdown = markdown .. yaml_sheet_ideals(stats.ideals);
+  then   markdown = markdown .. yaml_sheet_ideals(stats.ideals, sheet_config);
   elseif type(stats.ideals) == "string"
   then   local ideals_list = split(stats.ideals, ",");
-         markdown = markdown .. yaml_sheet_ideals(ideals_list);
+         markdown = markdown .. yaml_sheet_ideals(ideals_list, sheet_config);
   end;
 
-  markdown = markdown .. string.rep(":", 50);
+  markdown = markdown .. "\n\n" .. string.rep(":", 50);
   return markdown;
 end;
 
@@ -818,7 +845,7 @@ local function yaml_character(yaml_tree)
   if   character
   then vprint("we have character!")
 
-       if   character.picture
+       if   character.picture -- and type(character.picture) == "table"
        then markdown = markdown .. yaml_char_picture(character.picture);
        else eprint("We don't have picture :(");
        end; -- character.picture
@@ -977,8 +1004,9 @@ local function yaml_character(yaml_tree)
        end;
 
   else eprint("we don't have flat tree / character :(");
-
   end;
+
+  markdown = markdown .. "\n\n" .. string.rep(":", 70);
   return markdown;
 
 end;
@@ -1246,7 +1274,7 @@ local function yaml_group(yaml_tree)
                 then member_entry = member_entry .. complex_status;
                 end;
                 if   member.active and member.rep and type(member.rep) == "table"
-                then local rep = unpack_yaml_tree(member.rep);
+                then local rep = unpack_yaml_tree(member.rep, "membership-complex : member.rep");
                      if   not string.match(rep.name, "none")
                      then -- if rep.active then member_entry = member_entry .. " [ represented by ";              end;
                           -- if rep.former then member_entry = member_entry .. " [ formerly represented by ";     end;

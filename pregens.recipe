@@ -1,2 +1,14 @@
-metadata
-pregens/farseeker
+metadata/pregens
+pregens/markdown/*
+# pregens/adam_42
+# pregens/brigantia
+# pregens/energy_boy
+# pregens/farseeker
+# pregens/grailknight
+# pregens/head_librarian
+# pregens/jackdee
+# pregens/obsidius_rex
+# pregens/riptide
+# pregens/rockstar
+# pregens/titan
+# pregens/vespa

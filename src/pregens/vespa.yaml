@@ -4,8 +4,9 @@
   - x-format: character-sheet
   - yaml_version: 1.2
 - art:
-  - url: art/jeshields/inventor.png
-  - alt: *title
+  - url:  art/jeshields/inventor.png
+  - alt:  *title
+  - face: art/jeshields/vespa_face.png
 - bio:
   - real_name: Lin Montgomery
   - occupation: inventor, scientist
@@ -36,6 +37,12 @@
   - weight: 128 lbs.
   - eyes: hazel
   - hair: (dyed) blonde, (natural) brown
+  - desc: |
+      "Lin is only 19 years old and is the second person to carry the code name
+      of \"Vespa\". They have black hair and brown eyes."
+- "sheet-config":
+  - shrink:
+    - ideal3: true
 - sidebar:
   - title: Lin's Gender
   - "css-classes": [sidebar, small]
@@ -112,3 +119,4 @@
   - abilities: [No Wasted Effort, Armorsmith, TBD]
   - skills: [Artist (fanfic), Engineer, Hacker, Pilot, Scientist (entomology)]
   - ideals: [Comaraderie, Honesty, Legacy, Science, Self-Sacrifice]
+  - storyline: "Lin wants to **fight one of their mother's supervillains.**"

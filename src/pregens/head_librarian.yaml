@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/psychic.png
   - alt: *title
+  - face: art/jeshields/head_librarian_face.png
 - bio:
   - real_name: unknown
   - occupation: none
@@ -59,6 +60,9 @@
     In addition to his purely mental powers, the Head Librarian's
     rudimentally telekinetic powers let him lift books off the
     ground and move them about.
+- "sheet-config":
+  - "shrink2":
+    - name: true
 - stats:
   - name: *title
   - class: The Psychic
