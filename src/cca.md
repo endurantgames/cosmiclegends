@@ -62,6 +62,7 @@ You should always feel empowered to re-negotiate the choices recorded here;
 no one can know with 100% certainty how any specific content in-game is going
 to affect them.
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - Crimes shall never be presented in such a way as to create sympathy for the 
   criminal, to promote distrust of the forces of law and justice, or to inspire 
   others with a desire to imitate criminals.
@@ -103,9 +104,11 @@ to affect them.
 
 - Restraint in the use of the word “crime” in titles or subtitles shall be exercised.
   []{.recommend .pick .na}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### General standards—Part B
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - No comic magazine shall use the word horror or terror in its title.
   []{.recommend .pick .na}
 
@@ -123,6 +126,7 @@ to affect them.
 - Scenes dealing with, or instruments associated with walking dead, torture, 
   vampires and vampirism, ghouls, cannibalism, and werewolfism are prohibited.
   []{.recommend .pick .ign}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### General standards—Part C
 
@@ -132,6 +136,7 @@ good taste or decency, shall be prohibited.
 
 ## Dialogue
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - Profanity, obscenity, smut, vulgarity, or words or symbols which have acquired 
   undesirable meanings are forbidden.
   []{.recommend .pick .veil}
@@ -142,14 +147,18 @@ good taste or decency, shall be prohibited.
 - Although slang and colloquialisms are acceptable, excessive use should be 
   discouraged and, wherever possible, good grammar shall be employed.
   []{.recommend .pick .na}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Religion
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - Ridicule or attack on any religious or racial group is never permissible.
   []{.recommend .pick .veil}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Costume
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - Nudity in any form is prohibited, as is indecent or undue exposure.
   []{.recommend .pick .line}
 
@@ -161,15 +170,19 @@ good taste or decency, shall be prohibited.
 
 - Females shall be drawn realistically without exaggeration of any physical qualities.
   []{.recommend .pick .veil}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## NOTE.
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 — It should be recognized that all prohibitions dealing with costume, dialog, 
   or artwork applies as specifically to the cover of a comic magazine as they do 
   to the contents.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Marriage and sex
+## Marriage and sex
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - Divorce shall not be treated humorously nor represented as desirable.
   []{.recommend .pick .ign}
 
@@ -193,6 +206,7 @@ Marriage and sex
 
 - Sex perversion or any inference to same is strictly forbidden.
   []{.recommend .pick .veil}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## CODE FOR ADVERTISING MATTER
 
@@ -200,6 +214,7 @@ These regulations are applicable to all magazines published by members of the
 Comics Magazine Association of America, Inc. Good taste shall be the guiding 
 principle in the acceptance of advertising.
 
+::::::::::::::::: cca :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 - Liquor and tobacco advertising is not acceptable.
   []{.recommend .pick .na}
 
@@ -233,6 +248,7 @@ principle in the acceptance of advertising.
   endorsed by the American Medical Association, or the American Dental Association, 
   shall be deemed acceptable if they conform with all other conditions of the 
   Advertising Code. []{.recommend .pick .na}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::: copyright-note :::::::::::::::::::::::::::::::::::::::::::
 Source: Senate Committee on the Judiciary, Comic Books and Juvenile Delinquency,

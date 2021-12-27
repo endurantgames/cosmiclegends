@@ -32,14 +32,31 @@ in comics for decades -- it *does* give an interesting snapshot of
 the types of content that might show up in a Bronze Age superhero game.
 
 The following questions are inspired by items in the Comics Code and
-are intended to start conversations -- not end them! 
+are intended to start conversations -- not end them! (Remember that when
+we say [*heroes*](#toc-glossary) in Cosmic Legends, we're talking about 
+what other games would call *player characters* -- not necessarily
+about *non-player characters (NPCs) who happen to be heroic/good guys*.)
 
 As you discuss these questions as a group, anyone should feel free to 
 request a line or veil on these or any other subjects.
 
+:::::::::::::: soapbox :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# [The Comics Code]{#soapbox-comics-code}
+
+Are we saying we approve of the CCA and what it tried to do? No! 
+"Self-censorship imposed to avoid government censorship" is wrong 
+and we're not suggesting that the Comics Code had a beneficial effect 
+on the comics of the time.
+
+Instead, we urge you to think **not** in terms of *following the Comics Code*
+but instead of *how your Series is going to deliberately break it*.
+To us, that's the best way to repurpose and subvert this McCarthyistic
+relic that lasted into the 21st Century at the major comics publishers.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### General Questions
 
-::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::: cca-questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 - Does good always triumph over evil? Does evil sometimes
   triumph over good?
@@ -56,18 +73,18 @@ request a line or veil on these or any other subjects.
 
 ### Forces of Law and Justice
 
-::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::: cca-questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-- Given the history of police violence, do you want to play that
-  out in a roleplaying game?
+- Given the real-world history of police violence, do you want to 
+  play that out in a roleplaying game?
 
-- Do you even want to deal with the police at all in your games?
+- Do you even want to deal with the police __at all__ in your games?
 
 - Do you want to have Storylines about corrupt judges and a justice
   system that doesn't work?
 
-- Are glamorous, alluring, or even sympathetic villains fine,
-  or would you rather have black-and-white villainy?
+- Are glamorous, alluring, or even sympathetic villains fine, or would 
+  you rather have black-and-white villainy?
 
 - Do you want Nazis as villains in this game?
 
@@ -78,7 +95,7 @@ request a line or veil on these or any other subjects.
 
 ### Types of Crises
 
-::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::: cca-questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 - Are you okay with Storylines about the military and war?
 
@@ -96,10 +113,10 @@ request a line or veil on these or any other subjects.
 
 ### Depictions of Awfulness
 
-::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::: cca-questions :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 - Are in-character bigotries such as ableism, racism, homophobia, 
-  transphobia, or antisemitism acceptable from NPCs?
+  transphobia, or antisemitism acceptable from NPCs and villains?
 
 - Are they acceptable from heroes?
 
@@ -125,14 +142,14 @@ request a line or veil on these or any other subjects.
 - Should the villains be able kill heroes, or should that only
   happen as part of a Storyline chosen by a player?
 
-- Can the heroes kill? What should the other heroes do if a hero 
+- Can the heroes kill? What should the *other* heroes do if a hero 
   kills a villain?
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Relationships
 
-::::::::::::::::::::::::::: questions :::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::: cca-questions :::::::::::::::::::::::::::::::::::::::::
 
 - Does romantic attraction factor into this game at all, or is
   it something you'd rather not see? 
@@ -151,6 +168,7 @@ request a line or veil on these or any other subjects.
   scenes okay to play out up to a certain point?
 
 - How should queer issues be handled in the game? Should the
-  NPCs be LGBTQIA+ friendly?
+  NPCs be inherently LGBTQIA+ friendly?
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
