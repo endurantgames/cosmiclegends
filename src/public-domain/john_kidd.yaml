@@ -1,0 +1,80 @@
+- metadata:
+  - title:          &title Character Name
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-charname
+  - url:            https://pdsh.fandom.com/wiki/John_Kidd
+- license: |
+    license
+- art:
+  - url:            art/jeshields/charname.png
+  - alt:            *title
+  - face:           art/jeshields/charname_face.png
+- bio:
+  - real_name:      full name
+  - occupation:     occupation
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
+  - former_aliases: name
+  - place_of_birth: location
+  - marital_status: single
+  - known_relatives: 
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active:     false
+      - reserve:    true
+      - founder:    true
+    - Sentinels of Saturn:
+      - active:     false
+      - resigned:   true
+      - founder:    false
+    - N.O.V.A. Labs:
+      - founder:    true
+      - active:     false
+      - reserve:    true
+  - base:    ["Sun City, U.S.A."]
+  - height:  "5' 6\""
+  - weight:  "180 lbs."
+  - eyes:    violet
+  - hair:    black
+- history: |
+    history
+
+    history
+
+    history
+    
+- powers: |
+
+    powers
+
+    powers
+
+- weapons: |
+    weapons
+
+    weapons
+    
+- stats:
+  - name:            *title
+  - class:           The Classname
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          []
+  - ideals:          []

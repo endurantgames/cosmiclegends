@@ -1,0 +1,62 @@
+- metadata:
+  - title:          &title Office Bobbie
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-pd-office-bobbie
+  - url:            https://pdsh.fandom.com/wiki/Office_Bobbie
+- license: |
+    "Office Bobbie is an open source character created specifically 
+    for use by anyone. Feel free to use it any way you wish; 
+    author citations are not necessary.
+
+    In 2013, Carter-Ethan Rankin chose to create 30 new characters 
+    that he would voluntarily release into the public domain. 
+    Office Bobbie was #14."
+- art:
+  - url:            art/jeshields/charname.png
+  - alt:            *title
+  - face:           art/jeshields/charname_face.png
+- bio:
+  - real_name:      Roberta Rankin
+  - occupation:     paralegal
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         female
+    - pronouns:     she/her
+  - identity:       public
+  - former_aliases: Office Bob
+  - place_of_birth: Unknown
+  - marital_status: Unknown
+  - known_relatives: none
+  - group_affiliation: none
+  - base:    ["Canada"]
+  - height:  Unknown
+  - weight:  Unknown
+  - eyes:    brown
+  - hair:    black
+- history: |
+    Everyone's favourite Canadian, Office Bob, came out recently 
+    as transgender and became Office Bobbie! Not needing a secret 
+    identity, she fights crime by day... as a paralegal!
+    
+- powers: |
+    Office Bobbie has no super-human powers, save for her paralegal skills.
+- stats:
+  - name:            *title
+  - class:           The Expert
+  - approaches: 
+    - action:        1
+    - adventure:     2
+    - detective:     2
+    - mystery:       2
+    - suspense:      3
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+  - abilities:       ["World-Renowned Expertise (Legal)"]
+  - fighting_styles: ["Non-Combatant"]
+  - skills:          ["Academic (law)", "Bureaucrat (legal filings)", Lawyer]
+  - ideals:          []

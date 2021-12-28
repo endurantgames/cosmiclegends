@@ -1,0 +1,87 @@
+- metadata:
+  - title:          &title Character Name
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-charname
+# - url:            https://pdsh.fandom.com/wiki/Punk_Rock_Girl
+  - url:            https://nuelow.blogspot.com/2013/06/nuelow-heroes-villains-punk-rock.html
+- license: |
+    "Punk Rock Girl is an open source character created specifically 
+    for use by anyone. Feel free to use it any way you wish; 
+    author citations are not necessary.
+
+    In 2013, Carter-Ethan Rankin chose to create 30 new characters 
+    that he would voluntarily release into the public domain. 
+    Punk Rock Girl was #6."
+- art:
+  - url:            art/jeshields/charname.png
+  - alt:            *title
+  - face:           art/jeshields/charname_face.png
+- bio:
+  - real_name:      full name
+  - occupation:     occupation
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
+  - former_aliases: name
+  - place_of_birth: location
+  - marital_status: single
+  - known_relatives: 
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active:     false
+      - reserve:    true
+      - founder:    true
+    - Sentinels of Saturn:
+      - active:     false
+      - resigned:   true
+      - founder:    false
+    - N.O.V.A. Labs:
+      - founder:    true
+      - active:     false
+      - reserve:    true
+  - base:    ["Sun City, U.S.A."]
+  - height:  "5' 6\""
+  - weight:  "180 lbs."
+  - eyes:    violet
+  - hair:    black
+- history: |
+    history
+
+    history
+
+    history
+    
+- powers: |
+
+    powers
+
+    powers
+
+- weapons: |
+    weapons
+
+    weapons
+    
+- stats:
+  - name:            *title
+  - class:           The Classname
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          [Academic, Artist, Bureaucrat, Criminal, Deputy, Engineer, Explorer, Hacker, Historian, Investigator, Journalist, Lawyer, Mystic, Performer, Physician, Pilot, Politiican, Scientist, Socialite, Spy]
+  - ideals:          []
