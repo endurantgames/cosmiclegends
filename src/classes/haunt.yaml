@@ -5,6 +5,9 @@
   - title: The *classname
   - anchor: class-haunt
 - quote: |
+    The happy haunts have received your sympathetic vibrations and are beginning 
+    to materialize. They’re assembling for a swinging wake, and they’ll be 
+    expecting me… I’ll see you all a little later.
 - desc: |
     You're dead.
 
@@ -29,7 +32,6 @@
     - "What (or who) prevents you from moving on to an afterlife?"
     - "How can your spirit finally be laid to rest?"
     - "Would your hero take that opportunity to move on, or fight against it?"
-  
 - skills:
   - "pre-chosen": [Historian, Mystic]
   - plus:         "any two skills of your choice"
@@ -40,18 +42,20 @@
     - number: 6
     - title: Haunt Class Personal Power Words
     - anchor: haunt-class-personal-power-words
-    - list: [ Afterlife,   Aura,          Banish,       Banshee,   Bell,      Beyond,        
-              Bones,       Cavaderous,    Chains,       Chill,     Cloak,     Coffin,      
-              Cross,       Crypt,         Darkness,     Dead,      Death,     Disguise, 
-              Disquieting, Eyes,          Fear,         Fog,       Forboding, Ghost,
-              Ghoul,       Grave,         Grim,         Grinning,  Guilt,     Haunting,      
-              Immaterial,  Immortal,      Invisible,    Legend,    Living,    Materialize, 
-              Message,     Metamorphosis, Midnight,     Mist,      Moon,      Music,    
-              Mystic,      Omen,          Pallor,       Peace,     Penance,   Punish,    
-              Rattle,      Rest,          Seance,       Sensitive, Shadows,   Sheet,         
-              Shriek,      Slime,         Soul,         Sounds,    Spectre,   Spirit,      
-              Spooky,      Strange,       Supernatural, Terror,    Vision,    Wrath,     
-              Wraith ]
+    - list: [ Afterlife,   Aura,          Banish,        Banshee,       Bell,      
+              Beyond,      Bones,         Cavaderous,    Chains,        Chill,        
+              Cloak,       Coffin,        Cross,         Crypt,         Darkness,      
+              Dead,        Death,         Dirge,         Disguise,      Disquieting,   
+              Eyes,        Fear,          Fog,           Forboding,     Ghost,       
+              Ghoul,       Grave,         Grim,          Grinning,      Guilt,     
+              Haunting,    Immaterial,    Immortal,      Invisible,     Legend,    
+              Living,      Materialize,   Message,       Metamorphosis, Midnight,     
+              Mist,        Moon,          Music,         Mystic,        Omen,          
+              Pallor,      Peace,         Penance,       Punish,        Rattle,        
+              Rest,        Seance,        Sensitive,     Shadows,       Sheet,       
+              Shriek,      Slime,         Soul,          Sounds,        Spectre,
+              Spirit,      Spooky,        Strange,       Supernatural,  Terror,    
+              Vision,      Wake,          Wrath,         Wraith ]
   - nova: { standard: true }
 - abilities:
   - preamble:
@@ -68,7 +72,8 @@
           - desc: "To be determined"
         - Possession:
           - desc: "To be determined"
-        - "This chamber has no windows and no doors..."
+          - move: hero
+        - "This chamber has no windows and no doors...":
           - desc: "To be determined"
           - "hero-cave": true
           - desc: |

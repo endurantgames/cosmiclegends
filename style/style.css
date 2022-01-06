@@ -2336,12 +2336,6 @@ a.list-link.nopage:after { content: ""; }
   font-weight: normal;
 }
 
-.herocave-id {
-  display: block;
-  content: "Hero Cave";
-  font-style: italic;
-}
-
 .herocave-id:before {
   content: "This is a ";
   font-style: normal;
@@ -2452,6 +2446,48 @@ a.list-link.nopage:after { content: ""; }
 .pet-related-id:after {
   content: " Ability.";
   font-style: normal;
+}
+
+.magical-specialty-prereq:before {
+  content:         "Prerequisite: You can't have another ";
+  text-decoration: none;
+  font-weight:     normal;
+  font-style:      italic;
+}
+
+.magical-specialty-prereq:after {
+  content:         " Ability.";
+  text-decoration: none;
+  font-weight:     normal;
+  font-style:      italic;
+}
+
+.magical-specialty-prereq {
+  font-style:      italic;
+  text-decoration: underline;
+  content:         "Magical Specialty";
+  font-weight:     bold;
+}
+
+.magical-specialty-id {
+  display:    block;
+  content:    "Magical Specialty";
+  font-style: italic;
+}
+
+.magical-specialty-id:before {
+  content:    "This is a ";
+  font-style: normal;
+}
+
+.magical-specialty-id:after {
+  content:    " Ability.";
+  font-style: normal;
+}
+.herocave-id {
+  display: block;
+  content: "Hero Cave";
+  font-style: italic;
 }
 
 .move:before {

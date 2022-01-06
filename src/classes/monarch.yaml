@@ -123,32 +123,32 @@
             - volume:  1
             - classid: generic
           - desc: |
-            "You have a network of citizens upon whom you can rely for help. While
-            they're not quite at the level of a Knight or an Expert, they all have
-            at least one special talent that assists you in fighting crime, and are
-            sworn to keep your secrets (if you have any).
-        
-            Included with this Ability is a reliable and discreet way to contact your
-            subjects. As a Move during the Hero Phase of a Crisis, you can spend 1 Might
-            to contact one or all of your Loyal Subjects.
-        
-            When you first gain this Ability, create a list of subjects, with a number of
-            entries on the list equal to the Volume. Add an additional subject before each
-            subsequent Volume.
-        
-            Each subject is defined by three qualities: First, their name. Secondly, their
-            favored Approach. And thirdly, a Skill that defines their expertise and/or
-            \"day job.\"
-        
-            For example, you could create a photojournalist named James Bartholomew and
-            assign him \"Action\" as a favored Approach, and Journalist as his skill.
-        
-            Any subject you call in has a score of 1 for all Approaches save their favored
-            Approach (which is a 4), a maximum Might score equal to the Volume, and a
-            maximum Health score equal to the Volume.
-        
-            Without spending any Might to contact one or more Loyal Subjects, you
-            can freely propose a Vignette between your Hero and one of your Subjects."
+              "You have a network of citizens upon whom you can rely for help. While
+              they're not quite at the level of a Knight or an Expert, they all have
+              at least one special talent that assists you in fighting crime, and are
+              sworn to keep your secrets (if you have any).
+          
+              Included with this Ability is a reliable and discreet way to contact your
+              subjects. As a Move during the Hero Phase of a Crisis, you can spend 1 Might
+              to contact one or all of your Loyal Subjects.
+          
+              When you first gain this Ability, create a list of subjects, with a number of
+              entries on the list equal to the Volume. Add an additional subject before each
+              subsequent Volume.
+          
+              Each subject is defined by three qualities: First, their name. Secondly, their
+              favored Approach. And thirdly, a Skill that defines their expertise and/or
+              \"day job.\"
+          
+              For example, you could create a photojournalist named James Bartholomew and
+              assign him \"Action\" as a favored Approach, and Journalist as his skill.
+          
+              Any subject you call in has a score of 1 for all Approaches save their favored
+              Approach (which is a 4), a maximum Might score equal to the Volume, and a
+              maximum Health score equal to the Volume.
+          
+              Without spending any Might to contact one or more Loyal Subjects, you
+              can freely propose a Vignette between your Hero and one of your Subjects."
         - "Noblesse Oblige":
           - desc: |
               "You feel an obligation to protect the ordinary people of the world. 
@@ -173,9 +173,7 @@
                 - list:   [Expansive, Fortress, Opulent]
         - "Righteous Rage":
           - desc: |
-              "When you are below half Health, add 2 to the dice pool to advance the 
-              Smash goal."
-
+              "When you are below half Health, add 2 to the dice pool to advance the Smash goal."
     - "2":
       - list: 
         - "Divine Right of Kings":

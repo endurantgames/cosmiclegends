@@ -139,6 +139,11 @@ Each Volume, you gain a new ability from your class.
 Your Mage Abilities are new ways of calling upon arcane power.
 Each ability can be chosen only once.
 
+### Magical Specialties
+
+Some Mage Abilities are identified as *Magical Specialties* and represent distinct
+schools of magic. You can only choose one such Ability.
+
 ### Volume 1 Abilities
 
 At the start of Volume 1, choose two abilities from this list.
@@ -149,8 +154,15 @@ Auspicious Alliteration
 
 :   Everyone enjoys euphonious enunciation! When you roll a Power Stunt
     or Power Combo to add to the Teamwork Pool, add 1 die to the dice pool 
-    for each Word whose first letter matches the first letter of 
-    another Word in the Stunt or Combo.
+    for each Power Word whose first letter matches the first letter of 
+    another Power Word in the Stunt or Combo.
+
+Diviner
+:   []{.magical-specialty-prereq}
+
+    To Be Determined
+
+    []{.magical-specialty-id}
 
 Familiar Familiaris
 
@@ -185,10 +197,14 @@ Familiar Familiaris
 
     []{.pet-id}
 
-Mists of Misdirection
+Illusionist
 
-:   Your magicks can cloud the minds of mortals. Add 2 dice when you use
+:   []{.magical-specialty-prereq}
+
+    Your magicks can cloud the minds of mortals. Add 2 dice when you use
     a power to advance the Outwit or Rescue goals.
+
+    []{.magical-specialty-id}
 
 Sanctuary of Sanctity
 
@@ -228,10 +244,10 @@ Talismans of Power
 
     At the start of each Storyline, pick a number of Power
     Words from the 
-    [Divine](#divine-class-personal-power-words){.list-link},
-    [Mage](#mage-class-personal-power-words){.list-link},
-    [Psychic](#psychic-personal-power-words){.list-link}, or
-    [](#shaper-personal-power-words){.list-link .es}
+    [Divine ](#divine-class-personal-power-words){.list-link    },
+    [Mage   ](#mage-class-personal-power-words  ){.list-link    },
+    [Psychic](#psychic-personal-power-words     ){.list-link    }, or
+    [Shaper ](#shaper-personal-power-words      ){.list-link .es}
     equal to the Volume. 
 
     Each Power Word is linked to a specific magical talisman.
@@ -267,9 +283,18 @@ Talismans of Power
 
     []{.arsenal-id}
 
+Summoner
+
+:   []{.magical-specialty-prereq}
+    Add **Portal** as a Core Power Word. You can make the General
+    Alert move for free, without spending any successes from the Teamwork Pool.
+
+    []{.magical-specialty-id}
+
 Theurgy
 
-:   [Divine]{.crossover .new .divine}
+:   []{.magical-specialty-prereq}
+    [Divine]{.crossover .new .divine}
     Your magic is grounded in the magic of the Gods themselves.
     Choose one Power Word from the 
     [](#divine-class-personal-power-words){.list-link}
@@ -292,10 +317,7 @@ Theurgy
     *Speed of Hermes (2nd)* 
     []{.crossover-consider    .divine}
     
-Summoner
-
-:   Add **Portal** as a Core Power Word. You can make the General
-    Alert move for free, without spending any successes from the Teamwork Pool.
+    []{.magical-specialty-id}
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -328,7 +350,8 @@ Arcane Arsenal
 
 Diabolicist
 
-:   [Hellspawn]{.crossover .new .hellspawn}
+:   []{.magical-specialty-prereq}
+    [Hellspawn]{.crossover .new .hellspawn}
     Much of your magical power is drawn from the pits of Hell and
     similar dark sources. You might not serve evil directly, but 
     perhaps you've stolen a bit of power from Hell to use on the 
@@ -351,6 +374,8 @@ Diabolicist
     []{.crossover-instead .v3 .hellspawn}
     *TBD: a list*
     
+    []{.magical-specialty-id}
+
 Eldritch Might
 
 :   Your power continues to grow, but at what cost? Increase your
@@ -358,7 +383,11 @@ Eldritch Might
 
 Necromancer
 
-:   [Haunt]{.crossover .new .haunt}
+:   []{.magical-specialty-prereq}
+
+    [Haunt]{.crossover .new .haunt}
+
+    []{.magical-specialty-id}
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -369,10 +398,9 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 :::::::: {.ability-list .v3 } :::::::
 Arcane Infusion
 
-:   You can impart some of your magical power to another hero.
-    Choose two of your Power Words. Until the
-    end of the current Storyline, they gain those Words as Core 
-    Power Words. You can only do this once per Storyline.
+:   []{.move .hero} As a move during a Hero Phase, you can impart some of your magical power 
+    to another hero.  Choose two of your Power Words. Until the end of the current Storyline, 
+    they gain those Words as Core Power Words. You can only do this once per Storyline.
 
 Healing Mantra
 
@@ -399,8 +427,20 @@ Invisibility
     Might to become invisible and automatically counter that Crisis
     Move.
 
+Mentalist
+:   []{.magical-specialty-prereq}
+    [Psychic]{.crossover .new .psychic}
+
+    To be determined
+
+    []{.magical-specialty-id}
+
 Spellsinger
-:   To be determined
+:   []{.magical-specialty-prereq}
+
+    To be determined
+
+    []{.magical-specialty-id}
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -412,7 +452,7 @@ At the start of Volume 5, choose an ability from this list or any previous list.
 Bardic Inspiration
 :   *Prerequisite: You must have the __Spellsinger__ Class Ability.*
 
-    To be determined
+    To be determined.
 
 Mass Invisibility
 
@@ -423,6 +463,12 @@ Mass Invisibility
     to make your team invisible and automatically counter that Crisis
     Move.
 
+Technomancer
+:   []{.magical-specialty-prereq}
+
+    To be determined.
+
+    []{.magical-specialty-id}
 :::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
