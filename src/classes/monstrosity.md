@@ -247,6 +247,7 @@ Power Burn
 
 :   You can call upon your life-force to fuel your powers.  You can 
     spend Health whenever you would normally spend Might.
+    Increase your maximum Health by 3.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -255,17 +256,16 @@ Power Burn
 At the start of Volume 4, choose an ability from this list or any previous list.
 
 :::::::: {.ability-list .v4 } :::::::
-Immortal
-
-:   You might be seriously wounded, but you never stay dead. 
-    If you're reduced to 0 Health or
-    0 Might, regain 1 point of each at the start of the
-    next Hero Phase.
-
 Power Overwhelming
 
 :   Your capacity for destruction is extraordinary, even for a hero.
     Increase your maximum Might by 5.
+
+Unstoppable
+
+:   You might become seriously wounded, but you'll never stay down.
+    If you're reduced to 0 Health or 0 Might, regain 1 point of each at the 
+    start of the next Hero Phase.
 
 :::::::::::::::::::::::::::::::::::::
 

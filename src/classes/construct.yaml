@@ -5,338 +5,368 @@
   - x-format: class
   - classid:  construct
   - name:     Construct
-- quote: >
+- quote: |
+    "Asimov's Three Laws of Robotics:
+    
     I must not injure a human being or, through inaction, allow a human
     being to come to harm.
+
     I must obey orders given to me by human beings, except where such orders
     would conflict with the previous law.
-    I must protect my own existence as long as such protection does not 
-    conflict with the previous two laws.
+
+    I must protect my own existence as long as such protection does not
+    conflict with the previous two laws."
 - desc: |
-    \"Just a machine.\"
+    "\"Just a machine.\"
 
     That's all they say you are. Created in a lab, created by other
     people, originally from non-living material.
 
-    Who \*doesn't\* that describe? Spoiler: humans are all created by other
+    Who *doesn't* that describe? Spoiler: humans are all created by other
     humans.
 
-    Do \*\*your\*\* origins make \*\*you\*\* any \*less\* of a person than anyone else?
+    Do **your** origins make **you** any *less* of a person than anyone else?
 
     You're more than just a simple gadget or toy. You've found there
     is more to being a person than simply being born human or looking
-    like they do.
-- playing: tbd
-- questions: tbd
+    like they do."
+- playing:        tbd
+- questions:      tbd
 - skills:
-  - pre-chosen: [Engineer, Hacker]
-  - plus: "any two skills of your choice"
+  - "pre-chosen": [Engineer, Hacker]
+  - plus:         "any two skills of your choice"
 - power_words:
-  - preamble: standard
-  - core: 
+  - preamble:     standard
+  - core:
     - pre-chosen: [Sentience, Synthetic]
   - personal:
     - number: 6
-    - title: Construct Class Personal Power Words
+    - title:  Construct Class Personal Power Words
     - anchor: construct-class-personal-power-words
-    - list: 
-      - Analytical
-      - Animal (specific)
-      - Artificial
-      - Automatic
-      - Beast
-      - Body
-      - Claws
-      - Clobber
-      - Digital
-      - Giant
-      - Horrifying
-      - Immovable
-      - Inhuman
-      - Interface
-      - Leap
-      - Networked
-      - Override
-      - Positronic
-      - Regenerate
-      - Rocky
-      - Shifting
-      - Stomp
-      - Sterile
-      - Stretch
-      - Strength
-      - Technical
-      - Throw
-      - Understanding
-      - Vehicle (specific)
-  - nova: 
-    standard: true
+    - list: [ Analytical, "Animal (specific)", Artificial, Automatic,
+              Beast, Body, Claws, Clobber, Digital, Giant, Horrifying,
+              Immovable, Inhuman, Interface, Leap, Networked, Override,
+              Positronic, Regenerate, Rocky, Shifting, Stomp, Sterile,
+              Stretch, Strength, Technical, Throw, Understanding, "Vehicle (specific)"]
+  - nova: { standard: true }
 - classpic:
-   - url: art/jeshields/construct.png
-   - alt: "Adam-42: The One-Officer Police Force"
+   - url:     art/jeshields/construct.png
+   - alt:     "Adam-42: The One-Officer Police Force"
 - abilities:
   - preamble:
     - represent: show your increasing distance from biological humanity
-  - prime: 
+  - prime:
     - TBD:
-      - desc: |
-          To Be Determined
+      - desc: To Be Determined
   - "1":
     - Asimovian Disciple:
-      - prereq: "You can't have the **Golem** class ability."
+      - prereq:
+        - ability: Golem
+        - have:    "can't"
+        - text:    "You can't have the **Golem** class ability."
       - desc: |
-          Isaac Asimov's three laws of robotics are like scripture to you. 
-          As long as you abide by them, add \2 dice whenever you roll to advance
-          the Allay or Rescue goals. If you deliberately break one, you lose this
-          benefit until you successfully resolve a Crisis.
+          "Isaac Asimov's three laws of robotics are like scripture to you.
+          As long as you abide by them, add 2 dice whenever you roll to advance
+          the Allay or Rescue goals. If you deliberately break one of the laws,
+          you lose this benefit until you successfully resolve a Crisis."
     - Coordinated Efforts:
       - desc: |
-          Your analytical mind lets you coordinate efforts with your
+          "Your analytical mind lets you coordinate efforts with your
           teammates on joint projects. As long as you are in communication
-          with them, they add \2 to the Effectiveness whenever they add to
-           the Teamwork Pool.
+          with them, they add 2 to the Effectiveness whenever they add to
+          the Teamwork Pool."
     - Efficient Response:
       - desc: |
-          With a minimal amount of effort, you and your allies can ensure that
-          no resources are wasted. Spend Might up to the Volume to reduce the 
+          "With a minimal amount of effort, you and your allies can ensure that
+          no resources are wasted. Spend Might up to the Volume to reduce the
           cost to counter any Crisis move by the amount of Might spent, with
-          a minimum cost of \1 Success from the Teamwork Pool.
+          a minimum cost of 1 Success from the Teamwork Pool."
     - Even An Android Can Cry:
       - prereq:
-        - "You must have the **Humaniform Robot** Class Ability."
-        - "You can't have the **Golem** Class Ability."
+        - a:
+          - ability: Humaniform Robot
+          - have:    must
+          - text:    "You must have the **Humaniform Robot** Class Ability."
+        - b:
+          - ability: Golem
+          - have:    "can't"
+          - text:    "You can't have the **Golem** Class Ability."
       - desc: |
-          Add \2 to the dice pool when you display 
-          human emotions while trying to advance the Allay or Rescue goals.
+          "Add 2 to the dice pool when you display human emotions when you
+          roll to advance the Allay or Rescue goals."
     - Golem:
-      - crossover: 
-        - class: mage
+      - crossover:
+        - classid: mage
         - variant:
-          - of:   Price of Magic
-          - name: Infused with Magic
+          - of:      Price of Magic
+          - name:    Infused with Magic
+          - classid: mage
           - desc: |
-              When you use one of your Core or Nova Power Words in a
+              "When you use one of your Core or Nova Power Words in a
               Power Stunt or Combo to advance the Smash Goal, count
-              3s as Edge Successes.
-        - crossover_abilities: true
+              3s as Edge Successes."
+        - "crossover-abilities": true
       - desc: |
-          You were created through mystical means, not technological ones. 
-          Replace your Engineer and Hacker skills with Academic, Historian, and Mystic.
-      - skills: [Academic, Historian, Mystic]
+          "You were created through mystical means, not technological ones.
+          Replace your Engineer and Hacker skills with Academic, Historian,
+          and Mystic."
+      - skills:
+        - add:    [Academic, Historian, Mystic]
+        - remove: [Engineer, Hacker           ]
     - Humaniform Robot:
-      - prereq: "You can't have the **Golem** class ability."
+      - prereq:
+        - ability: Golem
+        - have:    "can't"
+        - text:    "You can't have the **Golem** class ability."
       - desc: |
-          Some humans may suspect that you approximate humanity with more 
-          accuracy than they actually live it. 
+          "Some humans may suspect that you approximate humanity with more
+          accuracy than they actually live it.
 
-          Replace two of your skills with Artist and Performer.
-      - skills: [Artist, Performer]
+          Replace your Engineer and Hacker skills with Artist and Performer."
+      - skills:
+        - add:    [Artist,   Performer]
+        - remove: [Engineer, Hacker   ]
     - Iron Giant:
+      - prereq:
+        - ability:   Golem
+        - have:      "can't"
+        - text:      "You can't have the **Golem** Class Ability."
       - crossover:
-        - class: monstrosity
+        - classid:   monstrosity
         - variant:
-          - of: "*Giant Size* Volume 5"
-          - name: Fortress Maximus
-          - desc: |
-              You are much larger than humans -- about the size of a 
-              building.
+          - of:      "Giant Size"
+          - name:    Fortress Maximus
+          - classid: monstrosity
+          - volume:  5
+        - desc: |
+            "You are much larger than normal humans -- about the size of a
+            building.
 
-              Add \**Giant** as a Core Power Word.
-    
-              Whenever you lose Health, the maximum you can lose is \2.
-        - power-words:
-          - pre-chosen: [Giant]
-          - whenever: true
-          - list-link: monstrosity-class-personal-power-words
-          - as: core
-        - crossover_abilities: true
-    - "It's Alive!":
-      - desc: |
-          If you are ever killed, you return to life at the end of the next Crisis
-          Countdown, with maximum Health and Might.
+            Add **Giant** as a Core Power Word.
+
+            Whenever you lose Health, the maximum you can lose is 2."
+        - "power-words":
+          - "pre-chosen": [Giant]
+          - whenever:     true
+          - "list-link":  monstrosity-class-personal-power-words
+          - as:           core
+        - "crossover-abilities": true
     - Perfect Recall:
+      - prereq:
+        - ability: Golem
+        - have:    "can't"
+        - text:    "You can't have the **Golem** Class Ability."
       - crossover:
-        - class: inventor
-        - prereq: "You can't have the **Golem** Class Ability."
+        - classid: inventor
         - desc:
-            You can perfectly remember, describe, and repeat back anything 
-            you read, hear, or see. If you use this ability in a dice roll, 
-            spend \1 Might to add the Volume to the roll.
-        - power-words:
-          - whenever: true
-          - list-link: inventor-class-personal-power-words
-          - as: core
+            "You can perfectly remember, describe, and repeat back anything
+            you read, hear, or see. If you use this ability in a dice roll,
+            spend 1 Might to add the Volume to the roll."
+        - "power-words":
+          - "pre-chosen": [Memory]
+          - whenever:     true
+          - "list-link":  inventor-class-personal-power-words
+          - as:           core
     - The Modern Prometheus:
       - desc: |
-          No matter what your origins were, you are fully cognizant of contemporary
-          human society. Choose up to three skills from the following list:
+          "No matter what your origins were, you are fully cognizant of contemporary
+          human society. Choose up to three skills from the following list:"
       - skills:
         - number: 3
-        - up-to: true
-        - list: 
-          - Academic
-          - Artist
-          - Criminal
-          - Historian
-          - Engineer
-          - Journalist
-          - Performer
-          - Physician
-          - Pilot
-          - Scientist
-          - Spy
+        - "up-to":  true
+        - list:   [Academic, Artist, Criminal, Historian, Engineer, Journalist, Performer, Physician, Pilot, Scientist, Spy]
     - "Purpose-Built":
-      - desc: "You were created with a specific function in mind."
-      - power-words:
+      - prereq:
+        - ability: Golem
+        - have:    can't
+        - text:    "You can't have the **Golem** Class Ability."
+      - variant:
+        - of:      "Purpose-Crafted"
+        - classid: construct
+        - volume:  1
+      - desc:      "You were created with a specific function in mind."
+      - "power-words":
         - or:
           - Dynamo:
-            - number: 2
-            - up-to: true
-            - list-link: dynamo-class-energy-core-power-words
-            - as: core
+            - number:      2
+            - "up-to":     true
+            - "list-link": dynamo-class-energy-core-power-words
+            - as:          core
           - Shaper:
-            - number: 2
-            - up-to: true
-            - list-link: shaper-class-elemental-core-power-words
-            - as: core
+            - number:      2
+            - "up-to":     true
+            - "list-link": shaper-class-elemental-core-power-words
+            - as:          core
           - Inventor:
-            - number: 2
-            - up-to: true
-            - list-link: inventor-class-elemental-core-power-words
-            - as: core
+            - number:      2
+            - "up-to":     true
+            - "list-link": inventor-class-elemental-core-power-words
+            - as:          core
           - Wheelman:
-            - number: 2
-            - up-to: true
-            - list-link: wheelman-class-vehicle-scene-power-words
-            - as: core
+            - number:      2
+            - "up-to":     true
+            - "list-link": wheelman-class-vehicle-scene-power-words
+            - as:          core
     - "Purpose-Crafted":
-      - prereq: "You must have the **Golem** Class Ability."
-      - desc: "You were crafted with a specific function in mind."
+      - variant:
+        - of:      "Purpose-Built"
+        - classid: construct
+        - volume:  1
+      - prereq:
+        - ability: Golem
+        - have:    must
+        - text:    "You must have the **Golem** Class Ability."
+      - desc:      "You were created with a specific function in mind."
+      - "power-words":
         - or:
           - Mage:
-            - number: 2
-            - up-to: true
-            - list-link: mage-class-energy-core-power-words
-            - as: core
+            - number:      2
+            - "up-to":     true
+            - "list-link": mage-class-energy-core-power-words
+            - as:          core
           - Shaper:
-            - number: 2
-            - up-to: true
-            - list-link: shaper-class-elemental-core-power-words
-            - as: core
+            - number:      2
+            - "up-to":     true
+            - "list-link": shaper-class-elemental-core-power-words
+            - as:          core
           - Hellspawn:
-            - number: 2
-            - up-to: true
-            - list-link: hellspawn-class-elemental-core-power-words
-            - as: personal
+            - number:      2
+            - "up-to":     true
+            - "list-link": hellspawn-class-elemental-core-power-words
+            - as:          personal
           - Divine:
-            - number: 2
-            - up-to: true
-            - list-link: divine-class-personal-power-words
-            - as: personal
+            - number:      2
+            - "up-to":     true
+            - "list-link": divine-class-personal-power-words
+            - as:          personal
     - Reinforced Construction:
-      - desc: You are amazingly hard to hurt. 
+      - desc:   "You are amazingly hard to hurt. Increase your maximum Health by 5."
       - health: 5
+      - variant:
+        - of:      Boundless Fortitude
+        - classid: paragon
+        - volume:  1
     - "Self-Repair Circuits":
       - desc: |
-          Your injuries heal quickly. Regain 1 Health at the start of the Hero 
-          Phase if you have at least 1 Might and 1 Health.
+          "Your injuries heal quickly. Regain 1 Health at the start of the Hero
+          Phase if you have at least 1 Might and 1 Health."
     - Unique Energy Source:
       - desc: |
-          You can draw upon a rare form of energy that suffuses your artificial form. 
+          "You can draw upon a rare form of energy that suffuses your artificial form.
 
-          Increase your maximum Might by 5.
+          Increase your maximum Might by 5."
+      - might: 5
       - crossover:
-        - class: dynamo
+        - classid:   dynamo
         - variant:
-          - of: Energy Reserve
-          - name: "Self-Regenerating Energy Source"
+          - of:      Energy Reserve
+          - classid: dynamo
+          - name:    "Self-Regenerating Energy Source"
           - desc: |
-              If you start a Hero Phase with fewer than 2 Might,
-              immediately regain Might equal to the Volume.
+              "If you start a Hero Phase with fewer than 2 Might,
+              immediately regain Might equal to the Volume."
         - power-words:
           - Initial:
-            - number: 1
-            - list-link: dynamo-class-energy-core-power-list
-            - as: core
+            - number:    1
+            - "list-link": dynamo-class-energy-core-power-list
+            - as:        core
           - And Also:
-            - number: 3
-            - list-link: dynamo-class-personal-power-list
-            - as: personal
-        - might: 5
+            - number:    3
+            - "list-link": dynamo-class-personal-power-list
+            - as:        personal
     - Unkillable:
       - desc: |
-          You get knocked down but you get up again. They're never gonna keep you 
-          down. Regain 1 Health at the start of the Hero Phase if you have 0 Health.
+          "You get knocked down but you get up again. They're never gonna keep you
+          down. Regain 1 Health at the start of the Hero Phase if you have 0 Health."
     - War Machine:
       - variant:
         - of:
-          - name: Tactical Mastery
-          - class: knight
+          - name:    Tactical Mastery
+          - classid: knight
+          - volume:  3
       - desc: |
-          You are trained in a number of specialized combat techniques.
-          Gain a number of fighting styles equal to the Volume. Add an 
-          additional fighting style at the start of each later Volume.
-      - repeat: 
+          "You are trained in a number of specialized combat techniques.
+          Gain a number of fighting styles equal to the Volume. Add an
+          additional fighting style at the start of each later Volume."
+      - repeat:
          - punctuate: ";"
          - desc: |
-             each time, you must choose different Fighting Styles. Only
+             "each time, you must choose different Fighting Styles. Only
              add one Fighting Style for each subsequent Volume, regardless
-             of how many times you've chosen this Ability.
+             of how many times you've chosen this Ability."
   - "2":
      - Misunderstood Mechanical:
        - crossover:
-         - classid: monstrosity
+         - classid:   monstrosity
          - classname: Monstrosity
          - variant:
-           - of: Misunderstood Monster
-           - name: Mechanized Kindness
+           - of:      Misunderstood Monster
+           - name:    Mechanized Kindness
+           - volume:  1
            - desc: |
-               Even at your worst, you wouldn't harm an innocent.
+               "Even at your worst, you wouldn't harm an innocent.
                Add 2 to the dice pool when you advance the Allay
-               or Rescue goals. 
+               or Rescue goals."
          - power-words:
            - Initial:
-             - number: 1
-             - list-link: monstrosity-class-personal-power-words
-             - as: core
+             - number:      1
+             - "list-link": monstrosity-class-personal-power-words
+             - as:          core
            - More:
-             - whenever: true
-             - list-link: monstrosity-class-personal-power-words
-             - as: core
+             - whenever:    true
+             - "list-link": monstrosity-class-personal-power-words
+             - as:          core
      - Regeneration:
        - prereq:
          - ability: Golem
-         - must: have
+         - must:    have
+         - text:    "You must have the **Golem** Class Ability."
        - desc: |
-           If you're ever wounded, you don't stay that way for long.  
-           Regain 1 Health at the start of the Hero Phase if you are at less 
-           than half of your maximum Health but have at least 1 Health.
+           "If you're ever wounded, you don't stay that way for long.
+           Regain 1 Health at the start of the Hero Phase if you are at less
+           than half of your maximum Health but have at least 1 Health."
      - Relentless Power:
-       - desc: "You are a storehouse of untapped energy. Increase your maximum Might by 5."
-       - might: 5
+       - desc:      "You are a storehouse of untapped energy. Increase your maximum Might by 5."
+       - might:     5
        - variant:
-         - class: dynamo
-         - volume: 3
-         - name: Power Overwhelming
+         - classid: dynamo
+         - volume:  3
+         - name:    Power Overwhelming
   - "3":
-    - Nigh-Invulnerable:
-      - desc: "There are few things that can seriously harm you. Increase your maximum Health by 5."
-      - health: 5
+    - "Nigh-Invulnerable":
+      - desc:      "There are few things that can seriously harm you. Increase your maximum Health by 5."
+      - health:    5
       - variant:
+        - of:      "Nigh-Invulnerable"
         - classid: paragon
-        - volume: 1
-        - name: Boundless Fortitude
+        - volume:  3
     - Power Burn:
-      - desc: |
-          You can call upon your life-force to fuel your powers.  You can spend 
-          Health whenever you would normally spend Might. Increase your maximum
-          Health by \3.
+      - variant:
+        - classid: monstrosity
+        - volume:  3
+        - name:    Power Burn
       - health: 3
+      - desc: |
+          "You can call upon your life-force to fuel your powers.  You can spend
+          Health whenever you would normally spend Might. Increase your maximum
+          Health by 3."
   - "4":
     - Immortal:
+      - variant:
+        - of:      Immortal
+        - classid: monstrosity
+        - volume:  4
       - desc: |
-          You might become seriously wounded, but you'll never stay dead. 
-          If you have \0 Health or \0 Might at the start of a Hero Phase, regain 
-          \1 point of each.
+          "If you are dead at the start of a Crisis Countdown, return to life --
+          with full Might and Health -- at the end of that Countdown."
+    - Unstoppable:
+      - variant:
+        - of:      Unstoppable
+        - classid: monstrosity
+        - volume:  4
+      - desc: |
+         "You might become seriously wounded, but you'll never stay down.
+         If you have 0 Health or 0 Might at the start of a Hero Phase, regain
+         1 point of each."
   - "5":
     - tbd: true

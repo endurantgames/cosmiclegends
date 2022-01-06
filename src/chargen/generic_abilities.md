@@ -287,11 +287,11 @@ At the start of Volume 3, choose an ability from this list or any previous list.
 :::::::: {.ability-list .v3 } :::::::
 Ageless
 
-:   ***Special Note:** If you are of the __Construct__, __Divine__,
-    __Haunt__, or __Hellspawn__ classes, you can take an additional
-    Ability of Volume 3 or lower when you select this Ability. That
-    free ability must be one you could normally choose; i.e., from your
-    class or a generic ability, for which you qualify.*
+:   * **Special Note:** If you are of the __Construct__, __Divine__,*
+    *__Haunt__, or __Hellspawn__ classes, you can take an additional*
+    *Ability of Volume 3 or lower when you select this Ability. That*
+    *free ability must be one you could normally choose; i.e., from your*
+    *class or a generic ability, for which you qualify.*
 
     You can add *Ageless* as a Personal Power Word.
 
@@ -389,8 +389,8 @@ Arch-Enemy
 
 Rogues' Gallery
 
-:   *Prerequisite: If you have the __Arch Enemy__ Class Ability, your 
-    Arch-Enemy __cannot__ be part of your Rogues' Gallery.*
+:   *Prerequisite: If you have the __Arch Enemy__ Class Ability, your*
+    *Arch-Enemy __cannot__ be part of your Rogues' Gallery.*
 
     You have a consistent set of foes against whom you regularly strive, and
     a kind of gruding, love-hate, quasi-professional relationship has arisen 

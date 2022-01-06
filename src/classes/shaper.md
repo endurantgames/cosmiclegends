@@ -1,7 +1,8 @@
 ::::::::::::::::::: {.classdata #class-shaper } ::::::::::::::
 # The Shaper {#toc-shaper .breakbefore .class}
 
-> Everyone wave goodbye to him! Get it? Wave. Because I control waves. Nobody? Tough crowd.
+> Everyone wave goodbye to him! Get it? Wave. Because I control *waves.*
+> Nobody? Sheesh. Tough crowd.
 
 A Shaper is able to control some physical -- or quasi-physical --
 substance, such as rock, water, or shadows. Their powers have 

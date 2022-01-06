@@ -290,13 +290,12 @@ Theurgy
     []{.crossover-instead .v2 .divine}
     *Weapon of the Gods (1st)* and 
     *Speed of Hermes (2nd)* 
-    []{.crossover-consider .divine}
+    []{.crossover-consider    .divine}
     
-Thinking with Portals
+Summoner
 
 :   Add **Portal** as a Core Power Word. You can make the General
     Alert move for free, without spending any successes from the Teamwork Pool.
-
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -357,6 +356,10 @@ Eldritch Might
 :   Your power continues to grow, but at what cost? Increase your
     maximum Might by 5.
 
+Necromancer
+
+:   [Haunt]{.crossover .new .haunt}
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 3 Abilities
@@ -396,6 +399,9 @@ Invisibility
     Might to become invisible and automatically counter that Crisis
     Move.
 
+Spellsinger
+:   To be determined
+
 :::::::::::::::::::::::::::::::::::::
 
 ### Volume 5 Abilities
@@ -403,6 +409,11 @@ Invisibility
 At the start of Volume 5, choose an ability from this list or any previous list.
 
 :::::: {.ability-list .v5 }::::::::::
+Bardic Inspiration
+:   *Prerequisite: You must have the __Spellsinger__ Class Ability.*
+
+    To be determined
+
 Mass Invisibility
 
 :   *Prerequisite: You must have "Invisibility" as a Power Word.*

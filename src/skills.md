@@ -92,6 +92,24 @@ Artist
       - This could get you "cancelled" online.
       - Lose 1 Health or 1 Might.
   
+Bureaucrat
+:   You are skilled at dealing bureaucracies and paperwork; optionally,
+    you can choose one type of organization that you're particularly
+    skilled at dealing with. If you do, add 1 die to any roll related
+    to those organizations.
+
+    - Roll [Bureaucrat]{.action}    to
+    - Roll [Bureaucrat]{.adventure} to 
+    - Roll [Bureaucrat]{.detective} to
+    - Roll [Bureaucrat]{.mystery}   to
+    - Roll [Bureaucrat]{.suspense}  to
+
+    - **Potential Edge Success Consequences:**
+      - something
+      - something
+      - something
+      - something
+
 Criminal
 :   You're skilled at evading the law and getting away with it. Optionally, you can
     add one or more types of crimes as specialties; if you do, add 1 die to any roll
@@ -140,7 +158,8 @@ Deputy
 Engineer
 :   You can build high-tech devices. This is the four-color version
     of "Engineering", not real-world __engineering__.
-    You can choose one or more optional specialties; if you do, add 1 die to any
+    You can choose one or more optional specialties, representing
+    what kinds of engineering you're best at; if you do, add 1 die to any
     roll related to those specialties.
 
     With enough time and a laboratory or workshop, you can create
@@ -197,7 +216,9 @@ Explorer
   
 Hacker
 :   You're quite talented with computers and can easily overcome most forms 
-    of digital security.
+    of digital security. Optionally, you can choose one or more types of
+    computer system that you're best at hacking as specialties; if you do, add 1 
+    die to any roll related to those specialties.
 
     - Roll [Hacker]{.action}    to shut down a machine.
     - Roll [Hacker]{.adventure} to search for information in a database.
@@ -416,6 +437,9 @@ Pilot
   
 Politician
 :   You're practiced at playing the system to influence the public.
+    Optionally, you can choose one or more political parties or political
+    entities as specialties; if you do, add 1 die to any roll related to those
+    specialties.
 
     - Roll [Politician]{.action}    to rile up a crowd.
     - Roll [Politician]{.adventure} to avoid answering direct questions.
@@ -435,8 +459,7 @@ Politician
 Scientist
 :   You understand science. Not *science* of the real world, but
     super-"science" that can create shrink rays or muscle serums.
-    Optionally, you can choose one or more scientific specialties; if
-    you do, add 1 die to any roll related to those specialties.
+    [scientific fields]{.skill-specialty}
 
     With enough time, a laboratory, and a successful roll, 
     you can restore Might to a living creature, 
@@ -461,6 +484,7 @@ Scientist
   
 Socialite
 :   You are a known figure in high society, and know how to make an appearance.
+    [cities]{.skill-specialty}
 
     - Roll [Socialite]{.action}    to impress someone with how important you are.
     - Roll [Socialite]{.adventure} to successfully mingle with the upper classes.
@@ -480,8 +504,8 @@ Socialite
 
 Spy
 :   You're trained in espioniage, and have a number of false identities.
-    Optionally, you have security clearance in a spy agency; if you do, add 1
-    die to any roll related to that agency.
+    [you have a security clearance with a spy agency]{.skill-specialty-long};
+    if you do, add 1 die to any roll related to that agency.
 
     - Roll [Spy]{.action}    to sabotage a location or vehicle.
     - Roll [Spy]{.adventure} to infiltrate a hidden base.

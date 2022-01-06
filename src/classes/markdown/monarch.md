@@ -246,7 +246,7 @@ Remote Palace
 
 Righteous Rage
 
-:   If you are below half Health, add 2 to the dice pool to advance the 
+:   When you are below half Health, add 2 to the dice pool to advance the 
     Smash goal.
 
 :::::::::::::::::::::::::::::::::::::
