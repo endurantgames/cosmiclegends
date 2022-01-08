@@ -310,13 +310,12 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **Real Name:** Sienna MacGowan
 - **Occupation:** Graduate student, poet
 - **Legal Status:** Citizen of the Republic of Ireland
-- **Gender:** 
 - **Gender:** female (she/her)
 - **Identity:** secret
 - **Place of Birth:** Cork, Ireland
 - **Marital Status:** single
 - **Base of Operations:** Dublin, Ireland; Sun City, U.S.A.
-- **Group Affiliation:** 11, Cosmic Legends of the Universe
+- **Group Affiliation:** Cosmic Legends of the Universe
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -383,13 +382,12 @@ need, she can form a sword of blazing light.
 - **Real Name:** Percival Pellinore
 - **Occupation:** Adventurer
 - **Legal Status:** unknown
-- **Gender:** 
 - **Gender:** male (he/him)
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
 - **Base of Operations:** New York City, New York; Sun City, U.S.A.
-- **Group Affiliation:** 11, 21, 2, Cosmic Legends of the Universe1, 2, Cosmic Legends of the Universe, 31, 2, Cosmic Legends of the Universe, 3, A.L.E.R.T.1, 2, Cosmic Legends of the Universe, 3, A.L.E.R.T., Knights of the Round Table
+- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct), A.L.E.R.T. (reserve operative)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

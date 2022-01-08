@@ -155,7 +155,7 @@ PDFINFO_GREP = | /bin/grep -v "no"
 # MAKE_MD    = $(MMD) -q
 # MAKE_MD    = $(MMD) -v
 # MAKE_MD    = $(MMD) -v
-MAKE_MD      = $(MMD) -q
+MAKE_MD      = $(MMD) -v
 MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
