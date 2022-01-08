@@ -211,6 +211,32 @@
         - active:   true
         - leader:   false
         - founder:  true
+        - url:      https://pdsh.fandom.com/wiki/Captain_Comet
+      - Jet Powers:
+        - gender: male
+        - active: true
+        - founder: true
+        - url: https://pdsh.fandom.com/wiki/Jet_Powers
+      - Linda Blake:
+        - gender: female
+        - active: true
+        - founder: true
+        - url: https://pdsh.fandom.com/wiki/Linda_Blake
+      - John Haljan:
+        - gender: male
+        - active: true
+        - founder: true
+        - url: https://pdsh.fandom.com/wiki/Jon_Haljan
+      - Solarman:
+        - gender: male
+        - active: true
+        - founder: true
+        - url: https://pdsh.fandom.com/wiki/Solarman
+      - Zina:
+        - gender: female
+        - active: true
+        - founder: true
+        - url: https://pdsh.fandom.com/wiki/Zina_of_Koroka
   - Legends of the Pacific Front:
     - definite: true
     - active:   false
