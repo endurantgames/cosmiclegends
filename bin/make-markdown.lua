@@ -412,7 +412,7 @@ local function yaml_char_group(bio_group_affiliation)
 end;
 
 local function yaml_char_relatives(bio_relatives)
-  vprint("relatives?");
+  vprint("relatives?", "looking for relatives");
   local markdown = "\n- **Known Relatives:** ";
   local relatives = unpack_yaml_tree(bio_relatives, "relatives");
   local rel_list = {};
@@ -918,8 +918,8 @@ local function yaml_character(yaml_tree)
 
             if     bio.relatives and type(bio.relatives) == "table"
             then   markdown = markdown .. yaml_char_relatives(bio.relatives);
-            elseif bio.relatives == "none"
-            then   markdown = markdown .. "- **Known Relatives:** none";
+            -- elseif bio.relatives == "none"
+            else   markdown = markdown .. "- **Known Relatives:** none";
             end;   -- bio.relatives
 
             if     bio.base and type(bio.base) == "table"
