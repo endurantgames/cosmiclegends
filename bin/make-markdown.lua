@@ -708,7 +708,7 @@ local function yaml_sheet(yaml_tree)
   then sheet_config = unpack_yaml_tree(sheet["sheet-config"], "sheet-config");
        vprint("found sheet-config!");
        vprint("::::::: start sheet-config ::::::::::");
-       vprint(inspect(sheet_config));
+       -- vprint(inspect(sheet_config));
        vprint(":::::::: end sheet-config :::::::::::");
        if sheet_config.shrink
        then local shrink = unpack_yaml_tree(sheet_config.shrink, "sheet-config.shrink");
@@ -716,7 +716,7 @@ local function yaml_sheet(yaml_tree)
        end;
   end;
 
-  markdown = [===[
+  local markdown = [===[
 :::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}
 
@@ -814,10 +814,10 @@ local function yaml_sheet(yaml_tree)
 
 ]===];
 
-  markdown = markdown .. string.rep(":", 20) .. " pregen " .. string.rep(":", 20);
+  markdown = markdown .. "\n\n" .. string.rep(":", 30) .. " pregen " .. string.rep(":", 30);
 
   if    not sheet.stats or not type(sheet.stats) == "table"
-  then  markdown = markdown .. string.rep(":", 50);
+  then  markdown = markdown .. "\n\n" .. string.rep(":", 50);
         return markdown
   end;
 
@@ -1243,7 +1243,7 @@ local function yaml_glossary(yaml_tree)
       if   term ~= "metadata" and term ~= "flat"
       then
            vprint("term", term);
-           vprint("data", data);
+           -- vprint("data", data);
            local glossary_data =  unpack_yaml_tree(data, term);
            local def           =  glossary_data.def
            local hq_equiv      =  glossary_data.hq_equiv;
@@ -1313,21 +1313,26 @@ end;
 
 local function yaml_event(yaml_tree)
   -- vprint("yaml xformat is:", "item:event");
-  local event, _, slurped, _ = yaml_common(yaml_tree);
+  local event = yaml_common(yaml_tree);
   local elist = {};
 
-  vprint("event is", inspect(event));
+  local slurped = " ";
 
-  if   event.where then table.insert(elist, event.where                     ); vprint("where", event.where); end;
-  if   event.desc  then table.insert(elist, event.desc                      ); vprint("desc",  event.desc ); end;
-  if   event.cf    then table.insert(elist, "See also: *" .. event.cf .. "*"); vprint("cf",    event.cf   ); end;
+  event = unpack_yaml_tree(event);
+
+  if event.where then table.insert(elist, event.where); end;
+  if event.extra then table.insert(elist, event.extra); end;
 
   if   #elist > 1
-  then slurped = slurped .. " (" .. table.concat(elist, "; ") .. ")";
+  then slurped = slurped .. " (" .. table.concat(elist, "; ") .. ") ";
+       elist = {};
   end;
 
-  eprint("elist is",     inspect(elist));
-  vprint("event data: ", slurped);
+  if event.desc  then table.insert(elist, event.desc                      ); end;
+  if event.cf    then table.insert(elist, "See also: *" .. event.cf .. "*"); end;
+
+  slurped = slurped .. table.concat(elist, " ") .. "\n";
+
   return slurped;
 end;
 
@@ -1351,40 +1356,40 @@ local function yaml_group(yaml_tree)
   then local member_list = unpack_yaml_tree(group.members);
        slurped = slurped .. "; Members: ";
        local member_entries = {};
-       local member_entry = "";
+       local mem_item = "";
        if   not group["membership-complex"]
        then for name, member in pairs(member_list)
             do  local member_status  = member.active    and "" or              member.resigned and " *resigned* " or
                                        member.deceased  and " *deceased* "  or member.expelled and " *expelled* " or
                                        member.graduated and " *graduated* " or " *status unknown* ";
-                if member.title        then member_entry = member_entry .. " " .. member.title;                 end;
-                if name or member.name then member_entry = member_entry .. (name or member.name) .. " ";        end;
-                if member.aka          then member_entry = member_entry .. " (" .. member.aka .. ")";           end;
-                if member.gender       then member_entry = member_entry .. "[]{.icon-" .. member.gender .. "}"; end;
-                if member_status       then member_entry = member_entry .. member_status;                       end;
-                if member.bio          then member_entry = member_entry .. " " .. member.bio;                   end;
+                if member.title        then mem_item = mem_item .. " " .. member.title;                 end;
+                if name or member.name then mem_item = mem_item .. (name or member.name) .. " ";        end;
+                if member.aka          then mem_item = mem_item .. " (" .. member.aka .. ")";           end;
+                if member.gender       then mem_item = mem_item .. "[]{.icon-" .. member.gender .. "}"; end;
+                if member_status       then mem_item = mem_item .. member_status;                       end;
+                if member.bio          then mem_item = mem_item .. " " .. member.bio;                   end;
             end; -- for name, member
        else -- membership-complex
             for name, member in pairs(member_list)
-            do  member_entry = member_entry .. name .. " ";
+            do  mem_item = mem_item .. name .. " ";
                 local complex_status = member.active   and ""             or member.honorary and " *honorary* " or
                                        member.resigned and " *resigned* " or member.defunct  and " *defunct* "  or
                                        member.inactive and " *inactive* " or member.former   and " *former* "   or
                                        member.expelled and " *expelled* " or " *status unknown* ";
                 if   complex_status
-                then member_entry = member_entry .. complex_status;
+                then mem_item = mem_item .. complex_status;
                 end;
                 if   member.active and member.rep and type(member.rep) == "table"
                 then local rep = unpack_yaml_tree(member.rep, "membership-complex : member.rep");
                      if   not string.match(rep.name, "none")
-                     then -- if rep.active then member_entry = member_entry .. " [ represented by ";              end;
-                          -- if rep.former then member_entry = member_entry .. " [ formerly represented by ";     end;
-                          -- if rep.title  then member_entry = member_entry .. rep.title .. " ";                  end;
-                          -- if rep.name   then member_entry = member_entry .. rep.name;                          end;
-                          -- if rep.gender then member_entry = member_entry .. "[]{.icon-" .. rep.gender .. "}";  end;
-                          -- if rep.aka    then member_entry = member_entry .. " (" .. rep.aka .. ") ";           end;
-                          member_entry = member_entry .. "]";
-                     else member_entry = member_entry .. " [ represented by: *no one* ]"
+                     then if rep.active then mem_item = mem_item .. " [ represented by ";              end;
+                          if rep.former then mem_item = mem_item .. " [ formerly represented by ";     end;
+                          if rep.title  then mem_item = mem_item .. rep.title .. " ";                  end;
+                          if rep.name   then mem_item = mem_item .. rep.name;                          end;
+                          if rep.gender then mem_item = mem_item .. "[]{.icon-" .. rep.gender .. "}";  end;
+                          if rep.aka    then mem_item = mem_item .. " (" .. rep.aka .. ") ";           end;
+                          mem_item = mem_item .. "]";
+                     else mem_item = mem_item .. " [ represented by: *no one* ]"
                      end; -- not rep.name none
                 end; -- member.active and member.rep == table
             end; -- for name, member
@@ -1613,7 +1618,7 @@ local function recipe_list()
             CONFIG.logformat,
             v.path .. v.name,
             CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
-          )            
+          )
 	);
     end;
     os.exit(1);
