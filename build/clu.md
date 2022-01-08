@@ -315,7 +315,7 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **Place of Birth:** Cork, Ireland
 - **Marital Status:** single
 - **Known Relatives:** unknown
-- **Base of Operations:** Dublin, Ireland; Sun City, U.S.A.
+- **Base of Operations:** 
 - **Group Affiliation:** Cosmic Legends of the Universe
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -387,9 +387,9 @@ need, she can form a sword of blazing light.
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** Agresizia[]{.icon-female} (sister, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Dindrane[]{.icon-female} (sister), Lamorak[]{.icon-male} (brother, *deceased*)
-- **Base of Operations:** New York City, New York; Sun City, U.S.A.
-- **Group Affiliation:** Knights of the Round Table (organization defunct), Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative)
+- **Known Relatives:** Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister), Lamorak[]{.icon-male} (brother, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Algovale[]{.icon-male} (brother, *deceased*)
+- **Base of Operations:** Sun City, U.S.A.; St. Helena Island (temporarily); New York City, New York (current); Camelot, England (formerly)
+- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct), A.L.E.R.T. (reserve operative)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -152,10 +152,9 @@ PDFINFO_GREP = | /bin/grep -v "no"
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet or verbose mode
-# MAKE_MD    = $(MMD) -q
-# MAKE_MD    = $(MMD) -v
-# MAKE_MD    = $(MMD) -v
-MAKE_MD      = $(MMD) -v
+# MAKE_MD    = $(MMD) -q -- quiet
+# MAKE_MD    = $(MMD) -v -- verbose
+MAKE_MD      = $(MMD) -q
 MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)

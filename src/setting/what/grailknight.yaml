@@ -52,7 +52,16 @@
     - "A.L.E.R.T.":
       - active: no
       - status: reserve operative
-  - base: ["New York City, New York", "Sun City, U.S.A."]
+  - base: 
+    - "New York City, New York":
+      - active: true
+    - "Camelot, England":
+      - active: false
+      - former: true
+    - "Sun City, U.S.A.":
+      - active: false
+    - "St. Helena Island":
+      - temporary: true
   - height: "5' 6\""
   - weight: "170 lbs."
   - eyes: brown

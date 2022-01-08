@@ -280,8 +280,8 @@ end -- function
 
 local function unpack_yaml_tree(yaml_tree, comment)
   comment = comment or "";
-  vprint("==================", "------------------");
-  vprint(comment .. ":before", tprint(yaml_tree));
+  -- vprint("==================", "------------------");
+  -- vprint(comment .. ":before", tprint(yaml_tree));
   if     yaml_tree == nil
   then   eprint("Error!", "yaml_tree = nil");
          os.exit(1);
@@ -308,7 +308,7 @@ local function unpack_yaml_tree(yaml_tree, comment)
       flat_tree[k] = v;
   end;
 
-  vprint(comment .. ":after", tprint(flat_tree));
+  -- vprint(comment .. ":after", tprint(flat_tree));
   return flat_tree;
 
 end;
@@ -370,15 +370,7 @@ local function yaml_char_group(bio_group_affiliation)
   local group_memberships = unpack_yaml_tree(bio_group_affiliation, "group_memberships");
   for group_name, data in pairs(group_memberships)
   do  local str = group_name
-      vprint("group_name: " .. str, type(str));
       local gstatus = unpack_yaml_tree(data, "gstatus");
-
-      -- if   type(data) == "table"
-      -- then -- vprint("GOOD: gstatus is a", "table");
---            gstatus = unpack_yaml_tree(data, "group_memberships: gstatus");
---       else eprint("ERROR: gstatus is a", type(data));
---            os.exit(1);
---       end;
 
       if   type(str) == "string" and gstatus
       then if   (gstatus.inactive or gstatus.reserve  or
@@ -394,57 +386,53 @@ local function yaml_char_group(bio_group_affiliation)
 
                   local memdata_string = table.concat(gdata, ", ");
                   str = str .. " (" .. memdata_string .. ")";
-           elseif gstatus.active
-           then   vprint("active member:", str);
-           else   eprint("no extended data", "for group membership");
-                  eprint("DUMP: gstatus", tprint(gstatus));
-                  os.exit(1);
+           -- elseif gstatus.active
+           -- then   vprint("active member:", str);
+           -- else   eprint("no extended data", "for group membership");
+                  -- eprint("DUMP: gstatus", tprint(gstatus));
+           --     os.exit(1);
            end;
            table.insert(group_list, str);
-      -- else eprint("SKIP: group_name str",       str      );
-      --      eprint("      group_name type(str)", type(str));
       end;
   end;
   -- print("exiting loop; markdown NOW is:", markdown);
   -- print("adding group_list",          #group_list);
   -- print("list contents are:",         table.concat(group_list, ", "));
   markdown = markdown .. table.concat(group_list, ", ");
-  print("done adding group data, markdown NOW is:", markdown);
+  -- print("done adding group data, markdown NOW is:", markdown);
   return markdown;
 end;
 
 local function yaml_char_relatives(bio_relatives)
-  vprint("relatives?", "looking for relatives");
+  -- vprint("relatives?", "looking for relatives");
   -- vprint("dump", tprint(bio_relatives));
   local markdown = "\n- **Known Relatives:** ";
   local relatives = unpack_yaml_tree(bio_relatives, "relatives");
   local rel_list = {};
   for rel_name, rel in pairs(relatives)
-  do
-      if   type(rel_name) == "string"
-      then local rel_string = rel_name;
-           local rel_data   = unpack_yaml_tree(rel, "yaml_char_relatives: rel");
+  do if   type(rel_name) == "string"
+     then local rel_string = rel_name;
+          local rel_data   = unpack_yaml_tree(rel, "yaml_char_relatives: rel");
 
-           if   rel_data.gender
-           then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} ";
-           end;
+          if   rel_data.gender
+          then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} ";
+          end;
 
-           if   rel_data.relationship or rel_data.deceased or rel_data.aka
-           then rel_string = rel_string .. "(";
-                if   rel_data.relationship
-                then rel_string = rel_string .. rel_data.relationship;
-                     if   rel_data.deceased or rel_data.aka
-                     then rel_string = rel_string .. ", ";
-                     end;
-                end; -- if rel.relationship
+          if   rel_data.relationship or rel_data.deceased or rel_data.aka
+          then rel_string = rel_string .. "(";
+               if   rel_data.relationship
+               then rel_string = rel_string .. rel_data.relationship;
+                    if   rel_data.deceased or rel_data.aka
+                    then rel_string = rel_string .. ", ";
+                    end;
+               end; -- if rel.relationship
 
-                if rel_data.aka      then rel_string = rel_string .. rel_data.aka; end;
-                if rel_data.deceased then rel_string = rel_string .. "*deceased*"; end;
-                rel_string = rel_string .. ")";
-           end; -- if rel[relationship, deceased, aka]
-           table.insert(rel_list, rel_string);
-      else eprint("rel_name is not a string", rel_name);
-      end;
+               if rel_data.aka      then rel_string = rel_string .. rel_data.aka; end;
+               if rel_data.deceased then rel_string = rel_string .. "*deceased*"; end;
+               rel_string = rel_string .. ")";
+          end; -- if rel[relationship, deceased, aka]
+          table.insert(rel_list, rel_string);
+     end;
   end; -- for rel.name
   markdown = markdown .. table.concat(rel_list, ", ");
   return markdown;
@@ -474,16 +462,34 @@ local function yaml_char_base(bio_base)
   local base_list = {};
   local bases     = unpack_yaml_tree(bio_base, "base");
   for base_name, base_data in pairs(bases)
-  do  if   type(base_data) == "string"
-      then table.insert(base_list, base_data);
-      else local data         = unpack_yaml_tree(base_data, "base_data");
-           local str          = base_name;
-           local base_details = {};
-           if #bases > 1 and data.active then table.insert(base_details, "current");   end;
-           if data.former                then table.insert(base_details, "formerly");  end;
-           if data.temporary             then table.insert(base_details, "temporary"); end;
-           str = str .. " (" .. table.concat(base_details, ", ") .. ")";
-           table.insert(base_list, str);
+  do  if     type(base_name) == "string" and type(base_data) == "string"
+      then   table.insert(base_list, base_data);
+      elseif type(base_name) == "string"
+      then   local data         = unpack_yaml_tree(base_data, "base_data");
+             local str          = base_name;
+             local base_details = {};
+
+             if   #bases > 1 and data.active 
+             then table.insert(base_details, "current");   
+             end;
+
+             if   data.former                
+             then table.insert(base_details, "formerly");  
+             end;
+
+             if   data.temporary             
+             then table.insert(base_details, "temporarily"); 
+             end;
+
+	     if   data.status
+             then table.insert(base_details, data.status);
+             end;
+
+	     if   #base_details >= 1
+             then str = str .. " (" .. table.concat(base_details, ", ") .. ")";
+             end;
+
+             table.insert(base_list, str);
       end;
   end;
   markdown = markdown .. table.concat(base_list, "; ");
@@ -934,13 +940,13 @@ local function yaml_character(yaml_tree)
                    then   markdown = markdown .. "\n- **Known Relatives:** none";
                    end;
             else   markdown = markdown .. "\n- **Known Relatives:** unknown";
-                   eprint("relatives not parsing");
-                   eprint("value:",      bio.known_relatives);
-                   eprint("value type:", type(bio.known_relatives));
+                   -- eprint("relatives not parsing");
+                   -- eprint("value:",      bio.known_relatives);
+                   -- eprint("value type:", type(bio.known_relatives));
 
-                   if   type(bio.known_relatives) == "table"
-                   then eprint("dump:",       tprint(bio.known_relatives));
-                   end;
+                   -- if   type(bio.known_relatives) == "table"
+                   -- then eprint("dump:",       tprint(bio.known_relatives));
+                   -- end;
 
             end;   -- bio.relatives
 
@@ -1086,7 +1092,7 @@ local function get_item_formatter_func(metadata)
   -- Usage:
   -- local item_formatter, if_error = get_item_formatter_func(metadata);
   --
-  vprint("looking for item_formatter");
+  -- vprint("looking for item_formatter");
   if not metadata then eprint("Error! Metadata", type(metadata)); end;
   local metadata_keys = get_sorted_keys(metadata);
 
