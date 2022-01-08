@@ -3,8 +3,8 @@ cover
 intro
 toc
 ethos
-preface/no_fascists
 preface/
+preface/no_fascists
 preface/four_color
 preface/ages_of_comics
 preface/bronze_age
@@ -46,9 +46,9 @@ preface/influences
 # crisis/crisis_phase
 # crisis/post
 # advancement
-setting/markdown/*
-setting/brigantia
-setting/grailknight
+# setting/markdown/*
+setting/what/brigantia
+setting/what/grailknight
 # # team/
 # team/*
 # editor/
@@ -65,7 +65,7 @@ setting/grailknight
 # vignettes/
 # vignettes/vignettes_issue
 # vignettes/examples/*
-glossary
+# glossary
 # lists_index
 # powers/words
 # # soapbox_index

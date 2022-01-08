@@ -1,0 +1,64 @@
+- metadata:
+  - title:          &title Cloud Curtis
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-westernfront-cloudcurtis
+  - url:            https://pdsh.fandom.com/wiki/Cloud_Curtis
+- art:
+  - url:            art/pdsh/cloudcurtis.png
+  - alt:            *title
+  - face:           art/pdsh/cloudcurtis_face.png
+- bio:
+  - real_name:      "Otto \"Cloud\" Curtis"
+# - real_name:      is based on Otto Binder's name
+  - occupation:     Pilot
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
+  - place_of_birth: location
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: 
+    - Legends of the Western Front:
+      - active:     false
+      - reserve:    true
+      - founder:    true
+    - Legends of the Home Front:
+      - active:     false
+      - reserve:    true
+      - founders:   false
+  - base:    ["Bangor, Maine"]
+  - height:  "5' 7\""
+  - weight:  "160 lbs."
+  - eyes:    brown
+  - hair:    black
+- history: |
+    "Cloud Curtis was an ace pilot who built the Golden Bullet, an 
+    unusual plane, that flew faster than anything in its time. With 
+    his friends Crusher and Pop, he battled America's enemies."
+- weapons: |
+    "The Golden bullet was not only fast, but armed for combat. 
+    In addition to being a great pilot, Cloud was a good fighter, 
+    who always carried a revolver on his hip."
+- stats:
+  - name:            *title
+  - class:           The Wheelman
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          []
+  - ideals:          []

@@ -1,0 +1,97 @@
+- metadata:
+  - title:          &title The Black Cat
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-homefront-blackcat
+  - url:            https://pdsh.fandom.com/wiki/Black_Cat
+- license: |
+    license
+- art:
+  - url:            art/pdsh/blackcat.png
+  - alt:            *title
+  - face:           art/pdsh/blackcat_face.png
+- bio:
+  - real_name:      Linda Turner
+  - occupation:     Actor
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         female
+    - pronouns:     she/her
+  - identity:       secret
+  - place_of_birth: "Los Angeles, California"
+  - marital_status: single
+  - known_relatives: 
+    - Parents:
+      - anonymous: true
+      - plural:    true
+  - group_affiliation: 
+    - Legends of the Home Front:
+      - active:  false
+      - reserve: true
+      - founder: true
+    - Legends of the Pacific Front:
+      - active:  false
+      - reserve: true
+      - founder: true
+    - Girl Commandos:
+      - active:  false
+      - reserve: true
+      - founder: false
+  - base:    ["Los Angeles, California"]
+  - height:  "5' 6\""
+  - weight:  "145 lbs."
+  - eyes:    blue
+  - hair:    red 
+- history: |
+    "Linda Turner, daughter of a movie star and a stunt woman, became 
+    one of Hollywood's biggest stars who got bored with the make-believe 
+    life of Hollywood. 
+    
+    When she came across a plot by Nazi spy and director Garboil she 
+    realized she could help her country and have fun by taking on the 
+    identity of the Black Cat. 
+    
+    She was assisted by Rick Horne, a reporter for the Los Angeles 
+    Daily Globe, and her sidekick Black Kitten.
+
+    In October 1942, the Black Cat teamed up with Shock Gibson, Captain 
+    Freedom, Ted Parrish, War Nurse and the Girl Commandos to repel the 
+    Japanese invasion of Hollywood. She also teamed up with Gibson and 
+    Captain Freedom in later adventures.
+
+    In January 1942, Black Cat teamed up with Spirit of '76 and Agent 99 
+    in two separate adventures. Black Cat ran into Agent 99 while he was 
+    in Los Angeles rounding up Gestapo agents at the request of the FBI. 
+    Black Cat, Rick Horne and Agent 99 worked together to bring the Gestapo 
+    agents to justice. 
+    
+    Before the adventurers parted ways, Black Cat gave Agent 99 a kiss. 
+    Noticing Rick's jealous reactions, the British agent said that much 
+    as he would love to stay with the beautiful heroine, his work would 
+    always have to come first.
+
+    Among her more notable enemies are Fire Bug, The Sceptre, Cleopatra, 
+    and the Crimson Raider."
+- powers: |
+    "She has no superpowers but is a skilled fighter, knows karate and 
+    acrobatics, and is good with javelin and lariat."
+- stats:
+  - name:            *title
+  - class:           The Knight
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          []
+  - ideals:          []

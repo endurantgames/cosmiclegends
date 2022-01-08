@@ -86,7 +86,7 @@ end
 -- @param pformat format of data - 'system' for system-dependent number; nil or string with formatting directives
 -- @return  files, dirs - files and dir are tables {name, modification, path, size}
 
-function file_search(dir_path, filter, s, pformat)
+local function file_search(dir_path, filter, s, pformat)
   -- === Preliminary functions ===
   -- comparison function like the IN() function like SQLlite, item in a array
   -- useful for compair table for escaping already processed item
@@ -121,12 +121,13 @@ function file_search(dir_path, filter, s, pformat)
         local extensions = split(filter, ";") -- filter:split(";")
         s = s or false -- as /s : subdirectories
 
-        if pformat == 'system' then        -- if 4th arg is explicity 'system', then return the system-dependent number representing date/time
-                os_date = function(os_time)
-                        return os_time
-                end
-        else
-                -- if 4th arg is nil use default, else it could be a string that respects the Time formatting directives
+       local os_date;
+
+        if pformat == 'system' -- if 4th arg is explicity 'system', then return the 
+                             -- system-dependent number representing date/time
+       then os_date = function(os_time) return os_time end
+        else -- if 4th arg is nil use default, else it could be a string 
+            -- that respects the Time formatting directives
                 pformat = pformat or "%Y/%m/%d" -- eg.: "%Y/%m/%d %H:%M:%S"
                 os_date = function(os_time)
                         return os.date(pformat, os_time)
@@ -162,8 +163,7 @@ function file_search(dir_path, filter, s, pformat)
                                                 })
                                         end
                                         if s and attr.mode == "directory" then
-                                                local subf={}
-                                                local subd={}
+                                                local subf, subd;
                                                 subf, subd = file_search(path.."/"..f, filter, s, pformat)
                                                 for i,v in ipairs(subf) do
                                                         table.insert(files,{
@@ -260,7 +260,7 @@ local function slurp(file, no_parse)
        end; -- if octo_level
 
        local level = path_level(file);
-       vprint(slug(file), "should be " .. level .. ", is " .. octo_level);
+       -- vprint(slug(file), "should be " .. level .. ", is " .. octo_level);
        if   level >= 1
        then local mod = level - 1;
             local oldhash = "\n#";
@@ -534,7 +534,7 @@ local function yaml_sheet_basics(sheet_stats)
            if type(fs_info) == "table" and fs_info.desc and type(fs_info) == "string"
            then str = str .. " " .. fs_info.desc
            end;
-	   str = str .. "]";
+          str = str .. "]";
            markdown = markdown .. str;
        end;
   end;
@@ -585,7 +585,7 @@ end;
 local function yaml_sheet_skills(stats_skills)
   if not sheet_skills or not type(sheet_skills) == "table" then return ""; end;
   local markdown = string.rep(":", 10) .. " pregen-skills " .. string.rep(":", 10);
-  
+
   for _, skillname in ipairs(sheet_skills)
   do  markdown = markdown .. "\n[" .. skillname .. "]{.pregen-skill}";
   end;
@@ -639,7 +639,7 @@ local function yaml_sheet_abilities(stats_abilities)
             then ability_md = ability_md .. "]{.pregen-ability-v" .. ability_data.volume .. "}";
             elseif ability_data.volume and type(ability_data.volume) == "string"
             then   ability_md = ability_md .. "]{.pregen-ability-" .. ability_data.volume .. "}";
-	    end; -- if ability_data.volume
+           end; -- if ability_data.volume
      end; -- if type ability string
      markdown = markdown .. ability_md;
   end; -- for i, ability
@@ -653,12 +653,12 @@ local function yaml_sheet_ideals(stats_ideals, sheet_config)
   for i, ideal in pairs(stats_ideals)
   do  if   type(ideal) == "string"
       then markdown = markdown .. "\n[" .. ideal .. "]{.pregen-ideal .pregen-i" .. i;
-	   if     sheet_config.shrink and sheet_config.shrink["ideal" .. i] 
-           then   markdown = markdown .. " .shrink"; 
+          if     sheet_config.shrink and sheet_config.shrink["ideal" .. i]
+           then   markdown = markdown .. " .shrink";
            elseif sheet_config["shrink2"] and sheet_config["shrink2"]["ideal" .. i]
-           then   markdown = markdown .. " .shrink2"; 
-	   end;
-	   markdown = markdown .. "}";
+           then   markdown = markdown .. " .shrink2";
+          end;
+          markdown = markdown .. "}";
       end;
   end;
 
@@ -687,9 +687,9 @@ local function yaml_sheet(yaml_tree)
 :::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
 [Hero Sheet]{#anchor-herosheet .anchor}
 
-![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
 
-![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \ 
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
 
 [A.K.A.]{.label .nickname}
 [Name]{.label .name}
@@ -783,9 +783,9 @@ local function yaml_sheet(yaml_tree)
 
   markdown = markdown .. string.rep(":", 20) .. " pregen " .. string.rep(":", 20);
 
-  if    not sheet.stats or not type(sheet.stats) == "table" 
+  if    not sheet.stats or not type(sheet.stats) == "table"
   then  markdown = markdown .. string.rep(":", 50);
-        return markdown 
+        return markdown
   end;
 
   local stats = unpack_yaml_tree(sheet.stats, "sheet.stats");
@@ -807,7 +807,7 @@ local function yaml_sheet(yaml_tree)
          markdown = markdown .. yaml_sheet_face(sheet.art, sheet_config);
   elseif sheet.art and type(sheet.art) == "string"
   then   vprint("we have art string!", sheet.art);
-	 markdown = markdown .. sheet.art
+        markdown = markdown .. sheet.art
   elseif sheet.art
   then   eprint("i guess we have sheet.art", sheet.art);
   else   eprint("no art found!", sheet.name);
@@ -845,8 +845,8 @@ local function yaml_character(yaml_tree)
   if   character
   then vprint("we have character!")
 
-       if   character.picture -- and type(character.picture) == "table"
-       then markdown = markdown .. yaml_char_picture(character.picture);
+       if   character.art -- and type(character.picture) == "table"
+       then markdown = markdown .. yaml_char_picture(character.art);
        else eprint("We don't have picture :(");
        end; -- character.picture
 
@@ -899,8 +899,8 @@ local function yaml_character(yaml_tree)
             markdown = markdown .. "\n\n" .. "**History:**" .. "\n\n";
             markdown = markdown .. character.history;
        else eprint("we don't have history :(");
-	  local sheet, metadata, markdown = yaml_common(yaml_tree);
-	  return markdown;
+         local sheet, metadata, markdown = yaml_common(yaml_tree);
+         return markdown;
        end;
 
        if   character.powers
@@ -946,7 +946,7 @@ local function yaml_character(yaml_tree)
 
             if   stats.power_words and type(stats.power_words) == "table"
             then vprint("We have power words!");
-	            markdown = markdown .. yaml_char_power_words(stats.power_words);
+                   markdown = markdown .. yaml_char_power_words(stats.power_words);
             else eprint("We don't have power words :(");
             end;
 
@@ -954,17 +954,17 @@ local function yaml_character(yaml_tree)
             then vprint("We have abilities!");
                  local abilities = unpack_yaml_tree(stats.abilities, "abilities");
                  markdown = markdown .. "\n- **Abilities:** ";
-		 local ab_list = {};
-		 for ab_name, ab_data in pairs(abilities)
-		 do  vprint("ability:", "--------------");
+               local ab_list = {};
+               for ab_name, ab_data in pairs(abilities)
+               do  vprint("ability:", "--------------");
                      vprint(ab_name, ab_data);
-		     if   type(ab_name) == "string"
-		     then table.insert(ab_list, ab_name);
+                   if   type(ab_name) == "string"
+                   then table.insert(ab_list, ab_name);
                      elseif type(ab_name) == "number" and type(ab_data) == "string"
                      then table.insert(ab_list, ab_data);
                      end;
-		 end;
-		 markdown = markdown .. table.concat(ab_list, ", ");
+               end;
+               markdown = markdown .. table.concat(ab_list, ", ");
             else eprint("we don't have abilities :(");
             end;
 
@@ -1431,7 +1431,7 @@ local TEMPLATE = { };
 local function parse_line(line)
   local asterisk, template = false;
   line = string.gsub(line, "/$", "");
-  vprint("parsing line:", line);
+  -- vprint("parsing line:", line);
   if string.find(line, "/%*$")
      then asterisk = true;
           line = string.gsub(line, "/%*$", "");
@@ -1450,88 +1450,84 @@ local function parse_line(line)
           end;
   if string.find(line, "^>")
     then --
-         local outfile = string.gsub(line, "^>%s*", "");
-               outfile = string.gsub(outfile, ".out$", "");
-         CONFIG.outfile = outfile;
-         vprint("setting the output file", "\"" .. outfile .. "\"");
+           local outfile = string.gsub(line, "^>%s*", "");
+           outfile = string.gsub(outfile, ".out$", "");
+           CONFIG.outfile = outfile;
+           vprint("setting the output file", "\"" .. outfile .. "\"");
     elseif string.find(line, "^#")
-    then --
-         vprint("comment", line);
+    then   -- vprint("comment", line);
     elseif DIRS[line]
-    then --
-         vprint("found a directory", line);
-         vprint("looking for index", line .. "/" .. CONFIG.index);
-         parse_line(line .. "/" .. CONFIG.index);
+    then   --
+           vprint("found a directory", line);
+           vprint("looking for index", line .. "/" .. CONFIG.index);
+           parse_line(line .. "/" .. CONFIG.index);
 
-         if template
-            then
-              vprint("found a template call", line .. "/::" .. template);
-              for k, v in pairs(TEMPLATE[template])
-                  do parse_line(v(line));
-                  end;
-            end;
+           if   template
+           then vprint("found a template call", line .. "/::" .. template);
+                for k, v in pairs(TEMPLATE[template])
+                do  parse_line(v(line));
+                end;
+           end;
 
-         if asterisk
-            then
-              vprint("found a /* construction", line .. "/*");
-              local dir = CONFIG.src_dir .. "/" .. line;
-              vprint("looking for files in ", dir)
-              local md_files, _ = file_search(dir, CONFIG.ext.filter);
+           if   asterisk
+           then vprint("found a /* construction", line .. "/*");
+                local dir = CONFIG.src_dir .. "/" .. line;
+                vprint("looking for files in ", dir)
+                local md_files, _ = file_search(dir, CONFIG.ext.filter);
 
-              vprint("found this many", #md_files .. " files");
-              for k, v in pairs(md_files)
-                  do local sl = v.name;
-                     sl = string.gsub(sl, "%" .. CONFIG.ext.filter .. "$", "");
-                     parse_line(line .. "/" .. sl)
-              end; -- for
-            end; -- if asterisk
-    elseif FILES[line]                        and not USED[line]
-        or FILES[line .. CONFIG.ext.yaml]     and not USED[line]
-        or FILES[line .. CONFIG.ext.markdown] and not USED[line]
-    then vprint("found an entry", line);
-         local md_file   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown;
-         local yaml_file = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.yaml;
-         if     file_exists(yaml_file)
-         then   vprint("found yaml", yaml_file);
-                table.insert(BUILD, yaml_file)
-                vprint("added to BUILD list", yaml_file);
-                USED[line] = true;
-         elseif file_exists(md_file)
-         then   table.insert(BUILD, md_file)
-                vprint("found markdown", md_file);
-                USED[line] = true;
-         else   eprint("failed to find:", yaml_file .. "/" .. md_file);
-         end;
+                vprint("found this many", #md_files .. " files");
+                for k, v in pairs(md_files)
+                do  local sl = v.name;
+                    sl = string.gsub(sl, "%" .. CONFIG.ext.filter .. "$", "");
+                    parse_line(line .. "/" .. sl)
+                end; -- for
+           end; -- if asterisk
+    elseif not USED[line] 
+	   and (FILES[line] or FILES[line .. CONFIG.ext.yaml] or FILES[line .. CONFIG.ext.markdown])
+    then   vprint("found an entry", line);
+           local md_file   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown;
+           local yaml_file = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.yaml;
+           if     file_exists(yaml_file)
+           then   vprint("found yaml", yaml_file);
+                  table.insert(BUILD, yaml_file)
+                  vprint("added to BUILD list", yaml_file);
+                  USED[line] = true;
+           elseif file_exists(md_file)
+           then   table.insert(BUILD, md_file)
+                  vprint("found markdown", md_file);
+                  USED[line] = true;
+           else   eprint("failed to find:", yaml_file .. "/" .. md_file);
+           end;
     elseif FILES[line] and USED[line]
-    then vprint("skipping used entry", line);
-    else vprint("trying to find this",    line);
-         local md_file   = line .. CONFIG.ext.markdown;
-         local yaml_file = line .. CONFIG.ext.yaml;
-         vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope");
-         vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :(");
-         vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :(");
-         vprint("USED["  .. line      .. "]:", USED[line]       or "nope :( :( :(");
-         vprint("> no further info on:", line);
-         table.insert(ERR, line);
-
+    then   vprint("skipping used entry", line);
+    else   vprint("trying to find this",    line);
+           local md_file   = line .. CONFIG.ext.markdown;
+           local yaml_file = line .. CONFIG.ext.yaml;
+           vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope");
+           vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :(");
+           vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :(");
+           vprint("USED["  .. line      .. "]:", USED[line]       or "nope :( :( :(");
+           vprint("> no further info on:", line);
+           table.insert(ERR, line);
     end;
 end;
 
 
 local function recipe_list()
-   local files, dirs = file_search(CONFIG.recipe_dir, CONFIG.recipe_sfx, false)
+   local files, _ = file_search(CONFIG.recipe_dir, CONFIG.recipe_sfx, false)
     sprint("Listing Recipes:", #files .. " known");
     sprint("Recipe directory", CONFIG.recipe_dir);
     for k, v in pairs(files)
-        do print(string.format(CONFIG.logformat,
-              v.path .. v.name,  
-	      CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
-              )); end;
-
+    do  print(string.format(
+	        CONFIG.logformat,
+                v.path .. v.name,
+                CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
+             )             ); 
+    end;
     os.exit(1);
 end;
 
--- ========================================================================================================
+-- ===============================================================================
 -- Command line interface
 -- https://lua-cliargs.netlify.com/#/
 
@@ -1543,38 +1539,50 @@ cli:splat("RECIPE", "the recipe to build", "", 1);
 
 cli:option("-o, --outfile=OUTFILE", "specify the outfile");
 
-cli:flag( "-v, --verbose", "be more wordy than usual", false);
-cli:flag("-q, --quiet", "don't summarize each step", false);
-cli:flag("-l, --list", "list the known recipes", false);
-cli:flag("-e, --[no-]errors", "show errors", true);
+cli:flag("-v, --verbose",     "be more wordy than usual",  false);
+cli:flag("-q, --quiet",       "don't summarize each step", false);
+cli:flag("-l, --list",        "list the known recipes",    false);
+cli:flag("-e, --[no-]errors", "show errors",               true );
 
 local args, err = cli:parse(arg);
-if not args then cli:print_help(); os.exit(1); end;
-if err then print(string.format("%s: %s", cli.name, err)); os.exit(1); end;
 
-if args and  args.list then recipe_list() end;
+if not args 
+then   cli:print_help(); 
+       os.exit(1); 
+end;
+
+if   err 
+then print(string.format("%s: %s", cli.name, err)); 
+     os.exit(1); 
+end;
+
+if   args and args.list 
+then recipe_list() 
+end;
 
 if args.quiet   then CONFIG.summary = false else CONFIG.summary = true;  end;
 if args.verbose then CONFIG.verbose = true  else CONFIG.verbose = false; end;
 if args.errors  then CONFIG.errors  = true  else CONFIG.errors  = false; end;
 
-if args.RECIPE
-   then CONFIG.recipe  = args.RECIPE;
-        CONFIG.outfile = args.RECIPE;
-   end;
+if   args.RECIPE
+then CONFIG.recipe  = args.RECIPE;
+     CONFIG.outfile = args.RECIPE;
+end;
 
-if args.outfile then CONFIG.outfile = args.outfile end;
+if   args.outfile 
+then CONFIG.outfile = args.outfile 
+end;
 
 --
 
--- ====================================================================================================================
+-- ============================================================================
 -- Everything above this is initializion
--- ====================================================================================================================
--- ====================================================================================================================
--- ====================================================================================================================
--- ====================================================================================================================
+-- ============================================================================
+-- ============================================================================
+-- ============================================================================
+-- ============================================================================
 
--- start run ------------------------------------------------------------------------------
+-- start run ------------------------------------------------------------------
 vprint("Running in verbose mode");
 sprint("Showing summaries");
 
@@ -1602,12 +1610,15 @@ sprint("Recipe loaded.");
 -- ready now to read files
 sprint("reading/parsing files now", #BUILD .. " files");
 for _, v in pairs(BUILD)
-do  if     v:find("%" .. CONFIG.ext.yaml .. "$")
-    then   vprint("slurping YAML", v);
+do  -- vprint("File found in BUILD", v);
+    if     v:find("%" .. CONFIG.ext.yaml .. "$")
+    then   -- vprint("It has a yaml extension", CONFIG.ext.yaml);
+           -- vprint("slurping YAML file", v);
            outtxt = outtxt .. slurp_yaml(v);
     elseif v:find("%" .. CONFIG.ext.markdown .. "$")
-    then   outtxt = outtxt .. slurp(v, false, false)
-           vprint("slurping", v .. CONFIG.ext.markdown);
+    then   -- vprint("It has a markdown extension", CONFIG.ext.markdown);
+           -- vprint("slurping markdown file", v .. CONFIG.ext.markdown);
+           outtxt = outtxt .. slurp(v, false, false)
     end;
 end;
 
@@ -1619,11 +1630,14 @@ sprint("Content size is", string.len(outtxt) .. " characters");
 dump(outfile, outtxt);
 
 -- notify of errors
-sprint("number of errors", (#ERR or 0) .. " error" .. ((#ERR and #ERR == 1) and "" or "s" ));
-if #ERR
-   then for _, v in pairs(ERR)
-        do local errmsg = "Alert: Missing file";
-           if string.find(v, CONFIG.index .. "$") then errmsg = "Warning: Missing index"; end;
-           eprint(errmsg, v)
-        end; -- do
-   end; -- if #ERR
+print("number of errors", (#ERR or 0) .. " error" .. ((#ERR and #ERR == 1) and "" or "s" ));
+
+if   #ERR
+then for _, v in pairs(ERR)
+     do  local errmsg = "Alert: Missing file";
+         if   string.find(v, CONFIG.index .. "$")
+         then errmsg = "Warning: Missing index";
+         end;
+         eprint(errmsg, v)
+     end; -- do
+end; -- if #ERR

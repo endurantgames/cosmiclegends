@@ -1,0 +1,583 @@
+- metadata:
+  - "x-format": timeline
+  - title: A Timeline of the Cosmic Legends Universe
+  - anchor: setting-timeline
+  - "item-format": timeline-entry
+- text: |
+    This is a timeline of the major events in the Cosmic Legends Universe.
+- list:
+  - "14 billion years ago":
+    - where: Everywhere
+    - what: The Big Bang
+    - desc: |
+        The universe comes into existence. Current science has no explanation for
+        how or why.
+    - note: "Unlike the Marvel and DC Universes, there was no known cosmic sentience involved in this event."
+    - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#The_first_20_minutes
+  - "13.9 billion years ago":
+    - where: Unknown
+    - what: Earliest life in the Universe
+    - desc: |
+        The first form of life in universe arises under unexplained circumstances. 
+        
+        These early life forms will evolve into the race that would be known to Earth and Titan as the Visitors.
+    - url: https://arxiv.org/abs/1312.0613
+  - "13.8 billion years ago":
+    - where: Unknown
+    - what: Start of the Visitor civilization
+    - desc: |
+        The first intelligent civilization in the universe, the Visitors, arises.
+  - "13.75 billion years ago":
+    - where: Unknown
+    - what: Period of Visitor Exploration
+    - desc: |
+        Having attained interstellar space flight, the Visitors begin to explore the galaxy in large worldships.
+  - "9.2 billion years ago":
+    - where: The Solar System
+    - what: Creation of the Solar System
+    - desc: |
+        Gravity causes matter in a molecular cloud to coalesce into the Sun and planets of the Solar System.
+    - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Epochs_of_the_formation_of_the_solar_system
+  - "8.5 billion years ago":
+   - where: Andromeda
+   - what: The Christmas Burst
+   - desc: |
+       "Visitor explorers trigger a 28-minute gamma burst to alert their homeworld of the discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
+
+       Earth-based scientists would later record the burst on Christmas day, 2010."
+   - url: https://en.wikipedia.org/wiki/GRB_101225A
+  - "4 to 4.6 billion years ago":
+    - where: The planet Earth
+    - what: The Hadean Eon
+    - desc: |
+        The planet Earth and the Moon form.
+    - url: https://en.wikipedia.org/wiki/Hadean
+  - "4 billion years ago":
+    - where: The planet Saturn
+    - what: Formation of Titan
+    - desc: |
+        Titan and the other moons of Saturn form.
+    - url: https://solarsystem.nasa.gov/planets/saturn/in-depth/
+  - "3.85 billion years ago":
+    - where: The Solar System
+    - what: Visitor Discovery of the Solar System
+    - desc: |
+        "Probes launched by the Visitors discover the Solar System and note the potential for life on Earth and Titan.
+
+        They leave behind multiple orbiting drones to monitor the planets and moons of the Solar System."
+  - "3.8 billion years ago":
+    - where: Unknown
+    - what: Discovery of the The Ro'Tan'Okk race
+    - desc: |
+        Visitor probes elsewhere in the galaxy discover the race that would later be known as the Titanians.
+  - "3.77 billion years ago":
+    - where: The planet Earth
+    - what: Earliest life on Earth
+    - desc: |
+        The earliest forms of life arise around thermal vents in the oceans.
+    - url: https://en.wikipedia.org/wiki/Earliest_known_life_forms
+  - "3.5 billion years ago":
+    - where: The moon Titan
+    - what: Earliest life on Titan
+    - desc: |
+        The earliest forms of life arise in the subsurface ammonia oceans.
+    - url: https://en.wikipedia.org/wiki/Life_on_Titan#Possible_subsurface_liquid_water
+  - "3 billion years ago":
+    - where: The moon Titan
+    - what: Abandonment of the Ro'Tan'Okk
+    - desc: |
+        After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
+  - "200 to 500 million years ago":
+    - where: Everywhere
+    - what: The First Stars and Galaxies
+    - desc: |
+        "The \"Cosmic Dark Age\" of the universe ends as stars and galaxies begin to form."
+    - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Cosmic_Dark_Age
+  - "2 billion years ago":
+    - where: The moon Titan
+    - what: "Creation of the Kyl'Sh'Tal"
+    - desc: |
+        "The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- form an organization of astronomers and soldiers to watch for the return of their previous captors.
+
+        These would come to be known on Earth as the Sentinels of Saturn."
+    - cf: Titan
+  - "ca. 1,000 BCE":
+    - where: Worldwide
+    - what: The First Visitation
+    - desc: |
+        "A Visitor worldship arrives in Earth orbit and begins taking prisoners
+        from Earth, performing scientific experiments that endow some of them
+        with rocky skin and high strength, adapting them for life on volcanic
+        planets."
+  - "ca. 1,000 BCE":
+    - where: The South Pacific
+    - what: Establishment of Vulcanor
+    - desc: |
+        "Humans experimented on by the Visitors steal a shuttle craft and crash
+        in the Pacific Ocean near an uninhabited chain of volcanic islands. 
+
+        Reverse-engineering Visitor technologies, they eventually devise a 
+        magnetic field that protects their islands from discovery. The
+        existence of the Vulcanors would remain hidden until 1956."
+  - "5th Century, CE":
+    - where: "Post-Roman Britain"
+    - what: King Arthur
+    - desc: |
+        "Ambrosius Aurelianus, who would later become known in legend as \"King Arthur\",
+        established an order of knights at Camulodunum."
+    - url: https://en.wikipedia.org/wiki/Ambrosius_Aurelianus#According_to_Gildas
+  - "6th Century, CE":
+    - where: "Camulodunum, Post-Roman Britain"
+    - what: Sir Percival's Quest
+    - desc: |
+        "Perceval, a Welsh knight in Arthur's court, swears to recover the Holy Grail. 
+        Through unexplained means, he became immortal and is known as the Grailknight, one
+        of the founding members of the Cosmic Legends."
+    - url: https://en.wikipedia.org/wiki/Perceval,_the_Story_of_the_Grail
+  - "August, 1900":
+    - where: "Belfast, South Africa"
+    - what: Percival's Capture
+    - desc: |
+        "Sir Percival, who would later be called the Grailknight, was captured at the 
+        Battle of Bergendal after fighting alongside the Boers against the British as part
+        of the Irish Transvaal Brigade during the Second Anglo-Boer War. He was sent to
+        a POW camp on the island of Saint Helena but escaped within a week."
+  - "May, 1910":
+    - where: "St. George's Chapel, Windsor Castle"
+    - what: State funeral of Edward VII
+    - desc: |
+        "Sir Percival, the Grailknight, was sighted here paying his respects. He wouldn't be 
+        seen again until 1963."
+    - url: https://en.wikipedia.org/wiki/State_funeral_of_Edward_VII
+  - "June, 1938":
+    - where: New York City, New York
+    - what: "First public appearance of John Dee: Master Magister"
+    - desc: |
+        Historian John Arthur Dee IV called upon his family's magical legacy to defeat
+        the world's first supervillain, Sinhammer, in Times Square.
+    - note: "Date corresponds with Action Comics #1, the first appearance of Zatara."
+  - "August, 1940":
+    - where: "Campile, South Wexler, Ireland"
+    - what: Choosing of Sequana
+    - desc: |
+        "A lone German bomber drops several bombs on the Irish village of Campile,
+        killing several.
+
+        Survivor Kitty Farrington was saved by the intervention of the
+        Tuatha Dé Danann, who transformed her into their champion, Sequana.
+        She later joins the British Merchant Navy, over objections of the Oireachtas 
+        Éireann -- who sought to enforce Ireland's neutrality in World War II.
+
+        Sequana's actions during the war led to political discrimination when she
+        returned to Ireland after D-Day, and she soon emigrated to the United States,
+        where she operated as the first public \"super-hero\" in America.""
+  - "January, 1941":
+    - where: "Sosúa, Dominican Republic"
+    - what: Debut of the Pirate Prince
+    - desc: |
+        "A Jewish refugee fleeing the Holocaust in Austria declares himself
+        the **Pirate Prince** and recruits a crew to fight injustice in
+        the Caribbean."
+    - note: "Date corresponds to the publication of Silver Streak Comics #7, the first appearance of the Pirate Prince."
+    - url: https://mjhnyc.org/exhibitions/sosua-refuge-jews-dominican-republic-sosua-un-refugio-de-judios-en-la-republica-dominicana/
+  - "January, 1941":
+    - where: Bangor, Maine
+    - what: Invention of the Golden Bullet
+    - desc: |
+        "Pilot and avionics engineer \"Cloud\" Curtis flies an experimental
+        airplane that breaks all flight records, with a speed of up to
+        625 mph (1,000 kmph)."
+    - note: "Date corresponds to the publication of Silver Streak #7, the first appearance of Cloud Curtis."
+    - url: https://en.wikipedia.org/wiki/Flight_airspeed_record
+  - "March, 1941":
+    - where: The South Pacific
+    - what: Creation of the G.I. Dinosaurs
+    - desc: |
+        Fearing that war in Europe and the  Pacific may be inevitable, U.S. scientists 
+        clone dinosaurs and implant them with control circuits to use as disposable
+        soldiers.
+    - note: Date corresponds with the first appearance of Captain America.
+  - "August 1941":
+    - where: Hollywood, California
+    - what: Debut of the Black Cat
+    - desc: |
+        "Actress Linda Turner exposes movie director Garboil as a
+        Nazi spy."
+    - note: "Date corresponds to Pocket Comics #1, the first appearance of the Black Cat."
+    - url: https://pdsh.fandom.com/wiki/Black_Cat
+  - "August 1941":
+    - where: West Point, New York
+    - what: "Debut of the Spirit of '76"
+    - desc: |
+        "West Point cadet Gary Blakely dons the identity of his
+        great-great-grandfather, Captain Ralston, to fight crime."
+    - note: "Date corresponds to Pocket Comics#1, the first appearance of the Spirit of '76."
+    - url: https://pdsh.fandom.com/wiki/Spirit_of_%2776
+  - "July, 1941":
+    - where: Western Europe
+    - what: Creation of the Legends of the Western Front
+    - desc: |
+        "Daredevil, Silver Streak, Whiz, Fighting Yank, Moon Girl, the
+        Pirate Prince, Cloud Curtis, and War Nurse team up to fight 
+        Nazis and create the **Legends of the Western Front**."
+    - note: Date corresponds with the publishing of Daredevil Battles Hitler -- see URL
+    - url: https://www.weirdsciencedccomics.com/2016/01/daredevil-battles-hitler-1-review-and.html
+  - "November, 1944":
+    - where: "Boston, Massachusetts"
+    - what: Maddie Dee's Advice Column Debuts
+    - desc: |
+        "Teenage detective Madinia Dee, a former volunteer for the Boston Herald's
+        \"Rumor Clinic\", is given her own advice column."
+    - note: "Date corresponds to Miss America Magazine #2, the first appearance of Patsy Walker."
+  - "August, 1945":
+    - where: "Hiroshima and Nagasaki, Japan"
+    - what: First use of Nuclear Weapons
+    - desc: |
+        "The United States uses nuclear bombs to destroy the cities of Hiroshima and Nagasaki,
+        causing the Kyl'Sh'Tal of Titan to adopt a policy of non-interference with the planet 
+        W'Ty'Tah'k."
+    - url: https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
+  - "October, 1946":
+    - where: "Volcano City, Vulcanor Island"
+    - what: Birth of Obsidius Rex
+    - desc: |
+        "Crown prince Obsidius Vulcanor born. He would later become the first non-founding 
+        member of the Cosmic Legends of the Universe team."
+  - "July, 1947":
+    - where: "Roswell, New Mexico"
+    - what: "Visitor probe discovered"
+    - desc: |
+        "A malfunctioning Visitor monitor probe crashes in the southwest region of the United 
+        States, alerting humans to the possible presence of intelligent life elsewhere in 
+        the Solar System."
+    - url: https://en.wikipedia.org/wiki/Roswell_incident
+  - "October, 1947":
+    - where: United States
+    - what: "Creation of A.L.E.R.T."
+    - desc: |
+        "The United States creates the Agency for the Licensing of Extra-Human Resources and Threats
+        with the merger of the National Security Agency and the National Advisory Committee for Aeronautics,
+        under the United States Department of Defense.
+
+        (In the Cosmic Legends Universe, NASA -- a civilian agency -- would not be founded; instead, all 
+        space operations would remain under military control.)"
+  - "July, 1949":
+    - where: The South Pacific
+    - what: Last Recorded Sighting of the G.I. Dinosaurs
+    - desc: |
+        "A U.S. pilot reported sighting the G.I. Dinosaurs on an island near what
+        would later be revealed as the Vulcanor island chain. The later activities 
+        of the 'Dinosaurs are not recorded."
+    - note: "Date corresponds to the publication of Captain America's Weird Tales #75, the final issue of Captain America in the Golden Age."
+  - "August, 1952":
+    - where: Boston, Massachusetts
+    - what: Last Public Appearance of John Dee: Master Magister
+    - desc: |
+        "After August of 1952, John Dee withdrew from public life to spend more time with his
+        family."
+    - note: "Date corresponds to the first appearance of the Phantom Stranger in Phantom Stranger #1."
+  - "August, 1956":
+    - where: The moon Jarnsaxa
+    - what: "Visitor craft detected entering the inner Solar System"
+    - desc: |
+        "Kyl'Sh'Tal sensors on Jarnsaxa detect the entry of a massive Visitor craft entering the orbit 
+        of Jupiter on a course toward W'Ty'Tah'k.
+
+        Sentinel Ty'Tonn To'Rezz brings these findings to Kyl'Sh'Tal high command and urges action. 
+        Their petition is denied."
+  - "October, 1956":
+    - where: The moon Jarnsaxa
+    - what: "Ty'Tonn departs for Earth"
+    - desc: |
+        "Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors."
+  - "November, 1956":
+    - where: Earth orbit
+    - what: The Second Visitation
+    - desc: |
+        "The Visitors' worldship arrives in orbit around the planet Earth. Visitor shock troops begin 
+        to catalog the civilizations of the planet by kidnapping individual humans from around the
+        Earth."
+  - "November, 1956 to January, 1957":
+    - where: Worldwide
+    - what: The Visitor War
+    - desc: |
+        "The nations of Earth rally behind A.L.E.R.T., Sequana, and Ty'Tonnn -- now calling themself 
+        \"Titan\" -- to drive off the Visitors.
+        
+        Young prince Obsidius and the Volcano City Militia join the fight, revealing the presence of Vulcanians
+        to the outside world."
+    - cf: The Visitors
+  - "January, 1957":
+    - where: The moon Jarnsaxa
+    - what: "Destruction of the Kyl'Sh'Tal listening post"
+    - desc: |
+        "The Kyl'Sh'Tal's listening post on Jarnsaxa destroyed by the retreating Visitor worldship 
+        when the post's cloaking screens fail under mysterious circumstances.
+
+        All personnel, including Ty'Tonn To'Rezz's three spouses and their sibling My'Tonn, are killed."
+    - cf: Titan
+  - "March, 1957":
+    - where: Outside the orbit of Neptune
+    - what: "Liberation of the Foreigners"
+    - desc: |
+        Having discovered the devastation of Jarnsaxa, Ty'Tonn and Obsidius pursue the Visitor worldship
+        and free a group of kidnapped humans who were being subjected to medical experiments. Upon being
+        returned to Earth, these humans became known as the Foreigners, with some settling on an island
+        near Vulcanor and others returning to their home nations. These two camps would become the two
+        Exiles and Settlers factions of the Foreigners.
+    - cf: The Foreigners
+  - "May, 1959":
+    - where: Boston, Massachusetts
+    - what: Debut of Miss Magister
+    - desc: |
+        Maddie Dee's father John (Master Magister) reveals the family legacy to her, and 
+        she adopts the identity of Miss Magister as he retires.
+    - note: "Date corresponds to the publication of Action Comics #252, the first appearance of Supergirl."
+  - "March, 1961":
+    - where: "Missoula, Montana"
+    - what: "Debut of the Falconer"
+    - desc: | 
+        Jacqueline Chaffin, a member of the Foreigners' Settlers faction with the ability to speak to
+        avians, makes her first public appearance as The Falconer, with her bird Aquila.
+    - note: "Date corresponds to the publication of The Brave and the Bold #34, the first appearance of Hawkwoman."
+  - "September, 1961":
+    - where: "Technopolis, U.S.A."
+    - what: Debut of Vespa
+    - desc: |
+        A.L.E.R.T. field agent Hazel Montgomery debuts her new Vespa (I) armor.
+    - note: "Date corresponds to the publication of Tales to Astonish #27, the first appearance of Henry Pym."
+  - "April, 1963":
+    - where: "Chicago, Illinois"
+    - what: Birth of Delmore Thompson
+    - desc: |
+        Del Thompson born to Delphine Thompson.
+    - cf: Energy Boy
+    - note: "Date corresponds to Fantastic Four Annual #1."
+  - "September, 1963":
+    - where: "Sun City, U.S.A."
+    - what: Creation of the Cosmic Legends of the Universe
+    - desc: |
+        "Titan, Percival, Maddie Dee, Sequana, Vespa (I), and the Falconer form the 
+        Cosmic Legends of the Universe team to oppose the invasion of Earth by 
+        Xana Mega and her Aos Sí armies."
+     - cf: Cosmic Legends of the Universe
+     - note: "Date corresponds to Avengers #1 and X-Men #1."
+  - "March, 1964":
+    - where: "Sun City, U.S.A."
+    - what: Obsidius Rex joins the Cosmic Legends
+    - desc: |
+        "18-year-old Obsidius Rex joins the Cosmic Legends as their first non-charter
+        member, under the name \"Volcano Kid\" -- which he soon abandons to
+        simply go by his own name."
+    - cf: Obsidius Rex
+    - note: "Date corresponds to the publication of Avengers #4."
+  - "July, 1964":
+    - where: "Vadyvokia"
+    - what: "Creation of Villains, Inc."
+    - desc: |
+        "Marquis Magnus Malign, Delphine Thompson, Sequana, and Dr. Phineas Pann meet in
+        secret to lay the groundwork for what would become Villains, Inc. Malign later 
+        banishes them from Vadyvokia."
+    - note: Date corresponds to the first appearance of the Masters of Evil.
+  - "June, 1965":
+    - where: "Albuquerque, New Mexico"
+    - what: Recruitment of Hazel Montgomery
+    - desc: |
+        "Hazel Montgomery is recruited to join A.L.E.R.T.; in time, she will go on become
+        Vespa (I) and a founding director of N.O.V.A. Labs."
+    - note: "Date corresponds to the high school graduation of Peter Parker in Amazing Spider-Man #28."
+  - "October, 1965":
+    - where: "Vadyvokia Castle, Vadyvokia"
+    - what: Wedding of Hazel Montgomery and Magnus Merlyn Malign
+    - desc: |
+        "After a whirlwind romance, Vespa (I) and Marquis Malign have a perfect \"storybook
+        wedding.\""
+    - note: "Date corresponds to the wedding of Reed and Sue Richards in Fantastic Four Annual #3."
+  - "July, 1966":
+    - where: "Technopolis, U.S.A."
+    - what: "Creation of T.R.E.L.A."
+    - desc: |
+        Dr. Phineas Pann (Senior) secretly recruits A.L.E.R.T. agents to a form a 
+        terrorist splinter group.
+  - "November, 1968":
+    - where: "Vadyvokia Castle, Vadyvokia"
+    - what: Birth of Lin Montgomery
+    - desc: |
+        "Lin Montgomery, the child of Hazel Montgomery and Magnus Malign, is born. She
+        would later be known as Bug (I), the Hornette, and Vespa 2.0."
+    - note: "Date corresponds to the birth of Franklin Richards in Fantastic Four Annual #6."
+  - "December, 1971":
+    - where: "Technopolis, U.S.A."
+    - what: "Creation of N.O.V.A. Labs"
+    - desc: |
+       "Titan, Lin Montgomery, Dr. Phineas Pann, Delphine Thompson, and King Tachylus Rex create
+       the Network for Observation, Verification, and Analysis, opening the first laboratory
+       in Technopolis, with Hazel Montgomery as the founding director."
+    - note: Date corresponds to the first appearance of S.T.A.R. Labs.
+  - "June, 1973":
+    - where: "Technopolis, U.S.A."
+    - what: Destruction of the Thompson Cold Fusion Reactor
+    - desc: |
+        Ignoring safety protocols, Delphine Thompson activates an experimental reactor,
+        apparently killing her ten-year-old son Delmore and giving herself energy powers
+        as Neutrino.
+    - note: Date corresponds to the first appearance of Wildfire.
+  - "October, 1978":
+    - where: "Technopolis, U.S.A."
+    - what: Return of The Energy Boy
+    - desc: |
+        "After several \"ghostly sightings\" around Technopolis, Hazel and Lin Montgomery
+        help stabilize Delmore Thompson's energies, allowing him to reform his body from
+        pure nuclear energy."
+    - note: Date corresponds to the first appearance of Firestorm.
+    - cf: Energy Boy
+  - "November, 1980":
+    - where: "Technopolis, U.S.A."
+    - what: "Creation of Technopolis Academy"
+    - desc: |
+        "A.L.E.R.T., N.O.V.A. Labs, Sun City University, and the Vulcanor Island Institute 
+        of Technology jointly establish Technopolis Academy to train young superheroes 
+        and scientists.  Lin Montgomery and Del Thompson are the first students."
+    - note: Date corresponds to the first appearance of the New Teen Titans.
+  - "November, 1981":
+    - where: "Vadyvokia Castle, Vadyvokia"
+    - what: Hazel Montgomery leaves Marquis Malign
+    - desc: |
+        "After uncovering his ties to Villains, Inc., Vespa (I) is attacked by Marquis
+        Malign. She takes her young child, Lin, and flees the country, returning to
+        Technopolis."
+    - note: "Date corresponds to the publication of Avengers #213, where Henry Pym strikes Janet Van Dyne."
+  - "February, 1982":
+    - where: "Sun City, U.S.A."
+    - what: Death of Johnny Dee
+    - desc: |
+        "Sequana is stripped of her powers by the Tuatha Dé Danann. Seeking more power,
+        she ambushes Johnny Dee: Master Magister and drains of him of his power and his life."
+    - note: Date corresponds to the publication of The Death of Captain Marvel.
+  - "March, 1982":
+    - where: "Skryne, County Meath, Ireland"
+    - what: The Debut of Brigantia
+    - desc: |
+        Archeologist Sienna MacGowan is chosen by the Tuatha Dé Danann as their new 
+        champion. She joins the Cosmic Legends two months later.
+    - note: No special significance to the date.
+  - "April, 1982":
+    - where: "Boston, Massachusetts"
+    - what: The Death of Maddie Dee
+    - desc: |
+        "Brigantia, Miss Magister: Maddie Dee, and Jack Dee seek out Sequana to bring her to
+        justice for the death of Johnny Dee. Upon Maddie's death, her powers go to Jack, who
+        uses them to banish Sequana to Otherworld."
+    - note: No special significance to the date.
+  - "September, 1982":
+    - where: "Technopolis, U.S.A."
+    - what: Creation of the Junior Legends of America
+    - desc: | 
+        "Bug (I), Energy Boy, the Kaleidoscope Kidd, and Marlinspike form the Junior Legends
+        of America when the Cosmic Legends team are kidnapped by Marquis Malign."
+    - note: Date corresponds to the first appearance of the New Mutants.
+  - "May, 1984":
+    - where: "The Technopolis Academy, Technopolis, U.S.A."
+    - what: Death of Marlinspike
+    - desc: |
+        Marlinspike discovers that Glytch has sold out the Junior Legends and the
+        Cosmic Legends team to Villains, Inc. He is murdered by Glytch while alerting the
+        Junior Legends.
+    - note: "Date corresponds to the publication of the start of the Judas Contract in Tales of the Teen Titans #42."
+  - "May, 1984":
+    - where: "Sun City, U.S.A."
+    - what: Revocation of the Cosmic Legends' Charter
+    - desc: |
+        "Following the death of Marlinspike and Glytch's leak of sensitive intelligence to 
+        Villains, Inc., A.L.E.R.T. and the U.N. revoke the Cosmic Legends' charter. Rather 
+        than disband, the Cosmic Legends are invited by their allies in the Tuatha Dé Danann 
+        to relocate to Mag Findargat in Otherworld."
+    - note: No special significance to the date.
+  - "May, 1984":
+    - where: "Sun City, U.S.A."
+    - what: Arrival of Zaar
+    - desc: |
+        Zaar, a lightning-wielding time-traveller from the 24th century, appears at the 
+        abandoned headquarters of the Cosmic Legends. She joins the Legends five months
+        later.
+    - note: "Date corresponds to the publication of X-Men #184, the arrival of Rachel Summers in the 20th Century."
+  - "October, 1984":
+    - where: "Pittsburgh, Pennsylvania"
+    - what: Cosmic Legends relocate to Pittsburgh
+    - desc: |
+        "After being expelled from Mag Findargat, the Cosmic Legends establish a base
+        adjacent to the grounds of Chatham University. Their headquarters remains at
+        the Gate House until May, 1987"
+    - note: "Dates correspond to the existence of \"Justice League Detroit\"."
+  - "May, 1987":
+    - where: "Technopolis, U.S.A."
+    - what: Creation of Aeroport One
+    - desc: |
+        A new floating base for the Cosmic Legends is established, built on an anti-gravity
+        platform outside of Technopolis.
+    - note: "Date corresponds to the first issue of Giffen/DeMatteis/Maguire Justice League."
+  - "August, 1989":
+    - where: "Technopolis, U.S.A."
+    - what: Destruction of Aeroport One
+    - desc: |
+        The floating headquarters of the Cosmic Legends is destroyed in an attack by Xana Mega
+        the Aos Sí armies, and Villains, Inc.
+    - note: "Date corresponds to the last issue of Legion of Super-Heroes v3."
+  - "September, 1994":
+    - where: "Sun City, U.S.A."
+    - what: Killing of Sinhammer
+    - desc: |
+        "Zaar executes the defeated villain Sinhammer. Rather than face trial for 
+        her actions, she instead returns to the 24th century."
+    - note: "Date corresponds to the first issue of Zero Hour: Crisis in Time!"
+  - "April, 2002":
+    - where: "Technopolis, U.S.A."
+    - what: Debut of the Hornette
+    - desc: |
+        After resigning from the Junior Legends, Lin Montgomery takes up a new alias as the
+        Hornette as part of a ruse to infiltrate Villains, Inc.
+    - note: No special significance to the date.
+  - "April, 2003": 
+    - where: Earth orbit
+    - what: The Third Visitation
+    - desc: |
+        "A Visitor worldship appears in orbit. The Cosmic Legends, the Junior Legends, 
+        and the Foreigners join with A.L.E.R.T., the Kyl'Sh'Tal, the Vulcanor Militia, 
+        and the Vadyvokian Armed Forces to drive them away. Hazel Montgomery (Vespa) is
+        killed in action against the Visitors' shock troops."
+    - note: No special significance to the date.
+  - "May, 2003":
+    - where: "Technopolis, U.S.A."
+    - what: "Debut of Vespa 2.0"
+    - desc: |
+        "Lin Montgomery rejoins the Cosmic Legends as Vespa 2.0 and comes out publicly as
+        non-binary. They're granted special reserve status in the Junior Legends as well."
+    - note: No special significance to the date.
+  - "December, 2015":
+    - where: "Sun City, U.S.A."
+    - what: "Titan comes out as Non-Binary"
+    - desc: |
+        "After decades of allowing Earthlings to use he/him pronouns for them, Titan holds a
+        press conference and announces that they would be using they/them pronouns henceforth.
+        This is reported on the front page of the *New York Times*."
+    - note: |
+        "Date is based on randomly grabbing an image of the New York Times that happened to 
+        correspond to this date, for the \"The Superman Exists -- and They're Non-Binary\" 
+        mock front page; otherwise, no special significance to the date."
+  - "March, 2020":
+    - where: "Sun City, U.S.A."
+    - what: Far-Seeker Returns to Earth
+    - desc: |
+        "N.J. Campbell returns to Earth for the first time in decades. Ultimately,
+        she decides she no longer fits in with the planet and returns to the stars
+        11 months later."
+    - note: Dates correspond to the King/Gerads/Shaner Strange Adventures series.
+  - "24th Century, Early":
+    - where: "Technopolis, U.S.A."
+    - what: "Zaar's Native Time Period"
+    - desc: |
+        Lightning-caster Zaar travelled from this time period to the 20th century, where she
+        became a member of the Cosmic Legends. After killing Sinhammer while the villain was 
+        in custody, she returned to the 24th Century rather than face trial for her actions. 
+        Zaar's later activities are undocumented.
+

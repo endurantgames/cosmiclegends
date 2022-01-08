@@ -4,9 +4,12 @@
 # - x-format:       character-sheet
   - yaml_version:   1.2
   - anchor:         setting-charname
-  - url:            https://pdsh.fandom.com/wiki/Captain_Freedom
+  - url:            https://pdsh.fandom.com/wiki/Jimmy_Anytime
 - license: |
-    license
+    "The character of Jimmy Anytime is available for use by anyone, 
+    with only one condition. This paragraph must be included in 
+    any publication involving Jimmy Anytime, in order that others 
+    may use this property as they wish. All rights reversed."
 - art:
   - url:            art/jeshields/charname.png
   - alt:            *title

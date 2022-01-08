@@ -1,0 +1,79 @@
+- metadata:
+  - title:          &title Ted Parrish
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-charname
+  - url:            https://pdsh.fandom.com/wiki/Ted_Parrish
+- art:
+  - url:            art/pdsh/tedparrish.png
+  - alt:            *title
+  - face:           art/pdsh/tedparrish_face.png
+- bio:
+  - real_name:      Theodore Parrish
+  - occupation:     Actor
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
+  - former_aliases: "Man with 1,000 Faces"
+  - place_of_birth: "Walker County, Alabama"
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: 
+    - Legends of the Home Front:
+      - active:  true
+      - reserve: false
+      - founder: true
+    - Legends of the Pacific Front:
+      - active:  false
+      - reserve: true
+      - founder: true
+  - base:    ["Hollywood, California"]
+  - height:  "6' 2\""
+  - weight:  "185 lbs."
+  - eyes:    brown
+  - hair:    brown
+- history: |
+    "Ted Parrish was a famous Hollywood film star who found himself 
+    typecast as a romantic lead. Frustrated with the situation, 
+    Parrish told his producer that he would walk away from his contract 
+    if he didn't get a \"he-man\" role. 
+    
+    On the way home, he saw a young woman getting kidnapped by a pair 
+    of mad scientists. He used his mastery of disguise to track them down 
+    and rescue the girl.
+
+    The experience made him realize fighting actual crime was far more 
+    exciting than playing an action hero, he decided to keep adventuring 
+    under the alias of Man of a 1000 Faces. Because few people saw him 
+    without some disguise or another, most didn't realize that Parrish 
+    and the Man of a 1000 Faces were one and the same.
+
+    In October 1942, Ted Parrish teamed up with Captain Freedom, Black Cat, 
+    War Nurse, and Shock Gibson to repel the Japanese attempt to invade 
+    Los Angeles."
+- powers: |
+    "Parrish had no superhuman powers but was a master of disguise and a
+    consummate thespian."
+- stats:
+  - name:            *title
+  - class:           The Expert
+  - volume:          2
+  - approaches: 
+    - action:        1
+    - adventure:     3
+    - detective:     1
+    - mystery:       4
+    - suspense:      2
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          []
+  - ideals:          []

@@ -2,7 +2,7 @@
   - title:    &title Brigantia
   - x-format: character
   - anchor:   setting-brigantia
-- image:
+- art:
   - url:      art/jeshields/divine.png
   - alt:      *title
 - bio:
@@ -58,8 +58,8 @@
     - personal: [Flight, Peace, Radiant, Resist, Speed, Strength]
     - nova: [Blazing, Sword]
   - abilities: [Give Me Strength!, Wisdom of Athena, TBD]
-  - fighting_styles: []
-  - skills: [Explorer, Historian, Performer (poet), Physician]
+  - fighting_styles: [Brawler]
+  - skills: [Explorer, Historian, "Performer (poet)", Physician]
   - ideals: [Culture, Honor, Justice, Loyalty, Vengeance]
 - sidebar:
   - title: Apology to Celtic Pagans

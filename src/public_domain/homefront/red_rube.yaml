@@ -1,0 +1,65 @@
+- metadata:
+  - title:          &title Red Rube
+  - x-format:       character
+  - yaml_version:   1.2
+  - anchor:         setting-ga-red-rube
+  - url:            https://pdsh.fandom.com/wiki/Red_Rube
+- art:
+  - url:            art/pdsh/redrube.png
+  - alt:            *title
+  - face:           art/pdsh/redrube_face.png
+- bio:
+  - real_name:      Rueben Rueben
+  - occupation:     Reporter
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       Secret
+  - place_of_birth: Unknown
+  - marital_status: single
+  - known_relatives:
+      - Various Ghosts:
+        - aka:          Rueben Rueben
+        - relationship: ancestors
+        - deceased:     true
+        - anonymous:    true
+        - plural:       true
+  - group_affiliation: 
+  - base:   ["Baltimore, Maryland"]
+  - height: "5' 6\" (normal), 6' 1\" (powered)"
+  - weight: "95 lbs (normal), or 190 lbs (powered)"
+  - eyes:   blue
+  - hair:   red
+- history: |
+    "Rueben Rueben was a young orphan who ran away from the 
+    orphanage. He hid out in an old castle, but discovered it 
+    was his ancestor's home. His ancestors still haunted the 
+    castle as ghosts, all sharing the same name as their 
+    descendant, and wanted to help him.
+
+    Rueben later became a cub reporter for the Daily Sun."
+- powers: |
+    "The ghosts each gave him the powers they possessed in 
+    life: strength, wisdom, speed, invulnerability, and courage. 
+    All he needed to do to use these powers was call out \"Hey Rube\" 
+    and he would transform into Red Rube, a fully grown hero."
+- stats:
+  - name:            *title
+  - class:           (dual class) The Kid/The Paragon
+  - approaches: 
+    - action:        3
+    - adventure:     2
+    - detective:     2
+    - mystery:       2
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: [Brawler, Rescuer]
+  - skills:          [Academic, "Historian (Rueben family)", "Journalist (Daily Sun)", "Mystic (Spiritualism)"]
+  - ideals:          [Courage, Wisdom, Legacy, Responsibility, Fun]

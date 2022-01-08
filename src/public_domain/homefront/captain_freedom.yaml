@@ -1,0 +1,80 @@
+- metadata:
+  - title:          &title Character Name
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-charname
+  - url:            https://pdsh.fandom.com/wiki/Captain_Freedom
+- license: |
+    license
+- art:
+  - url:            art/jeshields/charname.png
+  - alt:            *title
+  - face:           art/jeshields/charname_face.png
+- bio:
+  - real_name:      Don Wright
+  - occupation:     Newspaper Publisher
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
+  - place_of_birth: location
+  - marital_status: single
+  - known_relatives: 
+  - group_affiliation: 
+    - Legends of the Home Front:
+      - active:  true
+      - founder: true
+      - reserve: false
+    - Legends of the Pacific Front:
+      - active:  false
+      - founder: true
+      - reserve: true
+    - Daily Bulletin:
+      - founder: true
+      - active:  true
+      - status:  Publisher
+  - base:    ["Sun City, U.S.A."]
+  - height:  "6' 0\""
+  - weight:  "180 lbs."
+  - eyes:    brown
+  - hair:    black
+- history: |
+    "Don Wright was a publisher of Daily Bulletin, a newspaper based 
+    in New York City. He put on a costume to help the downtrodden and 
+    oppressed. 
+    
+    When World War II broke out, he focused on fighting the Axis 
+    saboteurs. He was aided by the Young Defenders, four children named 
+    Lefty, Slim, Beanie, and Joanie, who worked as newsboys 
+    for the Daily Bulletin.
+
+    In October 1942, Captain Freedom teamed up with Shock Gibson, Black 
+    Cat, War Nurse and Ted Parrish to repel the Japanese attempt to 
+    invade Los Angeles. He also teamed up with Black Cat and Shock Gibson 
+    on several other occasions."
+- powers: |
+    "Captain Freedom originally displayed super-strength and limited flight, 
+    but those powers vanished shortly after his original adventures and he 
+    remained non-powered for the remainder of his adventures."
+- stats:
+  - name:            *title
+  - class:           The Knight
+  - volume:          2
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          ["Bureaucracy (newspaper publishing)", "Journalist (Daily Bulletin)", "Socialite (New York City)"]
+  - ideals:          []

@@ -1,0 +1,75 @@
+- metadata:
+  - title:          &title The Fighting Yank
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-homefront
+  - url:            https://pdsh.fandom.com/wiki/Fighting_Yank
+- art:
+  - url:            art/pdsh/fightingyank.png
+  - alt:            *title
+  - face:           art/pdsh/fightingyank_face.png
+- bio:
+  - real_name:      Bruce Carter III
+  - occupation:     O.S.S. Operative
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       secret
+  - former_aliases: none
+  - place_of_birth: Unknown
+  - marital_status: single
+  - known_relatives: 
+    - Bruce Carter I:
+      - deceased:     yes
+      - active:       yes
+      - gender:       male
+      - relationship: "great-grandfather"
+  - group_affiliation: 
+    - Legends of the Western Front:
+      - founder: true
+      - active:  true
+      - reserve: false
+  - base:    ["Sun City, U.S.A."]
+  - height:  "6' 1\""
+  - weight:  "180 lbs."
+  - eyes:    blue
+  - hair:    black
+- history: |
+    "Bruce Carter I was a soldier in the Revolutionary War. Given a 
+    special mission by General George Washington, Carter was killed 
+    by British spies, and the information he was carrying fell into 
+    enemy hands. His spirit was confined to Earth for his failure.
+
+    Bruce Carter III was the spitting image of his great-grandfather. 
+    He was visited by the ghost of Bruce Carter I, who showed him the 
+    location of a magical cloak and tri-corner hat that would give the 
+    wearer invulnerability and super strength.
+
+    Only Carter III's girlfriend, Joan Farwell, knew of his dual identity."
+- powers: |
+    "In addition to his superhuman strength and invulnerability, Fighting 
+    Yank was frequently aided by his grandfather's ghost, especially 
+    when he was in mortal danger. The ghost could manipulate the physical 
+    world and provide Bruce III with information and encouragement."
+- stats:
+  - name:            *title
+  - class:           The Paragon
+  - volume:          2
+  - approaches: 
+    - action:        4
+    - adventure:     3
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       ["My One Weakness! (loss of hat and cloak)"]
+  - fighting_styles: [Brawler]
+  - skills:          ["Historian (Revolutionary War)", Spy]
+  - ideals:          [Patriotism, Duty, Legacy, Secrecy, TBD]

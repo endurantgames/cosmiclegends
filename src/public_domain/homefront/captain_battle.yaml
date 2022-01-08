@@ -1,0 +1,77 @@
+- metadata:
+  - title:          &title Captain Battle
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-pd-captainbattlesr
+- art:
+  - url:            art/pdsh/captainbattlesr.png
+  - alt:            *title
+  - face:           art/pdsh/captainbattlesr_face.png
+- bio:
+  - real_name:      "Jonathan Battle"
+  - occupation:     Adventurer
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         male
+    - pronouns:     he/him
+  - identity:       public
+  - place_of_birth: "Weakley County, Tennessee"
+  - marital_status: widowed
+  - known_relatives: 
+    - Unnamed wife:
+      - relationship: wife
+      - alive:        no
+      - anonymous:    yes
+    - William Battle:
+      - aka:          "Captain Battle Jr."
+      - alive:        yes 
+      - relationship: son
+  - group_affiliation: 
+    - Legends of the Home Front:
+      - active:  yes
+      - founder: yes
+      - leader:  yes 
+  - base:    ["Cumberland Plateau, Gleason, Tennessee"]
+  - height:  "5' 10\""
+  - weight:  "215 lbs."
+  - eyes:    "blue (right only)"
+  - hair:    black
+- history: |
+    "John Battle, a veteran of World War I, saw that another war was 
+    coming and decided to stop it before it could happen. 
+    
+    He was wounded in the first war and didn't want to see that 
+    happen to anyone else. He set up a laboratory on top of a mountain 
+    and began fighting against warmongers. 
+    
+    Besides his various assistants, such as his secretary Jane Lorrain, 
+    he was partnered with his son, Captain Battle Jr. and sidekick, 
+    Nathan Hale. Captain Battle also teamed up with heroes such as 
+    Lance Hale."
+- powers: |
+    "He had no superpowers but has advanced technology, including the 
+    Curvoscope, which allowed him to see anywhere on earth..."
+- weapons: |
+    "...a Dissolvo Gun which disintegrated matter, a gyroscope-like 
+    Luceflyer, and a jetpack."
+- stats:
+  - name:            *title
+  - class:           The Knight
+  - volume:          2
+  - approaches: 
+    - action:        3
+    - adventure:     2
+    - detective:     3
+    - mystery:       1
+    - suspense:      1
+  - health:          12
+  - might:           10
+  - power_words:
+    - core:          [Gambit, Prepared]
+    - personal:      [Acrobat, Aim, Improvised, "Vehicle (Luceflyer)", "Weapon (Dissolvo gun)"]
+    - nova:          [Good, Old, American, Fists]
+    - abilities:     ["Peak Human Potential (Brawler fighting style)", "Tactical Mastery (Interceptor and Tactician fighting styles)", Toughness, "Weapons Locker (typical loadout: automatic, bazooka, bullets, handgun, rifle)"]
+  - fighting_styles: [Ace, Brawler, Interceptor, Sharpshooter, Tactician]
+  - skills:          [Engineer, Explorer, "Historian (military history)", "Pilot (gyrocopter)", Scientist]
+  - ideals:          [Pacifism, Responsibility, Valor, Reluctance, Sacrifice]

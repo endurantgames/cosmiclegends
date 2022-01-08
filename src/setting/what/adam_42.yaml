@@ -1,26 +1,28 @@
 - metadata:
   - yaml_version: 1.2
-  - x-format: character
-  - title: &title "Adam-42: O.O.P.F."
-  - anchor: setting-adam-42
-- picture:
+  - x-format:     character
+  - title:        &title "Adam-42: O.O.P.F."
+  - anchor:       setting-adam-42
+- art:
   - url: art/jeshields/construct.png
   - alt: "Adam-42: One-Officer-Police-Force"
 - bio:
-  - name: *title
-  - real_name: "Martin \"Adam X. Lii\" McCord"
-  - occupation: police officer
-  - legal_status: Citizen of the United States, offically deceased
+  - name:           *title
+  - real_name:      "Martin \"Adam X. Lii\" McCord"
+  - occupation:     police officer
+  - legal_status:   Citizen of the United States, offically deceased
   - gender: 
-    - desc: "non-gendered/male"
-    - pronouns: "it/its, he/him"
-  - identity: classified
+    - desc:         "non-gendered/male"
+    - pronouns:     "it/its, he/him"
+  - identity:       classified
   - place_of_birth: Technopolis, U.S.A.
   - marital_status: "single - n/a, formerly married"
   - known_relatives: none
   - group_affiliation: 
     - Cosmic Legends of the Universe:
       - reserve: true 
+      - active:  false
+      - founder: false
     - Los Angeles Police Department:
       - status: "medical leave"
   - base: ["Los Angeles, California", "Technopolis, U.S.A."]

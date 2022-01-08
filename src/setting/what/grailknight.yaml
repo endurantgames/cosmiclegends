@@ -98,6 +98,7 @@
     - core: [Gambit, Prepared]
     - personal: [Armor, Weapon (crossbow), Line, Restrain, Weapon (sword)]
     - nova: [Immortal, Quest]
+  - fighting_styles: [Sharpshooter, Weapon Master]
   - abilities: [Peak Human Potential, Trick Arrows, TBD]
   - skills: [Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy]
   - ideals: [Chivalry, Faith, Honor, Law, Vows]

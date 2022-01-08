@@ -1,31 +1,35 @@
 - metadata:
-  - title:          &title Character Name
+  - title:          &title "The Spirit of '76"
   - x-format:       character
 # - x-format:       character-sheet
   - yaml_version:   1.2
   - anchor:         setting-charname
-  - url:            https://pdsh.fandom.com/wiki/Jimmy_Anytime
+  - url:            https://pdsh.fandom.com/wiki/Spirit_of_%2776
 - license: |
-    The character of Jimmy Anytime is available for use by anyone, 
-    with only one condition. This paragraph must be included in 
-    any publication involving Jimmy Anytime, in order that others 
-    may use this property as they wish. All rights reversed.
+    license
 - art:
-  - url:            art/jeshields/charname.png
+  - url:            art/pdsh/spiritof76.png
   - alt:            *title
-  - face:           art/jeshields/charname_face.png
+  - face:           art/pdsh/spiritof76_face.png
 - bio:
-  - real_name:      full name
-  - occupation:     occupation
+  - real_name:      Gary Blakely
+  - occupation:     West Point cadet
   - legal_status:   Citizen of the United States
   - gender: 
     - desc:         male
     - pronouns:     he/him
-  - identity:       public
-  - former_aliases: name
-  - place_of_birth: location
+  - identity:       secret
+  - place_of_birth: "Oxford, England"
   - marital_status: single
   - known_relatives: 
+    - Father:
+      - gender:       male
+      - anonymous:    true
+      - relationship: father
+    - Captain Ralston:
+      - relationship: great-great-grandfather
+      - gender:       male
+      - deceased:     true
   - group_affiliation: 
     - Cosmic Legends of the Universe:
       - active:     false

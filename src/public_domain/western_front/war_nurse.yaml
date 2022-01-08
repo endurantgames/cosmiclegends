@@ -1,0 +1,78 @@
+- metadata:
+  - title:          &title War Nurse
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         setting-charname
+  - url:            https://pdsh.fandom.com/wiki/War_Nurse
+- license: |
+    license
+- art:
+  - url:            art/pdsh/warnurse.png
+  - alt:            *title
+  - face:           art/pdsh/warnurse_face.png
+- bio:
+  - real_name:      Patricia Parker
+  - occupation:     Nurse
+  - legal_status:   Citizen of the United Kingdom
+  - gender: 
+    - desc:         female
+    - pronouns:     she/her
+  - identity:       public
+  - place_of_birth: "Doville, United Kingdom"
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: 
+    - Girl Commandos:
+      - active:  true
+      - reserve: false
+      - founder: true
+      - leader:  true
+    - Legends of the Western Front:
+      - active: false
+      - reserve: true
+      - founder: true
+    - Legends of the Pacific Front:
+      - active:  false
+      - reserve: true
+      - founder: true
+  - base:    ["London, England"]
+  - height:  "5' 6\""
+  - weight:  "135 lbs."
+  - eyes:    blue
+  - hair:    black
+- history: |
+    "Pat Parker was a young British nurse from Doville, a quiet 
+    village near London. When her town came under Nazi bombardment, 
+    she was able to use her skills to help the wounded children. 
+    
+    Shortly afterwords, she overhears Nazi agents plotting an attack 
+    against the British navy. Angered by what happened to her village 
+    and eager to prevent any further devastation, she decided to take 
+    matters into her own hands. After helping the Royal Air Force beat 
+    back the Nazi assault, she joined her country's military as a nurse.
+
+    Later, went on to form the Girl Commandos.
+
+    Her love interest was British pilot Don Fraser."
+- powers: |
+    She had no powers.
+- stats:
+  - name:            *title
+  - class:           The Expert
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          []
+  - ideals:          []
