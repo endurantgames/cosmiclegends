@@ -604,8 +604,14 @@
     - where: "Technopolis, U.S.A."
     - what: "Zaar's Native Time Period"
     - desc: |
-        Lightning-caster Zaar travelled from this time period to the 20th century, where she
-        became a member of the Cosmic Legends. After killing Sinhammer while the villain was 
-        in custody, she returned to the 24th Century rather than face trial for her actions. 
-        Zaar's later activities are undocumented.
-
+        Lightning-caster Zaar travelled from this time period to the 20th century, 
+        where she became a member of the Cosmic Legends. After killing Sinhammer 
+        while the villain was in custody, she returned to the 24th Century rather 
+        than face trial for her actions. Zaar's later activities are undocumented.
+  - "2322":
+    - order: 71
+    - where: "Sun City, U.S.A."
+    - what: "Founding of the Legends of the Future"
+    - desc: |
+        "Several superheroes of this time period joined together with
+        the time-traveling Cosmic Legends of the Universe from 1984."

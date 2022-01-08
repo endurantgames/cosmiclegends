@@ -14,17 +14,17 @@
 - bio:
   - real_name:      Alfonso Williamson
   - occupation:     Agent of the Earth Council
-  - legal_status:   "Citizen of Earth, 22nd Century"
+  - legal_status:   "Citizen of Earth, 23rd Century"
   - gender: 
     - desc:         male
     - pronouns:     he/him
   - identity:       public
-  - place_of_birth: "Earth (22nd Century)"
+  - place_of_birth: "Earth (23rd Century)"
   - marital_status: single
   - known_relatives: none
   - group_affiliation: 
     - Earth Council:
-      - desc:    An international government agency in the 22nd Century.
+      - desc:    An international government agency in the 23rd Century.
       - active:  true
       - reserve: false
       - founder: false

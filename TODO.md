@@ -38,24 +38,27 @@ Manuscript
     - [/]   Multiclass         (cleanup)
       - [ ] Examples?
     - [/] Generic Abilities  (cleanup)
+  - [/]   The Construct        (new abilities)
   - [/]   The Divine           (new abilities)
   - [/]   The Dynamo           (new abilities)
   - [/]   The Expatriate       (cleanup)
-  - [/]   The Expert           (new class)
-  - [/]   The Haunt            (new class)
-  - [/]   The Hellspawn        (new class)
+  - [/]   The Expert           (new abilities)
+  - [/]   The Haunt            (new abilities)
+  - [/]   The Hellspawn        (new abilities)
   - [/]   The Inventor         (new abilities)
-  - [/]   The Kid              (new class)
+  - [/]   The Kid              (new abilities)
   - [/]   The Knight           (new abilities)
   - [/]   The Mage             (new abilities)
   - [/]   The Monarch          (new abilities)
   - [/]   The Monstrosity      (new abilities)
   - [/]   The Paragon          (new abilities)
+  - [/]   The Pet              (new abilities)
   - [/]   The Psychic          (new abilities)
   - [/]   The Shaper           (new abilities)
-  - [/]   The Speedster        (new class)
+  - [/]   The Speedster        (new abilities)
   - [/]   The Totem            (cleanup)
-  - [/]   The Twins            (new class)
+  - [/]   The Twins            (new abilities)
+  - [/]   The Wheelman         (new abilities)
 - [ ]     Pregens: 1 extra ability each
   - [ ]   Using pregens
   - [ ]   Multi- and/or Dual-Class pregens?
@@ -72,6 +75,12 @@ Manuscript
   - [/]   Rockstar             (new ability)
   - [/]   Titan                (new ability)
   - [/]   Vespa                (new ability)
+  - [ ] Eidolon                (new character: haunt)
+  - [ ] Far-Seeker             (new character: expatriate)
+  - [ ] Falconer               (new character: twins)
+  - [ ] Hellblade              (new character: hellspawn)
+  - [ ] Momentum               (new character: speedster)
+  - [ ] Yeoman                 (new character: kid)
 - [/]     Ideals
   - [ ]   Review pregens / NPCs
     - [ ] Adam-42

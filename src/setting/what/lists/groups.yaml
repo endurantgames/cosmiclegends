@@ -40,7 +40,7 @@
     - active: true
     - definite: true
     - hero: true
-    - bio: Team of teenage and young adult heroes, many of whom attended Technopolis Academy. Although they've collectively been offered membership in the Cosmic Legends, most have preferred to stay members of the JLA instead.
+    - bio: "Team of teenage and young adult heroes, many of whom attended Technopolis Academy. Although they've collectively been offered membership in the Cosmic Legends, most have preferred to stay members of the JLA instead."
   - "The Kyl'Sh'Tal":
     - definite: true
     - active: true
@@ -95,6 +95,180 @@
     - active: true
     - villain: true
     - cf: "A.L.E.R.T."
+  - Girl Commandos:
+    - definite: true
+    - active:   false
+    - note:     Primarily public-domain characters.
+    - bio:      "A group of young female heroes active during World War 2."
+    - cf:       War Nurse
+    - members:
+      - Pat Parker:
+        - aka:     War Nurse
+        - gender:  female
+        - founder: true
+      - Selena Brown:
+        - aka:     Starlet
+        - gender:  female
+        - founder: false
+  - Legends of the Western Front:
+    - definite: true
+    - active:   false
+    - bio:      "One of the three Legends teams organized during World War 2; primarily operated in Europe."
+    - members:
+  - Legends of the Old West:
+    - definite: true
+    - active:   false
+    - note:     Primarily public-domain characters.
+    - bio:      "A group of Legends who teamed with the Cosmic Legends of 1984, in 1878."
+    - members:
+        - Gay Desperado:
+          - gender: male
+          - url: https://pdsh.fandom.com/wiki/Gay_Desperado
+          - founder: true
+        - Phantom Ranger:
+          - gender: male
+          - url: https://pdsh.fandom.com/wiki/Phantom_Ranger
+          - founder: true
+        - Spurs Jackson:
+          - url: https://pdsh.fandom.com/wiki/Spurs_Jackson
+          - gender: male
+          - resigned: true
+          - active: false
+          - founder: true
+        - William Wayne:
+          - aka: The Texas Terror
+          - url: https://pdsh.fandom.com/wiki/Texas_Terror
+          - gender: male
+          - founder: true
+        - John Cash:
+          - aka: The Whip
+          - url: https://pdsh.fandom.com/wiki/Johnny_Cash
+          - gender: male
+          - founder: true
+        - Clay Boone:
+          - aka: The Gunmaster
+          - url: https://pdsh.fandom.com/wiki/Gunmaster_(Charlton)
+          - gender: male
+          - founder: true
+        - Bob Tellub:
+          - aka: Bullet the Gun Boy
+          - url: https://pdsh.fandom.com/wiki/Bullet_the_Gun_Boy
+          - gender: male
+          - founder: true
+        - Patricia Layne-Wentworth:
+          - aka: Calamity Kate
+          - url: https://pdsh.fandom.com/wiki/Calamity_Kate
+          - gender: female
+          - founder: true
+        - Jack Cody:
+          - aka: The Black Rider
+          - url: https://pdsh.fandom.com/wiki/Black_Rider
+          - gender: male
+          - founder: true
+        - Helena:
+          - aka: The Black Phantom
+          - url: https://pdsh.fandom.com/wiki/Black_Phantom
+          - gender: female
+          - founder: true
+        - Tim Holt:
+          - aka: The Red Mask
+          - url: https://pdsh.fandom.com/wiki/Red_Mask_(Magazine_Enterprises)
+          - gender: male
+          - founder: true
+        - Tex Mason:
+          - aka: The Lemonade Kid
+          - url: https://pdsh.fandom.com/wiki/Lemonade_Kid
+          - gender: male
+          - founder: true
+        - Lucy Lang:
+          - aka: Lariat Lucy
+          - url: https://pdsh.fandom.com/wiki/Lariat_Lucy
+          - gender: female
+          - founder: true
+        - Queenie:
+          - aka: The Ace of Spades
+          - url: https://pdsh.fandom.com/wiki/Ace_of_Spades
+          - gender: female
+          - founder: true
+        - Roger Parsons:
+          - aka: Golden Arrow
+          - url: https://pdsh.fandom.com/wiki/Golden_Arrow_(Fawcett)
+          - gender: male
+          - founder: true
+  - Legends of the Future:
+    - definite: true
+    - active:   true
+    - note:     Primarily public-domain characters.
+    - bio:      "A group of Legends who teamed up with the Cosmic Legends of 1984, in 2322."
+    - members:
+      - Zaar:
+        - gender:   female
+        - active:   false
+        - resigned: true
+        - founder:  true
+      - Captain Comet:
+        - gender:   male
+        - active:   true
+        - leader:   false
+        - founder:  true
+  - Legends of the Pacific Front:
+    - definite: true
+    - active:   false
+    - bio:      "One of the three Legends teams organized during World War 2; primarily operated in the Pacific."
+    - note:     Primarily public-domain characters.
+    - members:
+      - member1:
+      - member2:
+      - member3:
+  - Legends of the Home Front:
+    - definite: true
+    - active:   false
+    - note:     Primarily public-domain characters.
+    - bio:      "One of the three Legends teams organized during World War 2; primarily operated in the United States."
+    - members:
+      - Black Cat:
+        - definite: true
+        - active:   false
+        - gender:   female
+        - founder:  true
+      - Captain Battle:
+        - active:   false
+        - gender:   male
+        - founder:  true
+      - Captain Freedom:
+        - active:   false
+        - gender:   male
+        - founder:  true
+      - Daredevil:
+        - active:   false
+        - gender:   male
+        - founder:  true
+      - Human Dynamo:
+        - active:   false
+        - gender:   male
+        - founder:  true
+        - definite: true
+      - Johnny Dynamite:
+        - active:   false
+        - gender:   male
+        - founder:  true
+        - leader:   true
+      - Silver Streak:
+        - active:   false
+        - gender:   male
+        - founder:  true
+      - Starlet:
+        - active:   false
+        - gender:   female
+        - founder:  false
+      - Moon Girl:
+        - active:   false
+        - gender:   female
+        - founder:  true
+      - Cloud Curtis:
+        - active:   false
+        - gender:   male
+        - founder:  false
   - The Vulcanor Royal Family:
     - definite: true
     - ally: true
