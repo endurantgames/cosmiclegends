@@ -1546,7 +1546,7 @@ local function parse_line(line)
        else   vprint("the template DOES exit!")
        end;
   end;
-  
+
   if     string.find(line, "^>")
   then   --
          local outfile = string.gsub(line, "^>%s*", "");
@@ -1630,7 +1630,6 @@ cli:set_name(CONFIG.appname);
 cli:set_description("it creates the .md files we need");
 
 cli:splat("RECIPE", "the recipe to build", "", 1);
--- cli:argument("RECIPE", "the recipe to build");
 
 cli:option("-o, --outfile=OUTFILE", "specify the outfile");
 cli:flag(  "-v, --verbose",         "be more wordy than usual",  false);
@@ -1656,14 +1655,14 @@ if args.outfile       then CONFIG.outfile = args.outfile                        
 
 --
 
--- =======================================================================
--- Everything above this is initializion
--- =======================================================================
--- =======================================================================
--- =======================================================================
--- =======================================================================
+-- =======================================
+-- Everything above this is initialization
+-- =======================================
+-- =======================================
+-- =======================================
+-- =======================================
 
--- start run -------------------------------------------------------------
+-- start run -----------------------------
 vprint("Running in verbose mode");
 sprint("Showing summaries");
 
