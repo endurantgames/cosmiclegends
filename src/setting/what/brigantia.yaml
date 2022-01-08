@@ -24,7 +24,7 @@
   - eyes:   "(as Sienna) green (as Brigantia) green"
   - hair:   "(as Sienna) brown (as Brigantia) red"
 - history: |+
-    As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
+    "As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
     from her grandmother, and she claimed the Celtic gods even spoke 
     to her in her dreams.
   
@@ -41,13 +41,13 @@
     Finding no logical explanation for the phenomenon, Sienna replied
     to the voice and asked who was speaking. The goddess Brigit appeared
     before Sienna, told her she was the Champion of the 
-    Tuatha Dé Danann, and gifted her with power.
+    Tuatha Dé Danann, and gifted her with power."
 - powers:  |+
-    When Sienna speaks the magic words, *Claidheamh Soluis*, she is
+    "When Sienna speaks the magic words, *Claidheamh Soluis*, she is
     transformed into the superhumanly powerful Champion, Brigantia.
     Her powers include flight, wisdom, super-speed, super-strength, 
     and projection of light rays from her eyes; in times of great 
-    need, she can form a sword of blazing light.
+    need, she can form a sword of blazing light."
 - stats:
   - class: The Divine
   - approaches: {action: 3, adventure: 3, detective: 1, mystery: 1, suspense: 2}
@@ -65,7 +65,7 @@
   - title: Apology to Celtic Pagans
   - "css-classes": [soapbox, small]
   - text: |
-      I apologize in advance for the horrible mishandling of the
+      "I apologize in advance for the horrible mishandling of the
       Tuatha Dé Danann and other elements of Celtic mythology.
       It's done specifically in reference to the way Marvel Comics
-      handled the Norse, Greek, and other pantheons over the years.
+      handled the Norse, Greek, and other pantheons over the years."
