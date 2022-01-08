@@ -387,9 +387,9 @@ need, she can form a sword of blazing light.
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** 1, 2, 3, 4, 5, Agresizia, Dindrane, Galahad y Llyn, Lamorak, King Pellinore, 6, Algovale
+- **Known Relatives:** Agresizia[]{.icon-female} (sister, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Dindrane[]{.icon-female} (sister), Lamorak[]{.icon-male} (brother, *deceased*)
 - **Base of Operations:** New York City, New York; Sun City, U.S.A.
-- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative), Knights of the Round Table (organization defunct)
+- **Group Affiliation:** Knights of the Round Table (organization defunct), Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

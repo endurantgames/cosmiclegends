@@ -33,9 +33,9 @@ local inspect    = require "inspect";    -- https://github.com/kikito/inspect.lu
 local function tprint(tbl, indent)
   indent = indent or 1;
 
-  if   type(tbl) ~= "table" 
-  then print("Tprint Error: not a table"); 
-       os.exit(1); 
+  if   type(tbl) ~= "table"
+  then print("Tprint Error: not a table");
+       os.exit(1);
   end;
 
   local toprint = string.rep(" ", indent) .. "{\r\n"
@@ -280,7 +280,8 @@ end -- function
 
 local function unpack_yaml_tree(yaml_tree, comment)
   comment = comment or "";
-  -- vprint("unpacking", comment);
+  vprint("==================", "------------------");
+  vprint(comment .. ":before", tprint(yaml_tree));
   if     yaml_tree == nil
   then   eprint("Error!", "yaml_tree = nil");
          os.exit(1);
@@ -299,17 +300,15 @@ local function unpack_yaml_tree(yaml_tree, comment)
   for k, v in pairs(yaml_tree)
   do  if   type(v) == "table"
       then for i, j in pairs(v)
-           do  if   type(i) == "string" 
-               then flat_tree[i] = j; 
-               -- else eprint("can't unpack", comment);
-               --      eprint("i is",         i);
-               --      eprint("type(i) is",   type(i));
+           do  if   type(i) == "string"
+               then flat_tree[i] = j;
                end;
            end;
       end;
       flat_tree[k] = v;
   end;
 
+  vprint(comment .. ":after", tprint(flat_tree));
   return flat_tree;
 
 end;
@@ -330,10 +329,8 @@ local function get_sorted_keys(t)
   do  n       = n + 1;
       vprint("==============", "===============");
       if     type(k) == "string"
-      then   keys[n] = k .. "";
+      then   keys[n] = k;
              table.insert(keys, k);
-      elseif ignore
-      then   vprint("ignoring", k);
       else   eprint("OOPS type(" .. k .. ")", type(k));
       end;
   end;
@@ -352,19 +349,16 @@ end;
 
 local function yaml_common(yaml_tree, slurped)
   local common_error;
-  -- usage:
-  -- local flat_tree, metadata, slurped, common_error = yaml_common(yaml_tree);
-  -- vprint("yaml_common : yaml_tree", type(yaml_tree));
-  -- vprint("yaml_common : slurped", type(slurped));
   slurped = slurped or "\n\n";
   local flat_tree = unpack_yaml_tree(yaml_tree, "yaml_common") or {};
   local metadata;
+
   if   flat_tree.metadata
   then metadata = unpack_yaml_tree(flat_tree.metadata, "yaml_common : metadata") or {};
-  else -- vprint("error: no metadata", "in yaml_common");
-       metadata = nil;
+  else metadata = nil;
        common_error = true
   end;
+
   return yaml_tree, metadata, slurped, common_error;
 end;
 
@@ -421,27 +415,36 @@ end;
 
 local function yaml_char_relatives(bio_relatives)
   vprint("relatives?", "looking for relatives");
-  vprint("dump", tprint(bio_relatives));
+  -- vprint("dump", tprint(bio_relatives));
   local markdown = "\n- **Known Relatives:** ";
   local relatives = unpack_yaml_tree(bio_relatives, "relatives");
   local rel_list = {};
   for rel_name, rel in pairs(relatives)
-  do  local rel_string = rel_name;
-      local rel_data = unpack_yaml_tree(rel, "yaml_char_relatives: rel");
-      if rel.gender then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} "; end;
+  do
+      if   type(rel_name) == "string"
+      then local rel_string = rel_name;
+           local rel_data   = unpack_yaml_tree(rel, "yaml_char_relatives: rel");
 
-      if   rel.relationship or rel.deceased or rel.aka
-      then rel_string = rel_string .. "(";
-           if   rel.relationship
-           then rel_string = rel_string .. rel.relationship;
-                if rel.deceased or rel.aka then rel_string = rel_string .. ", ";             end;
-           end; -- if rel.relationship
+           if   rel_data.gender
+           then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} ";
+           end;
 
-           if rel.aka                      then rel_string = rel_string .. rel.aka;          end;
-           if rel.deceased                 then rel_string = rel_string .. "*deceased*";     end;
-           rel_string = rel_string .. ")";
-      end; -- if rel[relationship, deceased, aka]
-      table.insert(rel_list, rel_string);
+           if   rel_data.relationship or rel_data.deceased or rel_data.aka
+           then rel_string = rel_string .. "(";
+                if   rel_data.relationship
+                then rel_string = rel_string .. rel_data.relationship;
+                     if   rel_data.deceased or rel_data.aka
+                     then rel_string = rel_string .. ", ";
+                     end;
+                end; -- if rel.relationship
+
+                if rel_data.aka      then rel_string = rel_string .. rel_data.aka; end;
+                if rel_data.deceased then rel_string = rel_string .. "*deceased*"; end;
+                rel_string = rel_string .. ")";
+           end; -- if rel[relationship, deceased, aka]
+           table.insert(rel_list, rel_string);
+      else eprint("rel_name is not a string", rel_name);
+      end;
   end; -- for rel.name
   markdown = markdown .. table.concat(rel_list, ", ");
   return markdown;
@@ -565,8 +568,7 @@ local function yaml_sheet_basics(sheet_stats)
   end;
 
   if stats.fighting_style and type(stats.fighting_style) == "table"
-  then local bag = {};
-       local fighting_styles = unpack_yaml_tree(stats.fighting_style, "stats.fighting_style");
+  then local fighting_styles = unpack_yaml_tree(stats.fighting_style, "stats.fighting_style");
        for fs, fs_info in pairs(fighting_styles)
        do  local str = "\n[**" .. fs .. "**";
            if type(fs_info) == "table" and fs_info.desc and type(fs_info) == "string"
@@ -925,7 +927,7 @@ local function yaml_character(yaml_tree)
             then markdown = markdown .. "\n- **Marital Status:** " .. bio.marital_status;
             end;
 
-            if     bio.known_relatives 
+            if     bio.known_relatives
             then   if     type(bio.known_relatives) == "table"
                    then   markdown = markdown .. yaml_char_relatives(bio.known_relatives);
                    elseif bio.known_relatives == "none"
