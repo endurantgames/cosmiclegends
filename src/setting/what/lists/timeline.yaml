@@ -5,10 +5,12 @@
   - "item-format": timeline-entry
   - "list-class":  timeline-list
   - "item-class":  timeline-entry
+  - "order-index": order
 - text: |
     This is a timeline of the major events in the Cosmic Legends Universe.
 - list:
   - "14 billion years ago":
+    - order: 1
     - where: Everywhere
     - what: The Big Bang
     - desc: |
@@ -17,6 +19,7 @@
     - note: "Unlike the Marvel and DC Universes, there was no known cosmic sentience involved in this event."
     - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#The_first_20_minutes
   - "13.9 billion years ago":
+    - order: 2
     - where: Unknown
     - what: Earliest life in the Universe
     - desc: |
@@ -25,21 +28,25 @@
         These early life forms will evolve into the race that would be known to Earth and Titan as the Visitors.
     - url: https://arxiv.org/abs/1312.0613
   - "13.8 billion years ago":
+    - order: 3
     - where: Unknown
     - what: Start of the Visitor civilization
     - desc: |
         The first intelligent civilization in the universe, the Visitors, arises.
   - "13.75 billion years ago":
+    - order: 4
     - where: Unknown
     - what: Period of Visitor Exploration
     - desc: |
         Having attained interstellar space flight, the Visitors begin to explore the galaxy in large worldships.
   - "9.2 billion years ago":
+    - order: 5
     - where: The Solar System
     - what: Creation of the Solar System
     - desc: "Gravity causes matter in a molecular cloud to coalesce into the Sun and planets of the Solar System."
     - url: "https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Epochs_of_the_formation_of_the_solar_system"
   - "8.5 billion years ago":
+    - order: 6
     - where: Andromeda
     - what:  The Christmas Burst
     - desc: |
@@ -48,18 +55,21 @@
         Earth-based scientists would later record the burst on Christmas day, 2010."
     - url: https://en.wikipedia.org/wiki/GRB_101225A
   - "4 to 4.6 billion years ago":
+    - order: 7
     - where: The planet Earth
     - what: The Hadean Eon
     - desc: |
         The planet Earth and the Moon form.
     - url: https://en.wikipedia.org/wiki/Hadean
   - "4 billion years ago":
+    - order: 8
     - where: The planet Saturn
     - what: Formation of Titan
     - desc: |
         Titan and the other moons of Saturn form.
     - url: https://solarsystem.nasa.gov/planets/saturn/in-depth/
   - "3.85 billion years ago":
+    - order: 9
     - where: The Solar System
     - what: Visitor Discovery of the Solar System
     - desc: |
@@ -67,34 +77,40 @@
 
         They leave behind multiple orbiting drones to monitor the planets and moons of the Solar System."
   - "3.8 billion years ago":
+    - order: 10
     - where: Unknown
     - what: Discovery of the The Ro'Tan'Okk race
     - desc: |
         Visitor probes elsewhere in the galaxy discover the race that would later be known as the Titanians.
   - "3.77 billion years ago":
+    - order: 11
     - where: The planet Earth
     - what: Earliest life on Earth
     - desc: |
         The earliest forms of life arise around thermal vents in the oceans.
     - url: https://en.wikipedia.org/wiki/Earliest_known_life_forms
   - "3.5 billion years ago":
+    - order: 12
     - where: The moon Titan
     - what: Earliest life on Titan
     - desc: |
         The earliest forms of life arise in the subsurface ammonia oceans.
     - url: https://en.wikipedia.org/wiki/Life_on_Titan#Possible_subsurface_liquid_water
   - "3 billion years ago":
+    - order: 13
     - where: The moon Titan
     - what: Abandonment of the Ro'Tan'Okk
     - desc: |
         After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
   - "200 to 500 million years ago":
+    - order: 14
     - where: Everywhere
     - what: The First Stars and Galaxies
     - desc: |
         "The \"Cosmic Dark Age\" of the universe ends as stars and galaxies begin to form."
     - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Cosmic_Dark_Age
   - "2 billion years ago":
+    - order: 15
     - where: The moon Titan
     - what: "Creation of the Kyl'Sh'Tal"
     - desc: |
@@ -103,6 +119,7 @@
         These would come to be known on Earth as the Sentinels of Saturn."
     - cf: Titan
   - "ca. 1,000 BCE":
+    - order: 16
     - where: Worldwide
     - what: The First Visitation
     - desc: |
@@ -111,6 +128,7 @@
         with rocky skin and high strength, adapting them for life on volcanic
         planets."
   - "ca. 1,000 BCE":
+    - order: 17
     - where: The South Pacific
     - what: Establishment of Vulcanor
     - desc: |
@@ -121,6 +139,7 @@
         magnetic field that protects their islands from discovery. The
         existence of the Vulcanors would remain hidden until 1956."
   - "5th Century, CE":
+    - order: 18
     - where: "Post-Roman Britain"
     - what: King Arthur
     - desc: |
@@ -128,6 +147,7 @@
         established an order of knights at Camulodunum."
     - url: https://en.wikipedia.org/wiki/Ambrosius_Aurelianus#According_to_Gildas
   - "6th Century, CE":
+    - order: 19
     - where: "Camulodunum, Post-Roman Britain"
     - what: Sir Percival's Quest
     - desc: |
@@ -136,6 +156,7 @@
         of the founding members of the Cosmic Legends."
     - url: https://en.wikipedia.org/wiki/Perceval,_the_Story_of_the_Grail
   - "August, 1900":
+    - order: 20
     - where: "Belfast, South Africa"
     - what: Percival's Capture
     - desc: |
@@ -144,6 +165,7 @@
         of the Irish Transvaal Brigade during the Second Anglo-Boer War. He was sent to
         a POW camp on the island of Saint Helena but escaped within a week."
   - "May, 1910":
+    - order: 21
     - where: "St. George's Chapel, Windsor Castle"
     - what: State funeral of Edward VII
     - desc: |
@@ -151,6 +173,7 @@
         seen again until 1963."
     - url: https://en.wikipedia.org/wiki/State_funeral_of_Edward_VII
   - "June, 1938":
+    - order: 22
     - where: New York City, New York
     - what: "First public appearance of John Dee: Master Magister"
     - desc: |
@@ -158,6 +181,7 @@
         the world's first supervillain, Sinhammer, in Times Square.
     - note: "Date corresponds with Action Comics #1, the first appearance of Zatara."
   - "August, 1940":
+    - order: 23
     - where: "Campile, South Wexler, Ireland"
     - what: Choosing of Sequana
     - desc: |
@@ -173,6 +197,7 @@
         returned to Ireland after D-Day, and she soon emigrated to the United States,
         where she operated as the first public \"super-hero\" in America.""
   - "March, 1941":
+    - order: 24
     - where: The South Pacific
     - what: Creation of the G.I. Dinosaurs
     - desc: |
@@ -181,6 +206,7 @@
         soldiers.
     - note: Date corresponds with the first appearance of Captain America.
   - "November, 1944":
+    - order: 25
     - where: "Boston, Massachusetts"
     - what: Maddie Dee's Advice Column Debuts
     - desc: |
@@ -188,6 +214,7 @@
         \"Rumor Clinic\", is given her own advice column."
     - note: "Date corresponds to Miss America Magazine #2, the first appearance of Patsy Walker."
   - "August, 1945":
+    - order: 26
     - where: "Hiroshima and Nagasaki, Japan"
     - what: First use of Nuclear Weapons
     - desc: |
@@ -196,12 +223,14 @@
         W'Ty'Tah'k."
     - url: https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
   - "October, 1946":
+    - order: 27
     - where: "Volcano City, Vulcanor Island"
     - what: Birth of Obsidius Rex
     - desc: |
         "Crown prince Obsidius Vulcanor born. He would later become the first non-founding 
         member of the Cosmic Legends of the Universe team."
   - "July, 1947":
+    - order: 28
     - where: "Roswell, New Mexico"
     - what: "Visitor probe discovered"
     - desc: |
@@ -210,6 +239,7 @@
         the Solar System."
     - url: https://en.wikipedia.org/wiki/Roswell_incident
   - "October, 1947":
+    - order: 29
     - where: United States
     - what: "Creation of A.L.E.R.T."
     - desc: |
@@ -220,6 +250,7 @@
         (In the Cosmic Legends Universe, NASA -- a civilian agency -- would not be founded; instead, all 
         space operations would remain under military control.)"
   - "July, 1949":
+    - order: 30
     - where: The South Pacific
     - what: Last Recorded Sighting of the G.I. Dinosaurs
     - desc: |
@@ -228,6 +259,7 @@
         of the 'Dinosaurs are not recorded."
     - note: "Date corresponds to the publication of Captain America's Weird Tales #75, the final issue of Captain America in the Golden Age."
   - "August, 1952":
+    - order: 31
     - where: Boston, Massachusetts
     - what: "Last Public Appearance of John Dee: Master Magister"
     - desc: |
@@ -235,6 +267,7 @@
         family."
     - note: "Date corresponds to the first appearance of the Phantom Stranger in Phantom Stranger #1."
   - "August, 1956":
+    - order: 32
     - where: The moon Jarnsaxa
     - what: "Visitor craft detected entering the inner Solar System"
     - desc: |
@@ -244,11 +277,13 @@
         Sentinel Ty'Tonn To'Rezz brings these findings to Kyl'Sh'Tal high command and urges action. 
         Their petition is denied."
   - "October, 1956":
+    - order: 33
     - where: The moon Jarnsaxa
     - what: "Ty'Tonn departs for Earth"
     - desc: |
         "Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors."
   - "November, 1956":
+    - order: 34
     - where: Earth orbit
     - what: The Second Visitation
     - desc: |
@@ -256,6 +291,7 @@
         to catalog the civilizations of the planet by kidnapping individual humans from around the
         Earth."
   - "November, 1956 to January, 1957":
+    - order: 35
     - where: Worldwide
     - what: The Visitor War
     - desc: |
@@ -266,6 +302,7 @@
         to the outside world."
     - cf: The Visitors
   - "January, 1957":
+    - order: 36
     - where: The moon Jarnsaxa
     - what: "Destruction of the Kyl'Sh'Tal listening post"
     - desc: |
@@ -275,6 +312,7 @@
         All personnel, including Ty'Tonn To'Rezz's three spouses and their sibling My'Tonn, are killed."
     - cf: Titan
   - "March, 1957":
+    - order: 37
     - where: Outside the orbit of Neptune
     - what: "Liberation of the Foreigners"
     - desc: |
@@ -285,6 +323,7 @@
         Exiles and Settlers factions of the Foreigners.
     - cf: The Foreigners
   - "May, 1959":
+    - order: 38
     - where: Boston, Massachusetts
     - what: Debut of Miss Magister
     - desc: |
@@ -292,6 +331,7 @@
         she adopts the identity of Miss Magister as he retires.
     - note: "Date corresponds to the publication of Action Comics #252, the first appearance of Supergirl."
   - "March, 1961":
+    - order: 39
     - where: "Missoula, Montana"
     - what: "Debut of the Falconer"
     - desc: | 
@@ -299,12 +339,14 @@
         avians, makes her first public appearance as The Falconer, with her bird Aquila.
     - note: "Date corresponds to the publication of The Brave and the Bold #34, the first appearance of Hawkwoman."
   - "September, 1961":
+    - order: 40
     - where: "Technopolis, U.S.A."
     - what: Debut of Vespa
     - desc: |
         A.L.E.R.T. field agent Hazel Montgomery debuts her new Vespa (I) armor.
     - note: "Date corresponds to the publication of Tales to Astonish #27, the first appearance of Henry Pym."
   - "April, 1963":
+    - order: 41
     - where: "Chicago, Illinois"
     - what: Birth of Delmore Thompson
     - desc: |
@@ -312,6 +354,7 @@
     - cf: Energy Boy
     - note: "Date corresponds to Fantastic Four Annual #1."
   - "September, 1963":
+    - order: 42
     - where: "Sun City, U.S.A."
     - what: Creation of the Cosmic Legends of the Universe
     - desc: |
@@ -321,6 +364,7 @@
     - cf: Cosmic Legends of the Universe
     - note: "Date corresponds to Avengers #1 and X-Men #1."
   - "March, 1964":
+    - order: 43
     - where: "Sun City, U.S.A."
     - what: Obsidius Rex joins the Cosmic Legends
     - desc: |
@@ -330,6 +374,7 @@
     - cf: Obsidius Rex
     - note: "Date corresponds to the publication of Avengers #4."
   - "July, 1964":
+    - order: 44
     - where: "Vadyvokia"
     - what: "Creation of Villains, Inc."
     - desc: |
@@ -338,6 +383,7 @@
         banishes them from Vadyvokia."
     - note: Date corresponds to the first appearance of the Masters of Evil.
   - "June, 1965":
+    - order: 45
     - where: "Albuquerque, New Mexico"
     - what: Recruitment of Hazel Montgomery
     - desc: |
@@ -345,6 +391,7 @@
         Vespa (I) and a founding director of N.O.V.A. Labs."
     - note: "Date corresponds to the high school graduation of Peter Parker in Amazing Spider-Man #28."
   - "October, 1965":
+    - order: 46
     - where: "Vadyvokia Castle, Vadyvokia"
     - what: Wedding of Hazel Montgomery and Magnus Merlyn Malign
     - desc: |
@@ -352,12 +399,14 @@
         wedding.\""
     - note: "Date corresponds to the wedding of Reed and Sue Richards in Fantastic Four Annual #3."
   - "July, 1966":
+    - order: 47
     - where: "Technopolis, U.S.A."
     - what: "Creation of T.R.E.L.A."
     - desc: |
         Dr. Phineas Pann (Senior) secretly recruits A.L.E.R.T. agents to a form a 
         terrorist splinter group.
   - "November, 1968":
+    - order: 48
     - where: "Vadyvokia Castle, Vadyvokia"
     - what: Birth of Lin Montgomery
     - desc: |
@@ -365,6 +414,7 @@
         would later be known as Bug (I), the Hornette, and Vespa 2.0."
     - note: "Date corresponds to the birth of Franklin Richards in Fantastic Four Annual #6."
   - "December, 1971":
+    - order: 49
     - where: "Technopolis, U.S.A."
     - what: "Creation of N.O.V.A. Labs"
     - desc: |
@@ -373,6 +423,7 @@
        in Technopolis, with Hazel Montgomery as the founding director."
     - note: Date corresponds to the first appearance of S.T.A.R. Labs.
   - "June, 1973":
+    - order: 50
     - where: "Technopolis, U.S.A."
     - what: Destruction of the Thompson Cold Fusion Reactor
     - desc: |
@@ -381,6 +432,7 @@
         as Neutrino.
     - note: Date corresponds to the first appearance of Wildfire.
   - "October, 1978":
+    - order: 51
     - where: "Technopolis, U.S.A."
     - what: Return of The Energy Boy
     - desc: |
@@ -390,6 +442,7 @@
     - note: Date corresponds to the first appearance of Firestorm.
     - cf: Energy Boy
   - "November, 1980":
+    - order: 52
     - where: "Technopolis, U.S.A."
     - what: "Creation of Technopolis Academy"
     - desc: |
@@ -398,6 +451,7 @@
         and scientists.  Lin Montgomery and Del Thompson are the first students."
     - note: Date corresponds to the first appearance of the New Teen Titans.
   - "November, 1981":
+    - order: 53
     - where: "Vadyvokia Castle, Vadyvokia"
     - what: Hazel Montgomery leaves Marquis Malign
     - desc: |
@@ -406,6 +460,7 @@
         Technopolis."
     - note: "Date corresponds to the publication of Avengers #213, where Henry Pym strikes Janet Van Dyne."
   - "February, 1982":
+    - order: 54
     - where: "Sun City, U.S.A."
     - what: Death of Johnny Dee
     - desc: |
@@ -413,6 +468,7 @@
         she ambushes Johnny Dee: Master Magister and drains of him of his power and his life."
     - note: Date corresponds to the publication of The Death of Captain Marvel.
   - "March, 1982":
+    - order: 55
     - where: "Skryne, County Meath, Ireland"
     - what: The Debut of Brigantia
     - desc: |
@@ -420,6 +476,7 @@
         champion. She joins the Cosmic Legends two months later.
     - note: No special significance to the date.
   - "April, 1982":
+    - order: 56
     - where: "Boston, Massachusetts"
     - what: The Death of Maddie Dee
     - desc: |
@@ -428,6 +485,7 @@
         uses them to banish Sequana to Otherworld."
     - note: No special significance to the date.
   - "September, 1982":
+    - order: 57
     - where: "Technopolis, U.S.A."
     - what: Creation of the Junior Legends of America
     - desc: | 
@@ -435,6 +493,7 @@
         of America when the Cosmic Legends team are kidnapped by Marquis Malign."
     - note: Date corresponds to the first appearance of the New Mutants.
   - "May, 1984":
+    - order: 58
     - where: "The Technopolis Academy, Technopolis, U.S.A."
     - what: Death of Marlinspike
     - desc: |
@@ -443,6 +502,7 @@
         Junior Legends.
     - note: "Date corresponds to the publication of the start of the Judas Contract in Tales of the Teen Titans #42."
   - "May, 1984":
+    - order: 59
     - where: "Sun City, U.S.A."
     - what: Revocation of the Cosmic Legends' Charter
     - desc: |
@@ -452,6 +512,7 @@
         to relocate to Mag Findargat in Otherworld."
     - note: No special significance to the date.
   - "May, 1984":
+    - order: 60
     - where: "Sun City, U.S.A."
     - what: Arrival of Zaar
     - desc: |
@@ -460,6 +521,7 @@
         later.
     - note: "Date corresponds to the publication of X-Men #184, the arrival of Rachel Summers in the 20th Century."
   - "October, 1984":
+    - order: 61
     - where: "Pittsburgh, Pennsylvania"
     - what: Cosmic Legends relocate to Pittsburgh
     - desc: |
@@ -468,6 +530,7 @@
         the Gate House until May, 1987"
     - note: "Dates correspond to the existence of \"Justice League Detroit\"."
   - "May, 1987":
+    - order: 62
     - where: "Technopolis, U.S.A."
     - what: Creation of Aeroport One
     - desc: |
@@ -475,6 +538,7 @@
         platform outside of Technopolis.
     - note: "Date corresponds to the first issue of Giffen/DeMatteis/Maguire Justice League."
   - "August, 1989":
+    - order: 63
     - where: "Technopolis, U.S.A."
     - what: Destruction of Aeroport One
     - desc: |
@@ -482,6 +546,7 @@
         the Aos Sí armies, and Villains, Inc.
     - note: "Date corresponds to the last issue of Legion of Super-Heroes v3."
   - "September, 1994":
+    - order: 64
     - where: "Sun City, U.S.A."
     - what: Killing of Sinhammer
     - desc: |
@@ -489,6 +554,7 @@
         her actions, she instead returns to the 24th century."
     - note: "Date corresponds to the first issue of Zero Hour: Crisis in Time!"
   - "April, 2002":
+    - order: 65
     - where: "Technopolis, U.S.A."
     - what: Debut of the Hornette
     - desc: |
@@ -496,6 +562,7 @@
         Hornette as part of a ruse to infiltrate Villains, Inc.
     - note: No special significance to the date.
   - "April, 2003": 
+    - order: 66
     - where: Earth orbit
     - what: The Third Visitation
     - desc: |
@@ -505,6 +572,7 @@
         killed in action against the Visitors' shock troops."
     - note: No special significance to the date.
   - "May, 2003":
+    - order: 67
     - where: "Technopolis, U.S.A."
     - what: "Debut of Vespa 2.0"
     - desc: |
@@ -512,6 +580,7 @@
         non-binary. They're granted special reserve status in the Junior Legends as well."
     - note: No special significance to the date.
   - "December, 2015":
+    - order: 68
     - where: "Sun City, U.S.A."
     - what: "Titan comes out as Non-Binary"
     - desc: |
@@ -523,6 +592,7 @@
         correspond to this date, for the \"The Superman Exists -- and They're Non-Binary\" 
         mock front page; otherwise, no special significance to the date."
   - "March, 2020":
+    - order: 69
     - where: "Sun City, U.S.A."
     - what: Far-Seeker Returns to Earth
     - desc: |
@@ -531,6 +601,7 @@
         11 months later."
     - note: Dates correspond to the King/Gerads/Shaner Strange Adventures series.
   - "24th Century, Early":
+    - order: 70
     - where: "Technopolis, U.S.A."
     - what: "Zaar's Native Time Period"
     - desc: |

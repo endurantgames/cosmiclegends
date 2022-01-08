@@ -301,196 +301,486 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 
-# Brigantia {#setting-brigantia}
-
-![Brigantia](art/jeshields/divine.png)
-::::::::::::::: {.bio} 
-:::::::::::::::
-
-- **Real Name:** Sienna MacGowan
-- **Occupation:** Graduate student, poet
-- **Legal Status:** Citizen of the Republic of Ireland
-- **Gender:** female (she/her)
-- **Identity:** secret
-- **Place of Birth:** Cork, Ireland
-- **Marital Status:** single
-- **Known Relatives:** unknown
-- **Base of Operations:** 
-- **Group Affiliation:** Cosmic Legends of the Universe
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-**History:**
-
-As a child, Sienna MacGowan heard legends of the Tuatha Dé Danann 
-from her grandmother, and she claimed the Celtic gods even spoke 
-to her in her dreams.
-
-When she grew older, Sienna's dreams faded and she no longer
-believed in the mythological aspects of Celtic fables. Instead,
-she resolved to prove that the Tuatha Dé Danann were historical
-beings as mortal as anyone else. 
-
-Armed with an archaeology degree, Sienna was working late at a 
-digsite outside the village of Skryne, when a voice called out to
-her, asking why she had forgotten her dreams. The experience
-repeated each night, although none save her heard the voice.
-
-Finding no logical explanation for the phenomenon, Sienna replied
-to the voice and asked who was speaking. The goddess Brigit appeared
-before Sienna, told her she was the Champion of the 
-Tuatha Dé Danann, and gifted her with power.
-
-
-**Powers:**
-
-When Sienna speaks the magic words, *Claidheamh Soluis*, she is
-transformed into the superhumanly powerful Champion, Brigantia.
-Her powers include flight, wisdom, super-speed, super-strength, 
-and projection of light rays from her eyes; in times of great 
-need, she can form a sword of blazing light.
-
-
-::::::::::::::::::::::::: stats ::::::::::::::::::::
-- **Class:** The Divine
-- **Approaches:**
-  Action 3,
-  Adventure 3,
-  Detective 1,
-  Mystery 1,
-  Suspense 2
-- **Health:** 10
-- **Might:** 10
-- **Power Words:**
-  - *Core:* Blessed, Champion
-  - *Personal:* Flight, Peace, Radiant, Resist, Speed, Strength
-  - *Nova:* Blazing, Sword
-- **Abilities:** Give Me Strength!, Wisdom of Athena, TBD
-- **Fighting Styles:** Brawler
-- **Skills:** Explorer, Historian, Performer (poet), Physician
-- **Ideals:** Culture, Honor, Justice, Loyalty, Vengeance
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-# The Grailknight {#setting-grailknight}
-
-![Percival, the Grailknight](art/jeshields/knight.png)
-::::::::::::::: {.bio} 
-:::::::::::::::
-
-- **Real Name:** Percival Pellinore
-- **Occupation:** Adventurer
-- **Legal Status:** unknown
-- **Gender:** male (he/him)
-- **Identity:** public
-- **Place of Birth:** Aberffraw, Wales
-- **Marital Status:** single
-- **Known Relatives:** King Pellinore[]{.icon-male} (father, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister)
-- **Base of Operations:** Camelot, England (formerly); St. Helena Island (temporarily, 1900); New York City, New York (current); Sun City, U.S.A.
-- **Group Affiliation:** A.L.E.R.T. (reserve operative), Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct)
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-**History:**
-
-Percival Pellinore, the Grailknight, is *the* Percival of myth -- member
-of Arthur's Round Table, son of Pellinore, questing knight of the Holy Grail.
-
-Although Percival is reluctant to speak of his past, he has told a few that
-he swore an oath to find and recover the Chalice of the Last Supper, and
-that he would never rest until he had fulfilled said oath.
-
-Either his unflagging devotion to his vow or the divine nature of his mission
-have kept him alive, and no older than middle aged, for centuries. Percival's
-legend weaves in and out of history -- surfacing in one war only to disappear
-for a century after it and reappearing around the world.
-
-In 1963, over 50 years since his last appearance, Percival joined with other
-heroes of the time to repell Xana Mega's Fomorian invasion. Percival's offhand
-mention of the Table Round led to the formation of these heroes as a team,
-the Cosmic Legends of the Universe.
-
-With a tendency to vanish for weeks or years at a time, Percival is at best
-a part-time member of the Cosmic Legends, although whenever evil is ascendent, 
-he is an implaccable foe and resourceful ally.
-
-
-**Powers:**
-
-Sir Percival has only one confirmed power:
-immortality. Due to his vows, he's unable to die until he
-completes his quest and finds the Grail.
-
-
-**Weapons:**
-
-Sir Percival has only one confirmed power:
-immortality. Due to his vows, he's unable to die until he
-completes his quest and finds the Grail.
-
-
-::::::::::::::::::::::::: stats ::::::::::::::::::::
-
-## The Grailknight
-
-- **Class:** The Knight
-- **Approaches:**
-  Action 1,
-  Adventure 3,
-  Detective 3,
-  Mystery 1,
-  Suspense 2
-- **Health:** 10
-- **Might:** 10
-- **Power Words:**
-  - *Core:* Gambit, Prepared
-  - *Personal:* Armor, Weapon (crossbow), Line, Restrain, Weapon (sword)
-  - *Nova:* Immortal, Quest
-- **Abilities:** Peak Human Potential, Trick Arrows, TBD
-- **Fighting Styles:** Sharpshooter, Weapon Master
-- **Skills:** Criminal, Deputy, Explorer, Historian, Investigator, Mystic, Spy
-- **Ideals:** Chivalry, Faith, Honor, Law, Vows
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 # Other Groups {#setting-other-groups}
 :::::::::::::::::::::::::::::::::::other-list:::::::::::::::::::::::::::::::::::
-- **The Aos Sí**"\n\n *status unknown* "
-- **The Aos Sí**"\n\n *status unknown* "
-- **Atomicorps**"\n\n *status unknown* "
-- **Atomicorps**"\n\n *status unknown* "
-- **The Crime Institute**"\n\n *status unknown* "
-- **The Crime Institute**"\n\n *status unknown* "
-- **The Firbolgs**"\n\n *status unknown* "
-- **The Firbolgs**"\n\n *status unknown* "
-- **The Fomorians**"\n\n *status unknown* "
-- **The Fomorians**"\n\n *status unknown* "
-- **The Foreigners**"\n\n *status unknown* "
-- **The Foreigners**"\n\n *status unknown* "
-- **The G.I. Dinosaurs**"\n\n *status unknown* "
-- **The G.I. Dinosaurs**"\n\n *status unknown* "
-- **The Interstellar Consortium of Civilizations**"\n\n *status unknown* "
-- **The Interstellar Consortium of Civilizations**"\n\n *status unknown* "
-- **The Junior Legends of America**"\n\n *status unknown* "
-- **The Junior Legends of America**"\n\n *status unknown* "
-- **The Kyl'Sh'Tal**"\n\n *status unknown* "
-- **The Kyl'Sh'Tal**"\n\n *status unknown* "
-- **The Ro'Tan'Okk**"\n\n *status unknown* "
-- **The Ro'Tan'Okk**"\n\n *status unknown* "
-- **The Specialists**"\n\n *status unknown* "
-- **The Specialists**"\n\n *status unknown* "
-- **Sun City University**"\n\n *status unknown* "
-- **Sun City University**"\n\n *status unknown* "
-- **T.R.E.L.A.**"\n\n *status unknown* "
-- **T.R.E.L.A.**"\n\n *status unknown* "
-- **The Visitors**"\n\n *status unknown* "
-- **The Visitors**"\n\n *status unknown* "
-- **The Vulcanor Royal Family**"\n\n *status unknown* "
-- **The Vulcanor Royal Family**"\n\n *status unknown* "
+- **The Aos Sí**
+
+ *status unknown* 
+- **The Aos Sí**
+
+ *status unknown* 
+- **Atomicorps**
+
+ *status unknown* 
+- **Atomicorps**
+
+ *status unknown* 
+- **The Crime Institute**
+
+ *status unknown* 
+- **The Crime Institute**
+
+ *status unknown* 
+- **The Firbolgs**
+
+ *status unknown* 
+- **The Firbolgs**
+
+ *status unknown* 
+- **The Fomorians**
+
+ *status unknown* 
+- **The Fomorians**
+
+ *status unknown* 
+- **The Foreigners**
+
+ *status unknown* 
+- **The Foreigners**
+
+ *status unknown* 
+- **The G.I. Dinosaurs**
+
+ *status unknown* 
+- **The G.I. Dinosaurs**
+
+ *status unknown* 
+- **The Interstellar Consortium of Civilizations**
+
+ *status unknown* 
+- **The Interstellar Consortium of Civilizations**
+
+ *status unknown* 
+- **The Junior Legends of America**
+
+ *status unknown* 
+- **The Junior Legends of America**
+
+ *status unknown* 
+- **The Kyl'Sh'Tal**
+
+ *status unknown* 
+- **The Kyl'Sh'Tal**
+
+ *status unknown* 
+- **The Ro'Tan'Okk**
+
+ *status unknown* 
+- **The Ro'Tan'Okk**
+
+ *status unknown* 
+- **The Specialists**
+
+ *status unknown* 
+- **The Specialists**
+
+ *status unknown* 
+- **Sun City University**
+
+ *status unknown* 
+- **Sun City University**
+
+ *status unknown* 
+- **T.R.E.L.A.**
+
+ *status unknown* 
+- **T.R.E.L.A.**
+
+ *status unknown* 
+- **The Visitors**
+
+ *status unknown* 
+- **The Visitors**
+
+ *status unknown* 
+- **The Vulcanor Royal Family**
+
+ *status unknown* 
+- **The Vulcanor Royal Family**
+
+ *status unknown* 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+# A Timeline of the Cosmic Legends Universe {#setting-timeline}
+:::::::::::::::::::::::::::::::::::timeline-list:::::::::::::::::::::::::::::::::::
+- **13.75 billion years ago**
+
+
+- **13.75 billion years ago**
+
+
+- **13.8 billion years ago**
+
+
+- **13.8 billion years ago**
+
+
+- **13.9 billion years ago**
+
+
+- **13.9 billion years ago**
+
+
+- **14 billion years ago**
+
+
+- **14 billion years ago**
+
+
+- **2 billion years ago**
+
+
+- **2 billion years ago**
+
+
+- **200 to 500 million years ago**
+
+
+- **200 to 500 million years ago**
+
+
+- **24th Century, Early**
+
+
+- **24th Century, Early**
+
+
+- **3 billion years ago**
+
+
+- **3 billion years ago**
+
+
+- **3.5 billion years ago**
+
+
+- **3.5 billion years ago**
+
+
+- **3.77 billion years ago**
+
+
+- **3.8 billion years ago**
+
+
+- **3.85 billion years ago**
+
+
+- **3.85 billion years ago**
+
+
+- **4 billion years ago**
+
+
+- **4 billion years ago**
+
+
+- **4 to 4.6 billion years ago**
+
+
+- **4 to 4.6 billion years ago**
+
+
+- **5th Century, CE**
+
+
+- **5th Century, CE**
+
+
+- **6th Century, CE**
+
+
+- **6th Century, CE**
+
+
+- **8.5 billion years ago**
+
+
+- **8.5 billion years ago**
+
+
+- **9.2 billion years ago**
+
+
+- **9.2 billion years ago**
+
+
+- **April, 1963**
+
+
+- **April, 1963**
+
+
+- **April, 1982**
+
+
+- **April, 1982**
+
+
+- **April, 2002**
+
+
+- **April, 2002**
+
+
+- **April, 2003**
+
+
+- **April, 2003**
+
+
+- **August, 1900**
+
+
+- **August, 1900**
+
+
+- **August, 1940**
+
+
+- **August, 1940**
+
+
+- **August, 1945**
+
+
+- **August, 1945**
+
+
+- **August, 1952**
+
+
+- **August, 1956**
+
+
+- **August, 1956**
+
+
+- **August, 1989**
+
+
+- **August, 1989**
+
+
+- **ca. 1,000 BCE**
+
+
+- **ca. 1,000 BCE**
+
+
+- **December, 1971**
+
+
+- **December, 1971**
+
+
+- **December, 2015**
+
+
+- **December, 2015**
+
+
+- **February, 1982**
+
+
+- **February, 1982**
+
+
+- **January, 1957**
+
+
+- **July, 1947**
+
+
+- **July, 1947**
+
+
+- **July, 1949**
+
+
+- **July, 1949**
+
+
+- **July, 1964**
+
+
+- **July, 1964**
+
+
+- **July, 1966**
+
+
+- **July, 1966**
+
+
+- **June, 1938**
+
+
+- **June, 1938**
+
+
+- **June, 1965**
+
+
+- **June, 1965**
+
+
+- **June, 1973**
+
+
+- **June, 1973**
+
+
+- **March, 1941**
+
+
+- **March, 1941**
+
+
+- **March, 1957**
+
+
+- **March, 1957**
+
+
+- **March, 1961**
+
+
+- **March, 1961**
+
+
+- **March, 1964**
+
+
+- **March, 1964**
+
+
+- **March, 1982**
+
+
+- **March, 1982**
+
+
+- **March, 2020**
+
+
+- **March, 2020**
+
+
+- **May, 1910**
+
+
+- **May, 1910**
+
+
+- **May, 1959**
+
+
+- **May, 1959**
+
+
+- **May, 1984**
+
+
+- **May, 1984**
+
+
+- **May, 1987**
+
+
+- **May, 2003**
+
+
+- **May, 2003**
+
+
+- **November, 1944**
+
+
+- **November, 1944**
+
+
+- **November, 1956**
+
+
+- **November, 1956 to January, 1957**
+
+
+- **November, 1956 to January, 1957**
+
+
+- **November, 1968**
+
+
+- **November, 1968**
+
+
+- **November, 1980**
+
+
+- **November, 1980**
+
+
+- **November, 1981**
+
+
+- **October, 1946**
+
+
+- **October, 1946**
+
+
+- **October, 1947**
+
+
+- **October, 1947**
+
+
+- **October, 1956**
+
+
+- **October, 1956**
+
+
+- **October, 1965**
+
+
+- **October, 1978**
+
+
+- **October, 1978**
+
+
+- **October, 1984**
+
+
+- **October, 1984**
+
+
+- **September, 1961**
+
+
+- **September, 1961**
+
+
+- **September, 1963**
+
+
+- **September, 1963**
+
+
+- **September, 1982**
+
+
+- **September, 1982**
+
+
+- **September, 1994**
+
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

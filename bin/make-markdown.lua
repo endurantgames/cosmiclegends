@@ -81,7 +81,7 @@ local function split(str, pat)
    return t
 end
 
--- =====================================================================================================================
+-- ==================================================================================
 -- code by GianlucaVespignani - 2012-03-04; 2013-01-26
 -- Search files in a path, alternative in sub directory
 -- @param dir_path string (";" for multiple paths supported)
@@ -308,7 +308,6 @@ local function unpack_yaml_tree(yaml_tree, comment)
       flat_tree[k] = v;
   end;
 
-  -- vprint(comment .. ":after", tprint(flat_tree));
   return flat_tree;
 
 end;
@@ -327,7 +326,7 @@ local function get_sorted_keys(t)
   local n    = 0;
   for k, v in pairs(t)
   do  n       = n + 1;
-      vprint("==============", "===============");
+      -- vprint("==============", "===============");
       if     type(k) == "string"
       then   keys[n] = k;
              table.insert(keys, k);
@@ -385,26 +384,15 @@ local function yaml_char_group(bio_group_affiliation)
 
                   local memdata_string = table.concat(gdata, ", ");
                   str = str .. " (" .. memdata_string .. ")";
-           -- elseif gstatus.active
-           -- then   vprint("active member:", str);
-           -- else   eprint("no extended data", "for group membership");
-                  -- eprint("DUMP: gstatus", tprint(gstatus));
-           --     os.exit(1);
            end;
            table.insert(group_list, str);
       end;
   end;
-  -- print("exiting loop; markdown NOW is:", markdown);
-  -- print("adding group_list",          #group_list);
-  -- print("list contents are:",         table.concat(group_list, ", "));
   markdown = markdown .. table.concat(group_list, ", ");
-  -- print("done adding group data, markdown NOW is:", markdown);
   return markdown;
 end;
 
 local function yaml_char_relatives(bio_relatives)
-  -- vprint("relatives?", "looking for relatives");
-  -- vprint("dump", tprint(bio_relatives));
   local markdown = "\n- **Known Relatives:** ";
   local relatives = unpack_yaml_tree(bio_relatives, "relatives");
   local rel_list = {};
@@ -711,7 +699,7 @@ local function yaml_sheet_ideals(stats_ideals, sheet_config)
 end;
 
 local function yaml_sheet(yaml_tree)
-  local sheet, metadata, markdown = yaml_common(yaml_tree);
+  local sheet, _, _ = yaml_common(yaml_tree);
   if   not sheet or not type(sheet) == "table"
   then return "" end;
 
@@ -1092,33 +1080,34 @@ local function get_item_formatter_func(metadata)
   -- local item_formatter, if_error = get_item_formatter_func(metadata);
   --
   -- vprint("looking for item_formatter");
-  if not metadata then eprint("Error! Metadata", type(metadata)); end;
+  if not metadata
+  then   eprint("Error! Metadata", type(metadata));
+         os.exit(1);
+  end;
+
   local metadata_keys = get_sorted_keys(metadata);
 
   if     not metadata_keys
-  then   eprint("metadata_keys", metadata_keys);
-         os.exit(1);
+  then   eprint("MISSING: metadata_keys", metadata_keys);
   elseif not type(metadata_keys) == "table"
-  then   eprint("type(metadata_keys)", type(metadata_keys));
+  then   eprint("NOT TABLE: type(metadata_keys)", type(metadata_keys));
          os.exit(1);
   end;
-  vprint("metadata keys", inspect(metadata_keys));
-
-  -- if   not metadata.flat
-  -- then eprint("Error! Metadata", "not flattened");
-  -- end;
+  -- vprint("metadata keys", inspect(metadata_keys));
 
   local item_format = metadata and metadata["item-format"];
 
   if   not item_format
   then eprint("no item format?!", item_format);
        return format_yaml.unknown, true
+  else vprint("YAY: found item format:", item_format);
   end;
 
   local item_formatter = format_yaml["item:" .. item_format];
   if   not item_formatter
   then eprint("no item formatter?! for ...", item_format);
        return format_yaml.unknown, true
+  else vprint("YAY: found item formatter:", item_format);
   end;
 
   return item_formatter, false
@@ -1126,7 +1115,7 @@ end;
 
 local function yaml_list(yaml_tree)
   vprint("yaml xformat is:", "list");
-  local flat_tree, metadata, slurped, common_error = yaml_common(yaml_tree);
+  local flat_tree, metadata, slurped = yaml_common(yaml_tree);
   local errors = 0;
   if metadata == {} then metadata = nil; end;
 
@@ -1162,20 +1151,18 @@ local function yaml_list(yaml_tree)
 
   local item_list = flat_tree.list;
 
-  local keys;
-
   if   item_list
-  then vprint("found the items list", item_list);
+  then -- vprint("found the items list", item_list);
        item_list  = unpack_yaml_tree(item_list, "item list");
        local keys = get_sorted_keys(item_list);
        local item_formatter, if_error = get_item_formatter_func(metadata);
        if   if_error
        then errors = errors + 1;
-       else vprint("keys:", inspect(keys));
+       else -- vprint("keys:", inspect(keys));
             for _, k in pairs(keys)
             do  local data = item_list[k];
                 local term = k;
-                vprint("term is", k);
+                -- vprint("term is", k);
                 if   not data
                 then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST");
                      errors = errors + 1;
@@ -1183,21 +1170,22 @@ local function yaml_list(yaml_tree)
                 end; -- not data
 
                 if   data.definite
-                then vprint("===================", "---------------------");
-                     vprint("definite article on", term);
+                then -- vprint("===================", "---------------------");
+                     -- vprint("definite article on", term);
                      term = "The " .. term;
-                     vprint("===================", "---------------------");
+                     -- vprint("===================", "---------------------");
                 end;
                 slurped         = slurped .. "\n- **" .. term .. "**";
                 local item_info = item_formatter(data);
-                vprint("defined list entry " .. term, item_info);
-                if   not item_info
-                then eprint("***** start *****", "******************");
-                     vprint("item_info is nil for", term);
-                     vprint(term, inspect(item_info));
-                     eprint("*****************", "******** end *****");
-                end;
-                slurped         = slurped .. inspect(item_info);
+                -- vprint("defined list entry " .. term, item_info);
+                -- if   not item_info
+                -- then eprint("***** start *****", "******************");
+                     -- vprint("item_info is nil for", term);
+                     -- vprint(term, inspect(item_info));
+                     -- eprint("*****************", "******** end *****");
+                -- end;
+		vprint("item_info is...", inspect(item_info));
+                slurped         = slurped .. item_info;
             end; -- for pairs
        -- else eprint("no item list?!", "???");
        --      errors = errors + 1;
@@ -1256,16 +1244,16 @@ local function yaml_glossary(yaml_tree)
       then
            vprint("term", term);
            vprint("data", data);
-           local glossary_data = unpack_yaml_tree(data, term);
-           local def           = glossary_data.def
-           local hq_equiv      = glossary_data.hq_equiv;
+           local glossary_data =  unpack_yaml_tree(data, term);
+           local def           =  glossary_data.def
+           local hq_equiv      =  glossary_data.hq_equiv;
            if   type(hq_equiv) == "table"
-           then hq_equiv       = unpack_yaml_tree(hq_equiv, term .. ".hq_equiv");
-                hq_equiv       = hq_equiv.term; end;
-           local generic_equiv = glossary_data.generic_equiv;
+           then hq_equiv       =  unpack_yaml_tree(hq_equiv, term .. ".hq_equiv");
+                hq_equiv       =  hq_equiv.term; end;
+           local generic_equiv =  glossary_data.generic_equiv;
            if   type(generic_equiv) == "table"
-           then generic_equiv  = unpack_yaml_tree(generic_equiv, term .. ".generic_equiv");
-                generic_equiv  = generic_equiv.term;
+           then generic_equiv  =  unpack_yaml_tree(generic_equiv, term .. ".generic_equiv");
+                generic_equiv  =  generic_equiv.term;
            end;
            if   def and type(def) == "string"
            then vprint(term, def);
@@ -1274,9 +1262,9 @@ local function yaml_glossary(yaml_tree)
                 vprint(term .. " means:", def);
                 slurped = slurped .. term .. "\n";
                 slurped = slurped .. ":   " .. def;
-           else vprint("==============", "===============");
-                vprint("ERROR " .. term, "no def");
-                -- print(inspect(glossary_data));
+           -- else vprint("==============", "===============");
+           --      vprint("ERROR " .. term, "no def");
+           --      print(inspect(glossary_data));
            end;
            if     (hq_equiv and type(hq_equiv) == "string") and
                   (generic_equiv and type(generic_equiv) == "string")
@@ -1306,7 +1294,7 @@ end;
 
 local function yaml_place(yaml_tree)
   vprint("yaml xformat is:", "item:location");
-  local place, metadata, slurped, common_error = yaml_common(yaml_tree);
+  local place, _, slurped = yaml_common(yaml_tree);
   if   place.where
   then vprint("place.where", place.where);
        slurped = slurped .. " (*" .. place.where .. "*)";
@@ -1324,7 +1312,7 @@ local function yaml_place(yaml_tree)
 end;
 
 local function yaml_event(yaml_tree)
-  vprint("yaml xformat is:", "item:timeline_event");
+  -- vprint("yaml xformat is:", "item:event");
   local event, _, slurped, _ = yaml_common(yaml_tree);
   local elist = {};
 
@@ -1341,17 +1329,19 @@ local function yaml_event(yaml_tree)
   end;
 
   if   #elist > 1
-  then slurped = slurped .. " (" .. table.concat(elist, "; ");
+  then slurped = slurped .. " (" .. table.concat(elist, "; ") .. ")";
   end;
 
-  vprint("event data: ", slurped);
+  -- vprint("event data: ", slurped);
   return slurped;
 end;
 
 local function yaml_group(yaml_tree)
-  vprint("yaml xformat is:", "item:group");
+  -- vprint("yaml xformat is:", "item:group");
   local group, _, slurped, _ = yaml_common(yaml_tree);
-  local status = group.active and " " or group.disbanded and " *defunct* " or " *status unknown* ";
+  local status = group.active    and " "
+              or group.disbanded and " *defunct* "
+	      or " *status unknown* ";
   slurped = (slurped or "") .. status;
 
   if   group.bio
@@ -1399,7 +1389,7 @@ local function yaml_group(yaml_tree)
                           -- if rep.gender then member_entry = member_entry .. "[]{.icon-" .. rep.gender .. "}";  end;
                           -- if rep.aka    then member_entry = member_entry .. " (" .. rep.aka .. ") ";           end;
                           member_entry = member_entry .. "]";
-                     else                    member_entry = member_entry .. " [ represented by: *no one* ]"
+                     else member_entry = member_entry .. " [ represented by: *no one* ]"
                      end; -- not rep.name none
                 end; -- member.active and member.rep == table
             end; -- for name, member
@@ -1420,7 +1410,7 @@ format_yaml["character-sheet"]      = yaml_sheet;
 format_yaml["item:minor-character"] = yaml_minor_character;
 format_yaml["item:location"]        = yaml_place;
 format_yaml["item:group"]           = yaml_group;
-format_yaml["item:timeline"]        = yaml_event;
+format_yaml["item:timeline-entry"]  = yaml_event;
 
 local function slurp_yaml(filename)
 
@@ -1431,27 +1421,30 @@ local function slurp_yaml(filename)
 
   local yaml_source = slurp(filename, true);
 
-  vprint("Reading YAML file now", yaml_source:len() .. " bytes");
+  local yaml_size = yaml_source:len() .. " bytes";
+
+  -- vprint("Reading YAML file now", yaml_size);
 
   local yaml_tree, metadata = {}, {};
   local success, xformat;
 
   if   yaml_source
-  then vprint("size of yaml_source", string.len(yaml_source) .. " bytes");
+  then vprint("size of yaml_source", yaml_size);
+       success = true;
   end;
 
   if   type(yaml_source) == "string"
   then
-       vprint("Successfully read YAML file:", filename);
-       vprint("YAML source size",             yaml_source:len() .. " bytes");
-       vprint("Attempting to parse", yaml_source:len() .. " bytes");
+       -- vprint("Successfully read YAML file:", filename);
+       -- vprint("YAML source size",             yaml_size);
+       -- vprint("Attempting to parse",          yaml_size);
        yaml_tree = lyaml.load(yaml_source);
   else eprint("Couldn't read yaml:",          filename);
        success = false;
   end;
 
   if   success and yaml_tree and yaml_tree ~= {}
-  then vprint("Successfully parsed ", filename .. " to yaml_tree");
+  then -- vprint("Successfully parsed ", filename .. " to yaml_tree");
   else eprint("Couldn't parse yaml:", filename);
        success = false;
        os.exit(1);
@@ -1473,10 +1466,7 @@ local function slurp_yaml(filename)
 
   if   not xformat
   then eprint("metadata has no x-format", ":( :(");
-       success = false;
-       xformat = nil;
        return "";
-  -- else vprint("metadata has x-format!", xformat);
   end;
 
   local parse_func, slurped;
@@ -1486,7 +1476,7 @@ local function slurp_yaml(filename)
        parse_func = format_yaml.unknown;
        slurped    = parse_func(yaml_tree);
   else -- vprint("Known x-format:",       xformat);
-       vprint("Parsing with x-format", "format_yaml[" .. xformat .. "]");
+       -- vprint("Parsing with x-format", "format_yaml[" .. xformat .. "]");
        parse_func = format_yaml[xformat];
        slurped    = parse_func(flat_tree);
        success    = slurped and slurped ~= "";
@@ -1512,7 +1502,7 @@ local USED   = {};
 local ERR    = {};
 
 local function load_fs()
-  files, dirs = file_search(CONFIG.src_dir, CONFIG.ext.filter, true)
+  local files, dirs = file_search(CONFIG.src_dir, CONFIG.ext.filter, true)
   for k, v in pairs(dirs)
     do
       if string.find(v.path, CONFIG.ignore) then vprint("Skipping directory", v.name); break end;
@@ -1527,97 +1517,94 @@ local function load_fs()
       if string.find(v.name, "%" .. CONFIG.ext.markdown .. "$")
       or string.find(v.name, "%" .. CONFIG.ext.yaml     .. "$")
          then local filename = slug(v.path..v.name);
-              local pathdirs = split(filename, "/");
+              -- local pathdirs = split(filename, "/");
               FILES[filename] = true;
           end;
       end;
   return files, dirs;
   end;
 
-local TEMPLATE = { };
+local TEMPLATE = {};
 
 local function parse_line(line)
   local asterisk, template = false;
   line = string.gsub(line, "/$", "");
-  -- vprint("parsing line:", line);
-  if string.find(line, "/%*$")
-     then asterisk = true;
-          line = string.gsub(line, "/%*$", "");
-          end;
-  if string.find(line, "/?::[a-z]+$")
-     then
-          vprint("looks like a template", line);
-          template = string.match(line, "/?::([a-z]+)$");
-          vprint("i think it's this template", template);
-          line = string.gsub(line, "/?::[a-z]+$", "");
-          if not TEMPLATE[template]
-             then template = nil;
-                  vprint("the template doesn't exist")
-             else vprint("the template DOES exit!")
-             end;
-          end;
-  if string.find(line, "^>")
-    then --
-           local outfile = string.gsub(line, "^>%s*", "");
-           outfile = string.gsub(outfile, ".out$", "");
-           CONFIG.outfile = outfile;
-           vprint("setting the output file", "\"" .. outfile .. "\"");
-    elseif string.find(line, "^#")
-    then   -- vprint("comment", line);
-    elseif DIRS[line]
-    then   --
-           vprint("found a directory", line);
-           vprint("looking for index", line .. "/" .. CONFIG.index);
-           parse_line(line .. "/" .. CONFIG.index);
 
-           if   template
-           then vprint("found a template call", line .. "/::" .. template);
-                for k, v in pairs(TEMPLATE[template])
-                do  parse_line(v(line));
-                end;
-           end;
+  if   string.find(line, "/%*$")
+  then asterisk = true;
+       line = string.gsub(line, "/%*$", "");
+  end;
 
-           if   asterisk
-           then vprint("found a /* construction", line .. "/*");
-                local dir = CONFIG.src_dir .. "/" .. line;
-                vprint("looking for files in ", dir)
-                local md_files, _ = file_search(dir, CONFIG.ext.filter);
+  if   string.find(line, "/?::[a-z]+$")
+  then vprint("looks like a template", line);
+       template = string.match(line, "/?::([a-z]+)$");
+       vprint("i think it's this template", template);
+       line = string.gsub(line, "/?::[a-z]+$", "");
+       if not TEMPLATE[template]
+       then   template = nil;
+              vprint("the template doesn't exist")
+       else   vprint("the template DOES exit!")
+       end;
+  end;
+  
+  if     string.find(line, "^>")
+  then   --
+         local outfile = string.gsub(line, "^>%s*", "");
+         outfile = string.gsub(outfile, ".out$", "");
+         CONFIG.outfile = outfile;
+         vprint("setting the output file", "\"" .. outfile .. "\"");
+  elseif string.find(line, "^#")
+  then   vprint("comment", line);
+  elseif DIRS[line]
+  then   --
+         vprint("found a directory", line);
+         vprint("looking for index", line .. "/" .. CONFIG.index);
+         parse_line(line .. "/" .. CONFIG.index);
 
-                vprint("found this many", #md_files .. " files");
-                for k, v in pairs(md_files)
-                do  local sl = v.name;
-                    sl = string.gsub(sl, "%" .. CONFIG.ext.filter .. "$", "");
-                    parse_line(line .. "/" .. sl)
-                end; -- for
-           end; -- if asterisk
-    elseif not USED[line]
-           and (FILES[line] or FILES[line .. CONFIG.ext.yaml] or FILES[line .. CONFIG.ext.markdown])
-    then   -- vprint("found an entry", line);
-           local md_file   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown;
-           local yaml_file = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.yaml;
-           if     file_exists(yaml_file)
-           then   -- vprint("found yaml", yaml_file);
-                  table.insert(BUILD, yaml_file)
-                  -- vprint("added to BUILD list", yaml_file);
-                  USED[line] = true;
-           elseif file_exists(md_file)
-           then   table.insert(BUILD, md_file)
-                  -- vprint("found markdown", md_file);
-                  USED[line] = true;
-           else   eprint("failed to find:", yaml_file .. "/" .. md_file);
-           end;
-    elseif FILES[line] and USED[line]
-    then   -- vprint("skipping used entry", line);
-    else   vprint("trying to find this",    line);
-           local md_file   = line .. CONFIG.ext.markdown;
-           local yaml_file = line .. CONFIG.ext.yaml;
-           vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope");
-           vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :(");
-           vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :(");
-           vprint("USED["  .. line      .. "]:", USED[line]       or "nope :( :( :(");
-           vprint("> no further info on:", line);
-           table.insert(ERR, line);
-    end;
+         if   template
+         then vprint("found a template call", line .. "/::" .. template);
+              for k, v in pairs(TEMPLATE[template])
+              do  parse_line(v(line));
+              end;
+         end;
+
+         if   asterisk
+         then vprint("found a /* construction", line .. "/*");
+              local dir = CONFIG.src_dir .. "/" .. line;
+              vprint("looking for files in ", dir)
+              local md_files, _ = file_search(dir, CONFIG.ext.filter);
+
+              vprint("found this many", #md_files .. " files");
+              for k, v in pairs(md_files)
+              do  local sl = v.name;
+                  sl = string.gsub(sl, "%" .. CONFIG.ext.filter .. "$", "");
+                  parse_line(line .. "/" .. sl)
+              end; -- for
+         end; -- if asterisk
+  elseif not USED[line]
+         and (FILES[line] or FILES[line .. CONFIG.ext.yaml] or FILES[line .. CONFIG.ext.markdown])
+  then   local md_file   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown;
+         local yaml_file = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.yaml;
+         if     file_exists(yaml_file)
+         then   table.insert(BUILD, yaml_file)
+                USED[line] = true;
+         elseif file_exists(md_file)
+         then   table.insert(BUILD, md_file)
+                USED[line] = true;
+         else   eprint("failed to find:", yaml_file .. "/" .. md_file);
+         end;
+    --elseif FILES[line] and USED[line]
+    --then   vprint("skipping used entry", line);
+  else   vprint("trying to find this",    line);
+         local md_file   = line .. CONFIG.ext.markdown;
+         local yaml_file = line .. CONFIG.ext.yaml;
+         vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope");
+         vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :(");
+         vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :(");
+         vprint("USED["  .. line      .. "]:", USED[line]       or "nope :( :( :(");
+         vprint("> no further info on:", line);
+         table.insert(ERR, line);
+  end;
 end;
 
 
@@ -1635,7 +1622,7 @@ local function recipe_list()
     os.exit(1);
 end;
 
--- ===============================================================================
+-- =====================================================================
 -- Command line interface
 -- https://lua-cliargs.netlify.com/#/
 
@@ -1646,51 +1633,37 @@ cli:splat("RECIPE", "the recipe to build", "", 1);
 -- cli:argument("RECIPE", "the recipe to build");
 
 cli:option("-o, --outfile=OUTFILE", "specify the outfile");
-
-cli:flag("-v, --verbose",     "be more wordy than usual",  false);
-cli:flag("-q, --quiet",       "don't summarize each step", false);
-cli:flag("-l, --list",        "list the known recipes",    false);
-cli:flag("-e, --[no-]errors", "show errors",               true );
+cli:flag(  "-v, --verbose",         "be more wordy than usual",  false);
+cli:flag(  "-q, --quiet",           "don't summarize each step", false);
+cli:flag(  "-l, --list",            "list the known recipes",    false);
+cli:flag(  "-e, --[no-]errors",     "show errors",               true );
 
 local args, err = cli:parse(arg);
 
-if not args
-then   cli:print_help();
-       os.exit(1);
-end;
+if not args then cli:print_help(); os.exit(1); end;
 
 if   err
 then print(string.format("%s: %s", cli.name, err));
      os.exit(1);
 end;
 
-if   args and args.list
-then recipe_list()
-end;
-
-if args.quiet   then CONFIG.summary = false else CONFIG.summary = true;  end;
-if args.verbose then CONFIG.verbose = true  else CONFIG.verbose = false; end;
-if args.errors  then CONFIG.errors  = true  else CONFIG.errors  = false; end;
-
-if   args.RECIPE
-then CONFIG.recipe  = args.RECIPE;
-     CONFIG.outfile = args.RECIPE;
-end;
-
-if   args.outfile
-then CONFIG.outfile = args.outfile
-end;
+if args and args.list then recipe_list()                                               end;
+if args.quiet         then CONFIG.summary = false else CONFIG.summary = true;          end;
+if args.verbose       then CONFIG.verbose = true  else CONFIG.verbose = false;         end;
+if args.errors        then CONFIG.errors  = true  else CONFIG.errors  = false;         end;
+if args.RECIPE        then CONFIG.recipe  = args.RECIPE; CONFIG.outfile = args.RECIPE; end;
+if args.outfile       then CONFIG.outfile = args.outfile                               end;
 
 --
 
--- ============================================================================
+-- =======================================================================
 -- Everything above this is initializion
--- ============================================================================
--- ============================================================================
--- ============================================================================
--- ============================================================================
+-- =======================================================================
+-- =======================================================================
+-- =======================================================================
+-- =======================================================================
 
--- start run ------------------------------------------------------------------
+-- start run -------------------------------------------------------------
 vprint("Running in verbose mode");
 sprint("Showing summaries");
 
@@ -1706,25 +1679,17 @@ sprint("recipe read", #recipe .. " lines");
 sprint("Loading the filesystem map", "source = " .. CONFIG.src_dir );
 load_fs();
 sprint("Filesystem mapped.");
--- tprint(FILES, 1);
 
 -- parse the recipe
 for _, i in pairs(recipe) do parse_line(i) end;
 
--- sprint("Recipe loaded.", "file complete");
-
 -- ready now to read files
 sprint("reading/parsing files now", #BUILD .. " files");
 for _, v in pairs(BUILD)
-do  -- vprint("File found in BUILD", v);
-    if     v:find("%" .. CONFIG.ext.yaml .. "$")
-    then   -- vprint("It has a yaml extension", CONFIG.ext.yaml);
-           -- vprint("slurping YAML file", v);
-           outtxt = outtxt .. slurp_yaml(v);
+do  if     v:find("%" .. CONFIG.ext.yaml .. "$")
+    then   outtxt = outtxt .. slurp_yaml(v);
     elseif v:find("%" .. CONFIG.ext.markdown .. "$")
-    then   -- vprint("It has a markdown extension", CONFIG.ext.markdown);
-           -- vprint("slurping markdown file", v .. CONFIG.ext.markdown);
-           outtxt = outtxt .. slurp(v, false, false)
+    then   outtxt = outtxt .. slurp(v, false, false)
     end;
 end;
 
