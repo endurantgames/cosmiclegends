@@ -6,8 +6,7 @@
   - "list-class":  timeline-list
   - "item-class":  timeline-entry
   - "order-index": order
-- text: |
-    This is a timeline of the major events in the Cosmic Legends Universe.
+- text: This is a timeline of the major events in the history of the Cosmic Legends Universe.
 - list:
   - "14 billion years ago":
     - order: 1

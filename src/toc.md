@@ -90,6 +90,7 @@
   - <a href="#toc-setting-clotu"></a>
     - <a href="#toc-setting-jloa"></a>
   - <a href="#toc-setting-whatswhat"></a>
+    - <a href="#toc-setting-timeline"></a>
 - <a href="#toc-editor"></a>
   - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>

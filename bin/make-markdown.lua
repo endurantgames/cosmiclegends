@@ -1184,7 +1184,7 @@ local function yaml_list(yaml_tree)
                      -- vprint(term, inspect(item_info));
                      -- eprint("*****************", "******** end *****");
                 -- end;
-		vprint("item_info is...", inspect(item_info));
+		-- vprint("item_info is...", inspect(item_info));
                 slurped         = slurped .. item_info;
             end; -- for pairs
        -- else eprint("no item list?!", "???");

@@ -132,6 +132,7 @@ title: Cosmic Legends of the Universe
   - <a href="#toc-setting-clotu"></a>
     - <a href="#toc-setting-jloa"></a>
   - <a href="#toc-setting-whatswhat"></a>
+    - <a href="#toc-setting-timeline"></a>
 - <a href="#toc-editor"></a>
   - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>
@@ -463,6 +464,12 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **3.77 billion years ago**
 
 
+- **3.77 billion years ago**
+
+
+- **3.8 billion years ago**
+
+
 - **3.8 billion years ago**
 
 
@@ -499,9 +506,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **8.5 billion years ago**
 
 
-- **8.5 billion years ago**
-
-
 - **9.2 billion years ago**
 
 
@@ -541,13 +545,13 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **August, 1940**
 
 
-- **August, 1940**
-
-
 - **August, 1945**
 
 
 - **August, 1945**
+
+
+- **August, 1952**
 
 
 - **August, 1952**
@@ -592,6 +596,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **January, 1957**
 
 
+- **January, 1957**
+
+
 - **July, 1947**
 
 
@@ -601,22 +608,10 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **July, 1949**
 
 
-- **July, 1949**
-
-
-- **July, 1964**
-
-
 - **July, 1964**
 
 
 - **July, 1966**
-
-
-- **July, 1966**
-
-
-- **June, 1938**
 
 
 - **June, 1938**
@@ -649,9 +644,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **March, 1961**
 
 
-- **March, 1961**
-
-
 - **March, 1964**
 
 
@@ -668,9 +660,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **March, 2020**
-
-
-- **May, 1910**
 
 
 - **May, 1910**
@@ -691,6 +680,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **May, 1987**
 
 
+- **May, 1987**
+
+
 - **May, 2003**
 
 
@@ -701,6 +693,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **November, 1944**
+
+
+- **November, 1956**
 
 
 - **November, 1956**
@@ -727,6 +722,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **November, 1981**
 
 
+- **November, 1981**
+
+
 - **October, 1946**
 
 
@@ -748,13 +746,13 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **October, 1965**
 
 
-- **October, 1978**
+- **October, 1965**
 
 
 - **October, 1978**
 
 
-- **October, 1984**
+- **October, 1978**
 
 
 - **October, 1984**
@@ -776,6 +774,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **September, 1982**
+
+
+- **September, 1994**
 
 
 - **September, 1994**
