@@ -62,6 +62,7 @@
       - active: false
     - "St. Helena Island":
       - temporary: true
+      - status: "1900"
   - height: "5' 6\""
   - weight: "170 lbs."
   - eyes: brown

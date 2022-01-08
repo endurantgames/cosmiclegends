@@ -154,7 +154,7 @@ PDFINFO_GREP = | /bin/grep -v "no"
 #   Edit: you can turn off quiet or verbose mode
 # MAKE_MD    = $(MMD) -q -- quiet
 # MAKE_MD    = $(MMD) -v -- verbose
-MAKE_MD      = $(MMD) -q
+MAKE_MD      = $(MMD) -v
 MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
@@ -309,8 +309,7 @@ ls-back:
 #
 # make markdown
 #   Edit: if you are making multiple docs
-# markdown: yaml-lint
-markdown: 
+markdown: yaml-lint
 	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
 	@       $(MAKE_MD) $(PROJ_RECIPE)
 

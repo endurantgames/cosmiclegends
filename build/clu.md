@@ -387,9 +387,9 @@ need, she can form a sword of blazing light.
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister), Lamorak[]{.icon-male} (brother, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Algovale[]{.icon-male} (brother, *deceased*)
-- **Base of Operations:** Sun City, U.S.A.; St. Helena Island (temporarily); New York City, New York (current); Camelot, England (formerly)
-- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct), A.L.E.R.T. (reserve operative)
+- **Known Relatives:** King Pellinore[]{.icon-male} (father, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister)
+- **Base of Operations:** Camelot, England (formerly); St. Helena Island (temporarily, 1900); New York City, New York (current); Sun City, U.S.A.
+- **Group Affiliation:** A.L.E.R.T. (reserve operative), Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -456,3 +456,41 @@ completes his quest and finds the Grail.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Other Groups {#setting-other-groups}
+:::::::::::::::::::::::::::::::::::other-list:::::::::::::::::::::::::::::::::::
+- **The Aos Sí**"\n\n *status unknown* "
+- **The Aos Sí**"\n\n *status unknown* "
+- **Atomicorps**"\n\n *status unknown* "
+- **Atomicorps**"\n\n *status unknown* "
+- **The Crime Institute**"\n\n *status unknown* "
+- **The Crime Institute**"\n\n *status unknown* "
+- **The Firbolgs**"\n\n *status unknown* "
+- **The Firbolgs**"\n\n *status unknown* "
+- **The Fomorians**"\n\n *status unknown* "
+- **The Fomorians**"\n\n *status unknown* "
+- **The Foreigners**"\n\n *status unknown* "
+- **The Foreigners**"\n\n *status unknown* "
+- **The G.I. Dinosaurs**"\n\n *status unknown* "
+- **The G.I. Dinosaurs**"\n\n *status unknown* "
+- **The Interstellar Consortium of Civilizations**"\n\n *status unknown* "
+- **The Interstellar Consortium of Civilizations**"\n\n *status unknown* "
+- **The Junior Legends of America**"\n\n *status unknown* "
+- **The Junior Legends of America**"\n\n *status unknown* "
+- **The Kyl'Sh'Tal**"\n\n *status unknown* "
+- **The Kyl'Sh'Tal**"\n\n *status unknown* "
+- **The Ro'Tan'Okk**"\n\n *status unknown* "
+- **The Ro'Tan'Okk**"\n\n *status unknown* "
+- **The Specialists**"\n\n *status unknown* "
+- **The Specialists**"\n\n *status unknown* "
+- **Sun City University**"\n\n *status unknown* "
+- **Sun City University**"\n\n *status unknown* "
+- **T.R.E.L.A.**"\n\n *status unknown* "
+- **T.R.E.L.A.**"\n\n *status unknown* "
+- **The Visitors**"\n\n *status unknown* "
+- **The Visitors**"\n\n *status unknown* "
+- **The Vulcanor Royal Family**"\n\n *status unknown* "
+- **The Vulcanor Royal Family**"\n\n *status unknown* "
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

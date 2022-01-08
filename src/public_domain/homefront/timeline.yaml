@@ -1,8 +1,10 @@
 - metadata:
-  - "x-format": timeline
-  - title: A Timeline of the Cosmic Legends Universe
-  - anchor: setting-timeline
+  - "x-format":    timeline
+  - title:         A Timeline of the Cosmic Legends Universe
+  - anchor:        setting-timeline
   - "item-format": timeline-entry
+  - "item-class":  timeline-entry
+  - "list-class":  timeline-list
 - text: |
     This is a timeline of the major events in the Cosmic Legends Universe.
 - list:
@@ -39,13 +41,13 @@
         Gravity causes matter in a molecular cloud to coalesce into the Sun and planets of the Solar System.
     - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Epochs_of_the_formation_of_the_solar_system
   - "8.5 billion years ago":
-   - where: Andromeda
-   - what: The Christmas Burst
-   - desc: |
-       "Visitor explorers trigger a 28-minute gamma burst to alert their homeworld of the discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
+    - where: Andromeda
+    - what: The Christmas Burst
+    - desc: |
+        "Visitor explorers trigger a 28-minute gamma burst to alert their homeworld of the discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
 
-       Earth-based scientists would later record the burst on Christmas day, 2010."
-   - url: https://en.wikipedia.org/wiki/GRB_101225A
+        Earth-based scientists would later record the burst on Christmas day, 2010."
+    - url: https://en.wikipedia.org/wiki/GRB_101225A
   - "4 to 4.6 billion years ago":
     - where: The planet Earth
     - what: The Hadean Eon
@@ -271,7 +273,7 @@
     - note: "Date corresponds to the publication of Captain America's Weird Tales #75, the final issue of Captain America in the Golden Age."
   - "August, 1952":
     - where: Boston, Massachusetts
-    - what: Last Public Appearance of John Dee: Master Magister
+    - what: "Last Public Appearance of John Dee: Master Magister"
     - desc: |
         "After August of 1952, John Dee withdrew from public life to spend more time with his
         family."
@@ -360,8 +362,8 @@
         "Titan, Percival, Maddie Dee, Sequana, Vespa (I), and the Falconer form the 
         Cosmic Legends of the Universe team to oppose the invasion of Earth by 
         Xana Mega and her Aos Sí armies."
-     - cf: Cosmic Legends of the Universe
-     - note: "Date corresponds to Avengers #1 and X-Men #1."
+    - cf: Cosmic Legends of the Universe
+    - note: "Date corresponds to Avengers #1 and X-Men #1."
   - "March, 1964":
     - where: "Sun City, U.S.A."
     - what: Obsidius Rex joins the Cosmic Legends

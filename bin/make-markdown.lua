@@ -191,6 +191,7 @@ local function file_search(dir_path, filter, s, pformat)
                 end
         end
         return files,dirs
+end
 
         --[=[        ABOUT ATTRIBUTES
 > for k,v in pairs(a) do print(k..' \t'..v..'') end
@@ -206,7 +207,6 @@ mode    file
 modification    1181692021 -- Date of Last Modification
 size    805 in byte
         ]=]
-end
 
 local function vprint(s, l) if CONFIG.verbose then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 local function eprint(s, l) if CONFIG.errors  then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
@@ -331,7 +331,6 @@ local function get_sorted_keys(t)
       if     type(k) == "string"
       then   keys[n] = k;
              table.insert(keys, k);
-      else   eprint("OOPS type(" .. k .. ")", type(k));
       end;
   end;
   table.sort(keys, ignore_case);
@@ -469,16 +468,16 @@ local function yaml_char_base(bio_base)
              local str          = base_name;
              local base_details = {};
 
-             if   #bases > 1 and data.active 
-             then table.insert(base_details, "current");   
+             if   #bases > 1 and data.active
+             then table.insert(base_details, "current");
              end;
 
-             if   data.former                
-             then table.insert(base_details, "formerly");  
+             if   data.former
+             then table.insert(base_details, "formerly");
              end;
 
-             if   data.temporary             
-             then table.insert(base_details, "temporarily"); 
+             if   data.temporary
+             then table.insert(base_details, "temporarily");
              end;
 
 	     if   data.status
@@ -1105,10 +1104,12 @@ local function get_item_formatter_func(metadata)
   end;
   vprint("metadata keys", inspect(metadata_keys));
 
-  if   not metadata.flat
-  then eprint("Error! Metadata", "not flattened");
-  end;
+  -- if   not metadata.flat
+  -- then eprint("Error! Metadata", "not flattened");
+  -- end;
+
   local item_format = metadata and metadata["item-format"];
+
   if   not item_format
   then eprint("no item format?!", item_format);
        return format_yaml.unknown, true
@@ -1121,9 +1122,6 @@ local function get_item_formatter_func(metadata)
   end;
 
   return item_formatter, false
-end;
-
-local function get_item_list(yaml_tree)
 end;
 
 local function yaml_list(yaml_tree)
@@ -1309,20 +1307,61 @@ end;
 local function yaml_place(yaml_tree)
   vprint("yaml xformat is:", "item:location");
   local place, metadata, slurped, common_error = yaml_common(yaml_tree);
-  if place.where then vprint("place.where", place.where); slurped = slurped .. " (*" ..          place.where .. "*)"; end;
-  if place.bio   then vprint("place.bio", place.bio);     slurped = slurped ..                   place.bio            end;
-  if place.cf    then vprint("place.cf", place.cf);       slurped = slurped .. "; also see *" .. place.cf .. "*";     end;
+  if   place.where
+  then vprint("place.where", place.where);
+       slurped = slurped .. " (*" .. place.where .. "*)";
+  end;
+  if   place.bio
+  then vprint("place.bio", place.bio);
+       slurped = slurped .. place.bio
+  end;
+  if   place.cf
+  then vprint("place.cf", place.cf);
+       slurped = slurped .. "; also see *" .. place.cf .. "*";
+  end;
   vprint("place data: ", slurped);
+  return slurped;
+end;
+
+local function yaml_event(yaml_tree)
+  vprint("yaml xformat is:", "item:timeline_event");
+  local event, _, slurped, _ = yaml_common(yaml_tree);
+  local elist = {};
+
+  if   event.where
+  then table.insert(elist, event.where);
+  end;
+
+  if   event.desc
+  then table.insert(elist, event.desc);
+  end;
+
+  if   event.cf
+  then table.insert(elist, "See also: *" .. event.cf .. "*");
+  end;
+
+  if   #elist > 1
+  then slurped = slurped .. " (" .. table.concat(elist, "; ");
+  end;
+
+  vprint("event data: ", slurped);
   return slurped;
 end;
 
 local function yaml_group(yaml_tree)
   vprint("yaml xformat is:", "item:group");
-  local group, metadata, slurped, common_error = yaml_common(yaml_tree);
+  local group, _, slurped, _ = yaml_common(yaml_tree);
   local status = group.active and " " or group.disbanded and " *defunct* " or " *status unknown* ";
-  slurped = slurped .. status;
-  if   group.bio                              then slurped = slurped .. group.bio;                    end;
-  if   group.cf and type(group.cf) == "table" then slurped = slurped .. table.concat(group.cf, ", "); end;
+  slurped = (slurped or "") .. status;
+
+  if   group.bio
+  then slurped = slurped .. group.bio;
+  end;
+
+  if   group.cf and type(group.cf) == "table"
+  then slurped = slurped .. table.concat(group.cf, ", ");
+  end;
+
   if   group.members and type(group.members) == "table"
   then local member_list = unpack_yaml_tree(group.members);
        slurped = slurped .. "; Members: ";
@@ -1381,32 +1420,31 @@ format_yaml["character-sheet"]      = yaml_sheet;
 format_yaml["item:minor-character"] = yaml_minor_character;
 format_yaml["item:location"]        = yaml_place;
 format_yaml["item:group"]           = yaml_group;
+format_yaml["item:timeline"]        = yaml_event;
 
 local function slurp_yaml(filename)
 
-  if   filename
-  then -- vprint("Recognized as YAML location", filename);
-  else eprint("Unknown yaml file location", filename);
+  if   not filename
+  then eprint("Unknown yaml file location", filename);
        os.exit(1);
   end;
 
   local yaml_source = slurp(filename, true);
 
-  -- vprint("Reading YAML file now", yaml_source:len() .. " bytes");
+  vprint("Reading YAML file now", yaml_source:len() .. " bytes");
 
   local yaml_tree, metadata = {}, {};
   local success, xformat;
 
-  -- local slurped   = "\n<!-- above: " .. filename .. " -->\n";
-
-  -- if   yaml_source
-  -- then vprint("size of yaml_source", string.len(yaml_source) .. " bytes");
-  -- end;
+  if   yaml_source
+  then vprint("size of yaml_source", string.len(yaml_source) .. " bytes");
+  end;
 
   if   type(yaml_source) == "string"
   then
-       -- vprint("Successfully read YAML file:", filename);
-       -- vprint("YAML source size",             yaml_source:len() .. " bytes");
+       vprint("Successfully read YAML file:", filename);
+       vprint("YAML source size",             yaml_source:len() .. " bytes");
+       vprint("Attempting to parse", yaml_source:len() .. " bytes");
        yaml_tree = lyaml.load(yaml_source);
   else eprint("Couldn't read yaml:",          filename);
        success = false;
@@ -1414,24 +1452,18 @@ local function slurp_yaml(filename)
 
   if   success and yaml_tree and yaml_tree ~= {}
   then vprint("Successfully parsed ", filename .. " to yaml_tree");
-       success = true;
-  else -- eprint("Couldn't parse yaml:", filename);
+  else eprint("Couldn't parse yaml:", filename);
        success = false;
+       os.exit(1);
   end;
-
-  -- vprint("yaml_tree type is", type(yaml_tree));
-  -- vprint("#yaml_tree is",     #yaml_tree     );
 
   local flat_tree = unpack_yaml_tree(yaml_tree, "yaml_tree (initial)");
 
   if   yaml_tree and flat_tree.metadata and type(flat_tree.metadata) == "table"
   then
-       -- vprint("YAML tree has metadata!");
-       -- vprint("metadata type is", type(metadata));
        metadata = unpack_yaml_tree(flat_tree.metadata, "metadata");
        if   metadata["x-format"]
        then xformat = metadata["x-format"];
-            -- vprint("metadata has x-format!", xformat);
        else eprint("metadata has no x-format", ":(");
             os.exit(1);
        end;

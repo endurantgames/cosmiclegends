@@ -3,8 +3,7 @@
   - title:         A Timeline of the Cosmic Legends Universe
   - anchor:        setting-timeline
   - "item-format": timeline-entry
-  - "list-class":  timeline-list
-  - "item-class":  timeline-entry
+  - "list-class":  timeline-entry
 - text: |
     This is a timeline of the major events in the Cosmic Legends Universe.
 - list:

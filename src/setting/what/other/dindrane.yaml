@@ -4,7 +4,7 @@
   - title:            &title Dindrane
   - anchor:           setting-dindrane
 - bio:
-  - name: *title      Dindrane
+  - name:             *title
   - real_name:        Dindrane Pellinore
   - former_aliases:   [Grail, Heliabel, The Grailwitch]
   - occupation:       Sorceress
