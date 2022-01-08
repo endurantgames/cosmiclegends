@@ -422,6 +422,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **13.9 billion years ago**
 
 
+- **13.9 billion years ago**
+
+
 - **14 billion years ago**
 
 
@@ -492,9 +495,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **5th Century, CE**
-
-
-- **6th Century, CE**
 
 
 - **6th Century, CE**
@@ -536,6 +536,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **August, 1900**
 
 
+- **August, 1900**
+
+
 - **August, 1940**
 
 
@@ -564,6 +567,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **August, 1989**
+
+
+- **ca. 1,000 BCE**
 
 
 - **ca. 1,000 BCE**
@@ -605,6 +611,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **July, 1964**
 
 
+- **July, 1964**
+
+
 - **July, 1966**
 
 
@@ -615,9 +624,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **June, 1938**
-
-
-- **June, 1965**
 
 
 - **June, 1965**
@@ -626,13 +632,10 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **June, 1973**
 
 
-- **March, 1941**
+- **June, 1973**
 
 
 - **March, 1941**
-
-
-- **March, 1957**
 
 
 - **March, 1957**
@@ -660,9 +663,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **March, 2020**
-
-
-- **May, 1910**
 
 
 - **May, 1910**
@@ -722,6 +722,9 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **November, 1981**
 
 
+- **November, 1981**
+
+
 - **October, 1946**
 
 
@@ -750,9 +753,6 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 
 
 - **October, 1978**
-
-
-- **October, 1984**
 
 
 - **October, 1984**

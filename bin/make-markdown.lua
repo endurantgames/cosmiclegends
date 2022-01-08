@@ -1316,23 +1316,18 @@ local function yaml_event(yaml_tree)
   local event, _, slurped, _ = yaml_common(yaml_tree);
   local elist = {};
 
-  if   event.where
-  then table.insert(elist, event.where);
-  end;
+  vprint("event is", inspect(event));
 
-  if   event.desc
-  then table.insert(elist, event.desc);
-  end;
-
-  if   event.cf
-  then table.insert(elist, "See also: *" .. event.cf .. "*");
-  end;
+  if   event.where then table.insert(elist, event.where                     ); vprint("where", event.where); end;
+  if   event.desc  then table.insert(elist, event.desc                      ); vprint("desc",  event.desc ); end;
+  if   event.cf    then table.insert(elist, "See also: *" .. event.cf .. "*"); vprint("cf",    event.cf   ); end;
 
   if   #elist > 1
   then slurped = slurped .. " (" .. table.concat(elist, "; ") .. ")";
   end;
 
-  -- vprint("event data: ", slurped);
+  eprint("elist is",     inspect(elist));
+  vprint("event data: ", slurped);
   return slurped;
 end;
 
@@ -1598,9 +1593,9 @@ local function parse_line(line)
   else   vprint("trying to find this",    line);
          local md_file   = line .. CONFIG.ext.markdown;
          local yaml_file = line .. CONFIG.ext.yaml;
-         vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope");
-         vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :(");
-         vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :(");
+         vprint("FILES[" .. line      .. "]:", FILES[line]      or "nope"         );
+         vprint("FILES[" .. yaml_file .. "]:", FILES[yaml_file] or "nope :("      );
+         vprint("FILES[" .. md_file   .. "]:", FILES[md_file]   or "nope :( :("   );
          vprint("USED["  .. line      .. "]:", USED[line]       or "nope :( :( :(");
          vprint("> no further info on:", line);
          table.insert(ERR, line);
@@ -1613,18 +1608,20 @@ local function recipe_list()
     sprint("Listing Recipes:", #files .. " known");
     sprint("Recipe directory", CONFIG.recipe_dir);
     for k, v in pairs(files)
-    do  print(string.format(
-                CONFIG.logformat,
-                v.path .. v.name,
-                CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
-             )             );
+    do  print(
+	  string.format(
+            CONFIG.logformat,
+            v.path .. v.name,
+            CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
+          )            
+	);
     end;
     os.exit(1);
 end;
 
--- =====================================================================
--- Command line interface
+-- ==================================
 -- https://lua-cliargs.netlify.com/#/
+-- Command line interface
 
 cli:set_name(CONFIG.appname);
 cli:set_description("it creates the .md files we need");
