@@ -6,20 +6,20 @@ General ideas
 -------------
 
 - [ ]   Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
-- [/]   The Normal Kid class
-- [/]   The Twins class
-- [x]   Vehicles (Ghost Rider)
-- [ ]   Pet class (?)
-- [/]   CCA Checklist
-  - [ ] Separate file
-- [/]   Series sheet
+- [/]   Sheets
+  - [/]   CCA Checklist
+  - [/]   Series sheet
 - [/]   Coding for yaml
   - [/] Glossary
   - [/] Characters
   - [ ] Lists
   - [ ] Places
   - [ ] Teams
-  - [ ] Classes
+- [ ] Classes
+  - [/] Kid      class
+  - [/] Pet      class
+  - [/] Twins    class
+  - [/] Wheelman class
 - [ ]   Abilities database
 
 Manuscript
@@ -62,16 +62,16 @@ Manuscript
     - [ ] Multi-Class pregen (complete writeup)
     - [ ] Dual-Class pregen  (complete writeup)
   - [/]   Adam-42              (complete writeup)
-  - [ ]   Brigantia            (new ability)
-  - [ ]   Energy Boy           (new ability)
-  - [ ]   Grailknight          (new ability)
-  - [ ]   Head Librarian       (new ability)
-  - [ ]   Jack Dee             (new ability)
-  - [ ]   Obsidius Rex         (new ability)
-  - [ ]   Riptide              (new ability)
-  - [ ]   Rockstar             (new ability)
-  - [ ]   Titan                (new ability)
-  - [ ]   Vespa                (new ability)
+  - [/]   Brigantia            (new ability)
+  - [/]   Energy Boy           (new ability)
+  - [/]   Grailknight          (new ability)
+  - [/]   Head Librarian       (new ability)
+  - [/]   Jack Dee             (new ability)
+  - [/]   Obsidius Rex         (new ability)
+  - [/]   Riptide              (new ability)
+  - [/]   Rockstar             (new ability)
+  - [/]   Titan                (new ability)
+  - [/]   Vespa                (new ability)
 - [/]     Ideals
   - [ ]   Review pregens / NPCs
     - [ ] Adam-42
