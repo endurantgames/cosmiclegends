@@ -313,7 +313,8 @@ for our litle Bronze-Age-inspired, four-color superhero tabletop RPG.
 - **Gender:** female (she/her)
 - **Identity:** secret
 - **Place of Birth:** Cork, Ireland
-- **Marital Status:** single- **Known Relatives:** none
+- **Marital Status:** single
+- **Known Relatives:** unknown
 - **Base of Operations:** Dublin, Ireland; Sun City, U.S.A.
 - **Group Affiliation:** Cosmic Legends of the Universe
 
@@ -385,9 +386,10 @@ need, she can form a sword of blazing light.
 - **Gender:** male (he/him)
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
-- **Marital Status:** single- **Known Relatives:** none
+- **Marital Status:** single
+- **Known Relatives:** 1, 2, 3, 4, 5, Agresizia, Dindrane, Galahad y Llyn, Lamorak, King Pellinore, 6, Algovale
 - **Base of Operations:** New York City, New York; Sun City, U.S.A.
-- **Group Affiliation:** A.L.E.R.T. (reserve operative), Knights of the Round Table (organization defunct), Cosmic Legends of the Universe (*founding member*, *reserve member*)
+- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative), Knights of the Round Table (organization defunct)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

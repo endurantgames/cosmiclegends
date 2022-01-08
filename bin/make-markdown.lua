@@ -33,7 +33,10 @@ local inspect    = require "inspect";    -- https://github.com/kikito/inspect.lu
 local function tprint(tbl, indent)
   indent = indent or 1;
 
-  if   type(tbl) ~= "table" then print("Error: not a table"); os.exit(1); end;
+  if   type(tbl) ~= "table" 
+  then print("Tprint Error: not a table"); 
+       os.exit(1); 
+  end;
 
   local toprint = string.rep(" ", indent) .. "{\r\n"
   indent = indent + 2
@@ -296,7 +299,12 @@ local function unpack_yaml_tree(yaml_tree, comment)
   for k, v in pairs(yaml_tree)
   do  if   type(v) == "table"
       then for i, j in pairs(v)
-           do  if   type(i) == "string" then flat_tree[i] = j; end;
+           do  if   type(i) == "string" 
+               then flat_tree[i] = j; 
+               -- else eprint("can't unpack", comment);
+               --      eprint("i is",         i);
+               --      eprint("type(i) is",   type(i));
+               end;
            end;
       end;
       flat_tree[k] = v;
@@ -384,11 +392,11 @@ local function yaml_char_group(bio_group_affiliation)
                  gstatus.expelled or gstatus.status
                 )
              then local gdata = {};
-                  if gstatus.founder  then table.insert(gdata, "*founding member*"     ); end;
-                  if gstatus.inactive then table.insert(gdata, "*inactive*"            ); end;
-                  if gstatus.resigned then table.insert(gdata, "*resigned*"            ); end;
-                  if gstatus.reserve  then table.insert(gdata, "*reserve member*"      ); end;
-                  if gstatus.status   then table.insert(gdata, gstatus.status          ); end;
+                  if gstatus.founder  then table.insert(gdata, "*founding member*"); end;
+                  if gstatus.inactive then table.insert(gdata, "*inactive*"       ); end;
+                  if gstatus.resigned then table.insert(gdata, "*resigned*"       ); end;
+                  if gstatus.reserve  then table.insert(gdata, "*reserve member*" ); end;
+                  if gstatus.status   then table.insert(gdata, gstatus.status     ); end;
 
                   local memdata_string = table.concat(gdata, ", ");
                   str = str .. " (" .. memdata_string .. ")";
@@ -413,12 +421,13 @@ end;
 
 local function yaml_char_relatives(bio_relatives)
   vprint("relatives?", "looking for relatives");
+  vprint("dump", tprint(bio_relatives));
   local markdown = "\n- **Known Relatives:** ";
   local relatives = unpack_yaml_tree(bio_relatives, "relatives");
   local rel_list = {};
   for rel_name, rel in pairs(relatives)
   do  local rel_string = rel_name;
-      local rel_data = unpack_yaml_tree(rel, "rel");
+      local rel_data = unpack_yaml_tree(rel, "yaml_char_relatives: rel");
       if rel.gender then rel_string = rel_string .. "[]{.icon-" .. rel_data.gender .. "} "; end;
 
       if   rel.relationship or rel.deceased or rel.aka
@@ -916,10 +925,21 @@ local function yaml_character(yaml_tree)
             then markdown = markdown .. "\n- **Marital Status:** " .. bio.marital_status;
             end;
 
-            if     bio.relatives and type(bio.relatives) == "table"
-            then   markdown = markdown .. yaml_char_relatives(bio.relatives);
-            -- elseif bio.relatives == "none"
-            else   markdown = markdown .. "- **Known Relatives:** none";
+            if     bio.known_relatives 
+            then   if     type(bio.known_relatives) == "table"
+                   then   markdown = markdown .. yaml_char_relatives(bio.known_relatives);
+                   elseif bio.known_relatives == "none"
+                   then   markdown = markdown .. "\n- **Known Relatives:** none";
+                   end;
+            else   markdown = markdown .. "\n- **Known Relatives:** unknown";
+                   eprint("relatives not parsing");
+                   eprint("value:",      bio.known_relatives);
+                   eprint("value type:", type(bio.known_relatives));
+
+                   if   type(bio.known_relatives) == "table"
+                   then eprint("dump:",       tprint(bio.known_relatives));
+                   end;
+
             end;   -- bio.relatives
 
             if     bio.base and type(bio.base) == "table"
@@ -944,8 +964,9 @@ local function yaml_character(yaml_tree)
             markdown = markdown .. "\n\n" .. "**History:**" .. "\n\n";
             markdown = markdown .. character.history;
        else eprint("we don't have history :(");
-            local sheet, metadata, markdown = yaml_common(yaml_tree);
-            return markdown;
+            os.exit(1);
+            -- local sheet, metadata, markdown = yaml_common(yaml_tree);
+            -- return markdown;
        end;
 
        if   character.powers
@@ -953,6 +974,7 @@ local function yaml_character(yaml_tree)
             markdown = markdown .. "\n\n" .. "**Powers:**" .. "\n\n";
             markdown = markdown .. character.powers;
        else eprint("we don't have powers :(");
+            os.exit(1);
        end;
 
        if   character.weapons
