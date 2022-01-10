@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character-villain
   - title: &title "Doctor Phineas Pann, Junior"
-  - anchor: 
+  - anchor: setting-other-doctor-pann-jr
 - bio:
   - name: *title
   - real_name: 

@@ -25,19 +25,22 @@ General ideas
 Manuscript
 ----------
 
-- [/]   Preface
-  - [/] Bronze Age (finish essay)
-- [/]   Issues etc
-  - [ ] Update Examples
-- [/]   Abilities blurb (?)
-- [/]   Table of Contents (TOC)
+- [/]     Preface
+  - [/]     Bronze Age (finish essay)
+- [/]       Issues etc
+  - [ ]       Update Examples
+- [/]       Abilities blurb (?)
+  - [/]       Ability "types" (hero cave, pet, etc.)
+  - [/]       Generic Abilities  (cleanup)
+    - [x]   Hero Cave power words
+  - [ ]       Variants
+- [/]       Table of Contents (TOC)
 - [/]       Classes
   - [/]     Introduction
-    - [/]   Dual-class         (cleanup)
-      - [ ] Examples?
-    - [/]   Multiclass         (cleanup)
-      - [ ] Examples?
-    - [/] Generic Abilities  (cleanup)
+    - [/]     Dual-class       (cleanup)
+      - [ ]     Examples?
+    - [/]     Multiclass       (cleanup)
+      - [ ]     Examples?
   - [/]   The Construct        (new abilities)
   - [/]   The Divine           (new abilities)
   - [/]   The Dynamo           (new abilities)
@@ -60,45 +63,52 @@ Manuscript
   - [/]   The Twins            (new abilities)
   - [/]   The Wheelman         (new abilities)
 - [ ]     Pregens: 1 extra ability each
-  - [ ]   Using pregens
-  - [ ]   Multi- and/or Dual-Class pregens?
-    - [ ] Multi-Class pregen (complete writeup)
-    - [ ] Dual-Class pregen  (complete writeup)
-  - [/]   Adam-42              (complete writeup)
-  - [/]   Brigantia            (new ability)
-  - [/]   Energy Boy           (new ability)
-  - [/]   Grailknight          (new ability)
-  - [/]   Head Librarian       (new ability)
-  - [/]   Jack Dee             (new ability)
-  - [/]   Obsidius Rex         (new ability)
-  - [/]   Riptide              (new ability)
-  - [/]   Rockstar             (new ability)
-  - [/]   Titan                (new ability)
-  - [/]   Vespa                (new ability)
-  - [ ] Eidolon                (new character: haunt)
-  - [ ] Far-Seeker             (new character: expatriate)
-  - [ ] Falconer               (new character: twins)
-  - [ ] Hellblade              (new character: hellspawn)
-  - [ ] Momentum               (new character: speedster)
-  - [ ] Yeoman                 (new character: kid)
+  - [ ]     Using pregens
+  - [ ]     Multi- and/or Dual-Class pregens?
+  - [ ]     The Cosmic Legends
+  - [ ]       Multi-Class pregen (complete writeup)
+  - [ ]       Dual-Class pregen  (complete writeup)
+  - [/]       Adam-42            (complete writeup)
+  - [/]       Brigantia          (new ability)
+  - [ ]       Eidolon            (new character: haunt)
+  - [/]       Energy Boy         (new ability)
+  - [ ]       Falconer           (new character: twins)
+  - [ ]       Far-Seeker         (new character: expatriate)
+  - [/]       Grailknight        (new ability)
+  - [/]       Head Librarian     (new ability)
+  - [ ]       Hellblade          (new character: hellspawn)
+  - [/]       Jack Dee           (new ability)
+  - [ ]       Momentum           (new character: speedster)
+  - [/]       Obsidius Rex       (new ability)
+  - [/]       Riptide            (new ability)
+  - [/]       Rockstar           (new ability)
+  - [/]       Titan              (new ability)
+  - [/]       Vespa              (new ability)
+  - [ ]       Yeoman             (new character: kid)
 - [/]     Ideals
   - [ ]   Review pregens / NPCs
     - [ ] Adam-42
     - [ ] Brigantia
+    - [ ] Eidolon
     - [ ] Energy Boy
+    - [ ] Falconer
+    - [ ] Far-Seeker
     - [ ] Grailknight
     - [ ] Head Librarian
+    - [ ] Hellblade
     - [ ] Jack Dee
+    - [ ] Momentum
     - [ ] Obsidius Rex
     - [ ] Riptide
     - [ ] Rockstar
     - [ ] Titan
     - [ ] Vespa
+    - [ ] Yeoman
 - [/]   Goals
   - [x] Smash
   - [x] Outwit
-  - [/] Allay
-  - [/] Rescue
+  - [/] Allay    (describe in more detail)
+  - [/] Rescue   (describe in more detail)
 - [x]   Advancements
   - [x] Story Arc character
   - [x] Everyone else
@@ -107,12 +117,11 @@ Manuscript
   - [x]     Personal Power Words
   - [x]     Nova     Power Words
   - [/]     Scene    Power Words
-    - [/]   Examples (lists)
-    - [ ]   Hero Cave power words
-    - [/]   Changing Scene Words (classes that can do it)
-      - [ ] Shaper      (shape environment)
-      - [ ] Totem       (summon swarm)
-      - [ ] Wheelman    (vehicle scene words)
+    - [/]   Examples              (list of lists)
+    - [/]   Changing Scene Words  (classes that can do it)
+      - [ ] Shaper                (shape environment)
+      - [ ] Totem                 (summon swarm)
+      - [ ] Wheelman              (vehicle scene words)
 - [/]       Power Use
   - [x]     Power Displays
     - [x]   Examples
@@ -131,62 +140,65 @@ Manuscript
       - [ ] Examples
 - [ ]         Teams
 - [/]         Crisis
-  - [/]       Countdown
-    - [ ]     Set the Scene
-      - [ ]   Scene power words
-        - [ ] Scene examples
-    - [/]     Hero Roll-Call
-    - [/]     Defining the Goals
-    - [x]     Assemble the Teamwork Pool
+  - [/]         Countdown
+    - [ ]         Set the Scene
+      - [ ]         Scene power words
+        - [ ]       Scene examples
+    - [/]         Hero Roll-Call
+    - [/]         Defining the Goals
+    - [x]         Assemble the Teamwork Pool
   - [x]       Start
-  - [/]       Hero Phase
-    - [/]     Advance a Goal
-    - [/]     Contribute to the Teamwork Pool
-    - [ ]     Team Moves (write section)
-    - [/]     Hero Moves
-      - [/]   Power Moves
-      - [ ]   Skill Moves
-      - [/]   Other Moves
-        - [x] Timely Arrival
-        - [x] General Alert
-      - [ ]   Non-Hero Moves
-        - [ ] Pets/Companions/Autonomous Companions/Allies
-        - [ ] Vehicles
+  - [/]         Hero Phase
+    - [/]         Advance a Goal
+    - [/]         Contribute to the Teamwork Pool
+    - [ ]           Team Moves (write section)
+    - [/]         Hero Moves
+      - [/]         Power Moves
+      - [ ]         Skill Moves
+      - [/]         Other Moves
+        - [x]       Timely Arrival
+        - [x]       General Alert
+      - [ ]       Non-Hero Moves
+        - [ ]       Pets/Companions/Autonomous Companions/Allies
+        - [ ]       Vehicles
   - [ ]   Post-Crisis (write section)
 - [/]     Setting
-  - [/]   What's What?
-    - [/] Adam-42        (full entry)
-    - [/] Rockstar       (bio)
-    - [/] Titan          (bio)
-    - [/] Villains, Inc. (backstory)
+  - [/]     What's What?
+    - [/]     Adam-42        (full entry)
+    - [/]     Rockstar       (bio)
+    - [/]     Titan          (bio)
+    - [/]     Villains, Inc. (backstory)
 - [ ]     The Editor (write section)
-  - [ ]   Creating Story Arcs
-  - [ ]   Creating Crises
-    - [ ] Crisis Moves
-  - [ ]   Offering Edge Consequences
-- [/]   Sample Crises
-  - [/] Aliens
-  - [/] Military
-  - [/] Natural Disasters
-  - [/] Ordinary Criminals
-  - [/] Personal Matters
-  - [/] Science
-  - [/] Super-Villains
+  - [ ]     Creating Story Arcs
+  - [ ]       Creating Crises
+    - [ ]       Crisis Moves
+  - [ ]     Offering Edge Consequences
+- [/]       Sample Crises
+  - [/]       Aliens
+  - [/]       Military
+  - [/]       Natural Disasters
+  - [/]       Ordinary Criminals
+  - [/]       Personal Matters
+  - [/]       Science
+  - [/]       Super-Villains
 - [ ]   Vignettes (write about)
-  - [ ] (all-)Vignettes issues
-  - [ ] Examples
+  - [ ]   (all-)Vignettes issue
+  - [ ]   Examples
+  - [ ]   Powers in Vignettes
+  - [ ]   When Vignettes Become Crises
 - [ ]   Indices
-  - [/] Lists
-  - [/] Power Words
-  - [ ] Setting
-  - [/] Soapboxes
-  - [/] Glossary
+  - [ ]   Abilities
+  - [/]   Lists
+  - [/]   Power Words
+  - [ ]   Setting
+  - [/]   Soapboxes
+  - [/]   Glossary
 - [x]   License
 - [/]   Sheets
-  - [/] Hero Sheet
-  - [/] Team Sheet
-  - [ ] Series Sheet
-  - [ ] CCA Checklist
+  - [/]   Hero Sheet
+  - [/]   Team Sheet
+  - [ ]   Series Sheet
+  - [ ]   CCA Checklist
 
 Status: Number of Abilities
 ---------------------------

@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title Marlinspike
-  - anchor: setting-marlinspike
+  - anchor: setting-other-marlinspike
 - bio:
   - name: *title
   - real_name: "Marlin \"Spike\" Something"

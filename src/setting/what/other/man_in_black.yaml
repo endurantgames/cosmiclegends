@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character-villain
   - title: &title The Man In Black
-  - anchor: 
+  - anchor: setting-other-man-in-black
 - bio:
   - name: *title
   - real_name: 

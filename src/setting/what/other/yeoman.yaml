@@ -4,7 +4,7 @@
   - x-format:       character
 # - x-format:       character-sheet
   - yaml_version:   1.2
-  - anchor:         setting-yeoman
+  - anchor:         setting-other-yeoman
 - art:
   - url:            art/jeshields/yeoman.png
   - alt:            *title

@@ -28,8 +28,7 @@
   - eyes: brown
   - hair: "(dyed) magenta, (natural) black"
 - history: |
-
-    Kelly Liang always loved the sea; while a high school
+    "Kelly Liang always loved the sea; while a high school
     student in Hawai'i she took a job as a lifeguard, even
     though her family was wealthy enough that she didn't
     *need* to work.
@@ -62,15 +61,15 @@
     But as Riptide is the most prominent and popular superhero 
     of Hawai'i, the people of the islands are happy to maintain 
     the polite fiction that there's no connection between Professor
-    Liang and the Hero of Hilo.
+    Liang and the Hero of Hilo."
 - powers: |
-    Riptide has complete telekinetic control over liquid water, 
+    "Riptide has complete telekinetic control over liquid water, 
     with limited control over ice and water vapor. She can condense
     atmospheric water to liquid form, and can instantly melt or
     evaporate solid ice.
     
     She can propel herself at speeds up to 100 m.p.h. underwater
-    or on the surface of a body of water, and 50 m.p.h. over land.
+    or on the surface of a body of water, and 50 m.p.h. over land."
 - stats:
   - name: *title
   - class: The Shaper

@@ -2,7 +2,7 @@
   - yaml_version:     1.2
   - x-format:         character
   - title:            &title Dindrane
-  - anchor:           setting-dindrane
+  - anchor:           setting-other-dindrane
 - bio:
   - name:             *title
   - real_name:        Dindrane Pellinore

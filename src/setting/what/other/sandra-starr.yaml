@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title "Sandra Starr: Agent of A.L.E.R.T."
-  - anchor: 
+  - anchor: setting-other-sandra-starr
 - bio:
   - name: *title
   - real_name: Sandra Starr

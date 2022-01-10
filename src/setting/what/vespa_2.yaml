@@ -67,7 +67,7 @@
     Conceived shortly after their parents wed in secret and before 
     Malign's coup propelled him to the throne of Vadyvokia, Lin
     grew up surrounded by the Cosmic Legends. To many, they were
-    the archetypal "kid sidekick" as Bug the Binary Bantling.
+    the archetypal \"kid sidekick\" as Bug the Binary Bantling.
     
     Although their first suit of armor was wholly lacking in 
     offensive systems, Lin made certain ... *alterations* to the
@@ -102,13 +102,15 @@
     of Vadyvokia, Lin may possess some sorcerous potential, but has
     never trained those.
 - weapons: |
-    Vespa 2.0's armored suit is an evolved version of their mother's, with
-    advanced microhydraulics and structural reinforcements that let them
-    lift over 25 tons. A low-power forcefield surrounds the suit, reinforcing
-    the flimsy-looking plasma wings that generate anti-grav lift.
+    "Vespa 2.0's armored suit is an evolved version of their mother's, 
+    with advanced microhydraulics and structural reinforcements that 
+    let them lift over 25 tons. A low-power forcefield surrounds the 
+    suit, reinforcing the flimsy-looking plasma wings that generate 
+    anti-grav lift.
   
-    In addition, Lin sometimes carries a gun that fires electrical and laser
-    blasts, originally developed during her days as The Hornette.
+    In addition, Lin sometimes carries a gun that fires electrical 
+    and laser blasts, originally developed during her days as The 
+    Hornette."
 - stats:
   - name: *title
   - class: The Inventor
@@ -120,5 +122,5 @@
     - personal: [Analyze, Communicate, Dynamic, Laser, Protection, Telemetry, Wings]
     - nova: [Bug, Zapper]
   - abilities: [No Wasted Effort, Armorsmith, TBD]
-  - skills: [Artist (fanfic), Engineer, Hacker, Pilot, Scientist (entomology)]
+  - skills: ["Artist (fanfic)", Engineer, Hacker, Pilot, "Scientist (entomology)"]
   - ideals: [Comaraderie, Honesty, Legacy, Science, Self-Sacrifice]

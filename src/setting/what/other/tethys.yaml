@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title Tethys
-  - anchor: 
+  - anchor: setting-other-tethys
 - bio:
   - name: *title
   - real_name: My'Rinn To'Rezz

@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character-villain
   - title: &title Gunlock
-  - anchor: 
+  - anchor: setting-other-gunlock
 - bio:
   - name: *title
   - real_name: 

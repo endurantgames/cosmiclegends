@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title Gloom
-  - anchor: 
+  - anchor: setting-gloom-other
 - bio:
   - name: *title
   - real_name: 

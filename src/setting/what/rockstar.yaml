@@ -26,14 +26,13 @@
     []{.lorem}
 
 - powers: |
-    Jeri North's exposure to *bremsstrahlung* rays fundamentally changed
+    "Jeri North's exposure to *bremsstrahlung* rays fundamentally changed
     the nature of her body. Her skin is a rough, rocky substance with
-    sharp metal "hairs" scattered about, and her internal organs and skeleton
+    sharp metal \"hairs\" scattered about, and her internal organs and skeleton
     are composed of even denser materials.
     
     This grants her a high degree of imperviousness to pain and injury,
-    and lets her lift in excess of 100 tons.
-    
+    and lets her lift in excess of 100 tons."
 - stats:
   - name: *title
   - class: The Monstrosity

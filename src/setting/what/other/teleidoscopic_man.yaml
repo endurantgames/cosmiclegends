@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character-villain
   - title: &title Teleidoscopic Man
-  - anchor: 
+  - anchor: setting-other-teleidoscopic-man
 - bio:
   - name: *title
   - real_name: 
