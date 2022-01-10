@@ -2716,3 +2716,7 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
   font-weight: normal;
   content:     " common to all " var(--class-plural) ".";
 }
+
+.setting-index > ul > li > .index-entry.xref:before { font-weight: normal; font-style: italic; content: "See also "; }
+.setting-index > ul > li > .index-entry.xref { font-weight: bold; color: green; }
+

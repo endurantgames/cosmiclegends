@@ -283,7 +283,7 @@ local function unpack_yaml_tree(yaml_tree, comment)
   -- vprint("==================", "------------------");
   -- vprint(comment .. ":before", tprint(yaml_tree));
   if     yaml_tree == nil
-  then   eprint("Error!", "yaml_tree = nil");
+  then   eprint("Error! in unpack_yaml_tree", "yaml_tree = nil");
          os.exit(1);
   elseif yaml_tree and type(yaml_tree) ~= "table"
   then   eprint("Error! unpacking", "type(" .. comment .. ") = " .. type(yaml_tree));
@@ -468,11 +468,11 @@ local function yaml_char_base(bio_base)
              then table.insert(base_details, "temporarily");
              end;
 
-	     if   data.status
+             if   data.status
              then table.insert(base_details, data.status);
              end;
 
-	     if   #base_details >= 1
+             if   #base_details >= 1
              then str = str .. " (" .. table.concat(base_details, ", ") .. ")";
              end;
 
@@ -1184,7 +1184,7 @@ local function yaml_list(yaml_tree)
                      -- vprint(term, inspect(item_info));
                      -- eprint("*****************", "******** end *****");
                 -- end;
-		-- vprint("item_info is...", inspect(item_info));
+                -- vprint("item_info is...", inspect(item_info));
                 slurped         = slurped .. item_info;
             end; -- for pairs
        -- else eprint("no item list?!", "???");
@@ -1288,22 +1288,131 @@ local function yaml_glossary(yaml_tree)
   return slurped;
 end;
 
-local function yaml_index_entry(yaml_tree)
-  vprint("yaml xformat is", "item: index entry");
+local function yaml_pageref(entry)
+  local slurped = "";
+  local page = unpack_yaml_tree(entry);
+  if    page.url
+  then  if   page.main
+        then slurped = slurped .. "[#" .. page.url .. "]{.index-entry .main}";
+        else slurped = slurped .. "[#" .. page.url .. "]{.index-entry}";
+        end;
+  end;
 
+  return slurped;
+end;
+
+local function yaml_index_entry(title, yaml_tree)
+  vprint("yaml xformat is", "item: index entry");
+  local entry   = unpack_yaml_tree(yaml_tree);
+  local slurped = "\n<!--\n" .. inspect(entry) .. "\n-->\n";
+  local parts   = {};
+
+--  print(title, inspect(entry));
+--  return slurped;
+--end;
+
+  if     not entry then return ""
+  elseif not title then return ""
+  else   slurped = slurped .. "\n- **" .. title .. "** ";
+  end;
+
+  vprint("ENTRY", "vvvvvvvvvvvvvvvvvvv");
+  -- vprint("", inspect(entry));
+  vprint("ENTRY", "^^^^^^^^^^^^^^^^^^^");
+  if     entry.cf
+  then   table.insert(parts, "[" .. entry.cf .. "]{.index-entry .xref}");
+  elseif entry.url
+  then   table.insert(parts, yaml_pageref(entry))
+  elseif entry.family
+  then   vprint("Found a family:", title);
+         for memname, memdata in pairs(entry)
+         do if type(memname) == "string" and type(memdata) == "table" and memname ~= "family"
+            then table.insert(parts, "\n  - ");
+                 local memdata_array = unpack_yaml_tree(memdata);
+                 if memdata_array.url
+                 then table.insert(parts, yaml_pageref(memdata_array));
+                 end;
+            end;
+         end;
+  end;
+
+  slurped = slurped .. table.concat(parts, " ");
+  return slurped;
 end;
 
 local function yaml_index(yaml_tree)
+  local xfmt;
   vprint("yaml xformat is", "index");
-  local index, _, slurped = yaml_common(yaml_tre);
-  if index.list
-  then vprint("Found list");
-  else eprint("Not found: list", "yaml_index");
-       local list = unpack_yaml_tree(index.list);
-       for k, v in pairs(list)
-       do  print("item:", k);
+  local index, meta= yaml_common(yaml_tree);
+
+  local slurped = "";
+
+  if   meta.title
+  then vprint("Found list name", meta.title);
+       slurped = slurped .. "# " .. meta.title;
+
+       if   meta.anchor
+       then vprint("Found list anchor", meta.anchor);
+            slurped = slurped .. " []{#" .. meta.anchor .. "}";
+       else eprint("Didn't find index anchor", "yaml_index");
        end;
+
+       slurped = slurped .. "\n\n";
+
+  else eprint("not found: list name", "yaml_index");
+       os.exit(1);
   end;
+
+  local list_class;
+
+  if   meta["list-class"]
+  then list_class = meta["list-class"];
+       vprint("found list class", list_class);
+       slurped = slurped .. string.rep(":", 30) .. " { ." .. list_class .. " } " .. string.rep(":", 20) .. "\n\n";
+  end;
+
+  if   index.text
+  then vprint("Found list description", index.text:len())
+       slurped = slurped .. "\n\n" .. index.text .. "\n\n";
+  else eprint("Can't find list desc", "yaml_index");
+
+  end;
+
+  if   index.list
+  then vprint("Found list");
+       local list = unpack_yaml_tree(index.list);
+
+       if   meta["list-item"]
+       then xfmt = meta["list-item"];
+       else eprint("Error: no meta.list-item", "yaml_index");
+       end;
+
+       if   xfmt ~= "index-entry"
+       then eprint("Error: meta.list-term isn't index-entry", xfmt);
+            os.exit(1);
+       end;
+
+       for title, entry in pairs(list)
+       do  if   type(title) == "string" and type(entry) == "table"
+           then local entry_data = unpack_yaml_tree(entry_data);
+                if   entry_data.url
+                then print("item:" .. title, entry_data.url);
+                     slurped = slurped .. yaml_index_entry(title, entry_data);
+                else for k, v in pairs(entry_data)
+                     do slurped = slurped .. yaml_index_entry(k, v);
+                     end;
+                end;
+           end;
+       end;
+  else eprint("Not found: list", "yaml_index");
+       os.exit(1);
+  end;
+
+  if   list_class
+  then slurped = slurped .. "\n\n" .. string.rep(":", 70);
+  end;
+
+  return slurped;
 end;
 
 local function yaml_place(yaml_tree)
@@ -1355,7 +1464,7 @@ local function yaml_group(yaml_tree)
   local group, _, slurped, _ = yaml_common(yaml_tree);
   local status = group.active    and " "
               or group.disbanded and " *defunct* "
-	      or " *status unknown* ";
+              or " *status unknown* ";
   slurped = (slurped or "") .. status;
 
   if   group.bio
@@ -1420,11 +1529,13 @@ format_yaml.glossary                = yaml_glossary;
 format_yaml.place                   = yaml_place;
 format_yaml.group                   = yaml_group;
 format_yaml.unknown                 = yaml_error;
+format_yaml.index                   = yaml_index;
 format_yaml["character-sheet"]      = yaml_sheet;
 format_yaml["item:minor-character"] = yaml_minor_character;
 format_yaml["item:location"]        = yaml_place;
 format_yaml["item:group"]           = yaml_group;
 format_yaml["item:timeline-entry"]  = yaml_event;
+format_yaml["item:index-entry"]     = yaml_index_entry;
 
 local function slurp_yaml(filename)
 
@@ -1628,12 +1739,12 @@ local function recipe_list()
     sprint("Recipe directory", CONFIG.recipe_dir);
     for k, v in pairs(files)
     do  print(
-	  string.format(
+          string.format(
             CONFIG.logformat,
             v.path .. v.name,
             CONFIG.bin_dir .. "/" .. CONFIG.appname .. " " .. string.gsub(v.name, CONFIG.recipe_sfx, "")
           )
-	);
+        );
     end;
     os.exit(1);
 end;

@@ -1,298 +1,304 @@
 - metadata:
   - yaml_version: 1.2
+  # - x-format:     index
   - x-format:     index
   - title:        Setting Index
   - anchor:       toc-setting-index
   - list-item:    index-entry
+  - list-class:   setting-index
+- text: |
+    This is an index of various characters, places,
+    and concepts appearing the Cosmic Legends Universe.
 - list:
-  - "A.L.E.R.T.":
-    - { url: setting-alert, main: true }
-    - { url: setting-grailknight }
-    - { url: setting-other-sandra-starr }
-    - { url: setting-vespa-1 }
-  - "Aberffraw, Wales": [ { url: setting-grailknight }, { url: setting-other-dindrane } ]
-  - "Adam-42": { url: setting-adam-42 }
-  - "Agency for the Licensing of Extra-Human Resources and Threats (A.L.E.R.T.)":
-    - { url: setting-alert, main: true }
-    - { url: setting-titan             }
-    - "Sandra Starr: Agent of A.L.E.R.T.": { url: setting-other-sandra-starr, main: true }
-  - "Albuquerque, New Mexico":      { url: setting-vespa-1 }
-  - "Aos Sí":                       [ { url: setting-grailknight }, { url: setting-clotu } ]
-  - "Arthur, King":                 { url: setting-grailknight }
-  - "Balor":                        [ { url: setting-other-balor, main: true }, { url: setting-tuatha }, { url: setting-villains-inc } ]
+  # - "A.L.E.R.T.":
+    # - { url: setting-alert, main: true  }
+    # - { url: setting-grailknight        }
+    # - { url: setting-other-sandra-starr }
+    # - { url: setting-vespa-1            }
+  # - "Aberffraw, Wales": [ { url: setting-grailknight }, { url: setting-other-dindrane } ]
+  - "Adam-42": { url: setting-adam-42, main: true }
+  # - "Agency for the Licensing of Extra-Human Resources and Threats (A.L.E.R.T.)":
+    # - { url: setting-alert, main: true }
+    # - { url: setting-titan             }
+    # - "Sandra Starr: Agent of A.L.E.R.T.": { url: setting-other-sandra-starr, main: true }
+  # - "Albuquerque, New Mexico":      { url: setting-vespa-1 }
+  # - "Aos Sí":                       [ { url: setting-grailknight }, { url: setting-clotu } ]
+  # - "Arthur, King":                 { url: setting-grailknight }
+  # - "Balor":                        [ { url: setting-other-balor, main: true }, { url: setting-tuatha }, { url: setting-villains-inc } ]
   - "Binary Bantling, Bug the":     { cf: "Montgomery Family (Lin Montgomery)" }
-  - "Boston, Massachusetts":        { url: setting-other-maddie-dee }
-  - "Bremsstrahlung (radiation)":   { url: setting-rockstar }
-  - "Brigantia":                    { url: setting-tuatha }
-  - "Bug I":                        { cf: "Montgomery Family (Lin Montgomery)" }
-  - "Bug II":                       { url: setting-technopolis }
-  - "Bullet Train, The Techno-Sun": { url: setting-sun-city }
-  - "Busan, South Korea":           { url: setting-nova-labs }
-  - "CLotU":                        { url: setting-clotu }
-  - "California":
-    - "State Bar of": { url: setting-jackdee }
-  - "Camelot":     { url: setting-grailknight }
-  - "Canada":      { url: setting-titan       }
-  - "Celtic Gods": { cf: "Tuatha Dé Danann" }
-  - "Champion of the Tuatha Dé Danann": { url: setting-tuatha }
-  - "Chicago, Illinois": { url: setting-energy-boy }
-  - "Claidheamh Soluis": { url: setting-brigantia  }
-  - "Cork, Ireland":     { url: setting-brigantia  }
-  - "Cosmic Legends of the Universe": [ { url: setting-clotu, main: true }, { url: setting-titan }, { url: setting-vespa-1 } ]
-  - "Deathsong": [ { url: setting-other-deathsong, main: true }, { url: setting-villains-inc } ]
-  - "Dee Family":
-    - "John Arthur \"Jack\" Dee VIII (Master Magister)":  { main: true, url: setting-jackdee           }
-    - "John Arthur Dee VI (Master Magister)":             { url: setting-jackdee, aka: Master Magister }
-    - "John Arther Dee \"Johnny\" IV (Master Magister)":  { url: setting-other-mm-jd4, main: true      }
-    - "Madinia Katherine \"Maddie\" Dee (Miss Magister)": { url: setting-jackdee                       }
-  - "Dindrane Pellinore":         { cf: Pellinore Family }
-  - "Doctor Pann":                { cf: Pann Family }
-  - "Dublin, Ireland":            { url: setting-brigantia }
-  - "Earth":                      { aka: planet, url: setting-titan }
-  - "Energy Boy":                 [ { url: setting-energy-boy, main: true }, { url: setting-vespa-1}, { url: setting-technopolis } ]
-  - "Far-Seeker (N.J. Campbell)": { url: setting-farseeker, main: true }
-  - "Fir Domnann":                { cf: Tuatha Dé Danann, url: setting-tuatha }
-  - "Firbolgs, The":              { url: setting-tuatha }
-  - "Fire, Ring of":              { cf: Ring of Fire, url: setting-obsidius-rex }
-  - "Fomorians, The":             { url: setting-tuatha }
-  - "Gloom":                      [ { url: setting-other-gloom, main: true }, { url: setting-technopolis } ]
-  - "Glytch":
-    - { url: setting-other-glytch, main: true }
-    - { url: setting-head-librarian           }
-    - { url: setting-technopolis              }
-    - { url: setting-villains-inc             }
-  - "Grail":
-    - "Dindraine Pellinore (The Grailwitch)": { aka: Dindrane Pellinore, url: setting-other-dindrane }
-  - "Grailknight":            { url: setting-grailknight }
-  - "Grailwitch, The":        { url: setting-other-dindrane }
-  - "Gunlock":                [ { url: setting-other-gunlock, main: true },           { url: setting-villains-inc } ]
-  - "Halifax, Nova Scotia":   [ { url: setting-nova-labs },                           { url: setting-titan        } ]
-  - "Hawai'i":                { url: setting-riptide }
-  - "Hawai'i, University of": { url: setting-riptide }
-  - "Head Librarian, The":    { url: setting-head-librarian }
-  - "Heliabel":               { cf: Dindrane Pellinore, url: setting-other-dindrane }
-  - "Hilo, Hawai'i":          { url: setting-riptide }
-  - "Holy Grail, The":        { url: setting-grailknight }
-  - "Hornette, The":
-    - { aka: Lin Montgomery, main: true, url: setting-vespa }
-    - { url: setting-vespa-1 }
-    - { url: setting-villains-inc }
+  # - "Boston, Massachusetts":        { url: setting-other-maddie-dee }
+  # - "Bremsstrahlung (radiation)":   { url: setting-rockstar }
+  # - "Brigantia":                    { url: setting-tuatha }
+  # - "Bug I":                        { cf: "Montgomery Family (Lin Montgomery)" }
+  # - "Bug II":                       { url: setting-technopolis }
+  # - "Bullet Train, The Techno-Sun": { url: setting-sun-city }
+  # - "Busan, South Korea":           { url: setting-nova-labs }
+  # - "CLotU":                        { url: setting-clotu }
+  # - "California":
+    # - "State Bar of": { url: setting-jackdee }
+  # - "Camelot":     { url: setting-grailknight }
+  # - "Canada":      { url: setting-titan       }
+  # - "Celtic Gods": { cf: "Tuatha Dé Danann" }
+  # - "Champion of the Tuatha Dé Danann": { url: setting-tuatha }
+  # - "Chicago, Illinois": { url: setting-energy-boy }
+  # - "Claidheamh Soluis": { url: setting-brigantia  }
+  # - "Cork, Ireland":     { url: setting-brigantia  }
+  # - "Cosmic Legends of the Universe": [ { url: setting-clotu, main: true }, { url: setting-titan }, { url: setting-vespa-1 } ]
+  # - "Deathsong": [ { url: setting-other-deathsong, main: true }, { url: setting-villains-inc } ]
+  # - "Dee Family":
+    # - "John Arthur \"Jack\" Dee VIII (Master Magister)":  { main: true, url: setting-jackdee           }
+    # - "John Arthur Dee VI (Master Magister)":             { url: setting-jackdee, aka: Master Magister }
+    # - "John Arther Dee \"Johnny\" IV (Master Magister)":  { url: setting-other-mm-jd4, main: true      }
+    # - "Madinia Katherine \"Maddie\" Dee (Miss Magister)": { url: setting-jackdee                       }
+  # - "Dindrane Pellinore":         { cf: Pellinore Family }
+  # - "Doctor Pann":                { cf: Pann Family }
+  # - "Dublin, Ireland":            { url: setting-brigantia }
+  # - "Earth":                      { aka: planet, url: setting-titan }
+  # - "Energy Boy":                 [ { url: setting-energy-boy, main: true }, { url: setting-vespa-1}, { url: setting-technopolis } ]
+  # - "Far-Seeker (N.J. Campbell)": { url: setting-farseeker, main: true }
+  # - "Fir Domnann":                { cf: Tuatha Dé Danann, url: setting-tuatha }
+  # - "Firbolgs, The":              { url: setting-tuatha }
+  # - "Fire, Ring of":              { cf: Ring of Fire, url: setting-obsidius-rex }
+  # - "Fomorians, The":             { url: setting-tuatha }
+  # - "Gloom":                      [ { url: setting-other-gloom, main: true }, { url: setting-technopolis } ]
+  # - "Glytch":
+    # - { url: setting-other-glytch, main: true }
+    # - { url: setting-head-librarian           }
+    # - { url: setting-technopolis              }
+    # - { url: setting-villains-inc             }
+  # - "Grail":
+    # - "Dindraine Pellinore (The Grailwitch)": { aka: Dindrane Pellinore, url: setting-other-dindrane }
+  - "Grailknight":            { cf: "Pellinore Family (Percival Pellinore)" }
+  - "Grailwitch, The":        { cf: "Pellinore Family (Dindrane Pellinore)" }
+  - "Gunlock":                [ { url: setting-other-gunlock, main: true }, { url: setting-villains-inc } ]
+  # - "Halifax, Nova Scotia":   [ { url: setting-nova-labs },                           { url: setting-titan        } ]
+  # - "Hawai'i":                { url: setting-riptide }
+  # - "Hawai'i, University of": { url: setting-riptide }
+  # - "Head Librarian, The":    { url: setting-head-librarian }
+  # - "Heliabel":               { cf: Dindrane Pellinore, url: setting-other-dindrane }
+  # - "Hilo, Hawai'i":          { url: setting-riptide }
+  # - "Holy Grail, The":        { url: setting-grailknight }
+  - "Hornette, The (Lin Montgomery)":
+    - { cf: "Montgomery Family (Lin Montgomery)" }
+    # - { url: setting-vespa-1 }
+    # - { url: setting-villains-inc }
   - "Hyperion": { url: setting-other-hyperion, main: true }
   - "I.C.C.": { url: setting-farseeker }
-  - "Igneia Vulcanor":
-    - { url: setting-other-igneia, main: true }
-    - { url: setting-obsidius-rex }
-    - { url: setting-villains-inc }
-    - { url: setting-other-tachylus-rex }
-  - "Interstellar Consortium of Civilizations":   { url: setting-farseeker                          }
-  - "Jack Dee":                                   { cf: "Dee Family"                                }
-  - "Jarnsaxa":                                   { aka: moon of Saturn, url: setting-titan         }
-  - "Johnny Dee (Master Magister)":               { cf: "Dee Family" }
-  - "Junior Legends of America":                  [ { url: setting-energy-boy                       }, { url: setting-vespa } ]
-  - "Kaleidoscope Kidd":                          [ { main: true, url: setting-other-kaleidoscope-kidd }, { url: setting-technopolis } ]
-  - "Kelly Liang (Riptide)":                      { url: setting-riptide, main: true                }
-  - "Khyber Pakhtunkhwa, Pakistan":               { url: setting-head-librarian                     }
-  - "King Tachylus":                              { cf: "Vulcanor (Royal Family)"                   }
-  - "Knights of the Round Table":                 { url: setting-grailknight                        }
-  - "Kyiv, Ukraine":                              { url: setting-nova-labs                          }
-  - "Kyl'Sh'Tal":                                 [ { url: setting-saturn                           }, { url: setting-titan } ]
-  - "L'Shar'Ak":                                  { url: setting-titan                              }
-  - "Lagos, Nigeria":                             { url: setting-nova-labs                          }
-  - "Lavablade, The (Obsidius Rex's greatsword)": { url: setting-obsidius-rex                       }
-  - "Liang, Kelly":                               { aka: Riptide, url: setting-riptide, main: true, }
-  - "Lii, Adam X.":                               { url: setting-adam-42                            }
-  - "Limuo Pele Vulcanor":
-    - { main: true, url: setting-other-limuo }
-    - { url: setting-obsidius-rex }
-    - { url: setting-other-tachylus-rex }
-  - "Los Angeles Police Department":         { url: setting-adam-42 }
-  - "Lucky Starr":                           [ { main: true, url: setting-other-lucky-star }, { url: setting-technopolis } ]
-  - "MacGowan, Sienna":                      { main: true, url: setting-brigantia }
-  - "Maddie Dee":                            { cf: "Dee Family" }
-  - "Madrid, Spain":                         { url: setting-nova-labs }
-  - "Mag Findargat":                         [ { url: setting-tuatha }, { url: setting-clotu } ]
-  - "Magnetic Field, Vulcanor":              { url: setting-vulcanor }
-  - "Magnus Merlyn Malign (Marquis Malign)":
-    - { url: setting-other-marquis-malign, main: true }
-    - { url: setting-villains-inc                     }
-    - { url: setting-vespa-1                          }
-    - { url: setting-vespa                            }
-  - "Man in Black, The": [ { main: true, url: setting-other-man-in-black   }, { url: setting-obsidius-rex } ]
-  - "Marlinspike":       [ { main: true, url: setting-other-marlinspike    }, { url: setting-technopolis  } ]
-  - "Marquis Malign":    [ { url: setting-other-marquis-malign, main: true }, { url: setting-villains-inc } ]
-  - "Master Magister":   { cf: "Dee Family" }
-  - "Massachusetts":
-    -          { url: setting-other-maddie-dee }
-    - Boston:  { url: setting-other-maddie-dee }
-    - Danvers: { url: setting-other-maddie-dee }
-  - "McCord, Martin (Adam-42: O-O-P-F)": { url: setting-adam-42 }
+  # - "Igneia Vulcanor":
+    # - { url: setting-other-igneia, main: true }
+    # - { url: setting-obsidius-rex }
+    # - { url: setting-villains-inc }
+    # - { url: setting-other-tachylus-rex }
+  # - "Interstellar Consortium of Civilizations":   { url: setting-farseeker                          }
+  # - "Jack Dee":                                   { cf: "Dee Family"                                }
+  # - "Jarnsaxa":                                   { aka: moon of Saturn, url: setting-titan         }
+  # - "Johnny Dee (Master Magister)":               { cf: "Dee Family" }
+  # - "Junior Legends of America":                  [ { url: setting-energy-boy                       }, { url: setting-vespa } ]
+  # - "Kaleidoscope Kidd":                          [ { main: true, url: setting-other-kaleidoscope-kidd }, { url: setting-technopolis } ]
+  # - "Kelly Liang (Riptide)":                      { url: setting-riptide, main: true                }
+  # - "Khyber Pakhtunkhwa, Pakistan":               { url: setting-head-librarian                     }
+  # - "King Tachylus":                              { cf: "Vulcanor (Royal Family)"                   }
+  # - "Knights of the Round Table":                 { url: setting-grailknight                        }
+  # - "Kyiv, Ukraine":                              { url: setting-nova-labs                          }
+  # - "Kyl'Sh'Tal":                                 [ { url: setting-saturn                           }, { url: setting-titan } ]
+  # - "L'Shar'Ak":                                  { url: setting-titan                              }
+  # - "Lagos, Nigeria":                             { url: setting-nova-labs                          }
+  # - "Lavablade, The (Obsidius Rex's greatsword)": { url: setting-obsidius-rex                       }
+  # - "Liang, Kelly":                               { aka: Riptide, url: setting-riptide, main: true, }
+  # - "Lii, Adam X.":                               { url: setting-adam-42                            }
+  # - "Limuo Pele Vulcanor":
+    # - { main: true, url: setting-other-limuo }
+    # - { url: setting-obsidius-rex }
+    # - { url: setting-other-tachylus-rex }
+  # - "Los Angeles Police Department":         { url: setting-adam-42 }
+  # - "Lucky Starr":                           [ { main: true, url: setting-other-lucky-star }, { url: setting-technopolis } ]
+  # - "MacGowan, Sienna":                      { main: true, url: setting-brigantia }
+  # - "Maddie Dee":                            { cf: "Dee Family" }
+  # - "Madrid, Spain":                         { url: setting-nova-labs }
+  # - "Mag Findargat":                         [ { url: setting-tuatha }, { url: setting-clotu } ]
+  # - "Magnetic Field, Vulcanor":              { url: setting-vulcanor }
+  # - "Magnus Merlyn Malign (Marquis Malign)":
+    # - { url: setting-other-marquis-malign, main: true }
+    # - { url: setting-villains-inc                     }
+    # - { url: setting-vespa-1                          }
+    # - { url: setting-vespa                            }
+  # - "Man in Black, The": [ { main: true, url: setting-other-man-in-black }, { url: setting-obsidius-rex } ]
+  # - "Marlinspike":       [ { main: true, url: setting-other-marlinspike    }, { url: setting-technopolis  } ]
+  # - "Marquis Malign":    [ { url: setting-other-marquis-malign, main: true }, { url: setting-villains-inc } ]
+  # - "Master Magister":   { cf: "Dee Family" }
+  # - "Massachusetts":
+    # -          { url: setting-other-maddie-dee }
+    # - Boston:  { url: setting-other-maddie-dee }
+    # - Danvers: { url: setting-other-maddie-dee }
+  - "McCord, Martin (a.k.a. **Adam-42: O-O-P-F**)": { url: setting-adam-42 }
   - "Montgomery Family, The":
-    - "Hazel Montgomery (Vespa I)":
+    - family: true
+    - "Del Thompson (a.k.a. **Energy Boy**)": [ { url: setting-vespa }, { url: setting-energy-boy, main: true } ]
+    - "Hazel Montgomery (a.k.a. **Vespa I**)":
       - { url: setting-vespa-1, main: true }
       - { url: setting-energy-boy          }
       - { url: setting-vespa               }
-    - "Lin Montgomery (Bug I, Hornette, Vespa 2.0)":
+    - "Lin Montgomery (a.k.a. **Bug I**, **Hornette**, and **Vespa 2.0**)":
       - { url: setting-vespa, main: true }
       - { url: setting-vespa-1,          }
       - { url: setting-energy-boy        }
-  - "Moulin Air Force Base":         { url: setting-sun-city }
-  - "Museum of Superheroic History": { url: setting-sun-city }
-  - "N.O.V.A. Labs":
-    - { url: setting-head-librarian        }
-    - { url: setting-nova-labs, main: true }
-    - { url: setting-vespa-1               }
-  - "Network for Observation, Verification, and Analysis (N.O.V.A. Labs)": { main: true, url: setting-nova-labs }
-  - "Neutrino": [ { url: setting-energy-boy }, { url: setting-other-neutrino }, { url: setting-vespa-1 }, { url: setting-villains-inc   } ]
-  - "New Mexico":                        { url: setting-vespa-1                               }
-  - "New York City, New York":           [ { url: setting-grailknight                           }, { url: setting-rockstar } ]
-  - "New Zealand":                       { desc: War with Vulcanor, url: setting-obsidius-rex }
-  - "N.J. Campbell: Far-Seeker":         { url: setting-farseeker                             }
-  - "Nora Jamila Campbell (Far-Seeker)": { main: true, url: setting-farseeker                 }
-  - "North, Geraldine \"Jeri\"":         { aka: Rockstar, url: setting-rockstar, main: true   }
-  - "Nova Scotia":                       { url: setting-titan                                 }
-  - "Nyrr-t'vor":                        { aka: Titanian gender, url: setting-saturn          }
-  - "Obsidius Rex":                      [ { url: setting-obsidius-rex, main: true }, { url: setting-other-tachylus-rex } ]
-  - "One-Officer Police Force":          { url: setting-adam-42 }
-  - "Pann Family, The":
-    - "Doctor Phineas Pann, Junior": { url: setting-villains-inc, main: true }
-    - "Doctor Phineas Pann, Senior": { url: setting-villains-inc, main: true }
-  - "Pellinore Family, The":
-    - { url: setting-other-dindrane }
-    - { url: setting-grailknight }
-    - "Agresizia":       { url: setting-grailknight }
-    - "Algovale":        { url: setting-grailknight }
-    - "Dindrane":        [ { url: setting-other-dindrane, main: true }, { url: setting-grailknight } ]
-    - "King Pellinore":  { url: setting-grailknight }
-    - "Lamorak":         { url: setting-grailknight }
-    - "Lawnslot y Llyn": { url: setting-other-dindrane }
-    - "Percival":        { url: setting-grailknight, main: true }
-    - "Percival":        { url: setting-other-dindrane }
-    - "Peredur":         { main: true, url: setting-grailknight }
-  - "Pennsylvania":
-    - Pittsburgh: [ { url: setting-clotu              }, { url: setting-nova-labs } ]
-  - "Peshawar, Pakistan":          { url: setting-head-librarian       }
-  - "Pittsburgh, Pennsylvania":    [ { url: setting-clotu              }, { url: setting-nova-labs } ]
-  - "Rifton, New York":            { url: setting-farseeker            }
-  - "Ring of Fire":                { url: setting-obsidius-rex         }
-  - "Rio de Janeiro, Brazil":      { url: setting-nova-labs            }
-  - "Riptide":                     { url: setting-riptide, main: true  }
-  - "Rockstar":                    { url: setting-rockstar, main: true }
-  - "Round Table, Knights of the": { url: setting-grailknight          }
-  - "San Francisco, California":   { url: setting-jackdee              }
-  - "Saturn":
-    - { main: true, url: setting-saturn }
-    - "Sentinels of": { url: setting-saturn          }
-    - "Titan (moon)": { cf: "Titan (moon of Saturn)" }
-  - "Sentinels of Saturn":                      { aka: organization, url: setting-saturn }
-  - "Sequana":                                  [ { url: setting-other-sequana, main: true },          { url: setting-tuatha },           { url: setting-villains-inc, main: true } ]
-  - "Sequence (Grailknight's sword)":           { url: setting-grailknight }
-  - "Sinhammer":                                [ { url: setting-other-sinhammer, main: true },        { url: setting-villains-inc } ]
-  - "Skryne, Ireland":                          { url: setting-brigantia }
-  - "Sojourner Truth (starship)":               { url: setting-farseeker }
-  - "Sreng":                                    [ { url: setting-other-sreng, main: true },            { url: setting-tuatha } ]
-  - "St. Helena Island":                        { url: setting-grailknight }
-  - "Starr, Sandra":                            [ { url: setting-other-sandra-starr, main: true },     { main: true, url: setting-alert } ]
-  - "State Bar of California":                  { url: setting-jackdee }
-  - "Sucellus, Mallet of (Sinhammer's weapon)": { url: setting-villains-inc }
-  - "Sun City, U.S.A.":
-    - { url: setting-sun-city, main: true }
-    - { url: setting-clotu                }
-    - { url: setting-nova-labs            }
-    - "Moulin Air Force Base":         { url: setting-sun-city }
-    - "Museum of Superheroic History": { url: setting-sun-city }
-    - "Port of Sun City":              { url: setting-sun-city }
-    - "Sun City University":           { url: setting-sun-city }
-    - "Sun City Zoo":                  { url: setting-sun-city }
-  - "Surabaya, Indonesia": { url: setting-nova-labs }
-  - "T.R.E.L.A.": [ { url: setting-vespa-1 }, { url: setting-alert } ]
-  - "Techno-Sun Bullet Train": { url: setting-sun-city }
-  - "Technopolis Academy": [ { url: setting-technopolis, main: true }, { url: setting-other-marlinspike }, { url: setting-vespa } ]
-  - "Technopolis, U.S.A.":
-    - { url: setting-sun-city     }
-    - { url: setting-clotu        }
-    - { url: setting-energy-boy   }
-    - { url: setting-nova-labs    }
-    - { url: setting-vespa-1      }
-    - { url: setting-villains-inc }
-  - "Teleidoscopic Man, The": [ { url: setting-villains-inc, main: true }, { url: setting-other-teleioscopic-man } ]
-  - "Tethys": { cf: "To'Rezz Family (My'Rinn To'Rezz)" }
-  - "Thompson, Del": [ { url: setting-vespa }, { url: setting-energy-boy, main: true } ]
-  - "Thompson, Delphine":
-    - { aka: Neutrino, url: setting-other-neutrino }
-    - { url: setting-energy-boy                    }
-    - { url: setting-nova-labs                     }
-    - { url: setting-vespa-1                       }
-    - { url: setting-villains-inc                  }
-  - "Titan, Sentinel of Saturn": { cf: "To'Rezz Family (Ty'Tonn To'Rezz)" }
-  - "Titan (moon of Saturn)":
-    - { url: setting-saturn }
-    - { url: setting-titan  }
-    - "Thought Guild of": { url: setting-saturn }
-    - "Titanese (language)":
-      - { url: setting-saturn }
-      - Terms:
-        - "*Ro'Tan'Kesh* (Titanese)":     { url: setting-saturn }
-        - "*Ro'Tan'Okk* (Titanian race)": { url: setting-saturn }
-        - "*W'Ty'Dah'k* (Earth)":         { url: setting-titan  }
-  - "To'Rezz Family, The":
-    - "My'Rinn To'Rezz":          { url: setting-other-tethys, main: true }
-    - "My'Tonn To'Rezz (Tethys)": [ { url: setting-other-tethys }, { url: setting-titan } ]
-    - "Ty'Tonn To'Rezz (Titan)":  [ { url: setting-titan }, { url: setting-other-tethys }, url: { setting-nova-labs } ]
-  - "Torres, Tom": { cf: "To'Rezz Family (Ty'Tonn To'Rezz)" }
-  - "Toms River, New Jersey": { url: setting-rockstar }
-  - "Tuatha De Danann (Celtic pantheon)":
-    - { url: setting-tuatha, main: true, aka: pantheon }
-    - { url: setting-brigantia }
-    - "Champion of": [ { url: setting-tuatha }, { url: setting-brigantia } ]
-    - Members:
-      - "Aengus":        { url: setting-tuatha }
-      - "Bres":          [ { url: setting-tuatha }, { url: setting-other-bres } ]
-      - "Brigit":        [ { url: setting-tuatha }, { url: setting-brigantia  } ]
-      - "Dagda, The":    { url: setting-tuatha }
-      - "Dian Cecht":    { url: setting-tuatha }
-      - "Goibniu":       { url: setting-tuatha }
-      - "Lugh":          { url: setting-tuatha }
-      - "Miach":         { url: setting-tuatha }
-      - "Nuada":         { url: setting-tuatha }
-      - "Manannán":      { url: setting-tuatha }
-      - "Morrigan, The": { url: setting-tuatha }
-  - "Tuskaloosa, Alabama": { url: setting-energy-boy }
-  - "Ty'Tonn To'Rezz": { cf: "To'Rezz Family (Ty'Tonn To'Rezz)" }
-  - "Vadyvokia":
-    - { url: setting-vespa }
-    - "Vadykovia Castle": { url: setting-vespa }
-  - "Vespa":
-    - "Hazel Montgomery (Vespa I)": { cf: "Montgomery Family (Hazel Montgomery)" }
-    - { url: setting-vespa-1, main: true }
-    - { url: setting-vespa }
-    - { url: setting-energy-boy }
-    - { url: setting-nova-labs }
-    - "Lin Montgomery (Vespa 2.0)": { cf: "Montgomery Family (Lin Montgomery)" }
-    - "Vespa armor": { url: setting-vespa-1, main: true }
-  - "Villains, Inc.": [ { url: setting-villains-inc, main: true }, { url: setting-energy-boy }, { url: setting-vespa } ]
-  - "Visitors, The": 
-    - { url: setting-saturn }
-    - { url: setting-titan }
-    - { url: setting-vulcanor }
-    - "Visitation, Third": [ { url: setting-vespa-1 }, { url: setting-vespa } ]
-  - Vulcanor:
-    - { aka: nation, url: setting-vulcanor, main: true }
-    - { url: setting-other-marlinspike }
-    - "Vulcanese (language)": { url: setting-vulcanor }
-    - "Royal Family":
-      - { url: setting-obsidius-rex }
-      - { url: setting-vulcanor }
-      - "Igneia":       { url: setting-vulcanor     }
-      - "Limuo Pele":   { url: setting-obsidius-rex }
-      - "Obsidius Rex": { url: setting-obsidius-rex }
-      - "Tachylus Rex": { url: setting-vulcanor     }
-    - "Vulcanor Island":
-      - "Volcano City": [ { url: setting-obsidius-rex }, { url: setting-other-marlinspike }, { url: setting-other-tachylus-rex }, { url: setting-vulcanor } ]
-  - "Xana Mega":
-    - { url: setting-other-xana-mega, main: true }
-    - { url: setting-clotu                       }
-    - { url: setting-tuatha                      }
-    - { url: setting-villains-inc                }
-  - "Yeoman, The":   { url: setting-other-yeoman, main: true }
-  - "Zaar":          { url: setting-other-zaar,   main: true }
-  - "Zoo, Sun City": { url: setting-sun-city }
+  # - "Moulin Air Force Base":         { url: setting-sun-city }
+  # - "Museum of Superheroic History": { url: setting-sun-city }
+  # - "N.O.V.A. Labs":
+    # - { url: setting-head-librarian        }
+    # - { url: setting-nova-labs, main: true }
+    # - { url: setting-vespa-1               }
+  # - "Network for Observation, Verification, and Analysis (N.O.V.A. Labs)": { main: true, url: setting-nova-labs }
+  # - "Neutrino": [ { url: setting-energy-boy }, { url: setting-other-neutrino }, { url: setting-vespa-1 }, { url: setting-villains-inc   } ]
+  # - "New Mexico":                        { url: setting-vespa-1                               }
+  # - "New York City, New York":           [ { url: setting-grailknight                           }, { url: setting-rockstar } ]
+  # - "New Zealand":                       { desc: War with Vulcanor, url: setting-obsidius-rex }
+  # - "N.J. Campbell: Far-Seeker":         { url: setting-farseeker                             }
+  # - "Nora Jamila Campbell (Far-Seeker)": { main: true, url: setting-farseeker                 }
+  # - "North, Geraldine \"Jeri\"":         { aka: Rockstar, url: setting-rockstar, main: true   }
+  # - "Nova Scotia":                       { url: setting-titan                                 }
+  # - "Nyrr-t'vor":                        { aka: Titanian gender, url: setting-saturn          }
+  # - "Obsidius Rex":                      [ { url: setting-obsidius-rex, main: true }, { url: setting-other-tachylus-rex } ]
+  # - "One-Officer Police Force":          { url: setting-adam-42 }
+  # - "Pann Family, The":
+    # - "Doctor Phineas Pann, Junior": { url: setting-villains-inc, main: true }
+    # - "Doctor Phineas Pann, Senior": { url: setting-villains-inc, main: true }
+  # - "Pellinore Family, The":
+    # - { url: setting-other-dindrane }
+    # - { url: setting-grailknight }
+    # - "Agresizia":       { url: setting-grailknight }
+    # - "Algovale":        { url: setting-grailknight }
+    # - "Dindrane":        [ { url: setting-other-dindrane, main: true }, { url: setting-grailknight } ]
+    # - "King Pellinore":  { url: setting-grailknight }
+    # - "Lamorak":         { url: setting-grailknight }
+    # - "Lawnslot y Llyn": { url: setting-other-dindrane }
+    # - "Percival":        { url: setting-grailknight, main: true }
+    # - "Percival":        { url: setting-other-dindrane }
+    # - "Peredur":         { main: true, url: setting-grailknight }
+  # - "Pennsylvania":
+    # - Pittsburgh: [ { url: setting-clotu              }, { url: setting-nova-labs } ]
+  # - "Peshawar, Pakistan":          { url: setting-head-librarian       }
+  # - "Pittsburgh, Pennsylvania":    [ { url: setting-clotu              }, { url: setting-nova-labs } ]
+  # - "Rifton, New York":            { url: setting-farseeker            }
+  # - "Ring of Fire":                { url: setting-obsidius-rex         }
+  # - "Rio de Janeiro, Brazil":      { url: setting-nova-labs            }
+  # - "Riptide":                     { url: setting-riptide, main: true  }
+  # - "Rockstar":                    { url: setting-rockstar, main: true }
+  # - "Round Table, Knights of the": { url: setting-grailknight          }
+  # - "San Francisco, California":   { url: setting-jackdee              }
+  # - "Saturn":
+    # - { main: true, url: setting-saturn }
+    # - "Sentinels of": { url: setting-saturn          }
+    # - "Titan (moon)": { cf: "Titan (moon of Saturn)" }
+  # - "Sentinels of Saturn":                      { aka: organization, url: setting-saturn }
+  # - "Sequana":                                  [ { url: setting-other-sequana, main: true },          { url: setting-tuatha },           { url: setting-villains-inc, main: true } ]
+  # - "Sequence (Grailknight's sword)":           { url: setting-grailknight }
+  # - "Sinhammer":                                [ { url: setting-other-sinhammer, main: true },        { url: setting-villains-inc } ]
+  # - "Skryne, Ireland":                          { url: setting-brigantia }
+  # - "Sojourner Truth (starship)":               { url: setting-farseeker }
+  # - "Sreng":                                    [ { url: setting-other-sreng, main: true },            { url: setting-tuatha } ]
+  # - "St. Helena Island":                        { url: setting-grailknight }
+  # - "Starr, Sandra":                            [ { url: setting-other-sandra-starr, main: true },     { main: true, url: setting-alert } ]
+  # - "State Bar of California":                  { url: setting-jackdee }
+  # - "Sucellus, Mallet of (Sinhammer's weapon)": { url: setting-villains-inc }
+  # - "Sun City, U.S.A.":
+    # - { url: setting-sun-city, main: true }
+    # - { url: setting-clotu                }
+    # - { url: setting-nova-labs            }
+    # - "Moulin Air Force Base":         { url: setting-sun-city }
+    # - "Museum of Superheroic History": { url: setting-sun-city }
+    # - "Port of Sun City":              { url: setting-sun-city }
+    # - "Sun City University":           { url: setting-sun-city }
+    # - "Sun City Zoo":                  { url: setting-sun-city }
+  # - "Surabaya, Indonesia": { url: setting-nova-labs }
+  # - "T.R.E.L.A.": [ { url: setting-vespa-1 }, { url: setting-alert } ]
+  # - "Techno-Sun Bullet Train": { url: setting-sun-city }
+  # - "Technopolis Academy": [ { url: setting-technopolis, main: true }, { url: setting-other-marlinspike }, { url: setting-vespa } ]
+  # - "Technopolis, U.S.A.":
+    # - { url: setting-sun-city     }
+    # - { url: setting-clotu        }
+    # - { url: setting-energy-boy   }
+    # - { url: setting-nova-labs    }
+    # - { url: setting-vespa-1      }
+    # - { url: setting-villains-inc }
+  # - "Teleidoscopic Man, The": [ { url: setting-villains-inc, main: true }, { url: setting-other-teleioscopic-man } ]
+  # - "Tethys": { cf: "To'Rezz Family (My'Rinn To'Rezz)" }
+  # - "Thompson, Delphine":
+    # - { aka: Neutrino, url: setting-other-neutrino }
+    # - { url: setting-energy-boy                    }
+    # - { url: setting-nova-labs                     }
+    # - { url: setting-vespa-1                       }
+    # - { url: setting-villains-inc                  }
+  # - "Titan, Sentinel of Saturn": { cf: "To'Rezz Family (Ty'Tonn To'Rezz)" }
+  # - "Titan (moon of Saturn)":
+    # - { url: setting-saturn }
+    # - { url: setting-titan  }
+    # - "Thought Guild of": { url: setting-saturn }
+    # - "Titanese (language)":
+      # - { url: setting-saturn }
+      # - Terms:
+        # - "*Ro'Tan'Kesh* (Titanese)":     { url: setting-saturn }
+        # - "*Ro'Tan'Okk* (Titanian race)": { url: setting-saturn }
+        # - "*W'Ty'Dah'k* (Earth)":         { url: setting-titan  }
+  # - "To'Rezz Family, The":
+    # - "My'Rinn To'Rezz":          { url: setting-other-tethys, main: true }
+    # - "My'Tonn To'Rezz (Tethys)": [ { url: setting-other-tethys }, { url: setting-titan } ]
+    # - "Ty'Tonn To'Rezz (Titan)":  [ { url: setting-titan }, { url: setting-other-tethys }, url: { setting-nova-labs } ]
+  # - "Torres, Tom": { cf: "To'Rezz Family (Ty'Tonn To'Rezz)" }
+  # - "Toms River, New Jersey": { url: setting-rockstar }
+  # - "Tuatha De Danann (Celtic pantheon)":
+    # - { url: setting-tuatha, main: true, aka: pantheon }
+    # - { url: setting-brigantia }
+    # - "Champion of": [ { url: setting-tuatha }, { url: setting-brigantia } ]
+    # - Members:
+      # - "Aengus":        { url: setting-tuatha }
+      # - "Bres":          [ { url: setting-tuatha }, { url: setting-other-bres } ]
+      # - "Brigit":        [ { url: setting-tuatha }, { url: setting-brigantia  } ]
+      # - "Dagda, The":    { url: setting-tuatha }
+      # - "Dian Cecht":    { url: setting-tuatha }
+      # - "Goibniu":       { url: setting-tuatha }
+      # - "Lugh":          { url: setting-tuatha }
+      # - "Miach":         { url: setting-tuatha }
+      # - "Nuada":         { url: setting-tuatha }
+      # - "Manannán":      { url: setting-tuatha }
+      # - "Morrigan, The": { url: setting-tuatha }
+  # - "Tuskaloosa, Alabama": { url: setting-energy-boy }
+  # - "Ty'Tonn To'Rezz": { cf: "To'Rezz Family (Ty'Tonn To'Rezz)" }
+  # - "Vadyvokia":
+    # - { url: setting-vespa }
+    # - "Vadykovia Castle": { url: setting-vespa }
+  # - "Vespa":
+    # - "Hazel Montgomery (Vespa I)": { cf: "Montgomery Family (Hazel Montgomery)" }
+    # - { url: setting-vespa-1, main: true }
+    # - { url: setting-vespa }
+    # - { url: setting-energy-boy }
+    # - { url: setting-nova-labs }
+    # - "Lin Montgomery (Vespa 2.0)": { cf: "Montgomery Family (Lin Montgomery)" }
+    # - "Vespa armor": { url: setting-vespa-1, main: true }
+  # - "Villains, Inc.": [ { url: setting-villains-inc, main: true }, { url: setting-energy-boy }, { url: setting-vespa } ]
+  # - "Visitors, The": 
+    # - { url: setting-saturn }
+    # - { url: setting-titan }
+    # - { url: setting-vulcanor }
+    # - "Visitation, Third": [ { url: setting-vespa-1 }, { url: setting-vespa } ]
+  # - Vulcanor:
+    # - { aka: nation, url: setting-vulcanor, main: true }
+    # - { url: setting-other-marlinspike }
+    # - "Vulcanese (language)": { url: setting-vulcanor }
+    # - "Royal Family":
+      # - { url: setting-obsidius-rex }
+      # - { url: setting-vulcanor }
+      # - "Igneia":       { url: setting-vulcanor     }
+      # - "Limuo Pele":   { url: setting-obsidius-rex }
+      # - "Obsidius Rex": { url: setting-obsidius-rex }
+      # - "Tachylus Rex": { url: setting-vulcanor     }
+    # - "Vulcanor Island":
+      # - "Volcano City": [ { url: setting-obsidius-rex }, { url: setting-other-marlinspike }, { url: setting-other-tachylus-rex }, { url: setting-vulcanor } ]
+  # - "Xana Mega":
+    # - { url: setting-other-xana-mega, main: true }
+    # - { url: setting-clotu                       }
+    # - { url: setting-tuatha                      }
+    # - { url: setting-villains-inc                }
+  # - "Yeoman, The":   { url: setting-other-yeoman, main: true }
+  # - "Zaar":          { url: setting-other-zaar,   main: true }
+  # - "Zoo, Sun City": { url: setting-sun-city }
