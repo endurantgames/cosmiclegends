@@ -1226,7 +1226,7 @@ end;
 local function yaml_glossary(yaml_tree)
   -- local yaml_tree, slurped, metadata = yaml_common(yaml_tree);
   -- local flat_tree = unpack_yaml_tree(yaml_tree, "yaml_tree");
-  local flat_tree, metadata, slurped, common_error = yaml_common(yaml_tree);
+  local flat_tree, _, slurped = yaml_common(yaml_tree);
   vprint("yaml xformat is:", "=== GLOSSARY ===");
   vprint("number of entries:", #flat_tree);
   local keys = get_sorted_keys(flat_tree);
@@ -1243,7 +1243,6 @@ local function yaml_glossary(yaml_tree)
       if   term ~= "metadata" and term ~= "flat"
       then
            vprint("term", term);
-           -- vprint("data", data);
            local glossary_data =  unpack_yaml_tree(data, term);
            local def           =  glossary_data.def
            local hq_equiv      =  glossary_data.hq_equiv;
@@ -1262,9 +1261,6 @@ local function yaml_glossary(yaml_tree)
                 vprint(term .. " means:", def);
                 slurped = slurped .. term .. "\n";
                 slurped = slurped .. ":   " .. def;
-           -- else vprint("==============", "===============");
-           --      vprint("ERROR " .. term, "no def");
-           --      print(inspect(glossary_data));
            end;
            if     (hq_equiv and type(hq_equiv) == "string") and
                   (generic_equiv and type(generic_equiv) == "string")
@@ -1290,6 +1286,24 @@ local function yaml_glossary(yaml_tree)
   end;
   slurped = slurped .. string.rep(":", 70) .. "\n\n";
   return slurped;
+end;
+
+local function yaml_index_entry(yaml_tree)
+  vprint("yaml xformat is", "item: index entry");
+
+end;
+
+local function yaml_index(yaml_tree)
+  vprint("yaml xformat is", "index");
+  local index, _, slurped = yaml_common(yaml_tre);
+  if index.list
+  then vprint("Found list");
+  else eprint("Not found: list", "yaml_index");
+       local list = unpack_yaml_tree(index.list);
+       for k, v in pairs(list)
+       do  print("item:", k);
+       end;
+  end;
 end;
 
 local function yaml_place(yaml_tree)
