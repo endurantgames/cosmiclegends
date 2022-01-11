@@ -154,7 +154,9 @@ PDFINFO_GREP = | /bin/grep -v "no"
 #   Edit: you can turn off quiet or verbose mode
 # MAKE_MD    = $(MMD) -q -- quiet
 # MAKE_MD    = $(MMD) -v -- verbose
-MAKE_MD      = $(MMD) -v
+# MAKE_MD    = $(MMD) -y -- yamlbose (verbose only about yaml parsing)
+# MAKE_MD      = $(MMD) -y
+MAKE_MD      = $(MMD) -q
 MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)

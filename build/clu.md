@@ -3195,9 +3195,9 @@ need, she can form a sword of blazing light."
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** King Pellinore[]{.icon-male} (father, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister)
-- **Base of Operations:** Camelot, England (formerly); Sun City, U.S.A.; St. Helena Island (temporarily, 1900); New York City, New York (current)
-- **Group Affiliation:** Knights of the Round Table (organization defunct), Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative)
+- **Known Relatives:** Dindrane[]{.icon-female} (sister), King Pellinore[]{.icon-male} (father, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*)
+- **Base of Operations:** Sun City, U.S.A.; New York City, New York (current); Camelot, England (formerly); St. Helena Island (temporarily, 1900)
+- **Group Affiliation:** A.L.E.R.T. (reserve operative), Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3276,12 +3276,6 @@ completes his quest and finds the Grail.
 - **Atomicorps**
 
  *status unknown* 
-- **Atomicorps**
-
- *status unknown* 
-- **The Crime Institute**
-
- *status unknown* 
 - **The Crime Institute**
 
  *status unknown* 
@@ -3300,9 +3294,6 @@ completes his quest and finds the Grail.
 - **The Foreigners**
 
  *status unknown* 
-- **The Foreigners**
-
- *status unknown* 
 - **The G.I. Dinosaurs**
 
  *status unknown* 
@@ -3310,12 +3301,6 @@ completes his quest and finds the Grail.
 
  *status unknown* 
 - **Girl Commandos**
-
- *status unknown* 
-- **Girl Commandos**
-
- *status unknown* 
-- **The Interstellar Consortium of Civilizations**
 
  *status unknown* 
 - **The Interstellar Consortium of Civilizations**
@@ -3330,12 +3315,6 @@ completes his quest and finds the Grail.
 - **The Kyl'Sh'Tal**
 
  *status unknown* 
-- **The Kyl'Sh'Tal**
-
- *status unknown* 
-- **Legends of the Future**
-
- *status unknown* 
 - **Legends of the Future**
 
  *status unknown* 
@@ -3348,9 +3327,6 @@ completes his quest and finds the Grail.
 - **Legends of the Old West**
 
  *status unknown* 
-- **Legends of the Old West**
-
- *status unknown* 
 - **Legends of the Pacific Front**
 
  *status unknown* 
@@ -3358,12 +3334,6 @@ completes his quest and finds the Grail.
 
  *status unknown* 
 - **Legends of the Western Front**
-
- *status unknown* 
-- **Legends of the Western Front**
-
- *status unknown* 
-- **The Ro'Tan'Okk**
 
  *status unknown* 
 - **The Ro'Tan'Okk**
@@ -3409,6 +3379,9 @@ completes his quest and finds the Grail.
 - **13.75 billion years ago** Unknown Having attained interstellar space flight, the Visitors begin to explore the galaxy in large worldships.
 
 
+- **13.75 billion years ago** Unknown Having attained interstellar space flight, the Visitors begin to explore the galaxy in large worldships.
+
+
 - **13.8 billion years ago** Unknown The first intelligent civilization in the universe, the Visitors, arises.
 
 
@@ -3432,11 +3405,6 @@ how or why.
 - **14 billion years ago** Everywhere The universe comes into existence. Current science has no explanation for
 how or why.
 
-
-- **2 billion years ago** The moon Titan "The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- form an organization of astronomers and soldiers to watch for the return of their previous captors.
-
-These would come to be known on Earth as the Sentinels of Saturn."
- See also: *Titan*
 
 - **2 billion years ago** The moon Titan "The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- form an organization of astronomers and soldiers to watch for the return of their previous captors.
 
@@ -3467,9 +3435,6 @@ than face trial for her actions. Zaar's later activities are undocumented.
 where she became a member of the Cosmic Legends. After killing Sinhammer 
 while the villain was in custody, she returned to the 24th Century rather 
 than face trial for her actions. Zaar's later activities are undocumented.
-
-
-- **3 billion years ago** The moon Titan After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
 
 
 - **3 billion years ago** The moon Titan After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
@@ -3478,7 +3443,7 @@ than face trial for her actions. Zaar's later activities are undocumented.
 - **3.5 billion years ago** The moon Titan The earliest forms of life arise in the subsurface ammonia oceans.
 
 
-- **3.77 billion years ago** The planet Earth The earliest forms of life arise around thermal vents in the oceans.
+- **3.5 billion years ago** The moon Titan The earliest forms of life arise in the subsurface ammonia oceans.
 
 
 - **3.77 billion years ago** The planet Earth The earliest forms of life arise around thermal vents in the oceans.
@@ -3498,9 +3463,6 @@ They leave behind multiple orbiting drones to monitor the planets and moons of t
 - **3.85 billion years ago** The Solar System "Probes launched by the Visitors discover the Solar System and note the potential for life on Earth and Titan.
 
 They leave behind multiple orbiting drones to monitor the planets and moons of the Solar System."
-
-
-- **4 billion years ago** The planet Saturn Titan and the other moons of Saturn form.
 
 
 - **4 billion years ago** The planet Saturn Titan and the other moons of Saturn form.
@@ -3514,6 +3476,15 @@ They leave behind multiple orbiting drones to monitor the planets and moons of t
 
 - **5th Century, CE** Post-Roman Britain "Ambrosius Aurelianus, who would later become known in legend as \"King Arthur\",
 established an order of knights at Camulodunum."
+
+
+- **5th Century, CE** Post-Roman Britain "Ambrosius Aurelianus, who would later become known in legend as \"King Arthur\",
+established an order of knights at Camulodunum."
+
+
+- **6th Century, CE** Camulodunum, Post-Roman Britain "Perceval, a Welsh knight in Arthur's court, swears to recover the Holy Grail. 
+Through unexplained means, he became immortal and is known as the Grailknight, one
+of the founding members of the Cosmic Legends."
 
 
 - **6th Century, CE** Camulodunum, Post-Roman Britain "Perceval, a Welsh knight in Arthur's court, swears to recover the Holy Grail. 
@@ -3565,12 +3536,6 @@ and the Vadyvokian Armed Forces to drive them away. Hazel Montgomery (Vespa) is
 killed in action against the Visitors' shock troops."
 
 
-- **April, 2003** Earth orbit "A Visitor worldship appears in orbit. The Cosmic Legends, the Junior Legends, 
-and the Foreigners join with A.L.E.R.T., the Kyl'Sh'Tal, the Vulcanor Militia, 
-and the Vadyvokian Armed Forces to drive them away. Hazel Montgomery (Vespa) is
-killed in action against the Visitors' shock troops."
-
-
 - **August, 1900** Belfast, South Africa "Sir Percival, who would later be called the Grailknight, was captured at the 
 Battle of Bergendal after fighting alongside the Boers against the British as part
 of the Irish Transvaal Brigade during the Second Anglo-Boer War. He was sent to
@@ -3614,8 +3579,9 @@ causing the Kyl'Sh'Tal of Titan to adopt a policy of non-interference with the p
 W'Ty'Tah'k."
 
 
-- **August, 1952** Boston, Massachusetts "After August of 1952, John Dee withdrew from public life to spend more time with his
-family."
+- **August, 1945** Hiroshima and Nagasaki, Japan "The United States uses nuclear bombs to destroy the cities of Hiroshima and Nagasaki,
+causing the Kyl'Sh'Tal of Titan to adopt a policy of non-interference with the planet 
+W'Ty'Tah'k."
 
 
 - **August, 1952** Boston, Massachusetts "After August of 1952, John Dee withdrew from public life to spend more time with his
@@ -3663,6 +3629,16 @@ existence of the Vulcanors would remain hidden until 1956."
 - **December, 1971** Technopolis, U.S.A. "Titan, Lin Montgomery, Dr. Phineas Pann, Delphine Thompson, and King Tachylus Rex create
 the Network for Observation, Verification, and Analysis, opening the first laboratory
 in Technopolis, with Hazel Montgomery as the founding director."
+
+
+- **December, 1971** Technopolis, U.S.A. "Titan, Lin Montgomery, Dr. Phineas Pann, Delphine Thompson, and King Tachylus Rex create
+the Network for Observation, Verification, and Analysis, opening the first laboratory
+in Technopolis, with Hazel Montgomery as the founding director."
+
+
+- **December, 2015** Sun City, U.S.A. "After decades of allowing Earthlings to use he/him pronouns for them, Titan holds a
+press conference and announces that they would be using they/them pronouns henceforth.
+This is reported on the front page of the *New York Times*."
 
 
 - **December, 2015** Sun City, U.S.A. "After decades of allowing Earthlings to use he/him pronouns for them, Titan holds a
@@ -3740,18 +3716,14 @@ the world's first supervillain, Sinhammer, in Times Square.
 Vespa (I) and a founding director of N.O.V.A. Labs."
 
 
-- **June, 1965** Albuquerque, New Mexico "Hazel Montgomery is recruited to join A.L.E.R.T.; in time, she will go on become
-Vespa (I) and a founding director of N.O.V.A. Labs."
-
-
 - **June, 1973** Technopolis, U.S.A. Ignoring safety protocols, Delphine Thompson activates an experimental reactor,
 apparently killing her ten-year-old son Delmore and giving herself energy powers
 as Neutrino.
 
 
-- **June, 1973** Technopolis, U.S.A. Ignoring safety protocols, Delphine Thompson activates an experimental reactor,
-apparently killing her ten-year-old son Delmore and giving herself energy powers
-as Neutrino.
+- **March, 1941** The South Pacific Fearing that war in Europe and the  Pacific may be inevitable, U.S. scientists 
+clone dinosaurs and implant them with control circuits to use as disposable
+soldiers.
 
 
 - **March, 1941** The South Pacific Fearing that war in Europe and the  Pacific may be inevitable, U.S. scientists 
@@ -3790,6 +3762,10 @@ simply go by his own name."
 member, under the name \"Volcano Kid\" -- which he soon abandons to
 simply go by his own name."
  See also: *Obsidius Rex*
+
+- **March, 1982** Skryne, County Meath, Ireland Archeologist Sienna MacGowan is chosen by the Tuatha Dé Danann as their new 
+champion. She joins the Cosmic Legends two months later.
+
 
 - **March, 1982** Skryne, County Meath, Ireland Archeologist Sienna MacGowan is chosen by the Tuatha Dé Danann as their new 
 champion. She joins the Cosmic Legends two months later.
@@ -3872,13 +3848,6 @@ Young prince Obsidius and the Volcano City Militia join the fight, revealing the
 to the outside world."
  See also: *The Visitors*
 
-- **November, 1956 to January, 1957** Worldwide "The nations of Earth rally behind A.L.E.R.T., Sequana, and Ty'Tonnn -- now calling themself 
-\"Titan\" -- to drive off the Visitors.
-
-Young prince Obsidius and the Volcano City Militia join the fight, revealing the presence of Vulcanians
-to the outside world."
- See also: *The Visitors*
-
 - **November, 1968** Vadyvokia Castle, Vadyvokia "Lin Montgomery, the child of Hazel Montgomery and Magnus Malign, is born. She
 would later be known as Bug (I), the Hornette, and Vespa 2.0."
 
@@ -3906,10 +3875,6 @@ Technopolis."
 member of the Cosmic Legends of the Universe team."
 
 
-- **October, 1946** Volcano City, Vulcanor Island "Crown prince Obsidius Vulcanor born. He would later become the first non-founding 
-member of the Cosmic Legends of the Universe team."
-
-
 - **October, 1947** United States "The United States creates the Agency for the Licensing of Extra-Human Resources and Threats
 with the merger of the National Security Agency and the National Advisory Committee for Aeronautics,
 under the United States Department of Defense.
@@ -3930,6 +3895,10 @@ space operations would remain under military control.)"
 
 
 - **October, 1956** The moon Jarnsaxa "Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors."
+
+
+- **October, 1965** Vadyvokia Castle, Vadyvokia "After a whirlwind romance, Vespa (I) and Marquis Malign have a perfect \"storybook
+wedding.\""
 
 
 - **October, 1965** Vadyvokia Castle, Vadyvokia "After a whirlwind romance, Vespa (I) and Marquis Malign have a perfect \"storybook
@@ -4177,66 +4146,87 @@ Storylines.
 
 Ability
 :   Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises.
-
-Ability
-:   Something granted by a hero's class that changes how they spend Might, use Power Words, or interact with Crises.
+    ()
 
 Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
+    ()
 
 Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
+    ()
 
 Add to the Teamwork Pool
 :   A move taken by a hero designed to give the team an advantage against a Crisis.
-
-Add to the Teamwork Pool
-:   A move taken by a hero designed to give the team an advantage against a Crisis.
+    ()
 
 Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
+    ()
 
 Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
+    ()
 
 Advancement
 :   The choice made by a player at the end of a Storyline that reflects the hero's growth.
+    ()
+
+Advancement
+:   The choice made by a player at the end of a Storyline that reflects the hero's growth.
+    ()
 
 Adventure
 :   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation.
+    ()
 
 Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
-    (*Diplomacy* in general TRPG terminology.)
+    (*Diplomacy* in general TRPG terminology)
+
+Allay
+:   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
+    (*Diplomacy* in general TRPG terminology)
 
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
-    (*finale* in general TRPG terminology.)
-
-Annual
-:   A session (or sessions) at the end of a Volume that tie the Storylines together.
-    (*finale* in general TRPG terminology.)
+    (*finale* in general TRPG terminology)
 
 Approach
 :   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
+    ()
 
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
+    ()
+
+Comic Page Change Tools
+:   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
+    ()
 
 Contined Next Page
 :   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
+    ()
 
 Cooldown
 :   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
-    (*recharge* in general TRPG terminology.)
+    (*recharge* in general TRPG terminology)
 
 Counter
 :   Avoiding the consequences of a Crisis Move.
-    (*Saving Throw* in general TRPG terminology.)
+    (*Saving Throw* in general TRPG terminology)
+
+Counter
+:   Avoiding the consequences of a Crisis Move.
+    (*Saving Throw* in general TRPG terminology)
 
 Crisis
 :   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system.
-    (*Encounter* in general TRPG terminology.)
+    (*Encounter* in general TRPG terminology)
+
+Crisis
+:   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system.
+    (*Encounter* in general TRPG terminology)
 
 Crisis Phase
 :   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
@@ -4244,276 +4234,291 @@ Crisis Phase
 
 Crossover
 :   A game session with heroes from two or more different campaigns working together.
+    ()
 
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information.
-    (*Intelligence* in general TRPG terminology.)
+    (*Intelligence* in general TRPG terminology)
 
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
-    (*Success* in general TRPG terminology.)
-
-Edge Success
-:   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
-    (*Success* in general TRPG terminology.)
+    (*Success* in general TRPG terminology)
 
 Editor
 :   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues.
-    (*Game Master* in general TRPG terminology.)
+    (*Game Master* in general TRPG terminology)
+
+Editor
+:   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues.
+    (*Game Master* in general TRPG terminology)
 
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
-    (*Total, Result* in general TRPG terminology.)
+    (*Total, Result* in general TRPG terminology)
 
 Fighting Style
 :   An ability that changes the way a hero interacts with Crises.
-    (*feat, special ability* in general TRPG terminology.)
+    (*feat, special ability* in general TRPG terminology)
+
+Fighting Style
+:   An ability that changes the way a hero interacts with Crises.
+    (*feat, special ability* in general TRPG terminology)
 
 First Issue
 :   The first session of an ongoing Series; usually consisting of character introductions.
+    ()
 
 General Alert
 :   A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
+    ()
 
 Goal
 :   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
-
-Goal
-:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
+    ()
 
 Guest Star
 :   A hero played by someone who isn't a regular player in the group.
-    (*guest player* in general TRPG terminology.)
-
-Guest Star
-:   A hero played by someone who isn't a regular player in the group.
-    (*guest player* in general TRPG terminology.)
+    (*guest player* in general TRPG terminology)
 
 Health
 :   A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health.
-    (*Health Points* in general TRPG terminology.)
+    (*Health Points* in general TRPG terminology)
 
 Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
-    (*Player Character* in general TRPG terminology.)
+    (*Player Character* in general TRPG terminology)
+
+Hero
+:   A single character whose actions are determined by a player who isn't the Editor.
+    (*Player Character* in general TRPG terminology)
 
 Hero Phase
 :   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase.
-    (*Players' Turns* in general TRPG terminology.)
-
-Hero Phase
-:   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase.
-    (*Players' Turns* in general TRPG terminology.)
+    (*Players' Turns* in general TRPG terminology)
 
 Ideals
 :   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
+    ()
+
+Ideals
+:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
+    ()
 
 Issue
 :   A game session, usually 2 to 4 hours.
-    (*game session* in general TRPG terminology.)
+    (*game session* in general TRPG terminology)
+
+Issue
+:   A game session, usually 2 to 4 hours.
+    (*game session* in general TRPG terminology)
 
 Issue 0
 :   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
-
-Issue 0
-:   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
+    ()
 
 Later That Day, ...
 :   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
-
-Later That Day, ...
-:   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
+    ()
 
 Lines and Veils
 :   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
+    ()
+
+Lines and Veils
+:   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
+    ()
 
 Meanwhile, ...
 :   A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
-
-Meanwhile, ...
-:   A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
+    ()
 
 Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might.
-    (*energy* in general TRPG terminology.)
+    (*energy* in general TRPG terminology)
 
 Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might.
-    (*energy* in general TRPG terminology.)
+    (*energy* in general TRPG terminology)
 
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
-    (*check or attack roll* in general TRPG terminology.)
+    (*check or attack roll* in general TRPG terminology)
 
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
-    (*check or attack roll* in general TRPG terminology.)
+    (*check or attack roll* in general TRPG terminology)
 
 Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
-    (*Deception* in general TRPG terminology.)
+    (*Deception* in general TRPG terminology)
+
+Mystery
+:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
+    (*Deception* in general TRPG terminology)
 
 Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
+    ()
 
 Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
+    ()
 
 One-Shot
 :   A game session that isn't part of an ongoing story.
-
-One-Shot
-:   A game session that isn't part of an ongoing story.
+    ()
 
 Open Door
 :   A safety tool that promises any player can step away from the game table if they need to.
+    ()
 
 Open Door
 :   A safety tool that promises any player can step away from the game table if they need to.
+    ()
 
 Opportunity
 :   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
-    (*moral of the story* in general TRPG terminology.)
+    (*moral of the story* in general TRPG terminology)
 
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
-    (*trickery* in general TRPG terminology.)
-
-Outwit
-:   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
-    (*trickery* in general TRPG terminology.)
+    (*trickery* in general TRPG terminology)
 
 Personal power word
 :   Six or more power words that define a hero's powers.
+    ()
+
+Personal power word
+:   Six or more power words that define a hero's powers.
+    ()
 
 Power
 :   The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
-    (*superpower, trait* in general TRPG terminology.)
-
-Power
-:   The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
-    (*superpower, trait* in general TRPG terminology.)
+    (*superpower, trait* in general TRPG terminology)
 
 Power combo
 :   A move using the power words of two or more heroes.
-    (*cooperative spellcasting, aid another* in general TRPG terminology.)
-
-Power combo
-:   A move using the power words of two or more heroes.
-    (*cooperative spellcasting, aid another* in general TRPG terminology.)
+    (*cooperative spellcasting, aid another* in general TRPG terminology)
 
 Power display
 :   A move by a hero that uses one of their power words in the description but gives no additional game benefits.
-    (*at-will cantrip* in general TRPG terminology.)
+    (*at-will cantrip* in general TRPG terminology)
 
 Power stunt
 :   A move by a hero using two or more of their power words.
+    ()
+
+Power stunt
+:   A move by a hero using two or more of their power words.
+    ()
 
 Power Word
 :   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
-    (*power keyword* in general TRPG terminology.)
+    (*power keyword* in general TRPG terminology)
 
 Power Word
 :   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
-    (*power keyword* in general TRPG terminology.)
+    (*power keyword* in general TRPG terminology)
 
 Rescue
 :   A Goal that could resolve a Crisis by removing people or property from harm.
-    (*Saving Innocents* in general TRPG terminology.)
+    (*Saving Innocents* in general TRPG terminology)
+
+Rescue
+:   A Goal that could resolve a Crisis by removing people or property from harm.
+    (*Saving Innocents* in general TRPG terminology)
 
 Retcon
 :   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
-    (*Undo* in general TRPG terminology.)
+    (*Undo* in general TRPG terminology)
 
 Retcon
 :   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
-    (*Undo* in general TRPG terminology.)
+    (*Undo* in general TRPG terminology)
 
 Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts.
-
-Scene Power Words
-:   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts.
+    ()
 
 Series
 :   A group of Storylines following the same group of heroes
-    (*RPG Campaign* in general TRPG terminology.)
+    (*RPG Campaign* in general TRPG terminology)
 
 Series
 :   A group of Storylines following the same group of heroes
-    (*RPG Campaign* in general TRPG terminology.)
+    (*RPG Campaign* in general TRPG terminology)
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage.
-    (*Damage* in general TRPG terminology.)
+    (*Damage* in general TRPG terminology)
 
 Smash
 :   A Goal that could resolve a Crisis through causing physical damage.
-    (*Damage* in general TRPG terminology.)
+    (*Damage* in general TRPG terminology)
 
 Spotlight
 :   A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
-    (*adventure path* in general TRPG terminology.)
+    (*adventure path* in general TRPG terminology)
+
+Spotlight
+:   A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
+    (*adventure path* in general TRPG terminology)
 
 Stars and Wishes
 :   A safety tool you can use after an Issue to talk about what you liked and what you hope for future Issues.
-    (*Feedback* in general TRPG terminology.)
+    (*Feedback* in general TRPG terminology)
 
 Stars and Wishes
 :   A safety tool you can use after an Issue to talk about what you liked and what you hope for future Issues.
-    (*Feedback* in general TRPG terminology.)
+    (*Feedback* in general TRPG terminology)
 
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
+    ()
 
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
+    ()
 
 Storyline
 :   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
-    (*plot* in general TRPG terminology.)
+    (*plot* in general TRPG terminology)
 
 Storyline
 :   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
-    (*plot* in general TRPG terminology.)
+    (*plot* in general TRPG terminology)
 
 Success
 :   A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
+    ()
 
 Success
 :   A die that comes up a 5 or 6. In a Crisis these are counted, and outside a Crisis a hero typically needs 1 to 3 to succeed at an uncertain action.
+    ()
 
 Suspense
 :   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
-    (*Wisdom* in general TRPG terminology.)
-
-Suspense
-:   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
-    (*Wisdom* in general TRPG terminology.)
+    (*Wisdom* in general TRPG terminology)
 
 Take the Hit
 :   When one hero takes the entire effect of a Crisis move instead of another hero.
-    (*tanking, defending, sacrifice* in general TRPG terminology.)
-
-Take the Hit
-:   When one hero takes the entire effect of a Crisis move instead of another hero.
-    (*tanking, defending, sacrifice* in general TRPG terminology.)
+    (*tanking, defending, sacrifice* in general TRPG terminology)
 
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
-    (*initiative roll* in general TRPG terminology.)
+    (*initiative roll* in general TRPG terminology)
 
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
-    (*initiative roll* in general TRPG terminology.)
+    (*initiative roll* in general TRPG terminology)
 
 Volume
 :   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual.
-    (*season* in general TRPG terminology.)
+    (*season* in general TRPG terminology)
 
 Volume
 :   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual.
-    (*season* in general TRPG terminology.)
+    (*season* in general TRPG terminology)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
