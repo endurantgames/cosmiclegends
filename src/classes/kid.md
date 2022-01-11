@@ -103,7 +103,7 @@ When you check off all your Ideals, your Nova Power Words are
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::: { .classpic #art-kid } :::::::::::::::::::
 *art coming soon*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

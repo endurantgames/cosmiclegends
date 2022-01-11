@@ -4,9 +4,11 @@
   - x-format: character-sheet
   - yaml_version: 1.2
 - art:
-  - url: art/jeshields/shaper.png
-  - alt: *title
-  - face: art/jeshields/riptide_face.png
+  - url:    art/jeshields/shaper.png
+  - alt:    *title
+  - face:   art/jeshields/riptide_face.png
+  - credit: &copy; JEShields
+  - anchor: art-riptide
 - bio:
   - real_name: Kelly Liang
   - occupation: lifeguard, marine biologist

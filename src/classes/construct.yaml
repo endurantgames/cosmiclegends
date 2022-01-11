@@ -52,6 +52,7 @@
 - classpic:
    - url:     art/jeshields/construct.png
    - alt:     "Adam-42: The One-Officer Police Force"
+   - anchor:  art-class-construct
 - abilities:
   - preamble:
     - represent: show your increasing distance from biological humanity

@@ -1669,7 +1669,7 @@ sup { line-height: none; font-size: 50%; }
 }
 
 #section-what .member-list em { font-style:   normal; font-variant: small-caps; }
-#section-what .other-list em  { font-style:   normal; font-variant: small-caps; }
+#section-what .other-list  em { font-style:   normal; font-variant: small-caps; }
 #section-what .member-list ul { break-inside: auto;                             }
 #section-what .other-list  ul { break-inside: auto;                             }
 
@@ -1680,7 +1680,7 @@ sup { line-height: none; font-size: 50%; }
 }
 
 
-a:link[href|="#"].after,
+a:link[href|="#"   ].after,
 a:link[href|="http"].after,
 a:link.external:after {
   font-family: var(--font-icons-noto);
@@ -1689,11 +1689,13 @@ a:link.external:after {
   content: var(--icon-external);
 }
 
-.icon-female             { content: var(--icon-female); font-size: 70%; top: -1pt;                          }
-.icon-male               { content: var(--icon-male);   font-size: 60%; top: -1.50pt; padding-left: 0.75pt; }
-.icon-trans              { content: var(--icon-trans);  font-size: 80%; top: -0.50pt;                       }
-.volume-ability-chart    { margin-top: 1.0em;                                                               }
-.volume-ability-chart ul { margin: 0; line-height: 1;                                                       }
+.icon-female { content: var(--icon-female); font-size: 70%; top: -1pt;                          }
+.icon-male   { content: var(--icon-male);   font-size: 60%; top: -1.50pt; padding-left: 0.75pt; }
+.icon-trans  { content: var(--icon-trans);  font-size: 80%; top: -0.50pt;                       }
+.icon-plural { content: var(--icon-plural); font-size: 75%;                                     }
+
+.volume-ability-chart    { margin-top: 1.0em;         }
+.volume-ability-chart ul { margin: 0; line-height: 1; }
 
 .volume-ability-chart ul li {
   margin:           0;
@@ -2763,5 +2765,16 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 .setting-index > ul > li > .index-entry.xref {
   font-weight: bold;
   color: green;
+}
+
+.index-art-credits > ul > li > a { 
+  content: target-attr(attr(alt));           
+  font-weight: bold;
+}
+
+.index-art-credits > ul > li > a:after { 
+  content: target-counter(attr(href), page);
+  font-weight: normal;
+  font-style: italic;
 }
 

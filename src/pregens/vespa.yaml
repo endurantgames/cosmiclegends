@@ -4,9 +4,11 @@
   - x-format: character-sheet
   - yaml_version: 1.2
 - art:
-  - url:  art/jeshields/inventor.png
-  - alt:  *title
-  - face: art/jeshields/vespa_face.png
+  - url:    art/jeshields/inventor.png
+  - alt:    *title
+  - face:   art/jeshields/vespa_face.png
+  - credit: &copy; JEShields
+  - anchor: art-vespa-2
 - bio:
   - real_name: Lin Montgomery
   - occupation: inventor, scientist

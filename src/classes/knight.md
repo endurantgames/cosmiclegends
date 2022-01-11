@@ -131,8 +131,8 @@ You can use one or more of your *Locked* Nova Power Words in a Power
 Display, Stunt, or Combo by spending 1 Might per Nova Power Word. 
 The Nova Power Word remains *Locked*.
 
-:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Percival, The Grailknight](art/jeshields/knight.png "Percival, the Grailknight"){.class}
+:::::::::::::::::::::::::  classpic ::::::::::::::::::::::::::::::::
+![Percival, The Grailknight](art/jeshields/knight.png "Percival, the Grailknight"){#art-class-knight}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Knight Abilities { .class}

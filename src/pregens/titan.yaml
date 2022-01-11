@@ -4,9 +4,11 @@
   - yaml_version: 1.2
   - anchor: setting-titan
 - art:
-  - url:  art/jeshields/paragon.png
-  - alt:  *title
-  - face: art/jeshields/titan_face.png
+  - url:    art/jeshields/paragon.png
+  - alt:    *title
+  - face:   art/jeshields/titan_face.png
+  - credit: &copy; JEShields
+  - anchor: art-titan
 - bio:
   - real_name:      Ty'Tonn To'Rezz
   - occupation:     Sentinel

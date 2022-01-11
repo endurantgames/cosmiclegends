@@ -4,9 +4,11 @@
   - yaml_version: 1.2
   - anchor: setting-grailknight
 - art:
-  - url: art/jeshields/knight.png
-  - alt: Percival, the Grailknight
-  - face: art/jeshields/grailknight_face.png
+  - url:    art/jeshields/knight.png
+  - alt:    Percival, the Grailknight
+  - face:   art/jeshields/grailknight_face.png
+  - credit: &copy; JEShields
+  - anchor: art-grailknight
 - "sheet-config":
   - shrink:
     - name: true

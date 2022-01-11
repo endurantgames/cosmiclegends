@@ -91,6 +91,7 @@
 - classpic:
   - url: art/jeshields/monarch.png
   - alt: "Obsidius Rex, prince of Vulcanor"
+  - anchor: art-class-monarch
 - abilities:
   - preamble:
     - represent: esoteric knowledge that is inaccessible to those outside of your home

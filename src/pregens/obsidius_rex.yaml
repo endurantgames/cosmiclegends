@@ -4,9 +4,11 @@
   - yaml_version: 1.2
   - anchor:       setting-obsidius-rex
 - art:
-  - url:  art/jeshields/monarch.png
-  - alt:  *title
-  - face: obsidius_rex_face.png
+  - url:    art/jeshields/monarch.png
+  - alt:    *title
+  - face:   obsidius_rex_face.png
+  - credit: &copy; JEShields
+  - anchor: art-obsidius-rex
 - "sheet-config":
   - shrink:
     - ideal3: true

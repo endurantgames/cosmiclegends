@@ -124,8 +124,8 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
 if you spend 1 Might, you can include the second Nova Power Word as well.
 
-:::::::::::::::::::::::: { .classpic .wide } :::::::::::::::::::::::
-![Riptide, the Wave-Wielding Wonder](art/jeshields/shaper.png "Riptide, the Wave-Wielding Wonder"){.class .wide}
+::::::::::::::::::::::::::: classpic :::::::::::::::::::::::::::::::
+![Riptide, the Wave-Wielding Wonder](art/jeshields/shaper.png "Riptide, the Wave-Wielding Wonder"){.class .wide #art-class-shaper}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Shaper Abilities {  .class}

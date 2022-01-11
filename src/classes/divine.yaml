@@ -82,8 +82,9 @@
   - nova:
     standard: true
 - classpic:
-  url: art/jeshields/divine.png
-  alt: "Brigantia, Chosen of the Tuatha Dé Danann"
+  - url: art/jeshields/divine.png
+  - alt: "Brigantia, Chosen of the Tuatha Dé Danann"
+  - anchor: art-class-divine
 - abilities:
   - preamble:
     - represent: "are gifts from the Gods, whether by birth or by boon"

@@ -112,7 +112,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){.class}
+![Vespa 2.0, Hero of Technopolis](art/jeshields/inventor.png "Vespa 2.0, hero of Technopolis"){#art-classpic-inventor}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Inventor Abilities {  .class}

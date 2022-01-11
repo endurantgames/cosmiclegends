@@ -7,6 +7,8 @@
   - alt:                *title
   - url:                art/jeshields/farseeker.png
   - face:               art/jeshields/farseeker_face.png
+  - credit:             &copy; JEShields
+  - anchor:             art-farseeker
 - bio:
   - name:               *title
   - real_name:          Nora Jamila Campbell

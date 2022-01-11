@@ -4,9 +4,11 @@
   - x-format: character-sheet
   - anchor: setting-energy-boy
 - art:
-  - url: art/jeshields/dynamo.png
-  - alt: *title
-  - face: art/jeshields/energy_boy_face.png
+  - url:    art/jeshields/dynamo.png
+  - alt:    *title
+  - face:   art/jeshields/energy_boy_face.png
+  - credit: &copy; JEShields
+  - anchor: art-energy-boy
 - bio:
   - real_name: Delmore "Del" Langston Thompson
   - occupation: College student

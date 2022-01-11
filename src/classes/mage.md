@@ -129,8 +129,8 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; if you spend
 1 Might, you can include the second Nova Power Word as well.
 
-:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Jack Dee, the Master Magister](art/jeshields/mage.png "Jack Dee, the Master Magister"){.class}
+:::::::::::::::::::::::::  classpic ::::::::::::::::::::::::::::::::
+![Jack Dee, the Master Magister](art/jeshields/mage.png "Jack Dee, the Master Magister"){.class #art-class-mage}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Mage Abilities {  .class}

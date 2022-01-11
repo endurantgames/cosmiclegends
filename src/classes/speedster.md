@@ -95,7 +95,7 @@ You can use one or more of your *Locked* Nova Power Words in a Power
 Display, Stunt, or Combo by spending 1 Might per Nova Power Word.
 The Nova Power Word remains *Locked*.
 
-:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::: classpic :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Speedster Abilities {.class}

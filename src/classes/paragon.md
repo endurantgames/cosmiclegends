@@ -143,7 +143,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Titan, Sentinel of Saturn](art/jeshields/paragon.png "Titan, Sentinel of Saturn"){.class}
+![Titan, Sentinel of Saturn](art/jeshields/paragon.png "Titan, Sentinel of Saturn"){.class #art-class-paragon}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Paragon Abilities {  .class}

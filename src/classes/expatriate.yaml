@@ -104,6 +104,7 @@
 - classpic:
   - url: art/jeshields/expat.png
   - alt: "N.J. Campbell: Farseeker"
+  - anchor: art-class-expat
 - abilities:
   - preamble: { represent: "show your growth in a completely different environment from your home planet" }
   - prime:

@@ -4,9 +4,11 @@
   - yaml_version: 1.2
   - x-format:     character-sheet
 - art:
-  - url:  art/jeshields/monstrosity.png
-  - alt:  *title
-  - face: art/jeshields/rockstar_face.png
+  - url:    art/jeshields/monstrosity.png
+  - alt:    *title
+  - face:   art/jeshields/rockstar_face.png
+  - credit: &copy; JEShields
+  - anchor: art-rockstar
 - bio:
   - real_name:       Geraldine "Jeri" North
   - occupation:      musician

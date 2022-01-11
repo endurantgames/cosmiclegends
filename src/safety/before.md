@@ -25,16 +25,16 @@ be in the game but not spotlighted or described in great detail.
 
 Don't worry, I promise the CCA isn't going to shut down your game. 
 
-Despite how terrible 
-the [Comics Code](http://cbldf.org/the-comics-code-of-1954/) was in 
-reality -- and it had a *stifling* effect on freedom of expression 
+Despite how terrible the 
+[Comics Code](http://cbldf.org/the-comics-code-of-1954/){.external} was 
+in reality -- and it had a *stifling* effect on freedom of expression 
 in comics for decades -- it *does* give an interesting snapshot of 
 the types of content that might show up in a Bronze Age superhero game.
 
 The following questions are inspired by items in the Comics Code and
 are intended to start conversations -- not end them! (Remember that when
-we say [*heroes*](#toc-glossary) in Cosmic Legends, we're talking about 
-what other games would call *player characters* -- not necessarily
+we say [heroes](#toc-glossary){.glossary} in Cosmic Legends, we're talking 
+about what other games would call *player characters* -- not necessarily
 about *non-player characters (NPCs) who happen to be heroic/good guys*.)
 
 As you discuss these questions as a group, anyone should feel free to 

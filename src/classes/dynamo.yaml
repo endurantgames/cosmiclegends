@@ -83,6 +83,7 @@
 - classpic:
   - url: art/jeshields/dynamo.png
   - alt: "Energy Boy, the Living Reactor"
+  - anchor: art-class-dynamo
 - abilities:
   - preamble:
     - represent: are refinements of your energy powers

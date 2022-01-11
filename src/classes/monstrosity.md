@@ -128,8 +128,8 @@ until the end of the current Storyline.
 You can use one of your Nova Power Words in a Power Stunt or Combo for free; 
 if you spend 1 Might, you can include a second Nova Power Word as well.
 
-:::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class} 
+::::::::::::::::::::::::   classpic ::::::::::::::::::::::::::::::::
+![Jeri North, a.k.a. Rockstar](art/jeshields/monstrosity.png "Jeri North, a.k.a. Rockstar"){.class #art-class-monstrosity} 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Monstrosity Abilities {.class}

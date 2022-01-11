@@ -193,7 +193,7 @@ free; if you spend 1 Might, you can include the second Nova Power Word
 as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
+*class picture coming soon*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Wheelman Abilities {.class}

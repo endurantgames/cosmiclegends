@@ -140,7 +140,7 @@ You can use one of your Nova Power Words in a Power Stunt or Combo for free; if 
 1 Might, you can include the second Nova Power Word as well.
 
 :::::::::::::::::::::::::: classpic ::::::::::::::::::::::::::::::::
-![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class}
+![The Head Librarian](art/jeshields/psychic.png "The Head Librarian"){.class #art-class-psychic}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Psychic Abilities {  .class}
