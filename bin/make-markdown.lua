@@ -65,128 +65,118 @@ local function file_search(dir_path, filter, s, pformat)
   -- comparison function like the IN() function like SQLlite, item in a array
   -- useful for compair table for escaping already processed item
   -- Gianluca Vespignani 2012-03-03
-        local c_in = function(value, tab)
-                for k,v in pairs(tab) do
-                        if v==value then
-                                return true
-                        end
-                end
-                return false
-        end
+  local c_in = function(value, tab)
+                 for k,v in pairs(tab) 
+                 do  if v==value then return true end
+                 end
+                 return false
+               end; -- function
 
-        local string = string        -- http://lua-users.org/wiki/SplitJoin
-        function string:split(sep)
-                local sep, fields = sep or ":", {}
-                local pattern = string.format("([^%s]+)", sep)
-                self:gsub(pattern, function(c) fields[#fields+1] = c end)
-                return fields
-        end
+  local string = string        -- http://lua-users.org/wiki/SplitJoin
 
-        local ExtensionOfFile = function(filename)
-                local rev = string.reverse(filename)
-                local len = rev:find("%.")
-                local rev_ext = rev:sub(1,len)
-                return string.reverse(rev_ext)
-        end
+  function string:split(sep)
+    local sep, fields = sep or ":", {}
+    local pattern = string.format("([^%s]+)", sep)
+    self:gsub(pattern, function(c) fields[#fields+1] = c end)
+    return fields
+  end -- function
 
-        -- === Init ===
-        dir_path         = dir_path or cwd
-        filter           = string.lower(filter) or "*"
-        local extensions = split(filter, ";") -- filter:split(";")
-        s = s or false -- as /s : subdirectories
+  local ExtensionOfFile = function(filename)
+  local rev             = string.reverse(filename)
+  local len             = rev:find("%.")
+  local rev_ext         = rev:sub(1,len)
+  return string.reverse(rev_ext)
+  end
 
-       local os_date;
+  -- === Init ===
+  dir_path         = dir_path or cwd
+  filter           = string.lower(filter) or "*"
+  local extensions = split(filter, ";") -- filter:split(";")
+  s = s or false -- as /s : subdirectories
 
-        if pformat == 'system' -- if 4th arg is explicity 'system', then return the
-                             -- system-dependent number representing date/time
-       then os_date = function(os_time) return os_time end
-        else -- if 4th arg is nil use default, else it could be a string
-            -- that respects the Time formatting directives
-                pformat = pformat or "%Y/%m/%d" -- eg.: "%Y/%m/%d %H:%M:%S"
-                os_date = function(os_time)
-                        return os.date(pformat, os_time)
-                end
-        end
+  local os_date;
 
-        -- == MAIN ==
-        local files = {}
-        local dirs = {}
-        local paths = dir_path:split(";")
-        for i,path in ipairs(paths) do
-                for f in lfs.dir(path) do
-                        if f ~= "." and f ~= ".." then
-                                local attr = lfs.attributes ( path.."/"..f )
-                                if attr.mode == "file" then
-                                        if filter=="*"
-                                        or c_in( string.lower( ExtensionOfFile(f) ), extensions)
-                                        then
-                                                table.insert(files,{
-                                                        name = f,
-                                                        modification = os_date(attr.modification) ,
-                                                        path = path.."/",
-                                                        size = attr.size
-                                                })
-                                        end
-                                else
-                                        if filter=="*" then                        -- if attr.mode == "directory" and file ~= "." and file ~= ".." then end
-                                                table.insert(dirs,{
-                                                        name = f ,
-                                                        modification = os_date(attr.modification) ,
-                                                        path = path.."/",
-                                                        size = attr.size
-                                                })
-                                        end
-                                        if s and attr.mode == "directory" then
-                                                local subf, subd;
-                                                subf, subd = file_search(path.."/"..f, filter, s, pformat)
-                                                for i,v in ipairs(subf) do
-                                                        table.insert(files,{
-                                                                name = v.name ,
-                                                                modification = v.modification ,
-                                                                path = v.path,
-                                                                size = v.size
-                                                        })
-                                                end
-                                                for i,v in ipairs(subd) do
-                                                        table.insert(dirs,{
-                                                                name = v.name ,
-                                                                modification = v.modification ,
-                                                                path = v.path,
-                                                                size = v.size
-                                                        })
-                                                end
-                                        end
-                                end
-                        end
-                end
-        end
-        return files,dirs
+  if   pformat == 'system' -- if 4th arg is explicity 'system', then return the
+                          -- system-dependent number representing date/time
+  then os_date = function(os_time) return os_time end
+  else -- if 4th arg is nil use default, else it could be a string
+       -- that respects the Time formatting directives
+       pformat = pformat or "%Y/%m/%d" -- eg.: "%Y/%m/%d %H:%M:%S"
+       os_date = function(os_time) return os.date(pformat, os_time) end -- function
+  end; -- if pformat
+
+  -- == MAIN ==
+  local files = {}
+  local dirs = {}
+  local paths = dir_path:split(";")
+  for i,path in ipairs(paths) 
+  do  for f in lfs.dir(path) 
+      do if   f ~= "." and f ~= ".." 
+         then local attr = lfs.attributes ( path.."/"..f )
+              if   attr.mode == "file" 
+              then if   filter=="*" or c_in( string.lower( ExtensionOfFile(f) ), extensions)
+                   then table.insert(files, { name         = f,
+                                              modification = os_date(attr.modification),
+                                              path         = path.."/",
+                                              size         = attr.size
+                                             })
+                   end -- if filter = "*"
+              else -- attr.mode == "file"
+                   if   filter=="*" -- if attr.mode == "directory" and file ~= "." and file ~= ".." then end
+                   then table.insert(dirs,{ name         = f,
+                                            modification = os_date(attr.modification),
+                                            path         = path.."/",
+                                            size         = attr.size
+                                          })
+                   end -- if filter="*"
+                   if   s and attr.mode == "directory" 
+                   then local subf, subd;
+                        subf, subd = file_search(path.."/"..f, filter, s, pformat)
+                        for i,v in ipairs(subf)
+                        do  table.insert(files,{ name         = v.name,
+                                                 modification = v.modification,
+                                                 path         = v.path,
+                                                 size         = v.size
+                                               })
+                        end -- for i, v
+                        for i,v in ipairs(subd) 
+                        do  table.insert(dirs,{ name         = v.name,
+                                                modification = v.modification,
+                                                path         = v.path,
+                                                size         = v.size
+                                                     })
+                        end -- for i, v
+                    end -- if s and attr.mode == direcotry
+              end -- if attr.mode = file
+         end
+  end
+  end
+  return files,dirs
 end
 
-        --[=[        ABOUT ATTRIBUTES
+--[=[        ABOUT ATTRIBUTES
 > for k,v in pairs(a) do print(k..' \t'..v..'') end
-dev     2
-change  1175551262        -- date of file Creation
-access  1235831652
-rdev    2
-nlink   1
-uid     0
-gid     0
-ino     0
-mode    file
-modification    1181692021 -- Date of Last Modification
-size    805 in byte
-        ]=]
-
-local function vprint(s, l) if CONFIG.verbose  then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
-local function eprint(s, l) if CONFIG.errors   then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
-local function sprint(s, l) if CONFIG.summary  then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
+    dev     2
+    change  1175551262        -- date of file Creation
+    access  1235831652
+    rdev    2
+    nlink   1
+    uid     0
+    gid     0
+    ino     0
+    mode    file
+    modification    1181692021 -- Date of Last Modification
+    size    805 in byte
+]=]
+    
+local function vprint(s, l) if CONFIG.verbose   then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
+local function eprint(s, l) if CONFIG.errors    then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
+local function sprint(s, l) if CONFIG.summary   then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 local function yprint(s, l) if CONFIG.debugyaml then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 
 -- http://lua-users.org/wiki/FileInputOutput
 
 local function get_slug(filename)
-  -- if not filename or filename == "" then return CONFIG.intro end;
   filename = string.gsub(filename, "^%"  .. CONFIG.src_dir,           "");
   filename = string.gsub(filename, "%"   .. CONFIG.ext.source .. "$", "");
   filename = string.gsub(filename, "^/", "");
@@ -1593,6 +1583,7 @@ local ERR    = {};
 
 local function load_fs()
   local files, dirs = file_search(CONFIG.src_dir, CONFIG.ext.filter, true)
+  vprint("files", inspect(files));
   for k, v in pairs(dirs)
   do  if string.find(v.path, CONFIG.ignore) then vprint("Skipping directory", v.name); break end;
 
@@ -1603,11 +1594,11 @@ local function load_fs()
 
       for k, v in pairs(files)
       do  if     string.find(v.path, CONFIG.ignore)
-          then   break 
+          then   break
           elseif string.find(v.name, "%" .. CONFIG.ext.markdown .. "$")
               or string.find(v.name, "%" .. CONFIG.ext.yaml     .. "$")
           then   local filename  = get_slug(v.path..v.name);
-                 FILES[filename] = true;
+                 FILES[filename] = v;
           end;
   end;
   return files, dirs;
@@ -1629,37 +1620,21 @@ end;
 
 local function parse_line(line)
   local found = {};
-  local tests = { dir      = "/$", 
-                  ext_md   = CONFIG.ext.md .. "$",
-		  ext_yaml = CONFIG.ext.yaml .. "$",
-                  asterisk = "/%*$",
-		  comment  = "^#"
-		};
+  local tests = { comment  = "^#",
+	          dir      = "/$", 
+                  ext_md   = CONFIG.ext.markdown .. "$",
+                  ext_yaml = CONFIG.ext.yaml     .. "$",
+                  asterisk = "/%*$"
+                };
 
   for  field, test in pairs(tests)
-  do   if string.find(line, text) then found[field] = true; end;
+  do   if   string.find(line, test) 
+       then found[field] = true; 
+       end;
   end;
 
-  -- code for macros (not needed) =========================================
-  -- if   string.find(line, "/?::[a-z]+$")
-  -- then vprint("looks like a template", line);
-       -- template = string.match(line, "/?::([a-z]+)$");
-       -- vprint("i think it's this template", template);
-       -- line = string.gsub(line, "/?::[a-z]+$", "");
-       -- if not TEMPLATE[template]
-       -- then   template = nil;
-              -- vprint("the template doesn't exist")
-       -- else   vprint("the template DOES exit!")
-       -- end;
-  -- end;
-
-  -- code to change output file (not needed) ==============================
-  -- if     string.find(line, "^>")
-  -- then   local outfile = string.gsub(line, "^>%s*", "");
-         -- outfile = string.gsub(outfile, ".out$", "");
-         -- CONFIG.outfile = outfile;
-         -- vprint("setting the output file", "\"" .. outfile .. "\"");
-
+  if     FILES[line] and USED[line]
+  then   vprint("skipping used entry", line)
   if     found.comment
   then   vprint("comment", line);
   elseif found.dirs and DIRS[line]
@@ -1667,29 +1642,20 @@ local function parse_line(line)
          vprint("looking for index", line .. "/" .. CONFIG.intro);
          parse_line(line .. "/" .. CONFIG.intro);
 
-         -- if   template -- =========================== not using templates
-         -- then vprint("found a template call", line .. "/::" .. template);
-         --      for k, v in pairs(TEMPLATE[template])
-         --      do  parse_line(v(line));
-         --      end;
-         -- end;
+  elseif found.asterisk
+  then   vprint("found a /* construction", line .. "/*");
+  local  dir = CONFIG.src_dir .. "/" .. line;
+         vprint("looking for files in ", dir)
+         local md_files, _ = file_search(dir, CONFIG.ext.filter);
 
-         if   found.asterisk
-         then vprint("found a /* construction", line .. "/*");
-              local dir = CONFIG.src_dir .. "/" .. line;
-              vprint("looking for files in ", dir)
-              local md_files, _ = file_search(dir, CONFIG.ext.filter);
+         vprint("found this many", #md_files .. " files");
+         for k, v in pairs(md_files)
+         do  local sl = v.name;
+             sl = string.gsub(sl, "%" .. CONFIG.ext.filter .. "$", "");
+             parse_line(line .. "/" .. sl)
+         end; -- for
+  end; -- if found.asterisk
 
-              vprint("found this many", #md_files .. " files");
-              for k, v in pairs(md_files)
-              do  local sl = v.name;
-                  sl = string.gsub(sl, "%" .. CONFIG.ext.filter .. "$", "");
-                  parse_line(line .. "/" .. sl)
-              end; -- for
-         end; -- if found.asterisk
-
-  elseif FILES[line] and USED[line]
-  then   vprint("skipping used entry", line);
   elseif not USED[line]
          and (FILES[line] or FILES[line .. CONFIG.ext.yaml] or FILES[line .. CONFIG.ext.markdown])
   then   local  md_file   = CONFIG.src_dir .. "/" .. line .. CONFIG.ext.markdown;
@@ -1787,12 +1753,12 @@ sprint("recipe read", #recipe .. " lines");
 -- parse the filesystem tree
 sprint("Loading the filesystem map", "source = " .. CONFIG.src_dir );
 load_fs();
+vprint("FILES", inspect(FILES));
+vprint("DIRS",  inspect(DIRS ));
 sprint("Filesystem mapped.");
 
 -- parse the recipe
 for _, i in pairs(recipe) do parse_line(i) end;
-
-eprint("BUILD", inspect(BUILD));
 
 -- ready now to read files
 sprint("reading/parsing files now", #BUILD .. " files");
@@ -1820,7 +1786,7 @@ then -- eprint("files:", inspect(FILES));
      in  pairs(ERR)
      do  local errmsg =     string.find(v, CONFIG.intro .. "$")
                         and "Warning: Missing index"
-	                or  "Alert: Missing file";
+                        or  "Alert: Missing file";
          eprint(errmsg, v)
      end; -- do
 end; -- if #ERR

@@ -3195,9 +3195,9 @@ need, she can form a sword of blazing light."
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** Dindrane[]{.icon-female} (sister), King Pellinore[]{.icon-male} (father, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*)
-- **Base of Operations:** Sun City, U.S.A.; New York City, New York (current); Camelot, England (formerly); St. Helena Island (temporarily, 1900)
-- **Group Affiliation:** A.L.E.R.T. (reserve operative), Cosmic Legends of the Universe (*founding member*, *reserve member*), Knights of the Round Table (organization defunct)
+- **Known Relatives:** Algovale[]{.icon-male} (brother, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister), Lamorak[]{.icon-male} (brother, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*)
+- **Base of Operations:** Sun City, U.S.A.; New York City, New York (current); St. Helena Island (temporarily, 1900); Camelot, England (formerly)
+- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative), Knights of the Round Table (organization defunct)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3276,6 +3276,9 @@ completes his quest and finds the Grail.
 - **Atomicorps**
 
  *status unknown* 
+- **Atomicorps**
+
+ *status unknown* 
 - **The Crime Institute**
 
  *status unknown* 
@@ -3288,7 +3291,7 @@ completes his quest and finds the Grail.
 - **The Fomorians**
 
  *status unknown* 
-- **The Fomorians**
+- **The Foreigners**
 
  *status unknown* 
 - **The Foreigners**
@@ -3301,6 +3304,12 @@ completes his quest and finds the Grail.
 
  *status unknown* 
 - **Girl Commandos**
+
+ *status unknown* 
+- **Girl Commandos**
+
+ *status unknown* 
+- **The Interstellar Consortium of Civilizations**
 
  *status unknown* 
 - **The Interstellar Consortium of Civilizations**
@@ -3330,10 +3339,13 @@ completes his quest and finds the Grail.
 - **Legends of the Pacific Front**
 
  *status unknown* 
-- **Legends of the Pacific Front**
+- **Legends of the Western Front**
 
  *status unknown* 
 - **Legends of the Western Front**
+
+ *status unknown* 
+- **The Ro'Tan'Okk**
 
  *status unknown* 
 - **The Ro'Tan'Okk**
@@ -3346,12 +3358,6 @@ completes his quest and finds the Grail.
 
  *status unknown* 
 - **Sun City University**
-
- *status unknown* 
-- **Sun City University**
-
- *status unknown* 
-- **T.R.E.L.A.**
 
  *status unknown* 
 - **T.R.E.L.A.**
@@ -3411,6 +3417,11 @@ how or why.
 These would come to be known on Earth as the Sentinels of Saturn."
  See also: *Titan*
 
+- **2 billion years ago** The moon Titan "The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- form an organization of astronomers and soldiers to watch for the return of their previous captors.
+
+These would come to be known on Earth as the Sentinels of Saturn."
+ See also: *Titan*
+
 - **200 to 500 million years ago** Everywhere "The \"Cosmic Dark Age\" of the universe ends as stars and galaxies begin to form."
 
 
@@ -3435,6 +3446,9 @@ than face trial for her actions. Zaar's later activities are undocumented.
 where she became a member of the Cosmic Legends. After killing Sinhammer 
 while the villain was in custody, she returned to the 24th Century rather 
 than face trial for her actions. Zaar's later activities are undocumented.
+
+
+- **3 billion years ago** The moon Titan After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
 
 
 - **3 billion years ago** The moon Titan After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
@@ -3509,9 +3523,6 @@ Earth-based scientists would later record the burst on Christmas day, 2010."
 - **April, 1963** Chicago, Illinois Del Thompson born to Delphine Thompson.
  See also: *Energy Boy*
 
-- **April, 1963** Chicago, Illinois Del Thompson born to Delphine Thompson.
- See also: *Energy Boy*
-
 - **April, 1982** Boston, Massachusetts "Brigantia, Miss Magister: Maddie Dee, and Jack Dee seek out Sequana to bring her to
 justice for the death of Johnny Dee. Upon Maddie's death, her powers go to Jack, who
 uses them to banish Sequana to Otherworld."
@@ -3528,6 +3539,12 @@ Hornette as part of a ruse to infiltrate Villains, Inc.
 
 - **April, 2002** Technopolis, U.S.A. After resigning from the Junior Legends, Lin Montgomery takes up a new alias as the
 Hornette as part of a ruse to infiltrate Villains, Inc.
+
+
+- **April, 2003** Earth orbit "A Visitor worldship appears in orbit. The Cosmic Legends, the Junior Legends, 
+and the Foreigners join with A.L.E.R.T., the Kyl'Sh'Tal, the Vulcanor Militia, 
+and the Vadyvokian Armed Forces to drive them away. Hazel Montgomery (Vespa) is
+killed in action against the Visitors' shock troops."
 
 
 - **April, 2003** Earth orbit "A Visitor worldship appears in orbit. The Cosmic Legends, the Junior Legends, 
@@ -3588,11 +3605,8 @@ W'Ty'Tah'k."
 family."
 
 
-- **August, 1956** The moon Jarnsaxa "Kyl'Sh'Tal sensors on Jarnsaxa detect the entry of a massive Visitor craft entering the orbit 
-of Jupiter on a course toward W'Ty'Tah'k.
-
-Sentinel Ty'Tonn To'Rezz brings these findings to Kyl'Sh'Tal high command and urges action. 
-Their petition is denied."
+- **August, 1952** Boston, Massachusetts "After August of 1952, John Dee withdrew from public life to spend more time with his
+family."
 
 
 - **August, 1956** The moon Jarnsaxa "Kyl'Sh'Tal sensors on Jarnsaxa detect the entry of a massive Visitor craft entering the orbit 
@@ -3684,11 +3698,6 @@ of the 'Dinosaurs are not recorded."
 - **July, 1949** The South Pacific "A U.S. pilot reported sighting the G.I. Dinosaurs on an island near what
 would later be revealed as the Vulcanor island chain. The later activities 
 of the 'Dinosaurs are not recorded."
-
-
-- **July, 1964** Vadyvokia "Marquis Magnus Malign, Delphine Thompson, Sequana, and Dr. Phineas Pann meet in
-secret to lay the groundwork for what would become Villains, Inc. Malign later 
-banishes them from Vadyvokia."
 
 
 - **July, 1964** Vadyvokia "Marquis Magnus Malign, Delphine Thompson, Sequana, and Dr. Phineas Pann meet in
@@ -3714,6 +3723,15 @@ the world's first supervillain, Sinhammer, in Times Square.
 
 - **June, 1965** Albuquerque, New Mexico "Hazel Montgomery is recruited to join A.L.E.R.T.; in time, she will go on become
 Vespa (I) and a founding director of N.O.V.A. Labs."
+
+
+- **June, 1965** Albuquerque, New Mexico "Hazel Montgomery is recruited to join A.L.E.R.T.; in time, she will go on become
+Vespa (I) and a founding director of N.O.V.A. Labs."
+
+
+- **June, 1973** Technopolis, U.S.A. Ignoring safety protocols, Delphine Thompson activates an experimental reactor,
+apparently killing her ten-year-old son Delmore and giving herself energy powers
+as Neutrino.
 
 
 - **June, 1973** Technopolis, U.S.A. Ignoring safety protocols, Delphine Thompson activates an experimental reactor,
@@ -3762,10 +3780,6 @@ simply go by his own name."
 member, under the name \"Volcano Kid\" -- which he soon abandons to
 simply go by his own name."
  See also: *Obsidius Rex*
-
-- **March, 1982** Skryne, County Meath, Ireland Archeologist Sienna MacGowan is chosen by the Tuatha Dé Danann as their new 
-champion. She joins the Cosmic Legends two months later.
-
 
 - **March, 1982** Skryne, County Meath, Ireland Archeologist Sienna MacGowan is chosen by the Tuatha Dé Danann as their new 
 champion. She joins the Cosmic Legends two months later.
@@ -3871,6 +3885,15 @@ Malign. She takes her young child, Lin, and flees the country, returning to
 Technopolis."
 
 
+- **November, 1981** Vadyvokia Castle, Vadyvokia "After uncovering his ties to Villains, Inc., Vespa (I) is attacked by Marquis
+Malign. She takes her young child, Lin, and flees the country, returning to
+Technopolis."
+
+
+- **October, 1946** Volcano City, Vulcanor Island "Crown prince Obsidius Vulcanor born. He would later become the first non-founding 
+member of the Cosmic Legends of the Universe team."
+
+
 - **October, 1946** Volcano City, Vulcanor Island "Crown prince Obsidius Vulcanor born. He would later become the first non-founding 
 member of the Cosmic Legends of the Universe team."
 
@@ -3883,22 +3906,7 @@ under the United States Department of Defense.
 space operations would remain under military control.)"
 
 
-- **October, 1947** United States "The United States creates the Agency for the Licensing of Extra-Human Resources and Threats
-with the merger of the National Security Agency and the National Advisory Committee for Aeronautics,
-under the United States Department of Defense.
-
-(In the Cosmic Legends Universe, NASA -- a civilian agency -- would not be founded; instead, all 
-space operations would remain under military control.)"
-
-
 - **October, 1956** The moon Jarnsaxa "Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors."
-
-
-- **October, 1956** The moon Jarnsaxa "Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors."
-
-
-- **October, 1965** Vadyvokia Castle, Vadyvokia "After a whirlwind romance, Vespa (I) and Marquis Malign have a perfect \"storybook
-wedding.\""
 
 
 - **October, 1965** Vadyvokia Castle, Vadyvokia "After a whirlwind romance, Vespa (I) and Marquis Malign have a perfect \"storybook
@@ -3940,10 +3948,6 @@ Xana Mega and her Aos Sí armies."
 Cosmic Legends of the Universe team to oppose the invasion of Earth by 
 Xana Mega and her Aos Sí armies."
  See also: *Cosmic Legends of the Universe*
-
-- **September, 1982** Technopolis, U.S.A. "Bug (I), Energy Boy, the Kaleidoscope Kidd, and Marlinspike form the Junior Legends
-of America when the Cosmic Legends team are kidnapped by Marquis Malign."
-
 
 - **September, 1982** Technopolis, U.S.A. "Bug (I), Energy Boy, the Kaleidoscope Kidd, and Marlinspike form the Junior Legends
 of America when the Cosmic Legends team are kidnapped by Marquis Malign."
@@ -4152,8 +4156,8 @@ Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
     ()
 
-Action
-:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
+Add to the Teamwork Pool
+:   A move taken by a hero designed to give the team an advantage against a Crisis.
     ()
 
 Add to the Teamwork Pool
@@ -4172,8 +4176,8 @@ Advancement
 :   The choice made by a player at the end of a Storyline that reflects the hero's growth.
     ()
 
-Advancement
-:   The choice made by a player at the end of a Storyline that reflects the hero's growth.
+Adventure
+:   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation.
     ()
 
 Adventure
@@ -4184,9 +4188,9 @@ Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
     (*Diplomacy* in general TRPG terminology)
 
-Allay
-:   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
-    (*Diplomacy* in general TRPG terminology)
+Annual
+:   A session (or sessions) at the end of a Volume that tie the Storylines together.
+    (*finale* in general TRPG terminology)
 
 Annual
 :   A session (or sessions) at the end of a Volume that tie the Storylines together.
@@ -4196,8 +4200,8 @@ Approach
 :   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
     ()
 
-Comic Page Change Tools
-:   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
+Approach
+:   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
     ()
 
 Comic Page Change Tools
@@ -4212,9 +4216,9 @@ Cooldown
 :   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
     (*recharge* in general TRPG terminology)
 
-Counter
-:   Avoiding the consequences of a Crisis Move.
-    (*Saving Throw* in general TRPG terminology)
+Cooldown
+:   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
+    (*recharge* in general TRPG terminology)
 
 Counter
 :   Avoiding the consequences of a Crisis Move.
@@ -4227,6 +4231,10 @@ Crisis
 Crisis
 :   A challenge the heroes need to overcome where only their exceptional abilities can save the day. The game’s combat system.
     (*Encounter* in general TRPG terminology)
+
+Crisis Phase
+:   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
+    (*GM Turn* in Harmony Drive; *NPCs' Turn* in general TRPG terminology)
 
 Crisis Phase
 :   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
@@ -4248,10 +4256,6 @@ Editor
 :   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues.
     (*Game Master* in general TRPG terminology)
 
-Editor
-:   The gamemaster for a game of *Cosmic Legends*, who plays the roles of non-player characters and runs the Crises. A Series can have a single Editor or the Editorship can rotate players betwen Issues.
-    (*Game Master* in general TRPG terminology)
-
 Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
     (*Total, Result* in general TRPG terminology)
@@ -4260,12 +4264,16 @@ Fighting Style
 :   An ability that changes the way a hero interacts with Crises.
     (*feat, special ability* in general TRPG terminology)
 
-Fighting Style
-:   An ability that changes the way a hero interacts with Crises.
-    (*feat, special ability* in general TRPG terminology)
+First Issue
+:   The first session of an ongoing Series; usually consisting of character introductions.
+    ()
 
 First Issue
 :   The first session of an ongoing Series; usually consisting of character introductions.
+    ()
+
+General Alert
+:   A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
     ()
 
 General Alert
@@ -4300,17 +4308,13 @@ Ideals
 :   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
     ()
 
-Ideals
-:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
+Issue
+:   A game session, usually 2 to 4 hours.
+    (*game session* in general TRPG terminology)
+
+Issue 0
+:   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
     ()
-
-Issue
-:   A game session, usually 2 to 4 hours.
-    (*game session* in general TRPG terminology)
-
-Issue
-:   A game session, usually 2 to 4 hours.
-    (*game session* in general TRPG terminology)
 
 Issue 0
 :   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
@@ -4344,14 +4348,6 @@ Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
     (*check or attack roll* in general TRPG terminology)
 
-Move
-:   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
-    (*check or attack roll* in general TRPG terminology)
-
-Mystery
-:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
-    (*Deception* in general TRPG terminology)
-
 Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
     (*Deception* in general TRPG terminology)
@@ -4380,6 +4376,14 @@ Opportunity
 :   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
     (*moral of the story* in general TRPG terminology)
 
+Opportunity
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
+    (*moral of the story* in general TRPG terminology)
+
+Outwit
+:   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
+    (*trickery* in general TRPG terminology)
+
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
     (*trickery* in general TRPG terminology)
@@ -4391,6 +4395,10 @@ Personal power word
 Personal power word
 :   Six or more power words that define a hero's powers.
     ()
+
+Power
+:   The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
+    (*superpower, trait* in general TRPG terminology)
 
 Power
 :   The capacity for actions beyond those of normal humans; it could represent a literal super-human power, an advanced piece of technology, or extensive training.
@@ -4411,10 +4419,6 @@ Power stunt
 Power stunt
 :   A move by a hero using two or more of their power words.
     ()
-
-Power Word
-:   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
-    (*power keyword* in general TRPG terminology)
 
 Power Word
 :   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
@@ -4452,10 +4456,6 @@ Smash
 :   A Goal that could resolve a Crisis through causing physical damage.
     (*Damage* in general TRPG terminology)
 
-Smash
-:   A Goal that could resolve a Crisis through causing physical damage.
-    (*Damage* in general TRPG terminology)
-
 Spotlight
 :   A Storyline revolving around a hero's Opportunity, usually only a couple sessions long, after which the hero learns and grows.
     (*adventure path* in general TRPG terminology)
@@ -4479,10 +4479,6 @@ Story
 Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
     ()
-
-Storyline
-:   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
-    (*plot* in general TRPG terminology)
 
 Storyline
 :   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
@@ -4499,6 +4495,14 @@ Success
 Suspense
 :   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
     (*Wisdom* in general TRPG terminology)
+
+Suspense
+:   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
+    (*Wisdom* in general TRPG terminology)
+
+Take the Hit
+:   When one hero takes the entire effect of a Crisis move instead of another hero.
+    (*tanking, defending, sacrifice* in general TRPG terminology)
 
 Take the Hit
 :   When one hero takes the entire effect of a Crisis move instead of another hero.
