@@ -2,7 +2,8 @@
 
 American comics fans and scholars divide the history of 
 comics into four loosely defined "ages": the Golden Age, the
-Silver Age, the Bronze Age, and the Modern Age.
+Silver Age, the Bronze Age, and the Iron Age. These are loosely
+based on [Ovid's Four Ages of Mankind](https://en.wikipedia.org/wiki/Ages_of_Man#Ovid's_Four_Ages){.external}.
 
 [The Golden Age]{#toc-preface-ages-golden} - 1938 to 1956 
 
@@ -41,15 +42,18 @@ Silver Age, the Bronze Age, and the Modern Age.
     a time when comics went through changes: becoming more socially 
     relevant and less restrained by the CCA. More on that later.
   
-[The Modern Age]{#toc-preface-ages-modern} - ca. 1985 to present
+[The Iron Age]{#toc-preface-ages-modern} - ca. 1985 to present
 
 :   The current age of comics is usually dated to the end of
     DC's *Crisis on Infinite Earths* and Marvel's *Secret Wars*.
 
     Modern superhero comics often feature antiheroes, complex
     storylines, and mature themes. Many of the older characters
-    were revamped to more contemporary versions.
+    were revamped to more contemporary versions; 
+    [deconstructionism](https://comicvine.gamespot.com/deconstruction/4015-55916/){.external}
+    plays a major role in the Iron Age.
 
     The CCA also withered away to irrelevancy as the major publishers
-    increasingly often published comics without the CCA seal on the cover.
+    increasingly often published comics without the CCA seal on the 
+    cover.
   

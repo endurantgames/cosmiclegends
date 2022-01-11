@@ -6,10 +6,14 @@
 @import url(  "team-sheet.css");
 @import url("series-sheet.css");
 
-@page { size: var(--page-size);
-        margin: var(--page-margin);
-	margin-bottom: var(--page-margin-bottom); 
+/* page dimensions ===================================================== */
+
+@page { 
+  size:          var(--page-size);
+  margin:        var(--page-margin);
+  margin-bottom: var(--page-margin-bottom);
 }
+
 header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
@@ -82,7 +86,10 @@ table        { width: 100%;                                                     
 
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: all; }
 
-h2.breakbefore { margin-bottom: 0.5em; text-align: center;                                                                            }
+h2.breakbefore {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
 h3.class       { font-size: var(--largetitle); font-family: var(--font-h2); margin-bottom: 0; text-align: center; break-before: page; }
 
 h4.class { font-size: var(--h3); font-family: var(--font-h3); margin-bottom: 0.5em; text-align: center; }
@@ -97,33 +104,33 @@ dl    {                                                }
 dt    {                                                }
 dd    { margin-left: 1.5em;                            }
 
-.classdata#class-construct   { --class-article:  "a";   --class: "Construct";    class-plural: "Constructs";     }
-.classdata#class-divine      { --class-article:  "a";   --class: "Divine";       class-plural: "Divines";        }
-.classdata#class-dynamo      { --class-article:  "a";   --class: "Dynamo";       class-plural: "Dynamos";        }
-.classdata#class-expatriate  { --class-article:  "an";  --class: "Expatriate";   class-plural: "Expatriates";    }
-.classdata#class-expert      { --class-article:  "an";  --class: "Expert";       class-plural: "Experts";        }
-.classdata#class-haunt       { --class-article:  "a";   --class: "Haunt";        class-plural: "Haunts";         }
-.classdata#class-hellspawn   { --class-article:  "a";   --class: "Hellspawn";    class-plural: "Hellspawn";      }
-.classdata#class-inventor    { --class-article:  "an";  --class: "Inventor";     class-plural: "Inventors";      }
-.classdata#class-kid         { --class-article:  "a";   --class: "Kid";          class-plural: "Kids";           }
-.classdata#class-knight      { --class-article:  "a";   --class: "Knight";       class-plural: "Knights";        }
-.classdata#class-mage        { --class-article:  "a";   --class: "Mage";         class-plural: "Mages";          }
-.classdata#class-monarch     { --class-article:  "a";   --class: "Monarch";      class-plural: "Monarchs";       }
-.classdata#class-monstrosity { --class-article:  "a";   --class: "Monstrosity";  class-plural: "Monstrosities";  }
-.classdata#class-paragon     { --class-article:  "a";   --class: "Paragon";      class-plural: "Paragons";       }
-.classdata#class-psychic     { --class-article:  "a";   --class: "Psychic";      class-plural: "Psychics";       }
-.classdata#class-shaper      { --class-article:  "a";   --class: "Shaper";       class-plural: "Shapers";        }
-.classdata#class-speedster   { --class-article:  "a";   --class: "Speedster";    class-plural: "Speedsters";     }
-.classdata#class-totem       { --class-article:  "a";   --class: "Totem";        class-plural: "Totems";         }
-.classdata#class-twins       { --class-article:  "a";   --class: "Twins";        class-plural: "Twins";          }
-.classdata#class-wheelman    { --class-article:  "a";   --class: "Wheelman";     class-plural: "Wheelmen";       }
+.classdata#class -construct   { --class-article: "a";  --class: "Construct";   --class-plural: "Constructs";    }
+.classdata#class -divine      { --class-article: "a";  --class: "Divine";      --class-plural: "Divines";       }
+.classdata#class -dynamo      { --class-article: "a";  --class: "Dynamo";      --class-plural: "Dynamos";       }
+.classdata#class -expatriate  { --class-article: "an"; --class: "Expatriate";  --class-plural: "Expatriates";   }
+.classdata#class -expert      { --class-article: "an"; --class: "Expert";      --class-plural: "Experts";       }
+.classdata#class -haunt       { --class-article: "a";  --class: "Haunt";       --class-plural: "Haunts";        }
+.classdata#class -hellspawn   { --class-article: "a";  --class: "Hellspawn";   --class-plural: "Hellspawn";     }
+.classdata#class -inventor    { --class-article: "an"; --class: "Inventor";    --class-plural: "Inventors";     }
+.classdata#class -kid         { --class-article: "a";  --class: "Kid";         --class-plural: "Kids";          }
+.classdata#class -knight      { --class-article: "a";  --class: "Knight";      --class-plural: "Knights";       }
+.classdata#class -mage        { --class-article: "a";  --class: "Mage";        --class-plural: "Mages";         }
+.classdata#class -monarch     { --class-article: "a";  --class: "Monarch";     --class-plural: "Monarchs";      }
+.classdata#class -monstrosity { --class-article: "a";  --class: "Monstrosity"; --class-plural: "Monstrosities"; }
+.classdata#class -paragon     { --class-article: "a";  --class: "Paragon";     --class-plural: "Paragons";      }
+.classdata#class -psychic     { --class-article: "a";  --class: "Psychic";     --class-plural: "Psychics";      }
+.classdata#class -shaper      { --class-article: "a";  --class: "Shaper";      --class-plural: "Shapers";       }
+.classdata#class -speedster   { --class-article: "a";  --class: "Speedster";   --class-plural: "Speedsters";    }
+.classdata#class -totem       { --class-article: "a";  --class: "Totem";       --class-plural: "Totems";        }
+.classdata#class -twins       { --class-article: "a";  --class: "Twins";       --class-plural: "Twins";         }
+.classdata#class -wheelman    { --class-article: "a";  --class: "Wheelman";    --class-plural: "Wheelmen";      }
 
 .chargen-list ul    { margin: 0; }
 .chargen-list ul li { margin: 0; margin-left: 2em; text-indent: -1em; list-style-type: none; line-height: 1.1; margin-bottom: 2pt; }
 
 .sidebar p { margin-top: 4pt; margin-bottom: 0; line-height: 1.1; font-size: var(--smaller); }
 
-.sidebar { 
+.sidebar {
   float-placement:   top;
   float-reference:   column;
   border:            var(--border-line);
@@ -136,10 +143,10 @@ dd    { margin-left: 1.5em;                            }
 }
 
 .sidebar.next { float-defer-column: 1; }
-.sidebar:matches(h1, h2, h3, h4, h5, h6) { 
-  font-weight: bold; 
-  font-family: var(--font-h4); 
-  font-size: var(--h4); 
+.sidebar:matches(h1, h2, h3, h4, h5, h6) {
+  font-weight: bold;
+  font-family: var(--font-h4);
+  font-size: var(--h4);
 }
 
 p  { orphans: 3; line-height: 1.10; }
@@ -168,7 +175,7 @@ li { line-height: 1.10;             }
 @page:nth(3) { @bottom-center  { content: normal; }  }
 @page:nth(3) { @bottom-right   { content: normal; }  }
 
-figure figcaption { 
+figure figcaption {
   counter-increment:  figure;
   display:            none;
   text-align:         outside;
@@ -253,7 +260,7 @@ a:active  { text-decoration: none; color: red;    }
 a:visited { text-decoration: none; color: purple; }
 a:hover   { text-decoration: none; color: red;    }
 
-.gamename:before { 
+.gamename:before {
   content:      string(gamename);
   font-family:  var(--font-gamename);
 }
@@ -279,7 +286,7 @@ a:hover   { text-decoration: none; color: red;    }
 @page:first { @top-right     { content: normal; } }
 @page:first { @bottom-center { content: normal; } }
 
-#cover { 
+#cover {
   break-after:          page;
   width:                var(--page-width);
   height:               var(--page-height);
@@ -292,7 +299,7 @@ a:hover   { text-decoration: none; color: red;    }
   background-position:  center 20%;
 }
 
-#cover h1 { 
+#cover h1 {
   position:    absolute;
   top:         2in;
   left:        0;
@@ -302,7 +309,7 @@ a:hover   { text-decoration: none; color: red;    }
   color:       transparent;
 }
 
-#coverbox { 
+#coverbox {
   height:            205pt;
   width:             84pt;
   box-sizing:        border-box;
@@ -324,7 +331,7 @@ a:hover   { text-decoration: none; color: red;    }
   text-align:       center;
 }
 
-#coverbox ul li:nth-child(3) em { 
+#coverbox ul li:nth-child(3) em {
   font-style:   normal;
   position:     relative;
   top:          -6pt;
@@ -332,7 +339,7 @@ a:hover   { text-decoration: none; color: red;    }
   font-size:    80%;
 }
 
-#coverbox ul li:nth-child(1) { 
+#coverbox ul li:nth-child(1) {
   top:            -4pt;
   right:          0;
   left:           0;
@@ -349,7 +356,7 @@ a:hover   { text-decoration: none; color: red;    }
   transform:      scaleY(0.33);
 }
 
-#coverbox ul li:nth-child(3) { 
+#coverbox ul li:nth-child(3) {
   top:        152pt;
   right:      34pt;
   left:       0;
@@ -358,7 +365,7 @@ a:hover   { text-decoration: none; color: red;    }
   transform:  scaleY(0.6);
 }
 
-#coverbox ul li:nth-child(4) { 
+#coverbox ul li:nth-child(4) {
   top:            171pt;
   left:           0;
   right:          32pt;
@@ -383,7 +390,7 @@ a:hover   { text-decoration: none; color: red;    }
   line-height:    0.85;
 }
 
-#coverbox ul li:nth-child(7) { 
+#coverbox ul li:nth-child(7) {
   top:         161pt;
   right:       0;
   left:        0;
@@ -391,10 +398,10 @@ a:hover   { text-decoration: none; color: red;    }
   border-top:  2pt solid black;
 }
 
-#coverbox ul li:nth-child(n+8) { 
+#coverbox ul li:nth-child(n+8) {
   font-size:    48pt;
   font-family:  var(--font-coverbox-qm);
-  color:        crimson; 
+  color:        crimson;
 }
 
 #coverbox ul li:nth-child( 8) { top: 60pt; left:    0; right: 0; }
@@ -403,7 +410,7 @@ a:hover   { text-decoration: none; color: red;    }
 #coverbox ul li:nth-child(11) { top: 96pt; left:  4pt;           }
 #coverbox ul li:nth-child(12) { top: 96pt; right: 4pt;           }
 
-#cover h2 { 
+#cover h2 {
   position:        absolute;
   top:             12pt;
   left:            84pt;
@@ -415,7 +422,7 @@ a:hover   { text-decoration: none; color: red;    }
   font-style:      italic;
 }
 
-#cover h3 { 
+#cover h3 {
   position:    absolute;
   top:         8in;
   left:        0;
@@ -434,7 +441,7 @@ a:hover   { text-decoration: none; color: red;    }
 #cover .hype ul li:nth-child(3) { top: 510pt; left: var(--page-margin); transform: rotate(-10deg); }
 #cover .hype ul li:nth-child(4) { top: 640pt; left: 0; right: 0; text-align: center;               }
 
-#cover img#img-title { 
+#cover img#img-title {
   position:  absolute;
   top:       64pt;
   left:      84pt;
@@ -443,8 +450,8 @@ a:hover   { text-decoration: none; color: red;    }
   z-index:   100;
 }
 
-.lorem { 
-  content: 
+.lorem {
+  content:
      ' Lorem ipsum dolor sit amet,  '
      ' consectetur adipiscing elit. '
      ' Curabitur ornare ex nisi.    ' ;
@@ -465,17 +472,17 @@ a.onpage { content: 'on page ' target-counter(attr(href), page); }
 
 .glossary dl { margin: 0; line-height: 1.1; }
 .glossary dl dt { display: inline; }
-.glossary dl dd { 
+.glossary dl dd {
   margin:         0;
   padding:        0;
   display:        inline;
 }
 
-.glossary dl dd:after { content : '\a\a'; white-space : pre; }
+.glossary dl dd:after { content: '\a\a'; white-space: pre; }
 
 blockquote p { line-height: 1.0; margin: 0; }
 
-blockquote { 
+blockquote {
   line-height:   1.0;
   margin-top:    0;
   padding:       0;
@@ -491,7 +498,7 @@ blockquote {
 
 #power-table { float: page top; margin-bottom: 1em; column-span: all; }
 
-#power-table h3 { display: inline-block; width: 39%; font-size: var(--h3); font-family: var(--font-h3); vertical-align: top; margin: 0; box-sizing: border-box; } 
+#power-table h3 { display: inline-block; width: 39%; font-size: var(--h3); font-family: var(--font-h3); vertical-align: top; margin: 0; box-sizing: border-box; }
 
 #power-table table.power-table { width: 100%; }
 
@@ -504,7 +511,7 @@ blockquote {
 #power-table table.power-table tbody:nth-child(odd) { background-color: var(--color-almost-white); }
 #power-table table.power-table tbody tr             {                                              }
 
-#power-table table.power-table tbody tr th { 
+#power-table table.power-table tbody tr th {
   text-align:                                  left;
   vertical-align:                              top;
   padding:                                     0;
@@ -548,7 +555,7 @@ blockquote {
 #power-table table.power-table tbody.use-type tr:nth-child(3) td:nth-child(2) { background-color: transparent;                                                                                     }
 #power-table table.power-table tbody.use-type:nth-child(even)                 { background-color: transparent;                                                                                     }
 
-.skill-list dl dt { 
+.skill-list dl dt {
   font-family:  var(--font-h5);
   font-size:    var(--h5);
   color:        var(--color-sheet-dark);
@@ -559,7 +566,7 @@ blockquote {
 .skill-list dl dd p  { margin: 0.25em 0;              }
 .skill-list dl dd ul { margin: 0; break-inside: auto; }
 
-.skill-list dl dd ul li { 
+.skill-list dl dd ul li {
   margin-left:      2em;
   text-indent:      -1em;
   list-style-type:  none;
@@ -643,7 +650,7 @@ blockquote {
   border:           var(--border-soapbox);
 }
 
-.soapbox.small { 
+.soapbox.small {
   margin-top:          0;
   margin-bottom:       1em;
   column-span:         none;
@@ -657,7 +664,7 @@ blockquote {
   content: "Spindrift's Soapbox: ";
 }
 
-.soapbox:matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) { 
+.soapbox:matches(h1, h2, h3, h4, h5, h6):nth-child(-n+2) {
   margin-bottom:  0.25em;
   column-span:    all;
   font-family:    var(--font-h3);
@@ -671,28 +678,32 @@ blockquote {
   margin-top:   0;
 }
 
-.soapbox dl dt { 
-  font-family:              var(--font-h5);
-  font-size:                var(--h5);
-  margin-top:               1em;
+.soapbox dl dt {
+  font-family: var(--font-h5);
+  font-size:   var(--h5);
+  margin-top:  1em;
 }
-.soapbox dl dd { margin:    0; padding      : 0; }
-.soapbox dl dd p { margin:  0.5em 0; }
+.soapbox dl dd   { margin: 0; padding: 0; }
+.soapbox dl dd p { margin: 0.5em 0;       }
 
-.twocolumn.table             { column-count:   2; column-gap                                                                      : 1em; break-inside                        : avoid; }
-.twocolumn.table table       { break-inside:   auto;                                                                      }
-.twocolumn.table table thead { border-bottom:  0.5pt solid var(--color-sheet-light);                                            }
-.twocolumn.table table tr td { break-inside:   auto; padding                                                                      : 0;                                     }
+.twocolumn.table             { 
+  column-count: 2; 
+  column-gap:   1em; 
+  break-inside: avoid; 
+}
+.twocolumn.table table       { break-inside:   auto;                                 }
+.twocolumn.table table thead { border-bottom:  0.5pt solid var(--color-sheet-light); }
+.twocolumn.table table tr td { break-inside:   auto; padding: 0;                     }
 
 .twocolumn ul    { column-count: 2; column-gap: 1em; break-inside: avoid; margin: 0; margin-left: 0.5em; }
 .twocolumn table { break-inside: auto;                                                                   }
 
-.cpw { 
-  break-inside: avoid; 
+.cpw {
+  break-inside: avoid;
   /* column-count: 2; column-gap: 1em; */
 }
 
-.cpw ul { 
+.cpw ul {
   break-inside:     auto;
   margin:           0;
   margin-left:      4pt;
@@ -716,47 +727,47 @@ blockquote {
   font-weight:      bold;
 }
 
-.cpw ul li:nth-child(6n+1) { 
-  background: linear-gradient(-90deg, 
-                var(--color-rainbow-1)  0%, 
-                var(--color-rainbow-2) 15%, 
-                var(--color-rainbow-2) 85%, 
-                var(--color-rainbow-3) 100%); 
+.cpw ul li:nth-child(6n+1) {
+  background: linear-gradient(-90deg,
+  var(--color-rainbow-1)  0%,
+  var(--color-rainbow-2) 15%,
+  var(--color-rainbow-2) 85%,
+  var(--color-rainbow-3) 100%);
 }
-.cpw ul li:nth-child(6n+2) { 
-  background: linear-gradient(-90deg, 
-                var(--color-rainbow-2)   0%, 
-                var(--color-rainbow-3)  15%, 
-                var(--color-rainbow-3)  85%, 
-                var(--color-rainbow-4) 100%); 
+.cpw ul li:nth-child(6n+2) {
+  background: linear-gradient(-90deg,
+  var(--color-rainbow-2)   0%,
+  var(--color-rainbow-3)  15%,
+  var(--color-rainbow-3)  85%,
+  var(--color-rainbow-4) 100%);
 }
-.cpw ul li:nth-child(6n+3) { 
-  background: linear-gradient(-90deg, 
-                var(--color-rainbow-3)   0%, 
-                var(--color-rainbow-4)  15%, 
-                var(--color-rainbow-4)  85%, 
-                var(--color-rainbow-5) 100%); 
+.cpw ul li:nth-child(6n+3) {
+  background: linear-gradient(-90deg,
+  var(--color-rainbow-3)   0%,
+  var(--color-rainbow-4)  15%,
+  var(--color-rainbow-4)  85%,
+  var(--color-rainbow-5) 100%);
 }
-.cpw ul li:nth-child(6n+4) { 
-  background: linear-gradient(-90deg, 
-                var(--color-rainbow-4)   0%, 
-                var(--color-rainbow-5)  15%, 
-                var(--color-rainbow-5)  85%, 
-                var(--color-rainbow-6) 100%); 
+.cpw ul li:nth-child(6n+4) {
+  background: linear-gradient(-90deg,
+  var(--color-rainbow-4)   0%,
+  var(--color-rainbow-5)  15%,
+  var(--color-rainbow-5)  85%,
+  var(--color-rainbow-6) 100%);
 }
-.cpw ul li:nth-child(6n+5) { 
-  background: linear-gradient(-90deg, 
-                var(--color-rainbow-5)   0%, 
-                var(--color-rainbow-6)  15%, 
-                var(--color-rainbow-6)  85%, 
-                var(--color-rainbow-1) 100%); 
+.cpw ul li:nth-child(6n+5) {
+  background: linear-gradient(-90deg,
+  var(--color-rainbow-5)   0%,
+  var(--color-rainbow-6)  15%,
+  var(--color-rainbow-6)  85%,
+  var(--color-rainbow-1) 100%);
 }
-.cpw ul li:nth-child(6n+0) { 
-  background: linear-gradient(-90deg, 
-                var(--color-rainbow-6)   0%, 
-                var(--color-rainbow-1)  15%, 
-                var(--color-rainbow-1)  85%, 
-                var(--color-rainbow-2) 100%); 
+.cpw ul li:nth-child(6n+0) {
+  background: linear-gradient(-90deg,
+  var(--color-rainbow-6)   0%,
+  var(--color-rainbow-1)  15%,
+  var(--color-rainbow-1)  85%,
+  var(--color-rainbow-2) 100%);
 }
 /*
 .cpw ul li:nth-child(6n+1) { background: var(--color-rainbow-1); }
@@ -793,9 +804,9 @@ blockquote {
 .classdata ul li                     { line-height: 1.1;                            }
 .classdata .questions ul             { margin: 0;                                   }
 
-.classdata .questions ul li { 
+.classdata .questions ul li {
   margin:           0;
-  margin-left:      1.5em; /* text-indent : -1em; */
+  margin-left:      1.5em; /* text-indent: -1em; */
   list-style-type:  decimal;
   font-weight:      normal;
 }
@@ -811,7 +822,7 @@ blockquote {
   margin-bottom:                        2em;
 }
 .classpic figure figcaption { display:  block; }
-.classpic figure img { width:           100%; height : auto; }
+.classpic figure img { width:           100%; height: auto; }
 
 .classpic.wide figure {
   float:        page bottom;
@@ -825,14 +836,14 @@ blockquote {
 @page herosheet { @top-left                       { content: normal; }  }
 @page herosheet { @bottom-center                  { content: normal; }  }
 
-@page herosheet { 
+@page herosheet {
   background-image:     url("../art/clu-herosheet.svg");
   background-repeat:    no-repeat;
   background-position:  center;
   background-size:      auto 100%;
 }
 
-.herosheet .clu-logo { 
+.herosheet .clu-logo {
   height:    0.620in;
   width:     auto;
   position:  absolute;
@@ -848,6 +859,7 @@ blockquote {
   right:     0.48in;
 }
 
+#teamsheet .hd-logo-copy,
 .herosheet .hd-logo-copy {
   transform-origin:  top right;
   transform:         rotate(-90deg);
@@ -925,7 +937,7 @@ blockquote {
 .herosheet .label.nova-unlocked              { top: 3.54in;  left:  3.75in;                                }
 .herosheet .label.symbol                     { display: none;                                              }
 
-.herosheet .box { 
+.herosheet .box {
   display:    block;
   position:   absolute;
   color:      var(--color-sheet-dark);
@@ -1002,7 +1014,7 @@ blockquote {
 .herosheet .ethos { display: none; }
 
 .herosheet .safety:before,
-.herosheet .safety:after  { 
+.herosheet .safety:after  {
   font-size:    125%;
   line-height:  none;
   font-family:  var(--font-icons-media);
@@ -1083,7 +1095,7 @@ blockquote {
 .herosheet .pregen .pregen-facet.detective { top:    3.29in; right: 1.00in; }
 .herosheet .pregen .pregen-facet.mystery   { bottom: 1.00in; left:  5.00in; }
 
-.herosheet .pregen .pregen-name { 
+.herosheet .pregen .pregen-name {
   top:         0.85in;
   left:        4.0in;
   right:       4.0in;
@@ -1117,15 +1129,15 @@ blockquote {
 }
 .herosheet .pregen .pregen-health {
   font-size: var(--pregen-name);
-  top: 2.75in; left: 0.675in; 
+  top: 2.75in; left: 0.675in;
 }
 .herosheet .pregen .pregen-might {
   font-size: var(--pregen-name);
   top: 2.75in; right: 0.675in;
 }
 .herosheet .pregen .pregen-fighting-style {
-  top: 2.05in; 
-  width: 1.25in; 
+  top: 2.05in;
+  width: 1.25in;
   right: 2.20in;
   text-align: left;
   font-size: var(--pregen);
@@ -1184,7 +1196,7 @@ blockquote {
   font-size:  var(--pregen);
 }
 
-.herosheet .pregen .pregen-ideal { 
+.herosheet .pregen .pregen-ideal {
   font-size:   var(--pregen-class);
   width:       2.125in;
   text-align:  left;
@@ -1198,7 +1210,7 @@ blockquote {
 .herosheet .pregen .pregen-ideal.pregen-i5 { bottom: 0.500in; left: 4.625in;        }
 .herosheet .pregen .pregen-volume          { top: 1.655in; left:  1.20in;           }
 
-.herosheet .pregen .pregen-bio { 
+.herosheet .pregen .pregen-bio {
   bottom:      1.00in;
   right:       0.70in;
   width:       2.5in;
@@ -1206,7 +1218,7 @@ blockquote {
   text-align:  right;
 }
 
-.herosheet .pregen .pregen-storyline { 
+.herosheet .pregen .pregen-storyline {
   bottom:      1.00in;
   left:        0.70in;
   width:       2.7in;
@@ -1214,7 +1226,7 @@ blockquote {
   text-align:  left;
 }
 
-.herosheet .pregen img.pregen-face { 
+.herosheet .pregen img.pregen-face {
   box-sizing:  border-box;
   width:       1.00in;
   height:      1.00in;
@@ -1230,7 +1242,7 @@ blockquote {
 @page whatswhat { @bottom-center         { content: normal; }  }
 #what-page      { page: whatswhat;       }
 
-#what-page ul { 
+#what-page ul {
   margin:            0;
   position:          absolute;
   bottom:            415pt;
@@ -1281,7 +1293,7 @@ blockquote {
 }
 
 #section-what ul { margin: 0; }
-#section-what ul li { 
+#section-what ul li {
   margin:           0;
   margin-left:      1em;
   margin-bottom:    2pt;
@@ -1342,7 +1354,7 @@ blockquote {
 
 .power-chart { }
 
-.power-chart.label:before { 
+.power-chart.label:before {
   display:      block;
   font-family:  var(--font-h3);
   font-size:    var(--larger);
@@ -1357,7 +1369,7 @@ blockquote {
 .power-chart.power-stunt   .power-word { border-color: var(--color-stunt);   }
 .power-chart.power-combo   .power-word { border-color: var(--color-combo);   }
 
-.power-chart.power-combo .plus { 
+.power-chart.power-combo .plus {
   color:        black;
   content:      '+';
   font-size:    32pt;
@@ -1389,7 +1401,7 @@ blockquote {
   text-align:        center;
 }
 
-.power-chart .power-word.free { 
+.power-chart .power-word.free {
   content:      'FREE';
   font-size:    8pt;
   padding-top:  5pt;
@@ -1413,14 +1425,14 @@ blockquote {
   z-index:      -1;
 }
 
-.power-chart .power-word.nova { 
+.power-chart .power-word.nova {
   border-style:  double;
   color:         black;
   position:      relative;
   text-shadow:   0 0 2pt white;
 }
 
-.power-chart .power-word.dashed { 
+.power-chart .power-word.dashed {
   border-style:  dashed;
   color:         var(--color-sheet-light);
 }
@@ -1456,7 +1468,7 @@ blockquote {
 .dice-display .die.other    { content: 'Other'; border-width: 1pt;    }
 .dice-display .die.ideal    { content: 'Ideal'; border-style: double; }
 
-.dice-display .die.display { 
+.dice-display .die.display {
   color:         var(--color-display);
   border-color:  var(--color-display);
   content:       'Power Display';
@@ -1465,7 +1477,7 @@ blockquote {
   border-style:  solid;
 }
 
-.dice-display .die.stunt   { 
+.dice-display .die.stunt   {
   color:         var(--color-stunt);
   border-color:  var(--color-stunt);
   content:       'Power Stunt';
@@ -1473,7 +1485,7 @@ blockquote {
   border-width:  1pt;
 }
 
-.dice-display .die.combo   { 
+.dice-display .die.combo   {
   color:         var(--color-combo);
   border-color:  var(--color-combo);
   content:       'Power Combo';
@@ -1523,12 +1535,12 @@ blockquote {
   color:          black;
 }
 
-.crisis-block >:matches(h1, h2, h3, h4, h5, h6):first-child {
+.crisis-block > :matches(h1, h2, h3, h4, h5, h6):first-child {
   border-bottom:   2pt double silver;
   padding-bottom:  4pt;
 }
 
-.crisis-block >:matches(h1, h2, h3, h4, h5, h6) + :matches(h1, h2, h3, h4, h5, h6) {
+.crisis-block > :matches(h1, h2, h3, h4, h5, h6) + :matches(h1, h2, h3, h4, h5, h6) {
   font-size:      var(--smaller);
   font-family:    var(--font-display);
   font-weight:    normal;
@@ -1591,7 +1603,7 @@ blockquote {
 .crisis-block + .crisis-block { margin-top: 0.5em;                       }
 .crisis-block dl              { margin-top: 0.5em; margin-bottom: 0.5em; }
 
-.crisis-block dl dd { 
+.crisis-block dl dd {
   display:       inline;
   margin:        0;
   padding:       0;
@@ -1628,7 +1640,7 @@ blockquote {
 .crisis-block .resolve:before { content: 'Resolution';   }
 .crisis-block .upgrades       { display: none;           }
 
-.crisis-block dl dd:after { 
+.crisis-block dl dd:after {
   content:      '\00000a\00000a';
   line-height:  0.5;
   white-space:  pre;
@@ -1656,15 +1668,25 @@ sup { line-height: none; font-size: 50%; }
   border-radius:     var(--border-radius);
 }
 
-#section-what .member-list em { font-style:    normal; font-variant : small-caps; }
-#section-what .other-list em  { font-style:    normal; font-variant : small-caps; }
-#section-what .member-list ul { break-inside: auto;                               }
-#section-what .other-list  ul { break-inside: auto;                               }
+#section-what .member-list em { font-style:   normal; font-variant: small-caps; }
+#section-what .other-list em  { font-style:   normal; font-variant: small-caps; }
+#section-what .member-list ul { break-inside: auto;                             }
+#section-what .other-list  ul { break-inside: auto;                             }
 
-.icon-female, .icon-male, .icon-trans {
+.icon-female, .icon-male, .icon-trans, .icon-plural {
   font-family:  var(--font-icons-noto);
   line-height:  none;
   position:     relative;
+}
+
+
+a:link[href|="#"].after,
+a:link[href|="http"].after,
+a:link.external:after {
+  font-family: var(--font-icons-noto);
+  line-height: none;
+  position: relative;
+  content: var(--icon-external);
 }
 
 .icon-female             { content: var(--icon-female); font-size: 70%; top: -1pt;                          }
@@ -1673,7 +1695,7 @@ sup { line-height: none; font-size: 50%; }
 .volume-ability-chart    { margin-top: 1.0em;                                                               }
 .volume-ability-chart ul { margin: 0; line-height: 1;                                                       }
 
-.volume-ability-chart ul li { 
+.volume-ability-chart ul li {
   margin:           0;
   list-style-type:  none;
   vertical-align:   top;
@@ -1683,7 +1705,7 @@ sup { line-height: none; font-size: 50%; }
   margin-bottom:    2pt;
 }
 
-.volume-ability-chart ul li strong { 
+.volume-ability-chart ul li strong {
   font-family:  var(--font-h3);
   font-size:    var(--body);
   display:      inline-block;
@@ -1702,7 +1724,7 @@ sup { line-height: none; font-size: 50%; }
 .volume-ability-chart ul li:nth-child(5) strong { color: var(--color-rainbow-5d); }
 .volume-ability-chart ul li:nth-child(6) strong { color: var(--color-rainbow-6d); }
 
-.volume-ability-chart ul li .ability { 
+.volume-ability-chart ul li .ability {
   font-family:     var(--font-caption);
   font-size:       var(--body);
   box-sizing:      border-box;
@@ -1724,119 +1746,119 @@ sup { line-height: none; font-size: 50%; }
 
 .volume-ability-chart ul li .ability.new { }
 
-.volume-ability-chart ul li .ability.new.v1    { 
+.volume-ability-chart ul li .ability.new.v1    {
   background: radial-gradient(
                 circle at center,
-                var(--color-rainbow-1)   25%, 
+                var(--color-rainbow-1)   25%,
                 var(--color-rainbow-1d) 150%
-  ); 
-} 
-.volume-ability-chart ul li .ability.new.v2    { 
+  );
+}
+.volume-ability-chart ul li .ability.new.v2    {
   background: radial-gradient(
                 circle at center,
                 var(--color-rainbow-2)   25%,
                 var(--color-rainbow-2d) 150%
-  ); 
-} 
-.volume-ability-chart ul li .ability.new.v3    { 
+  );
+}
+.volume-ability-chart ul li .ability.new.v3    {
   background: radial-gradient(
                 circle at center,
                 var(--color-rainbow-3)   25%,
                 var(--color-rainbow-3d) 150%
-  ); 
-} 
-.volume-ability-chart ul li .ability.new.v4    { 
+  );
+}
+.volume-ability-chart ul li .ability.new.v4    {
   background: radial-gradient(
                 circle at center,
                 var(--color-rainbow-4)   25%,
                 var(--color-rainbow-4d) 150%
-  ); 
-} 
-.volume-ability-chart ul li .ability.new.v5    { 
+  );
+}
+.volume-ability-chart ul li .ability.new.v5    {
   background: radial-gradient(
                 circle at center,
                 var(--color-rainbow-5)   25%,
                 var(--color-rainbow-5d) 150%
-  ); 
-} 
-.volume-ability-chart ul li .ability.new.v6    { 
+  );
+}
+.volume-ability-chart ul li .ability.new.v6    {
   background: radial-gradient(
                 circle at center,
                 var(--color-rainbow-6)   25%,
                 var(--color-rainbow-6d) 150%
-  ); 
-} 
-.volume-ability-chart ul li .ability.new.class { 
+  );
+}
+.volume-ability-chart ul li .ability.new.class {
   background: radial-gradient(
                 circle at center,
                 var(--color-rainbow-6)   25%,
                 var(--color-rainbow-6d) 150%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.new.v1    { border-color: var(--color-rainbow-1d); } 
-.volume-ability-chart ul li .ability.new.v2    { border-color: var(--color-rainbow-2d); } 
-.volume-ability-chart ul li .ability.new.v3    { border-color: var(--color-rainbow-3d); } 
-.volume-ability-chart ul li .ability.new.v4    { border-color: var(--color-rainbow-4d); } 
-.volume-ability-chart ul li .ability.new.v5    { border-color: var(--color-rainbow-5d); } 
-.volume-ability-chart ul li .ability.new.v6    { border-color: var(--color-rainbow-6d); } 
-.volume-ability-chart ul li .ability.new.class { border-color: var(--color-rainbow-6d); } 
+.volume-ability-chart ul li .ability.new.v1    { border-color: var(--color-rainbow-1d); }
+.volume-ability-chart ul li .ability.new.v2    { border-color: var(--color-rainbow-2d); }
+.volume-ability-chart ul li .ability.new.v3    { border-color: var(--color-rainbow-3d); }
+.volume-ability-chart ul li .ability.new.v4    { border-color: var(--color-rainbow-4d); }
+.volume-ability-chart ul li .ability.new.v5    { border-color: var(--color-rainbow-5d); }
+.volume-ability-chart ul li .ability.new.v6    { border-color: var(--color-rainbow-6d); }
+.volume-ability-chart ul li .ability.new.class { border-color: var(--color-rainbow-6d); }
 
-.volume-ability-chart ul li .ability.v1 { 
+.volume-ability-chart ul li .ability.v1 {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-1) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.v2 { 
+.volume-ability-chart ul li .ability.v2 {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-2) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.v3 { 
+.volume-ability-chart ul li .ability.v3 {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-3) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.v4 { 
+.volume-ability-chart ul li .ability.v4 {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-4) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.v5 { 
+.volume-ability-chart ul li .ability.v5 {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-5) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.v6 { 
+.volume-ability-chart ul li .ability.v6 {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-6) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
-.volume-ability-chart ul li .ability.class { 
+.volume-ability-chart ul li .ability.class {
   background: radial-gradient(
     circle at center,
     var(--color-rainbow-6) 25%,
     white 250%
-  ); 
-} 
+  );
+}
 
 .volume-ability-chart ul li .ability.class:before {
   display:      inline-block;
@@ -1910,7 +1932,7 @@ sup { line-height: none; font-size: 50%; }
 .volume-ability-chart ul li .ability.v6                   { content: '1-5';                 }
 
 
-.struct { 
+.struct {
   break-inside:   avoid;
   font-size:      var(--larger);
   box-sizing:     border-box;
@@ -1929,7 +1951,7 @@ sup { line-height: none; font-size: 50%; }
   margin:        0;
 }
 
-.struct div { 
+.struct div {
   position:        relative;
   display:         inline-block;
   border:          1pt dashed var(--color-sheet-dark);
@@ -1954,7 +1976,7 @@ sup { line-height: none; font-size: 50%; }
 
 .struct div { font-size: 90%; }
 
-.struct div span { 
+.struct div span {
   position:     absolute;
   top:          1pt;
   right:        2pt;
@@ -2088,13 +2110,13 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .struct div.volume:before                        { content: 'Volume';                }
 /* colors */
 
-.struct div.series { 
-  background:   
-    linear-gradient(135deg, 
+.struct div.series {
+  background:
+    linear-gradient(135deg,
       white -50%,
-      var(--color-rainbow-5), 
+      var(--color-rainbow-5),
       var(--color-rainbow-5d) 150%
-    ); 
+    );
   color:         var(--color-rainbow-5d);
   border-color:  var(--color-rainbow-5d);
   border-style:  solid;
@@ -2129,32 +2151,32 @@ width: calc(20     - 6 * 4pt / 5 ); }
   border-color: var(--color-rainbow-4d);
 }
 
-.struct div.volume { 
-  background:   
+.struct div.volume {
+  background:
     linear-gradient(
-      var(--color-rainbow-4d) -100%, 
-      var(--color-rainbow-4), 
+      var(--color-rainbow-4d) -100%,
+      var(--color-rainbow-4),
       var(--color-rainbow-3) 150%
-    ); 
+    );
   color:         var(--color-rainbow-4d);
   border-color:  var(--color-rainbow-4d);
   border-radius: 0;
 }
 
-.struct div.storyline { 
-  background:    
+.struct div.storyline {
+  background:
     radial-gradient(
-      circle at center, 
-      white, 
+      circle at center,
+      white,
       var(--color-rainbow-6)
-    ); 
+    );
   color:         var(--color-rainbow-6d);
   border-color:  var(--color-rainbow-6d);
   border-style:  dotted;
   border-radius: 0;
 }
 
-.struct div.issue { 
+.struct div.issue {
   background:                                 white;
   color:                                      black;
   border-color:                               black;
@@ -2179,43 +2201,43 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .struct div.issue div div        { border-width: 0.25pt; margin-bottom: 2pt;                                 }
 .struct div.issue.annual         { background: white;                                                        }
 
-.struct div.vignette { 
-  background: 
+.struct div.vignette {
+  background:
     linear-gradient(
-      90deg, 
-      var(--color-rainbow-3), 
+      90deg,
+      var(--color-rainbow-3),
       var(--color-rainbow-5)
     );
   color:        var(--color-rainbow-3d);
   border-color: var(--color-rainbow-3d);
 }
 
-.struct div.crisis { 
-  background:   
+.struct div.crisis {
+  background:
     linear-gradient(
-      90deg, 
-      var(--color-rainbow-1), 
+      90deg,
+      var(--color-rainbow-1),
       var(--color-rainbow-2)
-    ); 
+    );
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
 
 .struct div.crisis div {
-  background:   
+  background:
     linear-gradient(
-      -90deg, 
-      var(--color-rainbow-1), 
+      -90deg,
+      var(--color-rainbow-1),
       var(--color-rainbow-2)
-    ); 
+    );
   color:        var(--color-rainbow-1d);
   border-color: var(--color-rainbow-1d);
 }
 
 .struct div.crisis div.hero_phase {
   background:   linear-gradient(
-                  90deg, 
-		  var(--color-rainbow-2), 
+                  90deg,
+		  var(--color-rainbow-2),
 		  var(--color-rainbow-4)
 		);
   color:        var(--color-rainbow-2d);
@@ -2224,8 +2246,8 @@ width: calc(20     - 6 * 4pt / 5 ); }
 
 .struct div.crisis div.crisis_phase {
   background:   linear-gradient(
-                  90deg, 
-		  var(--color-rainbow-3), 
+                  90deg,
+		  var(--color-rainbow-3),
 		  var(--color-rainbow-5)
 		);
   color:        var(--color-rainbow-4d);
@@ -2235,13 +2257,13 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .struct div.do_chargen,
 .struct div.lines_veils,
 .struct div.comics_code {
-  background: 
+  background:
     radial-gradient(
       circle at center left,
       white,
-      var(--color-rainbow-2) 75%, 
+      var(--color-rainbow-2) 75%,
       var(--color-rainbow-2d)
-    ); 
+    );
   color:        var(--color-rainbow-2d);
   border-color: var(--color-rainbow-2d);
 }
@@ -2249,23 +2271,23 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .struct div.lettercol,
 .struct div.bleed,
 .struct div.stars_wishes,
-.struct div.recap { 
-  background: 
+.struct div.recap {
+  background:
     linear-gradient(
-      90deg, 
-      var(--color-rainbow-5), 
+      90deg,
+      var(--color-rainbow-5),
       var(--color-rainbow-6)
-    ); 
+    );
   color:        var(--color-rainbow-5d);
   border-color: var(--color-rainbow-5d);
 }
-.struct div.bleed { 
+.struct div.bleed {
   background: linear-gradient(
-    90deg, 
-    var(--color-rainbow-5), 
-    var(--color-rainbow-6), 
-    var(--color-rainbow-1), 
-    var(--color-rainbow-1d) 125%); 
+    90deg,
+    var(--color-rainbow-5),
+    var(--color-rainbow-6),
+    var(--color-rainbow-1),
+    var(--color-rainbow-1d) 125%);
 }
 
 .classdata#class-divine:matches(      h1 , h2, h3, h4, h5, h6) { color: var(--color-class-divine      ); }
@@ -2312,139 +2334,145 @@ width: calc(20     - 6 * 4pt / 5 ); }
 .list-index a.list-link:after  { content: " " target-counter(attr(href), page); font-style: italic; font-weight: normal; }
 .list-index a.list-link        { content: target-content(attr(href)); font-weight: bold; color: black; }
 
-a.list-link:before { font-style: normal; content: "the "; }
-a.list-link        { content:    target-content(attr(href)) " list ";  font-style: italic; }
-a.list-link.plural { content:    target-content(attr(href)) " lists "; font-style: italic; }
-a.list-link:after  { content:    " (see page " target-counter(attr(href), page) ")"; font-style: normal; }
+a.list-link:before       { font-style: normal; content: "the "; }
+a.list-link              { content:    target-content(attr(href)) " list ";  font-style: italic; }
+a.list-link.plural       { content:    target-content(attr(href)) " lists "; font-style: italic; }
+a.list-link:after        { content:    " (see page " target-counter(attr(href), page) ")"; font-style: normal; }
 a.list-link.nopage:after { content: ""; }
 
-.herocave-prereq { 
-  font-style: italic;
+.herocave-prereq {
+  font-style:      italic;
   text-decoration: underline;
-  content: "Hero Cave";
-  font-weight: bold;
+  content:         "Hero Cave";
+  font-weight:     bold;
 }
-.herocave-prereq:before { 
-  content: "Prerequisite: You can't have another "; 
+.herocave-prereq:before {
+  content:         "Prerequisite: You can't have another ";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .herocave-prereq:after {
-  content: " Ability.";
+  content:         " Ability.";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
+}
+
+.herocave-id { 
+  content:     "Hero Cave"; 
+  font-style:  italic;
+  font-weight: bold;
 }
 
 .herocave-id:before {
-  content: "This is a ";
+  content:    "This is a ";
   font-style: normal;
 }
 
 .herocave-id:after {
-  content: " Ability.";
+  content:   " Ability.";
   font-style: normal;
 }
 
-.arsenal-prereq { 
-  font-style: italic;
+.arsenal-prereq {
+  font-style:      italic;
   text-decoration: underline;
-  content: "Arsenal";
-  font-weight: bold;
+  content:         "Arsenal";
+  font-weight:     bold;
 }
-.arsenal-prereq:before { 
-  content: "Prerequisite: You can't have another "; 
+.arsenal-prereq:before {
+  content:         "Prerequisite: You can't have another ";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .arsenal-prereq:after {
-  content: " Ability.";
+  content:         " Ability.";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .arsenal-id {
-  display: block;
-  content: "Arsenal";
+  display:    block;
+  content:    "Arsenal";
   font-style: italic;
 }
 
 .arsenal-id:before {
-  content: "This is an ";
+  content:    "This is an ";
   font-style: normal;
 }
 
 .arsenal-id:after {
-  content: " Ability.";
+  content:    " Ability.";
   font-style: normal;
 }
 
-.pet-prereq { 
-  font-style: italic;
+.pet-prereq {
+  font-style:      italic;
   text-decoration: underline;
-  content: "Pet";
-  font-weight: bold;
+  content:         "Pet";
+  font-weight:     bold;
 }
-.pet-prereq:before { 
-  content: "Prerequisite: You can't have another "; 
+.pet-prereq:before {
+  content:         "Prerequisite: You can't have another ";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .pet-prereq:after {
-  content: " Ability.";
+  content:         " Ability.";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .pet-id {
-  display: block;
-  content: "Pet";
+  display:    block;
+  content:    "Pet";
   font-style: italic;
 }
 
 .pet-id:before {
-  content: "This is a ";
+  content:    "This is a ";
   font-style: normal;
 }
 
 .pet-id:after {
-  content: " Ability.";
+  content:    " Ability.";
   font-style: normal;
 }
 
-.pet-related-prereq { 
-  font-style: italic;
+.pet-related-prereq {
+  font-style:      italic;
   text-decoration: underline;
-  content: "Pet";
-  font-weight: bold;
+  content:         "Pet";
+  font-weight:     bold;
 }
-.pet-related-prereq:before { 
-  content: "Prerequisite: You must have ";
+.pet-related-prereq:before {
+  content:         "Prerequisite: You must have ";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .pet-related-prereq:after {
-  content: " Ability.";
+  content:         " Ability.";
   text-decoration: none;
-  font-weight: normal;
+  font-weight:     normal;
 }
 
 .pet-related-id {
-  display: block;
-  content: "Pet";
+  display:    block;
+  content:    "Pet";
   font-style: italic;
 }
 
 .pet-related-id:before {
-  content: "This is NOT a ";
+  content:    "This is NOT a ";
   font-style: normal;
 }
 
 .pet-related-id:after {
-  content: " Ability.";
+  content:    " Ability.";
   font-style: normal;
 }
 
@@ -2485,26 +2513,35 @@ a.list-link.nopage:after { content: ""; }
   font-style: normal;
 }
 .herocave-id {
-  display: block;
-  content: "Hero Cave";
+  display:    block;
+  content:    "Hero Cave";
   font-style: italic;
 }
 
 .move:before {
-  display: block;
-  content: "This ability gives you a new type of move you cna take on the ";
+  display:     block;
+  content:     "This ability gives you a new type of move you cna take during the ";
   font-weight: normal;
 }
 
-.move.hero { 
-  font-weight: bold; 
-  content: "Hero";
+.move {
+  margin-top:    0.5em;
+  font-weight:   bold;
+  display:       block;
+  margin-bottom: 0.5em;
 }
 
-.move:after { 
-  content: " phase"; 
+.move.hero      { content: "Hero";             }
+.move.crisis    { content: "Crisis";           }
+.move.countdown { content: "Crisis Countdown"; }
+
+.move:after {
   font-weight: normal;
 }
+
+.move.crisis:after    { content: " phase to counter a Crisis Move."; }
+.move.hero:after      { content: " phase."; }
+.move.countdown:after { content: " checklist."; }
 
 dl dd .box-it {
   border:        var(--border-thin);
@@ -2512,9 +2549,9 @@ dl dd .box-it {
   box-shadow:    var(--box-shadow);
 }
 
-dl dd .repeat:before     { content: "Repetition:"; font-style: italic; }
-dl dd .repeat            { content: "You can choose this Ability more than once."; }
-dl dd .repeat.semi-colon { content: "You can choose this Ability more than once;"; }
+dl dd .repeat:before         { content: "Repetition:"; font-style: italic;             }
+dl dd .repeat                { content: "You can choose this Ability more than once."; }
+dl dd .repeat.semi-colon     { content: "You can choose this Ability more than once;"; }
 
 dl dd .variant:before        { content: "Note: "; font-style: italic;               }
 dl dd .variant.construct     { content: " This is a variant of the Construct's ";   }
@@ -2642,7 +2679,7 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 }
 .power-words.core.choose.third {
   font-weight: bold;
-} 
+}
 
 .power-words.core {
   font-weight: bold;
@@ -2667,9 +2704,9 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 }
 .power-words.personal.use {
   white-space: pre;
-  content: "When you use a Power Display you can add one Personal Power Word for free." 
-           var(--newline) 
-           var(--newline) 
+  content: "When you use a Power Display you can add one Personal Power Word for free."
+           var(--newline)
+           var(--newline)
 	   "You can use two Personal Power Words together in a Power Stunt or Poer Combo by paying 1 Might for each beyond the first.";
 }
 
@@ -2702,7 +2739,7 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 .your-abilities-are:before  {
   content: "Each Volume, you gain a new ability from your class. Your " var(--class);
 }
-.your-abilities-are:after { 
+.your-abilities-are:after {
   content: " Each ability can be chosen only once unless otherwise noted.";
 }
 
@@ -2714,9 +2751,17 @@ dl dd .variant.generic:after { content: content() " Ability.";                  
 .your-hero-has-the-prime-ability { font-weight: bold; }
 .your-hero-has-the-prime-ability:after {
   font-weight: normal;
-  content:     " common to all " var(--class-plural) ".";
+  content:     " common to all " var(--class-plural, "such heroes") ".";
 }
 
-.setting-index > ul > li > .index-entry.xref:before { font-weight: normal; font-style: italic; content: "See also "; }
-.setting-index > ul > li > .index-entry.xref { font-weight: bold; color: green; }
+.setting-index > ul > li > .index-entry.xref:before {
+  font-weight: normal;
+  font-style: italic;
+  content: "See also ";
+}
+
+.setting-index > ul > li > .index-entry.xref {
+  font-weight: bold;
+  color: green;
+}
 

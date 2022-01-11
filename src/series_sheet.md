@@ -1,6 +1,10 @@
 :::::::::::::::::::: { #series-sheet } :::::::::::::::::::::::::::::::::::::::
 # Series Sheet {#team-series-anchor .anchor}
 
+![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
+
+![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
 ## Series Sheet
 
@@ -11,6 +15,7 @@
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy} \
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

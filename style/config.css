@@ -120,6 +120,9 @@
   --icon-male           : '\002642' var(--iant);
   --icon-trans          : '\0026a7' var(--iant);
   --newline             : '\a';
+  --icon-external       : '\002197';
+  --icon-plural         : '\01f465';
+  --icon-bookmark       : '\01f516';
 
   /* Font Sizes ======================================================== */
   --wide-one            : calc(100% - 2 * 2pt / 1 ); 

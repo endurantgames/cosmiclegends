@@ -3,7 +3,7 @@
 ## The Super Friends {#toc-preface-super-friends}
 
 In case you weren't aware, this game is inspired by the 
-[Super Friends](https://en.wikipedia.org/wiki/Super_Friends)
+[Super Friends](https://en.wikipedia.org/wiki/Super_Friends){.external}
 cartoon show that was on the air from 1973 to 1985 -- also
 the years yours truly was age 5 and 16. It's fair to say
 the show influenced how I view comics and superheroes

@@ -8,6 +8,7 @@ then you're probably a fascist, or incapable of drawing inferences from context 
 acknowledging a dangerous political climate that causes the oppressed to be hyperbolic. 
 
 Don't play this game. Heal yourself. Grow. Learn. 
-Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or something.
+Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/){.external}
+or something.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

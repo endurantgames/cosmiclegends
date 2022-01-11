@@ -91,6 +91,11 @@
     - <a href="#toc-setting-jloa"></a>
   - <a href="#toc-setting-whatswhat"></a>
     - <a href="#toc-setting-timeline"></a>
+  - Appendix: Additional Data Files
+    - <a href="#setting-other-individuals"></a>
+    - <a href="#setting-other-groups"></a>
+    - <a href="#setting-timeline"></a>
+    - <a href="#setting-other-locations"></a>
 - <a href="#toc-editor"></a>
   - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>
@@ -105,7 +110,7 @@
 - <a href="#toc-glossary"></a>
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"     ></a>
-- Records Sheets
+- Record Sheets
   - <a href="#anchor-herosheet"          > (Character)</a>
   - <a href="#anchor-team-sheet-anchor"  > (Group)    </a> 
   - <a href="#anchor-series-sheet-anchor"> (Campaign) </a>

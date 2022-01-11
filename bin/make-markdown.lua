@@ -9,7 +9,7 @@ local CONFIG = {
                  recipe   = ".recipe", filter   = ".md;.yaml"
                },
   ignore     = "^(%.git|Makefile|%.test|%.)",
-  index      = "intro",
+  intro      = "intro",
   logformat  = "  %-30s %-20s",
   out_suffix = ".md",
   outdir     = "./out",
@@ -223,13 +223,13 @@ local function slug(filename)
 end;
 
 local function path_level(path)
-  path = slug(path);
+  path  = slug(path);
   local pathdirs = split(path, "/");
   local level = #pathdirs;
-  if   string.find(path, CONFIG.index)
-  then vprint("*** found an index", path)
-  else level = level + 1;
-  end; -- if string.find
+  if    string.find(path, CONFIG.intro)
+  then  vprint("*** found an index", path)
+  else  level = level + 1;
+  end;  -- if string.find
   return level;
 end; -- function
 
@@ -239,58 +239,60 @@ local function file_exists(file)
   return f ~= nil
 end -- function
 
+local function adjust_md_level(source_file, markdown)
+  local octo, _    = string.match(markdown, "^(#+)");
+  local octo_level = string.len(octo or "");
+  if   octo_level > 1
+  then local mod = octo_level - 1;
+       local oldhash = "\n" .. string.rep("#", mod);
+       local newhash = "\n";
+       markdown = string.gsub(markdown, oldhash, newhash);
+  end; -- if octo_level
+
+  local level = path_level(source_file);
+  if   level >= 1
+  then local mod = level - 1;
+       local oldhash = "\n#";
+       local newhash = "\n#" .. string.rep("#", mod)
+       markdown = string.gsub(markdown, oldhash, newhash);
+       markdown = string.gsub(markdown, "\n#####+", "\n#####");
+       -- handle the H6 headings
+       markdown = string.gsub(markdown, "\n:#", "\n######");
+  end; -- if level
+
+  return markdown;
+end;
+
 -- get all lines from a file, returns an empty
 -- list/table if the file does not exist
 local function slurp(file, no_parse)
   if not file_exists(file) then return nil end
-  lines = {}
-  for line in io.lines(file) do lines[#lines + 1] = line end
+  local lines = {}
+  for   line in io.lines(file) do lines[#lines + 1] = line end
   local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
   no_parse = no_parse
              or file:find(CONFIG.ext.yaml)
              or file:find(CONFIG.ext.recipe);
-
   if   not no_parse
-  then -- normalize the number of octothorpes
-
-       local octo, _ = string.match(slurped, "(#+)");
-       local octo_level = string.len(octo or "");
-
-       if   octo_level > 1
-       then local mod = octo_level - 1;
-            local oldhash = "\n" .. string.rep("#", mod);
-            local newhash = "\n";
-            slurped = string.gsub(slurped, oldhash, newhash);
-       end; -- if octo_level
-
-       local level = path_level(file);
-       -- vprint(slug(file), "should be " .. level .. ", is " .. octo_level);
-       if   level >= 1
-       then local mod = level - 1;
-            local oldhash = "\n#";
-            local newhash = "\n#" .. string.rep("#", mod)
-            slurped = string.gsub(slurped, oldhash, newhash);
-            slurped = string.gsub(slurped, "\n#####+", "\n#####");
-            -- handle the H6 headings
-            slurped = string.gsub(slurped, "\n:#", "\n######");
-       end; -- if level
+  then slurped = adjust_md_level(file, slurped);
   end; -- if not no_parse
   return slurped;
 end -- function
 
-local function unpack_yaml_tree(yaml_tree, comment)
-  comment = comment or "";
+local function unpack_yaml_tree(yaml_tree, tree_id)
+  tree_id = tree_id or "no id";
   -- vprint("==================", "------------------");
-  -- vprint(comment .. ":before", tprint(yaml_tree));
+  -- vprint(tree_id .. ":before", tprint(yaml_tree));
   if     yaml_tree == nil
-  then   eprint("Error! in unpack_yaml_tree", "yaml_tree = nil");
-         os.exit(1);
+  then   eprint("Error! in unpack_yaml_tree", "yaml_tree (" .. tree_id .. ") = nil");
+         return {};
+         -- os.exit(1);
   elseif yaml_tree and type(yaml_tree) ~= "table"
-  then   eprint("Error! unpacking", "type(" .. comment .. ") = " .. type(yaml_tree));
+  then   eprint("Error! unpacking", "type(" .. tree_id .. ") = " .. type(yaml_tree));
          vprint("Should be:", "table");
          os.exit(1);
-  elseif comment and type(comment) ~= "string"
-  then   eprint("Error!", "type(" .. comment .. ") = " .. type(comment));
+  elseif tree_id and type(tree_id) ~= "string"
+  then   eprint("Error!", "type(" .. tree_id .. ") = " .. type(tree_id));
          vprint("Should be:", "string");
          os.exit(1);
   end;
@@ -1255,13 +1257,15 @@ local function yaml_glossary(yaml_tree)
                 generic_equiv  =  generic_equiv.term;
            end;
            if   def and type(def) == "string"
-           then vprint(term, def);
-                vprint("term", type(term));
-                vprint("def", type(def));
-                vprint(term .. " means:", def);
+           then -- vprint(term, def);
+                -- vprint("term", type(term));
+                -- vprint("def", type(def));
+                -- vprint(term .. " means:", def);
                 slurped = slurped .. term .. "\n";
                 slurped = slurped .. ":   " .. def;
+	   else eprint(term .. " means:", def);
            end;
+
            if     (hq_equiv and type(hq_equiv) == "string") and
                   (generic_equiv and type(generic_equiv) == "string")
            then   slurped = slurped .. "\n    (";
@@ -1372,7 +1376,7 @@ local function yaml_index(yaml_tree)
   end;
 
   if   index.text
-  then vprint("Found list description", index.text:len())
+  then vprint("Found list description", index.text:len() .. " characters")
        slurped = slurped .. "\n\n" .. index.text .. "\n\n";
   else eprint("Can't find list desc", "yaml_index");
 
