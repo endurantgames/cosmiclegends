@@ -1716,12 +1716,15 @@ local function recipe_list()
         string.format(
           g.CONFIG.logfmt,
           v.path .. v.name,
-          g.CONFIG.dir.bin .. "/" .. g.CONFIG.appname ..
-                              " " .. string.gsub(v.name, g.CONFIG.ext.recipe, "")
+          g.CONFIG.dir.bin   .. 
+	    "/"              .. 
+	    g.CONFIG.appname ..
+	    " "              .. 
+	    string.gsub(v.name, g.CONFIG.ext.recipe, "")
         )
       );
   end;
-  os.exit(1);
+  os.exit(0);
 end;
 
 -- ==========================================================
@@ -1774,7 +1777,7 @@ local recipe = split(recipe_src, "[\r\n]+");
 sprint("recipe read", #recipe .. " lines");
 
 -- parse the filesystem tree
-sprint("Loading the filesystem map", "source = " .. g.CONFIG.dir.source );
+sprint("Loading the filesystem map", g.CONFIG.dir.source );
 map_src_fs(g.CONFIG.dir.source);
 vprint("Filesystem mapped.", g.count.FILES .. " files");
 
