@@ -31,10 +31,10 @@ metadata/game
 # chargen/identity
 # chargen/storyline
 # skills
-# classes/intro
-# classes/dual_class
-# classes/multi_class
-# classes/*
+classes/
+classes/dual_class
+classes/multi_class
+classes/*
 # powers/intro
 # powers/display
 # powers/stunt

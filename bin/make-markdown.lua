@@ -7,9 +7,11 @@ local g = { -- g for "global"
             ERR     = {},
             FILES   = {},
             count   = {
-              FILES = 0,
               BUILD = 0,
-              DIRS  = 0 },
+              DIRS  = 0,
+              ERR   = 0,
+              FILES = 0,
+                      },
             YAML    = {},
             outtxt  = {},
             -- USED = {},
@@ -37,7 +39,7 @@ g.CONFIG = {
   ignore      = "^(%.git|Makefile|%.test|%.|backup|markdown)",
   intro       = "intro",
   logfmt      = "  %-25s %-20s",
-  maxerrors   = 6,
+  maxerrors   = 12,
   outfile     = "build",
   summary     = true,
   verbose     = true,
@@ -1673,25 +1675,24 @@ local function parse_line(line)
          local dir = string.gsub(line, "/%*$", "");
          vprint("looking for files in ", dir)
 
-         local found_files, _ = file_search(
-                                  g.CONFIG.dir.source .. "/" .. dir, 
-                                  g.CONFIG.ext.filter
-                                );
-         vprint("found this many", #found_files .. " files");
-
+         local found_files, _ =
+                 file_search(
+                   g.CONFIG.dir.source .. "/" .. dir,
+                   g.CONFIG.ext.filter
+                 );
          for _, v in pairs(found_files)
-         do  local ff = string.gsub(v.name, "%" .. g.CONFIG.ext.filter .. "$", "");
-             vprint("parsing", dir .. "/" .. ff);
-             parse_line(       dir .. "/" .. ff);
+         do  local ff = string.gsub(v.name, "%"..g.CONFIG.ext["filter"  ].."$", "");
+                   ff = string.gsub(ff,          g.CONFIG.ext["markdown"].."$", "");
+                   ff = string.gsub(ff,          g.CONFIG.ext["yaml"    ].."$", "");
+             vprint(    "looking for", dir.."/"..ff);
+             parse_line(               dir.."/"..ff);
          end; -- for
   elseif not was_used_line(line)
-         and (g.FILES[line] or
-              g.FILES[line .. g.CONFIG.ext.yaml] or
+         and (g.FILES[line                         ] or
+              g.FILES[line .. g.CONFIG.ext.yaml    ] or
               g.FILES[line .. g.CONFIG.ext.markdown])
-  then   local  md_file   = g.CONFIG.dir.source  .. "/" ..
-                            line              .. g.CONFIG.ext.markdown;
-         local  yaml_file = g.CONFIG.dir.source  .. "/" ..
-                            line              .. g.CONFIG.ext.yaml;
+  then   local  md_file   = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.markdown;
+         local  yaml_file = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.yaml;
          if     file_exists(yaml_file)
          then   table.insert(g.BUILD, yaml_file)
                 g.count.BUILD = g.count.BUILD + 1;
@@ -1703,6 +1704,7 @@ local function parse_line(line)
          else   eprint("failed to find:", yaml_file .. " or " .. md_file);
          end;
   else   table.insert(g.ERR, line);
+         g.count.ERR = g.count.ERR + 1;
   end;
 end;
 
@@ -1723,9 +1725,8 @@ local function recipe_list()
   os.exit(1);
 end;
 
--- ==================================
--- https://lua-cliargs.netlify.com/#/
--- Command line interface
+-- ==========================================================
+-- Command line interface: https://lua-cliargs.netlify.com/#/
 
 cli:set_name(g.CONFIG.appname);
 cli:set_description("it creates the .md files we need");
@@ -1779,7 +1780,7 @@ map_src_fs(g.CONFIG.dir.source);
 vprint("Filesystem mapped.",  #g.FILES .. " files");
 
 if   g.count.FILES > 1
-then for k, data in pairs(g.FILES) 
+then for k, data in pairs(g.FILES)
 do   vprint(k, data.name); end;
 else eprint("(no excerpt available)");
      os.exit(1);
@@ -1794,9 +1795,9 @@ for _, i in pairs(recipe) do parse_line(i) end;
 sprint("reading/parsing files now", g.count.BUILD .. " files");
 
 for _, v in pairs(g.BUILD)
-do  if     v:find("%" .. g.CONFIG.ext.yaml     .. "$") 
+do  if     v:find("%" .. g.CONFIG.ext.yaml     .. "$")
     then   table.insert(g.outtxt, slurp_yaml(v));
-    elseif v:find("%" .. g.CONFIG.ext.markdown .. "$") 
+    elseif v:find("%" .. g.CONFIG.ext.markdown .. "$")
     then   table.insert(g.outtxt, slurp(v)     );
     end;
 end;
@@ -1806,24 +1807,29 @@ local outfile = g.CONFIG.dir.build .. "/" .. g.CONFIG.outfile .. g.CONFIG.ext.ou
 local outtxt = table.concat(g.outtxt, "\n");
 
 print("Writing to file", outfile);
-print("Content type is", type(outtxt));
+-- print("Content type is", type(outtxt));
 print("Content size is", string.len(outtxt) .. " characters");
 dump(outfile, outtxt);
 
 -- notify of errors
-print("number of errors", (#g.ERR or 0) .. " error" .. ((#g.ERR and #g.ERR == 1) and "" or "s" ));
+print(
+  "number of errors",
+  (g.count.ERR or 0) .. " error" ..
+    ((g.count.ERR and g.count.ERR == 1) and "" or "s" )
+);
 
-if   #g.ERR
+if   g.count.ERR
 then local err_start = 1;
-     local err_stop = math.min(g.CONFIG.maxerrors,#g.ERR);
+     local err_stop = math.min(g.CONFIG.maxerrors, g.count.ERR);
      for i = err_start, err_stop, 1
-     do local errmsg =  string.find(g.ERR[i], g.CONFIG.intro .. "$")
+     do local errmsg =  (string.find(g.ERR[i], g.CONFIG.intro .. "$") or
+                         string.find(g.ERR[i], "/$"))
                         and "Warning: Missing index"
                         or  "Alert: Missing file";
         eprint(errmsg, g.ERR[i])
      end; -- do
-     if   #g.ERR > g.CONFIG.maxerrors
+     if   g.count.ERR > g.CONFIG.maxerrors
      then eprint("...");
-          eprint(#g.ERR - g.CONFIG.maxerrors .. " errors hidden", "not shown");
+          eprint(g.count.ERR - g.CONFIG.maxerrors .. " errors hidden", "not shown");
      end;
-end; -- if #g.ERR
+end; -- if g.count.ERR
