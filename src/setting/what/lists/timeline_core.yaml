@@ -49,13 +49,14 @@
     - where: The Solar System
     - what: Creation of the Solar System
     - desc: Gravity causes matter in a molecular cloud to coalesce into the Sun and planets of the Solar System.
-    - url: "https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Epochs_of_the_formation_of_the_solar_system"
+    - url: https://en.wikipedia.org/wiki/Timeline_of_the_early_universe#Epochs_of_the_formation_of_the_solar_system
   - "8.5 billion years ago":
+    - what: Discovery of the The Ro'Tan'Okk race
     - chrono_order: 6
-    - where: Andromeda
-    - what:  The Christmas Burst
+    - where: Andromeda Galaxy
     - desc: |
-        Visitor explorers trigger a 28-minute gamma burst to alert their homeworld of the discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
+        Visitor explorers trigger a 28-minute gamma burst to alert their homeworld of the 
+        discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
 
         Earth-based scientists would later record the burst on Christmas day, 2010.
     - url: https://en.wikipedia.org/wiki/GRB_101225A
@@ -76,15 +77,11 @@
     - where: The Solar System
     - what: Visitor Discovery of the Solar System
     - desc: |
-        Probes launched by the Visitors discover the Solar System and note the potential for life on Earth and Titan.
+        Probes launched by the Visitors discover the Solar System and note the potential for 
+        life on Earth and Titan.
 
-        They leave behind multiple orbiting drones to monitor the planets and moons of the Solar System.
-  - "3.8 billion years ago":
-    - chrono_order: 10
-    - where: Unknown
-    - what: Discovery of the The Ro'Tan'Okk race
-    - desc: |
-        Visitor probes elsewhere in the galaxy discover the race that would later be known as the Titanians.
+        They leave behind multiple orbiting drones to monitor the planets and moons of the
+        Solar System.
   - "3.77 billion years ago":
     - chrono_order: 11
     - where: The planet Earth
@@ -117,7 +114,9 @@
     - where: The moon Titan
     - what: "Creation of the Kyl'Sh'Tal"
     - desc: |
-        The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- form an organization of astronomers and soldiers to watch for the return of their previous captors.
+        The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- 
+        form an organization of astronomers and soldiers to watch for the return of 
+        their previous captors.
 
         These would come to be known on Earth as the Sentinels of Saturn.
     - cf: Titan
@@ -185,7 +184,7 @@
     - note: "Date corresponds with Action Comics #1, the first appearance of Zatara."
   - "August, 1940":
     - chrono_order: 23
-    - where: "Campile, South Wexler, Ireland"
+    - where: Campile, South Wexler, Ireland
     - what: Choosing of Sequana
     - desc: |
         A lone German bomber drops several bombs on the Irish village of Campile,
@@ -246,12 +245,12 @@
     - where: United States
     - what: "Creation of A.L.E.R.T."
     - desc: |
-        The United States creates the Agency for the Licensing of Extra-Human Resources and Threats
-        with the merger of the National Security Agency and the National Advisory Committee for Aeronautics,
-        under the United States Department of Defense.
+        The United States creates the Agency for the Licensing of Extra-Human Resources 
+        and Threats with the merger of the National Security Agency and the National 
+        Advisory Committee for Aeronautics, under the United States Department of Defense.
 
-        (In the Cosmic Legends Universe, NASA -- a civilian agency -- would not be founded; instead, all 
-        space operations would remain under military control.)
+        (In the Cosmic Legends Universe, NASA -- a civilian agency -- would not be 
+        founded; instead, all space operations would remain under military control.)
   - "July, 1949":
     - chrono_order: 30
     - where: The South Pacific
@@ -260,7 +259,7 @@
         A U.S. pilot reported sighting the G.I. Dinosaurs on an island near what
         would later be revealed as the Vulcanor island chain. The later activities 
         of the 'Dinosaurs are not recorded.
-    - note: "Date corresponds to the publication of Captain America's Weird Tales #75, the final issue of Captain America in the Golden Age."
+    - note: Date corresponds to the publication of Captain America's Weird Tales #75, the final issue of Captain America in the Golden Age.
   - "August, 1952":
     - chrono_order: 31
     - where: Boston, Massachusetts
@@ -298,11 +297,11 @@
     - where: Worldwide
     - what: The Visitor War
     - desc: |
-        The nations of Earth rally behind A.L.E.R.T., Sequana, and Ty'Tonnn -- now calling themself 
-        "Titan" -- to drive off the Visitors.
+        The nations of Earth rally behind A.L.E.R.T., Sequana, and Ty'Tonn To'Rezz -- now 
+        calling themself "Titan" -- to drive off the Visitors.
         
-        Young prince Obsidius and the Volcano City Militia join the fight, revealing the presence of Vulcanians
-        to the outside world.
+        Young prince Obsidius and the Volcano City Militia join the fight, revealing the 
+        presence of Vulcanians to the outside world.
     - cf: The Visitors
   - "January, 1957":
     - chrono_order: 36
@@ -312,18 +311,20 @@
         The Kyl'Sh'Tal's listening post on Jarnsaxa destroyed by the retreating Visitor worldship 
         when the post's cloaking screens fail under mysterious circumstances.
 
-        All personnel, including Ty'Tonn To'Rezz's three spouses and their sibling My'Tonn, are killed.
+        All personnel, including Ty'Tonn To'Rezz's three spouses and their sibling My'Tonn, are 
+        killed.
     - cf: Titan
   - "March, 1957":
     - chrono_order: 37
     - where: Outside the orbit of Neptune
     - what: "Liberation of the Foreigners"
     - desc: |
-        Having discovered the devastation of Jarnsaxa, Ty'Tonn and Obsidius pursue the Visitor worldship
-        and free a group of kidnapped humans who were being subjected to medical experiments. Upon being
-        returned to Earth, these humans became known as the Foreigners, with some settling on an island
-        near Vulcanor and others returning to their home nations. These two camps would become the two
-        Exiles and Settlers factions of the Foreigners.
+        Having discovered the devastation of Jarnsaxa, Ty'Tonn and Obsidius pursue the 
+        Visitor worldship and free a group of kidnapped humans who were being subjected to 
+        medical experiments. Upon being returned to Earth, these humans became known as the 
+        Foreigners, with some settling on an island near Vulcanor and others returning to 
+        their home nations. These two camps would become the two Exiles and Settlers factions 
+        of the Foreigners.
     - cf: The Foreigners
   - "May, 1959":
     - chrono_order: 38
@@ -483,9 +484,9 @@
     - where: "Boston, Massachusetts"
     - what: The Death of Maddie Dee
     - desc: |
-        Brigantia, Miss Magister: Maddie Dee, and Jack Dee seek out Sequana to bring her to
+        "Brigantia, Miss Magister: Maddie Dee, and Jack Dee seek out Sequana to bring her to
         justice for the death of Johnny Dee. Upon Maddie's death, her powers go to Jack, who
-        uses them to banish Sequana to Otherworld.
+        uses them to banish Sequana to Otherworld."
     - note: No special significance to the date.
   - "September, 1982":
     - chrono_order: 57
@@ -555,13 +556,6 @@
     - desc: |
         Zaar executes the defeated villain Sinhammer. Rather than face trial for 
         her actions, she instead returns to the 24th century.
-  - "September, 1994":
-    - chrono_order: 64.5
-    - where: "Technopolis, U.S.A."
-    - what: Legends of Time
-    - desc: |
-        Pursuing Zaar in an experimental time-machine, the Cosmic Legends bounce
-        through the timestream, eventually visiting 1878, 1942, and 2322.
     - note: "Date corresponds to the first issue of Zero Hour: Crisis in Time!"
   - "April, 2002":
     - chrono_order: 65
@@ -619,10 +613,3 @@
         where she became a member of the Cosmic Legends. After killing Sinhammer 
         while the villain was in custody, she returned to the 24th Century rather 
         than face trial for her actions. Zaar's later activities are undocumented.
-  - "2322":
-    - chrono_order: 71
-    - where: "Sun City, U.S.A."
-    - what: "Founding of the Legends of the Future"
-    - desc: |
-        Several superheroes of this time period joined together with
-        the time-traveling Cosmic Legends of the Universe from 1984.

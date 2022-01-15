@@ -51,9 +51,9 @@ setting/what/brigantia
 setting/what/grailknight
 setting/what/lists/groups
 setting/what/lists/timeline
-setting/what/pdsh/homefront/intro
-setting/what/pdsh/western_front/intro
-setting/what/pdsh/future/intro
+# setting/what/pdsh/homefront/intro
+# setting/what/pdsh/western_front/intro
+# setting/what/pdsh/future/intro
 # # team/
 # team/*
 # editor/intro
@@ -75,13 +75,13 @@ glossary
 # powers/words
 # soapbox_index
 # setting/setting_index
-credits/intro
-credits/license
-credits/harmony_drive
-credits/jam
-credits/art
-credits/no_fascists
-credits/safety
+# credits/intro
+# credits/license
+# credits/harmony_drive
+# credits/jam
+# credits/art
+# credits/no_fascists
+# credits/safety
 # license
 # herosheet
 # team/sheet
