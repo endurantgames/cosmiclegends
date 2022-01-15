@@ -28,6 +28,7 @@ g.CONFIG = {
   ignore     = "^(%.git|Makefile|%.test|%.|backup|markdown)",
   intro      = "intro",
   logfmt     = "  %-25s %-20s",
+  maxerrors  = 6,
   outdir     = "./out",
   outfile    = "build",
   recipe_dir = "./",
@@ -395,7 +396,7 @@ local function get_sorted_keys(t, sort_field, numeric)
       or string.lower(sort_field) == "alphabetical"
       or string.lower(sort_field) == "a-z"
   then   alphabetical =  true; 
-	 numeric      =  false;
+         numeric      =  false;
   end;
 
   local function ignore_case(a, b)
@@ -1189,7 +1190,7 @@ local function yaml_glossary(yaml_tree)
   yprint("yaml xformat is:", "=== GLOSSARY ===");
   yprint("number of entries:", #flat_tree);
   local keys = get_sorted_keys(flat_tree, true);
-  iprint("keys:", keys);
+  -- iprint("keys:", keys);
   for _, k in pairs(keys)
   do  if   not flat_tree[k] then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST"); os.exit(1); end;
       local term, data    = k, flat_tree[k];
@@ -1561,8 +1562,8 @@ end;  -- function
 local function map_source_fs(src_dir)
   src_dir = src_dir or g.CONFIG.src_dir;
   local files, dirs = file_search(src_dir, g.CONFIG.ext.filter, true)
-  iprint("files", files);
-  os.exit(0);
+  -- iprint("files", files);
+  -- os.exit(0);
 
   for k, v in pairs(files)
   do  if   ignore(v.path)
@@ -1575,8 +1576,8 @@ local function map_source_fs(src_dir)
            then   g.FILES[k].ext      = g.CONFIG.ext.yaml;
                   g.FILES[k].yaml     = true;
            end; -- if string.find
-	   local slug = get_slug(v.name);
-	   g.FILES[k].slug = slug;
+           local slug = get_slug(v.name);
+           g.FILES[k].slug = slug;
       end; -- if ignore
   end;
 
@@ -1614,8 +1615,12 @@ local function parse_line(line)
                 };
 
   for  field, test in pairs(tests)
-  do   if   string.find(line, test)
+  do   sprint("Testing for ", field);
+       if   string.find(line, test)
        then found[field] = true;
+            sprint("> Passed "  .. field .. " (" .. test .. ")", line);
+            break;
+       else vprint("> Failed "  .. field .. " (" .. test .. ")", line);
        end;
   end;
 
@@ -1644,9 +1649,9 @@ local function parse_line(line)
 
   elseif not    g.USED[line]
          and    (   g.FILES[line]
-	         or g.FILES[line .. g.CONFIG.ext.yaml]
-		 or g.FILES[line .. g.CONFIG.ext.markdown]
-		)
+                 or g.FILES[line .. g.CONFIG.ext.yaml]
+                 or g.FILES[line .. g.CONFIG.ext.markdown]
+                )
   then   local  md_file   = g.CONFIG.src_dir .. "/" .. line .. g.CONFIG.ext.markdown;
          local  yaml_file = g.CONFIG.src_dir .. "/" .. line .. g.CONFIG.ext.yaml;
          if     file_exists(yaml_file)
@@ -1657,7 +1662,7 @@ local function parse_line(line)
                 g.USED[line] = true;
          else   eprint("failed to find:", yaml_file .. "/" .. md_file);
          end;
-  else   eprint("trying to find this", line);
+  else   -- eprint("trying to find this", line);
          table.insert(g.ERR, line);
   end;
 end;
@@ -1741,39 +1746,48 @@ sprint("recipe read", #recipe .. " lines");
 -- parse the filesystem tree
 sprint("Loading the filesystem map", "source = " .. g.CONFIG.src_dir );
 map_source_fs(g.CONFIG.src_dir);
-iprint("FILES", g.FILES);
+-- iprint("FILES", g.FILES);
 -- iprint("DIRS",  g.DIRS );
-sprint("Filesystem mapped.");
+sprint("Filesystem mapped.", #g.FILES .. " files");
 
 -- parse the recipe
 for _, i in pairs(recipe) do parse_line(i) end;
 
 -- ready now to read files
 sprint("reading/parsing files now", #g.BUILD .. " files");
+
 for _, v in pairs(g.BUILD)
 do  if     v:find("%" .. g.CONFIG.ext.yaml .. "$")
-    then   g.outtxt   =  g.outtxt .. slurp_yaml(v);
+    then   table.insert(g.outtxt, slurp_yaml(v));
     elseif v:find("%" .. g.CONFIG.ext.markdown .. "$")
-    then   g.outtxt   =  g.outtxt .. slurp(v)
+    then   -- g.outtxt   =  g.outtxt .. slurp(v)
+           table.insert(g.outtxt, slurp(v));
     end;
 end;
 
 -- save the output
 local outfile = g.CONFIG.build_dir .. "/" .. g.CONFIG.outfile .. g.CONFIG.ext.out;
+local outtxt = table.concat(g.outtxt, "\n");
 
-sprint("Writing to file", outfile);
-sprint("Content size is", string.len(g.outtxt) .. " characters");
-dump(outfile, g.outtxt);
+print("Writing to file", outfile);
+print("Content type is", type(outtxt));
+print("Content size is", string.len(outtxt) .. " characters");
+dump(outfile, outtxt);
 
 -- notify of errors
 print("number of errors", (#g.ERR or 0) .. " error" .. ((#g.ERR and #g.ERR == 1) and "" or "s" ));
 
 if   #g.ERR
-then for _, v
-     in  pairs(g.ERR)
-     do  local errmsg =     string.find(v, g.CONFIG.intro .. "$")
+then local err_start = 1;
+     local err_stop = math.min(g.CONFIG.maxerrors,#g.ERR);
+     for i = err_start, err_stop, 1
+     do local errmsg =  string.find(g.ERR[i], g.CONFIG.intro .. "$")
                         and "Warning: Missing index"
                         or  "Alert: Missing file";
-         eprint(errmsg, v)
+        eprint(errmsg, g.ERR[i])
      end; -- do
+     if   #g.ERR > g.CONFIG.maxerrors
+     then eprint("...");
+          eprint(#g.ERR - g.CONFIG.maxerrors .. " errors hidden", "not shown");
+     end;
 end; -- if #g.ERR

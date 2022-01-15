@@ -1,15 +1,15 @@
 metadata/game
-cover
-intro
-toc
-ethos
-preface/intro
-preface/no_fascists
-preface/four_color
-preface/ages_of_comics
-preface/bronze_age
-preface/iron_age
-preface/influences
+# cover
+# intro
+# toc
+# ethos
+# preface/intro
+# preface/no_fascists
+# preface/four_color
+# preface/ages_of_comics
+# preface/bronze_age
+# preface/iron_age
+# preface/influences
 # safety/intro
 # safety/before
 # safety/during
@@ -47,10 +47,10 @@ preface/influences
 # crisis/post
 # advancement
 # setting/markdown/*
-setting/what/brigantia
-setting/what/grailknight
-setting/what/lists/groups
-setting/what/lists/timeline
+# setting/what/brigantia
+# setting/what/grailknight
+# setting/what/lists/groups
+# setting/what/lists/timeline
 # setting/what/pdsh/homefront/intro
 # setting/what/pdsh/western_front/intro
 # setting/what/pdsh/future/intro
@@ -70,7 +70,7 @@ setting/what/lists/timeline
 # vignettes/intro
 # vignettes/vignettes_issue
 # vignettes/examples/*
-glossary
+# glossary
 # lists_index
 # powers/words
 # soapbox_index
