@@ -156,7 +156,7 @@ PDFINFO_GREP = | /bin/grep -v "no"
 # MAKE_MD    = $(MMD) -v -- verbose
 # MAKE_MD    = $(MMD) -y -- yamlbose (verbose only about yaml parsing)
 # MAKE_MD      = $(MMD) -y
-MAKE_MD      = $(MMD) -q
+MAKE_MD      = $(MMD) -v
 MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
@@ -167,7 +167,7 @@ EDITOR = /usr/bin/vim
 # EXPLORER = /mnt/c/WINDOWS/explorer.exe $(OUT)
 EXPLORER = 
 
-# Variables #############################################################################################
+# Variables ################################################################
 #
 # Date Variable
 #   Edit: no
@@ -215,7 +215,7 @@ blcyan := $(shell tput setab 14)
 blwhit := $(shell tput setab 15)
 blorng := $(shell tput setab 208)
 
-# Default Make Script ###################################################################################
+# Default Make Script ###############################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
 # default: pregen
@@ -225,7 +225,7 @@ default: pdf
 # default: all
 # default: sheet
 
-# Make Help #############################################################################################
+# Make Help #########################################################################
 #
 # make help
 #  Edit: if you add additional make options e.g. another pdf to make
@@ -246,7 +246,7 @@ help:
 	@ echo '  $(dkcyan)make$(resetc) $(dkblue)ls         $(resetc)- recursive ls'
 	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)menu       $(resetc)- list available recipes'
 
-# Various Make Utilities ################################################################################
+# Various Make Utilities ############################################################
 #
 # make edit
 #  Edit: no
@@ -307,7 +307,7 @@ ls-back:
 	@ /bin/ls --color=never $(BACKDIR)
 	@ echo '$(resetc)'
 
-# Actual Make Scripts ###################################################################################
+# Actual Make Scripts ###############################################################
 #
 # make markdown
 #   Edit: if you are making multiple docs
@@ -439,7 +439,7 @@ yaml-lint:
 all:    pdf   letter    sheets      pregen  origin what-pdf
 sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
 
-# Make Aliases ##########################################################################################
+# Make Aliases ######################################################################
 #  Edit: only you if want to add something
 md:             markdown
 list:           recipes
@@ -464,3 +464,4 @@ what:           what-pdf
 team:           team-sheet
 yaml:           yaml-lint
 yamllint:       yaml-lint
+

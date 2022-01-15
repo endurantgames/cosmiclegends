@@ -1,40 +1,46 @@
 #!/usr/bin/lua
 
-local g = { FILES   = {}, -- g for "global"
+local g = { -- g for "global"
             BUILD   = {},
             CONTENT = {},
             DIRS    = {},
             ERR     = {},
-            USED    = {},
-            outtxt  = {},
+            FILES   = {},
+            count   = {
+              FILES = 0,
+              BUILD = 0,
+              DIRS  = 0 },
             YAML    = {},
+            outtxt  = {},
+            -- USED = {},
           };
 
 g.CONFIG = {
-  recipe     = "clu", -- specific to this project
-  appname    = "make-markdown.lua",
-  bin_dir    = "./bin",
-  build_dir  = "./build",
-  errors     = true,
-  ext        = { filter   = ".md;.yaml",
-                 markdown = ".md",
-                 out      = ".md",
-                 recipe   = ".recipe",
-                 source   = "^(%.md|%.yaml)",
-                 yaml     = ".yaml",
-               },
-  -- out_suffix = ".md",
-  -- recipe_sfx = ".recipe",
-  ignore     = "^(%.git|Makefile|%.test|%.|backup|markdown)",
-  intro      = "intro",
-  logfmt     = "  %-25s %-20s",
-  maxerrors  = 6,
-  outdir     = "./out",
-  outfile    = "build",
-  recipe_dir = "./",
-  src_dir    = "./src",
-  summary    = true,
-  verbose    = true,
+  recipe      = "clu", -- specific to this project
+  appname     = "make-markdown.lua",
+  dir         = { bin    = "./bin",
+                  build  = "./build",
+                  out    = "./out",
+                  recipe = "./",
+                  source = "./src",
+                },
+  errors      = true,
+  ext         = { filter   = ".md;.yaml",
+                  markdown = ".md",
+                  out      = ".md",
+                  recipe   = ".recipe",
+                  source   = "^(%.md|%.yaml)",
+                  yaml     = ".yaml",
+                  -- out_suffix = ".md",
+                  -- recipe_sfx = ".recipe",
+                },
+  ignore      = "^(%.git|Makefile|%.test|%.|backup|markdown)",
+  intro       = "intro",
+  logfmt      = "  %-25s %-20s",
+  maxerrors   = 6,
+  outfile     = "build",
+  summary     = true,
+  verbose     = true,
   yaml_ignore = "^(metadata|flat|%d+)",
   };
 g.CONTENT.in_hd      = "* in Harmony Drive";
@@ -262,7 +268,7 @@ local function file_search(dir_path, filter, s, pformat)
          end
       end
   end
-  return files,dirs
+  return files, dirs
 end
 
 --[=[        ABOUT ATTRIBUTES
@@ -280,20 +286,28 @@ end
     size    805 in byte
 ]=]
 
-local function vprint(s, l)    if g.CONFIG.verbose   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
-local function eprint(s, l)    if g.CONFIG.errors    then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
-local function sprint(s, l)    if g.CONFIG.summary   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
-local function yprint(s, l)    if g.CONFIG.debugyaml then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
-local function iprint(s, data) print(string.format, s or "", inspect(data));                                           end;
+local function vprint(s, l)
+  if g.CONFIG.verbose     then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
+end;
+local function eprint(s, l)
+  if g.CONFIG.errors      then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
+end;
+local function sprint(s, l)
+  if g.CONFIG.summary     then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
+end;
+local function yprint(s, l)
+  if g.CONFIG.debugyaml   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
+end;
+-- local function iprint(s, data) print(string.format, s or "", inspect(data)); end;
 
 -- http://lua-users.org/wiki/FileInputOutput
 
-local function get_slug(filename)
-  filename = string.gsub(filename, "^%"  .. g.CONFIG.src_dir,           "");
-  filename = string.gsub(filename, "%"   .. g.CONFIG.ext.source .. "$", "");
-  filename = string.gsub(filename, "^/", "");
-  filename = string.gsub(filename, "/$", "");
-  return filename;
+local function get_slug(file)
+  file = string.gsub(file, "^%"  .. g.CONFIG.dir.source,           "");
+  file = string.gsub(file, "%"   .. g.CONFIG.ext.source .. "$", "");
+  file = string.gsub(file, "^/", "");
+  file = string.gsub(file, "/$", "");
+  return file;
 end;
 
 local function path_level(path)
@@ -391,11 +405,11 @@ end;
 
 local function get_sorted_keys(t, sort_field, numeric)
   local  alphabetical;
-  if     sort_field               == nil 
+  if     sort_field               == nil
       or string.lower(sort_field) == "alpha"
       or string.lower(sort_field) == "alphabetical"
       or string.lower(sort_field) == "a-z"
-  then   alphabetical =  true; 
+  then   alphabetical =  true;
          numeric      =  false;
   end;
 
@@ -1555,37 +1569,43 @@ local function dump(file, contents)
   f:close();
 end
 
-local function ignore(string)
-  if string.find(string, g.CONFIG.ignore) then return true else return false; end;
+local function ignore(name)
+  if   string.match(name, g.CONFIG.ignore)
+  then return true
+  else return false;
+  end;
 end;  -- function
 
-local function map_source_fs(src_dir)
-  src_dir = src_dir or g.CONFIG.src_dir;
-  local files, dirs = file_search(src_dir, g.CONFIG.ext.filter, true)
-  -- iprint("files", files);
+local function map_src_fs(dir_src)
+  dir_src = dir_src or g.CONFIG.dir.source;
+  local files, dirs = file_search(dir_src, g.CONFIG.ext.filter, true)
   -- os.exit(0);
 
   for k, v in pairs(files)
-  do  if   ignore(v.path)
-      then vprint("skipping file", v.name); break;
-      else g.FILES[k] = v;
-           if     string.find(v.name, "%" .. g.CONFIG.ext.markdown .. "$")
-           then   g.FILES[k].ext      = g.CONFIG.ext.markdown;
-                  g.FILES[k].markdown = true;
-           elseif string.find(v.name, "%" .. g.CONFIG.ext.yaml .. "$")
-           then   g.FILES[k].ext      = g.CONFIG.ext.yaml;
-                  g.FILES[k].yaml     = true;
+  do  -- vprint(k, v);
+      if   ignore(v.name)
+      then vprint("skipping file", v);
+           break;
+      else local slug = get_slug(v.name);
+           g.FILES[slug]      = {};
+           g.FILES[slug].slug = slug;
+           g.count.FILES = g.count.FILES + 1;
+           if     string.find(slug, "%"  .. g.CONFIG.ext.markdown .. "$")
+           then   g.FILES[slug].ext      =  g.CONFIG.ext.markdown;
+                  g.FILES[slug].markdown =  true;
+           elseif string.find(slug, "%"  .. g.CONFIG.ext.yaml .. "$")
+           then   g.FILES[slug].ext      =  g.CONFIG.ext.yaml;
+                  g.FILES[slug].yaml     =  true;
            end; -- if string.find
-           local slug = get_slug(v.name);
-           g.FILES[k].slug = slug;
       end; -- if ignore
   end;
 
   for k, v in pairs(dirs)
   do  if   ignore(v.path)
       then vprint("Skipping directory", v.name); break
-      else local filename = v.name;
+      else local filename   = v.name;
            g.DIRS[filename] = true;
+           g.count.DIRS     = g.count.DIRS + 1;
            vprint("Learning directory location", filename);
       end; -- if ignore
   end; -- for k, v
@@ -1593,94 +1613,110 @@ local function map_source_fs(src_dir)
   return files, dirs;
 end;
 
-local function find_filename(base)
-  vprint("==============", "find_filename");
-  if g.DIRS[base] then return find_filename(base .. g.CONFIG.intro) end;
-  local files = {};
-  for k, _ in pairs(g.FILES) do table.insert(files, k); end;
-  vprint("looking for ", base);
-  return g.FILES[base                         ] and base,                          true
-      or g.FILES[base .. g.CONFIG.ext.markdown] and base .. g.CONFIG.ext.markdown, true
-      or g.FILES[base .. g.CONFIG.ext.yaml    ] and base .. g.CONFIG.ext.yaml,     true
-      or                                        base,                              false
+local function was_used_line(line)
+  local line_data = g.FILES[line];
+  if    line_data and line_data.used
+  then  return true
+  else  return false
+  end;
+end;
+
+local function mark_line_used(line)
+  local  line_data = g.FILES[line];
+  if not line_data
+  then   eprint("Error: no line in g.FILES:", line);
+         os.exit(1);
+  else   g.FILES[line].used = true;
+  end;
 end;
 
 local function parse_line(line)
-  local found = {};
-  local tests = { comment  = "^#",
-                  dir      = "/$",
-                  ext_md   = g.CONFIG.ext.markdown .. "$",
-                  ext_yaml = g.CONFIG.ext.yaml     .. "$",
-                  asterisk = "/%*$"
-                };
+  local foundone = false;
 
-  for  field, test in pairs(tests)
-  do   sprint("Testing for ", field);
-       if   string.find(line, test)
-       then found[field] = true;
-            sprint("> Passed "  .. field .. " (" .. test .. ")", line);
-            break;
-       else vprint("> Failed "  .. field .. " (" .. test .. ")", line);
-       end;
+  local found = {
+          comment  = false,
+          dir      = false,
+          ext_md   = false,
+          ext_yaml = false,
+          asterisk = false
+        };
+
+  local tests = {
+          comment  = "^%# ",
+          dir      = "/$",
+          ext_md   = g.CONFIG.ext.markdown .. "$",
+          ext_yaml = g.CONFIG.ext.yaml     .. "$",
+          asterisk = "/%*$"
+        };
+
+  for field, test in pairs(tests)
+  do  if   string.find(line, test)
+      then found[field] = true;
+           -- vprint("Found "  .. field .. " (" .. test .. "):", line);
+           foundone = true;
+      end;
   end;
 
-  if     g.FILES[line] and g.USED[line]
+  if not foundone then eprint("Couldn't match line", line); end;
+
+  if     was_used_line(line)
   then   vprint("skipping used entry", line)
-  if     found.comment
-  then   vprint("comment", line);
+  elseif found.comment
+  then   -- vprint("ignoring comment", line);
+         -- mark_line_used(line);
   elseif found.dirs and g.DIRS[line]
   then   vprint("found a directory", line);
          vprint("looking for index", line .. "/" .. g.CONFIG.intro);
          parse_line(line .. "/" .. g.CONFIG.intro);
-
   elseif found.asterisk
-  then   vprint("found a /* construction", line .. "/*");
-  local  dir = g.CONFIG.src_dir .. "/" .. line;
+  then   vprint("found a /* construction", line);
+         local dir = string.gsub(line, "/%*$", "");
          vprint("looking for files in ", dir)
-         local md_files, _ = file_search(dir, g.CONFIG.ext.filter);
 
-         vprint("found this many", #md_files .. " files");
-         for k, v in pairs(md_files)
-         do  local sl = v.name;
-             sl = string.gsub(sl, "%" .. g.CONFIG.ext.filter .. "$", "");
-             parse_line(line .. "/" .. sl)
+         local found_files, _ = file_search(
+                                  g.CONFIG.dir.source .. "/" .. dir, 
+                                  g.CONFIG.ext.filter
+                                );
+         vprint("found this many", #found_files .. " files");
+
+         for _, v in pairs(found_files)
+         do  local ff = string.gsub(v.name, "%" .. g.CONFIG.ext.filter .. "$", "");
+             vprint("parsing", dir .. "/" .. ff);
+             parse_line(       dir .. "/" .. ff);
          end; -- for
-  end; -- if found.asterisk
-
-  elseif not    g.USED[line]
-         and    (   g.FILES[line]
-                 or g.FILES[line .. g.CONFIG.ext.yaml]
-                 or g.FILES[line .. g.CONFIG.ext.markdown]
-                )
-  then   local  md_file   = g.CONFIG.src_dir .. "/" .. line .. g.CONFIG.ext.markdown;
-         local  yaml_file = g.CONFIG.src_dir .. "/" .. line .. g.CONFIG.ext.yaml;
+  elseif not was_used_line(line)
+         and (g.FILES[line] or
+              g.FILES[line .. g.CONFIG.ext.yaml] or
+              g.FILES[line .. g.CONFIG.ext.markdown])
+  then   local  md_file   = g.CONFIG.dir.source  .. "/" ..
+                            line              .. g.CONFIG.ext.markdown;
+         local  yaml_file = g.CONFIG.dir.source  .. "/" ..
+                            line              .. g.CONFIG.ext.yaml;
          if     file_exists(yaml_file)
          then   table.insert(g.BUILD, yaml_file)
-                g.USED[line] = true;
+                g.count.BUILD = g.count.BUILD + 1;
+                mark_line_used(line);
          elseif file_exists(md_file)
          then   table.insert(g.BUILD, md_file)
-                g.USED[line] = true;
-         else   eprint("failed to find:", yaml_file .. "/" .. md_file);
+                g.count.BUILD = g.count.BUILD + 1;
+                mark_line_used(line);
+         else   eprint("failed to find:", yaml_file .. " or " .. md_file);
          end;
-  else   -- eprint("trying to find this", line);
-         table.insert(g.ERR, line);
+  else   table.insert(g.ERR, line);
   end;
 end;
 
 local function recipe_list()
-  local files, _ = file_search(g.CONFIG.recipe_dir, g.CONFIG.ext.recipe, false)
+  local files, _ = file_search(g.CONFIG.dir.recipe, g.CONFIG.ext.recipe, false)
   sprint("Listing Recipes:", #files .. " known");
-  sprint("Recipe directory", g.CONFIG.recipe_dir);
+  sprint("Recipe directory", g.CONFIG.dir.recipe);
   for k, v in pairs(files)
   do  print(
         string.format(
           g.CONFIG.logfmt,
           v.path .. v.name,
-          g.CONFIG.bin_dir
-            .. "/"
-            .. g.CONFIG.appname
-            .. " "
-            .. string.gsub(v.name, g.CONFIG.ext.recipe, "")
+          g.CONFIG.dir.bin .. "/" .. g.CONFIG.appname ..
+                              " " .. string.gsub(v.name, g.CONFIG.ext.recipe, "")
         )
       );
   end;
@@ -1696,7 +1732,7 @@ cli:set_description("it creates the .md files we need");
 
 cli:splat("RECIPE", "the recipe to build", "", 1);
 
-cli:option("-o, --outfile=OUTFILE", "specify the outfile");
+cli:option("-o, --outfile=OUTFILE", "specify the outfile"             );
 cli:flag(  "-v, --verbose",         "be more wordy than usual",  false);
 cli:flag(  "-q, --quiet",           "don't summarize each step", false);
 cli:flag(  "-l, --list",            "list the known recipes",    false);
@@ -1707,27 +1743,21 @@ local args, err = cli:parse(arg);
 
 if not args then cli:print_help(); os.exit(1); end;
 
-if   err
-then print(string.format("%s: %s", cli.name, err));
-     os.exit(1);
-end;
+if err then print(string.format("%s: %s", cli.name, err)); os.exit(1); end;
 
-if args and args.list then recipe_list()                                                 end;
+if args and args.list then recipe_list()                                                     end;
 if args.quiet         then g.CONFIG.summary   = false else g.CONFIG.summary   = true;        end;
 if args.verbose       then g.CONFIG.verbose   = true
                            g.CONFIG.debugyaml = true  else g.CONFIG.verbose   = false;       end;
 if args.debugyaml     then g.CONFIG.debugyaml = true  else g.CONFIG.debugyaml = false;       end;
 if args.errors        then g.CONFIG.errors    = true  else g.CONFIG.errors    = false;       end;
 if args.RECIPE        then g.CONFIG.recipe    = args.RECIPE; g.CONFIG.outfile = args.RECIPE; end;
-if args.outfile       then g.CONFIG.outfile   = args.outfile                               end;
+if args.outfile       then g.CONFIG.outfile   = args.outfile                                 end;
 
 --
 
 -- =======================================
 -- Everything above this is initialization
--- =======================================
--- =======================================
--- =======================================
 -- =======================================
 
 -- start run -----------------------------
@@ -1737,36 +1767,42 @@ yprint("Being wordy about yaml parsing");
 
 -- read the recipe
 sprint("reading recipe", g.CONFIG.recipe);
-local recipe_src = slurp(g.CONFIG.recipe_dir .. "/" .. g.CONFIG.recipe .. g.CONFIG.ext.recipe, true);
+local recipe_src = slurp(g.CONFIG.dir.recipe .. "/" .. g.CONFIG.recipe .. g.CONFIG.ext.recipe, true);
 
 if not recipe_src then print("Error: Can't read that recipe file"); os.exit() end
 local recipe = split(recipe_src, "[\r\n]+");
 sprint("recipe read", #recipe .. " lines");
 
 -- parse the filesystem tree
-sprint("Loading the filesystem map", "source = " .. g.CONFIG.src_dir );
-map_source_fs(g.CONFIG.src_dir);
--- iprint("FILES", g.FILES);
--- iprint("DIRS",  g.DIRS );
-sprint("Filesystem mapped.", #g.FILES .. " files");
+sprint("Loading the filesystem map", "source = " .. g.CONFIG.dir.source );
+map_src_fs(g.CONFIG.dir.source);
+vprint("Filesystem mapped.",  #g.FILES .. " files");
 
--- parse the recipe
+if   g.count.FILES > 1
+then for k, data in pairs(g.FILES) 
+do   vprint(k, data.name); end;
+else eprint("(no excerpt available)");
+     os.exit(1);
+end;
+
+vprint("Directories mapped.", g.count.DIRS .. " dirs");
+
+-- parse the recipe, store in g.BUILD
 for _, i in pairs(recipe) do parse_line(i) end;
 
 -- ready now to read files
-sprint("reading/parsing files now", #g.BUILD .. " files");
+sprint("reading/parsing files now", g.count.BUILD .. " files");
 
 for _, v in pairs(g.BUILD)
-do  if     v:find("%" .. g.CONFIG.ext.yaml .. "$")
+do  if     v:find("%" .. g.CONFIG.ext.yaml     .. "$") 
     then   table.insert(g.outtxt, slurp_yaml(v));
-    elseif v:find("%" .. g.CONFIG.ext.markdown .. "$")
-    then   -- g.outtxt   =  g.outtxt .. slurp(v)
-           table.insert(g.outtxt, slurp(v));
+    elseif v:find("%" .. g.CONFIG.ext.markdown .. "$") 
+    then   table.insert(g.outtxt, slurp(v)     );
     end;
 end;
 
 -- save the output
-local outfile = g.CONFIG.build_dir .. "/" .. g.CONFIG.outfile .. g.CONFIG.ext.out;
+local outfile = g.CONFIG.dir.build .. "/" .. g.CONFIG.outfile .. g.CONFIG.ext.out;
 local outtxt = table.concat(g.outtxt, "\n");
 
 print("Writing to file", outfile);

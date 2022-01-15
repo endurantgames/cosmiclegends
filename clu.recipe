@@ -54,8 +54,7 @@ metadata/game
 # setting/what/pdsh/homefront/intro
 # setting/what/pdsh/western_front/intro
 # setting/what/pdsh/future/intro
-# # team/
-# team/*
+team/*
 # editor/intro
 # editor/storyline
 # editor/crisis
