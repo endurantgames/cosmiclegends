@@ -1615,7 +1615,7 @@ local function map_src_fs(dir_src)
   return files, dirs;
 end;
 
-local function was_used_line(line)
+local   function was_used_line(line)
   local line_data = g.FILES[line];
   if    line_data and line_data.used
   then  return true
@@ -1623,7 +1623,7 @@ local function was_used_line(line)
   end;
 end;
 
-local function mark_line_used(line)
+local    function mark_line_used(line)
   local  line_data = g.FILES[line];
   if not line_data
   then   eprint("Error: no line in g.FILES:", line);
@@ -1654,7 +1654,6 @@ local function parse_line(line)
   for field, test in pairs(tests)
   do  if   string.find(line, test)
       then found[field] = true;
-           -- vprint("Found "  .. field .. " (" .. test .. "):", line);
            foundone = true;
       end;
   end;
@@ -1687,18 +1686,18 @@ local function parse_line(line)
              vprint(    "looking for", dir.."/"..ff);
              parse_line(               dir.."/"..ff);
          end; -- for
-  elseif not was_used_line(line)
-         and (g.FILES[line                         ] or
-              g.FILES[line .. g.CONFIG.ext.yaml    ] or
-              g.FILES[line .. g.CONFIG.ext.markdown])
+  elseif not   was_used_line(line)
+         and   (g.FILES[line                         ] or
+                g.FILES[line .. g.CONFIG.ext.yaml    ] or
+                g.FILES[line .. g.CONFIG.ext.markdown])
   then   local  md_file   = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.markdown;
          local  yaml_file = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.yaml;
          if     file_exists(yaml_file)
-         then   table.insert(g.BUILD, yaml_file)
+         then   table.insert(g.BUILD, yaml_file);
                 g.count.BUILD = g.count.BUILD + 1;
                 mark_line_used(line);
          elseif file_exists(md_file)
-         then   table.insert(g.BUILD, md_file)
+         then   table.insert(g.BUILD, md_file);
                 g.count.BUILD = g.count.BUILD + 1;
                 mark_line_used(line);
          else   eprint("failed to find:", yaml_file .. " or " .. md_file);
@@ -1777,14 +1776,12 @@ sprint("recipe read", #recipe .. " lines");
 -- parse the filesystem tree
 sprint("Loading the filesystem map", "source = " .. g.CONFIG.dir.source );
 map_src_fs(g.CONFIG.dir.source);
-vprint("Filesystem mapped.",  #g.FILES .. " files");
+vprint("Filesystem mapped.", g.count.FILES .. " files");
 
-if   g.count.FILES > 1
-then for k, data in pairs(g.FILES)
-do   vprint(k, data.name); end;
-else eprint("(no excerpt available)");
-     os.exit(1);
-end;
+-- if   g.count.FILES > 1
+-- then for k, data in pairs(g.FILES) do vprint(k, data.name); end;
+-- else eprint("(no excerpt available)"); os.exit(1);
+-- end;
 
 vprint("Directories mapped.", g.count.DIRS .. " dirs");
 
