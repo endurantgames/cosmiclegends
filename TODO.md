@@ -6,20 +6,12 @@ General ideas
 -------------
 
 - [ ]   Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
-- [/]   Sheets
-  - [/]   CCA Checklist
-  - [/]   Series sheet
 - [/]   Coding for yaml
   - [/] Glossary
   - [/] Characters
   - [ ] Lists
   - [ ] Places
   - [ ] Teams
-- [ ] Classes
-  - [/] Kid      class
-  - [/] Pet      class
-  - [/] Twins    class
-  - [/] Wheelman class
 - [ ]   Abilities database
 
 Manuscript
