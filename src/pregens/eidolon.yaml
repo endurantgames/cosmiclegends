@@ -12,8 +12,8 @@
   - occupation:      
   - legal_status:    
   - gender: 
-    - desc:          
-    - pronouns:      
+    - desc:          female spirit
+    - pronouns:      she/her
   - identity:        
   - former_aliases:  
   - place_of_birth:  
@@ -21,7 +21,8 @@
   - known_relatives: 
   - group_affiliation: 
     - Cosmic Legends of the Universe:
-      - active: true
+      - active: false
+      - reserve: true
   - base:            Sun City, U.S.A.
   - height:          x' y\"
   - weight:          zzz lbs.
@@ -33,9 +34,9 @@
 - weapons: *description coming soon*
 - stats:
   - name:       *title
-  - classname:  &classname 
-  - class:      The *classname
-  - classid:    &classid 
+  - classname:  &classname Haunt
+  - class:      The Haunt
+  - classid:    &classid haunt
   - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
   - health:     10
   - might:      10

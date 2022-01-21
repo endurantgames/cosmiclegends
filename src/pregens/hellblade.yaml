@@ -1,19 +1,19 @@
 - metadata:
-  - title: &title    
+  - title: &title    Hellblade
   - x-format:        character-sheet
   - yaml_version:    1.2
-  - anchor:          
+  - anchor:          setting-hellblade
 - art:
-  - url:             
+  - url:             art/jeshields/hellblade.png
   - alt:             *title
-  - face:            
+  - face:            art/jeshields/hellblade_face.png
 - bio:
   - real_name:       
   - occupation:      
   - legal_status:    
   - gender: 
-    - desc:          
-    - pronouns:      
+    - desc:          female
+    - pronouns:      she/her
   - identity:        
   - former_aliases:  
   - place_of_birth:  
@@ -27,19 +27,15 @@
   - weight:          "zzz lbs."
   - eyes:            Brown
   - hair:            Black
-  - desc: |
-      '*description coming soon*'
-- history: | 
-    '*history coming soon*'
-- powers: |
-    '*description coming soon*'
-- weapons: |
-    '*description coming soon*'
+  - desc:   *description coming soon*
+- history:  *history     coming soon*
+- powers:   *description coming soon*
+- weapons:  *description coming soon*
 - stats:
   - name:       *title
-  - classname:  &classname 
-  - class:      The *classname
-  - classid:    &classid 
+  - classname:  Hellspawn
+  - class:      The Hellspawn
+  - classid:    &classid hellspawn
   - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
   - health:     10
   - might:      10

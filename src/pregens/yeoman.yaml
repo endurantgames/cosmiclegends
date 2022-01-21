@@ -32,14 +32,10 @@
   - weight:          "130 lbs."
   - eyes:            Brown
   - hair:            Black
-  - desc: |
-      '*description coming soon*'
-- history: | 
-    '*history coming soon*'
-- powers: |
-    '*description coming soon*'
-- weapons: |
-    '*description coming soon*'
+  - desc:  *description coming soon*
+- history: *history     coming soon*
+- powers:  *description coming soon*
+- weapons: *description coming soon*
 - stats:
   - name:       *title
   - classname:  &classname Kid

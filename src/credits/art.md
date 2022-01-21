@@ -1,4 +1,4 @@
-Artwork &copy;[Jeshields](https://jeshields.com/).
+Artwork &copy;[Jeshields](https://jeshields.com/):
 
 ::::: index-art-credits :::::
 - [](#art-class-construct   )
@@ -23,3 +23,9 @@ Artwork &copy;[Jeshields](https://jeshields.com/).
 - [](#art-class-twins       )
 - [](#art-class-wheelman    )
 :::::::::::::::::::::::::::::
+
+*Cosmic Legends of the Universe* cover "rainbow" by Cadera Spindrift.
+
+*What's What in the Cosmic Legends Universe* cover collage by Cadera Spindrift, 
+based on artwork by Jeshields.
+
