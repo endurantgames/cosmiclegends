@@ -22,9 +22,9 @@
     - list: [ ]
   - nova: { standard: true }
 - classpic:
-   - url:     art/jeshields/
-   - alt:     
-   - anchor:  art-class-
+   - url:     art/jeshields/hellblade.png
+   - alt:     Hellblade
+   - anchor:  art-class-hellspawn
 - abilities:
   - preamble:
     - represent: show your mastery of your powers

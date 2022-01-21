@@ -22,9 +22,9 @@
     - list: [ ]
   - nova: { standard: true }
 - classpic:
-   - url:     art/jeshields/
-   - alt:     
-   - anchor:  art-class-
+   - url:     art/jeshields/riptide.png
+   - alt:     Riptide, the Waveriding Wonder
+   - anchor:  art-class-shaper
 - abilities:
   - preamble:
     - represent: show your mastery of your powers

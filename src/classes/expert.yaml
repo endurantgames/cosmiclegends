@@ -22,9 +22,9 @@
     - list: [ ]
   - nova: { standard: true }
 - classpic:
-   - url:     art/jeshields/
-   - alt:     
-   - anchor:  art-class-
+   - url:     art/jeshields/sandra_starr.png
+   - alt:     Sandra Starr, Director of A.L.E.R.T.
+   - anchor:  art-class-expert
 - abilities:
   - preamble:
     - represent: show your mastery of your powers

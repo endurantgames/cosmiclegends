@@ -22,9 +22,9 @@
     - list: [ ]
   - nova: { standard: true }
 - classpic:
-   - url:     art/jeshields/
-   - alt:     
-   - anchor:  art-class-
+   - url:     art/jeshields/jackdee.png
+   - alt:     "Jack Dee: Master Magister"
+   - anchor:  art-class-mage
 - abilities:
   - preamble:
     - represent: show your mastery of your powers

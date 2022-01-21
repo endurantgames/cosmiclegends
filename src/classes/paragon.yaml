@@ -22,9 +22,9 @@
     - list: [ ]
   - nova: { standard: true }
 - classpic:
-   - url:     art/jeshields/
-   - alt:     
-   - anchor:  art-class-
+   - url:     art/jeshields/titan.png
+   - alt:     Titan, Sentinel of Saturn
+   - anchor:  art-class-paragon
 - abilities:
   - preamble:
     - represent: show your mastery of your powers

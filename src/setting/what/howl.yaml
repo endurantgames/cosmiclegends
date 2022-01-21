@@ -1,21 +1,20 @@
-
 - metadata:
-  - title:          &title The Yeoman
+  - title:          &title Howl
   - x-format:       character
 # - x-format:       character-sheet
   - yaml_version:   1.2
-  - anchor:         setting-other-yeoman
+  - anchor:         setting-howl
 - art:
-  - url:            art/jeshields/yeoman.png
+  - url:            art/jeshields/howl.png
   - alt:            *title
-  - face:           art/jeshields/yeoman_face.png
+  - face:           art/jeshields/howl_face.png
 - bio:
   - real_name:      full name
   - occupation:     occupation
   - legal_status:   Citizen of the United States
   - gender: 
-    - desc:         female
-    - pronouns:     she/her
+    - desc:         male
+    - pronouns:     he/him
   - identity:       public
   - former_aliases: name
   - place_of_birth: location
@@ -27,36 +26,21 @@
       - reserve:    true
   - base:    ["Sun City, U.S.A."]
   - height:  "5' 6\""
-  - weight:  "160 lbs."
-  - eyes:    silver
-  - hair:    pink
-- history: |
-    history
-
-    history
-
-    history
-    
-- powers: |
-
-    powers
-
-    powers
-
-- weapons: |
-    weapons
-
-    weapons
-    
+  - weight:  "180 lbs."
+  - eyes:    white
+  - hair:    lavender
+- history: *history coming soon*
+- powers:  *powers  coming soon*
+- weapons: *weapons coming soon*
 - stats:
   - name:            *title
-  - class:           The Kid
+  - class:           The Totem
   - approaches: 
-    - action:        1
+    - action:        5
     - adventure:     1
     - detective:     1
     - mystery:       1
-    - suspense:      1
+    - suspense:      2
   - health:          10
   - might:           10
   - power_words:

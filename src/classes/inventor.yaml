@@ -22,9 +22,9 @@
     - list: [ ]
   - nova: { standard: true }
 - classpic:
-   - url:     art/jeshields/
-   - alt:     
-   - anchor:  art-class-
+   - url:     art/jeshields/vespa.png
+   - alt:     Vespa 2.0
+   - anchor:  art-class-inventor
 - abilities:
   - preamble:
     - represent: show your mastery of your powers
