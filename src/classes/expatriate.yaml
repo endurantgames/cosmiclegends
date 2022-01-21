@@ -102,7 +102,7 @@
     - nova:
       - standard: true
 - classpic:
-  - url: art/jeshields/expat.png
+  - url: art/jeshields/farseeker.png
   - alt: "N.J. Campbell: Farseeker"
   - anchor: art-class-expat
 - abilities:

@@ -1,9 +1,10 @@
 - metadata:
-  - x-format: class
+  - x-format:  class
   - classname: &classname Haunt
-  - classid: haunt
-  - title: The *classname
-  - anchor: class-haunt
+  - classid:   haunt
+  - title:     The Haunt
+  - anchor:    class-haunt
+  - toc:       toc-haunt
 - quote: |
     The happy haunts have received your sympathetic vibrations and are beginning 
     to materialize. They’re assembling for a swinging wake, and they’ll be 
@@ -97,3 +98,7 @@
     - "3": { tbd: true }
     - "4": { tbd: true }
     - "5": { tbd: true }
+- classpic:
+  - url:    art/jeshields/eidolon.png
+  - alt:    Eidolon
+  - anchor: art-class-haunt

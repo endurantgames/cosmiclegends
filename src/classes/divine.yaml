@@ -82,7 +82,7 @@
   - nova:
     standard: true
 - classpic:
-  - url: art/jeshields/divine.png
+  - url: art/jeshields/brigantia.png
   - alt: "Brigantia, Chosen of the Tuatha Dé Danann"
   - anchor: art-class-divine
 - abilities:

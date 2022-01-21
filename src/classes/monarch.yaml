@@ -89,8 +89,8 @@
       - "Weapon (specific)"
   - nova: { standard: true }
 - classpic:
-  - url: art/jeshields/monarch.png
-  - alt: "Obsidius Rex, prince of Vulcanor"
+  - url:    art/jeshields/obsidius_rex.png
+  - alt:    "Obsidius Rex, prince of Vulcanor"
   - anchor: art-class-monarch
 - abilities:
   - preamble:
