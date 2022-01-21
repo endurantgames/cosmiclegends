@@ -1,0 +1,71 @@
+- metadata:
+  - title:           &title Yeoman
+  - x-format:        character-sheet
+  - yaml_version:    1.2
+  - anchor:          setting-yeoman
+- art:
+  - url:             art/jeshields/kid.png
+  - alt:             *title
+  - face:            art/jeshields/kid_face.png
+- bio:
+  - name: *title
+  - real_name:       
+  - occupation:      
+  - legal_status:    
+  - gender: 
+    - desc: female
+    - pronouns: she/her
+  - identity: secret 
+  - place_of_birth: "Sun City, U.S.A."
+  - marital_status: single
+  - known_relatives: none
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: false
+      - reserve: false
+    - Junior Legends of America:
+      - active: true
+      - reserve: false
+      - leader: true
+  - base:            "Sun City, U.S.A."
+  - height:          "5' 8\""
+  - weight:          "130 lbs."
+  - eyes:            Brown
+  - hair:            Black
+  - desc: |
+      '*description coming soon*'
+- history: | 
+    '*history coming soon*'
+- powers: |
+    '*description coming soon*'
+- weapons: |
+    '*description coming soon*'
+- stats:
+  - name:       *title
+  - classname:  &classname Kid
+  - class:      The Kid
+  - classid:    &classid kid
+  - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
+  - health:     10
+  - might:      10
+  - volume:     1
+  - power_words:
+    - core:     []
+    - personal: []
+    - nova:     []
+  - abilities: 
+    - TBD:
+      - desc:   to be determined
+      - volume: prime
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+  - skills: []
+  - ideals: []
+  - storyline: ""

@@ -1,0 +1,67 @@
+- metadata:
+  - title: &title    Momentum
+  - x-format:        character-sheet
+  - yaml_version:    1.2
+  - anchor:          setting-momentum
+- art:
+  - url:             art/jeshields/speedster.png
+  - alt:             *title
+  - face:            art/jeshields/speedster_face.png
+- bio:
+  - real_name:       
+  - occupation:      
+  - legal_status:    
+  - gender: 
+    - desc:          male 
+    - pronouns:      he/him
+  - identity:        Secret
+  - former_aliases:  
+  - place_of_birth:  
+  - marital_status:  single
+  - known_relatives: none
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: true
+      - reserve: false
+  - base:            Sun City, U.S.A.
+  - height:          6' 0\"
+  - weight:          165 lbs.
+  - eyes:            Brown
+  - hair:            Brown
+  - desc: |
+      *description coming soon*
+- history: | 
+    *history coming soon*
+- powers: |
+    *description coming soon*
+- weapons: |
+    *description coming soon*
+- stats:
+  - name:       *title
+  - classname:  The Speedster
+  - class:      Speedster
+  - classid:    &classid speedster
+  - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
+  - health:     10
+  - might:      10
+  - volume:     1
+  - power_words:
+    - core:     []
+    - personal: []
+    - nova:     []
+  - abilities: 
+    - TBD:
+      - desc:   to be determined
+      - volume: prime
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+  - skills: []
+  - ideals: []
+  - storyline: ""

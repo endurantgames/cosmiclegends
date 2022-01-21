@@ -1,0 +1,62 @@
+- metadata:
+  - title: &title    Eidolon
+  - x-format:        character-sheet
+  - yaml_version:    1.2
+  - anchor:          setting-eidolon
+- art:
+  - url:             art/jeshields/haunt.png
+  - alt:             *title
+  - face:            art/jeshields/haunt_face.png
+- bio:
+  - real_name:       
+  - occupation:      
+  - legal_status:    
+  - gender: 
+    - desc:          
+    - pronouns:      
+  - identity:        
+  - former_aliases:  
+  - place_of_birth:  
+  - marital_status:  
+  - known_relatives: 
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - active: true
+  - base:            Sun City, U.S.A.
+  - height:          x' y\"
+  - weight:          zzz lbs.
+  - eyes:            Brown
+  - hair:            Black
+  - desc:  *description coming soon*
+- history: *history     coming soon*
+- powers:  *description coming soon*
+- weapons: *description coming soon*
+- stats:
+  - name:       *title
+  - classname:  &classname 
+  - class:      The *classname
+  - classid:    &classid 
+  - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
+  - health:     10
+  - might:      10
+  - volume:     1
+  - power_words:
+    - core:     []
+    - personal: []
+    - nova:     []
+  - abilities: 
+    - TBD:
+      - desc:   to be determined
+      - volume: prime
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+    - TBD:
+      - desc:   to be determined
+      - volume: 1
+      - class:  *classid
+  - skills: []
+  - ideals: []
+  - storyline: ""
