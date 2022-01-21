@@ -1,0 +1,36 @@
+- metadata:
+  - title:    &title The
+  - anchor:   class-
+  - toc:      toc-
+  - x-format: class
+  - classid:  
+  - name:     *title
+- quote:     *quote       coming soon*
+- desc:      *description coming soon* 
+- playing:   *playing     coming soon*
+- questions: *questions   coming soon*
+- skills:
+  - "pre-chosen": []
+  - plus:         "any two skills of your choice"
+- power_words:
+  - preamble:     standard
+  - core:
+    - pre-chosen: []
+  - personal:
+    - number: 6
+    - title:   Class Personal Power Words
+    - list: [ ]
+  - nova: { standard: true }
+- classpic:
+   - url:     art/jeshields/
+   - alt:     
+   - anchor:  art-class-
+- abilities:
+  - preamble:
+    - represent: show your mastery of your powers
+  - prime: { tbd: true }
+  - "1": { tbd: true }
+  - "2": { tbd: true }
+  - "3": { tbd: true }
+  - "4": { tbd: true }
+  - "5": { tbd: true }
