@@ -12,9 +12,12 @@
   - <a href="#toc-preface-four-color"></a>
   - <a href="#toc-preface-super-friends"></a>
 - <a href="#toc-safety"></a>
-  - <a href="#toc-comics-code"></a>
-  - <a href="#toc-script-change"></a>
-  - <a href="#toc-stars-wishes"></a>
+  - <a href="#toc-safety-before"></a>
+    - <a href="#toc-comics-code"></a>
+  - <a href="#toc-safety-during"></a>
+    - <a href="#toc-script-change"></a>
+  - <a href="#toc-safety-after"></a>
+    - <a href="#toc-stars-wishes"></a>
 - <a href="#toc-overview"></a>
 - <a href="#toc-issues"></a>
   - <a href="#toc-struct-issue"></a>
@@ -41,24 +44,25 @@
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
-  - <a href="#toc-construct"   class="class-toc construct"   ></a>
-  - <a href="#toc-divine"      class="class-toc divine"      ></a>
-  - <a href="#toc-dynamo"      class="class-toc dynamo"      ></a>
-  - <a href="#toc-expatriate"  class="class-toc expatriate"  ></a>
-  - <a href="#toc-expert"      class="class-toc expert"      ></a>
-  - <a href="#toc-haunt"       class="class-toc haunt"       ></a>
-  - <a href="#toc-hellspawn"   class="class-toc hellspawn"   ></a>
-  - <a href="#toc-inventor"    class="class-toc inventor"    ></a>
-  - <a href="#toc-kid"         class="class-toc kid"         ></a>
-  - <a href="#toc-knight"      class="class-toc knight"      ></a>
-  - <a href="#toc-mage"        class="class-toc mage"        ></a>
-  - <a href="#toc-monarch"     class="class-toc monarch"     ></a>
-  - <a href="#toc-monstrosity" class="class-toc monstrosity" ></a>
-  - <a href="#toc-paragon"     class="class-toc paragon"     ></a>
-  - <a href="#toc-psychic"     class="class-toc psychic"     ></a>
-  - <a href="#toc-shaper"      class="class-toc shaper"      ></a>
-  - <a href="#toc-twins"       class="class-toc twins"       ></a>
-  - <a href="#toc-wheelman"    class="class-toc wheelman"    ></a>
+  - <a href="#toc-construct"   class="toc-class-construct"   ></a>
+  - <a href="#toc-divine"      class="toc-class-divine"      ></a>
+  - <a href="#toc-dynamo"      class="toc-class-dynamo"      ></a>
+  - <a href="#toc-expatriate"  class="toc-class-expatriate"  ></a>
+  - <a href="#toc-expert"      class="toc-class-expert"      ></a>
+  - <a href="#toc-haunt"       class="toc-class-haunt"       ></a>
+  - <a href="#toc-hellspawn"   class="toc-class-hellspawn"   ></a>
+  - <a href="#toc-inventor"    class="toc-class-inventor"    ></a>
+  - <a href="#toc-kid"         class="toc-class-kid"         ></a>
+  - <a href="#toc-knight"      class="toc-class-knight"      ></a>
+  - <a href="#toc-mage"        class="toc-class-mage"        ></a>
+  - <a href="#toc-monarch"     class="toc-class-monarch"     ></a>
+  - <a href="#toc-monstrosity" class="toc-class-monstrosity" ></a>
+  - <a href="#toc-paragon"     class="toc-class-paragon"     ></a>
+  - <a href="#toc-psychic"     class="toc-class-psychic"     ></a>
+  - <a href="#toc-shaper"      class="toc-class-shaper"      ></a>
+  - <a href="#toc-speedster"   class="toc-class-speedster"   ></a>
+  - <a href="#toc-twins"       class="toc-class-twins"       ></a>
+  - <a href="#toc-wheelman"    class="toc-class-wheelman"    ></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
@@ -90,12 +94,11 @@
   - <a href="#toc-setting-clotu"></a>
     - <a href="#toc-setting-jloa"></a>
   - <a href="#toc-setting-whatswhat"></a>
-    - <a href="#toc-setting-timeline"></a>
-  - Appendix: Additional Data Files
-    - <a href="#setting-other-individuals"></a>
-    - <a href="#setting-other-groups"></a>
-    - <a href="#setting-timeline"></a>
-    - <a href="#setting-other-locations"></a>
+    - <a href="#toc-setting-appendix"></a>
+      - <a href="#toc-setting-other-groups"></a>
+      - <a href="#toc-setting-other-individuals"></a>
+      - <a href="#toc-setting-other-locations"></a>
+      - <a href="#toc-setting-timeline"></a>
 - <a href="#toc-editor"></a>
   - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>

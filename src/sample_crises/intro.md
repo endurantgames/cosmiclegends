@@ -1,4 +1,4 @@
-# Sample Crises {#toc-sample-crises }
+# Sample Crises {#toc-sample-crises}
 
 <!-- src/sample_crises/intro.md -->
 

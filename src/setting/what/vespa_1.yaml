@@ -2,6 +2,7 @@
   - title: &title Vespa i
   - anchor: setting-vespa-1
   - yaml_version: 1.2
+  - x-format: character
 - bio:
   - real_name:    Hazel Montgomery
   - occupation:   scientist, inventor

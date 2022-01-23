@@ -1704,14 +1704,16 @@ a:link[href|="http"].after,
 a:link.external:after {
   font-family: var(--font-icons-noto);
   line-height: none;
-  position: relative;
-  content: var(--icon-external);
+  position:    relative;
+  content:     var(--icon-external);
 }
 
-.icon-female { content: var(--icon-female); font-size: 70%; top: -1pt;                          }
-.icon-male   { content: var(--icon-male);   font-size: 60%; top: -1.50pt; padding-left: 0.75pt; }
-.icon-trans  { content: var(--icon-trans);  font-size: 80%; top: -0.50pt;                       }
-.icon-plural { content: var(--icon-plural); font-size: 75%;                                     }
+.icon-female    { content: var(--icon-female);    font-size: 70%; top: -1pt;                          }
+.icon-male      { content: var(--icon-male);      font-size: 60%; top: -1.50pt; padding-left: 0.75pt; }
+.icon-trans     { content: var(--icon-trans);     font-size: 80%; top: -0.50pt;                       }
+.icon-plural    { content: var(--icon-plural);    font-size: 75%;                                     }
+.icon-nonbinary { content: var(--icon-nonbinary); font-size: 75%;                                     }
+.icon-agender   { content: var(--icon-agender);   font-size: 75%;                                     }
 
 .volume-ability-chart    { margin-top: 1.0em;         }
 .volume-ability-chart ul { margin: 0; line-height: 1; }

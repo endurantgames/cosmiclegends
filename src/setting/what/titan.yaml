@@ -33,7 +33,18 @@
       - relationship: "sibling's child"
       - gender:       trans
       - aka:          Tethys
-  - group_affiliation: [Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)]
+  - group_affiliation: 
+    - Cosmic Legends of the Universe:
+      - founder: true
+      - reserve: true
+      - active: false
+    - Sentinels of Saturn:
+      - active: false
+      - resigned: true
+      - founder: false
+    - N.O.V.A. Labs:
+      - founder: true
+      - status: co-founder
   - base:   ["Halifax, Nova Scotia",  "Sun City, U.S.A."]
   - height: 7' 6\"
   - weight: 280 lbs.

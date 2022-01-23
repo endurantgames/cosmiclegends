@@ -119,6 +119,8 @@
   --icon-female         : '\002640' var(--iant);
   --icon-male           : '\002642' var(--iant);
   --icon-trans          : '\0026a7' var(--iant);
+  --icon-nonbinary      : '\0026a7' var(--iant); /* technically shouldn't be the same as "trans" */
+  --icon-agender        : '\0026a7' var(--iant); /* technically shouldn't be the same as "trans" */
   --newline             : '\a';
   --icon-external       : '\002197';
   --icon-plural         : '\01f465';

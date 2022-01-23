@@ -1,4 +1,4 @@
-#  During the Game {.colbefore}
+#  During the Game {.colbefore #toc-safety-during}
 
 When you get caught up in playing []{.gamename}, it can sometimes
 be hard to gauge how everyone else is feeling. These tools can be

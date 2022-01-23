@@ -14,17 +14,20 @@
   - occupation:     occupation
   - legal_status:   Citizen of the United States
   - gender: 
-    - desc:         male
-    - pronouns:     he/him
+    - desc:         female
+    - pronouns:     she/her
   - identity:       public
   - former_aliases: name
   - place_of_birth: location
   - marital_status: single
-  - known_relatives: 
+  - known_relatives: none
   - group_affiliation: 
     - Junior Legends of America:
-      - active:     false
+      - active:     true
       - reserve:    true
+    - Technopolis Academy:
+      - active:     false
+      - status:     graduated
   - base:    ["Sun City, U.S.A."]
   - height:  5' 6\"
   - weight:  180 lbs.
