@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character-villain
   - title: &title Balor
-  - anchor: setting-other-balor
+  - anchor: what-other-balor
 - bio:
   - name: *title
   - real_name: 

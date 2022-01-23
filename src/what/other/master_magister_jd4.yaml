@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title "Master Magister: Johnny Dee"
-  - anchor: setting-other-mm-jd4
+  - anchor: what-other-mm-jd4
 - bio:
   - name: *title
   - real_name: 

@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title Limuo Pele
-  - anchor: anchor-other-limuo
+  - anchor: what-other-limuo
 - bio:
   - name: *title
   - real_name: 

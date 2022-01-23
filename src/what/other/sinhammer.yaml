@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character-villain
   - title: &title Sinhammer
-  - anchor: setting-other-sinhammer
+  - anchor: what-other-sinhammer
 - bio:
   - name: *title
   - real_name: 

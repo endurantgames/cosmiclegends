@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title Tachylus Rex
-  - anchor: setting-other-tachylus-rex
+  - anchor: what-other-tachylus-rex
 - bio:
   - name: *title
   - real_name: Tachylus Vulcanor

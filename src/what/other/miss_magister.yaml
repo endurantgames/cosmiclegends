@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title "Maddie Dee: Miss Magister"
-  - anchor: setting-other-maddie-dee
+  - anchor: what-other-maddie-dee
 - bio:
   - name: *title
   - real_name: Madinia Katherin Dee

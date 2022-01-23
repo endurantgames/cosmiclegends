@@ -2,7 +2,7 @@
   - yaml_version: 1.2
   - x-format: character
   - title: &title Lucky Star
-  - anchor: setting-other-lucky-star
+  - anchor: what-other-lucky-star
 - bio:
   - name: *title
   - real_name: 
