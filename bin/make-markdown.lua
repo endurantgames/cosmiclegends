@@ -34,6 +34,7 @@ g.CONFIG      = {
   logfmt      = "  %-30s %-20s",
   maxerrors   = 10,
   outfile     = "build",
+  src_in_comment = true,
   summary     = true,
   verbose     = true,
   yaml_ignore = "^(metadata|flat|%d+)"
@@ -442,13 +443,13 @@ local function get_alpha_keys(t)
 end;
 
 local function get_sorted_keys(table_of_tables, sort_field, numeric)
-  -- eprint("sort_field is", sort_field == nil and "nil" or sort_field == false and "false" or sort_field);
   local alpha;
   local t         = unpack_yaml_tree(table_of_tables);
   local keys      = {};
   local sortkeys  = {};
   local storekeys = {};
   local n         = 0;
+  local helper    = function(a, b) return a < b end;
 
   if   type(sort_field) == "string" and numeric
   then sort_field = string.lower(sort_field);
@@ -466,55 +467,62 @@ local function get_sorted_keys(table_of_tables, sort_field, numeric)
   end;
 
   if   not numeric and not alpha
-  then eprint("sorry, don't know what kind of sort", "");
-       eprint("numeric is", numeric);
-       eprint("alpha is",   alpha  );
-       os.exit(1);
+  then   eprint("sorry, don't know what kind of sort", "");
+         eprint("numeric is", numeric);
+         eprint("alpha is",   alpha  );
+         os.exit(1);
+  elseif alpha
+  then   helper = function(a, b)
+		    a = string.lower(a:gsub("^The ", ""));
+		    b = string.lower(b:gsub("^The ", ""));
+                    return a < b
+                  end;
   end;
 
   for k, v in pairs(t)
   do  if   type(k) == "string"
-      then n       = n + 1;
-           keys[n] = k;
-           storekeys[n] = k;
-           yprint("=================", "=====================");
+      then n            = n + 1;
+           local  key_to_store = k;
+           local  key_index;
            if     alpha
-           then   sortkeys[n] = k
-           elseif type(v) == "table"
-           then   local up_v = unpack_yaml_tree(v);
-                  sortkeys[n] = up_v[sort_field];
-           else   sortkeys[n] = 1;
+           then   key_index = k;
+           elseif type(v)     == "table"
+           then   local up_v  =  unpack_yaml_tree(v);
+                  key_index = up_v[sort_field];
+           else   key_index = 1;
            end;
+           storekeys[key_index] = key_to_store;
+           table.insert(sortkeys, key_index);
       end;
   end;
 
-  yprint("-----------------", "---------------------"     );
-  yprint("keys",              table.concat(keys, "; ")    );
-  yprint("-----------------", "---------------------"     );
+  -- yprint("-----------------", "---------------------"     );
+  -- yprint("sortkeys",          table.concat(sortkeys, "; "));
+  -- yprint("-----------------", "---------------------"     );
 
   -- for k, _ in pairs(keys) do yprint("sortkeys[" .. k .. "]", sortkeys[k]); end;
 
-  yprint("-----------------", "---------------------"     );
-  yprint("sorting happens...", "now!");
-  table.sort(sortkeys);
+  -- yprint("-----------------", "---------------------"     );
+  -- yprint("sorting happens...", "now!");
 
-  yprint("-----------------", "---------------------"     );
-  yprint("sortkeys",          table.concat(sortkeys, "; "));
-  yprint("-----------------", "---------------------"     );
+  table.sort(sortkeys, helper);
 
-  keys = {};
-  n    = 0;
+  -- yprint("-----------------", "---------------------"     );
+  -- yprint("sortkeys",          table.concat(sortkeys, "; "));
+  -- yprint("-----------------", "---------------------"     );
+
+  n   = 0;
   for k, _ in pairs(sortkeys)
   do  n = n + 1;
-      local keyindex = sortkeys[n];
-      local key      = storekeys[n];
-      yprint("storekeys[" .. keyindex .. "]", key);
-      table.insert(keys, key);
+      local key_to_retrieve = sortkeys[n];
+      local retrieved_key   = storekeys[key_to_retrieve];
+      -- yprint(n .. ": storekeys[" .. key_to_retrieve .. "]", retrieved_key);
+      table.insert(keys, retrieved_key);
   end;
 
-  yprint("-----------------", "---------------------"     );
-  yprint("keys",              table.concat(keys, "; "    ));
-  yprint("-----------------", "---------------------"     );
+  eprint("-----------------", "---------------------"     );
+  eprint("keys",              table.concat(keys, "; "    ));
+  eprint("-----------------", "---------------------"     );
 
   return keys;
 
@@ -1226,15 +1234,15 @@ local function yaml_list(yaml_tree)
   local item_list = flat_tree.list;
 
   if   item_list
-  then local numerically = false;
+  then local numeric = false;
        if   metadata and  metadata.sort_field
        then order       = metadata.sort_field;
             eprint("we have a sort field", order);
-            numerically = true;
+            numeric = true;
        end;
 
        item_list  = unpack_yaml_tree(item_list, "item list");
-       local keys = get_sorted_keys(item_list, order, numerically);
+       local keys = get_sorted_keys(item_list, order, numeric);
        local item_formatter, if_error = get_item_formatter_func(metadata);
        if   if_error
        then errors = errors + 1;
@@ -1295,13 +1303,12 @@ local function yaml_glossary(yaml_tree)
   local flat_tree, metadata, slurped = yaml_common(yaml_tree);
   yprint("yaml xformat is:", "=== GLOSSARY ===");
   yprint("number of entries:", #flat_tree);
-  local keys = get_sorted_keys(flat_tree, true);
+  local keys = get_sorted_keys(flat_tree, "alpha");
   for _, k in pairs(keys)
   do  if   not flat_tree[k] then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST"); os.exit(1); end;
       local term, data    = k, flat_tree[k];
       if   term ~= "metadata" and term ~= "flat"
-      then -- yprint("term", term);
-           local glossary_data =  unpack_yaml_tree(data, term);
+      then local glossary_data =  unpack_yaml_tree(data, term);
            local generic_equiv =  glossary_data.generic_equiv;
            local def           =  glossary_data.def
            local hq_equiv      =  glossary_data.hq_equiv;
@@ -1367,8 +1374,6 @@ local function yaml_index_entry(title, yaml_tree)
   else   slurped = slurped .. "\n- **" .. title .. "** ";
   end;
 
-  vprint("ENTRY", "vvvvvvvvvvvvvvvvvvv");
-  vprint("ENTRY", "^^^^^^^^^^^^^^^^^^^");
   if     entry.cf
   then   table.insert(parts, "[" .. entry.cf .. "]{.index-entry .xref}");
   elseif entry.url
@@ -1444,7 +1449,7 @@ local function yaml_index(yaml_tree)
 
        for title, entry in pairs(list)
        do  if   type(title) == "string" and type(entry) == "table"
-           then local entry_data = unpack_yaml_tree(entry_data);
+           then local entry_data = unpack_yaml_tree(entry);
                 if   entry_data.url
                 then print("item:" .. title, entry_data.url);
                      slurped = slurped .. yaml_index_entry(title, entry_data);
@@ -1464,24 +1469,19 @@ end;
 
 local function yaml_place(yaml_tree)
   yprint("yaml xformat is:", "item:location");
-  local place, _, slurped = yaml_common(yaml_tree);
+  local slurped = "";
+  local place = unpack_yaml_tree(yaml_tree);
+  -- yprint("raw place data:", inspect(place));
 
-  if   place.where
-  then yprint("place.where", place.where);
-       slurped = slurped .. " (*" .. place.where .. "*)";
+  if place.where then yprint("place.where", place.where); slurped = slurped.." *("..place.where..")* ";      end;
+  if place.desc  then yprint("place.desc",  place.desc ); slurped = slurped..place.desc;                     end;
+  if place.cf    then yprint("place.cf",    place.cf   ); slurped = slurped.."; also see *"..place.cf.. "*"; end;
+
+  if   g.CONFIG.src_in_comment
+  then slurped = slurped .. "\n<!-- " .. inspect(yaml_tree) .. " -->\n";
   end;
 
-  if   place.bio
-  then yprint("place.bio", place.bio);
-       slurped = slurped .. place.bio
-  end;
-
-  if   place.cf
-  then yprint("place.cf", place.cf);
-       slurped = slurped .. "; also see *" .. place.cf .. "*";
-  end;
-
-  vprint("place data: ", slurped);
+  yprint("=========================", "-------------------------");
   return slurped;
 end;
 
