@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Hellspawn
-  - anchor:   class-hellspawn
-  - toc:      toc-hellspawn
+  - anchor:   toc-class-hellspawn
   - x-format: class
   - classid:  &classid hellspawn
   - name:     *title

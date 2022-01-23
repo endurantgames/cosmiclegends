@@ -44,25 +44,25 @@
 - <a href="#toc-classes"></a>
   - <a href="#toc-class-dual-class"></a>
   - <a href="#toc-class-multi-class"></a>
-  - <a href="#toc-construct"   class="toc-class-construct"   ></a>
-  - <a href="#toc-divine"      class="toc-class-divine"      ></a>
-  - <a href="#toc-dynamo"      class="toc-class-dynamo"      ></a>
-  - <a href="#toc-expatriate"  class="toc-class-expatriate"  ></a>
-  - <a href="#toc-expert"      class="toc-class-expert"      ></a>
-  - <a href="#toc-haunt"       class="toc-class-haunt"       ></a>
-  - <a href="#toc-hellspawn"   class="toc-class-hellspawn"   ></a>
-  - <a href="#toc-inventor"    class="toc-class-inventor"    ></a>
-  - <a href="#toc-kid"         class="toc-class-kid"         ></a>
-  - <a href="#toc-knight"      class="toc-class-knight"      ></a>
-  - <a href="#toc-mage"        class="toc-class-mage"        ></a>
-  - <a href="#toc-monarch"     class="toc-class-monarch"     ></a>
-  - <a href="#toc-monstrosity" class="toc-class-monstrosity" ></a>
-  - <a href="#toc-paragon"     class="toc-class-paragon"     ></a>
-  - <a href="#toc-psychic"     class="toc-class-psychic"     ></a>
-  - <a href="#toc-shaper"      class="toc-class-shaper"      ></a>
-  - <a href="#toc-speedster"   class="toc-class-speedster"   ></a>
-  - <a href="#toc-twins"       class="toc-class-twins"       ></a>
-  - <a href="#toc-wheelman"    class="toc-class-wheelman"    ></a>
+  - <a href="#toc-class-construct"   class="toc-class-construct"   ></a>
+  - <a href="#toc-class-divine"      class="toc-class-divine"      ></a>
+  - <a href="#toc-class-dynamo"      class="toc-class-dynamo"      ></a>
+  - <a href="#toc-class-expatriate"  class="toc-class-expatriate"  ></a>
+  - <a href="#toc-class-expert"      class="toc-class-expert"      ></a>
+  - <a href="#toc-class-haunt"       class="toc-class-haunt"       ></a>
+  - <a href="#toc-class-hellspawn"   class="toc-class-hellspawn"   ></a>
+  - <a href="#toc-class-inventor"    class="toc-class-inventor"    ></a>
+  - <a href="#toc-class-kid"         class="toc-class-kid"         ></a>
+  - <a href="#toc-class-knight"      class="toc-class-knight"      ></a>
+  - <a href="#toc-class-mage"        class="toc-class-mage"        ></a>
+  - <a href="#toc-class-monarch"     class="toc-class-monarch"     ></a>
+  - <a href="#toc-class-monstrosity" class="toc-class-monstrosity" ></a>
+  - <a href="#toc-class-paragon"     class="toc-class-paragon"     ></a>
+  - <a href="#toc-class-psychic"     class="toc-class-psychic"     ></a>
+  - <a href="#toc-class-shaper"      class="toc-class-shaper"      ></a>
+  - <a href="#toc-class-speedster"   class="toc-class-speedster"   ></a>
+  - <a href="#toc-class-twins"       class="toc-class-twins"       ></a>
+  - <a href="#toc-class-wheelman"    class="toc-class-wheelman"    ></a>
 - <a href="#toc-power-use"></a>
   - <a href="#toc-power-displays"></a>
   - <a href="#toc-power-stunts"></a>
@@ -75,30 +75,30 @@
     - <a href="#toc-power-words-index"></a>
 - <a href="#toc-crisis"></a>
   - <a href="#toc-crisis-countdown"></a>
-    - <a href="#toc-crisis-scene"></a>
+    - <a href="#toc-crisis-scene"  ></a>
     - <a href="#toc-crisis-present"></a>
-    - <a href="#toc-crisis-goals"></a>
-    - <a href="#toc-crisis-pool"></a>
+    - <a href="#toc-crisis-goals"  ></a>
+    - <a href="#toc-crisis-pool"   ></a>
   - <a href="#toc-crisis-start"></a>
-  - <a href="#toc-crisis-hero"></a>
-    - <a href="#toc-crisis-advance"></a>
+  - <a href="#toc-crisis-hero"        ></a>
+    - <a href="#toc-crisis-advance"   ></a>
     - <a href="#toc-crisis-contribute"></a>
     - <a href="#toc-crisis-hero-moves"></a>
   - <a href="#toc-crisis-crisis"></a>
-  - <a href="#toc-crisis-post"></a>
+  - <a href="#toc-crisis-post"  ></a>
 - <a href="#toc-vignette-issues"></a>
-- <a href="#toc-advancements"></a>
-- <a href="#toc-setting"></a>
-  - <a href="#toc-setting-era"></a>
-  - <a href="#toc-setting-customize"></a>
-  - <a href="#toc-setting-clotu"></a>
-    - <a href="#toc-setting-jloa"></a>
-  - <a href="#toc-setting-whatswhat"></a>
-    - <a href="#toc-setting-appendix"></a>
-      - <a href="#toc-setting-other-groups"></a>
-      - <a href="#toc-setting-other-individuals"></a>
-      - <a href="#toc-setting-other-locations"></a>
-      - <a href="#toc-setting-timeline"></a>
+- <a href="#toc-advancements"   ></a>
+- <a href="#toc-what"></a>
+  - <a href="#toc-what-era"></a>
+  - <a href="#toc-what-customize"></a>
+  - <a href="#toc-what-clotu"></a>
+    - <a href="#toc-what-jloa"></a>
+  - <a href="#toc-what-whatswhat"></a>
+    - <a href="#toc-what-appendix"></a>
+      - <a href="#toc-what-other-groups"     ></a>
+      - <a href="#toc-what-other-individuals"></a>
+      - <a href="#toc-what-other-locations"  ></a>
+      - <a href="#toc-what-timeline"         ></a>
 - <a href="#toc-editor"></a>
   - <a href="#toc-editor-storyline"></a>
   - <a href="#toc-editor-crisis"></a>
@@ -110,6 +110,11 @@
   - <a href="#toc-sample-personal"></a>
   - <a href="#toc-sample-science"></a>
   - <a href="#toc-sample-super-villains"></a>
+- <a href="#toc-indices"></a>
+  - <a href="#toc-index-power-words"></a>
+  - <a href="#toc-index-lists"></a>
+  - <a href="#toc-index-setting"></a>
+  - <a href="#toc-index-soapbox"></a>
 - <a href="#toc-glossary"></a>
 - <a href="#toc-credits"></a>
 - <a href="#anchor-license"     ></a>

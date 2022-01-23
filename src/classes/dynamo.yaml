@@ -3,7 +3,7 @@
   - classname: &classname Dynamo
   - classid:   dynamo
   - title:     The *classname
-  - anchor:    class-dynamo
+  - anchor:    toc-class-dynamo
 - quote: |
     Stand back, everyone. This one's gonna hurt.
 - desc: |

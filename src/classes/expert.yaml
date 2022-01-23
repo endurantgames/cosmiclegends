@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Expert
-  - anchor:   class-expert
-  - toc:      toc-expert
+  - anchor:   toc-class-expert
   - x-format: class
   - classid:  &classid expert
   - name:     *title

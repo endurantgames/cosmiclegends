@@ -1,0 +1,106 @@
+- metadata:
+  - title: &title Obsidius Rex
+  - x-format: character
+  - yaml_version: 1.2
+  - anchor: what-obsidius-rex
+- art:
+  - url: art/jeshields/obsidius_rex.png
+  - alt: *title
+  - anchor: art-obsidius-rex
+- bio:
+  - real_name: Obsidius Vulcanor Rex
+  - occupation: Prince, adventurer
+  - legal_status: Citizen of Vulcanor
+  - gender: 
+    - desc: male
+    - pronouns: he/him
+  - identity: public
+  - former_aliases: Prince Obsidian, Volcano Kid, Obsidius
+  - place_of_birth: Volcano City, Vulcanor Island
+  - marital_status: single
+  - known_relatives: 
+    - Tachylus Vulcanor Rex:
+      - relationship: father
+      - gender: male
+    - Limuo Pele Vulcanor:
+      - relationship: mother
+      - gender: female
+    - Igneia Vulcanor:
+      - relationship: sister
+      - gender: female
+      - estranged: true
+  - group_affiliation: 
+    - Vulcanor Royal Family:
+      - active: true
+      - founder: false
+      - reserve: false
+    - Cosmic Legends of the Universe:
+      - active: false
+      - reserve: true
+      - founder: true
+    - "N.O.V.A. Labs":
+      - active: false
+      - reserve: false
+      - founder: true
+  - base: ["Volcano City, Vulcanor Island", "Sun City, U.S.A."]
+  - height: "6' 1\""
+  - weight: "300 lbs."
+  - eyes: black
+  - hair: none
+- history: |
+    For most Earthlings, Obsidius was the first Vulcanor they'd ever
+    heard of; the inhabitants of the Volcano Isles kept themselves 
+    isolated for centuries from the primative outside world.
+    
+    The oldest child of King Tachylus and Queen Limuo, Obsidius was raised
+    to be the heir to the advanced Vulcanor civilization. From an early
+    age, he trained with weapons and studied statecraft and the sciences.
+    
+    While just a young man, Tachylus sent Obsidius as an emissary, first
+    to meet Titan and then to the outside world in general. Shortly after
+    the Cosmic Legends were created, he joined as their first non-founding
+    member.
+    
+    Obsidius's recklessness as a young man led to several diplomatic
+    incidents with the outside world, including a tense but brief cold
+    war with New Zealand.
+    
+    The ensuing decades have mellowed the crown prince's temper, and he's
+    regarded as an elder statesman in the superhero community -- to his
+    amusement, as 75 years of age is still considered young by Vulcanor
+    standards.
+    
+    King Tachylus, on the other hand, is no longer a young monarch and is
+    showing his age. Obsidius's mother, Limuo, has renounced her title
+    and separated from Tachylus, while their younger child, Igneia, was
+    exiled for attempting to murder the rest of the Royal Family.
+    
+    These have put additional stresses on Obsidius to find a spouse and
+    produce a future successor, if just to prevent Vulcanor from 
+    descending into a civil war between his many squabbling cousins were
+    something to happen to the king and prince.
+- powers: |
+    Like all Vulcanors, Obsidius is superhumanly strong, able to lift 
+    several tons and resist small-arms fire with his stony skin. He's 
+    also completely impervious to heat of any kind.
+    
+    Obsidius's rank as the Crown Prince gives him limited control over 
+    rock and earth, although he has done little to actively develop 
+    those abilities.
+- weapons: |
+    Obsidius Rex's primary weapon is the Lavablade, a greatsword formed
+    of volcanic steel. In the past he has wielded the Ring of Fire as his 
+    symbol of rank, but it was destroyed by the Man in Black in 2003.
+- stats:
+  - name: *title
+  - class: The Monarch
+  - approaches: {action: 2, adventure: 4, detective: 1, mystery: 2, suspense: 1}
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: [Reinforcements, Unexpected]
+    - personal: [Armor, Communicate, Greatsword, Remote, Superior, Survivor]
+    - nova: [Stone, Unbreakable]
+  - abilities: [For My Kingdom, Righteous Rage, TBD]
+  - skills: [Artist (sculptor), Engineer, Explorer, Historian, Politician]
+  - ideals: [Nationalism, Nobility, Pride, Security, Stubbornness]

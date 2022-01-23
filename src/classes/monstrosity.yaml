@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Monstrosity
-  - anchor:   class-monstrosity
-  - toc:      toc-monstrosity
+  - anchor:   toc-class-monstrosity
   - x-format: class
   - classid:  &classid monstrosity
   - name:     *title

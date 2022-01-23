@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Construct
-  - anchor:   class-construct
-  - toc:      toc-construct
+  - anchor:   toc-class-construct
   - x-format: class
   - classid:  construct
   - name:     Construct

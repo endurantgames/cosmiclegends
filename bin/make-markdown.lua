@@ -428,44 +428,94 @@ local function unpack_yaml_tree(yaml_tree, tree_id)
 
 end;
 
-local function get_sorted_keys(t, sort_field, numeric)
-  local  alphabetical;
-  -- if type(sort_field) ~= "string" then eprint("error: sort_field is", sort_field); os.exit(1); end;
+local function get_alpha_keys(t)
+  local n = 0;
+  local keys = {};
+  for k, v in pairs(t)
+  do  n       = n + 1;
+      if   type(k) == "string"
+      then keys[n]     = k;
+           table.insert(keys, k);
+      end;
+  end;
+  return keys;
+end;
 
-  if type(sort_field) == "string" then sort_field = sort_field:lower(); end;
+local function get_sorted_keys(table_of_tables, sort_field, numeric)
+  -- eprint("sort_field is", sort_field == nil and "nil" or sort_field == false and "false" or sort_field);
+  local alpha;
+  local t         = unpack_yaml_tree(table_of_tables);
+  local keys      = {};
+  local sortkeys  = {};
+  local storekeys = {};
+  local n         = 0;
 
-  if  sort_field   == nil
-   or sort_field   == true
-   or sort_field   == "alpha"
-   or sort_field   == "alphabetical"
-   or sort_field   == "a-z"
-  then alphabetical = true;
-       numeric      = false;
+  if   type(sort_field) == "string" and numeric
+  then sort_field = string.lower(sort_field);
+       alpha = false;
   end;
 
-  local function ignore_case(a, b)
-    if     numeric
-    then   local aa = (a[sort_field] or 1) * 1;
-           local bb = (b[sort_field] or 1) * 1;
-           return aa < bb;
-    elseif alphabetical
-    then   a = (a or "") .. ""; -- force it to a string
-           b = (b or "") .. "";
-           local aa = a:gsub("^The ","");
-           local bb = b:gsub("^The ","");
-           return string.lower(aa) < string.lower(bb);
-    end;
+  if   sort_field == nil
+   or  sort_field == true
+   or  sort_field == "alpha"
+   or  sort_field == "alphabetical"
+   or  sort_field == "a-z"
+  then sort_field =  "key";
+       alpha      =  true;
+       numeric    =  false;
   end;
 
-  local keys = {}
-  local n    = 0;
-  for   k, v in pairs(t)
-  do    n       = n + 1;
-        -- yprint("==============", "===============");
-        if   type(k) == "string" then keys[n] = k; table.insert(keys, k); end;
+  if   not numeric and not alpha
+  then eprint("sorry, don't know what kind of sort", "");
+       eprint("numeric is", numeric);
+       eprint("alpha is",   alpha  );
+       os.exit(1);
   end;
 
-  table.sort(keys, ignore_case);
+  for k, v in pairs(t)
+  do  if   type(k) == "string"
+      then n       = n + 1;
+           keys[n] = k;
+           storekeys[n] = k;
+           yprint("=================", "=====================");
+           if     alpha
+           then   sortkeys[n] = k
+           elseif type(v) == "table"
+           then   local up_v = unpack_yaml_tree(v);
+                  sortkeys[n] = up_v[sort_field];
+           else   sortkeys[n] = 1;
+           end;
+      end;
+  end;
+
+  yprint("-----------------", "---------------------"     );
+  yprint("keys",              table.concat(keys, "; ")    );
+  yprint("-----------------", "---------------------"     );
+
+  -- for k, _ in pairs(keys) do yprint("sortkeys[" .. k .. "]", sortkeys[k]); end;
+
+  yprint("-----------------", "---------------------"     );
+  yprint("sorting happens...", "now!");
+  table.sort(sortkeys);
+
+  yprint("-----------------", "---------------------"     );
+  yprint("sortkeys",          table.concat(sortkeys, "; "));
+  yprint("-----------------", "---------------------"     );
+
+  keys = {};
+  n    = 0;
+  for k, _ in pairs(sortkeys)
+  do  n = n + 1;
+      local keyindex = sortkeys[n];
+      local key      = storekeys[n];
+      yprint("storekeys[" .. keyindex .. "]", key);
+      table.insert(keys, key);
+  end;
+
+  yprint("-----------------", "---------------------"     );
+  yprint("keys",              table.concat(keys, "; "    ));
+  yprint("-----------------", "---------------------"     );
+
   return keys;
 
 end;
@@ -498,7 +548,7 @@ local function yaml_char_group(bio_group_affiliation)
   local group_list = {};
   local group_memberships = unpack_yaml_tree(bio_group_affiliation, "group_memberships");
 
-  if   gstatus == "none"
+  if   bio_group_affiliation == "none"
   then table.insert(group_list, "*none*");
   else for group_name, data in pairs(group_memberships)
        do  local str = group_name
@@ -1012,7 +1062,7 @@ local function yaml_character(yaml_tree)
             if stats.name  then markdown = markdown .. "\n## " .. stats.name .. "\n\n";             end;
             if stats.class then markdown = markdown .. "- **" .. "Class:** " .. stats.class .. "\n" end;
 
-	    if   stats.volume and type(stats.volume) == "number" and stats.volume > 1
+            if   stats.volume and type(stats.volume) == "number" and stats.volume > 1
             then markdown = markdown .. "\n- **Volume:** " .. stats.volume .. g.CONTENT.higher_volume .. "\n";
             end;
 
@@ -1109,7 +1159,7 @@ local function get_item_formatter_func(metadata)
          os.exit(1);
   end;
 
-  local metadata_keys = get_sorted_keys(metadata);
+  local metadata_keys = get_alpha_keys(metadata);
 
   if     not metadata_keys
   then   yprint("MISSING: metadata_keys", metadata_keys);
@@ -1140,7 +1190,8 @@ local function yaml_list(yaml_tree)
   yprint("yaml xformat is:", "list");
   local flat_tree, metadata, slurped = yaml_common(yaml_tree);
   local errors = 0;
-  if metadata == {} then metadata = nil; end;
+  local order  = "alpha";
+  if    metadata == {} then metadata = nil; end;
 
   if   metadata and metadata.title
   then slurped = slurped .. "# " .. metadata.title;
@@ -1175,8 +1226,15 @@ local function yaml_list(yaml_tree)
   local item_list = flat_tree.list;
 
   if   item_list
-  then item_list  = unpack_yaml_tree(item_list, "item list");
-       local keys = get_sorted_keys(item_list);
+  then local numerically = false;
+       if   metadata and  metadata.sort_field
+       then order       = metadata.sort_field;
+            eprint("we have a sort field", order);
+            numerically = true;
+       end;
+
+       item_list  = unpack_yaml_tree(item_list, "item list");
+       local keys = get_sorted_keys(item_list, order, numerically);
        local item_formatter, if_error = get_item_formatter_func(metadata);
        if   if_error
        then errors = errors + 1;
@@ -1407,18 +1465,22 @@ end;
 local function yaml_place(yaml_tree)
   yprint("yaml xformat is:", "item:location");
   local place, _, slurped = yaml_common(yaml_tree);
+
   if   place.where
   then yprint("place.where", place.where);
        slurped = slurped .. " (*" .. place.where .. "*)";
   end;
+
   if   place.bio
   then yprint("place.bio", place.bio);
        slurped = slurped .. place.bio
   end;
+
   if   place.cf
   then yprint("place.cf", place.cf);
        slurped = slurped .. "; also see *" .. place.cf .. "*";
   end;
+
   vprint("place data: ", slurped);
   return slurped;
 end;
@@ -1431,7 +1493,7 @@ local function yaml_event(yaml_tree)
 
   event = unpack_yaml_tree(event);
 
-  if event.where then table.insert(elist, event.where); end;
+  if event.where then table.insert(elist, " *" .. event.where .. "* <br/>"); end;
   if event.extra then table.insert(elist, event.extra); end;
 
   if   #elist > 1
@@ -1440,7 +1502,7 @@ local function yaml_event(yaml_tree)
   end;
 
   if event.desc  then table.insert(elist, event.desc                      ); end;
-  if event.cf    then table.insert(elist, "See also: *" .. event.cf .. "*"); end;
+  if event.cf    then table.insert(elist, "<br/>See also: *" .. event.cf .. "*"); end;
 
   slurped = slurped .. table.concat(elist, " ") .. "\n";
 

@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Shaper
-  - anchor:   class-shaper
-  - toc:      toc-shaper
+  - anchor:   toc-class-shaper
   - x-format: class
   - classid:  &classid shaper
   - name:     *title

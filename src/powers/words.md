@@ -2,7 +2,7 @@
 
 []{.lorem}
 
-## Personal Power Words {#toc-power-use-personal }
+## [Personal Power Words]{#toc-power-use-personal }
 
 :::::::::::::: {.power-chart .power-display .label} :::::::::::::::
 []{.power-word .first .any .free}
@@ -18,7 +18,7 @@
 :::::::::::::: example :::::::::::::::::::::::::::::::::::::
 For example, []{.lorem}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Core Power Words {#toc-power-use-core }
+## [Core Power Words]{#toc-power-use-core }
 
 :::::::::::::: {.power-chart .power-display .label} :::::::::::::::
 []{.power-word .core .free}
@@ -54,7 +54,7 @@ but also costs you 3 Might points.
 For example, []{.lorem}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Nova Power Words {#toc-power-use-nova }
+## [Nova Power Words]{#toc-power-use-nova }
 
 :::::::::::::: {.power-chart .power-display .label} :::::::::::::::
 []{.power-word .nova .free}
@@ -99,7 +99,7 @@ Power Combo requires spending 1 Might.
 For example, []{.lorem}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Scene Power Words {#toc-power-use-scene}
+## [Scene Power Words]{#toc-power-use-scene}
 
 :::::::::::::: {.power-chart .power-stunt} :::::::::::::::::
 []{.power-word .first .any .free} 

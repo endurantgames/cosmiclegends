@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Inventor
-  - anchor:   class-inventor
-  - toc:      toc-inventor
+  - anchor:   toc-class-inventor
   - x-format: class
   - classid:  &classid inventor
   - name:     *title

@@ -3,8 +3,7 @@
   - classid:   &classid expatriate
   - classname: &classname Expatriate
   - title:     The *classname
-  - anchor:    class-expatriate
-  - toc:       toc-expatriate
+  - anchor:    toc-class-expatriate
 - quote: "Coming soon"
 - desc: "Coming soon"
 - questions:

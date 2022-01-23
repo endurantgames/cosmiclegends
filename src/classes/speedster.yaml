@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Speedster
-  - anchor:   class-speedster
-  - toc:      toc-speedster
+  - anchor:   toc-class-speedster
   - x-format: class
   - classid:  &classid speedster
   - name:     *title

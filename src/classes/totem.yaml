@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Totem
-  - anchor:   class-
-  - toc:      toc-
+  - anchor:   toc-class-
   - x-format: class
   - classid:  &classid totem
   - name:     *title

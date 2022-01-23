@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Mage
-  - anchor:   class-mage
-  - toc:      toc-mage
+  - anchor:   toc-class-mage
   - x-format: class
   - classid:  &classid mage
   - name:     *title

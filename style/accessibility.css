@@ -1,0 +1,7 @@
+#cover #coverbox ul    { -prince-pdf-tag-type: Art;    }
+#cover #coverbox ul li { -prince-pdf-tag-type: Figure; }
+#cover .hype ul        { -prince-pdf-tag-type: Art;    }
+#cover .hype ul li     { -prince-pdf-tag-type: Figure; }
+#toc ul                { -prince-pdf-tag-type: TOC;    }
+#toc li                { -prince-pdf-tag-type: TOCI;   }
+

@@ -2,9 +2,10 @@
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
   /* Imported files (sheets mostly) ====----============================ */
-@import url(      "config.css");
-@import url(  "team-sheet.css");
-@import url("series-sheet.css");
+@import url(       "config.css");
+@import url(   "team-sheet.css");
+@import url( "series-sheet.css");
+@import url("accessibility.css");
 
 /* page dimensions ===================================================== */
 
@@ -24,9 +25,6 @@ header h1     { string-set: gamename content()       }
   -prince-pdf-profile:     "PDF/A-3a+PDF/UA-1";
   -prince-pdf-page-layout: two-column-right;
 }
-  /* Prince Semantic Structure ========================================= */
-#toc ul { -prince-pdf-tag-type: TOC;  }
-#toc li { -prince-pdf-tag-type: TOCI; }
 
 #toc .toc-heading { font-family: var(--font-h1); font-size: var(--h1); }
 
@@ -94,15 +92,14 @@ h3.class       { font-size: var(--largetitle); font-family: var(--font-h2); marg
 
 h4.class { font-size: var(--h3); font-family: var(--font-h3); margin-bottom: 0.5em; text-align: center; }
 
-ul    { break-inside: avoid; break-before: avoid-page; }
-li    { break-inside: avoid;                           }
-ul    { margin-left: 1em;                              }
-ul li { margin-left: 1em;                              }
-ol    { margin-left: 2.0em;                            }
-ol ul { margin-left: 1em;                              }
-dl    {                                                }
-dt    {                                                }
-dd    { margin-left: 1.5em;                            }
+ul    { break-before: avoid-page; }
+ul    { margin-left: 1em;         }
+ul li { margin-left: 1em;         }
+ol    { margin-left: 2.0em;       }
+ol ul { margin-left: 1em;         }
+dl    {                           }
+dt    {                           }
+dd    { margin-left: 1.5em;       }
 
 .classdata#class -construct   { --class-article: "a";  --class: "Construct";   --class-plural: "Constructs";    }
 .classdata#class -divine      { --class-article: "a";  --class: "Divine";      --class-plural: "Divines";       }
@@ -1707,8 +1704,10 @@ sup { line-height: none; font-size: 50%; }
 }
 
 
-a:link[href|="#"   ].after,
+/* a:link[href|="#"   ].after,
 a:link[href|="http"].after,
+*/
+
 a:link.external:after {
   font-family: var(--font-icons-noto);
   line-height: none;

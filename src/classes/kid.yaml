@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Kid
-  - anchor:   class-kid
-  - toc:      toc-kid
+  - anchor:   toc-class-kid
   - x-format: class
   - classid:  &classid kid
   - name:     *title

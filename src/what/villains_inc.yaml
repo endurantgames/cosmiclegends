@@ -1,0 +1,108 @@
+- metadata:
+  - title: Villains, Inc.
+  - anchor: what-villains-inc
+  - yaml_version: 1.2
+  - x-format: group
+  - members:
+    - term: member
+    - plural: members
+- group:
+  - type: Supervillain Team
+  - base: 
+    - unknown:
+      - active: true
+    - "Technopolis, U.S.A.":
+      - active: false
+      - former: true
+    - Vadyvokia:
+      - active: false
+      - former: true
+  - allies: 
+    - Atomicorps
+    - the Formorians
+    - Neutrino
+    - T.R.E.L.A.
+  - enemies: 
+    - A.L.E.R.T.
+    - Cosmic Legends of the Universe
+    - The Junior Legends of America
+    - Marquis Malign
+    - N.O.V.A. Labs
+    - The Verdict
+- history: |
+    []{.lorem}
+
+    []{.lorem}
+
+    []{.lorem}
+- member-list:
+  - Balor:
+    - gender: male
+    - bio: Giant Fomorian with third eye of venom; enemy of the Tuatha Dé Danann.
+    - founder: true
+    - active: true
+  - Deathsong:
+    - gender: female
+    - bio: Sonic-powered criminal and former girlfriend of Jeri North.
+    - active: true
+  - Glytch:
+    - gender: trans
+    - active: true
+    - bio: Former Technopolis Academy student; technopath composed of digital energies.
+  - Gunlock:
+    - gender: female
+    - bio: Wielder of a cursed pistol and enemy of Jack Dee.
+    - active: true
+  - The Hornette:
+    - gender: trans
+    - expelled: true
+    - cf: Vespa 2.0
+    - active: false
+  - Igneia:
+    - gender: female
+    - bio: Younger sister of Obsidius Rex and wielder of volcanic flame.
+    - active: true
+  - Magnus Merlyn Malign:
+    - aka: Marquis Malign
+    - gender: male
+    - resigned: true
+    - bio: Currently conducting an underworld war against Villains, Inc.
+    - active: false
+  - Neutrino:
+    - resigned: true
+    - gender: female
+    - active: false
+  - "Phineas Pann, Dr.":
+    - gender: male
+    - deceased: true
+    - bio: Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.
+    - active: false
+  - "Phineas Pann, Junior":
+    - gender: male
+    - bio: "Son of the first Phineas Pann and a criminal genius in his own right."
+    - active: true
+  - Sequana:
+    - gender: female
+    - bio: "A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc."
+    - team_leader: true
+    - active: true
+  - Sinhammer:
+    - gender: male
+    - deceased: true
+    - bio: "Enemy of the Grailknight and wielder of the Mallet of Sucellus. Killed by Zaar."
+    - active: false
+  - Sreng:
+    - gender: male
+    - bio: "Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace."
+    - active: true
+  - Teleidoscopic Man:
+    - definite: true
+    - gender: male
+    - bio: "Energy-refractor with extensive control over holograms and illusions. Father of Kaleidosope Kidd, a graduate of Technopolis Academy."
+    - resigned: true
+    - active: false
+  - Xana Mega:
+    - gender: female
+    - resigned: true
+    - active: false
+

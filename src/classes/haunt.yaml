@@ -3,8 +3,7 @@
   - classname: &classname Haunt
   - classid:   &classid haunt
   - title:     The Haunt
-  - anchor:    class-haunt
-  - toc:       toc-haunt
+  - anchor:    toc-class-haunt
 - quote: |
     The happy haunts have received your sympathetic vibrations and are beginning 
     to materialize. They’re assembling for a swinging wake, and they’ll be 

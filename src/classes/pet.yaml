@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Pet
-  - anchor:   class-pet
-  - toc:      toc-pet
+  - anchor:   toc-class-pet
   - x-format: class
   - classid:  &classid pet
   - name:     *title

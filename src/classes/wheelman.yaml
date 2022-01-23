@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Wheelman
-  - anchor:   class-
-  - toc:      toc-
+  - anchor:   toc-class-wheelman
   - x-format: class
   - classid:  &classid wheelman
   - name:     *title

@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Knight
-  - anchor:   class-knight
-  - toc:      toc-knight
+  - anchor:   toc-class-knight
   - x-format: class
   - classid:  &classid knight
   - name:     *title

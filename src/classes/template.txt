@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The
-  - anchor:   class-
-  - toc:      toc-
+  - anchor:   toc-class-
   - x-format: class
   - classid:  &classid 
   - name:     *title

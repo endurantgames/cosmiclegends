@@ -1,7 +1,6 @@
 - metadata:
   - title:    &title The Paragon
-  - anchor:   class-paragon
-  - toc:      toc-paragon
+  - anchor:   toc-class-paragon
   - x-format: class
   - classid:  &classid paragon
   - name:     *title

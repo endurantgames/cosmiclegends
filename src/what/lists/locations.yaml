@@ -1,0 +1,47 @@
+- metadata:
+  - title: &title Other Locations
+  - x-format: list
+  - list-class: other-list
+  - item-format: location
+  - anchor: what-other-locations
+  - text: |
+      These are key locations within the CLotU Universe.
+- list:
+  - L'Shar'Ak:
+    - bio: Capital city of Titan; original home of Titan and Tethys.
+    - where: Titan
+  - Mag Findargat:
+    - bio: Castle of the Tuatha Dé Danann in Otherworld. One-time headquarters of the Cosmic Legends.
+    - where: Otherworld
+  - Moulin Air Force Base:
+    - bio: U.S. military base located outside of Sun City, U.S.A.
+    - where: Sun City
+  - The Museum of Superhuman History:
+    - definite: true
+    - bio: Museum and library connected with Sun City University, devoted to archiving super-powered individuals.
+    - where: Sun City
+  - Nuke City:
+    - bio: Informal name for Sun City Nuclear Power Plant, located outside Sun City.
+    - where: Sun City
+  - Otherworld:
+    - bio: Parallel dimension that is home to the Tuatha Dé Danann, the Firbolgs, the Fomorians, and Xana Mega. 
+    - cf: Brigantia
+  - The Sun City Zoo:
+    - definite: true
+    - bio: Zoo and marine park located outside Sun City, affiliated with Sun City University.
+    - where: Sun City
+  - Technopolis, U.S.A.:
+    - bio: Large city located not far from Sun City. Home to Technopolis Academy, Vespa 2.0, and the central laboratories of N.O.V.A. Labs.
+  - Titan (Moon):
+    - bio: Largest moon of Saturn and second-largest satellite in the Solar System; home to the Titanian people.
+    - where: Saturn
+    - cf: "Titan (Ty'tonn To'Rezz)"
+  - Vadyvokia:
+    - bio: "Eastern European \"republic\" wholly controlled by Marquis Malign."
+    - where: Eastern Europe
+    - cf: Marquis Malign
+  - Volcano City:
+    - bio: Capital city of Vulcanor; home of King Tachylus and Obsidius Rex.
+    - where: Vulcanor
+    - cf: Obsidius Rex
+  

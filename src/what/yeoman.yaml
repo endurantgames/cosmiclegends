@@ -1,0 +1,55 @@
+
+- metadata:
+  - title:          &title The Yeoman
+  - x-format:       character
+# - x-format:       character-sheet
+  - yaml_version:   1.2
+  - anchor:         what-other-yeoman
+- art:
+  - url:            art/jeshields/yeoman.png
+  - alt:            *title
+  - face:           art/jeshields/yeoman_face.png
+  - anchor:         art-yeoman
+- bio:
+  - real_name:      full name
+  - occupation:     occupation
+  - legal_status:   Citizen of the United States
+  - gender: 
+    - desc:         female
+    - pronouns:     she/her
+  - identity:       public
+  - former_aliases: name
+  - place_of_birth: location
+  - marital_status: single
+  - known_relatives: 
+  - group_affiliation: 
+    - Junior Legends of America:
+      - active:     false
+      - reserve:    true
+  - base:           ["Sun City, U.S.A."]
+  - height:         5' 6\"
+  - weight:         160 lbs.
+  - eyes:           silver
+  - hair:           pink
+- history:          history history history 
+- powers:           powers powers 
+- weapons:          weapons weapons
+- stats:
+  - name:            *title
+  - class:           The Kid
+  - approaches: 
+    - action:        1
+    - adventure:     1
+    - detective:     1
+    - mystery:       1
+    - suspense:      1
+  - health:          10
+  - might:           10
+  - power_words:
+    - core:          []
+    - personal:      []
+    - nova:          []
+  - abilities:       []
+  - fighting_styles: []
+  - skills:          []
+  - ideals:          []

@@ -3,8 +3,7 @@
   - classname: &classname Monarch
   - classid:  &classid monarch
   - title: The *classname
-  - anchor: class-monarch
-  - toc: toc-monarch
+  - anchor: toc-class-monarch
 - quote: |
     I shall forgive you but once for your disrespect.
 - desc: |
