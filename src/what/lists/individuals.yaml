@@ -23,22 +23,26 @@
     - gender: male
     - bio: "TBD: iconic speedster"
     - hero: yes
-  - "Far-Seeker":
+  - Firewall:
+    - gender: female
+    - bio: "TBD: inventor"
+    - hero: yes
+  - Far-Seeker:
     - gender: female
     - bio: "N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends."
     - full_name: Nora Jamila Campbell
     - hero: true
-  - Aquila:
-    - gender: female
-    - bio: "TBD: iconic twins"
-    - hero: yes
-    - cf: The Falconer
   - Falconer:
     - definite: true
     - gender: female
     - bio: "TBD: iconic twins"
     - hero: yes
     - cf: Aquila
+  - Aquila:
+    - gender: female
+    - bio: "TBD: iconic pet"
+    - hero: yes
+    - cf: The Falconer
   - Hellblade:
     - gender: female
     - bio: TBD
@@ -49,14 +53,14 @@
     - ally: true
     - cf: Pervical, the Grailknight
   - Gloom:
-    - gender: male
+    - gender: female 
     - bio: Independent hero and former student at Technopolis Academy with darkness and emotion powers.
     - hero: true
   - Glytch:
     - gender: trans
     - cf: Villains, Inc.
     - villain: true
-  - The Hornette:
+  - Hornette:
     - definite: yes
     - gender: trans
     - bio: Alias used by Lin Montgomery to infiltrate Villains, Inc. 
@@ -82,7 +86,7 @@
     - gender: female
     - bio: Teen heroine with luck-based powers, residing in St. Louis. Member of the Junior Legends of America.
     - hero: true
-  - The Man in Black:
+  - Man in Black:
     - definite: true
     - gender: male
     - bio: Sorceror and arch-enemy of Obsidius Rex.
@@ -132,7 +136,7 @@
     - gender: trans
     - bio: Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
     - hero: true
-  - The Verdict:
+  - Verdict:
     - definite: yes
     - gender: male
     - bio: Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.

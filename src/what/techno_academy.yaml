@@ -40,7 +40,6 @@
       - active:    false
       - gender:    female
       - graduated: false
-      - expelled:  false
       - withdrew:  true
     - Marlinspike:       
       - active:    false
