@@ -1509,7 +1509,7 @@ local function yaml_event(yaml_tree)
   return slurped;
 end;
 
-local function yaml_group(yaml_tree)
+local function yaml_group_item(yaml_tree)
   local group, _, slurped, _ = yaml_common(yaml_tree);
   local status = group.active    and " "
               or group.disbanded and " *defunct* "
@@ -1531,20 +1531,13 @@ local function yaml_group(yaml_tree)
        for name, member in pairs(member_list)
        do  if member.face
            then -- -----------------------------------------------------------
-                slurped = slurped             ..
-                        "\n"                ..
-                        string.rep(":", 20) ..
-                          " member "          ..
-                       string.rep(":", 20) ..
-                       "\n";
-                slurped = slurped             ..
-                        "\n["               ..
-                       name                ..
-                          "]{.member-name}\n";
-                slurped = slurped             ..
-                        "\n"                ..
-                       string.rep(":", 60) ..
-                          "\n";
+                slurped = slurped           ..  "\n"                ..
+                        string.rep(":", 20) ..  " member "          ..
+                        string.rep(":", 20) ..  "\n";
+                slurped = slurped           ..  "\n["               ..
+                        name                ..  "]{.member-name}\n";
+                slurped = slurped           ..  "\n"                ..
+                        string.rep(":", 60) ..  "\n";
            end; -- if member.face --------------------------------------------
        end -- for name, member
        slurped = slurped .. "\n" .. string.rep(":", 70) .. "\n";
@@ -1555,12 +1548,13 @@ local function yaml_group(yaml_tree)
        local mem_item = "";
        if   not group["membership-complex"]
        then for name, member in pairs(member_list)
-            do  local member_status  = member.active    and ""              or
-                                     member.resigned  and " *resigned* "  or
-                                       member.deceased  and " *deceased* "  or
-                                   member.expelled  and " *expelled* "  or
-                                       member.graduated and " *graduated* " or
-                                   " *status unknown* ";
+            do  local member_status  = member.active    and ""                           or
+                                       member.resigned  and " *resigned* "               or
+                                       member.deceased  and " *deceased* "               or
+                                       member.expelled  and " *expelled* "               or
+                                       member.graduated and " *graduated* "              or
+				       member.status    and " *" .. member.status .. "*" or
+                                       " *status unknown* ";
                 if member.title        then mem_item = mem_item .. " " .. member.title;                 end;
                 if name or member.name then mem_item = mem_item .. (name or member.name) .. " ";        end;
                 if member.aka          then mem_item = mem_item .. " (" .. member.aka .. ")";           end;
@@ -1571,17 +1565,16 @@ local function yaml_group(yaml_tree)
        else -- membership-complex
             for name, member in pairs(member_list)
             do  mem_item = mem_item .. name .. " ";
-                local complex_status = member.active   and ""             or
-                                     member.honorary and " *honorary* " or
-                                       member.resigned and " *resigned* " or
-                                   member.defunct  and " *defunct* "  or
-                                       member.inactive and " *inactive* " or
-                                   member.former   and " *former* "   or
-                                       member.expelled and " *expelled* " or
-                                   " *status unknown* ";
-                if   complex_status
-                then mem_item = mem_item .. complex_status;
-                end;
+                local complex_status = member.active   and ""                           or
+                                       member.honorary and " *honorary* "               or
+                                       member.resigned and " *resigned* "               or
+                                       member.defunct  and " *defunct* "                or
+                                       member.inactive and " *inactive* "               or
+                                       member.former   and " *former* "                 or
+				       member.status   and " *" .. member.status .. "*" or
+                                       member.expelled and " *expelled* "               or
+                                       " *status unknown* ";
+                if   complex_status then mem_item = mem_item .. complex_status; end;
                 if   member.active and member.rep and type(member.rep) == "table"
                 then local rep = unpack_yaml_tree(member.rep, "membership-complex : member.rep");
                      if   not string.match(rep.name, "none")
@@ -1613,7 +1606,7 @@ g.YAML.index                   = yaml_index;
 g.YAML["character-sheet"     ] = yaml_sheet;
 g.YAML["item:minor-character"] = yaml_minor_character;
 g.YAML["item:location"       ] = yaml_place;
-g.YAML["item:group"          ] = yaml_group;
+g.YAML["item:group"          ] = yaml_group_item;
 g.YAML["item:timeline-entry" ] = yaml_event;
 g.YAML["item:index-entry"    ] = yaml_index_entry;
 

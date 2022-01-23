@@ -48,9 +48,9 @@ toc
 # advancement
 # chargen/experienced_heroes
 # what/*
-# what/lists/*
-what/lists/timeline
-what/lists/locations
+what/lists/*
+# what/lists/timeline
+# what/lists/locations
 # team/
 # team/intro
 # team/classes
