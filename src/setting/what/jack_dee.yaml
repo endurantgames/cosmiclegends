@@ -4,7 +4,7 @@
   - anchor: setting-jackdee
   - yaml_version: 1.2
 - art:
-  - url: art/jeshields/mage.png
+  - url: art/jeshields/jackdee.png
   - alt: Jack Dee
   - anchor: art-jackdee
 - bio:

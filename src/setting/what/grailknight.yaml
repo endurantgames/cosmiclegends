@@ -4,7 +4,7 @@
   - yaml_version: 1.2
   - anchor: setting-grailknight
 - art:
-  - url: art/jeshields/knight.png
+  - url: art/jeshields/grailknight.png
   - alt: Percival, the Grailknight
   - anchor: art-grailknight
 - bio:

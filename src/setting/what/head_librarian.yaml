@@ -4,7 +4,7 @@
   - yaml_version: 1.2
   - anchor: setting-head-librarian
 - art:
-  - url: art/jeshields/psychic.png
+  - url: art/jeshields/head_librarian.png
   - alt: *title
   - anchor: art-head-librarian
 - bio:

@@ -4,7 +4,7 @@
   - x-format: character
   - anchor: setting-energy-boy
 - art:
-  - url: art/jeshields/dynamo.png
+  - url: art/jeshields/energy_boy.png
   - alt: *title
   - anchor: art-energy-boy
 - bio:

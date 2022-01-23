@@ -4,7 +4,7 @@
   - yaml_version: 1.2
   - anchor: setting-obsidius-rex
 - art:
-  - url: art/jeshields/monarch.png
+  - url: art/jeshields/obsidius_rex.png
   - alt: *title
   - anchor: art-obsidius-rex
 - bio:

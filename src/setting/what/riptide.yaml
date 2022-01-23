@@ -4,7 +4,7 @@
   - x-format: character
   - yaml_version: 1.2
 - art:
-  - url: art/jeshields/shaper.png
+  - url: art/jeshields/riptide.png
   - alt: *title
   - anchor: art-riptide
 - bio:

@@ -1,0 +1,42 @@
+- metadata:
+  - yaml_version: 1.2
+  - x-format: character
+  - title: &title "Sandra Starr: Agent of A.L.E.R.T."
+  - anchor: setting-other-sandra-starr
+- bio:
+  - name: *title
+  - real_name: Sandra Starr
+  - occupation: "Agent of A.L.E.R.T."
+  - legal_status: 
+  - gender:
+    - desc: female
+    - pronouns: "she/her"
+  - identity: Classified
+  - place_of_birth: 
+  - marital_status: 
+  - known_relatives: 
+  - group_affiliation: 
+  - base_of_operations: 
+  - height: 
+  - weight: 
+- history: |
+
+- powers: |
+
+- weapons: |
+
+- stats:
+  - class: The 
+  - name: *title
+  - approaches: { action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1 }
+  - health: 10
+  - might: 10
+  - power_words:
+    - core: []
+    - personal: []
+    - nova: []
+  - skills: []
+  - abilities:
+  - ideals: []
+  - fighting_styles: []
+
