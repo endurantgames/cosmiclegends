@@ -4,4 +4,5 @@
 #cover .hype ul li     { -prince-pdf-tag-type: Figure; }
 #toc ul                { -prince-pdf-tag-type: TOC;    }
 #toc li                { -prince-pdf-tag-type: TOCI;   }
+.list-index            { -prince-pdf-tag-type: Index;  }
 

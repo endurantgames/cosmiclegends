@@ -1,0 +1,82 @@
+- metadata:
+  - yaml_version:    1.2
+  - x-format:        index
+  - title:           Power Words Lists
+  - anchor:          toc-index-lists
+  - list-item:       index-entry-with-title
+  - list-item-class: with-title
+  - list-class:      [index, "of-lists"]
+- text:              This index links to various lists throughout the rules containing personal, scene, or other power words.
+- list:
+  - { url: list-astral-retreat-scene-power-words              }
+  - { url: list-class-construct-abilities-v1                  }
+  - { url: list-class-construct-abilities-v2                  }
+  - { url: list-class-construct-abilities-v3                  }
+  - { url: list-class-construct-abilities-v4                  }
+  - { url: list-class-construct-abilities-v5                  }
+  - { url: list-class-construct-personal-power-words          }
+  - { url: list-class-divine-abilities-v1                     }
+  - { url: list-class-divine-abilities-v2                     }
+  - { url: list-class-divine-abilities-v3                     }
+  - { url: list-class-divine-abilities-v4                     }
+  - { url: list-class-divine-abilities-v5                     }
+  - { url: list-class-dynamo-abilities-v1                     }
+  - { url: list-class-dynamo-abilities-v2                     }
+  - { url: list-class-dynamo-abilities-v3                     }
+  - { url: list-class-dynamo-abilities-v4                     }
+  - { url: list-class-dynamo-abilities-v5                     }
+  - { url: list-class-dynamo-energy-core-power-words          }
+  - { url: list-class-dynamo-personal-power-words             }
+  - { url: list-class-expatriate-abilities-v1                 }
+  - { url: list-class-expatriate-abilities-v2                 }
+  - { url: list-class-expatriate-abilities-v3                 }
+  - { url: list-class-expatriate-abilities-v4                 }
+  - { url: list-class-expatriate-abilities-v5                 }
+  - { url: list-class-expatriate-personal-power-words         }
+  - { url: list-class-expert-abilities-v1                     }
+  - { url: list-class-expert-abilities-v2                     }
+  - { url: list-class-expert-abilities-v3                     }
+  - { url: list-class-expert-abilities-v4                     }
+  - { url: list-class-expert-abilities-v5                     }
+  - { url: list-class-haunt-abilities-v1                      }
+  - { url: list-class-haunt-abilities-v2                      }
+  - { url: list-class-haunt-abilities-v3                      }
+  - { url: list-class-haunt-abilities-v4                      }
+  - { url: list-class-haunt-abilities-v5                      }
+  - { url: list-class-hellspawn-abilities-v1                  }
+  - { url: list-class-hellspawn-abilities-v2                  }
+  - { url: list-class-hellspawn-abilities-v3                  }
+  - { url: list-class-hellspawn-abilities-v4                  }
+  - { url: list-class-hellspawn-abilities-v5                  }
+  - { url: list-class-inventor-abilities-v1                   }
+  - { url: list-class-inventor-abilities-v2                   }
+  - { url: list-class-inventor-abilities-v3                   }
+  - { url: list-class-inventor-abilities-v4                   }
+  - { url: list-class-inventor-abilities-v5                   }
+  - { url: list-class-kid-abilities-v1                        }
+  - { url: list-class-kid-abilities-v2                        }
+  - { url: list-class-kid-abilities-v3                        }
+  - { url: list-class-kid-abilities-v4                        }
+  - { url: list-class-kid-abilities-v5                        }
+  - { url: list-class-kid-personal-power-words                }
+  - { url: list-class-knight-abilities-v1                     }
+  - { url: list-class-knight-abilities-v2                     }
+  - { url: list-class-knight-abilities-v3                     }
+  - { url: list-class-knight-abilities-v4                     }
+  - { url: list-class-knight-abilities-v5                     }
+  - { url: list-class-knight-personal-power-words             }
+  - { url: list-generic-hero-abilities-v1                     }
+  - { url: list-generic-hero-abilities-v2                     }
+  - { url: list-generic-hero-abilities-v3                     }
+  - { url: list-generic-hero-abilities-v4                     }
+  - { url: list-generic-hero-abilities-v5                     }
+  - { url: list-glorious-garage-scene-power-words             }
+  - { url: list-hero-cave-power-words                         }
+  - { url: list-hero-cave-power-words                         }
+  - { url: list-inventor-stately-skyscraper-scene-power-words }
+  - { url: list-leave-me-alone-safe-place-scene-power-words   }
+  - { url: list-my-own-personal-hell-scene-power-words        }
+  - { url: list-sanctuary-of-sanctity-scene-power-words       }
+  - { url: list-shapers-refuge-scene-power-words              }
+  - { url: list-shapers-refuge-scene-power-words              }
+  - { url: list-talismans-of-power-trinket-forms              }

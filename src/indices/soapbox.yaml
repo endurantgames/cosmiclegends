@@ -1,0 +1,20 @@
+- metadata:
+  - yaml_version:    1.2
+  - x-format:        index
+  - title:           Spindrift's Soapboxes
+  - anchor:          toc-index-soapbox
+  - list-item:       index-entry-with-title
+  - list-item-class: with-title
+  - list-class:      [index, "of-soapbox"]
+- text:              This is a list of sidebars found throughout the text, offering commentary and alternate rules.
+- list:
+  - { url: soapbox-approaches                }
+  - { url: soapbox-charsheet-dual-class      }
+  - { url: soapbox-cultural-sensitivity      }
+  - { url: soapbox-facets                    }
+  - { url: soapbox-no-ethical-mind-control   }
+  - { url: soapbox-no-facists                }
+  - { url: soapbox-other-element-power-words }
+  - { url: soapbox-other-energy-power-words  }
+  - { url: soapbox-real-world-religions      }
+  - { url: soapbox-skills-and-realism        }

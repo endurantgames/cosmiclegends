@@ -1366,7 +1366,7 @@ end;
 local function yaml_index_entry(title, yaml_tree)
   yprint("yaml xformat is", "item: index entry");
   local entry   = unpack_yaml_tree(yaml_tree);
-  local slurped = "\n<!--\n" .. inspect(entry) .. "\n-->\n";
+  local slurped = g.CONFIG.src_in_comment and "\n<!--\n" .. inspect(entry) .. "\n-->\n" or "";
   local parts   = {};
 
   if     not entry then return ""
@@ -1418,12 +1418,18 @@ local function yaml_index(yaml_tree)
        os.exit(1);
   end;
 
-  local list_class;
+  local list_class = meta["list-class"];
 
-  if   meta["list-class"]
-  then list_class = meta["list-class"];
-       yprint("found list class", list_class);
-       slurped = slurped .. string.rep(":", 30) .. " { ." .. list_class .. " } " .. string.rep(":", 20) .. "\n\n";
+  if     list_class and type(list_class) == "string"
+  then   yprint("found list class", list_class);
+         slurped = slurped .. string.rep(":", 30) .. " { ." .. list_class .. " } " .. string.rep(":", 20) .. "\n\n";
+  elseif list_class and type(list_class) == "table"
+  then   local list_classes = "";
+         for k, _ in pairs(list_class)
+         do  list_classes = list_classes .. " .";
+         end;
+         yprint("found list classes", list_classes);
+         slurped = slurped .. string.rep(":", 25) .. " { " .. list_classes .. " } " .. string.rep(":", 15) .. "\n\n";
   end;
 
   if   index.text
@@ -1600,7 +1606,7 @@ g.YAML.character               = yaml_character;
 g.YAML.list                    = yaml_list;
 g.YAML.glossary                = yaml_glossary;
 g.YAML.place                   = yaml_place;
-g.YAML.group                   = yaml_group;
+g.YAML.group                   = yaml_group_item;
 g.YAML.unknown                 = yaml_error;
 g.YAML.index                   = yaml_index;
 g.YAML["character-sheet"     ] = yaml_sheet;
