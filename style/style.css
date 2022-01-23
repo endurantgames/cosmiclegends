@@ -727,6 +727,10 @@ blockquote {
   font-weight:      bold;
 }
 
+.cpw.nocolor ul li {
+  background: transparent;
+}
+
 .cpw ul li:nth-child(6n+1) {
   background: linear-gradient(-90deg,
   var(--color-rainbow-1)  0%,

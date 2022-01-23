@@ -319,26 +319,31 @@ markdown: yaml-lint
 #   Edit: if you are making more than one pdf
 pdf: markdown
 	@ echo '$(ltblue)Making PDF.$(resetc)'
-	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
-	       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
-	      -$(EXPLORER)
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
+	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
 
 letter: markdown
 	@ echo '$(ltblue)Making Letter PDF.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(PANDOC) $(PANDOCFLAGS) $(LETTER_FLAGS) -o $(LETTER_OUT) $(PROJ_SRC)
 	@       $(PDFINFO) $(LETTER_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 sheet-markdown:
 	@ echo '$(ltmagn)Collecting hero sheet markdown.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(SHEET_RECIPE)
 
 team-sheet-markdown:
 	@ echo '$(ltmagn)Collecting team sheet markdown.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(TEAMSHEET_RECIPE)
 
 series-sheet-markdown:
 	@ echo '$(ltmagn)Collecting series sheet markdown.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(SERIESSHEET_RECIPE)
 
 all-sheets-markdown:
@@ -347,34 +352,41 @@ all-sheets-markdown:
 
 origin-markdown:
 	@ echo '$(ltmagn)Collecting secret origins markdown.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(ORIGIN_RECIPE)
 
 what-markdown:
 	@ echo "$(ltmagn)Collecting What's What markdown.$(resetc)"
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(WHATSWHAT_RECIPE)
 
 pregen-markdown:
 	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(PREGEN_RECIPE)
 
 elk-markdown:
 	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(ELK_RECIPE)
 
 pregen: pregen-markdown
 	@ echo '$(ltblue)Making Pregens.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(PANDOC) $(PANDOCFLAGS) $(PREGEN_FLAGS) -o $(PREGEN_OUT) $(PREGEN_SRC)
 	@       $(PDFINFO) $(PREGEN_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 origin: origin-markdown
 	@ echo '$(ltblue)Making Secret Origins.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(PANDOC) $(PANDOCFLAGS) $(ORIGIN_FLAGS) -o $(ORIGIN_OUT) $(ORIGIN_SRC)
 	@       $(PDFINFO) $(ORIGIN_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 team-sheet:   team-sheet-markdown
 	@ echo '$(ltblue)Making Team Sheet.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(PANDOC) $(PANDOCFLAGS) $(TEAMSHEET_FLAGS) -o $(TEAMSHEET_OUT) $(TEAMSHEET_SRC)
 	@       $(PDFINFO) $(TEAMSHEET_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
@@ -384,6 +396,7 @@ all-sheets:   all-sheets-markdown
 
 sheet: sheet-markdown
 	@ echo '$(ltblue)Making Hero Sheet.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
 	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
@@ -402,18 +415,21 @@ alt-sheet: sheet-markdown
 
 color-sheet: sheet-markdown
 	@ echo '$(ltblue)Making Colorful Hero Sheet.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_COLOR_FLAGS) -o $(SHEET_COLOR_OUT) $(SHEET_SRC)
 	@       $(PDFINFO) $(SHEET_COLOR_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 elk-pdf: elk-markdown
 	@ echo '$(elkcolor)Making Cloud-Elk Preview PDF.$(resetc)'
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@      $(PANDOC) $(PANDOCFLAGS_ELK) $(SHEET_ELK_FLAGS) -o $(ELK_PDF_OUT) $(ELK_SRC)
 	@      $(PDFINFO) $(ELK_PDF_OUT) $(PDFINFO_GREP)
 	@     -$(EXPLORER)
 
 what-pdf: yaml-lint what-markdown
 	@ echo "$(elkcolor)Making What's What PDF.$(resetc)"
+	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@      $(PANDOC) $(PANDOCFLAGS_WHATSWHAT) $(WHATSWHAT_FLAGS) -o $(WHATSWHAT_PDF_OUT) $(WHATSWHAT_SRC)
 	@      $(PDFINFO) $(WHATSWHAT_PDF_OUT) $(PDFINFO_GREP)
 	@     -$(EXPLORER)

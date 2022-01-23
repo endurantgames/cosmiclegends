@@ -1,4 +1,4 @@
-# [Abilities and Ability Categories]{#toc-ability-types}
+# [Abilities and Ability Categories]{#toc-ability-types .colbefore}
 
 At the start of each Volume, you can choose one ability from your 
 class or from the list of Generic Abilities; before Volume One, 

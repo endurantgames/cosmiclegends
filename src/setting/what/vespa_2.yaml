@@ -4,7 +4,7 @@
   - x-format:       character
   - yaml_version:   1.2
 - art:
-  - url:            art/jeshields/vesp.png
+  - url:            art/jeshields/vespa.png
   - alt:            *title
   - anchor:         art-vespa
 - bio:

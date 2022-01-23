@@ -1169,7 +1169,7 @@ each Volume, before the next one begins.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-### [Abilities and Ability Categories]{#toc-ability-types}
+### [Abilities and Ability Categories]{#toc-ability-types .colbefore}
 
 At the start of each Volume, you can choose one ability from your 
 class or from the list of Generic Abilities; before Volume One, 
@@ -1220,7 +1220,7 @@ For **Crossover** Abilities, the following rules apply:
 
 
 
-::::::::::::::::::: { .classdata } :::::::::::
+::::::::::::::::::: { .classdata .breakbefore } :::::::::::
 ### [Generic Hero Abilities]{#toc-generic }
 
 Each Volume, you gain a new ability from your class.
@@ -1340,7 +1340,7 @@ Hero Cave
     Choose two Scene Power Words from the following Hero Cave Power Words
     List:
 
-    ::: cpw :::::::::::::::::
+    ::: { .cpw .nocolor } :::::::::::::::::
     #### Hero Cave Scene Power Words List {#generic-hero-cave-scene-power-words}
 
     - Alien
@@ -1399,8 +1399,8 @@ Hero Cave
     []{.herocave-id}
 
 Hero Without Fear
-:   You are completely fearless. If you are exposed to any fear-
-    based effects, spend 1 Might to counter that use for you only.
+:   You are completely fearless. If you are exposed to any fear-based 
+    Crisis Moves, spend 1 Might to counter that Move for you only.
     Your lack of fear lets you take risks to save others without
     concern for your own safety: You can choose to add 2 dice when 
     you roll to advance the Rescue goal. If you do, lose 1 Health 
@@ -1418,8 +1418,7 @@ Local Hero
     choose another city covered by this Ability.
 
 Three-Point Landing
-:   You can pull off the classic "superhero landing" with practiced 
-    ease.
+:   You can pull off the classic "superhero landing" with practiced ease.
     Whenever you make a roll at the end of a Crisis Countdown to 
     create the Teamwork Pool, or a roll for the 
     [Timely Arrival move](#toc-crisis-timely), any roll of 3 counts
@@ -1427,7 +1426,9 @@ Three-Point Landing
     landing as part of your arrival on the scene.
 
 Unaging
-:   To Be Determined
+:   For whatever reason, you don't age. If you are affected by any age-themed
+    Crisis Moves, you can spend 1 Might or 1 Health to counter that Move
+    for yourself only.
 
 Well-Connected
 :   *Prerequisite: You can't have the __Local Hero__ Generic Ability.*
@@ -3199,7 +3200,7 @@ Advancements:
 - **Marital Status:** single - n/a, formerly married
 - **Known Relatives:** none
 - **Base of Operations:** 
-- **Group Affiliation:** Cosmic Legends of the Universe (*reserve member*), Los Angeles Police Department (medical leave)
+- **Group Affiliation:** Los Angeles Police Department (medical leave), Cosmic Legends of the Universe (*reserve member*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3418,9 +3419,9 @@ have been had his mother's pride not cost them both dearly.
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** Dindrane[]{.icon-female} (sister), Agresizia[]{.icon-female} (sister, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*)
-- **Base of Operations:** Camelot, England (formerly); New York City, New York (current); Sun City, U.S.A.; St. Helena Island (temporarily, 1900)
-- **Group Affiliation:** Knights of the Round Table (organization defunct), A.L.E.R.T. (reserve operative), Cosmic Legends of the Universe (*founding member*, *reserve member*)
+- **Known Relatives:** Lamorak[]{.icon-male} (brother, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*), Dindrane[]{.icon-female} (sister), Galahad y Llyn[]{.icon-male} (nephew, *deceased*)
+- **Base of Operations:** Camelot, England (formerly); Sun City, U.S.A.; St. Helena Island (temporarily, 1900); New York City, New York (current)
+- **Group Affiliation:** Knights of the Round Table (organization defunct), Cosmic Legends of the Universe (*founding member*, *reserve member*), A.L.E.R.T. (reserve operative)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3580,7 +3581,7 @@ ground and move them about.
 - **Marital Status:** single
 - **Known Relatives:** none
 - **Base of Operations:** 
-- **Group Affiliation:** Technopolis Academy (graduated), Junior Legends of America (*reserve member*)
+- **Group Affiliation:** Junior Legends of America (*reserve member*), Technopolis Academy (graduated)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3639,7 +3640,7 @@ powers  coming soon
 - **Identity:** public
 - **Place of Birth:** Sacramento, California
 - **Marital Status:** single
-- **Known Relatives:** Madinia Katherine Dee[]{.icon-female} (mother, Miss Magister*deceased*), John Arthur Dee VII(uncle, Master Magister*deceased*), Arthur Dee(purported ancestor, *deceased*), John Dee(purported ancestor), John Arthur Dee VI[]{.icon-male} (maternal grandfather, Master Magister)
+- **Known Relatives:** John Arthur Dee VI[]{.icon-male} (maternal grandfather, Master Magister), John Dee(purported ancestor), Madinia Katherine Dee[]{.icon-female} (mother, Miss Magister*deceased*), Arthur Dee(purported ancestor, *deceased*), John Arthur Dee VII(uncle, Master Magister*deceased*)
 - **Base of Operations:** 
 - **Group Affiliation:** State Bar of California, Cosmic Legends of the Universe (*reserve member*)
 
@@ -3726,9 +3727,9 @@ He's also a fairly decent attorney.
 - **Identity:** public
 - **Place of Birth:** Volcano City, Vulcanor Island
 - **Marital Status:** single
-- **Known Relatives:** Limuo Pele Vulcanor[]{.icon-female} (mother), Igneia Vulcanor[]{.icon-female} (sister), Tachylus Vulcanor Rex[]{.icon-male} (father)
+- **Known Relatives:** Tachylus Vulcanor Rex[]{.icon-male} (father), Limuo Pele Vulcanor[]{.icon-female} (mother), Igneia Vulcanor[]{.icon-female} (sister)
 - **Base of Operations:** 
-- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), N.O.V.A. Labs (*founding member*), Vulcanor Royal Family
+- **Group Affiliation:** N.O.V.A. Labs (*founding member*), Cosmic Legends of the Universe (*founding member*, *reserve member*), Vulcanor Royal Family
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -4050,7 +4051,7 @@ Classified
 - **Marital Status:** widowed
 - **Known Relatives:** My'Rinn To'Rezz[]{.icon-trans} (sibling's child, Tethys), My'Tonn To'Rezz[]{.icon-trans} (sibling, *deceased*), unnamed spouses[]{.icon-trans} (spouses, *deceased*)
 - **Base of Operations:** 
-- **Group Affiliation:** Cosmic Legends of the Universe (*founding member*, *reserve member*), N.O.V.A. Labs (*founding member*, co-founder), Sentinels of Saturn (*resigned*)
+- **Group Affiliation:** N.O.V.A. Labs (*founding member*, co-founder), Cosmic Legends of the Universe (*founding member*, *reserve member*), Sentinels of Saturn (*resigned*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -4206,7 +4207,7 @@ Hazel Montgomery had no super-powers, just her brilliant and creative mind.
 
 # Vespa 2.0 {#setting-vespa}
 
-![Vespa 2.0](art/jeshields/vesp.png){#art-vespa}
+![Vespa 2.0](art/jeshields/vespa.png){#art-vespa}
 ::::::::::::::: {.bio} 
 :::::::::::::::
 
@@ -4217,9 +4218,9 @@ Hazel Montgomery had no super-powers, just her brilliant and creative mind.
 - **Identity:** public
 - **Place of Birth:** Vadyvokia Castle, Vadyvokia
 - **Marital Status:** single
-- **Known Relatives:** Merlyn Malign(half-brother, Marquis Malign II), Magnus Merlyn Malign(father, Marquis Malign (I)), Hazel Montgomery(mother, Vespa (I)*deceased*)
+- **Known Relatives:** Merlyn Malign(half-brother, Marquis Malign II), Hazel Montgomery(mother, Vespa (I)*deceased*), Magnus Merlyn Malign(father, Marquis Malign (I))
 - **Base of Operations:** 
-- **Group Affiliation:** Cosmic Legends of the Universe, Junior Legends of America (*reserve member*), Technopolis Academy ((graduated)), Villains, Inc. ((as Hornette; expelled))
+- **Group Affiliation:** Villains, Inc. ((as Hornette; expelled)), Cosmic Legends of the Universe, Junior Legends of America (*reserve member*), Technopolis Academy ((graduated))
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -4488,9 +4489,11 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Bres**[]{.icon-male} Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
 
-- **Dindrane**[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight. See *Pervical, the Grailknight*
+- **Bres**[]{.icon-male} Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
 
 - **Dindrane**[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight. See *Pervical, the Grailknight*
+
+- **Dr. Phineas Pann**[]{.icon-male}  See *Villains, Inc.*
 
 - **Dr. Phineas Pann**[]{.icon-male}  See *Villains, Inc.*
 
@@ -4522,15 +4525,13 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Kaleidoscope Kidd**[]{.icon-trans} Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
 
-- **Limuo Pele**[]{.icon-female} Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
+- **Kaleidoscope Kidd**[]{.icon-trans} Mutant with color and light powers. Graduate of Technopolis Academy, child of the Teleidoscopic Man, and member of the Junior Legends of America.
 
 - **Limuo Pele**[]{.icon-female} Mother of Obsidius Rex and Igneia, estranged wife of King Tachylus, and former queen of Vulcanor.
 
 - **Lucky Star**[]{.icon-female} Teen heroine with luck-based powers, residing in St. Louis. Member of the Junior Legends of America.
 
 - **Lucky Star**[]{.icon-female} Teen heroine with luck-based powers, residing in St. Louis. Member of the Junior Legends of America.
-
-- **Magnus Merlyn Malign, Marquis of Vadyvokia**[]{.icon-male} Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0.
 
 - **Magnus Merlyn Malign, Marquis of Vadyvokia**[]{.icon-male} Technomagical genius, absolute ruler of Vadyvokia, and perhaps the most dangerous man on Earth. Ex-husband of Vespa I, and father of Vespa 2.0.
 
@@ -4550,7 +4551,7 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Neutrino**[]{.icon-female} Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
 
-- **Neutrino**[]{.icon-female} Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+- **Sandra Starr**[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends. See *A.L.E.R.T.*
 
 - **Sandra Starr**[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends. See *A.L.E.R.T.*
 
@@ -4562,7 +4563,7 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Tachylus Rex**[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
 
-- **Tachylus Rex**[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
+- **Tethys (My'Rinn To'Rezz)**[]{.icon-trans} Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
 
 - **Tethys (My'Rinn To'Rezz)**[]{.icon-trans} Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
 
@@ -4625,6 +4626,9 @@ These are key locations within the CLotU Universe.
 
 
 - **Otherworld**
+
+
+- **The Sun City Zoo**
 
 
 - **The Sun City Zoo**
@@ -4699,6 +4703,13 @@ their previous captors.
 These would come to be known on Earth as the Sentinels of Saturn.
  See also: *Titan*
 
+- **2 billion years ago** The moon Titan The Ro'Tan'Okk -- survivors of millennia of experimentation by the Visitors -- 
+form an organization of astronomers and soldiers to watch for the return of 
+their previous captors.
+
+These would come to be known on Earth as the Sentinels of Saturn.
+ See also: *Titan*
+
 - **200 to 500 million years ago** Everywhere The "Cosmic Dark Age" of the universe ends as stars and galaxies begin to form."
 
 
@@ -4720,7 +4731,7 @@ than face trial for her actions. Zaar's later activities are undocumented.
 - **3 billion years ago** The moon Titan After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
 
 
-- **3.5 billion years ago** The moon Titan The earliest forms of life arise in the subsurface ammonia oceans.
+- **3 billion years ago** The moon Titan After millenia of experimentation, the Visitors leave the Ro'Tan'Okk on Titan.
 
 
 - **3.5 billion years ago** The moon Titan The earliest forms of life arise in the subsurface ammonia oceans.
@@ -4738,6 +4749,15 @@ life on Earth and Titan.
 They leave behind multiple orbiting drones to monitor the planets and moons of the
 Solar System.
 
+
+- **3.85 billion years ago** The Solar System Probes launched by the Visitors discover the Solar System and note the potential for 
+life on Earth and Titan.
+
+They leave behind multiple orbiting drones to monitor the planets and moons of the
+Solar System.
+
+
+- **4 billion years ago** The planet Saturn Titan and the other moons of Saturn form.
 
 - **4 billion years ago** The planet Saturn Titan and the other moons of Saturn form.
 
@@ -4769,12 +4789,6 @@ discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
 Earth-based scientists would later record the burst on Christmas day, 2010.
 
 
-- **8.5 billion years ago** Andromeda Galaxy Visitor explorers trigger a 28-minute gamma burst to alert their homeworld of the 
-discovery of the race that would be known as the Ro'Tan'Okk -- the Titanians.
-
-Earth-based scientists would later record the burst on Christmas day, 2010.
-
-
 - **9.2 billion years ago** The Solar System Gravity causes matter in a molecular cloud to coalesce into the Sun and planets of the Solar System.
 
 - **9.2 billion years ago** The Solar System Gravity causes matter in a molecular cloud to coalesce into the Sun and planets of the Solar System.
@@ -4914,11 +4928,6 @@ the Network for Observation, Verification, and Analysis, opening the first labor
 in Technopolis, with Hazel Montgomery as the founding director.
 
 
-- **December, 1971** Technopolis, U.S.A. Titan, Lin Montgomery, Dr. Phineas Pann, Delphine Thompson, and King Tachylus Rex create
-the Network for Observation, Verification, and Analysis, opening the first laboratory
-in Technopolis, with Hazel Montgomery as the founding director.
-
-
 - **December, 2015** Sun City, U.S.A. After decades of allowing Earthlings to use he/him pronouns for them, Titan holds a
 press conference and announces that they would be using they/them pronouns henceforth.
 This is reported on the front page of the *New York Times*.
@@ -4950,11 +4959,6 @@ when the post's cloaking screens fail under mysterious circumstances.
 All personnel, including Ty'Tonn To'Rezz's three spouses and their sibling My'Tonn, are 
 killed.
  See also: *Titan*
-
-- **July, 1947** Roswell, New Mexico A malfunctioning Visitor monitor probe crashes in the southwest region of the United 
-States, alerting humans to the possible presence of intelligent life elsewhere in 
-the Solar System.
-
 
 - **July, 1947** Roswell, New Mexico A malfunctioning Visitor monitor probe crashes in the southwest region of the United 
 States, alerting humans to the possible presence of intelligent life elsewhere in 
@@ -5045,6 +5049,10 @@ of the Foreigners.
 avians, makes her first public appearance as The Falconer, with her bird Aquila.
 
 
+- **March, 1961** Missoula, Montana Jacqueline Chaffin, a member of the Foreigners' Settlers faction with the ability to speak to
+avians, makes her first public appearance as The Falconer, with her bird Aquila.
+
+
 - **March, 1964** Sun City, U.S.A. 18-year-old Obsidius Rex joins the Cosmic Legends as their first non-charter
 member, under the name "Volcano Kid" -- which he soon abandons to
 simply go by his own name.
@@ -5077,6 +5085,10 @@ she decides she no longer fits in with the planet and returns to the stars
 seen again until 1963.
 
 
+- **May, 1910** St. George's Chapel, Windsor Castle Sir Percival, the Grailknight, was sighted here paying his respects. He wouldn't be 
+seen again until 1963.
+
+
 - **May, 1959** Boston, Massachusetts Maddie Dee's father John (Master Magister) reveals the family legacy to her, and 
 she adopts the identity of Miss Magister as he retires.
 
@@ -5099,16 +5111,16 @@ later.
 platform outside of Technopolis.
 
 
-- **May, 1987** Technopolis, U.S.A. A new floating base for the Cosmic Legends is established, built on an anti-gravity
-platform outside of Technopolis.
-
-
 - **May, 2003** Technopolis, U.S.A. Lin Montgomery rejoins the Cosmic Legends as Vespa 2.0 and comes out publicly as
 non-binary. They're granted special reserve status in the Junior Legends as well.
 
 
 - **May, 2003** Technopolis, U.S.A. Lin Montgomery rejoins the Cosmic Legends as Vespa 2.0 and comes out publicly as
 non-binary. They're granted special reserve status in the Junior Legends as well.
+
+
+- **November, 1944** Boston, Massachusetts Teenage detective Madinia Dee, a former volunteer for the Boston Herald's
+"Rumor Clinic", is given her own advice column.
 
 
 - **November, 1944** Boston, Massachusetts Teenage detective Madinia Dee, a former volunteer for the Boston Herald's
@@ -5194,9 +5206,6 @@ founded; instead, all space operations would remain under military control.)
 - **October, 1956** The moon Jarnsaxa Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors.
 
 
-- **October, 1956** The moon Jarnsaxa Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors.
-
-
 - **October, 1965** Vadyvokia Castle, Vadyvokia After a whirlwind romance, Vespa (I) and Marquis Malign have a perfect "storybook
 wedding."
 
@@ -5214,11 +5223,6 @@ pure nuclear energy.
 help stabilize Delmore Thompson's energies, allowing him to reform his body from
 pure nuclear energy.
  See also: *Energy Boy*
-
-- **October, 1984** Pittsburgh, Pennsylvania After being expelled from Mag Findargat, the Cosmic Legends establish a base
-adjacent to the grounds of Chatham University. Their headquarters remains at
-the Gate House until May, 1987.
-
 
 - **October, 1984** Pittsburgh, Pennsylvania After being expelled from Mag Findargat, the Cosmic Legends establish a base
 adjacent to the grounds of Chatham University. Their headquarters remains at
@@ -5229,6 +5233,11 @@ the Gate House until May, 1987.
 her actions, she instead returns to the 24th century.
 
 
+- **October, 1984** Pittsburgh, Pennsylvania After being expelled from Mag Findargat, the Cosmic Legends establish a base
+adjacent to the grounds of Chatham University. Their headquarters remains at
+the Gate House until May, 1987.
+
+
 - **September, 1961** Technopolis, U.S.A. A.L.E.R.T. field agent Hazel Montgomery debuts her new Vespa (I) armor.
 
 
@@ -5244,10 +5253,6 @@ Xana Mega and her Aos Sí armies.
 Cosmic Legends of the Universe team to oppose the invasion of Earth by 
 Xana Mega and her Aos Sí armies.
  See also: *Cosmic Legends of the Universe*
-
-- **September, 1982** Technopolis, U.S.A. Bug (I), Energy Boy, the Kaleidoscope Kidd, and Marlinspike form the Junior Legends
-of America when the Cosmic Legends team are kidnapped by Marquis Malign.
-
 
 - **September, 1982** Technopolis, U.S.A. Bug (I), Energy Boy, the Kaleidoscope Kidd, and Marlinspike form the Junior Legends
 of America when the Cosmic Legends team are kidnapped by Marquis Malign.
@@ -10220,8 +10225,8 @@ Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
     ()
 
-Add to the Teamwork Pool
-:   A move taken by a hero designed to give the team an advantage against a Crisis.
+Action
+:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
     ()
 
 Add to the Teamwork Pool
@@ -10232,8 +10237,8 @@ Advance a Goal
 :   A move taken by a hero designed to move a Crisis closer to resolution.
     ()
 
-Advancement
-:   The choice made by a player at the end of a Storyline that reflects the hero's growth.
+Advance a Goal
+:   A move taken by a hero designed to move a Crisis closer to resolution.
     ()
 
 Advancement
@@ -10264,6 +10269,14 @@ Approach
 :   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
     ()
 
+Approach
+:   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
+    ()
+
+Comic Page Change Tools
+:   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
+    ()
+
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
     ()
@@ -10271,14 +10284,6 @@ Comic Page Change Tools
 Contined Next Page
 :   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
     ()
-
-Contined Next Page
-:   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
-    ()
-
-Cooldown
-:   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
-    (*recharge* in general TRPG terminology)
 
 Cooldown
 :   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
@@ -10300,10 +10305,6 @@ Crossover
 :   A game session with heroes from two or more different campaigns working together.
     ()
 
-Crossover
-:   A game session with heroes from two or more different campaigns working together.
-    ()
-
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information.
     (*Intelligence* in general TRPG terminology)
@@ -10311,6 +10312,10 @@ Detective
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information.
     (*Intelligence* in general TRPG terminology)
+
+Edge Success
+:   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
+    (*Success* in general TRPG terminology)
 
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
@@ -10324,20 +10329,20 @@ Effectiveness
 :   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
     (*Total, Result* in general TRPG terminology)
 
-Effectiveness
-:   The total number of successes in a roll, including those from Edge Successes, Fighting Styles, and Power Stunts or Combos.
-    (*Total, Result* in general TRPG terminology)
-
-Fighting Style
-:   An ability that changes the way a hero interacts with Crises.
-    (*feat, special ability* in general TRPG terminology)
-
 Fighting Style
 :   An ability that changes the way a hero interacts with Crises.
     (*feat, special ability* in general TRPG terminology)
 
 First Issue
 :   The first session of an ongoing Series; usually consisting of character introductions.
+    ()
+
+First Issue
+:   The first session of an ongoing Series; usually consisting of character introductions.
+    ()
+
+General Alert
+:   A move taken by a hero to call for any heroes not present at the scene; they arrive at the start of the next Hero Phase.
     ()
 
 General Alert
@@ -10348,6 +10353,14 @@ Goal
 :   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
     ()
 
+Goal
+:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
+    ()
+
+Guest Star
+:   A hero played by someone who isn't a regular player in the group.
+    (*guest player* in general TRPG terminology)
+
 Guest Star
 :   A hero played by someone who isn't a regular player in the group.
     (*guest player* in general TRPG terminology)
@@ -10356,14 +10369,6 @@ Health
 :   A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health.
     (*Health Points* in general TRPG terminology)
 
-Health
-:   A measure of how much harm a hero can withstand before being taken out of a fight. Heroes start Volume 1 with 10 Health.
-    (*Health Points* in general TRPG terminology)
-
-Hero
-:   A single character whose actions are determined by a player who isn't the Editor.
-    (*Player Character* in general TRPG terminology)
-
 Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
     (*Player Character* in general TRPG terminology)
@@ -10387,14 +10392,6 @@ Ideals
 Issue
 :   A game session, usually 2 to 4 hours.
     (*game session* in general TRPG terminology)
-
-Issue
-:   A game session, usually 2 to 4 hours.
-    (*game session* in general TRPG terminology)
-
-Issue 0
-:   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
-    ()
 
 Issue 0
 :   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
@@ -10408,14 +10405,6 @@ Lines and Veils
 :   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
     ()
 
-Lines and Veils
-:   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
-    ()
-
-Meanwhile, ...
-:   A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
-    ()
-
 Meanwhile, ...
 :   A Comic Page Change safety tool you can use to say you're ready to continue after a Retcon, Later That Day, or Continued Next Page tool is used.
     ()
@@ -10424,9 +10413,9 @@ Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might.
     (*energy* in general TRPG terminology)
 
-Move
-:   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
-    (*check or attack roll* in general TRPG terminology)
+Might
+:   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might.
+    (*energy* in general TRPG terminology)
 
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
@@ -10440,8 +10429,16 @@ Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
     ()
 
+Nova Power Words
+:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
+    ()
+
 One-Shot
 :   A game session that isn't part of an ongoing story.
+    ()
+
+Open Door
+:   A safety tool that promises any player can step away from the game table if they need to.
     ()
 
 Open Door
@@ -10451,6 +10448,14 @@ Open Door
 Opportunity
 :   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
     (*moral of the story* in general TRPG terminology)
+
+Opportunity
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
+    (*moral of the story* in general TRPG terminology)
+
+Outwit
+:   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
+    (*trickery* in general TRPG terminology)
 
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
@@ -10488,9 +10493,9 @@ Power Word
 :   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
     (*power keyword* in general TRPG terminology)
 
-Rescue
-:   A Goal that could resolve a Crisis by removing people or property from harm.
-    (*Saving Innocents* in general TRPG terminology)
+Power Word
+:   The words a player puts together to define their hero's use of a Power Display, Power Stunt, or Power Combo.
+    (*power keyword* in general TRPG terminology)
 
 Rescue
 :   A Goal that could resolve a Crisis by removing people or property from harm.
@@ -10504,9 +10509,9 @@ Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts.
     ()
 
-Series
-:   A group of Storylines following the same group of heroes
-    (*RPG Campaign* in general TRPG terminology)
+Scene Power Words
+:   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts.
+    ()
 
 Series
 :   A group of Storylines following the same group of heroes
@@ -10540,9 +10545,9 @@ Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
     ()
 
-Story
-:   An adventure, either self-contained in one Issue or continued to the next Issue.
-    ()
+Storyline
+:   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
+    (*plot* in general TRPG terminology)
 
 Storyline
 :   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
@@ -10579,10 +10584,6 @@ Timely Arrival
 Timely Arrival
 :   A move taken by a hero to arrive at the scene of a Crisis; they arrive at the end of the current Hero Phase.
     (*initiative roll* in general TRPG terminology)
-
-Volume
-:   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual.
-    (*season* in general TRPG terminology)
 
 Volume
 :   A set of Storylines in which each hero has had a Spotlight, which concludes with an Annual.

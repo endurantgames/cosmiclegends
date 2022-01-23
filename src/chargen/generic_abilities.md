@@ -1,4 +1,4 @@
-::::::::::::::::::: { .classdata } :::::::::::
+::::::::::::::::::: { .classdata .breakbefore } :::::::::::
 # [Generic Hero Abilities]{#toc-generic }
 
 Each Volume, you gain a new ability from your class.
@@ -118,7 +118,7 @@ Hero Cave
     Choose two Scene Power Words from the following Hero Cave Power Words
     List:
 
-    ::: cpw :::::::::::::::::
+    ::: { .cpw .nocolor } :::::::::::::::::
     #### Hero Cave Scene Power Words List {#generic-hero-cave-scene-power-words}
 
     - Alien
@@ -177,8 +177,8 @@ Hero Cave
     []{.herocave-id}
 
 Hero Without Fear
-:   You are completely fearless. If you are exposed to any fear-
-    based effects, spend 1 Might to counter that use for you only.
+:   You are completely fearless. If you are exposed to any fear-based 
+    Crisis Moves, spend 1 Might to counter that Move for you only.
     Your lack of fear lets you take risks to save others without
     concern for your own safety: You can choose to add 2 dice when 
     you roll to advance the Rescue goal. If you do, lose 1 Health 
@@ -196,8 +196,7 @@ Local Hero
     choose another city covered by this Ability.
 
 Three-Point Landing
-:   You can pull off the classic "superhero landing" with practiced 
-    ease.
+:   You can pull off the classic "superhero landing" with practiced ease.
     Whenever you make a roll at the end of a Crisis Countdown to 
     create the Teamwork Pool, or a roll for the 
     [Timely Arrival move](#toc-crisis-timely), any roll of 3 counts
@@ -205,7 +204,9 @@ Three-Point Landing
     landing as part of your arrival on the scene.
 
 Unaging
-:   To Be Determined
+:   For whatever reason, you don't age. If you are affected by any age-themed
+    Crisis Moves, you can spend 1 Might or 1 Health to counter that Move
+    for yourself only.
 
 Well-Connected
 :   *Prerequisite: You can't have the __Local Hero__ Generic Ability.*
