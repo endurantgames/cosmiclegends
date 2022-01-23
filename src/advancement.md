@@ -7,9 +7,10 @@ After each Storyline concludes, choose one Advancement from the following list:
 
 - Increase your Health by 1.
 - Increase your Might by 1.
-- Add one Skill; you can only choose this Advancement once per volume.
-- Add one Power Word from any class; you can only choose this Advancement once per volume.
-- Add one Fighting Style; you can only choose this Advancement once per volume.
+- Add one Power Word from your hero Class.
+- Add one Skill; you can only choose this Advancement once per Volume.
+- Add one Power Word from any hero Class's Power Words list; you can only choose this Advancement once per Volume.
+- Add one Fighting Style; you can only choose this Advancement once per Volume.
 
 ## Spotlight Hero
 
@@ -45,7 +46,8 @@ In additional, you can choose one or more of the following changes to your hero:
 
 If you're creating a new hero for an ongoing Series, you don't
 start at Volume One -- instead, your hero starts at the same Volume as
-everyone else.
+everyone else. See [the next section](#toc-experience-heroes) for 
+complete details.
 
 ### Class Abilities
 

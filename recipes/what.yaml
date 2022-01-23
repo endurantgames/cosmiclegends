@@ -1,6 +1,5 @@
-metadata
+metadata/what
+setting/
 setting/what/*
-setting/what/lists/groups
-setting/what/lists/locations
-setting/what/lists/timelines
-setting/what/lists/individuals
+setting/what/lists/*
+setting/index

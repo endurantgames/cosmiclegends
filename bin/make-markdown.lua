@@ -40,10 +40,10 @@ g.CONFIG      = {
 };
 
 g.CONTENT     = {
-  in_hd       = "* in Harmony Drive",
-  in_generic  = "* in general TRPG terminology",
-  herosheet   =
-[======[
+  in_hd         = "* in Harmony Drive",
+  in_generic    = "* in general TRPG terminology",
+  higher_volume = " *Note: This hero is statted at higher than Volume 1, and should not be played a starting hero in a Volume 1 Series, Special, or One-Shot.*",
+  herosheet     = [======[
 :::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
 [Hero Sheet                 ]{#anchor-herosheet .anchor}
 
@@ -698,7 +698,10 @@ local function yaml_sheet_basics(sheet_stats)
   end;
 
   if   stats.volume and type(stats.volume) == "number"
-  then markdown = markdown .. "\n[" .. stats.volume .. "]{.pregen-volume .box .v1}";
+  then if stats.volume > 1
+       then markdown = markdown .. "\n[" .. stats.volume .. "]{.pregen-volume .box .v1}";
+       else markdown = markdown .. "\n[" .. stats.volume .. "]{.pregen-volume .box .v1 .higher}";
+       end;
   else markdown = markdown .. "\n[]{.pregen-volume .box .v1}";
   end;
 
@@ -1008,6 +1011,10 @@ local function yaml_character(yaml_tree)
             if stats.name  then markdown = markdown .. "\n## " .. stats.name .. "\n\n";             end;
             if stats.class then markdown = markdown .. "- **" .. "Class:** " .. stats.class .. "\n" end;
 
+	    if   stats.volume and type(stats.volume) == "number" and stats.volume > 1
+            then markdown = markdown .. "\n- **Volume:** " .. stats.volume .. g.CONTENT.higher_volume .. "\n";
+            end;
+
             if   stats.approaches
             then yprint("We have approaches!");
                  local approach = unpack_yaml_tree(stats.approaches, "approaches");
@@ -1230,14 +1237,12 @@ local function yaml_glossary(yaml_tree)
   yprint("yaml xformat is:", "=== GLOSSARY ===");
   yprint("number of entries:", #flat_tree);
   local keys = get_sorted_keys(flat_tree, true);
-  -- iprint("keys:", keys);
   for _, k in pairs(keys)
   do  if   not flat_tree[k] then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST"); os.exit(1); end;
       local term, data    = k, flat_tree[k];
       if   term ~= "metadata" and term ~= "flat"
-      then yprint("term", term);
+      then -- yprint("term", term);
            local glossary_data =  unpack_yaml_tree(data, term);
-
            local generic_equiv =  glossary_data.generic_equiv;
            local def           =  glossary_data.def
            local hq_equiv      =  glossary_data.hq_equiv;
@@ -1264,9 +1269,9 @@ local function yaml_glossary(yaml_tree)
            if     equivs ~= {}
            then   slurped = slurped .. "\n    (" .. table.concat(equivs, "; ") .. ")";
            elseif hq_equiv
-           then   eprint("ERROR hq_equiv exists but is type",      type(hq_equiv));
+           then   yprint("ERROR hq_equiv exists but is type",      type(hq_equiv));
                   os.exit(1);
-           elseif generic_equiv
+           elseif yeneric_equiv
            then   eprint("ERROR generic_equiv exists but is type", type(generic_equiv));
                   os.exit(1);
            end;

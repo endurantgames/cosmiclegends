@@ -1210,6 +1210,10 @@ blockquote {
 .herosheet .pregen .pregen-ideal.pregen-i5 { bottom: 0.500in; left: 4.625in;        }
 .herosheet .pregen .pregen-volume          { top: 1.655in; left:  1.20in;           }
 
+.herosheet .pregen .pregen-volume.higher        { color:   red; }
+.herosheet .pregen .pregen-volume.higher:before { content: "*"; }
+.herosheet .pregen .pregen-volume.higher:after  { content: "*"; }
+
 .herosheet .pregen .pregen-bio {
   bottom:      1.00in;
   right:       0.70in;
@@ -2031,6 +2035,8 @@ a:link.external:after {
   margin-top:     2pt;
   margin-bottom:  2pt;
 }
+
+.table-wide { break-inside: avoid; column-span: all; }
 
 /* borders */
 
