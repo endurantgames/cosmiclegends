@@ -4,7 +4,7 @@
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
 
-![Driven by Harmony](art/harmony_drive/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
