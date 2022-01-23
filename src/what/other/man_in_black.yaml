@@ -19,9 +19,9 @@
   - base_of_operations: 
   - height: 
   - weight: 
-- history: History coming soon
-- powers:  Powers coming soon
-- weapons: Weapons coming soon
+- history: history coming soon
+- powers:  powers coming soon
+- weapons: weapons coming soon
 - stats:
   - name: *title
   - goals:

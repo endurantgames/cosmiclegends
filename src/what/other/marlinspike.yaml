@@ -19,13 +19,9 @@
   - base_of_operations: Technopolis Academy
   - height: 5' 9"
   - weight: 125 lbs.
-- history: |
-    This is this history of poor Marlinspike.
-- powers: |
-    Marlinspike had water-control powers.
-- weapons: |
-    Marlinspike used a spike (a marlinspike, really) and a net as
-    weapons.
+- history: This is this history of poor Marlinspike.
+- powers:  Marlinspike had water-control powers.
+- weapons: Marlinspike used a spike (a marlinspike, really) and a net as weapons.
 - stats:
   - class: The Shaper
   - name: *title

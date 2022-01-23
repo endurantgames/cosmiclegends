@@ -19,39 +19,39 @@
   - base_of_operations: 
   - height: 
   - weight: 
-- history: |
+- history: history coming soon
 
-- powers: |
+- powers: powers coming soon
 
-- weapons: |
+- weapons: weapons coming soon
 
 - stats:
   - name: *title
   - goals:
-    - smash:  "+1"
-    - outwit: "+1" 
-    - allay:  "+1" 
-    - rescue: "+1"
+    - smash:  +1
+    - outwit: +1 
+    - allay:  +1 
+    - rescue: +1
   - resolution:
     - smash: 
     - outwit: 
     - allay: 
     - rescue: 
   - crisis_rules:
-    - "name":
+    - name:
       - desc: 
-    - "name":
+    - name:
       - desc: 
-    - "name":
+    - name:
       - desc: 
   - crisis_moves:
-    - "name": 
+    - name: 
       - counter_cost: 
       - consequence: 
-    - "name": 
+    - name: 
       - counter_cost: 
       - consequence: 
-    - "name": 
+    - name: 
       - counter_cost: 
       - consequence: 
 
