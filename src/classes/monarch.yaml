@@ -1,9 +1,10 @@
 - metadata:
   - x-format: class
   - classname: &classname Monarch
-  - classid:  monarch
+  - classid:  &classid monarch
   - title: The *classname
   - anchor: class-monarch
+  - toc: toc-monarch
 - quote: |
     I shall forgive you but once for your disrespect.
 - desc: |
@@ -61,7 +62,7 @@
       stereotypes, including accents, as you play your Monarch."
 - skills:
   - "pre-chosen": [Explorer, Historian, Politician]
-  - plus:         "any two skills of your choice"
+  - plus:         any two skills of your choice
 - "power-words":
   - preamble: standard
   - core: [Reserves, Unexpected]

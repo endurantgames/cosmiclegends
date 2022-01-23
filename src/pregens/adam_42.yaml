@@ -2,7 +2,7 @@
   - yaml_version:    1.2
   - x-format:        character-sheet
   - title:           &title "Adam-42: <span class=\"shrink2\">One-Officer Police Force</span>"
-  - anchor:          setting-adam-42
+  - anchor:          pregen-adam-42
 - picture:
   - url:             art/jeshields/construct.png
   - alt:             "Adam-42: One-Officer-Police-Force"

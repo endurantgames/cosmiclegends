@@ -2,7 +2,7 @@
   - title:        &title Obsidius Rex
   - x-format:     character-sheet
   - yaml_version: 1.2
-  - anchor:       setting-obsidius-rex
+  - anchor:       pregen-obsidius-rex
 - art:
   - url:    art/jeshields/monarch.png
   - alt:    *title

@@ -2,7 +2,7 @@
   - title: &title The Head Librarian
   - x-format: character-sheet
   - yaml_version: 1.2
-  - anchor: setting-head-librarian
+  - anchor: pregen-head-librarian
 - art:
   - url:    art/jeshields/psychic.png
   - alt:    *title
@@ -77,11 +77,11 @@
     - nova: [Information, Overload]
   - abilities: 
     - Our Minds As One:
-      - desc: "*description coming soon*"
+      - desc: description coming soon
       - volume: core
       - class: psychic
     - Telekinetics:
-      - desc: "*description coming soon*"
+      - desc: description coming soon
       - volume: 1
       - class: psychic
     - TBD:

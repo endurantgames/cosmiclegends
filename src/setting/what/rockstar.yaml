@@ -1,18 +1,23 @@
 - metadata:
-  - title: &title Rockstar
-  - anchor: setting-rockstar
+  - title:        &title Rockstar
+  - anchor:       setting-rockstar
   - yaml_version: 1.2
-  - x-format: character
+  - x-format:     character
+- art:
+  - url:    art/jeshields/rockstar.png
+  - face:   art/jeshields/rockstar_face.png
+  - alt:    *title
+  - anchor: art-rockstar
 - bio:
-  - real_name: Geraldine "Jeri" North
-  - occupation: musician
+  - real_name:    Geraldine "Jeri" North
+  - occupation:   musician
   - legal_status: Citizen of the United States
   - gender: 
-    - desc: female
+    - desc:     female
     - pronouns: she/her
-  - identity: public
-  - place_of_birth: Toms River, New Jersey
-  - marital_status: single
+  - identity:   public
+  - place_of_birth:  Toms River, New Jersey
+  - marital_status:  single
   - known_relatives: none
   - group_affiliation: 
     - Cosmic Legends of the Universe:

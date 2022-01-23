@@ -3,44 +3,44 @@
   - anchor: setting-vespa-1
   - yaml_version: 1.2
 - bio:
-  - real_name: Hazel Montgomery
-  - occupation: scientist, inventor
+  - real_name:    Hazel Montgomery
+  - occupation:   scientist, inventor
   - legal_status: Citizen of the United States
   - gender: 
-    - desc: female
-    -Tuatha Dé Danann pronouns: she/her
-  - identity: public
+    - desc:         female
+    - pronouns:     she/her
+  - identity:       public
   - place_of_birth: Albuquerque, New Mexico
   - marital_status: divorced
   - known_relatives: 
     - Magnus Merlyn Malign:
       - relationship: ex-husband
-      - gender: male
-      - aka: Marquis Malign
+      - gender:       male
+      - aka:          Marquis Malign
     - Lin Montgomery:
       - relationship: child
-      - aka: "Vespa 2.0"
-      - gender: trans
+      - aka:          Vespa 2.0
+      - gender:       trans
     - Del Thompson:
       - relationship: ward
-      - aka: Energy Boy
-      - gender: male
+      - aka:          Energy Boy
+      - gender:       male
   - Group Affiliation: 
     - "A.L.E.R.T.":
-      - active: false
-      - status: former operative
+      - active:  false
+      - status:  former operative
     - Cosmic Legends of the Universe:
-      - active: false
+      - active:  false
       - founder: true
     - "N.O.V.A. Labs":
-      - active: true
+      - active:  true
       - founder: true
     - Neutrino:
-      - active: false
-      - status: former science partner
+      - active:  false
+      - status:  former science partner
   - base: ["Technopolis, U.S.A.", "Sun City, U.S.A."]
-  - height: "5' 2\""
-  - weight: "125 lbs."
+  - height: 5' 2\"
+  - weight: 125 lbs.
   - eyes: hazel
   - hair: light brown
 - history: |

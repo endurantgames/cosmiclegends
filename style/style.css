@@ -30,59 +30,59 @@ header h1     { string-set: gamename content()       }
 
 #toc .toc-heading { font-family: var(--font-h1); font-size: var(--h1); }
 
-body         { column-count: 2;                                                                   }
-body         { column-gap: 24pt;                                                                  }
-body         { column-width: auto;                                                                }
-body         { font-family: var(--font);                                                          }
-body         { font-size: var(--body);                                                            }
-h1           { break-inside: avoid; break-after: avoid;                                           }
-h1           { column-span: all;                                                                  }
-h1           { font-family: var(--font-h1); font-size: var(--h1);                                 }
-h1           { font-size: var(--h1);                                                              }
-h1           { text-align: center;                                                                }
-h2           { break-inside: avoid; break-after: avoid;                                           }
-h2           { font-family: var(--font-h2); font-size: var(--h2);                                 }
-h2           { font-size: var(--h2);                                                              }
-h2           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal;                    }
-h3           { break-inside: avoid; break-after: avoid;                                           }
-h3           { font-family: var(--font-h3); font-size: var(--h3);                                 }
-h3           { font-size: var(--h3);                                                              }
-h3           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal;                    }
-h4           { break-inside: avoid; break-after: avoid;                                           }
-h4           { font-family: var(--font-h4); font-size: var(--h4);                                 }
-h4           { font-size: var(--h4);                                                              }
-h4           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal;                    }
-h5           { break-inside: avoid; break-after: avoid;                                           }
-h5           { color: var(--color-sheet-dark);                                                    }
+body         { column-count: 2;                                                }
+body         { column-gap: 24pt;                                               }
+body         { column-width: auto;                                             }
+body         { font-family: var(--font);                                       }
+body         { font-size: var(--body);                                         }
+h1           { break-inside: avoid; break-after: avoid;                        }
+h1           { column-span: all;                                               }
+h1           { font-family: var(--font-h1); font-size: var(--h1);              }
+h1           { font-size: var(--h1);                                           }
+h1           { text-align: center;                                             }
+h2           { break-inside: avoid; break-after: avoid;                        }
+h2           { font-family: var(--font-h2); font-size: var(--h2);              }
+h2           { font-size: var(--h2);                                           }
+h2           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
+h3           { break-inside: avoid; break-after: avoid;                        }
+h3           { font-family: var(--font-h3); font-size: var(--h3);              }
+h3           { font-size: var(--h3);                                           }
+h3           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
+h4           { break-inside: avoid; break-after: avoid;                        }
+h4           { font-family: var(--font-h4); font-size: var(--h4);              }
+h4           { font-size: var(--h4);                                           }
+h4           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
+h5           { break-inside: avoid; break-after: avoid;                        }
+h5           { color: var(--color-sheet-dark);                                 }
 h5           { font-family: var(--font-h5); font-size: var(--h5); color: var(--color-sheet-dark); }
-h5           { font-size: var(--h5); color: var(--color-sheet-dark);                              }
-h5           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal;                    }
-h6           { break-inside: avoid; break-after: avoid;                                           }
-h6           { color: var(--color-sheet-dark);                                                    }
+h5           { font-size: var(--h5); color: var(--color-sheet-dark);           }
+h5           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
+h6           { break-inside: avoid; break-after: avoid;                        }
+h6           { color: var(--color-sheet-dark);                                 }
 h6           { font-family: var(--font-h6); font-size: var(--h6); color: var(--color-sheet-dark); }
-h6           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal;                    }
-td           { font-size:   var(--td);                                                            }
-td           { vertical-align: top;                                                               }
-th           { font-family: var(--font);    font-size: var(--th);                                 }
-th           { font-size: var(--th);                                                              }
-.breakbefore { break-before: page; margin-top: 0;                                                 }
-.colbefore   { break-before: column; margin-top: 0;                                               }
-.nobreak     { break-before: avoid-page;                                                          }
-.nocolbreak  { break-before: avoid-column;                                                        }
-.colspan     { column-span: all;                                                                  }
-.bottom      { column-span: all; float: page-bottom;                                              }
-p+table      { break-before: avoid-page;                                                          }
-table        { border-collapse: collapse; break-inside: avoid-page;                               }
-table tr     { break-inside: avoid-page;                                                          }
-table thead  { break-after: avoid;                                                                }
-table thead  { break-after: avoid;                                                                }
-table th     { padding: 2pt;                                                                      }
-table td     { padding: 2pt;                                                                      }
-table th     { vertical-align: bottom;                                                            }
-table td     { vertical-align: top;                                                               }
-p            { margin-top: 0.25em; margin-bottom: 0.5em;                                          }
-table        { width: 100%;                                                                       }
-#cover + h1  { counter-reset: page; counter-increment: page; break-before: right; margin: 0;      }
+h6           { margin-bottom: 0.25em; margin-top: 0.75em; font-weight: normal; }
+td           { font-size:   var(--td);                                         }
+td           { vertical-align: top;                                            }
+th           { font-family: var(--font);    font-size: var(--th);              }
+th           { font-size: var(--th);                                           }
+.breakbefore { break-before: page; margin-top: 0;                              }
+.colbefore   { break-before: column; margin-top: 0;                            }
+.nobreak     { break-before: avoid-page;                                       }
+.nocolbreak  { break-before: avoid-column;                                     }
+.colspan     { column-span: all;                                               }
+.bottom      { column-span: all; float: page-bottom;                           }
+p+table      { break-before: avoid-page;                                       }
+table        { border-collapse: collapse; break-inside: avoid-page;            }
+table tr     { break-inside: avoid-page;                                       }
+table thead  { break-after: avoid;                                             }
+table thead  { break-after: avoid;                                             }
+table th     { padding: 2pt;                                                   }
+table td     { padding: 2pt;                                                   }
+table th     { vertical-align: bottom;                                         }
+table td     { vertical-align: top;                                            }
+p            { margin-top: 0.25em; margin-bottom: 0.5em;                       }
+table        { width: 100%;                                                    }
+#cover + h1  { counter-reset: page; counter-increment: page; break-before: right; margin: 0; }
 
 :matches(h1, h2, h3, h4, h5, h6).breakbefore { column-span: all; }
 
@@ -1234,6 +1234,25 @@ blockquote {
   top:         3.25in;
   left:        5in;
   position:    absolute;
+  background:  white;
+  border:      0.5pt solid black;
+}
+
+.what-group .group-faces {
+  display:     block;
+  text-align:  center
+}
+
+.what-group .group-faces .member {
+  display:     inline-block;
+}
+
+.what-group .group-faces .member .face {
+  display:     inline-block;
+  box-sizing:  border-box;
+  transform:   rotate(45deg);
+  width:       1.00in;
+  height:      1.00in;
   background:  white;
   border:      0.5pt solid black;
 }

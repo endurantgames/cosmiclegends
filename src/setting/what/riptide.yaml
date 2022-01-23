@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/shaper.png
   - alt: *title
+  - anchor: art-riptide
 - bio:
   - real_name: Kelly Liang
   - occupation: lifeguard, marine biologist

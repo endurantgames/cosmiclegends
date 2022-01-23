@@ -2,7 +2,7 @@ metadata/game
 cover
 intro
 toc
-ethos
+# ethos
 # preface/intro
 # preface/no_fascists
 # preface/four_color
@@ -31,10 +31,10 @@ ethos
 # chargen/identity
 # chargen/storyline
 # skills
-classes/
-classes/dual_class
-classes/multi_class
-classes/*
+# classes/
+# classes/dual_class
+# classes/multi_class
+# classes/*
 # powers/intro
 # powers/display
 # powers/stunt
@@ -46,20 +46,16 @@ classes/*
 # crisis/crisis_phase
 # crisis/post
 # advancement
-# setting/markdown/*
 # setting/what/brigantia
 # setting/what/grailknight
 # setting/what/lists/groups
 # setting/what/lists/timeline
-# setting/what/pdsh/homefront/intro
-# setting/what/pdsh/western_front/intro
-# setting/what/pdsh/future/intro
-team/*
+# team/*
 # editor/intro
 # editor/storyline
 # editor/crisis
 # editor/scenes
-# # sample_crises
+# sample_crises
 # sample_crises/intro
 # sample_crises/base_admin/*
 # sample_crises/external/*

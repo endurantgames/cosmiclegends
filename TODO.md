@@ -7,11 +7,11 @@ General ideas
 
 - [ ]   Mecha / Kaiju / Giant (Red Ronin vs. Godzilla?)
 - [/]   Coding for yaml
-  - [/] Glossary
-  - [/] Characters
-  - [ ] Lists
-  - [ ] Places
-  - [ ] Teams
+  - [/]   Glossary
+  - [/]   Characters
+  - [ ]   Lists
+  - [ ]   Places
+  - [ ]   Groups / Teams
 - [ ]   Abilities database
 
 Manuscript
@@ -55,47 +55,46 @@ Manuscript
   - [/]   The Twins            (new abilities)
   - [/]   The Wheelman         (new abilities)
 - [ ]     Pregens: 1 extra ability each
-  - [ ]     Using pregens
-  - [ ]     Multi- and/or Dual-Class pregens?
-  - [ ]     The Cosmic Legends
-  - [ ]       Multi-Class pregen (complete writeup)
-  - [ ]       Dual-Class pregen  (complete writeup)
-  - [/]       Adam-42            (complete writeup)
-  - [/]       Brigantia          (new ability)
-  - [ ]       Eidolon            (new character: haunt)
-  - [/]       Energy Boy         (new ability)
-  - [ ]       Falconer           (new character: twins)
-  - [ ]       Far-Seeker         (new character: expatriate)
-  - [/]       Grailknight        (new ability)
-  - [/]       Head Librarian     (new ability)
-  - [ ]       Hellblade          (new character: hellspawn)
-  - [/]       Jack Dee           (new ability)
-  - [ ]       Momentum           (new character: speedster)
-  - [/]       Obsidius Rex       (new ability)
-  - [/]       Riptide            (new ability)
-  - [/]       Rockstar           (new ability)
-  - [/]       Titan              (new ability)
-  - [/]       Vespa              (new ability)
-  - [ ]       Yeoman             (new character: kid)
+  - [ ]   Multi- and/or Dual-Class pregens?
+  - [ ]   The Cosmic Legends
+  - [ ]     Multi-Class pregen (complete writeup)
+  - [ ]     Dual-Class pregen  (complete writeup)
+  - [/]     Adam-42            (complete writeup)
+  - [/]     Brigantia          (new ability)
+  - [ ]     Eidolon            (new character: haunt)
+  - [/]     Energy Boy         (new ability)
+  - [ ]     Falconer           (new character: twins)
+  - [ ]     Far-Seeker         (new character: expatriate)
+  - [/]     Grailknight        (new ability)
+  - [/]     Head Librarian     (new ability)
+  - [ ]     Hellblade          (new character: hellspawn)
+  - [/]     Jack Dee           (new ability)
+  - [ ]     Momentum           (new character: speedster)
+  - [/]     Obsidius Rex       (new ability)
+  - [/]     Riptide            (new ability)
+  - [/]     Rockstar           (new ability)
+  - [/]     Titan              (new ability)
+  - [/]     Vespa              (new ability)
+  - [ ]     Yeoman             (new character: kid)
 - [/]     Ideals
   - [ ]   Review pregens / NPCs
-    - [ ] Adam-42
-    - [ ] Brigantia
-    - [ ] Eidolon
-    - [ ] Energy Boy
-    - [ ] Falconer
-    - [ ] Far-Seeker
-    - [ ] Grailknight
-    - [ ] Head Librarian
-    - [ ] Hellblade
-    - [ ] Jack Dee
-    - [ ] Momentum
-    - [ ] Obsidius Rex
-    - [ ] Riptide
-    - [ ] Rockstar
-    - [ ] Titan
-    - [ ] Vespa
-    - [ ] Yeoman
+    - [ ]   Adam-42
+    - [ ]   Brigantia
+    - [ ]   Eidolon
+    - [ ]   Energy Boy
+    - [ ]   Falconer
+    - [ ]   Far-Seeker
+    - [ ]   Grailknight
+    - [ ]   Head Librarian
+    - [ ]   Hellblade
+    - [ ]   Jack Dee
+    - [ ]   Momentum
+    - [ ]   Obsidius Rex
+    - [ ]   Riptide
+    - [ ]   Rockstar
+    - [ ]   Titan
+    - [ ]   Vespa
+    - [ ]   Yeoman
 - [/]   Goals
   - [x] Smash
   - [x] Outwit

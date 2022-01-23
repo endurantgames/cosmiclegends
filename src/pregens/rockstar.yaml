@@ -1,14 +1,14 @@
 - metadata:
   - title:        &title Rockstar
-  - anchor:       setting-rockstar
+  - anchor:       pregen-rockstar
   - yaml_version: 1.2
   - x-format:     character-sheet
 - art:
-  - url:    art/jeshields/monstrosity.png
-  - alt:    *title
-  - face:   art/jeshields/rockstar_face.png
-  - credit: &copy; JEShields
-  - anchor: art-rockstar
+  - url:          art/jeshields/monstrosity.png
+  - alt:          *title
+  - face:         art/jeshields/rockstar_face.png
+  - credit:       &copy; JEShields
+  - anchor:       art-rockstar
 - bio:
   - real_name:       Geraldine "Jeri" North
   - occupation:      musician
@@ -28,7 +28,7 @@
   - weight:     "1040 lbs."
   - eyes:       blue
   - hair:       none
-- history: "*coming soon*"
+- history: coming soon
 - powers: |
     Jeri North's exposure to *bremsstrahlung* rays fundamentally changed
     the nature of her body. Her skin is a rough, rocky substance with

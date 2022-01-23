@@ -35,7 +35,7 @@
     - "What are your views on religion -- both your hero's own religion and those that could be seen as rival faiths?"
 - skills:
   - pre-chosen: [Explorer, Historian, Mystic]
-  - plus: "any two skills of your choice"
+  - plus: any two skills of your choice
 - soapbox:
   - title: "Real-World Religions?"
   - anchor: soapbox-real-world-religions
@@ -83,7 +83,7 @@
     standard: true
 - classpic:
   - url: art/jeshields/brigantia.png
-  - alt: "Brigantia, Chosen of the Tuatha Dé Danann"
+  - alt: Brigantia, Chosen of the Tuatha Dé Danann
   - anchor: art-class-divine
 - abilities:
   - preamble:

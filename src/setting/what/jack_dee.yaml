@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/mage.png
   - alt: Jack Dee
+  - anchor: art-jackdee
 - bio:
   - real_name: John Arthur Dee VIII
   - occupation: Lawyer, mage

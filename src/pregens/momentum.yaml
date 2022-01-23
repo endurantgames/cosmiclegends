@@ -2,7 +2,7 @@
   - title: &title    Momentum
   - x-format:        character-sheet
   - yaml_version:    1.2
-  - anchor:          setting-momentum
+  - anchor:          pregen-momentum
 - art:
   - url:             art/jeshields/speedster.png
   - alt:             *title
@@ -23,19 +23,15 @@
     - Cosmic Legends of the Universe:
       - active: true
       - reserve: false
-  - base:            Sun City, U.S.A.
-  - height:          6' 0\"
-  - weight:          165 lbs.
-  - eyes:            Brown
-  - hair:            Brown
-  - desc: |
-      *description coming soon*
-- history: | 
-    *history coming soon*
-- powers: |
-    *description coming soon*
-- weapons: |
-    *description coming soon*
+  - base:   Sun City, U.S.A.
+  - height: 6' 0\"
+  - weight: 165 lbs.
+  - eyes:   Brown
+  - hair:   Brown
+  - desc:   description coming soon
+- history:  history coming soon
+- powers:   description coming soon
+- weapons:  description coming soon
 - stats:
   - name:       *title
   - classname:  The Speedster

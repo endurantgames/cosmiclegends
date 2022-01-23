@@ -2,7 +2,7 @@
   - title:           &title Yeoman
   - x-format:        character-sheet
   - yaml_version:    1.2
-  - anchor:          setting-yeoman
+  - anchor:          pregen-yeoman
 - art:
   - url:             art/jeshields/kid.png
   - alt:             *title
@@ -27,15 +27,15 @@
       - active: true
       - reserve: false
       - leader: true
-  - base:            "Sun City, U.S.A."
-  - height:          "5' 8\""
-  - weight:          "130 lbs."
-  - eyes:            Brown
-  - hair:            Black
-  - desc:  *description coming soon*
-- history: *history     coming soon*
-- powers:  *description coming soon*
-- weapons: *description coming soon*
+  - base:   Sun City, U.S.A.
+  - height: 5' 8\"
+  - weight: 130 lbs.
+  - eyes:   Brown
+  - hair:   Black
+  - desc:   description coming soon
+- history:  history     coming soon
+- powers:   description coming soon
+- weapons:  description coming soon
 - stats:
   - name:       *title
   - classname:  &classname Kid

@@ -1,0 +1,78 @@
+- metadata:
+  - title:          Junior Legends of America
+  - anchor:         setting-jla
+  - x-format:       group
+  - yaml_version:   1.2
+  - class:          what-group
+- group:
+  - type:           Superhero Team
+  - base:
+    - "Technopolis, U.S.A.":
+      - active:   false
+      - current:  true
+    - "Sun City, U.S.A.":
+      - active:   false
+      - current:  false
+      - former:   true
+    - "Technopolis Academy":
+      - active:   false
+      - current:  false
+      - former:   true
+      - secret:   true
+  - members:
+    - Energy Boy:
+      - active:   false
+      - face:     jeshields/energy_boy_face.png
+      - founder:  true
+      - gender:   male
+      - reserve:  true
+    - Vespa 2.0:
+      - active:   false
+      - face:     jeshields/vespa_face.png
+      - founder:  true
+      - gender:   trans
+      - reserve:  true
+    - Yeoman:
+      - active:   true
+      - face:     jeshields/yeoman_face.png
+      - founder:  false
+      - gender:   female
+      - leader:   true
+    - Howl:
+      - active:   true
+      - face:     jeshields/howl_face.png
+      - founder:  false
+      - gender:   female
+    - Bug II:
+      - active:   false
+      - face:     jeshields/bug_ii_face.png
+      - gender:   male
+      - reserve:  true
+      - retired:  true
+    - Gloom:
+      - active:   false
+      - face:     jeshields/gloom_face.png
+      - founder:  false
+      - gender:   female
+      - resigned: true
+    - Marlinspike:
+      - active:   false
+      - deceased: true
+      - face:     jeshields/marlinspike_face.png
+      - founder:  true
+      - gender:   male
+    - Lucky Star:
+      - active:   true
+      - face:     jeshields/lucky_star_face.png
+      - female:   true
+      - founder:  false
+      - gender:   female
+  - Allies:  [N.O.V.A. Labs, Cosmic Legends of the Universe, Technopolis Academy, A.L.E.R.T.]
+  - Enemies: [Atomicorps, The Crime Institute, Glytch, arquis Malign, Xana Mega]
+  - history: |
+      Team of teenage and young adult heroes, many of whom 
+      attended Technopolis Academy. 
+      
+      Although they've collectively been offered membership in 
+      the Cosmic Legends, most have preferred to stay members of 
+      the JLA instead.

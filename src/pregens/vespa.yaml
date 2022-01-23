@@ -1,6 +1,6 @@
 - metadata:
   - title: &title Vespa 2.0
-  - anchor: setting-vespa
+  - anchor: pregen-vespa
   - x-format: character-sheet
   - yaml_version: 1.2
 - art:

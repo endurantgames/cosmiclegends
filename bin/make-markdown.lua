@@ -17,138 +17,141 @@ local g = { -- g for "global"
             -- USED = {},
           };
 
-g.CONFIG = {
+g.CONFIG      = {
   recipe      = "clu", -- specific to this project
   appname     = "make-markdown.lua",
-  dir         = { bin    = "./bin",
-                  build  = "./build",
-                  out    = "./out",
-                  recipe = "./",
-                  source = "./src",
+  dir         = { bin        = "./bin",
+                  build      = "./build",
+                  out        = "./out",
+                  recipe     = "./recipes",
+                  source     = "./src",
                 },
   errors      = true,
-  ext         = { filter   = ".md;.yaml",
-                  markdown = ".md",
-                  out      = ".md",
-                  recipe   = ".recipe",
-                  source   = "^(%.md|%.yaml)",
-                  yaml     = ".yaml",
-                  -- out_suffix = ".md",
-                  -- recipe_sfx = ".recipe",
+  ext         = { filter     = ".md;.yaml",
+                  markdown   = ".md",
+                  out        = ".md",
+                  recipe     = ".yaml",
+                  source     = "(%.md|%.yaml)",
+                  yaml       = ".yaml",
+              --  out_suffix = ".md",
+              --  recipe_sfx = ".recipe",
                 },
   ignore      = "^(%.git|Makefile|%.test|%.|backup|markdown)",
   intro       = "intro",
-  logfmt      = "  %-25s %-20s",
-  maxerrors   = 12,
+  lsfmt       = "  %-30s %-20s",
+  logfmt      = "  %-30s %-20s",
+  maxerrors   = 18,
   outfile     = "build",
   summary     = true,
   verbose     = true,
-  yaml_ignore = "^(metadata|flat|%d+)",
-  };
-g.CONTENT.in_hd      = "* in Harmony Drive";
-g.CONTENT.in_general = "* in general TRPG terminology";
-g.CONTENT.herosheet  = [===[
+  yaml_ignore = "^(metadata|flat|%d+)"
+};
+
+g.CONTENT     = {
+  in_hd       = "* in Harmony Drive",
+  in_generic  = "* in general TRPG terminology",
+  herosheet   =
+[======[
 :::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
-[Hero Sheet]{#anchor-herosheet .anchor}
+[Hero Sheet                 ]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony         ](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
 
-[A.K.A.]{.label .nickname}
-[Name]{.label .name}
-[Pronouns]{.label .pronouns}
-[Max]{.label .health-max}
-[Max]{.label .might-max}
-[Class]{.label .class}
-[Nova Power Words]{.label .nova}
-[Core Power Words]{.label .core}
-[Personal Power Words]{.label .personal}
-[Class Ability]{.label .class-ability}
-[Skills]{.label .skills}
-[Fighting Styles]{.label .fighting-styles}
-[Volume 1 Ability]{.label .volume-ability .v1}
+[A.K.A.                     ]{.label .nickname          }
+[Name                       ]{.label .name              }
+[Pronouns                   ]{.label .pronouns          }
+[Max                        ]{.label .health-max        }
+[Max                        ]{.label .might-max         }
+[Class                      ]{.label .class             }
+[Nova Power Words           ]{.label .nova              }
+[Core Power Words           ]{.label .core              }
+[Personal Power Words       ]{.label .personal          }
+[Class Ability              ]{.label .class-ability     }
+[Skills                     ]{.label .skills            }
+[Fighting Styles            ]{.label .fighting-styles   }
+[Volume 1 Ability           ]{.label .volume-ability .v1}
 
-[Health]{.label .health}
-[Might]{.label .might}
+[Health                     ]{.label .health}
+[Might                      ]{.label .might}
 
-[Volume]{.label .volume}
-[]{.box .b5 .volume-boxes}
-[]{.box .b1 .motiv .m1}
-[]{.box .b1 .motiv .m2}
-[]{.box .b1 .motiv .m3}
-[]{.box .b1 .motiv .m4}
-[]{.box .b1 .motiv .m5}
-[Ideal]{.label .motiv .m1}
-[Ideal]{.label .motiv .m2}
-[Ideal]{.label .motiv .m3}
-[Ideal]{.label .motiv .m4}
-[Ideal]{.label .motiv .m5}
-[]{.box .b1 .nova-unlocked}
-[Unlocked]{.label .nova-unlocked}
-[]{.box .b1 .arc-complete}
-[Completed]{.label .arc-complete}
+[Volume                     ]{.label .volume               }
+[                           ]{.box   .b5    .volume-boxes  }
+[Ideal                      ]{.label .motiv        .m1     }
+[                           ]{.box   .b1    .motiv .m1     }
+[Ideal                      ]{.label .motiv        .m2     }
+[                           ]{.box   .b1    .motiv .m2     }
+[Ideal                      ]{.label .motiv        .m3     }
+[                           ]{.box   .b1    .motiv .m3     }
+[Ideal                      ]{.label .motiv        .m4     }
+[                           ]{.box   .b1    .motiv .m4     }
+[Ideal                      ]{.label .motiv        .m5     }
+[                           ]{.box   .b1    .motiv .m5     }
+[Unlocked                   ]{.label        .nova-unlocked }
+[                           ]{.box   .b1    .nova-unlocked }
+[Completed                  ]{.label        .arc-complete  }
+[                           ]{.box   .b1    .arc-complete  }
 
-[Volume 2 Ability]{.label .volume-ability .v2}
-[Volume 3 Ability]{.label .volume-ability .v3}
-[Volume 4 Ability]{.label .volume-ability .v4}
-[Volume 5 Ability]{.label .volume-ability .v5}
+[Volume 2 Ability           ]{.label .volume-ability .v2}
+[Volume 3 Ability           ]{.label .volume-ability .v3}
+[Volume 4 Ability           ]{.label .volume-ability .v4}
+[Volume 5 Ability           ]{.label .volume-ability .v5}
 
-[Appearance]{.label .bio}
-[Storyline]{.label .story-arc}
+[Appearance                 ]{.label .bio              }
+[Storyline                  ]{.label .story-arc        }
+[Action                     ]{.label .facet .action    }
+[Adventure                  ]{.label .facet .adventure }
+[Detective                  ]{.label .facet .detective }
+[Mystery                    ]{.label .facet .mystery   }
+[Suspense                   ]{.label .facet .suspense  }
 
-[Action]{.label .facet .action}
-[Adventure]{.label .facet .adventure}
-[Detective]{.label .facet .detective}
-[Mystery]{.label .facet .mystery}
-[Suspense]{.label .facet .suspense}
+[Goals                      ]{.goal .label .g0 }
+[Smash                      ]{.goal .label .g1 }
+[Outwit                     ]{.goal .label .g2 }
+[Allay                      ]{.goal .label .g3 }
+[Rescue                     ]{.goal .label .g4 }
 
-[Goals ]{.goal .label .g0}
-[Smash ]{.goal .label .g1}
-[Outwit]{.goal .label .g2}
-[Allay ]{.goal .label .g3}
-[Rescue]{.goal .label .g4}
+[Symbol                     ]{.label .symbol}
 
-[Symbol]{.label .symbol}
+[Ethos                      ]{.label .ethos .e0 }
+[Self Expression            ]{.label .ethos .e1 }
+[Teamwork                   ]{.label .ethos .e2 }
+[Difficult Choices          ]{.label .ethos .e3 }
 
-[Ethos            ]{.label .ethos .e0}
-[Self Expression  ]{.label .ethos .e1}
-[Teamwork         ]{.label .ethos .e2}
-[Difficult Choices]{.label .ethos .e3}
-
-[Retcon             ]{.safety .label .s1}
-[Continued Next Page]{.safety .label .s2}
-[Meanwhile, ...     ]{.safety .label .s3}
-[Later That Day, ...]{.safety .label .s4}
+[Retcon                     ]{.safety .label .s1 }
+[Continued Next Page        ]{.safety .label .s2 }
+[Meanwhile, ...             ]{.safety .label .s3 }
+[Later That Day, ...        ]{.safety .label .s4 }
 
 [Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
 
-[Crisis Countdown           ]{.label .crisis .c0}
-[5. Set the Scene           ]{.label .crisis .c5}
-[4. Hero Roll-Call          ]{.label .crisis .c4}
-[3. Define the Goals        ]{.label .crisis .c3}
-[2. Assemble Teamwork Pool  ]{.label .crisis .c2}
-[1. Crisis Begins!          ]{.label .crisis .c1}
-[Hero Turn                  ]{.label .crisis .cht}
-[Crisis Turn                ]{.label .crisis .cct}
-[Post-Crisis                ]{.label .crisis .cpost}
+[Crisis Countdown           ]{.label .crisis .c0    }
+[5. Set the Scene           ]{.label .crisis .c5    }
+[4. Hero Roll-Call          ]{.label .crisis .c4    }
+[3. Define the Goals        ]{.label .crisis .c3    }
+[2. Assemble Teamwork Pool  ]{.label .crisis .c2    }
+[1. Crisis Begins!          ]{.label .crisis .c1    }
+[Hero Turn                  ]{.label .crisis .cht   }
+[Crisis Turn                ]{.label .crisis .cct   }
+[Post-Crisis                ]{.label .crisis .cpost }
 
-[Hero Turn                  ]{.label .action .aht}
-[General Alert              ]{.label .action .a1}
-[Timely Arrival             ]{.label .action .a2}
-[Advance a Goal             ]{.label .action .a3}
-[Join a Power Combo         ]{.label .action .a4}
-[Add to Teamwork Pool       ]{.label .action .a5}
-[Crisis Turn                ]{.label .action .act}
-[Take the Hit               ]{.label .action .a6}
-[Counter a Crisis Effect    ]{.label .action .a7}
+[Hero Turn                  ]{.label .action .aht   }
+[General Alert              ]{.label .action .a1    }
+[Timely Arrival             ]{.label .action .a2    }
+[Advance a Goal             ]{.label .action .a3    }
+[Join a Power Combo         ]{.label .action .a4    }
+[Add to Teamwork Pool       ]{.label .action .a5    }
+[Crisis Turn                ]{.label .action .act   }
+[Take the Hit               ]{.label .action .a6    }
+[Counter a Crisis Effect    ]{.label .action .a7    }
+]======];
+} -- closes g.CONTENT = {
 
-]===];
-
-local lfs     = require "lfs"
+local lfs     = require "lfs"    ;
 local cli     = require "cliargs";
-local lyaml   = require "lyaml";      -- https://github.com/gvvaughan/lyaml
-local inspect = require "inspect";    -- https://github.com/kikito/inspect.lua
+local lyaml   = require "lyaml"  ; -- https://github.com/gvvaughan/lyaml
+local inspect = require "inspect"; -- https://github.com/kikito/inspect.lua
 
 local function split(str, pat)
    local t = {}  -- NOTE: use {n = 0} in Lua-5.0
@@ -159,7 +162,7 @@ local function split(str, pat)
    do    if s ~= 1 or cap ~= ""
          then table.insert(t,cap)
          end
-         last_end = e+1
+         last_end  = e+1
          s, e, cap = str:find(fpat, last_end)
    end
    if   last_end <= #str
@@ -182,43 +185,48 @@ local function file_search(dir_path, filter, s, pformat)
   -- comparison function like the IN() function like SQLlite, item in a array
   -- useful for compare table for escaping already processed item
   -- Gianluca Vespignani 2012-03-03
-  local c_in = function(value, tab)
-                 for k,v in pairs(tab)
-                 do  if v==value then return true end
-                 end
-                 return false
-               end; -- function
+  --
+  local c_in =
+    function(value, tab)
+      for k,v in pairs(tab)
+      do  if v==value then return true end
+      end
+      return false
+    end; -- function
 
   local string = string -- http://lua-users.org/wiki/SplitJoin
-        function string:split(sep)
-          local sep, fields = sep or ":", {}
-          local pattern = string.format("([^%s]+)", sep)
-          self:gsub(pattern, function(c) fields[#fields+1] = c end)
-          return fields
-        end -- function
+  function string:split(sep)
+    local sep, fields = sep or ":", {}
+    local pattern = string.format("([^%s]+)", sep)
+    self:gsub(pattern, function(c) fields[#fields+1] = c end)
+    return fields
+  end -- function
 
-  local ExtensionOfFile = function(filename)
-                            local rev     = string.reverse(filename)
-                            local len     = rev:find("%.")
-                            local rev_ext = rev:sub(1,len)
-                            return string.reverse(rev_ext)
-                          end -- function
+  local ExtensionOfFile =
+    function(filename)
+      local rev     = string.reverse(filename)
+      local len     = rev:find("%.")
+      local rev_ext = rev:sub(1,len)
+      return string.reverse(rev_ext)
+    end -- function
 
   -- === Init ===
   dir_path         = dir_path or cwd
   filter           = string.lower(filter) or "*"
   local extensions = split(filter, ";") -- filter:split(";")
-  s = s or false -- as /s : subdirectories
+  s                = s or false -- as /s : subdirectories
 
   local os_date;
 
-  if   pformat == 'system' -- if 4th arg is explicity 'system', then return the
-                          -- system-dependent number representing date/time
-  then os_date = function(os_time) return os_time end
-  else -- if 4th arg is nil use default, else it could be a string
-       -- that respects the Time formatting directives
-       pformat = pformat or "%Y/%m/%d" -- eg.: "%Y/%m/%d %H:%M:%S"
-       os_date = function(os_time) return os.date(pformat, os_time) end -- function
+  if    pformat == 'system' -- if 4th arg is explicity 'system', then return the
+                            -- system-dependent number representing date/time
+  then  os_date = function(os_time) return os_time end
+  else  -- if 4th arg is nil use default, else it could be a string
+        -- that respects the Time formatting directives
+        pformat = pformat or "%Y/%m/%d" -- eg.: "%Y/%m/%d %H:%M:%S"
+        os_date = function(os_time)
+                    return os.date(pformat, os_time)
+                  end -- function
   end; -- if pformat
 
   -- == MAIN ==
@@ -231,39 +239,43 @@ local function file_search(dir_path, filter, s, pformat)
          then local attr = lfs.attributes ( path.."/"..f )
               if   attr.mode == "file"
               then if   filter=="*" or c_in( string.lower( ExtensionOfFile(f) ), extensions)
-                   then table.insert(files, { name         = f,
-                                              modification = os_date(attr.modification),
-                                              path         = path.."/",
-                                              ext          = ExtensionOfFile(f),
-                                              size         = attr.size
-                                             })
+                   then table.insert(files,
+			             { name         = f,
+                                       modification = os_date(attr.modification),
+                                       path         = path.."/",
+                                       ext          = ExtensionOfFile(f),
+                                       size         = attr.size
+                                     });
                    end -- if filter = "*"
               else -- attr.mode == "file"
                    if   filter=="*" -- if attr.mode == "directory" and file ~= "." and file ~= ".." then end
-                   then table.insert(dirs,{ name         = f,
-                                            modification = os_date(attr.modification),
-                                            path         = path.."/",
-                                            size         = attr.size
-                                          })
+                   then table.insert(dirs,
+			             { name         = f,
+                                       modification = os_date(attr.modification),
+                                       path         = path.."/",
+                                       size         = attr.size
+                                     });
                    end -- if filter="*"
                    if   s and attr.mode == "directory"
                    then local subf, subd;
                         subf, subd = file_search(path.."/"..f, filter, s, pformat)
                         for i,v in ipairs(subf)
-                        do  table.insert(files,{ name         = v.name,
-                                                 modification = v.modification,
-                                                 path         = v.path,
-                                                 ext          = ExtensionOfFile(f),
-                                                 size         = v.size
-                                               });
+                        do  table.insert(files,
+				         { name         = v.name,
+                                           modification = v.modification,
+                                           path         = v.path,
+                                           ext          = ExtensionOfFile(f),
+                                           size         = v.size
+                                         });
                         end -- for i, v
                         for i,v in ipairs(subd)
-                        do  table.insert(dirs,{ name         = v.name,
-                                                modification = v.modification,
-                                                path         = v.path,
-                                                ext          = ExtensionOfFile(f),
-                                                size         = v.size
-                                              });
+                        do  table.insert(dirs,
+				         { name         = v.name,
+                                           modification = v.modification,
+                                           path         = v.path,
+                                           ext          = ExtensionOfFile(f),
+                                           size         = v.size
+                                         });
                         end -- for i, v
                     end -- if s and attr.mode == direcotry
               end -- if attr.mode = file
@@ -288,27 +300,18 @@ end
     size    805 in byte
 ]=]
 
-local function vprint(s, l)
-  if g.CONFIG.verbose     then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
-end;
-local function eprint(s, l)
-  if g.CONFIG.errors      then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
-end;
-local function sprint(s, l)
-  if g.CONFIG.summary     then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
-end;
-local function yprint(s, l)
-  if g.CONFIG.debugyaml   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end;
-end;
+local function vprint(s, l) if g.CONFIG.verbose   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
+local function eprint(s, l) if g.CONFIG.errors    then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
+local function sprint(s, l) if g.CONFIG.summary   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
+local function yprint(s, l) if g.CONFIG.debugyaml then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
 -- local function iprint(s, data) print(string.format, s or "", inspect(data)); end;
-
 -- http://lua-users.org/wiki/FileInputOutput
 
 local function get_slug(file)
-  file = string.gsub(file, "^%"  .. g.CONFIG.dir.source,           "");
+  file = string.gsub(file, "^%"  .. g.CONFIG.dir.source,        "");
   file = string.gsub(file, "%"   .. g.CONFIG.ext.source .. "$", "");
-  file = string.gsub(file, "^/", "");
-  file = string.gsub(file, "/$", "");
+  file = string.gsub(file, "^/",                                "");
+  file = string.gsub(file, "/$",                                "");
   return file;
 end;
 
@@ -356,8 +359,8 @@ end;
 -- list/table if the file does not exist
 local function slurp(file, no_parse)
   no_parse = no_parse
-             or string.find(file, g.CONFIG.ext.yaml)
-             or string.find(file, g.CONFIG.ext.recipe);
+          or string.find(file, g.CONFIG.ext.yaml)
+          or string.find(file, g.CONFIG.ext.recipe);
 
   if not file_exists(file) then eprint("File doesn't exist", file); return nil end;
 
@@ -365,15 +368,14 @@ local function slurp(file, no_parse)
   for   line in io.lines(file) do lines[#lines + 1] = line end
   local slurped = "\n" .. table.concat(lines, "\n") .. "\n";
 
-  if    not no_parse then slurped = adjust_md_level(file, slurped); end;  -- if not no_parse
-
+  if not no_parse then slurped = adjust_md_level(file, slurped); end;  -- if not no_parse
   return slurped;
 end -- function
 
 local function unpack_yaml_tree(yaml_tree, tree_id)
   tree_id = tree_id or "no id";
   yprint("==================", "------------------");
-  yprint(tree_id .. ":before", tprint(yaml_tree));
+  -- yprint(tree_id .. ":before", inspec(yaml_tree));
   if     yaml_tree == nil
   then   -- eprint("Error! in unpack_yaml_tree", "yaml_tree (" .. tree_id .. ") = nil");
          return {};
@@ -393,9 +395,7 @@ local function unpack_yaml_tree(yaml_tree, tree_id)
   for k, v in pairs(yaml_tree)
   do  if   type(v) == "table"
       then for i, j in pairs(v)
-           do  if   type(i) == "string"
-               then flat_tree[i] = j;
-               end;
+           do  if type(i) == "string" then flat_tree[i] = j; end;
            end;
       end;
       flat_tree[k] = v;
@@ -407,7 +407,11 @@ end;
 
 local function get_sorted_keys(t, sort_field, numeric)
   local  alphabetical;
+
+  -- if type(sort_field) ~= "string" then eprint("error: sort_field is", sort_field); os.exit(1); end;
+
   if     sort_field               == nil
+      or sort_field               == true
       or string.lower(sort_field) == "alpha"
       or string.lower(sort_field) == "alphabetical"
       or string.lower(sort_field) == "a-z"
@@ -431,13 +435,10 @@ local function get_sorted_keys(t, sort_field, numeric)
 
   local keys = {}
   local n    = 0;
-  for k, v in pairs(t)
-  do  n       = n + 1;
-      yprint("==============", "===============");
-      if     type(k) == "string"
-      then   keys[n] = k;
-             table.insert(keys, k);
-      end;
+  for   k, v in pairs(t)
+  do    n       = n + 1;
+        yprint("==============", "===============");
+        if   type(k) == "string" then keys[n] = k; table.insert(keys, k); end;
   end;
 
   table.sort(keys, ignore_case);
@@ -447,7 +448,7 @@ end;
 
 local function yaml_error(yaml_tree, unknown_xformat, filename, return_text)
   yprint("Unknown xformat:", unknown_xformat);
-  yprint("> in file:", filename);
+  yprint("> in file:",       filename       );
   if return_text or return_text == nil then return "" else return {} end;
 end;
 
@@ -472,6 +473,7 @@ local function yaml_char_group(bio_group_affiliation)
   markdown = markdown .. "\n- **Group Affiliation:** ";
   local group_list = {};
   local group_memberships = unpack_yaml_tree(bio_group_affiliation, "group_memberships");
+
   for group_name, data in pairs(group_memberships)
   do  local str = group_name
       local gstatus = unpack_yaml_tree(data, "gstatus");
@@ -556,11 +558,11 @@ local function yaml_char_picture(character_picture)
 end;
 
 local function yaml_char_base(bio_base)
-  if type(bio_base) == "string" then return "\n- **Base of Operations:** " .. bio_base; end;
+  if    type(bio_base) == "string" then return "\n- **Base of Operations:** " .. bio_base; end;
   local markdown  = "\n- **Base of Operations:** ";
   local base_list = {};
   local bases     = unpack_yaml_tree(bio_base, "base");
-  for base_name, base_data in pairs(bases)
+  for   base_name, base_data in pairs(bases)
   do  if     type(base_name) == "string" and type(base_data) == "string"
       then   table.insert(base_list, base_data);
       elseif type(base_name) == "string"
@@ -568,11 +570,11 @@ local function yaml_char_base(bio_base)
              local str     = base_name;
              local details = {};
 
-             if   #bases > 1 and data.active then table.insert(details, "current");                        end;
-             if   data.former                then table.insert(details, "formerly");                       end;
-             if   data.temporary             then table.insert(details, "temporarily");                    end;
-             if   data.status                then table.insert(details, data.status);                      end;
-             if   #details >= 1              then str = str .. " (" .. table.concat(details, ", ") .. ")"; end;
+             if #bases > 1 and data.active then table.insert(details, "current");                        end;
+             if data.former                then table.insert(details, "formerly");                       end;
+             if data.temporary             then table.insert(details, "temporarily");                    end;
+             if data.status                then table.insert(details, data.status);                      end;
+             if #details >= 1              then str = str .. " (" .. table.concat(details, ", ") .. ")"; end;
 
              table.insert(base_list, str);
       end;  -- if name == string
@@ -1240,10 +1242,10 @@ local function yaml_glossary(yaml_tree)
            if     equivs ~= {}
            then   slurped = slurped .. "\n    (" .. table.concat(equivs, "; ") .. ")";
            elseif hq_equiv
-           then   eprint("ERROR hq_equiv exists but is", type(hq_equiv));
+           then   eprint("ERROR hq_equiv exists but is type",      type(hq_equiv));
                   os.exit(1);
            elseif generic_equiv
-           then   eprint("ERROR generic_equiv exists but is", type(generic_equiv));
+           then   eprint("ERROR generic_equiv exists but is type", type(generic_equiv));
                   os.exit(1);
            end;
 
@@ -1370,10 +1372,7 @@ local function yaml_index(yaml_tree)
        os.exit(1);
   end;
 
-  if   list_class
-  then slurped = slurped .. "\n\n" .. string.rep(":", 70);
-  end;
-
+  if list_class then slurped = slurped .. "\n\n" .. string.rep(":", 70); end;
   return slurped;
 end;
 
@@ -1437,14 +1436,41 @@ local function yaml_group(yaml_tree)
 
   if   group.members and type(group.members) == "table"
   then local member_list = unpack_yaml_tree(group.members);
+       -- pictures -------------------------------------------------------------------
+       slurped = slurped .. "\n" .. string.rep(":", 25) .. " group-faces " .. string.rep(":", 25) .. "\n";
+       for name, member in pairs(member_list)
+       do  if member.face
+           then -- -----------------------------------------------------------
+                slurped = slurped             ..
+		          "\n"                ..
+		          string.rep(":", 20) ..
+                          " member "          ..
+			  string.rep(":", 20) ..
+			  "\n";
+                slurped = slurped             ..
+		          "\n["               ..
+			  name                ..
+                          "]{.member-name}\n";
+                slurped = slurped             ..
+		          "\n"                ..
+			  string.rep(":", 60) ..
+                          "\n";
+           end; -- if member.face --------------------------------------------
+       end -- for name, member
+       slurped = slurped .. "\n" .. string.rep(":", 70) .. "\n";
+       -- end of pictures ------------------------------------------------------------
+
        slurped = slurped .. "; Members: ";
        local member_entries = {};
        local mem_item = "";
        if   not group["membership-complex"]
        then for name, member in pairs(member_list)
-            do  local member_status  = member.active    and "" or              member.resigned and " *resigned* " or
-                                       member.deceased  and " *deceased* "  or member.expelled and " *expelled* " or
-                                       member.graduated and " *graduated* " or " *status unknown* ";
+            do  local member_status  = member.active    and ""              or
+		                       member.resigned  and " *resigned* "  or
+                                       member.deceased  and " *deceased* "  or
+				       member.expelled  and " *expelled* "  or
+                                       member.graduated and " *graduated* " or
+				       " *status unknown* ";
                 if member.title        then mem_item = mem_item .. " " .. member.title;                 end;
                 if name or member.name then mem_item = mem_item .. (name or member.name) .. " ";        end;
                 if member.aka          then mem_item = mem_item .. " (" .. member.aka .. ")";           end;
@@ -1455,10 +1481,14 @@ local function yaml_group(yaml_tree)
        else -- membership-complex
             for name, member in pairs(member_list)
             do  mem_item = mem_item .. name .. " ";
-                local complex_status = member.active   and ""             or member.honorary and " *honorary* " or
-                                       member.resigned and " *resigned* " or member.defunct  and " *defunct* "  or
-                                       member.inactive and " *inactive* " or member.former   and " *former* "   or
-                                       member.expelled and " *expelled* " or " *status unknown* ";
+                local complex_status = member.active   and ""             or
+		                       member.honorary and " *honorary* " or
+                                       member.resigned and " *resigned* " or
+				       member.defunct  and " *defunct* "  or
+                                       member.inactive and " *inactive* " or
+				       member.former   and " *former* "   or
+                                       member.expelled and " *expelled* " or
+				       " *status unknown* ";
                 if   complex_status
                 then mem_item = mem_item .. complex_status;
                 end;
@@ -1584,21 +1614,34 @@ local function map_src_fs(dir_src)
   -- os.exit(0);
 
   for k, v in pairs(files)
-  do  -- vprint(k, v);
-      if   ignore(v.name)
+  do  if   ignore(v.name)
       then vprint("skipping file", v);
            break;
-      else local slug = get_slug(v.name);
-           g.FILES[slug]      = {};
-           g.FILES[slug].slug = slug;
+      else local filekey = v.path .. v.name;
+           filekey = filekey:gsub("^" .. g.CONFIG.dir.source .."/", "");
+           filekey = filekey:gsub(g.CONFIG.ext.markdown .. "$",     "");
+           filekey = filekey:gsub(g.CONFIG.ext.yaml     .. "$",     "");
+           vprint("saving file location:",  filekey);
+	   -- vprint("v.path = ",                     v.path             );
+	   -- vprint("g.CONFIG.dir.source = ",        g.CONFIG.dir.source);
+           -- vprint("other data", inspect(v));
+           -- local path = v.path:gsub("^%" .. dir_src, "");
+           -- vprint("saving file location", path .. "/" .. slug);
+           g.FILES[filekey]      = {};
+           -- g.FILES[dir_slug].slug = slug;
            g.count.FILES = g.count.FILES + 1;
-           if     string.find(slug, "%"  .. g.CONFIG.ext.markdown .. "$")
-           then   g.FILES[slug].ext      =  g.CONFIG.ext.markdown;
-                  g.FILES[slug].markdown =  true;
-           elseif string.find(slug, "%"  .. g.CONFIG.ext.yaml .. "$")
-           then   g.FILES[slug].ext      =  g.CONFIG.ext.yaml;
-                  g.FILES[slug].yaml     =  true;
+           for key, value in pairs(v)
+           do  g.FILES[filekey][key] = value;
+           end;
+           if     string.find(v.name, "%"  .. g.CONFIG.ext.markdown .. "$")
+           then   g.FILES[filekey].ext      = g.CONFIG.ext.markdown;
+                  g.FILES[filekey].markdown = true;
+           elseif string.find(v.name, "%"  .. g.CONFIG.ext.yaml .. "$")
+           then   g.FILES[filekey].ext      = g.CONFIG.ext.yaml;
+                  g.FILES[filekey].yaml     = true;
            end; -- if string.find
+	   vprint("g.FILES[" .. filekey .. "] = ", inspect(g.FILES[filekey]));
+	   vprint(string.rep("=", 25), string.rep("=", 25));
       end; -- if ignore
   end;
 
@@ -1626,14 +1669,14 @@ end;
 local    function mark_line_used(line)
   local  line_data = g.FILES[line];
   if not line_data
-  then   eprint("Error: no line in g.FILES:", line);
-         os.exit(1);
+  then   -- eprint("Error: no line in g.FILES:", line);
+         -- os.exit(1);
+	 g.FILES[line] = { used = true };
   else   g.FILES[line].used = true;
   end;
 end;
 
 local function parse_line(line)
-  local foundone = false;
 
   local found = {
           comment  = false,
@@ -1654,17 +1697,16 @@ local function parse_line(line)
   for field, test in pairs(tests)
   do  if   string.find(line, test)
       then found[field] = true;
-           foundone = true;
       end;
   end;
 
-  if not foundone then eprint("Couldn't match line", line); end;
+  -- if not foundone then eprint("Couldn't match line", line); end;
 
   if     was_used_line(line)
   then   vprint("skipping used entry", line)
   elseif found.comment
   then   -- vprint("ignoring comment", line);
-         -- mark_line_used(line);
+         mark_line_used(line);
   elseif found.dirs and g.DIRS[line]
   then   vprint("found a directory", line);
          vprint("looking for index", line .. "/" .. g.CONFIG.intro);
@@ -1686,23 +1728,27 @@ local function parse_line(line)
              vprint(    "looking for", dir.."/"..ff);
              parse_line(               dir.."/"..ff);
          end; -- for
-  elseif not   was_used_line(line)
-         and   (g.FILES[line                         ] or
-                g.FILES[line .. g.CONFIG.ext.yaml    ] or
-                g.FILES[line .. g.CONFIG.ext.markdown])
-  then   local  md_file   = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.markdown;
-         local  yaml_file = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.yaml;
+  elseif g.FILES[line .. g.CONFIG.ext.yaml    ]
+  then   local  yaml_file = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.yaml;
          if     file_exists(yaml_file)
          then   table.insert(g.BUILD, yaml_file);
                 g.count.BUILD = g.count.BUILD + 1;
                 mark_line_used(line);
-         elseif file_exists(md_file)
+         else   eprint("failed to find:", yaml_file);
+         end;
+  elseif g.FILES[line .. g.CONFIG.ext.markdown]
+  then   local  md_file   = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.markdown;
+         if     file_exists(md_file)
          then   table.insert(g.BUILD, md_file);
                 g.count.BUILD = g.count.BUILD + 1;
                 mark_line_used(line);
-         else   eprint("failed to find:", yaml_file .. " or " .. md_file);
+         else   eprint("failed to find:", md_file);
          end;
-  else   table.insert(g.ERR, line);
+  else   eprint("couldn't find", "line = " .. inspect(line));
+         -- eprint("or markdown",   line .. g.CONFIG.ext.markdown);
+         -- eprint("or yaml",       line .. g.CONFIG.ext.yaml);
+         -- eprint("dump of g.FILES", inspect(g.FILES));
+         table.insert(g.ERR, line);
          g.count.ERR = g.count.ERR + 1;
   end;
 end;
@@ -1711,16 +1757,18 @@ local function recipe_list()
   local files, _ = file_search(g.CONFIG.dir.recipe, g.CONFIG.ext.recipe, false)
   sprint("Listing Recipes:", #files .. " known");
   sprint("Recipe directory", g.CONFIG.dir.recipe);
+  print(string.format(g.CONFIG.lsfmt, "Filename",          "Command Line"      ));
+  print(string.format(g.CONFIG.lsfmt, string.rep("-", 30), string.rep("-", 25) ));
   for k, v in pairs(files)
   do  print(
         string.format(
-          g.CONFIG.logfmt,
+          g.CONFIG.lsfmt,
           v.path .. v.name,
-          g.CONFIG.dir.bin   .. 
-	    "/"              .. 
-	    g.CONFIG.appname ..
-	    " "              .. 
-	    string.gsub(v.name, g.CONFIG.ext.recipe, "")
+          g.CONFIG.dir.bin   ..
+            "/"              ..
+            g.CONFIG.appname ..
+            " "              ..
+            string.gsub(v.name, g.CONFIG.ext.recipe, "")
         )
       );
   end;
@@ -1786,19 +1834,26 @@ vprint("Filesystem mapped.", g.count.FILES .. " files");
 -- else eprint("(no excerpt available)"); os.exit(1);
 -- end;
 
-vprint("Directories mapped.", g.count.DIRS .. " dirs");
+-- vprint("Directories mapped.", g.count.DIRS .. " dirs");
 
 -- parse the recipe, store in g.BUILD
-for _, i in pairs(recipe) do parse_line(i) end;
+for _, i in pairs(recipe)
+do  -- vprint("parsing recipe line", i);
+    parse_line(i)
+end;
 
 -- ready now to read files
 sprint("reading/parsing files now", g.count.BUILD .. " files");
 
 for _, v in pairs(g.BUILD)
 do  if     v:find("%" .. g.CONFIG.ext.yaml     .. "$")
-    then   table.insert(g.outtxt, slurp_yaml(v));
+    then   local slurped = slurp_yaml(v);
+           vprint("slurping ", v);
+           table.insert(g.outtxt, slurped);
     elseif v:find("%" .. g.CONFIG.ext.markdown .. "$")
-    then   table.insert(g.outtxt, slurp(v)     );
+    then   local slurped = slurp(v);
+           vprint("slurping ", v);
+	   table.insert(g.outtxt, slurped);
     end;
 end;
 

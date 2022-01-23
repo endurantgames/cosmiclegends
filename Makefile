@@ -155,7 +155,7 @@ PDFINFO_GREP = | /bin/grep -v "no"
 # MAKE_MD    = $(MMD) -q -- quiet
 # MAKE_MD    = $(MMD) -v -- verbose
 # MAKE_MD    = $(MMD) -y -- yamlbose (verbose only about yaml parsing)
-# MAKE_MD      = $(MMD) -y
+# MAKE_MD    = $(MMD) -y
 MAKE_MD      = $(MMD) -v
 MAKE_MD_LIST = $(MMD) --list
 

@@ -4,8 +4,9 @@
   - title:        &title "Adam-42: O.O.P.F."
   - anchor:       setting-adam-42
 - art:
-  - url: art/jeshields/construct.png
-  - alt: "Adam-42: One-Officer-Police-Force"
+  - url:          art/jeshields/construct.png
+  - alt:          "Adam-42: One-Officer-Police-Force"
+  - anchor:       art-adam-42
 - bio:
   - name:           *title
   - real_name:      "Martin \"Adam X. Lii\" McCord"

@@ -2,7 +2,7 @@
   - title: &title Energy Boy
   - yaml_version: 1.2
   - x-format: character-sheet
-  - anchor: setting-energy-boy
+  - anchor: pregen-energy-boy
 - art:
   - url:    art/jeshields/dynamo.png
   - alt:    *title

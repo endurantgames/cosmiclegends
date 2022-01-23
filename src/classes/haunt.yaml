@@ -1,7 +1,7 @@
 - metadata:
   - x-format:  class
   - classname: &classname Haunt
-  - classid:   haunt
+  - classid:   &classid haunt
   - title:     The Haunt
   - anchor:    class-haunt
   - toc:       toc-haunt
@@ -35,7 +35,7 @@
     - "Would your hero take that opportunity to move on, or fight against it?"
 - skills:
   - "pre-chosen": [Historian, Mystic]
-  - plus:         "any two skills of your choice"
+  - plus:         any two skills of your choice
 - "power-words":
   - preamble: standard
   - core: tbd
@@ -63,19 +63,19 @@
     - represent: your increasing distance from the living world
   - prime:
     - "Beyond the Grave":
-      - desc: "To be determined"
+      - desc: To be determined
   - volume:
     - "1": 
       - list: 
         - Ironic Justice:
-          - desc: "To be determined"
+          - desc: To be determined
         - Poltergeist:
-          - desc: "To be determined"
+          - desc: To be determined
         - Possession:
-          - desc: "To be determined"
+          - desc: To be determined
           - move: hero
         - "This chamber has no windows and no doors...":
-          - desc: "To be determined"
+          - desc: To be determined
           - "hero-cave": true
           - desc: |
               "You have a hidden base of operations in a haunted house or a crypt.

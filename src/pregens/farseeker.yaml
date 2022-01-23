@@ -2,7 +2,7 @@
   - yaml_version:       1.2
   - x-format:           character
   - title:              &title "N.J. Campbell: Farseeker"
-  - anchor:             setting-farseeker
+  - anchor:             pregen-farseeker
 - art:
   - alt:                *title
   - url:                art/jeshields/farseeker.png
@@ -13,7 +13,7 @@
   - name:               *title
   - real_name:          Nora Jamila Campbell
   - occupation:         Interplanetary explorer
-  - legal_status:       "Citizen of the United States; naturalized citizen of the Interstellar Consortium of Civilizations"
+  - legal_status:       Citizen of the United States; naturalized citizen of the Interstellar Consortium of Civilizations
   - gender:
     - desc:             female
     - pronouns:         "she/her"

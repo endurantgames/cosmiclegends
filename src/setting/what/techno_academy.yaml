@@ -1,64 +1,65 @@
 - metadata:
-  - title: &title Technopolis Academy
-  - anchor: setting-technopolis
-  - x-format: group
-  - yaml_version: 1.2
-  - members:
-    - term: student
-    - plural: students
+  - title:         &title Technopolis Academy
+  - anchor:        setting-technopolis
+  - x-format:      group
+  - yaml_version:  1.2
 - group:
-  - type: Private School
-  - base: Technopolis, U.S.A.
+  - type:          Private School
+  - base:          ["Technopolis, U.S.A."]
   - members:
-    - Bug II:
-      - active: false
+    - Bug II:            
+      - active:    false
+      - gender:    male
       - graduated: true
-      - gender: male
-    - Energy Boy:
-      - active: false
+    - Energy Boy:        
+      - active:    false
+      - gender:    male
       - graduated: true
-      - gender: male
-    - Kaleidoscope Kidd:
-      - active: false
+    - Kaleidoscope Kidd: 
+      - active:    false
+      - gender:    male
       - graduated: true
-      - gender: male
-    - Lucky Star:
-      - active: false
+    - Lucky Star:        
+      - active:    false
+      - gender:    female
       - graduated: true
-      - gender: female
-    - "Vespa 2.0":
-      - active: false
+    - Vespa 2.0:         
+      - active:    false 
+      - gender:    trans
       - graduated: true
-      - gender: trans
-    - others: true
     - Glytch:
-      - active: false
+      - active:    false
+      - gender:    trans
       - graduated: false
-      - expelled: true
-      - gender: trans
-    - Gloom:
-      - active: false
+      - expelled:  true
+    - Howl:              
+      - active:    false
+      - gender:    female
+      - graduated: true
+    - Gloom:             
+      - active:    false
+      - gender:    female
       - graduated: false
-      - expelled: false
-      - withdrew: true
-      - gender: female
-    - Marlinspike:
-      - active: false
+      - expelled:  false
+      - withdrew:  true
+    - Marlinspike:       
+      - active:    false
+      - gender:    male
       - graduated: false
-      - deceased: true
-      - gender: male
-  - Allies: [N.O.V.A. Labs, Cosmic Legends of the Universe, Junior Legends of America]
-  - Enemies: [Atomicorps, The Crime Institute, Glytch, Marquis Malign, Xana Mega]
-- history | 
-    Technopolis Academy was established in November 1980 to train 
-    young superheroes in the use of their powers and abilities. 
+      - deceased:  true
+    - others: true
+  - Allies:  [N.O.V.A. Labs, Cosmic Legends of the Universe, Junior Legends of America          ]
+  - Enemies: [Atomicorps,    The Crime Institute,            Glytch, Marquis Malign, Xana Mega  ]
+  - history: | 
+      Technopolis Academy was established in November 1980 to train 
+      young superheroes in the use of their powers and abilities. 
     
-    The first two students were Bug (now known as Vespa 2.0) and Energy Boy;
-    Glytch is the Academy's biggest shame, as they turned to a life of digital crime
-    even while studying at Techno-A.
+      The first two students were Bug (now known as Vespa 2.0) and Energy Boy;
+      Glytch is the Academy's biggest shame, as they turned to a life of digital 
+      crime even while studying at Techno-A.
     
-    Most of the Academy students who have had basic crisis training go on to
-    join the Junior Legends of America. Of those, Bug II, Energy Boy, and 
-    Vespa 2.0 have gone on to the core Cosmic Legends team, although Bug is 
-    not currently an active member.
+      Most of the Academy students who have had basic crisis training go on to
+      join the Junior Legends of America. Of those, Bug II, Energy Boy, and 
+      Vespa 2.0 have gone on to the core Cosmic Legends team, although Bug is 
+      not currently an active member.
 

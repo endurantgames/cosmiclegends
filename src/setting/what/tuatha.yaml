@@ -1,10 +1,10 @@
 - metadata:
-  - title: &title Tuatha Dé Danann
+  - title:        &title Tuatha Dé Danann
   - yaml_version: 1.2
-  - x-format: group
-  - anchor: setting-tuatha
+  - x-format:     group
+  - anchor:       setting-tuatha
   - members:
-    - term: Member
+    - term:   Member
     - plural: Members
 - group:
   - type: Pantheon

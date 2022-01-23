@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/psychic.png
   - alt: *title
+  - anchor: art-head-librarian
 - bio:
   - real_name: unknown
   - occupation: none

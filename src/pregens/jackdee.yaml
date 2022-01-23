@@ -1,7 +1,7 @@
 - metadata:
   - x-format:     character-sheet
   - title:        &title Jack Dee, Master Magister
-  - anchor:       setting-jackdee
+  - anchor:       pregen-jackdee
   - yaml_version: 1.2
 - art:
   - url:    art/jeshields/mage.png

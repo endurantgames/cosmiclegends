@@ -30,7 +30,7 @@
     - "Have your powers ever harmed anyone else?":
 - skills:
   - pre-chosen: [Scientist]
-  - plus:       "any two skills of your choice"
+  - plus:       any two skills of your choice
 - soapbox:
   - title:  Other Energy Power Words
   - anchor: soapbox-other-energy-power-words
@@ -82,7 +82,7 @@
   - nova: { standard: true }
 - classpic:
   - url: art/jeshields/energy_boy.png
-  - alt: "Energy Boy, the Living Reactor"
+  - alt: Energy Boy, the Living Reactor
   - anchor: art-class-dynamo
 - abilities:
   - preamble:

@@ -1,6 +1,6 @@
 - metadata:
   - title: &title Riptide
-  - anchor: setting-riptide
+  - anchor: pregen-riptide
   - x-format: character-sheet
   - yaml_version: 1.2
 - art:

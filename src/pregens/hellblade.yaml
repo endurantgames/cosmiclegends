@@ -2,7 +2,7 @@
   - title: &title    Hellblade
   - x-format:        character-sheet
   - yaml_version:    1.2
-  - anchor:          setting-hellblade
+  - anchor:          pregen-hellblade
 - art:
   - url:             art/jeshields/hellblade.png
   - alt:             *title
@@ -22,15 +22,15 @@
   - group_affiliation: 
     - Cosmic Legends of the Universe:
       - active: true
-  - base:            "Sun City, U.S.A."
-  - height:          "x' y\""
-  - weight:          "zzz lbs."
-  - eyes:            Brown
-  - hair:            Black
-  - desc:   *description coming soon*
-- history:  *history     coming soon*
-- powers:   *description coming soon*
-- weapons:  *description coming soon*
+  - base:   Sun City, U.S.A.
+  - height: x' y\"
+  - weight: zzz lbs.
+  - eyes:   Brown
+  - hair:   Black
+  - desc:   description coming soon
+- history:  history     coming soon
+- powers:   description coming soon
+- weapons:  description coming soon
 - stats:
   - name:       *title
   - classname:  Hellspawn

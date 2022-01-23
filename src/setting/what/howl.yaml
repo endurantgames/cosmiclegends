@@ -8,6 +8,7 @@
   - url:            art/jeshields/howl.png
   - alt:            *title
   - face:           art/jeshields/howl_face.png
+  - anchor:         art-howl
 - bio:
   - real_name:      full name
   - occupation:     occupation
@@ -25,13 +26,13 @@
       - active:     false
       - reserve:    true
   - base:    ["Sun City, U.S.A."]
-  - height:  "5' 6\""
-  - weight:  "180 lbs."
+  - height:  5' 6\"
+  - weight:  180 lbs.
   - eyes:    white
   - hair:    lavender
-- history: *history coming soon*
-- powers:  *powers  coming soon*
-- weapons: *weapons coming soon*
+- history:   history coming soon
+- powers:    powers  coming soon
+- weapons:   weapons coming soon
 - stats:
   - name:            *title
   - class:           The Totem

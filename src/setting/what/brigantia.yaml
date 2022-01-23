@@ -5,6 +5,7 @@
 - art:
   - url:      art/jeshields/divine.png
   - alt:      *title
+  - anchor:   art-brigantia
 - bio:
   - real_name:      Sienna MacGowan
   - occupation:     Graduate student, poet

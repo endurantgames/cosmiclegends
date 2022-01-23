@@ -2,7 +2,7 @@
   - title: &title    Eidolon
   - x-format:        character-sheet
   - yaml_version:    1.2
-  - anchor:          setting-eidolon
+  - anchor:          pregen-eidolon
 - art:
   - url:             art/jeshields/haunt.png
   - alt:             *title
@@ -23,15 +23,15 @@
     - Cosmic Legends of the Universe:
       - active: false
       - reserve: true
-  - base:            Sun City, U.S.A.
-  - height:          x' y\"
-  - weight:          zzz lbs.
-  - eyes:            Brown
-  - hair:            Black
-  - desc:  *description coming soon*
-- history: *history     coming soon*
-- powers:  *description coming soon*
-- weapons: *description coming soon*
+  - base:   Sun City, U.S.A.
+  - height: x' y\"
+  - weight: zzz lbs.
+  - eyes:   Brown
+  - hair:   Black
+  - desc:   description coming soon
+- history:  history     coming soon
+- powers:   description coming soon
+- weapons:  description coming soon
 - stats:
   - name:       *title
   - classname:  &classname Haunt

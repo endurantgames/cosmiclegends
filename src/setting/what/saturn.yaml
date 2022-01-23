@@ -1,16 +1,16 @@
 - metadata:
-  - title: Saturn
-  - x-format: place
-  - anchor: setting-saturn
+  - title:        Saturn
+  - x-format:     place
+  - anchor:       setting-saturn
   - yaml_version: 1.2
 - place:
-  - Type of Location: planet and satellites
-  - Location: 9.58 AU from Sol (average)
-  - Capital: L'Shar'Ak, Titan
+  - Type of Location:   planet and satellites
+  - Location:           9.58 AU from Sol (average)
+  - Capital:            L'Shar'Ak, Titan
   - Official Languages: Titanese (*Ro'Tan'Kesh*)
-  - Demonym: Titanian
-  - Governance: Thought-Guild Oligarchy
-  - Head of State: unknown
+  - Demonym:            Titanian
+  - Governance:         Thought-Guild Oligarchy
+  - Head of State:      unknown
   - Area: (Titan) 83,000,000 km<sup>2</sup> (3,200,000 sq mi)
   - Population: unknown
 - history: |

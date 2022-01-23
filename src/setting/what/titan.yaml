@@ -1,19 +1,20 @@
 - metadata:
-  - title: &title Titan, Sentinel of Saturn
-  - x-format: character
+  - title:        &title Titan, Sentinel of Saturn
+  - x-format:     character
   - yaml_version: 1.2
-  - anchor: setting-titan
+  - anchor:       setting-titan
 - art:
-  - url: art/jeshields/paragon.png
-  - alt: *title
+  - url:    art/jeshields/paragon.png
+  - alt:    *title
+  - anchor: art-titan
 - bio:
-  - real_name: Ty'Tonn To'Rezz
-  - occupation: Sentinel
-  - legal_status: Honorary citizen of Canada
+  - real_name:      Ty'Tonn To'Rezz
+  - occupation:     Sentinel
+  - legal_status:   Honorary citizen of Canada
   - gender: 
-    - desc: nyrr-t'vor 
-    - pronouns: he/him, they/them, or it/its
-  - identity: public
+    - desc:         nyrr-t'vor 
+    - pronouns:     he/him, they/them, or it/its
+  - identity:       public
   - former_aliases: Thomas "Tom" Torres
   - place_of_birth: L'Shar'Ak, Titan
   - marital_status: widowed
@@ -33,11 +34,11 @@
       - gender:       trans
       - aka:          Tethys
   - group_affiliation: [Cosmic Legends of the Universe (reserve member), Sentinels of Saturn (resigned), N.O.V.A. Labs (co-founder)]
-  - base: ["Halifax, Nova Scotia",  "Sun City, U.S.A."]
-  - height: "7' 6\""
-  - weight: "280 lbs."
-  - eyes: yellow
-  - hair: none
+  - base:   ["Halifax, Nova Scotia",  "Sun City, U.S.A."]
+  - height: 7' 6\"
+  - weight: 280 lbs.
+  - eyes:   yellow
+  - hair:   none
 - history: |
     Titan is widely acknowledged as the first public superhero and one
     of the primary leaders among the heroes.

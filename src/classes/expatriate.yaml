@@ -1,6 +1,6 @@
 - metadata:
   - x-format:  class
-  - classid:   expatriate
+  - classid:   &classid expatriate
   - classname: &classname Expatriate
   - title:     The *classname
   - anchor:    class-expatriate
@@ -22,7 +22,7 @@
     - "subquestion?"
 - skills:
   - pre-chosen: [Academic, Explorer, Historian, Pilot]
-  - plus: "any two skills of your choice"
+  - plus: any two skills of your choice
 - power-words:
   - preamble: standard
   - core:

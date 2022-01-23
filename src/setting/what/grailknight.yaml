@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/knight.png
   - alt: Percival, the Grailknight
+  - anchor: art-grailknight
 - bio:
   - real_name: Percival Pellinore
   - occupation: Adventurer

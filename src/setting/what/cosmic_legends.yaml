@@ -3,9 +3,6 @@
   - x-format:     group
   - title:        &title Cosmic Legends of the Universe
   - anchor:       setting-clotu
-  - members:
-    - term:       Legend
-    - plural:     Legends
 - group:
   - type: Superhero Team
   - base: 

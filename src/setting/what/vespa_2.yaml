@@ -1,46 +1,47 @@
 - metadata:
-  - title: &title Vespa 2.0
-  - anchor: setting-vespa
-  - x-format: character
-  - yaml_version: 1.2
+  - title:          &title Vespa 2.0
+  - anchor:         setting-vespa
+  - x-format:       character
+  - yaml_version:   1.2
 - art:
-  - url: art/jeshields/inventor.png
-  - alt: *title
+  - url:            art/jeshields/inventor.png
+  - alt:            *title
+  - anchor:         art-vespa
 - bio:
-  - real_name: Lin Montgomery
-  - occupation: inventor, scientist
-  - legal_status: Citizen of the United States
+  - real_name:      Lin Montgomery
+  - occupation:     inventor, scientist
+  - legal_status:   Citizen of the United States
   - gender: 
-    - desc: non-binary
-    - pronouns: they/them
-  - identity: public
+    - desc:         non-binary
+    - pronouns:     they/them
+  - identity:       public
   - former_aliases: Bug, The Hornette
   - place_of_birth: Vadyvokia Castle, Vadyvokia
   - marital_status: single 
   - known_relatives: 
     - Hazel Montgomery:
       - relationship: mother
-      - aka: "Vespa (I)"
-      - deceased: true
+      - aka:          Vespa (I)
+      - deceased:     true
     - Magnus Merlyn Malign:
       - relationship: father
-      - aka: "Marquis Malign (I)"
+      - aka:          Marquis Malign (I)
     - Merlyn Malign:
-      - relationship: "half-brother"
-      - aka: "Marquis Malign II"
+      - relationship: half-brother
+      - aka:          Marquis Malign II
   - group_affiliation: 
     - "Cosmic Legends of the Universe":
-      - active: true
+      - active:   true
     - "Junior Legends of America":
-      - active: false
-      - reserve: true
+      - active:   false
+      - reserve:  true
     - Technopolis Academy:
-      - active: false
-      - status: "(graduated)"
+      - active:   false
+      - status:   (graduated)
     - "Villains, Inc.": 
-      - active: no
+      - active:   no
       - expelled: yes
-      - status: "(as Hornette; expelled)"
+      - status:   (as Hornette; expelled)
   - base: ["Technopolis, U.S.A.", "Sun City, U.S.A."]
   - height: 5' 7"
   - weight: 128 lbs.
@@ -102,7 +103,7 @@
     of Vadyvokia, Lin may possess some sorcerous potential, but has
     never trained those.
 - weapons: |
-    "Vespa 2.0's armored suit is an evolved version of their mother's, 
+    Vespa 2.0's armored suit is an evolved version of their mother's, 
     with advanced microhydraulics and structural reinforcements that 
     let them lift over 25 tons. A low-power forcefield surrounds the 
     suit, reinforcing the flimsy-looking plasma wings that generate 
@@ -110,7 +111,7 @@
   
     In addition, Lin sometimes carries a gun that fires electrical 
     and laser blasts, originally developed during her days as The 
-    Hornette."
+    Hornette.
 - stats:
   - name: *title
   - class: The Inventor

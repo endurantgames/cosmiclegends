@@ -2,11 +2,11 @@
   - title: &title    The Falconer
   - x-format:        character-sheet
   - yaml_version:    1.2
-  - anchor:          
+  - anchor:          pregens-falconer
 - art:
   - url:             art/jeshields/twins.png
   - alt:             The Falconer and Aquila
-  - face:            art/jeshields/twins_face.png
+  - face:            art/jeshields/falconer_face.png
 - bio:
   - real_name:       
   - occupation:      
@@ -14,32 +14,30 @@
   - gender: 
     - desc:          
     - pronouns:      
-  - identity:        
-  - former_aliases:  
+  - identity:        secret
   - place_of_birth:  
   - marital_status:  
   - known_relatives: 
   - group_affiliation: 
     - Cosmic Legends of the Universe:
       - active: true
-  - base:            "Sun City, U.S.A."
-  - height:          "x' y\""
-  - weight:          "zzz lbs."
-  - eyes:            Brown
-  - hair:            Black
-  - desc: |
-      '*description coming soon*'
-- history: | 
-    '*history coming soon*'
-- powers: |
-    '*description coming soon*'
-- weapons: |
-    '*description coming soon*'
+    - The Foreigners:
+      - active: false
+      - former: true
+  - base:   Sun City, U.S.A.
+  - height: x' y\"
+  - weight: zzz lbs.
+  - eyes:   Brown
+  - hair:   Black
+  - desc:   description coming soon
+- history:  history coming soon
+- powers:   description coming soon
+- weapons:  description coming soon
 - stats:
   - name:       *title
-  - classname:  &classname 
-  - class:      The *classname
-  - classid:    &classid 
+  - classname:  &classname Twins
+  - class:      The Twins
+  - classid:    &classid twins
   - approaches: {action: 1, adventure: 1, detective: 1, mystery: 1, suspense: 1}
   - health:     10
   - might:      10

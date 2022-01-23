@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/monarch.png
   - alt: *title
+  - anchor: art-obsidius-rex
 - bio:
   - real_name: Obsidius Vulcanor Rex
   - occupation: Prince, adventurer

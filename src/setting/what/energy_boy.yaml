@@ -6,6 +6,7 @@
 - art:
   - url: art/jeshields/dynamo.png
   - alt: *title
+  - anchor: art-energy-boy
 - bio:
   - real_name: Delmore "Del" Langston Thompson
   - occupation: College student

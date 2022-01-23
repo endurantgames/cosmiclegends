@@ -2,7 +2,7 @@
   - title: &title The Grailknight
   - x-format: character-sheet
   - yaml_version: 1.2
-  - anchor: setting-grailknight
+  - anchor: pregen-grailknight
 - art:
   - url:    art/jeshields/knight.png
   - alt:    Percival, the Grailknight

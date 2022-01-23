@@ -1,17 +1,17 @@
 - metadata:
-  - title:    &title The
-  - anchor:   class-
-  - toc:      toc-
+  - title:    &title The Shaper
+  - anchor:   class-shaper
+  - toc:      toc-shaper
   - x-format: class
-  - classid:  
+  - classid:  &classid shaper
   - name:     *title
-- quote:     *quote       coming soon*
-- desc:      *description coming soon* 
-- playing:   *playing     coming soon*
-- questions: *questions   coming soon*
+- quote:     quote       coming soon
+- desc:      description coming soon 
+- playing:   playing     coming soon
+- questions: questions   coming soon
 - skills:
   - "pre-chosen": []
-  - plus:         "any two skills of your choice"
+  - plus:         any two skills of your choice
 - power_words:
   - preamble:     standard
   - core:

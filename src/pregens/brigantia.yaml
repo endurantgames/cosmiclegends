@@ -1,7 +1,7 @@
 - metadata:
   - title:    &title Brigantia
   - x-format: character-sheet
-  - anchor:   setting-brigantia
+  - anchor:   pregen-brigantia
 - image:
   - url:      art/jeshields/divine.png
   - alt:      *title

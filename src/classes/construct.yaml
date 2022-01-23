@@ -15,7 +15,8 @@
 
     I must protect my own existence as long as such protection does not
     conflict with the previous two laws."
-- desc: ""\"Just a machine.\"
+- desc: |
+    "\"Just a machine.\"
 
     That's all they say you are. Created in a lab, created by other
     people, originally from non-living material.
@@ -33,7 +34,7 @@
 - questions:      tbd
 - skills:
   - "pre-chosen": [Engineer, Hacker]
-  - plus:         "any two skills of your choice"
+  - plus:         any two skills of your choice
 - power_words:
   - preamble:     standard
   - core:
