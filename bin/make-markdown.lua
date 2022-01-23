@@ -397,7 +397,7 @@ end -- function
 
 local function unpack_yaml_tree(yaml_tree, tree_id)
   tree_id = tree_id or "no id";
-  yprint("==================", "------------------");
+  -- yprint("==================", "------------------");
   -- yprint(tree_id .. ":before", inspec(yaml_tree));
   if     yaml_tree == nil
   then   -- eprint("Error! in unpack_yaml_tree", "yaml_tree (" .. tree_id .. ") = nil");
@@ -430,16 +430,17 @@ end;
 
 local function get_sorted_keys(t, sort_field, numeric)
   local  alphabetical;
-
   -- if type(sort_field) ~= "string" then eprint("error: sort_field is", sort_field); os.exit(1); end;
 
-  if     sort_field               == nil
-      or sort_field               == true
-      or string.lower(sort_field) == "alpha"
-      or string.lower(sort_field) == "alphabetical"
-      or string.lower(sort_field) == "a-z"
-  then   alphabetical =  true;
-         numeric      =  false;
+  if type(sort_field) == "string" then sort_field = sort_field:lower(); end;
+
+  if  sort_field   == nil
+   or sort_field   == true
+   or sort_field   == "alpha"
+   or sort_field   == "alphabetical"
+   or sort_field   == "a-z"
+  then alphabetical = true;
+       numeric      = false;
   end;
 
   local function ignore_case(a, b)
@@ -460,7 +461,7 @@ local function get_sorted_keys(t, sort_field, numeric)
   local n    = 0;
   for   k, v in pairs(t)
   do    n       = n + 1;
-        yprint("==============", "===============");
+        -- yprint("==============", "===============");
         if   type(k) == "string" then keys[n] = k; table.insert(keys, k); end;
   end;
 
@@ -911,7 +912,7 @@ local function yaml_character(yaml_tree)
 
        if   character.art -- and type(character.picture) == "table"
        then markdown = markdown .. yaml_char_picture(character.art);
-       else eprint("We don't have picture :(");
+       else yprint("We don't have picture :(");
        end; -- character.picture
 
        if   character.bio
@@ -1182,7 +1183,7 @@ local function yaml_list(yaml_tree)
        else for _, k in pairs(keys)
             do  local data = item_list[k];
                 local term = k;
-                yprint("term is", k);
+                -- yprint("term is", k);
                 if   not data
                 then yprint("error: flat_tree[" .. k .. "]", "NOT EXIST");
                      errors = errors + 1;
@@ -1190,10 +1191,10 @@ local function yaml_list(yaml_tree)
                 end; -- not data
 
                 if   data.definite
-                then yprint("===================", "---------------------");
+                then -- yprint("===================", "---------------------");
                      yprint("definite article on", term);
                      term = "The " .. term;
-                     yprint("===================", "---------------------");
+                     -- yprint("===================", "---------------------");
                 end;
 
                 slurped         = slurped .. "\n- **" .. term .. "**";
@@ -1271,13 +1272,13 @@ local function yaml_glossary(yaml_tree)
            elseif hq_equiv
            then   yprint("ERROR hq_equiv exists but is type",      type(hq_equiv));
                   os.exit(1);
-           elseif yeneric_equiv
+           elseif generic_equiv
            then   eprint("ERROR generic_equiv exists but is type", type(generic_equiv));
                   os.exit(1);
            end;
 
            slurped = slurped .. "\n\n";
-      else -- vprint("skipping metadata", "METADATA METADATA");
+      else yprint("skipping metadata", "METADATA METADATA");
       end;
   end;
   slurped = slurped .. string.rep(":", 70) .. "\n\n";

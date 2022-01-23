@@ -46,6 +46,7 @@ crisis/hero_phase
 crisis/crisis_phase
 crisis/post
 advancement
+experienced_heroes
 setting/what/*
 setting/what/lists/*
 team/
@@ -72,7 +73,7 @@ glossary
 lists_index
 powers/words
 soapbox_index
-setting/setting_index
+setting/index
 credits/intro
 credits/license
 credits/harmony_drive
