@@ -62,21 +62,6 @@ A Volume 2 hero gains the following Advancements:
 
 A Volume 3 hero gains the following Advancements:
 
-- Add two Skills
-- Add two Fighting Styles
-- Add two Power Words from any hero Class's Power Words list
-- Increase two Approaches by 1 each, or one Approach by 2
-- Add a Volume 1 Ability from your hero's Class
-- Add a Volume 1 or 2 Ability from your hero's Class
-- Choose two of the following:
-  - Increase your Health by 1
-  - Increase your Might by 1
-  - Add one Power Word from your hero Class's Personal Power Words list
-
-## Creating a Volume 3 Hero {#toc-experienced-heroes-v3}
-
-A Volume 3 hero gains the following Advancements:
-
 - Add three Skills
 - Add three Fighting Styles
 - Add three Power Words from any hero Class's Power Words list

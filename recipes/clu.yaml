@@ -46,7 +46,7 @@ crisis/hero_phase
 crisis/crisis_phase
 crisis/post
 advancement
-experienced_heroes
+chargen/experienced_heroes
 setting/what/*
 setting/what/lists/*
 team/
