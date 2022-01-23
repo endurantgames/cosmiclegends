@@ -3,7 +3,7 @@
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name]{.label .name}
 [The Paragon]{.label .class} [Renegade Sentinel of Saturn.]{.label .}

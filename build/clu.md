@@ -3404,8 +3404,8 @@ have been had his mother's pride not cost them both dearly.
 - **Identity:** public
 - **Place of Birth:** Aberffraw, Wales
 - **Marital Status:** single
-- **Known Relatives:** Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Agresizia[]{.icon-female} (sister, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*), King Pellinore[]{.icon-male} (father, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Dindrane[]{.icon-female} (sister)
-- **Base of Operations:** Camelot, England (formerly); Sun City, U.S.A.; New York City, New York (current); St. Helena Island (temporarily, 1900)
+- **Known Relatives:** King Pellinore[]{.icon-male} (father, *deceased*), Galahad y Llyn[]{.icon-male} (nephew, *deceased*), Dindrane[]{.icon-female} (sister), Agresizia[]{.icon-female} (sister, *deceased*), Algovale[]{.icon-male} (brother, *deceased*), Lamorak[]{.icon-male} (brother, *deceased*)
+- **Base of Operations:** Sun City, U.S.A.; St. Helena Island (temporarily, 1900); Camelot, England (formerly); New York City, New York (current)
 - **Group Affiliation:** A.L.E.R.T. (reserve operative), Knights of the Round Table (organization defunct), Cosmic Legends of the Universe (*founding member*, *reserve member*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -3625,7 +3625,7 @@ powers  coming soon
 - **Identity:** public
 - **Place of Birth:** Sacramento, California
 - **Marital Status:** single
-- **Known Relatives:** Madinia Katherine Dee[]{.icon-female} (mother, Miss Magister*deceased*), John Dee(purported ancestor), John Arthur Dee VI[]{.icon-male} (maternal grandfather, Master Magister), Arthur Dee(purported ancestor, *deceased*), John Arthur Dee VII(uncle, Master Magister*deceased*)
+- **Known Relatives:** Arthur Dee(purported ancestor, *deceased*), John Arthur Dee VII(uncle, Master Magister*deceased*), John Dee(purported ancestor), John Arthur Dee VI[]{.icon-male} (maternal grandfather, Master Magister), Madinia Katherine Dee[]{.icon-female} (mother, Miss Magister*deceased*)
 - **Base of Operations:** 
 - **Group Affiliation:** State Bar of California, Cosmic Legends of the Universe (*reserve member*)
 
@@ -3712,9 +3712,9 @@ He's also a fairly decent attorney.
 - **Identity:** public
 - **Place of Birth:** Volcano City, Vulcanor Island
 - **Marital Status:** single
-- **Known Relatives:** Igneia Vulcanor[]{.icon-female} (sister), Limuo Pele Vulcanor[]{.icon-female} (mother), Tachylus Vulcanor Rex[]{.icon-male} (father)
+- **Known Relatives:** Tachylus Vulcanor Rex[]{.icon-male} (father), Igneia Vulcanor[]{.icon-female} (sister), Limuo Pele Vulcanor[]{.icon-female} (mother)
 - **Base of Operations:** 
-- **Group Affiliation:** Vulcanor Royal Family, N.O.V.A. Labs (*founding member*), Cosmic Legends of the Universe (*founding member*, *reserve member*)
+- **Group Affiliation:** N.O.V.A. Labs (*founding member*), Vulcanor Royal Family, Cosmic Legends of the Universe (*founding member*, *reserve member*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -3969,7 +3969,7 @@ and lets her lift in excess of 100 tons."
 - **Identity:** Classified
 - **Place of Birth:** Classified
 - **Marital Status:** Classified
-- **Group Affiliation:** Cosmic Legends of the Universe (*reserve member*), A.L.E.R.T. (Director)
+- **Group Affiliation:** A.L.E.R.T. (Director), Cosmic Legends of the Universe (*reserve member*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -4034,9 +4034,9 @@ Classified
 - **Identity:** public
 - **Place of Birth:** L'Shar'Ak, Titan
 - **Marital Status:** widowed
-- **Known Relatives:** My'Tonn To'Rezz[]{.icon-trans} (sibling, *deceased*), My'Rinn To'Rezz[]{.icon-trans} (sibling's child, Tethys), unnamed spouses[]{.icon-trans} (spouses, *deceased*)
+- **Known Relatives:** unnamed spouses[]{.icon-trans} (spouses, *deceased*), My'Tonn To'Rezz[]{.icon-trans} (sibling, *deceased*), My'Rinn To'Rezz[]{.icon-trans} (sibling's child, Tethys)
 - **Base of Operations:** 
-- **Group Affiliation:** N.O.V.A. Labs (*founding member*, co-founder), Sentinels of Saturn (*resigned*), Cosmic Legends of the Universe (*founding member*, *reserve member*)
+- **Group Affiliation:** Sentinels of Saturn (*resigned*), N.O.V.A. Labs (*founding member*, co-founder), Cosmic Legends of the Universe (*founding member*, *reserve member*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -4144,7 +4144,7 @@ Titanian.
 - **Identity:** public
 - **Place of Birth:** Albuquerque, New Mexico
 - **Marital Status:** divorced
-- **Known Relatives:** Lin Montgomery[]{.icon-trans} (child, Vespa 2.0), Magnus Merlyn Malign[]{.icon-male} (ex-husband, Marquis Malign), Del Thompson[]{.icon-male} (ward, Energy Boy)
+- **Known Relatives:** Del Thompson[]{.icon-male} (ward, Energy Boy), Magnus Merlyn Malign[]{.icon-male} (ex-husband, Marquis Malign), Lin Montgomery[]{.icon-trans} (child, Vespa 2.0)
 - **Base of Operations:** 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -4203,7 +4203,7 @@ Hazel Montgomery had no super-powers, just her brilliant and creative mind.
 - **Identity:** public
 - **Place of Birth:** Vadyvokia Castle, Vadyvokia
 - **Marital Status:** single
-- **Known Relatives:** Merlyn Malign(half-brother, Marquis Malign II), Hazel Montgomery(mother, Vespa (I)*deceased*), Magnus Merlyn Malign(father, Marquis Malign (I))
+- **Known Relatives:** Hazel Montgomery(mother, Vespa (I)*deceased*), Magnus Merlyn Malign(father, Marquis Malign (I)), Merlyn Malign(half-brother, Marquis Malign II)
 - **Base of Operations:** 
 - **Group Affiliation:** Villains, Inc. ((as Hornette; expelled)), Technopolis Academy ((graduated)), Junior Legends of America (*reserve member*), Cosmic Legends of the Universe
 
@@ -4468,15 +4468,9 @@ This is a list of other individuals active in the CLotU Universe.
 :::::::::::::::::::::::::::::::::::other-list:::::::::::::::::::::::::::::::::::
 - **Aquila**[]{.icon-female} TBD: iconic twins See *The Falconer*
 
-- **Aquila**[]{.icon-female} TBD: iconic twins See *The Falconer*
-
 - **Balor**[]{.icon-male}  See *Villains, Inc.*
 
 - **Bres**[]{.icon-male} Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
-
-- **Bres**[]{.icon-male} Renegade member of the Tuatha Dé Danann and enemy of Brigantia.
-
-- **Dindrane**[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight. See *Pervical, the Grailknight*
 
 - **Dindrane**[]{.icon-female} Immortal wizard; sister of Percival, the Grailknight. See *Pervical, the Grailknight*
 
@@ -4486,13 +4480,21 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Eidolon**[]{.icon-male} TBD: iconic haunt
 
+- **Eidolon**[]{.icon-male} TBD: iconic haunt
+
 - **Falconer**[]{.icon-female} TBD: iconic twins See *Aquila*
+
+- **Falconer**[]{.icon-female} TBD: iconic twins See *Aquila*
+
+- **Far-Seeker**[]{.icon-female} N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends.
 
 - **Far-Seeker**[]{.icon-female} N.J. Campbell, Earth-born space-adventurer and honorary member of the Cosmic Legends.
 
 - **Gloom**[]{.icon-male} Independent hero and former student at Technopolis Academy with darkness and emotion powers.
 
 - **Gloom**[]{.icon-male} Independent hero and former student at Technopolis Academy with darkness and emotion powers.
+
+- **Glytch**[]{.icon-trans}  See *Villains, Inc.*
 
 - **Glytch**[]{.icon-trans}  See *Villains, Inc.*
 
@@ -4503,8 +4505,6 @@ This is a list of other individuals active in the CLotU Universe.
 - **The Hornette**[]{.icon-trans} Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*
 
 - **The Hornette**[]{.icon-trans} Alias used by Lin Montgomery to infiltrate Villains, Inc. See *Vespa 2.0*
-
-- **Hyperion**[]{.icon-trans} Renegade Sentinel of Saturn and frequent enemy of Titan.
 
 - **Hyperion**[]{.icon-trans} Renegade Sentinel of Saturn and frequent enemy of Titan.
 
@@ -4524,7 +4524,7 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **The Man in Black**[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.
 
-- **The Man in Black**[]{.icon-male} Sorceror and arch-enemy of Obsidius Rex.
+- **Marlinspike**[]{.icon-male} Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
 
 - **Marlinspike**[]{.icon-male} Teen aquatic hero and student at Technopolis Academy who was killed by Glytch.
 
@@ -4534,16 +4534,18 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Momentum**[]{.icon-male} TBD: iconic speedster
 
+- **Momentum**[]{.icon-male} TBD: iconic speedster
+
 - **Neutrino**[]{.icon-female} Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+
+- **Neutrino**[]{.icon-female} Cosmic-powered energy projector and mother of Energy Boy. Not a team player.
+
+- **Sandra Starr**[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends. See *A.L.E.R.T.*
 
 - **Sandra Starr**[]{.icon-female} Agent of A.L.E.R.T. and liaison to the Cosmic Legends. See *A.L.E.R.T.*
 
 - **Sequana**[]{.icon-female} A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.
 
-- **Sequana**[]{.icon-female} A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc.
-
-- **Sreng**[]{.icon-male} Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace. See *Villains, Inc.*
-
 - **Sreng**[]{.icon-male} Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace. See *Villains, Inc.*
 
 - **Tachylus Rex**[]{.icon-male} King of Vulcanor, father of Obsidius Rex and Igneia, and estranged husband of Limuo Pele.
@@ -4552,11 +4554,9 @@ This is a list of other individuals active in the CLotU Universe.
 
 - **Tethys (My'Rinn To'Rezz)**[]{.icon-trans} Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
 
-- **Tethys (My'Rinn To'Rezz)**[]{.icon-trans} Child of Titan's sibling; a member of the Junior Legends of America; possesses full Titanian Sentinel powers.
-
 - **The Verdict**[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.
 
-- **The Verdict**[]{.icon-male} Former district attorney and anti-hero known for delivering extra-judicial punishment; wanted by both A.L.E.R.T. and Villains, Inc.
+- **Xana Mega**[]{.icon-female} Faerie queen of the Aos Sí and arch-enemy of Sir Percival.
 
 - **Xana Mega**[]{.icon-female} Faerie queen of the Aos Sí and arch-enemy of Sir Percival.
 
@@ -4580,13 +4580,13 @@ These are key locations within the CLotU Universe.
 - **L'Shar'Ak**
 
 
-- **L'Shar'Ak**
-
-
 - **Mag Findargat**
 
 
 - **Mag Findargat**
+
+
+- **Moulin Air Force Base**
 
 
 - **Moulin Air Force Base**
@@ -4620,9 +4620,6 @@ These are key locations within the CLotU Universe.
 
 
 - **Technopolis, U.S.A.**
-
-
-- **Titan (Moon)**
 
 
 - **Titan (Moon)**
@@ -4744,7 +4741,7 @@ Solar System.
 
 - **4 billion years ago** The planet Saturn Titan and the other moons of Saturn form.
 
-- **4 billion years ago** The planet Saturn Titan and the other moons of Saturn form.
+- **4 to 4.6 billion years ago** The planet Earth The planet Earth and the Moon form.
 
 - **4 to 4.6 billion years ago** The planet Earth The planet Earth and the Moon form.
 
@@ -4793,6 +4790,11 @@ justice for the death of Johnny Dee. Upon Maddie's death, her powers go to Jack,
 uses them to banish Sequana to Otherworld."
 
 
+- **April, 1982** Boston, Massachusetts "Brigantia, Miss Magister: Maddie Dee, and Jack Dee seek out Sequana to bring her to
+justice for the death of Johnny Dee. Upon Maddie's death, her powers go to Jack, who
+uses them to banish Sequana to Otherworld."
+
+
 - **April, 2002** Technopolis, U.S.A. After resigning from the Junior Legends, Lin Montgomery takes up a new alias as the
 Hornette as part of a ruse to infiltrate Villains, Inc.
 
@@ -4823,6 +4825,19 @@ a POW camp on the island of Saint Helena but escaped within a week.
 Battle of Bergendal after fighting alongside the Boers against the British as part
 of the Irish Transvaal Brigade during the Second Anglo-Boer War. He was sent to
 a POW camp on the island of Saint Helena but escaped within a week.
+
+
+- **August, 1940** Campile, South Wexler, Ireland A lone German bomber drops several bombs on the Irish village of Campile,
+killing several.
+
+Survivor Kitty Farrington was saved by the intervention of the
+Tuatha Dé Danann, who transformed her into their champion, Sequana.
+She later joins the British Merchant Navy, over objections of the Oireachtas 
+Éireann -- who sought to enforce Ireland's neutrality in World War II.
+
+Sequana's actions during the war led to political discrimination when she
+returned to Ireland after D-Day, and she soon emigrated to the United States,
+where she operated as the first public \"super-hero\" in America.
 
 
 - **August, 1940** Campile, South Wexler, Ireland A lone German bomber drops several bombs on the Irish village of Campile,
@@ -4891,11 +4906,6 @@ the Network for Observation, Verification, and Analysis, opening the first labor
 in Technopolis, with Hazel Montgomery as the founding director.
 
 
-- **December, 1971** Technopolis, U.S.A. Titan, Lin Montgomery, Dr. Phineas Pann, Delphine Thompson, and King Tachylus Rex create
-the Network for Observation, Verification, and Analysis, opening the first laboratory
-in Technopolis, with Hazel Montgomery as the founding director.
-
-
 - **December, 2015** Sun City, U.S.A. After decades of allowing Earthlings to use he/him pronouns for them, Titan holds a
 press conference and announces that they would be using they/them pronouns henceforth.
 This is reported on the front page of the *New York Times*.
@@ -5092,10 +5102,6 @@ platform outside of Technopolis.
 non-binary. They're granted special reserve status in the Junior Legends as well.
 
 
-- **May, 2003** Technopolis, U.S.A. Lin Montgomery rejoins the Cosmic Legends as Vespa 2.0 and comes out publicly as
-non-binary. They're granted special reserve status in the Junior Legends as well.
-
-
 - **November, 1944** Boston, Massachusetts Teenage detective Madinia Dee, a former volunteer for the Boston Herald's
 "Rumor Clinic", is given her own advice column.
 
@@ -5172,12 +5178,7 @@ Advisory Committee for Aeronautics, under the United States Department of Defens
 founded; instead, all space operations would remain under military control.)
 
 
-- **October, 1947** United States The United States creates the Agency for the Licensing of Extra-Human Resources 
-and Threats with the merger of the National Security Agency and the National 
-Advisory Committee for Aeronautics, under the United States Department of Defense.
-
-(In the Cosmic Legends Universe, NASA -- a civilian agency -- would not be 
-founded; instead, all space operations would remain under military control.)
+- **October, 1956** The moon Jarnsaxa Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors.
 
 
 - **October, 1956** The moon Jarnsaxa Having returned to their spouses on Jarnsaxa, Ty'Tonn plans heads to warn W'Ty'Dah'k of the approaching Visitors.
@@ -5192,10 +5193,10 @@ help stabilize Delmore Thompson's energies, allowing him to reform his body from
 pure nuclear energy.
  See also: *Energy Boy*
 
-- **October, 1978** Technopolis, U.S.A. After several "ghostly sightings" around Technopolis, Hazel and Lin Montgomery
-help stabilize Delmore Thompson's energies, allowing him to reform his body from
-pure nuclear energy.
- See also: *Energy Boy*
+- **October, 1984** Pittsburgh, Pennsylvania After being expelled from Mag Findargat, the Cosmic Legends establish a base
+adjacent to the grounds of Chatham University. Their headquarters remains at
+the Gate House until May, 1987.
+
 
 - **October, 1984** Pittsburgh, Pennsylvania After being expelled from Mag Findargat, the Cosmic Legends establish a base
 adjacent to the grounds of Chatham University. Their headquarters remains at
@@ -5206,16 +5207,16 @@ the Gate House until May, 1987.
 her actions, she instead returns to the 24th century.
 
 
-- **October, 1984** Pittsburgh, Pennsylvania After being expelled from Mag Findargat, the Cosmic Legends establish a base
-adjacent to the grounds of Chatham University. Their headquarters remains at
-the Gate House until May, 1987.
-
-
 - **September, 1961** Technopolis, U.S.A. A.L.E.R.T. field agent Hazel Montgomery debuts her new Vespa (I) armor.
 
 
 - **September, 1961** Technopolis, U.S.A. A.L.E.R.T. field agent Hazel Montgomery debuts her new Vespa (I) armor.
 
+
+- **September, 1963** Sun City, U.S.A. Titan, Percival, Maddie Dee, Sequana, Vespa (I), and the Falconer form the 
+Cosmic Legends of the Universe team to oppose the invasion of Earth by 
+Xana Mega and her Aos Sí armies.
+ See also: *Cosmic Legends of the Universe*
 
 - **September, 1963** Sun City, U.S.A. Titan, Percival, Maddie Dee, Sequana, Vespa (I), and the Falconer form the 
 Cosmic Legends of the Universe team to oppose the invasion of Earth by 
@@ -6621,7 +6622,7 @@ Defeat
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/medium-logo.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8211,7 +8212,7 @@ Defeat
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8328,7 +8329,7 @@ into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8446,7 +8447,7 @@ over 300 lbs.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8560,7 +8561,7 @@ the codename of "Vespa." They have black hair and brown eyes.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8673,7 +8674,7 @@ like a walking nebula.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8787,7 +8788,7 @@ He looks no older than 40.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -8906,7 +8907,7 @@ Jack has brown hair and vandyke.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9018,7 +9019,7 @@ Jack has brown hair and vandyke.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name]{.label .name}
 [The Paragon]{.label .class} [Renegade Sentinel of Saturn.]{.label .}
@@ -9146,7 +9147,7 @@ Titanian.
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo.png-medium){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/medium-logo.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9266,7 +9267,7 @@ he lacks hair.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9380,7 +9381,7 @@ Jack has brown hair and vandyke.]{.pregen-bio}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9492,7 +9493,7 @@ like a walking nebula.]{.pregen-bio}
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9604,7 +9605,7 @@ he lacks hair.]{.pregen-bio}
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9716,7 +9717,7 @@ Her hair is dyed magenta and her skin is quite tan.]{.pregen-bio}
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9832,7 +9833,7 @@ into 1,000 lbs of solid, rocky muscle.]{.pregen-bio}
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -9949,7 +9950,7 @@ over 300 lbs.]{.pregen-bio}
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -10058,7 +10059,7 @@ over 300 lbs.]{.pregen-bio}
 [Hero Sheet]{#anchor-herosheet .anchor}
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -10197,6 +10198,10 @@ Action
 :   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
     ()
 
+Action
+:   An Approach of a hero. Describes how much the hero likes to solve problems with direct action.
+    ()
+
 Add to the Teamwork Pool
 :   A move taken by a hero designed to give the team an advantage against a Crisis.
     ()
@@ -10217,9 +10222,9 @@ Adventure
 :   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation.
     ()
 
-Allay
-:   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
-    (*Diplomacy* in general TRPG terminology)
+Adventure
+:   An Approach of a hero. Describes how much the hero likes to solve problems by coming up with a new approach to fit the situation.
+    ()
 
 Allay
 :   A Goal that could resolve a Crisis through understand the source of the Crisis and rectifying the underlying cause.
@@ -10237,6 +10242,10 @@ Approach
 :   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
     ()
 
+Approach
+:   A hero's primary "stats". Approaches describe a hero's preferred ways of solving problems.
+    ()
+
 Comic Page Change Tools
 :   A safety tool that lets players stop, fast-forward, reverse, or continue on with uncomfortable content; adapted from Script Change Tools.
     ()
@@ -10244,14 +10253,6 @@ Comic Page Change Tools
 Contined Next Page
 :   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
     ()
-
-Contined Next Page
-:   A Comic Page Change safety tool to say that you want to continue with the current content but you need or want a pause for a break or discussion.
-    ()
-
-Cooldown
-:   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
-    (*recharge* in general TRPG terminology)
 
 Cooldown
 :   The state of a Power Word after using it that lasts until the start of the next Hero Phase; the Power Word can't be used while on Cooldown.
@@ -10273,10 +10274,6 @@ Crisis Phase
 :   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
     (*GM Turn* in Harmony Drive; *NPCs' Turn* in general TRPG terminology)
 
-Crisis Phase
-:   The part of a Crisis when the Editor chooses the moves for the Crisis; alternates with Hero Phase.
-    (*GM Turn* in Harmony Drive; *NPCs' Turn* in general TRPG terminology)
-
 Crossover
 :   A game session with heroes from two or more different campaigns working together.
     ()
@@ -10284,10 +10281,6 @@ Crossover
 Detective
 :   An Approach of a hero. Describes how much the hero likes to solve problems by connecting information.
     (*Intelligence* in general TRPG terminology)
-
-Edge Success
-:   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
-    (*Success* in general TRPG terminology)
 
 Edge Success
 :   A die that comes up a 1. A player can count this as a Success as if it were a 5 or 6, but only if they agree to a consequence presented by the Editor.
@@ -10321,10 +10314,6 @@ Goal
 :   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
     ()
 
-Goal
-:   One of four ways in which a Crisis could be resolved by the heroes: Smash, Outwit, Allay, or Rescue.
-    ()
-
 Guest Star
 :   A hero played by someone who isn't a regular player in the group.
     (*guest player* in general TRPG terminology)
@@ -10337,13 +10326,17 @@ Hero
 :   A single character whose actions are determined by a player who isn't the Editor.
     (*Player Character* in general TRPG terminology)
 
-Hero Phase
-:   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase.
-    (*Players' Turns* in general TRPG terminology)
+Hero
+:   A single character whose actions are determined by a player who isn't the Editor.
+    (*Player Character* in general TRPG terminology)
 
 Hero Phase
 :   The part of a Crisis when the players choose the moves taken by their heroes; alternates with Crisis Phase.
     (*Players' Turns* in general TRPG terminology)
+
+Ideals
+:   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
+    ()
 
 Ideals
 :   A list of a hero's unique motivations and values. When a hero acts in accordance with an item in their Ideals, they mark it off and add two dice to their next skill roll.
@@ -10361,16 +10354,12 @@ Issue 0
 :   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
     ()
 
-Issue 0
-:   A game session for talking about player and Editor expectations, as well safety tools that will be used in the game.
-    ()
-
 Later That Day, ...
 :   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
     ()
 
-Lines and Veils
-:   A safety tool for designating some content as a hard line "no", and others only with "fade to black".
+Later That Day, ...
+:   A Comic Page Change safety tool to fast-forward through an event or period of time without playing through it.
     ()
 
 Lines and Veils
@@ -10385,9 +10374,17 @@ Might
 :   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might.
     (*energy* in general TRPG terminology)
 
+Might
+:   A measure of a hero's energy levels; using Power Stunts costs Might, and a low Might total reflects fatigue. Heroes start Volume 1 with 10 Might.
+    (*energy* in general TRPG terminology)
+
 Move
 :   A fictional action taken by the hero that usually includes a roll of the dice to resolve.
     (*check or attack roll* in general TRPG terminology)
+
+Mystery
+:   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
+    (*Deception* in general TRPG terminology)
 
 Mystery
 :   An Approach of a hero. Describes how much the hero likes to solve problems by hiding their motives or actions from others.
@@ -10397,8 +10394,8 @@ Nova Power Words
 :   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
     ()
 
-One-Shot
-:   A game session that isn't part of an ongoing story.
+Nova Power Words
+:   Two Power Words that are available to the hero after they have marked off every item in their Ideals. These can be anything - the player can write whatever they like.
     ()
 
 One-Shot
@@ -10413,9 +10410,9 @@ Opportunity
 :   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
     (*moral of the story* in general TRPG terminology)
 
-Outwit
-:   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
-    (*trickery* in general TRPG terminology)
+Opportunity
+:   The lesson or event that's central to a Storyline, chosen by the Spotlight hero's player.
+    (*moral of the story* in general TRPG terminology)
 
 Outwit
 :   A Goal that could resolve a Crisis through tricking, persuasing, or controlling the source of the Crisis.
@@ -10465,9 +10462,9 @@ Rescue
 :   A Goal that could resolve a Crisis by removing people or property from harm.
     (*Saving Innocents* in general TRPG terminology)
 
-Rescue
-:   A Goal that could resolve a Crisis by removing people or property from harm.
-    (*Saving Innocents* in general TRPG terminology)
+Retcon
+:   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
+    (*Undo* in general TRPG terminology)
 
 Retcon
 :   A Comic Page Change safety tool for saying you would like to redo or edit uncomfortable content.
@@ -10480,10 +10477,6 @@ Scene Power Words
 Scene Power Words
 :   Power Words defined by the Editor at the start of a Crisis which can be used by heroes in Power Stunts.
     ()
-
-Series
-:   A group of Storylines following the same group of heroes
-    (*RPG Campaign* in general TRPG terminology)
 
 Series
 :   A group of Storylines following the same group of heroes
@@ -10517,6 +10510,10 @@ Story
 :   An adventure, either self-contained in one Issue or continued to the next Issue.
     ()
 
+Story
+:   An adventure, either self-contained in one Issue or continued to the next Issue.
+    ()
+
 Storyline
 :   One or more Stories in which one hero receives the Spotlight and their Opportunity is addressed.
     (*plot* in general TRPG terminology)
@@ -10540,6 +10537,10 @@ Suspense
 Suspense
 :   An Approach of a hero. Describes how much the hero likes to solve problems by taking in information from the surroundings.
     (*Wisdom* in general TRPG terminology)
+
+Take the Hit
+:   When one hero takes the entire effect of a Crisis move instead of another hero.
+    (*tanking, defending, sacrifice* in general TRPG terminology)
 
 Take the Hit
 :   When one hero takes the entire effect of a Crisis move instead of another hero.
@@ -11221,7 +11222,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \ 
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 [Hero Name                                                    ]{.label .name}
 [Class          ]{.label .class}              [A.K.A.         ]{.label .nickname}
@@ -11272,7 +11273,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/DrivenByHarmonyLogo-medium.png){.hd-logo} \
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -11585,7 +11586,7 @@ the United States federal government (see 17 U.S.C. 105).
 
 ![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
 
-![Driven by Harmony](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
+![Driven by Harmony](art/harmony_drive/logo-medium.png){.hd-logo} \
 
 :::::::::: { .header } :::::::::::::::::::::::::::::::::::::::::::::
 ### Series Sheet
