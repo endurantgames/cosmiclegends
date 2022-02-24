@@ -20,7 +20,8 @@ Storyline.
 
 ## Changes
 
-Optionally, you could can make any or all of these changes to your hero:
+Optionally, you could can make any or all of these changes to your hero at 
+the end of a Storyline:
 
 - Change one of your Ideals to any other word.
 - Change your Opportunity if you haven't already completed your Storyline.
