@@ -1,13 +1,13 @@
 @import url("style.css");
 
 @page herosheet {
-  background-image: url("../art/clu-herosheet.svg"), url("../art/rainbow.svg");
+  background-image: url("../art/svg/clu-herosheet.svg"), url("../art/rainbow.svg");
   background-size: auto 100%, auto 175%;
   background-position:  center, center 20%; 
 }
 
-.herosheet .ethos { color: var(--color-sheet-dark); }
-.herosheet .safety { color: var(--color-sheet-dark); }
+.herosheet .ethos        { color: var(--color-sheet-dark); }
+.herosheet .safety       { color: var(--color-sheet-dark); }
 .herosheet .hd-logo-copy { color: var(--color-sheet-dark); }
 
 

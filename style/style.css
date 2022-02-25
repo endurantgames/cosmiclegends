@@ -290,7 +290,7 @@ a:hover   { text-decoration: none; color: red;    }
   position:             relative;
 }
 @page:first {
-  background-image:     url("../art/rainbow.svg");
+  background-image:     url("../art/svg/rainbow.svg");
   background-repeat:    no-repeat;
   background-size:      auto 130%;
   background-position:  center 20%;
