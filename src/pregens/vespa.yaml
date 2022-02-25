@@ -7,7 +7,7 @@
   - url:    art/jeshields/inventor.png
   - alt:    *title
   - face:   art/jeshields/vespa_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-vespa-2
 - bio:
   - real_name: Lin Montgomery

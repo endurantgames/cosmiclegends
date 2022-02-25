@@ -7,7 +7,7 @@
   - url:    art/jeshields/shaper.png
   - alt:    *title
   - face:   art/jeshields/riptide_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-riptide
 - bio:
   - real_name: Kelly Liang

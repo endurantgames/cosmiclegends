@@ -7,7 +7,7 @@
   - url:    art/jeshields/dynamo.png
   - alt:    *title
   - face:   art/jeshields/energy_boy_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-energy-boy
 - bio:
   - real_name: Delmore "Del" Langston Thompson

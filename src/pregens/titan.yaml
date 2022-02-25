@@ -7,7 +7,7 @@
   - url:    art/jeshields/paragon.png
   - alt:    *title
   - face:   art/jeshields/titan_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-titan
 - bio:
   - real_name:      Ty'Tonn To'Rezz

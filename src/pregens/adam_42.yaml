@@ -7,7 +7,7 @@
   - url:             art/jeshields/construct.png
   - alt:             "Adam-42: One-Officer-Police-Force"
   - face:            art/jeshields/construct_face.png
-  - credit:          &copy; JEShields
+  - credit:          "&copy; JEShields"
   - anchor:          art-adam-42
 - bio:
   - name: *title

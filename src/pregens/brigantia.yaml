@@ -6,7 +6,7 @@
   - url:      art/jeshields/divine.png
   - alt:      *title
   - face:     art/jeshields/brigantia_face.png
-  - credit:   &copy; JEShields
+  - credit:   "&copy; JEShields"
   - anchor:   art-brigantia
 - bio:
   - real_name:      Sienna MacGowan

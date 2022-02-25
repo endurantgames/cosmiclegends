@@ -1,9 +1,9 @@
-# Makefile for TTRPG projects ###########################################################################
+# Makefile for TTRPG projects ##################################################
 # By Cadera Spindrift
 #
 # FOR INTERNAL USE ONLY
 
-# Project Configuration #################################################################################
+# Project Configuration ########################################################
 #
 # Project id 
 #   Edit: yes
@@ -22,7 +22,8 @@ BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
 PDFTITLE  = Cosmic-Legends
 PAGEDIR   = $(OUTDIR)/pages
-MMD       = $(BINDIR)/make-markdown.lua
+MMD       = $(BINDIR)/make-markdown2.lua
+MMD_FLAGS =
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
@@ -31,8 +32,10 @@ BACKUPS   = --backup=numbered
 # BACKUPS = 
 
 # Lint
-YAMLLINT  = /usr/local/bin/yamllint
-FIND_YAML = `find $(SRCDIR) -iname "*.yaml"`
+# file listed so i can find where I'm pulling config opions from
+YAMLLINT  = /usr/bin/yamllint -c ~/.config/yamllint/config
+# FIND_YAML = `find $(SRCDIR) -iname "*.yaml"`
+FIND_YAML = $(SRCDIR)
 
 # File Locations
 #   Edit: probably unnecessary
@@ -101,7 +104,7 @@ ALLSHEETS_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_ALLSHEETS)
 TEAMSHEET_FLAGS    = $(FLAGS) $(TEAMSHEET_CSS)   $(PRINCEFLAGS_TEAMSHEET)
 WHATSWHAT_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_WHATSWHAT)
 
-# Application Configruation #############################################################################
+# Application Configuration ####################################################
 #
 # Pandoc Config
 #   Edit: probably unnecessary
@@ -155,7 +158,7 @@ PDFINFO_GREP = | /bin/grep -v "no"
 # MAKE_MD    = $(MMD) -q -- quiet
 # MAKE_MD    = $(MMD) -v -- verbose
 # MAKE_MD    = $(MMD) -y -- yamlbose (verbose only about yaml parsing)
-MAKE_MD      = $(MMD) -y
+MAKE_MD      = $(MMD) $(MMD_FLAGS) 
 MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
@@ -166,7 +169,7 @@ EDITOR = /usr/bin/vim
 # EXPLORER = /mnt/c/WINDOWS/explorer.exe $(OUT)
 EXPLORER = 
 
-# Variables ################################################################
+# Variables ####################################################################
 #
 # Date Variable
 #   Edit: no
@@ -214,7 +217,7 @@ blcyan := $(shell tput setab 14)
 blwhit := $(shell tput setab 15)
 blorng := $(shell tput setab 208)
 
-# Default Make Script ###############################################################
+# Default Make Script ##########################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
 # default: pregen
@@ -224,7 +227,7 @@ default: pdf
 # default: all
 # default: sheet
 
-# Make Help #########################################################################
+# Make Help ####################################################################
 #
 # make help
 #  Edit: if you add additional make options e.g. another pdf to make
@@ -245,7 +248,7 @@ help:
 	@ echo '  $(dkcyan)make$(resetc) $(dkblue)ls         $(resetc)- recursive ls'
 	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)menu       $(resetc)- list available recipes'
 
-# Various Make Utilities ############################################################
+# Various Make Utilities #######################################################
 #
 # make edit
 #  Edit: no
@@ -306,7 +309,7 @@ ls-back:
 	@ /bin/ls --color=never $(BACKDIR)
 	@ echo '$(resetc)'
 
-# Actual Make Scripts ###############################################################
+# Actual Make Scripts ##########################################################
 #
 # make markdown
 #   Edit: if you are making multiple docs
@@ -435,7 +438,7 @@ what-pdf: yaml-lint what-markdown
 
 # make HTML
 #   Edit: if you are making more than one html
-html: origin-markdown
+html: markdown
 	@ echo '$(ltcyan)Making HTML.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(HTML_OUT) $(PROJ_SRC)
 	@ echo '$(ltcyan)HTML built.$(resetc)'
@@ -454,7 +457,7 @@ yaml-lint:
 all:    pdf   letter    sheets      pregen  origin what-pdf
 sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
 
-# Make Aliases ######################################################################
+# Make Aliases #################################################################
 #  Edit: only you if want to add something
 md:             markdown
 list:           recipes

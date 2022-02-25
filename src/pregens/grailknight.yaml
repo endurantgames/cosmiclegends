@@ -7,7 +7,7 @@
   - url:    art/jeshields/knight.png
   - alt:    Percival, the Grailknight
   - face:   art/jeshields/grailknight_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-grailknight
 - "sheet-config":
   - shrink:

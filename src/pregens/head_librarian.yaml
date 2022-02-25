@@ -7,7 +7,7 @@
   - url:    art/jeshields/psychic.png
   - alt:    *title
   - face:   art/jeshields/head_librarian_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-head-librarian
 - bio:
   - real_name: unknown

@@ -14,25 +14,20 @@ local g = { -- g for "global"
 g.CONFIG      = {
   recipe      = "clu", -- specific to this project
   appname     = "make-markdown.lua",
-  dir         = { bin        = "./bin",
-                  build      = "./build",
-                  out        = "./out",
-                  recipe     = "./recipes",
-                  source     = "./src",
+  dir         = { bin    = "./bin", build  = "./build",
+                  out    = "./out", recipe = "./recipes",
+                  source = "./src",
                 },
   errors      = true,
-  ext         = { filter     = ".md;.yaml",
-                  markdown   = ".md",
-                  out        = ".md",
-                  recipe     = ".yaml",
-                  source     = "(%.md|%.yaml)",
-                  yaml       = ".yaml",
+  ext         = { filter = ".md;.yaml",    markdown = ".md",
+                  out    = ".md",          recipe   = ".yaml",
+                  source = "(.md|%.yaml)", yaml     = ".yaml",
                 },
   ignore      = "(%.git|Makefile|%.test|%.|backup|markdown)",
   intro       = "intro",
   lsfmt       = "  %-30s %-20s",
   logfmt      = "  %-30s %-20s",
-  maxerrors   = 10,
+  maxerrors   = 2,
   outfile     = "build",
   src_in_comment = true,
   summary     = true,
@@ -297,6 +292,7 @@ local function vprint(s, l) if g.CONFIG.verbose   then print(string.format(g.CON
 local function eprint(s, l) if g.CONFIG.errors    then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
 local function sprint(s, l) if g.CONFIG.summary   then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
 local function yprint(s, l) if g.CONFIG.debugyaml then print(string.format(g.CONFIG.logfmt, s or "", l or "")) end; end;
+local function pprint(s, l) print(string.format(g.CONFIG.logfmt, s or "", l or "")); end;
 -- local function iprint(s, data) print(string.format, s or "", inspect(data)); end;
 -- http://lua-users.org/wiki/FileInputOutput
 
@@ -312,12 +308,71 @@ end;
 local function bucket_count(bucket)
   bucket = bucket or "";
   bucket = bucket:upper();
-  if not bucket_exists(bucket)
+  if   not bucket_exists(bucket)
   then eprint("Error: unknown bucket", bucket);
        eprint("Can't get count");
   else return g.count[bucket]
   end;
 end;
+
+local function bucket_contents(bucket)
+  bucket = bucket or "";
+  bucket = bucket:upper();
+  if not bucket_exists(bucket)
+  then eprint("Error: unknown bucket", bucket);
+       eprint("Can't get contents");
+  else return g.bucket[bucket];
+  end; -- if not bucket_exists
+end; -- function
+
+local function bucket_dump(bucket, printfunc)
+  printfunc = printfunc or pprint;
+  bucket = bucket or "";
+  bucket = bucket:upper();
+  if not bucket_exists(bucket)
+  then eprint("Error: unknown bucket", bucket);
+       eprint("Can't do dump");
+       return nil;
+  else printfunc("Dump starts ===========", bucket);
+       for i, line in pairs(bucket_contents(bucket))
+       do printfunc(bucket .. "[" .. i .. "]", line);
+       end;
+       printfunc("Dump ends ===========", bucket);
+  end; -- if not bucket_exists
+end;
+
+local function bucket_fetch(bucket, key)
+  key    = key or "";
+  bucket = bucket or "";
+  bucket = bucket:upper();
+  if not bucket_exists(bucket)
+  then eprint("Error: unknown bucket", bucket);
+       eprint("Can't do lookup");
+       return nil;
+  else bucket_list = bucket_contents(bucket);
+       if not bucket_list
+       then   eprint("Error: can't get bucket list", bucket)
+              return nil;
+       elseif not bucket_list[key]
+              then eprint("Error: no value for", bucket .. "[" .. key .. "]");
+              return nil;
+       end; -- if not bucket_list
+  end; -- if not bucket_exists
+
+end;
+
+local function bucket_test(bucket, key)
+  key    = key or "";
+  bucket = bucket or "";
+  bucket = bucket:upper();
+  if not bucket_exists(bucket)
+  then eprint("Error: unknown bucket", bucket);
+       eprint("Can't do test");
+       return false;
+  else local value = bucket_fetch(bucket, key)
+       if value then return true else return false; end;
+  end; -- not bucket_exists
+end; -- function
 
 local function bucket_add(bucket, data)
   bucket = bucket or "";
@@ -354,6 +409,25 @@ local function file_exists(file)
   if     f then f:close() end
   return f ~= nil
 end -- function
+
+local function find_file(file)
+  -- pprint("looking for file:", file);
+  file = file or "";
+  local  filename_md   = file .. g.CONFIG.ext.markdown;
+  local  filename_yaml = file .. g.CONFIG.ext.yaml;
+  if     file_exists( file )
+  then   pprint("found raw file", file);
+         return false, file, "raw";
+  elseif file_exists(  filename_md)
+  then   pprint("found markdown", filename_md);
+         return true,  filename_md, "markdown";
+  elseif file_exists(filename_yaml)
+  then   pprint("found yaml", filename_yaml);
+         return true,  filename_yaml, "yaml"
+  else   -- eprint("Couldn't find :(", file);
+         return false, file, "not_found"
+  end;
+end;
 
 local function adjust_md_level(source_file, markdown)
   local octo, _    = string.match(markdown, "^(#+)");
@@ -520,9 +594,9 @@ local function get_sorted_keys(table_of_tables, sort_field, numeric)
       table.insert(keys, retrieved_key);
   end;
 
-  eprint("-----------------", "---------------------"     );
-  eprint("keys",              table.concat(keys, "; "    ));
-  eprint("-----------------", "---------------------"     );
+  -- eprint("-----------------", "---------------------"     );
+  -- eprint("keys",              table.concat(keys, "; "    ));
+  -- eprint("-----------------", "---------------------"     );
 
   return keys;
 
@@ -955,7 +1029,7 @@ end;
 
 local function yaml_character(yaml_tree)
   local character, metadata, markdown = yaml_common(yaml_tree);
-  yprint("yaml xformat is:", "character");
+  -- yprint("yaml xformat is:", "character");
 
   if   metadata
   then yprint("we have metadata!")
@@ -1179,23 +1253,23 @@ local function get_item_formatter_func(metadata)
   local item_format = metadata and metadata["item-format"];
 
   if   not item_format
-  then yprint("no item format?!", item_format);
+  then -- yprint("no item format?!", item_format);
        return g.YAML.unknown, true
-  else yprint("YAY: found item format:", item_format);
+  else -- yprint("YAY: found item format:", item_format);
   end;
 
   local item_formatter = g.YAML["item:" .. item_format];
   if   not item_formatter
-  then yprint("no item formatter?! for ...", item_format);
+  then -- yprint("no item formatter?! for ...", item_format);
        return g.YAML.unknown, true
-  else yprint("YAY: found item formatter:", item_format);
+  else -- yprint("YAY: found item formatter:", item_format);
   end;
 
   return item_formatter, false
 end;
 
 local function yaml_list(yaml_tree)
-  yprint("yaml xformat is:", "list");
+  -- yprint("yaml xformat is:", "list");
   local flat_tree, metadata, slurped = yaml_common(yaml_tree);
   local errors = 0;
   local order  = "alpha";
@@ -1226,8 +1300,8 @@ local function yaml_list(yaml_tree)
   item_format = item_format and ("item:" .. item_format);
 
   if   item_format and g.YAML[item_format]
-  then yprint("item format is ", item_format);
-  else yprint("no item-format???!", "???");
+  then -- yprint("item format is ", item_format);
+  else eprint("no item-format???!", "???");
        errors = errors + 1;
   end;
 
@@ -1237,7 +1311,7 @@ local function yaml_list(yaml_tree)
   then local numeric = false;
        if   metadata and  metadata.sort_field
        then order       = metadata.sort_field;
-            eprint("we have a sort field", order);
+            -- eprint("we have a sort field", order);
             numeric = true;
        end;
 
@@ -1301,8 +1375,8 @@ end;
 
 local function yaml_glossary(yaml_tree)
   local flat_tree, metadata, slurped = yaml_common(yaml_tree);
-  yprint("yaml xformat is:", "=== GLOSSARY ===");
-  yprint("number of entries:", #flat_tree);
+  -- yprint("yaml xformat is:", "=== GLOSSARY ===");
+  -- yprint("number of entries:", #flat_tree);
   local keys = get_sorted_keys(flat_tree, "alpha");
   for _, k in pairs(keys)
   do  if   not flat_tree[k] then eprint("error: flat_tree[" .. k .. "]", "NOT EXIST"); os.exit(1); end;
@@ -1364,7 +1438,7 @@ local function yaml_pageref(entry)
 end;
 
 local function yaml_index_entry(title, yaml_tree)
-  yprint("yaml xformat is", "item: index entry");
+  -- yprint("yaml xformat is", "item: index entry");
   local entry   = unpack_yaml_tree(yaml_tree);
   local slurped = g.CONFIG.src_in_comment and "\n<!--\n" .. inspect(entry) .. "\n-->\n" or "";
   local parts   = {};
@@ -1397,7 +1471,7 @@ end;
 
 local function yaml_index(yaml_tree)
   local xfmt;
-  yprint("yaml xformat is", "index");
+  -- yprint("yaml xformat is", "index");
   local index, meta= yaml_common(yaml_tree);
 
   local slurped = "";
@@ -1474,14 +1548,24 @@ local function yaml_index(yaml_tree)
 end;
 
 local function yaml_place(yaml_tree)
-  yprint("yaml xformat is:", "item:location");
+  -- yprint("yaml xformat is:", "item:location");
   local slurped = "";
   local place = unpack_yaml_tree(yaml_tree);
   -- yprint("raw place data:", inspect(place));
 
-  if place.where then yprint("place.where", place.where); slurped = slurped.." *("..place.where..")* ";      end;
-  if place.desc  then yprint("place.desc",  place.desc ); slurped = slurped..place.desc;                     end;
-  if place.cf    then yprint("place.cf",    place.cf   ); slurped = slurped.."; also see *"..place.cf.. "*"; end;
+  if   place.where
+  then -- yprint("place.where", place.where);
+       slurped = slurped.." *("..place.where..")* ";     
+  end;
+  if   place.desc 
+  then -- yprint("place.desc",  place.desc );
+       slurped = slurped..place.desc;                    
+  end;
+
+  if   place.cf   
+  then -- yprint("place.cf",    place.cf   );
+       slurped = slurped.."; also see *"..place.cf.. "*";
+  end;
 
   if   g.CONFIG.src_in_comment
   then slurped = slurped .. "\n<!-- " .. inspect(yaml_tree) .. " -->\n";
@@ -1633,7 +1717,7 @@ local function slurp_yaml(filename)
   local success, xformat;
 
   if   yaml_source
-  then yprint("size of yaml_source", yaml_size);
+  then -- yprint("size of yaml_source", yaml_size);
        success = true;
   end;
 
@@ -1671,8 +1755,8 @@ local function slurp_yaml(filename)
   then yprint("Unknown x-format:",     xformat);
        parse_func = g.YAML.unknown;
        slurped    = parse_func(yaml_tree);
-  else yprint("Known x-format:",       xformat);
-       yprint("Parsing with x-format", "YAML[" .. xformat .. "]");
+  else -- yprint("Known x-format:",       xformat);
+       -- yprint("Parsing with x-format", "YAML[" .. xformat .. "]");
        parse_func = g.YAML[xformat];
        slurped    = parse_func(flat_tree);
        success    = slurped and slurped ~= "";
@@ -1682,13 +1766,13 @@ local function slurp_yaml(filename)
   then return slurped, yaml_tree, metadata;
   else return "",      yaml_tree, metadata;
   end;
-end;
+end; -- function
 
 local function dump(file, contents)
   local f = io.open(file, "wb");
   f:write(contents);
   f:close();
-end
+end -- function
 
 local function ignore(name)
   if   string.match(name, g.CONFIG.ignore)
@@ -1752,7 +1836,7 @@ local    function mark_line_used(line)
   then   g.bucket.FILES[line].used = true;
   elseif g.bucket.DIRS[line]
   then   g.bucket.DIRS[line].used = true;
-  -- else   eprint("Error: can't mark line", inspect(line));
+  else   eprint("Error: can't mark line", inspect(line));
   end;
 end;
 
@@ -1769,30 +1853,43 @@ local function parse_recipe_line(line)
   local tests = {
           comment  = "^%# ",
           dir      = "/$",
-          ext_md   = g.CONFIG.ext.markdown .. "$",
-          ext_yaml = g.CONFIG.ext.yaml     .. "$",
+          ext_md   = "%" .. g.CONFIG.ext.markdown .. "$",
+          ext_yaml = "%" .. g.CONFIG.ext.yaml     .. "$",
           asterisk = "/%*$"
         };
 
   for field, test in pairs(tests)
-  do  found[field] = string.find(line, test);
+  do  found[field] = false;
+      found[field] = string.find(line, test);
   end;
 
-  -- vprint("> considering line", line);
+  local was_found, found_filename, found_type = find_file(line);
+
+  -- pprint( line,             string.rep("=", 20) );
+  -- pprint( "was_found",      was_found           );
+  -- pprint( "found_filename", found_filename      );
+  -- pprint( "found_type",     found_type          );
+
+  if   was_found
+  then found.nothing   = false;
+       found.something = true;
+       line            = found_filename;
+  else found.nothing   = true;
+       found.something = false;
+  end;
+
+  -- pprint("found:" and was_found or "not found:", line);
 
   if     was_used_line(line)
   then   vprint("skipping used entry", line)
   elseif found.comment
-  then   -- vprint("ignoring comment", line);
-         mark_line_used(line);
-  elseif found.dir and g.bucket.DIRS[line]
-  then   -- vprint("found a directory", line);
-         -- vprint("looking for index", line .. "/" .. g.CONFIG.intro);
+  then   mark_line_used(line);
+  elseif found.dir and bucket_test("dirs", line) -- g.bucket.DIRS[line]
+  then   eprint("found a directory", line);
+         eprint("looking for index", line .. "/" .. g.CONFIG.intro);
          parse_recipe_line(line .. "/" .. g.CONFIG.intro);
   elseif found.asterisk
-  then   -- vprint("found a /* construction", line);
-         local dir = string.gsub(line, "/%*$", "");
-         -- vprint("looking for files in ", dir)
+  then   local dir = string.gsub(line, "/%*$", "");
 
          local found_files, _ =
                  file_search(
@@ -1803,12 +1900,10 @@ local function parse_recipe_line(line)
          do  local ff = string.gsub(v.name, "%"..g.CONFIG.ext["filter"  ].."$", "");
                    ff = string.gsub(ff,          g.CONFIG.ext["markdown"].."$", "");
                    ff = string.gsub(ff,          g.CONFIG.ext["yaml"    ].."$", "");
-             -- vprint(    "looking for", dir.."/"..ff);
              parse_recipe_line(        dir.."/"..ff);
          end; -- for
-  elseif g.bucket.FILES[line]
-  then   -- vprint("found FILES[" .. line .. "]", line);
-         local  filedata = g.bucket.FILES[line];
+  elseif bucket_fetch("files", line) -- g.bucket.FILES[line]
+  then   local  filedata = bucket_fetch("files", line); -- g.bucket.FILES[line];
          if     filedata.ext == g.CONFIG.ext.yaml
          then   local  yaml_file = g.CONFIG.dir.source.."/"..line..g.CONFIG.ext.yaml;
                 if   file_exists(yaml_file)
@@ -1825,13 +1920,12 @@ local function parse_recipe_line(line)
                 eprint("> failed to find:", line .. g.CONFIG.ext.yaml);
                 eprint("> failed to find:", line .. g.CONFIG.ext.markdown);
          end;
-  else   -- eprint("couldn't find", "line = " .. inspect(line));
+  elseif found.nothing
+  then   -- eprint("couldn't find", "line = " .. inspect(line));
          -- eprint("or markdown",   line .. g.CONFIG.ext.markdown);
          -- eprint("or yaml",       line .. g.CONFIG.ext.yaml);
          -- eprint("dump of g.FILES", inspect(g.FILES));
         bucket_add("err", line);
-         -- table.insert(g.ERR, line);
-         -- g.count.ERR = g.count.ERR + 1;
   end;
 end;
 
@@ -1841,7 +1935,7 @@ local function recipe_list()
   sprint("Recipe directory", g.CONFIG.dir.recipe);
   print(string.format(g.CONFIG.lsfmt, "Filename",          "Command Line"      ));
   print(string.format(g.CONFIG.lsfmt, string.rep("-", 30), string.rep("-", 25) ));
-  for k, v in pairs(files)
+    for k, v in pairs(files)
   do  print(
         string.format(
           g.CONFIG.lsfmt,
@@ -1904,7 +1998,7 @@ local recipe_src = slurp(g.CONFIG.dir.recipe .. "/" .. g.CONFIG.recipe .. g.CONF
 
 if not recipe_src then print("Error: Can't read that recipe file"); os.exit() end
 local recipe = split(recipe_src, "[\r\n]+");
-sprint("recipe read", #recipe .. " lines");
+sprint("recipe read", #recipe .. " lines in recipe");
 
 -- parse the filesystem tree
 sprint("Loading the filesystem map", g.CONFIG.dir.source );
@@ -1926,7 +2020,7 @@ do  if   not string.find(i, "^# ")
     end;
 end;
 
-sprint("recipe read", bucket_count("build") .. " files");
+sprint("recipe read", bucket_count("build") .. " files in build");
 -- ready now to read files
 
 for _, v in pairs(g.bucket.BUILD)
@@ -1953,24 +2047,32 @@ print("Content size is", string.len(outtxt) .. " characters");
 dump(outfile, outtxt);
 
 -- notify of errors
-print(
+eprint(
   "number of errors",
-  (g.count.ERR or 0) .. " error" ..
-    ((g.count.ERR and g.count.ERR == 1) and "" or "s" )
+  (g.count.ERR or 0)
+    .. " error"
+    .. (bucket_count("err") and bucket_count("err") == 1 and "" or "s")
 );
 
-if   bucket_count("err") > 1
+eprint("error count is", inspect(bucket_count("err")));
+
+if   false and bucket_count("err") > 0
+then bucket_dump("err", eprint);
+     -- eprint("DIRS", inspect(bucket_contents("dirs")));
+end;
+
+if   bucket_count("err") > 0
 then local err_start = 1;
      local err_stop = math.min(g.CONFIG.maxerrors, g.count.ERR);
      for i = err_start, err_stop, 1
      do local errmsg;
         local filename = g.bucket.ERR[i];
-        if    g.bucket.FILES[filename]
+        if    bucket_fetch("files", filename) -- g.bucket.FILES[filename]
         then  errmsg = "Improperly marked as missing";
-        else  errmsg =  (string.find(filename, g.CONFIG.intro .. "$") or
-                         string.find(filename, "/$"))
-                         and "Warning: Missing index"
-                         or  "Alert: Missing file";
+        else  errmsg = (string.find(filename, g.CONFIG.intro .. "$") or
+                        string.find(filename, "/$"))
+                        and "Warning: Missing index"
+                        or  "Alert: Missing file";
         end -- if g.bucket.FILES[filename]
         eprint(errmsg, filename)
      end; -- do

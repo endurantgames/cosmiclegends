@@ -7,7 +7,7 @@
   - url:    art/jeshields/mage.png
   - alt:    Jack Dee
   - face:   art/jeshields/jackdee_face.png
-  - credit: &copy; JEShields
+  - credit: "&copy; JEShields"
   - anchor: art-jackdee
 - bio:
   - real_name:    John Arthur Dee VIII
