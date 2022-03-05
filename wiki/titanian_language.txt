@@ -1,0 +1,40 @@
+'''Titanian''', also known as ''Ro'Tan'Kesh'' or ''Titanese'', is the spoken language of
+the [[clu:Titanian (culture)|]] people.
+
+== Titanian Terms ==
+
+The following is an incomplete listing of Titanian terms.
+
+* ''[[clu:Titanian (language)|Ro'Tan'Kesh]]'' -- the Titanian language
+* ''[[clu:Titanian (culture)|Ro'Tan'Lur]]'' -- the Titanian culture
+* ''[[clu:Titanian (species)|Ro'Tan'Okk]]'' -- the Titanian species
+* ''[[clu:Earth|W'Ty'Okk]]'' -- humans, i.e. people of [[clu:Earth|]]
+* ''[[clu:United States|W'Ty'Kesh]]'' -- the language of humans; the Titanian term usually refers to [[:w:English|]]
+* ''[[clu:United States|W'Ty'Lur]]'' -- the culture(s) of humans; the Titanian term can be used both singularly and collectively
+* ''[[clu:Nyrr-T'vor|]]'' -- one of the four [[clu:Titanian genders|]]
+
+== Titanian Names ==
+
+=== Personal Names ===
+
+Titanian personal names usually consist of two words:
+
+* The '''first name''', a compound of a one-syllable ''personal name'' followed by a
+one-syllable ''crèche name'' shared by all siblings descended from the same [[clu:Titanian families|spousal cluster]];
+* The '''second name''', a compound of a one-syllable ''crèche name'' (different from the first-name ''crèche name'') shared
+by all siblings descended from the same [[clu:Titanian families|genetic line]] and a one-syllable generation name shared by
+all siblings of the same generation.
+
+Examples of Titanian names include:
+
+* [[clu:Titan (hero)|Ty'Tonn To'Rezz]] -- the hero '''Titan, Sentinel of Saturn'''
+* [[clu:My'Tonn To'Rezz|]] -- the sibling of Ty'Tonn To'Rezz and parent of My'Rinn To'Rezz
+* [[clu:My'Rinn To'Rezz|]] -- the child of My'Tonn To'Rezz, also known as the hero '''Tethys, Seeker from Saturn'''
+
+=== Place Names ===
+
+* ''[[clu:L'Shar'Dah'k]]'' -- the moon [[clu:Titan (moon)|]]
+* ''[[clu:L'Shar'Ak]]''-- the capital city of [[clu:Titan (moon)|]]
+* ''[[clu:Earth|W'Ty'Dah'k]]'' -- the planet Earth
+
+

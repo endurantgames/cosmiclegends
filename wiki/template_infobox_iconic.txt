@@ -1,0 +1,48 @@
+
+{{Infobox person
+| title       = {{{name|{{PAGENAME}}}}}
+| image       = {{{face|}}}
+| autoheaders = y
+| caption1    = {{{caption|}}}
+
+| header2     = Biographical Data
+
+| label1      = Real Name
+|  data1      = {{{real_name|}}}
+
+| label2      = Occupation
+|  data2      = {{{occupation|}}}
+
+| label3      = Gender
+|  data3      = {{{gender|}}} ({{{pronouns|}}})
+
+| label4      = Legal Status
+|  data4      = {{{legal_status|}}}
+
+| label5      = Identity
+|  data5      = {{{identity|}}}
+
+| label6      = Place of Birth
+|  data6      = {{{place_of_birth|unknown}}}
+
+| label7      = Marital Status
+|  data7      = {{{marital_status|unknown}}}
+
+| label8      = Known Relatives
+|  data8      = {{{relatives|none}}}
+
+| label9      = Group Affiliation
+|  data9      = {{{groups|none}}}
+
+| label10     = Base of Operations
+|  data10     = {{{base|none}}}
+
+| header11     = Game Stats
+
+| label12      = Hero Class
+|  data12     = {{{class|}}}
+
+| label13      = Volume
+| label13     = {{{volume|1}}}
+
+}}
