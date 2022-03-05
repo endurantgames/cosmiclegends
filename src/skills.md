@@ -35,7 +35,8 @@ determined by your class, which may also give additional skills.
 ## Using Skills
 
 When you make a roll that could be affected by one of your Skills,
-you add a number of dice to the dice pool equal to the current Volume.
+you add <!-- a number of dice to the dice pool equal to the current Volume.
+--> two dice to the dice pool.
 
 If you don't have a Skill, you don't add any extra dice to the pool.
 
@@ -362,7 +363,7 @@ Mystic
       - It takes much more time than you thought it would.
       - You won't be able to repeat this specific ritual in the future.
       - Lose 1 Health or 1 Might.
-      - Everyone present loses 1 Health.
+      - Every hero present loses 1 Health.
 
 Performer
 :   You're a talented actor, musician, acrobat, magician, or other 
@@ -416,9 +417,9 @@ Physician
   
 Pilot
 :   You know how to operate planes, helicopters, ships, 
-    submarines, spaceships, and similar vessels. Optionally, you can choose one or 
-    more types of vehicle as specialties if you wish; if you do, add 1 die to any
-    roll related to those specialties.
+    submarines, spaceships, and similar vessels. Optionally, you can choose 
+    one or more types of vehicle as specialties if you wish; if you do, add 1 
+    die to any roll related to those specialties.
 
     - Roll [Pilot]{.action}    to handle a craft in battle.
     - Roll [Pilot]{.adventure} to weather the effects of a storm.
@@ -433,7 +434,7 @@ Pilot
       - The paint job on your craft is ruined.
       - It takes much more time than you thought it would.
       - Lose 1 Health or 1 Might.
-      - Everyone in your vehicle loses 1 Health.
+      - Every Hero in your vehicle loses 1 Health.
   
 Politician
 :   You're practiced at playing the system to influence the public.
@@ -480,14 +481,16 @@ Scientist
         technique. This could present problems later on.
       - It takes much more time than you thought it would.
       - Lose 1 Health or 1 Might.
-      - Everyone in your laboratory loses 1 Health.
+      - Every Hero in your laboratory loses 1 Health.
   
 Socialite
 :   You are a known figure in high society, and know how to make an appearance.
     [cities]{.skill-specialty}
 
-    - Roll [Socialite]{.action}    to impress someone with how important you are.
-    - Roll [Socialite]{.adventure} to successfully mingle with the upper classes.
+    - Roll [Socialite]{.action}    to impress someone with how important you 
+      are.
+    - Roll [Socialite]{.adventure} to successfully mingle with the upper 
+      classes.
     - Roll [Socialite]{.detective} to investigate a charity's funding sources.
     - Roll [Socialite]{.mystery}   to hide your true social rank.
 
@@ -511,7 +514,8 @@ Spy
     - Roll [Spy]{.adventure} to infiltrate a hidden base.
     - Roll [Spy]{.detective} to break a code.
     - Roll [Spy]{.mystery}   to keep your secrets under interrogation.
-    - Roll [Spy]{.suspense}  to see through another spy's disguise to identify their affiliation.
+    - Roll [Spy]{.suspense}  to see through another spy's disguise to identify 
+      their affiliation.
 
     - **Potential Edge Success Consequences:** 
       - You won't be able to use this cover identity again.
