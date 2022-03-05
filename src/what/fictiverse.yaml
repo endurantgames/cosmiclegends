@@ -1,0 +1,32 @@
+- metadata:
+  - yaml_version: 1.2
+  - title: Fictiverse
+  - anchor: what-fictiverse
+  - x-format: place
+- place:
+  - type_of_location: alternate Earth
+  - location: Unknown
+  - capital: none
+  - official_languages: none
+  - demonym: Fictive
+  - governance: none
+  - head_of_state: none
+  - area: Unknown
+  - population: Unknown
+  - time_zone: n/a
+- history: >
+    The Fictiverse is the name given to an alternate Earth discovered
+    by the Cosmic Legends in September of 1961.
+    <!-- date corresponds with "Flash of Two Worlds" -->
+
+    Fictives -- as residents of the Fictiverse are known -- include such
+    famous characters as Count Dracula, Frankenstein's Monster, the
+    Three Musketeers, and Tarzan.
+
+    (In general, if you want to use public-domain characters in the
+    world of the *Cosmic Legends*, this is where to put them. It could
+    also serve as the home world of a Fictive hero who has come to
+    the Cosmic Legends Universe -- in case someone wants to be Literally
+    Sherlock Holmes, for example. Most Fictives would have the
+    Expert hero class.)
+
