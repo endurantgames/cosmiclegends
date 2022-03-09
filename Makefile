@@ -5,7 +5,7 @@
 
 # Project Configuration ########################################################
 #
-# Project id 
+# Project id
 #   Edit: yes
 PROJ = clu
 
@@ -34,13 +34,11 @@ ZIP_OUT   = clotu.zip
 ZIP_FLAGS = -u
 ZIP_FILES = fari/clotu-character.json fari/clotu-scene.json fari/clotu-cards.json
 
-ZIPLINE   = $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
-
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
 BACKUPS   = --backup=numbered
 # BACKUPS = -b
-# BACKUPS = 
+# BACKUPS =
 
 # Lint
 # file listed so i can find where I'm pulling config opions from
@@ -48,7 +46,7 @@ BACKUPS   = --backup=numbered
 YAMLLINT  =
 # FIND_YAML = `find $(SRCDIR) -iname "*.yaml"`
 # FIND_YAML = $(SRCDIR)
-FIND_YAML = 
+FIND_YAML =
 
 # File Locations
 #   Edit: probably unnecessary
@@ -104,7 +102,7 @@ TEAMSHEET_CSS   = --css=$(STYLEDIR)/team-sheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
-FLAGS              = -t html5 --standalone --resource-path=$(IMGDIR) 
+FLAGS              = -t html5 --standalone --resource-path=$(IMGDIR)
 PROJ_FLAGS         = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS)
 ELK_FLAGS          = $(FLAGS) $(ELK_CSS)         $(PRINCEFLAGS_ELK)
 PREGEN_FLAGS       = $(FLAGS) $(PREGEN_CSS)      $(PRINCEFLAGS_PREGEN)
@@ -122,7 +120,7 @@ WHATSWHAT_FLAGS    = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS_WHATSWHAT)
 # Pandoc Config
 #   Edit: probably unnecessary
 PANDOC         = /usr/bin/pandoc
-PANDOCFLAGS    = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT) --pdf-engine=prince -M document-css=false 
+PANDOCFLAGS    = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT) --pdf-engine=prince -M document-css=false
 PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fancy_lists+startnum+table_captions+link_attributes+fenced_divs+implicit_figures+bracketed_spans+auto_identifiers
 
 # Prince Config
@@ -131,11 +129,11 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # PRINCEFLAGS             = --verbose
 # PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
 PRINCEFLAGS_PREGEN        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/pregen_%d.png
-PRINCEFLAGS_LETTER        = 
-PRINCEFLAGS_SHEET         = 
-PRINCEFLAGS_SHEET_ALT     = 
-PRINCEFLAGS_SHEET_COLOR   = 
-# PRINCEFLAGS_ORIGIN      = 
+PRINCEFLAGS_LETTER        =
+PRINCEFLAGS_SHEET         =
+PRINCEFLAGS_SHEET_ALT     =
+PRINCEFLAGS_SHEET_COLOR   =
+# PRINCEFLAGS_ORIGIN      =
 #
 ALLSHEETS_PAGENAME   = sheet
 ELK_PAGENAME         = elk_page
@@ -172,7 +170,7 @@ PDFINFO_GREP = | /bin/grep -v "no"
 # MMD_FLAGS = -y -- yamlbose (verbose only about yaml parsing)
 # MMD_FLAGS = -v -- verbose
 MMD_FLAGS = -q
-MAKE_MD   = $(MMD) $(MMD_FLAGS) 
+MAKE_MD   = $(MMD) $(MMD_FLAGS)
 # MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
@@ -181,7 +179,7 @@ EDITOR = /usr/bin/vim
 # Open Windows File Explorer
 #   Edit: if you want to open the directory
 # EXPLORER = /mnt/c/WINDOWS/explorer.exe $(OUT)
-EXPLORER = 
+EXPLORER =
 
 # Variables ####################################################################
 #
@@ -407,10 +405,13 @@ team-sheet:   team-sheet-markdown
 	@       $(PDFINFO) $(TEAMSHEET_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
-fari-zip: 
-	@ echo "$(ltgreen)Making Fari zip file.$(resetc)"
-	@ $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
+fari-zip:
+	@ echo "$(ltgreen)Making Fari zip file $(ZIP_OUT) from $(ZIP_FILES).$(resetc)"
+	@       $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
 	@ echo "$(ltgreen)$(ZIP_OUT) created!$(resetc)"
+
+fari-zip-tmp:
+	@ $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
 
 series-sheet: series-sheet-markdown
 all-sheets:   all-sheets-markdown
