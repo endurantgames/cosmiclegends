@@ -22,8 +22,15 @@ local CONFIG = {
 
 local lfs = require "lfs" -- https://keplerproject.github.io/luafilesystem/
 local cli =  require "cliargs"; -- https://luarocks.org/modules/amireh/lua_cliargs
+local inspect = require "inspect";
 
 local function split(str, pat)
+  -- if str == nil
+  -- then print("ERROR:", "str=nil");
+        -- print("str is", inspect(str));
+        -- print("pat is", inspect(pat));
+        -- os.exit();
+   -- end;
    local t = {}  -- NOTE: use {n = 0} in Lua-5.0
    local fpat = "(.-)" .. pat
    local last_end = 1
@@ -181,7 +188,7 @@ local function slug(filename)
   filename = string.gsub(filename, "^/", "");
   filename = string.gsub(filename, "/$", "");
   return filename;
-  end;
+end;
 
 local function path_level(path)
   path = slug(path);
@@ -412,11 +419,29 @@ vprint("Running in verbose mode");
 sprint("Showing summaries");
 
 -- read the recipe
-sprint("reading recipe", CONFIG.recipe);
-local recipe_src = slurp(CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.recipe_sfx, true);
+local recipe_file = CONFIG.recipe_dir .. "/" .. CONFIG.recipe .. CONFIG.recipe_sfx;
 
-if not recipe_src then print("Error: Can't read that recipe file"); os.exit() end
-local recipe = split(recipe_src, "[\r\n]+");
+sprint("reading recipe", recipe_file);
+
+local recipe_src = slurp(recipe_file, true);
+
+if not file_exists(recipe_file)
+then   eprint("Error: this doesn't exist", recipe_file);
+       os.exit();
+else   print("File exists:", recipe_file);
+       if not recipe_src 
+       then   eprint("Error: Can't read that recipe file"); 
+              eprint("recipe_src is", inspect(recipe_srd));
+              os.exit();
+       else   print("Loaded recipe_file", string.len(recipe_src) .. " bytes");
+       end
+end;
+
+local line_split_pattern = "[\r\n]+";
+print("recipe_src",         recipe_src);
+print("line_split_pattern", line_split_pattern);
+
+local recipe = split(recipe_src, line_split_pattern);
 sprint("recipe read", #recipe .. " lines");
 
 -- parse the filesystem tree

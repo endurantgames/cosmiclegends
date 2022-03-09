@@ -22,7 +22,10 @@ BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
 PDFTITLE  = Cosmic-Legends
 PAGEDIR   = $(OUTDIR)/pages
-MMD       = $(BINDIR)/make-markdown2.lua
+# MMD       = $(BINDIR)/make-markdown2.lua
+MMD       = $(BINDIR)/make-markdown.lua
+# MMD_FLAGS = -v # verbose
+# MMD_FLAGS = -q # quiet
 MMD_FLAGS =
 
 # Backups
@@ -33,9 +36,11 @@ BACKUPS   = --backup=numbered
 
 # Lint
 # file listed so i can find where I'm pulling config opions from
-YAMLLINT  = /usr/bin/yamllint -c ~/.config/yamllint/config
+# YAMLLINT  = /usr/bin/yamllint -c ~/.config/yamllint/config
+YAMLLINT  =
 # FIND_YAML = `find $(SRCDIR) -iname "*.yaml"`
-FIND_YAML = $(SRCDIR)
+# FIND_YAML = $(SRCDIR)
+FIND_YAML = 
 
 # File Locations
 #   Edit: probably unnecessary
@@ -86,7 +91,7 @@ SHEET_CSS       = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
 LETTER_CSS      = --css=$(STYLEDIR)/letter.css
-ELK_CSS         = --css=$(ELKDIR)/style/elk.css
+ELK_CSS         =   --css=$(ELKDIR)/style/elk.css
 TEAMSHEET_CSS   = --css=$(STYLEDIR)/team-sheet.css
 
 # Derived Flags
@@ -155,11 +160,12 @@ PDFINFO_GREP = | /bin/grep -v "no"
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet or verbose mode
-# MAKE_MD    = $(MMD) -q -- quiet
-# MAKE_MD    = $(MMD) -v -- verbose
-# MAKE_MD    = $(MMD) -y -- yamlbose (verbose only about yaml parsing)
-MAKE_MD      = $(MMD) $(MMD_FLAGS) 
-MAKE_MD_LIST = $(MMD) --list
+# MMD_FLAGS = -q -- quiet
+# MMD_FLAGS = -y -- yamlbose (verbose only about yaml parsing)
+# MMD_FLAGS = -v -- verbose
+MMD_FLAGS = -q
+MAKE_MD   = $(MMD) $(MMD_FLAGS) 
+# MAKE_MD_LIST = $(MMD) --list
 
 # Editor Config (for make edit)
 EDITOR = /usr/bin/vim
@@ -445,13 +451,14 @@ html: markdown
 	@       $(EDITOR) $(HTML_OUT)
 
 # recipe list
-recipes:
+recipes-list:
 	@ echo '$(ltcyan)Recipes List:$(resetc)'
 	@       $(MAKE_MD_LIST)
 
 yaml-lint:
-	@ echo '$(ltcyan)Checking YAML files.$(resetc)'
-	@       $(YAMLLINT) $(FIND_YAML)
+# 	@ echo '$(ltcyan)Checking YAML files.$(resetc)'
+# 	@       $(YAMLLINT) $(FIND_YAML)
+
 # make all
 #   Edit: if you are making more than one pdf or html
 all:    pdf   letter    sheets      pregen  origin what-pdf
@@ -460,11 +467,11 @@ sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
 # Make Aliases #################################################################
 #  Edit: only you if want to add something
 md:             markdown
-list:           recipes
-recipe:         recipes
-recipe-list:    recipes
-recipes-list:   recipes
-menu:           recipes
+list:           recipes-list
+recipe:         recipes-list
+recipe-list:    recipes-list
+recipes-list:   recipes-list
+menu:           recipes-list
 game:           pdf letter
 backup:         backups
 vi:             edit

@@ -5,7 +5,7 @@ local g = { -- g for "global"
             YAML    = {},
             bucket  = { BUILD = {}, CONTENT = {},
                         DIRS  = {}, ERR     = {},
-                      FILES = {} },
+                        FILES = {} },
             count   = { BUILD = 0,  DIRS    = 0,
                         ERR   = 0,  FILES   = 0, },
             outtxt  = {},
@@ -20,14 +20,16 @@ g.CONFIG      = {
                 },
   errors      = true,
   ext         = { filter = ".md;.yaml",    markdown = ".md",
-                  out    = ".md",          recipe   = ".yaml",
+                  out    = ".md",          recipe   = ".rec",
                   source = "(.md|%.yaml)", yaml     = ".yaml",
                 },
+  herosheet   = "./src/includes/herosheet.md",
   ignore      = "(%.git|Makefile|%.test|%.|backup|markdown)",
   intro       = "intro",
   lsfmt       = "  %-30s %-20s",
   logfmt      = "  %-30s %-20s",
-  maxerrors   = 2,
+  maxerrors   = 8,
+  -- maxerrors   = 0, -- set to 0 to show all errors
   outfile     = "build",
   src_in_comment = true,
   summary     = true,
@@ -39,101 +41,6 @@ g.CONTENT     = {
   in_hd         = "* in Harmony Drive",
   in_generic    = "* in general TRPG terminology",
   higher_volume = " *Note: This hero is statted at higher than Volume 1, and should not be played a starting hero in a Volume 1 Series, Special, or One-Shot.*",
-  herosheet     = [======[
-:::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
-[Hero Sheet                 ]{#anchor-herosheet .anchor}
-
-![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
-
-![Driven by Harmony         ](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
-
-[A.K.A.                     ]{.label .nickname          }
-[Name                       ]{.label .name              }
-[Pronouns                   ]{.label .pronouns          }
-[Max                        ]{.label .health-max        }
-[Max                        ]{.label .might-max         }
-[Class                      ]{.label .class             }
-[Nova Power Words           ]{.label .nova              }
-[Core Power Words           ]{.label .core              }
-[Personal Power Words       ]{.label .personal          }
-[Class Ability              ]{.label .class-ability     }
-[Skills                     ]{.label .skills            }
-[Fighting Styles            ]{.label .fighting-styles   }
-[Volume 1 Ability           ]{.label .volume-ability .v1}
-
-[Health                     ]{.label .health}
-[Might                      ]{.label .might}
-
-[Volume                     ]{.label .volume               }
-[                           ]{.box   .b5    .volume-boxes  }
-[Ideal                      ]{.label .motiv        .m1     }
-[                           ]{.box   .b1    .motiv .m1     }
-[Ideal                      ]{.label .motiv        .m2     }
-[                           ]{.box   .b1    .motiv .m2     }
-[Ideal                      ]{.label .motiv        .m3     }
-[                           ]{.box   .b1    .motiv .m3     }
-[Ideal                      ]{.label .motiv        .m4     }
-[                           ]{.box   .b1    .motiv .m4     }
-[Ideal                      ]{.label .motiv        .m5     }
-[                           ]{.box   .b1    .motiv .m5     }
-[Unlocked                   ]{.label        .nova-unlocked }
-[                           ]{.box   .b1    .nova-unlocked }
-[Completed                  ]{.label        .arc-complete  }
-[                           ]{.box   .b1    .arc-complete  }
-
-[Volume 2 Ability           ]{.label .volume-ability .v2}
-[Volume 3 Ability           ]{.label .volume-ability .v3}
-[Volume 4 Ability           ]{.label .volume-ability .v4}
-[Volume 5 Ability           ]{.label .volume-ability .v5}
-
-[Appearance                 ]{.label .bio              }
-[Storyline                  ]{.label .story-arc        }
-[Action                     ]{.label .facet .action    }
-[Adventure                  ]{.label .facet .adventure }
-[Detective                  ]{.label .facet .detective }
-[Mystery                    ]{.label .facet .mystery   }
-[Suspense                   ]{.label .facet .suspense  }
-
-[Goals                      ]{.goal .label .g0 }
-[Smash                      ]{.goal .label .g1 }
-[Outwit                     ]{.goal .label .g2 }
-[Allay                      ]{.goal .label .g3 }
-[Rescue                     ]{.goal .label .g4 }
-
-[Symbol                     ]{.label .symbol}
-
-[Ethos                      ]{.label .ethos .e0 }
-[Self Expression            ]{.label .ethos .e1 }
-[Teamwork                   ]{.label .ethos .e2 }
-[Difficult Choices          ]{.label .ethos .e3 }
-
-[Retcon                     ]{.safety .label .s1 }
-[Continued Next Page        ]{.safety .label .s2 }
-[Meanwhile, ...             ]{.safety .label .s3 }
-[Later That Day, ...        ]{.safety .label .s4 }
-
-[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
-
-[Crisis Countdown           ]{.label .crisis .c0    }
-[5. Set the Scene           ]{.label .crisis .c5    }
-[4. Hero Roll-Call          ]{.label .crisis .c4    }
-[3. Define the Goals        ]{.label .crisis .c3    }
-[2. Assemble Teamwork Pool  ]{.label .crisis .c2    }
-[1. Crisis Begins!          ]{.label .crisis .c1    }
-[Hero Turn                  ]{.label .crisis .cht   }
-[Crisis Turn                ]{.label .crisis .cct   }
-[Post-Crisis                ]{.label .crisis .cpost }
-
-[Hero Turn                  ]{.label .action .aht   }
-[General Alert              ]{.label .action .a1    }
-[Timely Arrival             ]{.label .action .a2    }
-[Advance a Goal             ]{.label .action .a3    }
-[Join a Power Combo         ]{.label .action .a4    }
-[Add to Teamwork Pool       ]{.label .action .a5    }
-[Crisis Turn                ]{.label .action .act   }
-[Take the Hit               ]{.label .action .a6    }
-[Counter a Crisis Effect    ]{.label .action .a7    }
-]======];
 } -- closes g.CONTENT = {
 
 local lfs     = require "lfs"    ;
@@ -325,6 +232,22 @@ local function bucket_contents(bucket)
   end; -- if not bucket_exists
 end; -- function
 
+local function bucket_size(bucket, printfunc)
+  printfunc = printfunc or pprint;
+  bucket = bucket or "";
+  bucket = bucket:upper();
+  if not bucket_exists(bucket)
+  then   eprint("Error: unknown bucket", bucket);
+         eprint("Can't get bucket size");
+         return nil;
+  else   local c = 0
+         for i, line in pairs(bucket_contents(bucket))
+         do  c = c + 1;
+         end;
+         printfunc("Size of " .. bucket .. "[]", c);
+  end;
+end;
+
 local function bucket_dump(bucket, printfunc)
   printfunc = printfunc or pprint;
   bucket = bucket or "";
@@ -335,7 +258,7 @@ local function bucket_dump(bucket, printfunc)
        return nil;
   else printfunc("Dump starts ===========", bucket);
        for i, line in pairs(bucket_contents(bucket))
-       do printfunc(bucket .. "[" .. i .. "]", line);
+       do printfunc(bucket .. "[" .. i .. "]", inspect(line));
        end;
        printfunc("Dump ends ===========", bucket);
   end; -- if not bucket_exists
@@ -354,9 +277,12 @@ local function bucket_fetch(bucket, key)
        then   eprint("Error: can't get bucket list", bucket)
               return nil;
        elseif not bucket_list[key]
-              then eprint("Error: no value for", bucket .. "[" .. key .. "]");
-              return nil;
-       end; -- if not bucket_list
+              then 
+                   -- eprint("Error: no value for", bucket .. "[" .. key .. "]");
+                   -- bucket_size(bucket);
+                   -- os.exit();
+                   return nil;
+       end;   -- if not bucket_list
   end; -- if not bucket_exists
 
 end;
@@ -416,13 +342,13 @@ local function find_file(file)
   local  filename_md   = file .. g.CONFIG.ext.markdown;
   local  filename_yaml = file .. g.CONFIG.ext.yaml;
   if     file_exists( file )
-  then   pprint("found raw file", file);
+  then   -- pprint("found raw file", file);
          return false, file, "raw";
   elseif file_exists(  filename_md)
-  then   pprint("found markdown", filename_md);
+  then   -- pprint("found markdown", filename_md);
          return true,  filename_md, "markdown";
   elseif file_exists(filename_yaml)
-  then   pprint("found yaml", filename_yaml);
+  then   -- pprint("found yaml", filename_yaml);
          return true,  filename_yaml, "yaml"
   else   -- eprint("Couldn't find :(", file);
          return false, file, "not_found"
@@ -470,6 +396,8 @@ local function slurp(file, no_parse)
   return slurped;
 end -- function
 
+g.CONTENT.herosheet = slurp(g.CONFIG.herosheet);
+
 local function unpack_yaml_tree(yaml_tree, tree_id)
   tree_id = tree_id or "no id";
   -- yprint("==================", "------------------");
@@ -502,6 +430,7 @@ local function unpack_yaml_tree(yaml_tree, tree_id)
   return flat_tree;
 
 end;
+
 
 local function get_alpha_keys(t)
   local n = 0;
@@ -1863,10 +1792,14 @@ local function parse_recipe_line(line)
       found[field] = string.find(line, test);
   end;
 
+  vprint("Looking for", line);
   local was_found, found_filename, found_type = find_file(line);
+  vprint("was_found",      inspect(was_found));
+  -- vprint("found_filename", found_filename);
+  -- vprint("found_type",     found_type);
 
   -- pprint( line,             string.rep("=", 20) );
-  -- pprint( "was_found",      was_found           );
+  -- pprint( "was_found",      inspect(was_found)  );
   -- pprint( "found_filename", found_filename      );
   -- pprint( "found_type",     found_type          );
 
@@ -2020,7 +1953,8 @@ do  if   not string.find(i, "^# ")
     end;
 end;
 
-sprint("recipe read", bucket_count("build") .. " files in build");
+sprint("recipe read", bucket_count("build") .. " files in BUILD[]");
+
 -- ready now to read files
 
 for _, v in pairs(g.bucket.BUILD)
@@ -2064,6 +1998,7 @@ end;
 if   bucket_count("err") > 0
 then local err_start = 1;
      local err_stop = math.min(g.CONFIG.maxerrors, g.count.ERR);
+     if g.CONFIG.maxerrors == 0 then err_stop = g.count.ERR end;
      for i = err_start, err_stop, 1
      do local errmsg;
         local filename = g.bucket.ERR[i];
