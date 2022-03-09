@@ -61,21 +61,21 @@ Manuscript
   - [ ]     Dual-Class pregen  (complete writeup)
   - [/]     Adam-42            (complete writeup)
   - [/]     Brigantia          (new ability)
-  - [ ]     Eidolon            (new character: haunt)
+  - [/]     Eidolon            (new character: haunt)
   - [/]     Energy Boy         (new ability)
-  - [ ]     Falconer           (new character: twins)
-  - [ ]     Far-Seeker         (new character: expatriate)
+  - [/]     Falconer           (new character: twins)
+  - [/]     Far-Seeker         (new character: expatriate)
   - [/]     Grailknight        (new ability)
   - [/]     Head Librarian     (new ability)
-  - [ ]     Hellblade          (new character: hellspawn)
+  - [/]     Hellblade          (new character: hellspawn)
   - [/]     Jack Dee           (new ability)
-  - [ ]     Momentum           (new character: speedster)
+  - [/]     Momentum           (new character: speedster)
   - [/]     Obsidius Rex       (new ability)
   - [/]     Riptide            (new ability)
   - [/]     Rockstar           (new ability)
   - [/]     Titan              (new ability)
   - [/]     Vespa              (new ability)
-  - [ ]     Yeoman             (new character: kid)
+  - [/]     Yeoman             (new character: kid)
 - [/]     Ideals
   - [ ]   Review pregens / NPCs
     - [ ]   Adam-42
@@ -144,6 +144,7 @@ Manuscript
     - [/]         Contribute to the Teamwork Pool
     - [ ]           Team Moves (write section)
     - [/]         Hero Moves
+      - [ ]         Combat Moves
       - [/]         Power Moves
       - [ ]         Skill Moves
       - [/]         Other Moves
@@ -177,11 +178,11 @@ Manuscript
   - [ ]   Examples
   - [ ]   Powers in Vignettes
   - [ ]   When Vignettes Become Crises
-- [ ]   Indices
+- [/]   Indices
   - [ ]   Abilities
   - [/]   Lists
   - [/]   Power Words
-  - [ ]   Setting
+  - [/]   Setting
   - [/]   Soapboxes
   - [/]   Glossary
 - [x]   License
@@ -189,7 +190,7 @@ Manuscript
   - [/]   Hero Sheet
   - [/]   Team Sheet
   - [ ]   Series Sheet
-  - [ ]   CCA Checklist
+  - [/]   CCA Checklist
 
 Status: Number of Abilities
 ---------------------------
