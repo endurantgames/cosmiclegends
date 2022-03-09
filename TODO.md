@@ -17,6 +17,7 @@ General ideas
 Fari-App
 --------
 
+- [/] Makefile ("make zip" or "make fari")
 - [/] Templates
   - [/] Character
   - [/] Scene
