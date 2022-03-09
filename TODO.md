@@ -14,6 +14,48 @@ General ideas
   - [ ]   Groups / Teams
 - [ ]   Abilities database
 
+Fari-App
+--------
+
+- [/] Templates
+  - [/] Character
+  - [/] Scene
+  - [/] Cards Set
+- [/] fari-app/docs
+  - [/] Abilities
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Approaches
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Crisis Countdown
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Ethos
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Fighting Style
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Ideals
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Power Display
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Power Combo
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Power Stunt
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Power Words
+    - [/] Markdown
+    - [ ] Menu Image
+  - [/] Skills
+    - [/] Markdown
+    - [ ] Menu Image
+  
 Manuscript
 ----------
 
