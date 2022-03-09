@@ -28,6 +28,13 @@ MMD       = $(BINDIR)/make-markdown-restored.lua
 # MMD_FLAGS = -v # verbose
 # MMD_FLAGS = -q # quiet
 MMD_FLAGS =
+ZIP       = /usr/bin/zip
+ZIP_OUT   = clotu.zip
+# ZIP_FLAGS = -r
+ZIP_FLAGS = -u
+ZIP_FILES = fari/clotu-character.json fari/clotu-scene.json fari/clotu-cards.json
+
+ZIPLINE   = $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
@@ -400,6 +407,11 @@ team-sheet:   team-sheet-markdown
 	@       $(PDFINFO) $(TEAMSHEET_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
+fari-zip: 
+	@ echo "$(ltgreen)Making Fari zip file.$(resetc)"
+	@ $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
+	@ echo "$(ltgreen)$(ZIP_OUT) created!$(resetc)"
+
 series-sheet: series-sheet-markdown
 all-sheets:   all-sheets-markdown
 
@@ -490,4 +502,5 @@ what:           what-pdf
 team:           team-sheet
 yaml:           yaml-lint
 yamllint:       yaml-lint
-
+zip:            fari-zip
+fari:           fari-zip
