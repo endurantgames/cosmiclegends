@@ -1,5 +1,7 @@
 #!/usr/bin/lua
 
+local _G = _G;
+
 _G.g = { -- g for "global"   g = _G.g
             FILES   = {},
             YAML    = {},
@@ -37,106 +39,9 @@ g.CONFIG      = {
   yaml_ignore = "^(metadata|flat|%d+)"
 };
 
-g.CONTENT     = {
-  in_hd         = "* in Harmony Drive",
-  in_generic    = "* in general TRPG terminology",
-  higher_volume = " *Note: This hero is statted at higher than Volume 1, and should not be played a starting hero in a Volume 1 Series, Special, or One-Shot.*",
-  herosheet     = [======[
-:::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
-[Hero Sheet                 ]{#anchor-herosheet .anchor}
-
-![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
-
-![Driven by Harmony         ](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
-
-[A.K.A.                     ]{.label .nickname          }
-[Name                       ]{.label .name              }
-[Pronouns                   ]{.label .pronouns          }
-[Max                        ]{.label .health-max        }
-[Max                        ]{.label .might-max         }
-[Class                      ]{.label .class             }
-[Nova Power Words           ]{.label .nova              }
-[Core Power Words           ]{.label .core              }
-[Personal Power Words       ]{.label .personal          }
-[Class Ability              ]{.label .class-ability     }
-[Skills                     ]{.label .skills            }
-[Fighting Styles            ]{.label .fighting-styles   }
-[Volume 1 Ability           ]{.label .volume-ability .v1}
-
-[Health                     ]{.label .health}
-[Might                      ]{.label .might}
-
-[Volume                     ]{.label .volume               }
-[                           ]{.box   .b5    .volume-boxes  }
-[Ideal                      ]{.label .motiv        .m1     }
-[                           ]{.box   .b1    .motiv .m1     }
-[Ideal                      ]{.label .motiv        .m2     }
-[                           ]{.box   .b1    .motiv .m2     }
-[Ideal                      ]{.label .motiv        .m3     }
-[                           ]{.box   .b1    .motiv .m3     }
-[Ideal                      ]{.label .motiv        .m4     }
-[                           ]{.box   .b1    .motiv .m4     }
-[Ideal                      ]{.label .motiv        .m5     }
-[                           ]{.box   .b1    .motiv .m5     }
-[Unlocked                   ]{.label        .nova-unlocked }
-[                           ]{.box   .b1    .nova-unlocked }
-[Completed                  ]{.label        .arc-complete  }
-[                           ]{.box   .b1    .arc-complete  }
-
-[Volume 2 Ability           ]{.label .volume-ability .v2}
-[Volume 3 Ability           ]{.label .volume-ability .v3}
-[Volume 4 Ability           ]{.label .volume-ability .v4}
-[Volume 5 Ability           ]{.label .volume-ability .v5}
-
-[Appearance                 ]{.label .bio              }
-[Storyline                  ]{.label .story-arc        }
-[Action                     ]{.label .facet .action    }
-[Adventure                  ]{.label .facet .adventure }
-[Detective                  ]{.label .facet .detective }
-[Mystery                    ]{.label .facet .mystery   }
-[Suspense                   ]{.label .facet .suspense  }
-
-[Goals                      ]{.goal .label .g0 }
-[Smash                      ]{.goal .label .g1 }
-[Outwit                     ]{.goal .label .g2 }
-[Allay                      ]{.goal .label .g3 }
-[Rescue                     ]{.goal .label .g4 }
-
-[Symbol                     ]{.label .symbol}
-
-[Ethos                      ]{.label .ethos .e0 }
-[Self Expression            ]{.label .ethos .e1 }
-[Teamwork                   ]{.label .ethos .e2 }
-[Difficult Choices          ]{.label .ethos .e3 }
-
-[Retcon                     ]{.safety .label .s1 }
-[Continued Next Page        ]{.safety .label .s2 }
-[Meanwhile, ...             ]{.safety .label .s3 }
-[Later That Day, ...        ]{.safety .label .s4 }
-
-[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
-
-[Crisis Countdown           ]{.label .crisis .c0    }
-[5. Set the Scene           ]{.label .crisis .c5    }
-[4. Hero Roll-Call          ]{.label .crisis .c4    }
-[3. Define the Goals        ]{.label .crisis .c3    }
-[2. Assemble Teamwork Pool  ]{.label .crisis .c2    }
-[1. Crisis Begins!          ]{.label .crisis .c1    }
-[Hero Turn                  ]{.label .crisis .cht   }
-[Crisis Turn                ]{.label .crisis .cct   }
-[Post-Crisis                ]{.label .crisis .cpost }
-
-[Hero Turn                  ]{.label .action .aht   }
-[General Alert              ]{.label .action .a1    }
-[Timely Arrival             ]{.label .action .a2    }
-[Advance a Goal             ]{.label .action .a3    }
-[Join a Power Combo         ]{.label .action .a4    }
-[Add to Teamwork Pool       ]{.label .action .a5    }
-[Crisis Turn                ]{.label .action .act   }
-[Take the Hit               ]{.label .action .a6    }
-[Counter a Crisis Effect    ]{.label .action .a7    }
-]======];
-} -- closes g.CONTENT = {
+require "func";
+require "content";
+require "modules";
 
 local lfs     = require "lfs"    ;
 local cli     = require "cliargs";
@@ -1846,7 +1751,6 @@ local   function was_used_line(line)
   end;
 end;
 
-
 local    function mark_line_used(line)
   if     g.bucket.FILES[line]
   then   g.bucket.FILES[line].used = true;
@@ -1855,7 +1759,6 @@ local    function mark_line_used(line)
   else   eprint("Error: can't mark line", inspect(line));
   end;
 end;
-
 
 local function parse_recipe_line(line)
 
@@ -1973,14 +1876,6 @@ end;
 -- store functions for later use
 g.FUNC = {};
 
-g.FUNC.char = {};
-g.FUNC.char.base        = yaml_char_base;        -- func(bio_base)
-g.FUNC.char.char        = yaml_character;        -- func(yaml_tree)
-g.FUNC.char.gender      = yaml_char_gender;      -- func(bio_gender)
-g.FUNC.char.picture     = yaml_char_picture;     -- func(character_picture)
-g.FUNC.char.power_words = yaml_char_power_words; -- func(stats_power_words)
-g.FUNC.char.relatives   = yaml_char_relatives;   -- func(bio_relatives)
-
 g.FUNC.file.dump       = dump;        -- func(filename, contents)
 g.FUNC.file.map_src_fs = map_src_fs;  -- func(dir_src)
 g.FUNC.file.search     = file_search;
@@ -1989,6 +1884,22 @@ g.FUNC.file.slurp_yaml = slurp_yaml;  -- func(filename)
 
 g.FUNC.line.mark_line_used = mark_line_used; -- func(line)
 g.FUNC.line.was_used       = was_used_line;  -- func(line)
+
+register_func_category("file");
+register_func_category("line");
+
+local function register_func(cat, name, func_func)
+  if     not cat       then cat = "util"
+  elseif not name      then eprint("Can't register " .. string.upper(cat) .. " func", name); os.exit();
+  elseif not func_func then eprint("No func "        .. string.upper(cat) .. " func", name); os.exit();
+  end;
+
+  local  func_cat = FUNC[cat];
+  if not func_cat then register_func_category(cat); func_cat = FUNC[cat]; end;
+
+  vprint("Registering " .. string.upper(cat) .. " func", name);
+  func_cat[name] = func_func;
+end;
 
 local function register_format(name, func_func, x_format)
   x_format = x_format or name;
@@ -2005,22 +1916,27 @@ local function register_format(name, func_func, x_format)
   g.YAML[x_format] = func_func;
 end;
 
-g.FUNC.register_format("error", yaml_error, "unknown");
+register_format("error", yaml_error, "unknown");
 
 local function register_util(name, func_func)
-  if not name
-  then eprint("Error: no util name", name);
-       os.exit();
-  end;
-  if not func_func
-  then eprint("Error: no util func_func", name);
-       os.exit();
-  end;
-  vprint("Registering FUNC.util", name);
-  g.FUNC.util[name] = func_func;
+  register_func("util", name, func_func);
 end;
 
-g.FUNC.util.register = register_util;
+register_util("register", register_util);
+
+-- g.FUNC.util.register = register_util;
+-- local function register_util(name, func_func)
+--   if not name
+--   then eprint("Error: no util name", name);
+--        os.exit();
+--   end;
+--   if not func_func
+--   then eprint("Error: no util func_func", name);
+--        os.exit();
+--   end;
+--   vprint("Registering FUNC.util", name);
+--   g.FUNC.util[name] = func_func;
+-- end;
 
 local function register_func_category(name, quiet)
   if quiet == nil then quiet = true; end;
@@ -2040,43 +1956,46 @@ local function register_func_category(name, quiet)
 end;
 
 g.FUNC.register = register_func_category;
-
-g.FUNC.register("util");
-g.FUNC.register("yaml");
+g.FUNC.register( "util" );
+g.FUNC.register( "yaml" );
 
 local UTIL = g.FUNC.util;
 
-UTIL.register("split", split);
-UTIL.register("ignore", ignore);
-vprint("Registering *print utils", string.rep("-",20));
-UTIL.register("eprint", eprint);
-UTIL.register("pprint", pprint);
-UTIL.register("sprint", sprint);
-UTIL.register("vprint", vprint);
-UTIL.register("yprint", yprint);
+UTIL.register( "split"                    , split               );
+UTIL.register( "ignore"                   , ignore              );
+vprint(        "Registering *print utils" , string.rep("-", 20) );
+UTIL.register( "eprint"                   , eprint              );
+UTIL.register( "pprint"                   , pprint              );
+UTIL.register( "sprint"                   , sprint              );
+UTIL.register( "vprint"                   , vprint              );
+UTIL.register( "yprint"                   , yprint              );
 
-local function register_yaml_func(name, func_func)
-  if not g.FUNC.yaml then g.FUNC.yaml = {}; end;
-  if not name
-  then eprint("Error: no yamlfunc name", name);
-       os.exit();
-  end;
-  if not func_func
-  then eprint("Error: no yamlfunc func_func", name);
-       os.exit();
-  end;
+-- local function register_yaml_func(name, func_func)
+--   if not g.FUNC.yaml then g.FUNC.yaml = {}; end;
+--   if not name
+--   then eprint("Error: no yamlfunc name", name);
+--        os.exit();
+--   end;
+--   if not func_func
+--   then eprint("Error: no yamlfunc func_func", name);
+--        os.exit();
+--   end;
+-- 
+--   vprint("Registering yamlfunc", name);
+--   g.FUNC.yaml[name] = func_func;
+-- end;
 
-  vprint("Registering yamlfunc", name);
-  g.FUNC.yaml[name] = func_func;
-end;
+local function register_yaml_func(n, f_f) register_func("yaml", n, f_f); end;
+register_yaml_func("register", register_yaml_func);
 
-g.FUNC.yaml.register = register_yaml_func;
+-- g.FUNC.yaml.register = register_yaml_func;
 
-register_yaml_func("common"          , yaml_common     );
-register_yaml_func("error"           , yaml_error      );
-register_yaml_func("get_alpha_keys"  , get_alpha_keys  );
-register_yaml_func("get_sorted_keys" , get_sorted_keys );
-register_yaml_func("unpack_tree"     , unpack_tree     );
+register_yaml_func("register"        , register_yaml_func );
+register_yaml_func("common"          , yaml_common        );
+register_yaml_func("error"           , yaml_error         );
+register_yaml_func("get_alpha_keys"  , get_alpha_keys     );
+register_yaml_func("get_sorted_keys" , get_sorted_keys    );
+register_yaml_func("unpack_tree"     , unpack_tree        );
 
 -- ==========================================================
 -- Command line interface: https://lua-cliargs.netlify.com/#/

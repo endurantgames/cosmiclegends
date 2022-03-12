@@ -1,5 +1,6 @@
 #!/usr/bin/lua
 
+local _G = _G;
 local g = _G.g;
 
 local function split(str, pat)
@@ -886,3 +887,4 @@ then local err_start = 1;
      -- vprint(string.rep("-", 25), string.rep("-", 20));
      -- vprint("g.bucket.FILES", inspect(g.FILES));
 end; -- if g.count.ERR
+
