@@ -6,10 +6,10 @@
 ## Supervillain Team
 ### n Actions
 
-- **Smash:  x** 
-- **Outwit: x** 
-- **Allay:  x** 
-- **Rescue: x** 
+- **Smash:  1** 
+- **Outwit: 1** 
+- **Allay:  1** 
+- **Rescue: 1** 
 
 []{.lorem} []{.lorem}
 

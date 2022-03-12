@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-_G.g = { -- g for "global"   g = _G.g
+local g = { -- g for "global"
             FILES   = {},
             YAML    = {},
             bucket  = { BUILD = {}, CONTENT = {},
@@ -10,8 +10,6 @@ _G.g = { -- g for "global"   g = _G.g
                         ERR   = 0,  FILES   = 0, },
             outtxt  = {},
           };
-
-g.FUNC = {}; -- functions
 
 g.CONFIG      = {
   recipe      = "clu", -- specific to this project
@@ -25,11 +23,13 @@ g.CONFIG      = {
                   out    = ".md",          recipe   = ".rec",
                   source = "(.md|%.yaml)", yaml     = ".yaml",
                 },
+  herosheet   = "./src/includes/herosheet.md",
   ignore      = "(%.git|Makefile|%.test|%.|backup|markdown)",
   intro       = "intro",
   lsfmt       = "  %-30s %-20s",
   logfmt      = "  %-30s %-20s",
   maxerrors   = 2,
+  -- maxerrors   = 0, -- set to 0 to show all errors
   outfile     = "build",
   src_in_comment = true,
   summary     = true,
@@ -41,101 +41,6 @@ g.CONTENT     = {
   in_hd         = "* in Harmony Drive",
   in_generic    = "* in general TRPG terminology",
   higher_volume = " *Note: This hero is statted at higher than Volume 1, and should not be played a starting hero in a Volume 1 Series, Special, or One-Shot.*",
-  herosheet     = [======[
-:::::::::::::::::::::::::::: {.herosheet} :::::::::::::::::::::::::::::::::
-[Hero Sheet                 ]{#anchor-herosheet .anchor}
-
-![Cosmic Legends of the Universe](art/clu-logo-black-medium.png){.clu-logo} \
-
-![Driven by Harmony         ](art/DrivenByHarmonyLogo-medium.png){.hd-logo} \
-
-[A.K.A.                     ]{.label .nickname          }
-[Name                       ]{.label .name              }
-[Pronouns                   ]{.label .pronouns          }
-[Max                        ]{.label .health-max        }
-[Max                        ]{.label .might-max         }
-[Class                      ]{.label .class             }
-[Nova Power Words           ]{.label .nova              }
-[Core Power Words           ]{.label .core              }
-[Personal Power Words       ]{.label .personal          }
-[Class Ability              ]{.label .class-ability     }
-[Skills                     ]{.label .skills            }
-[Fighting Styles            ]{.label .fighting-styles   }
-[Volume 1 Ability           ]{.label .volume-ability .v1}
-
-[Health                     ]{.label .health}
-[Might                      ]{.label .might}
-
-[Volume                     ]{.label .volume               }
-[                           ]{.box   .b5    .volume-boxes  }
-[Ideal                      ]{.label .motiv        .m1     }
-[                           ]{.box   .b1    .motiv .m1     }
-[Ideal                      ]{.label .motiv        .m2     }
-[                           ]{.box   .b1    .motiv .m2     }
-[Ideal                      ]{.label .motiv        .m3     }
-[                           ]{.box   .b1    .motiv .m3     }
-[Ideal                      ]{.label .motiv        .m4     }
-[                           ]{.box   .b1    .motiv .m4     }
-[Ideal                      ]{.label .motiv        .m5     }
-[                           ]{.box   .b1    .motiv .m5     }
-[Unlocked                   ]{.label        .nova-unlocked }
-[                           ]{.box   .b1    .nova-unlocked }
-[Completed                  ]{.label        .arc-complete  }
-[                           ]{.box   .b1    .arc-complete  }
-
-[Volume 2 Ability           ]{.label .volume-ability .v2}
-[Volume 3 Ability           ]{.label .volume-ability .v3}
-[Volume 4 Ability           ]{.label .volume-ability .v4}
-[Volume 5 Ability           ]{.label .volume-ability .v5}
-
-[Appearance                 ]{.label .bio              }
-[Storyline                  ]{.label .story-arc        }
-[Action                     ]{.label .facet .action    }
-[Adventure                  ]{.label .facet .adventure }
-[Detective                  ]{.label .facet .detective }
-[Mystery                    ]{.label .facet .mystery   }
-[Suspense                   ]{.label .facet .suspense  }
-
-[Goals                      ]{.goal .label .g0 }
-[Smash                      ]{.goal .label .g1 }
-[Outwit                     ]{.goal .label .g2 }
-[Allay                      ]{.goal .label .g3 }
-[Rescue                     ]{.goal .label .g4 }
-
-[Symbol                     ]{.label .symbol}
-
-[Ethos                      ]{.label .ethos .e0 }
-[Self Expression            ]{.label .ethos .e1 }
-[Teamwork                   ]{.label .ethos .e2 }
-[Difficult Choices          ]{.label .ethos .e3 }
-
-[Retcon                     ]{.safety .label .s1 }
-[Continued Next Page        ]{.safety .label .s2 }
-[Meanwhile, ...             ]{.safety .label .s3 }
-[Later That Day, ...        ]{.safety .label .s4 }
-
-[Driven by Harmony logo &copy; Cat McDonald, used with permission.]{.hd-logo-copy}
-
-[Crisis Countdown           ]{.label .crisis .c0    }
-[5. Set the Scene           ]{.label .crisis .c5    }
-[4. Hero Roll-Call          ]{.label .crisis .c4    }
-[3. Define the Goals        ]{.label .crisis .c3    }
-[2. Assemble Teamwork Pool  ]{.label .crisis .c2    }
-[1. Crisis Begins!          ]{.label .crisis .c1    }
-[Hero Turn                  ]{.label .crisis .cht   }
-[Crisis Turn                ]{.label .crisis .cct   }
-[Post-Crisis                ]{.label .crisis .cpost }
-
-[Hero Turn                  ]{.label .action .aht   }
-[General Alert              ]{.label .action .a1    }
-[Timely Arrival             ]{.label .action .a2    }
-[Advance a Goal             ]{.label .action .a3    }
-[Join a Power Combo         ]{.label .action .a4    }
-[Add to Teamwork Pool       ]{.label .action .a5    }
-[Crisis Turn                ]{.label .action .act   }
-[Take the Hit               ]{.label .action .a6    }
-[Counter a Crisis Effect    ]{.label .action .a7    }
-]======];
 } -- closes g.CONTENT = {
 
 local lfs     = require "lfs"    ;
@@ -275,7 +180,6 @@ local function file_search(dir_path, filter, s, pformat)
   return files, dirs
 end
 
-
 --[=[        ABOUT ATTRIBUTES
 > for k,v in pairs(a) do print(k..' \t'..v..'') end
     dev     2
@@ -328,6 +232,22 @@ local function bucket_contents(bucket)
   end; -- if not bucket_exists
 end; -- function
 
+local function bucket_size(bucket, printfunc)
+  printfunc = printfunc or pprint;
+  bucket = bucket or "";
+  bucket = bucket:upper();
+  if not bucket_exists(bucket)
+  then   eprint("Error: unknown bucket", bucket);
+         eprint("Can't get bucket size");
+         return nil;
+  else   local c = 0
+         for i, line in pairs(bucket_contents(bucket))
+         do  c = c + 1;
+         end;
+         printfunc("Size of " .. bucket .. "[]", c);
+  end;
+end;
+
 local function bucket_dump(bucket, printfunc)
   printfunc = printfunc or pprint;
   bucket = bucket or "";
@@ -338,7 +258,7 @@ local function bucket_dump(bucket, printfunc)
        return nil;
   else printfunc("Dump starts ===========", bucket);
        for i, line in pairs(bucket_contents(bucket))
-       do printfunc(bucket .. "[" .. i .. "]", line);
+       do printfunc(bucket .. "[" .. i .. "]", inspect(line));
        end;
        printfunc("Dump ends ===========", bucket);
   end; -- if not bucket_exists
@@ -357,9 +277,12 @@ local function bucket_fetch(bucket, key)
        then   eprint("Error: can't get bucket list", bucket)
               return nil;
        elseif not bucket_list[key]
-              then eprint("Error: no value for", bucket .. "[" .. key .. "]");
-              return nil;
-       end; -- if not bucket_list
+              then 
+                   -- eprint("Error: no value for", bucket .. "[" .. key .. "]");
+                   -- bucket_size(bucket);
+                   -- os.exit();
+                   return nil;
+       end;   -- if not bucket_list
   end; -- if not bucket_exists
 
 end;
@@ -414,19 +337,20 @@ local function file_exists(file)
 end -- function
 
 local function find_file(file)
+  -- pprint("looking for file:", file);
   file = file or "";
   local  filename_md   = file .. g.CONFIG.ext.markdown;
   local  filename_yaml = file .. g.CONFIG.ext.yaml;
   if     file_exists( file )
-  then   pprint("found raw file", file);
+  then   -- pprint("found raw file", file);
          return false, file, "raw";
   elseif file_exists(  filename_md)
-  then   pprint("found markdown", filename_md);
+  then   -- pprint("found markdown", filename_md);
          return true,  filename_md, "markdown";
   elseif file_exists(filename_yaml)
-  then   pprint("found yaml", filename_yaml);
+  then   -- pprint("found yaml", filename_yaml);
          return true,  filename_yaml, "yaml"
-  else   eprint("Couldn't find :(", file);
+  else   -- eprint("Couldn't find :(", file);
          return false, file, "not_found"
   end;
 end;
@@ -472,6 +396,7 @@ local function slurp(file, no_parse)
   return slurped;
 end -- function
 
+g.CONTENT.herosheet = slurp(g.CONFIG.herosheet);
 
 local function unpack_yaml_tree(yaml_tree, tree_id)
   tree_id = tree_id or "no id";
@@ -574,7 +499,20 @@ local function get_sorted_keys(table_of_tables, sort_field, numeric)
       end;
   end;
 
+  -- yprint("-----------------", "---------------------"     );
+  -- yprint("sortkeys",          table.concat(sortkeys, "; "));
+  -- yprint("-----------------", "---------------------"     );
+
+  -- for k, _ in pairs(keys) do yprint("sortkeys[" .. k .. "]", sortkeys[k]); end;
+
+  -- yprint("-----------------", "---------------------"     );
+  -- yprint("sorting happens...", "now!");
+
   table.sort(sortkeys, helper);
+
+  -- yprint("-----------------", "---------------------"     );
+  -- yprint("sortkeys",          table.concat(sortkeys, "; "));
+  -- yprint("-----------------", "---------------------"     );
 
   n   = 0;
   for k, _ in pairs(sortkeys)
@@ -585,17 +523,19 @@ local function get_sorted_keys(table_of_tables, sort_field, numeric)
       table.insert(keys, retrieved_key);
   end;
 
+  -- eprint("-----------------", "---------------------"     );
+  -- eprint("keys",              table.concat(keys, "; "    ));
+  -- eprint("-----------------", "---------------------"     );
+
   return keys;
 
 end;
-
 
 local function yaml_error(yaml_tree, unknown_xformat, filename, return_text)
   yprint("Unknown xformat:", unknown_xformat);
   yprint("> in file:",       filename       );
   if return_text or return_text == nil then return "" else return {} end;
 end;
-
 
 local function yaml_common(yaml_tree, slurped)
   local common_error;
@@ -611,7 +551,6 @@ local function yaml_common(yaml_tree, slurped)
 
   return yaml_tree, metadata, slurped, common_error;
 end;
-
 
 local function yaml_char_group(bio_group_affiliation)
   local markdown = "";
@@ -648,7 +587,6 @@ local function yaml_char_group(bio_group_affiliation)
   return markdown;
 end;
 
-
 local function yaml_char_relatives(bio_relatives)
   local markdown = "\n- **Known Relatives:** ";
   local relatives = unpack_yaml_tree(bio_relatives, "relatives");
@@ -682,7 +620,6 @@ local function yaml_char_relatives(bio_relatives)
   return markdown;
 end;
 
-
 local function yaml_char_picture(character_picture)
   local markdown = "";
   local picture = unpack_yaml_tree(character_picture, "picture");
@@ -706,7 +643,6 @@ local function yaml_char_picture(character_picture)
 
   return markdown;
 end;
-
 
 local function yaml_char_base(bio_base)
   if    type(bio_base) == "string" then return "\n- **Base of Operations:** " .. bio_base; end;
@@ -734,7 +670,6 @@ local function yaml_char_base(bio_base)
   return markdown;
 end;
 
-
 local function yaml_char_gender(bio_gender)
   local markdown = "";
   if     type(bio_gender) == "string"
@@ -747,7 +682,6 @@ local function yaml_char_gender(bio_gender)
   if    gender.pronouns then markdown = markdown .. " (" .. gender.pronouns .. ")";    end;
   return markdown;
 end;
-
 
 local function yaml_char_power_words(stats_power_words)
   local markdown = "\n- **Power Words:**";
@@ -769,7 +703,6 @@ local function yaml_char_power_words(stats_power_words)
   end;
   return markdown;
 end;
-
 
 local function yaml_sheet_approaches(sheet_approaches)
   local  approaches = unpack_yaml_tree(sheet_approaches, "sheet_approaches");
@@ -841,7 +774,6 @@ local function yaml_sheet_basics(sheet_stats)
   return markdown;
 end;
 
-
 local function yaml_sheet_bio(bio)
   if not bio or not type(bio) == "table" then return ""; end;
   local markdown = "";
@@ -863,7 +795,6 @@ local function yaml_sheet_bio(bio)
   return markdown;
 end;
 
-
 local function yaml_sheet_face(sheet_picture)
   if not sheet_picture or not type(sheet_picture) == "table" then return "" end;
   local markdown = "";
@@ -874,8 +805,6 @@ local function yaml_sheet_face(sheet_picture)
 
   return markdown;
 end;
-
-
 local function yaml_sheet_skills(stats_skills)
   if not sheet_skills or not type(sheet_skills) == "table" then return ""; end;
   local markdown = string.rep(":", 10) .. " pregen-skills " .. string.rep(":", 10);
@@ -887,7 +816,6 @@ local function yaml_sheet_skills(stats_skills)
   markdown = markdown .. string.rep(":", 30);
   return markdown
 end;
-
 
 local function yaml_sheet_power_words(stats_power_words)
   if not sheet_power_words or not type(stats_power_words) == "table" then return ""; end;
@@ -912,7 +840,6 @@ local function yaml_sheet_power_words(stats_power_words)
 
   return markdown
 end;
-
 
 local function yaml_sheet_abilities(stats_abilities)
   if not sheet_abilities or not type(stats_abilities) == "table" then return "" end;
@@ -960,7 +887,6 @@ local function yaml_sheet_ideals(stats_ideals, sheet_config)
 
   return markdown;
 end;
-
 
 local function yaml_sheet(yaml_tree)
   local sheet, _, _ = yaml_common(yaml_tree);
@@ -1235,8 +1161,9 @@ local function yaml_character(yaml_tree)
 
 end;
 
-
-local function get_item_formatter_func(metadata) -- Usage: local item_formatter, if_error = get_item_formatter_func(metadata);
+local function get_item_formatter_func(metadata)
+  -- Usage:
+  -- local item_formatter, if_error = get_item_formatter_func(metadata);
   -- yprint("looking for item_formatter");
   if not metadata
   then   yprint("Error! Metadata", type(metadata));
@@ -1269,7 +1196,6 @@ local function get_item_formatter_func(metadata) -- Usage: local item_formatter,
 
   return item_formatter, false
 end;
-
 
 local function yaml_list(yaml_tree)
   -- yprint("yaml xformat is:", "list");
@@ -1355,7 +1281,6 @@ local function yaml_list(yaml_tree)
   end; -- if item_list
 end; -- function
 
-
 local function yaml_minor_character(yaml_tree)
   local char = unpack_yaml_tree(yaml_tree, "minor character");
   local slurped = "";
@@ -1376,7 +1301,6 @@ local function yaml_minor_character(yaml_tree)
   slurped = slurped .. "\n";
   return slurped;
 end;
-
 
 local function yaml_glossary(yaml_tree)
   local flat_tree, metadata, slurped = yaml_common(yaml_tree);
@@ -1429,7 +1353,6 @@ local function yaml_glossary(yaml_tree)
   return slurped;
 end;
 
-
 local function yaml_pageref(entry)
   local slurped = "";
   local page = unpack_yaml_tree(entry);
@@ -1474,7 +1397,6 @@ local function yaml_index_entry(title, yaml_tree)
   slurped = slurped .. table.concat(parts, " ");
   return slurped;
 end;
-
 
 local function yaml_index(yaml_tree)
   local xfmt;
@@ -1554,7 +1476,6 @@ local function yaml_index(yaml_tree)
   return slurped;
 end;
 
-
 local function yaml_place(yaml_tree)
   -- yprint("yaml xformat is:", "item:location");
   local slurped = "";
@@ -1583,7 +1504,6 @@ local function yaml_place(yaml_tree)
   return slurped;
 end;
 
-
 local function yaml_event(yaml_tree)
   local event = yaml_common(yaml_tree);
   local elist = {};
@@ -1607,7 +1527,6 @@ local function yaml_event(yaml_tree)
 
   return slurped;
 end;
-
 
 local function yaml_group_item(yaml_tree)
   local group, _, slurped, _ = yaml_common(yaml_tree);
@@ -1778,13 +1697,11 @@ local function slurp_yaml(filename)
   end;
 end; -- function
 
-
 local function dump(file, contents)
   local f = io.open(file, "wb");
   f:write(contents);
   f:close();
 end -- function
-
 
 local function ignore(name)
   if   string.match(name, g.CONFIG.ignore)
@@ -1792,8 +1709,6 @@ local function ignore(name)
   else return false;
   end;
 end;  -- function
-
-
 
 local function map_src_fs(dir_src)
   dir_src = dir_src or g.CONFIG.dir.source;
@@ -1837,7 +1752,6 @@ local function map_src_fs(dir_src)
   return files, dirs;
 end;
 
-
 local   function was_used_line(line)
   local line_data = g.bucket.FILES[line] or g.bucket.DIRS[line];
   if    line_data and line_data.used
@@ -1845,7 +1759,6 @@ local   function was_used_line(line)
   else  return false
   end;
 end;
-
 
 local    function mark_line_used(line)
   if     g.bucket.FILES[line]
@@ -1855,7 +1768,6 @@ local    function mark_line_used(line)
   else   eprint("Error: can't mark line", inspect(line));
   end;
 end;
-
 
 local function parse_recipe_line(line)
 
@@ -1880,10 +1792,14 @@ local function parse_recipe_line(line)
       found[field] = string.find(line, test);
   end;
 
+  vprint("Looking for", line);
   local was_found, found_filename, found_type = find_file(line);
+  vprint("was_found",      inspect(was_found));
+  -- vprint("found_filename", found_filename);
+  -- vprint("found_type",     found_type);
 
   -- pprint( line,             string.rep("=", 20) );
-  -- pprint( "was_found",      was_found           );
+  -- pprint( "was_found",      inspect(was_found)  );
   -- pprint( "found_filename", found_filename      );
   -- pprint( "found_type",     found_type          );
 
@@ -1946,8 +1862,6 @@ local function parse_recipe_line(line)
   end;
 end;
 
-
-
 local function recipe_list()
   local files, _ = file_search(g.CONFIG.dir.recipe, g.CONFIG.ext.recipe, false)
   sprint("Listing Recipes:", #files .. " known");
@@ -1969,114 +1883,6 @@ local function recipe_list()
   end;
   os.exit(0);
 end;
-
--- store functions for later use
-g.FUNC = {};
-
-g.FUNC.char = {};
-g.FUNC.char.base        = yaml_char_base;        -- func(bio_base)
-g.FUNC.char.char        = yaml_character;        -- func(yaml_tree)
-g.FUNC.char.gender      = yaml_char_gender;      -- func(bio_gender)
-g.FUNC.char.picture     = yaml_char_picture;     -- func(character_picture)
-g.FUNC.char.power_words = yaml_char_power_words; -- func(stats_power_words)
-g.FUNC.char.relatives   = yaml_char_relatives;   -- func(bio_relatives)
-
-g.FUNC.file.dump       = dump;        -- func(filename, contents)
-g.FUNC.file.map_src_fs = map_src_fs;  -- func(dir_src)
-g.FUNC.file.search     = file_search;
-g.FUNC.file.slurp      = slurp;
-g.FUNC.file.slurp_yaml = slurp_yaml;  -- func(filename)
-
-g.FUNC.line.mark_line_used = mark_line_used; -- func(line)
-g.FUNC.line.was_used       = was_used_line;  -- func(line)
-
-local function register_format(name, func_func, x_format)
-  x_format = x_format or name;
-  if g.YAML[x_format]
-  then eprint("Error: format registered", x_format);
-       os.exit();
-  end;
-  if not func_func
-  then eprint("Error: no format to register", x_format);
-       os.exit();
-  end;
-
-  vprint("Registering x_format", x_format);
-  g.YAML[x_format] = func_func;
-end;
-
-g.FUNC.register_format("error", yaml_error, "unknown");
-
-local function register_util(name, func_func)
-  if not name
-  then eprint("Error: no util name", name);
-       os.exit();
-  end;
-  if not func_func
-  then eprint("Error: no util func_func", name);
-       os.exit();
-  end;
-  vprint("Registering FUNC.util", name);
-  g.FUNC.util[name] = func_func;
-end;
-
-g.FUNC.util.register = register_util;
-
-local function register_func_category(name, quiet)
-  if quiet == nil then quiet = true; end;
-
-  if not name
-  then eprint("Can't create FUNC category", name);
-       os.exit();
-  end;
-
-  if g.FUNC[name] and not quiet
-  then eprint("FUNC category exists", name);
-       os.exit();
-  end;
-
-  vprint("Creating FUNC category", name);
-  g.FUNC[name] = {}
-end;
-
-g.FUNC.register = register_func_category;
-
-g.FUNC.register("util");
-g.FUNC.register("yaml");
-
-local UTIL = g.FUNC.util;
-
-UTIL.register("split", split);
-UTIL.register("ignore", ignore);
-vprint("Registering *print utils", string.rep("-",20));
-UTIL.register("eprint", eprint);
-UTIL.register("pprint", pprint);
-UTIL.register("sprint", sprint);
-UTIL.register("vprint", vprint);
-UTIL.register("yprint", yprint);
-
-local function register_yaml_func(name, func_func)
-  if not g.FUNC.yaml then g.FUNC.yaml = {}; end;
-  if not name
-  then eprint("Error: no yamlfunc name", name);
-       os.exit();
-  end;
-  if not func_func
-  then eprint("Error: no yamlfunc func_func", name);
-       os.exit();
-  end;
-
-  vprint("Registering yamlfunc", name);
-  g.FUNC.yaml[name] = func_func;
-end;
-
-g.FUNC.yaml.register = register_yaml_func;
-
-register_yaml_func("common"          , yaml_common     );
-register_yaml_func("error"           , yaml_error      );
-register_yaml_func("get_alpha_keys"  , get_alpha_keys  );
-register_yaml_func("get_sorted_keys" , get_sorted_keys );
-register_yaml_func("unpack_tree"     , unpack_tree     );
 
 -- ==========================================================
 -- Command line interface: https://lua-cliargs.netlify.com/#/
@@ -2147,7 +1953,8 @@ do  if   not string.find(i, "^# ")
     end;
 end;
 
-sprint("recipe read", bucket_count("build") .. " files in build");
+sprint("recipe read", bucket_count("build") .. " files in BUILD[]");
+
 -- ready now to read files
 
 for _, v in pairs(g.bucket.BUILD)
@@ -2183,14 +1990,15 @@ eprint(
 
 eprint("error count is", inspect(bucket_count("err")));
 
-if   false and bucket_count("err") > 0
-then bucket_dump("err", eprint);
+-- if   false and bucket_count("err") > 0
+-- then bucket_dump("err", eprint);
      -- eprint("DIRS", inspect(bucket_contents("dirs")));
-end;
+-- end;
 
 if   bucket_count("err") > 0
 then local err_start = 1;
      local err_stop = math.min(g.CONFIG.maxerrors, g.count.ERR);
+     if g.CONFIG.maxerrors == 0 then err_stop = g.count.ERR end;
      for i = err_start, err_stop, 1
      do local errmsg;
         local filename = g.bucket.ERR[i];

@@ -1,0 +1,65 @@
+- metadata:
+  - title:        &title VILLAIN NAME
+  - x-format:     villain
+  - yaml_version: 1.3
+  - anchor:       crisis-villain-NAME
+- art:
+  - url:          art/jeshields/XXX.png
+  - alt:          *title
+  - anchor:       art-crisis-villain-NAME
+- bio:
+  - real_name:    REALNAME
+  - occupation:   JOB
+  - legal_status: STATUS
+  - gender:
+    - desc:       GENDER
+    - pronouns:   PRONOUNS
+  - identity:     IDENTITY
+  - group_affiliation:
+    - TEAMNAME:
+      - founder: false
+      - reserve: false
+      - active: true
+  - base: ["base one", "base two"]
+  - height:       X' Y\"
+  - weight:       WWW lbs.
+  - eyes:         COLOR
+  - hair:         COLOR
+- history: |
+  history spam spam spam
+  history spam spam spam
+  history spam spam spam
+- powers: |
+  powers spam spam spam
+  powers spam spam spam
+  powers spam spam spam
+- equipment: |
+  equipment spam spam spam
+  equipment spam spam spam
+  equipment spam spam spam
+- stats:
+  - name: *title
+  - approaches:
+    - action: 1
+    - adventure: 1
+    - detective: 1
+    - mystery: 1
+    - suspense: 1
+  - moves:
+    - number: 1
+    - hero_phase:
+      - HERO PHASE MOVE:
+        - desc: DESC
+        - cost: COST
+    - crisis_phase:
+      - CRISIS PHASE MOVE:
+        - desc: DESC
+        - cost: COST
+      - CRISIS PHASE MOVE:
+        - desc: DESC
+        - cost: COST
+  - resolution:
+    - smash: SMASH
+    - outwit: OUTWIT
+    - allay: ALLAY
+    - defeat: DEFEAT
