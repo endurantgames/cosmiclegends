@@ -1,0 +1,168 @@
+{{Navbox with collapsible groups
+| name = CLU Nav
+| title = Cosmic Legends Universe
+| listclass = hlist
+| state = {{{state|}}}
+| selected = {{{selected|{{{1|}}}}}}
+| border = 1
+
+| above = Setting Information
+
+| abbr1 = teams
+| group1 = [[:Category:Teams|Teams]]
+| list1 = {{Navbox|child
+| group1 = [[:Category:Hero Teams|Hero Teams]]
+| list1 =
+* [[clu:Cosmic Legends]] 
+* [[clu:Junior Legends]] 
+
+| group2 = [[:Category:Villain Teams|Villain Teams]]
+| list2 =
+* [[clu:Villains Inc.]]
+
+}}
+
+| abbr2 = races
+| group2 = [[:Category:Species|Species]]
+| list2 = 
+* [[clu:Humans|Humans]] 
+* [[clu:Titanians|Titanians]] 
+* [[clu:Visitors|Visitors]] 
+* [[clu:Foreigners|Foreigners]] 
+* [[clu:Aos Sí|Aos Sí]] 
+* [[clu:Tuatha Dé Danann|Tuatha Dé Danann]]
+* [[clu:Firbolgs|Firbolgs]]
+* [[clu:Fomorians|Fomorians]]
+
+| abbr3 = nations
+| group3 = [[:Category:Nations|Nations]]
+| list3 = 
+* [[clu:United_States_of_America|U.S.A.]] 
+* [[clu:Vulcanor (nation)|Vulcanor]] 
+* [[clu:New Zealand|New Zealand]] 
+* [[clu:Vadyvokia|Vadyvokia]]
+
+| abbr4 = worlds
+| group4 = [[:Category:Worlds|Worlds]]
+| list4 = 
+* [[clu:Earth|Earth]] 
+* [[clu:Titan (moon)|Titan]] 
+* [[clu:Jarnsaxa|Jarnsaxa]] 
+* [[clu:Otherworld|Otherworld]]
+
+| abbr5 = cities
+| group5 = [[:Category:Cities|Cities]]
+| list5 = 
+* [[clu:Sun_City,_U.S.A.|Sun City]] 
+* [[clu:Technopolis,_U.S.A.|Technopolis]] 
+* [[clu:Volcano_City|Volcano_City]]
+
+| abbr6 = iconics
+| group6 = [[clotu:Iconics]]
+| list6 = 
+* [[clu:Adam-42|Adam-42: O.O.P.F.]] <sup[[clotu:Construct|]]</sup>
+* [[clu:Sienna MacGowan|Brigantia]] <sup>[[clotu:Divine|]]</sup>
+* [[clu:Delmore Thompson|Energy Boy]] <sup>[[clotu:Dynamo|]]</sup>
+* [[clu:Eidolon]] <sup>[[clotu:Haunt|]]</sup> x
+* [[clu:Percival Pellinore|The Grailknight]] <sup>[[clotu:Knight|]]</sup>
+* [[clu:Head Librarian|The Head Librarian]] <sup>[[clotu:Psychic|]]</sup>
+* [[clu:Hellblade|Hellblade]] <sup>[[clotu:Hellspawn|]]</sup>
+* [[clu:Howl|Howl]] <sup>[[clotu:Totem|]]</sup>
+* [[clu:Jack Dee|Jack Dee: Master Magister]] <sup>[[clotu:Mage|]]</sup>
+* [[clu:Nora Jamila Campbell|N.J. Campbell: Far-Seeker]] <sup>[[clotu:Expatriate|]]</sup>
+* [[clu:Obsidius Vulcanor Rex|Obsidius Rex]] <sup>[[clotu:Monarch|]]</sup>
+* [[clu:Kelly Liang|Riptide]] <sup>[[clotu:Shaper|]]</sup>
+* [[clu:Geraldine North|Rockstar]] <sup>[[clotu:Monstrosity|]]</sup>
+* [[clu:Sandra Starr|Sandra Star: Director of ALERT]] <sup>[[clotu:Expert|]]</sup>
+* [[clu:Ty'Tonn To'Rezz|Titan]] <sup>[[clotu:Paragon|]]</sup>
+* [[clu:Lin Montgomery|Vespa 2.0]] <sup>[[clotu:Inventor|]]</sup>
+* [[clu:Yeoman|The Yeoman]] <sup>[[clotu:Kid|]]</sup>
+
+| abbr6 = heroes
+| group6 = [[:Category:Superheroes|Heroes]]
+| list6 =
+* [[clu:Eidolon]]
+* [[clu:Momentum]]
+* [[clu:Firewall]]
+* [[clu:Nora Jamila Campbell|N.J. Campbell: Far-Seeker]]
+* [[clu:Jacquiline Chaffin|The Falconer]]
+* [[clu:Aquila|Aquila]] 
+* [[clu:Hellblade|]]
+* [[clu:Gloom|]]
+* [[clu:Kaleidoscope Kidd|]]
+* [[clu:Lucky Star|]]
+* [[clu:Marlinspike|]]
+* [[clu:Verdict|The Verdict]]
+* [[clu:My'Rinn To'Rezz|Tethys]]
+* [[clu:Zaar|]]
+
+| abbr7 = inactive
+| group7 = Inactive Characters
+| list7 =
+* [[clu:Madinia Katherin Dee|Maddie Dee: Miss Magister]]
+* [[clu:John Arthur Dee VIII|John Dee: Master Magister]]
+* [[clu:Johnny Dee|Johnny Dee: Master Magister]]
+* [[clu:Hazel Montgomery|Vespa (I)]]
+* [[clu:Marlinspike|Marlinspike]]
+* [[clu:Mar Ferrandis|Bug II]]
+* [[clu:Sinhammer|Sinhammer]]
+
+| abbr7 = villains
+| group7 = [[:Category:Supervillains|Villains]]
+| list7 =
+* [[clu:Magnus Merlyn Malign|Marquis Malign]]
+* [[clu:Xana Mega|Xana Mega]]
+* [[clu:Phineas Pann, Senior|Dr. Pann, Sr.]]
+* [[clu:Phineas Pann, Junior|Dr. Pann, Jr.]]
+* [[clu:Glytch|]]
+* [[clu:Man in Black|]]
+* [[clu:Hyperion|]]
+* [[clu:Balor|]]
+* [[clu:Bres|]]
+* [[clu:Lin_Montgomery|The Hornette]]
+* [[clu:Delphine Thompson|Neutrino]]
+* [[clu:Verdict|The Verdict]]
+* [[clu:Sreng|Sreng]]
+* [[clu:Deathsong|]]
+* [[clu:Igneia Vulcanor|Igneia]]
+* [[clu:Kitty Farrington|Sequana]]
+
+| abbr8 = allies
+| group8 = Allies
+| list8 =
+* [[clu:Mar Ferrandis|Bug II]]
+* [[clu:John Dee IV|John Dee: Master Magister]]
+* [[clu:Sandra_Starr|Sandra Starr: Director of A.L.E.R.T]]
+* [[clu:Tachylus Vulcanor Rex|King Tachylus]]
+* [[clu:Dindrane Pellinore|The Grailwitch]]
+* [[clu:Limuo Pele|]]
+
+| abbr9 = orgs
+| group9 = [[:Category:Organizations|Organizations]]
+| list9 =
+* [[clu:A.L.E.R.T.|ALERT]]
+* [[clu:Technopolis Academy|Techno-A]]
+* [[clu:T.R.E.L.A.|TRELA]]
+* [[clu:Atomicorps|]]
+* [[clu:Crime Institute|The Crime Institute]]
+* [[clu:Sentinels of Saturn|]]
+* [[clu:Sun City University|]]
+* [[clu:Specialists|The Specialists]]
+* [[clu:Foreigners_Exiles|Exiles]]
+* [[clu:Settlers|Settlers]]
+* [[clu:G.I._Dinosaurs|G.I. Dinosaurs]]
+* [[clu:Vulcanor royal family|Vulcanor Royal Family]]
+* [[clu:ICC|ICC]]
+* [[clu:N.O.V.A. Labs|NOVA Labs]
+* [[clu:Volcano City Militia|Volcano City Militia]]
+* [[clu:Vulcanor Institutes of Technology|V.I.T.]]
+* [[clu:Volcano City University|Volcano City University]]
+
+<!--[etc, to:]
+
+| abbr20 =
+| group20 =
+| list20 = -->
+
+}}
+
