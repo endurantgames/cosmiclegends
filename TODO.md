@@ -57,6 +57,16 @@ Fari-App
     - [/] Markdown
     - [ ] Menu Image
   
+Wiki
+----
+
+- [/] Templates
+  - [/] Classes
+  - [ ] Pregens
+  - [ ] Skills
+  - [ ] Abilities
+  - [ ] Fighting Styles
+
 Manuscript
 ----------
 
