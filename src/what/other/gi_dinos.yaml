@@ -1,0 +1,73 @@
+- metadata:
+  - title: The G.I. Dinosaurs
+  - anchor: what-other-gi-dinos
+  - "x-format": group
+  - "yaml_version": 1.2
+- group:
+  - type: Military Unit
+  - status: Defunct or missing
+  - base:
+    - "Dinosaur Island":
+      - active: false
+      - current: false
+    - "Unknown Laboratory":
+      - active: false
+      - current: false
+      - temporary: true
+  - member-list:
+    - Tankylosaurus:
+      - gender: male
+      - active: false
+      - bio: An ankylosaurus designed like a tank, with armor plating and a large front-facing cannon.
+    - "P-51Dactyl":
+      - gender: female
+      - active: false
+      - bio: A pterodactyl with reinforced wings and wing-mounted guns.
+    - "Half-Trachodon":
+      - gender: male
+      - active: false
+      - bio: A trachodon with tank-tread hind legs and a anti-aircraft gun.
+    - "Ranger Rex":
+      - gender: male
+      - active: false
+      - leader: true
+    - "Sub-Mosasaurus":
+      - gender: female
+      - active: false
+    - "Trisergeantops I":
+      - gender: male
+      - active: false
+    - "Trisergeantops II":
+      - gender: female
+      - active: false
+    - "Privatraptor-Red":
+      - gender: female
+      - active: false
+      - deceased: true
+    - "Privatraptor-Blue":
+      - gender: female
+      - active: false
+      - deceased: false
+    - "Privatraptor-Yellow":
+      - gender: female
+      - active: false
+      - deceased: true
+    - "Privatraptor-Black":
+      - gender: female
+      - active: false
+  - Allies:
+    - "The United States Military":
+      - group: true
+      - hero: true
+  - Enemies:
+    - "Imperial Japanese Military":
+      - group: true
+      - hero: false
+- history: |
+    The G.I. Dinosaurs are a group of cloned, cyborg dinosaurs who were
+    created by American scientists in 1939 and were used to fight in
+    the Pacific theatre during World War Two.
+
+    Their activities after the war are unrecorded, as is whether they
+    survived the war.
+
