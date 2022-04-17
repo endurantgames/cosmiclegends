@@ -118,3 +118,14 @@ local function register_util_func(   n, ff ) register_func( "util",   n, ff ); e
 local function register_yaml_func(   n, ff ) register_func( "yaml",   n, ff ); end;
 local          register_util               = register_util_func;
 
+local function dump_function_cats()
+  local catlist = {};
+  for cat, _ in pairs(FUNC)
+  do table.insert(catlist, cat);
+  end;
+  print("CATEGORY LIST: ", table.concat(catlist));
+end;
+
+dump_function_cats();
+
+register_func("util", "catlist", dump_function_cats);
