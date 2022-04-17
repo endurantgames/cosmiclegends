@@ -8,6 +8,7 @@ g.CONFIG     = g.CONFIG or {};
 
 package.path = "./func/?.lua;./?.lua;./?/load.lua;" .. package.path;
 
+print("------------------------ util ------------------------------");
 _G.g = { -- g for "global"   g = _G.g
   FILES  = { }, YAML = { },
   bucket = { BUILD   = { }, CONTENT = { },
@@ -51,8 +52,8 @@ local LOADED = g.LOADED or {};
 package.path = "./bin/func/?.lua;./bin/func/?.lua;.bin/func/?/load.lua;" .. package.path;
 
 local function loc_load_funcs(cat)
-  print("Requiring: " .. cat);
-  if not LOADED[cat]
+  print("util.lua/55: Requiring: " .. cat);
+  if   LOADED[cat]
   then LOADED[cat] = true;
        require(cat);
   else print("not loading " .. cat .. " twice.");
@@ -61,14 +62,14 @@ end;
 
 local load_funcs;
 
-if not FUNC.load_funcs
-then   load_funcs = loc_load_funcs;
-       FUNC.load_funcs = loc_load_funcs;
-else   load_funcs = FUNC.load_funcs;
+if   FUNC and FUNC.meta and FUNC.meta.load_funcs
+then load_funcs = FUNC.load_funcs;
+else FUNC.meta = FUNC.meta or {};
+     load_funcs = loc_load_funcs;
+     FUNC.meta.load_funcs = loc_load_funcs;
 end;
 
-load_funcs( "meta" );
-
+-- load_funcs("meta");
 local register_func, register_func_cat;
 
 if   FUNC
@@ -77,32 +78,58 @@ else print("ERROR: no FUNC");
      os.exit(1);
 end;
 
-if   FUNC and FUNC.util
-then print("FUNC.util ... exists");
-else print("CRITICAL ERROR: no FUNC.util");
-     print(FUNC);
-     -- for i, cat in ipairs(FUNC) do print(i, cat) end;
+local function dump_function_cats()
+  local catlist = {};
+  for cat, _ in pairs(FUNC) do table.insert(catlist, "FUNC." .. cat); end;
+  print("CATEGORY LIST: ", table.concat(catlist, "; "));
+end;
+
+local function dump_function_list(cat)
+  cat = cat or "meta";
+  local funclist = {};
+  if   not FUNC[cat]
+  then print("Sorry, can't dump funclist for ", string.upper(cat)); os.exit(1);
+  else local CAT = FUNC[cat];
+       for f, _ in pairs(CAT) do table.insert(funclist, f .. "()"); end;
+       print("FUNC." .. cat .. " FUNCTION LIST: ", table.concat(funclist, "; "));
+  end;
+end;
+  
+if   FUNC and FUNC.meta
+then print("FUNC.meta ... exists");
+else print("CRITICAL ERROR/99: no FUNC.meta");
      os.exit(1);
 end;
 
-if   FUNC and (FUNC.util or not FUNC.util) and FUNC.util.register_func_cat
-then print("FUNC.util.register_func_cat ... exists");
-     register_func_cat = FUNC.util.register_func_cat;
-else print("CRITICAL ERROR: no FUNC.util.register_func_cat");
-     os.exit(1);
+if   FUNC and (FUNC.meta or not FUNC.meta) and FUNC.meta.register_func_cat
+then print("FUNC.meta.register_func_cat ... exists");
+     register_func_cat = FUNC.meta.register_func_cat;
+else print("ERROR/107: no FUNC.meta.register_func_cat");
+     register_func_cat = 
+       function(cat)
+         cat = cat or "util";
+	 FUNC[cat] = FUNC[cat] or {};
+       end;
+     dump_function_list();
 end;
 
 register_func_cat("util");
 
-if   FUNC and FUNC.util and FUNC.util.register_func
-then print("FUNC.util.register_func ... exists");
-     register_func = FUNC.util.register_func;
-else print("CRITICAL ERROR: no FUNC.util.register_func_cat");
-     os.exit(1);
+if   FUNC and FUNC.meta and FUNC.meta.register_func
+then print("FUNC.meta.register_func ... exists");
+     register_func = FUNC.meta.register_func;
+else print("ERROR/121: no FUNC.meta.register_func");
+     register_func =
+       function(cat, name, f)
+         register_func_cat(cat);
+         FUNC[cat][name] = f;
+       end;
+     dump_function_list();
 end;
 
 local function register_util_func(n, ff) register_func("util", n, ff) end;
 
+dump_function_list("meta");
 -- == general utilities ===========================================================
 local function split(str, pat)
    local t = {}  -- NOTE: use {n = 0} in Lua-5.0
@@ -133,3 +160,4 @@ register_util_func("sprint", sprint);
 register_util_func("vprint", vprint);
 register_util_func("yprint", yprint);
 
+print("----------------------- /util ------------------------------");

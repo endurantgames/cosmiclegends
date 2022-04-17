@@ -11,6 +11,7 @@ local FUNC   = g.FUNC;
 local UTIL   = FUNC.util;
 package.path = "./?.lua;./?/load.lua;" .. package.path;
 
+irint("-------------------------------- line ----------------------------------");
 local register_func, register_func_cat;
 
 local ignore, split;
@@ -154,3 +155,4 @@ register_line_func(     "was_used",     was_used_line     );
 register_func("recipe", "parse_line",   parse_recipe_line );
 register_line_func(     "parse_recipe", parse_recipe_line );
 
+irint("------------------------------- /line ----------------------------------");

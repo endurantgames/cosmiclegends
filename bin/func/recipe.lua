@@ -9,7 +9,8 @@ local FUNC   = g.FUNC;
 local CONFIG = g.CONFIG;
 local FUNC   = g.FUNC;
 local UTIL   = FUNC.util;
-package.path = "./?.lua;./?/load.lua;" .. package.path;
+
+print("-------------------------------- recipe ------------------------------");
 
 local register_func, register_func_cat;
 
@@ -144,4 +145,4 @@ register_recipe_func( "list",         recipe_list       );
 register_recipe_func( "parse_line",   parse_recipe_line );
 register_func("line", "parse_recipe", parse_recipe_line );
 
-
+print("------------------------------- /recipe ------------------------------");

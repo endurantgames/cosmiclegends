@@ -11,8 +11,8 @@ local CONFIG = g.CONFIG;
 local FUNC   = g.FUNC;
 local UTIL   = FUNC.util;
 local FILE   = FUNC.file;
-package.path = "./?.lua;./?/load.lua;" .. package.path;
 
+print("-------------------------------- file ----------------------------------");
 local register_func, register_func_cat;
 
 local ignore, split;
@@ -147,3 +147,4 @@ register_yaml_func(   "unpack_tree",     unpack_tree           );
 register_yaml_func(   "slurp",           slurp_yaml            );
 register_func("file", "slurp_yaml",      slurp_yaml            );
 
+print("------------------------------- /file ----------------------------------");

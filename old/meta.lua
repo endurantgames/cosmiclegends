@@ -4,6 +4,7 @@ local _G = _G;
 _G.g     = _G.g or {};
 local g  = _G.g;
 
+print("-------------------------------- meta --------------------------");
 _G.g = { -- g for "global"   g = _G.g
   FILES  = { }, YAML = { },
   bucket = { BUILD   = { }, CONTENT = { },
@@ -49,6 +50,7 @@ local CONFIG = g.CONFIG;
 g.FUNC     = g.FUNC or {};
 local FUNC = g.FUNC;
 local UTIL = FUNC.util;
+local LOADED = g.LOADED or {};
 
 -- == meta (registration) functions ===============================================
 --
@@ -61,6 +63,17 @@ local function register_func_cat(name, quiet)
   g.FUNC[name] = {}
 end;
 
+local function mark_loaded(cat) LOADED[cat] = true; end;
+local function load_funcs(cat)
+  print("meta.lua/68: Requiring: " .. cat);
+  if not LOADED[cat]
+  then mark_loaded(cat);
+       require(cat);
+  else print("not loading " .. cat .. " twice.");
+  end;
+end;
+
+mark_loaded(       "meta"   );
 register_func_cat( "bucket" );
 register_func_cat( "file"   );
 register_func_cat( "line"   );
@@ -101,8 +114,10 @@ local function register_func(cat, name, func_func)
 end;
 
 register_func_cat("util");
-register_func(    "util", "register_func",     register_func    );
-register_func(    "util", "register_func_cat", register_func_cat);
+register_func_cat("meta");
+register_func(    "meta", "load_funcs",        load_funcs       );
+register_func(    "meta", "register_func",     register_func    );
+register_func(    "meta", "register_func_cat", register_func_cat);
 
 -- register_util_func("register_category", register_func_cat);
 -- register_util_func("register_func",     register_func);
@@ -121,11 +136,12 @@ local          register_util               = register_util_func;
 local function dump_function_cats()
   local catlist = {};
   for cat, _ in pairs(FUNC)
-  do table.insert(catlist, cat);
+  do table.insert(catlist, "FUNC." .. cat);
   end;
-  print("CATEGORY LIST: ", table.concat(catlist));
+  print("CATEGORY LIST: ", table.concat(catlist, "; "));
 end;
 
 dump_function_cats();
 
-register_func("util", "catlist", dump_function_cats);
+register_func("meta", "catlist", dump_function_cats);
+print("------------------------------- /meta --------------------------");

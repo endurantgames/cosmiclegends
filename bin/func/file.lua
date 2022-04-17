@@ -11,6 +11,8 @@ local FUNC   = g.FUNC;
 local UTIL   = FUNC.util;
 package.path = "./?.lua;./?/load.lua;" .. package.path;
 
+print("-------------------------------- file ----------------------------------");
+
 local register_func, register_func_cat;
 
 if UTIL.register_func     then register_func     = UTIL.register_func;     else eprint("Error: no function", "register_func"    ); os.exit(); end;
@@ -361,3 +363,4 @@ register_file_func("slurp_yaml",       slurp_yaml      );
 -- http://lua-users.org/wiki/FileInputOutput
 
 
+print("------------------------------- /file ----------------------------------");

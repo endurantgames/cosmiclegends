@@ -11,6 +11,7 @@ local FUNC   = g.FUNC;
 local UTIL   = FUNC.util;
 package.path = "./?.lua;./?/load.lua;" .. package.path;
 
+print("-------------------------------- bucket --------------------------------");
 local register_func, register_func_cat;
 
 local ignore, split;
@@ -124,3 +125,4 @@ register_bucket_func("fetch",     bucket_fetch    );
 register_bucket_func("test",      bucket_test     );
 register_bucket_func("add",       bucket_add      );
 
+print("------------------------------- /bucket --------------------------------");
