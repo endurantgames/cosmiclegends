@@ -2,14 +2,16 @@
 
 local M = {};
 pack = M;
-setfenv(1, M);
+-- setfenv(1, M);
 
 local g = _G.g or {};
+
+local function empty() end;
 
 local FUNC             = g.FUNC;
 local CONFIG           = g.CONFIG;
 local util             = FUNC.util;
-local split            = util.split;
+local split            = util and util.split or empty;
 local file_search      = FUNC.file.search;
 local vprint           = util.vprint;
 local eprint           = util.eprint;

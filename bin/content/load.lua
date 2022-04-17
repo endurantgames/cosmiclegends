@@ -3,6 +3,8 @@
 local _G = _G;
 local  g = _G.g;
 
+package.path = ".;" .. package.path;
+
 g.CONTENT       = {
   in_hd         = "* in Harmony Drive",
   in_generic    = "* in general TRPG terminology",

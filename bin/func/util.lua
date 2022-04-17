@@ -45,15 +45,62 @@ g.CONFIG         = {
   yaml_ignore    = "^(metadata|flat|%d+)"
 };
 
-local CONFIG = g.CONFIG;
+local CONFIG = g.CONFIG or {};
+local LOADED = g.LOADED or {};
 
-package.path = "./func/?.lua;./?.lua;./?/load.lua;" .. package.path;
-require "meta";
+package.path = "./bin/func/?.lua;./bin/func/?.lua;.bin/func/?/load.lua;" .. package.path;
+
+local function loc_load_funcs(cat)
+  print("Requiring: " .. cat);
+  if not LOADED[cat]
+  then LOADED[cat] = true;
+       require(cat);
+  else print("not loading " .. cat .. " twice.");
+  end;
+end;
+
+local load_funcs;
+
+if not FUNC.load_funcs
+then   load_funcs = loc_load_funcs;
+       FUNC.load_funcs = loc_load_funcs;
+else   load_funcs = FUNC.load_funcs;
+end;
+
+load_funcs( "meta" );
+
 local register_func, register_func_cat;
-if FUNC and FUNC.util and FUNC.util.register_category then register_func_cat = FUNC.util.register_category; end;
-if FUNC and FUNC.util and FUNC.util.register_func     then register_func     = FUNC.util.register_func;     end;
+
+if   FUNC
+then print("FUNC ... exists");
+else print("ERROR: no FUNC");
+     os.exit(1);
+end;
+
+if   FUNC and FUNC.util
+then print("FUNC.util ... exists");
+else print("CRITICAL ERROR: no FUNC.util");
+     print(FUNC);
+     -- for i, cat in ipairs(FUNC) do print(i, cat) end;
+     os.exit(1);
+end;
+
+if   FUNC and (FUNC.util or not FUNC.util) and FUNC.util.register_func_cat
+then print("FUNC.util.register_func_cat ... exists");
+     register_func_cat = FUNC.util.register_func_cat;
+else print("CRITICAL ERROR: no FUNC.util.register_func_cat");
+     os.exit(1);
+end;
 
 register_func_cat("util");
+
+if   FUNC and FUNC.util and FUNC.util.register_func
+then print("FUNC.util.register_func ... exists");
+     register_func = FUNC.util.register_func;
+else print("CRITICAL ERROR: no FUNC.util.register_func_cat");
+     os.exit(1);
+end;
+
 local function register_util_func(n, ff) register_func("util", n, ff) end;
 
 -- == general utilities ===========================================================

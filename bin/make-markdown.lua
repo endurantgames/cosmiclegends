@@ -41,11 +41,12 @@ g.CONFIG         = {
 
 local CONFIG = g.CONFIG;
 
-package.path = "./?.lua;./?/load.lua;" .. package.path;
+package.path = "./?.lua;./bin/?/load.lua;./?/load.lua;" .. package.path;
+-- print("package.path is ", package.path);
 
 require "func"   ;
-require "content";
 require "modules";
+require "content";
 
 local lfs     = require "lfs"    ;
 local cli     = require "cliargs";

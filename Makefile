@@ -234,7 +234,7 @@ blorng := $(shell tput setab 208)
 # default: help
 # default: pregen
 # default: origin
-default: pdf
+default: help
 # default: team
 # default: all
 # default: sheet
@@ -253,11 +253,11 @@ help:
 	@ echo '  $(dkcyan)make$(resetc) $(ltgren)team       $(resetc)- create team sheet pdf'
 	@ echo '  $(dkcyan)make$(resetc) $(ltgren)series     $(resetc)- create series sheet pdf'
 	@ echo '  $(dkcyan)make$(resetc) $(ltgren)sheets     $(resetc)- create document with all sheets'
-	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
-	@ echo '  $(dkcyan)make$(resetc) $(ltorng)backups    $(resetc)- back up $(OUTDIR), $(BUILDDIR)'
-	@ echo '  $(dkcyan)make$(resetc) $(dkredd)purge      $(resetc)- $(dkredd)purge$(resetc) $(OUTDIR), $(BUILDDIR), $(BACKDIR)'
-	@ echo '  $(dkcyan)make$(resetc) $(dkmagn)edit       $(resetc)- edit the Makefile in $(EDITOR)'
-	@ echo '  $(dkcyan)make$(resetc) $(dkblue)ls         $(resetc)- recursive ls'
+#	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
+#	@ echo '  $(dkcyan)make$(resetc) $(ltorng)backups    $(resetc)- back up $(OUTDIR), $(BUILDDIR)'
+#	@ echo '  $(dkcyan)make$(resetc) $(dkredd)purge      $(resetc)- $(dkredd)purge$(resetc) $(OUTDIR), $(BUILDDIR), $(BACKDIR)'
+#	@ echo '  $(dkcyan)make$(resetc) $(dkmagn)edit       $(resetc)- edit the Makefile in $(EDITOR)'
+#	@ echo '  $(dkcyan)make$(resetc) $(dkblue)ls         $(resetc)- recursive ls'
 	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)menu       $(resetc)- list available recipes'
 
 # Various Make Utilities #######################################################
@@ -269,63 +269,64 @@ edit:
 
 # make backups
 #   Edit: no
-backups:
-	@ echo '$(ltorng)Backup up $(OUTDIR) and $(BUILDDIR).$(resetc)'
-	@ -cp   $(BACKUPS) $(OUTDIR)/* $(BUILDDIR)/* $(BACKDIR)
-	@ rm    $(BACKDIR)/README*
-	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
-	@ echo '$(ltorng)Copied to $(BACKDIR).$(resetc)'
-
+# backups:
+#	@ echo '$(ltorng)Backup up $(OUTDIR) and $(BUILDDIR).$(resetc)'
+#	@ -cp   $(BACKUPS) $(OUTDIR)/* $(BUILDDIR)/* $(BACKDIR)
+#	@ rm    $(BACKDIR)/README*
+#	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
+#	@ echo '$(ltorng)Copied to $(BACKDIR).$(resetc)'
+#
 # make clean
 #   Edit: no
-clean:
-	@ echo '$(ltyelo)Cleaning $(OUTDIR) and $(BUILDDIR).$(resetc)'
-	@ -mv   $(BACKUPS) $(OUTDIR)/* $(BUILDDIR)/* $(BACKDIR)
-	@ cp    $(DOCSDIR)/README_OUT.md     $(OUTDIR)
-	@ cp    $(DOCSDIR)/README_BUILD.md   $(BUILDDIR)
-	@ rm    $(BACKDIR)/README*
-	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
+# clean:
+#	@ echo '$(ltyelo)Cleaning $(OUTDIR) and $(BUILDDIR).$(resetc)'
+#	@ -mv   $(BACKUPS) $(OUTDIR)/* $(BUILDDIR)/* $(BACKDIR)
+#	@ cp    $(DOCSDIR)/README_OUT.md     $(OUTDIR)
+#	@ cp    $(DOCSDIR)/README_BUILD.md   $(BUILDDIR)
+#	@ rm    $(BACKDIR)/README*
+#	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
 	@ echo '$(ltyelo)Moved to $(BACKDIR).$(resetc)'
 
 # make purge
 #  Edit: no
-purge:
-	@ echo '$(dkredd)Purging$(resetc) $(OUTDIR) $(BUILDDIR) and $(BACKDIR).'
-	@ -rm   $(BACKDIR)/* $(BUILDDIR)/* $(OUTDIR)/*
-	@ cp    $(DOCSDIR)/README_OUT.md     $(OUTDIR)
-	@ cp    $(DOCSDIR)/README_BUILD.md   $(BUILDDIR)
-	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
-	@ echo '$(dkredd)Purged.$(resetc)'
+# purge:
+#	@ echo '$(dkredd)Purging$(resetc) $(OUTDIR) $(BUILDDIR) and $(BACKDIR).'
+#	@ -rm   $(BACKDIR)/* $(BUILDDIR)/* $(OUTDIR)/*
+#	@ cp    $(DOCSDIR)/README_OUT.md     $(OUTDIR)
+#	@ cp    $(DOCSDIR)/README_BUILD.md   $(BUILDDIR)
+#	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
+#	@ echo '$(dkredd)Purged.$(resetc)'
 
 # make ls
 #   Edit: no
-ls: ls-src ls-build ls-out ls-back
+# ls: ls-src ls-build ls-out ls-back
 
-ls-src:
-	@ echo -n '$(resetc)'
-	@ /bin/ls -R --color $(SRCDIR)
-	@ echo '$(resetc)'
+# ls-src:
+#	@ echo -n '$(resetc)'
+#	@ /bin/ls -R --color $(SRCDIR)
+#	@ echo '$(resetc)'
 
-ls-build:
-	@ echo '$(resetc)$(blmagn)$(dkblck)$(BUILDDIR)'
-	@ /bin/ls --color=never $(BUILDDIR)
-	@ echo '$(resetc)'
+# ls-build:
+#	@ echo '$(resetc)$(blmagn)$(dkblck)$(BUILDDIR)'
+#	@ /bin/ls --color=never $(BUILDDIR)
+#	@ echo '$(resetc)'
 
-ls-out:
-	@ echo '$(resetc)$(blgren)$(dkblck)$(OUTDIR)'
-	@ /bin/ls --color=never $(OUTDIR)
-	@ echo '$(resetc)'
+# ls-out:
+#	@ echo '$(resetc)$(blgren)$(dkblck)$(OUTDIR)'
+#	@ /bin/ls --color=never $(OUTDIR)
+#	@ echo '$(resetc)'
 
-ls-back:
-	@ echo '$(resetc)$(blorng)$(dkblck)$(BACKDIR)'
-	@ /bin/ls --color=never $(BACKDIR)
-	@ echo '$(resetc)'
+# ls-back:
+#	@ echo '$(resetc)$(blorng)$(dkblck)$(BACKDIR)'
+#	@ /bin/ls --color=never $(BACKDIR)
+#	@ echo '$(resetc)'
 
 # Actual Make Scripts ##########################################################
 #
 # make markdown
 #   Edit: if you are making multiple docs
-markdown: yaml-lint
+# markdown: yaml-lint
+markdown: 
 	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
 	@       $(MAKE_MD) $(PROJ_RECIPE)
 
@@ -442,14 +443,15 @@ color-sheet: sheet-markdown
 	@       $(PDFINFO) $(SHEET_COLOR_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
-elk-pdf: elk-markdown
-	@ echo '$(elkcolor)Making Cloud-Elk Preview PDF.$(resetc)'
-	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
-	@      $(PANDOC) $(PANDOCFLAGS_ELK) $(SHEET_ELK_FLAGS) -o $(ELK_PDF_OUT) $(ELK_SRC)
-	@      $(PDFINFO) $(ELK_PDF_OUT) $(PDFINFO_GREP)
-	@     -$(EXPLORER)
-
-what-pdf: yaml-lint what-markdown
+# elk-pdf: elk-markdown
+#	@ echo '$(elkcolor)Making Cloud-Elk Preview PDF.$(resetc)'
+#	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
+#	@      $(PANDOC) $(PANDOCFLAGS_ELK) $(SHEET_ELK_FLAGS) -o $(ELK_PDF_OUT) $(ELK_SRC)
+#	@      $(PDFINFO) $(ELK_PDF_OUT) $(PDFINFO_GREP)
+#	@     -$(EXPLORER)
+#
+# what-pdf: yaml-lint what-markdown
+what-pdf: what-markdown
 	@ echo "$(elkcolor)Making What's What PDF.$(resetc)"
 	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@      $(PANDOC) $(PANDOCFLAGS_WHATSWHAT) $(WHATSWHAT_FLAGS) -o $(WHATSWHAT_PDF_OUT) $(WHATSWHAT_SRC)
@@ -469,14 +471,15 @@ recipes-list:
 	@ echo '$(ltcyan)Recipes List:$(resetc)'
 	@       $(MAKE_MD_LIST)
 
-yaml-lint:
+# yaml-lint:
 # 	@ echo '$(ltcyan)Checking YAML files.$(resetc)'
 # 	@       $(YAMLLINT) $(FIND_YAML)
 
 # make all
 #   Edit: if you are making more than one pdf or html
 all:    pdf   letter    sheets      pregen  origin what-pdf
-sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
+# sheets: sheet alt-sheet color-sheet elk-pdf all-sheets
+sheets: sheet alt-sheet color-sheet all-sheets
 
 # Make Aliases #################################################################
 #  Edit: only you if want to add something
@@ -488,8 +491,6 @@ recipes-list:   recipes-list
 menu:           recipes-list
 game:           pdf letter
 backup:         backups
-vi:             edit
-vim:            edit
 sheet-alt:      alt-sheet
 pregens:        pregen
 pregen-md:      pregen-markdown
@@ -501,7 +502,9 @@ secret-origins: origin
 secret-origin:  origin
 what:           what-pdf
 team:           team-sheet
-yaml:           yaml-lint
-yamllint:       yaml-lint
 zip:            fari-zip
 fari:           fari-zip
+# vi:             edit
+# vim:            edit
+# yaml:           yaml-lint
+# yamllint:       yaml-lint

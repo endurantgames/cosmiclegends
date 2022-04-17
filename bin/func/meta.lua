@@ -43,8 +43,8 @@ g.CONFIG         = {
 
 local CONFIG = g.CONFIG;
 
-package.path = "./func/?.lua;./?.lua;./?/load.lua;" .. package.path;
-require "util";
+-- package.path = "./func/?.lua;./?.lua;./?/load.lua;" .. package.path;
+-- require "util";
 
 g.FUNC     = g.FUNC or {};
 local FUNC = g.FUNC;
@@ -57,7 +57,7 @@ local function register_func_cat(name, quiet)
   if                      not name  then eprint("Can't create FUNC category", name); os.exit();
   elseif g.FUNC[name] and not quiet then eprint("FUNC category exists",       name); os.exit();
   end;
-  vprint("Creating FUNC category", name);
+  print("Creating FUNC category", string.upper(name));
   g.FUNC[name] = {}
 end;
 
@@ -85,25 +85,31 @@ end;
 local function register_func(cat, name, func_func)
   if     not cat       then cat = "util" end;
 
-  if     not name      then eprint("Can't register " .. string.upper(cat) .. " func", name); os.exit();
-  elseif not func_func then eprint("No func "        .. string.upper(cat) .. " func", name); os.exit();
-  elseif FUNC[cat]     then eprint("Already registered META func",                    name); os.exit();
+  if     not name      then print("Can't register " .. string.upper(cat) .. " func", name); os.exit();
+  elseif not func_func then print("No func "        .. string.upper(cat) .. " func", name); os.exit();
+  elseif FUNC[cat]     then print("Already registered META func",                    name); 
+	                    print("Continuing on...");
   end;
 
   local  func_cat = FUNC[cat];
-  if not func_cat then register_func_cat(cat); func_cat = FUNC[cat]; end;
-  vprint("Registering " .. string.upper(cat) .. " func", name);
+  if not func_cat 
+  then   register_func_cat(cat); 
+         func_cat = FUNC[cat]; 
+  end;
+  print("Registering " .. string.upper(cat) .. " func", name);
   func_cat[name] = func_func;
 end;
 
-local function register_util_cat(n, ff) register_func("util", n, ff) end;
+register_func_cat("util");
+register_func(    "util", "register_func",     register_func    );
+register_func(    "util", "register_func_cat", register_func_cat);
 
-register_util_func("register_category", register_func_cat);
-register_util_func("register_func",     register_func);
+-- register_util_func("register_category", register_func_cat);
+-- register_util_func("register_func",     register_func);
 
-vprint(            "Registering function categories" );
+print("Registering function categories");
 
-vprint( "Creating register_*_functions" ); -- =====================================
+print("Creating register_*_functions"  ); -- =====================================
 local function register_bucket_func( n, ff ) register_func( "bucket", n, ff ); end;
 local function register_file_func(   n, ff ) register_func( "file",   n, ff ); end;
 local function register_line_func(   n, ff ) register_func( "line",   n, ff ); end;

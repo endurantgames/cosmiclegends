@@ -8,7 +8,11 @@ local function load_module(mod)
   require(mod);
 end;
 
-load_module( "utils"     );
+package.path = "./?.lua;./bin/modules/?.lua;" .. package.path;
+
+print("package.path is ", package.path);
+
+-- load_module( "util"      );
 load_module( "character" );
 load_module( "list"      );
 load_module( "items"     );
