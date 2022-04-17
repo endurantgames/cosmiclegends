@@ -13,39 +13,43 @@ local cli     = require "cliargs";
 local lyaml   = require "lyaml"  ; -- https://github.com/gvvaughan/lyaml
 local inspect = require "inspect"; -- https://github.com/kikito/inspect.lua
 
+local function nop(...) return ...; end;
+
 -- access to functions
-local adjust_md_level   = FUNC.file.adjust_md_level;
-local bucket_add        = FUNC.bucket.add;
-local bucket_contents   = FUNC.bucket.contents;
-local bucket_count      = FUNC.bucket.count;
-local bucket_dump       = FUNC.bucket.dump;
-local bucket_exists     = FUNC.bucket.exists;
-local bucket_fetch      = FUNC.bucket.fetch;
-local bucket_test       = FUNC.bucket.test;
-local dump              = FUNC.file.dump;
-local eprint            = UTIL.eprint;
-local file_exists       = FUNC.file.exits;
-local file_search       = FUNC.util.search;
-local find_file         = FUNC.file.find;
-local get_slug          = FUNC.file.get_slug;
-local ignore            = UTIL.ignore;
-local map_src_fs        = FUNC.file.map_src_fs;
-local mark_line_used    = FUNC.line.mark_used;
-local parse_recipe_line = FUNC.recipe.parse_line;
-local path_level        = FUNC.file.path_level;
-local pprint            = UTIL.pprint;
-local slurp             = FUNC.file.slurp;
-local split             = UTIL.split;
-local sprint            = UTIL.sprint;
-local unpack_yaml_tree  = FUNC.yaml.unpack_tree;
-local vprint            = UTIL.vprint;
-local was_used_line     = FUNC.line.was_used;
-local yprint            = UTIL.yprint;
-local recipe_list       = UTIL.recipe.list;
+local bucket_add        = FUNC and FUNC.bucket and FUNC.bucket.add           or nop;
+local bucket_contents   = FUNC and FUNC.bucket and FUNC.bucket.contents      or nop;
+local bucket_count      = FUNC and FUNC.bucket and FUNC.bucket.count         or nop;
+local bucket_dump       = FUNC and FUNC.bucket and FUNC.bucket.dump          or nop;
+local bucket_exists     = FUNC and FUNC.bucket and FUNC.bucket.exists        or nop;
+local bucket_fetch      = FUNC and FUNC.bucket and FUNC.bucket.fetch         or nop;
+local bucket_test       = FUNC and FUNC.bucket and FUNC.bucket.test          or nop;
+local adjust_md_level   = FUNC and FUNC.file   and FUNC.file.adjust_md_level or nop;
+local dump              = FUNC and FUNC.file   and FUNC.file.dump            or nop;
+local file_exists       = FUNC and FUNC.file   and FUNC.file.exists          or nop;
+local find_file         = FUNC and FUNC.file   and FUNC.file.find            or nop;
+local get_slug          = FUNC and FUNC.file   and FUNC.file.get_slug        or nop;
+local path_level        = FUNC and FUNC.file   and FUNC.file.path_level      or nop;
+local map_src_fs        = FUNC and FUNC.file   and FUNC.file.map_src_fs      or nop;
+local slurp             = FUNC and FUNC.file   and FUNC.file.slurp           or nop;
+local mark_line_used    = FUNC and FUNC.line   and FUNC.line.mark_used       or nop;
+local was_used_line     = FUNC and FUNC.line   and FUNC.line.was_used        or nop;
+local parse_recipe_line = FUNC and FUNC.recipe and FUNC.recipe.parse_line    or nop;
+local eprint            = FUNC and FUNC.util   and FUNC.util.eprint          or nop;
+local file_search       = FUNC and FUNC.util   and FUNC.util.search          or nop;
+local ignore            = FUNC and FUNC.util   and FUNC.util.ignore          or nop;
+local pprint            = FUNC and FUNC.util   and FUNC.util.pprint          or nop;
+local split             = FUNC and FUNC.util   and FUNC.util.split           or nop;
+local sprint            = FUNC and FUNC.util   and FUNC.util.sprint          or nop;
+local vprint            = FUNC and FUNC.util   and FUNC.util.vprint          or nop;
+local yprint            = FUNC and FUNC.util   and FUNC.util.yprint          or nop;
+local recipe_list       = FUNC and FUNC.util   and FUNC.util.recipe.list     or nop;
+local unpack_yaml_tree  = FUNC and FUNC.yaml   and FUNC.yaml.unpack_tree     or nop;
 
 -- ==========================================================
 -- Command line interface: https://lua-cliargs.netlify.com/#/
 
+print(cli);
+os.exit(1);
 cli:set_name(CONFIG.appname);
 cli:set_description("it creates the .md files we need"                 );
 cli:splat("RECIPE",                 "the recipe to build", "", 1       );
