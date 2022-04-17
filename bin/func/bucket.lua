@@ -9,10 +9,9 @@ local FUNC   = g.FUNC;
 local CONFIG = g.CONFIG;
 local FUNC   = g.FUNC;
 local UTIL   = FUNC.util;
-package.path = "./?.lua;./?/load.lua;" .. package.path;
 
 print("-------------------------------- bucket --------------------------------");
-local register_func, register_func_cat;
+local register_func, register_cat;
 
 local ignore, split;
 local vprint, eprint, sprint, pprint, yprint;
@@ -25,8 +24,8 @@ if UTIL.sprint            then sprint            = UTIL.sprint             else 
 if UTIL.pprint            then pprint            = UTIL.pprint             else eprint("Error: no function", "pprint"           ); os.exit(); end;
 if UTIL.yprint            then yprint            = UTIL.yprint             else eprint("Error: no function", "yprint"           ); os.exit(); end;
 if UTIL.register_func     then register_func     = UTIL.register_func;     else eprint("Error: no function", "register_func"    ); os.exit(); end;
-if UTIL.register_func_cat then register_func_cat = UTIL.register_func_cat; else eprint("Error: no function", "register_func_cat"); os.exit(); end;
-register_func_cat("bucket");
+if UTIL.register_cat then register_cat = UTIL.register_cat; else eprint("Error: no function", "register_cat"); os.exit(); end;
+register_cat("bucket");
 local function register_bucket_func(n, ff) register_func("bucket", n, ff); end;
 
 -- == bucket functions ========================================================

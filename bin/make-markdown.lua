@@ -1,53 +1,13 @@
 #!/usr/bin/lua
 
-local _G = _G;
-
-_G.g = { -- g for "global"   g = _G.g
-  FILES  = { }, YAML = { },
-  bucket = { BUILD   = { }, CONTENT = { },
-             DIRS    = { }, ERR  = { },
-             FILES   = { } },
-  count  = { BUILD   = 0,   DIRS   = 0,
-             ERR     = 0,   FILES  = 0, },
-  outtxt = { },
-};
-
-    g.FUNC = { }; -- functions
-local FUNC = g.FUNC;
-local UTIL = FUNC.util;
-
-g.CONFIG         = {
-  recipe         = "clu", -- specific to this project
-  appname        = "make-markdown.lua",
-  dir            = { bin          = "./bin", build  = "./build",
-                     out          = "./out", recipe = "./recipes",
-                     source       = "./src", },
-  errors         = true,
-  ext            = { filter       = ".md;.yaml",
-                     markdown     = ".md",  out    = ".md",
-                     recipe       = ".rec", source = "(.md|%.yaml)",
-                     yaml         = ".yaml", },
-  ignore         = "(%.git|Makefile|%.test|%.|backup|markdown)",
-  intro          = "intro",
-  lsfmt          = "  %-30s %-20s",
-  logfmt         = "  %-30s %-20s",
-  maxerrors      = 2,
-  outfile        = "build",
-  src_in_comment = true,
-  summary        = true,
-  verbose        = true,
-  yaml_ignore    = "^(metadata|flat|%d+)"
-};
-
-local CONFIG = g.CONFIG;
-
-package.path = "./?.lua;./bin/?/load.lua;./?/load.lua;" .. package.path;
--- print("package.path is ", package.path);
-
+package.path = "./bin/config.lua;";
+require "config" ;
 require "func"   ;
 require "modules";
 require "content";
 
+local FUNC    = g.FUNC   or {};
+local CONFIG  = g.CONFIG or {};
 local lfs     = require "lfs"    ;
 local cli     = require "cliargs";
 local lyaml   = require "lyaml"  ; -- https://github.com/gvvaughan/lyaml

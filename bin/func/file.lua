@@ -1,23 +1,53 @@
 #!/usr/bin/lua
 
-local _G     = _G;
-_G.g         = _G.g or {};
-local g      = _G.g;
-g.FUNC       = g.FUNC or {};
-g.CONFIG     = g.CONFIG or {};
-local FUNC   = g.FUNC;
-local CONFIG = g.CONFIG;
-local FUNC   = g.FUNC;
-local UTIL   = FUNC.util;
-package.path = "./?.lua;./?/load.lua;" .. package.path;
+local _G     = _G        or {};
+_G.g         = _G.g      or {};
+local g      = _G.g      or {};
+g.FUNC       = g.FUNC    or {};
+g.CONFIG     = g.CONFIG  or {};
+g.UTIL       = g.UTIL    or {};
+local FUNC   = g.FUNC    or {};
+local CONFIG = g.CONFIG  or {};
+local FUNC   = g.FUNC    or {};
+local UTIL   = FUNC.util or {};
 
-print("-------------------------------- file ----------------------------------");
+print("--------------------------------  file -------------------------------");
 
-local register_func, register_func_cat;
+local register_func, register_cat;
 
-if UTIL.register_func     then register_func     = UTIL.register_func;     else eprint("Error: no function", "register_func"    ); os.exit(); end;
-if UTIL.register_func_cat then register_func_cat = UTIL.register_func_cat; else eprint("Error: no function", "register_func_cat"); os.exit(); end;
+local ignore, split;
+local vprint, eprint, sprint, pprint, yprint;
 
+local function fallback_eprint(txt, more)
+  print(txt, more);
+end;
+
+if   UTIL.eprint 
+then eprint = UTIL.eprint 
+else eprint = fallback_eprint;
+     eprint("ERROR: no function", "eprint");
+end;
+
+if UTIL.ignore                                        then ignore            = UTIL.ignore                  else eprint("Error: no function", "ignore"           ); end;
+if UTIL.split                                         then split             = UTIL.split                   else eprint("Error: no function", "split"            ); end;
+if UTIL.vprint                                        then vprint            = UTIL.vprint                  else eprint("Error: no function", "vprint"           ); end;
+if UTIL.sprint                                        then sprint            = UTIL.sprint                  else eprint("Error: no function", "sprint"           ); end;
+if UTIL.pprint                                        then pprint            = UTIL.pprint                  else eprint("Error: no function", "pprint"           ); end;
+if UTIL.yprint                                        then yprint            = UTIL.yprint                  else eprint("Error: no function", "yprint"           ); end;
+
+if   FUNC and FUNC.meta and FUNC.meta.register_cat 
+then register_cat = FUNC.meta.register_cat; 
+else eprint("FATAL Error: no function", "FUNC.meta.register_cat"); 
+     os.exit(1); -- can't continue without ability to register categories
+end; 
+if FUNC and FUNC.meta and FUNC.meta.register_func     
+then register_func     = UTIL.register_func;          
+else eprint("FATAL Error: no function", "FUNC.meta.register_func"    ); 
+     os.exit(1); -- can't continue without ability to register funcs
+end; 
+
+register_cat("file");
+local function register_file_func(n, ff) register_func("file", n, ff); end;
 -- == file functions ================================================================
 --
 -- code by GianlucaVespignani - 2012-03-04; 2013-01-26
