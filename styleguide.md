@@ -1,0 +1,80 @@
+# Style Guide for Cosmic Legends of the Universe
+
+See also **src/glossary**.
+
+- **Capitalization**: In general, game terms should be capitalized whenever used. For example:
+  - **Power Word** (**PW** is acceptable on second use)
+    - **Personal Power Word** (**PPW** is acceptable on second use)
+    - **Nova Power Word** (**NPW** is acceptable on second use)
+    - **Scene Power Word** (Don't use *SPW*)
+    - **Cooldown**
+  - **Hero** stat terms:
+    - **Might**
+    - **Health**
+    - **Ideals**
+    - **Approach**
+      - **Adventure**
+      - **Action**
+      - **Detective**
+      - **Mystery**
+      - **Suspense**
+    - **Class**
+    - **Ability**
+  - **Editor**
+  - **Crisis** terms
+    - **Move**
+      - **General Alert**
+      - **Timely Arrival**
+      - **Crisis Move**
+      - **Hero Move**
+      - **Take the Hit**
+      - **Action**
+      - **Crisis Phase**
+      - **Hero Phase**
+      - **Goal**
+        - **Smash**
+        - **Outwit**
+        - **Allay**
+        - **Rescue**
+  - **Success**
+    - **Edge Success**
+  - Campaign Structure terms:
+    - **Series**
+    - **Issue**
+    - **Guest Star**
+    - **First Issue**
+    - **Crossover**
+    - **One-Shot**
+    - **Storyline**
+    - **Story**
+    - **Opportunity**
+    - **Spotlight**
+  - Safety terms:
+    - **Open Door**
+    - **Lines and Veils**
+    - **Stars and Wishes**
+    - Comic Page Change terms:
+      - **Comic Page Change** (not *CPC*)
+      - **Retcon**
+      - **Meanwhile, ...**
+
+- **Advance a Goal**, or **advance a Goal**: A player is said to "advance a Goal" when they apply as many Successes as defined by that Crisis.
+- **Counter**, or **counter**: Of a Crisis Move: to prevent the Move from affecting one or more Heroes.
+- **character**: Avoid using; instead, use **Hero** whenever talking about a player character.
+- **Gamemaster** or **GM**: Avoid using; instead use **Editor**.
+- **the Editor**: There is only one *Editor* at a time; avoid using *Editors* in the plural.
+- **fight** or **encounter**: Avoid using; instead use **Crisis**.
+- **Effectiveness**: of a roll: the number of Successes.
+- **total**: of a roll, see **Effectiveness**
+- **result**: of a roll, see **Effectiveness**
+- **player**: need not be capitalized, unlike Editor.
+- **the players**: Refers collectively to all the players in Series, excluding the Editor.
+- **Issue #0**: The number sign is preferred to *Issue 0* or *Issue Zero*.
+- **Power combo**, **Power display**, and **Power stunt**: The second word is not capitalized.
+- **Power display, stunt, or combo**: Only the first word is capitalized; this is the preferred order.
+- **power** or **super-power**: By itself, *power* is not a game term, and so should not be capitalized except when used in terms such as *Power Word*, *Power combo*, *Power display*, or *Power stunt*.
+- **Smash, Outwit, Allay, Rescue**: The preferred order for the 4 types of goals.
+- **Move**: A player or the Editor **takes a Move**, not *makes a Move* or *uses a Move*. The __Hero__ does not *take*, *make*, or *use* a Move.
+- **Campaign**: Use **Series** instead.
+- **the Heroes**: refers to just the player characters, not to the players themselves
+- **Volume**: can be applied to a Hero (as part of their statblock), the state of the Series, or an Ability.
