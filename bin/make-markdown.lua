@@ -15,7 +15,6 @@ load("./bin/?/load.lua;./bin/modules/?.lua", "modules");
 
 -- local tmp_pkg_path = package.path;
 -- package.path  = "./bin/config.lua;./bin/?/load.lua/;./bin/?.lua;" .. package.path;
-
 -- print(package.path); os.exit(0);
 
 -- local blerp   = require("blerp"   ); assert(blerp,   "blerp is not loaded, of course" );
