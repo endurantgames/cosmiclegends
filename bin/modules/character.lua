@@ -8,33 +8,49 @@ local g = _G.g or {};
 
 local function empty() end;
 
-local FUNC             = g.FUNC;
-local CONFIG           = g.CONFIG;
-local util             = FUNC.util;
-local split            = util and util.split or empty;
-local file_search      = FUNC.file.search;
-local vprint           = util.vprint;
-local eprint           = util.eprint;
-local sprint           = util.sprint;
-local yprint           = util.yprint;
-local pprint           = util.pprint;
-local yamlfuncs        = FUNC.yaml;
-local unpack_yaml_tree = yamlfuncs.unpack_tree;
-local get_alpha_keys   = yamlfuncs.get_alpha_keys;
-local get_sorted_keys  = yamlfuncs.get_sorted_keys;
-local eprint           = UTIL.eprint;
-local vprint           = UTIL.vprint;
-local sprint           = UTIL.sprint;
-local pprint           = UTIL.pprint;
-local yprint           = UTIL.yprint;
-local split            = UTIL.split;
-local ignore           = UTIL.ignore;
+assert(g.FUNC,    "g.FUNC doesn't exist");       local FUNC   = g.FUNC;
+assert(g.CONFIG,  "g.CONFIG doesn't exist");   local CONFIG = g.CONFIG;
+assert(FUNC.util, "FUNC.util doesn't exist"); local util   = FUNC.util;
 
-local register_func_category = g.FUNC.register;
+local split, file_search, vprint, eprint, sprint, yprint, pprint, yamlfuncs;
+local unpack_yaml_tree, get_alpha_keys, get_sorted_keys;
+
+assert(FUNC.file,        "FUNC.file doesn't exist");
+assert(FUNC.file.search, "FUNC.file.search doesn't exist"); file_search = FUNC.file.search;
+
+assert(util.vprint, "util.vprint doesn't exist"); vprint = util.vprint;
+assert(util.eprint, "util.eprint doesn't exist"); eprint = util.eprint;
+assert(util.sprint, "util.sprint doesn't exist"); sprint = util.sprint;
+assert(util.yprint, "util.yprint doesn't exist"); yprint = util.yprint;
+assert(util.pprint, "util.pprint doesn't exist"); pprint = util.pprint;
+assert(util.ignore, "util.ignore doesn't exist"); ignore = util.ignore;
+
+assert(FUNC.yaml, "FUNC.yaml doesn't exist"); yamlfuncs = FUNC.yaml;
+assert(yamlfuncs.unpack_yaml_tree, "yamlfuncs.unpack_yaml_tree doesn't exist"); unpack_yaml_tree = yamlfuncs.unpack_yaml_tree;
+assert(yamlfuncs.get_alpha_keys, "yamlfuncs.get_alpha_keys doesn't exist"); get_alpha_keys = yamlfuncs.get_alpha_keys;
+assert(yamlfuncs.get_sorted_keys, "yamlfuncs.get_sorted_keys doesn't exist"); get_sorted_keys = yamlfuncs.get_sorted_keys;
+
+assert(FUNC.meta, "FUNC.meta doesn't exist"); local meta = FUNC.meta;
+assert(meta.register_cat, "meta.register_cat doesn't exist"); local register_func_category = meta.register_cat;
+assert(meta.register_func, "meta.register_func doesn't exist"); local register_func = meta.register_func;
+-- local util                   = FUNC.util;
+-- local split                  = util and util.split or empty;
+-- local file_search            = FUNC.file.search;
+-- local vprint                 = util.vprint;
+-- local eprint                 = util.eprint;
+-- local sprint                 = util.sprint;
+-- local yprint                 = util.yprint;
+-- local pprint                 = util.pprint;
+-- local yamlfuncs              = FUNC.yaml;
+-- local unpack_yaml_tree       = yamlfuncs.unpack_tree;
+-- local get_alpha_keys         = yamlfuncs.get_alpha_keys;
+-- local get_sorted_keys        = yamlfuncs.get_sorted_keys;
+-- local register_func_category = g.FUNC.register;
+--
 register_func_category("char");
 
-local CHAR = FUNC.char;
-local UTIL = FUNC.util;
+assert(FUNC.char, "FUNC.char doesn't exist"); local CHAR = FUNC.char;
+assert(FUNC.util, "FUNC.util doesn't exist"); local UTIL = FUNC.util;
 
 local function yaml_char_group(bio_group_affiliation)
   local markdown = "";
@@ -198,13 +214,13 @@ local function register_char_func(name, func_func)
   CHAR[name] = func_func;
 end;
 
-register_char_func("char"        , yaml_character        );
-register_char_func("power_words" , yaml_char_power_words );
-register_char_func("gender"      , yaml_char_gender      );
-register_char_func("base"        , yaml_char_base        );
-register_char_func("group"       , yaml_char_group       );
-register_char_func("relatives"   , yaml_char_relatives   );
-register_char_func("picture"     , yaml_char_picture     );
+register_char_func("char",         yaml_character        );
+register_char_func("power_words",  yaml_char_power_words );
+register_char_func("gender",       yaml_char_gender      );
+register_char_func("base",         yaml_char_base        );
+register_char_func("group",        yaml_char_group       );
+register_char_func("relatives",    yaml_char_relatives   );
+register_char_func("picture",      yaml_char_picture     );
 
 local register_yaml_func = g.FUNC.yaml.register;
 register_yaml_func("character", yaml_character, "character");

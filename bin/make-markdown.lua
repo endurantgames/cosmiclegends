@@ -1,21 +1,34 @@
 #!/usr/bin/lua
 
-package.path = "./bin/config.lua;";
-require "config" ;
-require "func"   ;
-require "modules";
-require "content";
-
+local g       = _G.g     or {};
 local FUNC    = g.FUNC   or {};
 local CONFIG  = g.CONFIG or {};
-local lfs     = require "lfs"    ;
-local cli     = require "cliargs";
-local lyaml   = require "lyaml"  ; -- https://github.com/gvvaughan/lyaml
-local inspect = require "inspect"; -- https://github.com/kikito/inspect.lua
 
-local function nop(...) return ...; end;
+local function load(path, pkgname)
+  package.path = path .. ";" .. package.path;
+  require(pkgname);
+end;
 
--- access to functions
+load("./bin/config.lua",                     "config");
+load("./bin/?/load.lua",                     "func");
+load("./bin/?/load.lua;./bin/modules/?.lua", "modules");
+
+-- local tmp_pkg_path = package.path;
+-- package.path  = "./bin/config.lua;./bin/?/load.lua/;./bin/?.lua;" .. package.path;
+
+-- print(package.path); os.exit(0);
+
+-- local blerp   = require("blerp"   ); assert(blerp,   "blerp is not loaded, of course" );
+local config  = require("config"  ); assert(config,  "config is not loaded"           );
+local func    = require("func"    ); assert(func,    "func is not loaded"             );
+local modules = require("modules" ); assert(modules, "modules is not loaded"          );
+local content = require("content" ); assert(content, "content is not loaded"          );
+local lfs     = require("lfs"     ); assert(lfs,     "lfs is not loaded"              );
+local lyaml   = require("lyaml"   ); assert(lyaml,   "lyaml is not loaded"            ); -- https://github.com/gvvaughan/lyaml
+local inspect = require("inspect" ); assert(inspect, "inspect is not loaded"          ); -- https://github.com/kikito/inspect.lua
+local cli     = require("cliargs" ); assert(cli,     "cli is not loaded"              ); -- https://github.com/amireh/lua_cliargs
+
+local function nop(...) return ...; end; -- access to functions
 local bucket_add        = FUNC and FUNC.bucket and FUNC.bucket.add           or nop;
 local bucket_contents   = FUNC and FUNC.bucket and FUNC.bucket.contents      or nop;
 local bucket_count      = FUNC and FUNC.bucket and FUNC.bucket.count         or nop;
@@ -48,9 +61,12 @@ local unpack_yaml_tree  = FUNC and FUNC.yaml   and FUNC.yaml.unpack_tree     or 
 -- ==========================================================
 -- Command line interface: https://lua-cliargs.netlify.com/#/
 
-print(cli);
-os.exit(1);
+-- for foo, bar in pairs(cli) do print("cli." .. foo, bar); end;
+
+print("CONFIG.appname is", CONFIG.appname);
+
 cli:set_name(CONFIG.appname);
+-- cli:command(CONFIG.appname);
 cli:set_description("it creates the .md files we need"                 );
 cli:splat("RECIPE",                 "the recipe to build", "", 1       );
 cli:option("-o, --outfile=OUTFILE", "specify the outfile"              );
@@ -60,9 +76,11 @@ cli:flag(  "-l, --list",            "list the known recipes",    false );
 cli:flag(  "-y, --debugyaml",       "be verbose about yaml",     false );
 cli:flag(  "-e, --[no-]errors",     "show errors",               true  );
 
+-- for foo, bar in pairs(arg) do print("arg." .. foo, bar); end;
+
 local args, err = cli:parse(arg);
-if not args then cli:print_help(); os.exit(1);                                           end;
-if err then print(string.format("%s: %s", cli.name, err)); os.exit(1);                   end;
+if not args           then cli:print_help(); os.exit(1);                                 end;
+if err                then print(string.format("%s: %s", cli.name, err)); os.exit(1);    end;
 if args and args.list then recipe_list()                                                 end;
 if args.quiet         then CONFIG.summary   = false else CONFIG.summary   = true;        end;
 if args.verbose       then CONFIG.verbose   = true

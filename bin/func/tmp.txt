@@ -1,0 +1,103 @@
+local function get_alpha_keys(t)
+  local n = 0;
+  local keys = {};
+  for k, v in pairs(t)
+  do  n       = n + 1;
+      if   type(k) == "string"
+      then keys[n]     = k;
+           table.insert(keys, k);
+      end;
+  end;
+  return keys;
+end;
+
+local function get_sorted_keys(table_of_tables, sort_field, numeric)
+  local alpha;
+  local t         = unpack_yaml_tree(table_of_tables);
+  local keys      = {};
+  local sortkeys  = {};
+  local storekeys = {};
+  local n         = 0;
+  local helper    = function(a, b) return a < b end;
+
+  if   type(sort_field) == "string" and numeric
+  then sort_field = string.lower(sort_field);
+       alpha = false;
+  end;
+
+  if   sort_field == nil
+   or  sort_field == true
+   or  sort_field == "alpha"
+   or  sort_field == "alphabetical"
+   or  sort_field == "a-z"
+  then sort_field =  "key";
+       alpha      =  true;
+       numeric    =  false;
+  end;
+
+  if   not numeric and not alpha
+  then   eprint("sorry, don't know what kind of sort", "");
+         eprint("numeric is", numeric);
+         eprint("alpha is",   alpha  );
+         os.exit(1);
+  elseif alpha
+  then   helper = function(a, b)
+		    a = string.lower(a:gsub("^The ", ""));
+		    b = string.lower(b:gsub("^The ", ""));
+                    return a < b
+                  end;
+  end;
+
+  for k, v in pairs(t)
+  do  if   type(k) == "string"
+      then n            = n + 1;
+           local  key_to_store = k;
+           local  key_index;
+           if     alpha
+           then   key_index = k;
+           elseif type(v)     == "table"
+           then   local up_v  =  unpack_yaml_tree(v);
+                  key_index = up_v[sort_field];
+           else   key_index = 1;
+           end;
+           storekeys[key_index] = key_to_store;
+           table.insert(sortkeys, key_index);
+      end;
+  end;
+
+  table.sort(sortkeys, helper);
+
+  n   = 0;
+  for k, _ in pairs(sortkeys)
+  do  n = n + 1;
+      local key_to_retrieve = sortkeys[n];
+      local retrieved_key   = storekeys[key_to_retrieve];
+      -- yprint(n .. ": storekeys[" .. key_to_retrieve .. "]", retrieved_key);
+      table.insert(keys, retrieved_key);
+  end;
+
+  return keys;
+
+end;
+
+local function yaml_error(yaml_tree, unknown_xformat, filename, return_text)
+  yprint("Unknown xformat:", unknown_xformat);
+  yprint("> in file:",       filename       );
+  if return_text or return_text == nil then return "" else return {} end;
+end;
+
+local function yaml_common(yaml_tree, slurped)
+  local common_error;
+  slurped = slurped or "\n\n";
+  local flat_tree = unpack_yaml_tree(yaml_tree, "yaml_common") or {};
+  local metadata;
+
+  if   flat_tree.metadata
+  then metadata     = unpack_yaml_tree(flat_tree.metadata, "yaml_common : metadata") or {};
+  else metadata     = nil;
+       common_error = true
+  end;
+
+  return yaml_tree, metadata, slurped, common_error;
+end;
+

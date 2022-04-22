@@ -108,8 +108,8 @@ register_func("meta", "load", load_funcs);
 print("--------------------- loading functions ----------------------");
 
 print("loading util funcs");   load_funcs( "util"   );
-print("loading bucket funcs"); load_funcs( "bucket" );
 print("loading recipe funcs"); load_funcs( "recipe" );
+print("loading bucket funcs"); load_funcs( "bucket" );
 print("loading line funcs");   load_funcs( "line"   );
 print("loading file funcs");   load_funcs( "file"   );
 print("loading yaml funcs");   load_funcs( "yaml"   );
