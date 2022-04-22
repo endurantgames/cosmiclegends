@@ -3,14 +3,24 @@
 local _G     = _G;
 _G.g         = _G.g     or {};
 local g      = _G.g     or {};
-g.FUNC       = g.FUNC   or {};
-g.CONFIG     = g.CONFIG or {};
-g.LOADED     = g.LOADED or {};
-local CONFIG = g.CONFIG or {};
-local FUNC   = g.FUNC;
-local UTIL   = FUNC.util;
-local LOADED = g.LOADED or {};
-package.path = CONFIG.pkg_path;
+-- g.FUNC       = g.FUNC   or {};
+-- g.CONFIG     = g.CONFIG or {};
+-- g.LOADED     = g.LOADED or {};
+-- local CONFIG = g.CONFIG or {};
+-- local FUNC   = g.FUNC;
+-- local UTIL   = FUNC.util;
+-- local LOADED = g.LOADED or {};
+-- package.path = CONFIG.pkg_path;
+
+g.FUNC      = g.FUNC      or {};
+g.LOADED    = g.LOADED    or {};
+g.CONFIG    = g.CONFIG    or {};
+g.FUNC.util = g.FUNC.util or {};
+
+assert(g.FUNC,          "g.FUNC does not exist"          ); local FUNC   = g.FUNC;
+assert(g.CONFIG,        "g.CONFIG does not exist"        ); local CONFIG = g.CONFIG;
+-- assert(FUNC.util,    "FUNC.util does not exist"       ); local UTIL   = FUNC.util;
+assert(CONFIG.pkg_path, "CONFIG.pkg_path does not exist" ); package.path = CONFIG.pkg_path;
 
 print("------------------------------- load.lua ----------------------");
 
@@ -70,13 +80,14 @@ end;
 
 register_cat("util");
 register_cat("meta");
-
 register_func("meta", "load_funcs",    load_funcs   );
 register_func("meta", "register_func", register_func);
 register_func("meta", "register_cat",  register_cat );
 
-if not FUNC.meta then print("error! no FUNC.meta"); os.exit(); end;
-if not FUNC.meta.register_cat then print("error! no FUNC.meta.register_cat"); os.exit(); end;
+assert(FUNC.meta,         "FUNC.meta does not exist");         local META         = FUNC.meta;
+-- assert(META.register_cat, "META.register_cat does not exist"); local register_cat = META.register_cat;
+-- if not FUNC.meta then print("error! no FUNC.meta"); os.exit(); end;
+-- if not FUNC.meta.register_cat then print("error! no FUNC.meta.register_cat"); os.exit(); end;
 
 local function dump_function_cats()
   local catlist = {};
@@ -88,12 +99,6 @@ end;
 
 dump_function_cats();
 register_func("meta", "catlist", dump_function_cats);
-
-local FUNC   = g.FUNC;
-local CONFIG = g.CONFIG;
-local FUNC   = g.FUNC;
-local UTIL   = g.FUNC.util;
-local LOADED = g.LOADED;
 
 local function load_funcs(cat) 
   if not LOADED[cat]
@@ -109,10 +114,10 @@ print("--------------------- loading functions ----------------------");
 
 print("loading util funcs");   load_funcs( "util"   );
 print("loading bucket funcs"); load_funcs( "bucket" );
-print("loading recipe funcs"); load_funcs( "recipe" );
 print("loading line funcs");   load_funcs( "line"   );
 print("loading file funcs");   load_funcs( "file"   );
 print("loading yaml funcs");   load_funcs( "yaml"   );
+print("loading recipe funcs"); load_funcs( "recipe" );
 
 print("-------------------- /loading functions ----------------------");
 

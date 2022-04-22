@@ -6,25 +6,26 @@ local g      = _G.g      or {};
 g.FUNC       = g.FUNC    or {};
 g.CONFIG     = g.CONFIG  or {};
 g.UTIL       = g.UTIL    or {};
-assert(g.FUNC, "g.FUNC missing"); local FUNC   = g.FUNC    or {};
-assert(g.CONFIG, "g.CONFIG missing"); local CONFIG = g.CONFIG  or {};
-assert(g.FUNC, "g.FUNC missing"); local FUNC   = g.FUNC    or {};
-assert(FUNC.util, "FUNC.util missing"); local UTIL   = FUNC.util or {};
+assert(g.FUNC,    "g.FUNC missing");    local FUNC   = g.FUNC;
+assert(g.CONFIG,  "g.CONFIG missing");  local CONFIG = g.CONFIG;
+assert(g.FUNC,    "g.FUNC missing");    local FUNC   = g.FUNC;
+assert(FUNC.util, "FUNC.util missing"); local UTIL   = FUNC.util;
+assert(FUNC.meta, "FUNC.meta missing"); local META   = FUNC.meta;
 
 print("--------------------------------  file -------------------------------");
 
-local register_func, register_cat;
+-- local register_func, register_cat;
 
-local ignore, split;
-local vprint, eprint, sprint, pprint, yprint;
+-- local ignore, split;
+-- local vprint, eprint, sprint, pprint, yprint;
 
-assert(UTIL.eprint, "UTIL.eprint missing"); eprint = UTIL.eprint;
-assert(UTIL.ignore, "UTIL.ignore missing"); ignore = UTIL.ignore;
-assert(UTIL.split,  "UTIL.split missing"); split = UTIL.split;
-assert(UTIL.vprint, "UTIL.vprint missing"); vprint = UTIL.vprint;
-assert(UTIL.sprint, "UTIL.sprint missing"); sprint = UTIL.sprint;
-assert(UTIL.pprint, "UTIL.pprint missing"); pprint = UTIL.pprint;
-assert(UTIL.yprint, "UTIL.yprint missing"); yprint = UTIL.yprint;
+assert(UTIL.eprint, "UTIL.eprint missing"); local eprint = UTIL.eprint;
+assert(UTIL.ignore, "UTIL.ignore missing"); local ignore = UTIL.ignore;
+assert(UTIL.split,  "UTIL.split missing");  local split  = UTIL.split;
+assert(UTIL.vprint, "UTIL.vprint missing"); local vprint = UTIL.vprint;
+assert(UTIL.sprint, "UTIL.sprint missing"); local sprint = UTIL.sprint;
+assert(UTIL.pprint, "UTIL.pprint missing"); local pprint = UTIL.pprint;
+assert(UTIL.yprint, "UTIL.yprint missing"); local yprint = UTIL.yprint;
 
 -- if   UTIL.eprint 
 -- then eprint = UTIL.eprint 
@@ -39,9 +40,8 @@ assert(UTIL.yprint, "UTIL.yprint missing"); yprint = UTIL.yprint;
 -- if UTIL.pprint                                        then pprint            = UTIL.pprint                  else eprint("Error: no function", "pprint"           ); end;
 -- if UTIL.yprint                                        then yprint            = UTIL.yprint                  else eprint("Error: no function", "yprint"           ); end;
 
-assert(FUNC.meta, "FUNC.meta missing");
-assert(FUNC.meta.register_cat, "FUNC.meta.register_cat missing"); register_cat = FUNC.meta.register_cat;
-assert(FUNC.meta.register_func, "FUNC.meta.register_func missing"); register_func = FUNC.meta.register_func;
+assert(META.register_cat, "META.register_cat missing");   register_cat  = META.register_cat;
+assert(META.register_func, "META.register_func missing"); register_func = META.register_func;
 
 -- if   FUNC and FUNC.meta and FUNC.meta.register_cat 
 -- then register_cat = FUNC.meta.register_cat; 

@@ -3,37 +3,33 @@
 local _G     = _G        or {};
 _G.g         = _G.g      or {};
 local g      = _G.g      or {};
-g.FUNC       = g.FUNC    or {};
-g.CONFIG     = g.CONFIG  or {};
-g.UTIL       = g.UTIL    or {};
-local FUNC   = g.FUNC    or {};
-local CONFIG = g.CONFIG  or {};
-local FUNC   = g.FUNC    or {};
-local UTIL   = FUNC.util or {};
+assert(g.FUNC,    "g.FUNC does not exist");    local FUNC   = g.FUNC;
+assert(g.CONFIG,  "g.CONFIG does not exist");  local CONFIG = g.CONFIG;
+assert(FUNC.util, "FUNC.util does not exist"); local UTIL   = FUNC.util;
 
 print("-------------------------------- recipe ------------------------------");
 
-local register_func, register_cat;
+-- local register_func, register_cat;
 
-local ignore, split;
-local vprint, eprint, sprint, pprint, yprint;
+-- local ignore, split;
+-- local vprint, eprint, sprint, pprint, yprint;
 
-local function fallback_eprint(txt, more)
-  print(txt, more);
-end;
+-- local function fallback_eprint(txt, more)
+  -- print(txt, more);
+-- end;
 
-if   UTIL.eprint 
-then eprint = UTIL.eprint 
-else eprint = fallback_eprint;
-     eprint("ERROR: no function", "eprint");
-end;
+-- if   UTIL.eprint 
+-- then eprint = UTIL.eprint 
+-- else eprint = fallback_eprint;
+     -- eprint("ERROR: no function", "eprint");
+-- end;
 
-assert(UTIL.ignore, "no UTIL.ignore"); ignore = UTIL.ignore;
-assert(UTIL.split,  "no UTIL.split");  split  = UTIL.split;
-assert(UTIL.vprint, "no UTIL.vprint"); vprint = UTIL.vprint;
-assert(UTIL.pprint, "no UTIL.pprint"); pprint = UTIL.pprint;
-assert(UTIL.sprint, "no UTIL.sprint"); sprint = UTIL.sprint;
-assert(UTIL.yprint, "no UTIL.yprint"); yprint = UTIL.yprint;
+assert(UTIL.ignore, "no UTIL.ignore"); local ignore = UTIL.ignore;
+assert(UTIL.split,  "no UTIL.split");  local split  = UTIL.split;
+assert(UTIL.vprint, "no UTIL.vprint"); local vprint = UTIL.vprint;
+assert(UTIL.pprint, "no UTIL.pprint"); local pprint = UTIL.pprint;
+assert(UTIL.sprint, "no UTIL.sprint"); local sprint = UTIL.sprint;
+assert(UTIL.yprint, "no UTIL.yprint"); local yprint = UTIL.yprint;
 
 -- if UTIL.ignore then ignore = UTIL.ignore else eprint("Error: no function", "ignore" ); end;
 -- if UTIL.split  then split  = UTIL.split  else eprint("Error: no function", "split"  ); end;
@@ -42,13 +38,10 @@ assert(UTIL.yprint, "no UTIL.yprint"); yprint = UTIL.yprint;
 -- if UTIL.pprint then pprint = UTIL.pprint else eprint("Error: no function", "pprint" ); end;
 -- if UTIL.yprint then yprint = UTIL.yprint else eprint("Error: no function", "yprint" ); end;
 
-assert(FUNC,                    "FUNC not exist"                   );
-assert(FUNC.meta,               "FUNC.meta not exist"              );
-assert(FUNC.meta.register_cat,  "FUNC.meta.register_cat not exist" );
-assert(FUNC.meta.register_func, "FUNC.meta.register_cat not exist" );
-
-register_cat  = FUNC.meta.register_cat;
-register_func = FUNC.meta.register_func;
+assert(FUNC,               "FUNC not exist"              );
+assert(FUNC.meta,          "FUNC.meta not exist"         ); local META          = FUNC.meta;
+assert(META.register_cat,  "META.register_cat not exist" ); local register_cat  = META.register_cat;
+assert(META.register_func, "META.register_cat not exist" ); local register_func = META.register_func;
 
 -- if   FUNC and FUNC.meta and FUNC.meta.register_cat
 -- then register_cat = FUNC.meta.register_cat; 
@@ -79,12 +72,12 @@ assert(BUCKET, "BUCKET does not exist");
 
 local bucket_exists, bucket_count, bucket_contents, bucket_dump, bucket_fetch, bucket_test, bucket_add;
 
-assert(BUCKET.exists, "BUCKET.exists"     ); bucket_exists   = BUCKET.exists;
-assert(BUCKET.add, "BUCKET.add"           ); bucket_add      = BUCKET.add;
-assert(BUCKET.test, "BUCKET.test"         ); bucket_test     = BUCKET.test;
-assert(BUCKET.fetch, "BUCKET.fetch"       ); bucket_fetch    = BUCKET.fetch;
-assert(BUCKET.dump, "BUCKET.dump"         ); bucket_dump     = BUCKET.dump;
-assert(BUCKET.count, "BUCKET.count"       ); bucket_count    = BUCKET.count;
+assert(BUCKET.exists,   "BUCKET.exists"   ); bucket_exists   = BUCKET.exists;
+assert(BUCKET.add,      "BUCKET.add"      ); bucket_add      = BUCKET.add;
+assert(BUCKET.test,     "BUCKET.test"     ); bucket_test     = BUCKET.test;
+assert(BUCKET.fetch,    "BUCKET.fetch"    ); bucket_fetch    = BUCKET.fetch;
+assert(BUCKET.dump,     "BUCKET.dump"     ); bucket_dump     = BUCKET.dump;
+assert(BUCKET.count,    "BUCKET.count"    ); bucket_count    = BUCKET.count;
 assert(BUCKET.contents, "BUCKET.contents" ); bucket_contents = BUCKET.contents;
 
 -- if BUCKET.exists   then bucket_exists   = BUCKET.exists   else eprint("Error: no function", "bucket_exists"  ); os.exit(); end;

@@ -10,13 +10,13 @@ end;
 
 package.path = "./?.lua;./bin/modules/?.lua;" .. package.path;
 
-print("package.path is ", package.path);
+-- print("package.path is ", package.path);
 
--- load_module( "util"      );
-load_module( "character" );
-load_module( "list"      );
-load_module( "items"     );
-load_module( "sheet"     );
+load_module("util"     );
+load_module("character");
+load_module("list"     );
+load_module("items"    );
+load_module("sheet"    );
 
 -- require "utils";
 -- require "character";

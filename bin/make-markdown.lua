@@ -19,54 +19,90 @@ load("./bin/?/load.lua;./bin/modules/?.lua", "modules");
 -- print(package.path); os.exit(0);
 
 -- local blerp   = require("blerp"   ); assert(blerp,   "blerp is not loaded, of course" );
-local config  = require("config"  ); assert(config,  "config is not loaded"           );
-local func    = require("func"    ); assert(func,    "func is not loaded"             );
-local modules = require("modules" ); assert(modules, "modules is not loaded"          );
-local content = require("content" ); assert(content, "content is not loaded"          );
+local config  = require("config"  ); -- assert(config,  "config is not loaded"           );
+local func    = require("func"    ); -- assert(func,    "func is not loaded"             );
+local modules = require("modules" ); -- assert(modules, "modules is not loaded"          );
+local content = require("content" ); -- assert(content, "content is not loaded"          );
 local lfs     = require("lfs"     ); assert(lfs,     "lfs is not loaded"              );
 local lyaml   = require("lyaml"   ); assert(lyaml,   "lyaml is not loaded"            ); -- https://github.com/gvvaughan/lyaml
 local inspect = require("inspect" ); assert(inspect, "inspect is not loaded"          ); -- https://github.com/kikito/inspect.lua
 local cli     = require("cliargs" ); assert(cli,     "cli is not loaded"              ); -- https://github.com/amireh/lua_cliargs
 
-local function nop(...) return ...; end; -- access to functions
-local bucket_add        = FUNC and FUNC.bucket and FUNC.bucket.add           or nop;
-local bucket_contents   = FUNC and FUNC.bucket and FUNC.bucket.contents      or nop;
-local bucket_count      = FUNC and FUNC.bucket and FUNC.bucket.count         or nop;
-local bucket_dump       = FUNC and FUNC.bucket and FUNC.bucket.dump          or nop;
-local bucket_exists     = FUNC and FUNC.bucket and FUNC.bucket.exists        or nop;
-local bucket_fetch      = FUNC and FUNC.bucket and FUNC.bucket.fetch         or nop;
-local bucket_test       = FUNC and FUNC.bucket and FUNC.bucket.test          or nop;
-local adjust_md_level   = FUNC and FUNC.file   and FUNC.file.adjust_md_level or nop;
-local dump              = FUNC and FUNC.file   and FUNC.file.dump            or nop;
-local file_exists       = FUNC and FUNC.file   and FUNC.file.exists          or nop;
-local find_file         = FUNC and FUNC.file   and FUNC.file.find            or nop;
-local get_slug          = FUNC and FUNC.file   and FUNC.file.get_slug        or nop;
-local path_level        = FUNC and FUNC.file   and FUNC.file.path_level      or nop;
-local map_src_fs        = FUNC and FUNC.file   and FUNC.file.map_src_fs      or nop;
-local slurp             = FUNC and FUNC.file   and FUNC.file.slurp           or nop;
-local mark_line_used    = FUNC and FUNC.line   and FUNC.line.mark_used       or nop;
-local was_used_line     = FUNC and FUNC.line   and FUNC.line.was_used        or nop;
-local parse_recipe_line = FUNC and FUNC.recipe and FUNC.recipe.parse_line    or nop;
-local eprint            = FUNC and FUNC.util   and FUNC.util.eprint          or nop;
-local file_search       = FUNC and FUNC.util   and FUNC.util.search          or nop;
-local ignore            = FUNC and FUNC.util   and FUNC.util.ignore          or nop;
-local pprint            = FUNC and FUNC.util   and FUNC.util.pprint          or nop;
-local split             = FUNC and FUNC.util   and FUNC.util.split           or nop;
-local sprint            = FUNC and FUNC.util   and FUNC.util.sprint          or nop;
-local vprint            = FUNC and FUNC.util   and FUNC.util.vprint          or nop;
-local yprint            = FUNC and FUNC.util   and FUNC.util.yprint          or nop;
-local recipe_list       = FUNC and FUNC.util   and FUNC.util.recipe.list     or nop;
-local unpack_yaml_tree  = FUNC and FUNC.yaml   and FUNC.yaml.unpack_tree     or nop;
+-- local function nop(...) return ...; end; -- access to functions
+--
+assert(FUNC, "FUNC does not exist");
+assert(FUNC.bucket, "FUNC.bucket does not exist");                       local BUCKET            = FUNC.bucket;
+assert(FUNC.file, "FUNC.file does not exist");                           local FILE              = FUNC.file;
+assert(FUNC.line, "FUNC.line does not exist");                           local LINE              = FUNC.line;
+assert(FUNC.recipe, "FUNC.recipe does not exist");                       local RECIPE            = FUNC.recipe;
+assert(FUNC.util, "FUNC.util does not exist");                           local UTIL              = FUNC.util;
+assert(FUNC.yaml, "FUNC.yaml does not exist");                           local YAML              = FUNC.yaml;
+assert(BUCKET.add, "BUCKET.add does not exist");                         local bucket_add        = BUCKET.add;
+assert(BUCKET.contents, "BUCKET.contents does not exist");               local bucket_contents   = BUCKET.contents;
+assert(BUCKET.count, "BUCKET.count does not exist");                     local bucket_count      = BUCKET.count;
+assert(BUCKET.dump, "BUCKET.dump does not exist");                       local bucket_dump       = BUCKET.dump;
+assert(BUCKET.exists, "BUCKET.exists does not exist");                   local bucket_exists     = BUCKET.exists;
+assert(BUCKET.fetch, "BUCKET.fetch does not exist");                     local bucket_fetch      = BUCKET.fetch;
+assert(BUCKET.test, "BUCKET.test does not exist");                       local bucket_test       = BUCKET.test;
+assert(FILE.adjust_md_level, "FILE.adjust_md_level does not exist");     local adjust_md_level   = FILE.adjust_md_level;
+assert(FILE.dump, "FILE.dump does not exist");                           local dump              = FILE.dump;
+assert(FILE.exists, "FILE.exists does not exist");                       local file_exist        = FILE.exists;
+assert(FILE.find, "FILE.find does not exist");                           local find_file         = FILE.find;
+assert(FILE.map_src_fs, "FILE.map_src_fs does not exist");               local map_src_fs        = FILE.map_src_fs;
+assert(FILE.path_level, "FILE.path_level does not exist");               local path_level        = FILE.path_level;
+assert(FILE.search, "FILE.search does not exist");                       local file_search       = FILE.search;
+assert(FILE.slurp, "FILE.slurp does not exist");                         local slurp             = FILE.slurp;
+assert(LINE.mark_used, "LINE.mark_used does not exist");                 local mark_line_used    = LINE.mark_used;
+assert(LINE.parse_recipe_line, "LINE.parse_recipe_line does not exist"); local parse_recipe_line = LINE.parse_recipe_line;
+assert(LINE.was_used, "LINE.was_used does not exist");                   local was_used_line     = LINE.was_used;
+assert(RECIPE.list, "RECIPE.list does not exist");                       local recipe_list       = RECIPE.list;
+assert(UTIL.eprint, "UTIL.eprint does not exist");                       local eprint            = UTIL.eprint;
+assert(UTIL.ignore, "UTIL.ignore does not exist");                       local ignore            = UTIL.ignore;
+assert(UTIL.split, "UTIL.split does not exist");                         local split             = UTIL.split;
+assert(UTIL.sprint, "UTIL.sprint does not exist");                       local sprint            = UTIL.sprint;
+assert(UTIL.vprint, "UTIL.vprint does not exist");                       local vprint            = UTIL.vprint;
+assert(UTIL.yprint, "UTIL.yprint does not exist");                       local yprint            = UTIL.yprint;
+assert(YAML.unpack_tree, "YAML.unpack_tree does not exist");             local unpack_yaml_tree  = YAML.unpack_tree;
+
+-- local bucket_add        = FUNC and FUNC.bucket and FUNC.bucket.add           or nop;
+-- local bucket_contents   = FUNC and FUNC.bucket and FUNC.bucket.contents      or nop;
+-- local bucket_count      = FUNC and FUNC.bucket and FUNC.bucket.count         or nop;
+-- local bucket_dump       = FUNC and FUNC.bucket and FUNC.bucket.dump          or nop;
+-- local bucket_exists     = FUNC and FUNC.bucket and FUNC.bucket.exists        or nop;
+-- local bucket_fetch      = FUNC and FUNC.bucket and FUNC.bucket.fetch         or nop;
+-- local bucket_test       = FUNC and FUNC.bucket and FUNC.bucket.test          or nop;
+-- local adjust_md_level   = FUNC and FUNC.file   and FUNC.file.adjust_md_level or nop;
+-- local dump              = FUNC and FUNC.file   and FUNC.file.dump            or nop;
+-- local file_exists       = FUNC and FUNC.file   and FUNC.file.exists          or nop;
+-- local find_file         = FUNC and FUNC.file   and FUNC.file.find            or nop;
+-- local get_slug          = FUNC and FUNC.file   and FUNC.file.get_slug        or nop;
+-- local path_level        = FUNC and FUNC.file   and FUNC.file.path_level      or nop;
+-- local map_src_fs        = FUNC and FUNC.file   and FUNC.file.map_src_fs      or nop;
+-- local slurp             = FUNC and FUNC.file   and FUNC.file.slurp           or nop;
+-- local mark_line_used    = FUNC and FUNC.line   and FUNC.line.mark_used       or nop;
+-- local was_used_line     = FUNC and FUNC.line   and FUNC.line.was_used        or nop;
+-- local parse_recipe_line = FUNC and FUNC.recipe and FUNC.recipe.parse_line    or nop;
+-- local file_search       = FUNC and FUNC.util   and FUNC.util.search          or nop;
+-- local eprint            = FUNC and FUNC.util   and FUNC.util.eprint          or nop;
+-- local ignore            = FUNC and FUNC.util   and FUNC.util.ignore          or nop;
+-- local pprint            = FUNC and FUNC.util   and FUNC.util.pprint          or nop;
+-- local split             = FUNC and FUNC.util   and FUNC.util.split           or nop;
+-- local sprint            = FUNC and FUNC.util   and FUNC.util.sprint          or nop;
+-- local vprint            = FUNC and FUNC.util   and FUNC.util.vprint          or nop;
+-- local yprint            = FUNC and FUNC.util   and FUNC.util.yprint          or nop;
+-- local recipe_list       = FUNC and FUNC.util   and FUNC.util.recipe.list     or nop;
+-- local unpack_yaml_tree  = FUNC and FUNC.yaml   and FUNC.yaml.unpack_tree     or nop;
+-- 
 
 -- ==========================================================
 -- Command line interface: https://lua-cliargs.netlify.com/#/
 
 -- for foo, bar in pairs(cli) do print("cli." .. foo, bar); end;
 
-print("CONFIG.appname is", CONFIG.appname);
+-- print("CONFIG.appname is", CONFIG.appname);
 
 cli:set_name(CONFIG.appname);
--- cli:command(CONFIG.appname);
+cli:command(CONFIG.appname);
 cli:set_description("it creates the .md files we need"                 );
 cli:splat("RECIPE",                 "the recipe to build", "", 1       );
 cli:option("-o, --outfile=OUTFILE", "specify the outfile"              );
