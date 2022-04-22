@@ -13,11 +13,6 @@ load("./bin/config.lua",                     "config");
 load("./bin/?/load.lua",                     "func");
 load("./bin/?/load.lua;./bin/modules/?.lua", "modules");
 
--- local tmp_pkg_path = package.path;
--- package.path  = "./bin/config.lua;./bin/?/load.lua/;./bin/?.lua;" .. package.path;
--- print(package.path); os.exit(0);
-
--- local blerp   = require("blerp"   ); assert(blerp,   "blerp is not loaded, of course" );
 local config  = require("config"  ); -- assert(config,  "config is not loaded"           );
 local func    = require("func"    ); -- assert(func,    "func is not loaded"             );
 local modules = require("modules" ); -- assert(modules, "modules is not loaded"          );
@@ -27,8 +22,6 @@ local lyaml   = require("lyaml"   ); assert(lyaml,   "lyaml is not loaded"      
 local inspect = require("inspect" ); assert(inspect, "inspect is not loaded"          ); -- https://github.com/kikito/inspect.lua
 local cli     = require("cliargs" ); assert(cli,     "cli is not loaded"              ); -- https://github.com/amireh/lua_cliargs
 
--- local function nop(...) return ...; end; -- access to functions
---
 assert(FUNC, "FUNC does not exist");
 assert(FUNC.bucket, "FUNC.bucket does not exist");                       local BUCKET            = FUNC.bucket;
 assert(FUNC.file, "FUNC.file does not exist");                           local FILE              = FUNC.file;
@@ -69,42 +62,8 @@ assert(UTIL.yprint, "UTIL.yprint does not exist");                       local y
 
 assert(YAML.unpack_tree, "YAML.unpack_tree does not exist");             local unpack_yaml_tree  = YAML.unpack_tree;
 
--- local bucket_add        = FUNC and FUNC.bucket and FUNC.bucket.add           or nop;
--- local bucket_contents   = FUNC and FUNC.bucket and FUNC.bucket.contents      or nop;
--- local bucket_count      = FUNC and FUNC.bucket and FUNC.bucket.count         or nop;
--- local bucket_dump       = FUNC and FUNC.bucket and FUNC.bucket.dump          or nop;
--- local bucket_exists     = FUNC and FUNC.bucket and FUNC.bucket.exists        or nop;
--- local bucket_fetch      = FUNC and FUNC.bucket and FUNC.bucket.fetch         or nop;
--- local bucket_test       = FUNC and FUNC.bucket and FUNC.bucket.test          or nop;
--- local adjust_md_level   = FUNC and FUNC.file   and FUNC.file.adjust_md_level or nop;
--- local dump              = FUNC and FUNC.file   and FUNC.file.dump            or nop;
--- local file_exists       = FUNC and FUNC.file   and FUNC.file.exists          or nop;
--- local find_file         = FUNC and FUNC.file   and FUNC.file.find            or nop;
--- local get_slug          = FUNC and FUNC.file   and FUNC.file.get_slug        or nop;
--- local path_level        = FUNC and FUNC.file   and FUNC.file.path_level      or nop;
--- local map_src_fs        = FUNC and FUNC.file   and FUNC.file.map_src_fs      or nop;
--- local slurp             = FUNC and FUNC.file   and FUNC.file.slurp           or nop;
--- local mark_line_used    = FUNC and FUNC.line   and FUNC.line.mark_used       or nop;
--- local was_used_line     = FUNC and FUNC.line   and FUNC.line.was_used        or nop;
--- local parse_recipe_line = FUNC and FUNC.recipe and FUNC.recipe.parse_line    or nop;
--- local file_search       = FUNC and FUNC.util   and FUNC.util.search          or nop;
--- local eprint            = FUNC and FUNC.util   and FUNC.util.eprint          or nop;
--- local ignore            = FUNC and FUNC.util   and FUNC.util.ignore          or nop;
--- local pprint            = FUNC and FUNC.util   and FUNC.util.pprint          or nop;
--- local split             = FUNC and FUNC.util   and FUNC.util.split           or nop;
--- local sprint            = FUNC and FUNC.util   and FUNC.util.sprint          or nop;
--- local vprint            = FUNC and FUNC.util   and FUNC.util.vprint          or nop;
--- local yprint            = FUNC and FUNC.util   and FUNC.util.yprint          or nop;
--- local recipe_list       = FUNC and FUNC.util   and FUNC.util.recipe.list     or nop;
--- local unpack_yaml_tree  = FUNC and FUNC.yaml   and FUNC.yaml.unpack_tree     or nop;
--- 
-
 -- ==========================================================
 -- Command line interface: https://lua-cliargs.netlify.com/#/
-
--- for foo, bar in pairs(cli) do print("cli." .. foo, bar); end;
-
--- print("CONFIG.appname is", CONFIG.appname);
 
 cli:set_name(CONFIG.appname);
 cli:command(CONFIG.appname);
@@ -116,8 +75,6 @@ cli:flag(  "-q, --quiet",           "don't summarize each step", false );
 cli:flag(  "-l, --list",            "list the known recipes",    false );
 cli:flag(  "-y, --debugyaml",       "be verbose about yaml",     false );
 cli:flag(  "-e, --[no-]errors",     "show errors",               true  );
-
--- for foo, bar in pairs(arg) do print("arg." .. foo, bar); end;
 
 local args, err = cli:parse(arg);
 if not args           then cli:print_help(); os.exit(1);                                 end;
@@ -217,6 +174,4 @@ then local err_start = 1;
      then eprint("...");
           eprint(bucket_count("err") - CONFIG.maxerrors .. " errors hidden", "not shown");
      end;
-     -- vprint(string.rep("-", 25), string.rep("-", 20));
-     -- vprint("g.bucket.FILES", inspect(g.FILES));
 end; -- if g.count.ERR
