@@ -21,6 +21,7 @@ assert(FUNC.char,   "FUNC.char does not exist"   ); local CHAR        = FUNC.cha
 assert(FUNC.sheet,  "FUNC.sheet does not exist"  ); local SHEET       = FUNC.sheet;
 assert(FUNC.list,   "FUNC.list does not exist"   ); local LIST        = FUNC.list;
 assert(FUNC.item,   "FUNC.item does not exist"   ); local ITEM        = FUNC.item;
+assert(yamlfuncs.register_format, "FUNC.yaml.register_format does not exist"); local register_format = yamlfuncs.register_format;
 
 -- local file_search      = FUNC.file.search;
 -- local eprint           = util.eprint;
@@ -296,15 +297,15 @@ local function yaml_sheet(yaml_tree)
 end;
 
 register_cat("sheet");
-register_func("sheet",   "abilities",    yaml_sheet_abilities);
-register_func("sheet",   "approaches",   yaml_sheet_approaches);
-register_func("sheet",   "basics",       yaml_sheet_basics);
-register_func("sheet",   "bio",          yaml_sheet_bio);
-register_func("sheet",   "face",         yaml_sheet_face);
-register_func("sheet",   "ideals",       yaml_sheet_ideals);
-register_func("sheet",   "power_words",  yaml_sheet_power_words);
-register_func("sheet",   "sheet",        yaml_sheet);
-register_func("sheet",   "skills",       yaml_sheet_skills);
+register_func("sheet", "abilities",  yaml_sheet_abilities);
+register_func("sheet", "approaches", yaml_sheet_approaches);
+register_func("sheet", "basics",     yaml_sheet_basics);
+register_func("sheet", "bio",        yaml_sheet_bio);
+register_func("sheet", "face",       yaml_sheet_face);
+register_func("sheet", "ideals",     yaml_sheet_ideals);
+register_func("sheet", "power_words",yaml_sheet_power_words);
+register_func("sheet", "sheet",      yaml_sheet);
+register_func("sheet", "skills",     yaml_sheet_skills);
 
 -- SHEET.abilities   = yaml_sheet_abilities;
 -- SHEET.approaches  = yaml_sheet_approaches;
@@ -316,14 +317,22 @@ register_func("sheet",   "skills",       yaml_sheet_skills);
 -- SHEET.sheet       = yaml_sheet;
 -- SHEET.skills      = yaml_sheet_skills;
  
-g.YAML.unknown                 = yaml_error;
-g.YAML["character-sheet"     ] = yaml_sheet;
-g.YAML["item:minor-character"] = yaml_minor_character;
-g.YAML["item:location"       ] = yaml_place;
-g.YAML["item:group"          ] = yaml_group_item;
-g.YAML["item:timeline-entry" ] = yaml_event;
-g.YAML["item:index-entry"    ] = yaml_index_entry;
+register_format("unknown",               yaml_error           );
+register_format("character-sheet",       yaml_sheet           );
+register_format("item:minor-character",  yaml_minor_character );
+register_format("item:location",         yaml_place           );
+register_format("item:group",            yaml_group_item      );
+register_format("item:timeline-entry",   yaml_event           );
+register_format("item:index-entry",      yaml_index_entry     );
 
+-- g.YAML.unknown                 = yaml_error;
+-- g.YAML["character-sheet"     ] = yaml_sheet;
+-- g.YAML["item:minor-character"] = yaml_minor_character;
+-- g.YAML["item:location"       ] = yaml_place;
+-- g.YAML["item:group"          ] = yaml_group_item;
+-- g.YAML["item:timeline-entry" ] = yaml_event;
+-- g.YAML["item:index-entry"    ] = yaml_index_entry;
+ 
 -- start run -----------------------------
 vprint("Loaded: g.FUNC.SHEET", "x-format: character-sheet");
 
