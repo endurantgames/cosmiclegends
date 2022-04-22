@@ -37,6 +37,7 @@ assert(FUNC.line, "FUNC.line does not exist");                           local L
 assert(FUNC.recipe, "FUNC.recipe does not exist");                       local RECIPE            = FUNC.recipe;
 assert(FUNC.util, "FUNC.util does not exist");                           local UTIL              = FUNC.util;
 assert(FUNC.yaml, "FUNC.yaml does not exist");                           local YAML              = FUNC.yaml;
+
 assert(BUCKET.add, "BUCKET.add does not exist");                         local bucket_add        = BUCKET.add;
 assert(BUCKET.contents, "BUCKET.contents does not exist");               local bucket_contents   = BUCKET.contents;
 assert(BUCKET.count, "BUCKET.count does not exist");                     local bucket_count      = BUCKET.count;
@@ -44,6 +45,7 @@ assert(BUCKET.dump, "BUCKET.dump does not exist");                       local b
 assert(BUCKET.exists, "BUCKET.exists does not exist");                   local bucket_exists     = BUCKET.exists;
 assert(BUCKET.fetch, "BUCKET.fetch does not exist");                     local bucket_fetch      = BUCKET.fetch;
 assert(BUCKET.test, "BUCKET.test does not exist");                       local bucket_test       = BUCKET.test;
+
 assert(FILE.adjust_md_level, "FILE.adjust_md_level does not exist");     local adjust_md_level   = FILE.adjust_md_level;
 assert(FILE.dump, "FILE.dump does not exist");                           local dump              = FILE.dump;
 assert(FILE.exists, "FILE.exists does not exist");                       local file_exist        = FILE.exists;
@@ -52,16 +54,20 @@ assert(FILE.map_src_fs, "FILE.map_src_fs does not exist");               local m
 assert(FILE.path_level, "FILE.path_level does not exist");               local path_level        = FILE.path_level;
 assert(FILE.search, "FILE.search does not exist");                       local file_search       = FILE.search;
 assert(FILE.slurp, "FILE.slurp does not exist");                         local slurp             = FILE.slurp;
+
 assert(LINE.mark_used, "LINE.mark_used does not exist");                 local mark_line_used    = LINE.mark_used;
 assert(LINE.parse_recipe_line, "LINE.parse_recipe_line does not exist"); local parse_recipe_line = LINE.parse_recipe_line;
 assert(LINE.was_used, "LINE.was_used does not exist");                   local was_used_line     = LINE.was_used;
+
 assert(RECIPE.list, "RECIPE.list does not exist");                       local recipe_list       = RECIPE.list;
+
 assert(UTIL.eprint, "UTIL.eprint does not exist");                       local eprint            = UTIL.eprint;
 assert(UTIL.ignore, "UTIL.ignore does not exist");                       local ignore            = UTIL.ignore;
 assert(UTIL.split, "UTIL.split does not exist");                         local split             = UTIL.split;
 assert(UTIL.sprint, "UTIL.sprint does not exist");                       local sprint            = UTIL.sprint;
 assert(UTIL.vprint, "UTIL.vprint does not exist");                       local vprint            = UTIL.vprint;
 assert(UTIL.yprint, "UTIL.yprint does not exist");                       local yprint            = UTIL.yprint;
+
 assert(YAML.unpack_tree, "YAML.unpack_tree does not exist");             local unpack_yaml_tree  = YAML.unpack_tree;
 
 -- local bucket_add        = FUNC and FUNC.bucket and FUNC.bucket.add           or nop;

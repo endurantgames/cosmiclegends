@@ -12,16 +12,17 @@ local g      = _G.g     or {};
 -- local LOADED = g.LOADED or {};
 -- package.path = CONFIG.pkg_path;
 
-g.FUNC      = g.FUNC      or {};
-g.LOADED    = g.LOADED    or {};
-g.CONFIG    = g.CONFIG    or {};
-g.FUNC.util = g.FUNC.util or {};
+g.FUNC       = g.FUNC      or {};
+g.LOADED     = g.LOADED    or {};
+g.CONFIG     = g.CONFIG    or {};
+g.FUNC.util  = g.FUNC.util or {};
+local LOADED = g.LOADED;
 
 assert(g.FUNC,          "g.FUNC does not exist"          ); local FUNC   = g.FUNC;
 assert(g.CONFIG,        "g.CONFIG does not exist"        ); local CONFIG = g.CONFIG;
--- assert(FUNC.util,    "FUNC.util does not exist"       ); local UTIL   = FUNC.util;
 assert(CONFIG.pkg_path, "CONFIG.pkg_path does not exist" ); package.path = CONFIG.pkg_path;
 
+-- assert(FUNC.util,    "FUNC.util does not exist"       ); local UTIL   = FUNC.util;
 print("------------------------------- load.lua ----------------------");
 
 -- == meta (registration) functions ===============================================
@@ -36,12 +37,13 @@ local function register_cat(name, quiet)
 end;
 
 local function mark_loaded(cat) LOADED[cat] = true; end;
+
 local function load_funcs(cat)
   print("Requiring: " .. cat);
   if not LOADED[cat]
-  then mark_loaded(cat);
-       require(cat);
-  else print("not loading " .. cat .. " twice.");
+  then   mark_loaded(cat);
+         require(cat);
+  else   print("not loading " .. cat .. " twice.");
   end;
 end;
 
@@ -70,10 +72,7 @@ local function register_func(cat, name, func_func)
   end;
 
   local  func_cat = FUNC[cat];
-  if not func_cat 
-  then   register_cat(cat); 
-         func_cat = FUNC[cat]; 
-  end;
+  if not func_cat then register_cat(cat); func_cat = FUNC[cat]; end;
   print("Registering " .. string.upper(cat) .. " func", name);
   func_cat[name] = func_func;
 end;
@@ -101,23 +100,19 @@ dump_function_cats();
 register_func("meta", "catlist", dump_function_cats);
 
 local function load_funcs(cat) 
-  if not LOADED[cat]
-  then   LOADED[cat] = true;
-         require(cat);
-  else   print("not loading " .. cat .. " twice.");
-  end;
+  if not LOADED[cat] then LOADED[cat] = true; require(cat); else print("not loading "..cat.." twice."); end;
 end;
 
 register_func("meta", "load", load_funcs);
 
 print("--------------------- loading functions ----------------------");
 
-print("loading util funcs");   load_funcs( "util"   );
-print("loading bucket funcs"); load_funcs( "bucket" );
-print("loading line funcs");   load_funcs( "line"   );
-print("loading file funcs");   load_funcs( "file"   );
-print("loading yaml funcs");   load_funcs( "yaml"   );
-print("loading recipe funcs"); load_funcs( "recipe" );
+print("loading util funcs"   ); load_funcs( "util"   );
+print("loading bucket funcs" ); load_funcs( "bucket" );
+print("loading line funcs"   ); load_funcs( "line"   );
+print("loading file funcs"   ); load_funcs( "file"   );
+print("loading yaml funcs"   ); load_funcs( "yaml"   );
+print("loading recipe funcs" ); load_funcs( "recipe" );
 
 print("-------------------- /loading functions ----------------------");
 

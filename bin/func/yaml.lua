@@ -273,7 +273,7 @@ register_yaml_func(   "common",          yaml_common           );
 register_yaml_func(   "error",           yaml_error            );
 register_yaml_func(   "get_alpha_keys",  get_alpha_keys        );
 register_yaml_func(   "get_sorted_keys", get_sorted_keys       );
-register_yaml_func(   "unpack_tree",     unpack_tree           );
+register_yaml_func(   "unpack_tree",     unpack_yaml_tree      );
 register_yaml_func(   "slurp",           slurp_yaml            );
 register_func("file", "slurp_yaml",      slurp_yaml            );
 

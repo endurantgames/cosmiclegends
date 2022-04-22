@@ -100,6 +100,11 @@ end;
      -- catlist();
 -- end;
 -- 
+assert(g.FUNC, "g.FUNC does not exist");                         local FUNC          = g.FUNC;
+assert(FUNC.meta, "FUNC.meta does not exist");                   local META          = FUNC.meta;
+assert(META.register_cat,  "META.register_cat does not exist");  local register_cat  = META.register_cat;
+assert(META.register_func, "META.register_func does not exist"); local register_func = META.register_func;
+
 register_cat("util");
 
 -- if   FUNC and FUNC.meta and FUNC.meta.register_func
