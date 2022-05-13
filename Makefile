@@ -28,15 +28,15 @@ MMD       = $(BINDIR)/make-markdown.lua
 MMD_FLAGS = -v # verbose
 # MMD_FLAGS = -q # quiet
 # MMD_FLAGS =
-ZIP       = /usr/bin/zip
-ZIP_OUT   = clotu.zip
+# ZIP       = /usr/bin/zip
+# ZIP_OUT   = clotu.zip
 # ZIP_FLAGS = -r
-ZIP_FLAGS = -u
-ZIP_FILES = fari/clotu-character.json fari/clotu-scene.json fari/clotu-cards.json
+# ZIP_FLAGS = -u
+# ZIP_FILES = fari/clotu-character.json fari/clotu-scene.json fari/clotu-cards.json
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
-BACKUPS   = --backup=numbered
+# BACKUPS   = --backup=numbered
 # BACKUPS = -b
 # BACKUPS =
 
@@ -54,8 +54,8 @@ PROJ_RECIPE   = $(PROJ)
 PROJ_SRC      = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT      = $(OUTDIR)/Cosmic-Legends.pdf
 HTML_OUT      = $(OUTDIR)/$(PROJ).html
-ELK_HTML_OUT  = $(OUTDIR)/$(ELK).html
-ELK_PDF_OUT   = $(OUTDIR)/$(CLOUD_ELK).pdf
+# ELK_HTML_OUT  = $(OUTDIR)/$(ELK).html
+# ELK_PDF_OUT   = $(OUTDIR)/$(CLOUD_ELK).pdf
 WHATSWHAT_OUT = $(OUTDIR)/$(PDFTITLE)-whats-what.pdf
 
 ORIGIN_RECIPE      = origin
@@ -97,14 +97,14 @@ SHEET_CSS       = --css=$(STYLEDIR)/style.css
 SHEET_ALT_CSS   = --css=$(STYLEDIR)/alt-sheet.css
 SHEET_COLOR_CSS = --css=$(STYLEDIR)/color-sheet.css
 LETTER_CSS      = --css=$(STYLEDIR)/letter.css
-ELK_CSS         =   --css=$(ELKDIR)/style/elk.css
+# ELK_CSS         =   --css=$(ELKDIR)/style/elk.css
 TEAMSHEET_CSS   = --css=$(STYLEDIR)/team-sheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS              = -t html5 --standalone --resource-path=$(IMGDIR)
 PROJ_FLAGS         = $(FLAGS) $(PROJ_CSS)        $(PRINCEFLAGS)
-ELK_FLAGS          = $(FLAGS) $(ELK_CSS)         $(PRINCEFLAGS_ELK)
+# ELK_FLAGS          = $(FLAGS) $(ELK_CSS)         $(PRINCEFLAGS_ELK)
 PREGEN_FLAGS       = $(FLAGS) $(PREGEN_CSS)      $(PRINCEFLAGS_PREGEN)
 ORIGIN_FLAGS       = $(FLAGS) $(ORIGIN_CSS)      $(PRINCEFLAGS_ORIGIN)
 LETTER_FLAGS       = $(FLAGS) $(LETTER_CSS)      $(PRINCEFLAGS_LETTER)
@@ -136,7 +136,7 @@ PRINCEFLAGS_SHEET_COLOR   =
 # PRINCEFLAGS_ORIGIN      =
 #
 ALLSHEETS_PAGENAME   = sheet
-ELK_PAGENAME         = elk_page
+# ELK_PAGENAME         = elk_page
 LETTER_PAGENAME      = letter
 ORIGIN_PAGENAME      = origin
 PAGENAME             = page
@@ -380,11 +380,11 @@ pregen-markdown:
 	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
 	@       $(MAKE_MD) $(PREGEN_RECIPE)
 
-elk-markdown:
-	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
-	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
-	@       $(MAKE_MD) $(ELK_RECIPE)
-
+# elk-markdown:
+# 	@ echo '$(ltmagn)Collecting pregen markdown.$(resetc)'
+# 	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
+# 	@       $(MAKE_MD) $(ELK_RECIPE)
+ 
 pregen: pregen-markdown
 	@ echo '$(ltblue)Making Pregens.$(resetc)'
 	@ echo "$(ltredd)Make sure the PDF file isn't open.$(resetc)"
@@ -406,13 +406,13 @@ team-sheet:   team-sheet-markdown
 	@       $(PDFINFO) $(TEAMSHEET_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
-fari-zip:
-	@ echo "$(ltgreen)Making Fari zip file $(ZIP_OUT) from $(ZIP_FILES).$(resetc)"
-	@       $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
-	@ echo "$(ltgreen)$(ZIP_OUT) created!$(resetc)"
+# fari-zip:
+# 	@ echo "$(ltgreen)Making Fari zip file $(ZIP_OUT) from $(ZIP_FILES).$(resetc)"
+# 	@       $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
+# 	@ echo "$(ltgreen)$(ZIP_OUT) created!$(resetc)"
 
-fari-zip-tmp:
-	@ $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
+# fari-zip-tmp:
+#	@ $(ZIP) $(ZIP_FLAGS) $(ZIP_OUT) $(ZIP_FILES)
 
 series-sheet: series-sheet-markdown
 all-sheets:   all-sheets-markdown
@@ -502,8 +502,8 @@ secret-origins: origin
 secret-origin:  origin
 what:           what-pdf
 team:           team-sheet
-zip:            fari-zip
-fari:           fari-zip
+# zip:            fari-zip
+# fari:           fari-zip
 # vi:             edit
 # vim:            edit
 # yaml:           yaml-lint
