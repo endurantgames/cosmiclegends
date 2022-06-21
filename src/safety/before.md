@@ -52,6 +52,10 @@ Instead, we urge you to think **not** in terms of *following the Comics Code*
 but instead of *how your Series is going to deliberately break it*.
 To us, that's the best way to repurpose and subvert this McCarthyistic
 relic that lasted into the 21st Century at the major comics publishers.
+
+You can read more about the Comics Code on the Comic Book Legal Defense Fund
+website, at [cbldf.org/the-comics-code/](http://cbldf.org/the-comics-code/){.external}.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### General Questions
