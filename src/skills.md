@@ -35,8 +35,8 @@ determined by your class, which may also give additional skills.
 ## Using Skills
 
 When you make a roll that could be affected by one of your Skills,
-you add <!-- a number of dice to the dice pool equal to the current Volume.
---> two dice to the dice pool.
+you add <!-- a number of dice to the dice pool equal to the current Volume.  --> 
+two dice to the dice pool.
 
 If you don't have a Skill, you don't add any extra dice to the pool.
 
@@ -60,7 +60,7 @@ Academic
 :   You've spent many years in education,
     either as an instructor or just a long-time student -- or 
     both! -- you can decide. Optionally, you can choose one or more fields
-    studies as specialties; if you do, add 1 die to any roll related to those
+    of study as specialties; if you do, add 1 die to any roll related to those
     specialties.
 
     - Roll [Academic]{.action}    to dispute widely accepted facts.
