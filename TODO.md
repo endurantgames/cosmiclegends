@@ -294,3 +294,6 @@ Crossover Abilities
 | Totem       | ?         | ?           | ?                                   | ?          | ?      | ?     | ?         | ?        | ?   | ?      | ?                      | ?       | ?                                           | ?       | ?       | ?                              | ?               | --    | ?     | ?        | ?                    | ?           | ?   |
 | Twins       | ?         | ?           | ?                                   | ?          | ?      | ?     | ?         | ?        | ?   | ?      | ?                      | ?       | ?                                           | ?       | ?       | ?                              | ?               | ?     | --    | ?        | ?                    | ?           | ?   |
 | Wheelman    | ?         | ?           | ?                                   | ?          | ?      | ?     | ?         | ?        | ?   | ?      | ?                      | ?       | ?                                           | ?       | ?       | ?                              | ?               | ?     | ?     | --       | ?                    | ?           | ?   |
+
+Wheelman can have a little crossover ability with Hellspawn called "Highway to Hell", as a treat.
+
