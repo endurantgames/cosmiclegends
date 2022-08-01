@@ -45,23 +45,28 @@
     - gender: female
     - bio: Sonic-powered criminal and former girlfriend of Jeri North.
     - active: true
+    - aka: needed
   - Glytch:
     - gender: trans
     - active: true
     - bio: Former Technopolis Academy student; technopath composed of digital energies.
+    - aka: needed
   - Gunlock:
     - gender: female
     - bio: Wielder of a cursed pistol and enemy of Jack Dee.
     - active: true
+    - aka: needed
   - The Hornette:
     - gender: trans
     - expelled: true
     - cf: Vespa 2.0
     - active: false
+    - aka: Lin Montgomery
   - Igneia:
     - gender: female
     - bio: Younger sister of Obsidius Rex and wielder of volcanic flame.
     - active: true
+    - aka: need full name
   - Magnus Merlyn Malign:
     - aka: Marquis Malign
     - gender: male
@@ -72,25 +77,30 @@
     - resigned: true
     - gender: female
     - active: false
+    - aka: need full name
   - "Phineas Pann, Dr.":
     - gender: male
     - deceased: true
     - bio: Criminal scientist and inventor; arch-enemy of Vespa and co-founder of N.O.V.A. Labs. Killed by the Verdict.
     - active: false
+    - aka: Doctor Pann
   - "Phineas Pann, Junior":
     - gender: male
     - bio: "Son of the first Phineas Pann and a criminal genius in his own right."
     - active: true
+    - aka: Junior
   - Sequana:
     - gender: female
     - bio: "A former Champion of the Tuatha Dé Danann with all the powers of Brigantia; current leader of Villains, Inc."
     - team_leader: true
     - active: true
+    - aka: need full name
   - Sinhammer:
     - gender: male
     - deceased: true
     - bio: "Enemy of the Grailknight and wielder of the Mallet of Sucellus. Killed by Zaar."
     - active: false
+    - aka: needed
   - Sreng:
     - gender: male
     - bio: "Hero of the Firbolgs and enemy of the Tuatha Dé Danann; wielder of a magical iron mace."
@@ -101,8 +111,10 @@
     - bio: "Energy-refractor with extensive control over holograms and illusions. Father of Kaleidosope Kidd, a graduate of Technopolis Academy."
     - resigned: true
     - active: false
+    - aka: need full name
   - Xana Mega:
     - gender: female
     - resigned: true
     - active: false
+    - aka: The Faerie Queen, Queen of the Fey
 
