@@ -4,7 +4,9 @@ out/pages/*png
 build
 art/jeshields/*png
 art/jeshields/orig/*png
-
+*.pl
+*.lua
+*.sh
 *.swo
 html2pdf629-0.html
 clu-out
