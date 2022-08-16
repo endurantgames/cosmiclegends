@@ -98,11 +98,13 @@
   --color-mystery:   orange;
   --color-suspense:  purple;
 
-  --color-stunt             : blue                      ;
-  --color-toc-white         : #F0F0F0                   ;
-  --color-yes               : green                     ;
-  --color-goal-smash        : #000080; --color-goal-outwit : #808000;
-  --color-goal-allay        : #008000; --color-goal-rescue : #800000;
+  --color-stunt             : blue;
+  --color-toc-white         : #F0F0F0;
+  --color-yes               : green;
+  --color-goal-smash        : #000080; 
+  --color-goal-outwit       : #808000;
+  --color-goal-allay        : #008000; 
+  --color-goal-rescue       : #800000;
 
   /* Default Box Styles ================================================ */
   --border-radius       : 6pt 0;
